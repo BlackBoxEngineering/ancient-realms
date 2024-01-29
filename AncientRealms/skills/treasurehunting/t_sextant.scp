@@ -1,0 +1,29 @@
+[TYPEDEF t_sextant]
+ON=@DClick
+	IF <TAG.TargetPosition>
+		SRC.SYSMESSAGE @55,,1 This sextant has been set to coords <TAG.TargetPosition>
+		If !<SRC.TAG.ArrowQuest>
+			SERV.NEWITEM=i_gold
+			LOCAL.TempUID=<NEW.UID>
+			NEW.P=<TAG.TargetPosition>
+			SRC.SYSMESSAGE @55,,1 You turn on the Sextant set to coords <TAG.TargetPosition>
+			SRC.SYSMESSAGE @64,,1 Target is located in <SERV.UID.<LOCAL.TempUID>.REGION.NAME>
+			SERV.UID.<LOCAL.TempUID>.REMOVE
+			SRC.TAG.ArrowQuest=1
+			SRC.ARROWQUEST <TAG.TargetPosition>
+			RETURN 1
+		ELSE
+			SRC.SYSMESSAGE @55,,1 You turn off the sextant
+			SRC.TAG.ArrowQuest=
+			SRC.ARROWQUEST=0
+			RETURN 0
+		ENDIF
+	ELSE
+		SRC.SYSMESSAGE @55,,1 This sextant is not set.
+		NAME=Sextant
+		SRC.TAG.ArrowQuest=
+		SRC.ARROWQUEST=0
+		RETURN 0
+	ENDIF
+	
+[EOF]

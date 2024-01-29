@@ -1,0 +1,145 @@
+[CHARDEF 01083]
+DEFNAME=c_h_warlock
+NAME=#NAMES_HUMANMALE the Warlock
+ID=C_MAN
+DAM=40,55
+ARMOR=15,20
+//ALIGNMENT=EVIL
+CAN=MT_EQUIP|MT_USEHANDS|MT_WALK|MT_MALE
+TSPEECH=spk_human_prime
+TSPEECH=spk_human_default
+
+ON=@Create
+	COLOR=0599
+	STR={80 120}
+	DEX={81 95}
+	INT={80 100}
+	MAGICRESISTANCE={90.0 95.0}
+	TACTICS={70.0 90.0}
+	WRESTLING={40.0 55.0}
+	MAGERY={95.0 100.0}
+	NPC=BRAIN_MONSTER
+	KARMA={-50 -150}
+	FAME={50 100}
+	ITEMNEWBIE=i_hair_long
+	COLOR=0
+	ITEMNEWBIE=i_spellbook
+	//ADDSPELL=
+	MORE1=0ffffffff
+	MORE2=0ffffffff
+
+ON=@NPCRestock
+	ITEM=i_robe
+	COLOR=1
+	ITEM=i_hat_wizards
+	COLOR=1
+	ITEM=i_boots_calf
+	COLOR=1
+	ITEM=random_jewel
+	ITEM=random_upper_scroll
+	ITEM=random_scroll
+	CONTAINER=i_bag
+	ITEM=i_reag_black_pearl,{ 1 15 }
+	ITEM=i_reag_blood_moss,{ 1 15 }
+	ITEM=i_reag_garlic,{ 1 15 }
+	ITEM=i_reag_ginseng,{ 1 15 }
+	ITEM=i_reag_mandrake_root,{ 1 15 }
+	ITEM=i_reag_nightshade,{ 1 15 }
+	ITEM=i_reag_sulfur_ash,{ 1 15 }
+	ITEM=i_reag_spider_silk,{ 1 15 }
+	CATEGORY=Civilized
+	SUBSECTION=Witches (Evil)
+	DESCRIPTION=Warlock
+
+[CHARDEF 01084]
+DEFNAME=c_h_witch
+NAME=#NAMES_HUMANFEMALE the Witch
+ID=C_WOMAN
+DAM=45,50
+ARMOR=15,20
+CAN=MT_EQUIP|MT_USEHANDS|MT_WALK|MT_FEMALE
+TSPEECH=spk_human_prime
+TSPEECH=spk_human_default
+
+ON=@Create
+	COLOR=0599
+	STR={70 90}
+	DEX={81 95}
+	INT={80 100}
+	//ALIGNMENT=EVIL
+	TACTICS={70.0 90.0}
+	WRESTLING={40.0 55.0}
+	MACEFIGHTING={55.0 75.0}
+	MAGERY={65.0 85.0}
+	MAGICRESISTANCE={80.0 90.0}
+	NPC=BRAIN_HUMAN
+	KARMA={-50 -150}
+	FAME={50 100}
+	ITEMNEWBIE=i_hair_long
+	COLOR=color_gray_dk
+
+ON=@NPCRestock
+	ITEM=i_shirt_fancy
+	COLOR=0
+	ITEM=i_skirt_long
+	COLOR=1
+	ITEM=i_hat_wizards
+	COLOR=1
+	ITEM=i_boots_calf
+	COLOR=1
+	ITEM=random_potion
+	ITEM=random_potion
+	ITEM=i_reag_BATWING,{ 1 5 }
+	ITEM=i_reag_eye_of_newt,{ 1 5 }
+	ITEM=i_staff_gnarled
+	ITEM=i_gold,{50 80}
+	CATEGORY=Civilized
+	SUBSECTION=Witches (Evil)
+	DESCRIPTION=Witch
+
+[CHARDEF 01085]
+DEFNAME=c_h_witch_high
+NAME=#NAMES_HUMANFEMALE the High Witch
+ID=C_WOMAN
+CAN=MT_EQUIP|MT_USEHANDS|MT_WALK|MT_FEMALE
+DAM=25,50
+ARMOR=15,20
+TSPEECH=spk_human_prime
+TSPEECH=spk_human_default
+
+ON=@Create
+	COLOR=0599
+	//ALIGNMENT=EVIL
+	STR={90 110}
+	DEX={81 95}
+	INT={80 100}
+	MAGICRESISTANCE={90.0 95.0}
+	TACTICS={80.0 90.0}
+	WRESTLING={40.0 55.0}
+	MACEFIGHTING={75.0 95.0}
+	MAGERY={75.0 95.0}
+	NPC=BRAIN_HUMAN
+	KARMA={-50 -150}
+	FAME={50 100}
+	ITEMNEWBIE=i_hair_long
+	COLOR=color_gray_dk
+
+ON=@NPCRestock
+	ITEM=i_dress_plain
+	COLOR=1
+	ITEM=i_hat_wizards
+	COLOR=1
+	ITEM=i_boots_calf
+	COLOR=1
+	ITEM=random_potion
+	ITEM=random_potion
+	ITEM=i_reag_BATWING
+	ITEM=i_reag_BATWING
+	ITEM=i_reag_eye_of_newt,{ 1 5 }
+	ITEM=I_STAFF_BLACK
+	ITEM=i_gold,{100 200}
+	CATEGORY=Civilized
+	SUBSECTION=Witches (Evil)
+	DESCRIPTION=High Witch
+
+[EOF]

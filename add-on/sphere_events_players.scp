@@ -1,0 +1,512 @@
+[EVENTS e_PlayerGenericEvent]
+
+ON=@LOGIN
+	IF <TAG.PlayerNeverLogged>
+		TAG.PlayerNeverLogged=
+		TAG.FiledLocation=
+		TAG.PlayerGetsStarterPack=1
+		IF !<isRed>
+			GO 1287,2374,20
+			HOME=1287,2374,20
+			SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <TAG.PlayerNumber>>_HOME=1287,2374,20
+			SDIALOG d_OldPlayerStartBlue
+		ELSE
+			GO 2971,3402,35
+			HOME=2971,3402,35
+			SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <TAG.PlayerNumber>>_HOME=2971,3402,35
+			SDIALOG d_OldPlayerStartRed		
+		ENDIF
+		SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <TAG.PlayerNumber>>_STATUS=HAS LOGGED
+		SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.CurrentAmount=<EVAL <SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.CurrentAmount> - 1 >
+	ELSE
+		IF !<TAG.Invictus>
+			TAG.Invictus=1
+			DIALOG d_NewPlayerStart
+		ENDIF
+		IF <TAG.LastAtTheseCoords>
+			GO <TAG.LastAtTheseCoords>
+		ENDIF
+		DIALOG d_PlayerStartNews
+	ENDIF
+	IF <GM>
+		DIALOG d_AdminUpDate
+	ENDIF
+	IF <UID>==058137
+		DIALOG d_ItzelUpDate
+	ENDIF
+	TAG.Stored=
+	IF (<FINDID.i_food_and_drink_sys_mem>)
+		FINDID.i_food_and_drink_sys_mem.TIMER=60
+	ELSE
+		f_alimentation
+	ENDIF
+	ImagesToPlayersMemory
+	if (<ddef0.scp.hunger_on_off>)
+		if (<src.findid.i_food_and_drink_sys_mem>)
+			src.findid.i_food_and_drink_sys_mem.timer=60
+		else
+			src.f_alimentation
+		endif
+		return 0
+	endif
+	
+ON=@LOGOUT
+	IF (<SRC.REGION>==<f_ArenaControlRegionUid <EVAL TS_ControlNuke>>)
+		SRC.SAY @33 LOGOUT ITEMS WIPED!!
+		SRC.BackPackToBin
+		SERV.LOG <SRC.NAME> Logged out of the Event Area Items have been Items Wiped <SRC.P>
+		SRC.TAG.CTSTeam=
+	ENDIF
+	IF (<src.findid.i_food_and_drink_sys_mem>)
+		IF (<src.findid.i_food_and_drink_sys_mem.timer> >= 0)
+			src.findid.i_food_and_drink_sys_mem.timer=-1
+		ENDIF
+	ENDIF
+	TAG.LastAtTheseCoords=<P>
+	GO <TAG.FiledLocation>
+	TAG.Stored=1
+	if (<src.findid.i_food_and_drink_sys_mem>)
+		if (<src.findid.i_food_and_drink_sys_mem.timer> >= 0)
+			src.findid.i_food_and_drink_sys_mem.timer=-1
+		endif
+		return 0
+	endif
+
+on=@attack
+	return <src.trigger @Attacked,<def.tat_as_argo>,<uid>>
+
+on=@userquestbutton
+	openquestlog
+
+on=@userguildbutton
+	src.guildmenu
+	return 1
+
+on=@UserVirtue
+	if <def.scp.VirtueSystem> == 0
+	return 1
+	endif
+	if (<argn1>==1)
+		for 0 8  // if the player doesn't have max status for first level of virtue
+			if !(<src.tag0.virtuemax_<dlocal._for>>)
+			src.tag0.virtuemax_<dlocal._for>=4000  // give him the cap.
+			endif
+		endfor
+	argo.sdialog d_virtue_main
+	else
+		if (<argn1>==112)  /// invoke valor virtue (coded for test.)
+		src.targetf f_valor_target
+		return 1
+		elif <argn1> == 107
+		f_start_honor
+		return 1
+		elif <argn1> == 105
+		sysmessage @,,2 1053001 // This virtue is not activated through the virtue menu.
+		return 1
+		endif
+		 // TODO : Add virtue systems and check them here if is clicked.
+	   //and do not forget to put return 1 for each virtue check.
+	src.sysmessage @03c1,6,1,1 This virtue is not active.
+	endif
+
+on=@skillwait
+	if (<flags>&statf_freeze) || (<flags>&statf_stone)
+	src.sysmessage <def.scp.skill_cantuse>
+	return 1
+	endif
+	if <flags>&statf_dead
+	src.sysmessage <def.scp.skill_youaredead>
+	return 1
+	endif
+	if <def.scp.SkillWaitingTimes> == 1
+		if <ctag0.skillrecovery> > <serv.time>
+		src.sysmessage <def.scp.skill_mustwait>
+		return 1
+		endif
+	endif
+
+// Context Menu Display
+on=@contextmenurequest
+	if <uid> == <src.uid>
+		if <guild>
+		src.addcontextentry 101,6117
+		else
+		src.addcontextentry 101,6117,01
+		endif
+	src.addcontextentry 102,6119
+	else
+	src.addcontextentry 200,6121
+	endif
+	return 0
+
+// Context Menu Functions
+on=@contextmenuselect
+	if <uid> == <src.uid>
+		if <argn> == 101
+		guildmenu
+		elif <argn> == 102
+		openquestlog
+		endif
+	else
+		if <argn> == 200
+		src.face <uid>
+		endif
+	endif
+
+// Cancel use of Book of Arms
+// Until we script it and finish it!
+on=@userspecialmove
+return 1
+
+// OSI Calculation + Stats Bonus
+on=@userstats
+	if <def.scp.Followers> == 1
+		if <isgm>
+		maxfollower = 255
+		else
+		maxfollower = <def.scp.MaxFollowers>
+		endif
+	endif
+
+// Followers control
+on=@itembuy
+if <def.scp.followers> == 1
+	if <act.type> == t_figurine
+	local.slots = <qval <serv.chardef.<act.tdata3>.tag0.control.slots> ? <serv.chardef.<act.tdata3>.tag0.control.slots> : 1>
+		if <eval <src.curfollower>+(<local.slots>*<argn>)> > <src.maxfollower>
+		src.sysmessage @,,2 1049612,<serv.chardef.<act.tdata3>.name> // ~1_NAME~ remained in the stables because you have too many followers.
+		src.newgold <local.totalcost>
+		return 1
+		endif
+	src.curfollower += <eval <local.slots>*<argn>>
+	endif
+endif
+
+// Ethereal Mounts
+on=@dismount
+if <argo.tag0.EthMount>
+serv.newitem <argo.tag.EthMount>
+new.cont = <src.uid>
+argo.remove
+return 1
+endif
+
+// Crafting System
+on=@skillmenu
+if <def.scp.CraftingSystem> == 0
+return 0
+endif
+if <args>==sm_blacksmith
+	if <def0.scp.NewCrafting_Blacksmithing> == 1
+	craftskill Blacksmithing
+	return 1
+	endif
+elif <args>==sm_alchemy
+	if <def0.scp.NewCrafting_Alchemy> == 1
+	craftskill Alchemy
+	return 1
+	endif
+elif <args>==sm_bowcraft
+	if <def0.scp.NewCrafting_Bowcraft> == 1
+	craftskill Bowcraft
+	return 1
+	endif
+elif <args>==sm_cartography
+	if <def0.scp.NewCrafting_Cartography> == 1
+	craftskill Cartography
+	return 1
+	endif
+elif <args>==sm_carpentry
+	if <def0.scp.NewCrafting_Carpentry> == 1
+	craftskill Carpentry
+	return 1
+	endif
+elif (<args>==sm_tailor_leather) || (<args>==sm_tailor_cloth)
+	if <def0.scp.NewCrafting_Tailoring> == 1
+	craftskill Tailoring
+	return 1
+	endif
+elif <args>==sm_tinker
+	if <def0.scp.NewCrafting_Tinkering> == 1
+	craftskill Tinkering
+	return 1
+	endif
+elif <args>==sm_inscription
+	if <def0.scp.NewCrafting_Inscription> == 1
+	craftskill Inscription
+	return 1
+	endif
+endif
+return 0
+
+// Fishing coast lines
+on=@RegionResourceFound
+if <src.action> == skill_fishing
+	if <def.scp.Fishing_CoastLines> == 1
+		if <serv.map(<src.targp.x>,<src.targp.y>,<src.targp.m>).type> == t_water
+		local.newbit = <serv.regiontype.r_water.resources.<eval <serv.regiontype.r_water.calcmemberindex <src.uid>>+1>.key>
+		argo.more1 = <local.newbit>
+		argo.amount = <r<serv.regionresource.<argo.more1>.amount>>
+		endif
+	endif
+endif
+
+// Chivalry Tithing Points
+on=@spellselect
+if (<argn1> > 199) && (<argn1> < 211)
+	if <tithing> < <def.scp.spell.<argn1>.tithing>
+	sysmessage <def.scp.magery_notithing>
+	return 1
+	endif
+endif
+
+// Proper Statlock Fix
+on=@statchange
+local.statsum = <qval <tag0.override.statsum> ? <tag0.override.statsum> : <serv.skillclass.0.statsum>>
+local.stats = <eval <ostr>+<odex>+<oint>>
+if <local.stats> == <local.statsum>
+	if <statlock[<argn1>]> == lock_locked
+	return 1
+	endif
+	if <statlock[<argn1>]> == lock_up
+		for 0 2
+			if <local._for> != <argn1>
+				if <statlock[<dlocal._for>]> == lock_down
+					if (<eval <o<def.stat_<dlocal._for>_name>>-1> > 0)
+					o<def.stat_<dlocal._for>_name> = <eval <o<def.stat_<dlocal._for>_name>>-1>
+					return 0
+					endif
+				return 1
+				endif
+			endif
+		endfor
+	return 1
+	endif
+endif
+
+// Quest System
+on=@skillmakeitem
+if <tag0.quests>
+	for x <tag0.quests>
+		for y <def.quest_<dtag0.quest.<local._for>.id>_objective_amount>
+			if <def.quest_<dtag0.quest.<local._for>.id>_objective_<dlocal.y>_type> == questobj_craft
+				if <argo.id> == <def.quest_<dtag0.quest.<local._for>.id>_objective_<dlocal.y>_craft>
+				f_quest_craftitem <argo.uid>,<local.x>,<local.y>
+				endif
+			endif
+		endfor
+	endfor
+endif
+
+ON=@Death
+	LOCAL.LastExperienceValue=<EVAL <TAG0.LastExpValue>/<ATTACKER>>
+	FOR X 0 <ATTACKER>
+		f_GainExperience <ATTACKER.<EVAL <LOCAL.X>>>,<EVAL <LOCAL.LastExperienceValue>>
+	ENDFOR
+	IF <UID>==<ATTACKER.LAST>
+		SYSMESSAGE @0029,,1 You loose experience for killing yourself.
+		f_GainExperience <REF1.UID>,<EVAL (<LOCAL.LastExperienceValue>*2)*-1>
+	ENDIF
+	IF (<FINDID.i_invictus_poison_weak>||<FINDID.i_invictus_poison_medium>||<FINDID.i_invictus_poison_strong>||<FINDID.i_invictus_poison_deadly>)
+		f_RemoveAllPoisons
+	ENDIF
+	REF1=<SERV.UID.<ATTACKER.LAST>>
+	TAG.LastKilledByUID=<REF1.UID>
+	REF1.TAG.LastKilledUID=<UID>
+	// Death Robe Fix
+	if <findlayer.22>
+	tag.robe=<findlayer.22.uid>
+		if <findlayer.3>
+		tag.feet=<findlayer.3.uid>
+		endif
+	endif
+	RETURN 0
+
+on=@deathcorpse
+	if <tag0.robe>
+	uid.<tag.robe>.z = 3
+		if <tag0.feet>
+		uid.<tag.feet>.z = 8
+		endif
+	tag.robe=
+	tag.feet=
+	argo.update
+	endif
+
+ON=@ITEMDCLICK
+IF (<DDEF0.SCP.HUNGER_ON_OFF>)
+	IF (!<SRC.FINDID.i_food_and_drink_sys_mem>)
+		SRC.F_ALIMENTATION
+	ENDIF
+	IF (<ACT.TYPE> == T_FOOD) || (<ACT.TYPE> == t_fruit)
+		IF (<SRC.FOOD> >= <DDEF0.SCP.MAXFOOD>)
+			SRC.SYSMESSAGELOC -1,1042971,You're satiated.
+			RETURN 1
+		ELSEIF (<SRC.RESTEST 1 <ACT.BASEID>>)
+			SRC.CONSUME 1 <ACT.BASEID>
+			IF (<SRC.FOOD> < <DDEF0.SCP.MAXFOOD>)
+				SRC.FOOD_INCREASE
+				RETURN 0
+			ELSE
+				SRC.SYSMESSAGELOC -1,1042971,You're satiated.
+				RETURN 1	
+			ENDIF
+		ELSE
+			SRC.SYSMESSAGELOC -1,1042971,You must have it in your pack.
+			RETURN 1
+		ENDIF
+	ELSEIF (<ACT.TYPE> == t_booze) || (<ACT.TYPE> == t_drink) || (<ACT.TYPE> == t_water_wash)
+		IF (<SRC.DTAG0.DRINK> >= <DDEF0.SCP.MAXDRINK>)
+			SRC.SYSMESSAGELOC -1,1042971,You aren't thirsty.
+			RETURN 1
+		ELSEIF (<SRC.RESTEST 1 <ACT.BASEID>>)
+			SRC.CONSUME 1 <ACT.BASEID>
+			IF (<SRC.DTAG0.DRINK> < 10)
+				SRC.DRINK_INCREASE
+				RETURN 0
+			ELSE
+				SRC.SYSMESSAGELOC -1,1042971,You aren't thirsty.
+				RETURN 1	
+			ENDIF
+		ELSE
+			SRC.SYSMESSAGELOC -1,1042971,You must have it in your pack.
+			RETURN 1
+		ENDIF
+	ENDIF
+ENDIF
+
+ON=@Hunger
+IF (<DDEF0.SCP.HUNGER_ON_OFF>)
+	RETURN 1
+ENDIF
+
+ON=@RegionEnter
+	IF ((<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_Buccaneers>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_Cove>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_BritCastle>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_Minoc>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_MoonGlow>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_Magincia>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_Trinsic>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_Skara>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_Yew>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_Astalon>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_BritPvp>>))
+		SRC.SYSMESSAGE @55 <ARGO.NAME>
+		SRC.SYSMESSAGE @1642 Recording Pre-Keep Kills and Karma
+		SRC.TAG.KeepKarma=<SRC.KARMA>
+		SRC.TAG.KeepKills=<SRC.KILLS>
+	ENDIF
+	IF (<ARGO.UID>==<f_ArenaControlRegionUid <EVAL TS_Control>>)
+		SRC.EVENTS +e_tournament_square
+		SRC.HorseBounce
+		SRC.UNEQUIPALL
+		SRC.BackPackToBank
+		SRC.UPDATEX
+	ENDIF
+	IF ((<ARGO.UID>==<f_ArenaControlRegionUid <EVAL TS_Controlnuke>>))
+		SRC.SYSMESSAGE @55 <ARGO.NAME>
+		SRC.SYSMESSAGE @1642 Recording Pre-Arena Kills and Karma
+		SRC.TAG.ArenaKarma=<SRC.KARMA>
+		SRC.TAG.ArenaKills=<SRC.KILLS>
+		SRC.SYSMESSAGE @1462 Recording <SRC.KARMA> Karma
+		SRC.SYSMESSAGE @1462 Recording <SRC.KILLS> Kills
+	ENDIF
+	IF <ARGO.TAG.NoBluesAllowed>
+		IF (<SRC.isRed>)
+				SRC.SYSMESSAGE @124,,1 Criminals always welcome!
+				RETURN 0
+			ELSE
+				SDIALOG d_CannotEnterRegionRed
+				RETURN 1
+			ENDIF
+		ENDIF
+	ENDIF
+		
+
+ON=@RegionLeave
+	IF ((<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_Buccaneers>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_Cove>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_BritCastle>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_Minoc>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_MoonGlow>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_Magincia>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_Trinsic>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_Skara>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_Yew>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_Astalon>>)||(<ARGO.UID>==<f_Keep_GetKeepControlStoneRegionUid <EVAL KS_BritPvp>>))
+		SRC.SYSMESSAGE @1642 Returning Pre-Keep Kills and Karma
+		SRC.KARMA=<SRC.TAG.KeepKarma>
+		SRC.KILLS=<SRC.TAG.KeepKills>
+		SRC.TAG.KeepKarma=
+		SRC.TAG.KeepKills=
+		IF (<SRC.FLAGS> & statf_criminal)
+			SRC.flags &= ~statf_criminal
+		ENDIF
+		SRC.f_Keep_SettleRegion
+		REGION.ALLCLIENTS f_Keep_SettleRegionLink <SRC.UID>
+	ENDIF
+	IF (<ARGO.UID>==<f_ArenaControlRegionUid <EVAL TS_Control>>)
+		SRC.SYSMESSAGE @1642 Returning Pre-Arena Kills and Karma
+		SRC.KARMA=<SRC.TAG.ArenaKarma>
+		SRC.KILLS=<SRC.TAG.ArenaKills>
+		SRC.SYSMESSAGE @1462 Returning <EVAL <SRC.TAG.ArenaKarma>> Karma
+		SRC.SYSMESSAGE @1462 Returning <EVAL <SRC.TAG.ArenaKills>> Kills
+		SRC.f_Keep_SettleRegion		
+		SRC.TAG.CTSTeam=
+		SRC.BackPackToBin
+		IF (<SRC.FLAGS> & statf_criminal)
+			SRC.flags &= ~statf_criminal
+		ENDIF
+		SRC.EVENTS -e_tournament_square	
+		SRC.UPDATEX
+	ENDIF
+	IF ((<ARGO.UID>==<f_ArenaControlRegionUid <EVAL TS_Controlnuke>>))
+		SRC.SYSMESSAGE @55 <ARGO.NAME>
+		SRC.SYSMESSAGE @1642 Recording Pre-Arena Kills and Karma
+		SRC.TAG.ArenaKarma=<SRC.KARMA>
+		SRC.TAG.ArenaKills=<SRC.KILLS>
+		SRC.UNEQUIPALL
+		SRC.BackPackToBin
+		SRC.SYSMESSAGE @1462 Recording <SRC.KARMA> Karma
+		SRC.SYSMESSAGE @1462 Recording <SRC.KILLS> Kills
+	ENDIF
+
+
+// Naz Rocks 
+[function trace_movement_start]  
+  if <restest 1 i_movement_tracer>  
+    return 0  
+  else  
+    serv.newitem i_movement_tracer  
+    new.more1=2 // buffer positions every 2 seconds  
+    new.equip  
+    return 1  
+  endif  
+  
+[function trace_movement_stop]  
+  if <findid.i_movement_tracer>  
+    findid.i_movement_tracer.remove  
+    return 1  
+  else  
+    return 0  
+  endif  
+  
+[function is_moving]  
+  if <findid.i_movement_tracer>  
+    if <p.x> != <findid.i_movement_tracer.morex>  
+      return 1  
+    elseif <p.y> != <findid.i_movement_tracer.morey>  
+      return 1  
+    endif  
+  endif  
+  return 0  
+  
+[itemdef i_movement_tracer]  
+id=i_memory  
+type=t_eq_script  
+name=Movement Tracer  
+  
+on=@equip  
+  timer=<more1>  
+  
+on=@timer  
+  morep = <cont.p>  
+  timer=<more1>  
+  return 1
+
+ON=@PersonalSpace
+	SAY FUCK
+	I.trace_movement_start
+    IF <I.is_moving>
+		SAY not moving 
+        RETURN 1 
+    ELSE 
+		SAY moving
+        ARGN1 = 0
+        RETURN 0 
+    ENDIF
+
+
+[eof]

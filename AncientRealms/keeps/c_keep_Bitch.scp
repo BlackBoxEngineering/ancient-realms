@@ -1,0 +1,56 @@
+[CHARDEF c_keep_Bitch]
+DEFNAME=c_keep_Bitch
+ID=C_WOMAN
+NAME=#NAMES_HUMANFEMALE the Keep Guard
+CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
+DESIRES=e_notoriety, t_armor, t_weapon_bow,t_keep_point,i_gold
+AVERSIONS=t_TRAP
+MOVERATE=100
+DAM=8
+ARMOR=5
+TEVENTS=e_Keep_Guard
+
+CATEGORY=AncientRealms
+SUBSECTION=Keep Guards
+DESCRIPTION=Keep Bitch
+
+ON=@Create
+	NPC=brain_monster
+	COLOR=1009
+	STR=100
+	DEX=100
+	INT=50
+	FAME=100
+	KARMA=-1000
+	MAXHITS			=<EVAL KeepBitchDefaultMaxHits>
+	ARCHERY			={80.0 100.0}
+	MACEFIGHTING	={80.0 100.0}
+	SWORDSMANSHIP	={80.0 100.0}
+	FENCING			={80.0 100.0}
+	WRESTLING		={80.0 100.0}
+	HEALING			={80.0 100.0}
+	PARRYING		={80.0 100.0}
+	MAGICRESISTANCE	={80.0 100.0}
+	FOCUS			={80.0 100.0}
+	TACTICS			={80.0 100.0}
+	DETECTINGHIDDEN	={80.0 100.0}
+	HIDING			={80.0 100.0}
+	STEALTH			={80.0 100.0}
+	ITEMNEWBIE i_keep_GuardsBrains, 1, <UID>
+	
+ON=@NPCRestock
+	ITEMNEWBIE=i_HAIR_PONYTAIL
+	COLOR=random_female_hair
+	ITEMNEWBIE=i_armor_female_bustier_cyclops
+	ITEMNEWBIE=i_armor_female_shorts_cyclops
+	ITEMNEWBIE=i_leather_gloves
+	ITEMNEWBIE=i_sandals
+	COLOR=color_hide_cyclops
+	ITEMNEWBIE=i_fishing_pole
+	NEW.TYPE=t_whip
+	ITEMNEWBIE=i_yumi
+	COLOR=color_ore_Chromium
+    ITEM=i_arrow {6 18}
+	ITEM=i_bandage { 3 7 }
+	
+[EOF]

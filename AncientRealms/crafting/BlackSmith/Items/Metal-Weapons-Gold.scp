@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Gold Quarter Staff
+
+[ITEMDEF i_staff_quarter_Gold]
+   DEFNAME=i_staff_quarter_Gold
+   ID=i_staff_quarter
+   NAME=Gold Quarter Staff
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=22
+   VALUE=83
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={20 32}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Gold]
+   DEFNAME=i_serpentstone_staff_Gold
+   ID=i_serpentstone_staff
+   NAME=Gold Serpentstone Staff
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=26
+   VALUE=83
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={60 72}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Gold]
+   DEFNAME=i_staff_bladed_double_Gold
+   ID=i_staff_bladed_double
+   NAME=Gold Double Bladed Staff
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=34
+   VALUE=83
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={120 132}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Glass Staff
+
+[ITEMDEF i_glass_staff_Gold]
+   DEFNAME=i_glass_staff_Gold
+   ID=i_glass_staff
+   NAME=Gold Glass Staff
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=31
+   VALUE=83
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={90 102}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Bladed Staff
+
+[ITEMDEF i_bladed_staff_Gold]
+   DEFNAME=i_bladed_staff_Gold
+   ID=i_bladed_staff
+   NAME=Gold Bladed Staff
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=32
+   VALUE=83
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={115 127}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Tongs
+
+[ITEMDEF i_tongs_Gold]
+   DEFNAME=i_tongs_Gold
+   ID=i_tongs
+   NAME=Gold Tongs
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=9
+   VALUE=83
+   SPEED=11
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={0 12}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Mace
+
+[ITEMDEF i_mace_Gold]
+   DEFNAME=i_mace_Gold
+   ID=i_mace
+   NAME=Gold Mace
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=22
+   VALUE=83
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Maul
+
+[ITEMDEF i_maul_Gold]
+   DEFNAME=i_maul_Gold
+   ID=i_maul
+   NAME=Gold Maul
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=24
+   VALUE=83
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={40 52}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Scepter
+
+[ITEMDEF i_scepter_Gold]
+   DEFNAME=i_scepter_Gold
+   ID=i_scepter
+   NAME=Gold Scepter
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=83
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={50 62}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Gold]
+   DEFNAME=i_hammer_sledge_Gold
+   ID=i_hammer_sledge
+   NAME=Gold Sledge Hammer
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=83
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={20 32}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Gold]
+   DEFNAME=i_hammer_smith_Gold
+   ID=i_hammer_smith
+   NAME=Gold Smiths Hammer
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=12
+   VALUE=83
+   SPEED=11
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold War Mace
+
+[ITEMDEF i_mace_war_Gold]
+   DEFNAME=i_mace_war_Gold
+   ID=i_mace_war
+   NAME=Gold War Mace
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=30
+   VALUE=83
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={80 92}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Disc Mace
+
+[ITEMDEF i_disc_mace_Gold]
+   DEFNAME=i_disc_mace_Gold
+   ID=i_disc_mace
+   NAME=Gold Disc Mace
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=30
+   VALUE=83
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={70 82}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold War Hammer
+
+[ITEMDEF i_hammer_war_Gold]
+   DEFNAME=i_hammer_war_Gold
+   ID=i_hammer_war
+   NAME=Gold War Hammer
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=36
+   VALUE=83
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={100 112}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Hammer Pick
+
+[ITEMDEF i_hammer_pick_Gold]
+   DEFNAME=i_hammer_pick_Gold
+   ID=i_hammer_pick
+   NAME=Gold Hammer Pick
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=32
+   VALUE=83
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={55 67}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold War Axe
+
+[ITEMDEF i_axe_war_Gold]
+   DEFNAME=i_axe_war_Gold
+   ID=i_axe_war
+   NAME=Gold War Axe
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=22
+   VALUE=83
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={65 77}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Tessen
+
+[ITEMDEF i_tessen_Gold]
+   DEFNAME=i_tessen_Gold
+   ID=i_tessen
+   NAME=Gold Tessen
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=21
+   VALUE=83
+   SPEED=36
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={75 87}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Long Sword
+
+[ITEMDEF i_sword_long_Gold]
+   DEFNAME=i_sword_long_Gold
+   ID=i_sword_long
+   NAME=Gold Long Sword
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=83
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={10 22}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Broad Sword
+
+[ITEMDEF i_sword_broad_Gold]
+   DEFNAME=i_sword_broad_Gold
+   ID=i_sword_broad
+   NAME=Gold Broad Sword
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=83
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={20 32}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Scimitar
+
+[ITEMDEF i_scimitar_Gold]
+   DEFNAME=i_scimitar_Gold
+   ID=i_scimitar
+   NAME=Gold Scimitar
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=83
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Viking Sword
+
+[ITEMDEF i_sword_viking_Gold]
+   DEFNAME=i_sword_viking_Gold
+   ID=i_sword_viking
+   NAME=Gold Viking Sword
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=83
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={35 47}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Katana
+
+[ITEMDEF i_katana_Gold]
+   DEFNAME=i_katana_Gold
+   ID=i_katana
+   NAME=Gold Katana
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=83
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={80 92}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Wakizashi
+
+[ITEMDEF i_wakizashi_Gold]
+   DEFNAME=i_wakizashi_Gold
+   ID=i_wakizashi
+   NAME=Gold Wakizashi
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=83
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={45 57}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Long Sword
+
+[ITEMDEF i_sword_long_b_Gold]
+   DEFNAME=i_sword_long_b_Gold
+   ID=i_sword_long_b
+   NAME=Gold Long Sword
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=83
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={50 62}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Paladin Sword
+
+[ITEMDEF i_sword_paladin_Gold]
+   DEFNAME=i_sword_paladin_Gold
+   ID=i_sword_paladin
+   NAME=Gold Paladin Sword
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=83
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={65 77}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Bokuto
+
+[ITEMDEF i_bokuto_Gold]
+   DEFNAME=i_bokuto_Gold
+   ID=i_bokuto
+   NAME=Gold Bokuto
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=83
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={70 82}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Gold]
+   DEFNAME=i_Radiant_Scimitar_Gold
+   ID=i_Radiant_Scimitar
+   NAME=Gold Radiant Scimitar
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=83
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={75 87}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Bone Harvester
+
+[ITEMDEF i_bone_harvester_Gold]
+   DEFNAME=i_bone_harvester_Gold
+   ID=i_bone_harvester
+   NAME=Gold Bone Harvester
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=83
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={55 67}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Butcher Knife
+
+[ITEMDEF i_knife_butcher_Gold]
+   DEFNAME=i_knife_butcher_Gold
+   ID=i_knife_butcher
+   NAME=Gold Butcher Knife
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=16
+   VALUE=83
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Gold]
+   DEFNAME=i_cleaver_meat_Gold
+   ID=i_cleaver_meat
+   NAME=Gold Meat Cleaver
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=16
+   VALUE=83
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Elven Machete
+
+[ITEMDEF i_elven_machete_Gold]
+   DEFNAME=i_elven_machete_Gold
+   ID=i_elven_machete
+   NAME=Gold Elven Machete
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=83
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={60 72}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Bone Machete
+
+[ITEMDEF i_bone_machete_Gold]
+   DEFNAME=i_bone_machete_Gold
+   ID=i_bone_machete
+   NAME=Gold Bone Machete
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=83
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={50 62}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Daisho
+
+[ITEMDEF i_daisho_Gold]
+   DEFNAME=i_daisho_Gold
+   ID=i_daisho
+   NAME=Gold Daisho
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=83
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={65 77}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold No-Dachi
+
+[ITEMDEF i_no_dachi_Gold]
+   DEFNAME=i_no_dachi_Gold
+   ID=i_no_dachi
+   NAME=Gold No-Dachi
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=83
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={75 87}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Rune Blade
+
+[ITEMDEF i_Rune_Blade_Gold]
+   DEFNAME=i_Rune_Blade_Gold
+   ID=i_Rune_Blade
+   NAME=Gold Rune Blade
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=30
+   VALUE=83
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={115 127}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Axe
+
+[ITEMDEF i_axe_Gold]
+   DEFNAME=i_axe_Gold
+   ID=i_axe
+   NAME=Gold Axe
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=20
+   VALUE=83
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={42 54}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Bardiche
+
+[ITEMDEF i_bardiche_Gold]
+   DEFNAME=i_bardiche_Gold
+   ID=i_bardiche
+   NAME=Gold Bardiche
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=83
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={58 70}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Battle Axe
+
+[ITEMDEF i_axe_battle_Gold]
+   DEFNAME=i_axe_battle_Gold
+   ID=i_axe_battle
+   NAME=Gold Battle Axe
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=83
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={65 77}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Double Axe
+
+[ITEMDEF i_axe_double_Gold]
+   DEFNAME=i_axe_double_Gold
+   ID=i_axe_double
+   NAME=Gold Double Axe
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=83
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={70 82}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Gold]
+   DEFNAME=i_axe_exec_Gold
+   ID=i_axe_exec
+   NAME=Gold Exectutioners Axe
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=83
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={73 85}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Halberd
+
+[ITEMDEF i_halberd_Gold]
+   DEFNAME=i_halberd_Gold
+   ID=i_halberd
+   NAME=Gold Halberd
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=83
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={75 87}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Hatchet
+
+[ITEMDEF i_hatchet_Gold]
+   DEFNAME=i_hatchet_Gold
+   ID=i_hatchet
+   NAME=Gold Hatchet
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=21
+   VALUE=83
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={40 52}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Gold]
+   DEFNAME=i_axe_battle_large_Gold
+   ID=i_axe_battle_large
+   NAME=Gold Large Battle Axe
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=83
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={100 112}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Ornate Axe
+
+[ITEMDEF i_ornate_axe_Gold]
+   DEFNAME=i_ornate_axe_Gold
+   ID=i_ornate_axe
+   NAME=Gold Ornate Axe
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=83
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={60 72}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Gold]
+   DEFNAME=i_axe_two_hand_Gold
+   ID=i_axe_two_hand
+   NAME=Gold Two Handed Axe
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=83
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={55 67}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Dual Axes
+
+[ITEMDEF i_dual_short_axes_Gold]
+   DEFNAME=i_dual_short_axes_Gold
+   ID=i_dual_short_axes
+   NAME=Gold Dual Axes
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=83
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={95 107}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Cresent Blade
+
+[ITEMDEF i_crescent_blade_Gold]
+   DEFNAME=i_crescent_blade_Gold
+   ID=i_crescent_blade
+   NAME=Gold Cresent Blade
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=83
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={110 122}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Dagger
+
+[ITEMDEF i_dagger_Gold]
+   DEFNAME=i_dagger_Gold
+   ID=i_dagger
+   NAME=Gold Dagger
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=12
+   VALUE=83
+   SPEED=24
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={10 22}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Skinning Knife
+
+[ITEMDEF i_knife_skinning_Gold]
+   DEFNAME=i_knife_skinning_Gold
+   ID=i_knife_skinning
+   NAME=Gold Skinning Knife
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=12
+   VALUE=83
+   SPEED=24
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={15 27}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Gold]
+   DEFNAME=i_sword_Assassin_Spike_Gold
+   ID=i_sword_Assassin_Spike
+   NAME=Gold Assassin Spike
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=83
+   SPEED=26
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Cutlass
+
+[ITEMDEF i_cutlass_Gold]
+   DEFNAME=i_cutlass_Gold
+   ID=i_cutlass
+   NAME=Gold Cutlass
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=83
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={25 37}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Short Blade
+
+[ITEMDEF i_shortblade_Gold]
+   DEFNAME=i_shortblade_Gold
+   ID=i_shortblade
+   NAME=Gold Short Blade
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=83
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={35 47}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Scythe
+
+[ITEMDEF i_scythe_Gold]
+   DEFNAME=i_scythe_Gold
+   ID=i_scythe
+   NAME=Gold Scythe
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=29
+   VALUE=83
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={115 127}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Short Spear
+
+[ITEMDEF i_spear_short_Gold]
+   DEFNAME=i_spear_short_Gold
+   ID=i_spear_short
+   NAME=Gold Short Spear
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=83
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={45 57}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold War Fork
+
+[ITEMDEF i_war_fork_Gold]
+   DEFNAME=i_war_fork_Gold
+   ID=i_war_fork
+   NAME=Gold War Fork
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=83
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={50 62}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Leafblade
+
+[ITEMDEF i_sword_leafblade_Gold]
+   DEFNAME=i_sword_leafblade_Gold
+   ID=i_sword_leafblade
+   NAME=Gold Leafblade
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=83
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={60 72}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Gold]
+   DEFNAME=i_elven_spellblade_Gold
+   ID=i_elven_spellblade
+   NAME=Gold Elven Spell Blade
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=83
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={75 87}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Pitchfork
+
+[ITEMDEF i_pitchfork_Gold]
+   DEFNAME=i_pitchfork_Gold
+   ID=i_pitchfork
+   NAME=Gold Pitchfork
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=83
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={55 67}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold War Cleaver
+
+[ITEMDEF i_war_cleaver_Gold]
+   DEFNAME=i_war_cleaver_Gold
+   ID=i_war_cleaver
+   NAME=Gold War Cleaver
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=83
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={65 77}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Pike
+
+[ITEMDEF i_pike_Gold]
+   DEFNAME=i_pike_Gold
+   ID=i_pike
+   NAME=Gold Pike
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=83
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={70 82}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Blood Blade
+
+[ITEMDEF i_bloodblade_Gold]
+   DEFNAME=i_bloodblade_Gold
+   ID=i_bloodblade
+   NAME=Gold Blood Blade
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=83
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={75 87}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Kama
+
+[ITEMDEF i_kama_Gold]
+   DEFNAME=i_kama_Gold
+   ID=i_kama
+   NAME=Gold Kama
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=83
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={77 89}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Kryss
+
+[ITEMDEF i_kryss_Gold]
+   DEFNAME=i_kryss_Gold
+   ID=i_kryss
+   NAME=Gold Kryss
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=83
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={80 92}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Lajatang
+
+[ITEMDEF i_lajatang_Gold]
+   DEFNAME=i_lajatang_Gold
+   ID=i_lajatang
+   NAME=Gold Lajatang
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=83
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={85 97}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Sai
+
+[ITEMDEF i_sai_Gold]
+   DEFNAME=i_sai_Gold
+   ID=i_sai
+   NAME=Gold Sai
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=83
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={76 88}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Tekagi
+
+[ITEMDEF i_tekagi_Gold]
+   DEFNAME=i_tekagi_Gold
+   ID=i_tekagi
+   NAME=Gold Tekagi
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=83
+   SPEED=26
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={90 102}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Gold Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Gold]
+   DEFNAME=i_dual_pointed_spear_Gold
+   ID=i_dual_pointed_spear
+   NAME=Gold Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Gold
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=83
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Gold
+
+ON=@Create
+   COLOR=color_ore_Gold
+   HITPOINTS={115 127}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

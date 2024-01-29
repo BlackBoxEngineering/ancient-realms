@@ -1,0 +1,28 @@
+[AREADEF a_minoc_playershop_1]
+EVENTS=r_default,r_default_rock,r_default_water,r_default_tree,r_default_grass
+NAME=Minoc Shop One
+GROUP=Minoc
+FLAGS=04880
+P=2483,592,0,0
+RECT=2479,588,2487,596,0
+TAG.PlayersShop=1
+
+[AREADEF a_minoc_playershop_2]
+EVENTS=r_default,r_default_rock,r_default_water,r_default_tree,r_default_grass
+NAME=Minoc Shop Two
+GROUP=Minoc
+FLAGS=04880
+P=2495,596,0,0
+RECT=2492,591,2500,599,0
+TAG.PlayersShop=1
+
+[AREADEF a_minoc_playershop_3]
+EVENTS=r_default,r_default_rock,r_default_water,r_default_tree,r_default_grass
+NAME=Minoc Shop Three
+GROUP=Minoc
+FLAGS=04880
+P=2507,595,0,0
+RECT=2504,590,2512,598,0
+TAG.PlayersShop=1
+
+[EOF]

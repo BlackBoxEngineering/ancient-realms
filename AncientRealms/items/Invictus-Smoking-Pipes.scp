@@ -1,0 +1,67 @@
+/////////////////////////////////////////////////////
+//Pipe Smoking                                   ///    
+/////////////////////////////////////////////////////////////////////
+///This may need tweaking for your shard. If you have any troubles //
+///Contact me at Paul@sailirc.net                                  //
+/////////////////////////////////////////////////////////////////////
+[ITEMDEF i_smokingpipe]
+DEFNAME=i_smokingpipe
+ID=0F42
+NAME=Smoking Pipe
+TYPE=t_normal 
+RESOURCES=3 i_log
+VALUE=100
+SKILLMAKE=CARPENTRY 50.0, t_carpentry
+
+ON=@CREATE 
+COLOR=046c 
+
+ON=@DCLICK 
+TARGET What pipe-weed do you want to smoke? 
+RETURN 1 
+
+ON=@TARGON_CHAR 
+RETURN 1 
+
+ON=@TARGON_ITEM 
+IF <SRC.TARG.CONT>==<SRC.FINDLAYER(layer_pack).UID> 
+   IF <SRC.TARG.DEFNAME>==i_fruit_leaf_longbottom
+      SRC.CONSUME 1 i_fruit_leaf_longbottom
+      SRC.Emote Puffs on a Pipe
+      SRC.EFFECT 3,03728,15,15,0,0 
+   ELIF <SRC.TARG.DEFNAME>==i_skunk
+      SRC.Emote Puffs on a Pipe
+      SRC.CONSUME 1 i_skunk
+      SRC.EFFECT 3,03728,15,15,0,0
+      SRC.SYSMESSAGE You get no wierd vibes in this area! 
+   ELSE 
+      SRC.SYSMESSAGE You cannot smoke that! 
+   ENDIF 
+ELSE 
+   SRC.SYSMESSAGE The weed has to be in your backpack 
+ENDIF 
+RETURN 1 
+
+
+/////The Weed for the Pipe
+[ITEMDEF i_fruit_leaf_longbottom] 
+ID=0cb4 
+NAME=longbottom leaf 
+TYPE=00 
+
+ON=@CREATE 
+COLOR=006cf// some brown color 
+
+[ITEMDEF i_skunk]
+DEFNAME=i_skunk
+ID=0cb4 
+NAME=Super Skunk
+WEIGHT=1
+VALUE=10
+FLIP=0
+TYPE=t_eq_script 
+
+ON=@CREATE 
+	COLOR=004f6// some brown color
+
+[EOF]

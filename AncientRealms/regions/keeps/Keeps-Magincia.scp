@@ -1,0 +1,25 @@
+[REGIONTYPE r_MaginciaKeep_rock t_rock]
+RESOURCES=30.0 mr_nothing		
+RESOURCES=55.0 mr_iron
+RESOURCES=30.0 mr_bronze
+RESOURCES=15.6 mr_Galena	
+RESOURCES=10.0 mr_Orpiment	
+RESOURCES=18.7 mr_verite		
+RESOURCES=6.4 mr_Daemonite	
+RESOURCES=4.07 mr_titanium		
+RESOURCES=2.04 mr_Quartz		
+RESOURCES=1.5 mr_Dioptase			
+RESOURCES=1.1 mr_mytheril
+
+[AREADEF a_Magincia_keep]
+EVENTS=r_default,r_MaginciaKeep_rock,r_default_water,r_LogClass_All_rare,r_default_grass
+NAME=Magincia Keep
+GROUP=AncientRealms Keeps
+FLAGS=0880
+P=3671,2361,-5
+RECT=3654,2369,3688,2325 // Main Building
+RECT=3668,2324,3674,2292 // North Bridge
+RECT=3668,2406,3675,2370 // South Bridge
+TAG.KEEPNAME=Magincia Keep
+
+[EOF]

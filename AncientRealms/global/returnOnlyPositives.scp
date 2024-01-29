@@ -1,0 +1,19 @@
+[FUNCTION ReturnOnlyPositives]
+LOCAL.ValueIn=<ARGV[0]>
+IF <EVAL <LOCAL.ValueIn>> < 1
+	RETURN 0
+ELSE
+	//SERV.B VALUE IN = <EVAL <LOCAL.ValueIn>>
+	RETURN <EVAL <LOCAL.ValueIn>>
+ENDIF
+
+[FUNCTION NotUnderZero]
+LOCAL.ValueIn=<ARGV[0]>
+IF <EVAL <LOCAL.ValueIn>> < 1
+	RETURN 0
+ELSE
+	//SERV.B VALUE IN = <EVAL <LOCAL.ValueIn>>
+	RETURN <EVAL <LOCAL.ValueIn>>
+ENDIF
+
+[EOF]

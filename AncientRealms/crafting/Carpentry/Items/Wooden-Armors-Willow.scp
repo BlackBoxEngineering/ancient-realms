@@ -1,0 +1,466 @@
+/////////////////////////////////////////////Willow woodland chest
+[ITEMDEF i_woodland_chest_Willow]
+   DEFNAME= i_woodland_chest_Willow
+   ID= i_woodland_chest
+   NAME= Willow woodland chest
+   ARMOR= 26
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 20 i_log_Willow
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Willow
+   DESCRIPTION= woodland chest
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS= {96 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow woodland belt
+[ITEMDEF i_woodland_belt_Willow]
+   DEFNAME= i_woodland_belt_Willow
+   ID= i_woodland_belt
+   NAME= Willow woodland belt
+   ARMOR= 21
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Willow
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Willow
+   DESCRIPTION= woodland belt
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS= {96 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow woodland gorget
+[ITEMDEF i_woodland_gorget_Willow]
+   DEFNAME= i_woodland_gorget_Willow
+   ID= i_woodland_gorget
+   NAME= Willow woodland gorget
+   ARMOR= 12
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Willow
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Willow
+   DESCRIPTION= woodland gorget
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS= {96 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow woodland gauntlets
+[ITEMDEF i_woodland_gauntlets_Willow]
+   DEFNAME= i_woodland_gauntlets_Willow
+   ID= i_woodland_gauntlets
+   NAME= Willow woodland gauntlets
+   ARMOR= 12
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Willow
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Willow
+   DESCRIPTION= woodland gauntlets
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS= {96 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow woodland leggings
+[ITEMDEF i_woodland_leggings_Willow]
+   DEFNAME= i_woodland_leggings_Willow
+   ID= i_woodland_leggings
+   NAME= Willow woodland leggings
+   ARMOR= 21
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Willow
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Willow
+   DESCRIPTION= woodland leggings
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS= {96 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow woodland arms
+[ITEMDEF i_woodland_arms_Willow]
+   DEFNAME= i_woodland_arms_Willow
+   ID= i_woodland_arms
+   NAME= Willow woodland arms
+   ARMOR= 14
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 8 i_log_Willow
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Willow
+   DESCRIPTION= woodland arms
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS= {96 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow female woodland chest
+[ITEMDEF i_armor_female_woodland_Willow]
+   DEFNAME= i_armor_female_woodland_Willow
+   ID= i_armor_female_woodland
+   NAME= Willow female woodland chest
+   ARMOR= 22
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 16 i_log_Willow
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Willow
+   DESCRIPTION= female woodland chest
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS= {96 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow leaf tunic
+[ITEMDEF i_leaf_tunic_Willow]
+   DEFNAME= i_leaf_tunic_Willow
+   ID= i_leaf_tunic
+   NAME= Willow leaf tunic
+   ARMOR= 24
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 18 i_log_Willow
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Willow
+   DESCRIPTION= leaf tunic
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS= {86 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow leaf gloves
+[ITEMDEF i_leaf_gloves_Willow]
+   DEFNAME= i_leaf_gloves_Willow
+   ID= i_leaf_gloves
+   NAME= Willow leaf gloves
+   ARMOR= 18
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_log_Willow
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Willow
+   DESCRIPTION= leaf gloves
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS= {86 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow leaf gorget
+[ITEMDEF i_leaf_gorget_Willow]
+   DEFNAME= i_leaf_gorget_Willow
+   ID= i_leaf_gorget
+   NAME= Willow leaf gorget
+   ARMOR= 14
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Willow
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Willow
+   DESCRIPTION= leaf gorget
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS= {86 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow leaf arms
+[ITEMDEF i_leaf_arms_Willow]
+   DEFNAME= i_leaf_arms_Willow
+   ID= i_leaf_arms
+   NAME= Willow leaf arms
+   ARMOR= 14
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Willow
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Willow
+   DESCRIPTION= leaf arms
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS= {86 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow leaf leggings
+[ITEMDEF i_leaf_leggings_Willow]
+   DEFNAME= i_leaf_leggings_Willow
+   ID= i_leaf_leggings
+   NAME= Willow leaf leggings
+   ARMOR= 21
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 15 i_log_Willow
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Willow
+   DESCRIPTION= leaf leggings
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS= {86 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow leaf tonlet
+[ITEMDEF i_leaf_tonlet_Willow]
+   DEFNAME= i_leaf_tonlet_Willow
+   ID= i_leaf_tonlet
+   NAME= Willow leaf tonlet
+   ARMOR= 10
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 4 i_log_Willow
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Willow
+   DESCRIPTION= leaf tonlet
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS= {86 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow raven helm
+[ITEMDEF i_helm_raven_Willow]
+   DEFNAME= i_helm_raven_Willow
+   ID= i_helm_raven
+   NAME= Willow raven helm
+   ARMOR= 14
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Willow
+   SKILLMAKE= CARPENTRY 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Willow
+   DESCRIPTION= raven helm
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS= {66 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow vulture helm
+[ITEMDEF i_helm_vulture_Willow]
+   DEFNAME= i_helm_vulture_Willow
+   ID= i_helm_vulture
+   NAME= Willow vulture helm
+   ARMOR= 14
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Willow
+   SKILLMAKE= CARPENTRY 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Willow
+   DESCRIPTION= vulture helm
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS= {86 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow winged helm
+[ITEMDEF i_helm_winged_Willow]
+   DEFNAME= i_helm_winged_Willow
+   ID= i_helm_winged
+   NAME= Willow winged helm
+   ARMOR= 14
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Willow
+   SKILLMAKE= CARPENTRY 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Willow
+   DESCRIPTION= winged helm
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS= {106 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

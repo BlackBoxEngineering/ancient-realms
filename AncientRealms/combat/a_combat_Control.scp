@@ -1,0 +1,21 @@
+[DEFNAME AncientRealmsCombatControl]
+// Both These Tweaks are to adjust the HITSPEED
+// Increasing CombatSpeedTweakADD is the equivlent of decreasing all weapon speeds at once.
+// Increasing CombatSpeedTweakDIV speeds the overall HITSPEED by Division as the lowest value is the fastest.
+// CombatSpeedTweakDIV must always be at least 1. Ive just tuned them they dont need changed - Jesus
+CombatSpeedTweakADD	0
+CombatSpeedTweakDIV	2 // Always at least 1
+
+// Combat Hit Location Damage Bonus
+CombatHitLocation_Head			7			// HitPreference = 1
+CombatHitLocation_Neck			6			// HitPreference = 2
+CombatHitLocation_Chest			4			// HitPreference = 3
+CombatHitLocation_Legs			3			// HitPreference = 4
+CombatHitLocation_Arms			3			// HitPreference = 5
+CombatHitLocation_Hands			2			// HitPreference = 6
+CombatHitLocation_Feet			1			// HitPreference = 7
+
+// CombatHitLocation_Div is for Armor Damage Division
+CombatHitLocation_Div			5
+
+[EOF]

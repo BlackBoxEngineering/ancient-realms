@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////BlackRock Platemail Arms
+[ITEMDEF i_platemail_arms_BlackRock]
+   DEFNAME= i_platemail_arms_BlackRock
+   ID= i_platemail_arms
+   NAME= BlackRock Platemail Arms
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Platemail Leggings
+[ITEMDEF i_platemail_leggings_BlackRock]
+   DEFNAME= i_platemail_leggings_BlackRock
+   ID= i_platemail_leggings
+   NAME= BlackRock Platemail Leggings
+   ARMOR= 28
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Platemail Helmet
+[ITEMDEF i_platemail_helm_BlackRock]
+   DEFNAME= i_platemail_helm_BlackRock
+   ID= i_platemail_helm
+   NAME= BlackRock Platemail Helmet
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Platemail Gorget
+[ITEMDEF i_platemail_gorget_BlackRock]
+   DEFNAME= i_platemail_gorget_BlackRock
+   ID= i_platemail_gorget
+   NAME= BlackRock Platemail Gorget
+   ARMOR= 18
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Platemail Gorget
+[ITEMDEF i_platemail_gorget2_BlackRock]
+   DEFNAME= i_platemail_gorget2_BlackRock
+   ID= i_platemail_gorget2
+   NAME= BlackRock Platemail Gorget
+   ARMOR= 18
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Platemail Gloves
+[ITEMDEF i_platemail_gloves_BlackRock]
+   DEFNAME= i_platemail_gloves_BlackRock
+   ID= i_platemail_gloves
+   NAME= BlackRock Platemail Gloves
+   ARMOR= 18
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Platemail Chest
+[ITEMDEF i_platemail_chest_BlackRock]
+   DEFNAME= i_platemail_chest_BlackRock
+   ID= i_platemail_chest
+   NAME= BlackRock Platemail Chest
+   ARMOR= 32
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Platemail Female Plate
+[ITEMDEF i_armor_female_plate_BlackRock]
+   DEFNAME= i_armor_female_plate_BlackRock
+   ID= i_armor_female_plate
+   NAME= BlackRock Platemail Female Plate
+   ARMOR= 30
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock chainmail coif
+[ITEMDEF i_chainmail_coif_BlackRock]
+   DEFNAME= i_chainmail_coif_BlackRock
+   ID= i_chainmail_coif
+   NAME= BlackRock chainmail coif
+   ARMOR= 24
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {60 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock chainmail leggings
+[ITEMDEF i_chainmail_leggings_BlackRock]
+   DEFNAME= i_chainmail_leggings_BlackRock
+   ID= i_chainmail_leggings
+   NAME= BlackRock chainmail leggings
+   ARMOR= 26
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {60 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock chainmail tunic
+[ITEMDEF i_chainmail_tunic_BlackRock]
+   DEFNAME= i_chainmail_tunic_BlackRock
+   ID= i_chainmail_tunic
+   NAME= BlackRock chainmail tunic
+   ARMOR= 30
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {60 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_BlackRock]
+   DEFNAME= i_ringmail_sleeves_BlackRock
+   ID= i_ringmail_sleeves
+   NAME= BlackRock Ringmail Sleeves
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {50 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_BlackRock]
+   DEFNAME= i_ringmail_leggings_BlackRock
+   ID= i_ringmail_leggings
+   NAME= BlackRock Ringmail Leggings
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {50 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_BlackRock]
+   DEFNAME= i_ringmail_tunic_BlackRock
+   ID= i_ringmail_tunic
+   NAME= BlackRock Ringmail Tunic
+   ARMOR= 26
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {50 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_BlackRock]
+   DEFNAME= i_ringmail_gloves_BlackRock
+   ID= i_ringmail_gloves
+   NAME= BlackRock Ringmail Gloves
+   ARMOR= 12
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {50 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock studded sleeves
+[ITEMDEF i_studded_sleeves_BlackRock]
+   DEFNAME= i_studded_sleeves_BlackRock
+   ID= i_studded_sleeves
+   NAME= BlackRock studded sleeves
+   ARMOR= 15
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_BlackRock, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {40 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock studded gloves
+[ITEMDEF i_studded_gloves_BlackRock]
+   DEFNAME= i_studded_gloves_BlackRock
+   ID= i_studded_gloves
+   NAME= BlackRock studded gloves
+   ARMOR= 12
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_BlackRock, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {40 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock studded gorget
+[ITEMDEF i_studded_gorget_BlackRock]
+   DEFNAME= i_studded_gorget_BlackRock
+   ID= i_studded_gorget
+   NAME= BlackRock studded gorget
+   ARMOR= 12
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_BlackRock, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {40 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock studded leggings
+[ITEMDEF i_studded_leggings_BlackRock]
+   DEFNAME= i_studded_leggings_BlackRock
+   ID= i_studded_leggings
+   NAME= BlackRock studded leggings
+   ARMOR= 21
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_BlackRock, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {40 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock studded tunic
+[ITEMDEF i_studded_tunic_BlackRock]
+   DEFNAME= i_studded_tunic_BlackRock
+   ID= i_studded_tunic
+   NAME= BlackRock studded tunic
+   ARMOR= 25
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_BlackRock, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {40 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock studded female armor
+[ITEMDEF i_armor_female_studded_BlackRock]
+   DEFNAME= i_armor_female_studded_BlackRock
+   ID= i_armor_female_studded
+   NAME= BlackRock studded female armor
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_BlackRock, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {40 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_BlackRock]
+   DEFNAME= i_armor_female_bustier_studded_BlackRock
+   ID= i_armor_female_bustier_studded
+   NAME= BlackRock studded female bustier
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_BlackRock, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {40 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock platemail mempo
+[ITEMDEF i_platemail_mempo_BlackRock]
+   DEFNAME= i_platemail_mempo_BlackRock
+   ID= i_platemail_mempo
+   NAME= BlackRock platemail mempo
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock platemail do
+[ITEMDEF i_platemail_do_BlackRock]
+   DEFNAME= i_platemail_do_BlackRock
+   ID= i_platemail_do
+   NAME= BlackRock platemail do
+   ARMOR= 30
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_BlackRock]
+   DEFNAME= i_platemail_hiro_sode_BlackRock
+   ID= i_platemail_hiro_sode
+   NAME= BlackRock platemail hiro sode
+   ARMOR= 26
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock platemail suneate
+[ITEMDEF i_platemail_suneate_BlackRock]
+   DEFNAME= i_platemail_suneate_BlackRock
+   ID= i_platemail_suneate
+   NAME= BlackRock platemail suneate
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock platemail haidate
+[ITEMDEF i_platemail_haidate_BlackRock]
+   DEFNAME= i_platemail_haidate_BlackRock
+   ID= i_platemail_haidate
+   NAME= BlackRock platemail haidate
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock studded mempo
+[ITEMDEF i_studded_mempo_BlackRock]
+   DEFNAME= i_studded_mempo_BlackRock
+   ID= i_studded_mempo
+   NAME= BlackRock studded mempo
+   ARMOR= 17
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_BlackRock, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock studded do
+[ITEMDEF i_studded_do_BlackRock]
+   DEFNAME= i_studded_do_BlackRock
+   ID= i_studded_do
+   NAME= BlackRock studded do
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_BlackRock, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock studded hiro sode
+[ITEMDEF i_studded_hiro_sode_BlackRock]
+   DEFNAME= i_studded_hiro_sode_BlackRock
+   ID= i_studded_hiro_sode
+   NAME= BlackRock studded hiro sode
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_BlackRock, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock studded suneate
+[ITEMDEF i_studded_suneate_BlackRock]
+   DEFNAME= i_studded_suneate_BlackRock
+   ID= i_studded_suneate
+   NAME= BlackRock studded suneate
+   ARMOR= 19
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_BlackRock, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock studded haidate
+[ITEMDEF i_studded_haidate_BlackRock]
+   DEFNAME= i_studded_haidate_BlackRock
+   ID= i_studded_haidate
+   NAME= BlackRock studded haidate
+   ARMOR= 17
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_BlackRock, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_BlackRock]
+   DEFNAME= i_platemail_gargish_arms_BlackRock
+   ID= i_platemail_gargish_arms
+   NAME= BlackRock Gargish Platemail Arms
+   ARMOR= 26
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_BlackRock]
+   DEFNAME= i_platemail_gargish_chest_BlackRock
+   ID= i_platemail_gargish_chest
+   NAME= BlackRock Gargish Platemail Chest
+   ARMOR= 34
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_BlackRock]
+   DEFNAME= i_platemail_gargish_kilt_BlackRock
+   ID= i_platemail_gargish_kilt
+   NAME= BlackRock Gargish Platemail Kilt
+   ARMOR= 25
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_BlackRock]
+   DEFNAME= i_platemail_gargish_leggings_BlackRock
+   ID= i_platemail_gargish_leggings
+   NAME= BlackRock Gargish Platemail Leggings
+   ARMOR= 30
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_BlackRock]
+   DEFNAME= i_platemail_gargish_arms_2_BlackRock
+   ID= i_platemail_gargish_arms_2
+   NAME= BlackRock Gargish Platemail Arms
+   ARMOR= 26
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_BlackRock]
+   DEFNAME= i_platemail_gargish_chest_2_BlackRock
+   ID= i_platemail_gargish_chest_2
+   NAME= BlackRock Gargish Platemail Chest
+   ARMOR= 34
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_BlackRock]
+   DEFNAME= i_platemail_gargish_kilt_2_BlackRock
+   ID= i_platemail_gargish_kilt_2
+   NAME= BlackRock Gargish Platemail Kilt
+   ARMOR= 25
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_BlackRock]
+   DEFNAME= i_platemail_gargish_leggings_2_BlackRock
+   ID= i_platemail_gargish_leggings_2
+   NAME= BlackRock Gargish Platemail Leggings
+   ARMOR= 30
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Closed Helmet
+[ITEMDEF i_helm_close_BlackRock]
+   DEFNAME= i_helm_close_BlackRock
+   ID= i_helm_close
+   NAME= BlackRock Closed Helmet
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Open Helmet
+[ITEMDEF i_helm_open_BlackRock]
+   DEFNAME= i_helm_open_BlackRock
+   ID= i_helm_open
+   NAME= BlackRock Open Helmet
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {50 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Bascinet
+[ITEMDEF i_bascinet_BlackRock]
+   DEFNAME= i_bascinet_BlackRock
+   ID= i_bascinet
+   NAME= BlackRock Bascinet
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {40 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Norse Helmet
+[ITEMDEF i_helm_norse_BlackRock]
+   DEFNAME= i_helm_norse_BlackRock
+   ID= i_helm_norse
+   NAME= BlackRock Norse Helmet
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {60 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Kabuto
+[ITEMDEF i_helm_kabuto_BlackRock]
+   DEFNAME= i_helm_kabuto_BlackRock
+   ID= i_helm_kabuto
+   NAME= BlackRock Kabuto
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_BlackRock]
+   DEFNAME= i_chainmail_hatsuburi_BlackRock
+   ID= i_chainmail_hatsuburi
+   NAME= BlackRock Chainmail Hatsuburi
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_BlackRock]
+   DEFNAME= i_platemail_hatsuburi_BlackRock
+   ID= i_platemail_hatsuburi
+   NAME= BlackRock Platemail Hatsuburi
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_BlackRock]
+   DEFNAME= i_plate_jingasa_heavy_BlackRock
+   ID= i_plate_jingasa_heavy
+   NAME= BlackRock Heavy Jingasa
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_BlackRock]
+   DEFNAME= i_platemail_kabuto_decorative_BlackRock
+   ID= i_platemail_kabuto_decorative
+   NAME= BlackRock Decorative Platemail Kabuto
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {100 900}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Light Jingasa
+[ITEMDEF i_plate_jingasa_light_BlackRock]
+   DEFNAME= i_plate_jingasa_light_BlackRock
+   ID= i_plate_jingasa_light
+   NAME= BlackRock Light Jingasa
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Small Jingasa
+[ITEMDEF i_plate_jingasa_small_BlackRock]
+   DEFNAME= i_plate_jingasa_small_BlackRock
+   ID= i_plate_jingasa_small
+   NAME= BlackRock Small Jingasa
+   ARMOR= 18
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {60 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_BlackRock]
+   DEFNAME= i_platemail_kabuto_battle_BlackRock
+   ID= i_platemail_kabuto_battle
+   NAME= BlackRock Platemail Battle Kabuto
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_BlackRock]
+   DEFNAME= i_platemail_kabuto_BlackRock
+   ID= i_platemail_kabuto
+   NAME= BlackRock Platemail Kabuto
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Circlet
+[ITEMDEF i_circlet_BlackRock]
+   DEFNAME= i_circlet_BlackRock
+   ID= i_circlet
+   NAME= BlackRock Circlet
+   ARMOR= 16
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Royal Circlet
+[ITEMDEF i_circlet_royal_BlackRock]
+   DEFNAME= i_circlet_royal_BlackRock
+   ID= i_circlet_royal
+   NAME= BlackRock Royal Circlet
+   ARMOR= 16
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_BlackRock]
+   DEFNAME= i_circlet_gemmed_BlackRock
+   ID= i_circlet_gemmed
+   NAME= BlackRock Gemmed Circlet
+   ARMOR= 16
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {110 1000}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Buckler
+[ITEMDEF i_shield_buckler_BlackRock]
+   DEFNAME= i_shield_buckler_BlackRock
+   ID= i_shield_buckler
+   NAME= BlackRock Buckler
+   ARMOR= 15
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {40 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Wooden Shield
+[ITEMDEF i_shield_wood_BlackRock]
+   DEFNAME= i_shield_wood_BlackRock
+   ID= i_shield_wood
+   NAME= BlackRock Wooden Shield
+   ARMOR= 16
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {50 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_BlackRock]
+   DEFNAME= i_shield_round_metal_BlackRock
+   ID= i_shield_round_metal
+   NAME= BlackRock Light Metal  Round Shield
+   ARMOR= 17
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {60 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_BlackRock]
+   DEFNAME= i_shield_round_bronze_BlackRock
+   ID= i_shield_round_bronze
+   NAME= BlackRock Heavy Metal  Round Shield
+   ARMOR= 19
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_BlackRock]
+   DEFNAME= i_shield_kite_metal_BlackRock
+   ID= i_shield_kite_metal
+   NAME= BlackRock Metal Kite Shield
+   ARMOR= 21
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_BlackRock]
+   DEFNAME= i_shield_kite_wood_BlackRock
+   ID= i_shield_kite_wood
+   NAME= BlackRock Wooden Kite Shield
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Heater Shield
+[ITEMDEF i_shield_heater_BlackRock]
+   DEFNAME= i_shield_heater_BlackRock
+   ID= i_shield_heater
+   NAME= BlackRock Heater Shield
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {100 900}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Ancient Shield
+[ITEMDEF i_shield_dupre_BlackRock]
+   DEFNAME= i_shield_dupre_BlackRock
+   ID= i_shield_dupre
+   NAME= BlackRock Ancient Shield
+   ARMOR= 24
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {110 1000}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Shield oh Hell
+[ITEMDEF i_shield_scale_BlackRock]
+   DEFNAME= i_shield_scale_BlackRock
+   ID= i_shield_scale
+   NAME= BlackRock Shield oh Hell
+   ARMOR= 24
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {110 1000}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Chaos Shield
+[ITEMDEF i_shield_chaos_BlackRock]
+   DEFNAME= i_shield_chaos_BlackRock
+   ID= i_shield_chaos
+   NAME= BlackRock Chaos Shield
+   ARMOR= 25
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {120 1100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BlackRock Order Shield
+[ITEMDEF i_shield_order_BlackRock]
+   DEFNAME= i_shield_order_BlackRock
+   ID= i_shield_order
+   NAME= BlackRock Order Shield
+   ARMOR= 25
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_BlackRock
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BlackRock
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_BlackRock
+   HITPOINTS= {120 1100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

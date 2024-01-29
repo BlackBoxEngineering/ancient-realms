@@ -1,0 +1,14 @@
+[ITEMDEF i_keep_DoorBell]
+DEFNAME=i_keep_DoorBell
+ID=01828
+NAME=Keep DoorBell
+CATEGORY=AncientRealms
+SUBSECTION=Keep Items
+DESCRIPTION=Keep DoorBell
+
+ON=@DClick
+	REGION.ALLCLIENTS SYSMESSAGE @92,,1 <SRC.NAME> knocks at the Keep Gates!
+	SFX 820
+	RETURN 1
+
+[EOF]

@@ -1,0 +1,41 @@
+[CHARDEF 01039]
+DEFNAME=c_m_nightmare
+NAME=Nightmare
+ID=c_horse_brown_dk
+SOUND=snd_ANIMALS_HORSE1
+ICON=i_pet_horse_brown_dk
+DAM=25,35
+ARMOR=30
+RESOURCES=25 i_ribs_raw,10 i_hide
+CAN=MT_WALK | MT_RUN
+FOODTYPE=5 t_meat_raw
+TEVENTS=e_horses
+TEVENTS=e_AncientRealms_rides
+DESIRES=i_gold
+AVERSIONS=r_civilization,r_water
+
+CATEGORY=AncientRealms - Monsters
+SUBSECTION=Rides
+DESCRIPTION=Nightmare
+
+ON=@Create
+	COLOR=colors_black
+	STR={995 1020}
+	DEX={86 105}
+	INT={385 425}
+	MAXHITS=500
+	PARRYING={55.0 95.0}
+	MAGICRESISTANCE={99.0 100.0}
+	TACTICS={98.0 100.0}
+	WRESTLING={90.0 93.0}
+	TAMING=100.0
+	NPC=brain_monster
+	FAME={100 2000}
+	KARMA={-5000 -5999}
+	TAG.control.slots=1
+
+ON=@NPCRestock
+	ITEM=loot_NIGHTMARE
+	
+
+[EOF]

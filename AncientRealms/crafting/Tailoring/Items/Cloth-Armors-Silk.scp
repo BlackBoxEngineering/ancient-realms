@@ -1,0 +1,321 @@
+/////////////////////////////////////////////Silk Gargish Cloth Arms
+[ITEMDEF i_gargish_cloth_arms_1_Silk]
+   DEFNAME= i_gargish_cloth_arms_1_Silk
+   ID= i_gargish_cloth_arms_1
+   NAME= Silk Gargish Cloth Arms
+   ARMOR= 11
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 5 i_cloth_Silk
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Silk
+   DESCRIPTION= Gargish Cloth Arms
+
+ON=@Create
+   COLOR=color_cloth_Silk
+   HITPOINTS= {66 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silk Gargish Cloth Arms
+[ITEMDEF i_gargish_cloth_arms_2_Silk]
+   DEFNAME= i_gargish_cloth_arms_2_Silk
+   ID= i_gargish_cloth_arms_2
+   NAME= Silk Gargish Cloth Arms
+   ARMOR= 11
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 5 i_cloth_Silk
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Silk
+   DESCRIPTION= Gargish Cloth Arms
+
+ON=@Create
+   COLOR=color_cloth_Silk
+   HITPOINTS= {66 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silk Gargish Cloth Chest
+[ITEMDEF i_gargish_cloth_chest_1_Silk]
+   DEFNAME= i_gargish_cloth_chest_1_Silk
+   ID= i_gargish_cloth_chest_1
+   NAME= Silk Gargish Cloth Chest
+   ARMOR= 14
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 8 i_cloth_Silk
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Silk
+   DESCRIPTION= Gargish Cloth Chest
+
+ON=@Create
+   COLOR=color_cloth_Silk
+   HITPOINTS= {66 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silk Gargish Cloth Chest
+[ITEMDEF i_gargish_cloth_chest_2_Silk]
+   DEFNAME= i_gargish_cloth_chest_2_Silk
+   ID= i_gargish_cloth_chest_2
+   NAME= Silk Gargish Cloth Chest
+   ARMOR= 14
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 8 i_cloth_Silk
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Silk
+   DESCRIPTION= Gargish Cloth Chest
+
+ON=@Create
+   COLOR=color_cloth_Silk
+   HITPOINTS= {66 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silk Gargish Cloth Kilt
+[ITEMDEF i_gargish_cloth_kilt_1_Silk]
+   DEFNAME= i_gargish_cloth_kilt_1_Silk
+   ID= i_gargish_cloth_kilt_1
+   NAME= Silk Gargish Cloth Kilt
+   ARMOR= 10
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Silk
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Silk
+   DESCRIPTION= Gargish Cloth Kilt
+
+ON=@Create
+   COLOR=color_cloth_Silk
+   HITPOINTS= {66 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silk Gargish Cloth Kilt
+[ITEMDEF i_gargish_cloth_kilt_2_Silk]
+   DEFNAME= i_gargish_cloth_kilt_2_Silk
+   ID= i_gargish_cloth_kilt_2
+   NAME= Silk Gargish Cloth Kilt
+   ARMOR= 10
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Silk
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Silk
+   DESCRIPTION= Gargish Cloth Kilt
+
+ON=@Create
+   COLOR=color_cloth_Silk
+   HITPOINTS= {66 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silk Gargish Cloth Leggings
+[ITEMDEF i_gargish_cloth_leggings_1_Silk]
+   DEFNAME= i_gargish_cloth_leggings_1_Silk
+   ID= i_gargish_cloth_leggings_1
+   NAME= Silk Gargish Cloth Leggings
+   ARMOR= 10
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Silk
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Silk
+   DESCRIPTION= Gargish Cloth Leggings
+
+ON=@Create
+   COLOR=color_cloth_Silk
+   HITPOINTS= {66 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silk Gargish Cloth Leggings
+[ITEMDEF i_gargish_cloth_leggings_2_Silk]
+   DEFNAME= i_gargish_cloth_leggings_2_Silk
+   ID= i_gargish_cloth_leggings_2
+   NAME= Silk Gargish Cloth Leggings
+   ARMOR= 10
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Silk
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Silk
+   DESCRIPTION= Gargish Cloth Leggings
+
+ON=@Create
+   COLOR=color_cloth_Silk
+   HITPOINTS= {66 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silk Gargish Cloth Wings
+[ITEMDEF i_gargish_cloth_wings_Silk]
+   DEFNAME= i_gargish_cloth_wings_Silk
+   ID= i_gargish_cloth_wings
+   NAME= Silk Gargish Cloth Wings
+   ARMOR= 10
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Silk
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Silk
+   DESCRIPTION= Gargish Cloth Wings
+
+ON=@Create
+   COLOR=color_cloth_Silk
+   HITPOINTS= {66 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silk Lord British Armour
+[ITEMDEF i_person_lord_british_Silk]
+   DEFNAME= i_person_lord_british_Silk
+   ID= i_person_lord_british
+   NAME= Silk Lord British Armour
+   ARMOR= 56
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 50
+   RESOURCES= 50 i_cloth_Silk
+   SKILLMAKE= TAILORING 120.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Silk
+   DESCRIPTION= Lord British Armour
+
+ON=@Create
+   COLOR=color_cloth_Silk
+   HITPOINTS= {126 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silk Blackthorne Robe
+[ITEMDEF i_person_black_thorne_Silk]
+   DEFNAME= i_person_black_thorne_Silk
+   ID= i_person_black_thorne
+   NAME= Silk Blackthorne Robe
+   ARMOR= 56
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 50
+   RESOURCES= 50 i_cloth_Silk
+   SKILLMAKE= TAILORING 120.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Silk
+   DESCRIPTION= Blackthorne Robe
+
+ON=@Create
+   COLOR=color_cloth_Silk
+   HITPOINTS= {126 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

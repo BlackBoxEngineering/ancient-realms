@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Vanadinate Platemail Arms
+[ITEMDEF i_platemail_arms_Vanadinate]
+   DEFNAME= i_platemail_arms_Vanadinate
+   ID= i_platemail_arms
+   NAME= Vanadinate Platemail Arms
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Platemail Leggings
+[ITEMDEF i_platemail_leggings_Vanadinate]
+   DEFNAME= i_platemail_leggings_Vanadinate
+   ID= i_platemail_leggings
+   NAME= Vanadinate Platemail Leggings
+   ARMOR= 21
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Platemail Helmet
+[ITEMDEF i_platemail_helm_Vanadinate]
+   DEFNAME= i_platemail_helm_Vanadinate
+   ID= i_platemail_helm
+   NAME= Vanadinate Platemail Helmet
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Platemail Gorget
+[ITEMDEF i_platemail_gorget_Vanadinate]
+   DEFNAME= i_platemail_gorget_Vanadinate
+   ID= i_platemail_gorget
+   NAME= Vanadinate Platemail Gorget
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Vanadinate]
+   DEFNAME= i_platemail_gorget2_Vanadinate
+   ID= i_platemail_gorget2
+   NAME= Vanadinate Platemail Gorget
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Platemail Gloves
+[ITEMDEF i_platemail_gloves_Vanadinate]
+   DEFNAME= i_platemail_gloves_Vanadinate
+   ID= i_platemail_gloves
+   NAME= Vanadinate Platemail Gloves
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Platemail Chest
+[ITEMDEF i_platemail_chest_Vanadinate]
+   DEFNAME= i_platemail_chest_Vanadinate
+   ID= i_platemail_chest
+   NAME= Vanadinate Platemail Chest
+   ARMOR= 25
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Vanadinate]
+   DEFNAME= i_armor_female_plate_Vanadinate
+   ID= i_armor_female_plate
+   NAME= Vanadinate Platemail Female Plate
+   ARMOR= 23
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate chainmail coif
+[ITEMDEF i_chainmail_coif_Vanadinate]
+   DEFNAME= i_chainmail_coif_Vanadinate
+   ID= i_chainmail_coif
+   NAME= Vanadinate chainmail coif
+   ARMOR= 17
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate chainmail leggings
+[ITEMDEF i_chainmail_leggings_Vanadinate]
+   DEFNAME= i_chainmail_leggings_Vanadinate
+   ID= i_chainmail_leggings
+   NAME= Vanadinate chainmail leggings
+   ARMOR= 19
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate chainmail tunic
+[ITEMDEF i_chainmail_tunic_Vanadinate]
+   DEFNAME= i_chainmail_tunic_Vanadinate
+   ID= i_chainmail_tunic
+   NAME= Vanadinate chainmail tunic
+   ARMOR= 23
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Vanadinate]
+   DEFNAME= i_ringmail_sleeves_Vanadinate
+   ID= i_ringmail_sleeves
+   NAME= Vanadinate Ringmail Sleeves
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {43 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Vanadinate]
+   DEFNAME= i_ringmail_leggings_Vanadinate
+   ID= i_ringmail_leggings
+   NAME= Vanadinate Ringmail Leggings
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {43 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Vanadinate]
+   DEFNAME= i_ringmail_tunic_Vanadinate
+   ID= i_ringmail_tunic
+   NAME= Vanadinate Ringmail Tunic
+   ARMOR= 19
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {43 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Vanadinate]
+   DEFNAME= i_ringmail_gloves_Vanadinate
+   ID= i_ringmail_gloves
+   NAME= Vanadinate Ringmail Gloves
+   ARMOR= 5
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {43 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate studded sleeves
+[ITEMDEF i_studded_sleeves_Vanadinate]
+   DEFNAME= i_studded_sleeves_Vanadinate
+   ID= i_studded_sleeves
+   NAME= Vanadinate studded sleeves
+   ARMOR= 8
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Vanadinate, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate studded gloves
+[ITEMDEF i_studded_gloves_Vanadinate]
+   DEFNAME= i_studded_gloves_Vanadinate
+   ID= i_studded_gloves
+   NAME= Vanadinate studded gloves
+   ARMOR= 5
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Vanadinate, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate studded gorget
+[ITEMDEF i_studded_gorget_Vanadinate]
+   DEFNAME= i_studded_gorget_Vanadinate
+   ID= i_studded_gorget
+   NAME= Vanadinate studded gorget
+   ARMOR= 5
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Vanadinate, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate studded leggings
+[ITEMDEF i_studded_leggings_Vanadinate]
+   DEFNAME= i_studded_leggings_Vanadinate
+   ID= i_studded_leggings
+   NAME= Vanadinate studded leggings
+   ARMOR= 14
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Vanadinate, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate studded tunic
+[ITEMDEF i_studded_tunic_Vanadinate]
+   DEFNAME= i_studded_tunic_Vanadinate
+   ID= i_studded_tunic
+   NAME= Vanadinate studded tunic
+   ARMOR= 18
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Vanadinate, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate studded female armor
+[ITEMDEF i_armor_female_studded_Vanadinate]
+   DEFNAME= i_armor_female_studded_Vanadinate
+   ID= i_armor_female_studded
+   NAME= Vanadinate studded female armor
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Vanadinate, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Vanadinate]
+   DEFNAME= i_armor_female_bustier_studded_Vanadinate
+   ID= i_armor_female_bustier_studded
+   NAME= Vanadinate studded female bustier
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Vanadinate, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate platemail mempo
+[ITEMDEF i_platemail_mempo_Vanadinate]
+   DEFNAME= i_platemail_mempo_Vanadinate
+   ID= i_platemail_mempo
+   NAME= Vanadinate platemail mempo
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate platemail do
+[ITEMDEF i_platemail_do_Vanadinate]
+   DEFNAME= i_platemail_do_Vanadinate
+   ID= i_platemail_do
+   NAME= Vanadinate platemail do
+   ARMOR= 23
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Vanadinate]
+   DEFNAME= i_platemail_hiro_sode_Vanadinate
+   ID= i_platemail_hiro_sode
+   NAME= Vanadinate platemail hiro sode
+   ARMOR= 19
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate platemail suneate
+[ITEMDEF i_platemail_suneate_Vanadinate]
+   DEFNAME= i_platemail_suneate_Vanadinate
+   ID= i_platemail_suneate
+   NAME= Vanadinate platemail suneate
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate platemail haidate
+[ITEMDEF i_platemail_haidate_Vanadinate]
+   DEFNAME= i_platemail_haidate_Vanadinate
+   ID= i_platemail_haidate
+   NAME= Vanadinate platemail haidate
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate studded mempo
+[ITEMDEF i_studded_mempo_Vanadinate]
+   DEFNAME= i_studded_mempo_Vanadinate
+   ID= i_studded_mempo
+   NAME= Vanadinate studded mempo
+   ARMOR= 10
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Vanadinate, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate studded do
+[ITEMDEF i_studded_do_Vanadinate]
+   DEFNAME= i_studded_do_Vanadinate
+   ID= i_studded_do
+   NAME= Vanadinate studded do
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Vanadinate, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Vanadinate]
+   DEFNAME= i_studded_hiro_sode_Vanadinate
+   ID= i_studded_hiro_sode
+   NAME= Vanadinate studded hiro sode
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Vanadinate, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate studded suneate
+[ITEMDEF i_studded_suneate_Vanadinate]
+   DEFNAME= i_studded_suneate_Vanadinate
+   ID= i_studded_suneate
+   NAME= Vanadinate studded suneate
+   ARMOR= 12
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Vanadinate, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate studded haidate
+[ITEMDEF i_studded_haidate_Vanadinate]
+   DEFNAME= i_studded_haidate_Vanadinate
+   ID= i_studded_haidate
+   NAME= Vanadinate studded haidate
+   ARMOR= 10
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Vanadinate, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Vanadinate]
+   DEFNAME= i_platemail_gargish_arms_Vanadinate
+   ID= i_platemail_gargish_arms
+   NAME= Vanadinate Gargish Platemail Arms
+   ARMOR= 19
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Vanadinate]
+   DEFNAME= i_platemail_gargish_chest_Vanadinate
+   ID= i_platemail_gargish_chest
+   NAME= Vanadinate Gargish Platemail Chest
+   ARMOR= 27
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Vanadinate]
+   DEFNAME= i_platemail_gargish_kilt_Vanadinate
+   ID= i_platemail_gargish_kilt
+   NAME= Vanadinate Gargish Platemail Kilt
+   ARMOR= 18
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Vanadinate]
+   DEFNAME= i_platemail_gargish_leggings_Vanadinate
+   ID= i_platemail_gargish_leggings
+   NAME= Vanadinate Gargish Platemail Leggings
+   ARMOR= 23
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Vanadinate]
+   DEFNAME= i_platemail_gargish_arms_2_Vanadinate
+   ID= i_platemail_gargish_arms_2
+   NAME= Vanadinate Gargish Platemail Arms
+   ARMOR= 19
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Vanadinate]
+   DEFNAME= i_platemail_gargish_chest_2_Vanadinate
+   ID= i_platemail_gargish_chest_2
+   NAME= Vanadinate Gargish Platemail Chest
+   ARMOR= 27
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Vanadinate]
+   DEFNAME= i_platemail_gargish_kilt_2_Vanadinate
+   ID= i_platemail_gargish_kilt_2
+   NAME= Vanadinate Gargish Platemail Kilt
+   ARMOR= 18
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Vanadinate]
+   DEFNAME= i_platemail_gargish_leggings_2_Vanadinate
+   ID= i_platemail_gargish_leggings_2
+   NAME= Vanadinate Gargish Platemail Leggings
+   ARMOR= 23
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Closed Helmet
+[ITEMDEF i_helm_close_Vanadinate]
+   DEFNAME= i_helm_close_Vanadinate
+   ID= i_helm_close
+   NAME= Vanadinate Closed Helmet
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Open Helmet
+[ITEMDEF i_helm_open_Vanadinate]
+   DEFNAME= i_helm_open_Vanadinate
+   ID= i_helm_open
+   NAME= Vanadinate Open Helmet
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {43 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Bascinet
+[ITEMDEF i_bascinet_Vanadinate]
+   DEFNAME= i_bascinet_Vanadinate
+   ID= i_bascinet
+   NAME= Vanadinate Bascinet
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Norse Helmet
+[ITEMDEF i_helm_norse_Vanadinate]
+   DEFNAME= i_helm_norse_Vanadinate
+   ID= i_helm_norse
+   NAME= Vanadinate Norse Helmet
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Kabuto
+[ITEMDEF i_helm_kabuto_Vanadinate]
+   DEFNAME= i_helm_kabuto_Vanadinate
+   ID= i_helm_kabuto
+   NAME= Vanadinate Kabuto
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Vanadinate]
+   DEFNAME= i_chainmail_hatsuburi_Vanadinate
+   ID= i_chainmail_hatsuburi
+   NAME= Vanadinate Chainmail Hatsuburi
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Vanadinate]
+   DEFNAME= i_platemail_hatsuburi_Vanadinate
+   ID= i_platemail_hatsuburi
+   NAME= Vanadinate Platemail Hatsuburi
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Vanadinate]
+   DEFNAME= i_plate_jingasa_heavy_Vanadinate
+   ID= i_plate_jingasa_heavy
+   NAME= Vanadinate Heavy Jingasa
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Vanadinate]
+   DEFNAME= i_platemail_kabuto_decorative_Vanadinate
+   ID= i_platemail_kabuto_decorative
+   NAME= Vanadinate Decorative Platemail Kabuto
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {93 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Vanadinate]
+   DEFNAME= i_plate_jingasa_light_Vanadinate
+   ID= i_plate_jingasa_light
+   NAME= Vanadinate Light Jingasa
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Vanadinate]
+   DEFNAME= i_plate_jingasa_small_Vanadinate
+   ID= i_plate_jingasa_small
+   NAME= Vanadinate Small Jingasa
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Vanadinate]
+   DEFNAME= i_platemail_kabuto_battle_Vanadinate
+   ID= i_platemail_kabuto_battle
+   NAME= Vanadinate Platemail Battle Kabuto
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Vanadinate]
+   DEFNAME= i_platemail_kabuto_Vanadinate
+   ID= i_platemail_kabuto
+   NAME= Vanadinate Platemail Kabuto
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Circlet
+[ITEMDEF i_circlet_Vanadinate]
+   DEFNAME= i_circlet_Vanadinate
+   ID= i_circlet
+   NAME= Vanadinate Circlet
+   ARMOR= 9
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Royal Circlet
+[ITEMDEF i_circlet_royal_Vanadinate]
+   DEFNAME= i_circlet_royal_Vanadinate
+   ID= i_circlet_royal
+   NAME= Vanadinate Royal Circlet
+   ARMOR= 9
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Vanadinate]
+   DEFNAME= i_circlet_gemmed_Vanadinate
+   ID= i_circlet_gemmed
+   NAME= Vanadinate Gemmed Circlet
+   ARMOR= 9
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {103 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Buckler
+[ITEMDEF i_shield_buckler_Vanadinate]
+   DEFNAME= i_shield_buckler_Vanadinate
+   ID= i_shield_buckler
+   NAME= Vanadinate Buckler
+   ARMOR= 8
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Wooden Shield
+[ITEMDEF i_shield_wood_Vanadinate]
+   DEFNAME= i_shield_wood_Vanadinate
+   ID= i_shield_wood
+   NAME= Vanadinate Wooden Shield
+   ARMOR= 9
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {43 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Vanadinate]
+   DEFNAME= i_shield_round_metal_Vanadinate
+   ID= i_shield_round_metal
+   NAME= Vanadinate Light Metal  Round Shield
+   ARMOR= 10
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Vanadinate]
+   DEFNAME= i_shield_round_bronze_Vanadinate
+   ID= i_shield_round_bronze
+   NAME= Vanadinate Heavy Metal  Round Shield
+   ARMOR= 12
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Vanadinate]
+   DEFNAME= i_shield_kite_metal_Vanadinate
+   ID= i_shield_kite_metal
+   NAME= Vanadinate Metal Kite Shield
+   ARMOR= 14
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Vanadinate]
+   DEFNAME= i_shield_kite_wood_Vanadinate
+   ID= i_shield_kite_wood
+   NAME= Vanadinate Wooden Kite Shield
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Heater Shield
+[ITEMDEF i_shield_heater_Vanadinate]
+   DEFNAME= i_shield_heater_Vanadinate
+   ID= i_shield_heater
+   NAME= Vanadinate Heater Shield
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {93 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Ancient Shield
+[ITEMDEF i_shield_dupre_Vanadinate]
+   DEFNAME= i_shield_dupre_Vanadinate
+   ID= i_shield_dupre
+   NAME= Vanadinate Ancient Shield
+   ARMOR= 17
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {103 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Shield oh Hell
+[ITEMDEF i_shield_scale_Vanadinate]
+   DEFNAME= i_shield_scale_Vanadinate
+   ID= i_shield_scale
+   NAME= Vanadinate Shield oh Hell
+   ARMOR= 17
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {103 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Chaos Shield
+[ITEMDEF i_shield_chaos_Vanadinate]
+   DEFNAME= i_shield_chaos_Vanadinate
+   ID= i_shield_chaos
+   NAME= Vanadinate Chaos Shield
+   ARMOR= 18
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {113 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Order Shield
+[ITEMDEF i_shield_order_Vanadinate]
+   DEFNAME= i_shield_order_Vanadinate
+   ID= i_shield_order
+   NAME= Vanadinate Order Shield
+   ARMOR= 18
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Vanadinate
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Vanadinate
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS= {113 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

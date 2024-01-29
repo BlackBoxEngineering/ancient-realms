@@ -1,0 +1,18 @@
+[EVENTS e_Keep_DoorGuard]
+ON=@GetHit
+	TAG.GetHitCounter=<TAG0.GetHitCounter>+1
+	IF <EVAL <TAG.GetHitCounter>> > 10
+		SERV.B <REGION.NAME> Is Under Attack!!
+		TAG.GetHitCounter=0
+	ENDIF
+
+ON=@Death
+	NEWITEM=i_guard_key
+	ACT.BOUNCE
+	RETURN 0
+
+ON=@NPCRefuseItem
+	SAY I cannot be bribed. be gone.
+	RETURN 1
+
+[EOF]

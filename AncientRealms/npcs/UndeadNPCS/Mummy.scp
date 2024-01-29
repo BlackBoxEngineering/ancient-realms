@@ -1,0 +1,35 @@
+[CHARDEF 01022]
+DEFNAME=c_m_mummy
+NAME=Mummy
+ID=c_ZOMBIE
+SOUND=snd_MONSTER_GHOST1
+ICON=i_pet_ZOMBIE
+DAM=25,28
+ARMOR=25
+RESOURCES=7 t_eerie_stuff
+//ALIGNMENT=EVIL
+CAN=MT_WALK
+//SHELTER==r_dungeon,r_spooky
+DESIRES=i_gold
+TEVENTS=e_undead
+CATEGORY=Invictus - Monsters
+SUBSECTION=Undeads
+DESCRIPTION=Mummy
+
+ON=@Create
+	NPC=brain_undead
+	COLOR=color_rock
+	STR={345 370}
+	DEX={71 90}
+	INT={26 40}
+	PARRYING={20.0 60.0}
+	MAGICRESISTANCE={15.0 40.0}
+	TACTICS={35.0 50.0}
+	WRESTLING={35.0 50.0}
+	FAME={80 120}
+	KARMA={-40 -49}
+
+ON=@NPCRestock
+	ITEM=loot_MUMMY
+
+[EOF]

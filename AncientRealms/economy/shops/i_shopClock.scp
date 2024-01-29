@@ -1,0 +1,41 @@
+[ITEMDEF i_shopClock]
+DEFNAME=i_shopClock
+ID=i_clock
+NAME=Shop Clock
+TYPE=t_clock
+TEVENTS=t_shopClock
+CATEGORY=AncientRealms
+SUBSECTION=Economy-Shops
+DESCRIPTION=Shop Clock
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	COLOR=55
+	TIMER=30
+
+ON=@TIMER
+	REGION.TAG.TownControlStoneUid=<TAG.TownControlStoneUID>
+	REGION.TAG.ShopClockUid=<UID>
+	REGION.TAG.KeepTaxPercentage=<EVAL <SERV.UID.<TAG.TownControlStoneUID>.TAG.KeepTaxPercentage>>
+	COLOR=0
+	TIMER=30
+	RETURN 1
+
+[TYPEDEF t_shopClock]
+ON=@DClick
+	SRC.CTAG.ClockControlUID=<UID>
+	IF (STRMATCH(*shop*,<REGION.NAME>))||(STRMATCH(*keep*,<REGION.NAME>))
+		REGION.TAG.ShopControlUID=<UID>
+		IF (<SRC.ISGM>)
+			SDIALOG d_ShopClock
+		ELSE
+			IF (<SRC.ISPLAYER>)
+				SAY <SERV.UID.<UID>.TIME>
+			ENDIF
+		ENDIF
+	ELSE
+		SAY @00029,,1 This is not a town or a keep owned property.
+	ENDIF
+	RETURN 1
+	
+[EOF]

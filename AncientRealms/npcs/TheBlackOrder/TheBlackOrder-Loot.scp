@@ -1,0 +1,21 @@
+[TEMPLATE loot_BlackOrder_grand_mage]
+	ITEM=i_10runebookcharges, R50
+	ITEM=i_20runebookcharges, R100
+	ITEM=i_30runebookcharges, R150
+
+[TEMPLATE loot_BlackOrder_master_thief]
+	ITEM=i_10runebookcharges, R50
+	ITEM=i_20runebookcharges, R100
+	ITEM=i_30runebookcharges, R150
+
+[TEMPLATE loot_BlackOrder_ninja_mage]
+	ITEM=i_10runebookcharges, R50
+	ITEM=i_20runebookcharges, R100
+	ITEM=i_30runebookcharges, R150
+
+[TEMPLATE loot_BlackOrder_ninja_assassin]
+	ITEM=i_10runebookcharges, R50
+	ITEM=i_20runebookcharges, R100
+	ITEM=i_30runebookcharges, R150
+
+[EOF]

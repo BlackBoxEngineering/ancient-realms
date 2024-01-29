@@ -1,0 +1,91 @@
+//+++++++++++++++++++++++++++++++++++++++++++++ Item - Gate North
+[ITEMDEF i_Keep_Gate_N]
+DEFNAME=i_Keep_Gate_N
+NAME=Keep Gate
+ID=0227//06f6
+TYPE=t_wall
+VALUE=20000	
+CAN=CAN_I_BLOCKLOS|CAN_I_BLOCK
+CATEGORY=AncientRealms
+SUBSECTION=Keep Gates
+DESCRIPTION=Keep Gate (North)
+
+ON=@Create
+	COLOR = 04b0 //color_ore_blackrock
+	ATTR=ATTR_DECAY|ATTR_NEWBIE|ATTR_MOVE_NEVER
+	TIMER=3
+		
+ON=@Click
+	SAY <REGION.Name> Gates.
+	RETURN 1
+
+ON=@DClick
+	IF <SRC.GM>
+		SRC.SYSMESSAGE @1462,,1 <UID> <EVAL <Tag.peiceindex>> <TAG.GateP>
+		SRC.SYSMESSAGE @1462,,1 <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGatePeice<EVAL <Tag.peiceindex>>>
+		TAGLIST
+		RETURN 1
+	ENDIF
+	IF !(<SRC.guild>)
+		SAY Your Not in a Guild!
+	ELSE
+		IF (STRMATCH(*<SRC.GUILD.UID>*,<REGION.TAG.OwnersUid>)
+			SAY Use the Gate Switch!
+		ELSE
+			SAY Your Guild Does Not Control This Keep!
+		ENDIF
+	ENDIF
+	RETURN 1
+
+ON=@Timer
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGatePeice<EVAL <Tag.peiceindex>> = <UID>
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGateStart0=<P>
+	TIMER=3
+	RETURN 1
+	
+//+++++++++++++++++++++++++++++++++++++++++++++ Item - Gate West
+[ITEMDEF i_Keep_Gate_E]
+DEFNAME=i_Keep_Gate_E
+NAME=Keep Gate
+ID=0228//i_door_portculis
+TYPE=t_wall
+VALUE=20000
+CAN=CAN_I_BLOCKLOS|CAN_I_BLOCK
+CATEGORY=AncientRealms
+SUBSECTION=Keep Gates
+DESCRIPTION=Keep Gate (West)
+
+ON=@Create
+	COLOR = 04b0 //color_ore_blackrock
+	ATTR=ATTR_DECAY|ATTR_NEWBIE|ATTR_MOVE_NEVER
+	TIMER=8
+ 
+ON=@Click
+	SAY <REGION.Name> Gates.
+	RETURN 1
+
+ON=@DClick
+	IF <SRC.GM>
+		SRC.SYSMESSAGE @1462,,1 <UID> <EVAL <Tag.peiceindex>> <TAG.GateP>
+		SRC.SYSMESSAGE @1462,,1 <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGatePeice<EVAL <Tag.peiceindex>>>
+		TAGLIST
+		RETURN 1
+	ENDIF
+	IF !(<SRC.guild>)
+		SAY Your Not in a Guild!
+	ELSE
+		IF (STRMATCH(*<SRC.GUILD.UID>*,<REGION.TAG.OwnersUid>)
+			SAY Use the Gate Switch!
+		ELSE
+			SAY Your Guild Does Not Control This Keep!
+		ENDIF
+	ENDIF
+	RETURN 1
+
+ON=@Timer
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGatePeice<EVAL <Tag.peiceindex>> = <UID>
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGateStart=<SERV.UID.<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGatePeice0>.P>
+	TIMER=8
+	RETURN 1
+
+[EOF]

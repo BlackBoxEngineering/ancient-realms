@@ -1,0 +1,14 @@
+[EVENTS e_EatSomething]
+ON=@SkillStart
+	IF <FINDTYPE.t_food>
+		FINDTYPE.t_food.dclick
+	ENDIF
+	EVENTS -e_EatSomething
+	RETURN 0
+
+[FUNCTION EatFood]
+IF <FINDTYPE.t_food>
+	EVENTS +e_EatSomething
+ENDIF
+
+[EOF]

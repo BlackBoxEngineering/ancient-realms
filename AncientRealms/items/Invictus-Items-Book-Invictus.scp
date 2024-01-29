@@ -1,0 +1,195 @@
+[ITEMDEF i_full_spellbook]
+DEFNAME=i_full_spellbook
+ID=0efa
+NAME=Full SpellBook
+RESOURCES=800 I_PARCHMENT, 100 I_HIDE
+TYPE=T_SPELLBOOK
+WEIGHT=1
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Magical Items
+DESCRIPTION=Spellbook
+
+ON=@Create
+	ATTR=attr_magic|attr_newbie
+	MORE1=0fffffffff
+	MORE2=0fffffffff
+
+[ITEMDEF i_InvictusQuestStartPointA]
+ID=0fbe
+DEFNAME=i_InvictusQuestStartPoint
+TYPE=t_eq_script
+NAME=Ancientrealms Quest Memory
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=5
+
+ON=@TIMER
+	IF (<CONT.FINDID.i_invictus_quest_riddle>)
+		CONT.SYSMESSAGE @55 Welcome to Ancientrealms
+		CONT.FINDID.i_invictus_quest_riddle.REMOVE
+		CONT.GO 940,500,-30,2
+	ENDIF
+	REMOVE
+	ENDIF
+
+[ITEMDEF i_invictus_quest_riddle]
+ID=0fbe
+DEFNAME=i_invictus_quest_riddle
+TYPE=t_eq_script
+NAME=Ancientrealms Quest Memory
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=5
+	MORE=1
+
+ON=@TIMER
+	IF (<MORE> > 20)
+		REMOVE
+		RETURN 1
+	ELSE
+		IF !<CONT.SECTOR.ISDARK>
+			CONT.SYSMESSAGE @1462 The night that covers me!
+			CONT.TAG.InvictusQuestNight=
+			CONT.NightSight=0
+		ELSE
+			CONT.TAG.InvictusQuestNight=1
+			CONT.NightSight=1		
+		ENDIF
+		IF (<CONT.FINDID.i_flesh_head>)
+			//CONT.SAY FOUND HEAD OF <CONT.FINDID.i_flesh_head.name>)
+			IF (<CONT.FINDID.i_flesh_head.LINK>==<CONT.UID>))
+				CONT.TAG.InvictusQuestHead=1
+				CONT.EFFECT 3,i_fx_spin_head,10,20,10
+			ELSE
+				CONT.SYSMESSAGE @1462 My head is bloody, but unbowed!
+				CONT.TAG.InvictusQuestHead=				
+			ENDIF
+		ENDIF
+		IF !(<CONT.FINDID.i_scroll_of_punishment>)
+			CONT.SYSMESSAGE @1462 Charged with punishments of the scroll!
+			CONT.TAG.InvictusQuestScroll=
+		ELSE
+			CONT.TAG.InvictusQuestScroll=1
+			CONT.EFFECT 2,03728,3,20
+		ENDIF
+		IF !((<CONT.FINDID.i_deed_ship>)||(<CONT.FINDID.i_deed_ship_dragon_long_n>)||(<CONT.FINDID.i_deed_ship_dragon_medium_n>)||(<CONT.FINDID.i_deed_ship_dragon_small_n>)||(<CONT.FINDID.i_deed_ship_long_n>)||(<CONT.FINDID.i_deed_ship_medium_n>)||(<CONT.FINDID.i_deed_ship_small_n>))
+			CONT.SYSMESSAGE @1462 I am the captain of my soul
+			TAG.InvictusQuestCaptain=
+		ELSE
+			CONT.TAG.InvictusQuestCaptain=1
+			CONT.EFFECT 3,0376a,0,15,0
+		ENDIF
+		IF (<CONT.TAG0.InvictusQuestNight>&&<CONT.TAG0.InvictusQuestHead>&&<CONT.TAG0.InvictusQuestScroll>&&<CONT.TAG0.InvictusQuestCaptain>)
+			NEWITEM i_InvictusQuestStartPoint, 1, <CONT.UID>
+		ENDIF
+	ENDIF
+	MORE=<MORE>+1
+	TIMER 3
+	RETURN 1
+
+[ITEMDEF i_scroll_of_punishment]
+DEFNAME=i_scroll_of_punishment
+ID=I_SCROLL_BLANK
+NAME=Scroll Of Punishment
+TYPE=T_Scroll
+WEIGHT=1
+CATEGORY=Ancientrealms - Quests
+SUBSECTION=Quest Items
+DESCRIPTION=Scroll Of Punishment
+
+ON=@Create
+	COLOR=COLOR_LOG_MAPLE
+
+[ITEMDEF i_book_of_invictus]
+DEFNAME=i_book_of_invictus
+NAME=The Book Of Ancientrealms
+ID=i_BOOK_OPEN
+TYPE=T_BOOK
+WEIGHT=5
+CATEGORY=Ancientrealms - Quests
+SUBSECTION=Quest Items
+DESCRIPTION=Book of Ancientrealms1
+
+ON=@Create
+	MORE1=b_invictus   
+         
+ON=@DCLICK
+	SRC.SOUND=482
+	SRC.TAG.InvictusQuest=1
+	IF !<SRC.FINDID.i_invictus_quest_riddle>
+		NEWITEM i_invictus_quest_riddle, 1, <SRC.UID>
+	ENDIF
+
+ON=@TIMER
+	RETURN 1
+	
+[ITEMDEF i_book_of_invictus_2]
+DEFNAME=i_book_of_invictus_2
+NAME=The Book Of Ancientrealms
+ID=i_BOOK_OPEN
+TYPE=T_BOOK
+WEIGHT=5
+CATEGORY=Ancientrealms - Quests
+SUBSECTION=Quest Items
+DESCRIPTION=Book of Ancientrealms2
+
+ON=@Create
+	MORE1=b_invictus	
+      
+ON=@DCLICK
+	SRC.SOUND=482
+	SRC.TAG.InvictusQuest=2
+	SRC.GO 1668,1509,-110,3
+
+ON=@TIMER
+	RETURN 1
+	
+
+[BOOK b_invictus]
+TITLE=Henleys Riddle
+AUTHOR=William Henley
+PAGES=6
+
+
+[BOOK b_invictus 1]
+Out of the night
+that covers me,
+Black as the pit
+from pole to pole,
+I thank whatever
+gods may be for my
+unconquerable soul.
+
+[BOOK b_invictus 2]
+In the fell clutch
+of circumstance
+I have not winced 
+nor cried aloud.
+Under the bludgeonings
+of chance My head 
+is bloody, but unbowed.
+
+[BOOK b_invictus 3]
+Beyond this place 
+of wrath and tears
+Looms but the Horror 
+of the shade,
+And yet the menace 
+of the years shall 
+find me unafraid.
+
+[BOOK b_invictus 4]
+It matters not how 
+strait the gate,
+How charged with 
+punishments the scroll,
+I am the master 
+of my fate.
+I am the captain 
+of my soul.
+
+[EOF]

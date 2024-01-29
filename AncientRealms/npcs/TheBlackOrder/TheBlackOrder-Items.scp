@@ -1,0 +1,13 @@
+[ITEMDEF i_crystal_ball_blackorder]
+DEFNAME=i_crystal_ball_blackorder
+ID=i_crystal_ball
+NAME=A Strange Crystal Ball
+TYPE=t_crystal_ball_blackorder
+WEIGHT=3
+RESOURCES=2 i_cursedboard, 7 i_sand, 1 i_theeyeoftheblackdragon
+
+CATEGORY=Ancientrealms-NPCS
+SUBSECTION=The Black Order
+DESCRIPTION=Black Order CrystalBall
+
+[EOF]

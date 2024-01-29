@@ -1,0 +1,95 @@
+[FUNCTION GIVEGOLD]
+IF (<EVAL <ARGV[0]>> > 24999)
+	LOCAL.AmountsOf25k=<EVAL <ARGV[0]>/25000>
+	IF (<EVAL <LOCAL.AmountsOf25k>> > 1)
+		LOCAL.CountDown=<EVAL <ARGV[0]>>
+		FOR X 1 <EVAL <LOCAL.AmountsOf25k>>
+			IF !(<EVAL <LOCAL.CountDown>> < 25000)
+				NEWITEM i_gold,25000,<UID>
+				LOCAL.CountDown=<EVAL <LOCAL.CountDown> - 25000>
+			ENDIF
+		ENDFOR
+	ENDIF
+ELSE
+	LOCAL.CountDown=<EVAL <ARGV[0]>>
+ENDIF
+IF (<EVAL <LOCAL.CountDown>> > 0)
+	NEWITEM i_gold,<EVAL <LOCAL.CountDown>>,<UID>
+ENDIF
+
+[PLEVEL 1]
+ShowDamageOnHead
+ShowDamageOnDisplay
+
+[FUNCTION ShowDamageOnHead]
+TAG.ShowDamageOnHead=1
+TAG.ShowDamageOnDisplay=
+
+[FUNCTION ShowDamageOnDisplay]
+TAG.ShowDamageOnHead=
+TAG.ShowDamageOnDisplay=1
+
+[FUNCTION f_RemoveFromBank]
+IF <EVAL <FINDLAYER.29.RESCOUNT <ARGV[0]>>> > <EVAL <ARGV[1]>>
+	FINDLAYER.29.CONTCONSUME <ARGV[0]> <EVAL <ARGV[1]>>
+	SYSMESSAGE @55,,1 <EVAL <ARGV[1]>> <ARGV[0]> has been removed from your bank
+ELSE
+	SYSMESSAGE @55,,1 You do not have <EVAL <ARGV[1]>> <ARGV[0]> in your bank! Infact! you have <EVAL <FINDLAYER.29.RESCOUNT <ARGV[0]>>> <ARGV[0]> in your bank.
+ENDIF
+
+[Function FullSpellBook]
+newitem=i_spellbook
+new.more1=0fffffffff
+new.more2=0fffffffff
+NEW.TAG.SpellChanneling=1
+bounce <new.uid>
+
+[FUNCTION Give]
+SERV.NEWITEM <ARGV[0]>
+NEW.AMOUNT=<ARGV[1]>
+NEW.BOUNCE
+
+[FUNCTION f_cash_givecash]
+LOCAL.pilesize=65000  //Cash pile size
+LOCAL.change=<eval(<argn>-((<argn>/<LOCAL.pilesize>)*<LOCAL.pilesize>))>
+LOCAL.piles=<eval(<argn>/<LOCAL.pilesize>)>
+				
+IF (0<LOCAL.piles> > 0)
+	NEWITEM i_gold
+	ACT.AMOUNT <LOCAL.pilesize>
+	ACT.BOUNCE
+				
+	if (0<LOCAL.piles> > 1)
+		act.dupe <eval(<LOCAL.piles>-1)>
+	endif
+endif
+			
+if (0<LOCAL.change> > 0)
+	newitem i_gold
+	act.amount <LOCAL.change>
+	act.bounce
+endif		
+
+[FUNCTION f_cash_givecash_bank]
+LOCAL.pilesize=65000  //Cash pile size
+LOCAL.change=<eval(<argn>-((<argn>/<LOCAL.pilesize>)*<LOCAL.pilesize>))>
+LOCAL.piles=<eval(<argn>/<LOCAL.pilesize>)>
+			
+if (0<LOCAL.piles> > 0)
+	newitem i_gold
+	act.amount <LOCAL.pilesize>
+	act.cont <findlayer.layer_bankbox.uid>
+				
+	if (0<LOCAL.piles> > 1)
+		act.dupe <eval(<LOCAL.piles>-1)>
+	endif
+endif
+			
+if (0<LOCAL.change> > 0)
+	newitem i_gold
+	act.amount <LOCAL.change>
+	act.cont <findlayer.layer_bankbox.uid>
+endif
+
+
+[EOF]

@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Chromite Quarter Staff
+
+[ITEMDEF i_staff_quarter_Chromite]
+   DEFNAME=i_staff_quarter_Chromite
+   ID=i_staff_quarter
+   NAME=Chromite Quarter Staff
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=27
+   VALUE=148
+   SPEED=54
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={20 42}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Chromite]
+   DEFNAME=i_serpentstone_staff_Chromite
+   ID=i_serpentstone_staff
+   NAME=Chromite Serpentstone Staff
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=31
+   VALUE=148
+   SPEED=53
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={60 82}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Chromite]
+   DEFNAME=i_staff_bladed_double_Chromite
+   ID=i_staff_bladed_double
+   NAME=Chromite Double Bladed Staff
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=39
+   VALUE=148
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={120 142}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Glass Staff
+
+[ITEMDEF i_glass_staff_Chromite]
+   DEFNAME=i_glass_staff_Chromite
+   ID=i_glass_staff
+   NAME=Chromite Glass Staff
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=36
+   VALUE=148
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={90 112}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Bladed Staff
+
+[ITEMDEF i_bladed_staff_Chromite]
+   DEFNAME=i_bladed_staff_Chromite
+   ID=i_bladed_staff
+   NAME=Chromite Bladed Staff
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=37
+   VALUE=148
+   SPEED=53
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={115 137}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Tongs
+
+[ITEMDEF i_tongs_Chromite]
+   DEFNAME=i_tongs_Chromite
+   ID=i_tongs
+   NAME=Chromite Tongs
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=14
+   VALUE=148
+   SPEED=16
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={0 22}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Mace
+
+[ITEMDEF i_mace_Chromite]
+   DEFNAME=i_mace_Chromite
+   ID=i_mace
+   NAME=Chromite Mace
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=27
+   VALUE=148
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Maul
+
+[ITEMDEF i_maul_Chromite]
+   DEFNAME=i_maul_Chromite
+   ID=i_maul
+   NAME=Chromite Maul
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=29
+   VALUE=148
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={40 62}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Scepter
+
+[ITEMDEF i_scepter_Chromite]
+   DEFNAME=i_scepter_Chromite
+   ID=i_scepter
+   NAME=Chromite Scepter
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=31
+   VALUE=148
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={50 72}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Chromite]
+   DEFNAME=i_hammer_sledge_Chromite
+   ID=i_hammer_sledge
+   NAME=Chromite Sledge Hammer
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=31
+   VALUE=148
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={20 42}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Chromite]
+   DEFNAME=i_hammer_smith_Chromite
+   ID=i_hammer_smith
+   NAME=Chromite Smiths Hammer
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=17
+   VALUE=148
+   SPEED=16
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite War Mace
+
+[ITEMDEF i_mace_war_Chromite]
+   DEFNAME=i_mace_war_Chromite
+   ID=i_mace_war
+   NAME=Chromite War Mace
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=35
+   VALUE=148
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={80 102}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Disc Mace
+
+[ITEMDEF i_disc_mace_Chromite]
+   DEFNAME=i_disc_mace_Chromite
+   ID=i_disc_mace
+   NAME=Chromite Disc Mace
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=35
+   VALUE=148
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={70 92}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite War Hammer
+
+[ITEMDEF i_hammer_war_Chromite]
+   DEFNAME=i_hammer_war_Chromite
+   ID=i_hammer_war
+   NAME=Chromite War Hammer
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=41
+   VALUE=148
+   SPEED=56
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={100 122}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Hammer Pick
+
+[ITEMDEF i_hammer_pick_Chromite]
+   DEFNAME=i_hammer_pick_Chromite
+   ID=i_hammer_pick
+   NAME=Chromite Hammer Pick
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=37
+   VALUE=148
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={55 77}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite War Axe
+
+[ITEMDEF i_axe_war_Chromite]
+   DEFNAME=i_axe_war_Chromite
+   ID=i_axe_war
+   NAME=Chromite War Axe
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=27
+   VALUE=148
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={65 87}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Tessen
+
+[ITEMDEF i_tessen_Chromite]
+   DEFNAME=i_tessen_Chromite
+   ID=i_tessen
+   NAME=Chromite Tessen
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=26
+   VALUE=148
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={75 97}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Long Sword
+
+[ITEMDEF i_sword_long_Chromite]
+   DEFNAME=i_sword_long_Chromite
+   ID=i_sword_long
+   NAME=Chromite Long Sword
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=148
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={10 32}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Broad Sword
+
+[ITEMDEF i_sword_broad_Chromite]
+   DEFNAME=i_sword_broad_Chromite
+   ID=i_sword_broad
+   NAME=Chromite Broad Sword
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=148
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={20 42}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Scimitar
+
+[ITEMDEF i_scimitar_Chromite]
+   DEFNAME=i_scimitar_Chromite
+   ID=i_scimitar
+   NAME=Chromite Scimitar
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=148
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Viking Sword
+
+[ITEMDEF i_sword_viking_Chromite]
+   DEFNAME=i_sword_viking_Chromite
+   ID=i_sword_viking
+   NAME=Chromite Viking Sword
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=148
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={35 57}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Katana
+
+[ITEMDEF i_katana_Chromite]
+   DEFNAME=i_katana_Chromite
+   ID=i_katana
+   NAME=Chromite Katana
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=148
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={80 102}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Wakizashi
+
+[ITEMDEF i_wakizashi_Chromite]
+   DEFNAME=i_wakizashi_Chromite
+   ID=i_wakizashi
+   NAME=Chromite Wakizashi
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=148
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={45 67}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Long Sword
+
+[ITEMDEF i_sword_long_b_Chromite]
+   DEFNAME=i_sword_long_b_Chromite
+   ID=i_sword_long_b
+   NAME=Chromite Long Sword
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=148
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={50 72}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Paladin Sword
+
+[ITEMDEF i_sword_paladin_Chromite]
+   DEFNAME=i_sword_paladin_Chromite
+   ID=i_sword_paladin
+   NAME=Chromite Paladin Sword
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=148
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={65 87}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Bokuto
+
+[ITEMDEF i_bokuto_Chromite]
+   DEFNAME=i_bokuto_Chromite
+   ID=i_bokuto
+   NAME=Chromite Bokuto
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=148
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={70 92}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Chromite]
+   DEFNAME=i_Radiant_Scimitar_Chromite
+   ID=i_Radiant_Scimitar
+   NAME=Chromite Radiant Scimitar
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=29
+   VALUE=148
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={75 97}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Bone Harvester
+
+[ITEMDEF i_bone_harvester_Chromite]
+   DEFNAME=i_bone_harvester_Chromite
+   ID=i_bone_harvester
+   NAME=Chromite Bone Harvester
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=148
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={55 77}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Butcher Knife
+
+[ITEMDEF i_knife_butcher_Chromite]
+   DEFNAME=i_knife_butcher_Chromite
+   ID=i_knife_butcher
+   NAME=Chromite Butcher Knife
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=148
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Chromite]
+   DEFNAME=i_cleaver_meat_Chromite
+   ID=i_cleaver_meat
+   NAME=Chromite Meat Cleaver
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=148
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Elven Machete
+
+[ITEMDEF i_elven_machete_Chromite]
+   DEFNAME=i_elven_machete_Chromite
+   ID=i_elven_machete
+   NAME=Chromite Elven Machete
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=30
+   VALUE=148
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={60 82}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Bone Machete
+
+[ITEMDEF i_bone_machete_Chromite]
+   DEFNAME=i_bone_machete_Chromite
+   ID=i_bone_machete
+   NAME=Chromite Bone Machete
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=31
+   VALUE=148
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={50 72}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Daisho
+
+[ITEMDEF i_daisho_Chromite]
+   DEFNAME=i_daisho_Chromite
+   ID=i_daisho
+   NAME=Chromite Daisho
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=32
+   VALUE=148
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={65 87}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite No-Dachi
+
+[ITEMDEF i_no_dachi_Chromite]
+   DEFNAME=i_no_dachi_Chromite
+   ID=i_no_dachi
+   NAME=Chromite No-Dachi
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=33
+   VALUE=148
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={75 97}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Rune Blade
+
+[ITEMDEF i_Rune_Blade_Chromite]
+   DEFNAME=i_Rune_Blade_Chromite
+   ID=i_Rune_Blade
+   NAME=Chromite Rune Blade
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=35
+   VALUE=148
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={115 137}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Axe
+
+[ITEMDEF i_axe_Chromite]
+   DEFNAME=i_axe_Chromite
+   ID=i_axe
+   NAME=Chromite Axe
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=25
+   VALUE=148
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={42 64}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Bardiche
+
+[ITEMDEF i_bardiche_Chromite]
+   DEFNAME=i_bardiche_Chromite
+   ID=i_bardiche
+   NAME=Chromite Bardiche
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=148
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={58 80}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Battle Axe
+
+[ITEMDEF i_axe_battle_Chromite]
+   DEFNAME=i_axe_battle_Chromite
+   ID=i_axe_battle
+   NAME=Chromite Battle Axe
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=148
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={65 87}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Double Axe
+
+[ITEMDEF i_axe_double_Chromite]
+   DEFNAME=i_axe_double_Chromite
+   ID=i_axe_double
+   NAME=Chromite Double Axe
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=35
+   VALUE=148
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={70 92}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Chromite]
+   DEFNAME=i_axe_exec_Chromite
+   ID=i_axe_exec
+   NAME=Chromite Exectutioners Axe
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=35
+   VALUE=148
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={73 95}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Halberd
+
+[ITEMDEF i_halberd_Chromite]
+   DEFNAME=i_halberd_Chromite
+   ID=i_halberd
+   NAME=Chromite Halberd
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=36
+   VALUE=148
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={75 97}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Hatchet
+
+[ITEMDEF i_hatchet_Chromite]
+   DEFNAME=i_hatchet_Chromite
+   ID=i_hatchet
+   NAME=Chromite Hatchet
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=148
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={40 62}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Chromite]
+   DEFNAME=i_axe_battle_large_Chromite
+   ID=i_axe_battle_large
+   NAME=Chromite Large Battle Axe
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=38
+   VALUE=148
+   SPEED=49
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={100 122}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Ornate Axe
+
+[ITEMDEF i_ornate_axe_Chromite]
+   DEFNAME=i_ornate_axe_Chromite
+   ID=i_ornate_axe
+   NAME=Chromite Ornate Axe
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=148
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={60 82}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Chromite]
+   DEFNAME=i_axe_two_hand_Chromite
+   ID=i_axe_two_hand
+   NAME=Chromite Two Handed Axe
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=36
+   VALUE=148
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={55 77}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Dual Axes
+
+[ITEMDEF i_dual_short_axes_Chromite]
+   DEFNAME=i_dual_short_axes_Chromite
+   ID=i_dual_short_axes
+   NAME=Chromite Dual Axes
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=148
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={95 117}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Cresent Blade
+
+[ITEMDEF i_crescent_blade_Chromite]
+   DEFNAME=i_crescent_blade_Chromite
+   ID=i_crescent_blade
+   NAME=Chromite Cresent Blade
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=38
+   VALUE=148
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={110 132}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Dagger
+
+[ITEMDEF i_dagger_Chromite]
+   DEFNAME=i_dagger_Chromite
+   ID=i_dagger
+   NAME=Chromite Dagger
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=148
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={10 32}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Skinning Knife
+
+[ITEMDEF i_knife_skinning_Chromite]
+   DEFNAME=i_knife_skinning_Chromite
+   ID=i_knife_skinning
+   NAME=Chromite Skinning Knife
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=148
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={15 37}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Chromite]
+   DEFNAME=i_sword_Assassin_Spike_Chromite
+   ID=i_sword_Assassin_Spike
+   NAME=Chromite Assassin Spike
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=148
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Cutlass
+
+[ITEMDEF i_cutlass_Chromite]
+   DEFNAME=i_cutlass_Chromite
+   ID=i_cutlass
+   NAME=Chromite Cutlass
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=148
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={25 47}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Short Blade
+
+[ITEMDEF i_shortblade_Chromite]
+   DEFNAME=i_shortblade_Chromite
+   ID=i_shortblade
+   NAME=Chromite Short Blade
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=148
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={35 57}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Scythe
+
+[ITEMDEF i_scythe_Chromite]
+   DEFNAME=i_scythe_Chromite
+   ID=i_scythe
+   NAME=Chromite Scythe
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=34
+   VALUE=148
+   SPEED=43
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={115 137}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Short Spear
+
+[ITEMDEF i_spear_short_Chromite]
+   DEFNAME=i_spear_short_Chromite
+   ID=i_spear_short
+   NAME=Chromite Short Spear
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=148
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={45 67}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite War Fork
+
+[ITEMDEF i_war_fork_Chromite]
+   DEFNAME=i_war_fork_Chromite
+   ID=i_war_fork
+   NAME=Chromite War Fork
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=148
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={50 72}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Leafblade
+
+[ITEMDEF i_sword_leafblade_Chromite]
+   DEFNAME=i_sword_leafblade_Chromite
+   ID=i_sword_leafblade
+   NAME=Chromite Leafblade
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=148
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={60 82}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Chromite]
+   DEFNAME=i_elven_spellblade_Chromite
+   ID=i_elven_spellblade
+   NAME=Chromite Elven Spell Blade
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=148
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={75 97}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Pitchfork
+
+[ITEMDEF i_pitchfork_Chromite]
+   DEFNAME=i_pitchfork_Chromite
+   ID=i_pitchfork
+   NAME=Chromite Pitchfork
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=29
+   VALUE=148
+   SPEED=44
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={55 77}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite War Cleaver
+
+[ITEMDEF i_war_cleaver_Chromite]
+   DEFNAME=i_war_cleaver_Chromite
+   ID=i_war_cleaver
+   NAME=Chromite War Cleaver
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=148
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={65 87}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Pike
+
+[ITEMDEF i_pike_Chromite]
+   DEFNAME=i_pike_Chromite
+   ID=i_pike
+   NAME=Chromite Pike
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=148
+   SPEED=44
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={70 92}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Blood Blade
+
+[ITEMDEF i_bloodblade_Chromite]
+   DEFNAME=i_bloodblade_Chromite
+   ID=i_bloodblade
+   NAME=Chromite Blood Blade
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=148
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={75 97}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Kama
+
+[ITEMDEF i_kama_Chromite]
+   DEFNAME=i_kama_Chromite
+   ID=i_kama
+   NAME=Chromite Kama
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=29
+   VALUE=148
+   SPEED=43
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={77 99}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Kryss
+
+[ITEMDEF i_kryss_Chromite]
+   DEFNAME=i_kryss_Chromite
+   ID=i_kryss
+   NAME=Chromite Kryss
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=148
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={80 102}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Lajatang
+
+[ITEMDEF i_lajatang_Chromite]
+   DEFNAME=i_lajatang_Chromite
+   ID=i_lajatang
+   NAME=Chromite Lajatang
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=148
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={85 107}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Sai
+
+[ITEMDEF i_sai_Chromite]
+   DEFNAME=i_sai_Chromite
+   ID=i_sai
+   NAME=Chromite Sai
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=30
+   VALUE=148
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={76 98}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Tekagi
+
+[ITEMDEF i_tekagi_Chromite]
+   DEFNAME=i_tekagi_Chromite
+   ID=i_tekagi
+   NAME=Chromite Tekagi
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=148
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={90 112}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Chromite]
+   DEFNAME=i_dual_pointed_spear_Chromite
+   ID=i_dual_pointed_spear
+   NAME=Chromite Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Chromite
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=33
+   VALUE=148
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Chromite
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS={115 137}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

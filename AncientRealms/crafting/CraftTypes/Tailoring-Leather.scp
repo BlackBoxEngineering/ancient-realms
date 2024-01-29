@@ -1,0 +1,39 @@
+[TYPEDEF t_leather]
+ON=@Dclick
+	DIALOGCLOSE InvictusCraftingMenu
+	IF (<CONT> != <SRC.FINDLAYER.layer_pack>)
+		SRC.SYSMESSAGE @55 This must be in your pack to use!
+	ELSE
+		IF !(<SRC.FINDID.i_sewing_kit>)
+			SRC.SYSMESSAGE @55 You need a sewing kit to work with leather
+			SRC.CTAG.CraftingMaterial = 
+			SRC.CTAG.CraftingSkillName = 
+		ELSE
+			SRC.CTAG.CraftingMaterial = <UID>
+			SRC.CTAG.CraftingSkillName = Tailoring
+			SRC.DIALOGCLOSE InvictusCraftingMenu
+			SRC.DIALOG InvictusCraftingMenu
+		ENDIF
+	ENDIF
+	RETURN 1
+
+[TYPEDEF t_hide]
+ON=@Dclick
+	DIALOGCLOSE InvictusCraftingMenu
+	IF (<CONT> != <SRC.FINDLAYER.layer_pack>)
+		SRC.SYSMESSAGE @55 This must be in your pack to use!
+	ELSE
+		IF !(<SRC.FINDID.i_sewing_kit>)
+			SRC.SYSMESSAGE @55 You need a sewing kit to work with leather
+			SRC.CTAG.CraftingMaterial = 
+			SRC.CTAG.CraftingSkillName = 
+		ELSE
+			SRC.CTAG.CraftingMaterial = <UID>
+			SRC.CTAG.CraftingSkillName = Tailoring
+			SRC.DIALOGCLOSE InvictusCraftingMenu
+			SRC.DIALOG InvictusCraftingMenu
+		ENDIF
+	ENDIF
+	RETURN 1
+
+[EOF]

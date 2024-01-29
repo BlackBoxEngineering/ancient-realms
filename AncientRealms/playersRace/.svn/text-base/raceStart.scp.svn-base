@@ -1,0 +1,148 @@
+////////////////////////////////////////////// f_racePrepareToStart
+[FUNCTION f_racePrepareToStart]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+REF2=<SERV.UID.<REF1.TAG.CheckPoint_1_UID>>
+IF !<FINDID.i_racePlayersBrain>
+	SERV.NEWITEM i_racePlayersBrain, 1, <UID>
+ENDIF
+CTAG.ReachedCheckPoint=1
+CTAG.RaceDistance=1
+CTAG.RaceLapNo=1
+CTAG.RaceLost=
+EVENTS +e_PlayersRace
+FLAGS|= statf_freeze
+SYSMESSAGE @453 Get Ready To Race
+SFX 1472
+REF1.TAG.PlayersRemainingCount=<EVAL <REF1.TAG.PlayerCount>>
+REF2=<SERV.UID.<REF1.TAG.CheckPoint_1_UID>>
+REF2.TAG.RaceCountDown=<EVAL <REF1.TAG.StartCount>>
+REF2.TAG.RaceStarted=1
+REF1.TAG.GameIsOn=1
+REF2.TIMER=2
+
+////////////////////////////////////////////// f_raceStartLap
+[FUNCTION f_raceStartLap]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+REF2=<SERV.UID.<REF1.TAG.CheckPoint_2_UID>>
+REF3=<SERV.UID.<ARGV[0]>>
+REF3.ARROWQUEST=<REF2.P.X>,<REF2.P.Y>,1
+REF3.f_raceSFXStartPlayer
+//SERV.LOG <REF3.NAME> Starts Race Onward to CheckPoint[2] LapNo <EVAL <REF3.CTAG.RaceLapNo>>
+
+////////////////////////////////////////////// f_raceStartPlayers
+[FUNCTION f_raceStartPlayers]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+REF2=<SERV.UID.<REF1.TAG.CheckPoint_1_UID>>
+FOR SlotNo 1 <EVAL <REF1.TAG.PlayerCount>>
+	IF <REF1.TAG.PlayerNumber_<EVAL <LOCAL.SlotNo>>_UID>
+		REF3=<SERV.UID.<REF1.TAG.PlayerNumber_<EVAL <LOCAL.SlotNo>>_UID>>
+		REF3.FLAGS &= ~statf_freeze
+		f_raceStartLap <REF3.UID>
+		//SERV.LOG <REF3.NAME> Unfroozen
+	ENDIF
+ENDFOR
+f_raceClearControl
+REF2.TAG.TimerReset=1
+IF <EVAL <REF1.TAG.LapsOn>>==1
+	f_raceLocateWaitArea
+ENDIF
+
+////////////////////////////////////////////// f_raceSFXStartPlayer
+[FUNCTION f_raceSFXStartPlayer]
+SFX 52 // Coin
+SFX 1457 // Violin
+SFX 748 // Drums lasts about 3
+TIMERF 1,SFX 1613 // Whistle
+TIMERF 2,SFX 1315 // Strongbow
+
+////////////////////////////////////////////// f_raceTrackDefineStart
+[FUNCTION f_raceTrackDefineStart]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+REF2=<SERV.UID.<REF1.TAG.CheckPoint_1_UID>>
+// All Players shall start to the right hand side of the CP facing the correct direction.
+IF (STRMATCH(*north*,<SERV.UID.<REF1.TAG.CheckPoint_1_UID>.TAG.StartDirection>))
+	LOCAL.YColumnCount=<EVAL (<REF1.TAG0.PlayerCount> / 3) + 1>
+	LOCAL.YColumnSouth=<EVAL <REF2.P.Y>+1>
+	LOCAL.ZGroundHieght=<EVAL <REF2.P.Z>+1>
+	LOCAL.MapNumber=<EVAL <f_getMapNumber>>
+	FOR Columns 1 <EVAL <LOCAL.YColumnCount>>
+		LOCAL.XRowEast=<EVAL <REF2.P.X>+1>	
+		FOR Rows 1 3
+			LOCAL.PlayerSlotNo=<EVAL <LOCAL.PlayerSlotNo> + 1> // Now we are moving up the slot list 
+			//SERV.LOG Looping FOR Rows <EVAL <LOCAL.Rows>> sending player <REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_NAME> to <EVAL <LOCAL.XRowEast>>, <EVAL <LOCAL.YColumnSouth>>, <EVAL <LOCAL.ZGroundHieght>>, <EVAL <LOCAL.MapNumber>>
+			SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.CTAG.RaceWaiting=
+			SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.GO <EVAL <LOCAL.XRowEast>>,<EVAL <LOCAL.YColumnSouth>>,<EVAL <LOCAL.ZGroundHieght>>,<EVAL <LOCAL.MapNumber>>
+			SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.CTAG.RaceLine=<EVAL <SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.DISTANCE <REF2.UID>>+<LOCAL.Column>>
+			SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.f_racePrepareToStart
+			LOCAL.XRowEast ++
+		ENDFOR 
+		LOCAL.YColumnSouth --
+	ENDFOR 
+ELIF (STRMATCH(*south*,<SERV.UID.<REF1.TAG.CheckPoint_1_UID>.TAG.StartDirection>))
+	LOCAL.YColumnCount=<EVAL (<REF1.TAG0.PlayerCount> / 3) + 1>
+	LOCAL.YColumnSouth=<EVAL <REF2.P.Y>-1>
+	LOCAL.ZGroundHieght=<EVAL <REF2.P.Z>+1>
+	LOCAL.MapNumber=<EVAL <f_getMapNumber>>
+	FOR Columns <EVAL <LOCAL.YColumnCount>> 1
+		LOCAL.XRowEast=<EVAL <REF2.P.X>-3>	
+		FOR Rows 3 1
+			LOCAL.PlayerSlotNo=<EVAL <LOCAL.PlayerSlotNo> + 1> // Now we are moving up the slot list 
+			//SERV.LOG Looping FOR Rows <EVAL <LOCAL.Rows>> sending player <REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_NAME> to <EVAL <LOCAL.XRowEast>>, <EVAL <LOCAL.YColumnSouth>>, <EVAL <LOCAL.ZGroundHieght>>, <EVAL <LOCAL.MapNumber>>
+			SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.CTAG.RaceWaiting=
+			SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.GO <EVAL <LOCAL.XRowEast>>,<EVAL <LOCAL.YColumnSouth>>,<EVAL <LOCAL.ZGroundHieght>>,<EVAL <LOCAL.MapNumber>>
+			SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.CTAG.RaceLine=<EVAL <SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.DISTANCE <REF2.UID>>+<LOCAL.Column>>
+			SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.f_racePrepareToStart
+			LOCAL.XRowEast ++
+		ENDFOR 
+		LOCAL.YColumnSouth --
+	ENDFOR
+ELIF (STRMATCH(*east*,<SERV.UID.<REF1.TAG.CheckPoint_1_UID>.TAG.StartDirection>))
+	LOCAL.YRowCount=<EVAL (<REF1.TAG0.PlayerCount> / 3) + 1>
+	LOCAL.XRowEast=<EVAL <REF2.P.X>-1>
+	LOCAL.ZGroundHieght=<EVAL <REF2.P.Z>+1>
+	LOCAL.MapNumber=<EVAL <f_getMapNumber>>
+	FOR Rows 1 <EVAL <LOCAL.YRowCount>>
+		LOCAL.YColumnSouth=<EVAL <REF2.P.Y>+3>	
+		FOR Columns 1 3
+			LOCAL.PlayerSlotNo=<EVAL <LOCAL.PlayerSlotNo> + 1> // Now we are moving up the slot list 
+			//SERV.LOG Looping FOR Rows <EVAL <LOCAL.Rows>> sending player <REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_NAME> to <EVAL <LOCAL.XRowEast>>, <EVAL <LOCAL.YColumnSouth>>, <EVAL <LOCAL.ZGroundHieght>>, <EVAL <LOCAL.MapNumber>>
+			SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.CTAG.RaceWaiting=
+			SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.GO <EVAL <LOCAL.XRowEast>>,<EVAL <LOCAL.YColumnSouth>>,<EVAL <LOCAL.ZGroundHieght>>,<EVAL <LOCAL.MapNumber>>
+			SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.CTAG.RaceLine=<EVAL <SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.DISTANCE <REF2.UID>>+<LOCAL.Row>>
+			SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.f_racePrepareToStart
+			LOCAL.YColumnSouth --
+		ENDFOR 
+		LOCAL.XRowEast ++ 
+	ENDFOR 
+ELIF (STRMATCH(*west*,<SERV.UID.<REF1.TAG.CheckPoint_1_UID>.TAG.StartDirection>))
+	LOCAL.YRowCount=<EVAL (<REF1.TAG0.PlayerCount> / 3) + 1>
+	LOCAL.XRowEast=<EVAL <REF2.P.X>+1>
+	LOCAL.ZGroundHieght=<EVAL <REF2.P.Z>+1>
+	LOCAL.MapNumber=<EVAL <f_getMapNumber>>
+	FOR Rows <EVAL <LOCAL.YRowCount>> 1
+		LOCAL.YColumnSouth=<EVAL <REF2.P.Y>-1>	
+		FOR Columns 3 1
+			LOCAL.PlayerSlotNo=<EVAL <LOCAL.PlayerSlotNo> + 1> // Now we are moving up the slot list 
+			//SERV.LOG Looping FOR Rows <EVAL <LOCAL.Rows>> sending player <REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_NAME> to <EVAL <LOCAL.XRowEast>>, <EVAL <LOCAL.YColumnSouth>>, <EVAL <LOCAL.ZGroundHieght>>, <EVAL <LOCAL.MapNumber>>
+			SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.CTAG.RaceWaiting=
+			SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.GO <EVAL <LOCAL.XRowEast>>,<EVAL <LOCAL.YColumnSouth>>,<EVAL <LOCAL.ZGroundHieght>>,<EVAL <LOCAL.MapNumber>>
+			SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.CTAG.RaceLine=<EVAL <SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.DISTANCE <REF2.UID>>+<LOCAL.Row>>
+			SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.PlayerSlotNo>>_UID>.f_racePrepareToStart
+			LOCAL.YColumnSouth --
+		ENDFOR 
+		LOCAL.XRowEast ++ 
+	ENDFOR 
+ELSE
+	//SERV.LOG ERROR! Race Track cannot find start position
+ENDIF
+REF1.TAG.PlayersRemainingCount=<EVAL <REF1.TAG.PlayerCount>>
+IF !<REF1.TAG.StartCount>
+	REF2.TAG.RaceCountDown=<EVAL CountDownDefault>
+ELSE
+	REF2.TAG.RaceCountDown=<EVAL <REF1.TAG.StartCount>>
+ENDIF
+REF2.TAG.RaceStarted=1
+REF1.TAG.GameIsOn=1
+REF2.TIMER=2
+
+[EOF]

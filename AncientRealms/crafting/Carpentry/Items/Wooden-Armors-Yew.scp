@@ -1,0 +1,466 @@
+/////////////////////////////////////////////Yew woodland chest
+[ITEMDEF i_woodland_chest_Yew]
+   DEFNAME= i_woodland_chest_Yew
+   ID= i_woodland_chest
+   NAME= Yew woodland chest
+   ARMOR= 25
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 20 i_log_Yew
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Yew
+   DESCRIPTION= woodland chest
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS= {95 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew woodland belt
+[ITEMDEF i_woodland_belt_Yew]
+   DEFNAME= i_woodland_belt_Yew
+   ID= i_woodland_belt
+   NAME= Yew woodland belt
+   ARMOR= 20
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Yew
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Yew
+   DESCRIPTION= woodland belt
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS= {95 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew woodland gorget
+[ITEMDEF i_woodland_gorget_Yew]
+   DEFNAME= i_woodland_gorget_Yew
+   ID= i_woodland_gorget
+   NAME= Yew woodland gorget
+   ARMOR= 11
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Yew
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Yew
+   DESCRIPTION= woodland gorget
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS= {95 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew woodland gauntlets
+[ITEMDEF i_woodland_gauntlets_Yew]
+   DEFNAME= i_woodland_gauntlets_Yew
+   ID= i_woodland_gauntlets
+   NAME= Yew woodland gauntlets
+   ARMOR= 11
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Yew
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Yew
+   DESCRIPTION= woodland gauntlets
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS= {95 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew woodland leggings
+[ITEMDEF i_woodland_leggings_Yew]
+   DEFNAME= i_woodland_leggings_Yew
+   ID= i_woodland_leggings
+   NAME= Yew woodland leggings
+   ARMOR= 20
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Yew
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Yew
+   DESCRIPTION= woodland leggings
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS= {95 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew woodland arms
+[ITEMDEF i_woodland_arms_Yew]
+   DEFNAME= i_woodland_arms_Yew
+   ID= i_woodland_arms
+   NAME= Yew woodland arms
+   ARMOR= 13
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 8 i_log_Yew
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Yew
+   DESCRIPTION= woodland arms
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS= {95 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew female woodland chest
+[ITEMDEF i_armor_female_woodland_Yew]
+   DEFNAME= i_armor_female_woodland_Yew
+   ID= i_armor_female_woodland
+   NAME= Yew female woodland chest
+   ARMOR= 21
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 16 i_log_Yew
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Yew
+   DESCRIPTION= female woodland chest
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS= {95 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew leaf tunic
+[ITEMDEF i_leaf_tunic_Yew]
+   DEFNAME= i_leaf_tunic_Yew
+   ID= i_leaf_tunic
+   NAME= Yew leaf tunic
+   ARMOR= 23
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 18 i_log_Yew
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Yew
+   DESCRIPTION= leaf tunic
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew leaf gloves
+[ITEMDEF i_leaf_gloves_Yew]
+   DEFNAME= i_leaf_gloves_Yew
+   ID= i_leaf_gloves
+   NAME= Yew leaf gloves
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_log_Yew
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Yew
+   DESCRIPTION= leaf gloves
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew leaf gorget
+[ITEMDEF i_leaf_gorget_Yew]
+   DEFNAME= i_leaf_gorget_Yew
+   ID= i_leaf_gorget
+   NAME= Yew leaf gorget
+   ARMOR= 13
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Yew
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Yew
+   DESCRIPTION= leaf gorget
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew leaf arms
+[ITEMDEF i_leaf_arms_Yew]
+   DEFNAME= i_leaf_arms_Yew
+   ID= i_leaf_arms
+   NAME= Yew leaf arms
+   ARMOR= 13
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Yew
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Yew
+   DESCRIPTION= leaf arms
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew leaf leggings
+[ITEMDEF i_leaf_leggings_Yew]
+   DEFNAME= i_leaf_leggings_Yew
+   ID= i_leaf_leggings
+   NAME= Yew leaf leggings
+   ARMOR= 20
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 15 i_log_Yew
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Yew
+   DESCRIPTION= leaf leggings
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew leaf tonlet
+[ITEMDEF i_leaf_tonlet_Yew]
+   DEFNAME= i_leaf_tonlet_Yew
+   ID= i_leaf_tonlet
+   NAME= Yew leaf tonlet
+   ARMOR= 9
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 4 i_log_Yew
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Yew
+   DESCRIPTION= leaf tonlet
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew raven helm
+[ITEMDEF i_helm_raven_Yew]
+   DEFNAME= i_helm_raven_Yew
+   ID= i_helm_raven
+   NAME= Yew raven helm
+   ARMOR= 13
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Yew
+   SKILLMAKE= CARPENTRY 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Yew
+   DESCRIPTION= raven helm
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew vulture helm
+[ITEMDEF i_helm_vulture_Yew]
+   DEFNAME= i_helm_vulture_Yew
+   ID= i_helm_vulture
+   NAME= Yew vulture helm
+   ARMOR= 13
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Yew
+   SKILLMAKE= CARPENTRY 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Yew
+   DESCRIPTION= vulture helm
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew winged helm
+[ITEMDEF i_helm_winged_Yew]
+   DEFNAME= i_helm_winged_Yew
+   ID= i_helm_winged
+   NAME= Yew winged helm
+   ARMOR= 13
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Yew
+   SKILLMAKE= CARPENTRY 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Yew
+   DESCRIPTION= winged helm
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS= {105 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

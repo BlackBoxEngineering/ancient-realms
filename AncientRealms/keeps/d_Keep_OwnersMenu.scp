@@ -1,0 +1,396 @@
+[DIALOG d_Keep_OwnersMenu]
+1,1
+RESIZEPIC 20 20 9350 360 360
+
+PAGE 0
+	RESIZEPIC 162 38 3500 203 182
+	GUMPPIC -72 -48 60416 0
+	GUMPPIC 286 -48 60416 0
+	DTEXT 150 2 33 Keep Of <REGION.TAG.OwnersName>
+	TILEPIC 180 85 0186e
+	TILEPIC 175 153 3823
+	DORAND 9
+		GUMPPIC 35 38 30501 0
+		GUMPPIC 35 38 30502 0
+		GUMPPIC 35 38 30503 0
+		GUMPPIC 35 38 30504 0
+		GUMPPIC 35 38 30505 0
+		GUMPPIC 35 38 30506 0
+		GUMPPIC 35 38 30507 0
+		GUMPPIC 35 38 30508 0
+		GUMPPIC 35 38 30509 0
+		GUMPPIC 35 38 305010 0
+	ENDDO
+	DTEXT 185 55 color_ore_galena KEEP POINTS GENERATED
+	DTEXT 220 80 color_ore_rhodonite <EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG0.KeepPoints>>
+	DTEXT 195 105 56 COLLECT POINTS
+	BUTTON 310 101 9793 9792 1 0 100
+	DTEXT 185 132 color_ore_galena GOLD TAXES GENERATED
+	DTEXT 220 157 color_ore_rhodonite  <EVAL <SERV.UID.<REGION.TAG.KeepCaptureStoneUID>.TAG0.GoldViaTax>>
+	DTEXT 195 182 56 COLLECT GOLD
+	BUTTON 310 176 9793 9792 1 0 110
+	
+PAGE 1
+	IF !(STRMATCH(*Astalon*,<REGION.NAME>))
+		BUTTON 45 242 5601 5605 0 2 10
+		DTEXT 65 240 342 KEEP MANAGEMENT
+		BUTTON 45 272 5601 5605 0 3 11
+		DTEXT 65 270 342 GUARD MANAGEMENT
+		BUTTON 45 302 5601 5605 0 4 11
+		DTEXT 65 300 342 TOWN MANAGEMENT
+		DTEXT 320 350 342 BACK
+		BUTTON 300 352 5603 5605 0 1 12
+	ELSE
+		BUTTON 45 242 5601 5605 0 2 10
+		DTEXT 65 240 342 KEEP MANAGEMENT
+		BUTTON 45 272 5601 5605 0 4 11
+		DTEXT 65 270 342 TOWN MANAGEMENT
+		DTEXT 320 350 342 BACK
+		BUTTON 300 352 5603 5605 0 1 12
+	ENDIF
+
+PAGE 2
+	RESIZEPIC 26 220 3500 340 60
+	LOCAL.ShowLogIcons=0
+	DTEXT 45 239 254 KEEP MANAGEMENT :
+	DTEXT 183 239 42  <SERV.UID.<SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.TownControlStoneUID>.REGION.NAME>
+	IF !<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG0.GateNoOneBuilt>
+		BUTTON 220 280 55 55 1 0 210
+		DTEXT 45 280 33 Repair the <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoOneName> Gate
+		LOCAL.ShowLogIcons=1
+	ELSE
+		IF <EVAL <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG0.GateNoOneBuilt>> > 1
+			DTEXT 45 280 342 Gate Not Used
+		ELSE
+			IF <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateStatusW>
+				DTEXT 45 280 342 The <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoOneName> gate is closed
+			ELSE
+				DTEXT 45 280 63 The <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoOneName> gate is opened
+			ENDIF
+		ENDIF
+	ENDIF
+	IF !<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG0.GateNoTwoBuilt>
+		BUTTON 220 300 55 55 1 0 220
+		DTEXT 45 300 33 Repair the <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoTwoName> Gate
+		LOCAL.ShowLogIcons=1
+	ELSE
+		IF <EVAL <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG0.GateNoTwoBuilt>> > 1
+			DTEXT 45 300 342 Gate Not Used
+		ELSE
+			IF <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateStatusN>
+				DTEXT 45 300 342 The <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoTwoName> gate is closed
+			ELSE
+				DTEXT 45 300 63 The <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoTWoName> gate is opened
+			ENDIF
+		ENDIF
+	ENDIF
+	IF <LOCAL.ShowLogIcons>
+		TILEPIC 270 285 7134
+		DTEXT 310 289 95 x 100
+	ENDIF
+	DORAND 8
+		GUMPPIC 300 220 105 0
+		GUMPPIC 300 220 106 0
+		GUMPPIC 300 220 107 0
+		GUMPPIC 300 220 108 0
+		GUMPPIC 300 220 109 0
+		GUMPPIC 300 220 110 0
+		GUMPPIC 300 220 111 0
+		GUMPPIC 300 220 112 0
+	ENDDO
+	DTEXT 320 350 342 BACK
+	BUTTON 300 352 5603 5605 0 1 13
+
+PAGE 3
+	RESIZEPIC 26 220 3500 340 60
+	IF <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepDragonTimer> > 295
+		RESIZEPIC 46 240 9300 295 17 // 1 295
+		DTEXT 125 239 0029 DRAGON READY
+		BUTTON 230 239 55 9760 1 0 300
+	ELSE
+		RESIZEPIC 46 240 9300 <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepDragonTimer> 17
+		DTEXT 100 239 254 RELEASE THE DRAGON TIMER
+	ENDIF
+	TILEPIC 26 239 16831
+	TILEPIC 300 218 9780
+	BUTTON 45 282 55 9760 1 0 310
+	BUTTON 65 282 56 9764 1 0 320
+	DTEXT 85 280 42 Keep Lords Maximum Hits :
+	IF <EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepLordsMaximumHits>> < <EVAL KeepLordDefaultMaxHits>
+		SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepLordsMaximumHits=<EVAL KeepLordDefaultMaxHits>
+	ENDIF
+	DTEXT 261 280 63 [ <EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepLordsMaximumHits>> ]
+	BUTTON 45 307 55 9760 1 0 330
+	BUTTON 65 307 56 9764 1 0 340
+	DTEXT 85 305 42 Gate Guards Maximum Hits :
+	IF <EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.GateKeeperMaximumHits>> < <EVAL GateKeeperDefaultMaxHits>
+		SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.GateKeeperMaximumHits=<EVAL GateKeeperDefaultMaxHits>
+	ENDIF
+	DTEXT 261 305 63 [ <EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.GateKeeperMaximumHits>> ]
+	BUTTON 45 333 55 9760 0 3 350
+	BUTTON 65 333 56 9764 0 3 360
+	DTEXT 85 331 42 Keep Guards Hired :
+	DTEXT 220 331 63 [ <EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepGuardsHired>> ]
+	DTEXT 320 350 342 BACK
+	BUTTON 300 352 5603 5605 0 1 12
+	
+PAGE 4
+	RESIZEPIC 26 220 3500 340 60
+	TILEPIC 280 285 0186e
+	TILEPIC 280 305 0186e
+	TILEPIC 280 325 0186e
+	DTEXT 310 279 95 x 25
+	DTEXT 310 299 95 x 10
+	DTEXT 310 319 95 x 5
+	DTEXT 45 239 254 CONTROLLED TOWN :
+	DTEXT 183 239 42  <SERV.UID.<SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.TownControlStoneUID>.REGION.NAME>
+	DTEXT 45 280 42 <SERV.UID.<SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.TownControlStoneUID>.REGION.NAME> Guardzone
+	IF !<SERV.UID.<SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.TownControlStoneUID>.TAG.Invasion>
+		BUTTON 220 280 56 9764 1 0 400
+		DTEXT 240 280 63 [ ON ]
+	ELSE
+		BUTTON 200 280 55 9760 1 0 410
+		DTEXT 240 280 33 [ OFF ]
+	ENDIF
+	BUTTON 200 300 55 55 1 0 420
+	BUTTON 220 300 56 56 1 0 430
+	DTEXT 45 300 42 <SERV.UID.<SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.TownControlStoneUID>.REGION.NAME> Keep Tax
+	DTEXT 240 300 63 [ <EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepTaxPercentage>>% ]
+	DORAND 8
+		GUMPPIC 300 220 105 0
+		GUMPPIC 300 220 106 0
+		GUMPPIC 300 220 107 0
+		GUMPPIC 300 220 108 0
+		GUMPPIC 300 220 109 0
+		GUMPPIC 300 220 110 0
+		GUMPPIC 300 220 111 0
+		GUMPPIC 300 220 112 0
+	ENDDO
+	BUTTON 200 320 55 55 1 0 440
+	BUTTON 220 320 56 56 1 0 450
+	DTEXT 45 320 42 <SERV.UID.<SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.TownControlStoneUID>.REGION.NAME> Keep Spys
+	DTEXT 240 320 63 [ <EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepSpyCount>> ]
+	TILEPIC 22 343 18059
+	BUTTON 60 342 9793 9792 1 0 460
+	DTEXT 85 345 0 INTELLIGENCE REPORT
+	DTEXT 320 350 342 BACK
+	BUTTON 300 352 5603 5605 0 1 13
+	
+[DIALOG d_Keep_OwnersMenu BUTTON]
+///////////////////////////////////////////////////////////////////////////////// PAGE TWO
+ONBUTTON=100
+	IF <EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG0.KeepPoints>>
+		NEWITEM i_keep_point, <EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG0.KeepPoints>>, <SRC.UID>
+		SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG0.KeepPoints=0
+	ELSE
+		SRC.SYSMESSAGE @00029,,1 There are no points to take from this stone
+	ENDIF
+	RETURN 1
+		
+ONBUTTON=110
+	IF <EVAL <SERV.UID.<REGION.TAG.KeepCaptureStoneUID>.TAG0.GoldViaTax>>
+		NEWITEM i_gold, <EVAL <SERV.UID.<REGION.TAG.KeepCaptureStoneUID>.TAG0.GoldViaTax>>, <SRC.UID>
+		SERV.UID.<REGION.TAG.KeepCaptureStoneUID>.TAG0.GoldViaTax=0
+	ELSE
+		SRC.SYSMESSAGE @00029,,1 There is no tax to collect from this stone
+	ENDIF
+	RETURN 1
+
+ONBUTTON=210
+	LOCAL.KeepLogsNeeded=<EVAL GatesLogsNeeded>
+	IF (<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG0.GateNoOneBuilt>=0)
+		IF (<SRC.RESTEST <EVAL <LOCAL.KeepLogsNeeded>> i_log>)
+			SRC.CONSUME <EVAL <LOCAL.KeepLogsNeeded>> i_log
+			SRC.SYSMESSAGE @1462,,1 That will be <EVAL <LOCAL.KeepLogsNeeded>> Logs Thank Thee.
+			SOUND 0F7
+			f_keep_GatesEastRaise
+			SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoOneBuilt=1
+			REGION.ALLCLIENTS SYSMESSAGE @33,,1 <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoOneName> Gate Re-Built			
+		ELSE
+			SRC.SYSMESSAGE @1462,,1 You Need <EVAL <LOCAL.KeepLogsNeeded>> Logs to Rebuid The <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoOneName> Gate
+			RETURN 1
+		ENDIF		
+	ENDIF
+	RETURN 1
+	
+ONBUTTON=220
+	LOCAL.KeepLogsNeeded=<EVAL GatesLogsNeeded>
+	IF (<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG0.GateNoTwoBuilt>=0)
+		IF (<SRC.RESTEST <EVAL <LOCAL.KeepLogsNeeded>> i_log>)
+			SRC.CONSUME <EVAL <LOCAL.KeepLogsNeeded>> i_log
+			SRC.SYSMESSAGE @1462,,1 That will be <EVAL <LOCAL.KeepLogsNeeded>> Logs Thank Thee.
+			SOUND 0F7
+			f_keep_GatesEastRaise
+			SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoTwoBuilt=1
+			REGION.ALLCLIENTS SYSMESSAGE @33,,1 <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoTwoName> Gate Re-Built			
+		ELSE
+			SRC.SYSMESSAGE @1462,,1 You Need <EVAL <LOCAL.KeepLogsNeeded>> Logs to Rebuid The <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoTwoName> Gate
+			RETURN 1
+		ENDIF		
+	ENDIF
+	RETURN 1
+
+ONBUTTON=230
+	IF <EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepSpyCount>> > 0
+		SRC.CTAG.SpyNumber=1
+		SRC.SDIALOG d_keep_SpyBox.scp
+	ELSE
+		SRC.SYSMESSAGE @1462,,1 No Spys Hired!
+	ENDIF
+	
+///////////////////////////////////////////////////////////////////////////////// PAGE THREE
+ONBUTTON=300
+	SRC.SYSMESSAGE @54,,1 You call the dragon press Escape to Cancel Target
+	SRC.CallDragon
+	RETURN 1
+
+ONBUTTON=310
+	LOCAL.GoldNeeded=<EVAL GuardHitPointCostInGold>
+	IF (<SRC.RESTEST <EVAL <LOCAL.GoldNeeded>> i_gold>)
+		IF <EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepLordsMaximumHits>> < <EVAL KeepGuardHitMaxHPUpgrade>
+			SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepLordsMaximumHits=<EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepLordsMaximumHits>+1>
+			SRC.REGION.SYSMESSAGE @1462,,1 <REGION.NAME>'s door guards Hits Updated:[<EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepLordsMaximumHits>>]
+		ENDIF
+	ELSE
+		SRC.SYSMESSAGE @1462,,1 You need <EVAL <LOCAL.GoldNeeded>> in your pack to use this guard upgrade
+	ENDIF
+	SRC.SDIALOG d_Keep_OwnersMenu 3
+	RETURN 1
+
+ONBUTTON=320
+	SRC.SYSMESSAGE @1462,,1 The guards hits are non refundable but incase this is sabotage you may reduce the hits
+	IF <EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepLordsMaximumHits>> > <EVAL KeepLordDefaultMaxHits>
+		SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepLordsMaximumHits=<EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepLordsMaximumHits>-1>
+		SRC.REGION.SYSMESSAGE @1462,,1 <REGION.NAME>'s door guards Hits Updated:[<EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepLordsMaximumHits>>]
+	ELSE
+		SRC.SYSMESSAGE @1462,,1 You cannot set them lower than thier default values.
+	ENDIF
+	SRC.SDIALOG d_Keep_OwnersMenu 3
+	RETURN 1
+	
+ONBUTTON=330
+	LOCAL.GoldNeeded=<EVAL GuardHitPointCostInGold>
+	IF (<SRC.RESTEST <EVAL <LOCAL.GoldNeeded>> i_gold>)
+		IF <EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.GateKeeperMaximumHits>> < <EVAL KeepGuardHitMaxHPUpgrade>
+			SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.GateKeeperMaximumHits=<EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG0.GateKeeperMaximumHits> +1 >
+			SRC.REGION.SYSMESSAGE @1462,,1 <REGION.NAME>'s door guards Hits Updated:[<EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG0.GateKeeperMaximumHits>>]
+		ENDIF
+	ELSE
+		SRC.SYSMESSAGE @1462,,1 You need <EVAL <LOCAL.GoldNeeded>> in your pack to use this guard upgrade	
+	ENDIF
+	SRC.SDIALOG d_Keep_OwnersMenu 3
+	RETURN 1
+
+ONBUTTON=340
+	SRC.SYSMESSAGE @1462,,1 The guards hits are non refundable but incase this is sabotage you may reduce the hits
+	IF <EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.GateKeeperMaximumHits>> > <EVAL GateKeeperDefaultMaxHits>
+		SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.GateKeeperMaximumHits=<EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.GateKeeperMaximumHits>-1>
+		SRC.REGION.SYSMESSAGE @1462,,1 <REGION.NAME>'s door guards Hits Updated:[<EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.GateKeeperMaximumHits>>]
+	ELSE
+		SRC.SYSMESSAGE @1462,,1 You cannot set them lower than thier default values.
+	ENDIF
+	SRC.SDIALOG d_Keep_OwnersMenu 3
+	RETURN 1
+
+
+///////////////////////////////////////////////////////////////////////////////// PAGE FOUR
+ONBUTTON=400 // GZ Off
+	LOCAL.KeepPointsBuy=25
+	IF (<EVAL <SERV.UID.<CTAG.KeepCaptureStoneUID>.LINK.TAG.Invasion>>=0)
+		IF (<SRC.RESTEST <EVAL <LOCAL.KeepPointsBuy>> i_keep_point>)|(<SRC.ISGM>)
+			SRC.CONSUME <EVAL <LOCAL.KeepPointsBuy>> i_keep_point
+			SRC.SYSMESSAGE @1462,,1 <EVAL <LOCAL.KeepPointsBuy>> Keep Points Wisely Spent.
+			SOUND 0F7
+			SERV.UID.<CTAG.KeepCaptureStoneUID>.LINK.TAG.Invasion=1
+			SERV.B @33 <SERV.UID.<SRC.CTAG.KeepCaptureStoneUID>.LINK.REGION.NAME> Is about to be invaded!!!
+			REGION.TAG.TownGuardStatus=00
+			REGION.TAG.TownGuard=OFF
+		ELSE
+			SRC.SYSMESSAGE @1462,,1 <EVAL <LOCAL.KeepPointsBuy>> Keep Points are required!
+		ENDIF		
+	ENDIF
+	SRC.SDIALOG d_Keep_OwnersMenu 4
+	
+ONBUTTON=410 // GZ on
+	LOCAL.KeepPointsBuy=25
+	IF (<EVAL <SERV.UID.<CTAG.KeepCaptureStoneUID>.LINK.TAG.Invasion>>=1)
+		IF (<SRC.RESTEST <EVAL <LOCAL.KeepPointsBuy>> i_keep_point>)||(<SRC.ISGM>)
+			SRC.CONSUME <EVAL <LOCAL.KeepPointsBuy>> i_keep_point
+			SRC.SYSMESSAGE @1462,,1 <EVAL <LOCAL.KeepPointsBuy>> Keep Points Wisely Spent.
+			SOUND 0F7
+			SERV.UID.<CTAG.KeepCaptureStoneUID>.LINK.TAG.Invasion=0
+			SERV.B @33 <SERV.UID.<CTAG.KeepCaptureStoneUID>.LINK.REGION.NAME> Guardzone Returns.
+			REGION.TAG.TownGuardStatus=01
+			REGION.TAG.TownGuard=ON
+		ELSE
+			SRC.SYSMESSAGE @1462,,1 <EVAL <LOCAL.KeepPointsBuy>> Keep Points are required!
+		ENDIF		
+	ENDIF
+	SRC.SDIALOG d_Keep_OwnersMenu 4
+	
+ONBUTTON=420
+	LOCAL.KeepPointsBuy=10
+	IF <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepTaxPercentage> < 25
+		IF (<SRC.RESTEST <EVAL <LOCAL.KeepPointsBuy>> i_keep_point>)||(<SRC.ISGM>)
+			SRC.CONSUME <EVAL <LOCAL.KeepPointsBuy>> i_keep_point
+			SRC.SYSMESSAGE @1462,,1 <EVAL <LOCAL.KeepPointsBuy>> Keep Points Wisely Spent.
+			SOUND 0F7
+			SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepTaxPercentage=<EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepTaxPercentage>+1>
+			SERV.B @33 <SERV.UID.<SRC.CTAG.KeepCaptureStoneUID>.LINK.REGION.NAME> Taxes have been raised by <REGION.TAG.OwnersName>
+		ELSE
+			SRC.SYSMESSAGE @1462,,1 <EVAL <LOCAL.KeepPointsBuy>> Keep Points are required!
+		ENDIF
+	ENDIF	
+	SRC.SDIALOG d_Keep_OwnersMenu 4
+
+ONBUTTON=430
+	LOCAL.KeepPointsBuy=10
+	IF <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepTaxPercentage> > 0
+		SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepTaxPercentage=<EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepTaxPercentage>-1>
+		SERV.B @33 <SERV.UID.<CTAG.KeepCaptureStoneUID>.LINK.REGION.NAME> Taxes have been lowered by <REGION.TAG.OwnersName>
+	ENDIF
+	SRC.SDIALOG d_Keep_OwnersMenu 4
+
+ONBUTTON=440
+	REF1=<SERV.UID.<REGION.TAG.KeepControlStoneUID>>
+	REF2=<SERV.UID.<REF1.TAG.TownControlStoneUID>>
+	LOCAL.KeepPointsBuy=5
+	IF <EVAL <REF1.TAG.KeepSpyCount>> < 1
+		IF (<SRC.RESTEST <EVAL <LOCAL.KeepPointsBuy>> i_keep_point>)||(<SRC.ISGM>)
+			SRC.CONSUME <EVAL <LOCAL.KeepPointsBuy>> i_keep_point
+			SRC.SYSMESSAGE @1462,,1 <EVAL <LOCAL.KeepPointsBuy>> Keep Points Wisely Spent.
+			REF1.TAG.KeepSpyCount=<EVAL <REF1.TAG.KeepSpyCount>+1>
+			CTAG.KeepControlStoneUID=<REF1.UID>
+			CTAG.SpyNumber=<EVAL <REF1.TAG.KeepSpyCount>>
+			SRC.f_Keep_SpawnKeepSpy <EVAL <REF1.TAG.KeepSpyCount>>
+		ELSE
+			SRC.SYSMESSAGE @1462,,1 <EVAL <LOCAL.KeepPointsBuy>> Keep Points are required!
+		ENDIF
+	ELSE
+		SRC.SYSMESSAGE @1462,,1 You may only have one spy per keep.
+	ENDIF
+	SRC.SDIALOG d_Keep_OwnersMenu 4
+	
+ONBUTTON=450
+	LOCAL.KeepPointsBuy=5
+	REF1=<SERV.UID.<REGION.TAG.KeepControlStoneUID>>
+	REF2=<SERV.UID.<REF1.TAG.TownControlStoneUID>>
+	IF <EVAL <REF1.TAG.KeepSpyCount>> > 0
+		REF1.TAG.SpyNo_<REF1.TAG.KeepSpyCount>>_UID.REMOVE
+		REF2.TAG.SpyNo_<REF1.TAG.KeepSpyCount>>_UID.REMOVE
+		REF1.TAG.KeepSpyCount=<EVAL <REF1.TAG.KeepSpyCount>-1>
+	ELSE
+		SRC.SYSMESSAGE @1462,,1 There are no spys to Remove
+	ENDIF
+	SRC.SDIALOG d_Keep_OwnersMenu 4
+	
+ONBUTTON=460
+	SRC.CTAG.PreSpyPosition=<P>
+	IF <EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepSpyCount>> > 0
+		SRC.CTAG.SpyNumber=1
+		SRC.SDIALOG d_keep_SpyBox.scp
+	ELSE
+		SRC.SYSMESSAGE @1462,,1 No Spys Hired!
+	ENDIF
+	
+[EOF]

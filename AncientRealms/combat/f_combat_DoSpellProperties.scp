@@ -1,0 +1,676 @@
+[FUNCTION f_combat_DoSpellProperties]
+//Magery
+LOCAL.PassiveSpell = 1
+IF (<ARGV[0]>=1)		// Clumsy
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+		
+ELIF (<ARGV[0]>=2)		// CreateFood
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+		
+ELIF (<ARGV[0]>=3)		// FeebleMind
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=4)		// Heal
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=4)		// MagicArrow
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=6)		// NightSight
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=7)		// ReactiveArmor // Energy Armor Timer Eats Reg
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=8)		// Weaken
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+
+	ELIF (<ARGV[0]>=9)		// Agility
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+
+ELIF (<ARGV[0]>=10)	// Cunning
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+
+	ELIF (<ARGV[0]>=11)	// Cure
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=13)	// MagicTrap
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+	ELIF (<ARGV[0]>=14)	// MagicUntrap
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=15)	// Protection
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+	ELIF (<ARGV[0]>=16)	// Strength
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=17)	// Bless
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+		
+ELIF (<ARGV[0]>=19)	// MagicLock
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=20)	// Posion
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=21)	// Telekinesis
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=22)	// Teleport
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=23)	// MagicUnlock
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=24)	// WallOfStone
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=25)	// Archcure
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=26)	// Archprotection
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=27)	// Curse
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=28)	// FireField
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=29)	// GreaterHeal
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+	ELIF (<ARGV[0]>=30)	// Lightning
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=31)	// ManaDrain
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=32)	// Recall
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=33)	// BladeSpirits
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=34)	// DispelField
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=35)	// Incognito
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=36)	// MagicReflection
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+		
+ELIF (<ARGV[0]>=37)	// MindBlast
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=38)	// Paralyze
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=39)	// PoisonField
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=40)	// SummonCreature
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=41)	// Dispel
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=42)	// EnergyBolt
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=43)	// Explosion
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=44)	// Invisibility
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=45)	// Mark
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=46)	// MassCurse
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=47)	// ParalyzeField
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=48)	// Reveal
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=50)	// EnergyField
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=51)	// FlameStrike
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=52)	// GateTravel
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=53)	// VampireMana
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=54)	// MassDispel
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=55)	// MeteorSwarm
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=56)	// Polymorph
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=57)	// Earthquake
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=58)	// Energy Vortex
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=59)	// Resurrection
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=60)	// AirElemental
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=61)	// Summon Daemonite
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=62)	// Earth Elemental
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=63)	// Fire Elemental
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=64)	// Water Elemental
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+
+//Misc
+ELIF (<ARGV[0]>=65)	// SummonUndead
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=66)	// AnimateDead
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=67)	// BoneArmor
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=68)	// Light
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=69)	// FireBolt
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=70)	// Hallucination
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+
+//Alchemy
+ELIF (<ARGV[0]>=71)	// Stone
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=72)	// Shrink
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=73)	// Refresh
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=74)	// Restore
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=75)	// Mana
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=76)	// Sustenance
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=77)	// Chameleon
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=78)	// BeastForm
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=79)	// MonsterForm
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=80)	// Forget
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=81)	// Gender Swap
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=82)	// Trance
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=83)	// ParticleForm
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=84)	// Shield
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=85)	// SteelSkin
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=86)	// StoneSkin
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=87)	// Regeneration
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=88)	// Enchantment
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+//Neromancy
+ELIF (<ARGV[0]>=101)	// AnimateDead
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=103)	// CorpseSkin
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=104)	// CurseWeapon
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=105)	// EvilOmen
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+		
+ELIF (<ARGV[0]>=106)	// HorrificBeast
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=107)	// LichForm
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=108)	// MindRot
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+		
+ELIF (<ARGV[0]>=109)	// PainSpike
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=110)	// PoisonStrike
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=111)	// Strangle
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=112)	// SummonFamiliar
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=113)	// VampiricEmbrace
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=114)	// VengefulSpirit
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=115)	// Wither
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=116)	// Wraith Form
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=117)	// Exorcism
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+//Chivalry
+ELIF (<ARGV[0]>=201)	// Cleanse by Fire
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=202)	// Close Wounds
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=203)	// Consecrate Weapon
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=204)	// Dispel Evil
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=205)	// Divine Fury
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=206)	// Enemy of One
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=207)	// Holy Light
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=208)	// Noble Sacrifice
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=209)	// Remove Curse
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=210)	// Sacred Journey
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+//Bushido
+ELIF (<ARGV[0]>=401)	// Honorable Execution
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=402)	// Confidence
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=403)	// Evasion
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=404)	// Counter Attack
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=405)	// Lightning Strike
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=406)	// Momentum Strike
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+//Ninjitsu
+ELIF (<ARGV[0]>=501)	// Focus Attack
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=502)	// Death Strike
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=503)	// Animal Form
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=504)	// Ki Attack
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=505)	// Surprise Attack
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=506)	// Backstab
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=507)	// Shadowjump
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=508)	// Mirror Image
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+
+//SpellWeaving
+ELIF (<ARGV[0]>=601)	// Arcane Circle
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=602)	// Gift of Renewal
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=603)	// Immolating Weapon
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=604)	// Attunement
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=605)	// Thunderstorm
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=606)	// Nature's Fury
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=607)	// Summon Fey
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=608)	// Summon Fiend
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=609)	// Reaper Form
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=610)	// Wildfire
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=611)	// Essence of Wind
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=612)	// Dryad Allure
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=613)	// Ethereal Voyage
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=614)	// Word of Death
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=615)	// Gift of Life
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=616)	// Arcane Empowerment
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+
+//Mysticism
+ELIF (<ARGV[0]>=678)	// NetherBolt
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=679)	// HealingStone
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=680)	// PurgeMagic
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=681)	// Enchant
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=682)	// Sleep
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=683)	// EagleStrike
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=684)	// AnimatedWeapon
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=685)	// StoneForm
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=686)	// SpellTrigger
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=687)	// MassSleep
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=688)	// CleansingWinds
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=689)	// Bombard
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=691)	// HailStorm
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=693)	// RisingCollossus
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+
+//Bard
+ELIF (<ARGV[0]>=701)	// Inspire
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=702)	// Invigorate
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=703)	// Resilience
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=704)	// Perseverance
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=705)	// Tribulation
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=706)	// Despair
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+//Traps
+ELIF (<ARGV[0]>=1001)	// Dart
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=1002)	// Explosion
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+	
+ELIF (<ARGV[0]>=1003)	// Poison
+	LOCAL.PassiveSpell = 1
+	LOCAL.DefaultSpell = 1
+
+ELSE
+	LOCAL.PassiveSpell = 0
+	LOCAL.DefaultSpell = 1
+ENDIF
+RETURN <EVAL <LOCAL.PassiveSpell>>
+
+[EOF]

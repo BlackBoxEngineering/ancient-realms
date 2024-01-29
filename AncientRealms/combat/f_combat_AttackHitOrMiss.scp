@@ -1,0 +1,146 @@
+[FUNCTION f_combat_AttackHitOrMiss]
+REF1=<SERV.UID.<ARGV[0]>> // Attacker
+REF2=<SERV.UID.<ARGV[1]>> // Defender
+LOCAL.NumberOut = 0
+IF !<f_CheckForRegionFlags <REF1.UID>>
+	IF !<f_CheckForPlayerFlags <REF1.UID>,<REF2.UID>>
+		IF !<f_CheckForHitOrMiss <REF1.UID>,<REF2.UID>>
+			IF !<f_CheckForProtectedNPC <REF1.UID>,<REF2.UID>>
+				LOCAL.NumberOut = 1	// Hits
+			ENDIF
+		ENDIF
+	ENDIF
+ENDIF
+RETURN <EVAL <LOCAL.NumberOut>>
+
+[FUNCTION f_CantHitWhatYouCantSee]
+REF1=<SERV.UID.<ARGV[0]>> // Attacker
+REF2=<SERV.UID.<ARGV[1]>> // Defender
+IF (<REF2.FLAGS> & statf_hidden) || (<REF2.FLAGS> & statf_insubstantial)
+	//SERV.LOG <NAME> cannot see the Target!
+	RETURN 0
+ELSE
+	RETURN 1
+ENDIF
+
+[FUNCTION f_CheckForRegionFlags]
+REF1=<SERV.UID.<ARGV[0]>>
+IF (<REF1.REGION.FLAGS> & 02000)
+	REF1.SYSMESSAGE @0029,,1 You cannot do that in this Area!
+    REF1.ACTION=-1
+	RETURN 1
+ELSE
+	RETURN 0
+ENDIF
+
+[FUNCTION f_CheckForProtectedNPC]
+REF1=<SERV.UID.<ARGV[0]>> // Attacker
+REF2=<SERV.UID.<ARGV[1]>> // Defender
+IF (<REF2.ISVENDOR>)
+	DORAND 5
+		REF2.Emote Sigh
+		REF2.Emote Laugh
+		REF2.Emote Giggle
+		REF2.Emote Smile
+		REF2.Emote Cry
+	ENDDO
+	RETURN 1
+ELSE
+	RETURN 0
+ENDIF
+
+[FUNCTION f_CheckForPlayerFlags]
+REF1=<SERV.UID.<ARGV[0]>> // Attacker
+REF2=<SERV.UID.<ARGV[1]>> // Defender
+LOCAL.ReturnValue=0
+IF !<REF2.ISITEM>
+	IF (<REF1.FLAGS>&statf_stone)
+		REF1.SYSMESSAGE @0029,,1 You are a stone statue and cannot do that.
+		LOCAL.ReturnValue=1
+	ELIF (<REF1.FLAGS> & statf_dead)
+		REF1.SYSMESSAGE @0029,,1 You are dead and cannot do that.
+		LOCAL.ReturnValue=1
+	ENDIF
+	IF (<REF2.FLAGS> & statf_stone)
+		REF1.SYSMESSAGE @0029,,1 <REF2.NAME> seems to be a stone statue.
+		LOCAL.ReturnValue=1
+	ELIF (<REF2.FLAGS> & statf_dead)
+		REF1.SYSMESSAGE @0029,,1 <REF2.NAME> seems to be dead.
+		LOCAL.ReturnValue=1
+	ELIF (<REF2.FLAGS> & (statf_invisible|statf_insubstantial|statf_hidden))
+		REF1.SYSMESSAGE @0029,,1 <REF2.NAME> seems to have vanished
+		LOCAL.ReturnValue=1
+	ENDIF
+ENDIF
+RETURN <EVAL <LOCAL.ReturnValue>>
+
+[FUNCTION f_CheckForSameGuildAlignment]
+REF1=<SERV.UID.<ARGV[0]>> // Attacker
+REF2=<SERV.UID.<ARGV[1]>> // Defender
+IF <REF1.ISPLAYER>&&<REF2.ISPLAYER>
+	LOCAL.AttackerAlignment=<GuildAlignment <REF1.UID>>
+	LOCAL.DefenderAlignment=<GuildAlignment <REF2.UID>>
+	IF <EVAL <LOCAL.AttackerAlignment>>
+		IF <EVAL <LOCAL.DefenderAlignment>> 
+			IF <LOCAL.AttackerAlignment> = <LOCAL.DefenderAlignment>			
+				IF <REF1.UID>!=<REF2.UID>
+					IF <GuildAlignment <REF1.UID>>=01				
+						IF <REF1.REGION.GUARDED>=1
+							REF1.SYSMESSAGE @0029,,1 Attacking on a other Order Guilds inside Guard Zone Is a Criminal Offense
+							REF1.f_beCriminal
+						ENDIF								
+					ELIF <GuildAlignment <REF2.UID>>=02				
+						IF <REF1.REGION.GUARDED>=1
+							REF1.SYSMESSAGE @0029,,1 Attacking on a other Chaos Guilds inside Guard Zone Is a Criminal Offense
+							REF1.f_beCriminal
+						ENDIF
+					ENDIF				
+				ENDIF
+			ENDIF
+		ENDIF
+	ENDIF
+ENDIF
+
+[FUNCTION f_CheckForHitOrMiss]
+REF1=<SERV.UID.<ARGV[0]>> // Attacker
+REF2=<SERV.UID.<ARGV[1]>> // Defender
+IF <ARGV[2]>
+	REF3=<SERV.UID.<ARGV[2]>>			//WeaponUID
+	LOCAL.WeaponWeight=<REF3.WEIGHT>
+ELSE
+	LOCAL.WeaponWeight=0				//Using fists
+ENDIF
+LOCAL.TempLuckCalc=<EVAL (1 + <REF1.LUCK>) * 2 >
+LOCAL.AttackerBonusRoll=<ReturnOnlyPositives <R<LOCAL.DefenderChanceLuck>,<LOCAL.TempLuckCalc>>>	
+LOCAL.AttackerHitAttempt=<EVAL <REF1.TACTICS> + <REF1.DEX> + <LOCAL.AttackerBonusRoll>>
+LOCAL.AttackerHitAttempt=<EVAL <LOCAL.AttackerHitAttempt>-<LOCAL.WeaponWeight>>
+// sort two handed peanlty with weight
+IF (<REF2.ISPLAYER>)||(<REF2.ISDRONE>)
+	LOCAL.DefenderChanceLuck=<ReturnOnlyPositives <EVAL <REF2.LUCK> / 2 >>
+	LOCAL.DefenderDodgeAttemptTemp=<EVAL <REF2.TACTICS> + <REF2.DEX> + <LOCAL.DefenderChanceLuck> >
+	LOCAL.DefenderDodgeAttempt=<R<REF2.DEX>, <LOCAL.DefenderDodgeAttemptTemp>>
+ELSE
+	LOCAL.DefenderDodgeAttempt=<R1,<REF2.DEX>>
+ENDIF
+IF (<EVAL <LOCAL.AttackerHitAttempt>> < <EVAL <LOCAL.DefenderDodgeAttempt>>)
+	IF (<REF1.ISPLAYER>)
+		//REF1.SYSMESSAGE @63,,1 <REF2.Name> Dodged
+	ENDIF
+	IF (<REF2.ISPLAYER>)
+		//REF2.SYSMESSAGE @63,,1 You Dodge <Name>
+	ENDIF
+	DORAND 6
+		SFX 1337
+		SFX 1338
+		SFX 1339
+		SFX 569
+		SFX 570
+		SFX 571
+	ENDDO
+	RETURN 1
+ELSE
+	RETURN 0
+ENDIF
+
+
+[EOF]

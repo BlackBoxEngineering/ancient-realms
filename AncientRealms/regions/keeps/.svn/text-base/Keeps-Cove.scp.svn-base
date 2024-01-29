@@ -1,0 +1,29 @@
+[REGIONTYPE r_CoveKeep_rock t_rock]
+RESOURCES=30.0 mr_nothing		
+RESOURCES=55.0 mr_iron
+RESOURCES=30.0 mr_bronze
+RESOURCES=15.0 mr_gold	
+RESOURCES=10.0 mr_Vanadinate		
+RESOURCES=18.0 mr_Orpiment        
+RESOURCES=6.0 mr_Autonite			
+RESOURCES=2.0 mr_valorite	
+RESOURCES=1.5 mr_titanium		
+RESOURCES=1.1 mr_Cerussite	
+
+[AREADEF a_cove_keep]
+EVENTS=r_default,r_CoveKeep_rock,r_default_water,r_LogClass_All_common,r_default_grass
+NAME=Cove Keep
+GROUP=AncientRealms Keeps
+FLAGS=0880
+P=2193,1179,60
+RECT=2169,1250,2207,1114 // Main Building
+//RECT=2190,1166,2197,1194 // MainWalkWay
+//RECT=2194,1165,2206,1138 // Training Court
+//RECT=2191,1194,2199,1228 // 
+//RECT=2202,1114,2207,1238 //
+//RECT=2162,1154,2193,1128 // Harbour
+//RECT=2189,1150,2193,1147 // WalkOver
+RECT=2206,1118,2215,1110 //
+TAG.KEEPNAME=Cove Keep
+
+[EOF]

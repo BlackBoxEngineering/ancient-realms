@@ -1,0 +1,33 @@
+////////////////////////////////////////////// e_PlayersRace
+[EVENTS e_PlayersRace]   
+ON=@Hit   
+	SRC.SYSMESSAGE @50 3 Second time penalty for Attack 
+	SRC.FLAGS|= statf_freeze
+	SRC.TIMERF 3, FLAGS &= ~statf_freeze
+	RETURN 1 
+
+ON=@GetHit
+	RETURN 1  
+
+ON=@LogOut
+	//SERV.LOG <SRC.NAME>[<SRC.UID>] logouts on a of a race event!
+	f_removeQueuedPlayerFromRace <SRC.UID>
+	ARGN1 = 1
+	ARGN2 = 1
+
+ON=@RegionEnter
+	IF <CTAG0.RaceWaiting> && STRMATCH(*RaceWaitingArea*,<REGION.NAME>)
+		SDIALOG d_racePlayerWait
+		RETURN 1
+	ENDIF
+
+ON=@RegionLeave
+	IF <CTAG0.RaceWaiting> && STRMATCH(*RaceWaitingArea*,<REGION.NAME>)
+		SDIALOG d_racePlayerWait
+		RETURN 1
+	ENDIF
+
+ON=@PersonalSpace 
+    RETURN 1
+
+[EOF]

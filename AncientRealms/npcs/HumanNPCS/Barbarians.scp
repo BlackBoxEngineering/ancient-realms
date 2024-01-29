@@ -1,0 +1,163 @@
+[CHARDEF 01079]
+DEFNAME=c_h_barbarian_warrior
+NAME=#NAMES_HUMANMALE the Barbarian Warrior
+ID=C_MAN
+CAN=MT_EQUIP|MT_USEHANDS|MT_WALK|MT_MALE
+TSPEECH=spk_human_prime
+TSPEECH=spk_human_default
+DAM=40,45
+ARMOR=20
+
+CATEGORY=Civilized
+SUBSECTION=Barbarians (Evil)
+DESCRIPTION=Barbarian Warrior
+
+ON=@Create
+	STR={150 200}
+	DEX={81 95}
+	INT={20 30}
+	//ALIGNMENT=EVIL
+	MAGICRESISTANCE={20.0 35.0}
+	TACTICS={80.0 95.0}
+	WRESTLING={80.0 95.0}
+	SWORDSMANSHIP=100.0
+	PARRYING={75.0 100.0}
+	NPC=BRAIN_HUMAN
+	KARMA={-2100 -2200}
+	FAME={35 50}
+	ITEMNEWBIE=i_hair_long
+	COLOR=colors_red
+	ITEMNEWBIE=i_beard_short_med
+	COLOR=match_hair
+
+ON=@NPCRestock
+	ITEM=i_boots_calf
+	COLOR=01bb
+	ITEM=i_mask_deer
+	ITEM=i_axe_double
+	ITEM=i_leather_tunic
+	ITEM=i_kilt
+	COLOR=01bb
+	ITEM=loot_Barbarian	
+
+[CHARDEF 01080]
+DEFNAME=c_h_barbarian_chieftan
+NAME=#NAMES_HUMANMALE the Barbarian Chieftain
+ID=C_MAN
+//ALIGNMENT=EVIL
+CAN=MT_EQUIP|MT_USEHANDS|MT_WALK|MT_MALE
+TSPEECH=spk_human_prime
+TSPEECH=spk_human_default
+DAM={45 48}
+ARMOR=22
+CATEGORY=Civilized
+SUBSECTION=Barbarians (Evil)
+DESCRIPTION=Barbarian Chieftain
+
+ON=@Create
+	STR={200 250}
+	DEX={88 98}
+	INT={20 30}
+	MAGICRESISTANCE={20.0 35.0}
+	TACTICS={90.0 100.0}
+	WRESTLING={90.0 100.0}
+	SWORDSMANSHIP=100.0
+	PARRYING={85.0 100.0}
+	NPC=BRAIN_HUMAN
+	KARMA={-2100 -2200}
+	FAME={10 30}
+	ITEMNEWBIE=i_hair_long
+	COLOR=colors_red
+	ITEMNEWBIE=i_beard_long_med
+	COLOR=match_hair
+
+ON=@NPCRestock
+	ITEM=i_boots_calf
+	COLOR=01bb
+	ITEM=I_LEATHER_TUNIC
+	ITEM=i_kilt
+	COLOR=01bb
+	ITEM=loot_Barbarian
+
+[CHARDEF 01081]
+DEFNAME=c_h_barbarian_shaman
+NAME=#NAMES_HUMANMALE the Barbarian Shaman
+ID=C_MAN
+DAM=20,35
+ARMOR=20
+//ALIGNMENT=EVIL
+CAN=MT_EQUIP|MT_USEHANDS|MT_WALK|MT_MALE
+TSPEECH=spk_human_prime
+TSPEECH=spk_human_default
+CATEGORY=Civilized
+SUBSECTION=Barbarians (Evil)
+DESCRIPTION=Barbarian Shaman
+
+ON=@Create
+	STR={100 150}
+	DEX={81 95}
+	INT={20 30}
+	MAGICRESISTANCE={40.0 55.0}
+	MAGERY={60.0 75.0}
+	TACTICS={80.0 95.0}
+	WRESTLING={80.0 95.0}
+	MACEFIGHTING=100.0
+	PARRYING={75.0 100.0}
+	NPC=BRAIN_HUMAN
+	KARMA={-2100 -2200}
+	FAME={10 30}
+	ITEMNEWBIE=i_hair_long
+	COLOR=colors_red
+	ITEMNEWBIE=i_beard_short_med
+	COLOR=match_hair
+
+ON=@NPCRestock
+	ITEM=i_boots_calf
+	COLOR=01bb
+	ITEM=i_staff_gnarled
+	ITEM=i_SASH
+	COLOR=01bb
+	ITEM=i_kilt
+	COLOR=01bb
+	ITEM=loot_babarian
+	
+[CHARDEF 01082]
+DEFNAME=c_h_barbarian_warrioress
+NAME=#NAMES_HUMANFEMALE the Barbarian Warrioress
+ID=C_WOMAN
+DAM=30,45
+ARMOR=20
+//ALIGNMENT=EVIL
+CAN=MT_EQUIP|MT_USEHANDS|MT_WALK|MT_MALE
+TSPEECH=spk_human_prime
+TSPEECH=spk_human_default
+CATEGORY=Civilized
+SUBSECTION=Barbarians (Evil)
+DESCRIPTION=Barbarian Warrioress
+
+ON=@Create
+	STR={90 110}
+	DEX={81 95}
+	INT={20 30}
+	MAGICRESISTANCE={20.0 35.0}
+	TACTICS={80.0 95.0}
+	WRESTLING={80.0 95.0}
+	SWORDSMANSHIP=100.0
+	PARRYING={65.0 90.0}
+	NPC=BRAIN_HUMAN
+	KARMA={-2100 -2200}
+	FAME={10 30}
+	ITEMNEWBIE=i_hair_ponytail
+	COLOR=colors_red
+
+ON=@NPCRestock
+	ITEM=i_boots_thigh
+	COLOR=01bb
+	ITEM=i_armor_female_studded
+	ITEM=i_axe_battle
+	ITEM=i_gold,{50 120}
+	ITEM=i_mask_deer
+	ITEM=loot_Barbarian
+	
+
+[EOF]

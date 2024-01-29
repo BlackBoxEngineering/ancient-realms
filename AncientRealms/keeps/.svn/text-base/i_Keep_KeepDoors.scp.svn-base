@@ -1,0 +1,192 @@
+[ITEMDEF i_Key_removal]
+DEFNAME=i_Key_removal
+TYPE=t_eq_script
+NAME=Key Remover
+layer=layer_special
+
+ON=@CREATE
+      attr=attr_newbie|attr_decay|attr_move_never
+      TIMER=<EVAL KeepDoorKeyDecayTimer>
+
+ON=@TIMER
+	CONT.FINDID.i_guard_key.REMOVE
+	CONT.FINDID.i_Key_removal.REMOVE
+	SFX 1473
+	REMOVE
+	RETURN 1
+
+[ITEMDEF i_guard_key]
+DEFNAME=i_guard_key
+NAME=Guard Key
+ID=i_key_gold
+WEIGHT=1
+CATEGORY=AncientRealms
+SUBSECTION=Keep Items
+DESCRIPTION=Guard Key
+
+ON=@DClick
+	SRC.SYSMESSAGE @50,,1 This Key Will Decay in <EVAL <LINK.TIMER>> Seconds
+	IF !<SRC.FINDID.i_Key_removal>
+		NEWITEM i_Key_removal,1,<SRC.UID>
+		LINK=<NEW.UID>
+		SRC.TIMERF 1,SYSMESSAGE @50,,1 All the keep doors will open for you while i am in your back pack
+	ENDIF
+	RETURN 1
+
+ON=@PickUp_Pack
+	SRC.SYSMESSAGE @50,,1 All the keep doors will open for you while i am in your back pack
+	IF !<SRC.FINDID.i_Key_removal>
+		NEWITEM i_Key_removal,1,<SRC.UID>
+		LINK=<NEW.UID>
+	ENDIF
+	SRC.TIMERF 2,SYSMESSAGE @50,,1 This Key Will Decay in <EVAL <LINK.TIMER>> Seconds
+	RETURN 0
+
+[TYPEDEF t_keep_door]
+ON=@DCLICK
+	IF (<SRC.GM>)
+		RETURN 0
+	ELIF (<SRC.ISPLAYER>)
+		IF !(<SRC.FINDID.i_guard_key>)
+			IF !(<SRC.GUILD>)
+				SAY @55 Your Not in a Guild!
+				RETURN 1
+			ENDIF
+			IF !(strmatch(*<src.GUILD.UID>*,<region.TAG.OwnersUid>)
+				SAY @55 Your Guild Does Not Control This Keep!
+				RETURN 1
+			ENDIF
+		ELSE
+			RETURN 0
+		ENDIF
+	ELSE
+		RETURN 1
+	ENDIF
+	
+[ITEMDEF i_keep_door_barred_w_sw]
+NAME=Keep Door
+ID=0691
+TEVENTS=t_keep_door
+CATEGORY=AncientRealms
+SUBSECTION=Keep Doors
+DESCRIPTION=Wooden Keep Door SW
+
+[ITEMDEF i_keep_door_wooden_w_nw]
+NAME=Keep Door
+ID=0693
+TEVENTS=t_keep_door
+CATEGORY=AncientRealms
+SUBSECTION=Keep Doors
+DESCRIPTION=Wooden Keep Door SE
+	
+[ITEMDEF i_keep_door_wooden_sw]
+NAME=Keep Door
+ID=i_door_wood_3
+TEVENTS=t_keep_door
+CATEGORY=AncientRealms
+SUBSECTION=Keep Doors
+DESCRIPTION=Wooden Keep Door SW
+
+[ITEMDEF i_keep_door_wooden_se]
+NAME=Keep Door
+ID=06e7
+TEVENTS=t_keep_door
+CATEGORY=AncientRealms
+SUBSECTION=Keep Doors
+DESCRIPTION=Wooden Keep Door SE
+
+[ITEMDEF i_barred_keep_door_1]
+NAME=Keep Door
+ID=068d
+TEVENTS=t_keep_door
+CATEGORY=AncientRealms
+SUBSECTION=Keep Doors
+DESCRIPTION=Barred Keep Door
+
+[ITEMDEF i_barred_keep_door_2]
+NAME=Keep Door
+ID=068f
+TEVENTS=t_keep_door
+TEVENTS=t_keep_door
+CATEGORY=AncientRealms
+SUBSECTION=Keep Doors
+DESCRIPTION=Barred Keep Door
+
+[ITEMDEF i_barred_keep_door_3]
+NAME=Keep Door
+ID=0687
+TEVENTS=t_keep_door
+CATEGORY=AncientRealms
+SUBSECTION=Keep Doors
+DESCRIPTION=Barred Keep Door
+
+[ITEMDEF i_barred_keep_door_4]
+NAME=Keep Door
+ID=i_door_metal_bar
+TEVENTS=t_keep_door
+CATEGORY=AncientRealms
+SUBSECTION=Keep Doors
+DESCRIPTION=Barred Keep Door
+
+[ITEMDEF i_metal_keep_door1]
+NAME=Keep Door
+ID=067d
+TEVENTS=t_keep_door
+CATEGORY=AncientRealms
+SUBSECTION=Keep Doors
+DESCRIPTION=Metal Keep Door1
+
+[ITEMDEF i_metal_keep_door2]
+NAME=Keep Door
+ID=067f
+TEVENTS=t_keep_door
+CATEGORY=AncientRealms
+SUBSECTION=Keep Doors
+DESCRIPTION=Metal Keep Door2
+
+[ITEMDEF i_astalon__door2]
+NAME=Wall
+ID=0242
+CATEGORY=AncientRealms
+SUBSECTION=Keep Doors
+DESCRIPTION=Metal Keep Door2
+
+ON=@Create
+	ATTR=ATTR_DECAY|ATTR_CAN_DECAY|ATTR_MOVE_NEVER
+	TAG.ADWallUID=<UID>
+	TIMER=5
+	
+ON=@DClick
+	IF <SRC.GM>
+		TAG.ADWallP=<P>
+		TAG.ADWallPX=<P.X>
+		TAG.ADWallPY=<P.Y>
+		TAG.ADWallUID=<UID>
+		REGION.TAG.ADWallUID=<UID>
+		SAY <EVAL <TAG.ADWallPX>>,<EVAL <TAG.ADWallPY>>
+	ENDIF
+
+ON=@TIMER
+	SERV.UID.<REGION.TAG.ADWallUID>.P=<SERV.UID.<REGION.TAG.ADWallUID>.TAG.ADWallP>
+	UPDATEX
+	TIMER=5
+	RETURN 1
+	
+[ITEMDEF i_astlon_dungeon_dooropen]
+DEFNAME=i_astlon_dungeon_dooropen
+NAME=
+ID=i_paver_stone
+TYPE=t_script
+
+ON=@Step
+IF (<SRC.GUILD.UID>==<REGION.TAG.OwnersUid>)||<SRC.ISGM>)
+	IF (<ARGN1>==1)
+		IF (<SERV.UID.<REGION.TAG.ADWallUID>.P.Y>=<EVAL <SERV.UID.<REGION.TAG.ADWallUID>.TAG.ADWallPY>>)
+			SFX 541
+			SERV.UID.<REGION.TAG.ADWallUID>.MOVE N
+			SERV.UID.<REGION.TAG.ADWallUID>.TIMER=3
+		ENDIF
+	ENDIF
+ENDIF
+
+[EOF]

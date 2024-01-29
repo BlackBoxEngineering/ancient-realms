@@ -1,0 +1,63 @@
+[ITEMDEF i_keep_canbecaptured]
+DEFNAME=i_keep_canbecaptured
+ID=02a93
+TYPE=t_eq_script
+NAME=Can Be Captured
+layer=layer_special
+
+ON=@CREATE
+	ATTR=attr_newbie|attr_decay|attr_move_never
+    TIMER=3
+
+ON=@TIMER
+	REGION.TAG.CanBeCaptured=0
+	SERV.ALLCLIENTS sysmessage @55,,1 <REGION.NAME> Lord Resets Capture..
+	REMOVE
+	RETURN 1
+
+[ITEMDEF i_keep_GuardsBrains]
+DEFNAME=i_keep_GuardsBrains
+ID=i_flesh_brain
+TYPE=t_eq_script
+NAME=KeepGuard Brain
+layer=layer_special
+
+ON=@CREATE
+      ATTR=attr_newbie|attr_decay|attr_move_never
+      TIMER=6
+      
+ON=@TIMER
+	CONT.TAG.GuildUID=<REGION.TAG.OwnersUID>
+	IF (STRMATCH(*c_keep_Lord*,<CONT.BASEID>))||(STRMATCH(*c_keep_gatekeeper*,<CONT.BASEID>))
+		f_keepGuardResetMaxHits <CONT.UID>
+	ENDIF
+	IF !<CONT.ISWARMODE>
+		IF <CONT.memoryfindtype.memory_harmedby>
+			CONT.memoryfindtype.memory_harmedby.remove
+		ENDIF
+		IF <CONT.memoryfindtype.memory_fight>
+			CONT.memoryfindtype.memory_iaggressor.remove
+		ENDIF
+		IF <CONT.memoryfindtype.memory_sawcrime>
+			CONT.memoryfindtype.memory_sawcrime.remove
+		ENDIF
+		IF <CONT.memoryfindtype.memory_aggreived>
+			CONT.memoryfindtype.memory_sawcrime.remove
+		ENDIF
+		IF <CONT.memoryfindtype.memory_war_targ>
+			CONT.memoryfindtype.memory_war_targ.remove
+		ENDIF
+		IF <CONT.memoryfindtype.memory_speak>
+			CONT.memoryfindtype.memory_speak.remove
+		ENDIF
+	ENDIF
+	TIMER=6
+	RETURN 1
+
+[FUNCTION f_keepGuardResetMaxHits]
+REF1=<SERV.UID.<ARGV[0]>>
+IF (STRMATCH(*c_keep_Lord*,<REF1.BASEID>))
+	REF1.STR=<EVAL <SERV.UID.<CONT.REGION.TAG.KeepControlStoneUID>.TAG.KeepLordsMaximumHits>>
+ENDIF
+	
+[EOF]

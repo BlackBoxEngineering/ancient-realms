@@ -1,0 +1,36 @@
+[ITEMDEF i_keep_bankstone]
+ID=i_gravestone_damaged
+NAME=Bank Stone
+CATEGORY=AncientRealms
+SUBSECTION=Keep Stones
+DESCRIPTION=Bank Stone
+
+ON=@Create
+	COLOR=color_o_blackrock
+	ATTR=010
+	TIMER=30
+	
+ON=@Timer
+	REGION.TAG.HASBANKSTONE=1
+	REGION.TAG.BANKSTONEUID=<UID>
+	TIMER=30
+	RETURN 1
+	
+ON=@DClick
+	IF (<SRC.GUILD>)
+		IF !(strmatch(*<src.GUILD.UID>*,<region.TAG.OwnersUid>)
+				SAY @55 Your Guild Does Not Control This Keep!
+				RETURN 1
+			ELSE
+				SRC.BANK
+			ENDIF
+		ELSE
+			SAY @55 Your Not in a Guild!
+			RETURN 1
+		ENDIF
+	ENDIF
+
+ON=@TOOTIP
+	FINISH_TOOLTIP
+	
+[EOF]

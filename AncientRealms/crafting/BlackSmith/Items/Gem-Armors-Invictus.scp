@@ -1,0 +1,60 @@
+/////////////////////////////////////////////Invictus Gargish female glasses
+[ITEMDEF i_gargish_glasses_female_Invictus]
+   DEFNAME= i_gargish_glasses_female_Invictus
+   ID= i_gargish_glasses_female
+   NAME= Invictus Gargish female glasses
+   ARMOR= 4
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 80 i_gem_Invictus
+   SKILLMAKE= TINKERING 120.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Invictus
+   DESCRIPTION= Gargish female glasses
+
+ON=@Create
+   COLOR=color_gem_Invictus
+   HITPOINTS= {121 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Invictus Gargish glasses
+[ITEMDEF i_gargish_glasses_Invictus]
+   DEFNAME= i_gargish_glasses_Invictus
+   ID= i_gargish_glasses
+   NAME= Invictus Gargish glasses
+   ARMOR= 4
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 80 i_gem_Invictus
+   SKILLMAKE= TINKERING 120.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Invictus
+   DESCRIPTION= Gargish glasses
+
+ON=@Create
+   COLOR=color_gem_Invictus
+   HITPOINTS= {121 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

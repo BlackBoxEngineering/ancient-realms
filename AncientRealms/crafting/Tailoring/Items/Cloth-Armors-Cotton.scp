@@ -1,0 +1,321 @@
+/////////////////////////////////////////////Cotton Gargish Cloth Arms
+[ITEMDEF i_gargish_cloth_arms_1_Cotton]
+   DEFNAME= i_gargish_cloth_arms_1_Cotton
+   ID= i_gargish_cloth_arms_1
+   NAME= Cotton Gargish Cloth Arms
+   ARMOR= 6
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 5 i_cloth_Cotton
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cotton
+   DESCRIPTION= Gargish Cloth Arms
+
+ON=@Create
+   COLOR=color_cloth_Cotton
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cotton Gargish Cloth Arms
+[ITEMDEF i_gargish_cloth_arms_2_Cotton]
+   DEFNAME= i_gargish_cloth_arms_2_Cotton
+   ID= i_gargish_cloth_arms_2
+   NAME= Cotton Gargish Cloth Arms
+   ARMOR= 6
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 5 i_cloth_Cotton
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cotton
+   DESCRIPTION= Gargish Cloth Arms
+
+ON=@Create
+   COLOR=color_cloth_Cotton
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cotton Gargish Cloth Chest
+[ITEMDEF i_gargish_cloth_chest_1_Cotton]
+   DEFNAME= i_gargish_cloth_chest_1_Cotton
+   ID= i_gargish_cloth_chest_1
+   NAME= Cotton Gargish Cloth Chest
+   ARMOR= 9
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 8 i_cloth_Cotton
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cotton
+   DESCRIPTION= Gargish Cloth Chest
+
+ON=@Create
+   COLOR=color_cloth_Cotton
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cotton Gargish Cloth Chest
+[ITEMDEF i_gargish_cloth_chest_2_Cotton]
+   DEFNAME= i_gargish_cloth_chest_2_Cotton
+   ID= i_gargish_cloth_chest_2
+   NAME= Cotton Gargish Cloth Chest
+   ARMOR= 9
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 8 i_cloth_Cotton
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cotton
+   DESCRIPTION= Gargish Cloth Chest
+
+ON=@Create
+   COLOR=color_cloth_Cotton
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cotton Gargish Cloth Kilt
+[ITEMDEF i_gargish_cloth_kilt_1_Cotton]
+   DEFNAME= i_gargish_cloth_kilt_1_Cotton
+   ID= i_gargish_cloth_kilt_1
+   NAME= Cotton Gargish Cloth Kilt
+   ARMOR= 5
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Cotton
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cotton
+   DESCRIPTION= Gargish Cloth Kilt
+
+ON=@Create
+   COLOR=color_cloth_Cotton
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cotton Gargish Cloth Kilt
+[ITEMDEF i_gargish_cloth_kilt_2_Cotton]
+   DEFNAME= i_gargish_cloth_kilt_2_Cotton
+   ID= i_gargish_cloth_kilt_2
+   NAME= Cotton Gargish Cloth Kilt
+   ARMOR= 5
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Cotton
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cotton
+   DESCRIPTION= Gargish Cloth Kilt
+
+ON=@Create
+   COLOR=color_cloth_Cotton
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cotton Gargish Cloth Leggings
+[ITEMDEF i_gargish_cloth_leggings_1_Cotton]
+   DEFNAME= i_gargish_cloth_leggings_1_Cotton
+   ID= i_gargish_cloth_leggings_1
+   NAME= Cotton Gargish Cloth Leggings
+   ARMOR= 5
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Cotton
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cotton
+   DESCRIPTION= Gargish Cloth Leggings
+
+ON=@Create
+   COLOR=color_cloth_Cotton
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cotton Gargish Cloth Leggings
+[ITEMDEF i_gargish_cloth_leggings_2_Cotton]
+   DEFNAME= i_gargish_cloth_leggings_2_Cotton
+   ID= i_gargish_cloth_leggings_2
+   NAME= Cotton Gargish Cloth Leggings
+   ARMOR= 5
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Cotton
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cotton
+   DESCRIPTION= Gargish Cloth Leggings
+
+ON=@Create
+   COLOR=color_cloth_Cotton
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cotton Gargish Cloth Wings
+[ITEMDEF i_gargish_cloth_wings_Cotton]
+   DEFNAME= i_gargish_cloth_wings_Cotton
+   ID= i_gargish_cloth_wings
+   NAME= Cotton Gargish Cloth Wings
+   ARMOR= 5
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Cotton
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cotton
+   DESCRIPTION= Gargish Cloth Wings
+
+ON=@Create
+   COLOR=color_cloth_Cotton
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cotton Lord British Armour
+[ITEMDEF i_person_lord_british_Cotton]
+   DEFNAME= i_person_lord_british_Cotton
+   ID= i_person_lord_british
+   NAME= Cotton Lord British Armour
+   ARMOR= 51
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 50
+   RESOURCES= 50 i_cloth_Cotton
+   SKILLMAKE= TAILORING 120.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cotton
+   DESCRIPTION= Lord British Armour
+
+ON=@Create
+   COLOR=color_cloth_Cotton
+   HITPOINTS= {121 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cotton Blackthorne Robe
+[ITEMDEF i_person_black_thorne_Cotton]
+   DEFNAME= i_person_black_thorne_Cotton
+   ID= i_person_black_thorne
+   NAME= Cotton Blackthorne Robe
+   ARMOR= 51
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 50
+   RESOURCES= 50 i_cloth_Cotton
+   SKILLMAKE= TAILORING 120.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cotton
+   DESCRIPTION= Blackthorne Robe
+
+ON=@Create
+   COLOR=color_cloth_Cotton
+   HITPOINTS= {121 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

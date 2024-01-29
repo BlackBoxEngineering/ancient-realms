@@ -1,0 +1,13 @@
+[TYPEDEF t_trapped_container]
+ON=@DCLICK
+IF !<SRC.ISGM>
+	SRC.SFX snd_spell_explosion
+	SRC.EFFECT 3,i_fx_explode,6,15,1
+	SRC.HITPOINTS=<SRC.HITPOINTS>+-30
+	TYPE=t_container
+ELSE
+	OPEN
+ENDIF
+RETURN 1
+
+[EOF]

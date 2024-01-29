@@ -1,0 +1,93 @@
+[TYPEDEF t_log]
+ON=@Dclick
+	SRC.CTAG.CraftingMaterialName=<NAME>
+	DIALOGCLOSE InvictusCraftingMenu
+	IF (<CONT> != <SRC.FINDLAYER.layer_pack>)
+		SRC.SYSMESSAGE @55 This must be in your pack to use!
+	ELSE
+		IF !(<SRC.FINDID.i_saw>)
+			IF !(<SRC.FINDID.i_dagger>)
+				SRC.SYSMESSAGE @55 You need a saw or a dagger to work with logs
+				SRC.CTAG.CraftingMaterialName =
+				SRC.CTAG.CraftingMaterial = 
+				SRC.CTAG.CraftingSkillName = 
+			ELSE
+				SRC.CTAG.CraftingMaterial = <UID>
+				SRC.CTAG.CraftingMaterialName = <NAME>
+				SRC.CTAG.CraftingSkillName = bowcraft
+				SRC.DIALOGCLOSE InvictusCraftingMenu
+				SRC.DIALOG InvictusCraftingMenu
+			ENDIF
+		ELSE
+			SRC.CTAG.CraftingMaterial = <UID>
+			SRC.CTAG.CraftingMaterialName = <NAME>
+			SRC.CTAG.CraftingSkillName = Carpentry
+			SRC.DIALOGCLOSE InvictusCraftingMenu
+			SRC.DIALOG InvictusCraftingMenu
+		ENDIF
+	ENDIF
+	RETURN 1
+	
+[TYPEDEF t_carpentry]
+ON=@Dclick
+	SRC.SYSMESSAGE @0059 What would you like to use this on ?
+	TARGETF f_carpentryTarget <UID>
+	RETURN 1
+
+[TYPEDEF t_weapon_mace_smith]
+ON=@Dclick
+	SRC.SYSMESSAGE @0059 What would you like to use this on ?
+	TARGETF f_blacksmithingTarget <UID>
+	RETURN 1
+
+[TYPEDEF t_weapon_fence]
+ON=@Dclick
+	SRC.SYSMESSAGE @0059 What would you like to use this on ?
+	TARGETF f_bowcraftingTarget <UID>
+	RETURN 1
+
+[FUNCTION f_carpentryTarget]
+	IF <ARGO.TYPE> = t_log
+		CTAG.CraftingMaterial = <ARGO.UID>
+		CTAG.CraftingMaterialName = <ARGO.NAME>
+		CTAG.CraftingSkillName = Carpentry
+		DIALOGCLOSE InvictusCraftingMenu
+		DIALOG InvictusCraftingMenu
+	ELSE
+		SYSMESSAGE @0029 You cannot use the <SERV.UID.<ARGV[0]>.NAME> on the <ARGO.NAME>
+	ENDIF
+	RETURN 1
+		
+[FUNCTION f_blacksmithingTarget]
+IF <ARGO>
+	IF <ARGO.TYPE> = t_ingot
+		CTAG.CraftingMaterial = <ARGO.UID>
+		CTAG.CraftingMaterialName = <ARGO.NAME>
+		CTAG.CraftingSkillName = Blacksmithing
+		DIALOGCLOSE InvictusCraftingMenu
+		DIALOG InvictusCraftingMenu
+	ELSE
+		SYSMESSAGE @0029 You cannot use the <SERV.UID.<ARGV[0]>.NAME> on the <ARGO.NAME>
+	ENDIF
+ELSE
+	IF (<EVAL <SERV.UID.<ARGV[0]>.LAYER>>=1)||(<EVAL <SERV.UID.<ARGV[0]>.LAYER>>=2)
+		EQUIP <SERV.UID.<ARGV[0]>.UID>
+	ELSE
+		 SERV.UID.<ARGV[0]>.BOUNCE <UID>
+	ENDIF
+ENDIF
+RETURN 1
+
+[FUNCTION f_bowcraftingTarget]
+	IF <ARGO.TYPE> = t_log
+		CTAG.CraftingMaterial = <ARGO.UID>
+		CTAG.CraftingMaterialName = <ARGO.NAME>
+		CTAG.CraftingSkillName = Bowcraft
+		DIALOGCLOSE InvictusCraftingMenu
+		DIALOG InvictusCraftingMenu
+	ELSE
+		SYSMESSAGE @0029 You cannot use the <SERV.UID.<ARGV[0]>.NAME> on the <ARGO.NAME>
+	ENDIF
+	RETURN 1
+
+[EOF]

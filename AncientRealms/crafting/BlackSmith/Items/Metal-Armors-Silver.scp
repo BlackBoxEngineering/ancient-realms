@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Silver Platemail Arms
+[ITEMDEF i_platemail_arms_Silver]
+   DEFNAME= i_platemail_arms_Silver
+   ID= i_platemail_arms
+   NAME= Silver Platemail Arms
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Platemail Leggings
+[ITEMDEF i_platemail_leggings_Silver]
+   DEFNAME= i_platemail_leggings_Silver
+   ID= i_platemail_leggings
+   NAME= Silver Platemail Leggings
+   ARMOR= 20
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Platemail Helmet
+[ITEMDEF i_platemail_helm_Silver]
+   DEFNAME= i_platemail_helm_Silver
+   ID= i_platemail_helm
+   NAME= Silver Platemail Helmet
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Platemail Gorget
+[ITEMDEF i_platemail_gorget_Silver]
+   DEFNAME= i_platemail_gorget_Silver
+   ID= i_platemail_gorget
+   NAME= Silver Platemail Gorget
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Silver]
+   DEFNAME= i_platemail_gorget2_Silver
+   ID= i_platemail_gorget2
+   NAME= Silver Platemail Gorget
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Platemail Gloves
+[ITEMDEF i_platemail_gloves_Silver]
+   DEFNAME= i_platemail_gloves_Silver
+   ID= i_platemail_gloves
+   NAME= Silver Platemail Gloves
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Platemail Chest
+[ITEMDEF i_platemail_chest_Silver]
+   DEFNAME= i_platemail_chest_Silver
+   ID= i_platemail_chest
+   NAME= Silver Platemail Chest
+   ARMOR= 24
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Silver]
+   DEFNAME= i_armor_female_plate_Silver
+   ID= i_armor_female_plate
+   NAME= Silver Platemail Female Plate
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver chainmail coif
+[ITEMDEF i_chainmail_coif_Silver]
+   DEFNAME= i_chainmail_coif_Silver
+   ID= i_chainmail_coif
+   NAME= Silver chainmail coif
+   ARMOR= 16
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver chainmail leggings
+[ITEMDEF i_chainmail_leggings_Silver]
+   DEFNAME= i_chainmail_leggings_Silver
+   ID= i_chainmail_leggings
+   NAME= Silver chainmail leggings
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver chainmail tunic
+[ITEMDEF i_chainmail_tunic_Silver]
+   DEFNAME= i_chainmail_tunic_Silver
+   ID= i_chainmail_tunic
+   NAME= Silver chainmail tunic
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Silver]
+   DEFNAME= i_ringmail_sleeves_Silver
+   ID= i_ringmail_sleeves
+   NAME= Silver Ringmail Sleeves
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Silver]
+   DEFNAME= i_ringmail_leggings_Silver
+   ID= i_ringmail_leggings
+   NAME= Silver Ringmail Leggings
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Silver]
+   DEFNAME= i_ringmail_tunic_Silver
+   ID= i_ringmail_tunic
+   NAME= Silver Ringmail Tunic
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Silver]
+   DEFNAME= i_ringmail_gloves_Silver
+   ID= i_ringmail_gloves
+   NAME= Silver Ringmail Gloves
+   ARMOR= 4
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver studded sleeves
+[ITEMDEF i_studded_sleeves_Silver]
+   DEFNAME= i_studded_sleeves_Silver
+   ID= i_studded_sleeves
+   NAME= Silver studded sleeves
+   ARMOR= 7
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Silver, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver studded gloves
+[ITEMDEF i_studded_gloves_Silver]
+   DEFNAME= i_studded_gloves_Silver
+   ID= i_studded_gloves
+   NAME= Silver studded gloves
+   ARMOR= 4
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Silver, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver studded gorget
+[ITEMDEF i_studded_gorget_Silver]
+   DEFNAME= i_studded_gorget_Silver
+   ID= i_studded_gorget
+   NAME= Silver studded gorget
+   ARMOR= 4
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Silver, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver studded leggings
+[ITEMDEF i_studded_leggings_Silver]
+   DEFNAME= i_studded_leggings_Silver
+   ID= i_studded_leggings
+   NAME= Silver studded leggings
+   ARMOR= 13
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Silver, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver studded tunic
+[ITEMDEF i_studded_tunic_Silver]
+   DEFNAME= i_studded_tunic_Silver
+   ID= i_studded_tunic
+   NAME= Silver studded tunic
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Silver, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver studded female armor
+[ITEMDEF i_armor_female_studded_Silver]
+   DEFNAME= i_armor_female_studded_Silver
+   ID= i_armor_female_studded
+   NAME= Silver studded female armor
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Silver, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Silver]
+   DEFNAME= i_armor_female_bustier_studded_Silver
+   ID= i_armor_female_bustier_studded
+   NAME= Silver studded female bustier
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Silver, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver platemail mempo
+[ITEMDEF i_platemail_mempo_Silver]
+   DEFNAME= i_platemail_mempo_Silver
+   ID= i_platemail_mempo
+   NAME= Silver platemail mempo
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver platemail do
+[ITEMDEF i_platemail_do_Silver]
+   DEFNAME= i_platemail_do_Silver
+   ID= i_platemail_do
+   NAME= Silver platemail do
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Silver]
+   DEFNAME= i_platemail_hiro_sode_Silver
+   ID= i_platemail_hiro_sode
+   NAME= Silver platemail hiro sode
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver platemail suneate
+[ITEMDEF i_platemail_suneate_Silver]
+   DEFNAME= i_platemail_suneate_Silver
+   ID= i_platemail_suneate
+   NAME= Silver platemail suneate
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver platemail haidate
+[ITEMDEF i_platemail_haidate_Silver]
+   DEFNAME= i_platemail_haidate_Silver
+   ID= i_platemail_haidate
+   NAME= Silver platemail haidate
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver studded mempo
+[ITEMDEF i_studded_mempo_Silver]
+   DEFNAME= i_studded_mempo_Silver
+   ID= i_studded_mempo
+   NAME= Silver studded mempo
+   ARMOR= 9
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Silver, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver studded do
+[ITEMDEF i_studded_do_Silver]
+   DEFNAME= i_studded_do_Silver
+   ID= i_studded_do
+   NAME= Silver studded do
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Silver, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Silver]
+   DEFNAME= i_studded_hiro_sode_Silver
+   ID= i_studded_hiro_sode
+   NAME= Silver studded hiro sode
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Silver, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver studded suneate
+[ITEMDEF i_studded_suneate_Silver]
+   DEFNAME= i_studded_suneate_Silver
+   ID= i_studded_suneate
+   NAME= Silver studded suneate
+   ARMOR= 11
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Silver, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver studded haidate
+[ITEMDEF i_studded_haidate_Silver]
+   DEFNAME= i_studded_haidate_Silver
+   ID= i_studded_haidate
+   NAME= Silver studded haidate
+   ARMOR= 9
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Silver, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Silver]
+   DEFNAME= i_platemail_gargish_arms_Silver
+   ID= i_platemail_gargish_arms
+   NAME= Silver Gargish Platemail Arms
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Silver]
+   DEFNAME= i_platemail_gargish_chest_Silver
+   ID= i_platemail_gargish_chest
+   NAME= Silver Gargish Platemail Chest
+   ARMOR= 26
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Silver]
+   DEFNAME= i_platemail_gargish_kilt_Silver
+   ID= i_platemail_gargish_kilt
+   NAME= Silver Gargish Platemail Kilt
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Silver]
+   DEFNAME= i_platemail_gargish_leggings_Silver
+   ID= i_platemail_gargish_leggings
+   NAME= Silver Gargish Platemail Leggings
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Silver]
+   DEFNAME= i_platemail_gargish_arms_2_Silver
+   ID= i_platemail_gargish_arms_2
+   NAME= Silver Gargish Platemail Arms
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Silver]
+   DEFNAME= i_platemail_gargish_chest_2_Silver
+   ID= i_platemail_gargish_chest_2
+   NAME= Silver Gargish Platemail Chest
+   ARMOR= 26
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Silver]
+   DEFNAME= i_platemail_gargish_kilt_2_Silver
+   ID= i_platemail_gargish_kilt_2
+   NAME= Silver Gargish Platemail Kilt
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Silver]
+   DEFNAME= i_platemail_gargish_leggings_2_Silver
+   ID= i_platemail_gargish_leggings_2
+   NAME= Silver Gargish Platemail Leggings
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Closed Helmet
+[ITEMDEF i_helm_close_Silver]
+   DEFNAME= i_helm_close_Silver
+   ID= i_helm_close
+   NAME= Silver Closed Helmet
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Open Helmet
+[ITEMDEF i_helm_open_Silver]
+   DEFNAME= i_helm_open_Silver
+   ID= i_helm_open
+   NAME= Silver Open Helmet
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Bascinet
+[ITEMDEF i_bascinet_Silver]
+   DEFNAME= i_bascinet_Silver
+   ID= i_bascinet
+   NAME= Silver Bascinet
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Norse Helmet
+[ITEMDEF i_helm_norse_Silver]
+   DEFNAME= i_helm_norse_Silver
+   ID= i_helm_norse
+   NAME= Silver Norse Helmet
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Kabuto
+[ITEMDEF i_helm_kabuto_Silver]
+   DEFNAME= i_helm_kabuto_Silver
+   ID= i_helm_kabuto
+   NAME= Silver Kabuto
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Silver]
+   DEFNAME= i_chainmail_hatsuburi_Silver
+   ID= i_chainmail_hatsuburi
+   NAME= Silver Chainmail Hatsuburi
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Silver]
+   DEFNAME= i_platemail_hatsuburi_Silver
+   ID= i_platemail_hatsuburi
+   NAME= Silver Platemail Hatsuburi
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Silver]
+   DEFNAME= i_plate_jingasa_heavy_Silver
+   ID= i_plate_jingasa_heavy
+   NAME= Silver Heavy Jingasa
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Silver]
+   DEFNAME= i_platemail_kabuto_decorative_Silver
+   ID= i_platemail_kabuto_decorative
+   NAME= Silver Decorative Platemail Kabuto
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {92 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Silver]
+   DEFNAME= i_plate_jingasa_light_Silver
+   ID= i_plate_jingasa_light
+   NAME= Silver Light Jingasa
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Silver]
+   DEFNAME= i_plate_jingasa_small_Silver
+   ID= i_plate_jingasa_small
+   NAME= Silver Small Jingasa
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Silver]
+   DEFNAME= i_platemail_kabuto_battle_Silver
+   ID= i_platemail_kabuto_battle
+   NAME= Silver Platemail Battle Kabuto
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Silver]
+   DEFNAME= i_platemail_kabuto_Silver
+   ID= i_platemail_kabuto
+   NAME= Silver Platemail Kabuto
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Circlet
+[ITEMDEF i_circlet_Silver]
+   DEFNAME= i_circlet_Silver
+   ID= i_circlet
+   NAME= Silver Circlet
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Royal Circlet
+[ITEMDEF i_circlet_royal_Silver]
+   DEFNAME= i_circlet_royal_Silver
+   ID= i_circlet_royal
+   NAME= Silver Royal Circlet
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Silver]
+   DEFNAME= i_circlet_gemmed_Silver
+   ID= i_circlet_gemmed
+   NAME= Silver Gemmed Circlet
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {102 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Buckler
+[ITEMDEF i_shield_buckler_Silver]
+   DEFNAME= i_shield_buckler_Silver
+   ID= i_shield_buckler
+   NAME= Silver Buckler
+   ARMOR= 7
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Wooden Shield
+[ITEMDEF i_shield_wood_Silver]
+   DEFNAME= i_shield_wood_Silver
+   ID= i_shield_wood
+   NAME= Silver Wooden Shield
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Silver]
+   DEFNAME= i_shield_round_metal_Silver
+   ID= i_shield_round_metal
+   NAME= Silver Light Metal  Round Shield
+   ARMOR= 9
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Silver]
+   DEFNAME= i_shield_round_bronze_Silver
+   ID= i_shield_round_bronze
+   NAME= Silver Heavy Metal  Round Shield
+   ARMOR= 11
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Silver]
+   DEFNAME= i_shield_kite_metal_Silver
+   ID= i_shield_kite_metal
+   NAME= Silver Metal Kite Shield
+   ARMOR= 13
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Silver]
+   DEFNAME= i_shield_kite_wood_Silver
+   ID= i_shield_kite_wood
+   NAME= Silver Wooden Kite Shield
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Heater Shield
+[ITEMDEF i_shield_heater_Silver]
+   DEFNAME= i_shield_heater_Silver
+   ID= i_shield_heater
+   NAME= Silver Heater Shield
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {92 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Ancient Shield
+[ITEMDEF i_shield_dupre_Silver]
+   DEFNAME= i_shield_dupre_Silver
+   ID= i_shield_dupre
+   NAME= Silver Ancient Shield
+   ARMOR= 16
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {102 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Shield oh Hell
+[ITEMDEF i_shield_scale_Silver]
+   DEFNAME= i_shield_scale_Silver
+   ID= i_shield_scale
+   NAME= Silver Shield oh Hell
+   ARMOR= 16
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {102 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Chaos Shield
+[ITEMDEF i_shield_chaos_Silver]
+   DEFNAME= i_shield_chaos_Silver
+   ID= i_shield_chaos
+   NAME= Silver Chaos Shield
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {112 220}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Silver Order Shield
+[ITEMDEF i_shield_order_Silver]
+   DEFNAME= i_shield_order_Silver
+   ID= i_shield_order
+   NAME= Silver Order Shield
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Silver
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Silver
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Silver
+   HITPOINTS= {112 220}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

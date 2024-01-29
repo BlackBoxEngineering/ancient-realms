@@ -1,0 +1,574 @@
+[function c2]
+sysmessage @1462 You try speaking to yourself.... Maybe you need to someone to talk too?
+
+[function c]
+IF (<FINDID.i_chat_bann>)
+sysmessage @1462 You are banned from chat for <FINDID.i_chat_bann.TIMER> Seconds
+return 1
+ENDIF
+IF (<tag0.event.id> > 0)
+sysmessage @1462 You can't use the chat in an event.
+return 1
+ENDIF
+IF !(STRCMPI("<args>","on")) && !(<tag0.chat>)
+tag.chat=1
+sysmessage @1462 Chat activated
+return 1
+ENDIF
+IF !(STRCMPI("<args>","off")) && (<tag0.chat>)
+tag.chat=
+sysmessage @1462 Chat deactivated
+return 1
+ENDIF
+IF !(<tag0.chat>)
+
+sysmessage @1462 You aren't with the chat activated
+return 1
+ENDIF
+IF (<ISEMPTY <ARGS>>)
+sysmessage @1462 You must type something
+return 1
+ENDIF
+
+//IF (<UID>==025e37) || (<UID>==01d764)	// If chikatlia or vasia LOL
+//	serv.uid.025e37.chatmessage <args>	// Then Only He
+//	serv.uid.01d764.chatmessage <args>	// Shall see what he says in chat
+//ELSE
+
+// Hes a Mad Bastard ^^ So Annoying in CHat But What Can you Do 
+// Without even Knowing It Of Even knowing He has been muted Vasia Has Invented
+// Chat Mute Below This Will Look FOr all Chars on Same IP and send them the Message
+// So in Effect the only Person That Reads there shit is them selfs 
+// Its funny cos they think everyones ignoring them after an hour or day maybe week LOL
+
+IF <FINDID.i_chat_mute>								// Added Gm COmmand .chatmute and .chatunmute to do this to anyone :P
+	LOCAL.CurrentIp=<ACCOUNT.LASTIP>				// Set the IP as a LOCAL For the LOOP
+	FORCHARS 7168									// LOOPS Through all all Map
+		IF <ISPLAYER>								
+			IF <ACCOUNT.LASTIP> == <LOCAL.CurrentIp> 
+				chatmessage <args>					// IF same Ip Show Chat Msg ( Hahah All there chars will see msg but not anyone else :P)
+			ENDIF
+		ENDIF
+	ENDFOR
+ELSE
+	serv.allclients chatmessage <args>				// If none of above sent to all clients
+ENDIF
+	
+
+[FUNCTION UidsFromSameIp]
+LOCAL.CurrentIp=<ACCOUNT.LASTIP>			// Set the IP as a LOCAL For the LOOP
+FORCHARS 7168								// LOOPS Through all all Map
+	IF <ISPLAYER>
+		IF <ACCOUNT.LASTIP> == <LOCAL.CurrentIp> 
+			SYSMESSAGE SURE					// IF same Ip Show Chat Msg
+		ENDIF
+	ENDIF
+ENDFOR
+
+[PLEVEL 1]
+pm
+
+[function pm]
+IF (<tag0.event.id> > 0)
+sysmessage @1462 You can't use the chat in an event.
+return 1
+ENDIF
+IF !(<tag0.chat>)
+sysmessage @1462 You aren't with the chat activated
+return 1
+ENDIF
+IF (<ISEMPTY <ARGS>>)
+sysmessage @1462 You must type something
+return 1
+ENDIF
+serv.allclients pmmessage <STRARG <args>>,<STREAT <args>>
+
+[FUNCTION pmmessage]
+IF !(<isgm>)
+IF !(strcmpi("<argv[0]>","<name>")) && (<isonline>)
+sysmessage @1462 PM From <src.name>: <argv[1]>
+src.sysmessage @1462 PM sent
+ENDIF
+ENDIF
+
+[function chatmessage]
+IF (<tag0.chat>==1)
+sysmessage @1462 <SRC.name>: <args>
+ENDIF
+
+[plevel 1]
+sendmsg
+
+[FUNCTION sendmsg]
+ctag.msg_numplayers=0
+ctag.msg_page=1
+serv.allclients message_getplayers
+ctag.msg_numpages=<eval (((<ctag0.msg_numplayers>-1) / 15) + 1)> // 15 players per page
+dialog d_spheremessage
+
+[FUNCTION message_getplayers]
+if ((<account.plevel> > <src.account.plevel>) && (<flags> & statf_insubstantial) && (<def0.msg_hidehighpriv>))
+	return
+else
+	src.ctag0.msg_numplayers += 1
+	try src.ctag.msg_p<eval (<src.ctag0.msg_numplayers>)>=<uid>
+endif
+
+[DIALOG d_spheremessage]
+0,21
+local.oldobj=<obj>
+page 0 // Basic layout
+resizepic 0 0 2620 410 397 // Background
+gumppictiled 5 5 400 385 2604
+gumppictiled 5 5 400 25 2624 
+gumppictiled 5 370 400 22 2624
+gumppictiled 5 35 400 330 2624
+checkertrans 5 5 400 387
+dtext 10 7 0c1 Players Online: <eval <ctag0.msg_numplayers>>
+button 355 5 4017 4018 1 0 0
+page 1 // Player data
+dtext 45 35 025 Character Name
+dtext 220 35 025 Location
+//dtext 540 35 025 PLevel
+msg_renderdialog
+obj=<local.oldobj>
+if (<ctag0.msg_page> > 1)
+	// Back button
+	button 5 370 4014 4015 1 0 1
+endif
+if (<ctag0.msg_page> < <ctag0.msg_numpages>)
+	// Forward button
+	button 380 370 4005 4006 1 0 2
+endif
+dtext 160 370 0c1 Page <eval <ctag0.msg_page>> / <eval <ctag0.msg_numpages>>
+
+[FUNCTION msg_renderdialog]
+local.y=55
+for x <eval ((<ctag0.msg_page> - 1) * 15) + 1> <eval (<ctag0.msg_page> * 15)>
+	if (<local.x> > <ctag0.msg_numplayers>)
+		return
+	endif
+	obj=<ctag0.msg_p<eval <local.x>>>
+	if (<obj.flags> & statf_insubstantial)
+		local.hue=0450
+	elseif (<obj.kills> >= 4)
+		local.hue=026
+	else
+		local.hue=0480
+	endif
+	if (<obj.account.plevel><=1)
+		button 10 <local.y> 4005 4006 1 0 <eval (1000 + <local.x>)>
+	endif
+	dtext 45 <local.y> <local.hue> <QVAL <OBJ.FINDID.i_rune_incognito.UID> ? <OBJ.FINDID.i_rune_incognito.NAME> : <obj.name>>
+
+	if (<obj.region.guarded>==1)
+		dtext 220 <local.y> <local.hue> <obj.region.name>
+	else
+		dtext 220 <local.y> <local.hue> Unknown
+	endif
+	local.y += 20
+end
+
+[DIALOG d_spheremessage BUTTON]
+on=0
+	clearctags msg_p
+	ctag.msg_numplayers=
+	ctag.msg_numpages=
+
+on=1 // Back button
+	ctag.msg_page -= 1
+	if (<ctag0.msg_page> < 1)
+		// Bad! And shouldnt happen
+		sysmessage Error: msg_page value went too low, please report (<ctag0.msg_page> / <ctag0.msg_numpages>)
+		ctag.msg_page=1
+	endif
+	dialog d_spheremessage
+
+on=2 // Forward button
+	ctag.msg_page += 1
+	if (<ctag0.msg_page> > <ctag0.msg_numpages>)
+		// Bad! Should also not happen
+		sysmessage Error: msg_page value went too high, please report (<ctag0.msg_page> / <ctag0.msg_numpages>)
+		ctag.msg_page=<ctag0.msg_numpages>
+	endif
+	dialog d_spheremessage
+
+
+on=1001,65535 // Player buttons
+tag.send_message=<ctag.msg_p<eval <argn> - 1000>>
+//try uid.<ctag.msg_p<eval <argn> - 1000>>.ctag.src_message=<src.uid>
+//	try uid.<ctag.msg_p<eval <argn> - 1000>>.dialog d_sphere_sendmessage, 2
+
+dialog d_sphere_sendmessage
+
+[dialog d_sphere_sendmessage]
+0,21
+//src.dialogclose d_spheremessage
+// Let's not break some (perhaps) scripts using OBJ
+
+page 0 // Basic layout
+resizepic 0 0 2620 410 197 // Background
+gumppictiled 5 5 400 185 2604
+gumppictiled 5 5 400 25 2624 
+//gumppictiled 5 370 400 22 2624
+gumppictiled 5 35 400 130 2624
+checkertrans 5 5 400 187
+dtext 10 7 0c1 Message to <uid.<tag.send_message>.name>
+dtextentry 10 40 400 30 955 1 //<argtxt[1]>
+dtextentry 10 60 400 30 955 2 //<tag.msg2>
+dtextentry 10 80 400 30 955 3 //<tag.msg3>
+dtextentry 10 100 400 30 955 4 //<tag.msg4>
+dtextentry 10 120 400 30 955 5 //<tag.msg5>
+dtextentry 10 140 400 30 955 6 //<tag.msg6>
+
+
+button 10 167 4005 4006 1 0 10
+dtext 50 167 0480 Send
+
+[dialog d_sphere_sendmessage BUTTON]
+
+onbutton=10
+
+newitem i_sphere_message
+new.tag.src=<src.uid>
+new.tag.send_message=<src.uid>
+new.tag.msg1=<argtxt[1]>
+new.tag.msg2=<argtxt[2]>
+new.tag.msg3=<argtxt[3]>
+new.tag.msg4=<argtxt[4]>
+new.tag.msg5=<argtxt[5]>
+new.tag.msg6=<argtxt[6]>
+new.cont=<tag.send_message>
+new.sfx=01fb
+try uid.<tag.send_message>.message You received a message from <src.name>
+
+if (<baseid>==i_sphere_message)
+	remove
+endif
+
+[dialog d_sphere_receivemessage]
+0,21
+//src.dialogclose d_sphere_receivemessage
+// Let's not break some (perhaps) scripts using OBJ
+
+page 0 // Basic layout
+resizepic 0 0 2620 410 197 // Background
+gumppictiled 5 5 400 185 2604
+gumppictiled 5 5 400 25 2624 
+//gumppictiled 5 370 400 22 2624
+gumppictiled 5 35 400 130 2624
+checkertrans 5 5 400 187
+dtext 10 7 0c1 Message from <uid.<tag.src>.name>
+dtext 10 40 955 <tag.msg1>
+dtext 10 60 955 <tag.msg2>
+dtext 10 80 955 <tag.msg3>
+dtext 10 100 955 <tag.msg4>
+dtext 10 120 955 <tag.msg5>
+dtext 10 140 955 <tag.msg6>
+
+
+button 10 167 4005 4006 1 0 10
+dtext 50 167 0480 Reply
+button 210 167 4005 4006 1 0 20
+dtext 250 167 0480 Delete
+
+
+[dialog d_sphere_receivemessage BUTTON]
+
+onbutton=10
+
+//ctag.send_message=<tag.src>
+dialog d_sphere_sendmessage
+
+onbutton=20
+remove
+
+[itemdef i_sphere_message]
+id=014ed
+type=t_normal
+Name=Message from
+
+on=@create
+attr=attr_newbie
+color=color_o_deus
+
+on=@dclick
+
+dialog d_sphere_receivemessage
+return 1
+
+
+[itemdef i_sphere_messagebook]
+id=i_spellbook
+RESOURCES=80 I_scroll_blank, 1 I_HIDE, 1 I_CLOTH
+skillmake=Inscription 30.0
+TYPE=T_container
+Name=Deusovis Message Book
+WEIGHT=1
+//LAYER=1	// this is wrong in TILEDATA ?
+CATEGORY=Provisions - Alchemy & Magic
+SUBSECTION=Magical Items
+DESCRIPTION=Message Book
+
+ON=@Create
+ATTR=attr_magic|attr_newbie
+color=color_o_deus
+
+on=@dclick
+	ATTR=attr_magic|attr_newbie
+
+	dialog d_sphere_messagebook
+	return 1
+
+on=@targon_char
+
+	if (<src.targ.npc>==0) || (<src.targ.account.plevel>>=2)
+		newitem i_message_dummy
+		new.link=<src.targ.uid>
+		new.name=<src.targ.name>
+		new.cont=<uid>
+		src.message <src.targ.name> added!
+		dialog d_sphere_messagebook
+	else
+		src.message You may not add that!
+	endif
+return 1
+
+[itemdef i_message_dummy]
+id=i_worldgem_bit
+type=t_normal
+name=Name
+
+[dialog d_sphere_messagebook]
+0,0
+Page 0
+resizepic 0 0 2600 400 420
+dtext 150 30 700 Contact List
+
+dtext 150 60 0c1 Name
+
+if (<findcont.0.uid>)
+	button 30 92 2117 2118 1 0 10
+	dtext 50 90 955 Send
+	dtext 150 90 955 <findcont.0.name>
+
+	button 300 92 2117 2118 1 0 20
+	dtext 320 90 955 Remove
+else
+	button 30 92 2117 2118 1 0 1000
+	dtext 50 90 955 Add
+	dtext 150 90 955 - empty -
+endif
+
+if (<findcont.1.uid>)
+	button 30 122 2117 2118 1 0 30
+	dtext 50 120 955 Send
+	dtext 150 120 955 <findcont.1.name>
+
+	button 300 122 2117 2118 1 0 40
+	dtext 320 120 955 Remove
+else
+	button 30 122 2117 2118 1 0 1000
+	dtext 50 120 955 Add
+	dtext 150 120 955 - empty -
+endif
+
+if (<findcont.2.uid>)
+	button 30 152 2117 2118 1 0 50
+	dtext 50 150 955 Send
+	dtext 150 150 955 <findcont.2.name>
+
+	button 300 152 2117 2118 1 0 60
+	dtext 320 150 955 Remove
+else
+	button 30 152 2117 2118 1 0 1000
+	dtext 50 150 955 Add
+	dtext 150 150 955 - empty -
+endif
+
+if (<findcont.3.uid>)
+	button 30 182 2117 2118 1 0 70
+	dtext 50 180 955 Send
+	dtext 150 180 955 <findcont.3.name>
+
+	button 300 182 2117 2118 1 0 80
+	dtext 320 180 955 Remove
+else
+	button 30 182 2117 2118 1 0 1000
+	dtext 50 180 955 Add
+	dtext 150 180 955 - empty -
+endif
+
+if (<findcont.4.uid>)
+	button 30 212 2117 2118 1 0 90
+	dtext 50 210 955 Send
+	dtext 150 210 955 <findcont.4.name>
+
+	button 300 212 2117 2118 1 0 100
+	dtext 320 210 955 Remove
+else
+	button 30 212 2117 2118 1 0 1000
+	dtext 50 210 955 Add
+	dtext 150 210 955 - empty -
+endif
+
+if (<findcont.5.uid>)
+	button 30 242 2117 2118 1 0 110
+	dtext 50 240 955 Send
+	dtext 150 240 955 <findcont.5.name>
+
+	button 300 242 2117 2118 1 0 120
+	dtext 320 240 955 Remove
+else
+	button 30 242 2117 2118 1 0 1000
+	dtext 50 240 955 Add
+	dtext 150 240 955 - empty -
+endif
+
+if (<findcont.6.uid>)
+	button 30 272 2117 2118 1 0 130
+	dtext 50 270 955 Send
+	dtext 150 270 955 <findcont.6.name>
+
+	button 300 272 2117 2118 1 0 140
+	dtext 320 270 955 Remove
+else
+	button 30 272 2117 2118 1 0 1000
+	dtext 50 270 955 Add
+	dtext 150 270 955 - empty -
+endif
+
+if (<findcont.7.uid>)
+	button 30 302 2117 2118 1 0 150
+	dtext 50 300 955 Send
+	dtext 150 300 955 <findcont.7.name>
+
+	button 300 302 2117 2118 1 0 160
+	dtext 320 300 955 Remove
+else
+	button 30 302 2117 2118 1 0 1000
+	dtext 50 300 955 Add
+	dtext 150 300 955 - empty -
+endif
+
+if (<findcont.8.uid>)
+	button 30 332 2117 2118 1 0 170
+	dtext 50 330 955 Send
+	dtext 150 330 955 <findcont.8.name>
+
+	button 300 332 2117 2118 1 0 280
+	dtext 320 330 955 Remove
+else
+	button 30 332 2117 2118 1 0 1000
+	dtext 50 330 955 Add
+	dtext 150 330 955 - empty -
+endif
+
+if (<findcont.9.uid>)
+	button 30 362 2117 2118 1 0 190
+	dtext 50 360 955 Send
+	dtext 150 360 955 <findcont.9.name>
+
+	button 300 362 2117 2118 1 0 200
+	dtext 320 360 955 Remove
+else
+	button 30 362 2117 2118 1 0 1000
+	dtext 50 360 955 Add
+	dtext 150 360 955 - empty -
+endif
+
+
+
+
+
+[dialog d_sphere_messagebook BUTTON]
+
+onbutton=10
+tag.send_message=<findcont.0.link>
+dialog d_sphere_sendmessage
+
+onbutton=20
+findcont.0.remove
+dialog d_sphere_messagebook
+
+onbutton=30
+tag.send_message=<findcont.1.link>
+dialog d_sphere_sendmessage
+
+onbutton=40
+findcont.1.remove
+dialog d_sphere_messagebook
+
+onbutton=50
+tag.send_message=<findcont.2.link>
+dialog d_sphere_sendmessage
+
+onbutton=60
+findcont.2.remove
+dialog d_sphere_messagebook
+
+onbutton=70
+tag.send_message=<findcont.3.link>
+dialog d_sphere_sendmessage
+
+onbutton=80
+findcont.3.remove
+dialog d_sphere_messagebook
+
+onbutton=90
+tag.send_message=<findcont.4.link>
+dialog d_sphere_sendmessage
+
+onbutton=100
+findcont.4.remove
+dialog d_sphere_messagebook
+
+onbutton=110
+tag.send_message=<findcont.5.link>
+dialog d_sphere_sendmessage
+
+onbutton=120
+findcont.5.remove
+dialog d_sphere_messagebook
+
+onbutton=130
+tag.send_message=<findcont.6.link>
+dialog d_sphere_sendmessage
+
+onbutton=140
+findcont.6.remove
+dialog d_sphere_messagebook
+
+onbutton=150
+tag.send_message=<findcont.7.link>
+dialog d_sphere_sendmessage
+
+onbutton=160
+findcont.7.remove
+dialog d_sphere_messagebook
+
+onbutton=170
+tag.send_message=<findcont.8.link>
+dialog d_sphere_sendmessage
+
+onbutton=180
+findcont.8.remove
+dialog d_sphere_messagebook
+
+onbutton=190
+tag.send_message=<findcont.9.link>
+dialog d_sphere_sendmessage
+
+onbutton=200
+findcont.9.remove
+dialog d_sphere_messagebook
+
+
+on=1000
+	target Select new contact
+	
+[EOF]
+
+
+
+[EOF]

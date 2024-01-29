@@ -1,0 +1,50 @@
+[FUNCTION f_Keep_CaptureStone]
+REF1=<ARGV[0]>
+IF !(STRMATCH(*<REF1.GUILD.UID>*,<REGION.TAG.OwnersUid>)
+	IF (<REGION.TAG.CanBeCaptured>!=01))
+		SAY @51,,15,,1 You Must Kill the Keep Lord !
+		REF1.SYSMESSAGE @51,,15,,1 You must kill the keep lord before you can capture this keep 
+		SFX 288
+		RETURN 1
+	ENDIF
+	IF !((<DISTANCE> < 2)  && (<REF1.P.Z>=<TAG.CaptureStoneHeight>))
+		SAY @51,,15,,1 Come Closer
+		REF1.SYSMESSAGE @51,,15,,1 You are too far away from the capture stone to use it
+		SFX 44
+		RETURN 1
+	ENDIF
+	IF !(<REF1.GUILD>)
+		SAY @51,,15,,1 Your Not in a Guild!
+		REF1.SYSMESSAGE @51,,15,,1 You must be a member of a guild to capture a keep
+		SFX 288
+		RETURN 1
+	ENDIF	
+	IF <SRC.CountRegionGuild> < <EVAL AmountofIpsToCapture>
+		REF1.SYSMESSAGE @51,,11 <EVAL AmountofIpsToCapture> Guild Members Must Be Present to Capture the Keep!
+		REF1.SYSMESSAGE @51,,11 Guild (IPS) currently present : <REF1.CountRegionGuild>
+		RETURN 1
+	ENDIF
+	IF (<REGION.TAG0.PeopleTryingToCapture> > 0)
+		REF1.SYSMESSAGE @33,,1 Capture in Progress
+		RETURN 1
+	ELSE
+		REGION.TAG.PeopleTryingToCapture=1
+		SERV.NEWITEM i_capture_TIMER
+		NEW.EQUIP
+		SERV.NEWITEM i_keep_CaptureCounter
+		NEW.EQUIP
+		SFX 1473
+		SFX 1474
+		SFX 1475 
+		SERV.B @51,,15,,1 Capture Attempt <REGION.NAME>
+		SERV.B @33,,1 Attacking:  <REF1.GUILD.NAME>
+		SERV.B @95 Defending:  <REGION.TAG.ownersname>
+		RETURN 1
+	ENDIF
+ELSE
+	REF1.CTAG.KeepCaptureStoneUID=<UID>
+	SERV.UID.<REF1.CTAG.KeepCaptureStoneUID>.REGION.TAG.Ownersname=<SERV.UID.<REF1.GUILD>.NAME>
+	REF1.DIALOG d_Keep_OwnersMenu
+ENDIF
+
+[EOF]

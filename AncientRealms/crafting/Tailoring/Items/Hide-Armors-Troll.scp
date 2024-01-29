@@ -1,0 +1,292 @@
+/////////////////////////////////////////////Troll hide tunic
+[ITEMDEF i_hide_tunic_Troll]
+   DEFNAME= i_hide_tunic_Troll
+   ID= i_hide_tunic
+   NAME= Troll hide tunic
+   ARMOR= 16
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 14 i_hide_Troll
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= hide tunic
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll hide gloves
+[ITEMDEF i_hide_gloves_Troll]
+   DEFNAME= i_hide_gloves_Troll
+   ID= i_hide_gloves
+   NAME= Troll hide gloves
+   ARMOR= 4
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 2 i_hide_Troll
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= hide gloves
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll hide gorget
+[ITEMDEF i_hide_gorget_Troll]
+   DEFNAME= i_hide_gorget_Troll
+   ID= i_hide_gorget
+   NAME= Troll hide gorget
+   ARMOR= 4
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 2 i_hide_Troll
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= hide gorget
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll hide pauldrons
+[ITEMDEF i_hide_pauldrons_Troll]
+   DEFNAME= i_hide_pauldrons_Troll
+   ID= i_hide_pauldrons
+   NAME= Troll hide pauldrons
+   ARMOR= 5
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 3 i_hide_Troll
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= hide pauldrons
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll hide pants
+[ITEMDEF i_hide_pants_Troll]
+   DEFNAME= i_hide_pants_Troll
+   ID= i_hide_pants
+   NAME= Troll hide pants
+   ARMOR= 11
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 9 i_hide_Troll
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= hide pants
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll female hide tunic
+[ITEMDEF i_hide_tunic_female_Troll]
+   DEFNAME= i_hide_tunic_female_Troll
+   ID= i_hide_tunic_female
+   NAME= Troll female hide tunic
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 12 i_hide_Troll
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= female hide tunic
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll Spiked Shorts
+[ITEMDEF i_armor_female_shorts_spiked_Troll]
+   DEFNAME= i_armor_female_shorts_spiked_Troll
+   ID= i_armor_female_shorts_spiked
+   NAME= Troll Spiked Shorts
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 12 i_hide_Troll
+   SKILLMAKE= TAILORING 100.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= Spiked Shorts
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {102 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll Amazon Harness
+[ITEMDEF i_armor_female_harness_amazon_Troll]
+   DEFNAME= i_armor_female_harness_amazon_Troll
+   ID= i_armor_female_harness_amazon
+   NAME= Troll Amazon Harness
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 12 i_hide_Troll
+   SKILLMAKE= TAILORING 100.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= Amazon Harness
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {102 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll Elite Harness
+[ITEMDEF i_armor_female_harness_elite_Troll]
+   DEFNAME= i_armor_female_harness_elite_Troll
+   ID= i_armor_female_harness_elite
+   NAME= Troll Elite Harness
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 12 i_hide_Troll
+   SKILLMAKE= TAILORING 100.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= Elite Harness
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {102 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll Leather Jingasa
+[ITEMDEF i_leather_jingasa_Troll]
+   DEFNAME= i_leather_jingasa_Troll
+   ID= i_leather_jingasa
+   NAME= Troll Leather Jingasa
+   ARMOR= 7
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 5 i_hide_Troll
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= Leather Jingasa
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

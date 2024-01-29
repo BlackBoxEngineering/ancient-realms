@@ -1,0 +1,122 @@
+[chardef 245]
+defname=c_Yomotsu_Warrior
+name=Yomotsu Warrior
+ICON=i_pet_yomotsu_warrior
+RESDISPDNID=c_man
+RESLEVEL=3
+RESDISPDNHUE=33
+DAM=10
+ARMOR=10
+RESOURCES=15 i_ribs_raw
+CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
+FOODTYPE=40 t_meat_raw
+DESIRES=i_gold,e_notoriety,e_horses,c_man,c_woman
+AVERSIONS=e_carnivores3
+MOVERATE=60
+CATEGORY=Invictus - Monsters
+SUBSECTION=SE
+DESCRIPTION=Yomotsu Warrior
+
+ON=@Create
+	NPC=brain_monster
+	FAME={100 3000}
+	KARMA={-5000 -6999}
+	STR={70 90}
+	MAXHITS=150
+	INT={100 180}
+	DEX={70 110}
+	PARRYING={60.0 95.0}
+	MAGICRESISTANCE={50.0 70.0}
+	TACTICS={60.0 90.0}
+	WRESTLING={60.0 90.0}
+	SWORDSMANSHIP={60.0 90.0}
+	ITEMNEWBIE=i_staff_bladed_double
+
+ON=@NpcRestock
+	ITEM=loot_Yomotsu_Warrior
+
+////////////////////////////
+
+[chardef 253]
+defname=c_Yomotsu_Priest
+name=Yomotsu Priest
+ICON=i_pet_yomotsu_priest
+DAM=8
+ARMOR=5
+RESDISPDNID=c_man
+RESLEVEL=3
+RESDISPDNHUE=33
+RESOURCES=15 i_ribs_raw
+CAN=MT_WALK|MT_RUN|MT_USEHANDS
+FOODTYPE=40 t_meat_raw
+DESIRES=i_gold,e_notoriety,e_horses,c_man,c_woman
+AVERSIONS=e_carnivores3
+MOVERATE=60
+CATEGORY=Invictus - Monsters
+SUBSECTION=SE
+DESCRIPTION=Yomotsu Mage
+
+ON=@Create
+	NPC=brain_monster		
+	STR={80 100}
+	MAXHITS=200
+	INT={60 80}
+	DEX={20 30}
+	KARMA={-5000 -6999}
+	PARRYING={80.0 100.0
+	WRESTLING={80.0 100.0}
+	TACTICS={80.0 100.0}
+	MAGICRESISTANCE={80.0 100.0}
+	SWORDSMANSHIP={80.0 100.0}
+	MAGERY={80.0 100.0}
+	FAME=100
+	ITEMNEWBIE=i_spellbook
+	ADDCIRCLE=8,1
+	
+ON=@NpcRestock
+	ITEM=loot_Yomotsu_Priest
+
+////////////////////////////
+
+[chardef 255]
+defname=c_Yomotsu_Elder
+name=Yomotsu Elder
+ICON=i_pet_yomotsu_elder
+DAM=10
+ARMOR=15
+RESDISPDNID=c_man
+RESLEVEL=3
+RESDISPDNHUE=33
+RESOURCES=15 i_ribs_raw
+CAN=MT_WALK|MT_RUN|MT_USEHANDS
+FOODTYPE=40 t_meat_raw
+DESIRES=i_gold,e_notoriety,e_horses,c_man,c_woman
+AVERSIONS=e_carnivores3
+MOVERATE=60
+CATEGORY=Invictus - Monsters
+SUBSECTION=SE
+DESCRIPTION=Elder Yomotsu
+
+ON=@Create
+	NPC=brain_monster
+	FAME={100 3000}
+	KARMA={-5000 -6999}
+	STR={100 120}
+	MAXHITS={400 500}
+	INT={100 200}
+	DEX={50 90}
+	PARRYING={60.0 95.0}
+	MAGICRESISTANCE=100.0
+	TACTICS={40.0 60.0}
+	WRESTLING={40.0 60.0}
+	SWORDSMANSHIP={30.0 60.0}
+	MAGERY=125.0
+	ITEMNEWBIE=i_spellbook
+	ADDCIRCLE=8,1
+
+ON=@NpcRestock
+	ITEM=loot_Yomotsu_Elder
+
+///////////////////////
+
+[EOF]

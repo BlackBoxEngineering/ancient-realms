@@ -1,0 +1,62 @@
+[PLEVEL 1]
+ShowStatus
+
+[FUNCTION ShowStatus]
+IF (<findlayer.layer_flag_murders.timer> < 0)
+	findlayer.layer_flag_murders.timer=1
+ENDIF
+DIALOG d_playerStatus
+
+[FUNCTION ShowKarma]
+IF !<findlayer.layer_flag_murders>
+	findlayer.layer_flag_murders.timer=1
+ENDIF
+SAY <findlayer.layer_flag_murders>
+
+[DIALOG d_playerStatus]
+0,0
+page 0
+resizepic 0 0 3600 450 180
+page 1
+text 30 30 02 0
+text 30 50 1152 1
+text 30 70 1152 2
+text 30 90 1152 3
+text 30 110 1152 4
+text 30 130 1152 5
+text 160 50 1152 6
+text 160 70 1152 7
+text 160 90 1152 8
+
+//IF (<FLAGS>&statf_criminal)
+IF <iscriminal>
+	text 160 110 1152 10
+ELSE
+	text 160 110 1152 9
+ENDIF
+
+IF <FINDID.i_LicencedMerchant.timer> > 0
+	text 160 130 1152 11
+ELSE
+	text 160 130 1152 12
+ENDIF
+
+[DIALOG d_playerStatus TEXT]
+Status Report
+Fame: <fame>
+Karma: <karma>
+Kills: <kills>
+KillDecay: <EVAL <FINDLAYER.layer_flag_murders.TIMER>>
+Deaths: <DEATHS>
+Last Hit By : <SERV.UID.<TAG.LastHitByUID>.NAME>
+Last Killed By : <SERV.UID.<TAG.lastkilledbyUID>.NAME>
+Last Kill : <SERV.UID.<TAG.lastkilledUID>.NAME>
+---
+Criminal Timer : <EVAL <FINDID.i_criminal_timer.TIMER>> (secs) 
+Traders Licence Expires in : <EVAL <FINDID.i_LicencedMerchant.timer>> (secs)
+You are not Licenced to Trade inside Towns
+
+
+[DIALOG d_playerStatus BUTTON]
+
+[EOF]

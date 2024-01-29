@@ -1,0 +1,219 @@
+[ITEMDEF i_map_treasure]
+ID=i_map
+NAME=An Old Treasure Map
+TYPE=t_map
+ON=@DClick
+	REMOVE
+	NEWITEM=RandomTMap,1,<UID>
+
+RandomTMap {i_TreasureMapLevel_1 1 i_TreasureMapLevel_2 1 i_TreasureMapLevel_3 1 i_TreasureMapLevel_4 1 i_TreasureMapLevel_5 1 i_TreasureMapLevel_6 1 i_TreasureMapLevel_7 1}
+
+[ITEMDEF i_TreasureMapLevel_1]
+ID=i_map
+NAME=Treasure Map Level 1
+TYPE=t_map
+RESOURCES=i_map_blank
+SKILLMAKE=CARTOGRAPHY 100.0
+TEVENTS=t_TreasureMap
+CATEGORY=AncientRealms
+SUBSECTION=TreasureHunting
+DESCRIPTION=MapLevel 1
+
+ON=@Create
+	MORE1=0
+	MORE2=0144f0fff
+	TAG.MapLevel=1
+
+[ITEMDEF i_TreasureMapLevel_2]
+ID=i_map
+NAME=Treasure Map Level 2
+TYPE=t_map
+RESOURCES=i_map_blank
+SKILLMAKE=CARTOGRAPHY 100.0
+TEVENTS=t_TreasureMap
+CATEGORY=AncientRealms
+SUBSECTION=TreasureHunting
+DESCRIPTION=MapLevel 2
+
+ON=@Create
+	MORE1=0
+	MORE2=0144f0fff
+	TAG.MapLevel=2
+
+[ITEMDEF i_TreasureMapLevel_3]
+ID=i_map
+NAME=Treasure Map Level 3
+TYPE=t_map
+RESOURCES=i_map_blank
+SKILLMAKE=CARTOGRAPHY 100.0
+TEVENTS=t_TreasureMap
+CATEGORY=AncientRealms
+SUBSECTION=TreasureHunting
+DESCRIPTION=MapLevel 3
+
+ON=@Create
+	MORE1=0
+	MORE2=0144f0fff
+	TAG.MapLevel=3
+
+[ITEMDEF i_TreasureMapLevel_4]
+ID=i_map
+NAME=Treasure Map Level 4
+TYPE=t_map
+RESOURCES=i_map_blank
+SKILLMAKE=CARTOGRAPHY 100.0
+TEVENTS=t_TreasureMap
+CATEGORY=AncientRealms
+SUBSECTION=TreasureHunting
+DESCRIPTION=MapLevel 4
+
+ON=@Create
+	MORE1=0
+	MORE2=0144f0fff
+	TAG.MapLevel=4
+
+[ITEMDEF i_TreasureMapLevel_5]
+ID=i_map
+NAME=Treasure Map Level 5
+TYPE=t_map
+RESOURCES=i_map_blank
+SKILLMAKE=CARTOGRAPHY 100.0
+TEVENTS=t_TreasureMap
+CATEGORY=AncientRealms
+SUBSECTION=TreasureHunting
+DESCRIPTION=MapLevel 5
+
+ON=@Create
+	MORE1=0
+	MORE2=0144f0fff
+	TAG.MapLevel=5
+
+[ITEMDEF i_TreasureMapLevel_6]
+ID=i_map
+NAME=Treasure Map Level 6
+TYPE=t_map
+RESOURCES=i_map_blank
+SKILLMAKE=CARTOGRAPHY 100.0
+TEVENTS=t_TreasureMap
+CATEGORY=AncientRealms
+SUBSECTION=TreasureHunting
+DESCRIPTION=MapLevel 6
+
+ON=@Create
+	MORE1=0
+	MORE2=0144f0fff
+	TAG.MapLevel=6
+
+[ITEMDEF i_TreasureMapLevel_7]
+ID=i_map
+NAME=Treasure Map Level 7
+TYPE=t_map
+RESOURCES=i_map_blank
+SKILLMAKE=CARTOGRAPHY 100.0
+TEVENTS=t_TreasureMap
+CATEGORY=AncientRealms
+SUBSECTION=TreasureHunting
+DESCRIPTION=MapLevel 7
+
+ON=@Create
+	MORE1=0
+	MORE2=0144f0fff
+	TAG.MapLevel=7
+
+[ITEMDEF i_TreasureMapLevel_8]
+ID=i_map
+NAME=Treasure Map Level 8
+TYPE=t_map
+RESOURCES=i_map_blank
+SKILLMAKE=CARTOGRAPHY 100.0
+TEVENTS=t_TreasureMap
+CATEGORY=AncientRealms
+SUBSECTION=TreasureHunting
+DESCRIPTION=MapLevel 8
+
+ON=@Create
+	MORE1=0
+	MORE2=0144f0fff
+	TAG.MapLevel=8
+
+[ITEMDEF i_TreasureMapLevel_9]
+ID=i_map
+NAME=Treasure Map Level 9
+TYPE=t_map
+RESOURCES=i_map_blank
+SKILLMAKE=CARTOGRAPHY 100.0
+TEVENTS=t_TreasureMap
+CATEGORY=AncientRealms
+SUBSECTION=TreasureHunting
+DESCRIPTION=MapLevel 9
+
+ON=@Create
+	MORE1=0
+	MORE2=0144f0fff
+	TAG.MapLevel=9
+
+[ITEMDEF i_TreasureMapLevel_10]
+ID=i_map
+NAME=Treasure Map Level 10
+TYPE=t_map
+RESOURCES=i_map_blank
+SKILLMAKE=CARTOGRAPHY 100.0
+TEVENTS=t_TreasureMap
+CATEGORY=AncientRealms
+SUBSECTION=TreasureHunting
+DESCRIPTION=MapLevel 10
+
+ON=@Create
+	MORE1=0
+	MORE2=0144f0fff
+	TAG.MapLevel=10
+
+[ITEMDEF i_TreasureMapLevel_11]
+ID=i_map
+NAME=Treasure Map Level 11
+TYPE=t_map
+RESOURCES=i_map_blank
+SKILLMAKE=CARTOGRAPHY 100.0
+TEVENTS=t_TreasureMap
+CATEGORY=AncientRealms
+SUBSECTION=TreasureHunting
+DESCRIPTION=MapLevel 11
+
+ON=@Create
+	MORE1=0
+	MORE2=0144f0fff
+	TAG.MapLevel=11
+
+[ITEMDEF i_TreasureMapLevel_12]
+ID=i_map
+NAME=Treasure Map Level 12
+TYPE=t_map
+RESOURCES=i_map_blank
+SKILLMAKE=CARTOGRAPHY 100.0
+TEVENTS=t_TreasureMap
+CATEGORY=AncientRealms
+SUBSECTION=TreasureHunting
+DESCRIPTION=MapLevel 12
+
+ON=@Create
+	MORE1=0
+	MORE2=0144f0fff
+	TAG.MapLevel=12
+
+[ITEMDEF i_TreasureMapLevel_13]
+ID=i_map
+NAME=Treasure Map Level 13
+TYPE=t_map
+RESOURCES=i_map_blank
+SKILLMAKE=CARTOGRAPHY 100.0
+TEVENTS=t_TreasureMap
+CATEGORY=AncientRealms
+SUBSECTION=TreasureHunting
+DESCRIPTION=MapLevel 13
+
+ON=@Create
+	MORE1=0
+	MORE2=0144f0fff
+	TAG.MapLevel=13
+
+[EOF]

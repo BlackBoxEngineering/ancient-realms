@@ -1,0 +1,13 @@
+[PLEVEL 1]
+opendoors
+
+[FUNCTION OPENDOORS]
+FORITEMS <ARGN1>
+	IF (<TYPE>==t_door)
+		IF (<Z>==<ARGN2>)
+			TIMERD=1
+		ENDIF
+	ENDIF
+ENDFOR
+
+[EOF]

@@ -1,0 +1,292 @@
+/////////////////////////////////////////////Ogre hide tunic
+[ITEMDEF i_hide_tunic_Ogre]
+   DEFNAME= i_hide_tunic_Ogre
+   ID= i_hide_tunic
+   NAME= Ogre hide tunic
+   ARMOR= 19
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 14 i_hide_Ogre
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ogre
+   DESCRIPTION= hide tunic
+
+ON=@Create
+   COLOR=color_hide_Ogre
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ogre hide gloves
+[ITEMDEF i_hide_gloves_Ogre]
+   DEFNAME= i_hide_gloves_Ogre
+   ID= i_hide_gloves
+   NAME= Ogre hide gloves
+   ARMOR= 7
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 2 i_hide_Ogre
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ogre
+   DESCRIPTION= hide gloves
+
+ON=@Create
+   COLOR=color_hide_Ogre
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ogre hide gorget
+[ITEMDEF i_hide_gorget_Ogre]
+   DEFNAME= i_hide_gorget_Ogre
+   ID= i_hide_gorget
+   NAME= Ogre hide gorget
+   ARMOR= 7
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 2 i_hide_Ogre
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ogre
+   DESCRIPTION= hide gorget
+
+ON=@Create
+   COLOR=color_hide_Ogre
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ogre hide pauldrons
+[ITEMDEF i_hide_pauldrons_Ogre]
+   DEFNAME= i_hide_pauldrons_Ogre
+   ID= i_hide_pauldrons
+   NAME= Ogre hide pauldrons
+   ARMOR= 8
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 3 i_hide_Ogre
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ogre
+   DESCRIPTION= hide pauldrons
+
+ON=@Create
+   COLOR=color_hide_Ogre
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ogre hide pants
+[ITEMDEF i_hide_pants_Ogre]
+   DEFNAME= i_hide_pants_Ogre
+   ID= i_hide_pants
+   NAME= Ogre hide pants
+   ARMOR= 14
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 9 i_hide_Ogre
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ogre
+   DESCRIPTION= hide pants
+
+ON=@Create
+   COLOR=color_hide_Ogre
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ogre female hide tunic
+[ITEMDEF i_hide_tunic_female_Ogre]
+   DEFNAME= i_hide_tunic_female_Ogre
+   ID= i_hide_tunic_female
+   NAME= Ogre female hide tunic
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 12 i_hide_Ogre
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ogre
+   DESCRIPTION= female hide tunic
+
+ON=@Create
+   COLOR=color_hide_Ogre
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ogre Spiked Shorts
+[ITEMDEF i_armor_female_shorts_spiked_Ogre]
+   DEFNAME= i_armor_female_shorts_spiked_Ogre
+   ID= i_armor_female_shorts_spiked
+   NAME= Ogre Spiked Shorts
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 12 i_hide_Ogre
+   SKILLMAKE= TAILORING 100.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ogre
+   DESCRIPTION= Spiked Shorts
+
+ON=@Create
+   COLOR=color_hide_Ogre
+   HITPOINTS= {105 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ogre Amazon Harness
+[ITEMDEF i_armor_female_harness_amazon_Ogre]
+   DEFNAME= i_armor_female_harness_amazon_Ogre
+   ID= i_armor_female_harness_amazon
+   NAME= Ogre Amazon Harness
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 12 i_hide_Ogre
+   SKILLMAKE= TAILORING 100.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ogre
+   DESCRIPTION= Amazon Harness
+
+ON=@Create
+   COLOR=color_hide_Ogre
+   HITPOINTS= {105 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ogre Elite Harness
+[ITEMDEF i_armor_female_harness_elite_Ogre]
+   DEFNAME= i_armor_female_harness_elite_Ogre
+   ID= i_armor_female_harness_elite
+   NAME= Ogre Elite Harness
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 12 i_hide_Ogre
+   SKILLMAKE= TAILORING 100.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ogre
+   DESCRIPTION= Elite Harness
+
+ON=@Create
+   COLOR=color_hide_Ogre
+   HITPOINTS= {105 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ogre Leather Jingasa
+[ITEMDEF i_leather_jingasa_Ogre]
+   DEFNAME= i_leather_jingasa_Ogre
+   ID= i_leather_jingasa
+   NAME= Ogre Leather Jingasa
+   ARMOR= 10
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 5 i_hide_Ogre
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ogre
+   DESCRIPTION= Leather Jingasa
+
+ON=@Create
+   COLOR=color_hide_Ogre
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

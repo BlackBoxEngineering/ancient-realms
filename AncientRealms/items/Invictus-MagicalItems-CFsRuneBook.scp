@@ -1,0 +1,1161 @@
+//=================================================================================================================
+// FUNCTION RuneBookRECALL
+//=================================================================================================================
+[FUNCTION RuneBookRECALL]
+
+IF (<SRC.FINDID.i_RuneBookrecall>)
+	SRC.FINDID.i_RuneBookrecall.REMOVE
+	SRC.SYSMESSAGE Your previous recall attempt has been cancelled
+ENDIF
+
+IF (<SRC.FINDID.i_RuneBookgate>)
+	SRC.FINDID.i_RuneBookgate.REMOVE
+	SRC.SYSMESSAGE Your previous gate attempt has been cancelled
+ENDIF
+
+IF (0<TAG.RUNE<EVAL <ARGN>>EXIST>==0)
+	SRC.SYSMESSAGE No rune exists in this slot
+	RETURN 1
+ENDIF
+
+IF (0<TAG.CHARGES><1)
+	SRC.SYSMESSAGE The book needs 1 charge to recall
+	RETURN 1
+ENDIF
+
+IF (<SRC.REGION.FLAGS>&00004)
+	SRC.SYSMESSAGE This area prevents you from recalling
+	RETURN 1
+ENDIF
+
+SRC.NEWITEM i_gold
+SRC.ACT.P <TAG.RUNE<EVAL <ARGN>>MOREP>
+IF (<SRC.ACT.REGION.FLAGS>&00002)
+	SRC.SYSMESSAGE You cannot recall to that destination
+	SRC.ACT.REMOVE
+	RETURN 1
+ENDIF
+SRC.ACT.REMOVE
+
+SRC.EVENTS +e_RuneBookrecallinterupt
+SRC.ANIM=17
+TAG.CHARGES=<EVAL <TAG.CHARGES>+-1>
+SRC.NEWITEM i_RuneBookrecall
+SRC.ACT.TAG.MOREP=<TAG.RUNE<EVAL <ARGN>>MOREP>
+SRC.ACT.EQUIP
+SRC.SAY Kal Ort Por
+
+//=================================================================================================================
+// FUNCTION RuneBookGATE
+//=================================================================================================================
+[FUNCTION RuneBookGATE]
+
+IF (<SRC.FINDID.i_RuneBookrecall>)
+	SRC.FINDID.i_RuneBookrecall.REMOVE
+	SRC.SYSMESSAGE Your previous recall attempt has been cancelled
+ENDIF
+
+IF (<SRC.FINDID.i_RuneBookgate>)
+	SRC.FINDID.i_RuneBookgate.REMOVE
+	SRC.SYSMESSAGE Your previous gate attempt has been cancelled
+ENDIF
+
+IF (0<TAG.RUNE<EVAL <ARGN>>EXIST>==0)
+	SRC.SYSMESSAGE No rune exists in this slot
+	RETURN 1
+ENDIF
+
+IF (0<TAG.CHARGES><=1)
+	SRC.SYSMESSAGE The book needs 2 charges to gate
+	RETURN 1
+ENDIF
+
+IF (<SRC.REGION.FLAGS>&00004)
+	SRC.SYSMESSAGE This area prevents you from gating
+	RETURN 1
+ENDIF
+
+SRC.NEWITEM i_gold
+SRC.ACT.P <TAG.RUNE<EVAL <ARGN>>MOREP>
+IF (<SRC.ACT.REGION.FLAGS>&00002)
+	SRC.SYSMESSAGE You cannot gate to that destination
+	SRC.ACT.REMOVE
+	RETURN 1
+ENDIF
+SRC.ACT.REMOVE
+
+SRC.EVENTS +e_RuneBookrecallinterupt
+SRC.ANIM=17
+TAG.CHARGES=<EVAL <TAG.CHARGES>+-2>
+SRC.NEWITEM i_RuneBookgate
+SRC.ACT.TAG.MOREP=<TAG.RUNE<EVAL <ARGN>>MOREP>
+SRC.ACT.EQUIP
+SRC.SAY Vas Rel Por
+
+
+//=================================================================================================================
+// EVENTS E_RuneBookRECALLINTERUPT
+//=================================================================================================================
+[EVENTS e_RuneBookrecallinterupt]
+
+ON=@GETHIT
+
+IF (<FINDID.i_RuneBookrecall>)
+	FINDID.i_RuneBookrecall.REMOVE
+	SYSMESSAGE Your recall attempt has been interuptted
+	SOUND 0210
+	EVENTS -e_RuneBookrecallinterupt
+ENDIF
+
+IF (<FINDID.i_RuneBookgate>)
+	FINDID.i_RuneBookgate.REMOVE
+	SYSMESSAGE Your gate attempt has been interupted
+	SOUND 0210
+	EVENTS -e_RuneBookrecallinterupt
+ENDIF
+
+ON=@SPELLEFFECT
+IF (<EVAL combat_spell_<ARGN>_type>==<EVAL combat_spell_type_damage>)
+	
+	IF (<FINDID.i_RuneBookrecall>)
+		FINDID.i_RuneBookrecall.REMOVE
+		SYSMESSAGE Your recall attempt has been interuptted
+		SOUND 0210
+		EVENTS -e_RuneBookrecallinterupt
+	ENDIF
+	
+	IF (<FINDID.i_RuneBookgate>)
+		FINDID.i_RuneBookgate.REMOVE
+		SYSMESSAGE Your gate attempt has been interupted
+		SOUND 0210
+		EVENTS -e_RuneBookrecallinterupt
+	ENDIF
+endif
+
+ON=@SPELLCAST
+
+IF (<FINDID.i_RuneBookrecall>)
+	FINDID.i_RuneBookrecall.REMOVE
+	SYSMESSAGE Your recall attempt has been interuptted
+	SOUND 0210
+	EVENTS -e_RuneBookrecallinterupt
+ENDIF
+
+IF (<FINDID.i_RuneBookgate>)
+	FINDID.i_RuneBookgate.REMOVE
+	SYSMESSAGE Your gate attempt has been interupted
+	SOUND 0210
+	EVENTS -e_RuneBookrecallinterupt
+ENDIF
+
+ON=@HIT
+
+IF (<FINDID.i_RuneBookrecall>)
+	FINDID.i_RuneBookrecall.REMOVE
+	SYSMESSAGE Your recall attempt has been interuptted
+	SOUND 0210
+	EVENTS -e_RuneBookrecallinterupt
+ENDIF
+
+IF (<FINDID.i_RuneBookgate>)
+	FINDID.i_RuneBookgate.REMOVE
+	SYSMESSAGE Your gate attempt has been interupted
+	SOUND 0210
+	EVENTS -e_RuneBookrecallinterupt
+ENDIF
+//=================================================================================================================
+// ITEM I_RuneBookRECALL
+//=================================================================================================================
+[ITEMDEF i_RuneBookrecall]
+NAME=RuneBook Recall
+ID=i_memory
+TYPE=t_eq_script
+LAYER=layer_special
+
+ON=@Create
+TIMER=6
+
+ON=@EQUIP
+TIMER=6
+
+ON=@TIMER	
+IF (<CONT.REGION.FLAGS>&00004)
+	CONT.SYSMESSAGE This area prevents you from recalling
+	CONT.EVENTS -e_RuneBookrecallinterupt
+	REMOVE
+	RETURN 1
+ENDIF
+CONT.GO <TAG.MOREP>
+CONT.EVENTS -e_RuneBookrecallinterupt
+REMOVE
+RETURN 1
+
+//=================================================================================================================
+// ITEM I_RuneBookGATE
+//=================================================================================================================
+[ITEMDEF i_RuneBookgate]
+NAME=RuneBook Gate
+ID=i_memory
+TYPE=t_eq_script
+LAYER=layer_special
+
+ON=@Create
+TIMER=10
+
+
+ON=@EQUIP
+TIMER=8
+
+ON=@TIMER
+	
+IF (<CONT.REGION.FLAGS>&00004)
+	CONT.SYSMESSAGE This area prevents you from gating
+	CONT.EVENTS -e_RuneBookrecallinterupt
+	REMOVE
+	RETURN 1
+ENDIF
+CONT.NEWITEM i_moongate_blue
+CONT.ACT.ATTR=04032
+CONT.ACT.COLOR=022
+CONT.ACT.MORE1=36
+CONT.ACT.TIMER=70
+CONT.ACT.MOREP=<TAG.MOREP>
+CONT.ACT.P=<CONT.P>
+IF (<CONT.REGION.FLAGS>&00002)
+	CONT.SYSMESSAGE Warning: No Return Gate was created
+	CONT.EVENTS -e_RuneBookrecallinterupt
+	REMOVE
+	RETURN 1
+ENDIF
+CONT.NEWITEM i_moongate_blue
+CONT.ACT.ATTR=04032
+CONT.ACT.COLOR=022
+CONT.ACT.MORE1=36
+CONT.ACT.TIMER=70
+CONT.ACT.MOREP=<CONT.P>
+CONT.ACT.P=<TAG.MOREP>
+CONT.EVENTS -e_RuneBookrecallinterupt
+REMOVE
+RETURN 1
+
+//=================================================================================================================
+// DIALOG D_RuneBookRUNEBOOK
+//=================================================================================================================
+[DIALOG d_RuneBookrunebook]
+0,0
+page 0
+gumppic 100 10 2203
+button 130 190 2225 2225 0 2		//Button: Move to page 2 (1)
+button 160 190 2226 2226 0 3		//Button: Move to page 3 (2)
+button 190 190 2227 2227 0 4		//Button: Move to page 4 (3)
+button 220 190 2228 2228 0 5		//Button: Move to page 5 (4)
+button 310 190 2229 2229 0 6		//Button: Move to page 6 (5)
+button 340 190 2230 2230 0 7	 	//Button: Move to page 7 (6)
+button 370 190 2231 2231 0 8	 	//Button: Move to page 8 (7)
+button 400 190 2232 2232 0 9	 	//Button: Move to page 9 (8)
+
+page 1
+text 155 20 0 0						//Text: Add Charges
+text 130 40 0 1						//Text: Charges:
+text 315 20 0 2						//Text: Mark rune
+button 125 15 2472 2473 1 0 999		//Button: Add Charges
+button 285 15 2472 2473 1 0 1000	//Button: Mark rune
+
+button 130 65 2103 2104 0 2 		//Button: Move to rune 1, page 2
+button 130 80 2103 2104 0 2 		//Button: Move to rune 2, page 2
+button 130 95 2103 2104 0 3			//Button: Move to rune 3, page 3
+button 130 110 2103 2104 0 3		//Button: Move to rune 4, page 3
+button 130 125 2103 2104 0 4		//Button: Move to rune 5, page 4
+button 130 140 2103 2104 0 4		//Button: Move to rune 6, page 4
+button 130 155 2103 2104 0 5		//Button: Move to rune 7, page 5
+button 130 170 2103 2104 0 5		//Button: Move to rune 8, page 5
+button 285 65 2103 2104 0 6			//Button: Move to rune 9, page 6
+button 285 80 2103 2104 0 6			//Button: Move to rune 10, page 6
+button 285 95 2103 2104 0 7			//Button: Move to rune 11, page 7
+button 285 110 2103 2104 0 7		//Button: Move to rune 12, page 7
+button 285 125 2103 2104 0 8		//Button: Move to rune 13, page 8
+button 285 140 2103 2104 0 8		//Button: Move to rune 14, page 8
+button 285 155 2103 2104 0 9		//Button: Move to rune 15, page 9
+button 285 170 2103 2104 0 9		//Button: Move to rune 16, page 9
+button 394 14 2206 2206 0 2			//Page flip to page 2
+croppedtext 145 60 115 17 0 3		//Test: Rune 1 destination
+croppedtext 145 75 115 17 0 4		//Test: Rune 2 destination
+croppedtext 145 90 115 17 0 5		//Test: Rune 3 destination
+croppedtext 145 105 115 17 0 6		//Test: Rune 4 destination
+croppedtext 145 120 115 17 0 7		//Test: Rune 5 destination
+croppedtext 145 135 115 17 0 8		//Test: Rune 6 destination
+croppedtext 145 150 115 17 0 9		//Test: Rune 7 destination
+croppedtext 145 165 115 17 0 10		//Test: Rune 8 destination	
+croppedtext 300 60 115 17 0 11		//Test: Rune 9 destination
+croppedtext 300 75 115 17 0 12		//Test: Rune 10 destination
+croppedtext 300 90 115 17 0 13		//Test: Rune 11 destination
+croppedtext 300 105 115 17 0 14		//Test: Rune 12 destination
+croppedtext 300 120 115 17 0 15		//Test: Rune 13 destination
+croppedtext 300 135 115 17 0 16		//Test: Rune 14 destination
+croppedtext 300 150 115 17 0 17		//Test: Rune 15 destination
+croppedtext 300 165 115 17 0 18		//Test: Rune 16 destination
+
+page 2
+button 123 15 2205 2205 0 1 		//Page flip to page 1
+button 394 14 2206 2206 0 3			//Page flip to page 3
+button 155 50 2435 2436 1 0 998		//Button: Add rune 1
+button 155 80 2437 2438 1 0 997		//Button: Drop rune 1
+button 305 50 2435 2436 1 0 996		//Button: Add rune 2
+button 305 80 2437 2438 1 0 995		//Button: Drop rune 2
+button 140 140 2271 2271 1 0 994	//Button: Recall 1
+button 200 140 2291 2291 1 0 993	//Button: Gate 1
+button 310 140 2271 2271 1 0 992	//Button: Recall 2
+button 370 140 2291 2291 1 0 991	//Button: Gate 2
+text 170 50 0 19					//Text: Scribe rune 
+text 320 50 0 19					//Text: Scribe rune
+text 170 80 0 20					//Text: Drop rune
+text 320 80 0 20					//Text: Drop rune
+croppedtext 130 105 140 17 0 3		//Text: tag.rune1destination
+croppedtext 285 105 140 17 0 4		//Text: tag.rune2destination
+
+page 3
+button 123 15 2205 2205 0 2 		//Page flip to page 2
+button 394 14 2206 2206 0 4			//Page flip to page 4
+button 155 50 2435 2436 1 0 990		//Button: Add rune 3
+button 155 80 2437 2438 1 0 989		//Button: Drop rune 3
+button 305 50 2435 2436 1 0 988		//Button: Add rune 4
+button 305 80 2437 2438 1 0 987		//Button: Drop rune 4
+button 140 140 2271 2271 1 0 986	//Button: Recall 3
+button 200 140 2291 2291 1 0 985	//Button: Gate 3
+button 310 140 2271 2271 1 0 984	//Button: Recall 4
+button 370 140 2291 2291 1 0 983	//Button: Gate 4
+text 170 50 0 19					//Text: Scribe rune 
+text 320 50 0 19					//Text: Scribe rune
+text 170 80 0 20					//Text: Drop rune
+text 320 80 0 20					//Text: Drop rune
+croppedtext 130 105 140 17 0 5		//Text: tag.rune3destination
+croppedtext 285 105 140 17 0 6		//Text: tag.rune4destination
+
+page 4
+button 123 15 2205 2205 0 3 		//Page flip to page 3
+button 394 14 2206 2206 0 5			//Page flip to page 5
+button 155 50 2435 2436 1 0 982		//Button: Add rune 5
+button 155 80 2437 2438 1 0 981		//Button: Drop rune 5
+button 305 50 2435 2436 1 0 980		//Button: Add rune 6
+button 305 80 2437 2438 1 0 979		//Button: Drop rune 6
+button 140 140 2271 2271 1 0 978	//Button: Recall 5
+button 200 140 2291 2291 1 0 977	//Button: Gate 5
+button 310 140 2271 2271 1 0 976	//Button: Recall 6
+button 370 140 2291 2291 1 0 975	//Button: Gate 6
+text 170 50 0 19					//Text: Scribe rune 
+text 320 50 0 19					//Text: Scribe rune
+text 170 80 0 20					//Text: Drop rune
+text 320 80 0 20					//Text: Drop rune
+croppedtext 130 105 140 17 0 7		//Text: tag.rune5destination
+croppedtext 285 105 140 17 0 8		//Text: tag.rune6destination
+
+page 5
+button 123 15 2205 2205 0 4 		//Page flip to page 4
+button 394 14 2206 2206 0 6			//Page flip to page 6
+button 155 50 2435 2436 1 0 974		//Button: Add rune 7
+button 155 80 2437 2438 1 0 973		//Button: Drop rune 7
+button 305 50 2435 2436 1 0 972		//Button: Add rune 8
+button 305 80 2437 2438 1 0 971		//Button: Drop rune 8
+button 140 140 2271 2271 1 0 970	//Button: Recall 7
+button 200 140 2291 2291 1 0 969	//Button: Gate 7
+button 310 140 2271 2271 1 0 968	//Button: Recall 8
+button 370 140 2291 2291 1 0 967	//Button: Gate 8
+text 170 50 0 19					//Text: Scribe rune 
+text 320 50 0 19					//Text: Scribe rune
+text 170 80 0 20					//Text: Drop rune
+text 320 80 0 20					//Text: Drop rune
+croppedtext 130 105 140 17 0 9		//Text: tag.rune7destination
+croppedtext 285 105 140 17 0 10		//Text: tag.rune8destination
+
+page 6
+button 123 15 2205 2205 0 5 		//Page flip to page 5
+button 394 14 2206 2206 0 7			//Page flip to page 7
+button 155 50 2435 2436 1 0 966		//Button: Add rune 9
+button 155 80 2437 2438 1 0 965		//Button: Drop rune 9
+button 305 50 2435 2436 1 0 964		//Button: Add rune 10
+button 305 80 2437 2438 1 0 963		//Button: Drop rune 10
+button 140 140 2271 2271 1 0 962	//Button: Recall 9
+button 200 140 2291 2291 1 0 961	//Button: Gate 9
+button 310 140 2271 2271 1 0 960	//Button: Recall 10
+button 370 140 2291 2291 1 0 959	//Button: Gate 10
+text 170 50 0 19					//Text: Scribe rune 
+text 320 50 0 19					//Text: Scribe rune
+text 170 80 0 20					//Text: Drop rune
+text 320 80 0 20					//Text: Drop rune
+croppedtext 130 105 140 17 0 11		//Text: tag.rune9destination
+croppedtext 285 105 140 17 0 12		//Text: tag.rune10destination
+
+
+page 7
+button 123 15 2205 2205 0 6 		//Page flip to page 6
+button 394 14 2206 2206 0 8			//Page flip to page 8
+button 155 50 2435 2436 1 0 958		//Button: Add rune 11
+button 155 80 2437 2438 1 0 957		//Button: Drop rune 11
+button 305 50 2435 2436 1 0 956		//Button: Add rune 12
+button 305 80 2437 2438 1 0 955		//Button: Drop rune 12
+button 140 140 2271 2271 1 0 954	//Button: Recall 11
+button 200 140 2291 2291 1 0 953	//Button: Gate 11
+button 310 140 2271 2271 1 0 952	//Button: Recall 12
+button 370 140 2291 2291 1 0 951	//Button: Gate 12
+text 170 50 0 19					//Text: Scribe rune 
+text 320 50 0 19					//Text: Scribe rune
+text 170 80 0 20					//Text: Drop rune
+text 320 80 0 20					//Text: Drop rune
+croppedtext 130 105 140 17 0 13		//Text: tag.rune11destination
+croppedtext 285 105 140 17 0 14		//Text: tag.rune13destination
+
+
+page 8
+button 123 15 2205 2205 0 7 		//Page flip to page 7
+button 394 14 2206 2206 0 9			//Page flip to page 9
+button 155 50 2435 2436 1 0 950		//Button: Add rune 13
+button 155 80 2437 2438 1 0 949		//Button: Drop rune 13
+button 305 50 2435 2436 1 0 948		//Button: Add rune 14
+button 305 80 2437 2438 1 0 947		//Button: Drop rune 14
+button 140 140 2271 2271 1 0 946	//Button: Recall 13
+button 200 140 2291 2291 1 0 945	//Button: Gate 13
+button 310 140 2271 2271 1 0 944	//Button: Recall 14
+button 370 140 2291 2291 1 0 943	//Button: Gate 14
+text 170 50 0 19					//Text: Scribe rune 
+text 320 50 0 19					//Text: Scribe rune
+text 170 80 0 20					//Text: Drop rune
+text 320 80 0 20					//Text: Drop rune
+croppedtext 130 105 140 17 0 15		//Text: tag.rune13destination
+croppedtext 285 105 140 17 0 16		//Text: tag.rune14destination
+
+page 9
+button 123 15 2205 2205 0 8 		//Page flip to page 8
+button 394 14 2206 2206 0 1			//Page flip to page 1
+button 155 50 2435 2436 1 0 942		//Button: Add rune 15
+button 155 80 2437 2438 1 0 941		//Button: Drop rune 15
+button 305 50 2435 2436 1 0 940		//Button: Add rune 16
+button 305 80 2437 2438 1 0 939		//Button: Drop rune 16
+button 140 140 2271 2271 1 0 938	//Button: Recall 15
+button 200 140 2291 2291 1 0 937	//Button: Gate 15
+button 310 140 2271 2271 1 0 936	//Button: Recall 16
+button 370 140 2291 2291 1 0 935	//Button: Gate 16
+text 170 50 0 19					//Text: Scribe rune 
+text 320 50 0 19					//Text: Scribe rune
+text 170 80 0 20					//Text: Drop rune
+text 320 80 0 20					//Text: Drop rune
+croppedtext 130 105 140 17 0 17		//Text: tag.rune15destination
+croppedtext 285 105 140 17 0 18		//Text: tag.rune16destination
+
+[DIALOG d_RuneBookrunebook TEXT]
+Add Charges
+Charges: <eval <tag.charges>> / <eval <tag.maxcharges>>
+Mark rune
+<TAG.RUNE1DESTINATION>
+<TAG.RUNE2DESTINATION> 
+<TAG.RUNE3DESTINATION> 	//Line 5
+<TAG.RUNE4DESTINATION>
+<TAG.RUNE5DESTINATION>
+<TAG.RUNE6DESTINATION>
+<TAG.RUNE7DESTINATION>
+<TAG.RUNE8DESTINATION> 	//Line 10
+<TAG.RUNE9DESTINATION>
+<TAG.RUNE10DESTINATION>
+<TAG.RUNE11DESTINATION>
+<TAG.RUNE12DESTINATION>
+<TAG.RUNE13DESTINATION>	//Line 15
+<TAG.RUNE14DESTINATION>
+<TAG.RUNE15DESTINATION>
+<TAG.RUNE16DESTINATION>
+Scribe rune
+Remove rune		//Line 20
+
+[DIALOG d_RuneBookrunebook BUTTON]
+ONBUTTON=1000
+SRC.SYSMESSAGE Please select a rune to mark
+TAG.MARKRUNE=1
+TARGET
+
+ONBUTTON=999
+IF (<SRC.RESTEST 1 <SRC.TARG.BASEID>>==0)
+	SRC.SYSMESSAGE Your runebook must be in your backpack to add charges
+ELSE
+	TAG.ADDRUNE=0
+	SRC.SYSMESSAGE Select a recall or gate scroll to add to the charges
+	TARGET
+ENDIF
+
+ONBUTTON=998
+TAG.ADDRUNE=1
+TAG.RUNETOBEADDED=1
+SRC.SYSMESSAGE Target the rune to be added
+TARGET
+
+ONBUTTON=997
+TAG.RUNE1EXIST=
+TAG.RUNE1DESTINATION=
+TAG.RUNE1MOREP=
+
+ONBUTTON=996
+TAG.ADDRUNE=1
+TAG.RUNETOBEADDED=2
+SRC.SYSMESSAGE Target the rune to be added
+TARGET
+
+ONBUTTON=995
+TAG.RUNE2EXIST=
+TAG.RUNE2DESTINATION=
+TAG.RUNE2MOREP=
+
+ONBUTTON=994
+RuneBookRECALL 1
+
+ONBUTTON=993
+RuneBookGATE 1
+
+ONBUTTON=992
+RuneBookRECALL 2
+
+ONBUTTON=991
+RuneBookGATE 2
+
+ONBUTTON=990
+TAG.ADDRUNE=1
+TAG.RUNETOBEADDED=3
+SRC.SYSMESSAGE Target the rune to be added
+TARGET
+
+ONBUTTON=989
+TAG.RUNE3EXIST=
+TAG.RUNE3DESTINATION=
+TAG.RUNE3MOREP=
+
+ONBUTTON=988
+TAG.ADDRUNE=1
+TAG.RUNETOBEADDED=4
+SRC.SYSMESSAGE Target the rune to be added
+TARGET
+
+ONBUTTON=987
+TAG.RUNE4EXIST=
+TAG.RUNE4DESTINATION=
+TAG.RUNE4MOREP=
+
+ONBUTTON=986
+RuneBookRECALL 3
+
+ONBUTTON=985
+RuneBookGATE 3
+
+ONBUTTON=984
+RuneBookRECALL 4
+
+ONBUTTON=983
+RuneBookGATE 4
+
+ONBUTTON=982
+TAG.ADDRUNE=1
+TAG.RUNETOBEADDED=5
+SRC.SYSMESSAGE Target the rune to be added
+TARGET
+
+ONBUTTON=981
+TAG.RUNE5EXIST=
+TAG.RUNE5DESTINATION=
+TAG.RUNE5MOREP=
+
+ONBUTTON=980
+TAG.ADDRUNE=1
+TAG.RUNETOBEADDED=6
+SRC.SYSMESSAGE Target the rune to be added
+TARGET
+
+ONBUTTON=979
+TAG.RUNE6EXIST=
+TAG.RUNE6DESTINATION=
+TAG.RUNE6MOREP=
+
+ONBUTTON=978
+RuneBookRECALL 5
+
+ONBUTTON=977
+RuneBookGATE 5
+
+ONBUTTON=976
+RuneBookRECALL 6
+
+ONBUTTON=975
+RuneBookGATE 6
+
+ONBUTTON=974
+TAG.ADDRUNE=1
+TAG.RUNETOBEADDED=7
+SRC.SYSMESSAGE Target the rune to be added
+TARGET
+
+ONBUTTON=973
+TAG.RUNE7EXIST=
+TAG.RUNE7DESTINATION=
+TAG.RUNE7MOREP=
+
+ONBUTTON=972
+TAG.ADDRUNE=1
+TAG.RUNETOBEADDED=8
+SRC.SYSMESSAGE Target the rune to be added
+TARGET
+
+ONBUTTON=971
+TAG.RUNE8EXIST=
+TAG.RUNE8DESTINATION=
+TAG.RUNE8MOREP=
+
+ONBUTTON=970
+RuneBookRECALL 7
+
+ONBUTTON=969
+RuneBookGATE 7
+
+ONBUTTON=968
+RuneBookRECALL 8
+
+ONBUTTON=967
+RuneBookGATE 8
+
+ONBUTTON=966
+TAG.ADDRUNE=1
+TAG.RUNETOBEADDED=9
+SRC.SYSMESSAGE Target the rune to be added
+TARGET
+
+ONBUTTON=965
+TAG.RUNE9EXIST=
+TAG.RUNE9DESTINATION=
+TAG.RUNE9MOREP=
+
+ONBUTTON=964
+TAG.ADDRUNE=1
+TAG.RUNETOBEADDED=10
+SRC.SYSMESSAGE Target the rune to be added
+TARGET
+
+ONBUTTON=963
+TAG.RUNE10EXIST=
+TAG.RUNE10DESTINATION=
+TAG.RUNE10MOREP=
+
+ONBUTTON=962
+RuneBookRECALL 9
+
+ONBUTTON=961
+RuneBookGATE 9
+
+ONBUTTON=960
+RuneBookRECALL 10
+
+ONBUTTON=959
+RuneBookGATE 10
+
+ONBUTTON=958
+TAG.ADDRUNE=1
+TAG.RUNETOBEADDED=11
+SRC.SYSMESSAGE Target the rune to be added
+TARGET
+
+ONBUTTON=957
+TAG.RUNE11EXIST=
+TAG.RUNE11DESTINATION=
+TAG.RUNE11MOREP=
+
+ONBUTTON=956
+TAG.ADDRUNE=1
+TAG.RUNETOBEADDED=12
+SRC.SYSMESSAGE Target the rune to be added
+TARGET
+
+ONBUTTON=955
+TAG.RUNE12EXIST=
+TAG.RUNE12DESTINATION=
+TAG.RUNE12MOREP=
+
+ONBUTTON=954
+RuneBookRECALL 11
+
+ONBUTTON=953
+RuneBookGATE 11
+
+ONBUTTON=952
+RuneBookRECALL 12
+
+ONBUTTON=951
+RuneBookGATE 12
+
+ONBUTTON=950
+TAG.ADDRUNE=1
+TAG.RUNETOBEADDED=13
+SRC.SYSMESSAGE Target the rune to be added
+TARGET
+
+ONBUTTON=949
+TAG.RUNE13EXIST=
+TAG.RUNE13DESTINATION=
+TAG.RUNE13MOREP=
+
+ONBUTTON=948
+TAG.ADDRUNE=1
+TAG.RUNETOBEADDED=14
+SRC.SYSMESSAGE Target the rune to be added
+TARGET
+
+ONBUTTON=947
+TAG.RUNE14EXIST=
+TAG.RUNE14DESTINATION=
+TAG.RUNE14MOREP=
+
+ONBUTTON=946
+RuneBookRECALL 13
+
+ONBUTTON=945
+RuneBookGATE 13
+
+ONBUTTON=944
+RuneBookRECALL 14
+
+ONBUTTON=943
+RuneBookGATE 14
+
+ONBUTTON=942
+TAG.ADDRUNE=1
+TAG.RUNETOBEADDED=15
+SRC.SYSMESSAGE Target the rune to be added
+TARGET
+
+ONBUTTON=941
+TAG.RUNE15EXIST=
+TAG.RUNE15DESTINATION=
+TAG.RUNE15MOREP=
+
+ONBUTTON=940
+TAG.ADDRUNE=1
+TAG.RUNETOBEADDED=16
+SRC.SYSMESSAGE Target the rune to be added
+TARGET
+
+ONBUTTON=939
+TAG.RUNE16EXIST=
+TAG.RUNE16DESTINATION=
+TAG.RUNE16MOREP=
+
+ONBUTTON=938
+RuneBookRECALL 15
+
+ONBUTTON=937
+RuneBookGATE 15
+
+ONBUTTON=936
+RuneBookRECALL 16
+
+ONBUTTON=935
+RuneBookGATE 16
+
+//=================================================================================================================
+// ITEM I_RuneBookRUNEBOOK
+//=================================================================================================================
+[ITEMDEF i_RuneBook_AncientRealms]
+NAME=Runebook
+ID=0efa
+TYPE=t_spellbook_extra
+WEIGHT=10
+VALUE=1000
+RESOURCES=16 i_scroll_blank, 5 i_scroll_recall, 5 i_scroll_mark
+SKILLMAKE=INSCRIPTION 10.0, MAGERY 60.0
+
+
+CATEGORY=Ancientrealms Magical
+SUBSECTION=Magical Books
+DESCRIPTION=Rune Book
+
+//Made by a scribe with 16 i_scroll_blank, 5 i_scroll_recall, 5 i_scroll_mark
+
+ON=@CREATE
+TAG.MAXCHARGES=100
+ATTR=04
+COLOR=003fe
+
+ON=@DCLICK
+type=t_spellbook_extra
+
+TAG.MARKRUNE=0
+NAME=Runebook with <EVAL <TAG.MAXCHARGES>> max charges
+ATTR=04
+IF (<SRC.FLAGS> & 020)
+	SRC.SYSMESSAGE You are preoccupied with thoughts of battle
+ELSE
+	DIALOG D_RuneBookRUNEBOOK
+ENDIF
+RETURN 1
+
+ON=@TARGON_GROUND
+IF (<TAG.ADDRUNE>==0)
+	SRC.SYSMESSAGE That is not a charagable item
+ELSE
+	SRC.SYSMESSAGE That is not a rune
+ENDIF
+RETURN 1
+
+ON=@TARGON_CHAR
+IF (<TAG.ADDRUNE>==0)
+	SRC.SYSMESSAGE That is not a charagable item
+ELSE
+	SRC.SYSMESSAGE That is not a rune
+ENDIF
+RETURN 1
+
+ON=@TARGON_ITEM
+
+IF (<TAG.MARKRUNE>==1)
+	IF (<SRC.TARG.TYPE>==t_rune)
+		IF (<EVAL <TAG.CHARGES>>>=5)
+			IF (<SRC.REGION.FLAGS> & 00002)
+				SRC.SYSMESSAGE You cannot mark here
+			ELSE
+				SRC.TARG.MOREP=<SRC.P>
+				SRC.TARG.NAME=<SRC.REGION.NAME>
+				SRC.TARG.MORE1=9999
+				SRC.SYSMESSAGE Rune marked
+				TAG.CHARGES=<EVAL <TAG.CHARGES>+-5>
+			ENDIF
+		ELSE
+			SRC.SYSMESSAGE You need 5 charges to mark runes
+		ENDIF
+	ELSE
+		SRC.SYSMESSAGE This is not a rune
+	ENDIF
+	RETURN 1
+ENDIF
+
+IF (<TAG0.ADDRUNE>==0)
+	IF (<SRC.TARG.BASEID>==i_10runebookcharges)||(<SRC.TARG.BASEID>==i_20runebookcharges)||(<SRC.TARG.BASEID>==i_30runebookcharges)||(<SRC.TARG.BASEID>==i_scroll_gate_travel)||(<SRC.TARG.BASEID>==i_scroll_mark)
+		IF (<TAG.CHARGES>!=<TAG.MAXCHARGES>)
+			IF (<SRC.TARG.BASEID>==i_10runebookcharges)
+				TAG.CHARGES=<TAG0.CHARGES> + 10
+				SRC.SYSMESSAGE 10 charges added to runebook
+				SRC.TARG.CONSUME
+			ENDIF
+			IF (<SRC.TARG.BASEID>==i_20runebookcharges)
+				TAG.CHARGES=<TAG0.CHARGES> + 20
+				SRC.SYSMESSAGE 20 charges added to runebook
+				SRC.TARG.CONSUME
+			ENDIF
+			IF (<SRC.TARG.BASEID>==i_30runebookcharges)
+				TAG.CHARGES=<TAG0.CHARGES> + 30
+				SRC.SYSMESSAGE 30 charges added to runebook
+				SRC.TARG.CONSUME
+			ENDIF
+			IF (<SRC.TARG.BASEID>==i_scroll_gate_travel)
+				TAG.CHARGES=<TAG0.CHARGES> + 2
+				SRC.SYSMESSAGE 2 charges added to runebook
+				SRC.TARG.CONSUME
+			ENDIF
+			IF (<SRC.TARG.BASEID>==i_scroll_mark)
+				TAG.CHARGES=<TAG0.CHARGES> + 1
+				SRC.SYSMESSAGE 1 charges added to runebook
+				SRC.TARG.CONSUME
+			ENDIF
+			IF (<TAG0.CHARGES>><TAG.MAXCHARGES>)
+				TAG.CHARGES=<TAG.MAXCHARGES>
+			ENDIF
+		ELSE
+			SRC.SYSMESSAGE Your runebook is fully charged!
+		ENDIF
+	ELSE
+		SRC.SYSMESSAGE You can only use recall/gate scrolls, runebook charges or gems to charge a runebook
+	ENDIF
+ELSE
+	IF ((<SRC.TARG.TYPE>==t_rune)
+		IF (0<TAG.RUNE<EVAL <TAG.RUNETOBEADDED>>EXIST>==1)
+			SRC.SYSMESSAGE There is already a rune in this slot
+		ELSE
+			IF (<SRC.TARG.MOREX>==0)
+				SRC.SYSMESSAGE This is a blank rune
+			ELSE
+				TRY TAG.RUNE<EVAL <TAG.RUNETOBEADDED>>EXIST=1
+				TRY TAG.RUNE<EVAL <TAG.RUNETOBEADDED>>MOREP=<SRC.TARG.MOREP>
+				TRY TAG.RUNE<EVAL <TAG.RUNETOBEADDED>>DESTINATION=<SRC.TARG.NAME>
+				SRC.TARG.REMOVE
+			ENDIF
+		ENDIF
+	ELSE
+		SRC.SYSMESSAGE This is not a rune
+	ENDIF
+ENDIF
+RETURN 1
+
+//=================================================================================================================
+// ITEM I_RuneBookSCRIBEBOOK
+//=================================================================================================================
+
+[ITEMDEF i_RuneBookscribebook]
+NAME=Scribe book (additional scribe items)
+ID=i_spellbook
+TYPE=t_script
+WEIGHT=5
+value=20000
+
+ON=@CREATE
+ATTR=04
+COLOR=color_ore_kryptonite
+
+ON=@DCLICK
+MENU m_RuneBookscribe
+RETURN 1
+
+
+ON=@TARGON_ITEM
+  IF !(<SRC.RESTEST 10 i_scroll_blank>)
+     SRC.MESSAGE You do not have 10 blank scrolls on your person
+  ELSEIF (<SRC.TARG.TYPE>!=t_ore) && (<SRC.TARG.TYPE>!=t_ingot)
+     SRC.MESSAGE You can only target ore
+  ELSEIF !(<SRC.TARG.CONT.UID>==<SRC.FINDLAYER(21).UID>)
+     SRC.MESSAGE You can only target ore in your pack
+  ELSEIF (<SRC.INSCRIPTION> < <EVAL skill_<SRC.TARG.BASEID>>)
+     SRC.MESSAGE You are not a skilled enough tailor to make dyes from this ore
+  ELSE
+     SRC.CONSUME 20 i_scroll_blank
+     SRC.NEWITEM i_runebook_dye
+     SRC.ACT.COLOR=<SRC.TARG.COLOR>
+     SRC.ACT.NAME=<SRC.TARG.NAME> <SRC.ACT.NAME>
+     SRC.ACT.BOUNCE
+     IF (<SRC.TARG.AMOUNT> > 1)
+       SRC.TARG.AMOUNT=<EVAL <SRC.TARG.AMOUNT>-1>
+     ELSE
+       SRC.TARG.REMOVE
+     ENDIF
+     SRC.UPDATEX
+  ENDIF
+  RETURN 1
+
+
+[ITEMDEF i_runebook_dye]
+ID=i_bottle
+TYPE=t_script
+NAME=Runebook Dye
+RESOURCES=10 i_scroll_blank
+value=10000
+
+ON=@DCLICK
+  TARGET Target the runebook to dye
+  RETURN 1
+
+ON=@TARGON_ITEM
+  IF !(<SRC.TARG.CONT.UID>==<SRC.FINDLAYER(21).UID>)
+    SRC.SYSMESSAGE You can only dye items in your pack
+    RETURN 1
+  ELSEIF (<SRC.TARG.BASEID>==i_RuneBookrunebook)
+    SRC.SYSMESSAGE You dye the item
+    SRC.TARG.COLOR = <COLOR>
+    REMOVE
+  ELSE
+    SRC.SYSMESSAGE You may only dye runebooks
+  ENDIF
+  RETURN 1
+
+
+[MENU m_RuneBookscribe]
+Choose an item to craft:
+
+ON=0 Low Charge Runebook (75%) - 18 blank scrolls, 5 recall scrolls, 5 gate scrolls
+
+IF (<SRC.INSCRIPTION><750)
+	SRC.SYSMESSAGE You need 75% inscription to make this item
+	RETURN 1
+ENDIF
+
+IF ((<SRC.RESTEST 18 i_scroll_blank>)&&(<SRC.RESTEST 5 i_scroll_recall>)&&(<SRC.RESTEST 5 i_scroll_gate_travel>))
+	SRC.CONSUME 18 i_scroll_blank
+	SRC.CONSUME 5 i_scroll_recall
+	SRC.CONSUME 5 i_scroll_gate_travel
+	SRC.NEWITEM i_RuneBookrunebook
+	SRC.ACT.TAG.MAXCHARGES=<EVAL 15+{-5 5]>
+	SRC.ACT.TAG.CHARGES=0
+	SRC.ACT.NAME Runebook with <EVAL <SRC.ACT.TAG.MAXCHARGES>> max charges
+	SRC.ACT.BOUNCE
+ELSE
+	SRC.SYSMESSAGE You don't have the required resources for this item
+ENDIF
+
+ON=0 High Charge Runebook (100%) - 18 blank scrolls, 10 recall scrolls, 10 gate scrolls
+
+IF (<SRC.INSCRIPTION><1000)
+	SRC.SYSMESSAGE You need 100% inscription to make this item
+	RETURN 1
+ENDIF
+
+IF ((<SRC.RESTEST 18 i_scroll_blank>)&&(<SRC.RESTEST 10 i_scroll_recall>)&&(<SRC.RESTEST 10 i_scroll_gate_travel>))
+	SRC.CONSUME 18 i_scroll_blank
+	SRC.CONSUME 10 i_scroll_recall
+	SRC.CONSUME 10 i_scroll_gate_travel
+	SRC.NEWITEM i_RuneBookrunebook
+	SRC.ACT.TAG.MAXCHARGES=<EVAL 30+{-5 5]>
+	SRC.ACT.TAG.CHARGES=0
+	SRC.ACT.NAME Runebook with <EVAL <SRC.ACT.TAG.MAXCHARGES>> max charges
+	SRC.ACT.BOUNCE
+ELSE
+	SRC.SYSMESSAGE You don't have the required resources for this item
+ENDIF
+
+ON=0 Rune Book Dye (Skill dependant on ore)
+  SRC.TARG.TARGET Please choose the ore to make a dye from.
+
+ON=0 Exit
+
+//=================================================================================================================
+// ITEM CHARGEITEMS
+//=================================================================================================================
+
+[ITEMDEF i_10runebookcharges]
+NAME=10 Runebook Charges
+ID=i_gem_ruby
+TYPE=t_script
+value=100
+
+ON=@CREATE
+	COLOR=1360
+
+ON=@DCLICK
+	SRC.SYSMESSAGE Use your runebook to add the charges
+	RETURN 1
+
+[ITEMDEF i_20runebookcharges]
+NAME=20 Runebook Charges
+ID=i_gem_ruby
+TYPE=t_script
+value=200
+
+ON=@CREATE
+	COLOR=1378
+
+ON=@DCLICK
+	SRC.SYSMESSAGE Use your runebook to add the charges
+	RETURN 1
+
+[ITEMDEF i_30runebookcharges]
+NAME=30 Runebook Charges
+ID=i_gem_ruby
+TYPE=t_script
+value=300
+
+ON=@CREATE
+	COLOR=1283
+
+ON=@DCLICK
+	SRC.SYSMESSAGE Use your runebook to add the charges
+	RETURN 1
+
+[ITEMDEF i_50runebookcharges]
+NAME=50 Runebook Charges
+ID=i_gem_ruby
+TYPE=t_script
+value=500
+
+ON=@CREATE
+	COLOR=1283
+
+ON=@DCLICK
+	SRC.SYSMESSAGE Use your runebook to add the charges
+	RETURN 1
+
+//=================================================================================================================
+// ITEM INCREASEMAXCHARGE
+//=================================================================================================================
+
+[ITEMDEF i_1maxchargeincrease]
+NAME=Runebook 1 max charge increase
+ID=i_gem_emerald
+TYPE=t_script
+value=500
+
+ON=@CREATE
+COLOR=1460
+
+ON=@DCLICK
+SRC.SYSMESSAGE Please target the runebook to add charges too
+TARGET
+RETURN 1
+
+ON=@TARGON_CHAR
+SRC.SYSMESSAGE That is not a runebook
+RETURN 1
+
+ON=@TARGON_GROUND
+SRC.SYSMESSAGE That is not a runebook
+
+ON=@TARGON_ITEM
+IF (<SRC.TARG.BASEID>==i_RuneBookrunebook)
+	SRC.TARG.TAG.MAXCHARGES=<EVAL <SRC.TARG.TAG.MAXCHARGES>+1>
+	SRC.TARG.NAME=Runebook with <EVAL <SRC.TARG.TAG.MAXCHARGES>> max charges
+	SRC.SYSMESSAGE Max charge capacity increased by 1!
+	CONSUME
+ELSE
+	SRC.SYSMESSAGE That is not a runebook
+ENDIF
+RETURN 1
+
+[ITEMDEF i_2maxchargeincrease]
+NAME=Runebook 2 max charge increase
+ID=i_gem_emerald
+TYPE=t_script
+value=1000
+
+ON=@CREATE
+COLOR=1461
+
+ON=@DCLICK
+SRC.SYSMESSAGE Please target the runebook to add charges too
+TARGET
+RETURN 1
+
+ON=@TARGON_CHAR
+SRC.SYSMESSAGE That is not a runebook
+RETURN 1
+
+ON=@TARGON_GROUND
+SRC.SYSMESSAGE That is not a runebook
+
+ON=@TARGON_ITEM
+IF (<SRC.TARG.BASEID>==i_RuneBookrunebook)
+	SRC.TARG.TAG.MAXCHARGES=<EVAL <SRC.TARG.TAG.MAXCHARGES>+2>
+	SRC.TARG.NAME=Runebook with <EVAL <SRC.TARG.TAG.MAXCHARGES>> max charges
+	SRC.SYSMESSAGE Max charge capacity increased by 2!
+	CONSUME
+ELSE
+	SRC.SYSMESSAGE That is not a runebook
+ENDIF
+RETURN 1
+
+[ITEMDEF i_3maxchargeincrease]
+NAME=Runebook 3 max charge increase
+ID=i_gem_emerald
+TYPE=t_script
+value=1500
+
+ON=@CREATE
+COLOR=1462
+
+ON=@DCLICK
+SRC.SYSMESSAGE Please target the runebook to add charges too
+TARGET
+RETURN 1
+
+ON=@TARGON_CHAR
+SRC.SYSMESSAGE That is not a runebook
+RETURN 1
+
+ON=@TARGON_GROUND
+SRC.SYSMESSAGE That is not a runebook
+
+ON=@TARGON_ITEM
+IF (<SRC.TARG.BASEID>==i_RuneBookrunebook)
+	SRC.TARG.TAG.MAXCHARGES=<EVAL <SRC.TARG.TAG.MAXCHARGES>+3>
+	SRC.TARG.NAME=Runebook with <EVAL <SRC.TARG.TAG.MAXCHARGES>> max charges
+	SRC.SYSMESSAGE Max charge capacity increased by 3!
+	CONSUME
+ELSE
+	SRC.SYSMESSAGE That is not a runebook
+ENDIF
+RETURN 1
+
+[EOF]

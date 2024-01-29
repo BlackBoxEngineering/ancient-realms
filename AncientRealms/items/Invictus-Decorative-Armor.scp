@@ -1,0 +1,277 @@
+//Ancientrealms Decorative Armor Tools
+
+[FUNCTION f_return_ore_type]
+IF (STRMATCH(*rusty*,<ARGV[0]>))
+	RETURN "rusty"
+ELIF (STRMATCH(*iron*,<ARGV[0]>))
+	RETURN "iron"
+ELIF (STRMATCH(*dullcopper*,<ARGV[0]>))
+	RETURN "dullcopper"
+ELIF (STRMATCH(*copper*,<ARGV[0]>))
+	RETURN "copper"
+ELIF (STRMATCH(*oldcopper*,<ARGV[0]>))
+	RETURN "oldcopper"
+ELIF (STRMATCH(*purecopper*,<ARGV[0]>))
+	RETURN "purecopper"
+ELIF (STRMATCH(*bronze*,<ARGV[0]>))
+	RETURN "bronze"
+ELIF (STRMATCH(*silver*,<ARGV[0]>))
+	RETURN "silver"
+ELIF (STRMATCH(*Rhodonite*,<ARGV[0]>))
+	RETURN "Rhodonite"
+ELIF (STRMATCH(*Rhodonite*,<ARGV[0]>))
+	RETURN "Rhodonite"
+ELIF (STRMATCH(*rosequartz*,<ARGV[0]>))
+	RETURN "rosequartz"
+ELIF (STRMATCH(*rose*,<ARGV[0]>))
+	RETURN "rose"
+ELIF (STRMATCH(*Vanadinate*,<ARGV[0]>))
+	RETURN "Vanadinate"
+ELIF (STRMATCH(*Azurite*,<ARGV[0]>))
+	RETURN "Azurite"
+ELIF (STRMATCH(*Erubecite*,<ARGV[0]>))
+	RETURN "Erubecite"
+ELIF (STRMATCH(*Galena*,<ARGV[0]>))
+	RETURN "Galena"
+ELIF (STRMATCH(*Kunzite*,<ARGV[0]>))
+	RETURN "Kunzite"
+ELIF (STRMATCH(*Orpiment*,<ARGV[0]>))
+	RETURN "Orpiment"
+ELIF (STRMATCH(*Hematite*,<ARGV[0]>))
+	RETURN "Hematite"
+ELIF (STRMATCH(*Malachite*,<ARGV[0]>))
+	RETURN "Malachite"
+ELIF (STRMATCH(*Cassiterite*,<ARGV[0]>))
+	RETURN "Cassiterite"
+ELIF (STRMATCH(*gold*,<ARGV[0]>))
+	RETURN "gold"
+ELIF (STRMATCH(*verite*,<ARGV[0]>))
+	RETURN "verite"
+ELIF (STRMATCH(*Autonite*,<ARGV[0]>))
+	RETURN "Autonite"
+ELIF (STRMATCH(*agapite*,<ARGV[0]>))
+	RETURN "agapite"
+ELIF (STRMATCH(*Daemonite*,<ARGV[0]>))
+	RETURN "Daemonite"
+ELIF (STRMATCH(*Barite*,<ARGV[0]>))
+	RETURN "Barite"
+ELIF (STRMATCH(*Aquanite*,<ARGV[0]>))
+	RETURN "Aquanite"
+ELIF (STRMATCH(*valorite*,<ARGV[0]>))
+	RETURN "valorite"
+ELIF (STRMATCH(*uranium*,<ARGV[0]>))
+	RETURN "uranium"
+ELIF (STRMATCH(*bloodrock*,<ARGV[0]>))
+	RETURN "bloodrock"
+ELIF (STRMATCH(*titanium*,<ARGV[0]>))
+	RETURN "titanium"
+ELIF (STRMATCH(*blackrock*,<ARGV[0]>))
+	RETURN "blackrock"
+ELIF (STRMATCH(*kryptonite*,<ARGV[0]>))
+	RETURN "kryptonite"
+ELIF (STRMATCH(*Cerussite*,<ARGV[0]>))
+	RETURN "Cerussite"
+ELIF (STRMATCH(*Quartz*,<ARGV[0]>))
+	RETURN "Quartz"
+ELIF (STRMATCH(*Chromite*,<ARGV[0]>))
+	RETURN "Chromite"
+ELIF (STRMATCH(*Dioptase*,<ARGV[0]>))
+	RETURN "Dioptase"
+ELIF (STRMATCH(*mytheril*,<ARGV[0]>))
+	RETURN "mytheril"
+ELIF (STRMATCH(*Niobium*,<ARGV[0]>))
+	RETURN "Niobium"
+ELIF (STRMATCH(*Chromium*,<ARGV[0]>))
+	RETURN "Chromium"
+ELSE
+    RETURN 0
+ENDIF
+
+[ITEMDEF i_stacked_armour]
+DEFNAME=i_stacked_armour
+ID=i_decorative_armor
+NAME=Decorative armour
+TYPE=t_script
+VALUE=1
+WEIGHT=12
+DUPELIST=0151c
+
+ON=@DClick
+	LOCAL.DecorArmorUId=<UID>
+	IF (<CONT> == <SRC.FINDLAYER.21.UID>)
+		SRC.SYSMESSAGE @55 You take the suit of <TAG.OreType> armor apart!
+			FOR X 1 6
+				NEWITEM=<TAG.Piece<EVAL <LOCAL.X>>Baseid>
+				NEW.NAME=<TAG.Piece<EVAL <LOCAL.X>>NAME>
+				NEW.TAG.StrengthBonus=<TAG.Piece<EVAL <LOCAL.X>>StrengthBonus>
+				NEW.TAG.DexterityBonus=<TAG.Piece<EVAL <LOCAL.X>>DexterityBonus>
+				NEW.TAG.IntelligenceBonus=<TAG.Piece<EVAL <LOCAL.X>>IntelligenceBonus>
+				NEW.TAG.StaminaIncrease=<TAG.Piece<EVAL <LOCAL.X>>StaminaIncrease>
+				NEW.TAG.HitPointIncrease=<TAG.Piece<EVAL <LOCAL.X>>HitPointIncrease>
+				NEW.TAG.ManaIncrease=<TAG.Piece<EVAL <LOCAL.X>>ManaIncrease>
+				NEW.TAG.SkillBonus=<TAG.Piece<EVAL <LOCAL.X>>SkillBonus>
+				NEW.TAG.StaminaRegeneration<TAG.Piece<EVAL <LOCAL.X>>StaminaRegeneration>
+				NEW.TAG.HitRegeneration=<TAG.Piece<EVAL <LOCAL.X>>HitRegeneration>
+				NEW.TAG.ManaRegeneration=<TAG.Piece<EVAL <LOCAL.X>>ManaRegeneration>
+				NEW.TAG.BestWeaponSkill=<TAG.Piece<EVAL <LOCAL.X>>BestWeaponSkill>
+				NEW.TAG.SpellChanneling=<TAG.Piece<EVAL <LOCAL.X>>SpellChanneling>
+				NEW.TAG.SelfRepair=<TAG.Piece<EVAL <LOCAL.X>>SelfRepair>
+				NEW.TAG.Penalty.Stealth=<TAG.Piece<EVAL <LOCAL.X>>Penalty.Stealth>
+				NEW.TAG.ResPhysical=<TAG.Piece<EVAL <LOCAL.X>>ResPhysical>
+				NEW.TAG.ResFire=<TAG.Piece<EVAL <LOCAL.X>>ResFire>
+				NEW.TAG.ResCold=<TAG.Piece<EVAL <LOCAL.X>>ResCold>
+				NEW.TAG.ResPoison=<TAG.Piece<EVAL <LOCAL.X>>ResPoison>
+				NEW.TAG.ResEnergy=<TAG.Piece<EVAL <LOCAL.X>>ResEnergy>
+				NEW.TAG.Luck=<TAG.Piece<EVAL <LOCAL.X>>Luck>
+				NEW.BOUNCE
+			ENDFOR		
+		REMOVE
+		RETURN 1
+	ELSE
+		SRC.SYSMESSAGE @00029 This must be in your pack to use.
+		RETURN 1
+	ENDIF
+
+[PLEVEL 1]
+ArmorToolBabey
+
+[FUNCTION ArmorToolBabey]
+NEWITEW i_decorative_armour_tools,1,<SRC.UID>
+	
+[ITEMDEF i_decorative_armour_tools]
+DEFNAME=i_decorative_armour_tools
+ID=01ebb
+NAME=Decorative armour tool
+TYPE=t_normal
+VALUE=1
+WEIGHT=10
+RESOURCES=20 i_log, 20 i_ingot_iron
+SKILLMAKE=100.0 Tinkering, t_tinker_tools
+
+ON=@DClick
+	SRC.SYSMESSAGE @95 Select some platemail to combine into a suit of armour.
+	TARGET
+	RETURN 1
+	
+ON=@Targon_Item
+LOCAL.CraftedBy=0
+	LOCAL.Piece1=i_platemail_chest
+	LOCAL.Piece2=i_platemail_arms
+	LOCAL.Piece3=i_platemail_leggings
+	LOCAL.Piece4=i_platemail_gloves
+	LOCAL.Piece5=i_platemail_helm
+	LOCAL.Piece6=i_platemail_gorget2
+	IF (<SRC.TARG.CONT> == <SRC.FINDLAYER.21.UID>)
+		IF (<SRC.TARG.TYPE> == t_armor)
+			LOCAL.GoodToGo=0
+			FOR X 1 6				
+				IF (STRMATCH(*<LOCAL.Piece<EVAL <LOCAL.X>>>*,<SRC.TARG.BASEID>))
+					
+					LOCAL.ItemColor=<SRC.TARG.COLOR>
+					LOCAL.ItemOreType=<f_return_ore_type <SRC.TARG.BASEID>>
+					LOCAL.ItemName=<LOCAL.Piece<EVAL <LOCAL.X>>>_<LOCAL.ItemOreType>				
+					LOCAL.ItemBaseID=<LOCAL.Piece<EVAL <LOCAL.X>>>_<LOCAL.ItemOreType>	
+					LOCAL.StrengthBonus=<SRC.TARG.TAG.StrengthBonus>
+					LOCAL.DexterityBonus=<SRC.TARG.TAG.DexterityBonus>
+					LOCAL.IntelligenceBonus=<SRC.TARG.TAG.IntelligenceBonus>
+					LOCAL.StaminaIncrease=<SRC.TARG.TAG.StaminaIncrease>
+					LOCAL.HitPointIncrease=<SRC.TARG.TAG.HitPointIncrease>
+					LOCAL.ManaIncrease=<SRC.TARG.TAG.ManaIncrease>
+					LOCAL.SkillBonus=<SRC.TARG.TAG.SkillBonus>
+					LOCAL.StaminaRegeneration=<SRC.TARG.TAG.StaminaRegeneration>
+					LOCAL.HitRegeneration=<SRC.TARG.TAG.HitRegeneration>
+					LOCAL.ManaRegeneration=<SRC.TARG.TAG.ManaRegeneration>
+					LOCAL.BestWeaponSkill=<SRC.TARG.TAG.BestWeaponSkill>
+					LOCAL.SpellChanneling=<SRC.TARG.TAG.SpellChanneling>
+					LOCAL.SelfRepair=<SRC.TARG.TAG.SelfRepair>
+					LOCAL.Penalty.Stealth=<SRC.TARG.TAG.Penalty.Stealth>
+					LOCAL.ResPhysical=<SRC.TARG.TAG.ResPhysical>
+					LOCAL.ResFire=<SRC.TARG.TAG.ResFire>
+					LOCAL.ResCold=<SRC.TARG.TAG.ResCold>
+					LOCAL.ResPoison=<SRC.TARG.TAG.ResPoison>
+					LOCAL.ResEnergy=<SRC.TARG.TAG.ResEnergy>
+					LOCAL.Luck=<SRC.TARG.TAG.Luck>
+					LOCAL.CraftedBy=<SRC.TARG.TAG.CraftedBy>
+					LOCAL.GoodToGo=1
+				ENDIF			
+			ENDFOR
+			IF <LOCAL.GoodToGo>
+				LOCAL.PieceCounter=0
+				FOR X 1 6
+					IF <SRC.FINDID.<LOCAL.Piece<EVAL <LOCAL.X>>>_<LOCAL.ItemOreType>>
+						LOCAL.PieceCounter=<LOCAL.PieceCounter>+1
+					ELSE
+						LOCAL.X=8
+						SRC.SYSMESSAGE @00029 Your Missing some parts!.
+						RETURN 1
+					ENDIF
+				ENDFOR
+				NEWITEM i_stacked_armour, 1, <SRC.UID>
+				NEW.COLOR=<LOCAL.ItemColor>
+				SERV.B <LOCAL.CraftedBy>
+				LOCAL.CutName=<LOCAL.CraftedBy>
+				NEW.NAME=<LOCAL.ItemOreType> Armor <LOCAL.CraftedBy>
+				LOCAL.NewArmorUID=<NEW.UID>				
+				FOR X 1 6
+					LOCAL.Piece<EVAL <LOCAL.X>>Name=<SRC.FINDID.<LOCAL.Piece<EVAL <LOCAL.X>>>_<LOCAL.ItemOreType>.NAME>
+					LOCAL.Piece<EVAL <LOCAL.X>>Baseid=<SRC.FINDID.<LOCAL.Piece<EVAL <LOCAL.X>>>_<LOCAL.ItemOreType>.BASEID>	
+					LOCAL.Piece<EVAL <LOCAL.X>>Color=<LOCAL.ItemColor>
+					LOCAL.Piece<EVAL <LOCAL.X>>StrengthBonus=<LOCAL.StrengthBonus>
+					LOCAL.Piece<EVAL <LOCAL.X>>DexterityBonus=<LOCAL.DexterityBonus>
+					LOCAL.Piece<EVAL <LOCAL.X>>IntelligenceBonus=<LOCAL.IntelligenceBonus>
+					LOCAL.Piece<EVAL <LOCAL.X>>StaminaIncrease=<LOCAL.StaminaIncrease>
+					LOCAL.Piece<EVAL <LOCAL.X>>HitPointIncrease=<LOCAL.HitPointIncrease>
+					LOCAL.Piece<EVAL <LOCAL.X>>ManaIncrease=<LOCAL.ManaIncrease>
+					LOCAL.Piece<EVAL <LOCAL.X>>SkillBonus=<LOCAL.SkillBonus>
+					LOCAL.Piece<EVAL <LOCAL.X>>StaminaRegeneration=<LOCAL.StaminaRegeneration>
+					LOCAL.Piece<EVAL <LOCAL.X>>HitRegeneration=<LOCAL.HitRegeneration>
+					LOCAL.Piece<EVAL <LOCAL.X>>ManaRegeneration=<LOCAL.ManaRegeneration>
+					LOCAL.Piece<EVAL <LOCAL.X>>BestWeaponSkill=<LOCAL.BestWeaponSkill>
+					LOCAL.Piece<EVAL <LOCAL.X>>SpellChanneling=<LOCAL.SpellChanneling>
+					LOCAL.Piece<EVAL <LOCAL.X>>SelfRepair=<LOCAL.SelfRepair>
+					LOCAL.Piece<EVAL <LOCAL.X>>Penalty.Stealth=<LOCAL.Penalty.Stealth>
+					LOCAL.Piece<EVAL <LOCAL.X>>ResPhysical=<LOCAL.ResPhysical>
+					LOCAL.Piece<EVAL <LOCAL.X>>ResFire=<LOCAL.ResFire>
+					LOCAL.Piece<EVAL <LOCAL.X>>ResCold=<LOCAL.ResCold>
+					LOCAL.Piece<EVAL <LOCAL.X>>ResPoison=<LOCAL.ResPoison>
+					LOCAL.Piece<EVAL <LOCAL.X>>ResEnergy=<LOCAL.ResEnergy>
+					LOCAL.Piece<EVAL <LOCAL.X>>Luck=<LOCAL.Luck>
+
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>Name=<LOCAL.Piece<EVAL <LOCAL.X>>Name>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>Baseid=<LOCAL.Piece<EVAL <LOCAL.X>>Baseid>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>Color=<LOCAL.Piece<EVAL <LOCAL.X>>Color>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>StrengthBonus=<LOCAL.Piece<EVAL <LOCAL.X>>StrengthBonus>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>DexterityBonus=<LOCAL.Piece<EVAL <LOCAL.X>>DexterityBonus>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>IntelligenceBonus=<LOCAL.Piece<EVAL <LOCAL.X>>IntelligenceBonus>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>StaminaIncrease=<LOCAL.Piece<EVAL <LOCAL.X>>StaminaIncrease>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>HitPointIncrease=<LOCAL.Piece<EVAL <LOCAL.X>>HitPointIncrease>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>ManaIncrease=<LOCAL.Piece<EVAL <LOCAL.X>>ManaIncrease>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>SkillBonus=<LOCAL.Piece<EVAL <LOCAL.X>>SkillBonus>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>StaminaRegeneration=<LOCAL.Piece<EVAL <LOCAL.X>>StaminaRegeneration>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>HitRegeneration=<LOCAL.Piece<EVAL <LOCAL.X>>HitRegeneration>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>ManaRegeneration=<LOCAL.Piece<EVAL <LOCAL.X>>ManaRegeneration>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>BestWeaponSkill=<LOCAL.Piece<EVAL <LOCAL.X>>BestWeaponSkill>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>SpellChanneling=<LOCAL.Piece<EVAL <LOCAL.X>>SpellChanneling>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>SelfRepair=<LOCAL.Piece<EVAL <LOCAL.X>>SelfRepair>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>Penalty.Stealth=<LOCAL.Piece<EVAL <LOCAL.X>>Penalty.Stealth>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>ResPhysical=<LOCAL.Piece<EVAL <LOCAL.X>>ResPhysical>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>ResFire=<LOCAL.Piece<EVAL <LOCAL.X>>ResFire>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>ResCold=<LOCAL.Piece<EVAL <LOCAL.X>>ResCold>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>ResPoison=<LOCAL.Piece<EVAL <LOCAL.X>>ResPoison>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>ResEnergy=<LOCAL.Piece<EVAL <LOCAL.X>>ResEnergy>
+					SERV.UID.<LOCAL.NewArmorUID>.TAG.Piece<EVAL <LOCAL.X>>Luck=<LOCAL.Piece<EVAL <LOCAL.X>>Luck>
+					SRC.FINDID.<LOCAL.Piece<EVAL <LOCAL.X>>>_<LOCAL.ItemOreType>.REMOVE
+				ENDFOR
+				SERV.UID.<LOCAL.NewArmorUID>.TAG.OreType=<LOCAL.ItemOreType>								
+			ENDIF			
+		ELSE
+			SRC.SYSMESSAGE @00029 You may only use this on Platemail Armor. 
+			RETURN 1
+		ENDIF
+	ELSE
+		SRC.SYSMESSAGE @00029 The item must be in your backpack. 
+		RETURN 1
+	ENDIF
+
+
+[EOF]

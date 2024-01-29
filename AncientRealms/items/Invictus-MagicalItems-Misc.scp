@@ -1,0 +1,13 @@
+[ITEMDEF i_pixie_leg]
+ID=i_chicken_leg
+NAME=pixie leg
+TYPE=T_NORMAL
+
+ON=@Create
+	COLOR=color_o_gaybluepink
+
+ON=@Tooltip
+	ADD_TOOLTIP The leg of an unfortunate pixie.
+	FINISH_TOOLTIP
+
+[EOF]

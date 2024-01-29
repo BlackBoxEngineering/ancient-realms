@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Rose Platemail Arms
+[ITEMDEF i_platemail_arms_Rose]
+   DEFNAME= i_platemail_arms_Rose
+   ID= i_platemail_arms
+   NAME= Rose Platemail Arms
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Platemail Leggings
+[ITEMDEF i_platemail_leggings_Rose]
+   DEFNAME= i_platemail_leggings_Rose
+   ID= i_platemail_leggings
+   NAME= Rose Platemail Leggings
+   ARMOR= 20
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Platemail Helmet
+[ITEMDEF i_platemail_helm_Rose]
+   DEFNAME= i_platemail_helm_Rose
+   ID= i_platemail_helm
+   NAME= Rose Platemail Helmet
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Platemail Gorget
+[ITEMDEF i_platemail_gorget_Rose]
+   DEFNAME= i_platemail_gorget_Rose
+   ID= i_platemail_gorget
+   NAME= Rose Platemail Gorget
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Rose]
+   DEFNAME= i_platemail_gorget2_Rose
+   ID= i_platemail_gorget2
+   NAME= Rose Platemail Gorget
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Platemail Gloves
+[ITEMDEF i_platemail_gloves_Rose]
+   DEFNAME= i_platemail_gloves_Rose
+   ID= i_platemail_gloves
+   NAME= Rose Platemail Gloves
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Platemail Chest
+[ITEMDEF i_platemail_chest_Rose]
+   DEFNAME= i_platemail_chest_Rose
+   ID= i_platemail_chest
+   NAME= Rose Platemail Chest
+   ARMOR= 24
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Rose]
+   DEFNAME= i_armor_female_plate_Rose
+   ID= i_armor_female_plate
+   NAME= Rose Platemail Female Plate
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose chainmail coif
+[ITEMDEF i_chainmail_coif_Rose]
+   DEFNAME= i_chainmail_coif_Rose
+   ID= i_chainmail_coif
+   NAME= Rose chainmail coif
+   ARMOR= 16
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose chainmail leggings
+[ITEMDEF i_chainmail_leggings_Rose]
+   DEFNAME= i_chainmail_leggings_Rose
+   ID= i_chainmail_leggings
+   NAME= Rose chainmail leggings
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose chainmail tunic
+[ITEMDEF i_chainmail_tunic_Rose]
+   DEFNAME= i_chainmail_tunic_Rose
+   ID= i_chainmail_tunic
+   NAME= Rose chainmail tunic
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Rose]
+   DEFNAME= i_ringmail_sleeves_Rose
+   ID= i_ringmail_sleeves
+   NAME= Rose Ringmail Sleeves
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Rose]
+   DEFNAME= i_ringmail_leggings_Rose
+   ID= i_ringmail_leggings
+   NAME= Rose Ringmail Leggings
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Rose]
+   DEFNAME= i_ringmail_tunic_Rose
+   ID= i_ringmail_tunic
+   NAME= Rose Ringmail Tunic
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Rose]
+   DEFNAME= i_ringmail_gloves_Rose
+   ID= i_ringmail_gloves
+   NAME= Rose Ringmail Gloves
+   ARMOR= 4
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose studded sleeves
+[ITEMDEF i_studded_sleeves_Rose]
+   DEFNAME= i_studded_sleeves_Rose
+   ID= i_studded_sleeves
+   NAME= Rose studded sleeves
+   ARMOR= 7
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Rose, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose studded gloves
+[ITEMDEF i_studded_gloves_Rose]
+   DEFNAME= i_studded_gloves_Rose
+   ID= i_studded_gloves
+   NAME= Rose studded gloves
+   ARMOR= 4
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Rose, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose studded gorget
+[ITEMDEF i_studded_gorget_Rose]
+   DEFNAME= i_studded_gorget_Rose
+   ID= i_studded_gorget
+   NAME= Rose studded gorget
+   ARMOR= 4
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Rose, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose studded leggings
+[ITEMDEF i_studded_leggings_Rose]
+   DEFNAME= i_studded_leggings_Rose
+   ID= i_studded_leggings
+   NAME= Rose studded leggings
+   ARMOR= 13
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Rose, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose studded tunic
+[ITEMDEF i_studded_tunic_Rose]
+   DEFNAME= i_studded_tunic_Rose
+   ID= i_studded_tunic
+   NAME= Rose studded tunic
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Rose, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose studded female armor
+[ITEMDEF i_armor_female_studded_Rose]
+   DEFNAME= i_armor_female_studded_Rose
+   ID= i_armor_female_studded
+   NAME= Rose studded female armor
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Rose, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Rose]
+   DEFNAME= i_armor_female_bustier_studded_Rose
+   ID= i_armor_female_bustier_studded
+   NAME= Rose studded female bustier
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Rose, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose platemail mempo
+[ITEMDEF i_platemail_mempo_Rose]
+   DEFNAME= i_platemail_mempo_Rose
+   ID= i_platemail_mempo
+   NAME= Rose platemail mempo
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose platemail do
+[ITEMDEF i_platemail_do_Rose]
+   DEFNAME= i_platemail_do_Rose
+   ID= i_platemail_do
+   NAME= Rose platemail do
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Rose]
+   DEFNAME= i_platemail_hiro_sode_Rose
+   ID= i_platemail_hiro_sode
+   NAME= Rose platemail hiro sode
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose platemail suneate
+[ITEMDEF i_platemail_suneate_Rose]
+   DEFNAME= i_platemail_suneate_Rose
+   ID= i_platemail_suneate
+   NAME= Rose platemail suneate
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose platemail haidate
+[ITEMDEF i_platemail_haidate_Rose]
+   DEFNAME= i_platemail_haidate_Rose
+   ID= i_platemail_haidate
+   NAME= Rose platemail haidate
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose studded mempo
+[ITEMDEF i_studded_mempo_Rose]
+   DEFNAME= i_studded_mempo_Rose
+   ID= i_studded_mempo
+   NAME= Rose studded mempo
+   ARMOR= 9
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Rose, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose studded do
+[ITEMDEF i_studded_do_Rose]
+   DEFNAME= i_studded_do_Rose
+   ID= i_studded_do
+   NAME= Rose studded do
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Rose, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Rose]
+   DEFNAME= i_studded_hiro_sode_Rose
+   ID= i_studded_hiro_sode
+   NAME= Rose studded hiro sode
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Rose, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose studded suneate
+[ITEMDEF i_studded_suneate_Rose]
+   DEFNAME= i_studded_suneate_Rose
+   ID= i_studded_suneate
+   NAME= Rose studded suneate
+   ARMOR= 11
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Rose, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose studded haidate
+[ITEMDEF i_studded_haidate_Rose]
+   DEFNAME= i_studded_haidate_Rose
+   ID= i_studded_haidate
+   NAME= Rose studded haidate
+   ARMOR= 9
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Rose, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Rose]
+   DEFNAME= i_platemail_gargish_arms_Rose
+   ID= i_platemail_gargish_arms
+   NAME= Rose Gargish Platemail Arms
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Rose]
+   DEFNAME= i_platemail_gargish_chest_Rose
+   ID= i_platemail_gargish_chest
+   NAME= Rose Gargish Platemail Chest
+   ARMOR= 26
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Rose]
+   DEFNAME= i_platemail_gargish_kilt_Rose
+   ID= i_platemail_gargish_kilt
+   NAME= Rose Gargish Platemail Kilt
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Rose]
+   DEFNAME= i_platemail_gargish_leggings_Rose
+   ID= i_platemail_gargish_leggings
+   NAME= Rose Gargish Platemail Leggings
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Rose]
+   DEFNAME= i_platemail_gargish_arms_2_Rose
+   ID= i_platemail_gargish_arms_2
+   NAME= Rose Gargish Platemail Arms
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Rose]
+   DEFNAME= i_platemail_gargish_chest_2_Rose
+   ID= i_platemail_gargish_chest_2
+   NAME= Rose Gargish Platemail Chest
+   ARMOR= 26
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Rose]
+   DEFNAME= i_platemail_gargish_kilt_2_Rose
+   ID= i_platemail_gargish_kilt_2
+   NAME= Rose Gargish Platemail Kilt
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Rose]
+   DEFNAME= i_platemail_gargish_leggings_2_Rose
+   ID= i_platemail_gargish_leggings_2
+   NAME= Rose Gargish Platemail Leggings
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Closed Helmet
+[ITEMDEF i_helm_close_Rose]
+   DEFNAME= i_helm_close_Rose
+   ID= i_helm_close
+   NAME= Rose Closed Helmet
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Open Helmet
+[ITEMDEF i_helm_open_Rose]
+   DEFNAME= i_helm_open_Rose
+   ID= i_helm_open
+   NAME= Rose Open Helmet
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Bascinet
+[ITEMDEF i_bascinet_Rose]
+   DEFNAME= i_bascinet_Rose
+   ID= i_bascinet
+   NAME= Rose Bascinet
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Norse Helmet
+[ITEMDEF i_helm_norse_Rose]
+   DEFNAME= i_helm_norse_Rose
+   ID= i_helm_norse
+   NAME= Rose Norse Helmet
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Kabuto
+[ITEMDEF i_helm_kabuto_Rose]
+   DEFNAME= i_helm_kabuto_Rose
+   ID= i_helm_kabuto
+   NAME= Rose Kabuto
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Rose]
+   DEFNAME= i_chainmail_hatsuburi_Rose
+   ID= i_chainmail_hatsuburi
+   NAME= Rose Chainmail Hatsuburi
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Rose]
+   DEFNAME= i_platemail_hatsuburi_Rose
+   ID= i_platemail_hatsuburi
+   NAME= Rose Platemail Hatsuburi
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Rose]
+   DEFNAME= i_plate_jingasa_heavy_Rose
+   ID= i_plate_jingasa_heavy
+   NAME= Rose Heavy Jingasa
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Rose]
+   DEFNAME= i_platemail_kabuto_decorative_Rose
+   ID= i_platemail_kabuto_decorative
+   NAME= Rose Decorative Platemail Kabuto
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {92 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Rose]
+   DEFNAME= i_plate_jingasa_light_Rose
+   ID= i_plate_jingasa_light
+   NAME= Rose Light Jingasa
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Rose]
+   DEFNAME= i_plate_jingasa_small_Rose
+   ID= i_plate_jingasa_small
+   NAME= Rose Small Jingasa
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Rose]
+   DEFNAME= i_platemail_kabuto_battle_Rose
+   ID= i_platemail_kabuto_battle
+   NAME= Rose Platemail Battle Kabuto
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Rose]
+   DEFNAME= i_platemail_kabuto_Rose
+   ID= i_platemail_kabuto
+   NAME= Rose Platemail Kabuto
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Circlet
+[ITEMDEF i_circlet_Rose]
+   DEFNAME= i_circlet_Rose
+   ID= i_circlet
+   NAME= Rose Circlet
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Royal Circlet
+[ITEMDEF i_circlet_royal_Rose]
+   DEFNAME= i_circlet_royal_Rose
+   ID= i_circlet_royal
+   NAME= Rose Royal Circlet
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Rose]
+   DEFNAME= i_circlet_gemmed_Rose
+   ID= i_circlet_gemmed
+   NAME= Rose Gemmed Circlet
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {102 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Buckler
+[ITEMDEF i_shield_buckler_Rose]
+   DEFNAME= i_shield_buckler_Rose
+   ID= i_shield_buckler
+   NAME= Rose Buckler
+   ARMOR= 7
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Wooden Shield
+[ITEMDEF i_shield_wood_Rose]
+   DEFNAME= i_shield_wood_Rose
+   ID= i_shield_wood
+   NAME= Rose Wooden Shield
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Rose]
+   DEFNAME= i_shield_round_metal_Rose
+   ID= i_shield_round_metal
+   NAME= Rose Light Metal  Round Shield
+   ARMOR= 9
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Rose]
+   DEFNAME= i_shield_round_bronze_Rose
+   ID= i_shield_round_bronze
+   NAME= Rose Heavy Metal  Round Shield
+   ARMOR= 11
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Rose]
+   DEFNAME= i_shield_kite_metal_Rose
+   ID= i_shield_kite_metal
+   NAME= Rose Metal Kite Shield
+   ARMOR= 13
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Rose]
+   DEFNAME= i_shield_kite_wood_Rose
+   ID= i_shield_kite_wood
+   NAME= Rose Wooden Kite Shield
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Heater Shield
+[ITEMDEF i_shield_heater_Rose]
+   DEFNAME= i_shield_heater_Rose
+   ID= i_shield_heater
+   NAME= Rose Heater Shield
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {92 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Ancient Shield
+[ITEMDEF i_shield_dupre_Rose]
+   DEFNAME= i_shield_dupre_Rose
+   ID= i_shield_dupre
+   NAME= Rose Ancient Shield
+   ARMOR= 16
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {102 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Shield oh Hell
+[ITEMDEF i_shield_scale_Rose]
+   DEFNAME= i_shield_scale_Rose
+   ID= i_shield_scale
+   NAME= Rose Shield oh Hell
+   ARMOR= 16
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {102 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Chaos Shield
+[ITEMDEF i_shield_chaos_Rose]
+   DEFNAME= i_shield_chaos_Rose
+   ID= i_shield_chaos
+   NAME= Rose Chaos Shield
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {112 220}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Order Shield
+[ITEMDEF i_shield_order_Rose]
+   DEFNAME= i_shield_order_Rose
+   ID= i_shield_order
+   NAME= Rose Order Shield
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Rose
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rose
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS= {112 220}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

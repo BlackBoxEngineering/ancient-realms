@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Agapite Platemail Arms
+[ITEMDEF i_platemail_arms_Agapite]
+   DEFNAME= i_platemail_arms_Agapite
+   ID= i_platemail_arms
+   NAME= Agapite Platemail Arms
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Platemail Leggings
+[ITEMDEF i_platemail_leggings_Agapite]
+   DEFNAME= i_platemail_leggings_Agapite
+   ID= i_platemail_leggings
+   NAME= Agapite Platemail Leggings
+   ARMOR= 25
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Platemail Helmet
+[ITEMDEF i_platemail_helm_Agapite]
+   DEFNAME= i_platemail_helm_Agapite
+   ID= i_platemail_helm
+   NAME= Agapite Platemail Helmet
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Platemail Gorget
+[ITEMDEF i_platemail_gorget_Agapite]
+   DEFNAME= i_platemail_gorget_Agapite
+   ID= i_platemail_gorget
+   NAME= Agapite Platemail Gorget
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Agapite]
+   DEFNAME= i_platemail_gorget2_Agapite
+   ID= i_platemail_gorget2
+   NAME= Agapite Platemail Gorget
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Platemail Gloves
+[ITEMDEF i_platemail_gloves_Agapite]
+   DEFNAME= i_platemail_gloves_Agapite
+   ID= i_platemail_gloves
+   NAME= Agapite Platemail Gloves
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Platemail Chest
+[ITEMDEF i_platemail_chest_Agapite]
+   DEFNAME= i_platemail_chest_Agapite
+   ID= i_platemail_chest
+   NAME= Agapite Platemail Chest
+   ARMOR= 29
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Agapite]
+   DEFNAME= i_armor_female_plate_Agapite
+   ID= i_armor_female_plate
+   NAME= Agapite Platemail Female Plate
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite chainmail coif
+[ITEMDEF i_chainmail_coif_Agapite]
+   DEFNAME= i_chainmail_coif_Agapite
+   ID= i_chainmail_coif
+   NAME= Agapite chainmail coif
+   ARMOR= 21
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite chainmail leggings
+[ITEMDEF i_chainmail_leggings_Agapite]
+   DEFNAME= i_chainmail_leggings_Agapite
+   ID= i_chainmail_leggings
+   NAME= Agapite chainmail leggings
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite chainmail tunic
+[ITEMDEF i_chainmail_tunic_Agapite]
+   DEFNAME= i_chainmail_tunic_Agapite
+   ID= i_chainmail_tunic
+   NAME= Agapite chainmail tunic
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Agapite]
+   DEFNAME= i_ringmail_sleeves_Agapite
+   ID= i_ringmail_sleeves
+   NAME= Agapite Ringmail Sleeves
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Agapite]
+   DEFNAME= i_ringmail_leggings_Agapite
+   ID= i_ringmail_leggings
+   NAME= Agapite Ringmail Leggings
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Agapite]
+   DEFNAME= i_ringmail_tunic_Agapite
+   ID= i_ringmail_tunic
+   NAME= Agapite Ringmail Tunic
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Agapite]
+   DEFNAME= i_ringmail_gloves_Agapite
+   ID= i_ringmail_gloves
+   NAME= Agapite Ringmail Gloves
+   ARMOR= 9
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite studded sleeves
+[ITEMDEF i_studded_sleeves_Agapite]
+   DEFNAME= i_studded_sleeves_Agapite
+   ID= i_studded_sleeves
+   NAME= Agapite studded sleeves
+   ARMOR= 12
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Agapite, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite studded gloves
+[ITEMDEF i_studded_gloves_Agapite]
+   DEFNAME= i_studded_gloves_Agapite
+   ID= i_studded_gloves
+   NAME= Agapite studded gloves
+   ARMOR= 9
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Agapite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite studded gorget
+[ITEMDEF i_studded_gorget_Agapite]
+   DEFNAME= i_studded_gorget_Agapite
+   ID= i_studded_gorget
+   NAME= Agapite studded gorget
+   ARMOR= 9
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Agapite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite studded leggings
+[ITEMDEF i_studded_leggings_Agapite]
+   DEFNAME= i_studded_leggings_Agapite
+   ID= i_studded_leggings
+   NAME= Agapite studded leggings
+   ARMOR= 18
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Agapite, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite studded tunic
+[ITEMDEF i_studded_tunic_Agapite]
+   DEFNAME= i_studded_tunic_Agapite
+   ID= i_studded_tunic
+   NAME= Agapite studded tunic
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Agapite, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite studded female armor
+[ITEMDEF i_armor_female_studded_Agapite]
+   DEFNAME= i_armor_female_studded_Agapite
+   ID= i_armor_female_studded
+   NAME= Agapite studded female armor
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Agapite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Agapite]
+   DEFNAME= i_armor_female_bustier_studded_Agapite
+   ID= i_armor_female_bustier_studded
+   NAME= Agapite studded female bustier
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Agapite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite platemail mempo
+[ITEMDEF i_platemail_mempo_Agapite]
+   DEFNAME= i_platemail_mempo_Agapite
+   ID= i_platemail_mempo
+   NAME= Agapite platemail mempo
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite platemail do
+[ITEMDEF i_platemail_do_Agapite]
+   DEFNAME= i_platemail_do_Agapite
+   ID= i_platemail_do
+   NAME= Agapite platemail do
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Agapite]
+   DEFNAME= i_platemail_hiro_sode_Agapite
+   ID= i_platemail_hiro_sode
+   NAME= Agapite platemail hiro sode
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite platemail suneate
+[ITEMDEF i_platemail_suneate_Agapite]
+   DEFNAME= i_platemail_suneate_Agapite
+   ID= i_platemail_suneate
+   NAME= Agapite platemail suneate
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite platemail haidate
+[ITEMDEF i_platemail_haidate_Agapite]
+   DEFNAME= i_platemail_haidate_Agapite
+   ID= i_platemail_haidate
+   NAME= Agapite platemail haidate
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite studded mempo
+[ITEMDEF i_studded_mempo_Agapite]
+   DEFNAME= i_studded_mempo_Agapite
+   ID= i_studded_mempo
+   NAME= Agapite studded mempo
+   ARMOR= 14
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Agapite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite studded do
+[ITEMDEF i_studded_do_Agapite]
+   DEFNAME= i_studded_do_Agapite
+   ID= i_studded_do
+   NAME= Agapite studded do
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Agapite, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Agapite]
+   DEFNAME= i_studded_hiro_sode_Agapite
+   ID= i_studded_hiro_sode
+   NAME= Agapite studded hiro sode
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Agapite, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite studded suneate
+[ITEMDEF i_studded_suneate_Agapite]
+   DEFNAME= i_studded_suneate_Agapite
+   ID= i_studded_suneate
+   NAME= Agapite studded suneate
+   ARMOR= 16
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Agapite, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite studded haidate
+[ITEMDEF i_studded_haidate_Agapite]
+   DEFNAME= i_studded_haidate_Agapite
+   ID= i_studded_haidate
+   NAME= Agapite studded haidate
+   ARMOR= 14
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Agapite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Agapite]
+   DEFNAME= i_platemail_gargish_arms_Agapite
+   ID= i_platemail_gargish_arms
+   NAME= Agapite Gargish Platemail Arms
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Agapite]
+   DEFNAME= i_platemail_gargish_chest_Agapite
+   ID= i_platemail_gargish_chest
+   NAME= Agapite Gargish Platemail Chest
+   ARMOR= 31
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Agapite]
+   DEFNAME= i_platemail_gargish_kilt_Agapite
+   ID= i_platemail_gargish_kilt
+   NAME= Agapite Gargish Platemail Kilt
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Agapite]
+   DEFNAME= i_platemail_gargish_leggings_Agapite
+   ID= i_platemail_gargish_leggings
+   NAME= Agapite Gargish Platemail Leggings
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Agapite]
+   DEFNAME= i_platemail_gargish_arms_2_Agapite
+   ID= i_platemail_gargish_arms_2
+   NAME= Agapite Gargish Platemail Arms
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Agapite]
+   DEFNAME= i_platemail_gargish_chest_2_Agapite
+   ID= i_platemail_gargish_chest_2
+   NAME= Agapite Gargish Platemail Chest
+   ARMOR= 31
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Agapite]
+   DEFNAME= i_platemail_gargish_kilt_2_Agapite
+   ID= i_platemail_gargish_kilt_2
+   NAME= Agapite Gargish Platemail Kilt
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Agapite]
+   DEFNAME= i_platemail_gargish_leggings_2_Agapite
+   ID= i_platemail_gargish_leggings_2
+   NAME= Agapite Gargish Platemail Leggings
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Closed Helmet
+[ITEMDEF i_helm_close_Agapite]
+   DEFNAME= i_helm_close_Agapite
+   ID= i_helm_close
+   NAME= Agapite Closed Helmet
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Open Helmet
+[ITEMDEF i_helm_open_Agapite]
+   DEFNAME= i_helm_open_Agapite
+   ID= i_helm_open
+   NAME= Agapite Open Helmet
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Bascinet
+[ITEMDEF i_bascinet_Agapite]
+   DEFNAME= i_bascinet_Agapite
+   ID= i_bascinet
+   NAME= Agapite Bascinet
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Norse Helmet
+[ITEMDEF i_helm_norse_Agapite]
+   DEFNAME= i_helm_norse_Agapite
+   ID= i_helm_norse
+   NAME= Agapite Norse Helmet
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Kabuto
+[ITEMDEF i_helm_kabuto_Agapite]
+   DEFNAME= i_helm_kabuto_Agapite
+   ID= i_helm_kabuto
+   NAME= Agapite Kabuto
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Agapite]
+   DEFNAME= i_chainmail_hatsuburi_Agapite
+   ID= i_chainmail_hatsuburi
+   NAME= Agapite Chainmail Hatsuburi
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Agapite]
+   DEFNAME= i_platemail_hatsuburi_Agapite
+   ID= i_platemail_hatsuburi
+   NAME= Agapite Platemail Hatsuburi
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Agapite]
+   DEFNAME= i_plate_jingasa_heavy_Agapite
+   ID= i_plate_jingasa_heavy
+   NAME= Agapite Heavy Jingasa
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Agapite]
+   DEFNAME= i_platemail_kabuto_decorative_Agapite
+   ID= i_platemail_kabuto_decorative
+   NAME= Agapite Decorative Platemail Kabuto
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {97 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Agapite]
+   DEFNAME= i_plate_jingasa_light_Agapite
+   ID= i_plate_jingasa_light
+   NAME= Agapite Light Jingasa
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Agapite]
+   DEFNAME= i_plate_jingasa_small_Agapite
+   ID= i_plate_jingasa_small
+   NAME= Agapite Small Jingasa
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Agapite]
+   DEFNAME= i_platemail_kabuto_battle_Agapite
+   ID= i_platemail_kabuto_battle
+   NAME= Agapite Platemail Battle Kabuto
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Agapite]
+   DEFNAME= i_platemail_kabuto_Agapite
+   ID= i_platemail_kabuto
+   NAME= Agapite Platemail Kabuto
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Circlet
+[ITEMDEF i_circlet_Agapite]
+   DEFNAME= i_circlet_Agapite
+   ID= i_circlet
+   NAME= Agapite Circlet
+   ARMOR= 13
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Royal Circlet
+[ITEMDEF i_circlet_royal_Agapite]
+   DEFNAME= i_circlet_royal_Agapite
+   ID= i_circlet_royal
+   NAME= Agapite Royal Circlet
+   ARMOR= 13
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Agapite]
+   DEFNAME= i_circlet_gemmed_Agapite
+   ID= i_circlet_gemmed
+   NAME= Agapite Gemmed Circlet
+   ARMOR= 13
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {107 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Buckler
+[ITEMDEF i_shield_buckler_Agapite]
+   DEFNAME= i_shield_buckler_Agapite
+   ID= i_shield_buckler
+   NAME= Agapite Buckler
+   ARMOR= 12
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Wooden Shield
+[ITEMDEF i_shield_wood_Agapite]
+   DEFNAME= i_shield_wood_Agapite
+   ID= i_shield_wood
+   NAME= Agapite Wooden Shield
+   ARMOR= 13
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Agapite]
+   DEFNAME= i_shield_round_metal_Agapite
+   ID= i_shield_round_metal
+   NAME= Agapite Light Metal  Round Shield
+   ARMOR= 14
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Agapite]
+   DEFNAME= i_shield_round_bronze_Agapite
+   ID= i_shield_round_bronze
+   NAME= Agapite Heavy Metal  Round Shield
+   ARMOR= 16
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Agapite]
+   DEFNAME= i_shield_kite_metal_Agapite
+   ID= i_shield_kite_metal
+   NAME= Agapite Metal Kite Shield
+   ARMOR= 18
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Agapite]
+   DEFNAME= i_shield_kite_wood_Agapite
+   ID= i_shield_kite_wood
+   NAME= Agapite Wooden Kite Shield
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Heater Shield
+[ITEMDEF i_shield_heater_Agapite]
+   DEFNAME= i_shield_heater_Agapite
+   ID= i_shield_heater
+   NAME= Agapite Heater Shield
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {97 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Ancient Shield
+[ITEMDEF i_shield_dupre_Agapite]
+   DEFNAME= i_shield_dupre_Agapite
+   ID= i_shield_dupre
+   NAME= Agapite Ancient Shield
+   ARMOR= 21
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {107 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Shield oh Hell
+[ITEMDEF i_shield_scale_Agapite]
+   DEFNAME= i_shield_scale_Agapite
+   ID= i_shield_scale
+   NAME= Agapite Shield oh Hell
+   ARMOR= 21
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {107 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Chaos Shield
+[ITEMDEF i_shield_chaos_Agapite]
+   DEFNAME= i_shield_chaos_Agapite
+   ID= i_shield_chaos
+   NAME= Agapite Chaos Shield
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {117 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Agapite Order Shield
+[ITEMDEF i_shield_order_Agapite]
+   DEFNAME= i_shield_order_Agapite
+   ID= i_shield_order
+   NAME= Agapite Order Shield
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Agapite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Agapite
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Agapite
+   HITPOINTS= {117 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

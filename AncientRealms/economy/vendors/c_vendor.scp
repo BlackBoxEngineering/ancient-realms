@@ -1,0 +1,97 @@
+[CHARDEF c_h_vendor]
+DEFNAME=c_h_vendor
+NAME=Name me!
+ID=c_man
+ICON=i_pet_man
+CAN=MT_EQUIP|MT_USEHANDS
+FOODTYPE=2 t_food, 4 t_fruit
+MAXFOOD=100
+HIREDAYWAGE=0
+DESIRES=i_gold,t_food
+TSPEECH=spk_human_prime
+TSPEECH=spk_shopkeep
+TSPEECH=spk_needs
+TSPEECH=spk_rehello
+TSPEECH=spk_human_default
+TEVENTS=e_Human_HearUnk
+TEVENTS=e_Human_ConvInit
+TEVENTS=e_Human_Greet
+TEVENTS=e_Human_Space
+TEVENTS=e_Human_Needs
+TEVENTS=e_Human_Refuse
+TEVENTS=e_Human_Environ
+TEVENTS=e_PlayerVendor
+
+ON=@Create
+	NPC=brain_vendor
+	COLOR=colors_skin
+	FLAGS=000000004
+	NEED=i_gold
+	SPEECHCOLOR 0
+	STR={5000 6000}
+	DEX={5000 6000}
+	INT={5000 6000}
+	ITEMNEWBIE=random_male_hair
+	COLOR=colors_hair
+	ITEMNEWBIE=random_facial_hair
+	COLOR=match_hair
+	TAG.VENDORGOLD=0
+	TAG.HIREDWAGE=10
+	TAG.VENDORMARKUP=-15
+	ITEMNEWBIE=i_backpack
+
+on=@SpellEffect
+	IF (<ARGN> == s_shrink)
+		SRC.Say lol No you Shrink
+		SRC.EMOTE Giggles
+	ENDIF
+
+[CHARDEF c_h_vendor_f]
+DEFNAME=c_h_vendor_f
+NAME=Name me!
+ID=c_woman
+ICON=i_pet_man
+CAN=MT_EQUIP|MT_USEHANDS
+FOODTYPE=2 t_food, 4 t_fruit
+MAXFOOD=100
+HIREDAYWAGE=0
+DESIRES=i_gold,t_food
+TSPEECH=spk_human_prime
+TSPEECH=spk_house_vendor
+TSPEECH=spk_shopkeep
+TSPEECH=spk_needs
+TSPEECH=spk_rehello
+TSPEECH=spk_human_default
+TEVENTS=e_Human_HearUnk
+TEVENTS=e_Human_ConvInit
+TEVENTS=e_Human_Greet
+TEVENTS=e_Human_Space
+TEVENTS=e_Human_Needs
+TEVENTS=e_Human_Refuse
+TEVENTS=e_Human_Environ
+TEVENTS=e_PlayerVendor
+
+ON=@Create
+	NPC=brain_vendor
+	COLOR=colors_skin
+	FLAGS=000000004
+	NEED=i_gold
+	SPEECHCOLOR 0
+	STR={5000 6000}
+	DEX={5000 6000}
+	INT={5000 6000}
+	ITEMNEWBIE=random_male_hair
+	COLOR=colors_hair
+	TAG.VENDORGOLD=0
+	TAG.HIREDWAGE=10
+	TAG.VENDORMARKUP=-15
+	ITEMNEWBIE=i_backpack
+
+on=@SpellEffect
+	IF (<ARGN> == s_shrink)
+		SRC.Say lol No you Shrink
+		SRC.EMOTE Giggles
+	ENDIF
+	
+	
+[EOF]

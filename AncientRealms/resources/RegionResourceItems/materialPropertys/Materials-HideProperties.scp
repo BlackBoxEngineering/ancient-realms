@@ -1,0 +1,25 @@
+[FUNCTION f_find_hide_type]
+
+	IF (STRMATCH(*troll*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=troll
+	ELIF (STRMATCH(*ettin*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=ettin
+	ELIF (STRMATCH(*terathan*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=terathan
+	ELIF (STRMATCH(*ogre*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=ogre
+	ELIF (STRMATCH(*cyclops*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=cyclops
+	ELIF (STRMATCH(*spined*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=spined
+	ELIF (STRMATCH(*icefiend*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=icefiend
+	ELIF (STRMATCH(*dragon*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=dragon
+	ELIF (STRMATCH(*horned*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=horned
+	ELIF (STRMATCH(*barbed*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=barbed
+	ENDIF
+
+[EOF]

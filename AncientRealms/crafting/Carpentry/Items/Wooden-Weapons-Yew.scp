@@ -1,0 +1,563 @@
+/////////////////////////////////////////////Yew WildStaff
+
+[ITEMDEF i_mace_wildstaff_Yew]
+   DEFNAME=i_mace_wildstaff_Yew
+   ID=i_mace_wildstaff
+   NAME=Yew WildStaff
+   RESOURCES= 20 i_log_Yew
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=25
+   VALUE=57
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Yew
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS={60 70}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew Black Staff
+
+[ITEMDEF i_staff_black_Yew]
+   DEFNAME=i_staff_black_Yew
+   ID=i_staff_black
+   NAME=Yew Black Staff
+   RESOURCES= 20 i_log_Yew
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=23
+   VALUE=57
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Yew
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew Gnarled Staff
+
+[ITEMDEF i_staff_gnarled_Yew]
+   DEFNAME=i_staff_gnarled_Yew
+   ID=i_staff_gnarled
+   NAME=Yew Gnarled Staff
+   RESOURCES= 20 i_log_Yew
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=21
+   VALUE=57
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Yew
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew Nunchaku
+
+[ITEMDEF i_nunchaku_Yew]
+   DEFNAME=i_nunchaku_Yew
+   ID=i_nunchaku
+   NAME=Yew Nunchaku
+   RESOURCES= 20 i_log_Yew
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=23
+   VALUE=57
+   SPEED=35
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Yew
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew Club
+
+[ITEMDEF i_club_Yew]
+   DEFNAME=i_club_Yew
+   ID=i_club
+   NAME=Yew Club
+   RESOURCES= 20 i_log_Yew
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=19
+   VALUE=57
+   SPEED=37
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=CARPENTRY 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Yew
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS={10 20}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew Tetsubo
+
+[ITEMDEF i_tetsubo_Yew]
+   DEFNAME=i_tetsubo_Yew
+   ID=i_tetsubo
+   NAME=Yew Tetsubo
+   RESOURCES= 20 i_log_Yew
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=29
+   VALUE=57
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Yew
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS={80 90}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew Spear
+
+[ITEMDEF i_spear_Yew]
+   DEFNAME=i_spear_Yew
+   ID=i_spear
+   NAME=Yew Spear
+   RESOURCES= 20 i_log_Yew
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=57
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Yew
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS={60 70}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew Lance
+
+[ITEMDEF i_lance_Yew]
+   DEFNAME=i_lance_Yew
+   ID=i_lance
+   NAME=Yew Lance
+   RESOURCES= 20 i_log_Yew
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=57
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Yew
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS={100 110}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew Bow
+
+[ITEMDEF i_bow_Yew]
+   DEFNAME=i_bow_Yew
+   ID=i_bow
+   NAME=Yew Bow
+   RESOURCES= 20 i_log_Yew
+   WEIGHT=15
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=19
+   VALUE=57
+   SPEED=40
+   SKILL=ARCHERY
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Yew
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew Composite Bow
+
+[ITEMDEF i_composite_bow_Yew]
+   DEFNAME=i_composite_bow_Yew
+   ID=i_composite_bow
+   NAME=Yew Composite Bow
+   RESOURCES= 20 i_log_Yew
+   WEIGHT=15
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=20
+   VALUE=57
+   SPEED=38
+   SKILL=ARCHERY
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Yew
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS={50 60}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew Eleven Composite Bow
+
+[ITEMDEF i_elven_composite_longbow_Yew]
+   DEFNAME=i_elven_composite_longbow_Yew
+   ID=i_elven_composite_longbow
+   NAME=Yew Eleven Composite Bow
+   RESOURCES= 20 i_log_Yew
+   WEIGHT=15
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=21
+   VALUE=57
+   SPEED=36
+   SKILL=ARCHERY
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Yew
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS={70 80}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew Assassin Shortbow
+
+[ITEMDEF i_assassin_shortbow_Yew]
+   DEFNAME=i_assassin_shortbow_Yew
+   ID=i_assassin_shortbow
+   NAME=Yew Assassin Shortbow
+   RESOURCES= 20 i_log_Yew
+   WEIGHT=15
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=22
+   VALUE=57
+   SPEED=34
+   SKILL=ARCHERY
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Yew
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS={90 100}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew Yumi
+
+[ITEMDEF i_yumi_Yew]
+   DEFNAME=i_yumi_Yew
+   ID=i_yumi
+   NAME=Yew Yumi
+   RESOURCES= 20 i_log_Yew
+   WEIGHT=15
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=23
+   VALUE=57
+   SPEED=32
+   SKILL=ARCHERY
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Yew
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS={100 110}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew Crossbow
+
+[ITEMDEF i_crossbow_Yew]
+   DEFNAME=i_crossbow_Yew
+   ID=i_crossbow
+   NAME=Yew Crossbow
+   RESOURCES= 20 i_log_Yew
+   WEIGHT=15
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=21
+   VALUE=57
+   SPEED=50
+   SKILL=ARCHERY
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Yew
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS={50 60}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew Heavy Crossbow
+
+[ITEMDEF i_crossbow_heavy_Yew]
+   DEFNAME=i_crossbow_heavy_Yew
+   ID=i_crossbow_heavy
+   NAME=Yew Heavy Crossbow
+   RESOURCES= 20 i_log_Yew
+   WEIGHT=15
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=23
+   VALUE=57
+   SPEED=48
+   SKILL=ARCHERY
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Yew
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS={70 80}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew Repeating Crossbow
+
+[ITEMDEF i_repeating_crossbow_Yew]
+   DEFNAME=i_repeating_crossbow_Yew
+   ID=i_repeating_crossbow
+   NAME=Yew Repeating Crossbow
+   RESOURCES= 20 i_log_Yew
+   WEIGHT=15
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=20
+   VALUE=57
+   SPEED=46
+   SKILL=ARCHERY
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Yew
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS={90 100}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Yew Bola
+
+[ITEMDEF i_bola_Yew]
+   DEFNAME=i_bola_Yew
+   ID=i_bola
+   NAME=Yew Bola
+   RESOURCES= 20 i_log_Yew
+   WEIGHT=15
+   TYPE=t_bola
+   FLIP=1
+   DAM=17
+   VALUE=57
+   SPEED=35
+   SKILL=ARCHERY
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=TINKERING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Yew
+
+ON=@Create
+   COLOR=color_log_Yew
+   HITPOINTS={110 120}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Autonite Platemail Arms
+[ITEMDEF i_platemail_arms_Autonite]
+   DEFNAME= i_platemail_arms_Autonite
+   ID= i_platemail_arms
+   NAME= Autonite Platemail Arms
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Platemail Leggings
+[ITEMDEF i_platemail_leggings_Autonite]
+   DEFNAME= i_platemail_leggings_Autonite
+   ID= i_platemail_leggings
+   NAME= Autonite Platemail Leggings
+   ARMOR= 25
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Platemail Helmet
+[ITEMDEF i_platemail_helm_Autonite]
+   DEFNAME= i_platemail_helm_Autonite
+   ID= i_platemail_helm
+   NAME= Autonite Platemail Helmet
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Platemail Gorget
+[ITEMDEF i_platemail_gorget_Autonite]
+   DEFNAME= i_platemail_gorget_Autonite
+   ID= i_platemail_gorget
+   NAME= Autonite Platemail Gorget
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Autonite]
+   DEFNAME= i_platemail_gorget2_Autonite
+   ID= i_platemail_gorget2
+   NAME= Autonite Platemail Gorget
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Platemail Gloves
+[ITEMDEF i_platemail_gloves_Autonite]
+   DEFNAME= i_platemail_gloves_Autonite
+   ID= i_platemail_gloves
+   NAME= Autonite Platemail Gloves
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Platemail Chest
+[ITEMDEF i_platemail_chest_Autonite]
+   DEFNAME= i_platemail_chest_Autonite
+   ID= i_platemail_chest
+   NAME= Autonite Platemail Chest
+   ARMOR= 29
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Autonite]
+   DEFNAME= i_armor_female_plate_Autonite
+   ID= i_armor_female_plate
+   NAME= Autonite Platemail Female Plate
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite chainmail coif
+[ITEMDEF i_chainmail_coif_Autonite]
+   DEFNAME= i_chainmail_coif_Autonite
+   ID= i_chainmail_coif
+   NAME= Autonite chainmail coif
+   ARMOR= 21
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite chainmail leggings
+[ITEMDEF i_chainmail_leggings_Autonite]
+   DEFNAME= i_chainmail_leggings_Autonite
+   ID= i_chainmail_leggings
+   NAME= Autonite chainmail leggings
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite chainmail tunic
+[ITEMDEF i_chainmail_tunic_Autonite]
+   DEFNAME= i_chainmail_tunic_Autonite
+   ID= i_chainmail_tunic
+   NAME= Autonite chainmail tunic
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Autonite]
+   DEFNAME= i_ringmail_sleeves_Autonite
+   ID= i_ringmail_sleeves
+   NAME= Autonite Ringmail Sleeves
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Autonite]
+   DEFNAME= i_ringmail_leggings_Autonite
+   ID= i_ringmail_leggings
+   NAME= Autonite Ringmail Leggings
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Autonite]
+   DEFNAME= i_ringmail_tunic_Autonite
+   ID= i_ringmail_tunic
+   NAME= Autonite Ringmail Tunic
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Autonite]
+   DEFNAME= i_ringmail_gloves_Autonite
+   ID= i_ringmail_gloves
+   NAME= Autonite Ringmail Gloves
+   ARMOR= 9
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite studded sleeves
+[ITEMDEF i_studded_sleeves_Autonite]
+   DEFNAME= i_studded_sleeves_Autonite
+   ID= i_studded_sleeves
+   NAME= Autonite studded sleeves
+   ARMOR= 12
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Autonite, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite studded gloves
+[ITEMDEF i_studded_gloves_Autonite]
+   DEFNAME= i_studded_gloves_Autonite
+   ID= i_studded_gloves
+   NAME= Autonite studded gloves
+   ARMOR= 9
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Autonite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite studded gorget
+[ITEMDEF i_studded_gorget_Autonite]
+   DEFNAME= i_studded_gorget_Autonite
+   ID= i_studded_gorget
+   NAME= Autonite studded gorget
+   ARMOR= 9
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Autonite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite studded leggings
+[ITEMDEF i_studded_leggings_Autonite]
+   DEFNAME= i_studded_leggings_Autonite
+   ID= i_studded_leggings
+   NAME= Autonite studded leggings
+   ARMOR= 18
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Autonite, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite studded tunic
+[ITEMDEF i_studded_tunic_Autonite]
+   DEFNAME= i_studded_tunic_Autonite
+   ID= i_studded_tunic
+   NAME= Autonite studded tunic
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Autonite, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite studded female armor
+[ITEMDEF i_armor_female_studded_Autonite]
+   DEFNAME= i_armor_female_studded_Autonite
+   ID= i_armor_female_studded
+   NAME= Autonite studded female armor
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Autonite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Autonite]
+   DEFNAME= i_armor_female_bustier_studded_Autonite
+   ID= i_armor_female_bustier_studded
+   NAME= Autonite studded female bustier
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Autonite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite platemail mempo
+[ITEMDEF i_platemail_mempo_Autonite]
+   DEFNAME= i_platemail_mempo_Autonite
+   ID= i_platemail_mempo
+   NAME= Autonite platemail mempo
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite platemail do
+[ITEMDEF i_platemail_do_Autonite]
+   DEFNAME= i_platemail_do_Autonite
+   ID= i_platemail_do
+   NAME= Autonite platemail do
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Autonite]
+   DEFNAME= i_platemail_hiro_sode_Autonite
+   ID= i_platemail_hiro_sode
+   NAME= Autonite platemail hiro sode
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite platemail suneate
+[ITEMDEF i_platemail_suneate_Autonite]
+   DEFNAME= i_platemail_suneate_Autonite
+   ID= i_platemail_suneate
+   NAME= Autonite platemail suneate
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite platemail haidate
+[ITEMDEF i_platemail_haidate_Autonite]
+   DEFNAME= i_platemail_haidate_Autonite
+   ID= i_platemail_haidate
+   NAME= Autonite platemail haidate
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite studded mempo
+[ITEMDEF i_studded_mempo_Autonite]
+   DEFNAME= i_studded_mempo_Autonite
+   ID= i_studded_mempo
+   NAME= Autonite studded mempo
+   ARMOR= 14
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Autonite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite studded do
+[ITEMDEF i_studded_do_Autonite]
+   DEFNAME= i_studded_do_Autonite
+   ID= i_studded_do
+   NAME= Autonite studded do
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Autonite, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Autonite]
+   DEFNAME= i_studded_hiro_sode_Autonite
+   ID= i_studded_hiro_sode
+   NAME= Autonite studded hiro sode
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Autonite, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite studded suneate
+[ITEMDEF i_studded_suneate_Autonite]
+   DEFNAME= i_studded_suneate_Autonite
+   ID= i_studded_suneate
+   NAME= Autonite studded suneate
+   ARMOR= 16
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Autonite, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite studded haidate
+[ITEMDEF i_studded_haidate_Autonite]
+   DEFNAME= i_studded_haidate_Autonite
+   ID= i_studded_haidate
+   NAME= Autonite studded haidate
+   ARMOR= 14
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Autonite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Autonite]
+   DEFNAME= i_platemail_gargish_arms_Autonite
+   ID= i_platemail_gargish_arms
+   NAME= Autonite Gargish Platemail Arms
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Autonite]
+   DEFNAME= i_platemail_gargish_chest_Autonite
+   ID= i_platemail_gargish_chest
+   NAME= Autonite Gargish Platemail Chest
+   ARMOR= 31
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Autonite]
+   DEFNAME= i_platemail_gargish_kilt_Autonite
+   ID= i_platemail_gargish_kilt
+   NAME= Autonite Gargish Platemail Kilt
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Autonite]
+   DEFNAME= i_platemail_gargish_leggings_Autonite
+   ID= i_platemail_gargish_leggings
+   NAME= Autonite Gargish Platemail Leggings
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Autonite]
+   DEFNAME= i_platemail_gargish_arms_2_Autonite
+   ID= i_platemail_gargish_arms_2
+   NAME= Autonite Gargish Platemail Arms
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Autonite]
+   DEFNAME= i_platemail_gargish_chest_2_Autonite
+   ID= i_platemail_gargish_chest_2
+   NAME= Autonite Gargish Platemail Chest
+   ARMOR= 31
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Autonite]
+   DEFNAME= i_platemail_gargish_kilt_2_Autonite
+   ID= i_platemail_gargish_kilt_2
+   NAME= Autonite Gargish Platemail Kilt
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Autonite]
+   DEFNAME= i_platemail_gargish_leggings_2_Autonite
+   ID= i_platemail_gargish_leggings_2
+   NAME= Autonite Gargish Platemail Leggings
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Closed Helmet
+[ITEMDEF i_helm_close_Autonite]
+   DEFNAME= i_helm_close_Autonite
+   ID= i_helm_close
+   NAME= Autonite Closed Helmet
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Open Helmet
+[ITEMDEF i_helm_open_Autonite]
+   DEFNAME= i_helm_open_Autonite
+   ID= i_helm_open
+   NAME= Autonite Open Helmet
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Bascinet
+[ITEMDEF i_bascinet_Autonite]
+   DEFNAME= i_bascinet_Autonite
+   ID= i_bascinet
+   NAME= Autonite Bascinet
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Norse Helmet
+[ITEMDEF i_helm_norse_Autonite]
+   DEFNAME= i_helm_norse_Autonite
+   ID= i_helm_norse
+   NAME= Autonite Norse Helmet
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Kabuto
+[ITEMDEF i_helm_kabuto_Autonite]
+   DEFNAME= i_helm_kabuto_Autonite
+   ID= i_helm_kabuto
+   NAME= Autonite Kabuto
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Autonite]
+   DEFNAME= i_chainmail_hatsuburi_Autonite
+   ID= i_chainmail_hatsuburi
+   NAME= Autonite Chainmail Hatsuburi
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Autonite]
+   DEFNAME= i_platemail_hatsuburi_Autonite
+   ID= i_platemail_hatsuburi
+   NAME= Autonite Platemail Hatsuburi
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Autonite]
+   DEFNAME= i_plate_jingasa_heavy_Autonite
+   ID= i_plate_jingasa_heavy
+   NAME= Autonite Heavy Jingasa
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Autonite]
+   DEFNAME= i_platemail_kabuto_decorative_Autonite
+   ID= i_platemail_kabuto_decorative
+   NAME= Autonite Decorative Platemail Kabuto
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {97 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Autonite]
+   DEFNAME= i_plate_jingasa_light_Autonite
+   ID= i_plate_jingasa_light
+   NAME= Autonite Light Jingasa
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Autonite]
+   DEFNAME= i_plate_jingasa_small_Autonite
+   ID= i_plate_jingasa_small
+   NAME= Autonite Small Jingasa
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Autonite]
+   DEFNAME= i_platemail_kabuto_battle_Autonite
+   ID= i_platemail_kabuto_battle
+   NAME= Autonite Platemail Battle Kabuto
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Autonite]
+   DEFNAME= i_platemail_kabuto_Autonite
+   ID= i_platemail_kabuto
+   NAME= Autonite Platemail Kabuto
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Circlet
+[ITEMDEF i_circlet_Autonite]
+   DEFNAME= i_circlet_Autonite
+   ID= i_circlet
+   NAME= Autonite Circlet
+   ARMOR= 13
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Royal Circlet
+[ITEMDEF i_circlet_royal_Autonite]
+   DEFNAME= i_circlet_royal_Autonite
+   ID= i_circlet_royal
+   NAME= Autonite Royal Circlet
+   ARMOR= 13
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Autonite]
+   DEFNAME= i_circlet_gemmed_Autonite
+   ID= i_circlet_gemmed
+   NAME= Autonite Gemmed Circlet
+   ARMOR= 13
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {107 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Buckler
+[ITEMDEF i_shield_buckler_Autonite]
+   DEFNAME= i_shield_buckler_Autonite
+   ID= i_shield_buckler
+   NAME= Autonite Buckler
+   ARMOR= 12
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Wooden Shield
+[ITEMDEF i_shield_wood_Autonite]
+   DEFNAME= i_shield_wood_Autonite
+   ID= i_shield_wood
+   NAME= Autonite Wooden Shield
+   ARMOR= 13
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Autonite]
+   DEFNAME= i_shield_round_metal_Autonite
+   ID= i_shield_round_metal
+   NAME= Autonite Light Metal  Round Shield
+   ARMOR= 14
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Autonite]
+   DEFNAME= i_shield_round_bronze_Autonite
+   ID= i_shield_round_bronze
+   NAME= Autonite Heavy Metal  Round Shield
+   ARMOR= 16
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Autonite]
+   DEFNAME= i_shield_kite_metal_Autonite
+   ID= i_shield_kite_metal
+   NAME= Autonite Metal Kite Shield
+   ARMOR= 18
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Autonite]
+   DEFNAME= i_shield_kite_wood_Autonite
+   ID= i_shield_kite_wood
+   NAME= Autonite Wooden Kite Shield
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Heater Shield
+[ITEMDEF i_shield_heater_Autonite]
+   DEFNAME= i_shield_heater_Autonite
+   ID= i_shield_heater
+   NAME= Autonite Heater Shield
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {97 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Ancient Shield
+[ITEMDEF i_shield_dupre_Autonite]
+   DEFNAME= i_shield_dupre_Autonite
+   ID= i_shield_dupre
+   NAME= Autonite Ancient Shield
+   ARMOR= 21
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {107 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Shield oh Hell
+[ITEMDEF i_shield_scale_Autonite]
+   DEFNAME= i_shield_scale_Autonite
+   ID= i_shield_scale
+   NAME= Autonite Shield oh Hell
+   ARMOR= 21
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {107 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Chaos Shield
+[ITEMDEF i_shield_chaos_Autonite]
+   DEFNAME= i_shield_chaos_Autonite
+   ID= i_shield_chaos
+   NAME= Autonite Chaos Shield
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {117 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Order Shield
+[ITEMDEF i_shield_order_Autonite]
+   DEFNAME= i_shield_order_Autonite
+   ID= i_shield_order
+   NAME= Autonite Order Shield
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Autonite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Autonite
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS= {117 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

@@ -1,0 +1,21 @@
+[FUNCTION WARMODE]
+IF (<FLAGS>&statf_war) && !(0<ARGN1>)
+	FLAGS &= ~statf_war
+	IF (<ISPLAYER>) && (<ISONLINE>)
+		SENDPACKET 072 00 00 32 00
+	ENDIF
+ELIF !(<FLAGS>&statf_war) && (0<ARGN1>)
+	FLAGS |= statf_war
+	IF (<ISPLAYER>) && (<ISONLINE>)
+		SENDPACKET 072 01 00 32 00
+	ENDIF
+ENDIF
+
+[FUNCTION ISWARMODE]
+IF (<FLAGS>&statf_war)
+	RETURN 1
+ELIF !(<FLAGS>&statf_war)
+	RETURN 0
+ENDIF
+
+[EOF]

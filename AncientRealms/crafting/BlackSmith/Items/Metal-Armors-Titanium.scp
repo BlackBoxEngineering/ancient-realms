@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Titanium Platemail Arms
+[ITEMDEF i_platemail_arms_Titanium]
+   DEFNAME= i_platemail_arms_Titanium
+   ID= i_platemail_arms
+   NAME= Titanium Platemail Arms
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Platemail Leggings
+[ITEMDEF i_platemail_leggings_Titanium]
+   DEFNAME= i_platemail_leggings_Titanium
+   ID= i_platemail_leggings
+   NAME= Titanium Platemail Leggings
+   ARMOR= 27
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Platemail Helmet
+[ITEMDEF i_platemail_helm_Titanium]
+   DEFNAME= i_platemail_helm_Titanium
+   ID= i_platemail_helm
+   NAME= Titanium Platemail Helmet
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Platemail Gorget
+[ITEMDEF i_platemail_gorget_Titanium]
+   DEFNAME= i_platemail_gorget_Titanium
+   ID= i_platemail_gorget
+   NAME= Titanium Platemail Gorget
+   ARMOR= 17
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Titanium]
+   DEFNAME= i_platemail_gorget2_Titanium
+   ID= i_platemail_gorget2
+   NAME= Titanium Platemail Gorget
+   ARMOR= 17
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Platemail Gloves
+[ITEMDEF i_platemail_gloves_Titanium]
+   DEFNAME= i_platemail_gloves_Titanium
+   ID= i_platemail_gloves
+   NAME= Titanium Platemail Gloves
+   ARMOR= 17
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Platemail Chest
+[ITEMDEF i_platemail_chest_Titanium]
+   DEFNAME= i_platemail_chest_Titanium
+   ID= i_platemail_chest
+   NAME= Titanium Platemail Chest
+   ARMOR= 31
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Titanium]
+   DEFNAME= i_armor_female_plate_Titanium
+   ID= i_armor_female_plate
+   NAME= Titanium Platemail Female Plate
+   ARMOR= 29
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium chainmail coif
+[ITEMDEF i_chainmail_coif_Titanium]
+   DEFNAME= i_chainmail_coif_Titanium
+   ID= i_chainmail_coif
+   NAME= Titanium chainmail coif
+   ARMOR= 23
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {59 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium chainmail leggings
+[ITEMDEF i_chainmail_leggings_Titanium]
+   DEFNAME= i_chainmail_leggings_Titanium
+   ID= i_chainmail_leggings
+   NAME= Titanium chainmail leggings
+   ARMOR= 25
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {59 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium chainmail tunic
+[ITEMDEF i_chainmail_tunic_Titanium]
+   DEFNAME= i_chainmail_tunic_Titanium
+   ID= i_chainmail_tunic
+   NAME= Titanium chainmail tunic
+   ARMOR= 29
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {59 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Titanium]
+   DEFNAME= i_ringmail_sleeves_Titanium
+   ID= i_ringmail_sleeves
+   NAME= Titanium Ringmail Sleeves
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {49 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Titanium]
+   DEFNAME= i_ringmail_leggings_Titanium
+   ID= i_ringmail_leggings
+   NAME= Titanium Ringmail Leggings
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {49 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Titanium]
+   DEFNAME= i_ringmail_tunic_Titanium
+   ID= i_ringmail_tunic
+   NAME= Titanium Ringmail Tunic
+   ARMOR= 25
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {49 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Titanium]
+   DEFNAME= i_ringmail_gloves_Titanium
+   ID= i_ringmail_gloves
+   NAME= Titanium Ringmail Gloves
+   ARMOR= 11
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {49 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium studded sleeves
+[ITEMDEF i_studded_sleeves_Titanium]
+   DEFNAME= i_studded_sleeves_Titanium
+   ID= i_studded_sleeves
+   NAME= Titanium studded sleeves
+   ARMOR= 14
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Titanium, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {39 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium studded gloves
+[ITEMDEF i_studded_gloves_Titanium]
+   DEFNAME= i_studded_gloves_Titanium
+   ID= i_studded_gloves
+   NAME= Titanium studded gloves
+   ARMOR= 11
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Titanium, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {39 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium studded gorget
+[ITEMDEF i_studded_gorget_Titanium]
+   DEFNAME= i_studded_gorget_Titanium
+   ID= i_studded_gorget
+   NAME= Titanium studded gorget
+   ARMOR= 11
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Titanium, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {39 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium studded leggings
+[ITEMDEF i_studded_leggings_Titanium]
+   DEFNAME= i_studded_leggings_Titanium
+   ID= i_studded_leggings
+   NAME= Titanium studded leggings
+   ARMOR= 20
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Titanium, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {39 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium studded tunic
+[ITEMDEF i_studded_tunic_Titanium]
+   DEFNAME= i_studded_tunic_Titanium
+   ID= i_studded_tunic
+   NAME= Titanium studded tunic
+   ARMOR= 24
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Titanium, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {39 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium studded female armor
+[ITEMDEF i_armor_female_studded_Titanium]
+   DEFNAME= i_armor_female_studded_Titanium
+   ID= i_armor_female_studded
+   NAME= Titanium studded female armor
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Titanium, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {39 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Titanium]
+   DEFNAME= i_armor_female_bustier_studded_Titanium
+   ID= i_armor_female_bustier_studded
+   NAME= Titanium studded female bustier
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Titanium, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {39 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium platemail mempo
+[ITEMDEF i_platemail_mempo_Titanium]
+   DEFNAME= i_platemail_mempo_Titanium
+   ID= i_platemail_mempo
+   NAME= Titanium platemail mempo
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium platemail do
+[ITEMDEF i_platemail_do_Titanium]
+   DEFNAME= i_platemail_do_Titanium
+   ID= i_platemail_do
+   NAME= Titanium platemail do
+   ARMOR= 29
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Titanium]
+   DEFNAME= i_platemail_hiro_sode_Titanium
+   ID= i_platemail_hiro_sode
+   NAME= Titanium platemail hiro sode
+   ARMOR= 25
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium platemail suneate
+[ITEMDEF i_platemail_suneate_Titanium]
+   DEFNAME= i_platemail_suneate_Titanium
+   ID= i_platemail_suneate
+   NAME= Titanium platemail suneate
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium platemail haidate
+[ITEMDEF i_platemail_haidate_Titanium]
+   DEFNAME= i_platemail_haidate_Titanium
+   ID= i_platemail_haidate
+   NAME= Titanium platemail haidate
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium studded mempo
+[ITEMDEF i_studded_mempo_Titanium]
+   DEFNAME= i_studded_mempo_Titanium
+   ID= i_studded_mempo
+   NAME= Titanium studded mempo
+   ARMOR= 16
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Titanium, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium studded do
+[ITEMDEF i_studded_do_Titanium]
+   DEFNAME= i_studded_do_Titanium
+   ID= i_studded_do
+   NAME= Titanium studded do
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Titanium, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Titanium]
+   DEFNAME= i_studded_hiro_sode_Titanium
+   ID= i_studded_hiro_sode
+   NAME= Titanium studded hiro sode
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Titanium, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium studded suneate
+[ITEMDEF i_studded_suneate_Titanium]
+   DEFNAME= i_studded_suneate_Titanium
+   ID= i_studded_suneate
+   NAME= Titanium studded suneate
+   ARMOR= 18
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Titanium, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium studded haidate
+[ITEMDEF i_studded_haidate_Titanium]
+   DEFNAME= i_studded_haidate_Titanium
+   ID= i_studded_haidate
+   NAME= Titanium studded haidate
+   ARMOR= 16
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Titanium, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Titanium]
+   DEFNAME= i_platemail_gargish_arms_Titanium
+   ID= i_platemail_gargish_arms
+   NAME= Titanium Gargish Platemail Arms
+   ARMOR= 25
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Titanium]
+   DEFNAME= i_platemail_gargish_chest_Titanium
+   ID= i_platemail_gargish_chest
+   NAME= Titanium Gargish Platemail Chest
+   ARMOR= 33
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Titanium]
+   DEFNAME= i_platemail_gargish_kilt_Titanium
+   ID= i_platemail_gargish_kilt
+   NAME= Titanium Gargish Platemail Kilt
+   ARMOR= 24
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Titanium]
+   DEFNAME= i_platemail_gargish_leggings_Titanium
+   ID= i_platemail_gargish_leggings
+   NAME= Titanium Gargish Platemail Leggings
+   ARMOR= 29
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Titanium]
+   DEFNAME= i_platemail_gargish_arms_2_Titanium
+   ID= i_platemail_gargish_arms_2
+   NAME= Titanium Gargish Platemail Arms
+   ARMOR= 25
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Titanium]
+   DEFNAME= i_platemail_gargish_chest_2_Titanium
+   ID= i_platemail_gargish_chest_2
+   NAME= Titanium Gargish Platemail Chest
+   ARMOR= 33
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Titanium]
+   DEFNAME= i_platemail_gargish_kilt_2_Titanium
+   ID= i_platemail_gargish_kilt_2
+   NAME= Titanium Gargish Platemail Kilt
+   ARMOR= 24
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Titanium]
+   DEFNAME= i_platemail_gargish_leggings_2_Titanium
+   ID= i_platemail_gargish_leggings_2
+   NAME= Titanium Gargish Platemail Leggings
+   ARMOR= 29
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Closed Helmet
+[ITEMDEF i_helm_close_Titanium]
+   DEFNAME= i_helm_close_Titanium
+   ID= i_helm_close
+   NAME= Titanium Closed Helmet
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Open Helmet
+[ITEMDEF i_helm_open_Titanium]
+   DEFNAME= i_helm_open_Titanium
+   ID= i_helm_open
+   NAME= Titanium Open Helmet
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {49 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Bascinet
+[ITEMDEF i_bascinet_Titanium]
+   DEFNAME= i_bascinet_Titanium
+   ID= i_bascinet
+   NAME= Titanium Bascinet
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {39 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Norse Helmet
+[ITEMDEF i_helm_norse_Titanium]
+   DEFNAME= i_helm_norse_Titanium
+   ID= i_helm_norse
+   NAME= Titanium Norse Helmet
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {59 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Kabuto
+[ITEMDEF i_helm_kabuto_Titanium]
+   DEFNAME= i_helm_kabuto_Titanium
+   ID= i_helm_kabuto
+   NAME= Titanium Kabuto
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Titanium]
+   DEFNAME= i_chainmail_hatsuburi_Titanium
+   ID= i_chainmail_hatsuburi
+   NAME= Titanium Chainmail Hatsuburi
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Titanium]
+   DEFNAME= i_platemail_hatsuburi_Titanium
+   ID= i_platemail_hatsuburi
+   NAME= Titanium Platemail Hatsuburi
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Titanium]
+   DEFNAME= i_plate_jingasa_heavy_Titanium
+   ID= i_plate_jingasa_heavy
+   NAME= Titanium Heavy Jingasa
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Titanium]
+   DEFNAME= i_platemail_kabuto_decorative_Titanium
+   ID= i_platemail_kabuto_decorative
+   NAME= Titanium Decorative Platemail Kabuto
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {99 810}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Titanium]
+   DEFNAME= i_plate_jingasa_light_Titanium
+   ID= i_plate_jingasa_light
+   NAME= Titanium Light Jingasa
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Titanium]
+   DEFNAME= i_plate_jingasa_small_Titanium
+   ID= i_plate_jingasa_small
+   NAME= Titanium Small Jingasa
+   ARMOR= 17
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {59 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Titanium]
+   DEFNAME= i_platemail_kabuto_battle_Titanium
+   ID= i_platemail_kabuto_battle
+   NAME= Titanium Platemail Battle Kabuto
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Titanium]
+   DEFNAME= i_platemail_kabuto_Titanium
+   ID= i_platemail_kabuto
+   NAME= Titanium Platemail Kabuto
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Circlet
+[ITEMDEF i_circlet_Titanium]
+   DEFNAME= i_circlet_Titanium
+   ID= i_circlet
+   NAME= Titanium Circlet
+   ARMOR= 15
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Royal Circlet
+[ITEMDEF i_circlet_royal_Titanium]
+   DEFNAME= i_circlet_royal_Titanium
+   ID= i_circlet_royal
+   NAME= Titanium Royal Circlet
+   ARMOR= 15
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Titanium]
+   DEFNAME= i_circlet_gemmed_Titanium
+   ID= i_circlet_gemmed
+   NAME= Titanium Gemmed Circlet
+   ARMOR= 15
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {109 900}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Buckler
+[ITEMDEF i_shield_buckler_Titanium]
+   DEFNAME= i_shield_buckler_Titanium
+   ID= i_shield_buckler
+   NAME= Titanium Buckler
+   ARMOR= 14
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {39 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Wooden Shield
+[ITEMDEF i_shield_wood_Titanium]
+   DEFNAME= i_shield_wood_Titanium
+   ID= i_shield_wood
+   NAME= Titanium Wooden Shield
+   ARMOR= 15
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {49 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Titanium]
+   DEFNAME= i_shield_round_metal_Titanium
+   ID= i_shield_round_metal
+   NAME= Titanium Light Metal  Round Shield
+   ARMOR= 16
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {59 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Titanium]
+   DEFNAME= i_shield_round_bronze_Titanium
+   ID= i_shield_round_bronze
+   NAME= Titanium Heavy Metal  Round Shield
+   ARMOR= 18
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Titanium]
+   DEFNAME= i_shield_kite_metal_Titanium
+   ID= i_shield_kite_metal
+   NAME= Titanium Metal Kite Shield
+   ARMOR= 20
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Titanium]
+   DEFNAME= i_shield_kite_wood_Titanium
+   ID= i_shield_kite_wood
+   NAME= Titanium Wooden Kite Shield
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Heater Shield
+[ITEMDEF i_shield_heater_Titanium]
+   DEFNAME= i_shield_heater_Titanium
+   ID= i_shield_heater
+   NAME= Titanium Heater Shield
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {99 810}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Ancient Shield
+[ITEMDEF i_shield_dupre_Titanium]
+   DEFNAME= i_shield_dupre_Titanium
+   ID= i_shield_dupre
+   NAME= Titanium Ancient Shield
+   ARMOR= 23
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {109 900}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Shield oh Hell
+[ITEMDEF i_shield_scale_Titanium]
+   DEFNAME= i_shield_scale_Titanium
+   ID= i_shield_scale
+   NAME= Titanium Shield oh Hell
+   ARMOR= 23
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {109 900}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Chaos Shield
+[ITEMDEF i_shield_chaos_Titanium]
+   DEFNAME= i_shield_chaos_Titanium
+   ID= i_shield_chaos
+   NAME= Titanium Chaos Shield
+   ARMOR= 24
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {119 990}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Order Shield
+[ITEMDEF i_shield_order_Titanium]
+   DEFNAME= i_shield_order_Titanium
+   ID= i_shield_order
+   NAME= Titanium Order Shield
+   ARMOR= 24
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Titanium
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Titanium
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS= {119 990}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

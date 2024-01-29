@@ -1,0 +1,60 @@
+[EVENTS e_Keep_Guard]
+ON=@NPCSeeNewPlayer
+	TAG.LastLookedAt=<SRC.UID>
+	IF <CheckLineOfSights <SRC.UID>>
+		SAY I see <SRC.NAME> and he is in the line of sight.
+		IF !(<SRC.GUILD>)
+			SAY <SRC.NAME> has no guild and is not a threat!
+			ATTACK
+			RETURN 0
+		ELSE
+			IF <REGION.TAG.OWNERSUID> = <SRC.GUILD>
+				SAY <SRC.NAME> is one of us he is a friend.
+				IF <TAG.GuildUID> = <SRC.GUILD.UID>
+					IF <FINDID.i_keep_GuardsBrains.TIMER> < 1 
+						DORAND 6
+							SAY @63 Greetings <SRC.NAME>
+							SAY @63 Hello there <SRC.NAME>!
+							SAY @63 Nice to see you <SRC.NAME>
+							SAY @63 Brother <SRC.NAME>!
+							SAY @63 Master <SRC.NAME>
+							SAY @63 We are <REGION.TAG.Ownersname>
+							ENDDO
+						ENDIF
+						IF <FINDID.i_Keep_GuardWarning>
+							FINDID.i_Keep_GuardWarning.REMOVE
+						ENDIF
+					ENDIF
+					RETURN 1
+				ELSE
+					SAY <SRC.NAME> is from <SRC.GUILD.NAME> attack him!
+					IF !<FINDID.i_Keep_GuardWarning>
+						SERV.NEWITEM i_Keep_GuardWarning, 1, <UID>
+					ENDIF
+					IF (<REGION.UID>=<SRC.REGION.UID>)
+						ATTACK
+						RETURN 0
+					ELSE
+						GO <HOME>
+						RETURN 1
+					ENDIF					
+				ENDIF
+			ENDIF
+		ENDIF
+	ELSE
+		SAY I sense someone but i cannot see them
+		RETURN 1
+	ENDIF
+ENDIF
+ON=@NPCActFollow
+	IF (<REGION.UID>=<SRC.REGION.UID>)
+		RETURN 2
+	ELSE
+		FINDID.i_memory.REMOVE
+		RETURN 1
+	ENDIF
+         
+ON=@NPCRefuseItem
+	SAY @92 You cannot Bribe me.
+	RETURN 1
+[EOF]

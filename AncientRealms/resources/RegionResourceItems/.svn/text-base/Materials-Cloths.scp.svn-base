@@ -1,0 +1,393 @@
+///////////////////////////////////////////////////
+[DEFNAME COLOR_CLOTH]
+color_cloth_Cotton          1545
+color_cloth_Pashmina          154
+color_cloth_Tartan          214
+color_cloth_Silk          654
+color_cloth_Satin          2452
+color_cloth_Lace          9841
+
+///////////////////////////////////////////////////
+/////////////////////////////////////////////Cotton Cloth
+[ITEMDEF i_cloth_cotton]
+DEFNAME = i_cloth_cotton
+ID = 2706
+NAME= Cotton Cloth%s
+Type = t_cloth
+DYE = 1
+SKILLMAKE= TAILORING 10
+VALUE = 10
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Cloths
+DESCRIPTION=Cotton Cloth
+
+ON=@Create
+        TAG.MaterialClass = 1
+        Color = color_cloth_Cotton
+
+/////////////////////////////////////////////Pashmina Cloth
+[ITEMDEF i_cloth_pashmina]
+DEFNAME = i_cloth_pashmina
+ID = 2706
+NAME= Pashmina Cloth%s
+Type = t_cloth
+DYE = 1
+SKILLMAKE= TAILORING 20
+VALUE = 20
+WEIGHT = 2
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Cloths
+DESCRIPTION=Pashmina Cloth
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_cloth_Pashmina
+
+/////////////////////////////////////////////Tartan Cloth
+[ITEMDEF i_cloth_tartan]
+DEFNAME = i_cloth_tartan
+ID = 2706
+NAME= Tartan Cloth%s
+Type = t_cloth
+DYE = 1
+SKILLMAKE= TAILORING 30
+VALUE = 40
+WEIGHT = 4
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Cloths
+DESCRIPTION=Tartan Cloth
+
+ON=@Create
+        TAG.MaterialClass = 4
+        Color = color_cloth_Tartan
+
+/////////////////////////////////////////////Silk Cloth
+[ITEMDEF i_cloth_silk]
+DEFNAME = i_cloth_silk
+ID = 2706
+NAME= Silk Cloth%s
+Type = t_cloth
+DYE = 1
+SKILLMAKE= TAILORING 40
+VALUE = 60
+WEIGHT = 6
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Cloths
+DESCRIPTION=Silk Cloth
+
+ON=@Create
+        TAG.MaterialClass = 6
+        Color = color_cloth_Silk
+
+/////////////////////////////////////////////Satin Cloth
+[ITEMDEF i_cloth_satin]
+DEFNAME = i_cloth_satin
+ID = 2706
+NAME= Satin Cloth%s
+Type = t_cloth
+DYE = 1
+SKILLMAKE= TAILORING 50
+VALUE = 80
+WEIGHT = 8
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Cloths
+DESCRIPTION=Satin Cloth
+
+ON=@Create
+        TAG.MaterialClass = 8
+        Color = color_cloth_Satin
+
+/////////////////////////////////////////////Lace Cloth
+[ITEMDEF i_cloth_lace]
+DEFNAME = i_cloth_lace
+ID = 2706
+NAME= Lace Cloth%s
+Type = t_cloth
+DYE = 1
+SKILLMAKE= TAILORING 60
+VALUE = 100
+WEIGHT = 10
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Cloths
+DESCRIPTION=Lace Cloth
+
+ON=@Create
+        TAG.MaterialClass = 10
+        Color = color_cloth_Lace
+
+/////////////////////////////////////////////Cotton Cloth Bolt
+[ITEMDEF i_cloth_bolt_Cotton]
+DEFNAME = i_cloth_bolt_Cotton
+ID = i_cloth_bolt
+NAME= Cotton Cloth Bolt
+Type = t_cloth_bolt
+DYE = 1
+SKILLMAKE= TAILORING 10
+RESOURCES = 100 i_thread_Cotton
+VALUE = 10
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Cloths Bolts
+DESCRIPTION=Cotton Cloth Bolt
+
+ON=@Create
+        TAG.MaterialClass = 1
+        Color = color_cloth_Cotton
+
+/////////////////////////////////////////////Pashmina Cloth Bolt
+[ITEMDEF i_cloth_bolt_Pashmina]
+DEFNAME = i_cloth_bolt_Pashmina
+ID = i_cloth_bolt
+NAME= Pashmina Cloth Bolt
+Type = t_cloth_bolt
+DYE = 1
+SKILLMAKE= TAILORING 20
+RESOURCES = 100 i_thread_Pashmina
+VALUE = 20
+WEIGHT = 2
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Cloths Bolts
+DESCRIPTION=Pashmina Cloth Bolt
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_cloth_Pashmina
+
+/////////////////////////////////////////////Tartan Cloth Bolt
+[ITEMDEF i_cloth_bolt_Tartan]
+DEFNAME = i_cloth_bolt_Tartan
+ID = i_cloth_bolt
+NAME= Tartan Cloth Bolt
+Type = t_cloth_bolt
+DYE = 1
+SKILLMAKE= TAILORING 30
+RESOURCES = 100 i_thread_Tartan
+VALUE = 40
+WEIGHT = 4
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Cloths Bolts
+DESCRIPTION=Tartan Cloth Bolt
+
+ON=@Create
+        TAG.MaterialClass = 4
+        Color = color_cloth_Tartan
+
+/////////////////////////////////////////////Silk Cloth Bolt
+[ITEMDEF i_cloth_bolt_Silk]
+DEFNAME = i_cloth_bolt_Silk
+ID = i_cloth_bolt
+NAME= Silk Cloth Bolt
+Type = t_cloth_bolt
+DYE = 1
+SKILLMAKE= TAILORING 40
+RESOURCES = 100 i_thread_Silk
+VALUE = 60
+WEIGHT = 6
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Cloths Bolts
+DESCRIPTION=Silk Cloth Bolt
+
+ON=@Create
+        TAG.MaterialClass = 6
+        Color = color_cloth_Silk
+
+/////////////////////////////////////////////Satin Cloth Bolt
+[ITEMDEF i_cloth_bolt_Satin]
+DEFNAME = i_cloth_bolt_Satin
+ID = i_cloth_bolt
+NAME= Satin Cloth Bolt
+Type = t_cloth_bolt
+DYE = 1
+SKILLMAKE= TAILORING 50
+RESOURCES = 100 i_thread_Satin
+VALUE = 80
+WEIGHT = 8
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Cloths Bolts
+DESCRIPTION=Satin Cloth Bolt
+
+ON=@Create
+        TAG.MaterialClass = 8
+        Color = color_cloth_Satin
+
+/////////////////////////////////////////////Lace Cloth Bolt
+[ITEMDEF i_cloth_bolt_Lace]
+DEFNAME = i_cloth_bolt_Lace
+ID = i_cloth_bolt
+NAME= Lace Cloth Bolt
+Type = t_cloth_bolt
+DYE = 1
+SKILLMAKE= TAILORING 60
+RESOURCES = 100 i_thread_Lace
+VALUE = 100
+WEIGHT = 10
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Cloths Bolts
+DESCRIPTION=Lace Cloth Bolt
+
+ON=@Create
+        TAG.MaterialClass = 10
+        Color = color_cloth_Lace
+
+/////////////////////////////////////////////Cotton Cloth Bolt
+[ITEMDEF i_thread_Cotton]
+DEFNAME = i_thread_Cotton
+ID = i_thread
+NAME= Cotton Thread
+Type = t_thread
+DYE = 1
+SKILLMAKE= TAILORING 10
+VALUE = 10
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Threads
+DESCRIPTION=Cotton Cloth Bolt
+
+ON=@Create
+        TAG.MaterialClass = 1
+        Color = color_cloth_Cotton
+
+/////////////////////////////////////////////Pashmina Cloth Bolt
+[ITEMDEF i_thread_Pashmina]
+DEFNAME = i_thread_Pashmina
+ID = i_thread
+NAME= Pashmina Thread
+Type = t_thread
+DYE = 1
+SKILLMAKE= TAILORING 20
+VALUE = 20
+WEIGHT = 2
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Threads
+DESCRIPTION=Pashmina Cloth Bolt
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_cloth_Pashmina
+
+/////////////////////////////////////////////Tartan Cloth Bolt
+[ITEMDEF i_thread_Tartan]
+DEFNAME = i_thread_Tartan
+ID = i_thread
+NAME= Tartan Thread
+Type = t_thread
+DYE = 1
+SKILLMAKE= TAILORING 30
+VALUE = 40
+WEIGHT = 4
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Threads
+DESCRIPTION=Tartan Cloth Bolt
+
+ON=@Create
+        TAG.MaterialClass = 4
+        Color = color_cloth_Tartan
+
+/////////////////////////////////////////////Silk Cloth Bolt
+[ITEMDEF i_thread_Silk]
+DEFNAME = i_thread_Silk
+ID = i_thread
+NAME= Silk Thread
+Type = t_thread
+DYE = 1
+SKILLMAKE= TAILORING 40
+VALUE = 60
+WEIGHT = 6
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Threads
+DESCRIPTION=Silk Cloth Bolt
+
+ON=@Create
+        TAG.MaterialClass = 6
+        Color = color_cloth_Silk
+
+/////////////////////////////////////////////Satin Cloth Bolt
+[ITEMDEF i_thread_Satin]
+DEFNAME = i_thread_Satin
+ID = i_thread
+NAME= Satin Thread
+Type = t_thread
+DYE = 1
+SKILLMAKE= TAILORING 50
+VALUE = 80
+WEIGHT = 8
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Threads
+DESCRIPTION=Satin Cloth Bolt
+
+ON=@Create
+        TAG.MaterialClass = 8
+        Color = color_cloth_Satin
+
+/////////////////////////////////////////////Lace Cloth Bolt
+[ITEMDEF i_thread_Lace]
+DEFNAME = i_thread_Lace
+ID = i_thread
+NAME= Lace Thread
+Type = t_thread
+DYE = 1
+SKILLMAKE= TAILORING 60
+VALUE = 100
+WEIGHT = 10
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Threads
+DESCRIPTION=Lace Cloth Bolt
+
+ON=@Create
+        TAG.MaterialClass = 10
+        Color = color_cloth_Lace
+        
+ 
+[ITEMDEF i_silk_strands]
+DEFNAME=i_silk_strands
+ID=6915
+NAME=Silk Strand
+VALUE=30
+TYPE=t_wool
+WEIGHT=3
+DYE=1
+CATEGORY=Ancientrealms
+SUBSECTION=Tailor
+DESCRIPTION=Silk (Strand)
+
+ON=@Create
+COLOR=color_cloth_silk
+
+ON=@Targon_Item
+IF (<SRC.TARG.BASEID> == i_spinning_wheel)
+	IF (<SRC.INT> >= 50)
+		IF (<SRC.TAILORING> >= 700)
+			REMOVE
+			SERV.NEWITEM=i_thread_silk
+			NEW.AMOUNT=(<SRC.TARG.AMOUNT>)
+			NEW.BOUNCE <SRC.UID>
+			RETURN 1
+		ELSE
+			SRC.SMSG 70%+ Tailoring Needed!
+			BOUNCE
+			RETURN 1
+		ENDIF
+	ELIF ((<SRC.INT> <= 50) && (<SRC.TAILORING> >= 700)
+		SRC.SMSG 50+ Intelligence Needed!
+		BOUNCE
+		RETURN 1
+	ELSE
+		SRC.SMSG 50+ Intelligence and 70%+ Tailoring Needed!
+		BOUNCE
+		RETURN 1
+	ENDIF		
+ENDIF	
+
+ON=@GETHIT
+	say The Silk Strands are destroyed
+	REMOVE
+	RETURN 1
+
+ON=@SPELLEFFECT
+	say The Silk Strands are destroyed
+	REMOVE
+	RETURN 1
+
+
+[EOF]

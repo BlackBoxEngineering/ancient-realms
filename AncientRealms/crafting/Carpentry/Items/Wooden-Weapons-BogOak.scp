@@ -1,0 +1,563 @@
+/////////////////////////////////////////////BogOak WildStaff
+
+[ITEMDEF i_mace_wildstaff_BogOak]
+   DEFNAME=i_mace_wildstaff_BogOak
+   ID=i_mace_wildstaff
+   NAME=BogOak WildStaff
+   RESOURCES= 20 i_log_BogOak
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=22
+   VALUE=24
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BogOak
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS={60 64}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak Black Staff
+
+[ITEMDEF i_staff_black_BogOak]
+   DEFNAME=i_staff_black_BogOak
+   ID=i_staff_black
+   NAME=BogOak Black Staff
+   RESOURCES= 20 i_log_BogOak
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=20
+   VALUE=24
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BogOak
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak Gnarled Staff
+
+[ITEMDEF i_staff_gnarled_BogOak]
+   DEFNAME=i_staff_gnarled_BogOak
+   ID=i_staff_gnarled
+   NAME=BogOak Gnarled Staff
+   RESOURCES= 20 i_log_BogOak
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=18
+   VALUE=24
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BogOak
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak Nunchaku
+
+[ITEMDEF i_nunchaku_BogOak]
+   DEFNAME=i_nunchaku_BogOak
+   ID=i_nunchaku
+   NAME=BogOak Nunchaku
+   RESOURCES= 20 i_log_BogOak
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=20
+   VALUE=24
+   SPEED=32
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BogOak
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak Club
+
+[ITEMDEF i_club_BogOak]
+   DEFNAME=i_club_BogOak
+   ID=i_club
+   NAME=BogOak Club
+   RESOURCES= 20 i_log_BogOak
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=16
+   VALUE=24
+   SPEED=34
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=CARPENTRY 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BogOak
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS={10 14}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak Tetsubo
+
+[ITEMDEF i_tetsubo_BogOak]
+   DEFNAME=i_tetsubo_BogOak
+   ID=i_tetsubo
+   NAME=BogOak Tetsubo
+   RESOURCES= 20 i_log_BogOak
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=24
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BogOak
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS={80 84}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak Spear
+
+[ITEMDEF i_spear_BogOak]
+   DEFNAME=i_spear_BogOak
+   ID=i_spear
+   NAME=BogOak Spear
+   RESOURCES= 20 i_log_BogOak
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=24
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BogOak
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS={60 64}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak Lance
+
+[ITEMDEF i_lance_BogOak]
+   DEFNAME=i_lance_BogOak
+   ID=i_lance
+   NAME=BogOak Lance
+   RESOURCES= 20 i_log_BogOak
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=24
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BogOak
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS={100 104}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak Bow
+
+[ITEMDEF i_bow_BogOak]
+   DEFNAME=i_bow_BogOak
+   ID=i_bow
+   NAME=BogOak Bow
+   RESOURCES= 20 i_log_BogOak
+   WEIGHT=12
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=16
+   VALUE=24
+   SPEED=37
+   SKILL=ARCHERY
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=BogOak
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak Composite Bow
+
+[ITEMDEF i_composite_bow_BogOak]
+   DEFNAME=i_composite_bow_BogOak
+   ID=i_composite_bow
+   NAME=BogOak Composite Bow
+   RESOURCES= 20 i_log_BogOak
+   WEIGHT=12
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=17
+   VALUE=24
+   SPEED=35
+   SKILL=ARCHERY
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=BogOak
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS={50 54}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak Eleven Composite Bow
+
+[ITEMDEF i_elven_composite_longbow_BogOak]
+   DEFNAME=i_elven_composite_longbow_BogOak
+   ID=i_elven_composite_longbow
+   NAME=BogOak Eleven Composite Bow
+   RESOURCES= 20 i_log_BogOak
+   WEIGHT=12
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=18
+   VALUE=24
+   SPEED=33
+   SKILL=ARCHERY
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=BogOak
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS={70 74}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak Assassin Shortbow
+
+[ITEMDEF i_assassin_shortbow_BogOak]
+   DEFNAME=i_assassin_shortbow_BogOak
+   ID=i_assassin_shortbow
+   NAME=BogOak Assassin Shortbow
+   RESOURCES= 20 i_log_BogOak
+   WEIGHT=12
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=19
+   VALUE=24
+   SPEED=31
+   SKILL=ARCHERY
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=BogOak
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS={90 94}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak Yumi
+
+[ITEMDEF i_yumi_BogOak]
+   DEFNAME=i_yumi_BogOak
+   ID=i_yumi
+   NAME=BogOak Yumi
+   RESOURCES= 20 i_log_BogOak
+   WEIGHT=12
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=20
+   VALUE=24
+   SPEED=29
+   SKILL=ARCHERY
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=BogOak
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS={100 104}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak Crossbow
+
+[ITEMDEF i_crossbow_BogOak]
+   DEFNAME=i_crossbow_BogOak
+   ID=i_crossbow
+   NAME=BogOak Crossbow
+   RESOURCES= 20 i_log_BogOak
+   WEIGHT=12
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=18
+   VALUE=24
+   SPEED=47
+   SKILL=ARCHERY
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=BogOak
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS={50 54}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak Heavy Crossbow
+
+[ITEMDEF i_crossbow_heavy_BogOak]
+   DEFNAME=i_crossbow_heavy_BogOak
+   ID=i_crossbow_heavy
+   NAME=BogOak Heavy Crossbow
+   RESOURCES= 20 i_log_BogOak
+   WEIGHT=12
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=20
+   VALUE=24
+   SPEED=45
+   SKILL=ARCHERY
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=BogOak
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS={70 74}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak Repeating Crossbow
+
+[ITEMDEF i_repeating_crossbow_BogOak]
+   DEFNAME=i_repeating_crossbow_BogOak
+   ID=i_repeating_crossbow
+   NAME=BogOak Repeating Crossbow
+   RESOURCES= 20 i_log_BogOak
+   WEIGHT=12
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=17
+   VALUE=24
+   SPEED=43
+   SKILL=ARCHERY
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=BogOak
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS={90 94}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak Bola
+
+[ITEMDEF i_bola_BogOak]
+   DEFNAME=i_bola_BogOak
+   ID=i_bola
+   NAME=BogOak Bola
+   RESOURCES= 20 i_log_BogOak
+   WEIGHT=12
+   TYPE=t_bola
+   FLIP=1
+   DAM=14
+   VALUE=24
+   SPEED=32
+   SKILL=ARCHERY
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=TINKERING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=BogOak
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS={110 114}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

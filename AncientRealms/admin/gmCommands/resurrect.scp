@@ -1,0 +1,96 @@
+[FUNCTION res]
+RESURRECT
+
+[FUNCTION resallworld]
+SERV.ALLCLIENTS RESURRECT
+
+[FUNCTION resallregion]
+REGION.ALLCLIENTS RESURRECT
+
+[FUNCTION RessCheck_CheckPLayerIsNotOnFence]
+LOCAL.InDoorway=0
+FORITEMS 1
+	IF (<TYPE>=t_door_locked)||(<TYPE>=t_door)
+	LOCAL.InDoorway=1
+	ENDIF	
+ENDFOR
+IF <EVAL <LOCAL.InDoorway>>
+	RETURN 0
+ELSE
+	RETURN 1
+ENDIF
+
+[FUNCTION f_Resurrect]
+IF <RessCheck_CheckPLayerIsNotOnFence>
+	IF (!<FINDID.i_Resurrect_prevention> && !strmatch('<TAG.ONLINE','0938'))
+		NEWITEM i_Resurrect_prevention, 1, <UID>
+		ACT.CONT=<UID>
+		ACT.MOREP=<P>
+		MENU m_Resurrect
+	ENDIF
+ELSE
+	SAY Move aways from the Door To Be Ressed
+ENDIF
+	
+
+[MENU m_Resurrect]
+Resurrect has been cast on you, would you like to res?
+
+On=0 Yes
+	IF (<FINDID.i_Resurrect_prevention>
+		IF ((<P.X> != <FINDID.i_Resurrect_prevention.MOREX>) || (<P.Y> != <FINDID.i_Resurrect_prevention.MOREY>) || (<P.Z> != <FINDID.i_Resurrect_prevention.MOREZ>))
+			SYSMESSAGE You must not move when resurrected.
+		ELSE
+			RESURRECT
+		ENDIF
+		FINDID.i_Resurrect_prevention.REMOVE
+	ELSE
+		MESSAGE You must choose yes within 20s!
+	ENDIF
+
+On=0 No
+
+On=0 No (Immune to res for 30s)
+	SYSMESSAGE You cannot be ressed in the next 30s.
+	FINDID.i_Resurrect_prevention.TIMER=30
+
+On=0 No (Immune to res for 10 minutes)
+	SYSMESSAGE You cannot be ressed in the next 10 minutes.
+	FINDID.i_Resurrect_prevention.TIMER=600
+
+On=0 No (Perma-dead) (Can be removed with .allowres)
+	SYSMESSAGE You can unblock resurrection attempts on u with the .allowres command!
+	FINDID.i_Resurrect_prevention.TIMER=-1
+
+[ITEMDEF i_remove_hallucination]
+ID=i_memory
+NAME=Hallucination Remover
+TYPE=t_eq_script
+
+On=@Timer	
+	CONT.FLAGS=<CONT.FLAGS>&~statf_hallucinating
+	REMOVE 1
+	RETURN
+	
+[ITEMDEF i_Resurrect_prevention]
+ID=i_memory
+NAME=Resurrection Prompt Blocker
+TYPE=t_eq_script
+
+On=@Create
+	ATTR=014
+	TIMER=20
+
+On=@Timer	
+	REMOVE
+	RETURN 1
+
+[FUNCTION ALLOWRES]
+IF (<FINDID.i_Resurrect_prevention>)
+	SYSMESSAGE You can now be ressed.
+	FINDID.i_Resurrect_prevention.REMOVE
+ELSE
+	SYSMESSAGE Resurrection attempts are not currently blocked.
+ENDIF
+
+[EOF]

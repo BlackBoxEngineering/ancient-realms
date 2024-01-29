@@ -1,0 +1,8 @@
+[FUNCTION f_Keep_GetKeepControlStoneRegionUid]
+IF (<ARGV[0]>)
+	LOCAL.KeepControlStoneRegionUID=<SERV.UID.<ARGV[0]>.REGION.UID>
+	LOCAL.KeepControlStoneRegionNAME=<SERV.UID.<ARGV[0]>.REGION.NAME>
+	RETURN <SERV.UID.<ARGV[0]>.REGION.UID>
+ENDIF
+
+[EOF]

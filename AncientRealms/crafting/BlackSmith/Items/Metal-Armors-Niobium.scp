@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Niobium Platemail Arms
+[ITEMDEF i_platemail_arms_Niobium]
+   DEFNAME= i_platemail_arms_Niobium
+   ID= i_platemail_arms
+   NAME= Niobium Platemail Arms
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Platemail Leggings
+[ITEMDEF i_platemail_leggings_Niobium]
+   DEFNAME= i_platemail_leggings_Niobium
+   ID= i_platemail_leggings
+   NAME= Niobium Platemail Leggings
+   ARMOR= 30
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Platemail Helmet
+[ITEMDEF i_platemail_helm_Niobium]
+   DEFNAME= i_platemail_helm_Niobium
+   ID= i_platemail_helm
+   NAME= Niobium Platemail Helmet
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Platemail Gorget
+[ITEMDEF i_platemail_gorget_Niobium]
+   DEFNAME= i_platemail_gorget_Niobium
+   ID= i_platemail_gorget
+   NAME= Niobium Platemail Gorget
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Niobium]
+   DEFNAME= i_platemail_gorget2_Niobium
+   ID= i_platemail_gorget2
+   NAME= Niobium Platemail Gorget
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Platemail Gloves
+[ITEMDEF i_platemail_gloves_Niobium]
+   DEFNAME= i_platemail_gloves_Niobium
+   ID= i_platemail_gloves
+   NAME= Niobium Platemail Gloves
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Platemail Chest
+[ITEMDEF i_platemail_chest_Niobium]
+   DEFNAME= i_platemail_chest_Niobium
+   ID= i_platemail_chest
+   NAME= Niobium Platemail Chest
+   ARMOR= 34
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Niobium]
+   DEFNAME= i_armor_female_plate_Niobium
+   ID= i_armor_female_plate
+   NAME= Niobium Platemail Female Plate
+   ARMOR= 32
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium chainmail coif
+[ITEMDEF i_chainmail_coif_Niobium]
+   DEFNAME= i_chainmail_coif_Niobium
+   ID= i_chainmail_coif
+   NAME= Niobium chainmail coif
+   ARMOR= 26
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {62 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium chainmail leggings
+[ITEMDEF i_chainmail_leggings_Niobium]
+   DEFNAME= i_chainmail_leggings_Niobium
+   ID= i_chainmail_leggings
+   NAME= Niobium chainmail leggings
+   ARMOR= 28
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {62 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium chainmail tunic
+[ITEMDEF i_chainmail_tunic_Niobium]
+   DEFNAME= i_chainmail_tunic_Niobium
+   ID= i_chainmail_tunic
+   NAME= Niobium chainmail tunic
+   ARMOR= 32
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {62 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Niobium]
+   DEFNAME= i_ringmail_sleeves_Niobium
+   ID= i_ringmail_sleeves
+   NAME= Niobium Ringmail Sleeves
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {52 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Niobium]
+   DEFNAME= i_ringmail_leggings_Niobium
+   ID= i_ringmail_leggings
+   NAME= Niobium Ringmail Leggings
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {52 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Niobium]
+   DEFNAME= i_ringmail_tunic_Niobium
+   ID= i_ringmail_tunic
+   NAME= Niobium Ringmail Tunic
+   ARMOR= 28
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {52 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Niobium]
+   DEFNAME= i_ringmail_gloves_Niobium
+   ID= i_ringmail_gloves
+   NAME= Niobium Ringmail Gloves
+   ARMOR= 14
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {52 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium studded sleeves
+[ITEMDEF i_studded_sleeves_Niobium]
+   DEFNAME= i_studded_sleeves_Niobium
+   ID= i_studded_sleeves
+   NAME= Niobium studded sleeves
+   ARMOR= 17
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Niobium, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {42 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium studded gloves
+[ITEMDEF i_studded_gloves_Niobium]
+   DEFNAME= i_studded_gloves_Niobium
+   ID= i_studded_gloves
+   NAME= Niobium studded gloves
+   ARMOR= 14
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Niobium, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {42 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium studded gorget
+[ITEMDEF i_studded_gorget_Niobium]
+   DEFNAME= i_studded_gorget_Niobium
+   ID= i_studded_gorget
+   NAME= Niobium studded gorget
+   ARMOR= 14
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Niobium, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {42 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium studded leggings
+[ITEMDEF i_studded_leggings_Niobium]
+   DEFNAME= i_studded_leggings_Niobium
+   ID= i_studded_leggings
+   NAME= Niobium studded leggings
+   ARMOR= 23
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Niobium, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {42 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium studded tunic
+[ITEMDEF i_studded_tunic_Niobium]
+   DEFNAME= i_studded_tunic_Niobium
+   ID= i_studded_tunic
+   NAME= Niobium studded tunic
+   ARMOR= 27
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Niobium, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {42 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium studded female armor
+[ITEMDEF i_armor_female_studded_Niobium]
+   DEFNAME= i_armor_female_studded_Niobium
+   ID= i_armor_female_studded
+   NAME= Niobium studded female armor
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Niobium, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {42 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Niobium]
+   DEFNAME= i_armor_female_bustier_studded_Niobium
+   ID= i_armor_female_bustier_studded
+   NAME= Niobium studded female bustier
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Niobium, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {42 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium platemail mempo
+[ITEMDEF i_platemail_mempo_Niobium]
+   DEFNAME= i_platemail_mempo_Niobium
+   ID= i_platemail_mempo
+   NAME= Niobium platemail mempo
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium platemail do
+[ITEMDEF i_platemail_do_Niobium]
+   DEFNAME= i_platemail_do_Niobium
+   ID= i_platemail_do
+   NAME= Niobium platemail do
+   ARMOR= 32
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Niobium]
+   DEFNAME= i_platemail_hiro_sode_Niobium
+   ID= i_platemail_hiro_sode
+   NAME= Niobium platemail hiro sode
+   ARMOR= 28
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium platemail suneate
+[ITEMDEF i_platemail_suneate_Niobium]
+   DEFNAME= i_platemail_suneate_Niobium
+   ID= i_platemail_suneate
+   NAME= Niobium platemail suneate
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium platemail haidate
+[ITEMDEF i_platemail_haidate_Niobium]
+   DEFNAME= i_platemail_haidate_Niobium
+   ID= i_platemail_haidate
+   NAME= Niobium platemail haidate
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium studded mempo
+[ITEMDEF i_studded_mempo_Niobium]
+   DEFNAME= i_studded_mempo_Niobium
+   ID= i_studded_mempo
+   NAME= Niobium studded mempo
+   ARMOR= 19
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Niobium, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium studded do
+[ITEMDEF i_studded_do_Niobium]
+   DEFNAME= i_studded_do_Niobium
+   ID= i_studded_do
+   NAME= Niobium studded do
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Niobium, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Niobium]
+   DEFNAME= i_studded_hiro_sode_Niobium
+   ID= i_studded_hiro_sode
+   NAME= Niobium studded hiro sode
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Niobium, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium studded suneate
+[ITEMDEF i_studded_suneate_Niobium]
+   DEFNAME= i_studded_suneate_Niobium
+   ID= i_studded_suneate
+   NAME= Niobium studded suneate
+   ARMOR= 21
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Niobium, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium studded haidate
+[ITEMDEF i_studded_haidate_Niobium]
+   DEFNAME= i_studded_haidate_Niobium
+   ID= i_studded_haidate
+   NAME= Niobium studded haidate
+   ARMOR= 19
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Niobium, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Niobium]
+   DEFNAME= i_platemail_gargish_arms_Niobium
+   ID= i_platemail_gargish_arms
+   NAME= Niobium Gargish Platemail Arms
+   ARMOR= 28
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Niobium]
+   DEFNAME= i_platemail_gargish_chest_Niobium
+   ID= i_platemail_gargish_chest
+   NAME= Niobium Gargish Platemail Chest
+   ARMOR= 36
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Niobium]
+   DEFNAME= i_platemail_gargish_kilt_Niobium
+   ID= i_platemail_gargish_kilt
+   NAME= Niobium Gargish Platemail Kilt
+   ARMOR= 27
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Niobium]
+   DEFNAME= i_platemail_gargish_leggings_Niobium
+   ID= i_platemail_gargish_leggings
+   NAME= Niobium Gargish Platemail Leggings
+   ARMOR= 32
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Niobium]
+   DEFNAME= i_platemail_gargish_arms_2_Niobium
+   ID= i_platemail_gargish_arms_2
+   NAME= Niobium Gargish Platemail Arms
+   ARMOR= 28
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Niobium]
+   DEFNAME= i_platemail_gargish_chest_2_Niobium
+   ID= i_platemail_gargish_chest_2
+   NAME= Niobium Gargish Platemail Chest
+   ARMOR= 36
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Niobium]
+   DEFNAME= i_platemail_gargish_kilt_2_Niobium
+   ID= i_platemail_gargish_kilt_2
+   NAME= Niobium Gargish Platemail Kilt
+   ARMOR= 27
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Niobium]
+   DEFNAME= i_platemail_gargish_leggings_2_Niobium
+   ID= i_platemail_gargish_leggings_2
+   NAME= Niobium Gargish Platemail Leggings
+   ARMOR= 32
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Closed Helmet
+[ITEMDEF i_helm_close_Niobium]
+   DEFNAME= i_helm_close_Niobium
+   ID= i_helm_close
+   NAME= Niobium Closed Helmet
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Open Helmet
+[ITEMDEF i_helm_open_Niobium]
+   DEFNAME= i_helm_open_Niobium
+   ID= i_helm_open
+   NAME= Niobium Open Helmet
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {52 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Bascinet
+[ITEMDEF i_bascinet_Niobium]
+   DEFNAME= i_bascinet_Niobium
+   ID= i_bascinet
+   NAME= Niobium Bascinet
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {42 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Norse Helmet
+[ITEMDEF i_helm_norse_Niobium]
+   DEFNAME= i_helm_norse_Niobium
+   ID= i_helm_norse
+   NAME= Niobium Norse Helmet
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {62 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Kabuto
+[ITEMDEF i_helm_kabuto_Niobium]
+   DEFNAME= i_helm_kabuto_Niobium
+   ID= i_helm_kabuto
+   NAME= Niobium Kabuto
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Niobium]
+   DEFNAME= i_chainmail_hatsuburi_Niobium
+   ID= i_chainmail_hatsuburi
+   NAME= Niobium Chainmail Hatsuburi
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Niobium]
+   DEFNAME= i_platemail_hatsuburi_Niobium
+   ID= i_platemail_hatsuburi
+   NAME= Niobium Platemail Hatsuburi
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Niobium]
+   DEFNAME= i_plate_jingasa_heavy_Niobium
+   ID= i_plate_jingasa_heavy
+   NAME= Niobium Heavy Jingasa
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Niobium]
+   DEFNAME= i_platemail_kabuto_decorative_Niobium
+   ID= i_platemail_kabuto_decorative
+   NAME= Niobium Decorative Platemail Kabuto
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {102 1080}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Niobium]
+   DEFNAME= i_plate_jingasa_light_Niobium
+   ID= i_plate_jingasa_light
+   NAME= Niobium Light Jingasa
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Niobium]
+   DEFNAME= i_plate_jingasa_small_Niobium
+   ID= i_plate_jingasa_small
+   NAME= Niobium Small Jingasa
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {62 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Niobium]
+   DEFNAME= i_platemail_kabuto_battle_Niobium
+   ID= i_platemail_kabuto_battle
+   NAME= Niobium Platemail Battle Kabuto
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Niobium]
+   DEFNAME= i_platemail_kabuto_Niobium
+   ID= i_platemail_kabuto
+   NAME= Niobium Platemail Kabuto
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Circlet
+[ITEMDEF i_circlet_Niobium]
+   DEFNAME= i_circlet_Niobium
+   ID= i_circlet
+   NAME= Niobium Circlet
+   ARMOR= 18
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Royal Circlet
+[ITEMDEF i_circlet_royal_Niobium]
+   DEFNAME= i_circlet_royal_Niobium
+   ID= i_circlet_royal
+   NAME= Niobium Royal Circlet
+   ARMOR= 18
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Niobium]
+   DEFNAME= i_circlet_gemmed_Niobium
+   ID= i_circlet_gemmed
+   NAME= Niobium Gemmed Circlet
+   ARMOR= 18
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {112 1200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Buckler
+[ITEMDEF i_shield_buckler_Niobium]
+   DEFNAME= i_shield_buckler_Niobium
+   ID= i_shield_buckler
+   NAME= Niobium Buckler
+   ARMOR= 17
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {42 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Wooden Shield
+[ITEMDEF i_shield_wood_Niobium]
+   DEFNAME= i_shield_wood_Niobium
+   ID= i_shield_wood
+   NAME= Niobium Wooden Shield
+   ARMOR= 18
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {52 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Niobium]
+   DEFNAME= i_shield_round_metal_Niobium
+   ID= i_shield_round_metal
+   NAME= Niobium Light Metal  Round Shield
+   ARMOR= 19
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {62 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Niobium]
+   DEFNAME= i_shield_round_bronze_Niobium
+   ID= i_shield_round_bronze
+   NAME= Niobium Heavy Metal  Round Shield
+   ARMOR= 21
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Niobium]
+   DEFNAME= i_shield_kite_metal_Niobium
+   ID= i_shield_kite_metal
+   NAME= Niobium Metal Kite Shield
+   ARMOR= 23
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Niobium]
+   DEFNAME= i_shield_kite_wood_Niobium
+   ID= i_shield_kite_wood
+   NAME= Niobium Wooden Kite Shield
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Heater Shield
+[ITEMDEF i_shield_heater_Niobium]
+   DEFNAME= i_shield_heater_Niobium
+   ID= i_shield_heater
+   NAME= Niobium Heater Shield
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {102 1080}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Ancient Shield
+[ITEMDEF i_shield_dupre_Niobium]
+   DEFNAME= i_shield_dupre_Niobium
+   ID= i_shield_dupre
+   NAME= Niobium Ancient Shield
+   ARMOR= 26
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {112 1200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Shield oh Hell
+[ITEMDEF i_shield_scale_Niobium]
+   DEFNAME= i_shield_scale_Niobium
+   ID= i_shield_scale
+   NAME= Niobium Shield oh Hell
+   ARMOR= 26
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {112 1200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Chaos Shield
+[ITEMDEF i_shield_chaos_Niobium]
+   DEFNAME= i_shield_chaos_Niobium
+   ID= i_shield_chaos
+   NAME= Niobium Chaos Shield
+   ARMOR= 27
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {122 1320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Order Shield
+[ITEMDEF i_shield_order_Niobium]
+   DEFNAME= i_shield_order_Niobium
+   ID= i_shield_order
+   NAME= Niobium Order Shield
+   ARMOR= 27
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Niobium
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Niobium
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS= {122 1320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

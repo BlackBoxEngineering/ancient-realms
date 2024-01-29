@@ -1,0 +1,466 @@
+/////////////////////////////////////////////Hawthorn woodland chest
+[ITEMDEF i_woodland_chest_Hawthorn]
+   DEFNAME= i_woodland_chest_Hawthorn
+   ID= i_woodland_chest
+   NAME= Hawthorn woodland chest
+   ARMOR= 32
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 20 i_log_Hawthorn
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Hawthorn
+   DESCRIPTION= woodland chest
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS= {102 1080}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn woodland belt
+[ITEMDEF i_woodland_belt_Hawthorn]
+   DEFNAME= i_woodland_belt_Hawthorn
+   ID= i_woodland_belt
+   NAME= Hawthorn woodland belt
+   ARMOR= 27
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Hawthorn
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Hawthorn
+   DESCRIPTION= woodland belt
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS= {102 1080}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn woodland gorget
+[ITEMDEF i_woodland_gorget_Hawthorn]
+   DEFNAME= i_woodland_gorget_Hawthorn
+   ID= i_woodland_gorget
+   NAME= Hawthorn woodland gorget
+   ARMOR= 18
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Hawthorn
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Hawthorn
+   DESCRIPTION= woodland gorget
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS= {102 1080}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn woodland gauntlets
+[ITEMDEF i_woodland_gauntlets_Hawthorn]
+   DEFNAME= i_woodland_gauntlets_Hawthorn
+   ID= i_woodland_gauntlets
+   NAME= Hawthorn woodland gauntlets
+   ARMOR= 18
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Hawthorn
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Hawthorn
+   DESCRIPTION= woodland gauntlets
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS= {102 1080}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn woodland leggings
+[ITEMDEF i_woodland_leggings_Hawthorn]
+   DEFNAME= i_woodland_leggings_Hawthorn
+   ID= i_woodland_leggings
+   NAME= Hawthorn woodland leggings
+   ARMOR= 27
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Hawthorn
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Hawthorn
+   DESCRIPTION= woodland leggings
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS= {102 1080}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn woodland arms
+[ITEMDEF i_woodland_arms_Hawthorn]
+   DEFNAME= i_woodland_arms_Hawthorn
+   ID= i_woodland_arms
+   NAME= Hawthorn woodland arms
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 8 i_log_Hawthorn
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Hawthorn
+   DESCRIPTION= woodland arms
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS= {102 1080}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn female woodland chest
+[ITEMDEF i_armor_female_woodland_Hawthorn]
+   DEFNAME= i_armor_female_woodland_Hawthorn
+   ID= i_armor_female_woodland
+   NAME= Hawthorn female woodland chest
+   ARMOR= 28
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 16 i_log_Hawthorn
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Hawthorn
+   DESCRIPTION= female woodland chest
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS= {102 1080}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn leaf tunic
+[ITEMDEF i_leaf_tunic_Hawthorn]
+   DEFNAME= i_leaf_tunic_Hawthorn
+   ID= i_leaf_tunic
+   NAME= Hawthorn leaf tunic
+   ARMOR= 30
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 18 i_log_Hawthorn
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Hawthorn
+   DESCRIPTION= leaf tunic
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn leaf gloves
+[ITEMDEF i_leaf_gloves_Hawthorn]
+   DEFNAME= i_leaf_gloves_Hawthorn
+   ID= i_leaf_gloves
+   NAME= Hawthorn leaf gloves
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_log_Hawthorn
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Hawthorn
+   DESCRIPTION= leaf gloves
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn leaf gorget
+[ITEMDEF i_leaf_gorget_Hawthorn]
+   DEFNAME= i_leaf_gorget_Hawthorn
+   ID= i_leaf_gorget
+   NAME= Hawthorn leaf gorget
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Hawthorn
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Hawthorn
+   DESCRIPTION= leaf gorget
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn leaf arms
+[ITEMDEF i_leaf_arms_Hawthorn]
+   DEFNAME= i_leaf_arms_Hawthorn
+   ID= i_leaf_arms
+   NAME= Hawthorn leaf arms
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Hawthorn
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Hawthorn
+   DESCRIPTION= leaf arms
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn leaf leggings
+[ITEMDEF i_leaf_leggings_Hawthorn]
+   DEFNAME= i_leaf_leggings_Hawthorn
+   ID= i_leaf_leggings
+   NAME= Hawthorn leaf leggings
+   ARMOR= 27
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 15 i_log_Hawthorn
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Hawthorn
+   DESCRIPTION= leaf leggings
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn leaf tonlet
+[ITEMDEF i_leaf_tonlet_Hawthorn]
+   DEFNAME= i_leaf_tonlet_Hawthorn
+   ID= i_leaf_tonlet
+   NAME= Hawthorn leaf tonlet
+   ARMOR= 16
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 4 i_log_Hawthorn
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Hawthorn
+   DESCRIPTION= leaf tonlet
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn raven helm
+[ITEMDEF i_helm_raven_Hawthorn]
+   DEFNAME= i_helm_raven_Hawthorn
+   ID= i_helm_raven
+   NAME= Hawthorn raven helm
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Hawthorn
+   SKILLMAKE= CARPENTRY 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Hawthorn
+   DESCRIPTION= raven helm
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn vulture helm
+[ITEMDEF i_helm_vulture_Hawthorn]
+   DEFNAME= i_helm_vulture_Hawthorn
+   ID= i_helm_vulture
+   NAME= Hawthorn vulture helm
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Hawthorn
+   SKILLMAKE= CARPENTRY 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Hawthorn
+   DESCRIPTION= vulture helm
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn winged helm
+[ITEMDEF i_helm_winged_Hawthorn]
+   DEFNAME= i_helm_winged_Hawthorn
+   ID= i_helm_winged
+   NAME= Hawthorn winged helm
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Hawthorn
+   SKILLMAKE= CARPENTRY 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Hawthorn
+   DESCRIPTION= winged helm
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS= {112 1200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

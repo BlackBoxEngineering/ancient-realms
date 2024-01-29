@@ -1,0 +1,23 @@
+[REGIONTYPE r_MinocKeep_rock t_rock]
+RESOURCES=30.0 mr_nothing		
+RESOURCES=55.0 mr_iron
+RESOURCES=30.0 mr_bronze
+RESOURCES=15.0 mr_Erubecite
+RESOURCES=10.0 mr_Hematite 
+RESOURCES=8.0 mr_verite
+RESOURCES=6.0 mr_Daemonite
+RESOURCES=2.0 mr_Quartz	
+RESOURCES=2.0 mr_Dioptase
+RESOURCES=1.5 mr_mytheril
+
+
+[AREADEF a_minoc_keep]
+EVENTS=r_default,r_MinocKeep_rock,r_default_water,r_LogClass_All_rare,r_default_grass
+NAME=Minoc Keep
+GROUP=AncientRealms Keeps
+FLAGS=0880
+P=2571,439,15
+RECT=2555,389,2615,463
+TAG.KEEPNAME=Minoc Keep
+
+[EOF]

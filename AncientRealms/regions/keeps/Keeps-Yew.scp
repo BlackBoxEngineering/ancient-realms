@@ -1,0 +1,30 @@
+[REGIONTYPE r_YewKeep_rock t_rock]
+RESOURCES=30.0 mr_nothing		
+RESOURCES=55.0 mr_iron
+RESOURCES=30.0 mr_bronze
+RESOURCES=10.0 mr_Kunzite	
+RESOURCES=18.0 mr_Hematite		
+RESOURCES=6.7 mr_verite		
+RESOURCES=4.1 mr_valorite	
+RESOURCES=2.07 mr_titanium
+RESOURCES=2.02 mr_Chromite	
+RESOURCES=1.5 mr_mytheril
+
+[AREADEF a_yew_keep]
+EVENTS=r_default,r_YewKeep_rock,r_default_water,r_LogClass_All_common,r_default_grass
+NAME=Yew Keep
+GROUP=AncientRealms Keeps
+FLAGS=0880
+P=387,915,20
+RECT=336,837,359,815   // Entry Point (Monogate)
+RECT=359,837,352,839   // LIttle Pre-Coridor
+RECT=359,838,355,867   // Corridor
+RECT=359,863,373,860
+RECT=343,903,371,866   //Main Room
+RECT=335,887,343,862   //Top West Nook
+RECT=370,896,375,903
+RECT=359,902,391,919
+RECT=375,902,391,888
+TAG.KEEPNAME=Yew Keep
+
+[EOF]

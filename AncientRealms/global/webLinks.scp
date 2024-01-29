@@ -1,0 +1,24 @@
+[FUNCTION Website]
+SRC.WEBLINK ancientl2.dyndns.biz
+
+[FUNCTION Forums]
+SRC.WEBLINK ancientl2.dyndns.biz/forums/index.php
+
+[FUNCTION Status]
+SRC.WEBLINK ancientl2.dyndns.biz/status.php
+
+[FUNCTION keeps]
+SRC.WEBLINK ancientl2.dyndns.biz/keeps.php
+
+[FUNCTION legends]
+SRC.WEBLINK ancientl2.dyndns.biz/legends.php
+
+[PLEVEL 1]
+website
+foums
+status
+keeps
+legends
+
+[EOF]
+

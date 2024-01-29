@@ -1,0 +1,35 @@
+[ITEMDEF 02790] 
+DEFNAME=i_leather_ninja_belt 
+NAME=leather ninja belt 
+TYPE=t_armor_leather 
+FLIP=1 
+WEIGHT=1.0 
+REQSTR=10 
+RESOURCES=5 i_hides_cut 
+SKILLMAKE=Tailoring 50.0, t_sewing_kit 
+CATEGORY=Provisions - Clothes 
+SUBSECTION=Miscellaneous 
+DESCRIPTION=Leather Ninja Belt 
+TEVENTS=t_ninja_shuriken 
+DUPELIST=027db 
+ON=@Create 
+   HITPOINTS={36 48} 
+ 
+[ITEMDEF 027ac] 
+DEFNAME=i_shuriken 
+NAME=shuriken%s 
+TYPE=t_ninja_shuriken 
+FLIP=1 
+WEIGHT=0.1 
+RESOURCES=5 i_ingot_iron 
+SKILLMAKE=Blacksmithing 45.0 
+CATEGORY=Provisions - Weapons - Throwing 
+SUBSECTION=Shurikens 
+DESCRIPTION=Shuriken 
+DUPELIST=027f7 
+ 
+[ITEMDEF 027f7] 
+//Shuriken 
+DUPEITEM=027ac
+
+[EOF]

@@ -1,0 +1,42 @@
+[FUNCTION LinkKeepStones]
+f_Keep_KeepAndTownStone
+
+[FUNCTION f_Keep_KeepAndTownStone]
+
+	SERV.UID.<EVAL TS_Astalon>.TAG.KeepControlStoneUID=<EVAL KS_Astalon>
+	SERV.UID.<EVAL TS_Buccaneers>.TAG.KeepControlStoneUID	=	<EVAL KS_Buccaneers>
+	SERV.UID.<EVAL TS_Cove>.TAG.KeepControlStoneUID			=	<EVAL KS_Cove>
+	SERV.UID.<EVAL TS_BritCastle>.TAG.KeepControlStoneUID	=	<EVAL KS_BritCastle>
+	SERV.UID.<EVAL TS_Minoc>.TAG.KeepControlStoneUID		=	<EVAL KS_Minoc>
+	SERV.UID.<EVAL TS_MoonGlow>.TAG.KeepControlStoneUID		=	<EVAL KS_MoonGlow>
+	SERV.UID.<EVAL TS_Magincia>.TAG.KeepControlStoneUID		=	<EVAL KS_Magincia>
+	SERV.UID.<EVAL TS_Trinsic>.TAG.KeepControlStoneUID		=	<EVAL KS_Trinsic>
+	SERV.UID.<EVAL TS_Skara>.TAG.KeepControlStoneUID		=	<EVAL KS_Skara>
+	SERV.UID.<EVAL TS_Yew>.TAG.KeepControlStoneUID			=	<EVAL KS_Yew>
+	SERV.UID.<EVAL TS_Serpents>.TAG.KeepControlStoneUID		=	<EVAL KS_Serpents>
+	
+	SERV.UID.<EVAL KS_Astalon>.TAG.TownControlStoneUID=<EVAL TS_Astalon>
+	SERV.UID.<EVAL KS_Buccaneers>.TAG.TownControlStoneUID	=	<EVAL TS_Buccaneers>
+	SERV.UID.<EVAL KS_Cove>.TAG.TownControlStoneUID			=	<EVAL TS_Cove>
+	SERV.UID.<EVAL KS_BritCastle>.TAG.TownControlStoneUID	=	<EVAL TS_BritCastle>
+	SERV.UID.<EVAL KS_Minoc>.TAG.TownControlStoneUID		=	<EVAL TS_Minoc>
+	SERV.UID.<EVAL KS_MoonGlow>.TAG.TownControlStoneUID		=	<EVAL TS_MoonGlow>
+	SERV.UID.<EVAL KS_Magincia>.TAG.TownControlStoneUID		=	<EVAL TS_Magincia>
+	SERV.UID.<EVAL KS_Trinsic>.TAG.TownControlStoneUID		=	<EVAL TS_Trinsic>
+	SERV.UID.<EVAL KS_Skara>.TAG.TownControlStoneUID		=	<EVAL TS_Skara>
+	SERV.UID.<EVAL KS_Yew>.TAG.TownControlStoneUID			=	<EVAL TS_Yew>
+	SERV.UID.<EVAL KS_Serpents>.TAG.TownControlStoneUID		=	<EVAL TS_Serpents>
+
+[FUNCTION f_Keep_AddKeepTagsToVars]
+VAR.Astalon_DragonTimerCountDown	=	<EVAL <SERV.UID.<KS_Astalon.TAG>.DragonTimerCountDown>>
+VAR.Astalon_KeepTaxPercentage		=	<EVAL <SERV.UID.<KS_Astalon.TAG>.KeepTaxPercentage>>
+VAR.Astalon_KeepPoints				=	<EVAL <SERV.UID.<KS_Astalon.TAG>.KeepPoints>>
+VAR.Astalon_GoldViaTax				=	<EVAL <SERV.UID.<KS_Astalon.TAG>.GoldViaTax>>
+
+[FUNCTION f_Keep_RemoveKeepVars]
+VAR.Astalon_DragonTimerCountDown	=
+VAR.Astalon_KeepTaxPercentage		=
+VAR.Astalon_KeepPoints				=
+VAR.Astalon_GoldViaTax				=
+
+[EOF]

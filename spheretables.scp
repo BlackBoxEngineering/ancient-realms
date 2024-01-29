@@ -1,0 +1,399 @@
+//****************************************************************************
+//SPHERE by : Menasoft ©1997-2007
+//www.sphereserver.net
+// All SPHERE script files and formats are copyright Menasoft & Partners.
+// This file may be freely edited for personal use, but may not be distributed
+// in whole or in part, in any format without express written permission from
+// Menasoft & Partners.  All donations and contributions
+// become the property of Menasoft & Partners.
+//****************************************************************************
+// NOTE: This is loaded 2nd after SPHERE.INI watch out for order of dependancies ! (keyword DEFNAME)
+VERSION=0.56
+
+[RESOURCES]
+// sphere.ini and spheretable.scp are automatic.
+// All the other scripts we want to load.
+scripts/sphere_defs.scp
+scripts/add-on/sphere_pack_defs.scp
+scripts/sphere_types.scp
+scripts/sphere_book.scp
+scripts/sphere_backward_compatibility.scp
+scripts/sphere_events_human.scp
+scripts/sphere_events_npcs.scp
+scripts/npcs/
+scripts/npcs/Animals/
+scripts/npcs/Civilized/
+scripts/npcs/Civilized/Fighters/
+scripts/npcs/Civilized/Arts and Music/
+scripts/npcs/Civilized/Guards and Law/
+scripts/npcs/Civilized/Guildmasters/
+scripts/npcs/Civilized/Misc/
+scripts/npcs/Civilized/Religious/
+scripts/npcs/Civilized/Tradesman/
+scripts/npcs/Civilized/Villagers/
+scripts/npcs/Civilized/Outlaws and Rogues/
+scripts/npcs/Civilized/Dark Elves/
+scripts/npcs/Civilized/Barbarians/
+scripts/npcs/Civilized/Dread Lords/
+scripts/npcs/Civilized/Frost Elves/
+scripts/npcs/Civilized/Sprite Elves/
+scripts/npcs/Civilized/Wood Elves/
+scripts/npcs/Civilized/Witches/
+scripts/npcs/Monsters/
+scripts/npcs/Mounts/
+scripts/AncientRealms/npcs/SpecialNPCS/
+scripts/AncientRealms/npcs/Characters/
+scripts/AncientRealms/npcs/Guards/
+scripts/AncientRealms/npcs/MountedNPCS/
+scripts/AncientRealms/npcs/QuestNPCS/
+scripts/AncientRealms/npcs/TheBlackOrder/
+scripts/AncientRealms/npcs/TheWhiteOrder/
+scripts/AncientRealms/npcs/TradesMen/
+scripts/AncientRealms/npcs/DaemonNPCS/
+scripts/AncientRealms/npcs/GargoyleNPCS/
+scripts/AncientRealms/npcs/HumanNPCS/
+scripts/AncientRealms/npcs/UndeadNPCS/
+scripts/AncientRealms/npcs/RareRides/
+scripts/AncientRealms/npcs/RareRides/rides/
+scripts/AncientRealms/npcs/YomotsuNPCS/
+scripts/npcs/Spells/
+scripts/AncientRealms/exp/
+scripts/sphere_admin.scp
+scripts/sphere_dialog.scp
+// -----------------------------------
+scripts/AncientRealms/underrides/
+scripts/items/sphere_item_resources.scp
+scripts/items/
+scripts/items/armors/
+scripts/items/armors/colored/
+scripts/items/armors/sets/
+scripts/items/building/
+scripts/items/crafting/
+scripts/items/decoration/
+scripts/items/multis/
+scripts/items/profession/
+scripts/items/resources/
+scripts/items/weapons/
+scripts/items/artifacts/
+// -----------------------------------
+scripts/sphere_region_resources.scp
+scripts/sphere_region.scp
+// -----------------------------------
+// Ancient Realms Resources ------------
+// -----------------------------------
+scripts/AncientRealms/resources/RegionResourceItems/materialPropertys/
+scripts/AncientRealms/resources/RegionResourceItems/
+scripts/AncientRealms/resources/RegionResources/
+scripts/AncientRealms/resources/RegionResourceAllocation/
+// -----------------------------------
+scripts/AncientRealms/maps/sphere_map0.scp
+scripts/AncientRealms/maps/sphere_map0_ml.scp
+scripts/AncientRealms/maps/sphere_map1.scp
+scripts/AncientRealms/maps/sphere_map2.scp
+scripts/AncientRealms/maps/sphere_map3.scp
+scripts/AncientRealms/maps/sphere_map4.scp
+scripts/AncientRealms/maps/sphere_map5.scp
+scripts/AncientRealms/maps/sphere_map_points0.scp
+scripts/AncientRealms/maps/sphere_map_points0_ml.scp
+scripts/AncientRealms/maps/sphere_map_points1.scp
+scripts/AncientRealms/maps/sphere_map_points2.scp
+scripts/AncientRealms/maps/sphere_map_points3.scp
+scripts/AncientRealms/maps/sphere_map_points4.scp
+scripts/AncientRealms/maps/sphere_map_points5.scp
+// -----------------------------------
+// Ancient Realms Regions ------------
+// -----------------------------------
+scripts/AncientRealms/regions/pvm/
+scripts/AncientRealms/regions/arenas/
+scripts/AncientRealms/regions/housingAreas/
+scripts/AncientRealms/regions/keeps/
+scripts/AncientRealms/regions/mines/
+scripts/AncientRealms/regions/moongates/
+scripts/AncientRealms/regions/outposts/
+scripts/AncientRealms/regions/secrets/
+scripts/AncientRealms/regions/shrines/
+scripts/AncientRealms/regions/towns/
+scripts/AncientRealms/regions/guildHall/
+// -----------------------------------
+// -----------------------------------
+scripts/sphere_menu.scp
+scripts/sphere_name.scp
+scripts/sphere_skillmenu.scp
+scripts/sphere_spawns.scp
+scripts/sphere_speech.scp
+scripts/skills/
+scripts/sphere_skills.scp
+scripts/spells/
+scripts/sphere_newb.scp
+scripts/sphere_template.scp
+scripts/sphere_template_loot.scp
+scripts/sphere_template_vend.scp
+scripts/sphere_triggers.scp
+scripts/sphere_serv_triggers.scp
+scripts/speech/
+// -----------------------------------
+scripts/stones/
+scripts/stones/guilds/
+scripts/stones/towns/
+// -----------------------------------
+scripts/add-on/
+scripts/add-on/champions/
+scripts/add-on/combat/
+scripts/add-on/crafting/
+scripts/add-on/farming/
+scripts/add-on/itemproperties/
+scripts/add-on/npcai/
+scripts/add-on/quests/
+scripts/add-on/skillmenu/
+scripts/add-on/treasures/
+scripts/add-on/typedefs/
+scripts/add-on/virtues/
+scripts/add-on/specialmoves/
+scripts/add-on/ships/
+// -----------------------------------
+// Ancient Realms         ------------
+// -----------------------------------
+scripts/AncientRealms/overrides/ToLoad/
+scripts/AncientRealms/items/
+scripts/AncientRealms/admin/adminCommands/
+scripts/AncientRealms/admin/gmCommands/
+scripts/AncientRealms/admin/playerCommands/
+scripts/AncientRealms/crafting/BlackSmith/
+scripts/AncientRealms/crafting/BlackSmith/Items/
+scripts/AncientRealms/crafting/BowCraft/
+scripts/AncientRealms/crafting/BowCraft/Items/
+scripts/AncientRealms/crafting/Carpentry/
+scripts/AncientRealms/crafting/Carpentry/Items/
+scripts/AncientRealms/crafting/Cooking/
+scripts/AncientRealms/crafting/Cooking/Items/
+scripts/AncientRealms/crafting/Masonry/
+scripts/AncientRealms/crafting/Masonry/Items/
+scripts/AncientRealms/crafting/Tailoring/
+scripts/AncientRealms/crafting/Tailoring/Items/
+scripts/AncientRealms/crafting/Tinkering/
+scripts/AncientRealms/crafting/Tinkering/Items/
+scripts/AncientRealms/crafting/CraftItems/
+scripts/AncientRealms/crafting/CraftMenu/
+scripts/AncientRealms/crafting/CraftTools/
+scripts/AncientRealms/crafting/CraftTypes/
+scripts/AncientRealms/skills/healing/
+scripts/AncientRealms/skills/treasurehunting/
+scripts/AncientRealms/skills/farming/
+scripts/AncientRealms/skills/fishing/
+scripts/AncientRealms/skills/poisioning/
+scripts/AncientRealms/economy/tax/
+scripts/AncientRealms/economy/shops/
+scripts/AncientRealms/economy/vendors/
+scripts/AncientRealms/global/
+scripts/AncientRealms/guilds/
+scripts/AncientRealms/keeps/
+scripts/AncientRealms/los/
+scripts/AncientRealms/gains/
+scripts/AncientRealms/playerstart/
+scripts/AncientRealms/spawns/
+scripts/AncientRealms/housing/
+scripts/AncientRealms/games/
+scripts/AncientRealms/games/CTS/
+scripts/AncientRealms/games/PlayerRewards/
+scripts/AncientRealms/games/TournamentSquare/
+scripts/AncientRealms/games/OneOnOnePVP/
+scripts/AncientRealms/games/CTS/
+scripts/AncientRealms/games/Regicide/
+scripts/AncientRealms/games/playersRace/
+scripts/AncientRealms/combat/
+scripts/AncientRealms/combat/buffs/
+scripts/AncientRealms/templates/
+scripts/AncientRealms/environment/
+scripts/AncientRealms/auction/
+[OBSCENE]
+
+[FAME]
+0,2000,6000
+Anonymous
+Known
+Famous
+
+[KARMA]
+-10000,-6000,-2000,2001,6001
+Wicked
+Belligerent
+Neutral
+Kindly
+Goodhearted
+
+[NOTOTITLES] // NotoTitles
+9999,5000,2500,1250,625,-625,-1250,-2500,-5000,-9999    // karma levels
+1250,2500,5000,9999                                    // fame levels
+
+// highest karma
+Trustworthy
+Estimable
+Great
+Glorious
+Glorious
+
+Honest
+Commendable
+Famed
+Illustrious
+Illustrious
+
+Good
+Honorable
+Admirable
+Noble
+Noble
+
+Kind
+Respectable
+Proper
+Eminent
+Eminent
+
+Fair
+Upstanding
+Reputable
+Distinguished
+Distinguished
+
+<none>
+Notable
+Prominent
+Renowned
+Renowned
+
+Rude
+Disreputable
+Notorious
+Imfamous
+Dishonored
+
+Unsavory
+Dishonorable
+Ignoble
+Sinister
+Sinister
+
+Scoundrel
+Malicious
+Vile
+Villainous
+Dark
+
+Despicable
+Dastardly
+Wicked
+Evil
+Evil
+
+Outcast
+Wretched
+Nefarious
+Dread
+Dread
+
+
+[RUNES]
+An
+Bet
+Corp
+Des
+Ex
+Flam
+Grav
+Hur
+In
+Jux
+Kal
+Lor
+Mani
+Nox
+Ort
+Por
+Quas
+Rel
+Sanct
+Tym
+Uus
+Vas
+Wis
+Xen
+Ylem
+Zan
+
+[PLEVEL 1]	// extra player commands.
+AFK
+WHERE
+HUNGRY
+CAST
+TELE
+SUICIDE
+SELF
+LAST
+HELP
+PASSWORD
+EMAIL
+HelpPage
+OpenQuestLog
+GuildMenu
+GC
+TC
+
+[PLEVEL 2]	// extra counselor commands.
+ANIM
+DETAIL
+SLEEP
+UNDERWEAR
+BARK
+FIX
+RESEND
+INFO
+ADMIN
+PAGE
+GO
+GOUID
+GOCHAR
+GOSOCK
+GOCLI
+XGO
+JAIL
+FORGIVE
+
+[PLEVEL 3]
+CHARLIST
+
+[PLEVEL 4]
+BADSPAWN
+SAVE
+LINK
+TILE
+NUKE
+GOTYPE
+GONAME
+
+[PLEVEL 6]
+ACCOUNT
+SETPRIV
+DIALOG
+BLOCKIP
+TOME
+EXTRACT
+UNEXTRACT
+EXPORT
+IMPORT
+SERV.CLEARVARS
+
+[PLEVEL 7]
+SRC
+OBJ
+NEW
+DB
+FILE
+TRY
+TRYP
+TRYSRC
+TRYSRV
+PLEVEL
+
+[EOF]
+

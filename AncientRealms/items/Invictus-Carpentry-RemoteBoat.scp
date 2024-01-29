@@ -1,0 +1,373 @@
+
+[Itemdef i_deed_remote_model_ship]
+Name=Deed to a model ship
+id=i_deed
+type=t_script
+value=1
+weight=1
+Skillmake=tinkering 100.0, Carpentry 100.0, Masonry 30.0
+Resources=10 i_ingot_iron, 10 i_log, 2 i_thread, 2 i_gears, 2 I_springs
+
+on=@dclick
+	targetg Target ground to place the model ship! (YES, you can place on normal floor as it has wheels)
+	return 1
+
+on=@targon_ground
+	src.newitem i_model_ship_control
+	var.modelcontrol=<src.act.uid>
+	src.act.bounce
+	src.newitem i_remote_model_ship
+	src.act.link=<var.modelcontrol>
+	try uid.<var.modelcontrol>.link=<src.act.uid>
+	src.act.p=<src.targp>
+	remove
+	return 1
+
+
+[Itemdef i_remote_model_Ship]
+Name=Model Ship
+ID=014f3
+Type=t_script
+
+on=@create
+	attr=attr_move_never
+	timer=1
+
+on=@timer
+	f_timer_profiler
+	if (<more2>==0)
+		timer=1
+		return 1
+	elseif (<more2>==1)
+		timer=3
+	elseif (<more2>==2)
+		timer=2
+	elseif (<more2>==3)
+		timer=1
+	endif
+	
+	if (<more1>==2)
+		move n
+	elseif (<more1>==3)
+		move ne
+	elseif (<more1>==4)
+		move e
+	elseif (<more1>==5)
+		move se
+	elseif (<more1>==6)
+		move s
+	elseif (<more1>==7)
+		move sw
+	elseif (<more1>==8)
+		move w
+	elseif (<more1>==1)
+		move nw
+	endif
+	
+	if !(rand(20))
+		DORAND 10
+			say Oh yeh! Come to the marines, they said...
+			say Sail around the world, they said...
+			say Ahoy Captain!
+			say Row, row, row your boat gently down the stream...
+			say Nothing beats the fresh air on the sea!
+			say Hey! Who the hell shrunk me?
+			say I wonder who that strange guy with this remote control is.
+			say What do you think i am? A fricking model ship or what?
+			say What are you staring at? Never seen a small sailor?
+			say ...and a bottle of rum...
+		ENDDO
+	endif
+	
+	return 1
+
+on=@targon_item
+	if (<src.targ.uid>==<uid>)
+		src.message So you want them to attack themselves? Nah!
+		return 1
+	endif
+
+	if (<src.targ.baseid>==i_remote_model_ship)
+		tag.target=<src.targ.uid>
+		link.dialog d_remote_model_ship
+		say Enemy in sight! Cannons ready!
+	else
+		src.message Nah... thats not a model ship!
+		endif
+	return 1
+
+on=@targon_char
+	say Hey! This is a model ship! Do you think we could harm that? You must be kidding!
+	return 1
+
+[Itemdef i_model_ship_control]
+Name=Magic model ship control
+ID=01ad3
+Type=t_script
+
+on=@create
+	color=091a
+	attr=04
+
+on=@dclick
+	dialog d_remote_model_ship
+
+[dialog d_remote_model_ship]
+
+50,50
+PAGE 0
+resizepic 0 0 3600 200 400
+PAGE 1
+text 50 30 955 0
+button 30 80 2117 2118 1 0 10
+button 90 80 2117 2118 1 0 20
+button 150 80 2117 2118 1 0 30
+button 30 140 2117 2118 1 0 40
+button 90 140 2117 2118 1 0 50
+button 150 140 2117 2118 1 0 60
+button 30 200 2117 2118 1 0 70
+button 90 200 2117 2118 1 0 80
+button 150 200 2117 2118 1 0 90
+button 30 230 57 57 1 0 100
+text 70 230 955 1
+text 120 230 955 2
+button 140 230 59 59 1 0 110
+text 60 160 955 3
+button 30 260 2117 2118 1 0 120
+text 50 260 955 4
+button 30 290 2117 2118 1 0 130
+text 50 290 955 5
+button 30 320 2117 2118 1 0 140
+text 50 320 955 6
+button 30 350 2117 2118 1 0 150
+text 50 350 955 7
+textentry 100 350 100 30 955 1000 8
+
+[dialog d_remote_model_ship TEXT]
+Remote control
+Speed:
+<eval <link.more2>>
+Turn Boat
+Target enemy
+FIRE!
+Dock boat
+Name:
+<link.name>
+
+[dialog d_remote_model_ship BUTTON]
+onbutton=10
+	link.more1=1
+	link.sfx 013
+	dialog d_remote_model_ship
+
+onbutton=20
+	link.more1=2
+	link.sfx 013
+	dialog d_remote_model_ship
+
+onbutton=30
+	link.more1=3
+	link.sfx 013
+	dialog d_remote_model_ship
+
+onbutton=40
+	link.more1=8
+	link.sfx 013
+	dialog d_remote_model_ship
+
+onbutton=50
+	if (<morex>==0)
+		link.dispid 014f4
+		link.updatex
+		morex=1
+	elseif (<morex>==1)
+		link.dispid 014f3
+		link.updatex
+		morex
+	endif
+	link.sfx 013
+	dialog d_remote_model_ship
+
+onbutton=60
+	link.more1=4
+	link.sfx 013
+	dialog d_remote_model_ship
+
+onbutton=70
+	link.more1=7
+	link.sfx 013
+	dialog d_remote_model_ship
+
+onbutton=80
+	link.more1=6
+	link.sfx 013
+	dialog d_remote_model_ship
+
+onbutton=90
+	link.more1=5
+	link.sfx 013
+	dialog d_remote_model_ship
+
+onbutton=100
+	if (<link.more2>>=1)
+		link.more2=<link.more2>+-1
+		link.sfx 013
+	endif
+	dialog d_remote_model_ship
+
+onbutton=110
+	if (<link.more2><=2)
+		link.more2=<link.more2>+1
+		link.sfx 013
+	endif
+	dialog d_remote_model_ship
+
+onbutton=120
+	link.target Target enemy ship!
+
+onbutton=130
+	if (<src.restest 1 i_model_ship_memory>)
+		link.say Sorry sir! Cannons overheated!
+		dialog d_remote_model_ship
+		return 1
+	else
+		var.user=<src.uid>
+		link.f_firemodel
+	endif
+	
+	dialog d_remote_model_ship
+
+onbutton=140
+	link.remove
+	remove
+	src.newitem i_deed_remote_model_ship
+	src.act.bounce
+
+onbutton=150
+	link.name=<argtxt[1000]>
+	link.say We are now named the mighty <link.name>!
+	dialog d_remote_model_ship
+
+[Itemdef i_model_ship_memory]
+Name=Model ship battle mem!
+id=i_memory
+type=t_eq_script
+
+on=@create
+	timer 5
+
+on=@timer
+	f_timer_profiler
+	remove
+	return 1
+
+
+[function f_firemodel]
+	tag.oldlink=<link>
+	link=<tag.target>
+	
+	if (<link>==0) || (strlen(<link.name>a)==1)
+		link=<tag.oldlink>
+		say We have no target Sir!
+		return 1
+	endif
+	
+	try uid.<var.user>.f_battlemem
+	sfx 0206
+	try uid.<var.user>.newitem 03735
+	try uid.<var.user>.act.attr 012
+	try uid.<var.user>.act.timer 2
+	try uid.<var.user>.act.p=<p>
+	try uid.<var.user>.act.nudgeup 2
+	
+	
+	if (<p.x><=<link.p.x>
+		var.distx=<link.p.x>+-<p.x>
+	elseif (<p.x>>=<link.p.x>
+		var.distx=<p.x>+-<link.p.x>
+	endif
+	
+	if (<p.y><=<link.p.y>
+		var.disty=<link.p.y>+-<p.y>
+	elseif (<p.y>>=<link.p.y>
+		var.disty=<p.y>+-<link.p.y>
+	endif
+	
+	if (<var.distx>>6) || (<var.disty>>6)
+		say We missed Sir!
+	elseif (<var.distx>>5) || (<var.disty>>5)
+		if !(Rand(50))
+			f_model_battle
+		else
+			say We missed Sir!
+		endif
+	elseif (<var.distx>>4) || (<var.disty>>4)
+		if !(Rand(30))
+			f_model_battle
+		else
+	    	say We missed Sir!
+		endif
+	elseif (<var.distx>>3) || (<var.disty>>3)
+		if !(Rand(20))
+			f_model_battle
+		else
+			say We missed Sir!
+		endif
+	elseif (<var.distx>>2) || (<var.disty>>2)
+		if !(Rand(10))
+			f_model_battle
+		else
+			say We missed Sir!
+		endif
+	elseif (<var.distx>>1) || (<var.disty>>1)
+		if !(Rand(5))
+		else
+	    	say We missed Sir!
+		endif
+	elseif (<var.distx>>=0) || (<var.disty>>=0)
+		if !(Rand(2))
+			f_model_battle
+		else
+			say We missed Sir!
+		endif
+	endif
+	link=<tag.oldlink>
+	var.user
+	return 1
+
+[function f_model_battle]
+	if (<link.morey>==0)
+		link.say We have taken damage Sir!
+		link.morey=<link.morey>+1
+		say We hit them Sir!
+	elseif (<link.morey>==1)
+		link.say Man over board!
+		link.morey=<link.morey>+1
+		say We hit them Sir!
+	elseif (<link.morey>==2)
+		link.say We are taking heavy damage Sir!
+		link.morey=<link.morey>+1
+		say We hit them Sir!
+	elseif (<link.morey>==3)
+		link.say The hull is breaking Sir!
+		link.morey=<link.morey>+1
+		say The target is nearly destroyed Sir!
+	elseif (<link.morey>==4)
+		link.say Oh No! We all gonna die!!!
+		try uid.<var.user>.newitem 036b0
+		try uid.<var.user>.act.attr 012
+		try uid.<var.user>.act.timer 2
+		try uid.<var.user>.act.p=<link.p>
+		try uid.<var.user>.act.nudgeup 2
+		say We destroyed the enemy sir!
+		link.link.remove
+		link.remove
+		tag.target
+	endif
+
+[function f_battlemem]
+	src.newitem i_model_ship_memory
+	src.act.timer 5
+	src.act.cont=<src.uid>
+
+[EOF]

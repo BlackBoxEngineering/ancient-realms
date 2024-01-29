@@ -1,0 +1,80 @@
+
+[function killAllDeadSpawns]
+forinstances i_worldgem_bit
+	if !<more1>
+		remove
+	endif
+endfor
+
+[function findUberLargeSpawns]
+REF1=<UID>
+forinstances i_worldgem_bit
+	if (<EVAL <AMOUNT>> > 10)||(<EVAL <MORE2>> > 10)
+		REF1.GO <P>
+	endif
+endfor
+[function itemLargeSpawns]
+REF1=<UID>
+forinstances i_worldgem_bit
+	if (!<AMOUNT>)
+		REF1.GO <P>
+		REMOVE
+	endif
+endfor
+
+[FUNCTION FixGhostRIdes]
+REF1=<SERV.UID.<UID>>
+FORCHARS 65000
+	IF !(<ISPLAYER>)
+		IF <FINDID.i_rare_pet_id>
+			IF <isEvent.e_ghost_mount>
+				REF1.GO <P>
+				IF !<FINDID.i_dead_ride_timer>
+					SERV.NEWITEM i_dead_ride_timer,1,<UID>
+				ELSE
+					IF <EVAL <FINDID.i_dead_ride_timer.TIMER>> < 0
+						FINDID.i_dead_ride_timer.TIMER=5
+					ENDIF
+				ENDIF
+			ENDIF
+	   ENDIF
+	ENDIF
+ENDFOR
+
+[PLEVEL 5]
+SpawnDoctor
+
+[FUNCTION SpawnDoctor]
+f_SpawnDoctor
+    
+[FUNCTION f_SpawnDoctor]
+REF1=<SERV.UID.<UID>>
+LOCAL.FoundASickSpawnUID=0
+LOCAL.FoundASickSpawnCount=0
+FORINSTANCES i_worldgem_bit
+	IF (<TYPE>!=t_grass)
+		IF !<MORE2>
+		SERV.LOG <REGION.NAME>
+		REF1.GO <P>
+		ENDIF
+		//REMOVE
+	ENDIF
+ENDFOR
+
+
+[DIALOG d_spawnDoctorA]
+resizepic 0 0 9200 530 418
+resizepic 0 0 5054 220 170
+resizepic 10 10 3000 200 150
+MENU m_spawnDoctorA
+SICK SPAWN LOCATION (<SERV.UID.<CTAG.FoundASickSpawnUID>.P>)
+ON= 0 <CTAG.StringDiagnosisA>
+ON= 0 <CTAG.StringDiagnosisB>
+ON= 0 <CTAG.StringDiagnosisC>
+ON= 0 <CTAG.StringDiagnosisD>
+ON= 0 THERE ARE <EVAL <CTAG.FoundASickSpawnCount>> SICK SPAWNS
+ON= 0 GO TO SPAWN  
+	GO <SERV.UID.<CTAG.FoundASickSpawnUID>.P>
+
+    
+[EOF]

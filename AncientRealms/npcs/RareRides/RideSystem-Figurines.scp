@@ -1,0 +1,290 @@
+[ITEMDEF 020ea]
+DEFNAME=i_pet_wolf
+NAME=Wolf
+TYPE=T_FIGURINE
+TDATA3=c_wolf
+
+[ITEMDEF 02137]
+DEFNAME=i_pet_ostard_forest
+Name=Ostard
+TYPE=T_FIGURINE
+TDATA3=c_OSTARD_Forest
+
+[ITEMDEF 02136]
+DEFNAME=i_pet_ostard_zostrich
+Name=Ostard
+TYPE=T_FIGURINE
+TDATA3=c_OSTARD_Zostrich
+
+[ITEMDEF 02135]
+DEFNAME=i_pet_ostard_desert
+Name=Ostard
+TYPE=T_FIGURINE
+TDATA3=c_OSTARD_Desert
+
+[ITEMDEF 020f6]
+DEFNAME=i_pet_llama
+NAME=Llama
+TYPE=T_FIGURINE
+TDATA3=c_llama
+
+ON=@Create
+	MORE1=c_m_unicorn
+
+[ITEMDEF 9678]
+DEFNAME=i_pet_unicorn
+NAME=Unicorn
+TYPE=t_figurine
+
+ON=@Create
+	MORE1=c_m_unicorn
+
+[ITEMDEF 9751]
+DEFNAME=i_pet_skeletalmount
+NAME=Skeletal Mount
+TYPE=t_figurine
+
+ON=@Create
+	MORE1=c_skeletal_mount
+	
+[ITEMDEF 9749]
+DEFNAME=i_pet_ridgeback
+NAME=Ridgeback
+TYPE=t_figurine
+
+ON=@Create
+	MORE1=c_ridgeback
+
+[ITEMDEF 10090]
+DEFNAME=i_pet_hiryu
+NAME=Hiryu
+TYPE=t_figurine
+
+ON=@Create
+	MORE1=c_m_hiryu
+
+[ITEMDEF 9743]
+DEFNAME=i_pet_giantbeetle
+NAME=Giant Beetle
+TYPE=t_figurine
+
+ON=@Create
+	MORE1=c_giant_beetle
+
+[ITEMDEF 9753]
+DEFNAME=i_pet_swampdragon
+NAME=Swamp Dragon
+TYPE=t_figurine
+
+ON=@Create
+	MORE1=c_swamp_dragon
+
+[ITEMDEF 9632]
+DEFNAME=i_pet_kirin
+NAME=Kirin
+TYPE=t_figurine
+
+ON=@Create
+	MORE1=c_kirin
+
+[ITEMDEF 0211b]
+DEFNAME=i_pet_cat
+NAME=Cat
+TYPE=T_FIGURINE
+TDATA3=c_cat
+VALUE=40
+CATEGORY=AncientRealms-Icons
+SUBSECTION=Character Icons
+DESCRIPTION=Cat
+
+[ITEMDEF 0211c]
+DEFNAME=i_pet_dog
+NAME=Dog
+VALUE=40
+TYPE=T_FIGURINE
+TDATA3=c_dog
+CATEGORY=AncientRealms-Icons
+SUBSECTION=Character Icons
+DESCRIPTION=Dog
+
+[ITEMDEF 0211d]
+DEFNAME=i_pet_eagle
+NAME=Eagle
+TYPE=T_FIGURINE
+TDATA3=c_eagle
+VALUE=50
+CATEGORY=AncientRealms-Icons
+SUBSECTION=Character Icons
+DESCRIPTION=Eagle
+
+[ITEMDEF 0211e]
+//grizzly bear
+DEFNAME=i_pet_grizzly
+NAME=Grizzly Bear
+TYPE=T_FIGURINE
+TDATA3=c_bear_grizzly
+VALUE=150
+CATEGORY=AncientRealms-Icons
+SUBSECTION=Character Icons
+DESCRIPTION=Grizzly Bear
+
+[ITEMDEF 0211f]
+//horse frame, gray
+DEFNAME=i_pet_horse_gray
+NAME=Gray Horse
+TYPE=T_FIGURINE
+TDATA3=c_horse_gray
+VALUE=400
+SKILLMAKE=SKILL_MAGERY 35.0
+CATEGORY=AncientRealms-Icons
+SUBSECTION=Character Icons
+DESCRIPTION=Horse (gray)
+
+[ITEMDEF 02120]
+//horse frame
+DEFNAME=i_pet_horse_brown_lt
+NAME=Horse
+TYPE=T_FIGURINE
+TDATA3=c_horse_brown_lt
+VALUE=400
+CATEGORY=AncientRealms-Icons
+SUBSECTION=Character Icons
+DESCRIPTION=Horse (light brown)
+DUPELIST=020dd
+
+[ITEMDEF 02121]
+//horse frame dark brown
+DEFNAME=i_pet_horse_brown_dk
+VALUE=400
+TYPE=T_FIGURINE
+TDATA3=c_horse_brown_dk
+CATEGORY=AncientRealms-Icons
+SUBSECTION=Character Icons
+DESCRIPTION=Horse (dark brown)
+
+[ITEMDEF 02122]
+//wolf
+DEFNAME=i_pet_wolf_gray
+TYPE=T_FIGURINE
+TDATA3=c_a_wolf_gray
+VALUE=75
+CATEGORY=AncientRealms-Icons
+SUBSECTION=Character Icons
+DESCRIPTION=Wolf
+
+[ITEMDEF 02123]
+//rat
+DEFNAME=i_pet_rat
+Name=Rat
+TYPE=T_FIGURINE
+TDATA3=c_a_rat_sewer
+VALUE=3
+CATEGORY=AncientRealms-Icons
+SUBSECTION=Character Icons
+DESCRIPTION=Rat
+
+[ITEMDEF 02124]
+//horse warm tan
+DEFNAME=i_pet_horse_tan
+Name=Horse
+TYPE=T_FIGURINE
+TDATA3=c_horse_tan
+VALUE=400
+CATEGORY=AncientRealms-Icons
+SUBSECTION=Character Icons
+DESCRIPTION=Horse (tan)
+
+[ITEMDEF 02125]
+DEFNAME=i_pet_rabbit
+Name=Rabbit
+VALUE=10
+TYPE=T_FIGURINE
+TDATA3=c_rabbit
+CATEGORY=AncientRealms-Icons
+SUBSECTION=Character Icons
+DESCRIPTION=Rabbit
+
+[ITEMDEF 02126]
+DEFNAME=i_pet_horse_pack
+NAME=Pack Horse
+TYPE=T_FIGURINE
+TDATA3=c_horse_pack
+VALUE=800
+CATEGORY=AncientRealms-Icons
+SUBSECTION=Character Icons
+DESCRIPTION=Pack Horse
+
+[ITEMDEF 02127]
+DEFNAME=i_pet_llama_pack
+Name=Pack Llama
+TYPE=T_FIGURINE
+TDATA3=c_llama_pack
+VALUE=500
+CATEGORY=AncientRealms-Icons
+SUBSECTION=Character Icons
+DESCRIPTION=Pack Llama
+
+[TYPEDEF t_reward_figurine]
+
+ON=@Dclick
+	NEWNPC = <TDATA3>
+	NEW.GO = <SRC.P>
+	NEW.OWNER = <SRC.UID>
+	CONSUME
+	RETURN 1
+
+[ITEMDEF i_reward_orn]
+DEFNAME=i_reward_orn
+ID=i_pet_ostard_forest
+NAME=Rare Orn
+TYPE=t_reward_figurine
+TDATA3=c_reward_Orn
+
+ON=@Create
+	COLOR=random_dye_skin
+
+[ITEMDEF i_reward_zostrich]
+DEFNAME=i_reward_zostrich
+ID=i_pet_ostard_zostrich
+NAME=Rare Zostrich
+TYPE=t_reward_figurine
+TDATA3=c_reward_zostrich
+
+ON=@Create
+	COLOR=random_dye_skin
+
+[ITEMDEF i_reward_oclock]
+DEFNAME=i_reward_oclock
+ID=i_pet_ostard_desert
+NAME=Rare Oclock
+TYPE=t_reward_figurine
+TDATA3=c_reward_oclock
+
+ON=@Create
+	COLOR=random_dye_skin
+
+[ITEMDEF i_reward_llama]
+DEFNAME=i_reward_llama
+ID=i_pet_llama
+NAME=Rare Llama
+TYPE=t_reward_figurine
+TDATA3=c_reward_llama
+
+ON=@Create
+	COLOR=random_dye_skin
+
+[TYPEDEF t_figurine]
+ON=@DClick
+	IF !(<CONT>==<SRC.FINDLAYER.21.UID>)
+		RETURN 1
+	ELSE
+		LOCAL.slots = <QVAL <SERV.CHARDEF.<TDATA3>.TAG0.control.slots> ? <SERV.CHARDEF.<TDATA3>.TAG0.control.slots> : 1>
+		IF  <EVAL <SRC.CURFOLLOWER>+<LOCAL.slots>> > <SRC.MAXFOLLOWER>
+			SRC.SYSMESSAGE You have too many followers.
+			//RETURN 1
+		ENDIF
+		SRC.CURFOLLOWER += <LOCAL.slots>
+	ENDIF
+	
+
+[EOF]

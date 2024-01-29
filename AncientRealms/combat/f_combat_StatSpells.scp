@@ -1,0 +1,165 @@
+[FUNCTION f_Spells_StatSpell_POISON]
+IF (<ARGV[0]>)
+	LOCAL.TargUID=<ARGV[0]>
+ELSE
+	LOCAL.TargUID=<UID>
+ENDIF
+SERV.UID.<LOCAL.TargUID>.f_RemoveAllPoisons	
+IF (<EVAL SpellPoison_Set>=1)
+	NEWITEM i_invictus_poison_weak, 1, <LOCAL.TargUID>
+ELIF (<EVAL SpellPoison_Set>=2)
+	NEWITEM i_invictus_poison_medium, 1, <LOCAL.TargUID>
+ELIF (<EVAL SpellPoison_Set>=3)
+	NEWITEM i_invictus_poison_stong, 1, <LOCAL.TargUID>
+ELIF (<EVAL SpellPoison_Set>=4)
+	NEWITEM i_invictus_poison_deadly, 1, <LOCAL.TargUID>
+ENDIF
+SERV.UID.<LOCAL.TargUID>.EFFECT=3,i_fx_curse,0,32,0
+SYSMESSAGE @63,,1 Poison: Inflicted on <SERV.UID.<LOCAL.TargUID>.NAME>
+SERV.UID.<LOCAL.TargUID>.TAG.PoisonedByUid=<UID>
+SERV.UID.<LOCAL.TargUID>.TAG.PoisonedByName=<NAME>
+IF <UID>!=<LOCAL.TargUID>
+	SERV.UID.<LOCAL.TargUID>.ACTION=-1
+ENDIF
+//RETURN 1
+
+[FUNCTION f_Spells_StatSpell_CUREALL]
+FORCHARS 10
+f_Spells_StatSpell_CURE <UID>
+ENDFOR
+
+[FUNCTION f_Spells_StatSpell_CURE]
+IF (<ARGV[0]>)
+	LOCAL.TargUID=<ARGV[0]>
+ELSE
+	LOCAL.TargUID=<UID>
+ENDIF
+IF <SERV.UID.<LOCAL.TargUID>.FINDID.i_rune_mind_blast>
+	SERV.UID.<LOCAL.TargUID>.FINDID.i_rune_mind_blast.REMOVE
+ENDIF
+IF (<SERV.UID.<LOCAL.TargUID>.FINDID.i_invictus_poison_weak>||<SERV.UID.<LOCAL.TargUID>.FINDID.i_invictus_poison_medium>||<SERV.UID.<LOCAL.TargUID>.FINDID.i_invictus_poison_strong>||<SERV.UID.<LOCAL.TargUID>.FINDID.i_invictus_poison_deadly>||<SERV.UID.<LOCAL.TargUID>.FINDID.i_rune_poison>)
+	SERV.UID.<LOCAL.TargUID>.f_RemoveAllPoisons2
+	IF <FINDID.FINDID.i_invictus_poison_deadly>
+		SYSMESSAGE @92,,1 Deadly Poison can only be Cured with a Bandage!
+	ELSE
+		IF (<UID>!=<SERV.UID.<LOCAL.TargUID>>)
+			SYSMESSAGE @92,,1 <SERV.UID.<LOCAL.TargUID>.NAME> has been cured of all poisons.
+		ENDIF
+		SERV.UID.<LOCAL.TargUID>.SYSMESSAGE @92,,1 You have been cured of all poisons.	
+		SERV.UID.<LOCAL.TargUID>.EFFECT=3,i_fx_bless_effect,6,16,0
+		SERV.UID.<LOCAL.TargUID>.FLAGS = <SERV.UID.<LOCAL.TargUID>.FLAGS>&~080
+		SERV.UID.<LOCAL.TargUID>.UPDATEX
+	ENDIF
+ELSE
+	SERV.UID.<LOCAL.TargUID>.EFFECT=3,i_fx_bless_effect,6,16,0
+	SYSMESSAGE @00029,,1 <SERV.UID.<LOCAL.TargUID>.NAME> Is not Poisoned!
+ENDIF
+
+[FUNCTION f_Spells_StatSpell_CLUMSY]
+REF1=<SERV.UID.<ARGV[0]>>
+IF !<REF1.FINDID.i_invictus_playerbuff_clumsy>
+NEWITEM i_invictus_playerbuff_clumsy,1,<REF1.UID>
+IF <REF1.FINDID.i_invictus_playerbuff_nightsight>
+	REF1.FINDID.i_invictus_playerbuff_nightsight.REMOVE
+	
+ENDIF
+IF <REF1.FINDID.i_invictus_playerbuff_reactarmor>
+	REF1.FINDID.i_invictus_playerbuff_reactarmor.REMOVE
+ENDIF
+IF <REF1.FINDID.i_invictus_playerbuff_agility>
+	REF1.FINDID.i_invictus_playerbuff_agility.REMOVE
+ENDIF
+IF <REF1.FINDID.i_invictus_playerbuff_strength>
+	REF1.FINDID.i_invictus_playerbuff_strength.REMOVE
+ENDIF
+IF <REF1.FINDID.i_invictus_playerbuff_cunning>
+	REF1.FINDID.i_invictus_playerbuff_cunning.REMOVE
+ENDIF
+IF <REF1.FINDID.i_invictus_playerbuff_bless>
+	REF1.FINDID.i_invictus_playerbuff_bless.REMOVE
+ENDIF
+IF <REF1.FINDID.i_invictus_playerbuff_protection>
+	REF1.FINDID.i_invictus_playerbuff_protection.REMOVE
+ENDIF
+ENDIF
+
+[FUNCTION f_Spells_StatSpell_FEEBLEMIND]
+REF1=<SERV.UID.<ARGV[0]>>
+IF !<REF1.FINDID.i_invictus_playerbuff_feeblemind>
+	NEWITEM i_invictus_playerbuff_feeblemind,1,<REF1.UID>
+ENDIF
+
+[FUNCTION f_Spells_StatSpell_WEAKEN]
+REF1=<SERV.UID.<ARGV[0]>>
+IF !<REF1.FINDID.i_invictus_playerbuff_weaken>
+	NEWITEM i_invictus_playerbuff_weaken,1,<REF1.UID>
+ENDIF
+
+[FUNCTION f_Spells_StatSpell_CURSE]
+
+[FUNCTION f_Spells_StatSpell_MANADRAIN]
+
+[FUNCTION f_Spells_StatSpell_MINDBLAST]
+
+[FUNCTION f_Spells_StatSpell_BLESS]
+REF1=<SERV.UID.<ARGV[0]>>
+IF <REF1.FINDID.i_invictus_playerbuff_feeblemind>
+	REF1.FINDID.i_invictus_playerbuff_feeblemind.REMOVE
+ENDIF
+IF <REF1.FINDID.i_invictus_playerbuff_feeblemind>
+	REF1.FINDID.i_invictus_playerbuff_feeblemind.REMOVE
+ENDIF
+IF <REF1.FINDID.i_invictus_playerbuff_curse>
+	REF1.FINDID.i_invictus_playerbuff_curse.REMOVE
+ENDIF
+IF <REF1.FINDID.i_invictus_playerbuff_clumsy>
+	REF1.FINDID.i_invictus_playerbuff_clumsy.REMOVE
+ENDIF
+IF <REF1.FINDID.i_invictus_playerbuff_weaken>
+	REF1.FINDID.i_invictus_playerbuff_weaken.REMOVE
+ENDIF
+IF !<REF1.FINDID.i_invictus_playerbuff_bless>
+	NEWITEM i_invictus_playerbuff_bless,1,<REF1.UID>
+ENDIF
+
+[FUNCTION f_Spells_StatSpell_CUNNING]
+REF1=<SERV.UID.<ARGV[0]>>
+IF !<REF1.FINDID.i_invictus_playerbuff_cunning>
+	NEWITEM i_invictus_playerbuff_cunning,1,<REF1.UID>
+ENDIF
+
+[FUNCTION f_Spells_StatSpell_REACTAR]
+REF1=<SERV.UID.<ARGV[0]>>
+IF !<REF1.FINDID.i_invictus_playerbuff_reactarmor>
+	NEWITEM i_invictus_playerbuff_reactarmor,1,<REF1.UID>
+	REF1.TIMERF 1,NEWITEM i_invictus_playerbuff_reactarmordelay,1,<REF1.UID>
+ENDIF
+
+
+[FUNCTION f_Spells_StatSpell_AGILITY]
+REF1=<SERV.UID.<ARGV[0]>>
+IF !<REF1.FINDID.i_invictus_playerbuff_agility>
+	NEWITEM i_invictus_playerbuff_agility,1,<REF1.UID>
+	IF !<REF1.ISGM>
+		REF1.TIMERF 1,NEWITEM i_invictus_playerbuff_agilitydelay,1,<REF1.UID>
+	ENDIF
+ENDIF
+
+[FUNCTION f_Spells_StatSpell_STRENGTH]
+REF1=<SERV.UID.<ARGV[0]>>
+IF <REF1.FINDID.i_invictus_playerbuff_weakness>
+	REF1.FINDID.i_invictus_playerbuff_weakness.REMOVE
+	REF1.SYSMESSAGE @92,,1 Weakness has been removed.
+ENDIF
+IF !<REF1.FINDID.i_invictus_playerbuff_strength>
+	NEWITEM i_invictus_playerbuff_strength,1,<REF1.UID>
+	IF !<REF1.ISGM>
+		REF1.TIMERF 1,NEWITEM i_invictus_playerbuff_strengthdelay,1,<REF1.UID>
+	ENDIF
+ENDIF
+REF1.SYSMESSAGE @92,,1 suddenly the world seems much lighter
+
+[FUNCTION f_Spells_StatSpell_PROTECT]
+
+
+[EOF]

@@ -1,0 +1,88 @@
+[TYPEDEF t_shopDoor]
+ON=@DCLICK
+	IF <f_ShopDoorControl>
+		RETURN 1
+	ELSE
+		RETURN 0
+	ENDIF
+	
+[FUNCTION f_ShopDoorControl]
+IF !(STRMATCH(*keep*,<REGION.NAME>))
+	IF (<SRC.GM>)||(<SRC.UID>==<SERV.UID.<LINK.UID>.TAG.OwnersUID>)
+		IF <SERV.UID.<LINK.UID>.TAG.ShopActivated>
+			SAY @55 Shop Open!
+			RETURN 0
+		ELSE
+			SAY @55 Shop Closed!
+			RETURN 0
+		ENDIF
+	ELSE
+		IF <SERV.UID.<LINK.UID>.TAG.ShopActivated>
+			SAY @55 Welcome!
+			RETURN 0
+		ELSE
+			SAY @55 Shop Closed!
+			RETURN 1
+		ENDIF
+	ENDIF
+ELSE
+	IF (<SRC.GM>)||(<SRC.UID>==<SERV.UID.<LINK.UID>.TAG.OwnersUID>)
+		IF <SERV.UID.<REGION.TAG.ShopControlUID>.TAG.ShopActivated>
+			SAY @55 Shop Open!
+			RETURN 0
+		ELSE
+			SAY @55 Shop Closed!
+			RETURN 0
+		ENDIF
+	ELSE
+		IF <SERV.UID.<REGION.TAG.ShopControlUID>.TAG.ShopActivated>
+			SAY @55 Welcome!
+			RETURN 0
+		ELSE
+			SAY @55 Shop Closed!
+			RETURN 1
+		ENDIF
+	ENDIF
+ENDIF
+
+[ITEMDEF i_shopDoor_nw]
+DEFNAME=i_shopDoor_nw
+NAME=Shop Door
+ID=06ed
+CAN=CAN_I_BLOCKLOS|CAN_I_BLOCK
+TEVENTS=t_ShopDoor
+CATEGORY=AncientRealms
+SUBSECTION=Economy-Shops
+DESCRIPTION=Shop Door (nw)
+
+[ITEMDEF i_shopDoor_ne]
+DEFNAME=i_shopDoor_ne
+NAME=Shop Door
+ID=06ef
+CAN=CAN_I_BLOCKLOS|CAN_I_BLOCK
+TEVENTS=t_ShopDoor
+CATEGORY=AncientRealms
+SUBSECTION=Economy-Shops
+DESCRIPTION=Shop Door (ne)
+
+[ITEMDEF i_shopDoor_sw]
+DEFNAME=i_shopDoor_sw
+NAME=Shop Door
+ID=i_door_wood_3
+CAN=CAN_I_BLOCKLOS|CAN_I_BLOCK
+TEVENTS=t_ShopDoor
+CATEGORY=AncientRealms
+SUBSECTION=Economy-Shops
+DESCRIPTION=Shop Door (sw)
+
+[ITEMDEF i_shopDoor_se]
+DEFNAME=i_shopDoor_se
+NAME=Shop Door
+ID=06e7
+CAN=CAN_I_BLOCKLOS|CAN_I_BLOCK
+TEVENTS=t_ShopDoor
+CATEGORY=AncientRealms
+SUBSECTION=Economy-Shops
+DESCRIPTION=Shop Door (se)
+	
+[EOF]

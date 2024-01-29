@@ -1,0 +1,60 @@
+[FUNCTION GetLevelDamage]
+LOCAL.TempLevelDamage=0
+IF (<ISPLAYER>)||(<ISDRONE>)     
+	LOCAL.TempLevelDamage=<TAG0.Lv>/10
+	IF (<LOCAL.TempLevelDamage> < 1)
+		LOCAL.TempLevelDamage=1
+		LOCAL.LevelDamage=<LOCAL.TempLevelDamage>
+	ENDIF    
+ELSE
+	LOCAL.TempLevelDamage=<TAG0.Lv>/20
+	IF (<LOCAL.TempLevelDamage> < 1)
+		LOCAL.TempLevelDamage=1
+		LOCAL.LevelDamage=<LOCAL.TempLevelDamage>
+	ENDIF
+ENDIF
+RETURN <EVAL <LOCAL.TempLevelDamage>>
+
+[FUNCTION GetLevelDefense]
+LOCAL.LevelDefense=0
+IF (<ISPLAYER>)||(<ISDRONE>)
+	LOCAL.LevelDefense=<TAG0.Lv>/10  
+ELSE
+	LOCAL.LevelDefense=<TAG0.Lv>/20
+ENDIF
+RETURN <EVAL <LOCAL.LevelDefense>>
+
+[FUNCTION f_combat_GetLevelBonus]
+IF (<SERV.UID.<ARGV[0]>.ISPLAYER>)||(<SERV.UID.<ARGV[0]>.ISDRONE>)     
+	LOCAL.TempLevelDamage=<EVAL <SERV.UID.<ARGV[0]>.TAG0.Lv> / 10>
+	IF (<LOCAL.TempLevelDamage> < 1)
+		LOCAL.TempLevelDamage=1
+		LOCAL.CharacterLevelBonus=<LOCAL.TempLevelDamage>
+	ENDIF    
+ELSE
+	LOCAL.TempLevelDamage=<EVAL <SERV.UID.<ARGV[0]>.TAG0.Lv> / 20>
+	IF (<LOCAL.TempLevelDamage> < 1)
+		LOCAL.TempLevelDamage=1
+		LOCAL.CharacterLevelBonus=<LOCAL.TempLevelDamage>
+	ENDIF
+ENDIF
+
+[FUNCTION PVMLevelDefense]
+IF <EVAL <TAG0.LV> > 5
+	LOCAL.PVMLevelDefense=<EVAL <TAG0.LV>/5>
+ELSE
+	LOCAL.PVMLevelDefense=1
+ENDIF	
+IF <EVAL <LOCAL.PVMLevelDefense>> < 1
+	LOCAL.PVMLevelDefense=1
+ENDIF
+RETURN <EVAL <LOCAL.PVMLevelDefense>>
+
+[FUNCTION CritHitCHance]
+LOCAL.CriticalHitChance=(((<DEX>+<<TAG0.WeaponSkillName>>)/55)+(<TAG0.LV>/10))
+RETURN <EVAL <LOCAL.CriticalHitChance>>
+
+[FUNCTION ReplenishHitsCHance]
+LOCAL.ReplenishHitChance=(((<INT>+<<TAG0.WeaponSkillName>>)/112)+(<TAG0.LV>/10))
+RETURN <EVAL <LOCAL.ReplenishHitChance>>
+[EOF]

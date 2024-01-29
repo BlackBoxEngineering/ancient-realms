@@ -1,0 +1,60 @@
+[FUNCTION f_SpellcastCheckRegionLawsOnPreCast]
+REF1=<SERV.UID.<ARGV[0]>>	//CASTERUID
+LOCAL.SPellNo=<ARGV[1]>		//SPELLNUMBER
+IF <EVAL <LOCAL.SPellNo>>==57	// EarthQuake
+	IF (STRMATCH(*tournament*,<REF1.REGION.NAME>))
+		REF1.SYSMESSAGE @00029,,1 Earthquake cannot be cast in this area
+		SERV.LOG <REF1.NAME> was prevented from casting Earth quake in <REF1.REGION.NAME>
+		RETURN 1
+	ENDIF 
+ENDIF
+RETURN 0
+
+[FUNCTION f_SpellcastCheckRegionLawsOnTarget]
+REF1=<SERV.UID.<ARGV[0]>>			//CASTERUID
+REF2=<ARGV[2]>,<ARGV[3]>,<ARGV[4]>	//SPELLTARGETX
+LOCAL.SPellNo=<ARGV[1]>				//SPELLNUMBER
+IF <REF1.ISPLAYER>&&!<REF1.ISPK>
+	IF ((<EVAL <LOCAL.SPellNo>>==24)||(<EVAL <LOCAL.SPellNo>>==28)||(<EVAL <LOCAL.SPellNo>>==33)||(<EVAL <LOCAL.SPellNo>>==39)||(<EVAL <LOCAL.SPellNo>>==47)||(<EVAL <LOCAL.SPellNo>>==50)||(<EVAL <LOCAL.SPellNo>>==58)||(<EVAL <LOCAL.SPellNo>>==60)||(<EVAL <LOCAL.SPellNo>>==61)||(<EVAL <LOCAL.SPellNo>>==62)||(<EVAL <LOCAL.SPellNo>>==63)||(<EVAL <LOCAL.SPellNo>>==64))
+		IF <REF2.REGION.GUARDED>=1 || <REF2.REGION.SAFE>=1 || <REF2.REGION.MAGIC>=1
+			REF1.SYSMESSAGE @00029,,1 Casting a this into a Guarded Area is a Criminal Offense
+			REF1.f_beCriminal
+			REF1.KARMA=<EVAL <REF1.KARMA>-100>
+			SERV.LOG <REF1.NAME> was prevented from casting spellno <REF2> in <REF2.REGION.NAME> and made criminal
+		ENDIF
+	ENDIF
+ENDIF
+
+[FUNCTION f_combat_CheckForSpellPrevention]
+REF1=<SERV.UID.<ARGV[0]>>		//Caster
+LOCAL.SPellNo=<ARGV[1]>			//SpellNo
+LOCAL.ReturnValue=0
+IF (<EVAL <LOCAL.SPellNo>> > 56)&&(<REF1.INT> < 90)
+	REF1.SYSMESSAGE @00029,,1 You need at least 90 intelligence for 8th circle spells
+	LOCAL.ReturnValue=1
+ENDIF
+IF (<EVAL <LOCAL.SPellNo>> > 48)&&(<REF1.INT> < 80)
+	REF1.SYSMESSAGE @00029,,1 You need at least 80 intelligence for 7th circle spells
+	LOCAL.ReturnValue=1
+ENDIF
+IF (<EVAL <LOCAL.SPellNo>> > 40)&&(<REF1.INT> < 70)
+	REF1.SYSMESSAGE @00029,,1 You need at least 70 intelligence for 6th circle spells
+	LOCAL.ReturnValue=1
+ENDIF
+IF (<EVAL <LOCAL.SPellNo>> > 32)&&(<REF1.INT> < 60)
+	REF1.SYSMESSAGE @00029,,1 You need at least 60 intelligence for 5th circle spells
+	LOCAL.ReturnValue=1
+ENDIF
+IF (<EVAL <LOCAL.SPellNo>> > 24)&&(<REF1.INT> < 50)
+	REF1.SYSMESSAGE @00029,,1 You need at least 50 intelligence for 4th circle spells
+	LOCAL.ReturnValue=1
+ENDIF
+IF (<REF1.FLAGS>&04)
+	IF ((<EVAL <LOCAL.SPellNo>>!=5) && (<EVAL <LOCAL.SPellNo>>!=18) && (<EVAL <LOCAL.SPellNo>>!=30) && (<EVAL <LOCAL.SPellNo>>!=38) && (<EVAL <LOCAL.SPellNo>>!=42) && (<EVAL <LOCAL.SPellNo>>!=51) && (<EVAL <LOCAL.SPellNo>>!=41) && (<EVAL <LOCAL.SPellNo>>!=20) && (<EVAL <LOCAL.SPellNo>>!=7))
+		REF1.SYSMESSAGE @1462 You cannot cast that while paralyzed.
+		LOCAL.ReturnValue=1		
+	ENDIF
+ENDIF
+RETURN <EVAL <LOCAL.ReturnValue>>
+
+[EOF]

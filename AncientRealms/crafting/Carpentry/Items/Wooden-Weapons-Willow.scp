@@ -1,0 +1,563 @@
+/////////////////////////////////////////////Willow WildStaff
+
+[ITEMDEF i_mace_wildstaff_Willow]
+   DEFNAME=i_mace_wildstaff_Willow
+   ID=i_mace_wildstaff
+   NAME=Willow WildStaff
+   RESOURCES= 20 i_log_Willow
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=26
+   VALUE=68
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Willow
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS={60 72}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow Black Staff
+
+[ITEMDEF i_staff_black_Willow]
+   DEFNAME=i_staff_black_Willow
+   ID=i_staff_black
+   NAME=Willow Black Staff
+   RESOURCES= 20 i_log_Willow
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=24
+   VALUE=68
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Willow
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow Gnarled Staff
+
+[ITEMDEF i_staff_gnarled_Willow]
+   DEFNAME=i_staff_gnarled_Willow
+   ID=i_staff_gnarled
+   NAME=Willow Gnarled Staff
+   RESOURCES= 20 i_log_Willow
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=22
+   VALUE=68
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Willow
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow Nunchaku
+
+[ITEMDEF i_nunchaku_Willow]
+   DEFNAME=i_nunchaku_Willow
+   ID=i_nunchaku
+   NAME=Willow Nunchaku
+   RESOURCES= 20 i_log_Willow
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=24
+   VALUE=68
+   SPEED=36
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Willow
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow Club
+
+[ITEMDEF i_club_Willow]
+   DEFNAME=i_club_Willow
+   ID=i_club
+   NAME=Willow Club
+   RESOURCES= 20 i_log_Willow
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=20
+   VALUE=68
+   SPEED=38
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=CARPENTRY 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Willow
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS={10 22}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow Tetsubo
+
+[ITEMDEF i_tetsubo_Willow]
+   DEFNAME=i_tetsubo_Willow
+   ID=i_tetsubo
+   NAME=Willow Tetsubo
+   RESOURCES= 20 i_log_Willow
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=30
+   VALUE=68
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Willow
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS={80 92}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow Spear
+
+[ITEMDEF i_spear_Willow]
+   DEFNAME=i_spear_Willow
+   ID=i_spear
+   NAME=Willow Spear
+   RESOURCES= 20 i_log_Willow
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=68
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Willow
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS={60 72}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow Lance
+
+[ITEMDEF i_lance_Willow]
+   DEFNAME=i_lance_Willow
+   ID=i_lance
+   NAME=Willow Lance
+   RESOURCES= 20 i_log_Willow
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=68
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Willow
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS={100 112}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow Bow
+
+[ITEMDEF i_bow_Willow]
+   DEFNAME=i_bow_Willow
+   ID=i_bow
+   NAME=Willow Bow
+   RESOURCES= 20 i_log_Willow
+   WEIGHT=16
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=20
+   VALUE=68
+   SPEED=41
+   SKILL=ARCHERY
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Willow
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow Composite Bow
+
+[ITEMDEF i_composite_bow_Willow]
+   DEFNAME=i_composite_bow_Willow
+   ID=i_composite_bow
+   NAME=Willow Composite Bow
+   RESOURCES= 20 i_log_Willow
+   WEIGHT=16
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=21
+   VALUE=68
+   SPEED=39
+   SKILL=ARCHERY
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Willow
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS={50 62}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow Eleven Composite Bow
+
+[ITEMDEF i_elven_composite_longbow_Willow]
+   DEFNAME=i_elven_composite_longbow_Willow
+   ID=i_elven_composite_longbow
+   NAME=Willow Eleven Composite Bow
+   RESOURCES= 20 i_log_Willow
+   WEIGHT=16
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=22
+   VALUE=68
+   SPEED=37
+   SKILL=ARCHERY
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Willow
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS={70 82}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow Assassin Shortbow
+
+[ITEMDEF i_assassin_shortbow_Willow]
+   DEFNAME=i_assassin_shortbow_Willow
+   ID=i_assassin_shortbow
+   NAME=Willow Assassin Shortbow
+   RESOURCES= 20 i_log_Willow
+   WEIGHT=16
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=23
+   VALUE=68
+   SPEED=35
+   SKILL=ARCHERY
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Willow
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS={90 102}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow Yumi
+
+[ITEMDEF i_yumi_Willow]
+   DEFNAME=i_yumi_Willow
+   ID=i_yumi
+   NAME=Willow Yumi
+   RESOURCES= 20 i_log_Willow
+   WEIGHT=16
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=24
+   VALUE=68
+   SPEED=33
+   SKILL=ARCHERY
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Willow
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS={100 112}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow Crossbow
+
+[ITEMDEF i_crossbow_Willow]
+   DEFNAME=i_crossbow_Willow
+   ID=i_crossbow
+   NAME=Willow Crossbow
+   RESOURCES= 20 i_log_Willow
+   WEIGHT=16
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=22
+   VALUE=68
+   SPEED=51
+   SKILL=ARCHERY
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Willow
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS={50 62}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow Heavy Crossbow
+
+[ITEMDEF i_crossbow_heavy_Willow]
+   DEFNAME=i_crossbow_heavy_Willow
+   ID=i_crossbow_heavy
+   NAME=Willow Heavy Crossbow
+   RESOURCES= 20 i_log_Willow
+   WEIGHT=16
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=24
+   VALUE=68
+   SPEED=49
+   SKILL=ARCHERY
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Willow
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS={70 82}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow Repeating Crossbow
+
+[ITEMDEF i_repeating_crossbow_Willow]
+   DEFNAME=i_repeating_crossbow_Willow
+   ID=i_repeating_crossbow
+   NAME=Willow Repeating Crossbow
+   RESOURCES= 20 i_log_Willow
+   WEIGHT=16
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=21
+   VALUE=68
+   SPEED=47
+   SKILL=ARCHERY
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Willow
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS={90 102}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Willow Bola
+
+[ITEMDEF i_bola_Willow]
+   DEFNAME=i_bola_Willow
+   ID=i_bola
+   NAME=Willow Bola
+   RESOURCES= 20 i_log_Willow
+   WEIGHT=16
+   TYPE=t_bola
+   FLIP=1
+   DAM=18
+   VALUE=68
+   SPEED=36
+   SKILL=ARCHERY
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=TINKERING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Willow
+
+ON=@Create
+   COLOR=color_log_Willow
+   HITPOINTS={110 122}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

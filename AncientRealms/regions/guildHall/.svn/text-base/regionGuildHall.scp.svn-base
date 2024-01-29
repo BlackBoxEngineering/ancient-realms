@@ -1,0 +1,11 @@
+[AREADEF a_The_Guild_Hall]
+EVENTS=r_default,r_default_water,r_default_tree,r_default_grass
+NAME=The Guild Hall
+GROUP=Invictus
+FLAGS=06c8e
+P=1524,1450,15,0
+RECT=1499,1406,1549,1479,0
+RECT=1519,1477,1526,1495,0
+//EVENTS=r_guild_hall
+
+[EOF]

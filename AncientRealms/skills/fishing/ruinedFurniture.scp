@@ -1,0 +1,157 @@
+[DEFNAME Random_Fishing_Items]
+random_fishing_junk {i_fishing_weight 1 i_fishing_pole 1 i_fish_cut_raw 1 i_fish_raw_head 1 }
+randomRuinedFurniture {randomRuinedFurnitureRare 1 randomRuinedFurnitureCommon 1}
+randomRuinedFurnitureRare { i_armoire_trashed_w 1 i_cabinet_trashed_w 1 i_painting_trashed_n 1 i_bookself_trashed_w 1 }
+randomRuinedFurnitureCommon { i_clock_trashed 1, i_books_trashed 1, i_chair_trashed_w 1 }
+
+// Ruined Book Self
+[ITEMDEF i_bookself_trashed_w]
+DEFNAME=i_bookself_trashed_w
+ID=3092
+NAME=ruined book case
+TYPE=T_CONTAINER
+WEIGHT=5
+VALUE=750
+FLIP=1
+DUPELIST=i_bookself_trashed_n
+CATEGORY=Invictus - Fishing
+SUBSECTION=Ruined Furniture
+DESCRIPTION=Ruined Bookcase
+
+[ITEMDEF i_bookself_trashed_n]
+DEFNAME=i_bookself_trashed_n
+ID=3093
+NAME=ruined book case
+TYPE=T_CONTAINER
+WEIGHT=5
+VALUE=750
+FLIP=1
+DUPELIST=i_bookself_trashed_w
+
+// Ruined Chair 
+[ITEMDEF i_chair_trashed_s]
+DEFNAME=i_chair_trashed_s
+ID=3099
+NAME=ruined chair
+TYPE=t_normal
+WEIGHT=5
+VALUE=200
+FLIP=1
+DUPELIST=i_chair_trashed_e,i_chair_trashed_w,i_chair_trashed_n,i_chair_trashed_s
+CATEGORY=Invictus - Fishing
+
+[ITEMDEF i_chair_trashed_e]
+DEFNAME=i_chair_trashed_e
+ID=3100
+NAME=ruined chair
+TYPE=t_normal
+WEIGHT=5
+VALUE=200
+FLIP=1
+DUPELIST=i_chair_trashed_w,i_chair_trashed_n,i_chair_trashed_s,i_chair_trashed_e
+
+[ITEMDEF i_chair_trashed_w]
+DEFNAME=i_chair_trashed_w
+ID=3101
+NAME=ruined chair
+TYPE=t_normal
+WEIGHT=5
+VALUE=200
+FLIP=1
+DUPELIST=i_chair_trashed_n,i_chair_trashed_s,i_chair_trashed_e,i_chair_trashed_w
+
+[ITEMDEF i_chair_trashed_n]
+DEFNAME=i_chair_trashed_n
+ID=3102
+NAME=ruined chair
+TYPE=t_normal
+WEIGHT=5
+VALUE=200
+FLIP=1
+DUPELIST=i_chair_trashed_s,i_chair_trashed_e,i_chair_trashed_w,i_chair_trashed_n
+
+// Ruined Books 
+[ITEMDEF i_books_trashed]
+DEFNAME=i_books_trashed
+ID=3094
+NAME=Ruined Books
+TYPE=t_normal
+WEIGHT=5
+VALUE=100
+CATEGORY=Invictus - Fishing
+SUBSECTION=Ruined Furniture
+DESCRIPTION=Ruined Books
+
+// Ruined Clock 
+[ITEMDEF i_clock_trashed]
+DEFNAME=i_clock_trashed
+ID=3103
+NAME=Ruined Clock
+TYPE=t_normal
+WEIGHT=5
+VALUE=150
+CATEGORY=Invictus - Fishing
+SUBSECTION=Ruined Furniture
+DESCRIPTION=Ruined Clock
+
+// Ruined Painting 
+[ITEMDEF i_painting_trashed_n]
+DEFNAME=i_painting_trashed_n
+ID=3116
+NAME=Ruined Painting
+TYPE=t_normal
+WEIGHT=5
+VALUE=150
+CATEGORY=Invictus - Fishing
+SUBSECTION=Ruined Furniture
+DESCRIPTION=Ruined Painting
+
+// Ruined Cabinet
+[ITEMDEF i_cabinet_trashed_w]
+DEFNAME=i_cabinet_trashed_w
+ID=3108
+NAME=Ruined Cabinet
+TYPE=T_CONTAINER
+WEIGHT=5
+VALUE=450
+FLIP=1
+DUPELIST=i_cabinet_trashed_n
+CATEGORY=Invictus - Fishing
+SUBSECTION=Ruined Furniture
+DESCRIPTION=Ruined Cabinet
+
+[ITEMDEF i_cabinet_trashed_n]
+DEFNAME=i_cabinet_trashed_n
+ID=3109
+NAME=Ruined Cabinet
+TYPE=T_CONTAINER
+WEIGHT=5
+VALUE=450
+FLIP=1
+DUPELIST=i_cabinet_trashed_w
+
+// Ruined Armoire
+[ITEMDEF i_armoire_trashed_w]
+DEFNAME=i_armoire_trashed_w
+ID=3090
+NAME=Ruined Armoire
+TYPE=T_CONTAINER
+WEIGHT=5
+VALUE=450
+FLIP=1
+DUPELIST=i_armoire_trashed_n
+CATEGORY=Invictus - Fishing
+SUBSECTION=Ruined Furniture
+DESCRIPTION=Ruined Armoire
+
+[ITEMDEF i_armoire_trashed_n]
+DEFNAME=i_armoire_trashed_n
+ID=3091
+NAME=Ruined Armoire
+TYPE=T_CONTAINER
+WEIGHT=5
+VALUE=450
+FLIP=1
+DUPELIST=i_armoire_trashed_w
+
+[EOF]

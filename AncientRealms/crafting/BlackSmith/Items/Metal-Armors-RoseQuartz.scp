@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////RoseQuartz Platemail Arms
+[ITEMDEF i_platemail_arms_RoseQuartz]
+   DEFNAME= i_platemail_arms_RoseQuartz
+   ID= i_platemail_arms
+   NAME= RoseQuartz Platemail Arms
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Platemail Leggings
+[ITEMDEF i_platemail_leggings_RoseQuartz]
+   DEFNAME= i_platemail_leggings_RoseQuartz
+   ID= i_platemail_leggings
+   NAME= RoseQuartz Platemail Leggings
+   ARMOR= 21
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Platemail Helmet
+[ITEMDEF i_platemail_helm_RoseQuartz]
+   DEFNAME= i_platemail_helm_RoseQuartz
+   ID= i_platemail_helm
+   NAME= RoseQuartz Platemail Helmet
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Platemail Gorget
+[ITEMDEF i_platemail_gorget_RoseQuartz]
+   DEFNAME= i_platemail_gorget_RoseQuartz
+   ID= i_platemail_gorget
+   NAME= RoseQuartz Platemail Gorget
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Platemail Gorget
+[ITEMDEF i_platemail_gorget2_RoseQuartz]
+   DEFNAME= i_platemail_gorget2_RoseQuartz
+   ID= i_platemail_gorget2
+   NAME= RoseQuartz Platemail Gorget
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Platemail Gloves
+[ITEMDEF i_platemail_gloves_RoseQuartz]
+   DEFNAME= i_platemail_gloves_RoseQuartz
+   ID= i_platemail_gloves
+   NAME= RoseQuartz Platemail Gloves
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Platemail Chest
+[ITEMDEF i_platemail_chest_RoseQuartz]
+   DEFNAME= i_platemail_chest_RoseQuartz
+   ID= i_platemail_chest
+   NAME= RoseQuartz Platemail Chest
+   ARMOR= 25
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Platemail Female Plate
+[ITEMDEF i_armor_female_plate_RoseQuartz]
+   DEFNAME= i_armor_female_plate_RoseQuartz
+   ID= i_armor_female_plate
+   NAME= RoseQuartz Platemail Female Plate
+   ARMOR= 23
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz chainmail coif
+[ITEMDEF i_chainmail_coif_RoseQuartz]
+   DEFNAME= i_chainmail_coif_RoseQuartz
+   ID= i_chainmail_coif
+   NAME= RoseQuartz chainmail coif
+   ARMOR= 17
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz chainmail leggings
+[ITEMDEF i_chainmail_leggings_RoseQuartz]
+   DEFNAME= i_chainmail_leggings_RoseQuartz
+   ID= i_chainmail_leggings
+   NAME= RoseQuartz chainmail leggings
+   ARMOR= 19
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz chainmail tunic
+[ITEMDEF i_chainmail_tunic_RoseQuartz]
+   DEFNAME= i_chainmail_tunic_RoseQuartz
+   ID= i_chainmail_tunic
+   NAME= RoseQuartz chainmail tunic
+   ARMOR= 23
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_RoseQuartz]
+   DEFNAME= i_ringmail_sleeves_RoseQuartz
+   ID= i_ringmail_sleeves
+   NAME= RoseQuartz Ringmail Sleeves
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {43 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_RoseQuartz]
+   DEFNAME= i_ringmail_leggings_RoseQuartz
+   ID= i_ringmail_leggings
+   NAME= RoseQuartz Ringmail Leggings
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {43 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_RoseQuartz]
+   DEFNAME= i_ringmail_tunic_RoseQuartz
+   ID= i_ringmail_tunic
+   NAME= RoseQuartz Ringmail Tunic
+   ARMOR= 19
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {43 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_RoseQuartz]
+   DEFNAME= i_ringmail_gloves_RoseQuartz
+   ID= i_ringmail_gloves
+   NAME= RoseQuartz Ringmail Gloves
+   ARMOR= 5
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {43 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz studded sleeves
+[ITEMDEF i_studded_sleeves_RoseQuartz]
+   DEFNAME= i_studded_sleeves_RoseQuartz
+   ID= i_studded_sleeves
+   NAME= RoseQuartz studded sleeves
+   ARMOR= 8
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_RoseQuartz, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz studded gloves
+[ITEMDEF i_studded_gloves_RoseQuartz]
+   DEFNAME= i_studded_gloves_RoseQuartz
+   ID= i_studded_gloves
+   NAME= RoseQuartz studded gloves
+   ARMOR= 5
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_RoseQuartz, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz studded gorget
+[ITEMDEF i_studded_gorget_RoseQuartz]
+   DEFNAME= i_studded_gorget_RoseQuartz
+   ID= i_studded_gorget
+   NAME= RoseQuartz studded gorget
+   ARMOR= 5
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_RoseQuartz, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz studded leggings
+[ITEMDEF i_studded_leggings_RoseQuartz]
+   DEFNAME= i_studded_leggings_RoseQuartz
+   ID= i_studded_leggings
+   NAME= RoseQuartz studded leggings
+   ARMOR= 14
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_RoseQuartz, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz studded tunic
+[ITEMDEF i_studded_tunic_RoseQuartz]
+   DEFNAME= i_studded_tunic_RoseQuartz
+   ID= i_studded_tunic
+   NAME= RoseQuartz studded tunic
+   ARMOR= 18
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_RoseQuartz, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz studded female armor
+[ITEMDEF i_armor_female_studded_RoseQuartz]
+   DEFNAME= i_armor_female_studded_RoseQuartz
+   ID= i_armor_female_studded
+   NAME= RoseQuartz studded female armor
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_RoseQuartz, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_RoseQuartz]
+   DEFNAME= i_armor_female_bustier_studded_RoseQuartz
+   ID= i_armor_female_bustier_studded
+   NAME= RoseQuartz studded female bustier
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_RoseQuartz, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz platemail mempo
+[ITEMDEF i_platemail_mempo_RoseQuartz]
+   DEFNAME= i_platemail_mempo_RoseQuartz
+   ID= i_platemail_mempo
+   NAME= RoseQuartz platemail mempo
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz platemail do
+[ITEMDEF i_platemail_do_RoseQuartz]
+   DEFNAME= i_platemail_do_RoseQuartz
+   ID= i_platemail_do
+   NAME= RoseQuartz platemail do
+   ARMOR= 23
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_RoseQuartz]
+   DEFNAME= i_platemail_hiro_sode_RoseQuartz
+   ID= i_platemail_hiro_sode
+   NAME= RoseQuartz platemail hiro sode
+   ARMOR= 19
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz platemail suneate
+[ITEMDEF i_platemail_suneate_RoseQuartz]
+   DEFNAME= i_platemail_suneate_RoseQuartz
+   ID= i_platemail_suneate
+   NAME= RoseQuartz platemail suneate
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz platemail haidate
+[ITEMDEF i_platemail_haidate_RoseQuartz]
+   DEFNAME= i_platemail_haidate_RoseQuartz
+   ID= i_platemail_haidate
+   NAME= RoseQuartz platemail haidate
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz studded mempo
+[ITEMDEF i_studded_mempo_RoseQuartz]
+   DEFNAME= i_studded_mempo_RoseQuartz
+   ID= i_studded_mempo
+   NAME= RoseQuartz studded mempo
+   ARMOR= 10
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_RoseQuartz, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz studded do
+[ITEMDEF i_studded_do_RoseQuartz]
+   DEFNAME= i_studded_do_RoseQuartz
+   ID= i_studded_do
+   NAME= RoseQuartz studded do
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_RoseQuartz, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz studded hiro sode
+[ITEMDEF i_studded_hiro_sode_RoseQuartz]
+   DEFNAME= i_studded_hiro_sode_RoseQuartz
+   ID= i_studded_hiro_sode
+   NAME= RoseQuartz studded hiro sode
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_RoseQuartz, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz studded suneate
+[ITEMDEF i_studded_suneate_RoseQuartz]
+   DEFNAME= i_studded_suneate_RoseQuartz
+   ID= i_studded_suneate
+   NAME= RoseQuartz studded suneate
+   ARMOR= 12
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_RoseQuartz, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz studded haidate
+[ITEMDEF i_studded_haidate_RoseQuartz]
+   DEFNAME= i_studded_haidate_RoseQuartz
+   ID= i_studded_haidate
+   NAME= RoseQuartz studded haidate
+   ARMOR= 10
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_RoseQuartz, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_RoseQuartz]
+   DEFNAME= i_platemail_gargish_arms_RoseQuartz
+   ID= i_platemail_gargish_arms
+   NAME= RoseQuartz Gargish Platemail Arms
+   ARMOR= 19
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_RoseQuartz]
+   DEFNAME= i_platemail_gargish_chest_RoseQuartz
+   ID= i_platemail_gargish_chest
+   NAME= RoseQuartz Gargish Platemail Chest
+   ARMOR= 27
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_RoseQuartz]
+   DEFNAME= i_platemail_gargish_kilt_RoseQuartz
+   ID= i_platemail_gargish_kilt
+   NAME= RoseQuartz Gargish Platemail Kilt
+   ARMOR= 18
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_RoseQuartz]
+   DEFNAME= i_platemail_gargish_leggings_RoseQuartz
+   ID= i_platemail_gargish_leggings
+   NAME= RoseQuartz Gargish Platemail Leggings
+   ARMOR= 23
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_RoseQuartz]
+   DEFNAME= i_platemail_gargish_arms_2_RoseQuartz
+   ID= i_platemail_gargish_arms_2
+   NAME= RoseQuartz Gargish Platemail Arms
+   ARMOR= 19
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_RoseQuartz]
+   DEFNAME= i_platemail_gargish_chest_2_RoseQuartz
+   ID= i_platemail_gargish_chest_2
+   NAME= RoseQuartz Gargish Platemail Chest
+   ARMOR= 27
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_RoseQuartz]
+   DEFNAME= i_platemail_gargish_kilt_2_RoseQuartz
+   ID= i_platemail_gargish_kilt_2
+   NAME= RoseQuartz Gargish Platemail Kilt
+   ARMOR= 18
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_RoseQuartz]
+   DEFNAME= i_platemail_gargish_leggings_2_RoseQuartz
+   ID= i_platemail_gargish_leggings_2
+   NAME= RoseQuartz Gargish Platemail Leggings
+   ARMOR= 23
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Closed Helmet
+[ITEMDEF i_helm_close_RoseQuartz]
+   DEFNAME= i_helm_close_RoseQuartz
+   ID= i_helm_close
+   NAME= RoseQuartz Closed Helmet
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Open Helmet
+[ITEMDEF i_helm_open_RoseQuartz]
+   DEFNAME= i_helm_open_RoseQuartz
+   ID= i_helm_open
+   NAME= RoseQuartz Open Helmet
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {43 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Bascinet
+[ITEMDEF i_bascinet_RoseQuartz]
+   DEFNAME= i_bascinet_RoseQuartz
+   ID= i_bascinet
+   NAME= RoseQuartz Bascinet
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Norse Helmet
+[ITEMDEF i_helm_norse_RoseQuartz]
+   DEFNAME= i_helm_norse_RoseQuartz
+   ID= i_helm_norse
+   NAME= RoseQuartz Norse Helmet
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Kabuto
+[ITEMDEF i_helm_kabuto_RoseQuartz]
+   DEFNAME= i_helm_kabuto_RoseQuartz
+   ID= i_helm_kabuto
+   NAME= RoseQuartz Kabuto
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_RoseQuartz]
+   DEFNAME= i_chainmail_hatsuburi_RoseQuartz
+   ID= i_chainmail_hatsuburi
+   NAME= RoseQuartz Chainmail Hatsuburi
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_RoseQuartz]
+   DEFNAME= i_platemail_hatsuburi_RoseQuartz
+   ID= i_platemail_hatsuburi
+   NAME= RoseQuartz Platemail Hatsuburi
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_RoseQuartz]
+   DEFNAME= i_plate_jingasa_heavy_RoseQuartz
+   ID= i_plate_jingasa_heavy
+   NAME= RoseQuartz Heavy Jingasa
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_RoseQuartz]
+   DEFNAME= i_platemail_kabuto_decorative_RoseQuartz
+   ID= i_platemail_kabuto_decorative
+   NAME= RoseQuartz Decorative Platemail Kabuto
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {93 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Light Jingasa
+[ITEMDEF i_plate_jingasa_light_RoseQuartz]
+   DEFNAME= i_plate_jingasa_light_RoseQuartz
+   ID= i_plate_jingasa_light
+   NAME= RoseQuartz Light Jingasa
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Small Jingasa
+[ITEMDEF i_plate_jingasa_small_RoseQuartz]
+   DEFNAME= i_plate_jingasa_small_RoseQuartz
+   ID= i_plate_jingasa_small
+   NAME= RoseQuartz Small Jingasa
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_RoseQuartz]
+   DEFNAME= i_platemail_kabuto_battle_RoseQuartz
+   ID= i_platemail_kabuto_battle
+   NAME= RoseQuartz Platemail Battle Kabuto
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_RoseQuartz]
+   DEFNAME= i_platemail_kabuto_RoseQuartz
+   ID= i_platemail_kabuto
+   NAME= RoseQuartz Platemail Kabuto
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Circlet
+[ITEMDEF i_circlet_RoseQuartz]
+   DEFNAME= i_circlet_RoseQuartz
+   ID= i_circlet
+   NAME= RoseQuartz Circlet
+   ARMOR= 9
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Royal Circlet
+[ITEMDEF i_circlet_royal_RoseQuartz]
+   DEFNAME= i_circlet_royal_RoseQuartz
+   ID= i_circlet_royal
+   NAME= RoseQuartz Royal Circlet
+   ARMOR= 9
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_RoseQuartz]
+   DEFNAME= i_circlet_gemmed_RoseQuartz
+   ID= i_circlet_gemmed
+   NAME= RoseQuartz Gemmed Circlet
+   ARMOR= 9
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {103 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Buckler
+[ITEMDEF i_shield_buckler_RoseQuartz]
+   DEFNAME= i_shield_buckler_RoseQuartz
+   ID= i_shield_buckler
+   NAME= RoseQuartz Buckler
+   ARMOR= 8
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Wooden Shield
+[ITEMDEF i_shield_wood_RoseQuartz]
+   DEFNAME= i_shield_wood_RoseQuartz
+   ID= i_shield_wood
+   NAME= RoseQuartz Wooden Shield
+   ARMOR= 9
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {43 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_RoseQuartz]
+   DEFNAME= i_shield_round_metal_RoseQuartz
+   ID= i_shield_round_metal
+   NAME= RoseQuartz Light Metal  Round Shield
+   ARMOR= 10
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_RoseQuartz]
+   DEFNAME= i_shield_round_bronze_RoseQuartz
+   ID= i_shield_round_bronze
+   NAME= RoseQuartz Heavy Metal  Round Shield
+   ARMOR= 12
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_RoseQuartz]
+   DEFNAME= i_shield_kite_metal_RoseQuartz
+   ID= i_shield_kite_metal
+   NAME= RoseQuartz Metal Kite Shield
+   ARMOR= 14
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_RoseQuartz]
+   DEFNAME= i_shield_kite_wood_RoseQuartz
+   ID= i_shield_kite_wood
+   NAME= RoseQuartz Wooden Kite Shield
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Heater Shield
+[ITEMDEF i_shield_heater_RoseQuartz]
+   DEFNAME= i_shield_heater_RoseQuartz
+   ID= i_shield_heater
+   NAME= RoseQuartz Heater Shield
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {93 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Ancient Shield
+[ITEMDEF i_shield_dupre_RoseQuartz]
+   DEFNAME= i_shield_dupre_RoseQuartz
+   ID= i_shield_dupre
+   NAME= RoseQuartz Ancient Shield
+   ARMOR= 17
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {103 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Shield oh Hell
+[ITEMDEF i_shield_scale_RoseQuartz]
+   DEFNAME= i_shield_scale_RoseQuartz
+   ID= i_shield_scale
+   NAME= RoseQuartz Shield oh Hell
+   ARMOR= 17
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {103 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Chaos Shield
+[ITEMDEF i_shield_chaos_RoseQuartz]
+   DEFNAME= i_shield_chaos_RoseQuartz
+   ID= i_shield_chaos
+   NAME= RoseQuartz Chaos Shield
+   ARMOR= 18
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {113 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////RoseQuartz Order Shield
+[ITEMDEF i_shield_order_RoseQuartz]
+   DEFNAME= i_shield_order_RoseQuartz
+   ID= i_shield_order
+   NAME= RoseQuartz Order Shield
+   ARMOR= 18
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_RoseQuartz
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= RoseQuartz
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_RoseQuartz
+   HITPOINTS= {113 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

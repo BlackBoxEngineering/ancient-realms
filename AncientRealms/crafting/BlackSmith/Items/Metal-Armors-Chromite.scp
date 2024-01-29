@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Chromite Platemail Arms
+[ITEMDEF i_platemail_arms_Chromite]
+   DEFNAME= i_platemail_arms_Chromite
+   ID= i_platemail_arms
+   NAME= Chromite Platemail Arms
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Platemail Leggings
+[ITEMDEF i_platemail_leggings_Chromite]
+   DEFNAME= i_platemail_leggings_Chromite
+   ID= i_platemail_leggings
+   NAME= Chromite Platemail Leggings
+   ARMOR= 29
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Platemail Helmet
+[ITEMDEF i_platemail_helm_Chromite]
+   DEFNAME= i_platemail_helm_Chromite
+   ID= i_platemail_helm
+   NAME= Chromite Platemail Helmet
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Platemail Gorget
+[ITEMDEF i_platemail_gorget_Chromite]
+   DEFNAME= i_platemail_gorget_Chromite
+   ID= i_platemail_gorget
+   NAME= Chromite Platemail Gorget
+   ARMOR= 19
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Chromite]
+   DEFNAME= i_platemail_gorget2_Chromite
+   ID= i_platemail_gorget2
+   NAME= Chromite Platemail Gorget
+   ARMOR= 19
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Platemail Gloves
+[ITEMDEF i_platemail_gloves_Chromite]
+   DEFNAME= i_platemail_gloves_Chromite
+   ID= i_platemail_gloves
+   NAME= Chromite Platemail Gloves
+   ARMOR= 19
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Platemail Chest
+[ITEMDEF i_platemail_chest_Chromite]
+   DEFNAME= i_platemail_chest_Chromite
+   ID= i_platemail_chest
+   NAME= Chromite Platemail Chest
+   ARMOR= 33
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Chromite]
+   DEFNAME= i_armor_female_plate_Chromite
+   ID= i_armor_female_plate
+   NAME= Chromite Platemail Female Plate
+   ARMOR= 31
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite chainmail coif
+[ITEMDEF i_chainmail_coif_Chromite]
+   DEFNAME= i_chainmail_coif_Chromite
+   ID= i_chainmail_coif
+   NAME= Chromite chainmail coif
+   ARMOR= 25
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {61 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite chainmail leggings
+[ITEMDEF i_chainmail_leggings_Chromite]
+   DEFNAME= i_chainmail_leggings_Chromite
+   ID= i_chainmail_leggings
+   NAME= Chromite chainmail leggings
+   ARMOR= 27
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {61 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite chainmail tunic
+[ITEMDEF i_chainmail_tunic_Chromite]
+   DEFNAME= i_chainmail_tunic_Chromite
+   ID= i_chainmail_tunic
+   NAME= Chromite chainmail tunic
+   ARMOR= 31
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {61 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Chromite]
+   DEFNAME= i_ringmail_sleeves_Chromite
+   ID= i_ringmail_sleeves
+   NAME= Chromite Ringmail Sleeves
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {51 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Chromite]
+   DEFNAME= i_ringmail_leggings_Chromite
+   ID= i_ringmail_leggings
+   NAME= Chromite Ringmail Leggings
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {51 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Chromite]
+   DEFNAME= i_ringmail_tunic_Chromite
+   ID= i_ringmail_tunic
+   NAME= Chromite Ringmail Tunic
+   ARMOR= 27
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {51 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Chromite]
+   DEFNAME= i_ringmail_gloves_Chromite
+   ID= i_ringmail_gloves
+   NAME= Chromite Ringmail Gloves
+   ARMOR= 13
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {51 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite studded sleeves
+[ITEMDEF i_studded_sleeves_Chromite]
+   DEFNAME= i_studded_sleeves_Chromite
+   ID= i_studded_sleeves
+   NAME= Chromite studded sleeves
+   ARMOR= 16
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Chromite, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite studded gloves
+[ITEMDEF i_studded_gloves_Chromite]
+   DEFNAME= i_studded_gloves_Chromite
+   ID= i_studded_gloves
+   NAME= Chromite studded gloves
+   ARMOR= 13
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Chromite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite studded gorget
+[ITEMDEF i_studded_gorget_Chromite]
+   DEFNAME= i_studded_gorget_Chromite
+   ID= i_studded_gorget
+   NAME= Chromite studded gorget
+   ARMOR= 13
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Chromite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite studded leggings
+[ITEMDEF i_studded_leggings_Chromite]
+   DEFNAME= i_studded_leggings_Chromite
+   ID= i_studded_leggings
+   NAME= Chromite studded leggings
+   ARMOR= 22
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Chromite, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite studded tunic
+[ITEMDEF i_studded_tunic_Chromite]
+   DEFNAME= i_studded_tunic_Chromite
+   ID= i_studded_tunic
+   NAME= Chromite studded tunic
+   ARMOR= 26
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Chromite, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite studded female armor
+[ITEMDEF i_armor_female_studded_Chromite]
+   DEFNAME= i_armor_female_studded_Chromite
+   ID= i_armor_female_studded
+   NAME= Chromite studded female armor
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Chromite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Chromite]
+   DEFNAME= i_armor_female_bustier_studded_Chromite
+   ID= i_armor_female_bustier_studded
+   NAME= Chromite studded female bustier
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Chromite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite platemail mempo
+[ITEMDEF i_platemail_mempo_Chromite]
+   DEFNAME= i_platemail_mempo_Chromite
+   ID= i_platemail_mempo
+   NAME= Chromite platemail mempo
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite platemail do
+[ITEMDEF i_platemail_do_Chromite]
+   DEFNAME= i_platemail_do_Chromite
+   ID= i_platemail_do
+   NAME= Chromite platemail do
+   ARMOR= 31
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Chromite]
+   DEFNAME= i_platemail_hiro_sode_Chromite
+   ID= i_platemail_hiro_sode
+   NAME= Chromite platemail hiro sode
+   ARMOR= 27
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite platemail suneate
+[ITEMDEF i_platemail_suneate_Chromite]
+   DEFNAME= i_platemail_suneate_Chromite
+   ID= i_platemail_suneate
+   NAME= Chromite platemail suneate
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite platemail haidate
+[ITEMDEF i_platemail_haidate_Chromite]
+   DEFNAME= i_platemail_haidate_Chromite
+   ID= i_platemail_haidate
+   NAME= Chromite platemail haidate
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite studded mempo
+[ITEMDEF i_studded_mempo_Chromite]
+   DEFNAME= i_studded_mempo_Chromite
+   ID= i_studded_mempo
+   NAME= Chromite studded mempo
+   ARMOR= 18
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Chromite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite studded do
+[ITEMDEF i_studded_do_Chromite]
+   DEFNAME= i_studded_do_Chromite
+   ID= i_studded_do
+   NAME= Chromite studded do
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Chromite, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Chromite]
+   DEFNAME= i_studded_hiro_sode_Chromite
+   ID= i_studded_hiro_sode
+   NAME= Chromite studded hiro sode
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Chromite, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite studded suneate
+[ITEMDEF i_studded_suneate_Chromite]
+   DEFNAME= i_studded_suneate_Chromite
+   ID= i_studded_suneate
+   NAME= Chromite studded suneate
+   ARMOR= 20
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Chromite, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite studded haidate
+[ITEMDEF i_studded_haidate_Chromite]
+   DEFNAME= i_studded_haidate_Chromite
+   ID= i_studded_haidate
+   NAME= Chromite studded haidate
+   ARMOR= 18
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Chromite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Chromite]
+   DEFNAME= i_platemail_gargish_arms_Chromite
+   ID= i_platemail_gargish_arms
+   NAME= Chromite Gargish Platemail Arms
+   ARMOR= 27
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Chromite]
+   DEFNAME= i_platemail_gargish_chest_Chromite
+   ID= i_platemail_gargish_chest
+   NAME= Chromite Gargish Platemail Chest
+   ARMOR= 35
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Chromite]
+   DEFNAME= i_platemail_gargish_kilt_Chromite
+   ID= i_platemail_gargish_kilt
+   NAME= Chromite Gargish Platemail Kilt
+   ARMOR= 26
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Chromite]
+   DEFNAME= i_platemail_gargish_leggings_Chromite
+   ID= i_platemail_gargish_leggings
+   NAME= Chromite Gargish Platemail Leggings
+   ARMOR= 31
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Chromite]
+   DEFNAME= i_platemail_gargish_arms_2_Chromite
+   ID= i_platemail_gargish_arms_2
+   NAME= Chromite Gargish Platemail Arms
+   ARMOR= 27
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Chromite]
+   DEFNAME= i_platemail_gargish_chest_2_Chromite
+   ID= i_platemail_gargish_chest_2
+   NAME= Chromite Gargish Platemail Chest
+   ARMOR= 35
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Chromite]
+   DEFNAME= i_platemail_gargish_kilt_2_Chromite
+   ID= i_platemail_gargish_kilt_2
+   NAME= Chromite Gargish Platemail Kilt
+   ARMOR= 26
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Chromite]
+   DEFNAME= i_platemail_gargish_leggings_2_Chromite
+   ID= i_platemail_gargish_leggings_2
+   NAME= Chromite Gargish Platemail Leggings
+   ARMOR= 31
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Closed Helmet
+[ITEMDEF i_helm_close_Chromite]
+   DEFNAME= i_helm_close_Chromite
+   ID= i_helm_close
+   NAME= Chromite Closed Helmet
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Open Helmet
+[ITEMDEF i_helm_open_Chromite]
+   DEFNAME= i_helm_open_Chromite
+   ID= i_helm_open
+   NAME= Chromite Open Helmet
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {51 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Bascinet
+[ITEMDEF i_bascinet_Chromite]
+   DEFNAME= i_bascinet_Chromite
+   ID= i_bascinet
+   NAME= Chromite Bascinet
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Norse Helmet
+[ITEMDEF i_helm_norse_Chromite]
+   DEFNAME= i_helm_norse_Chromite
+   ID= i_helm_norse
+   NAME= Chromite Norse Helmet
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {61 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Kabuto
+[ITEMDEF i_helm_kabuto_Chromite]
+   DEFNAME= i_helm_kabuto_Chromite
+   ID= i_helm_kabuto
+   NAME= Chromite Kabuto
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Chromite]
+   DEFNAME= i_chainmail_hatsuburi_Chromite
+   ID= i_chainmail_hatsuburi
+   NAME= Chromite Chainmail Hatsuburi
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Chromite]
+   DEFNAME= i_platemail_hatsuburi_Chromite
+   ID= i_platemail_hatsuburi
+   NAME= Chromite Platemail Hatsuburi
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Chromite]
+   DEFNAME= i_plate_jingasa_heavy_Chromite
+   ID= i_plate_jingasa_heavy
+   NAME= Chromite Heavy Jingasa
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Chromite]
+   DEFNAME= i_platemail_kabuto_decorative_Chromite
+   ID= i_platemail_kabuto_decorative
+   NAME= Chromite Decorative Platemail Kabuto
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {101 990}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Chromite]
+   DEFNAME= i_plate_jingasa_light_Chromite
+   ID= i_plate_jingasa_light
+   NAME= Chromite Light Jingasa
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Chromite]
+   DEFNAME= i_plate_jingasa_small_Chromite
+   ID= i_plate_jingasa_small
+   NAME= Chromite Small Jingasa
+   ARMOR= 19
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {61 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Chromite]
+   DEFNAME= i_platemail_kabuto_battle_Chromite
+   ID= i_platemail_kabuto_battle
+   NAME= Chromite Platemail Battle Kabuto
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Chromite]
+   DEFNAME= i_platemail_kabuto_Chromite
+   ID= i_platemail_kabuto
+   NAME= Chromite Platemail Kabuto
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Circlet
+[ITEMDEF i_circlet_Chromite]
+   DEFNAME= i_circlet_Chromite
+   ID= i_circlet
+   NAME= Chromite Circlet
+   ARMOR= 17
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Royal Circlet
+[ITEMDEF i_circlet_royal_Chromite]
+   DEFNAME= i_circlet_royal_Chromite
+   ID= i_circlet_royal
+   NAME= Chromite Royal Circlet
+   ARMOR= 17
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Chromite]
+   DEFNAME= i_circlet_gemmed_Chromite
+   ID= i_circlet_gemmed
+   NAME= Chromite Gemmed Circlet
+   ARMOR= 17
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {111 1100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Buckler
+[ITEMDEF i_shield_buckler_Chromite]
+   DEFNAME= i_shield_buckler_Chromite
+   ID= i_shield_buckler
+   NAME= Chromite Buckler
+   ARMOR= 16
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Wooden Shield
+[ITEMDEF i_shield_wood_Chromite]
+   DEFNAME= i_shield_wood_Chromite
+   ID= i_shield_wood
+   NAME= Chromite Wooden Shield
+   ARMOR= 17
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {51 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Chromite]
+   DEFNAME= i_shield_round_metal_Chromite
+   ID= i_shield_round_metal
+   NAME= Chromite Light Metal  Round Shield
+   ARMOR= 18
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {61 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Chromite]
+   DEFNAME= i_shield_round_bronze_Chromite
+   ID= i_shield_round_bronze
+   NAME= Chromite Heavy Metal  Round Shield
+   ARMOR= 20
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Chromite]
+   DEFNAME= i_shield_kite_metal_Chromite
+   ID= i_shield_kite_metal
+   NAME= Chromite Metal Kite Shield
+   ARMOR= 22
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Chromite]
+   DEFNAME= i_shield_kite_wood_Chromite
+   ID= i_shield_kite_wood
+   NAME= Chromite Wooden Kite Shield
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Heater Shield
+[ITEMDEF i_shield_heater_Chromite]
+   DEFNAME= i_shield_heater_Chromite
+   ID= i_shield_heater
+   NAME= Chromite Heater Shield
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {101 990}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Ancient Shield
+[ITEMDEF i_shield_dupre_Chromite]
+   DEFNAME= i_shield_dupre_Chromite
+   ID= i_shield_dupre
+   NAME= Chromite Ancient Shield
+   ARMOR= 25
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {111 1100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Shield oh Hell
+[ITEMDEF i_shield_scale_Chromite]
+   DEFNAME= i_shield_scale_Chromite
+   ID= i_shield_scale
+   NAME= Chromite Shield oh Hell
+   ARMOR= 25
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {111 1100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Chaos Shield
+[ITEMDEF i_shield_chaos_Chromite]
+   DEFNAME= i_shield_chaos_Chromite
+   ID= i_shield_chaos
+   NAME= Chromite Chaos Shield
+   ARMOR= 26
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {121 1210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromite Order Shield
+[ITEMDEF i_shield_order_Chromite]
+   DEFNAME= i_shield_order_Chromite
+   ID= i_shield_order
+   NAME= Chromite Order Shield
+   ARMOR= 26
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Chromite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromite
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Chromite
+   HITPOINTS= {121 1210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

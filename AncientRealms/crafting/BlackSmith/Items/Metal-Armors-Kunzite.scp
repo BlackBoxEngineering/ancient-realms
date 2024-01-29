@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Kunzite Platemail Arms
+[ITEMDEF i_platemail_arms_Kunzite]
+   DEFNAME= i_platemail_arms_Kunzite
+   ID= i_platemail_arms
+   NAME= Kunzite Platemail Arms
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Platemail Leggings
+[ITEMDEF i_platemail_leggings_Kunzite]
+   DEFNAME= i_platemail_leggings_Kunzite
+   ID= i_platemail_leggings
+   NAME= Kunzite Platemail Leggings
+   ARMOR= 23
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Platemail Helmet
+[ITEMDEF i_platemail_helm_Kunzite]
+   DEFNAME= i_platemail_helm_Kunzite
+   ID= i_platemail_helm
+   NAME= Kunzite Platemail Helmet
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Platemail Gorget
+[ITEMDEF i_platemail_gorget_Kunzite]
+   DEFNAME= i_platemail_gorget_Kunzite
+   ID= i_platemail_gorget
+   NAME= Kunzite Platemail Gorget
+   ARMOR= 13
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Kunzite]
+   DEFNAME= i_platemail_gorget2_Kunzite
+   ID= i_platemail_gorget2
+   NAME= Kunzite Platemail Gorget
+   ARMOR= 13
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Platemail Gloves
+[ITEMDEF i_platemail_gloves_Kunzite]
+   DEFNAME= i_platemail_gloves_Kunzite
+   ID= i_platemail_gloves
+   NAME= Kunzite Platemail Gloves
+   ARMOR= 13
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Platemail Chest
+[ITEMDEF i_platemail_chest_Kunzite]
+   DEFNAME= i_platemail_chest_Kunzite
+   ID= i_platemail_chest
+   NAME= Kunzite Platemail Chest
+   ARMOR= 27
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Kunzite]
+   DEFNAME= i_armor_female_plate_Kunzite
+   ID= i_armor_female_plate
+   NAME= Kunzite Platemail Female Plate
+   ARMOR= 25
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite chainmail coif
+[ITEMDEF i_chainmail_coif_Kunzite]
+   DEFNAME= i_chainmail_coif_Kunzite
+   ID= i_chainmail_coif
+   NAME= Kunzite chainmail coif
+   ARMOR= 19
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {55 250}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite chainmail leggings
+[ITEMDEF i_chainmail_leggings_Kunzite]
+   DEFNAME= i_chainmail_leggings_Kunzite
+   ID= i_chainmail_leggings
+   NAME= Kunzite chainmail leggings
+   ARMOR= 21
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {55 250}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite chainmail tunic
+[ITEMDEF i_chainmail_tunic_Kunzite]
+   DEFNAME= i_chainmail_tunic_Kunzite
+   ID= i_chainmail_tunic
+   NAME= Kunzite chainmail tunic
+   ARMOR= 25
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {55 250}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Kunzite]
+   DEFNAME= i_ringmail_sleeves_Kunzite
+   ID= i_ringmail_sleeves
+   NAME= Kunzite Ringmail Sleeves
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {45 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Kunzite]
+   DEFNAME= i_ringmail_leggings_Kunzite
+   ID= i_ringmail_leggings
+   NAME= Kunzite Ringmail Leggings
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {45 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Kunzite]
+   DEFNAME= i_ringmail_tunic_Kunzite
+   ID= i_ringmail_tunic
+   NAME= Kunzite Ringmail Tunic
+   ARMOR= 21
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {45 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Kunzite]
+   DEFNAME= i_ringmail_gloves_Kunzite
+   ID= i_ringmail_gloves
+   NAME= Kunzite Ringmail Gloves
+   ARMOR= 7
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {45 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite studded sleeves
+[ITEMDEF i_studded_sleeves_Kunzite]
+   DEFNAME= i_studded_sleeves_Kunzite
+   ID= i_studded_sleeves
+   NAME= Kunzite studded sleeves
+   ARMOR= 10
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Kunzite, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite studded gloves
+[ITEMDEF i_studded_gloves_Kunzite]
+   DEFNAME= i_studded_gloves_Kunzite
+   ID= i_studded_gloves
+   NAME= Kunzite studded gloves
+   ARMOR= 7
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Kunzite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite studded gorget
+[ITEMDEF i_studded_gorget_Kunzite]
+   DEFNAME= i_studded_gorget_Kunzite
+   ID= i_studded_gorget
+   NAME= Kunzite studded gorget
+   ARMOR= 7
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Kunzite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite studded leggings
+[ITEMDEF i_studded_leggings_Kunzite]
+   DEFNAME= i_studded_leggings_Kunzite
+   ID= i_studded_leggings
+   NAME= Kunzite studded leggings
+   ARMOR= 16
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Kunzite, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite studded tunic
+[ITEMDEF i_studded_tunic_Kunzite]
+   DEFNAME= i_studded_tunic_Kunzite
+   ID= i_studded_tunic
+   NAME= Kunzite studded tunic
+   ARMOR= 20
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Kunzite, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite studded female armor
+[ITEMDEF i_armor_female_studded_Kunzite]
+   DEFNAME= i_armor_female_studded_Kunzite
+   ID= i_armor_female_studded
+   NAME= Kunzite studded female armor
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Kunzite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Kunzite]
+   DEFNAME= i_armor_female_bustier_studded_Kunzite
+   ID= i_armor_female_bustier_studded
+   NAME= Kunzite studded female bustier
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Kunzite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite platemail mempo
+[ITEMDEF i_platemail_mempo_Kunzite]
+   DEFNAME= i_platemail_mempo_Kunzite
+   ID= i_platemail_mempo
+   NAME= Kunzite platemail mempo
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite platemail do
+[ITEMDEF i_platemail_do_Kunzite]
+   DEFNAME= i_platemail_do_Kunzite
+   ID= i_platemail_do
+   NAME= Kunzite platemail do
+   ARMOR= 25
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Kunzite]
+   DEFNAME= i_platemail_hiro_sode_Kunzite
+   ID= i_platemail_hiro_sode
+   NAME= Kunzite platemail hiro sode
+   ARMOR= 21
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite platemail suneate
+[ITEMDEF i_platemail_suneate_Kunzite]
+   DEFNAME= i_platemail_suneate_Kunzite
+   ID= i_platemail_suneate
+   NAME= Kunzite platemail suneate
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite platemail haidate
+[ITEMDEF i_platemail_haidate_Kunzite]
+   DEFNAME= i_platemail_haidate_Kunzite
+   ID= i_platemail_haidate
+   NAME= Kunzite platemail haidate
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite studded mempo
+[ITEMDEF i_studded_mempo_Kunzite]
+   DEFNAME= i_studded_mempo_Kunzite
+   ID= i_studded_mempo
+   NAME= Kunzite studded mempo
+   ARMOR= 12
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Kunzite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite studded do
+[ITEMDEF i_studded_do_Kunzite]
+   DEFNAME= i_studded_do_Kunzite
+   ID= i_studded_do
+   NAME= Kunzite studded do
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Kunzite, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Kunzite]
+   DEFNAME= i_studded_hiro_sode_Kunzite
+   ID= i_studded_hiro_sode
+   NAME= Kunzite studded hiro sode
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Kunzite, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite studded suneate
+[ITEMDEF i_studded_suneate_Kunzite]
+   DEFNAME= i_studded_suneate_Kunzite
+   ID= i_studded_suneate
+   NAME= Kunzite studded suneate
+   ARMOR= 14
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Kunzite, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite studded haidate
+[ITEMDEF i_studded_haidate_Kunzite]
+   DEFNAME= i_studded_haidate_Kunzite
+   ID= i_studded_haidate
+   NAME= Kunzite studded haidate
+   ARMOR= 12
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Kunzite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Kunzite]
+   DEFNAME= i_platemail_gargish_arms_Kunzite
+   ID= i_platemail_gargish_arms
+   NAME= Kunzite Gargish Platemail Arms
+   ARMOR= 21
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Kunzite]
+   DEFNAME= i_platemail_gargish_chest_Kunzite
+   ID= i_platemail_gargish_chest
+   NAME= Kunzite Gargish Platemail Chest
+   ARMOR= 29
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Kunzite]
+   DEFNAME= i_platemail_gargish_kilt_Kunzite
+   ID= i_platemail_gargish_kilt
+   NAME= Kunzite Gargish Platemail Kilt
+   ARMOR= 20
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Kunzite]
+   DEFNAME= i_platemail_gargish_leggings_Kunzite
+   ID= i_platemail_gargish_leggings
+   NAME= Kunzite Gargish Platemail Leggings
+   ARMOR= 25
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Kunzite]
+   DEFNAME= i_platemail_gargish_arms_2_Kunzite
+   ID= i_platemail_gargish_arms_2
+   NAME= Kunzite Gargish Platemail Arms
+   ARMOR= 21
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Kunzite]
+   DEFNAME= i_platemail_gargish_chest_2_Kunzite
+   ID= i_platemail_gargish_chest_2
+   NAME= Kunzite Gargish Platemail Chest
+   ARMOR= 29
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Kunzite]
+   DEFNAME= i_platemail_gargish_kilt_2_Kunzite
+   ID= i_platemail_gargish_kilt_2
+   NAME= Kunzite Gargish Platemail Kilt
+   ARMOR= 20
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Kunzite]
+   DEFNAME= i_platemail_gargish_leggings_2_Kunzite
+   ID= i_platemail_gargish_leggings_2
+   NAME= Kunzite Gargish Platemail Leggings
+   ARMOR= 25
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Closed Helmet
+[ITEMDEF i_helm_close_Kunzite]
+   DEFNAME= i_helm_close_Kunzite
+   ID= i_helm_close
+   NAME= Kunzite Closed Helmet
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Open Helmet
+[ITEMDEF i_helm_open_Kunzite]
+   DEFNAME= i_helm_open_Kunzite
+   ID= i_helm_open
+   NAME= Kunzite Open Helmet
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {45 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Bascinet
+[ITEMDEF i_bascinet_Kunzite]
+   DEFNAME= i_bascinet_Kunzite
+   ID= i_bascinet
+   NAME= Kunzite Bascinet
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Norse Helmet
+[ITEMDEF i_helm_norse_Kunzite]
+   DEFNAME= i_helm_norse_Kunzite
+   ID= i_helm_norse
+   NAME= Kunzite Norse Helmet
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {55 250}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Kabuto
+[ITEMDEF i_helm_kabuto_Kunzite]
+   DEFNAME= i_helm_kabuto_Kunzite
+   ID= i_helm_kabuto
+   NAME= Kunzite Kabuto
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Kunzite]
+   DEFNAME= i_chainmail_hatsuburi_Kunzite
+   ID= i_chainmail_hatsuburi
+   NAME= Kunzite Chainmail Hatsuburi
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Kunzite]
+   DEFNAME= i_platemail_hatsuburi_Kunzite
+   ID= i_platemail_hatsuburi
+   NAME= Kunzite Platemail Hatsuburi
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Kunzite]
+   DEFNAME= i_plate_jingasa_heavy_Kunzite
+   ID= i_plate_jingasa_heavy
+   NAME= Kunzite Heavy Jingasa
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Kunzite]
+   DEFNAME= i_platemail_kabuto_decorative_Kunzite
+   ID= i_platemail_kabuto_decorative
+   NAME= Kunzite Decorative Platemail Kabuto
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {95 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Kunzite]
+   DEFNAME= i_plate_jingasa_light_Kunzite
+   ID= i_plate_jingasa_light
+   NAME= Kunzite Light Jingasa
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Kunzite]
+   DEFNAME= i_plate_jingasa_small_Kunzite
+   ID= i_plate_jingasa_small
+   NAME= Kunzite Small Jingasa
+   ARMOR= 13
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {55 250}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Kunzite]
+   DEFNAME= i_platemail_kabuto_battle_Kunzite
+   ID= i_platemail_kabuto_battle
+   NAME= Kunzite Platemail Battle Kabuto
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Kunzite]
+   DEFNAME= i_platemail_kabuto_Kunzite
+   ID= i_platemail_kabuto
+   NAME= Kunzite Platemail Kabuto
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Circlet
+[ITEMDEF i_circlet_Kunzite]
+   DEFNAME= i_circlet_Kunzite
+   ID= i_circlet
+   NAME= Kunzite Circlet
+   ARMOR= 11
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Royal Circlet
+[ITEMDEF i_circlet_royal_Kunzite]
+   DEFNAME= i_circlet_royal_Kunzite
+   ID= i_circlet_royal
+   NAME= Kunzite Royal Circlet
+   ARMOR= 11
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Kunzite]
+   DEFNAME= i_circlet_gemmed_Kunzite
+   ID= i_circlet_gemmed
+   NAME= Kunzite Gemmed Circlet
+   ARMOR= 11
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {105 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Buckler
+[ITEMDEF i_shield_buckler_Kunzite]
+   DEFNAME= i_shield_buckler_Kunzite
+   ID= i_shield_buckler
+   NAME= Kunzite Buckler
+   ARMOR= 10
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Wooden Shield
+[ITEMDEF i_shield_wood_Kunzite]
+   DEFNAME= i_shield_wood_Kunzite
+   ID= i_shield_wood
+   NAME= Kunzite Wooden Shield
+   ARMOR= 11
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {45 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Kunzite]
+   DEFNAME= i_shield_round_metal_Kunzite
+   ID= i_shield_round_metal
+   NAME= Kunzite Light Metal  Round Shield
+   ARMOR= 12
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {55 250}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Kunzite]
+   DEFNAME= i_shield_round_bronze_Kunzite
+   ID= i_shield_round_bronze
+   NAME= Kunzite Heavy Metal  Round Shield
+   ARMOR= 14
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Kunzite]
+   DEFNAME= i_shield_kite_metal_Kunzite
+   ID= i_shield_kite_metal
+   NAME= Kunzite Metal Kite Shield
+   ARMOR= 16
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Kunzite]
+   DEFNAME= i_shield_kite_wood_Kunzite
+   ID= i_shield_kite_wood
+   NAME= Kunzite Wooden Kite Shield
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Heater Shield
+[ITEMDEF i_shield_heater_Kunzite]
+   DEFNAME= i_shield_heater_Kunzite
+   ID= i_shield_heater
+   NAME= Kunzite Heater Shield
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {95 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Ancient Shield
+[ITEMDEF i_shield_dupre_Kunzite]
+   DEFNAME= i_shield_dupre_Kunzite
+   ID= i_shield_dupre
+   NAME= Kunzite Ancient Shield
+   ARMOR= 19
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {105 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Shield oh Hell
+[ITEMDEF i_shield_scale_Kunzite]
+   DEFNAME= i_shield_scale_Kunzite
+   ID= i_shield_scale
+   NAME= Kunzite Shield oh Hell
+   ARMOR= 19
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {105 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Chaos Shield
+[ITEMDEF i_shield_chaos_Kunzite]
+   DEFNAME= i_shield_chaos_Kunzite
+   ID= i_shield_chaos
+   NAME= Kunzite Chaos Shield
+   ARMOR= 20
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {115 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Order Shield
+[ITEMDEF i_shield_order_Kunzite]
+   DEFNAME= i_shield_order_Kunzite
+   ID= i_shield_order
+   NAME= Kunzite Order Shield
+   ARMOR= 20
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Kunzite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kunzite
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS= {115 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

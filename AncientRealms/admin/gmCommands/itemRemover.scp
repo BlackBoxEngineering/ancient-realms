@@ -1,0 +1,21 @@
+[FUNCTION f_ItemRemoverRemover]
+
+	FORINSTANCES <ARGV[0]>
+		REMOVE
+		LOCAL.ActualCount=<INSTANCES>
+	ENDFOR
+	SYSMESSAGE @55 AncientRealms Removed <EVAL <LOCAL.ActualCount>> <ARGV[0]> From the Server
+
+[FUNCTION f_ItemRemoverSelector]
+
+	IF (<ARGO.ISITEM>)
+		ARGS=<ARGO.BASEID>
+		CALL f_ItemRemoverRemover <ARGS>
+	ENDIF
+
+[FUNCTION ItemRemover]
+
+	SYSMESSAGE @63 Which Type of Item Would you Like to Delete From This World?
+	SRC.TARGETF f_ItemRemoverSelector
+	
+[EOF]

@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Vanadinate Quarter Staff
+
+[ITEMDEF i_staff_quarter_Vanadinate]
+   DEFNAME=i_staff_quarter_Vanadinate
+   ID=i_staff_quarter
+   NAME=Vanadinate Quarter Staff
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=19
+   VALUE=44
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={20 26}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Vanadinate]
+   DEFNAME=i_serpentstone_staff_Vanadinate
+   ID=i_serpentstone_staff
+   NAME=Vanadinate Serpentstone Staff
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=23
+   VALUE=44
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={60 66}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Vanadinate]
+   DEFNAME=i_staff_bladed_double_Vanadinate
+   ID=i_staff_bladed_double
+   NAME=Vanadinate Double Bladed Staff
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=31
+   VALUE=44
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={120 126}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Glass Staff
+
+[ITEMDEF i_glass_staff_Vanadinate]
+   DEFNAME=i_glass_staff_Vanadinate
+   ID=i_glass_staff
+   NAME=Vanadinate Glass Staff
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=28
+   VALUE=44
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={90 96}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Bladed Staff
+
+[ITEMDEF i_bladed_staff_Vanadinate]
+   DEFNAME=i_bladed_staff_Vanadinate
+   ID=i_bladed_staff
+   NAME=Vanadinate Bladed Staff
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=29
+   VALUE=44
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={115 121}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Tongs
+
+[ITEMDEF i_tongs_Vanadinate]
+   DEFNAME=i_tongs_Vanadinate
+   ID=i_tongs
+   NAME=Vanadinate Tongs
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=6
+   VALUE=44
+   SPEED=8
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={0 6}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Mace
+
+[ITEMDEF i_mace_Vanadinate]
+   DEFNAME=i_mace_Vanadinate
+   ID=i_mace
+   NAME=Vanadinate Mace
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=19
+   VALUE=44
+   SPEED=37
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={30 36}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Maul
+
+[ITEMDEF i_maul_Vanadinate]
+   DEFNAME=i_maul_Vanadinate
+   ID=i_maul
+   NAME=Vanadinate Maul
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=21
+   VALUE=44
+   SPEED=39
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={40 46}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Scepter
+
+[ITEMDEF i_scepter_Vanadinate]
+   DEFNAME=i_scepter_Vanadinate
+   ID=i_scepter
+   NAME=Vanadinate Scepter
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=23
+   VALUE=44
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={50 56}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Vanadinate]
+   DEFNAME=i_hammer_sledge_Vanadinate
+   ID=i_hammer_sledge
+   NAME=Vanadinate Sledge Hammer
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=23
+   VALUE=44
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={20 26}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Vanadinate]
+   DEFNAME=i_hammer_smith_Vanadinate
+   ID=i_hammer_smith
+   NAME=Vanadinate Smiths Hammer
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=9
+   VALUE=44
+   SPEED=8
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={30 36}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate War Mace
+
+[ITEMDEF i_mace_war_Vanadinate]
+   DEFNAME=i_mace_war_Vanadinate
+   ID=i_mace_war
+   NAME=Vanadinate War Mace
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=27
+   VALUE=44
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={80 86}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Disc Mace
+
+[ITEMDEF i_disc_mace_Vanadinate]
+   DEFNAME=i_disc_mace_Vanadinate
+   ID=i_disc_mace
+   NAME=Vanadinate Disc Mace
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=27
+   VALUE=44
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={70 76}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate War Hammer
+
+[ITEMDEF i_hammer_war_Vanadinate]
+   DEFNAME=i_hammer_war_Vanadinate
+   ID=i_hammer_war
+   NAME=Vanadinate War Hammer
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=33
+   VALUE=44
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={100 106}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Hammer Pick
+
+[ITEMDEF i_hammer_pick_Vanadinate]
+   DEFNAME=i_hammer_pick_Vanadinate
+   ID=i_hammer_pick
+   NAME=Vanadinate Hammer Pick
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=29
+   VALUE=44
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={55 61}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate War Axe
+
+[ITEMDEF i_axe_war_Vanadinate]
+   DEFNAME=i_axe_war_Vanadinate
+   ID=i_axe_war
+   NAME=Vanadinate War Axe
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=19
+   VALUE=44
+   SPEED=39
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={65 71}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Tessen
+
+[ITEMDEF i_tessen_Vanadinate]
+   DEFNAME=i_tessen_Vanadinate
+   ID=i_tessen
+   NAME=Vanadinate Tessen
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=18
+   VALUE=44
+   SPEED=33
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={75 81}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Long Sword
+
+[ITEMDEF i_sword_long_Vanadinate]
+   DEFNAME=i_sword_long_Vanadinate
+   ID=i_sword_long
+   NAME=Vanadinate Long Sword
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=15
+   VALUE=44
+   SPEED=25
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={10 16}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Broad Sword
+
+[ITEMDEF i_sword_broad_Vanadinate]
+   DEFNAME=i_sword_broad_Vanadinate
+   ID=i_sword_broad
+   NAME=Vanadinate Broad Sword
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=15
+   VALUE=44
+   SPEED=25
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={20 26}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Scimitar
+
+[ITEMDEF i_scimitar_Vanadinate]
+   DEFNAME=i_scimitar_Vanadinate
+   ID=i_scimitar
+   NAME=Vanadinate Scimitar
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=44
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={30 36}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Viking Sword
+
+[ITEMDEF i_sword_viking_Vanadinate]
+   DEFNAME=i_sword_viking_Vanadinate
+   ID=i_sword_viking
+   NAME=Vanadinate Viking Sword
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=44
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={35 41}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Katana
+
+[ITEMDEF i_katana_Vanadinate]
+   DEFNAME=i_katana_Vanadinate
+   ID=i_katana
+   NAME=Vanadinate Katana
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=44
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={80 86}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Wakizashi
+
+[ITEMDEF i_wakizashi_Vanadinate]
+   DEFNAME=i_wakizashi_Vanadinate
+   ID=i_wakizashi
+   NAME=Vanadinate Wakizashi
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=44
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={45 51}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Long Sword
+
+[ITEMDEF i_sword_long_b_Vanadinate]
+   DEFNAME=i_sword_long_b_Vanadinate
+   ID=i_sword_long_b
+   NAME=Vanadinate Long Sword
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=44
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={50 56}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Paladin Sword
+
+[ITEMDEF i_sword_paladin_Vanadinate]
+   DEFNAME=i_sword_paladin_Vanadinate
+   ID=i_sword_paladin
+   NAME=Vanadinate Paladin Sword
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=44
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={65 71}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Bokuto
+
+[ITEMDEF i_bokuto_Vanadinate]
+   DEFNAME=i_bokuto_Vanadinate
+   ID=i_bokuto
+   NAME=Vanadinate Bokuto
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=44
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={70 76}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Vanadinate]
+   DEFNAME=i_Radiant_Scimitar_Vanadinate
+   ID=i_Radiant_Scimitar
+   NAME=Vanadinate Radiant Scimitar
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=44
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={75 81}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Bone Harvester
+
+[ITEMDEF i_bone_harvester_Vanadinate]
+   DEFNAME=i_bone_harvester_Vanadinate
+   ID=i_bone_harvester
+   NAME=Vanadinate Bone Harvester
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=15
+   VALUE=44
+   SPEED=25
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={55 61}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Butcher Knife
+
+[ITEMDEF i_knife_butcher_Vanadinate]
+   DEFNAME=i_knife_butcher_Vanadinate
+   ID=i_knife_butcher
+   NAME=Vanadinate Butcher Knife
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=13
+   VALUE=44
+   SPEED=25
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={30 36}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Vanadinate]
+   DEFNAME=i_cleaver_meat_Vanadinate
+   ID=i_cleaver_meat
+   NAME=Vanadinate Meat Cleaver
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=13
+   VALUE=44
+   SPEED=25
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={30 36}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Elven Machete
+
+[ITEMDEF i_elven_machete_Vanadinate]
+   DEFNAME=i_elven_machete_Vanadinate
+   ID=i_elven_machete
+   NAME=Vanadinate Elven Machete
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=44
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={60 66}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Bone Machete
+
+[ITEMDEF i_bone_machete_Vanadinate]
+   DEFNAME=i_bone_machete_Vanadinate
+   ID=i_bone_machete
+   NAME=Vanadinate Bone Machete
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=44
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={50 56}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Daisho
+
+[ITEMDEF i_daisho_Vanadinate]
+   DEFNAME=i_daisho_Vanadinate
+   ID=i_daisho
+   NAME=Vanadinate Daisho
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=44
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={65 71}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate No-Dachi
+
+[ITEMDEF i_no_dachi_Vanadinate]
+   DEFNAME=i_no_dachi_Vanadinate
+   ID=i_no_dachi
+   NAME=Vanadinate No-Dachi
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=44
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={75 81}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Rune Blade
+
+[ITEMDEF i_Rune_Blade_Vanadinate]
+   DEFNAME=i_Rune_Blade_Vanadinate
+   ID=i_Rune_Blade
+   NAME=Vanadinate Rune Blade
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=44
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={115 121}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Axe
+
+[ITEMDEF i_axe_Vanadinate]
+   DEFNAME=i_axe_Vanadinate
+   ID=i_axe
+   NAME=Vanadinate Axe
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=17
+   VALUE=44
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={42 48}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Bardiche
+
+[ITEMDEF i_bardiche_Vanadinate]
+   DEFNAME=i_bardiche_Vanadinate
+   ID=i_bardiche
+   NAME=Vanadinate Bardiche
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=23
+   VALUE=44
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={58 64}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Battle Axe
+
+[ITEMDEF i_axe_battle_Vanadinate]
+   DEFNAME=i_axe_battle_Vanadinate
+   ID=i_axe_battle
+   NAME=Vanadinate Battle Axe
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=25
+   VALUE=44
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={65 71}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Double Axe
+
+[ITEMDEF i_axe_double_Vanadinate]
+   DEFNAME=i_axe_double_Vanadinate
+   ID=i_axe_double
+   NAME=Vanadinate Double Axe
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=44
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={70 76}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Vanadinate]
+   DEFNAME=i_axe_exec_Vanadinate
+   ID=i_axe_exec
+   NAME=Vanadinate Exectutioners Axe
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=44
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={73 79}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Halberd
+
+[ITEMDEF i_halberd_Vanadinate]
+   DEFNAME=i_halberd_Vanadinate
+   ID=i_halberd
+   NAME=Vanadinate Halberd
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=44
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={75 81}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Hatchet
+
+[ITEMDEF i_hatchet_Vanadinate]
+   DEFNAME=i_hatchet_Vanadinate
+   ID=i_hatchet
+   NAME=Vanadinate Hatchet
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=18
+   VALUE=44
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={40 46}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Vanadinate]
+   DEFNAME=i_axe_battle_large_Vanadinate
+   ID=i_axe_battle_large
+   NAME=Vanadinate Large Battle Axe
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=44
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={100 106}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Ornate Axe
+
+[ITEMDEF i_ornate_axe_Vanadinate]
+   DEFNAME=i_ornate_axe_Vanadinate
+   ID=i_ornate_axe
+   NAME=Vanadinate Ornate Axe
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=44
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={60 66}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Vanadinate]
+   DEFNAME=i_axe_two_hand_Vanadinate
+   ID=i_axe_two_hand
+   NAME=Vanadinate Two Handed Axe
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=44
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={55 61}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Dual Axes
+
+[ITEMDEF i_dual_short_axes_Vanadinate]
+   DEFNAME=i_dual_short_axes_Vanadinate
+   ID=i_dual_short_axes
+   NAME=Vanadinate Dual Axes
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=24
+   VALUE=44
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={95 101}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Cresent Blade
+
+[ITEMDEF i_crescent_blade_Vanadinate]
+   DEFNAME=i_crescent_blade_Vanadinate
+   ID=i_crescent_blade
+   NAME=Vanadinate Cresent Blade
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=44
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={110 116}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Dagger
+
+[ITEMDEF i_dagger_Vanadinate]
+   DEFNAME=i_dagger_Vanadinate
+   ID=i_dagger
+   NAME=Vanadinate Dagger
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=9
+   VALUE=44
+   SPEED=21
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={10 16}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Skinning Knife
+
+[ITEMDEF i_knife_skinning_Vanadinate]
+   DEFNAME=i_knife_skinning_Vanadinate
+   ID=i_knife_skinning
+   NAME=Vanadinate Skinning Knife
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=9
+   VALUE=44
+   SPEED=21
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={15 21}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Vanadinate]
+   DEFNAME=i_sword_Assassin_Spike_Vanadinate
+   ID=i_sword_Assassin_Spike
+   NAME=Vanadinate Assassin Spike
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=11
+   VALUE=44
+   SPEED=23
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={30 36}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Cutlass
+
+[ITEMDEF i_cutlass_Vanadinate]
+   DEFNAME=i_cutlass_Vanadinate
+   ID=i_cutlass
+   NAME=Vanadinate Cutlass
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=12
+   VALUE=44
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={25 31}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Short Blade
+
+[ITEMDEF i_shortblade_Vanadinate]
+   DEFNAME=i_shortblade_Vanadinate
+   ID=i_shortblade
+   NAME=Vanadinate Short Blade
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=13
+   VALUE=44
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={35 41}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Scythe
+
+[ITEMDEF i_scythe_Vanadinate]
+   DEFNAME=i_scythe_Vanadinate
+   ID=i_scythe
+   NAME=Vanadinate Scythe
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=44
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={115 121}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Short Spear
+
+[ITEMDEF i_spear_short_Vanadinate]
+   DEFNAME=i_spear_short_Vanadinate
+   ID=i_spear_short
+   NAME=Vanadinate Short Spear
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=44
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={45 51}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate War Fork
+
+[ITEMDEF i_war_fork_Vanadinate]
+   DEFNAME=i_war_fork_Vanadinate
+   ID=i_war_fork
+   NAME=Vanadinate War Fork
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=44
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={50 56}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Leafblade
+
+[ITEMDEF i_sword_leafblade_Vanadinate]
+   DEFNAME=i_sword_leafblade_Vanadinate
+   ID=i_sword_leafblade
+   NAME=Vanadinate Leafblade
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=44
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={60 66}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Vanadinate]
+   DEFNAME=i_elven_spellblade_Vanadinate
+   ID=i_elven_spellblade
+   NAME=Vanadinate Elven Spell Blade
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=44
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={75 81}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Pitchfork
+
+[ITEMDEF i_pitchfork_Vanadinate]
+   DEFNAME=i_pitchfork_Vanadinate
+   ID=i_pitchfork
+   NAME=Vanadinate Pitchfork
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=44
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={55 61}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate War Cleaver
+
+[ITEMDEF i_war_cleaver_Vanadinate]
+   DEFNAME=i_war_cleaver_Vanadinate
+   ID=i_war_cleaver
+   NAME=Vanadinate War Cleaver
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=44
+   SPEED=25
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={65 71}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Pike
+
+[ITEMDEF i_pike_Vanadinate]
+   DEFNAME=i_pike_Vanadinate
+   ID=i_pike
+   NAME=Vanadinate Pike
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=44
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={70 76}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Blood Blade
+
+[ITEMDEF i_bloodblade_Vanadinate]
+   DEFNAME=i_bloodblade_Vanadinate
+   ID=i_bloodblade
+   NAME=Vanadinate Blood Blade
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=44
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={75 81}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Kama
+
+[ITEMDEF i_kama_Vanadinate]
+   DEFNAME=i_kama_Vanadinate
+   ID=i_kama
+   NAME=Vanadinate Kama
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=44
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={77 83}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Kryss
+
+[ITEMDEF i_kryss_Vanadinate]
+   DEFNAME=i_kryss_Vanadinate
+   ID=i_kryss
+   NAME=Vanadinate Kryss
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=44
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={80 86}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Lajatang
+
+[ITEMDEF i_lajatang_Vanadinate]
+   DEFNAME=i_lajatang_Vanadinate
+   ID=i_lajatang
+   NAME=Vanadinate Lajatang
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=44
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={85 91}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Sai
+
+[ITEMDEF i_sai_Vanadinate]
+   DEFNAME=i_sai_Vanadinate
+   ID=i_sai
+   NAME=Vanadinate Sai
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=44
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={76 82}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Tekagi
+
+[ITEMDEF i_tekagi_Vanadinate]
+   DEFNAME=i_tekagi_Vanadinate
+   ID=i_tekagi
+   NAME=Vanadinate Tekagi
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=44
+   SPEED=23
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={90 96}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Vanadinate Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Vanadinate]
+   DEFNAME=i_dual_pointed_spear_Vanadinate
+   ID=i_dual_pointed_spear
+   NAME=Vanadinate Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Vanadinate
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=44
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Vanadinate
+
+ON=@Create
+   COLOR=color_ore_Vanadinate
+   HITPOINTS={115 121}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

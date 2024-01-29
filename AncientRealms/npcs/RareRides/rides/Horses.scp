@@ -1,0 +1,171 @@
+[CHARDEF 0C8]
+//HORSE (Warm Tan)(light brown)
+DEFNAME=c_horse_tan
+NAME=Horse
+SOUND=snd_ANIMALS_HORSE1
+ICON=i_pet_horse_tan
+ANIM=01fff
+CAN=MT_WALK|MT_RUN
+RESOURCES=15 i_ribs_raw, 10 i_hide
+FOODTYPE=55 t_crops,55 t_fruit,55 t_grain, 64 t_grass
+DAM=3,4
+ARMOR=9
+DESIRES=e_horses,c_man,c_woman
+TEVENTS=e_horses
+TEVENTS=e_AncientRealms_rides
+AVERSIONS=e_carnivores3
+DESCRIPTION=Horse (Beige)
+SUBSECTION=Land (Domestic)
+CATEGORY=Animals
+
+ON=@Create
+	NPC=brain_animal
+	FAME=0
+	KARMA=-1
+	STR={44 120}
+	DEX={36 55}
+	INT={6 10}
+	PARRYING={35.0 45.0}
+	MAGICRESISTANCE={25.0 30.0}
+	TACTICS={29.0 44.0}
+	WRESTLING={29.0 44.0}
+	TAMING=45.0
+	TAG.control.slots=1
+
+[CHARDEF 0CC]
+//HORSE (Brown)
+DEFNAME=c_horse_brown_dk
+NAME=Horse
+ANIM=01fff
+SOUND=snd_ANIMALS_HORSE1
+ICON=i_pet_horse_brown_dk
+CAN=MT_WALK|MT_RUN
+DAM=3,4
+ARMOR=9
+RESOURCES=15 i_ribs_raw,10 i_hide
+FOODTYPE=55 t_crops,55 t_fruit,55 t_grain,64 t_grass
+DESIRES=e_horses,c_man,c_woman
+TEVENTS=e_horses
+TEVENTS=e_AncientRealms_rides
+AVERSIONS=e_carnivores3
+DESCRIPTION=Horse (Brown)
+SUBSECTION=Land (Domestic)
+CATEGORY=Animals
+
+ON=@Create
+	NPC=brain_animal
+	STR={44 120}
+	DEX={36 55}
+	INT={6 10}
+	PARRYING={35.0 45.0}
+	MAGICRESISTANCE={25.0 30.0}
+	TACTICS={29.0 44.0}
+	WRESTLING={29.0 44.0}
+	TAMING=45.0
+	FAME=0
+	KARMA={1 99}
+	TAG.control.slots=1
+
+[CHARDEF 0E2]
+//HORSE,Gray,White
+DEFNAME=c_horse_gray
+NAME=Horse
+SOUND=snd_ANIMALS_HORSE1
+ICON=i_pet_horse_gray
+CAN=MT_WALK|MT_RUN
+ANIM=01fff
+DAM=3,4
+ARMOR=9
+DESIRES=c_horse_gray,c_man,c_woman
+FOODTYPE=55 t_crops, 55 t_fruit, 55 t_grain, 64 t_grass
+AVERSIONS=e_carnivores3
+TEVENTS=e_horses
+TEVENTS=e_AncientRealms_rides
+RESOURCES=15 i_ribs_raw,10 i_hide
+DESCRIPTION=Horse (White)
+SUBSECTION=Land (Domestic)
+CATEGORY=Animals
+
+ON=@Create
+	NPC=brain_animal
+	STR={44 120}
+	DEX={36 55}
+	INT={6 10}
+	PARRYING={35.0 45.0}
+	MAGICRESISTANCE={25.0 30.0}
+	TACTICS={29.0 44.0}
+	WRESTLING={29.0 44.0}
+	TAMING=45.0
+	FAME=0
+	KARMA=0
+	TAG.control.slots=1
+
+[CHARDEF 0E4]
+//HORSE3 light tan
+DEFNAME=c_horse_brown_lt
+NAME=Horse
+SOUND=snd_ANIMALS_HORSE1
+ICON=i_pet_horse_brown_lt
+ANIM=01fff
+DAM=3,4
+ARMOR=9
+RESOURCES=15 i_ribs_raw,10 i_hide
+CAN=MT_WALK|MT_RUN
+FOODTYPE=55 t_crops, 55 t_fruit, 55 t_grain, 64 t_grass
+DESIRES=e_horses,c_man,c_woman
+TEVENTS=e_horses
+TEVENTS=e_AncientRealms_rides
+AVERSIONS=e_carnivores3
+DESCRIPTION=Horse (Tan)
+SUBSECTION=Land (Domestic)
+CATEGORY=Animals
+
+ON=@Create
+	NPC=brain_animal
+	STR={44 120}
+	DEX={36 55}
+	INT={6 10}
+	PARRYING={35.0 45.0}
+	MAGICRESISTANCE={25.0 30.0}
+	TACTICS={29.0 44.0}
+	WRESTLING={29.0 44.0}
+	TAMING=45.0
+	FAME=0
+	KARMA=0
+	TAG.control.slots=1
+
+[CHARDEF 0123]
+DEFNAME=c_horse_pack
+DEFNAME2=PACKHORSES
+NAME=Pack Horse
+SOUND=snd_ANIMALS_HORSE1
+ANIM=01fff
+ICON=i_pet_horse_pack
+CAN=MT_WALK|MT_RUN
+DAM=4,12
+ARMOR=9
+RESOURCES=15 i_ribs_raw, 10 i_hide
+FOODTYPE=55 t_crops, 55 t_fruit, 55 t_grain, 64 t_grass
+DESIRES=e_horses,c_man,c_woman
+AVERSIONS=e_carnivores3
+TEVENTS=e_horses
+TEVENTS=e_AncientRealms_rides
+DESCRIPTION=Pack Horse
+SUBSECTION=Land (Domestic)
+CATEGORY=Animals
+
+ON=@Create
+	NPC=brain_animal
+	STR={44 120}
+	DEX={36 55}
+	INT={6 10}
+	PARRYING={35.0 45.0}
+	MAGICRESISTANCE={25.0 30.0}
+	TACTICS={29.0 44.0}
+	WRESTLING={29.0 44.0}
+	TAMING=45.0
+	FAME=0
+	KARMA={-1 -99}
+	TAG.control.slots=1
+
+[EOF]

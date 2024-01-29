@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Bronze Quarter Staff
+
+[ITEMDEF i_staff_quarter_Bronze]
+   DEFNAME=i_staff_quarter_Bronze
+   ID=i_staff_quarter
+   NAME=Bronze Quarter Staff
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=18
+   VALUE=29
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={20 24}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Bronze]
+   DEFNAME=i_serpentstone_staff_Bronze
+   ID=i_serpentstone_staff
+   NAME=Bronze Serpentstone Staff
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=22
+   VALUE=29
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={60 64}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Bronze]
+   DEFNAME=i_staff_bladed_double_Bronze
+   ID=i_staff_bladed_double
+   NAME=Bronze Double Bladed Staff
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=30
+   VALUE=29
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={120 124}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Glass Staff
+
+[ITEMDEF i_glass_staff_Bronze]
+   DEFNAME=i_glass_staff_Bronze
+   ID=i_glass_staff
+   NAME=Bronze Glass Staff
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=27
+   VALUE=29
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={90 94}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Bladed Staff
+
+[ITEMDEF i_bladed_staff_Bronze]
+   DEFNAME=i_bladed_staff_Bronze
+   ID=i_bladed_staff
+   NAME=Bronze Bladed Staff
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=28
+   VALUE=29
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={115 119}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Tongs
+
+[ITEMDEF i_tongs_Bronze]
+   DEFNAME=i_tongs_Bronze
+   ID=i_tongs
+   NAME=Bronze Tongs
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=5
+   VALUE=29
+   SPEED=7
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={0 4}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Mace
+
+[ITEMDEF i_mace_Bronze]
+   DEFNAME=i_mace_Bronze
+   ID=i_mace
+   NAME=Bronze Mace
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=18
+   VALUE=29
+   SPEED=36
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Maul
+
+[ITEMDEF i_maul_Bronze]
+   DEFNAME=i_maul_Bronze
+   ID=i_maul
+   NAME=Bronze Maul
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=20
+   VALUE=29
+   SPEED=38
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={40 44}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Scepter
+
+[ITEMDEF i_scepter_Bronze]
+   DEFNAME=i_scepter_Bronze
+   ID=i_scepter
+   NAME=Bronze Scepter
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=22
+   VALUE=29
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={50 54}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Bronze]
+   DEFNAME=i_hammer_sledge_Bronze
+   ID=i_hammer_sledge
+   NAME=Bronze Sledge Hammer
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=22
+   VALUE=29
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={20 24}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Bronze]
+   DEFNAME=i_hammer_smith_Bronze
+   ID=i_hammer_smith
+   NAME=Bronze Smiths Hammer
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=8
+   VALUE=29
+   SPEED=7
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze War Mace
+
+[ITEMDEF i_mace_war_Bronze]
+   DEFNAME=i_mace_war_Bronze
+   ID=i_mace_war
+   NAME=Bronze War Mace
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=29
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={80 84}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Disc Mace
+
+[ITEMDEF i_disc_mace_Bronze]
+   DEFNAME=i_disc_mace_Bronze
+   ID=i_disc_mace
+   NAME=Bronze Disc Mace
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=29
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={70 74}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze War Hammer
+
+[ITEMDEF i_hammer_war_Bronze]
+   DEFNAME=i_hammer_war_Bronze
+   ID=i_hammer_war
+   NAME=Bronze War Hammer
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=32
+   VALUE=29
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={100 104}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Hammer Pick
+
+[ITEMDEF i_hammer_pick_Bronze]
+   DEFNAME=i_hammer_pick_Bronze
+   ID=i_hammer_pick
+   NAME=Bronze Hammer Pick
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=28
+   VALUE=29
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={55 59}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze War Axe
+
+[ITEMDEF i_axe_war_Bronze]
+   DEFNAME=i_axe_war_Bronze
+   ID=i_axe_war
+   NAME=Bronze War Axe
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=18
+   VALUE=29
+   SPEED=38
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={65 69}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Tessen
+
+[ITEMDEF i_tessen_Bronze]
+   DEFNAME=i_tessen_Bronze
+   ID=i_tessen
+   NAME=Bronze Tessen
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=17
+   VALUE=29
+   SPEED=32
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={75 79}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Long Sword
+
+[ITEMDEF i_sword_long_Bronze]
+   DEFNAME=i_sword_long_Bronze
+   ID=i_sword_long
+   NAME=Bronze Long Sword
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=14
+   VALUE=29
+   SPEED=24
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={10 14}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Broad Sword
+
+[ITEMDEF i_sword_broad_Bronze]
+   DEFNAME=i_sword_broad_Bronze
+   ID=i_sword_broad
+   NAME=Bronze Broad Sword
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=14
+   VALUE=29
+   SPEED=24
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={20 24}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Scimitar
+
+[ITEMDEF i_scimitar_Bronze]
+   DEFNAME=i_scimitar_Bronze
+   ID=i_scimitar
+   NAME=Bronze Scimitar
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=16
+   VALUE=29
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Viking Sword
+
+[ITEMDEF i_sword_viking_Bronze]
+   DEFNAME=i_sword_viking_Bronze
+   ID=i_sword_viking
+   NAME=Bronze Viking Sword
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=29
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={35 39}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Katana
+
+[ITEMDEF i_katana_Bronze]
+   DEFNAME=i_katana_Bronze
+   ID=i_katana
+   NAME=Bronze Katana
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=29
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={80 84}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Wakizashi
+
+[ITEMDEF i_wakizashi_Bronze]
+   DEFNAME=i_wakizashi_Bronze
+   ID=i_wakizashi
+   NAME=Bronze Wakizashi
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=16
+   VALUE=29
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={45 49}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Long Sword
+
+[ITEMDEF i_sword_long_b_Bronze]
+   DEFNAME=i_sword_long_b_Bronze
+   ID=i_sword_long_b
+   NAME=Bronze Long Sword
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=29
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={50 54}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Paladin Sword
+
+[ITEMDEF i_sword_paladin_Bronze]
+   DEFNAME=i_sword_paladin_Bronze
+   ID=i_sword_paladin
+   NAME=Bronze Paladin Sword
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=29
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={65 69}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Bokuto
+
+[ITEMDEF i_bokuto_Bronze]
+   DEFNAME=i_bokuto_Bronze
+   ID=i_bokuto
+   NAME=Bronze Bokuto
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=29
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={70 74}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Bronze]
+   DEFNAME=i_Radiant_Scimitar_Bronze
+   ID=i_Radiant_Scimitar
+   NAME=Bronze Radiant Scimitar
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=29
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={75 79}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Bone Harvester
+
+[ITEMDEF i_bone_harvester_Bronze]
+   DEFNAME=i_bone_harvester_Bronze
+   ID=i_bone_harvester
+   NAME=Bronze Bone Harvester
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=14
+   VALUE=29
+   SPEED=24
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={55 59}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Butcher Knife
+
+[ITEMDEF i_knife_butcher_Bronze]
+   DEFNAME=i_knife_butcher_Bronze
+   ID=i_knife_butcher
+   NAME=Bronze Butcher Knife
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=12
+   VALUE=29
+   SPEED=24
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Bronze]
+   DEFNAME=i_cleaver_meat_Bronze
+   ID=i_cleaver_meat
+   NAME=Bronze Meat Cleaver
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=12
+   VALUE=29
+   SPEED=24
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Elven Machete
+
+[ITEMDEF i_elven_machete_Bronze]
+   DEFNAME=i_elven_machete_Bronze
+   ID=i_elven_machete
+   NAME=Bronze Elven Machete
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=29
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={60 64}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Bone Machete
+
+[ITEMDEF i_bone_machete_Bronze]
+   DEFNAME=i_bone_machete_Bronze
+   ID=i_bone_machete
+   NAME=Bronze Bone Machete
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=29
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={50 54}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Daisho
+
+[ITEMDEF i_daisho_Bronze]
+   DEFNAME=i_daisho_Bronze
+   ID=i_daisho
+   NAME=Bronze Daisho
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=29
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={65 69}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze No-Dachi
+
+[ITEMDEF i_no_dachi_Bronze]
+   DEFNAME=i_no_dachi_Bronze
+   ID=i_no_dachi
+   NAME=Bronze No-Dachi
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=29
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={75 79}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Rune Blade
+
+[ITEMDEF i_Rune_Blade_Bronze]
+   DEFNAME=i_Rune_Blade_Bronze
+   ID=i_Rune_Blade
+   NAME=Bronze Rune Blade
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=29
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={115 119}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Axe
+
+[ITEMDEF i_axe_Bronze]
+   DEFNAME=i_axe_Bronze
+   ID=i_axe
+   NAME=Bronze Axe
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=16
+   VALUE=29
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={42 46}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Bardiche
+
+[ITEMDEF i_bardiche_Bronze]
+   DEFNAME=i_bardiche_Bronze
+   ID=i_bardiche
+   NAME=Bronze Bardiche
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=22
+   VALUE=29
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={58 62}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Battle Axe
+
+[ITEMDEF i_axe_battle_Bronze]
+   DEFNAME=i_axe_battle_Bronze
+   ID=i_axe_battle
+   NAME=Bronze Battle Axe
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=24
+   VALUE=29
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={65 69}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Double Axe
+
+[ITEMDEF i_axe_double_Bronze]
+   DEFNAME=i_axe_double_Bronze
+   ID=i_axe_double
+   NAME=Bronze Double Axe
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=29
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={70 74}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Bronze]
+   DEFNAME=i_axe_exec_Bronze
+   ID=i_axe_exec
+   NAME=Bronze Exectutioners Axe
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=29
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={73 77}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Halberd
+
+[ITEMDEF i_halberd_Bronze]
+   DEFNAME=i_halberd_Bronze
+   ID=i_halberd
+   NAME=Bronze Halberd
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=29
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={75 79}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Hatchet
+
+[ITEMDEF i_hatchet_Bronze]
+   DEFNAME=i_hatchet_Bronze
+   ID=i_hatchet
+   NAME=Bronze Hatchet
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=17
+   VALUE=29
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={40 44}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Bronze]
+   DEFNAME=i_axe_battle_large_Bronze
+   ID=i_axe_battle_large
+   NAME=Bronze Large Battle Axe
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=29
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={100 104}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Ornate Axe
+
+[ITEMDEF i_ornate_axe_Bronze]
+   DEFNAME=i_ornate_axe_Bronze
+   ID=i_ornate_axe
+   NAME=Bronze Ornate Axe
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=25
+   VALUE=29
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={60 64}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Bronze]
+   DEFNAME=i_axe_two_hand_Bronze
+   ID=i_axe_two_hand
+   NAME=Bronze Two Handed Axe
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=29
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={55 59}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Dual Axes
+
+[ITEMDEF i_dual_short_axes_Bronze]
+   DEFNAME=i_dual_short_axes_Bronze
+   ID=i_dual_short_axes
+   NAME=Bronze Dual Axes
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=23
+   VALUE=29
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={95 99}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Cresent Blade
+
+[ITEMDEF i_crescent_blade_Bronze]
+   DEFNAME=i_crescent_blade_Bronze
+   ID=i_crescent_blade
+   NAME=Bronze Cresent Blade
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=29
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={110 114}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Dagger
+
+[ITEMDEF i_dagger_Bronze]
+   DEFNAME=i_dagger_Bronze
+   ID=i_dagger
+   NAME=Bronze Dagger
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=8
+   VALUE=29
+   SPEED=20
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={10 14}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Skinning Knife
+
+[ITEMDEF i_knife_skinning_Bronze]
+   DEFNAME=i_knife_skinning_Bronze
+   ID=i_knife_skinning
+   NAME=Bronze Skinning Knife
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=8
+   VALUE=29
+   SPEED=20
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={15 19}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Bronze]
+   DEFNAME=i_sword_Assassin_Spike_Bronze
+   ID=i_sword_Assassin_Spike
+   NAME=Bronze Assassin Spike
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=10
+   VALUE=29
+   SPEED=22
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Cutlass
+
+[ITEMDEF i_cutlass_Bronze]
+   DEFNAME=i_cutlass_Bronze
+   ID=i_cutlass
+   NAME=Bronze Cutlass
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=11
+   VALUE=29
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={25 29}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Short Blade
+
+[ITEMDEF i_shortblade_Bronze]
+   DEFNAME=i_shortblade_Bronze
+   ID=i_shortblade
+   NAME=Bronze Short Blade
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=12
+   VALUE=29
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={35 39}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Scythe
+
+[ITEMDEF i_scythe_Bronze]
+   DEFNAME=i_scythe_Bronze
+   ID=i_scythe
+   NAME=Bronze Scythe
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=29
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={115 119}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Short Spear
+
+[ITEMDEF i_spear_short_Bronze]
+   DEFNAME=i_spear_short_Bronze
+   ID=i_spear_short
+   NAME=Bronze Short Spear
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=29
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={45 49}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze War Fork
+
+[ITEMDEF i_war_fork_Bronze]
+   DEFNAME=i_war_fork_Bronze
+   ID=i_war_fork
+   NAME=Bronze War Fork
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=29
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={50 54}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Leafblade
+
+[ITEMDEF i_sword_leafblade_Bronze]
+   DEFNAME=i_sword_leafblade_Bronze
+   ID=i_sword_leafblade
+   NAME=Bronze Leafblade
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=13
+   VALUE=29
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={60 64}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Bronze]
+   DEFNAME=i_elven_spellblade_Bronze
+   ID=i_elven_spellblade
+   NAME=Bronze Elven Spell Blade
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=29
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={75 79}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Pitchfork
+
+[ITEMDEF i_pitchfork_Bronze]
+   DEFNAME=i_pitchfork_Bronze
+   ID=i_pitchfork
+   NAME=Bronze Pitchfork
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=29
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={55 59}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze War Cleaver
+
+[ITEMDEF i_war_cleaver_Bronze]
+   DEFNAME=i_war_cleaver_Bronze
+   ID=i_war_cleaver
+   NAME=Bronze War Cleaver
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=29
+   SPEED=24
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={65 69}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Pike
+
+[ITEMDEF i_pike_Bronze]
+   DEFNAME=i_pike_Bronze
+   ID=i_pike
+   NAME=Bronze Pike
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=29
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={70 74}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Blood Blade
+
+[ITEMDEF i_bloodblade_Bronze]
+   DEFNAME=i_bloodblade_Bronze
+   ID=i_bloodblade
+   NAME=Bronze Blood Blade
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=29
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={75 79}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Kama
+
+[ITEMDEF i_kama_Bronze]
+   DEFNAME=i_kama_Bronze
+   ID=i_kama
+   NAME=Bronze Kama
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=29
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={77 81}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Kryss
+
+[ITEMDEF i_kryss_Bronze]
+   DEFNAME=i_kryss_Bronze
+   ID=i_kryss
+   NAME=Bronze Kryss
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=29
+   SPEED=26
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={80 84}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Lajatang
+
+[ITEMDEF i_lajatang_Bronze]
+   DEFNAME=i_lajatang_Bronze
+   ID=i_lajatang
+   NAME=Bronze Lajatang
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=29
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={85 89}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Sai
+
+[ITEMDEF i_sai_Bronze]
+   DEFNAME=i_sai_Bronze
+   ID=i_sai
+   NAME=Bronze Sai
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=29
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={76 80}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Tekagi
+
+[ITEMDEF i_tekagi_Bronze]
+   DEFNAME=i_tekagi_Bronze
+   ID=i_tekagi
+   NAME=Bronze Tekagi
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=29
+   SPEED=22
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={90 94}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Bronze]
+   DEFNAME=i_dual_pointed_spear_Bronze
+   ID=i_dual_pointed_spear
+   NAME=Bronze Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Bronze
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=29
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Bronze
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS={115 119}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

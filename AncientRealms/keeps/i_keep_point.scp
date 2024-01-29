@@ -1,0 +1,18 @@
+[TYPEDEF t_keep_point]
+ON=@DCLICK
+	SAY @33 Keep Points
+	RETURN 1
+
+
+[ITEMDEF i_keep_point]
+DEFNAME=i_keep_point
+ID=i_virtstone_6
+NAME=Keep Point%s
+TYPE=t_keep_point
+WEIGHT=0.1
+FLIP=1
+CATEGORY=AncientRealms
+SUBSECTION=Keep Items
+DESCRIPTION=Keep Point
+
+[EOF]

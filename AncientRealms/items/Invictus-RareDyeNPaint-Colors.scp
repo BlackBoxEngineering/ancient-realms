@@ -1,0 +1,50 @@
+[FUNCTION GetColor]
+SRC.TARGETF EVALGetColor
+
+[FUNCTION EVALGetColor]
+SAY @55 Color Number <EVAL <ARGO.COLOR>>
+
+[DEFNAME RARE_DYE_AND_PAINT_COLORS_AND_DROP]
+color_o_PureWhite		1462
+color_o_Banshee			1457
+color_o_NeonRed			1459
+color_o_NeonGreen		1461
+color_o_NeonPurple		1460
+color_o_OrangeBurst		1458
+color_o_MidnightGypsy   1464
+color_o_NeonOrange      2999
+color_o_NeonYellow      2998
+color_o_GayPink         2997
+color_o_GayBluePink     2995
+color_o_Neg             2994
+color_o_Heretic         2991
+color_o_NeonBlue        2996
+
+random_dye_hair			{ random_dye_One 1, random_dye_Two 1, random_dye_Three 1, random_dye_Four 1, random_dye_Five 1 , random_dye_Six 1, random_dye_Seven 1, random_dye_Eight 1, random_dye_Nine 1, random_dye_Ten 1, random_dye_Eleven 1 }
+random_dye_skin			{ random_dye_One 1, random_dye_Two 1, random_dye_Three 1, random_dye_Four 1, random_dye_Five 1 , random_dye_Six 1, random_dye_Seven 1, random_dye_Eight 1, random_dye_Nine 1, random_dye_Ten 1, random_dye_Eleven 1 }
+random_dye_cloth		{ random_dye_One 1, random_dye_Two 1, random_dye_Three 1, random_dye_Four 1, random_dye_Five 1 , random_dye_Six 1, random_dye_Seven 1, random_dye_Eight 1, random_dye_Nine 1, random_dye_Ten 1, random_dye_Eleven 1 }
+
+//random_dye_hair		{ random_dye_One , random_dye_Two , random_dye_Three , random_dye_Four , random_dye_Five , random_dye_Six , random_dye_Seven , random_dye_Eight , random_dye_Nine , random_dye_Ten , random_dye_Eleven 1 }
+//random_dye_skin		{ random_dye_One , random_dye_Two , random_dye_Three , random_dye_Four , random_dye_Five , random_dye_Six , random_dye_Seven , random_dye_Eight , random_dye_Nine , random_dye_Ten , random_dye_Eleven 1 }
+//random_dye_cloth		{ random_dye_One , random_dye_Two , random_dye_Three , random_dye_Four , random_dye_Five , random_dye_Six , random_dye_Seven , random_dye_Eight , random_dye_Nine , random_dye_Ten , random_dye_Eleven 1 }
+
+random_paint_armor		{ random_dye_One 1, random_dye_Two 1, random_dye_Three 1, random_dye_Four 1, random_dye_Five 1 , random_dye_Six 1, random_dye_Seven 1, random_dye_Eight 1, random_dye_Nine 1, random_dye_Ten 1, random_dye_Eleven 1 }
+random_paint_weapons	{ random_dye_One 1, random_dye_Two 1, random_dye_Three 1, random_dye_Four 1, random_dye_Five 1 , random_dye_Six 1, random_dye_Seven 1, random_dye_Eight 1, random_dye_Nine 1, random_dye_Ten 1, random_dye_Eleven 1 }
+
+random_dye_One		{ 2573 2574 2575 2576 2577 2578	2579 2580 2581 2582 2583 2584 2585 2586	2587 2588 2589 2590 2591 2592 2593 2594	2595 2596 }
+random_dye_Two		{ 2597 2598 2599 2600 2601 2602 2603 2604 2605 2606 2607 2608 2609 2610 2611 2612 2613 2614 2616 2617 2618	2619 2620 }
+random_dye_Three	{ 2621 2622 2623 2624 2625 2626	2627 2628 2629 2630 2631 2632 2634	2635 2636 2637 2638 2639 2640 2641 2642	2643 2644 }
+random_dye_Four		{ 2645 2646 2647 2648 2649 2650 2651 2652 2653 2654 2655 2656 2657 2658	2659 2660 2661 2662 2664 2665 2666	2667 2668 }
+random_dye_Five		{ 2669 2670 2671 2672 2673 2674	2675 2676 2677 2678 2679 2680 2681 2682	2683 2684 2685 2686 2687 2688 2689 2690 2691 2692 }
+random_dye_Six		{ 2790 2791 2795 2797 2801 2802 2803 2804 2805 2806 2807 2808 2809 2810 2811 2812 2813 }
+random_dye_Seven	{ 2814 2815 2817 2818 2819 2820 2821 2822 2823 2825 2826 2827 2828 2829 2830 2831 2832 2833 2834 2835 2836 2837 }
+random_dye_Eight	{ 2838 2839 2840 2841 2842 2843 2844 2845 2846 2847 2848 2849 2850 2851 2852 2853 2854 2855 2856 2857 2858 2859 2860 2861 }
+random_dye_Nine		{ 2862 2863 2864 2865 2866 2867 2868 2869 2870 2869 2870 2871 2872 2873 2874 2875 2876 2877 2878 2879 2880 2881 2882 2883 }
+random_dye_Ten		{ 2884 2885 2886 2887 2888 2898 2899 2900 2901 2902 2904 2906 2907 2928 2933 2936 2944 }
+random_dye_Eleven	{ 2945 2946 2947 2948 2949 2950 2952 2953 2954 2956 2967 2969 2990 2991 2992 2993 2994 2995 2996 2997 2998 2999 3000 }
+
+random_dye_bottle	{i_rare_hair_dye_bottle 1, i_rare_skin_dye_bottle 1, i_rare_cloth_dye_bottle 1, i_raredyetub 1}
+
+[EOF]
+
+

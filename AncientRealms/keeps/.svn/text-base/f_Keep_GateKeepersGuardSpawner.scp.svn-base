@@ -1,0 +1,13 @@
+[FUNCTION f_Keep_GateKeepersGuardSpawner]
+
+	If (<EVAL <CONT.TAG.GuardCount>> < <EVAL <SERV.UID.<f_DiscoverRegionsKeepStoneUID>.TAG.GateGuardCount>>)
+		CONT.NEWNPC=c_GateKeepersGuard
+		CONT.TAG.GuardCount=<CONT.TAG.GuardCount>+1
+		LOCAL.X=<CONT.TAG.GuardCount>
+		CONT.TAG.BodyGuardNo<EVAL <LOCAL.X>> = <CONT.NEW.UID>	
+		CONT.NEW.GO=<CONT.p>
+		CONT.NEW.HOME=<CONT.p>
+		CONT.NEW.HOMEDIST=4	
+	ENDIF
+
+[EOF]

@@ -1,0 +1,37 @@
+[DEFNAME Invictus_Random_Resources]
+random_log_common_low		{i_log_apple 1, i_log_bogoak 1, i_log_cedar 1, i_log_willow 1}
+random_log_common_high		{i_log_cypress 1, i_log_oak 1, i_log_yew 1, i_log_balsa 1}
+random_log_uncommon_low		{i_log_birch 1, i_log_jatoba 1}
+random_log_uncommon_high	{i_log_oldoak 1 i_log_ebony 1}
+random_log_rare_low			{i_log_walnut 1, i_log_cherry 1}
+random_log_rare_high		{i_log_blackcherry 1, i_log_maple 1}
+
+random_log_common_all {random_log_common_low 1, random_log_common_high 1}
+random_log_uncommon_all {random_log_uncommon_low 1, random_log_uncommon_high 1}
+random_log_rare_all {random_log_rare_low 1, random_log_rare_high 1}
+random_log_all  {random_log_common_all 1, random_log_uncommon_all 1, random_log_rare_all 1}
+
+//// Random Trophies /// For Special Use ( Yet to be scripted chests )
+[TEMPLATE RandomTrophie]
+	ITEM=i_trophy_trollhead, R12
+	ITEM=i_trophie_polarbearhead, R12
+	ITEM=i_trophieorchead, R12
+	ITEM=i_trophy_gorillahead, R12
+	ITEM=i_trophy_fish, R12
+	ITEM=i_trophy_deerhead, R12
+	ITEM=i_trophy_bearhead, R12
+	ITEM=i_nounted_dread_horn, R12
+	ITEM=0224e, R12
+	ITEM=02235, R12
+	
+//// Random RuneBook charges
+[TEMPLATE RandomRuneBookcharge]
+	ITEM=i_10runebookcharges, R50
+	ITEM=i_20runebookcharges, R100
+	ITEM=i_30runebookcharges, R150
+
+/// Random Rings
+[TEMPLATE Random_magic_rings]
+	ITEM={ i_mana_ring 1 i_stamina_ring 1 i_health_ring 1 }
+	
+[EOF]

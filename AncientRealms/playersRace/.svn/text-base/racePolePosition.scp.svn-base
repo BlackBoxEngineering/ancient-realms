@@ -1,0 +1,33 @@
+//////////////////////////////////////////////
+[FUNCTION f_setFinishPosition]
+// ARGV[0] = The race Control Stone
+// ARGV[1] = The player
+
+//////////////////////////////////////////////
+[FUNCTION f_RaceKickLooser]
+// ARGV[0] = The race Control Stone
+// ARGV[1] = The player
+// ARGV[2] = This Players slot position
+
+////////////////////////////////////////////// f_setPolePosition
+[FUNCTION f_setPolePosition]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+REF2=<SERV.UID.<ARGV[0]>>
+f_raceDoPlayerDistance <REF2.UID>
+FOR PolePosition 1 <EVAL <REF1.TAG.PlayersRemainingCount>>
+//SERV.LOG <EVAL <REF2.CTAG.RaceDistance>> < <EVAL <REF1.TAG0.PolePosition_<EVAL <LOCAL.PolePosition>>_Distance>>
+	IF <EVAL <REF2.CTAG.RaceDistance>> < <EVAL <REF1.TAG0.PolePosition_<EVAL <LOCAL.PolePosition>>_Distance>>
+		REF1.TAG.PolePosition_<EVAL <LOCAL.PolePosition>>_Distance	= <EVAL <REF2.CTAG.RaceDistance>>
+		REF1.TAG.PolePosition_<EVAL <LOCAL.PolePosition>>_Name		= <REF1.TAG.PlayerNumber_<EVAL <REF2.CTAG.PlayerNumber>>_Name>
+		REF1.TAG.PolePosition_<EVAL <LOCAL.PolePosition>>_UID		= <REF1.TAG.PlayerNumber_<EVAL <REF2.CTAG.PlayerNumber>>_Uid>
+		//SERV.LOG PolePosition <EVAL <LOCAL.PolePosition>> = <REF1.TAG.PolePosition_<EVAL <LOCAL.PolePosition>>_Name>
+	ENDIF
+ENDFOR
+FOR DropPolePosition <EVAL <REF1.TAG.PlayersRemainingCount>> <EVAL <REF1.TAG.Playercount>+1>
+	REF1.TAG.PolePosition_<EVAL <LOCAL.DropPolePosition>>_Distance=
+	REF1.TAG.PolePosition_<EVAL <LOCAL.DropPolePosition>>_Name=
+	REF1.TAG.PolePosition_<EVAL <LOCAL.DropPolePosition>>_UID=
+	//SERV.LOG PolePosition <EVAL <LOCAL.DropPolePosition>> =
+ENDFOR
+
+[EOF]

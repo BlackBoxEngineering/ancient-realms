@@ -1,0 +1,13 @@
+[TYPEDEF t_anvil]
+ON=@DClick
+	SRC.EMOTE Admires <NAME>
+	RETURN 1
+	
+[FUNCTION isNearAnvil]
+IF (<isneartype t_forge 2>)
+	RETURN 1
+ELSE 
+	RETURN 0
+ENDIF
+
+[EOF]

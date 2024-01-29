@@ -1,0 +1,292 @@
+/////////////////////////////////////////////IceFiend hide tunic
+[ITEMDEF i_hide_tunic_IceFiend]
+   DEFNAME= i_hide_tunic_IceFiend
+   ID= i_hide_tunic
+   NAME= IceFiend hide tunic
+   ARMOR= 22
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 14 i_hide_IceFiend
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= IceFiend
+   DESCRIPTION= hide tunic
+
+ON=@Create
+   COLOR=color_hide_IceFiend
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////IceFiend hide gloves
+[ITEMDEF i_hide_gloves_IceFiend]
+   DEFNAME= i_hide_gloves_IceFiend
+   ID= i_hide_gloves
+   NAME= IceFiend hide gloves
+   ARMOR= 10
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 2 i_hide_IceFiend
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= IceFiend
+   DESCRIPTION= hide gloves
+
+ON=@Create
+   COLOR=color_hide_IceFiend
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////IceFiend hide gorget
+[ITEMDEF i_hide_gorget_IceFiend]
+   DEFNAME= i_hide_gorget_IceFiend
+   ID= i_hide_gorget
+   NAME= IceFiend hide gorget
+   ARMOR= 10
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 2 i_hide_IceFiend
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= IceFiend
+   DESCRIPTION= hide gorget
+
+ON=@Create
+   COLOR=color_hide_IceFiend
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////IceFiend hide pauldrons
+[ITEMDEF i_hide_pauldrons_IceFiend]
+   DEFNAME= i_hide_pauldrons_IceFiend
+   ID= i_hide_pauldrons
+   NAME= IceFiend hide pauldrons
+   ARMOR= 11
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 3 i_hide_IceFiend
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= IceFiend
+   DESCRIPTION= hide pauldrons
+
+ON=@Create
+   COLOR=color_hide_IceFiend
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////IceFiend hide pants
+[ITEMDEF i_hide_pants_IceFiend]
+   DEFNAME= i_hide_pants_IceFiend
+   ID= i_hide_pants
+   NAME= IceFiend hide pants
+   ARMOR= 17
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 9 i_hide_IceFiend
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= IceFiend
+   DESCRIPTION= hide pants
+
+ON=@Create
+   COLOR=color_hide_IceFiend
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////IceFiend female hide tunic
+[ITEMDEF i_hide_tunic_female_IceFiend]
+   DEFNAME= i_hide_tunic_female_IceFiend
+   ID= i_hide_tunic_female
+   NAME= IceFiend female hide tunic
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 12 i_hide_IceFiend
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= IceFiend
+   DESCRIPTION= female hide tunic
+
+ON=@Create
+   COLOR=color_hide_IceFiend
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////IceFiend Spiked Shorts
+[ITEMDEF i_armor_female_shorts_spiked_IceFiend]
+   DEFNAME= i_armor_female_shorts_spiked_IceFiend
+   ID= i_armor_female_shorts_spiked
+   NAME= IceFiend Spiked Shorts
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 12 i_hide_IceFiend
+   SKILLMAKE= TAILORING 100.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= IceFiend
+   DESCRIPTION= Spiked Shorts
+
+ON=@Create
+   COLOR=color_hide_IceFiend
+   HITPOINTS= {108 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////IceFiend Amazon Harness
+[ITEMDEF i_armor_female_harness_amazon_IceFiend]
+   DEFNAME= i_armor_female_harness_amazon_IceFiend
+   ID= i_armor_female_harness_amazon
+   NAME= IceFiend Amazon Harness
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 12 i_hide_IceFiend
+   SKILLMAKE= TAILORING 100.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= IceFiend
+   DESCRIPTION= Amazon Harness
+
+ON=@Create
+   COLOR=color_hide_IceFiend
+   HITPOINTS= {108 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////IceFiend Elite Harness
+[ITEMDEF i_armor_female_harness_elite_IceFiend]
+   DEFNAME= i_armor_female_harness_elite_IceFiend
+   ID= i_armor_female_harness_elite
+   NAME= IceFiend Elite Harness
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 12 i_hide_IceFiend
+   SKILLMAKE= TAILORING 100.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= IceFiend
+   DESCRIPTION= Elite Harness
+
+ON=@Create
+   COLOR=color_hide_IceFiend
+   HITPOINTS= {108 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////IceFiend Leather Jingasa
+[ITEMDEF i_leather_jingasa_IceFiend]
+   DEFNAME= i_leather_jingasa_IceFiend
+   ID= i_leather_jingasa
+   NAME= IceFiend Leather Jingasa
+   ARMOR= 13
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 5 i_hide_IceFiend
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= IceFiend
+   DESCRIPTION= Leather Jingasa
+
+ON=@Create
+   COLOR=color_hide_IceFiend
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

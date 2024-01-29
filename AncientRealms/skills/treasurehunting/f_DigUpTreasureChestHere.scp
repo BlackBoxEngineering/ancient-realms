@@ -1,0 +1,75 @@
+[DEFNAME TreasureHunting]
+
+RandomChestsLevel_1_4	{i_chest_metal 1}
+RandomChestsLevel_5_8	{i_chest_wooden_brass 1 i_chest_metal_brass 1}
+RandomChestsLevel_8_12	{i_chest_gargoyle 1 i_chest_rarewood 1}
+RandomChestsLevel_13	{i_chest_wooden_finished 1}
+
+SpawnChestLevel_1_MobsCount		1
+SpawnChestLevel_1_MobsType		{c_dark_elf_grunt 1 c_dark_elf_macefighter 1 c_dark_elf_swordsman 1 c_dark_elf_elite_swordsman 1 c_dark_elf_axeman 1}
+SpawnChestLevel_2_MobsCount		2
+SpawnChestLevel_2_MobsType		{c_sprite_elf 1 c_sprte_elf_archer 1 c_sprite_elf_mage 1 c_sprite_elf_sorceress 1}
+SpawnChestLevel_3_MobsCount		3
+SpawnChestLevel_3_MobsType		{c_black_cat 1 c_h_witch_high 1 c_h_warlock 1 c_h_witch 1}
+SpawnChestLevel_4_MobsCount		4
+SpawnChestLevel_4_MobsType		{c_wood_elf_archer 1 c_wood_elf_elite_ranger 1 c_wood_elf_warrior 1 c_wood_elf_fighter 1 c_wood_elf_hunter 1 c_wood_elf_ranger 1}
+SpawnChestLevel_5_MobsCount		5
+SpawnChestLevel_5_MobsType		{c_evilmage 1 c_evilmage 1 c_theophilus 1}
+SpawnChestLevel_6_MobsCount		6
+SpawnChestLevel_6_MobsType		{c_savage_shaman 1 c_savage_warrior_female 1 c_savage_warrior_male 1}
+SpawnChestLevel_7_MobsCount		7
+SpawnChestLevel_7_MobsType		{c_meer_captain 1 c_meer_eternal 1 c_meer_mage 1 c_meer_warrior 1}
+SpawnChestLevel_8_MobsCount		8
+SpawnChestLevel_8_MobsType		{c_minotaur 1 c_tormented_minotaur 1 c_minotaur_Captain 1 c_minotaur_scout 1}
+SpawnChestLevel_9_MobsCount		9
+SpawnChestLevel_9_MobsType		{c_ratman 1 c_ratman_archer 1 c_ratman_w_mage 1 c_ratman_w_sword 1}
+SpawnChestLevel_10_MobsCount	10
+SpawnChestLevel_10_MobsType		{c_scorpion_king 1 c_scorpion_prince 1 c_scorpion_queen 1 c_scorpion_thrall 1}
+SpawnChestLevel_11_MobsCount	11
+SpawnChestLevel_11_MobsType		{c_terathan_avenger 1 c_terathan_drone 1 c_terathan_matriarch 1 c_terathan_warrior 1}
+SpawnChestLevel_12_MobsCount	12
+SpawnChestLevel_12_MobsType		{c_reaper_redux 1 c_treefellow 1 c_reaper 1}
+SpawnChestLevel_13_MobsCount	13
+SpawnChestLevel_13_MobsType		{c_yomotsu_elder 1 c_yomutsu_warrior 1 c_yomotsu_priest 1}
+
+[FUNCTION f_DigUpTreasureChestHere] // MapLvl, Position
+ANIM 20
+SFX 1230
+IF <ARGV[0]> < 5
+	SERV.NEWITEM=RandomChestsLevel_1_4
+ELIF <ARGV[0]> < 9
+	SERV.NEWITEM=RandomChestsLevel_5_8
+ELIF <ARGV[0]> < 13
+	SERV.NEWITEM=RandomChestsLevel_8_12
+ELSE
+	SERV.NEWITEM=RandomChestsLevel_13
+ENDIF
+NEW.P=<P>
+NEW.TYPE=t_container_locked
+NEW.EFFECT 2,03728,3,20
+LOCAL.RandomX=<R1,4>
+LOCAL.RandomY=<R1,4>
+LOCAL.Counter=0
+WHILE (<EVAL <LOCAL.Counter>> < <EVAL SpawnChestLevel_8_MobsCount>)
+	LOCAL.Counter=<EVAL <LOCAL.Counter>+1>
+	SERV.NEWNPC SpawnChestLevel_8_MobsType
+	LOCAL.RandomX1=<EVAL <P.X>+<LOCAL.RandomX>>
+	LOCAL.RandomY1=<EVAL <P.Y>+<LOCAL.RandomY>>
+	LOCAL.RandomX2=<EVAL <P.X>-<LOCAL.RandomX>>
+	LOCAL.RandomY2=<EVAL <P.Y>-<LOCAL.RandomY>>
+	LOCAL.RandomX=<R<LOCAL.RandomX2>,<LOCAL.RandomX1>>
+	LOCAL.RandomY=<R<LOCAL.RandomY2>,<LOCAL.RandomY1>>
+	NEW.P=<EVAL <LOCAL.RandomX>>,<EVAL <LOCAL.RandomY>> //,<EVAL <P.Z>+2>
+	NEW.HOME=<EVAL <LOCAL.RandomX>>,<EVAL <LOCAL.RandomY>> //,<EVAL <P.Z>+2>
+	NEW.HOMEDIST=50
+	NEW.GO=<EVAL <LOCAL.RandomX>>,<EVAL <LOCAL.RandomY>> //,<EVAL <P.Z>+2>
+	SAY <LOCAL.X> New <NEW.NAME> Location <NEW.P>
+	NEW.UPDATE
+	NEW.ATTACK <UID>
+ENDWHILE
+	
+
+[EOF]
+
+
+

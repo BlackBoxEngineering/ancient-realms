@@ -1,0 +1,68 @@
+[CHARDEF 03]
+DEFNAME=c_zombie
+NAME=Zombie
+SOUND=snd_MONSTER_ZOMBIE1
+ICON=i_pet_ZOMBIE
+ANIM=078c7f
+CAN=MT_WALK
+DAM=20,25
+ARMOR=9
+RESOURCES=10 t_eerie_stuff
+FOODTYPE=20 t_meat_raw
+DESIRES=i_gold,t_meat_raw, t_corpse
+//SHELTER=r_dungeon,r_spooky
+AVERSIONS=t_TRAP
+BLOODCOLOR=colors_green
+TEVENTS=e_undead
+CATEGORY=Invictus - Monsters
+SUBSECTION=Undeads
+DESCRIPTION=Zombie
+
+ON=@Create	 
+	NPC=brain_undead
+	STR={46 70}
+	DEX={31 50}
+	INT={26 40}
+	PARRYING={20.0 30.0}
+	MAGICRESISTANCE={15.0 40.0}
+	TACTICS={35.0 50.0}
+	WRESTLING={35.0 50.0}
+	FAME=30
+	KARMA={-20 -39}
+	//ALIGNMENT=EVIL
+
+ON=@NPCRestock
+	ITEM=loot_ZOMBIE
+
+[chardef 310]
+defname=c_Wailing_Banshee
+NAME=Wailing Banshee
+SOUND=snd_monster_zombie1
+ICON=i_pet_wailingbanshee
+DAM=22,30
+RESDISPDNID=c_spectre
+RESLEVEL=3
+RESDISPDNHUE=01
+ARMOR=12
+CAN=MT_WALK|MT_FLY
+DESIRES=i_gold,e_notoriety,e_horses,c_man,c_woman,t_corpse
+CATEGORY=Invictus - Monsters
+SUBSECTION=AOS
+DESCRIPTION=Wailing Banshee
+
+ON=@Create 
+	NPC=brain_monster
+	FAME={10 30}
+	KARMA={-50 -69}
+	STR={126 166}
+	INT={86 115}
+	DEX={71 105}
+	MAGICRESISTANCE={75.0 95.0}
+	TACTICS={45.0 75.0}
+	WRESTLING={50.0 70.0}
+
+ON=@NpcRestock
+	ITEM=loot_Banshee
+
+
+[EOF]

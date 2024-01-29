@@ -1,0 +1,1169 @@
+/////////////////////////////////////////////leather sleeves
+[ITEMDEF 013c5]
+   DEFNAME= i_leather_sleeves
+   NAME= Leather sleeves
+   ARMOR= 4
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 4 i_leather
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+   DUPELIST=013cd
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Original
+   DESCRIPTION= leather sleeves
+
+ON=@Create
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+   TAG.ResPhysical=2
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+   
+[ITEMDEF 013cd]
+	DUPEITEM=013c5
+
+/////////////////////////////////////////////leather gloves
+[ITEMDEF 013c6]
+   DEFNAME= i_leather_gloves
+   NAME= Leather gloves
+   ARMOR= 3
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 2 i_leather
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+   DUPELIST=013ce
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Original
+   DESCRIPTION= leather gloves
+
+ON=@Create
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+[ITEMDEF 013ce]
+DUPEITEM=013c6
+/////////////////////////////////////////////leather gorget
+[ITEMDEF 013c7]
+   DEFNAME= i_leather_gorget
+   NAME= Leather gorget
+   ARMOR= 3
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 2 i_leather
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Original
+   DESCRIPTION= leather gorget
+
+ON=@Create
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////leather leggings
+[ITEMDEF 013cb]
+   DEFNAME= i_leather_leggings
+   NAME= Leather leggings
+   ARMOR= 6
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 5 i_leather
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+   DUPELIST=013d2
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Original
+   DESCRIPTION= leather leggings
+
+ON=@Create
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+[ITEMDEF 013d2]
+DUPEITEM=013cb
+
+/////////////////////////////////////////////leather tunic
+[ITEMDEF 013cc]
+   DEFNAME= i_leather_tunic
+   NAME= Leather tunic
+   ARMOR= 11
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 10 i_leather
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+   DUPELIST=013d3
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Original
+   DESCRIPTION= leather tunic
+
+ON=@Create
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+[ITEMDEF 013d3]
+DUPEITEM=013cc
+/////////////////////////////////////////////leather cap
+[ITEMDEF 01db9]
+   DEFNAME=i_leather_cap
+   NAME= Leather cap
+   ARMOR= 4
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 3 i_leather
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+   DUPELIST=01dba
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Original
+   DESCRIPTION= leather cap
+
+ON=@Create
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+[ITEMDEF 01dba]
+DUPEITEM=01db9
+
+[ITEMDEF 01c00]
+DEFNAME=i_armor_female_shorts
+TYPE=t_armor
+ARMOR= 5
+WEIGHT= 8
+VALUE= 10
+TYPE= t_armor
+REQSTR= 30
+RESOURCES= 5 i_leather
+SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+TEVENTS= t_iprop
+TAG.Item.Female=1
+CATEGORY=Provisions - Armor - Tailoring
+SUBSECTION=Leather Armor
+DESCRIPTION=Leather Shorts (Female)
+DUPELIST=01c01
+
+ON=@Create
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+[ITEMDEF 01c01]
+DUPEITEM=01c00
+
+[ITEMDEF 01c06]
+DEFNAME=i_armor_female_leather
+NAME=female leather armor
+TYPE=t_armor
+ARMOR= 5
+WEIGHT= 10
+VALUE= 10
+TYPE= t_armor
+REQSTR= 30
+RESOURCES= 5 i_leather
+SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+TEVENTS= t_iprop
+TAG.Item.Female=1
+CATEGORY=Provisions - Armor - Tailoring
+SUBSECTION=Leather Armor
+DESCRIPTION=Leather Armor (Female)
+DUPELIST=01c07
+
+ON=@Create
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+[ITEMDEF 01c07]
+DUPEITEM=01c06
+
+[ITEMDEF 01c08]
+DEFNAME=i_armor_female_skirt
+TYPE=t_armor
+ARMOR= 4
+WEIGHT= 8
+VALUE= 10
+TYPE= t_armor
+REQSTR= 30
+RESOURCES= 5 i_leather
+SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+TEVENTS= t_iprop
+TAG.Item.Female=1
+CATEGORY=Provisions - Armor - Tailoring
+SUBSECTION=Leather Armor
+DESCRIPTION=Leather Skirt (Female)
+DUPELIST=01c09
+
+ON=@Create
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+[ITEMDEF 01c09]
+DUPEITEM=01c08
+
+[ITEMDEF 01c0a]
+DEFNAME=i_armor_female_bustier
+TYPE=t_armor
+ARMOR= 5
+WEIGHT= 8
+VALUE= 10
+TYPE= t_armor
+REQSTR= 30
+RESOURCES= 5 i_leather
+SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+TEVENTS= t_iprop
+TAG.Item.Female=1
+CATEGORY=Provisions - Armor - Tailoring
+SUBSECTION=Leather Armor
+DESCRIPTION=Leather Bustier
+DUPELIST=01c0b
+
+ON=@Create
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+[ITEMDEF 01c0b]
+DUPEITEM=01c0a
+/////////////////////////////////////////////Human leather sleeves
+[ITEMDEF i_leather_sleeves_Human]
+   DEFNAME= i_leather_sleeves_Human
+   ID= i_leather_sleeves
+   NAME= Human leather sleeves
+   ARMOR= 4
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 3 i_leather_Human
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather sleeves
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather gloves
+[ITEMDEF i_leather_gloves_Human]
+   DEFNAME= i_leather_gloves_Human
+   ID= i_leather_gloves
+   NAME= Human leather gloves
+   ARMOR= 3
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 2 i_leather_Human
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather gloves
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather gorget
+[ITEMDEF i_leather_gorget_Human]
+   DEFNAME= i_leather_gorget_Human
+   ID= i_leather_gorget
+   NAME= Human leather gorget
+   ARMOR= 3
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 2 i_leather_Human
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather gorget
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather leggings
+[ITEMDEF i_leather_leggings_Human]
+   DEFNAME= i_leather_leggings_Human
+   ID= i_leather_leggings
+   NAME= Human leather leggings
+   ARMOR= 6
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 5 i_leather_Human
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather leggings
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather tunic
+[ITEMDEF i_leather_tunic_Human]
+   DEFNAME= i_leather_tunic_Human
+   ID= i_leather_tunic
+   NAME= Human leather tunic
+   ARMOR= 11
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 10 i_leather_Human
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather tunic
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather cap
+[ITEMDEF i_leather_cap_Human]
+   DEFNAME= i_leather_cap_Human
+   ID= i_leather_cap
+   NAME= Human leather cap
+   ARMOR= 4
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 3 i_leather_Human
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather cap
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather female shorts
+[ITEMDEF i_armor_female_shorts_Human]
+   DEFNAME= i_armor_female_shorts_Human
+   ID= i_armor_female_shorts
+   NAME= Human leather female shorts
+   ARMOR= 4
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 3 i_leather_Human
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather female shorts
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather female armor
+[ITEMDEF i_armor_female_leather_Human]
+   DEFNAME= i_armor_female_leather_Human
+   ID= i_armor_female_leather
+   NAME= Human leather female armor
+   ARMOR= 6
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 5 i_leather_Human
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather female armor
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather female skirt
+[ITEMDEF i_armor_female_skirt_Human]
+   DEFNAME= i_armor_female_skirt_Human
+   ID= i_armor_female_skirt
+   NAME= Human leather female skirt
+   ARMOR= 4
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 3 i_leather_Human
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather female skirt
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather female bustier
+[ITEMDEF i_armor_female_bustier_Human]
+   DEFNAME= i_armor_female_bustier_Human
+   ID= i_armor_female_bustier
+   NAME= Human leather female bustier
+   ARMOR= 6
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 5 i_leather_Human
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather female bustier
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather mempo
+[ITEMDEF i_leather_mempo_Human]
+   DEFNAME= i_leather_mempo_Human
+   ID= i_leather_mempo
+   NAME= Human leather mempo
+   ARMOR= 5
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 4 i_leather_Human
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather mempo
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather do
+[ITEMDEF i_leather_do_Human]
+   DEFNAME= i_leather_do_Human
+   ID= i_leather_do
+   NAME= Human leather do
+   ARMOR= 10
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 9 i_leather_Human
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather do
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather hiro sode
+[ITEMDEF i_leather_hiro_sode_Human]
+   DEFNAME= i_leather_hiro_sode_Human
+   ID= i_leather_hiro_sode
+   NAME= Human leather hiro sode
+   ARMOR= 8
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 7 i_leather_Human
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather hiro sode
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather suneate
+[ITEMDEF i_leather_suneate_Human]
+   DEFNAME= i_leather_suneate_Human
+   ID= i_leather_suneate
+   NAME= Human leather suneate
+   ARMOR= 7
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 6 i_leather_Human
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather suneate
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather haidate
+[ITEMDEF i_leather_haidate_Human]
+   DEFNAME= i_leather_haidate_Human
+   ID= i_leather_haidate
+   NAME= Human leather haidate
+   ARMOR= 5
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 4 i_leather_Human
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather haidate
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather ninja hood
+[ITEMDEF i_leather_ninja_hood_Human]
+   DEFNAME= i_leather_ninja_hood_Human
+   ID= i_leather_ninja_hood
+   NAME= Human leather ninja hood
+   ARMOR= 9
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 8 i_leather_Human
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather ninja hood
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather ninja belt
+[ITEMDEF i_leather_ninja_belt_Human]
+   DEFNAME= i_leather_ninja_belt_Human
+   ID= i_leather_ninja_belt
+   NAME= Human leather ninja belt
+   ARMOR= 4
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 3 i_leather_Human
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather ninja belt
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather ninja pants
+[ITEMDEF i_leather_ninja_pants_Human]
+   DEFNAME= i_leather_ninja_pants_Human
+   ID= i_leather_ninja_pants
+   NAME= Human leather ninja pants
+   ARMOR= 10
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 9 i_leather_Human
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather ninja pants
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather ninja mitts
+[ITEMDEF i_leather_ninja_mitts_Human]
+   DEFNAME= i_leather_ninja_mitts_Human
+   ID= i_leather_ninja_mitts
+   NAME= Human leather ninja mitts
+   ARMOR= 4
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 3 i_leather_Human
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather ninja mitts
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather ninja jacket
+[ITEMDEF i_leather_ninja_jacket_Human]
+   DEFNAME= i_leather_ninja_jacket_Human
+   ID= i_leather_ninja_jacket
+   NAME= Human leather ninja jacket
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 12 i_leather_Human
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather ninja jacket
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather gargoyle arms
+[ITEMDEF i_leather_gargoyle_arms_1_Human]
+   DEFNAME= i_leather_gargoyle_arms_1_Human
+   ID= i_leather_gargoyle_arms_1
+   NAME= Human leather gargoyle arms
+   ARMOR= 7
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 6 i_leather_Human
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather gargoyle arms
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather gargoyle arms
+[ITEMDEF i_leather_gargoyle_arms_2_Human]
+   DEFNAME= i_leather_gargoyle_arms_2_Human
+   ID= i_leather_gargoyle_arms_2
+   NAME= Human leather gargoyle arms
+   ARMOR= 7
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 6 i_leather_Human
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather gargoyle arms
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather gargoyle chest
+[ITEMDEF i_leather_gargoyle_chest_2_Human]
+   DEFNAME= i_leather_gargoyle_chest_2_Human
+   ID= i_leather_gargoyle_chest_2
+   NAME= Human leather gargoyle chest
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 12 i_leather_Human
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather gargoyle chest
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather gargoyle chest
+[ITEMDEF i_leather_gargoyle_chest_1_Human]
+   DEFNAME= i_leather_gargoyle_chest_1_Human
+   ID= i_leather_gargoyle_chest_1
+   NAME= Human leather gargoyle chest
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 12 i_leather_Human
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather gargoyle chest
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather gargoyle leggings
+[ITEMDEF i_leather_gargoyle_leggings_1_Human]
+   DEFNAME= i_leather_gargoyle_leggings_1_Human
+   ID= i_leather_gargoyle_leggings_1
+   NAME= Human leather gargoyle leggings
+   ARMOR= 10
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 9 i_leather_Human
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather gargoyle leggings
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather gargoyle leggings
+[ITEMDEF i_leather_gargoyle_leggings_2_Human]
+   DEFNAME= i_leather_gargoyle_leggings_2_Human
+   ID= i_leather_gargoyle_leggings_2
+   NAME= Human leather gargoyle leggings
+   ARMOR= 10
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 9 i_leather_Human
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather gargoyle leggings
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather gargoyle kilt
+[ITEMDEF i_leather_gargoyle_kilt_2_Human]
+   DEFNAME= i_leather_gargoyle_kilt_2_Human
+   ID= i_leather_gargoyle_kilt_2
+   NAME= Human leather gargoyle kilt
+   ARMOR= 9
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_leather_Human
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather gargoyle kilt
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather gargoyle kilt
+[ITEMDEF i_leather_gargoyle_kilt_1_Human]
+   DEFNAME= i_leather_gargoyle_kilt_1_Human
+   ID= i_leather_gargoyle_kilt_1
+   NAME= Human leather gargoyle kilt
+   ARMOR= 9
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_leather_Human
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather gargoyle kilt
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human leather gargoyle wings
+[ITEMDEF i_gargish_leather_wings_Human]
+   DEFNAME= i_gargish_leather_wings_Human
+   ID= i_gargish_leather_wings
+   NAME= Human leather gargoyle wings
+   ARMOR= 6
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 5 i_leather_Human
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= leather gargoyle wings
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human arcane leather gloves
+[ITEMDEF i_leather_gloves_arcane_Human]
+   DEFNAME= i_leather_gloves_arcane_Human
+   ID= i_leather_gloves_arcane
+   NAME= Human arcane leather gloves
+   ARMOR= 6
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 5 i_leather_Human
+   SKILLMAKE= TAILORING 120.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= arcane leather gloves
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {121 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

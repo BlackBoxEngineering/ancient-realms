@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Erubecite Platemail Arms
+[ITEMDEF i_platemail_arms_Erubecite]
+   DEFNAME= i_platemail_arms_Erubecite
+   ID= i_platemail_arms
+   NAME= Erubecite Platemail Arms
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Platemail Leggings
+[ITEMDEF i_platemail_leggings_Erubecite]
+   DEFNAME= i_platemail_leggings_Erubecite
+   ID= i_platemail_leggings
+   NAME= Erubecite Platemail Leggings
+   ARMOR= 22
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Platemail Helmet
+[ITEMDEF i_platemail_helm_Erubecite]
+   DEFNAME= i_platemail_helm_Erubecite
+   ID= i_platemail_helm
+   NAME= Erubecite Platemail Helmet
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Platemail Gorget
+[ITEMDEF i_platemail_gorget_Erubecite]
+   DEFNAME= i_platemail_gorget_Erubecite
+   ID= i_platemail_gorget
+   NAME= Erubecite Platemail Gorget
+   ARMOR= 12
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Erubecite]
+   DEFNAME= i_platemail_gorget2_Erubecite
+   ID= i_platemail_gorget2
+   NAME= Erubecite Platemail Gorget
+   ARMOR= 12
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Platemail Gloves
+[ITEMDEF i_platemail_gloves_Erubecite]
+   DEFNAME= i_platemail_gloves_Erubecite
+   ID= i_platemail_gloves
+   NAME= Erubecite Platemail Gloves
+   ARMOR= 12
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Platemail Chest
+[ITEMDEF i_platemail_chest_Erubecite]
+   DEFNAME= i_platemail_chest_Erubecite
+   ID= i_platemail_chest
+   NAME= Erubecite Platemail Chest
+   ARMOR= 26
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Erubecite]
+   DEFNAME= i_armor_female_plate_Erubecite
+   ID= i_armor_female_plate
+   NAME= Erubecite Platemail Female Plate
+   ARMOR= 24
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite chainmail coif
+[ITEMDEF i_chainmail_coif_Erubecite]
+   DEFNAME= i_chainmail_coif_Erubecite
+   ID= i_chainmail_coif
+   NAME= Erubecite chainmail coif
+   ARMOR= 18
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {54 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite chainmail leggings
+[ITEMDEF i_chainmail_leggings_Erubecite]
+   DEFNAME= i_chainmail_leggings_Erubecite
+   ID= i_chainmail_leggings
+   NAME= Erubecite chainmail leggings
+   ARMOR= 20
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {54 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite chainmail tunic
+[ITEMDEF i_chainmail_tunic_Erubecite]
+   DEFNAME= i_chainmail_tunic_Erubecite
+   ID= i_chainmail_tunic
+   NAME= Erubecite chainmail tunic
+   ARMOR= 24
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {54 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Erubecite]
+   DEFNAME= i_ringmail_sleeves_Erubecite
+   ID= i_ringmail_sleeves
+   NAME= Erubecite Ringmail Sleeves
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {44 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Erubecite]
+   DEFNAME= i_ringmail_leggings_Erubecite
+   ID= i_ringmail_leggings
+   NAME= Erubecite Ringmail Leggings
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {44 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Erubecite]
+   DEFNAME= i_ringmail_tunic_Erubecite
+   ID= i_ringmail_tunic
+   NAME= Erubecite Ringmail Tunic
+   ARMOR= 20
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {44 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Erubecite]
+   DEFNAME= i_ringmail_gloves_Erubecite
+   ID= i_ringmail_gloves
+   NAME= Erubecite Ringmail Gloves
+   ARMOR= 6
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {44 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite studded sleeves
+[ITEMDEF i_studded_sleeves_Erubecite]
+   DEFNAME= i_studded_sleeves_Erubecite
+   ID= i_studded_sleeves
+   NAME= Erubecite studded sleeves
+   ARMOR= 9
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Erubecite, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite studded gloves
+[ITEMDEF i_studded_gloves_Erubecite]
+   DEFNAME= i_studded_gloves_Erubecite
+   ID= i_studded_gloves
+   NAME= Erubecite studded gloves
+   ARMOR= 6
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Erubecite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite studded gorget
+[ITEMDEF i_studded_gorget_Erubecite]
+   DEFNAME= i_studded_gorget_Erubecite
+   ID= i_studded_gorget
+   NAME= Erubecite studded gorget
+   ARMOR= 6
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Erubecite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite studded leggings
+[ITEMDEF i_studded_leggings_Erubecite]
+   DEFNAME= i_studded_leggings_Erubecite
+   ID= i_studded_leggings
+   NAME= Erubecite studded leggings
+   ARMOR= 15
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Erubecite, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite studded tunic
+[ITEMDEF i_studded_tunic_Erubecite]
+   DEFNAME= i_studded_tunic_Erubecite
+   ID= i_studded_tunic
+   NAME= Erubecite studded tunic
+   ARMOR= 19
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Erubecite, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite studded female armor
+[ITEMDEF i_armor_female_studded_Erubecite]
+   DEFNAME= i_armor_female_studded_Erubecite
+   ID= i_armor_female_studded
+   NAME= Erubecite studded female armor
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Erubecite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Erubecite]
+   DEFNAME= i_armor_female_bustier_studded_Erubecite
+   ID= i_armor_female_bustier_studded
+   NAME= Erubecite studded female bustier
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Erubecite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite platemail mempo
+[ITEMDEF i_platemail_mempo_Erubecite]
+   DEFNAME= i_platemail_mempo_Erubecite
+   ID= i_platemail_mempo
+   NAME= Erubecite platemail mempo
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite platemail do
+[ITEMDEF i_platemail_do_Erubecite]
+   DEFNAME= i_platemail_do_Erubecite
+   ID= i_platemail_do
+   NAME= Erubecite platemail do
+   ARMOR= 24
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Erubecite]
+   DEFNAME= i_platemail_hiro_sode_Erubecite
+   ID= i_platemail_hiro_sode
+   NAME= Erubecite platemail hiro sode
+   ARMOR= 20
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite platemail suneate
+[ITEMDEF i_platemail_suneate_Erubecite]
+   DEFNAME= i_platemail_suneate_Erubecite
+   ID= i_platemail_suneate
+   NAME= Erubecite platemail suneate
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite platemail haidate
+[ITEMDEF i_platemail_haidate_Erubecite]
+   DEFNAME= i_platemail_haidate_Erubecite
+   ID= i_platemail_haidate
+   NAME= Erubecite platemail haidate
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite studded mempo
+[ITEMDEF i_studded_mempo_Erubecite]
+   DEFNAME= i_studded_mempo_Erubecite
+   ID= i_studded_mempo
+   NAME= Erubecite studded mempo
+   ARMOR= 11
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Erubecite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite studded do
+[ITEMDEF i_studded_do_Erubecite]
+   DEFNAME= i_studded_do_Erubecite
+   ID= i_studded_do
+   NAME= Erubecite studded do
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Erubecite, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Erubecite]
+   DEFNAME= i_studded_hiro_sode_Erubecite
+   ID= i_studded_hiro_sode
+   NAME= Erubecite studded hiro sode
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Erubecite, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite studded suneate
+[ITEMDEF i_studded_suneate_Erubecite]
+   DEFNAME= i_studded_suneate_Erubecite
+   ID= i_studded_suneate
+   NAME= Erubecite studded suneate
+   ARMOR= 13
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Erubecite, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite studded haidate
+[ITEMDEF i_studded_haidate_Erubecite]
+   DEFNAME= i_studded_haidate_Erubecite
+   ID= i_studded_haidate
+   NAME= Erubecite studded haidate
+   ARMOR= 11
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Erubecite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Erubecite]
+   DEFNAME= i_platemail_gargish_arms_Erubecite
+   ID= i_platemail_gargish_arms
+   NAME= Erubecite Gargish Platemail Arms
+   ARMOR= 20
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Erubecite]
+   DEFNAME= i_platemail_gargish_chest_Erubecite
+   ID= i_platemail_gargish_chest
+   NAME= Erubecite Gargish Platemail Chest
+   ARMOR= 28
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Erubecite]
+   DEFNAME= i_platemail_gargish_kilt_Erubecite
+   ID= i_platemail_gargish_kilt
+   NAME= Erubecite Gargish Platemail Kilt
+   ARMOR= 19
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Erubecite]
+   DEFNAME= i_platemail_gargish_leggings_Erubecite
+   ID= i_platemail_gargish_leggings
+   NAME= Erubecite Gargish Platemail Leggings
+   ARMOR= 24
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Erubecite]
+   DEFNAME= i_platemail_gargish_arms_2_Erubecite
+   ID= i_platemail_gargish_arms_2
+   NAME= Erubecite Gargish Platemail Arms
+   ARMOR= 20
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Erubecite]
+   DEFNAME= i_platemail_gargish_chest_2_Erubecite
+   ID= i_platemail_gargish_chest_2
+   NAME= Erubecite Gargish Platemail Chest
+   ARMOR= 28
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Erubecite]
+   DEFNAME= i_platemail_gargish_kilt_2_Erubecite
+   ID= i_platemail_gargish_kilt_2
+   NAME= Erubecite Gargish Platemail Kilt
+   ARMOR= 19
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Erubecite]
+   DEFNAME= i_platemail_gargish_leggings_2_Erubecite
+   ID= i_platemail_gargish_leggings_2
+   NAME= Erubecite Gargish Platemail Leggings
+   ARMOR= 24
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Closed Helmet
+[ITEMDEF i_helm_close_Erubecite]
+   DEFNAME= i_helm_close_Erubecite
+   ID= i_helm_close
+   NAME= Erubecite Closed Helmet
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Open Helmet
+[ITEMDEF i_helm_open_Erubecite]
+   DEFNAME= i_helm_open_Erubecite
+   ID= i_helm_open
+   NAME= Erubecite Open Helmet
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {44 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Bascinet
+[ITEMDEF i_bascinet_Erubecite]
+   DEFNAME= i_bascinet_Erubecite
+   ID= i_bascinet
+   NAME= Erubecite Bascinet
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Norse Helmet
+[ITEMDEF i_helm_norse_Erubecite]
+   DEFNAME= i_helm_norse_Erubecite
+   ID= i_helm_norse
+   NAME= Erubecite Norse Helmet
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {54 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Kabuto
+[ITEMDEF i_helm_kabuto_Erubecite]
+   DEFNAME= i_helm_kabuto_Erubecite
+   ID= i_helm_kabuto
+   NAME= Erubecite Kabuto
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Erubecite]
+   DEFNAME= i_chainmail_hatsuburi_Erubecite
+   ID= i_chainmail_hatsuburi
+   NAME= Erubecite Chainmail Hatsuburi
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Erubecite]
+   DEFNAME= i_platemail_hatsuburi_Erubecite
+   ID= i_platemail_hatsuburi
+   NAME= Erubecite Platemail Hatsuburi
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Erubecite]
+   DEFNAME= i_plate_jingasa_heavy_Erubecite
+   ID= i_plate_jingasa_heavy
+   NAME= Erubecite Heavy Jingasa
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Erubecite]
+   DEFNAME= i_platemail_kabuto_decorative_Erubecite
+   ID= i_platemail_kabuto_decorative
+   NAME= Erubecite Decorative Platemail Kabuto
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {94 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Erubecite]
+   DEFNAME= i_plate_jingasa_light_Erubecite
+   ID= i_plate_jingasa_light
+   NAME= Erubecite Light Jingasa
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Erubecite]
+   DEFNAME= i_plate_jingasa_small_Erubecite
+   ID= i_plate_jingasa_small
+   NAME= Erubecite Small Jingasa
+   ARMOR= 12
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {54 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Erubecite]
+   DEFNAME= i_platemail_kabuto_battle_Erubecite
+   ID= i_platemail_kabuto_battle
+   NAME= Erubecite Platemail Battle Kabuto
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Erubecite]
+   DEFNAME= i_platemail_kabuto_Erubecite
+   ID= i_platemail_kabuto
+   NAME= Erubecite Platemail Kabuto
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Circlet
+[ITEMDEF i_circlet_Erubecite]
+   DEFNAME= i_circlet_Erubecite
+   ID= i_circlet
+   NAME= Erubecite Circlet
+   ARMOR= 10
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Royal Circlet
+[ITEMDEF i_circlet_royal_Erubecite]
+   DEFNAME= i_circlet_royal_Erubecite
+   ID= i_circlet_royal
+   NAME= Erubecite Royal Circlet
+   ARMOR= 10
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Erubecite]
+   DEFNAME= i_circlet_gemmed_Erubecite
+   ID= i_circlet_gemmed
+   NAME= Erubecite Gemmed Circlet
+   ARMOR= 10
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {104 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Buckler
+[ITEMDEF i_shield_buckler_Erubecite]
+   DEFNAME= i_shield_buckler_Erubecite
+   ID= i_shield_buckler
+   NAME= Erubecite Buckler
+   ARMOR= 9
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Wooden Shield
+[ITEMDEF i_shield_wood_Erubecite]
+   DEFNAME= i_shield_wood_Erubecite
+   ID= i_shield_wood
+   NAME= Erubecite Wooden Shield
+   ARMOR= 10
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {44 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Erubecite]
+   DEFNAME= i_shield_round_metal_Erubecite
+   ID= i_shield_round_metal
+   NAME= Erubecite Light Metal  Round Shield
+   ARMOR= 11
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {54 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Erubecite]
+   DEFNAME= i_shield_round_bronze_Erubecite
+   ID= i_shield_round_bronze
+   NAME= Erubecite Heavy Metal  Round Shield
+   ARMOR= 13
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Erubecite]
+   DEFNAME= i_shield_kite_metal_Erubecite
+   ID= i_shield_kite_metal
+   NAME= Erubecite Metal Kite Shield
+   ARMOR= 15
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Erubecite]
+   DEFNAME= i_shield_kite_wood_Erubecite
+   ID= i_shield_kite_wood
+   NAME= Erubecite Wooden Kite Shield
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Heater Shield
+[ITEMDEF i_shield_heater_Erubecite]
+   DEFNAME= i_shield_heater_Erubecite
+   ID= i_shield_heater
+   NAME= Erubecite Heater Shield
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {94 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Ancient Shield
+[ITEMDEF i_shield_dupre_Erubecite]
+   DEFNAME= i_shield_dupre_Erubecite
+   ID= i_shield_dupre
+   NAME= Erubecite Ancient Shield
+   ARMOR= 18
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {104 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Shield oh Hell
+[ITEMDEF i_shield_scale_Erubecite]
+   DEFNAME= i_shield_scale_Erubecite
+   ID= i_shield_scale
+   NAME= Erubecite Shield oh Hell
+   ARMOR= 18
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {104 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Chaos Shield
+[ITEMDEF i_shield_chaos_Erubecite]
+   DEFNAME= i_shield_chaos_Erubecite
+   ID= i_shield_chaos
+   NAME= Erubecite Chaos Shield
+   ARMOR= 19
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {114 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Order Shield
+[ITEMDEF i_shield_order_Erubecite]
+   DEFNAME= i_shield_order_Erubecite
+   ID= i_shield_order
+   NAME= Erubecite Order Shield
+   ARMOR= 19
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Erubecite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Erubecite
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS= {114 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

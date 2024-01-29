@@ -1,0 +1,81 @@
+////////////////////////////////////////////// t_raceMultiControl
+[TYPEDEF t_raceMultiControl]
+ON=@DCLICK
+	IF <SRC.ISGM>
+		SAY @63 Players In Hold [<EVAL <TAG.PlayersInHold>>] 
+		TIMER=1
+	ENDIF
+	RETURN 1
+
+ON=@DESTROY
+	REF1=<SERV.UID.<VAR.RaceControlUID>>
+	//SERV.LOG <NAME> Destroyed Race Control Stone Updated
+	REF1.TAG.PlayersWaitUID=
+	REF1.TAG.PlayersWaitAreaUID=
+	REF1.TAG.PlayersWaitAreaNAME=
+	
+////////////////////////////////////////////// m_raceWaitingArea
+[MULTIDEF m_raceWaitingArea]
+DEFNAME=i_raceWaitingArea
+NAME=RaceWaitingArea
+ID=7732
+TYPE=t_multi
+TEVENTS=t_raceMultiControl
+MULTIREGION  = -4,-4, 4, 4
+COMPONENT=147, -4,-4
+COMPONENT=147,  4, 4
+COMPONENT=147, -4, 4
+COMPONENT=147,  4,-4
+
+////////////////////////////////////////////// f_raceLocateWaitArea
+[FUNCTION f_raceLocateWaitArea]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+REF2=<SERV.UID.<REF1.TAG.CheckPoint_<EVAL <REF1.TAG.CheckPointCount>>_UID>>
+REF3=<SERV.UID.<REF1.TAG.CheckPoint_<EVAL <REF1.TAG.CheckPointCount>-1>_UID>>
+//SERV.LOG REF2 <REF3.NAME> REF3 <REF2.NAME>
+IF !<REF1.TAG0.PlayersWaitAreaUID> && !<REF1.TAG.PlayersWaitAreaNAME>
+	IF <f_isVertical <REF3.UID>,<REF2.UID>>
+		LOCAL.YCheck=<REF3.P.Y> - <REF2.P.Y>
+		IF <EVAL <LOCAL.YCheck>> > 0
+			//SERV.LOG The Players are coming in from the south therefor the waiting area shall be west from finish line
+			SERV.NEWITEM i_raceWaitingArea
+			NEW.P=<EVAL <REF2.P.X>-7>,<EVAL <REF2.P.Y>+4>,<REF2.P.Z>
+			LOCAL.GetNewUID=<NEW.UID>
+			NEW.MULTICREATE
+		ELSE
+			//SERV.LOG The Players are coming in from the north therefor the waiting area shall be east from finish line
+			SERV.NEWITEM i_raceWaitingArea
+			NEW.P=<EVAL <REF2.P.X>+7>,<EVAL <REF2.P.Y>-4>,<REF2.P.Z>
+			LOCAL.GetNewUID=<NEW.UID>
+			NEW.MULTICREATE
+		ENDIF
+	ELIF <f_isHorizontal <REF3.UID>,<REF2.UID>> // h = x -x 
+		LOCAL.XCheck=<REF3.P.X> - <REF2.P.X>
+		IF <EVAL <LOCAL.XCheck>> > 0
+			//SERV.LOG The Players are coming in from the east therefor the waiting area shall be south from finish line
+			SERV.NEWITEM i_raceWaitingArea
+			NEW.P=<EVAL <REF2.P.X>+4>,<EVAL <REF2.P.Y>+7>,<REF2.P.Z>
+			LOCAL.GetNewUID=<NEW.UID>
+			NEW.MULTICREATE
+		ELSE
+			//SERV.LOG The Players are coming in from the west therefor the waiting area shall be north from finish line
+			SERV.NEWITEM i_raceWaitingArea
+			NEW.P=<EVAL <REF2.P.X>-4>,<EVAL <REF2.P.Y>-7>>,<REF2.P.Z>
+			LOCAL.GetNewUID=<NEW.UID>
+			NEW.MULTICREATE
+		ENDIF
+	ELSE
+		//SERV.LOG Its Diagonal should prevent this happening.
+	ENDIF
+	REF1.TAG.PlayersWaitUID=<LOCAL.GetNewUID>
+	REF1.TAG.PlayersWaitAreaUID=<SERV.UID.<LOCAL.GetNewUID>.REGION.UID>
+	REF1.TAG.PlayersWaitAreaNAME=<SERV.UID.<LOCAL.GetNewUID>.REGION.NAME>
+ELSE
+	//SERV.LOG f_raceLocateWaitArea attempted to create another waiting area but one already exsists
+	RETURN 1
+ENDIF
+IF <LOCAL.GetNewUID>
+	SERV.UID.<LOCAL.GetNewUID>.LINK = <REF1.UID>
+	RETURN 1
+ENDIF
+[EOF]

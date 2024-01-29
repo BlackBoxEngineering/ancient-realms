@@ -1,0 +1,563 @@
+/////////////////////////////////////////////Walnut WildStaff
+
+[ITEMDEF i_mace_wildstaff_Walnut]
+   DEFNAME=i_mace_wildstaff_Walnut
+   ID=i_mace_wildstaff
+   NAME=Walnut WildStaff
+   RESOURCES= 20 i_log_Walnut
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=29
+   VALUE=102
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Walnut
+
+ON=@Create
+   COLOR=color_log_Walnut
+   HITPOINTS={60 78}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Walnut Black Staff
+
+[ITEMDEF i_staff_black_Walnut]
+   DEFNAME=i_staff_black_Walnut
+   ID=i_staff_black
+   NAME=Walnut Black Staff
+   RESOURCES= 20 i_log_Walnut
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=27
+   VALUE=102
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Walnut
+
+ON=@Create
+   COLOR=color_log_Walnut
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Walnut Gnarled Staff
+
+[ITEMDEF i_staff_gnarled_Walnut]
+   DEFNAME=i_staff_gnarled_Walnut
+   ID=i_staff_gnarled
+   NAME=Walnut Gnarled Staff
+   RESOURCES= 20 i_log_Walnut
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=25
+   VALUE=102
+   SPEED=52
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Walnut
+
+ON=@Create
+   COLOR=color_log_Walnut
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Walnut Nunchaku
+
+[ITEMDEF i_nunchaku_Walnut]
+   DEFNAME=i_nunchaku_Walnut
+   ID=i_nunchaku
+   NAME=Walnut Nunchaku
+   RESOURCES= 20 i_log_Walnut
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=27
+   VALUE=102
+   SPEED=39
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Walnut
+
+ON=@Create
+   COLOR=color_log_Walnut
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Walnut Club
+
+[ITEMDEF i_club_Walnut]
+   DEFNAME=i_club_Walnut
+   ID=i_club
+   NAME=Walnut Club
+   RESOURCES= 20 i_log_Walnut
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=23
+   VALUE=102
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=CARPENTRY 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Walnut
+
+ON=@Create
+   COLOR=color_log_Walnut
+   HITPOINTS={10 28}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Walnut Tetsubo
+
+[ITEMDEF i_tetsubo_Walnut]
+   DEFNAME=i_tetsubo_Walnut
+   ID=i_tetsubo
+   NAME=Walnut Tetsubo
+   RESOURCES= 20 i_log_Walnut
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=33
+   VALUE=102
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Walnut
+
+ON=@Create
+   COLOR=color_log_Walnut
+   HITPOINTS={80 98}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Walnut Spear
+
+[ITEMDEF i_spear_Walnut]
+   DEFNAME=i_spear_Walnut
+   ID=i_spear
+   NAME=Walnut Spear
+   RESOURCES= 20 i_log_Walnut
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=102
+   SPEED=43
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Walnut
+
+ON=@Create
+   COLOR=color_log_Walnut
+   HITPOINTS={60 78}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Walnut Lance
+
+[ITEMDEF i_lance_Walnut]
+   DEFNAME=i_lance_Walnut
+   ID=i_lance
+   NAME=Walnut Lance
+   RESOURCES= 20 i_log_Walnut
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=29
+   VALUE=102
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Walnut
+
+ON=@Create
+   COLOR=color_log_Walnut
+   HITPOINTS={100 118}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Walnut Bow
+
+[ITEMDEF i_bow_Walnut]
+   DEFNAME=i_bow_Walnut
+   ID=i_bow
+   NAME=Walnut Bow
+   RESOURCES= 20 i_log_Walnut
+   WEIGHT=19
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=23
+   VALUE=102
+   SPEED=44
+   SKILL=ARCHERY
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Walnut
+
+ON=@Create
+   COLOR=color_log_Walnut
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Walnut Composite Bow
+
+[ITEMDEF i_composite_bow_Walnut]
+   DEFNAME=i_composite_bow_Walnut
+   ID=i_composite_bow
+   NAME=Walnut Composite Bow
+   RESOURCES= 20 i_log_Walnut
+   WEIGHT=19
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=24
+   VALUE=102
+   SPEED=42
+   SKILL=ARCHERY
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Walnut
+
+ON=@Create
+   COLOR=color_log_Walnut
+   HITPOINTS={50 68}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Walnut Eleven Composite Bow
+
+[ITEMDEF i_elven_composite_longbow_Walnut]
+   DEFNAME=i_elven_composite_longbow_Walnut
+   ID=i_elven_composite_longbow
+   NAME=Walnut Eleven Composite Bow
+   RESOURCES= 20 i_log_Walnut
+   WEIGHT=19
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=25
+   VALUE=102
+   SPEED=40
+   SKILL=ARCHERY
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Walnut
+
+ON=@Create
+   COLOR=color_log_Walnut
+   HITPOINTS={70 88}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Walnut Assassin Shortbow
+
+[ITEMDEF i_assassin_shortbow_Walnut]
+   DEFNAME=i_assassin_shortbow_Walnut
+   ID=i_assassin_shortbow
+   NAME=Walnut Assassin Shortbow
+   RESOURCES= 20 i_log_Walnut
+   WEIGHT=19
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=26
+   VALUE=102
+   SPEED=38
+   SKILL=ARCHERY
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Walnut
+
+ON=@Create
+   COLOR=color_log_Walnut
+   HITPOINTS={90 108}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Walnut Yumi
+
+[ITEMDEF i_yumi_Walnut]
+   DEFNAME=i_yumi_Walnut
+   ID=i_yumi
+   NAME=Walnut Yumi
+   RESOURCES= 20 i_log_Walnut
+   WEIGHT=19
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=27
+   VALUE=102
+   SPEED=36
+   SKILL=ARCHERY
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Walnut
+
+ON=@Create
+   COLOR=color_log_Walnut
+   HITPOINTS={100 118}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Walnut Crossbow
+
+[ITEMDEF i_crossbow_Walnut]
+   DEFNAME=i_crossbow_Walnut
+   ID=i_crossbow
+   NAME=Walnut Crossbow
+   RESOURCES= 20 i_log_Walnut
+   WEIGHT=19
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=25
+   VALUE=102
+   SPEED=54
+   SKILL=ARCHERY
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Walnut
+
+ON=@Create
+   COLOR=color_log_Walnut
+   HITPOINTS={50 68}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Walnut Heavy Crossbow
+
+[ITEMDEF i_crossbow_heavy_Walnut]
+   DEFNAME=i_crossbow_heavy_Walnut
+   ID=i_crossbow_heavy
+   NAME=Walnut Heavy Crossbow
+   RESOURCES= 20 i_log_Walnut
+   WEIGHT=19
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=27
+   VALUE=102
+   SPEED=52
+   SKILL=ARCHERY
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Walnut
+
+ON=@Create
+   COLOR=color_log_Walnut
+   HITPOINTS={70 88}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Walnut Repeating Crossbow
+
+[ITEMDEF i_repeating_crossbow_Walnut]
+   DEFNAME=i_repeating_crossbow_Walnut
+   ID=i_repeating_crossbow
+   NAME=Walnut Repeating Crossbow
+   RESOURCES= 20 i_log_Walnut
+   WEIGHT=19
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=24
+   VALUE=102
+   SPEED=50
+   SKILL=ARCHERY
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Walnut
+
+ON=@Create
+   COLOR=color_log_Walnut
+   HITPOINTS={90 108}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Walnut Bola
+
+[ITEMDEF i_bola_Walnut]
+   DEFNAME=i_bola_Walnut
+   ID=i_bola
+   NAME=Walnut Bola
+   RESOURCES= 20 i_log_Walnut
+   WEIGHT=19
+   TYPE=t_bola
+   FLIP=1
+   DAM=21
+   VALUE=102
+   SPEED=39
+   SKILL=ARCHERY
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=TINKERING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Walnut
+
+ON=@Create
+   COLOR=color_log_Walnut
+   HITPOINTS={110 128}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

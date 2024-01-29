@@ -1,0 +1,77 @@
+[TEMPLATE VENDOR_S_LIBRARIAN_TEMPLATE]
+CATEGORY=Vendor Templates
+SUBSECTION=Sell Templates
+DESCRIPTION=Librarian
+SELL=i_runebook,{55 140}
+SELL=i_spellbook,{2 24}
+SELL=i_spellbook_necromancy,{10 46}
+SELL=i_spellbook_mystic,{12 52}
+SELL=i_spellbook_paladin,{30 105}
+SELL=i_spellbook_bushido,{30 105}
+SELL=i_spellbook_ninjitsu,{30 105}
+SELL=i_spellbook_arcanist,{30 105}
+SELL=i_book_mushrooms,{30 105}
+
+[TEMPLATE VENDOR_B_LIBRARIAN_TEMPLATE]
+CATEGORY=Vendor Templates
+SUBSECTION=Buy Templates
+DESCRIPTION=Librarian
+BUY=i_runebook,{55 140}
+BUY=i_spellbook,{2 24}
+BUY=i_spellbook_necromancy,{10 46}
+BUY=i_spellbook_mystic,{12 52}
+BUY=i_spellbook_paladin,{30 105}
+BUY=i_spellbook_bushido,{30 105}
+BUY=i_spellbook_ninjitsu,{30 105}
+BUY=i_spellbook_arcanist,{30 105}
+BUY=i_book_mushrooms,{30 105}
+
+[TEMPLATE VENDOR_S_BANKER_TEMPLATE]
+CATEGORY=Vendor Templates
+SUBSECTION=Sell Templates
+DESCRIPTION=Banker
+SELL=i_trading_licence,{2 6},{55 140}
+
+
+[TEMPLATE VENDOR_B_BANKER_TEMPLATE]
+CATEGORY=Vendor Templates
+SUBSECTION=Buy Templates
+DESCRIPTION=Banker
+BUY=i_trading_licence,{2 6},{55 140}
+
+
+[TEMPLATE VENDOR_S_FARMER]
+CATEGORY=Invictus - Vendor Templates
+SUBSECTION=Sell Templates
+DESCRIPTION=Farmer
+SELL=i_seed_corn,{10 40}
+SELL=i_seed_hay,{10 40}
+SELL=i_seed_wheat,{10 40}
+SELL=i_seed_carrot,{10 40}
+SELL=i_seed_lettuce,{10 40}
+SELL=i_seed_apple,{10 40}
+SELL=i_seed_watermelon,{10 40}
+SELL=i_seed_onion,{10 40}
+SELL=i_seed_turnip,{10 40}
+SELL=i_seed_pumpkin,{10 40}
+SELL=i_seed_honeydew,{10 40}
+SELL=i_seed_gourd,{10 40}
+SELL=i_seed_canteloupe,{10 40}
+SELL=i_seed_squash,{10 40}
+SELL=i_seed_cabbage,{10 40}
+SELL=i_seed_garlic,{10 40}
+SELL=i_seed_cotton,{10 40}
+SELL=i_seed_flax,{10 40}
+SELL=i_seed_hops,{10 40}
+SELL=i_watering_bucket_empty,{10 40}
+
+[TEMPLATE VENDOR_B_FARMER]
+CATEGORY=Invictus - Vendor Templates
+SUBSECTION=Buy Templates
+DESCRIPTION=Farmer
+BUY=i_kindling,{30 60}
+BUY=i_flour_sack,{30 60}
+BUY=i_hay_sheaf,{30 60}
+	
+[EOF]
+

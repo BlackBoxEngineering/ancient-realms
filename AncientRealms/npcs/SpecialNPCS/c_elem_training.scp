@@ -1,0 +1,43 @@
+[CHARDEF c_elem_training]
+DEFNAME=c_elem_training
+ID=0e
+NAME=Training Elemental
+SOUND=snd_ELEMENTL_ERTHEL1
+ICON=i_pet_elem_earth
+ANIM=079c7f
+DAM=5
+ARMOR=5
+RESOURCES=8 tm_rocks
+CAN=0
+FOODTYPE=15 t_arock,t_coin,t_ore,t_ingot
+DESIRES=r_caves
+BLOODCOLOR=color_ore_jolt
+CATEGORY=Invictus - Monsters
+SUBSECTION=Elementals
+DESCRIPTION=Training Elemental
+
+ON=@Create	 
+	NPC=brain_monster
+	KARMA={-2050 -2150}
+	FAME={50 100}
+	COLOR=1462
+	STR={60 80}
+	MAXHITS={1000}
+	DEX={60 80}
+	INT={60 80}
+	FOCUS=100.0
+	PARRYING={40.0 65.0}
+	MAGICRESISTANCE={50.0 95.0}
+	TACTICS={60.0 100.0}
+	WRESTLING={60.0 100.0}
+	MINING=80.0
+
+ON=@GetHit
+	IF <HITS>!=<MAXHITS>
+		HITS=<MAXHITS>
+	ENDIF
+
+ON=@NPCRestock
+	ITEM=loot_elem_training
+
+[EOF]

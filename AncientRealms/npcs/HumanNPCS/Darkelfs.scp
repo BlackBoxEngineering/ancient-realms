@@ -1,0 +1,841 @@
+// INVICTUS DARK ELFS
+[CHARDEF c_darkelf_war_sword]
+DEFNAME=c_darkelf_war_sword
+NAME=#NAMES_ELF_MALE the Dark-Elf Warrior
+SOUND=snd_HUMAN_M_DIE_01
+ID=C_ELF_MALE
+DAM=40,70
+ARMOR=10
+CAN=MT_EQUIP|MT_RUN|MT_USEHANDS|MT_WALK
+TSPEECH=jobFighter
+CATEGORY=Invictus - Civilized
+SUBSECTION=Dark Elves
+DESCRIPTION=Dark-Elf Warrior SwordNShield
+
+ON=@Create	
+	COLOR=color_ore_lime
+	NPC=BRAIN_HUMAN
+	KARMA=-3500
+	FAME=150
+	STR=100
+	DEX=125
+	INT=25
+	MAXHITS=300	
+	ANATOMY={90.0 100.0}
+	TACTICS={90.0 100.0}
+	SWORDSMANSHIP={80.0 100.0}
+	MACEFIGHTING={80.0 100.0}
+	ARCHERY={80.0 100.0}
+	FENCING={80.0 100.0}
+	WRESTLING={80.0 100.0}
+	PARRYING={90.0 120.0}	
+	MAGICRESISTANCE={40.0 80.0}
+	HEALING={40.0 80.0}
+	FOCUS={40.0 80.0}	
+	ITEMNEWBIE=random_elf_male_hair
+	ITEM=i_platemail_chest_lime
+	ITEM=i_platemail_arms_lime
+	ITEM=i_platemail_leggings_lime
+	ITEM=i_platemail_gloves_lime
+	ITEM=i_platemail_gorget_lime
+	ITEM=i_helm_open_lime
+	ITEM=i_shield_heater_lime
+	ITEM=i_sword_viking_daemon
+	COLOR=color_ore_lime
+	events=+e_combat_main_event
+	events=+e_combat_main_event_magery
+	events=+e_focus
+
+ON=@NPCRestock
+	ITEM=loot_darkelf_war
+	ITEM=i_bandage {10 15}
+	
+ON=@NPCLookAtChar
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		ATTACK
+	ENDIF
+
+ON=@NPCSeeNewPlayer
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		ATTACK
+	ENDIF
+	
+[CHARDEF c_darkelf_war_mace]
+DEFNAME=c_darkelf_war_mace
+NAME=#NAMES_ELF_MALE the Dark-Elf Fighter
+SOUND=snd_HUMAN_M_DIE_01
+ID=C_ELF_MALE
+DAM=100
+ARMOR=10
+CAN=MT_EQUIP|MT_RUN|MT_USEHANDS|MT_WALK
+TSPEECH=jobFighter
+CATEGORY=Invictus - Civilized
+SUBSECTION=Dark Elves
+DESCRIPTION=Dark-Elf Warrior Mace
+
+ON=@Create
+	COLOR=059a
+	NPC=BRAIN_HUMAN
+	KARMA=-3500
+	FAME=150
+	STR=100
+	DEX=125
+	INT=25
+	MAXHITS=300	
+	ANATOMY={90.0 100.0}
+	TACTICS={90.0 100.0}
+	SWORDSMANSHIP={80.0 100.0}
+	MACEFIGHTING={80.0 100.0}
+	ARCHERY={80.0 100.0}
+	FENCING={80.0 100.0}
+	WRESTLING={80.0 100.0}
+	PARRYING={90.0 120.0}	
+	MAGICRESISTANCE={40.0 80.0}
+	FOCUS={40.0 80.0}
+	HEALING={40.0 80.0}
+	ITEMNEWBIE=random_elf_male_hair
+	ITEM=i_platemail_chest_lime
+	ITEM=i_platemail_arms_lime
+	ITEM=i_platemail_leggings_lime
+	ITEM=i_platemail_gloves_lime
+	ITEM=i_platemail_gorget_lime
+	ITEM=i_helm_open_lime
+	ITEM=i_shield_heater_lime
+	ITEM=i_mace_war_daemon
+	COLOR=color_ore_lime
+	events=+e_combat_main_event
+	events=+e_combat_main_event_magery
+	events=+e_focus 
+
+ON=@NPCRestock
+	ITEM=loot_darkelf_war
+	ITEM=i_bandage {10 15}
+	
+ON=@NPCLookAtChar
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		ATTACK
+	ENDIF
+
+ON=@NPCSeeNewPlayer
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		ATTACK
+	ENDIF
+	
+[CHARDEF c_darkelf_war_tetsubo]
+DEFNAME=c_darkelf_war_tetsubo
+NAME=#NAMES_ELF_MALE the Dark-Elf Grunt
+SOUND=snd_HUMAN_M_DIE_01
+ID=C_ELF_MALE
+DAM=40,70
+ARMOR=10
+CAN=MT_EQUIP|MT_RUN|MT_USEHANDS|MT_WALK
+TSPEECH=jobFighter
+CATEGORY=Invictus - Civilized
+SUBSECTION=Dark Elves
+DESCRIPTION=Dark-Elf Grunt
+
+ON=@Create
+	COLOR=059a
+	NPC=BRAIN_HUMAN
+	KARMA=-3500
+	FAME=150
+	STR=100
+	DEX=125
+	INT=25
+	MAXHITS=300	
+	ANATOMY={90.0 100.0}
+	TACTICS={90.0 100.0}
+	SWORDSMANSHIP={80.0 100.0}
+	MACEFIGHTING={80.0 100.0}
+	ARCHERY={80.0 100.0}
+	FENCING={80.0 100.0}
+	WRESTLING={80.0 100.0}
+	PARRYING={90.0 120.0}	
+	MAGICRESISTANCE={40.0 80.0}
+	FOCUS={40.0 80.0}
+	HEALING={40.0 80.0}
+	ITEMNEWBIE=random_elf_male_hair
+	ITEM=i_platemail_chest_lime
+	ITEM=i_platemail_arms_lime
+	ITEM=i_platemail_leggings_lime
+	ITEM=i_platemail_gloves_lime
+	ITEM=i_platemail_gorget_lime
+	ITEM=i_helm_open_lime
+	ITEM=i_tetsubo_daemon
+	COLOR=color_ore_lime
+
+ON=@NPCRestock
+	ITEM=loot_darkelf_war
+	ITEM=i_bandage {10 15}
+	
+ON=@NPCLookAtChar
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		ATTACK
+	ENDIF
+
+ON=@NPCSeeNewPlayer
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		ATTACK
+	ENDIF
+		
+[CHARDEF c_darkelf_war_sword]
+DEFNAME=c_darkelf_war_sword
+NAME=#NAMES_ELF_MALE the Dark-Elf Warrior
+SOUND=snd_HUMAN_M_DIE_01
+ID=C_ELF_MALE
+DAM=40,70
+ARMOR=10
+CAN=MT_EQUIP|MT_RUN|MT_USEHANDS|MT_WALK
+TSPEECH=jobFighter
+CATEGORY=Invictus - Civilized
+SUBSECTION=Dark Elves
+DESCRIPTION=Dark-Elf Warrior Sword
+
+ON=@Create
+	COLOR=059a
+	NPC=BRAIN_HUMAN
+	KARMA=-3500
+	FAME=150
+	STR=100
+	DEX=125
+	INT=25
+	MAXHITS=300	
+	ANATOMY={90.0 100.0}
+	TACTICS={90.0 100.0}
+	SWORDSMANSHIP={80.0 100.0}
+	MACEFIGHTING={80.0 100.0}
+	ARCHERY={80.0 100.0}
+	FENCING={80.0 100.0}
+	WRESTLING={80.0 100.0}
+	PARRYING={90.0 120.0}	
+	MAGICRESISTANCE={40.0 80.0}
+	FOCUS={40.0 80.0}
+	HEALING={40.0 80.0}
+	ITEMNEWBIE=random_elf_male_hair
+	ITEM=i_platemail_chest_lime
+	ITEM=i_platemail_arms_lime
+	ITEM=i_platemail_leggings_lime
+	ITEM=i_platemail_gloves_lime
+	ITEM=i_platemail_gorget_lime
+	ITEM=i_helm_open_lime
+	ITEM=i_halberd_daemon
+	COLOR=color_ore_lime 
+
+ON=@NPCRestock
+	ITEM=loot_darkelf_war
+	ITEM=i_bandage {10 15}
+	
+ON=@NPCLookAtChar
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		ATTACK
+	ENDIF
+
+ON=@NPCSeeNewPlayer
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		ATTACK
+	ENDIF
+
+[CHARDEF c_darkelf_war_spear]
+DEFNAME=c_darkelf_war_spear
+NAME=#NAMES_ELF_MALE the Dark-Elf Warrior
+SOUND=snd_HUMAN_M_DIE_01
+ID=C_ELF_MALE
+DAM=40,70
+ARMOR=10
+CAN=MT_EQUIP|MT_RUN|MT_USEHANDS|MT_WALK|MT_MOUNT
+DESIRES=i_potion_poisongreat
+TSPEECH=jobFighter
+CATEGORY=Invictus - Civilized
+SUBSECTION=Dark Elves
+DESCRIPTION=Dark-Elf Warrior Spear
+
+ON=@Create
+	COLOR=059a
+	NPC=BRAIN_HUMAN
+	KARMA=-3500
+	FAME=150
+	STR=100
+	DEX=125
+	INT=25
+	MAXHITS=300	
+	ANATOMY={90.0 100.0}
+	TACTICS={90.0 100.0}
+	SWORDSMANSHIP={80.0 100.0}
+	MACEFIGHTING={80.0 100.0}
+	ARCHERY={80.0 100.0}
+	FENCING={80.0 100.0}
+	WRESTLING={80.0 100.0}
+	PARRYING={90.0 120.0}	
+	MAGICRESISTANCE={40.0 80.0}
+	FOCUS={40.0 80.0}
+	POISONING={40.0 80.0}
+	HEALING={40.0 80.0}
+	ITEMNEWBIE=random_elf_male_hair
+	ITEM=i_platemail_chest_lime
+	ITEM=i_platemail_arms_lime
+	ITEM=i_platemail_leggings_lime
+	ITEM=i_platemail_gloves_lime
+	ITEM=i_platemail_gorget_lime
+	ITEM=i_helm_open_lime
+	ITEM=i_spear_daemon
+	COLOR=color_ore_lime
+	
+ON=@NPCRestock
+	ITEM=loot_darkelf_war
+	ITEM=i_bandage {10 15}
+	ITEM=i_potion_poison {20,35}
+	
+ON=@NPCLookAtChar
+	IF <FINDID.i_spear_daemon>
+		TAG.WeaponUID=<FINDID.i_spear_daemon.UID>
+	ENDIF
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		IF <FINDID.i_spear_daemon>
+			PoisonWeapon
+		ENDIF
+		ATTACK
+	ENDIF
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+
+ON=@NPCSeeNewPlayer
+	IF <FINDID.i_spear_daemon>
+		TAG.WeaponUID=<FINDID.i_spear_daemon.UID>
+	ENDIF
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		IF <FINDID.i_spear_daemon>
+			PoisonWeapon
+			SERV.UID.<TAG.WeaponUID>.EQUIP
+		ENDIF
+		ATTACK
+	ENDIF
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+
+// INVICTUS purple ELFS
+[CHARDEF c_purpleelf_war_sword]
+DEFNAME=c_purpleelf_war_sword
+NAME=#NAMES_ELF_MALE the Purple-Elf Warrior
+SOUND=snd_HUMAN_M_DIE_01
+ID=C_ELF_MALE
+DAM=40,70
+ARMOR=10
+CAN=MT_EQUIP|MT_RUN|MT_USEHANDS|MT_WALK
+TSPEECH=jobFighter
+CATEGORY=Invictus - Civilized
+SUBSECTION=purple Elves
+DESCRIPTION=Purple-Elf Warrior SwordNShield
+
+ON=@Create	
+	COLOR=color_ore_royal
+	NPC=BRAIN_HUMAN
+	KARMA=-3500
+	FAME=150
+	STR=100
+	DEX=125
+	INT=25
+	MAXHITS=300	
+	ANATOMY={90.0 100.0}
+	TACTICS={90.0 100.0}
+	SWORDSMANSHIP={80.0 100.0}
+	MACEFIGHTING={80.0 100.0}
+	ARCHERY={80.0 100.0}
+	FENCING={80.0 100.0}
+	WRESTLING={80.0 100.0}
+	PARRYING={90.0 120.0}	
+	MAGICRESISTANCE={40.0 80.0}
+	HEALING={40.0 80.0}
+	FOCUS={40.0 80.0}	
+	ITEMNEWBIE=random_elf_male_hair
+	ITEM=i_platemail_chest_royal
+	ITEM=i_platemail_arms_royal
+	ITEM=i_platemail_leggings_royal
+	ITEM=i_platemail_gloves_royal
+	ITEM=i_platemail_gorget_royal
+	ITEM=i_helm_open_royal
+	ITEM=i_shield_heater_royal
+	ITEM=i_sword_viking_daemon
+	COLOR=color_ore_royal
+	events=+e_combat_main_event
+	events=+e_combat_main_event_magery
+	events=+e_focus
+
+ON=@NPCRestock
+	ITEM=loot_darkelf_war
+	ITEM=i_bandage {10 15}
+	
+ON=@NPCLookAtChar
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		ATTACK
+	ENDIF
+
+ON=@NPCSeeNewPlayer
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		ATTACK
+	ENDIF
+	
+[CHARDEF c_purpleelf_war_mace]
+DEFNAME=c_purpleelf_war_mace
+NAME=#NAMES_ELF_MALE the Purple-Elf Fighter
+SOUND=snd_HUMAN_M_DIE_01
+ID=C_ELF_MALE
+DAM=100
+ARMOR=10
+CAN=MT_EQUIP|MT_RUN|MT_USEHANDS|MT_WALK
+TSPEECH=jobFighter
+CATEGORY=Invictus - Civilized
+SUBSECTION=purple Elves
+DESCRIPTION=Purple-Elf Warrior MAce
+
+ON=@Create
+	COLOR=color_ore_royal
+	NPC=BRAIN_HUMAN
+	KARMA=-3500
+	FAME=150
+	STR=100
+	DEX=125
+	INT=25
+	MAXHITS=300	
+	ANATOMY={90.0 100.0}
+	TACTICS={90.0 100.0}
+	SWORDSMANSHIP={80.0 100.0}
+	MACEFIGHTING={80.0 100.0}
+	ARCHERY={80.0 100.0}
+	FENCING={80.0 100.0}
+	WRESTLING={80.0 100.0}
+	PARRYING={90.0 120.0}	
+	MAGICRESISTANCE={40.0 80.0}
+	FOCUS={40.0 80.0}
+	HEALING={40.0 80.0}
+	ITEMNEWBIE=random_elf_male_hair
+	ITEM=i_platemail_chest_royal
+	ITEM=i_platemail_arms_royal
+	ITEM=i_platemail_leggings_royal
+	ITEM=i_platemail_gloves_royal
+	ITEM=i_platemail_gorget_royal
+	ITEM=i_helm_open_royal
+	ITEM=i_shield_heater_royal
+	ITEM=i_mace_war_daemon
+	COLOR=color_ore_royal
+	events=+e_combat_main_event
+	events=+e_combat_main_event_magery
+	events=+e_focus 
+
+ON=@NPCRestock
+	ITEM=loot_darkelf_war
+	ITEM=i_bandage {10 15}
+	
+ON=@NPCLookAtChar
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		ATTACK
+	ENDIF
+
+ON=@NPCSeeNewPlayer
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		ATTACK
+	ENDIF
+	
+[CHARDEF c_purpleelf_tetsubo]
+DEFNAME=c_purpleelf_tetsubo
+NAME=#NAMES_ELF_MALE the Purple-Elf Tetsubo
+SOUND=snd_HUMAN_M_DIE_01
+ID=C_ELF_MALE
+DAM=40,70
+ARMOR=10
+CAN=MT_EQUIP|MT_RUN|MT_USEHANDS|MT_WALK
+TSPEECH=jobFighter
+CATEGORY=Invictus - Civilized
+SUBSECTION=purple Elves
+DESCRIPTION=Purple-Elf Tetsubo
+
+ON=@Create
+	COLOR=color_ore_royal
+	NPC=BRAIN_HUMAN
+	KARMA=-3500
+	FAME=150
+	STR=100
+	DEX=125
+	INT=25
+	MAXHITS=300	
+	ANATOMY={90.0 100.0}
+	TACTICS={90.0 100.0}
+	SWORDSMANSHIP={80.0 100.0}
+	MACEFIGHTING={80.0 100.0}
+	ARCHERY={80.0 100.0}
+	FENCING={80.0 100.0}
+	WRESTLING={80.0 100.0}
+	PARRYING={90.0 120.0}	
+	MAGICRESISTANCE={40.0 80.0}
+	FOCUS={40.0 80.0}
+	HEALING={40.0 80.0}
+	ITEMNEWBIE=random_elf_male_hair
+	ITEM=i_platemail_chest_royal
+	ITEM=i_platemail_arms_royal
+	ITEM=i_platemail_leggings_royal
+	ITEM=i_platemail_gloves_royal
+	ITEM=i_platemail_gorget_royal
+	ITEM=i_helm_open_royal
+	ITEM=i_tetsubo_daemon
+	COLOR=color_ore_royal
+
+ON=@NPCRestock
+	ITEM=loot_darkelf_war
+	ITEM=i_bandage {10 15}
+	
+ON=@NPCLookAtChar
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		ATTACK
+	ENDIF
+
+ON=@NPCSeeNewPlayer
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		ATTACK
+	ENDIF
+		
+[CHARDEF c_purpleelf_war_sword]
+DEFNAME=c_purpleelf_war_sword
+NAME=#NAMES_ELF_MALE the Purple-Elf Warrior
+SOUND=snd_HUMAN_M_DIE_01
+ID=C_ELF_MALE
+DAM=40,70
+ARMOR=10
+CAN=MT_EQUIP|MT_RUN|MT_USEHANDS|MT_WALK
+TSPEECH=jobFighter
+CATEGORY=Invictus - Civilized
+SUBSECTION=purple Elves
+DESCRIPTION=Purple-Elf Warrior Sword
+
+ON=@Create
+	COLOR=color_ore_royal
+	NPC=BRAIN_HUMAN
+	KARMA=-3500
+	FAME=150
+	STR=100
+	DEX=125
+	INT=25
+	MAXHITS=300	
+	ANATOMY={90.0 100.0}
+	TACTICS={90.0 100.0}
+	SWORDSMANSHIP={80.0 100.0}
+	MACEFIGHTING={80.0 100.0}
+	ARCHERY={80.0 100.0}
+	FENCING={80.0 100.0}
+	WRESTLING={80.0 100.0}
+	PARRYING={90.0 120.0}	
+	MAGICRESISTANCE={40.0 80.0}
+	FOCUS={40.0 80.0}
+	HEALING={40.0 80.0}
+	ITEMNEWBIE=random_elf_male_hair
+	ITEM=i_platemail_chest_royal
+	ITEM=i_platemail_arms_royal
+	ITEM=i_platemail_leggings_royal
+	ITEM=i_platemail_gloves_royal
+	ITEM=i_platemail_gorget_royal
+	ITEM=i_helm_open_royal
+	ITEM=i_halberd_daemon
+	COLOR=color_ore_royal 
+
+ON=@NPCRestock
+	ITEM=loot_darkelf_war
+	ITEM=i_bandage {10 15}
+	
+ON=@NPCLookAtChar
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		ATTACK
+	ENDIF
+
+ON=@NPCSeeNewPlayer
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		ATTACK
+	ENDIF
+
+[CHARDEF c_purpleelf_war_axe]
+DEFNAME=c_purpleelf_war_axe
+NAME=#NAMES_ELF_MALE the Purple-Elf Warrior
+SOUND=snd_HUMAN_M_DIE_01
+ID=C_ELF_MALE
+DAM=40,70
+ARMOR=10
+CAN=MT_EQUIP|MT_RUN|MT_USEHANDS|MT_WALK|MT_MOUNT
+DESIRES=i_potion_poisongreat
+TSPEECH=jobFighter
+CATEGORY=Invictus - Civilized
+SUBSECTION=purple Elves
+DESCRIPTION=Purple-Elf Warrior w/btl axe
+
+ON=@Create
+	COLOR=color_ore_royal
+	NPC=BRAIN_HUMAN
+	KARMA=-3500
+	FAME=150
+	STR=100
+	DEX=125
+	INT=25
+	MAXHITS=300	
+	ANATOMY={90.0 100.0}
+	TACTICS={90.0 100.0}
+	SWORDSMANSHIP={80.0 100.0}
+	MACEFIGHTING={80.0 100.0}
+	ARCHERY={80.0 100.0}
+	FENCING={80.0 100.0}
+	WRESTLING={80.0 100.0}
+	PARRYING={90.0 120.0}	
+	MAGICRESISTANCE={40.0 80.0}
+	FOCUS={40.0 80.0}
+	POISONING={40.0 80.0}
+	HEALING={40.0 80.0}
+	ITEMNEWBIE=random_elf_male_hair
+	ITEM=i_platemail_chest_royal
+	ITEM=i_platemail_arms_royal
+	ITEM=i_platemail_leggings_royal
+	ITEM=i_platemail_gloves_royal
+	ITEM=i_platemail_gorget_royal
+	ITEM=i_helm_open_royal
+	ITEM=i_spear_daemon
+	COLOR=color_ore_royal
+	
+ON=@NPCRestock
+	ITEM=loot_darkelf_war
+	ITEM=i_bandage {10 15}
+	ITEM=i_potion_poison {20,35}
+	
+ON=@NPCLookAtChar
+	IF <FINDID.i_spear_daemon>
+		TAG.WeaponUID=<FINDID.i_spear_daemon.UID>
+	ENDIF
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		IF <FINDID.i_spear_daemon>
+			PoisonWeapon
+		ENDIF
+		ATTACK
+	ENDIF
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+
+ON=@NPCSeeNewPlayer
+	IF <FINDID.i_spear_daemon>
+		TAG.WeaponUID=<FINDID.i_spear_daemon.UID>
+	ENDIF
+	IF !(strmatch(*purpleelf*,<SRC.BASEID>))&&!(strmatch(*darkelf*,<SRC.BASEID>))
+		events=+e_combat_main_event
+		events=+e_combat_main_event_magery
+		events=+e_focus
+		IF <FINDID.i_spear_daemon>
+			PoisonWeapon
+			SERV.UID.<TAG.WeaponUID>.EQUIP
+		ENDIF
+		ATTACK
+	ENDIF
+	IF <HITS> < 250
+		IF <FINDID.i_bandage>
+			IF !<FINDID.i_invictus_bandagedelay>
+				NEWITEM=i_BandageHeal_NPC, 1, <UID>
+				NEW.LINK=<UID>			
+			ENDIF
+		ENDIF	
+	ENDIF	
+
+[EOF]

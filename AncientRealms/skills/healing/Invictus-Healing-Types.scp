@@ -1,0 +1,126 @@
+[TYPEDEF t_invictus_healing]
+ON=@DCLICK
+	IF (<SRC.FINDID.i_invictus_bandagedelay>)
+		SRC.SYSMESSAGE @0029,,1 You cannot heal again yet
+		RETURN 1
+	ENDIF
+	IF (<CONT>!=<SRC.FINDLAYER(21).UID>)
+	  SRC.SYSMESSAGE @0029,,1 Bandages must be in your pack to use
+	  RETURN 1
+	ENDIF
+	SRC.SYSMESSAGE @95,,1 Who do you wish to heal?
+	TARGET
+	RETURN 1
+
+ON=@TARGON_ITEM
+	IF !(<SRC.TARG.UID>==<UID>)
+	  SRC.SYSMESSAGE @95,,1 You cannot heal an item
+	  RETURN 1
+	ENDIF
+	RETURN 1
+
+ON=@TARGON_GROUND
+	SRC.SYSMESSAGE @95,,1 You cant heal the Ground!.
+	RETURN 1
+
+ON=@TARGON_CHAR
+	IF (<SRC.REGION.UID>!=<SRC.TARG.REGION.UID>)
+		SRC.SYSMESSAGE @95,,1 You cannot heal people in different regions!
+		RETURN 1
+	ENDIF
+	IF (<SRC.TARG.DISTANCE> > 2)
+		SRC.SYSMESSAGE @95,,1 You are too far away to apply bandages on <SRC.TARG.NAME>!
+		SRC.TARG.SYSMESSAGE @95,,1 <SRC.NAME> attempts to apply bandages on you, but you are too far away!
+		RETURN 1
+	ENDIF
+	IF !(<SRC.TARG.FINDID.i_dead_ride_timer>)
+		IF ((<SRC.TARG.BODY>!=c_man) && (<SRC.TARG.BODY>!=c_woman) && <SRC.TARG.BODY>!=c_elf_male) && (<SRC.TARG.BODY>!=c_elf_female) && (<SRC.TARG.BODY>!=c_ghost_man) && (<SRC.TARG.BODY>!=c_ghost_woman) && (<SRC.TARG.ISMYPET>!=1))
+			SRC.SYSMESSAGE @95,,1 You cannot heal that
+			RETURN 1
+		ENDIF
+	ENDIF
+	IF (<SRC.TARG.FLAGS>& STATF_DEAD)
+		IF (<SRC.HEALING>>=1000)
+			IF (<AMOUNT> >= 50)
+				IF ((<SRC.TARG.KILLS> > 3) || (<SRC.TARG.FLAGS>&statf_criminal) || (<SRC.TARG.KARMA> < -4000))
+					SRC.CRIMINAL 1
+					SRC.SYSMESSAGE @65,,1 You go criminal for healing a criminal!
+				ENDIF
+				CONSUME 50 i_bandage
+				SRC.TARG.f_Resurrect					
+				SRC.f_SkillGain 17
+				SRC.SYSMESSAGE @95,,1 You attempt to resurrect <SRC.TARG.NAME>
+				SRC.TARG.SYSMESSAGE @95,,1 <SRC.NAME> Attempts to Resurrect you!
+				RETURN 1
+  			ELSE
+  				SRC.SYSMESSAGE @95 You need to use a stack of 50 bandages to resurrect
+  			ENDIF
+		ELSE
+			SRC.SYSMESSAGE @95 You need 100% healing to resurrect
+		ENDIF
+	ENDIF
+	IF (<SRC.TARG.FINDID.i_dead_ride_timer>)
+		IF (<SRC.VETERINARY>>=600)
+			IF (<SRC.FINDID.i_bandage.amount> < 100)
+					SRC.SYSMESSAGE @95,,1 You Need 100 Bandages to Resurrect this Animal
+					RETURN 1
+				ELSE
+					LOCAL.CHANCE=<EVAL RAND(200) + 800>
+					IF <LOCAL.CHANCE> > <SRC.VETERINARY>
+						CONSUME 50 i_bandage
+						SRC.SYSMESSAGE @00029 You Fail The Spirit Passes 
+						SRC.TARG.SAY @00029 oOO ooOOoo
+						REMOVE
+					ELSE
+						CONSUME 100 i_bandage
+						SRC.ANIM 19
+						SRC.TARG.EFFECT 2 i_fx_sparkle 10 14 0 61 2
+						SRC.TARG.COLOR=<SRC.TARG.OSKIN>
+						SRC.TARG.STR=30
+						SRC.TARG.FLAGS &= ~statf_invul
+						SRC.TARG.FINDID.i_dead_ride_timer.remove
+						SRC.TARG.EVENTS -e_ghost_mount
+						SRC.TARG.EVENTS +e_invictus_rides
+						SRC.TARG.EVENTS +e_rarerideevents
+						SRC.f_SkillGain 39
+					ENDIF
+				ENDIF
+			ELSE
+			SRC.SYSMESSAGE @95,,1 You need 60% Veterinary to resurrect this Animal
+		ENDIF
+	ENDIF
+	IF (<SRC.TARG.HITS><=0)
+		SRC.SYSMESSAGE @95,,1 You cannot heal that
+		RETURN 1
+	ENDIF
+	IF (<SRC.TARG.HITS>>=<SRC.TARG.STR>)&&!(<SRC.TARG.FINDID.i_dead_ride_timer>)
+		SRC.SRC.SYSMESSAGE @95,,1 <SRC.TARG.NAME> is in good health
+		RETURN 1
+	ENDIF
+	IF (<SRC.TARG.FLAGS>&04)
+		SRC.SYSMESSAGE @95,,1 You cannot heal somebody that is paralysed!
+		RETURN 1
+	ELIF (<SRC.FLAGS>&04)
+		SRC.SYSMESSAGE @95,,1 You cannot heal while paralysed!
+		RETURN 1
+	ENDIF
+	IF (<SRC.TARG.KILLS>>3)
+		IF !(<SRC.TARG.UID>==<SRC.UID>)
+			SRC.CRIMINAL
+   			SRC.SYSMESSAGE @95,,1 You go criminal for healing a murderer!
+		ENDIF
+	ENDIF
+	SRC.ANIM 19
+	IF (<SRC.TARG.ISPLAYER>)
+		NEWITEM i_BandageHeal_Player, 1, <SRC.UID>
+		NEW.LINK=<SRC.TARG>
+	ELSE
+		NEWITEM i_BandageHeal_NPC, 1, <SRC.UID>
+		NEW.LINK=<SRC.TARG>
+	ENDIF
+	CONSUME 1 i_bandage
+	NEWITEM i_bandage_bloody, 1, <SRC.UID>
+	NEWITEM i_invictus_bandagedelay, 1, <SRC.UID>
+	RETURN 1
+
+[EOF]

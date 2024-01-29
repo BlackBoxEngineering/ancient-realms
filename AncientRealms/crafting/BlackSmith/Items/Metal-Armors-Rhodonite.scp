@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Rhodonite Platemail Arms
+[ITEMDEF i_platemail_arms_Rhodonite]
+   DEFNAME= i_platemail_arms_Rhodonite
+   ID= i_platemail_arms
+   NAME= Rhodonite Platemail Arms
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Platemail Leggings
+[ITEMDEF i_platemail_leggings_Rhodonite]
+   DEFNAME= i_platemail_leggings_Rhodonite
+   ID= i_platemail_leggings
+   NAME= Rhodonite Platemail Leggings
+   ARMOR= 21
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Platemail Helmet
+[ITEMDEF i_platemail_helm_Rhodonite]
+   DEFNAME= i_platemail_helm_Rhodonite
+   ID= i_platemail_helm
+   NAME= Rhodonite Platemail Helmet
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Platemail Gorget
+[ITEMDEF i_platemail_gorget_Rhodonite]
+   DEFNAME= i_platemail_gorget_Rhodonite
+   ID= i_platemail_gorget
+   NAME= Rhodonite Platemail Gorget
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Rhodonite]
+   DEFNAME= i_platemail_gorget2_Rhodonite
+   ID= i_platemail_gorget2
+   NAME= Rhodonite Platemail Gorget
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Platemail Gloves
+[ITEMDEF i_platemail_gloves_Rhodonite]
+   DEFNAME= i_platemail_gloves_Rhodonite
+   ID= i_platemail_gloves
+   NAME= Rhodonite Platemail Gloves
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Platemail Chest
+[ITEMDEF i_platemail_chest_Rhodonite]
+   DEFNAME= i_platemail_chest_Rhodonite
+   ID= i_platemail_chest
+   NAME= Rhodonite Platemail Chest
+   ARMOR= 25
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Rhodonite]
+   DEFNAME= i_armor_female_plate_Rhodonite
+   ID= i_armor_female_plate
+   NAME= Rhodonite Platemail Female Plate
+   ARMOR= 23
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite chainmail coif
+[ITEMDEF i_chainmail_coif_Rhodonite]
+   DEFNAME= i_chainmail_coif_Rhodonite
+   ID= i_chainmail_coif
+   NAME= Rhodonite chainmail coif
+   ARMOR= 17
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite chainmail leggings
+[ITEMDEF i_chainmail_leggings_Rhodonite]
+   DEFNAME= i_chainmail_leggings_Rhodonite
+   ID= i_chainmail_leggings
+   NAME= Rhodonite chainmail leggings
+   ARMOR= 19
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite chainmail tunic
+[ITEMDEF i_chainmail_tunic_Rhodonite]
+   DEFNAME= i_chainmail_tunic_Rhodonite
+   ID= i_chainmail_tunic
+   NAME= Rhodonite chainmail tunic
+   ARMOR= 23
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Rhodonite]
+   DEFNAME= i_ringmail_sleeves_Rhodonite
+   ID= i_ringmail_sleeves
+   NAME= Rhodonite Ringmail Sleeves
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {43 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Rhodonite]
+   DEFNAME= i_ringmail_leggings_Rhodonite
+   ID= i_ringmail_leggings
+   NAME= Rhodonite Ringmail Leggings
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {43 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Rhodonite]
+   DEFNAME= i_ringmail_tunic_Rhodonite
+   ID= i_ringmail_tunic
+   NAME= Rhodonite Ringmail Tunic
+   ARMOR= 19
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {43 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Rhodonite]
+   DEFNAME= i_ringmail_gloves_Rhodonite
+   ID= i_ringmail_gloves
+   NAME= Rhodonite Ringmail Gloves
+   ARMOR= 5
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {43 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite studded sleeves
+[ITEMDEF i_studded_sleeves_Rhodonite]
+   DEFNAME= i_studded_sleeves_Rhodonite
+   ID= i_studded_sleeves
+   NAME= Rhodonite studded sleeves
+   ARMOR= 8
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Rhodonite, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite studded gloves
+[ITEMDEF i_studded_gloves_Rhodonite]
+   DEFNAME= i_studded_gloves_Rhodonite
+   ID= i_studded_gloves
+   NAME= Rhodonite studded gloves
+   ARMOR= 5
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Rhodonite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite studded gorget
+[ITEMDEF i_studded_gorget_Rhodonite]
+   DEFNAME= i_studded_gorget_Rhodonite
+   ID= i_studded_gorget
+   NAME= Rhodonite studded gorget
+   ARMOR= 5
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Rhodonite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite studded leggings
+[ITEMDEF i_studded_leggings_Rhodonite]
+   DEFNAME= i_studded_leggings_Rhodonite
+   ID= i_studded_leggings
+   NAME= Rhodonite studded leggings
+   ARMOR= 14
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Rhodonite, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite studded tunic
+[ITEMDEF i_studded_tunic_Rhodonite]
+   DEFNAME= i_studded_tunic_Rhodonite
+   ID= i_studded_tunic
+   NAME= Rhodonite studded tunic
+   ARMOR= 18
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Rhodonite, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite studded female armor
+[ITEMDEF i_armor_female_studded_Rhodonite]
+   DEFNAME= i_armor_female_studded_Rhodonite
+   ID= i_armor_female_studded
+   NAME= Rhodonite studded female armor
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Rhodonite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Rhodonite]
+   DEFNAME= i_armor_female_bustier_studded_Rhodonite
+   ID= i_armor_female_bustier_studded
+   NAME= Rhodonite studded female bustier
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Rhodonite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite platemail mempo
+[ITEMDEF i_platemail_mempo_Rhodonite]
+   DEFNAME= i_platemail_mempo_Rhodonite
+   ID= i_platemail_mempo
+   NAME= Rhodonite platemail mempo
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite platemail do
+[ITEMDEF i_platemail_do_Rhodonite]
+   DEFNAME= i_platemail_do_Rhodonite
+   ID= i_platemail_do
+   NAME= Rhodonite platemail do
+   ARMOR= 23
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Rhodonite]
+   DEFNAME= i_platemail_hiro_sode_Rhodonite
+   ID= i_platemail_hiro_sode
+   NAME= Rhodonite platemail hiro sode
+   ARMOR= 19
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite platemail suneate
+[ITEMDEF i_platemail_suneate_Rhodonite]
+   DEFNAME= i_platemail_suneate_Rhodonite
+   ID= i_platemail_suneate
+   NAME= Rhodonite platemail suneate
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite platemail haidate
+[ITEMDEF i_platemail_haidate_Rhodonite]
+   DEFNAME= i_platemail_haidate_Rhodonite
+   ID= i_platemail_haidate
+   NAME= Rhodonite platemail haidate
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite studded mempo
+[ITEMDEF i_studded_mempo_Rhodonite]
+   DEFNAME= i_studded_mempo_Rhodonite
+   ID= i_studded_mempo
+   NAME= Rhodonite studded mempo
+   ARMOR= 10
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Rhodonite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite studded do
+[ITEMDEF i_studded_do_Rhodonite]
+   DEFNAME= i_studded_do_Rhodonite
+   ID= i_studded_do
+   NAME= Rhodonite studded do
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Rhodonite, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Rhodonite]
+   DEFNAME= i_studded_hiro_sode_Rhodonite
+   ID= i_studded_hiro_sode
+   NAME= Rhodonite studded hiro sode
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Rhodonite, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite studded suneate
+[ITEMDEF i_studded_suneate_Rhodonite]
+   DEFNAME= i_studded_suneate_Rhodonite
+   ID= i_studded_suneate
+   NAME= Rhodonite studded suneate
+   ARMOR= 12
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Rhodonite, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite studded haidate
+[ITEMDEF i_studded_haidate_Rhodonite]
+   DEFNAME= i_studded_haidate_Rhodonite
+   ID= i_studded_haidate
+   NAME= Rhodonite studded haidate
+   ARMOR= 10
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Rhodonite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Rhodonite]
+   DEFNAME= i_platemail_gargish_arms_Rhodonite
+   ID= i_platemail_gargish_arms
+   NAME= Rhodonite Gargish Platemail Arms
+   ARMOR= 19
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Rhodonite]
+   DEFNAME= i_platemail_gargish_chest_Rhodonite
+   ID= i_platemail_gargish_chest
+   NAME= Rhodonite Gargish Platemail Chest
+   ARMOR= 27
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Rhodonite]
+   DEFNAME= i_platemail_gargish_kilt_Rhodonite
+   ID= i_platemail_gargish_kilt
+   NAME= Rhodonite Gargish Platemail Kilt
+   ARMOR= 18
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Rhodonite]
+   DEFNAME= i_platemail_gargish_leggings_Rhodonite
+   ID= i_platemail_gargish_leggings
+   NAME= Rhodonite Gargish Platemail Leggings
+   ARMOR= 23
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Rhodonite]
+   DEFNAME= i_platemail_gargish_arms_2_Rhodonite
+   ID= i_platemail_gargish_arms_2
+   NAME= Rhodonite Gargish Platemail Arms
+   ARMOR= 19
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Rhodonite]
+   DEFNAME= i_platemail_gargish_chest_2_Rhodonite
+   ID= i_platemail_gargish_chest_2
+   NAME= Rhodonite Gargish Platemail Chest
+   ARMOR= 27
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Rhodonite]
+   DEFNAME= i_platemail_gargish_kilt_2_Rhodonite
+   ID= i_platemail_gargish_kilt_2
+   NAME= Rhodonite Gargish Platemail Kilt
+   ARMOR= 18
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Rhodonite]
+   DEFNAME= i_platemail_gargish_leggings_2_Rhodonite
+   ID= i_platemail_gargish_leggings_2
+   NAME= Rhodonite Gargish Platemail Leggings
+   ARMOR= 23
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Closed Helmet
+[ITEMDEF i_helm_close_Rhodonite]
+   DEFNAME= i_helm_close_Rhodonite
+   ID= i_helm_close
+   NAME= Rhodonite Closed Helmet
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Open Helmet
+[ITEMDEF i_helm_open_Rhodonite]
+   DEFNAME= i_helm_open_Rhodonite
+   ID= i_helm_open
+   NAME= Rhodonite Open Helmet
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {43 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Bascinet
+[ITEMDEF i_bascinet_Rhodonite]
+   DEFNAME= i_bascinet_Rhodonite
+   ID= i_bascinet
+   NAME= Rhodonite Bascinet
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Norse Helmet
+[ITEMDEF i_helm_norse_Rhodonite]
+   DEFNAME= i_helm_norse_Rhodonite
+   ID= i_helm_norse
+   NAME= Rhodonite Norse Helmet
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Kabuto
+[ITEMDEF i_helm_kabuto_Rhodonite]
+   DEFNAME= i_helm_kabuto_Rhodonite
+   ID= i_helm_kabuto
+   NAME= Rhodonite Kabuto
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Rhodonite]
+   DEFNAME= i_chainmail_hatsuburi_Rhodonite
+   ID= i_chainmail_hatsuburi
+   NAME= Rhodonite Chainmail Hatsuburi
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Rhodonite]
+   DEFNAME= i_platemail_hatsuburi_Rhodonite
+   ID= i_platemail_hatsuburi
+   NAME= Rhodonite Platemail Hatsuburi
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Rhodonite]
+   DEFNAME= i_plate_jingasa_heavy_Rhodonite
+   ID= i_plate_jingasa_heavy
+   NAME= Rhodonite Heavy Jingasa
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Rhodonite]
+   DEFNAME= i_platemail_kabuto_decorative_Rhodonite
+   ID= i_platemail_kabuto_decorative
+   NAME= Rhodonite Decorative Platemail Kabuto
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {93 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Rhodonite]
+   DEFNAME= i_plate_jingasa_light_Rhodonite
+   ID= i_plate_jingasa_light
+   NAME= Rhodonite Light Jingasa
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Rhodonite]
+   DEFNAME= i_plate_jingasa_small_Rhodonite
+   ID= i_plate_jingasa_small
+   NAME= Rhodonite Small Jingasa
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Rhodonite]
+   DEFNAME= i_platemail_kabuto_battle_Rhodonite
+   ID= i_platemail_kabuto_battle
+   NAME= Rhodonite Platemail Battle Kabuto
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Rhodonite]
+   DEFNAME= i_platemail_kabuto_Rhodonite
+   ID= i_platemail_kabuto
+   NAME= Rhodonite Platemail Kabuto
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Circlet
+[ITEMDEF i_circlet_Rhodonite]
+   DEFNAME= i_circlet_Rhodonite
+   ID= i_circlet
+   NAME= Rhodonite Circlet
+   ARMOR= 9
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Royal Circlet
+[ITEMDEF i_circlet_royal_Rhodonite]
+   DEFNAME= i_circlet_royal_Rhodonite
+   ID= i_circlet_royal
+   NAME= Rhodonite Royal Circlet
+   ARMOR= 9
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Rhodonite]
+   DEFNAME= i_circlet_gemmed_Rhodonite
+   ID= i_circlet_gemmed
+   NAME= Rhodonite Gemmed Circlet
+   ARMOR= 9
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {103 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Buckler
+[ITEMDEF i_shield_buckler_Rhodonite]
+   DEFNAME= i_shield_buckler_Rhodonite
+   ID= i_shield_buckler
+   NAME= Rhodonite Buckler
+   ARMOR= 8
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {33 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Wooden Shield
+[ITEMDEF i_shield_wood_Rhodonite]
+   DEFNAME= i_shield_wood_Rhodonite
+   ID= i_shield_wood
+   NAME= Rhodonite Wooden Shield
+   ARMOR= 9
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {43 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Rhodonite]
+   DEFNAME= i_shield_round_metal_Rhodonite
+   ID= i_shield_round_metal
+   NAME= Rhodonite Light Metal  Round Shield
+   ARMOR= 10
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Rhodonite]
+   DEFNAME= i_shield_round_bronze_Rhodonite
+   ID= i_shield_round_bronze
+   NAME= Rhodonite Heavy Metal  Round Shield
+   ARMOR= 12
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Rhodonite]
+   DEFNAME= i_shield_kite_metal_Rhodonite
+   ID= i_shield_kite_metal
+   NAME= Rhodonite Metal Kite Shield
+   ARMOR= 14
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {73 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Rhodonite]
+   DEFNAME= i_shield_kite_wood_Rhodonite
+   ID= i_shield_kite_wood
+   NAME= Rhodonite Wooden Kite Shield
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Heater Shield
+[ITEMDEF i_shield_heater_Rhodonite]
+   DEFNAME= i_shield_heater_Rhodonite
+   ID= i_shield_heater
+   NAME= Rhodonite Heater Shield
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {93 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Ancient Shield
+[ITEMDEF i_shield_dupre_Rhodonite]
+   DEFNAME= i_shield_dupre_Rhodonite
+   ID= i_shield_dupre
+   NAME= Rhodonite Ancient Shield
+   ARMOR= 17
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {103 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Shield oh Hell
+[ITEMDEF i_shield_scale_Rhodonite]
+   DEFNAME= i_shield_scale_Rhodonite
+   ID= i_shield_scale
+   NAME= Rhodonite Shield oh Hell
+   ARMOR= 17
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {103 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Chaos Shield
+[ITEMDEF i_shield_chaos_Rhodonite]
+   DEFNAME= i_shield_chaos_Rhodonite
+   ID= i_shield_chaos
+   NAME= Rhodonite Chaos Shield
+   ARMOR= 18
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {113 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Order Shield
+[ITEMDEF i_shield_order_Rhodonite]
+   DEFNAME= i_shield_order_Rhodonite
+   ID= i_shield_order
+   NAME= Rhodonite Order Shield
+   ARMOR= 18
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Rhodonite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Rhodonite
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS= {113 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

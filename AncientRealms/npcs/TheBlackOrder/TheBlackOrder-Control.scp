@@ -1,0 +1,16 @@
+[ITEMDEF BlackOrderHit]
+ID=i_dagger
+DEFNAME=BlackOrderHit
+TYPE=t_eq_script
+NAME=BlackOrderHit
+LAYER=layer_special
+
+ON=@Create
+   ATTR=attr_invis|attr_decay
+ON=@Equip
+   TIMER=10
+ON=@Timer
+   TOPOBJ.MESSAGE @946,3,1 You Black Order are hunting you.
+   RETURN 1
+	
+[EOF]

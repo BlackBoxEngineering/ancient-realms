@@ -1,0 +1,87 @@
+[ITEMDEF i_CTS_controlstone]
+DEFNAME=i_CTS_controlstone
+NAME=CTS Control Stone
+ID=i_gravestone_4
+TYPE=t_script
+
+CATEGORY=Ancientrealms - Arenas
+SUBSECTION=CTS Items
+DESCRIPTION=CTS Control Stone
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_MOVE_NEVER
+	COLOR=0
+	TAG.PointCounter=0
+	TIMER=15
+
+ON=@DClick
+	IF <SRC.GM>
+		SAY @63 <UID>
+		SAY @55 <f_ArenaCTSRegionControl <UID>>		
+	ELSE
+		SAY @55 <REGION.NAME>
+	ENDIF
+	RETURN 1
+
+ON=@TIMER
+	SAY @63 <EVAL <SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.StartSToneUID>.TIMER>>
+	IF <EVAL <SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.StartSToneUID>.TIMER>> < 2
+		StartCTS
+		TIMER=-1
+		RETURN 1
+	ELSE
+		TIMER=1
+		RETURN 1
+	ENDIF
+
+[ITEMDEF i_CTS_PlayerControl]
+DEFNAME=i_CTS_PlayerControl
+NAME=CTS Player Control Stone
+ID=i_gravestone_4
+TYPE=t_script
+
+CATEGORY=Ancientrealms - Arenas
+SUBSECTION=CTS Items
+DESCRIPTION=CTS Player Control Stone
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_MOVE_NEVER
+	TAG.BlueTeamPlayerCount=0
+	TAG.BlueTeamPlayerTotalLevel=0
+	TAG.BlueTeamPlayerScore=0
+	TAG.RedTeamPlayerCount=0
+	TAG.RedTeamPlayerTotalLevel=0
+	TAG.RedTeamPlayerScore=0
+	TAG.PlayerCount=0
+	COLOR=0
+	TIMER=5
+
+ON=@DClick
+	IF <SRC.GM>
+		SAY @63 <UID>
+		SAY @55 <f_ArenaCTSRegionControl <UID>>
+		SAY @95 Score Reset
+		TAG.BlueTeamPlayerCount=0
+		TAG.BlueTeamPlayerTotalLevel=0
+		TAG.BlueTeamPlayerScore=0
+		TAG.RedTeamPlayerCount=0
+		TAG.RedTeamPlayerTotalLevel=0
+		TAG.RedTeamPlayerScore=0
+		TAG.PlayerCount=0
+	ELSE
+		SAY @55 <REGION.NAME>
+	ENDIF
+	RETURN 1
+
+ON=@TIMER
+	IF (<SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.ManagerUid>.TAG0.Gameison>=1)
+		SERV.B @1462 CTS Current Scores :
+		SERV.B @35 REDS  : <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedTeamPlayerScore>
+		SERV.B @95 BLUES : <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueTeamPlayerScore>
+	ENDIF
+	TIMER=30
+	RETURN 1
+
+
+	
+[EOF]

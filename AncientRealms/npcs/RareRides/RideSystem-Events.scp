@@ -1,0 +1,117 @@
+[DEFNAME VetControl]
+VetResSkillReq	80
+
+[EVENTS e_AncientRealms_rides]
+ON=@ReceiveItem
+	IF (STRMATCH(*<ARGO.TYPE>*,<FOODTYPE>))
+		IF <FOOD> < <MAXFOOD>
+			IF (<ARGO.TAG0.Poisoned>)
+				SRC.SYSMESSAGE @65 <ARGO.NAME> was Poisoned!
+				CALL f_ConsumingPoison <EVAL <ARGO.TAG.Poisoned>>
+			ELSE
+				SRC.SYSMESSAGE @65 You Feed it some(<ARGO.NAME>)
+				EMOTE eats <ARGO.NAME>
+			ENDIF
+			FOOD=<EVAL (<FOOD> + <ARGO.AMOUNT>)>
+			ARGO.REMOVE
+		ELSE
+			SRC.SYSMESSAGE @55 <NAME> is stuffed!
+			EMOTE Looks like hes stuffed!
+		ENDIF
+	ELSE
+		SRC.SYSMESSAGE @65 <NAME> Does not look interested in <ARGO.NAME>
+		RETURN 1
+	ENDIF	
+	
+ON=@Death
+	IF <FINDID.i_rare_pet_id>
+		COLOR=07fff 
+		IF <TAG.RareRideTamed>
+			VAR.WorldRoamingRareTamed=<ReturnOnlyPositives <EVAL <VAR.WorldRoamingRareTamed> -1 >>
+		ELSE
+			VAR.WorldRoamingRareWild=<ReturnOnlyPositives <EVAL <VAR.WorldRoamingRareWild> -1 >>
+		ENDIF
+		IF !<TAG.FadeAway>
+			IF !<FINDID.i_dead_ride_timer>
+				SERV.NEWITEM i_dead_ride_timer,1,<UID>
+			ENDIF
+			HITS=<STR>
+			FLAGS |= statf_invul
+			EVENTS=+e_ghost_mount
+			RETURN 1
+		ENDIF
+	ENDIF
+
+ON=@Destroy
+	IF <FINDID.i_rare_pet_id>
+		COLOR=07fff 
+		IF <TAG.RareRideTamed>
+			VAR.WorldRoamingRareTamed=<ReturnOnlyPositives <EVAL <VAR.WorldRoamingRareTamed> -1 >>
+		ELSE
+			VAR.WorldRoamingRareWild=<ReturnOnlyPositives <EVAL <VAR.WorldRoamingRareWild> -1 >>
+		ENDIF
+		IF !<TAG.FadeAway>
+			IF !<FINDID.i_dead_ride_timer>
+				SERV.NEWITEM i_dead_ride_timer,1,<UID>
+			ENDIF
+			HITS=<STR>
+			FLAGS |= statf_invul
+			EVENTS=+e_ghost_mount
+			RETURN 1
+		ENDIF
+	ENDIF
+
+	
+
+[EVENTS e_rarerideevents]
+ON=@Death
+	COLOR=07fff 
+	HITS=<STR>
+	FLAGS |= statf_invul
+	EVENTS=+e_ghost_mount
+	SERV.NEWITEM i_dead_ride_timer,1,<UID>
+	RETURN 1
+
+[EVENTS e_ghost_mount]
+ON=@DClick
+	REF1=<SERV.UID.<SRC.UID>>
+	REF2=<SERV.UID.<UID>>
+	IF !<FINDID.i_dead_ride_timer>
+		SERV.NEWITEM i_dead_ride_timer,1,<UID>
+	ENDIF
+	IF <REF1.VETERINARY> > <REF2.TAMING>
+		IF !<REF1.ISGM> && <REF1.DISTANCE <REF2.UID>> > 2
+			SRC.SYSMESSAGE @95,,1 You Cannot Reach The Creature
+		ELSE
+			IF <REF1.ANIMALLORE> > 90.0
+				REF1.SYSMESSAGE @95,,1 You need <REF2.TAMING>% Veterinary to Resurrect this Animal the ghost will fade in approximately <EVAL <REF2.FINDID.i_dead_ride_timer.TIMER>/60> minutes
+			ELIF <REF1.ANIMALLORE> > 50.0
+				REF1.SYSMESSAGE @95,,1 You need <REF2.TAMING>% Veterinary to Resurrect this Animal
+			ELIF <REF1.ANIMALLORE> > 30.0
+				REF1.SYSMESSAGE @95,,1 You know you need a vet to resurrect this animal
+			ELSE
+				REF1.SYSMESSAGE @95,,1 This horse is dead what remains is its fading ghost.
+			ENDIF
+		ENDIF
+	ENDIF
+	RETURN 1
+
+ON=@HITTRY
+	RETURN 1
+
+ON=@GETHIT
+	RETURN 1
+
+ON=@NPCActFollow
+	IF <SRC.UID> = <OWNER>
+		ARGN1=0
+		ARGN2=30
+		ARGN3=0
+	ELSE
+		ARGN1=0
+		ARGN2=2
+		ARGN3=1
+	ENDIF
+
+
+[EOF]

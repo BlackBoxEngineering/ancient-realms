@@ -1,0 +1,178 @@
+[FUNCTION TestVendorRegion]
+	IF (<SERV.UID.<SRC.REGION.UID>.MORE1> == <SRC.UID>)
+		SAY @95 Your House
+	ELIF (<SERV.UID.<REGION.TAG0.ShopControlUID>.TAG.OwnersUID> == <SRC.UID>)
+		SAY @95 Your Shop
+	ENDIF
+
+[FUNCTION SelectItemToPriceForSale]
+	IF <ARGO.CONT>=<SERV.UID.<SRC.CTAG.LastVendorUsedUID>.FINDLAYER.26.UID>
+		CTAG.ItemToPriceUID=<ARGO.UID>
+		CTAG.ItemToPriceNAME=<ARGO.NAME>
+		PriceTarget <ARGO.UID>
+	ELSE 
+		SYSMESSAGE @1462,,1 The Item Must be in the Vendors SELL Container!
+		CTAG.ItemToPriceUID=
+		CTAG.ItemToPriceNAME=		
+	ENDIF
+
+[FUNCTION SelectItemToPriceToBuy]
+	IF <ARGO.CONT>=<SERV.UID.<SRC.CTAG.LastVendorUsedUID>.FINDLAYER.28.UID>
+		CTAG.ItemToPriceUID=<ARGO.UID>
+		CTAG.ItemToPriceNAME=<ARGO.NAME>
+		PriceTarget <ARGO.UID>
+	ELSE 
+		SYSMESSAGE @1462,,1 The Item Must be in the Vendors BUY Container!
+		CTAG.ItemToPriceUID=
+		CTAG.ItemToPriceNAME=		
+	ENDIF
+	
+[FUNCTION PriceTarget]
+	IF <CTAG.ItemToPriceUID>
+		DIALOG PriceBox
+	ENDIF
+
+[FUNCTION ChangeVendorsClothing]
+IF (<ARGO.CONT.LAYER>==21) && (<ARGO.LAYER>!=0) && (<ARGO.LAYER>!=21)
+	IF (<SERV.UID.<SRC.CTAG.LastVendorUsedUID>.FINDLAYER.<ARGO.LAYER>.UID>)
+		SERV.UID.<SRC.CTAG.LastVendorUsedUID>.FINDLAYER.<ARGO.LAYER>.BOUNCE
+		ARGO.CONT=<SERV.UID.<SRC.CTAG.LastVendorUsedUID>.>
+	ELSE
+		ARGO.CONT=<SERV.UID.<SRC.CTAG.LastVendorUsedUID>>
+	ENDIF
+ELSE
+	SYSMESSAGE @0029,,1 Sorry that item must be in your pack and equipable!
+ENDIF
+
+[FUNCTION LOOPITEMS]
+LOCAL.LoopingArgs = <args>
+FORCONT <UID> 100
+	TRY <LOCAL.LoopingArgs>
+ENDFOR
+
+[FUNCTION LOOPCONTITEMS]
+LOCAL.LoopingArgs = <args>
+FORCONT <UID> 100
+	TRY <LOCAL.LoopingArgs>
+ENDFOR
+
+[FUNCTION f_checkforvendormemory]
+REF1=<UID>
+FORCHARLAYER 30
+    IF (STRMATCH(*i_own_this_vendor*,<BASEID>))
+    IF <LINK>=<REF1.CTAG.LastVendorUsedUID>
+	//SERV.LOG got here 2
+		REMOVE
+	ENDIF
+	ENDIF
+ENDFOR
+
+[FUNCTION RedeedVendor]
+TRY UID.<ARGV[0]>.FINDLAYER.26.LOOPITEMS CONT=<SRC.FINDLAYER.29.UID>
+TRY UID.<ARGV[0]>.FINDLAYER.27.LOOPITEMS CONT=<SRC.FINDLAYER.29.UID>
+TRY UID.<ARGV[0]>.FINDLAYER.28.LOOPITEMS CONT=<SRC.FINDLAYER.29.UID>
+SERV.UID.<ARGV[0]>.UNEQUIPALL
+SERV.UID.<SERV.UID.<ARGV[0]>.FINDLAYER.21.UID>.ATTR &= ~attr_move_never
+SERV.UID.<SERV.UID.<ARGV[0]>.FINDLAYER.21.UID>.ATTR &= ~attr_newbie
+SERV.UID.<SERV.UID.<ARGV[0]>.FINDLAYER.21.UID>.COLOR=63
+SERV.UID.<SERV.UID.<ARGV[0]>.FINDLAYER.21.UID>.NAME=VENDOR BAG (<SERV.UID.<ARGV[0]>.NAME>)
+SERV.UID.<SERV.UID.<ARGV[0]>.FINDLAYER.21.UID>.CONT=<SRC.FINDLAYER.29.UID>
+SRC.f_checkforvendormemory
+SRC.SYSMESSAGE @1642 The Vendors Items Have been Placed in your Bank
+IF (<SERV.UID.<ARGV[0]>.REGION.TAG0.ShopControlUID>)
+	SERV.UID.<REGION.TAG.ShopControlUID>.TAG.VendorCount=<EVAL <SERV.UID.<REGION.TAG.ShopControlUID>.TAG.VendorCount>-1>
+ENDIF
+SRC.TAG.VendorCount --
+SERV.UID.<ARGV[0]>.REMOVE
+NEWITEM i_deed_vendor_, 1, <SRC.UID>
+RETURN 1
+
+[FUNCTION PlaceHouseVendor]
+IF (<TARGP.REGION.UID>==<SRC.REGION.UID>)
+	IF (<SERV.UID.<SRC.REGION.UID>.MORE1> == <SRC.UID>)
+		IF (<SRC.TAG0.VendorCount> < <EVAL VendorsPlayersTotalMax>)
+			SERV.NEWNPC { c_h_vendor 1 c_h_vendor_f 1 }
+			NEW.FINDLAYER(LAYER_BANKBOX).MORE1=500
+			NEW.SAY Greetings, I will be working for you.
+			NEW.TAG.VENDOR <SRC.ACT.UID>
+			NEW.TAG.BANK=<SRC.FINDLAYER.29.UID>
+			NEW.TAG.OwnerUid = <SRC.UID>
+			NEW.P <TARGP>
+			NEW.VENDGOLD=1000
+			LOCAL.VendorUID=<NEW.UID>
+			SERV.NEWITEM i_own_this_vendor, 1, <SRC.UID>
+			NEW.LINK=<LOCAL.VendorUID>
+			SERV.NEWITEM i_am_owned_by_this_player, 1, <LOCAL.VendorUID>
+			NEW.LINK=<SRC.UID>
+			NEW.MORE1=<SRC.UID>
+			//NEW.TIMER=1
+			SERV.NEWITEM i_vendor_use, 1, <LOCAL.VendorUID>
+			NEW.LINK <SRC.UID>
+			NEW.MORE1=<LOCAL.VendorUID>
+			SRC.NEWITEM=i_custom_mem_vendor, 1, <LOCAL.VendorUID>
+			NEW.COLOR memory_ipet
+			NEW.LINK <SRC.UID>
+			NEW.MORE <SRC.UID>
+			NEW.MORE2 memory_ipet
+			NEW.TIMER 30
+			NEW.UPDATEX
+			SERV.UID.<LOCAL.VendorUID>.SAY @63 Nice Shop Master!
+			SRC.TAG.VendorCount=<EVAL <SRC.TAG0.VendorCount> + 1>
+			SERV.UID.<REGION.TAG.ShopControlUID>.TAG0.VendorCount=<EVAL <SERV.UID.<REGION.TAG.ShopControlUID>.TAG0.VendorCount>+1>
+			SERV.UID.<REGION.TAG.ShopControlUID>.TAG0.VendorCount<SERV.UID.<SRC.ACT.REGION.TAG0.ShopControlUID>.TAG0.VendorCount>=<NEW.UID>
+			REGION.ALLCLIENTS UPDATEX
+			CONSUME 1 i_deed_vendor_
+			SRC.UPDATEX
+			RETURN 1			
+		ELSE			
+			SRC.SYSMESSAGE @0029,,1 You cannot place more than <EVAL VendorsPlayersTotalMax> vendors.
+			RETURN 1		
+		ENDIF	
+	ELSE
+		SRC.SYSMESSAGE @0029,,1 Only the House Owner may Place a Vendor here.
+	ENDIF
+ELSE
+	SRC.SYSMESSAGE @0029,,1 Put the Vendor inside the Shop!
+ENDIF
+
+[FUNCTION PlaceShopVendor]
+IF (<TARGP.REGION.UID>==<SRC.REGION.UID>)
+	IF (<SERV.UID.<REGION.TAG.ShopControlUID>.TAG.OwnersUID> == <SRC.UID>)
+		IF (<SERV.UID.<REGION.TAG.ShopControlUID>.TAG0.VendorCount> < <EVAL VendorsPlayerShopMax>)			
+			SERV.NEWNPC { c_h_vendor 1 c_h_vendor_f 1 }
+			NEW.FINDLAYER(LAYER_BANKBOX).MORE1=500
+			NEW.SAY Greetings, I will be working for you.
+			NEW.TAG.VENDOR <SRC.ACT.UID>
+			NEW.TAG.BANK=<SRC.FINDLAYER.29.UID>
+			NEW.TAG.OwnerUid = <SRC.UID>
+			NEW.P <TARGP>
+			NEW.VENDGOLD=1000	
+			LOCAL.VendorUID=<NEW.UID>
+			SERV.NEWITEM i_own_this_vendor, 1, <SRC.UID>
+			NEW.LINK=<LOCAL.VendorUID>
+			NEW.MORE1=<LOCAL.VendorUID>
+			SERV.NEWITEM i_am_owned_by_this_player, 1, <LOCAL.VendorUID>
+			NEW.LINK=<SRC.UID>
+			NEW.MORE1=<SRC.UID>
+			NEW.TIMER=1
+			NEW.UPDATEX
+			SERV.UID.<LOCAL.VendorUID>.SAY @63 Nice Shop Master!
+			SRC.TAG.VendorCount=<EVAL <SRC.TAG0.VendorCount> + 1>
+			SERV.UID.<REGION.TAG.ShopControlUID>.TAG0.VendorCount=<EVAL <SERV.UID.<REGION.TAG.ShopControlUID>.TAG0.VendorCount>+1>
+			SERV.UID.<REGION.TAG.ShopControlUID>.TAG0.VendorCount<SERV.UID.<SRC.ACT.REGION.TAG0.ShopControlUID>.TAG0.VendorCount>=<NEW.UID>
+			REGION.ALLCLIENTS UPDATEX
+			CONSUME 1 i_deed_vendordeed
+			SRC.UPDATEX
+			RETURN 1			
+		ELSE			
+			SRC.SYSMESSAGE @0029,,1 You cannot place more than 4 vendors in a shop!
+			RETURN 1		
+		ENDIF	
+	ELSE
+		SRC.SYSMESSAGE @0029,,1 Only the Shop Owner may Place a Vendor here.
+	ENDIF
+ELSE
+	SRC.SYSMESSAGE @0029,,1 Put the Vendor inside the Shop!
+ENDIF
+
+[EOF]

@@ -1,0 +1,32 @@
+[TYPEDEF t_ingot]
+ON=@Dclick
+	DIALOGCLOSE InvictusCraftingMenu
+	IF (<CONT> != <SRC.FINDLAYER.layer_pack>)
+		SRC.SYSMESSAGE @55 This must be in your pack to use!
+	ELSE
+		IF <SRC.IsNearForge>
+			IF (<SRC.FINDLAYER.layer_hand1.TYPE> !=t_weapon_mace_smith) && (<SRC.FINDLAYER.layer_hand2.TYPE> !=t_weapon_mace_smith)
+				IF <SRC.FINDID.i_hammer_smith>
+					SRC.SERV.UID.<SRC.FINDID.i_hammer_smith.UID>.EQUIP
+					SRC.CTAG.CraftingMaterial = <UID>
+					SRC.CTAG.CraftingSkillName = Blacksmithing
+					SRC.DIALOGCLOSE InvictusCraftingMenu
+					SRC.DIALOG InvictusCraftingMenu
+				ELSE
+					SRC.SYSMESSAGE @55 Equip a smiths tool to work with ignot
+					SRC.CTAG.CraftingMaterial = 
+					SRC.CTAG.CraftingSkillName = 
+				ENDIF
+			ELSE
+				SRC.CTAG.CraftingMaterial = <UID>
+				SRC.CTAG.CraftingSkillName = Blacksmithing
+				SRC.DIALOGCLOSE InvictusCraftingMenu
+				SRC.DIALOG InvictusCraftingMenu
+			ENDIF
+		ELSE
+			SRC.SYSMESSAGE @55 Stand near a forge to craft ingot
+		ENDIF
+	ENDIF
+	RETURN 1
+
+[EOF]

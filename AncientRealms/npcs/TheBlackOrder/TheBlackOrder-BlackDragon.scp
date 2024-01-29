@@ -1,0 +1,14 @@
+[ITEMDEF i_theeyeoftheblackdragon]
+DEFNAME=i_theeyeoftheblackdragon
+ID=0318d
+NAME=Eye of the Black Dragon
+TYPE=t_normal
+VALUE=100
+WEIGHT=0.1
+CATEGORY=Ancientrealms-NPCS
+SUBSECTION=The Black Order
+DESCRIPTION=Black Dragons Eye
+
+
+	
+[EOF]

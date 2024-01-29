@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Titanium Quarter Staff
+
+[ITEMDEF i_staff_quarter_Titanium]
+   DEFNAME=i_staff_quarter_Titanium
+   ID=i_staff_quarter
+   NAME=Titanium Quarter Staff
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=25
+   VALUE=123
+   SPEED=52
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={20 38}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Titanium]
+   DEFNAME=i_serpentstone_staff_Titanium
+   ID=i_serpentstone_staff
+   NAME=Titanium Serpentstone Staff
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=29
+   VALUE=123
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={60 78}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Titanium]
+   DEFNAME=i_staff_bladed_double_Titanium
+   ID=i_staff_bladed_double
+   NAME=Titanium Double Bladed Staff
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=37
+   VALUE=123
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={120 138}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Glass Staff
+
+[ITEMDEF i_glass_staff_Titanium]
+   DEFNAME=i_glass_staff_Titanium
+   ID=i_glass_staff
+   NAME=Titanium Glass Staff
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=34
+   VALUE=123
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={90 108}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Bladed Staff
+
+[ITEMDEF i_bladed_staff_Titanium]
+   DEFNAME=i_bladed_staff_Titanium
+   ID=i_bladed_staff
+   NAME=Titanium Bladed Staff
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=35
+   VALUE=123
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={115 133}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Tongs
+
+[ITEMDEF i_tongs_Titanium]
+   DEFNAME=i_tongs_Titanium
+   ID=i_tongs
+   NAME=Titanium Tongs
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=12
+   VALUE=123
+   SPEED=14
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={0 18}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Mace
+
+[ITEMDEF i_mace_Titanium]
+   DEFNAME=i_mace_Titanium
+   ID=i_mace
+   NAME=Titanium Mace
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=25
+   VALUE=123
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Maul
+
+[ITEMDEF i_maul_Titanium]
+   DEFNAME=i_maul_Titanium
+   ID=i_maul
+   NAME=Titanium Maul
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=27
+   VALUE=123
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={40 58}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Scepter
+
+[ITEMDEF i_scepter_Titanium]
+   DEFNAME=i_scepter_Titanium
+   ID=i_scepter
+   NAME=Titanium Scepter
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=29
+   VALUE=123
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={50 68}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Titanium]
+   DEFNAME=i_hammer_sledge_Titanium
+   ID=i_hammer_sledge
+   NAME=Titanium Sledge Hammer
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=29
+   VALUE=123
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={20 38}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Titanium]
+   DEFNAME=i_hammer_smith_Titanium
+   ID=i_hammer_smith
+   NAME=Titanium Smiths Hammer
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=15
+   VALUE=123
+   SPEED=14
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium War Mace
+
+[ITEMDEF i_mace_war_Titanium]
+   DEFNAME=i_mace_war_Titanium
+   ID=i_mace_war
+   NAME=Titanium War Mace
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=33
+   VALUE=123
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={80 98}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Disc Mace
+
+[ITEMDEF i_disc_mace_Titanium]
+   DEFNAME=i_disc_mace_Titanium
+   ID=i_disc_mace
+   NAME=Titanium Disc Mace
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=33
+   VALUE=123
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={70 88}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium War Hammer
+
+[ITEMDEF i_hammer_war_Titanium]
+   DEFNAME=i_hammer_war_Titanium
+   ID=i_hammer_war
+   NAME=Titanium War Hammer
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=39
+   VALUE=123
+   SPEED=54
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={100 118}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Hammer Pick
+
+[ITEMDEF i_hammer_pick_Titanium]
+   DEFNAME=i_hammer_pick_Titanium
+   ID=i_hammer_pick
+   NAME=Titanium Hammer Pick
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=35
+   VALUE=123
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={55 73}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium War Axe
+
+[ITEMDEF i_axe_war_Titanium]
+   DEFNAME=i_axe_war_Titanium
+   ID=i_axe_war
+   NAME=Titanium War Axe
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=25
+   VALUE=123
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={65 83}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Tessen
+
+[ITEMDEF i_tessen_Titanium]
+   DEFNAME=i_tessen_Titanium
+   ID=i_tessen
+   NAME=Titanium Tessen
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=24
+   VALUE=123
+   SPEED=39
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={75 93}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Long Sword
+
+[ITEMDEF i_sword_long_Titanium]
+   DEFNAME=i_sword_long_Titanium
+   ID=i_sword_long
+   NAME=Titanium Long Sword
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=123
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={10 28}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Broad Sword
+
+[ITEMDEF i_sword_broad_Titanium]
+   DEFNAME=i_sword_broad_Titanium
+   ID=i_sword_broad
+   NAME=Titanium Broad Sword
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=123
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={20 38}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Scimitar
+
+[ITEMDEF i_scimitar_Titanium]
+   DEFNAME=i_scimitar_Titanium
+   ID=i_scimitar
+   NAME=Titanium Scimitar
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=123
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Viking Sword
+
+[ITEMDEF i_sword_viking_Titanium]
+   DEFNAME=i_sword_viking_Titanium
+   ID=i_sword_viking
+   NAME=Titanium Viking Sword
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=123
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={35 53}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Katana
+
+[ITEMDEF i_katana_Titanium]
+   DEFNAME=i_katana_Titanium
+   ID=i_katana
+   NAME=Titanium Katana
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=123
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={80 98}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Wakizashi
+
+[ITEMDEF i_wakizashi_Titanium]
+   DEFNAME=i_wakizashi_Titanium
+   ID=i_wakizashi
+   NAME=Titanium Wakizashi
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=123
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={45 63}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Long Sword
+
+[ITEMDEF i_sword_long_b_Titanium]
+   DEFNAME=i_sword_long_b_Titanium
+   ID=i_sword_long_b
+   NAME=Titanium Long Sword
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=123
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={50 68}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Paladin Sword
+
+[ITEMDEF i_sword_paladin_Titanium]
+   DEFNAME=i_sword_paladin_Titanium
+   ID=i_sword_paladin
+   NAME=Titanium Paladin Sword
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=123
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={65 83}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Bokuto
+
+[ITEMDEF i_bokuto_Titanium]
+   DEFNAME=i_bokuto_Titanium
+   ID=i_bokuto
+   NAME=Titanium Bokuto
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=123
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={70 88}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Titanium]
+   DEFNAME=i_Radiant_Scimitar_Titanium
+   ID=i_Radiant_Scimitar
+   NAME=Titanium Radiant Scimitar
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=123
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={75 93}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Bone Harvester
+
+[ITEMDEF i_bone_harvester_Titanium]
+   DEFNAME=i_bone_harvester_Titanium
+   ID=i_bone_harvester
+   NAME=Titanium Bone Harvester
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=123
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={55 73}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Butcher Knife
+
+[ITEMDEF i_knife_butcher_Titanium]
+   DEFNAME=i_knife_butcher_Titanium
+   ID=i_knife_butcher
+   NAME=Titanium Butcher Knife
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=123
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Titanium]
+   DEFNAME=i_cleaver_meat_Titanium
+   ID=i_cleaver_meat
+   NAME=Titanium Meat Cleaver
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=123
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Elven Machete
+
+[ITEMDEF i_elven_machete_Titanium]
+   DEFNAME=i_elven_machete_Titanium
+   ID=i_elven_machete
+   NAME=Titanium Elven Machete
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=123
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={60 78}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Bone Machete
+
+[ITEMDEF i_bone_machete_Titanium]
+   DEFNAME=i_bone_machete_Titanium
+   ID=i_bone_machete
+   NAME=Titanium Bone Machete
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=29
+   VALUE=123
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={50 68}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Daisho
+
+[ITEMDEF i_daisho_Titanium]
+   DEFNAME=i_daisho_Titanium
+   ID=i_daisho
+   NAME=Titanium Daisho
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=30
+   VALUE=123
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={65 83}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium No-Dachi
+
+[ITEMDEF i_no_dachi_Titanium]
+   DEFNAME=i_no_dachi_Titanium
+   ID=i_no_dachi
+   NAME=Titanium No-Dachi
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=31
+   VALUE=123
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={75 93}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Rune Blade
+
+[ITEMDEF i_Rune_Blade_Titanium]
+   DEFNAME=i_Rune_Blade_Titanium
+   ID=i_Rune_Blade
+   NAME=Titanium Rune Blade
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=33
+   VALUE=123
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={115 133}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Axe
+
+[ITEMDEF i_axe_Titanium]
+   DEFNAME=i_axe_Titanium
+   ID=i_axe
+   NAME=Titanium Axe
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=23
+   VALUE=123
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={42 60}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Bardiche
+
+[ITEMDEF i_bardiche_Titanium]
+   DEFNAME=i_bardiche_Titanium
+   ID=i_bardiche
+   NAME=Titanium Bardiche
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=123
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={58 76}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Battle Axe
+
+[ITEMDEF i_axe_battle_Titanium]
+   DEFNAME=i_axe_battle_Titanium
+   ID=i_axe_battle
+   NAME=Titanium Battle Axe
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=123
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={65 83}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Double Axe
+
+[ITEMDEF i_axe_double_Titanium]
+   DEFNAME=i_axe_double_Titanium
+   ID=i_axe_double
+   NAME=Titanium Double Axe
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=123
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={70 88}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Titanium]
+   DEFNAME=i_axe_exec_Titanium
+   ID=i_axe_exec
+   NAME=Titanium Exectutioners Axe
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=123
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={73 91}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Halberd
+
+[ITEMDEF i_halberd_Titanium]
+   DEFNAME=i_halberd_Titanium
+   ID=i_halberd
+   NAME=Titanium Halberd
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=123
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={75 93}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Hatchet
+
+[ITEMDEF i_hatchet_Titanium]
+   DEFNAME=i_hatchet_Titanium
+   ID=i_hatchet
+   NAME=Titanium Hatchet
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=24
+   VALUE=123
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={40 58}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Titanium]
+   DEFNAME=i_axe_battle_large_Titanium
+   ID=i_axe_battle_large
+   NAME=Titanium Large Battle Axe
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=36
+   VALUE=123
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={100 118}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Ornate Axe
+
+[ITEMDEF i_ornate_axe_Titanium]
+   DEFNAME=i_ornate_axe_Titanium
+   ID=i_ornate_axe
+   NAME=Titanium Ornate Axe
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=123
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={60 78}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Titanium]
+   DEFNAME=i_axe_two_hand_Titanium
+   ID=i_axe_two_hand
+   NAME=Titanium Two Handed Axe
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=123
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={55 73}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Dual Axes
+
+[ITEMDEF i_dual_short_axes_Titanium]
+   DEFNAME=i_dual_short_axes_Titanium
+   ID=i_dual_short_axes
+   NAME=Titanium Dual Axes
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=123
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={95 113}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Cresent Blade
+
+[ITEMDEF i_crescent_blade_Titanium]
+   DEFNAME=i_crescent_blade_Titanium
+   ID=i_crescent_blade
+   NAME=Titanium Cresent Blade
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=36
+   VALUE=123
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={110 128}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Dagger
+
+[ITEMDEF i_dagger_Titanium]
+   DEFNAME=i_dagger_Titanium
+   ID=i_dagger
+   NAME=Titanium Dagger
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=123
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={10 28}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Skinning Knife
+
+[ITEMDEF i_knife_skinning_Titanium]
+   DEFNAME=i_knife_skinning_Titanium
+   ID=i_knife_skinning
+   NAME=Titanium Skinning Knife
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=123
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={15 33}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Titanium]
+   DEFNAME=i_sword_Assassin_Spike_Titanium
+   ID=i_sword_Assassin_Spike
+   NAME=Titanium Assassin Spike
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=123
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Cutlass
+
+[ITEMDEF i_cutlass_Titanium]
+   DEFNAME=i_cutlass_Titanium
+   ID=i_cutlass
+   NAME=Titanium Cutlass
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=123
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={25 43}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Short Blade
+
+[ITEMDEF i_shortblade_Titanium]
+   DEFNAME=i_shortblade_Titanium
+   ID=i_shortblade
+   NAME=Titanium Short Blade
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=123
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={35 53}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Scythe
+
+[ITEMDEF i_scythe_Titanium]
+   DEFNAME=i_scythe_Titanium
+   ID=i_scythe
+   NAME=Titanium Scythe
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=32
+   VALUE=123
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={115 133}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Short Spear
+
+[ITEMDEF i_spear_short_Titanium]
+   DEFNAME=i_spear_short_Titanium
+   ID=i_spear_short
+   NAME=Titanium Short Spear
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=123
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={45 63}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium War Fork
+
+[ITEMDEF i_war_fork_Titanium]
+   DEFNAME=i_war_fork_Titanium
+   ID=i_war_fork
+   NAME=Titanium War Fork
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=123
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={50 68}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Leafblade
+
+[ITEMDEF i_sword_leafblade_Titanium]
+   DEFNAME=i_sword_leafblade_Titanium
+   ID=i_sword_leafblade
+   NAME=Titanium Leafblade
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=123
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={60 78}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Titanium]
+   DEFNAME=i_elven_spellblade_Titanium
+   ID=i_elven_spellblade
+   NAME=Titanium Elven Spell Blade
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=123
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={75 93}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Pitchfork
+
+[ITEMDEF i_pitchfork_Titanium]
+   DEFNAME=i_pitchfork_Titanium
+   ID=i_pitchfork
+   NAME=Titanium Pitchfork
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=123
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={55 73}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium War Cleaver
+
+[ITEMDEF i_war_cleaver_Titanium]
+   DEFNAME=i_war_cleaver_Titanium
+   ID=i_war_cleaver
+   NAME=Titanium War Cleaver
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=123
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={65 83}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Pike
+
+[ITEMDEF i_pike_Titanium]
+   DEFNAME=i_pike_Titanium
+   ID=i_pike
+   NAME=Titanium Pike
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=123
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={70 88}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Blood Blade
+
+[ITEMDEF i_bloodblade_Titanium]
+   DEFNAME=i_bloodblade_Titanium
+   ID=i_bloodblade
+   NAME=Titanium Blood Blade
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=123
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={75 93}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Kama
+
+[ITEMDEF i_kama_Titanium]
+   DEFNAME=i_kama_Titanium
+   ID=i_kama
+   NAME=Titanium Kama
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=123
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={77 95}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Kryss
+
+[ITEMDEF i_kryss_Titanium]
+   DEFNAME=i_kryss_Titanium
+   ID=i_kryss
+   NAME=Titanium Kryss
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=123
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={80 98}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Lajatang
+
+[ITEMDEF i_lajatang_Titanium]
+   DEFNAME=i_lajatang_Titanium
+   ID=i_lajatang
+   NAME=Titanium Lajatang
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=123
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={85 103}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Sai
+
+[ITEMDEF i_sai_Titanium]
+   DEFNAME=i_sai_Titanium
+   ID=i_sai
+   NAME=Titanium Sai
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=123
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={76 94}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Tekagi
+
+[ITEMDEF i_tekagi_Titanium]
+   DEFNAME=i_tekagi_Titanium
+   ID=i_tekagi
+   NAME=Titanium Tekagi
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=123
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={90 108}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Titanium Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Titanium]
+   DEFNAME=i_dual_pointed_spear_Titanium
+   ID=i_dual_pointed_spear
+   NAME=Titanium Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Titanium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=31
+   VALUE=123
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Titanium
+
+ON=@Create
+   COLOR=color_ore_Titanium
+   HITPOINTS={115 133}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

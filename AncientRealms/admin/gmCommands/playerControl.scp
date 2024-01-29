@@ -1,0 +1,392 @@
+[ITEMDEF i_playerNotice]
+DEFNAME=i_playerNotice
+NAME=Player Notice
+ID=i_deed
+TYPE=t_playerNotice
+VALUE=1
+
+ON=@Create
+	COLOR=4323
+	ATTR=ATTR_NEWBIE|ATTR_MOVE_NEVER
+	
+[TYPEDEF t_playerNotice]
+ON=@DClick
+	TAG.NoticeUID=<UID>
+	SRC.CTAG.NoticeUID=<UID>
+	SRC.DIALOG d_playerNotice
+	RETURN 1
+
+[DIALOG d_playerNotice]
+50,50
+PAGE 0
+RESIZEPIC 0 0 5120 330 210
+RESIZEPIC 20 20 5054 290 170
+PAGE 1
+DTEXT 37 30 346 AncientRealms PLAYER NOTICE   <CTAG.NoticeUID>
+DTEXT 37 55 389 Dear <SERV.UID.<CTAG.NoticeUID>.TAG.NoticeServedToo>
+DTEXT 47 80 389 <SERV.UID.<CTAG.NoticeUID>.TAG.LastNoticeServedLine01>
+DTEXT 47 100 389 <SERV.UID.<CTAG.NoticeUID>.TAG.LastNoticeServedLine02>
+DTEXT 47 120 389 <SERV.UID.<CTAG.NoticeUID>.TAG.LastNoticeServedLine03>
+DTEXT 37 145 389 Thank you for your Co-Operation!
+DTEXT 240 170 346 Delete:
+BUTTON 285 170 9027 9026 1 0 10
+
+[DIALOG d_playerNotice BUTTON]
+ONBUTTON=10
+	SERV.UID.<SRC.CTAG.NoticeUID>.REMOVE
+	SRC.CLOSEALLDIALOGS
+	SRC.UPDATE
+
+[FUNCTION playerControl]
+FOR X 1 <SRC.CTAG.PlayerNamesFoundAmount>
+	SRC.CTAG.PlayerNamesFoundAmount=
+	SRC.CTAG.PlayerNameFound<LOCAL.BodyCount>NAME=
+	SRC.CTAG.PlayerNameFound<LOCAL.BodyCount>UID=
+ENDFOR
+SRC.CTAG.PlayerNamesFoundAmount=
+SRC.DIALOG d_playerNotice_Setup
+
+[FUNCTION TargetPlayerNotice]
+IF <SERV.UID.<ARGO.UID>.ISPLAYER>
+	CTAG.PlayerTargetedName=<ARGO.NAME>
+	CTAG.PlayerTargetedUID=<ARGO.UID>
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup 2
+ENDIF
+
+[DIALOG d_playerNotice_Setup]
+50,50
+PAGE 0
+RESIZEPIC 0 0 5120 230 230
+RESIZEPIC 20 20 5054 190 190
+PAGE 1
+DTEXT 37 30 346 AncientRealms PLAYER NOTICE
+DTEXT 50 60 346 Target Player
+BUTTON 25 60 9027 9026 1 0 10
+DTEXT 50 90 346 Search by Player Name
+BUTTON 25 90 9027 9026 1 0 11
+DTEXT 50 120 346 Search by Player Uid
+BUTTON 25 120 9027 9026 1 0 12
+DTEXT 50 150 346 Send to all Players
+BUTTON 25 150 9027 9026 1 0 13
+DTEXT 50 180 346 Send to all Staff
+BUTTON 25 180 9027 9026 1 0 14
+PAGE 2
+RESIZEPIC 0 0 5120 330 210
+RESIZEPIC 20 20 5054 290 170
+DTEXT 55 30 346 AncientRealms PLAYER NOTICE
+DTEXT 37 55 389 To:
+DTEXT 65 55 354 <CTAG.PlayerTargetedName>
+DTEXT 37 75 389 Message:
+DTEXTENTRY 37 95 250 20 1152 1
+DTEXTENTRY 37 115 250 20 1152 2
+DTEXTENTRY 37 135 250 20 1152 3
+DTEXT 222 170 389 Send:
+BUTTON 262 170 9027 9026 1 0 20
+PAGE 3
+RESIZEPIC 0 0 5150 330 210
+DTEXT 45 30 346 AncientRealms PLAYER SEARCH BY NAME
+DTEXT 37 55 389 Name:
+DTEXTENTRY 72 55 250 20 1152 4
+DTEXT 230 150 389 Search:
+BUTTON 280 150 9027 9026 1 0 30
+PAGE 4
+RESIZEPIC 0 0 5150 330 210
+DTEXT 45 30 346 AncientRealms PLAYER SEARCH BY NAME
+LOCAL.NameSPacer=55
+LOCAL.ButtonNumber=500
+IF <SRC.CTAG.PlayerNamesFoundAmount>
+	FOR X 1 <SRC.CTAG.PlayerNamesFoundAmount>
+		LOCAL.ButtonNumber=<LOCAL.ButtonNumber>+1
+		BUTTON 30 <LOCAL.NameSPacer> 9027 9026 1 0 <LOCAL.ButtonNumber>
+		DTEXT 60 <LOCAL.NameSPacer> 63 <SRC.CTAG.PlayerNameFound<LOCAL.X>NAME>
+		LOCAL.NameSPacer=<LOCAL.NameSPacer>+20
+	ENDFOR
+ENDIF
+DTEXT 234 150 389 Exit:
+BUTTON 280 150 9027 9026 1 0 41
+PAGE 5
+RESIZEPIC 0 0 5150 330 210
+DTEXT 45 30 346 AncientRealms PLAYER SEARCH BY NAME
+DTEXT 37 50 389 Name: <SERV.UID.<CTAG0.PlayerNamecheckUID>.NAME> (<SERV.UID.<CTAG0.PlayerNamecheckUID>.UID>)
+DTEXT 37 70 389 Account: <SERV.UID.<CTAG0.PlayerNamecheckUID>.ACCOUNT>
+DTEXT 37 90 389 First Connect Date:
+DTEXT 37 110 389 <SERV.UID.<CTAG0.PlayerNamecheckUID>.ACCOUNT.FIRSTCONNECTDATE>
+DTEXT 37 130 389 Last Connect Date:
+DTEXT 37 150 389 <SERV.UID.<CTAG0.PlayerNamecheckUID>.ACCOUNT.LASTCONNECTDATE>
+IF <SERV.UID.<CTAG0.PlayerNamecheckUID>.isonline>
+	DTEXT 200 57 63 PLAYER ONLINE
+ELSE
+	DTEXT 200 57 35 PLAYER OFFLINE
+ENDIF
+BUTTON 200 80 1154 1153 1 0 52
+DTEXT 230 80 63 Goto Player
+BUTTON 200 110 1154 1153 1 0 48
+DTEXT 230 110 63 Move Player
+BUTTON 200 140 1154 1153 1 0 51
+DTEXT 230 140 63 Send Notice
+BUTTON 200 170 1152 1151 1 0 49
+DTEXT 230 170 63 Back
+PAGE 6
+RESIZEPIC 0 0 5150 330 210
+DTEXT 45 30 346 AncientRealms PLAYER SEARCH BY UID
+DTEXT 37 55 389 UID:
+DTEXTENTRY 72 55 250 20 1152 5
+DTEXT 230 150 389 Search:
+BUTTON 280 150 9027 9026 1 0 60
+PAGE 7
+RESIZEPIC 0 0 5150 330 210
+DTEXT 45 30 346 AncientRealms PLAYER SEARCH BY UID
+LOCAL.NameSPacer=55
+LOCAL.ButtonNumber=500
+IF <SRC.CTAG.PlayerNamesFoundAmount>
+	FOR X 1 <SRC.CTAG.PlayerNamesFoundAmount>
+		LOCAL.ButtonNumber=<LOCAL.ButtonNumber>+1
+		BUTTON 30 <LOCAL.NameSPacer> 9027 9026 1 0 <LOCAL.ButtonNumber>
+		DTEXT 60 <LOCAL.NameSPacer> 63 <SRC.CTAG.PlayerNameFound<LOCAL.X>UID>  -  <SERV.UID.<SRC.CTAG.PlayerNameFound<LOCAL.X>UID>.NAME> 
+		LOCAL.NameSPacer=<LOCAL.NameSPacer>+20
+	ENDFOR
+ENDIF
+DTEXT 234 150 389 Exit:
+BUTTON 280 150 9027 9026 1 0 41
+PAGE 8
+RESIZEPIC 0 0 5150 330 210
+DTEXT 45 30 346 AncientRealms NOTIFY ALL STAFF
+LOCAL.NameSPacer=50
+IF <SRC.CTAG.PlayerNamesFoundAmount>
+	FOR X 1 <SRC.CTAG.PlayerNamesFoundAmount>
+		LOCAL.ButtonNumber=<LOCAL.ButtonNumber>+1
+		DTEXT 60 <LOCAL.NameSPacer> 63 <SRC.CTAG.PlayerNameFound<LOCAL.X>NAME> <SRC.CTAG.PlayerNameFound<LOCAL.X>ACCNAME>
+		LOCAL.NameSPacer=<LOCAL.NameSPacer>+20
+	ENDFOR
+ENDIF
+DTEXT 234 130 389 Send:
+BUTTON 280 130 9027 9026 1 0 42
+DTEXT 234 150 389 Exit:
+BUTTON 280 150 9027 9026 1 0 41
+PAGE 9
+RESIZEPIC 0 0 5120 330 210
+RESIZEPIC 20 20 5054 290 170
+DTEXT 55 30 346 AncientRealms STAFF NOTICE
+DTEXT 37 55 389 To:
+DTEXT 65 55 354 ALL STAFF
+DTEXT 37 75 389 Message:
+DTEXTENTRY 37 95 250 20 1152 1
+DTEXTENTRY 37 115 250 20 1152 2
+DTEXTENTRY 37 135 250 20 1152 3
+DTEXT 222 170 389 Send:
+BUTTON 262 170 9027 9026 1 0 90
+
+[DIALOG d_playerNotice_Setup BUTTON]
+ONBUTTON=10
+	SRC.SYSMESSAGE @1462 Target The Player
+	SRC.TARGETF TargetPlayerNotice
+	
+ONBUTTON=11
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup 3
+
+ONBUTTON=12
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup 6
+
+ONBUTTON=49
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup 4
+	
+ONBUTTON=13
+	SRC.SYSMESSAGE @1462 Option Deactivated
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup
+
+ONBUTTON=14
+	LOCAL.BodyCount=0
+	FORPLAYERS 6144
+		IF (<ISGM>)
+			LOCAL.BodyCount=<LOCAL.BodyCount>+1
+			SRC.CTAG.PlayerNameFound<LOCAL.BodyCount>NAME=<NAME>
+			SRC.CTAG.PlayerNameFound<LOCAL.BodyCount>UID=<UID>
+			SRC.CTAG.PlayerNameFound<LOCAL.BodyCount>Bag=<FINDLAYER.21.UID>
+			SRC.CTAG.PlayerNameFound<LOCAL.BodyCount>ACCNAME=<ACCOUNT>
+			SRC.CTAG.PlayerNamesFoundAmount=<LOCAL.BodyCount>			
+		ENDIF
+	ENDFOR
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup 8
+
+ONBUTTON=20
+	SRC.SYSMESSAGE @1462 You Send the Notice to <CTAG.PlayerTargetedName>
+	NEWITEM i_playerNotice
+	NEW.TAG.NoticeServedToo=<CTAG.PlayerTargetedName>
+	NEW.TAG.LastNoticeServedByName=<SRC.NAME>
+	NEW.TAG.LastNoticeServedByUID=<SRC.NAME>
+	SERV.UID.<CTAG.PlayerTargetedUID>.TAG.LastNoticeServedByName=<SRC.NAME>
+	SERV.UID.<CTAG.PlayerTargetedUID>.TAG.LastNoticeServedByUID=<SRC.NAME>
+	FOR X 1 3	
+		NEW.TAG.LastNoticeServedLine<LOCAL.X>=<ARGTXT[<LOCAL.X>]>
+		SERV.UID.<CTAG.PlayerTargetedUID>.TAG.LastNoticeServedLine<LOCAL.X>=<ARGTXT[<LOCAL.X>]>
+	ENDFOR
+	NEW.CONT = <SERV.UID.<CTAG.PlayerTargetedUID>.FINDLAYER.21.UID>
+	NEW.UPDATE
+
+ONBUTTON=30
+	//SRC.SYSMESSAGE @1462 You Search for the name <ARGTXT[4]>
+	SRC.CTAG.PlayerSearchedName=<ARGTXT[4]>
+	LOCAL.BodyCount=0
+	FORPLAYERS 6144
+		IF (STRMATCH('<SRC.CTAG.PlayerSearchedName>', '<UID.<UID>.NAME>'))
+			LOCAL.BodyCount=<LOCAL.BodyCount>+1
+			//SRC.SYSMESSAGE @1462 You Find the name <ARGTXT[4]>
+			SRC.CTAG.PlayerNamesFoundAmount=<LOCAL.BodyCount>
+			SRC.CTAG.PlayerNameFound<LOCAL.BodyCount>NAME=<NAME>
+			SRC.CTAG.PlayerNameFound<LOCAL.BodyCount>UID=<UID>
+		ENDIF
+	ENDFOR
+	IF <LOCAL.BodyCount>
+		CLOSEALLDIALOGS
+		DIALOG d_playerNotice_Setup 4
+	ELSE
+		CLOSEALLDIALOGS
+		DIALOG d_playerNotice_Setup 3
+	ENDIF
+
+ONBUTTON=41
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup 3
+
+ONBUTTON=42
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup 9
+	
+ONBUTTON=50
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup
+
+ONBUTTON=51
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup 2
+
+ONBUTTON=52
+	SRC.GOUID <CTAG.PlayerNamecheckUID>
+	SDIALOG d_playerNotice_Setup 5
+
+ONBUTTON=48
+	TARGETFG f_PlayerControlMovePlayer <CTAG.PlayerNamecheckUID>
+	SDIALOG d_playerNotice_Setup 5
+	
+ONBUTTON=60
+	//SRC.SYSMESSAGE @1462 You Search for the uid <ARGTXT[5]>
+	SRC.CTAG.PlayerSearchedUID=<ARGTXT[5]>
+	LOCAL.UIDCount=0
+	FORPLAYERS 6144
+		IF (STRMATCH('<SRC.CTAG.PlayerSearchedUID>', '<UID>'))
+			LOCAL.UIDCount=<LOCAL.UIDCount>+1
+			//SRC.SYSMESSAGE @1462 You Find the uid <ARGTXT[5]>
+			SRC.CTAG.PlayerNamesFoundAmount=<LOCAL.UIDCount>
+			SRC.CTAG.PlayerNameFound<LOCAL.UIDCount>NAME=<NAME>
+			SRC.CTAG.PlayerNameFound<LOCAL.UIDCount>UID=<UID>
+		ENDIF
+	ENDFOR
+	IF <LOCAL.UIDCount>
+		CLOSEALLDIALOGS
+		DIALOG d_playerNotice_Setup 7
+	ELSE
+		CLOSEALLDIALOGS
+		DIALOG d_playerNotice_Setup 3
+	ENDIF
+
+ONBUTTON=90
+	FOR X 1 <SRC.CTAG.PlayerNamesFoundAmount>
+		SRC.SYSMESSAGE @1462 You Send the Notice to <SRC.CTAG.PlayerNameFound<LOCAL.X>NAME>
+		NEWITEM i_playerNotice
+		NEW.TAG.NoticeServedToo=<SRC.CTAG.PlayerNameFound<LOCAL.X>NAME>
+		NEW.TAG.LastNoticeServedByName=<SRC.NAME>
+		NEW.TAG.LastNoticeServedByUID=<SRC.NAME>
+		SERV.UID.<SRC.CTAG.PlayerNameFound<LOCAL.X>UID>.TAG.LastNoticeServedByName=<SRC.NAME>
+		SERV.UID.<SRC.CTAG.PlayerNameFound<LOCAL.X>UID>.TAG.LastNoticeServedByUID=<SRC.UID>
+		FOR X 1 3	
+			NEW.TAG.LastNoticeServedLine<LOCAL.X>=<ARGTXT[<LOCAL.X>]>
+			SERV.UID.<SRC.CTAG.PlayerNameFound<LOCAL.X>UID>.TAG.LastNoticeServedLine<LOCAL.X>=<ARGTXT[<LOCAL.X>]>
+		ENDFOR
+		SRC.SYSMESSAGE @1462 <SRC.CTAG.PlayerNameFound<LOCAL.X>Bag>
+		NEW.CONT = <SRC.CTAG.PlayerNameFound<LOCAL.X>Bag>
+		NEW.UPDATE
+	ENDFOR
+
+ONBUTTON=501
+	//SRC.SYSMESSAGE @1462 You Selected the name <SRC.CTAG.PlayerNameFound01NAME>
+	SRC.CTAG.PlayerNamecheckUID=<SRC.CTAG.PlayerNameFound01UID>
+	SRC.CTAG.PlayerTargetedName=<SRC.CTAG.PlayerNameFound01NAME>
+	SRC.CTAG.PlayerTargetedUID=<SRC.CTAG.PlayerNameFound01UID>
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup 5
+	
+ONBUTTON=502
+	//SRC.SYSMESSAGE @1462 You Selected the name <SRC.CTAG.PlayerNameFound02NAME>
+	SRC.CTAG.PlayerNamecheckUID=<SRC.CTAG.PlayerNameFound02UID>
+	SRC.CTAG.PlayerTargetedName=<SRC.CTAG.PlayerNameFound02NAME>
+	SRC.CTAG.PlayerTargetedUID=<SRC.CTAG.PlayerNameFound02UID>
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup 5
+
+ONBUTTON=503
+	//SRC.SYSMESSAGE @1462 You Selected the name <SRC.CTAG.PlayerNameFound03NAME>
+	SRC.CTAG.PlayerNamecheckUID=<SRC.CTAG.PlayerNameFound03UID>
+	SRC.CTAG.PlayerTargetedName=<SRC.CTAG.PlayerNameFound03NAME>
+	SRC.CTAG.PlayerTargetedUID=<SRC.CTAG.PlayerNameFound03UID>
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup 5
+
+ONBUTTON=504
+	//SRC.SYSMESSAGE @1462 You Selected the name <SRC.CTAG.PlayerNameFound04NAME>
+	SRC.CTAG.PlayerNamecheckUID=<SRC.CTAG.PlayerNameFound04UID>
+	SRC.CTAG.PlayerTargetedName=<SRC.CTAG.PlayerNameFound04NAME>
+	SRC.CTAG.PlayerTargetedUID=<SRC.CTAG.PlayerNameFound04UID>
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup 5
+
+ONBUTTON=505
+	//SRC.SYSMESSAGE @1462 You Selected the name <SRC.CTAG.PlayerNameFound05NAME>
+	SRC.CTAG.PlayerNamecheckUID=<SRC.CTAG.PlayerNameFound05UID>
+	SRC.CTAG.PlayerTargetedName=<SRC.CTAG.PlayerNameFound05NAME>
+	SRC.CTAG.PlayerTargetedUID=<SRC.CTAG.PlayerNameFound05UID>
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup 5
+
+ONBUTTON=506
+	//SRC.SYSMESSAGE @1462 You Selected the name <SRC.CTAG.PlayerNameFound06NAME>
+	SRC.CTAG.PlayerNamecheckUID=<SRC.CTAG.PlayerNameFound06UID>
+	SRC.CTAG.PlayerTargetedName=<SRC.CTAG.PlayerNameFound06NAME>
+	SRC.CTAG.PlayerTargetedUID=<SRC.CTAG.PlayerNameFound06UID>
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup 5
+
+ONBUTTON=507
+	//SRC.SYSMESSAGE @1462 You Selected the name <SRC.CTAG.PlayerNameFound07NAME>
+	SRC.CTAG.PlayerNamecheckUID=<SRC.CTAG.PlayerNameFound07UID>
+	SRC.CTAG.PlayerTargetedName=<SRC.CTAG.PlayerNameFound07NAME>
+	SRC.CTAG.PlayerTargetedUID=<SRC.CTAG.PlayerNameFound07UID>
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup 5
+
+ONBUTTON=508
+	//SRC.SYSMESSAGE @1462 You Selected the name <SRC.CTAG.PlayerNameFound08NAME>
+	SRC.CTAG.PlayerNamecheckUID=<SRC.CTAG.PlayerNameFound08UID>
+	SRC.CTAG.PlayerTargetedName=<SRC.CTAG.PlayerNameFound08NAME>
+	SRC.CTAG.PlayerTargetedUID=<SRC.CTAG.PlayerNameFound08UID>
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup 5
+
+ONBUTTON=509
+	//SRC.SYSMESSAGE @1462 You Selected the name <SRC.CTAG.PlayerNameFound09NAME>
+	SRC.CTAG.PlayerNamecheckUID=<SRC.CTAG.PlayerNameFound09UID>
+	SRC.CTAG.PlayerTargetedName=<SRC.CTAG.PlayerNameFound09NAME>
+	SRC.CTAG.PlayerTargetedUID=<SRC.CTAG.PlayerNameFound09UID>
+	CLOSEALLDIALOGS
+	DIALOG d_playerNotice_Setup 5
+	
+[FUNCTION f_PlayerControlMovePlayer]
+SERV.UID.<CTAG.PlayerNamecheckUID>.GO <TARGP>
+//SERV.LOG ADMIN: <NAME> Moved Player <SERV.UID.<CTAG.PlayerNamecheckUID>.NAME> to <TARGP>
+
+[EOF]

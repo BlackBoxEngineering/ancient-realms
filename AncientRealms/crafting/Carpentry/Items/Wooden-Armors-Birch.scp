@@ -1,0 +1,466 @@
+/////////////////////////////////////////////Birch woodland chest
+[ITEMDEF i_woodland_chest_Birch]
+   DEFNAME= i_woodland_chest_Birch
+   ID= i_woodland_chest
+   NAME= Birch woodland chest
+   ARMOR= 28
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 20 i_log_Birch
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Birch
+   DESCRIPTION= woodland chest
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS= {98 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch woodland belt
+[ITEMDEF i_woodland_belt_Birch]
+   DEFNAME= i_woodland_belt_Birch
+   ID= i_woodland_belt
+   NAME= Birch woodland belt
+   ARMOR= 23
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Birch
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Birch
+   DESCRIPTION= woodland belt
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS= {98 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch woodland gorget
+[ITEMDEF i_woodland_gorget_Birch]
+   DEFNAME= i_woodland_gorget_Birch
+   ID= i_woodland_gorget
+   NAME= Birch woodland gorget
+   ARMOR= 14
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Birch
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Birch
+   DESCRIPTION= woodland gorget
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS= {98 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch woodland gauntlets
+[ITEMDEF i_woodland_gauntlets_Birch]
+   DEFNAME= i_woodland_gauntlets_Birch
+   ID= i_woodland_gauntlets
+   NAME= Birch woodland gauntlets
+   ARMOR= 14
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Birch
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Birch
+   DESCRIPTION= woodland gauntlets
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS= {98 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch woodland leggings
+[ITEMDEF i_woodland_leggings_Birch]
+   DEFNAME= i_woodland_leggings_Birch
+   ID= i_woodland_leggings
+   NAME= Birch woodland leggings
+   ARMOR= 23
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Birch
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Birch
+   DESCRIPTION= woodland leggings
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS= {98 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch woodland arms
+[ITEMDEF i_woodland_arms_Birch]
+   DEFNAME= i_woodland_arms_Birch
+   ID= i_woodland_arms
+   NAME= Birch woodland arms
+   ARMOR= 16
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 8 i_log_Birch
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Birch
+   DESCRIPTION= woodland arms
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS= {98 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch female woodland chest
+[ITEMDEF i_armor_female_woodland_Birch]
+   DEFNAME= i_armor_female_woodland_Birch
+   ID= i_armor_female_woodland
+   NAME= Birch female woodland chest
+   ARMOR= 24
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 16 i_log_Birch
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Birch
+   DESCRIPTION= female woodland chest
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS= {98 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch leaf tunic
+[ITEMDEF i_leaf_tunic_Birch]
+   DEFNAME= i_leaf_tunic_Birch
+   ID= i_leaf_tunic
+   NAME= Birch leaf tunic
+   ARMOR= 26
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 18 i_log_Birch
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Birch
+   DESCRIPTION= leaf tunic
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch leaf gloves
+[ITEMDEF i_leaf_gloves_Birch]
+   DEFNAME= i_leaf_gloves_Birch
+   ID= i_leaf_gloves
+   NAME= Birch leaf gloves
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_log_Birch
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Birch
+   DESCRIPTION= leaf gloves
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch leaf gorget
+[ITEMDEF i_leaf_gorget_Birch]
+   DEFNAME= i_leaf_gorget_Birch
+   ID= i_leaf_gorget
+   NAME= Birch leaf gorget
+   ARMOR= 16
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Birch
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Birch
+   DESCRIPTION= leaf gorget
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch leaf arms
+[ITEMDEF i_leaf_arms_Birch]
+   DEFNAME= i_leaf_arms_Birch
+   ID= i_leaf_arms
+   NAME= Birch leaf arms
+   ARMOR= 16
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Birch
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Birch
+   DESCRIPTION= leaf arms
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch leaf leggings
+[ITEMDEF i_leaf_leggings_Birch]
+   DEFNAME= i_leaf_leggings_Birch
+   ID= i_leaf_leggings
+   NAME= Birch leaf leggings
+   ARMOR= 23
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 15 i_log_Birch
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Birch
+   DESCRIPTION= leaf leggings
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch leaf tonlet
+[ITEMDEF i_leaf_tonlet_Birch]
+   DEFNAME= i_leaf_tonlet_Birch
+   ID= i_leaf_tonlet
+   NAME= Birch leaf tonlet
+   ARMOR= 12
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 4 i_log_Birch
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Birch
+   DESCRIPTION= leaf tonlet
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch raven helm
+[ITEMDEF i_helm_raven_Birch]
+   DEFNAME= i_helm_raven_Birch
+   ID= i_helm_raven
+   NAME= Birch raven helm
+   ARMOR= 16
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Birch
+   SKILLMAKE= CARPENTRY 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Birch
+   DESCRIPTION= raven helm
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch vulture helm
+[ITEMDEF i_helm_vulture_Birch]
+   DEFNAME= i_helm_vulture_Birch
+   ID= i_helm_vulture
+   NAME= Birch vulture helm
+   ARMOR= 16
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Birch
+   SKILLMAKE= CARPENTRY 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Birch
+   DESCRIPTION= vulture helm
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch winged helm
+[ITEMDEF i_helm_winged_Birch]
+   DEFNAME= i_helm_winged_Birch
+   ID= i_helm_winged
+   NAME= Birch winged helm
+   ARMOR= 16
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Birch
+   SKILLMAKE= CARPENTRY 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Birch
+   DESCRIPTION= winged helm
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS= {108 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

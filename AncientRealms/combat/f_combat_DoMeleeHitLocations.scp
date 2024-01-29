@@ -1,0 +1,540 @@
+[FUNCTION f_combat_selectHitLocation]
+//CALL f_combat_selectHitLocation <attacker>,<defender>,<DamageIn>
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+LOCAL.DamageIn=<ARGV[2]>
+IF <REF1.TAG0.HITPREFERENCE>
+	f_combat_HitLocation <ARGV[0]>,<ARGV[1]>,<ARGV[2]>,<REF1.TAG.HITPREFERENCE>
+ELSE
+	f_combat_HitLocation <ARGV[0]>,<ARGV[1]>,<ARGV[2]>,<R1,7>
+ENDIF
+
+[FUNCTION f_combat_HitLocation]
+//f_combat_HitLocation <attacker>,<defender>,<DamageIn>,<HitLocation>
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.HitLocationDamBonus=0
+IF <EVAL <ARGV[3]>> == 1
+	LOCAL.HitLocationDamBonus=<EVAL CombatHitLocation_Head + <ARGV[2]>> 
+	f_combat_HitHeadLocation <ARGV[0]>,<ARGV[1]>,<EVAL <LOCAL.HitLocationDamBonus>>
+ELIF <EVAL <ARGV[3]>> == 2
+	LOCAL.HitLocationDamBonus=<EVAL CombatHitLocation_Neck + <ARGV[2]>> 
+	f_combat_HitNeckLocation <ARGV[0]>,<ARGV[1]>,<EVAL <LOCAL.HitLocationDamBonus>>
+ELIF <EVAL <ARGV[3]>> == 3
+	LOCAL.HitLocationDamBonus=<EVAL CombatHitLocation_Chest + <ARGV[2]>> 
+	f_combat_HitChestLocation <ARGV[0]>,<ARGV[1]>,<EVAL <LOCAL.HitLocationDamBonus>>
+ELIF <EVAL <ARGV[3]>> == 4
+	LOCAL.HitLocationDamBonus=<EVAL CombatHitLocation_Legs + <ARGV[2]>> 
+	f_combat_HitLegsLocation <ARGV[0]>,<ARGV[1]>,<EVAL <LOCAL.HitLocationDamBonus>>
+ELIF <EVAL <ARGV[3]>> == 5
+	LOCAL.HitLocationDamBonus=<EVAL CombatHitLocation_Arms + <ARGV[2]>> 
+	f_combat_HitArmsLocation <ARGV[0]>,<ARGV[1]>,<EVAL <LOCAL.HitLocationDamBonus>>
+ELIF <EVAL <ARGV[3]>> == 6
+	LOCAL.HitLocationDamBonus=<EVAL CombatHitLocation_Hands + <ARGV[2]>> 
+	f_combat_HitHandsLocation <ARGV[0]>,<ARGV[1]>,<EVAL <LOCAL.HitLocationDamBonus>>
+ELSE
+	LOCAL.HitLocationDamBonus=<EVAL CombatHitLocation_Feet + <ARGV[2]>> 
+	f_combat_HitFeetLocation <ARGV[0]>,<ARGV[1]>,<EVAL <LOCAL.HitLocationDamBonus>>
+ENDIF
+
+[FUNCTION f_combat_HitHeadLocation]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.HitLayer=0
+IF !<REF2.FINDLAYER.layer_helm.UID>
+	IF <R1,10> > 4
+		IF <REF2.FINDLAYER.layer_hair.UID>
+			f_combat_HitHair <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+			LOCAL.HitLayer=layer_hair
+		ENDIF
+	ELSE
+		IF <REF2.FINDLAYER.layer_ears.UID>
+			f_combat_HitEarrings <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+			LOCAL.HitLayer=layer_ears
+		ENDIF
+	ENDIF
+ELSE
+	f_combat_HitHelm <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+	LOCAL.HitLayer=layer_helm
+ENDIF
+
+[FUNCTION f_combat_HitHair]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+LOCAL.DamageIn=<ARGV[2]>
+REF1.SYSMESSAGE @274,,1 You wreck <REF2.NAME>'s Hair Style
+REF2.SYSMESSAGE @274,,1 <REF1.NAME> wrecks your Hair Style
+
+[FUNCTION f_combat_HitEarrings]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+LOCAL.DamageIn=<ARGV[2]>
+REF1.SYSMESSAGE @274,,1 You hit <REF2.NAME>'s earring ripping it out of thier ear!
+REF2.SYSMESSAGE @274,,1 <REF1.NAME> hit your earring ripping it from your ear!
+REF2.FINDLAYER.layer_ears.DROP
+
+[FUNCTION f_combat_HitHelm]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+REF3=<SERV.UID.<REF2.FINDLAYER.layer_helm.UID>>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.TotalDamageForItem=<EVAL (<f_combat_HitItemDamageCalc <ARGV[0]>,<ARGV[1]>,<ARGV[2]>,<REF3.UID>>) / CombatHitLocation_Div >
+IF <REF3.HITS> > <EVAL <LOCAL.TotalDamageForItem>>
+	REF3.HITS=<EVAL <REF3.HITS> - <LOCAL.TotalDamageForItem>>
+	REF1.SYSMESSAGE @55,,1 You damaged <REF2.NAME>'s <REF3.NAME>
+	REF2.SYSMESSAGE @35,,1 Your <REF3.NAME> was damaged by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>>
+	//SERV.LOG f_combat_HitHelm <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and damages <REF2.NAME>'s <REF3.NAME> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+ELSE
+	REF1.SYSMESSAGE @55,,1 You destroyed <REF2.NAME>'s <REF3.NAME>
+	REF2.SYSMESSAGE @35,,1 Your <REF3.NAME> was destroyed by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>> hits
+	//SERV.LOG f_combat_HitHelm <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and destroyed <REF2.NAME>'s <REF3.NAME> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+	REF3.REMOVE
+	// Make some sound Effect (SFX)
+ENDIF
+		
+[FUNCTION f_combat_HitNeckLocation]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.HitLayer=0
+IF !<REF2.FINDLAYER.layer_collar.UID>
+	IF <R1,10> > 4
+		IF <REF2.FINDLAYER.layer_beard.UID>
+			f_combat_HitBeard <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+			LOCAL.HitLayer=layer_beard
+		ENDIF
+	ELSE
+		IF <REF2.FINDLAYER.layer_talisman.UID>
+			f_combat_HitTalisman <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+			LOCAL.HitLayer=layer_talisman
+		ENDIF
+	ENDIF
+ELSE
+	f_combat_HitCollar <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+	LOCAL.HitLayer=layer_collar
+ENDIF
+
+[FUNCTION f_combat_HitBeard]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+LOCAL.DamageIn=<ARGV[2]>
+REF1.SYSMESSAGE @274,,1 You wreck <REF2.NAME>'s beard
+REF2.SYSMESSAGE @274,,1 <REF1.NAME> wrecks your beard do
+
+[FUNCTION f_combat_HitTalisman]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+LOCAL.DamageIn=<ARGV[2]>
+REF1.SYSMESSAGE @274,,1 You hit <REF2.NAME>'s talisman ripping it from thier neck!
+REF2.SYSMESSAGE @274,,1 <REF1.NAME> hits your talisman ripping it from your necl!
+REF2.FINDLAYER.layer_talisman.DROP
+
+[FUNCTION f_combat_HitCollar]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+REF3=<SERV.UID.<REF2.FINDLAYER.layer_collar.UID>>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.TotalDamageForItem=<EVAL (<f_combat_HitItemDamageCalc <ARGV[0]>,<ARGV[1]>,<ARGV[2]>,<REF3.UID>>) / CombatHitLocation_Div >
+IF <REF3.HITS> > <EVAL <LOCAL.TotalDamageForItem>>
+	REF3.HITS=<EVAL <REF3.HITS> - <LOCAL.TotalDamageForItem>>
+	REF1.SYSMESSAGE @55,,1 You damaged <REF2.NAME>'s <REF3.NAME>
+	REF2.SYSMESSAGE @35,,1 Your <REF3.NAME> was damaged by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>>
+	//SERV.LOG f_combat_HitCollar <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and damages <REF2.NAME>'s <REF3.NAME> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+ELSE
+	REF1.SYSMESSAGE @55,,1 You destroyed <REF2.NAME>'s <REF3.NAME>
+	REF2.SYSMESSAGE @35,,1 Your <REF3.NAME> was destroyed by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>> hits
+	//SERV.LOG f_combat_HitCollar <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and destroyed <REF2.NAME>'s <REF3.NAME> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+	REF3.REMOVE
+	// Make some sound Effect (SFX)
+ENDIF
+
+[FUNCTION f_combat_HitChestLocation]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.HitLayer=0
+IF !<REF2.FINDLAYER.layer_chest.UID>
+	IF !<REF2.FINDLAYER.layer_robe.UID>
+		IF <R1,10> > 4
+			IF <REF2.FINDLAYER.layer_tunic.UID>
+				f_combat_HitTunic <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+				LOCAL.HitLayer=layer_tunic
+			ENDIF
+		ELSE
+			IF <REF2.FINDLAYER.layer_half_apron.UID>
+				f_combat_HitApron <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+				LOCAL.HitLayer=layer_half_apron
+			ENDIF
+		ENDIF
+	ELSE
+		f_combat_HitRobe <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+		LOCAL.HitLayer=layer_robe
+	ENDIF
+ELSE
+	f_combat_HitChest <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+	LOCAL.HitLayer=layer_chest
+ENDIF
+
+[FUNCTION f_combat_HitChest]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+REF3=<SERV.UID.<REF2.FINDLAYER.layer_chest.UID>>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.TotalDamageForItem=<EVAL (<f_combat_HitItemDamageCalc <ARGV[0]>,<ARGV[1]>,<ARGV[2]>,<REF3.UID>>) / CombatHitLocation_Div >
+IF <REF3.HITS> > <EVAL <LOCAL.TotalDamageForItem>>
+	REF3.HITS=<EVAL <REF3.HITS> - <LOCAL.TotalDamageForItem>>
+	REF1.SYSMESSAGE @55,,1 You damaged <REF2.NAME>'s <REF3.NAME>
+	REF2.SYSMESSAGE @35,,1 Your <REF3.NAME> was damaged by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>>
+	//SERV.LOG f_combat_HitChest <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and damages <REF2.NAME>'s <REF3.NAME> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+ELSE
+	REF1.SYSMESSAGE @55,,1 You destroyed <REF2.NAME>'s <REF3.NAME>
+	REF2.SYSMESSAGE @35,,1 Your <REF3.NAME> was destroyed by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>> hits
+	//SERV.LOG f_combat_HitChest <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and destroyed <REF2.NAME>'s <REF3.NAME> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+	REF3.REMOVE
+	// Make some sound Effect (SFX)
+ENDIF
+
+[FUNCTION f_combat_HitRobe]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+REF3=<SERV.UID.<REF2.FINDLAYER.layer_robe.UID>>
+LOCAL.ItemName=<REF3.NAME>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.TotalDamageForItem=<EVAL (<f_combat_HitItemDamageCalc <ARGV[0]>,<ARGV[1]>,<ARGV[2]>,<REF3.UID>>) / CombatHitLocation_Div >
+IF <REF3.HITS> > <EVAL <LOCAL.TotalDamageForItem>>
+	REF3.HITS=<EVAL <REF3.HITS> - <LOCAL.TotalDamageForItem>>
+	REF1.SYSMESSAGE @55,,1 You damaged <REF2.NAME>'s <LOCAL.ItemName>
+	REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName was damaged by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>>
+	//SERV.LOG f_combat_HitRobe <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and damages <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+ELSE
+	REF1.SYSMESSAGE @55,,1 You destroyed <REF2.NAME>'s <REF3.NAME>
+	REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was destroyed by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>> hits
+	//SERV.LOG f_combat_HitRobe <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and destroyed <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+	REF3.REMOVE
+	// Make some sound Effect (SFX)
+ENDIF
+
+[FUNCTION f_combat_HitTunic]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+REF3=<SERV.UID.<REF2.FINDLAYER.layer_tunic.UID>>
+LOCAL.ItemName=<REF3.NAME>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.TotalDamageForItem=<EVAL (<f_combat_HitItemDamageCalc <ARGV[0]>,<ARGV[1]>,<ARGV[2]>,<REF3.UID>>) / CombatHitLocation_Div >
+IF <REF3.HITS> > <EVAL <LOCAL.TotalDamageForItem>>
+	REF3.HITS=<EVAL <REF3.HITS> - <LOCAL.TotalDamageForItem>>
+	REF1.SYSMESSAGE @55,,1 You damaged <REF2.NAME>'s <LOCAL.ItemName>
+	REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was damaged by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>>
+	//SERV.LOG f_combat_HitTunic <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and damages <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+ELSE
+	REF1.SYSMESSAGE @55,,1 You destroyed <REF2.NAME>'s <LOCAL.ItemName>
+	REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was destroyed by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>> hits
+	//SERV.LOG f_combat_HitTunic <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and destroyed <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+	REF3.REMOVE
+	// Make some sound Effect (SFX)
+ENDIF
+
+[FUNCTION f_combat_HitApron]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+REF3=<SERV.UID.<REF2.FINDLAYER.layer_half_apron.UID>>
+LOCAL.ItemName=<REF3.NAME>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.TotalDamageForItem=<EVAL (<f_combat_HitItemDamageCalc <ARGV[0]>,<ARGV[1]>,<ARGV[2]>,<REF3.UID>>) / CombatHitLocation_Div >
+IF <REF3.HITS> > <EVAL <LOCAL.TotalDamageForItem>>
+	REF3.HITS=<EVAL <REF3.HITS> - <LOCAL.TotalDamageForItem>>
+	REF1.SYSMESSAGE @55,,1 You damaged <REF2.NAME>'s <LOCAL.ItemName>
+	REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was damaged by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>>
+	//SERV.LOG f_combat_HitApron <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and damages <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+ELSE
+	REF1.SYSMESSAGE @55,,1 You destroyed <REF2.NAME>'s <LOCAL.ItemName>
+	REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was destroyed by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>> hits
+	//SERV.LOG f_combat_HitApron <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and destroyed <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+	REF3.REMOVE
+	// Make some sound Effect (SFX)
+ENDIF
+
+[FUNCTION f_combat_HitLegsLocation]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.ItemName=<REF3.NAME>
+LOCAL.HitLayer=0
+IF !<REF2.FINDLAYER.layer_pants.UID>
+	IF !<REF2.FINDLAYER.layer_skirt.UID>
+		IF <REF2.FINDLAYER.layer_cape.UID>
+			f_combat_HitCape <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+			LOCAL.HitLayer=layer_cape
+		ENDIF
+	ELSE
+		f_combat_HitSkirt <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+		LOCAL.HitLayer=layer_skirt
+	ENDIF
+ELSE
+	f_combat_HitPants <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+	LOCAL.HitLayer=layer_pants
+ENDIF
+
+[FUNCTION f_combat_HitCape]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+REF3=<SERV.UID.<REF2.FINDLAYER.layer_cape.UID>>
+LOCAL.ItemName=<REF3.NAME>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.TotalDamageForItem=<EVAL (<f_combat_HitItemDamageCalc <ARGV[0]>,<ARGV[1]>,<ARGV[2]>,<REF3.UID>>) / CombatHitLocation_Div >
+IF <REF3.HITS> > <EVAL <LOCAL.TotalDamageForItem>>
+	REF3.HITS=<EVAL <REF3.HITS> - <LOCAL.TotalDamageForItem>>
+	REF1.SYSMESSAGE @55,,1 You damaged <REF2.NAME>'s <LOCAL.ItemName>
+	REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was damaged by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>>
+	//SERV.LOG f_combat_HitCape <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and damages <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+ELSE
+	REF1.SYSMESSAGE @55,,1 You destroyed <REF2.NAME>'s <LOCAL.ItemName>
+	REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was destroyed by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>> hits
+	//SERV.LOG f_combat_HitCape <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and destroyed <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+	REF3.REMOVE
+	// Make some sound Effect (SFX)
+ENDIF
+
+[FUNCTION f_combat_HitSkirt]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+REF3=<SERV.UID.<REF2.FINDLAYER.layer_skirt.UID>>
+LOCAL.ItemName=<REF3.NAME>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.TotalDamageForItem=<EVAL (<f_combat_HitItemDamageCalc <ARGV[0]>,<ARGV[1]>,<ARGV[2]>,<REF3.UID>>) / CombatHitLocation_Div >
+IF <REF3.HITS> > <EVAL <LOCAL.TotalDamageForItem>>
+	REF3.HITS=<EVAL <REF3.HITS> - <LOCAL.TotalDamageForItem>>
+	REF1.SYSMESSAGE @55,,1 You damaged <REF2.NAME>'s <LOCAL.ItemName>
+	REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was damaged by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>>
+	//SERV.LOG f_combat_HitSkirt <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and damages <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+ELSE
+	REF1.SYSMESSAGE @55,,1 You destroyed <REF2.NAME>'s <LOCAL.ItemName>
+	REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was destroyed by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>> hits
+	//SERV.LOG f_combat_HitSkirt <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and destroyed <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+	REF3.REMOVE
+	// Make some sound Effect (SFX)
+ENDIF
+
+[FUNCTION f_combat_HitPants]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+REF3=<SERV.UID.<REF2.FINDLAYER.layer_pants.UID>>
+LOCAL.ItemName=<REF3.NAME>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.TotalDamageForItem=<EVAL (<f_combat_HitItemDamageCalc <ARGV[0]>,<ARGV[1]>,<ARGV[2]>,<REF3.UID>>) / CombatHitLocation_Div >
+IF <REF3.HITS> > <EVAL <LOCAL.TotalDamageForItem>>
+	REF3.HITS=<EVAL <REF3.HITS> - <LOCAL.TotalDamageForItem>>
+	REF1.SYSMESSAGE @55,,1 You damaged <REF2.NAME>'s <LOCAL.ItemName>
+	REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was damaged by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>>
+	//SERV.LOG f_combat_HitPants <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and damages <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+ELSE
+	REF1.SYSMESSAGE @55,,1 You destroyed <REF2.NAME>'s <LOCAL.ItemName>
+	REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was destroyed by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>> hits
+	//SERV.LOG f_combat_HitPants <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and destroyed <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+	REF3.REMOVE
+	// Make some sound Effect (SFX)
+ENDIF
+
+[FUNCTION f_combat_HitArmsLocation]
+// Arms Area
+// If no layer_arms then layer_wrist
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.HitLayer=0
+IF !<REF2.FINDLAYER.layer_arms.UID>
+	IF <REF2.FINDLAYER.layer_wrist.UID>
+		f_combat_HitWrist <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+		LOCAL.HitLayer=layer_wrist
+	ENDIF
+ELSE
+	f_combat_HitArms <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+	LOCAL.HitLayer=layer_arms
+ENDIF
+
+[FUNCTION f_combat_HitWrist]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+LOCAL.DamageIn=<ARGV[2]>
+REF1.SYSMESSAGE @274 You hit <REF2.NAME>'s braclet knocking it off thier wrist!
+REF2.SYSMESSAGE @274 <REF1.NAME> hits your braclet knocking it off your wrist!
+REF2.FINDLAYER.layer_wrist.DROP
+
+[FUNCTION f_combat_HitArms]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+REF3=<SERV.UID.<REF2.FINDLAYER.layer_arms.UID>>
+LOCAL.ItemName=<REF3.NAME>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.TotalDamageForItem=<EVAL (<f_combat_HitItemDamageCalc <ARGV[0]>,<ARGV[1]>,<ARGV[2]>,<REF3.UID>>) / CombatHitLocation_Div >
+IF <REF3.HITS> > <EVAL <LOCAL.TotalDamageForItem>>
+	REF3.HITS=<EVAL <REF3.HITS> - <LOCAL.TotalDamageForItem>>
+	REF1.SYSMESSAGE @55,,1 You damaged <REF2.NAME>'s <LOCAL.ItemName>
+	REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was damaged by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>>
+	//SERV.LOG f_combat_HitArms <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and damages <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+ELSE
+	REF1.SYSMESSAGE @55,,1 You destroyed <REF2.NAME>'s <LOCAL.ItemName>
+	REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was destroyed by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>> hits
+	//SERV.LOG f_combat_HitArms <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and destroyed <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+	REF3.REMOVE
+	// Make some sound Effect (SFX)
+ENDIF
+
+[FUNCTION f_combat_HitHandsLocation]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.HitLayer=0
+IF !<REF2.FINDLAYER.layer_gloves.UID>
+	IF !<REF2.FINDLAYER.layer_hand2.UID>
+		f_combat_HitHand1 <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+		LOCAL.HitLayer=layer_hand1
+	ELSE
+		f_combat_HitHand2 <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+		LOCAL.HitLayer=layer_hand2
+	ENDIF
+ELSE
+	f_combat_HitGloves <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+	LOCAL.HitLayer=layer_gloves
+ENDIF
+
+[FUNCTION f_combat_HitGloves]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+REF3=<SERV.UID.<REF2.FINDLAYER.layer_gloves.UID>>
+LOCAL.ItemName=<REF3.NAME>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.TotalDamageForItem=<EVAL (<f_combat_HitItemDamageCalc <ARGV[0]>,<ARGV[1]>,<ARGV[2]>,<REF3.UID>>) / CombatHitLocation_Div >
+IF <REF3.HITS> > <EVAL <LOCAL.TotalDamageForItem>>
+	REF3.HITS=<EVAL <REF3.HITS> - <LOCAL.TotalDamageForItem>>
+	REF1.SYSMESSAGE @55,,1 You damaged <REF2.NAME>'s <LOCAL.ItemName>
+	REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was damaged by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>>
+	//SERV.LOG f_combat_HitGloves <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and damages <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+ELSE
+	REF1.SYSMESSAGE @55,,1 You destroyed <REF2.NAME>'s <LOCAL.ItemName>
+	REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was destroyed by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>> hits
+	//SERV.LOG f_combat_HitGloves <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and destroyed <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+	REF3.REMOVE
+	// Make some sound Effect (SFX)
+ENDIF
+
+[FUNCTION f_combat_HitHand1]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+REF3=<SERV.UID.<REF2.FINDLAYER.layer_hand1.UID>>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.ItemName=<REF3.NAME>
+LOCAL.DisArmChance=<R1,5000>
+IF <EVAL <LOCAL.DisArmChance>> < 3
+	REF1.SYSMESSAGE @274 You hit <REF2.NAME>'s <REF2.WEAPON.NAME> right out of thier hand
+	REF2.SYSMESSAGE @274 <REF1.NAME> hits your <REF2.WEAPON.NAME> right out of your hand
+	REF2.FINDLAYER.layer_hand1.DROP
+ELSE
+	IF <REF3.HITS> > <EVAL <LOCAL.TotalDamageForItem>>
+		REF3.HITS=<EVAL <REF3.HITS> - <LOCAL.TotalDamageForItem>>
+		IF <REF3.UID>
+			REF1.SYSMESSAGE @55,,1 You damaged <REF2.NAME>'s <LOCAL.ItemName>
+			REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was damaged by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>>
+			//SERV.LOG f_combat_HitHand1 <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and damages <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+		ELSE
+			REF1.SYSMESSAGE @55,,1 You destroyed <REF2.NAME>'s <LOCAL.ItemName>
+			REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was destroyed by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>> hits
+			//SERV.LOG f_combat_HitHand1 <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and destroyed <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+		ENDIF
+		// Make some sound Effect (SFX)
+	ENDIF
+ENDIF
+
+[FUNCTION f_combat_HitHand2]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+REF3=<SERV.UID.<REF2.FINDLAYER.layer_hand2.UID>>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.ItemName=<REF3.NAME>
+LOCAL.DisArmChance=<R1,5000>
+IF <EVAL <LOCAL.DisArmChance>> < 3
+	REF1.SYSMESSAGE @274 You hit <REF2.NAME>'s <REF3.NAME> right out of thier hand
+	REF2.SYSMESSAGE @274 <REF1.NAME> hits your <REF3.NAME> right out of your hand
+	REF2.FINDLAYER.layer_hand2.DROP
+ELSE
+	IF <REF3.HITS> > <EVAL <LOCAL.TotalDamageForItem>>
+		REF3.HITS=<EVAL <REF3.HITS> - <LOCAL.TotalDamageForItem>>
+		REF1.SYSMESSAGE @55,,1 You damaged <REF2.NAME>'s <LOCAL.ItemName>
+		REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was damaged by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>>
+		//SERV.LOG f_combat_HitHand2 <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and damages <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+	ELSE
+		REF1.SYSMESSAGE @55,,1 You destroyed <REF2.NAME>'s <LOCAL.ItemName>
+		REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was destroyed by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>> hits
+		//SERV.LOG f_combat_HitHand2 <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and destroyed <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+		REF3.REMOVE
+		// Make some sound Effect (SFX)
+	ENDIF
+ENDIF
+
+[FUNCTION f_combat_HitFeetLocation]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.HitLayer=0
+IF !<REF2.FINDLAYER.layer_shoes.UID>
+	f_combat_HitShoes <ARGV[0]>,<ARGV[1]>,<ARGV[2]>
+	LOCAL.HitLayer=layer_shoes
+ENDIF
+
+[FUNCTION f_combat_HitShoes]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+REF3=<SERV.UID.<REF2.FINDLAYER.layer_shoes.UID>>
+LOCAL.ItemName=<REF3.NAME>
+LOCAL.DamageIn=<ARGV[2]>
+LOCAL.TotalDamageForItem=<EVAL (<f_combat_HitItemDamageCalc <ARGV[0]>,<ARGV[1]>,<ARGV[2]>,<REF3.UID>>) / CombatHitLocation_Div >
+IF <REF3.HITS> > <EVAL <LOCAL.TotalDamageForItem>>
+	REF3.HITS=<EVAL <REF3.HITS> - <LOCAL.TotalDamageForItem>>
+	IF <REF3.UID>
+		REF1.SYSMESSAGE @55,,1 You damaged <REF2.NAME>'s <LOCAL.ItemName>
+		REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was damaged by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>>
+		//SERV.LOG f_combat_HitShoes <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and damages <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+	ELSE
+		REF1.SYSMESSAGE @55,,1 You destroyed <REF2.NAME>'s <LOCAL.ItemName>
+		REF2.SYSMESSAGE @35,,1 Your <LOCAL.ItemName> was destroyed by <REF1.NAME> for <EVAL <LOCAL.TotalDamageForItem>> hits
+		//SERV.LOG f_combat_HitShoes <REF1.NAME> Attacks <REF2.NAME> with a <REF1.WEAPON.NAME> and destroyed <REF2.NAME>'s <LOCAL.ItemName> for <EVAL <LOCAL.TotalDamageForItem>> Hits
+	ENDIF
+ENDIF
+
+[FUNCTION f_combat_HitItemDamageCalc]
+//f_combat_HitItemDamageCalc <attacker>,<defender>,<DamageIn>,<ItemsUID>
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+REF3=<SERV.UID.<ARGV[3]>>
+REF4=<SERV.UID.<REF1.WEAPON.UID>>
+LOCAL.DamageIn=<ARGV[2]>
+IF <REF4.IsWeapon>
+	LOCAL.AttackingPlayerSkill=<EVAL <REF1.TACTICS> + <REF1.<SERV.SKILL.<REF4.SKILL>.KEY>> + <REF4.TAG0.MageWeapon> + <REF4.TAG0.Slayer>>
+ELSE
+	LOCAL.AttackingPlayerSkill=<EVAL <REF1.TACTICS> + <REF1.WRESTLING>>
+ENDIF
+LOCAL.DefendingPlayerSkill=<EVAL <REF2.TACTICS> + <REF2.PARRYING> + <REF3.TAG0.MageArmor> + <REF3.TAG0.ReflectPhysicalDamage>>
+IF <EVAL <LOCAL.AttackingPlayerSkill>> > <EVAL <LOCAL.DefendingPlayerSkill>>
+	LOCAL.SpinDamageDivider=<R1000,2000>
+ELSE
+	LOCAL.SpinDamageDivider=<R2000,3000>
+ENDIF
+LOCAL.SpinTotalIncomingDamage=<EVAL <LOCAL.DamageIn>*1000>
+LOCAL.SpinTotalIncomingDamage=<EVAL (<LOCAL.SpinTotalIncomingDamage> - ((<LOCAL.SpinTotalIncomingDamage> / 100)* <REF3.ARMOR>))>
+LOCAL.TotalDamageReturn=<EVAL (<LOCAL.SpinTotalIncomingDamage> / <LOCAL.SpinDamageDivider>) >
+IF (STRMATCH(*macefighting*,<SERV.SKILL.<REF4.SKILL>.KEY>))
+	LOCAL.TotalDamageReturn = <EVAL <LOCAL.TotalDamageReturn> + 4 >
+ELIF (STRMATCH(*swordsmanship*,<SERV.SKILL.<REF4.SKILL>.KEY>))
+	LOCAL.TotalDamageReturn = <EVAL <LOCAL.TotalDamageReturn> + 3 >
+ELIF (STRMATCH(*archery*,<SERV.SKILL.<REF4.SKILL>.KEY>))
+	LOCAL.TotalDamageReturn = <EVAL <LOCAL.TotalDamageReturn> + 2 >
+ELIF (STRMATCH(*fencing*,<SERV.SKILL.<REF4.SKILL>.KEY>))
+	LOCAL.TotalDamageReturn = <EVAL <LOCAL.TotalDamageReturn> + 1 >
+ELSE
+	// Must be wrestling
+ENDIF
+RETURN <EVAL <LOCAL.TotalDamageReturn>>
+
+[EOF]

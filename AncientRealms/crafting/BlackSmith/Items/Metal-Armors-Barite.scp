@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Barite Platemail Arms
+[ITEMDEF i_platemail_arms_Barite]
+   DEFNAME= i_platemail_arms_Barite
+   ID= i_platemail_arms
+   NAME= Barite Platemail Arms
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Platemail Leggings
+[ITEMDEF i_platemail_leggings_Barite]
+   DEFNAME= i_platemail_leggings_Barite
+   ID= i_platemail_leggings
+   NAME= Barite Platemail Leggings
+   ARMOR= 26
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Platemail Helmet
+[ITEMDEF i_platemail_helm_Barite]
+   DEFNAME= i_platemail_helm_Barite
+   ID= i_platemail_helm
+   NAME= Barite Platemail Helmet
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Platemail Gorget
+[ITEMDEF i_platemail_gorget_Barite]
+   DEFNAME= i_platemail_gorget_Barite
+   ID= i_platemail_gorget
+   NAME= Barite Platemail Gorget
+   ARMOR= 16
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Barite]
+   DEFNAME= i_platemail_gorget2_Barite
+   ID= i_platemail_gorget2
+   NAME= Barite Platemail Gorget
+   ARMOR= 16
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Platemail Gloves
+[ITEMDEF i_platemail_gloves_Barite]
+   DEFNAME= i_platemail_gloves_Barite
+   ID= i_platemail_gloves
+   NAME= Barite Platemail Gloves
+   ARMOR= 16
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Platemail Chest
+[ITEMDEF i_platemail_chest_Barite]
+   DEFNAME= i_platemail_chest_Barite
+   ID= i_platemail_chest
+   NAME= Barite Platemail Chest
+   ARMOR= 30
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Barite]
+   DEFNAME= i_armor_female_plate_Barite
+   ID= i_armor_female_plate
+   NAME= Barite Platemail Female Plate
+   ARMOR= 28
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite chainmail coif
+[ITEMDEF i_chainmail_coif_Barite]
+   DEFNAME= i_chainmail_coif_Barite
+   ID= i_chainmail_coif
+   NAME= Barite chainmail coif
+   ARMOR= 22
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {58 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite chainmail leggings
+[ITEMDEF i_chainmail_leggings_Barite]
+   DEFNAME= i_chainmail_leggings_Barite
+   ID= i_chainmail_leggings
+   NAME= Barite chainmail leggings
+   ARMOR= 24
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {58 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite chainmail tunic
+[ITEMDEF i_chainmail_tunic_Barite]
+   DEFNAME= i_chainmail_tunic_Barite
+   ID= i_chainmail_tunic
+   NAME= Barite chainmail tunic
+   ARMOR= 28
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {58 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Barite]
+   DEFNAME= i_ringmail_sleeves_Barite
+   ID= i_ringmail_sleeves
+   NAME= Barite Ringmail Sleeves
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {48 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Barite]
+   DEFNAME= i_ringmail_leggings_Barite
+   ID= i_ringmail_leggings
+   NAME= Barite Ringmail Leggings
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {48 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Barite]
+   DEFNAME= i_ringmail_tunic_Barite
+   ID= i_ringmail_tunic
+   NAME= Barite Ringmail Tunic
+   ARMOR= 24
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {48 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Barite]
+   DEFNAME= i_ringmail_gloves_Barite
+   ID= i_ringmail_gloves
+   NAME= Barite Ringmail Gloves
+   ARMOR= 10
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {48 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite studded sleeves
+[ITEMDEF i_studded_sleeves_Barite]
+   DEFNAME= i_studded_sleeves_Barite
+   ID= i_studded_sleeves
+   NAME= Barite studded sleeves
+   ARMOR= 13
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Barite, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite studded gloves
+[ITEMDEF i_studded_gloves_Barite]
+   DEFNAME= i_studded_gloves_Barite
+   ID= i_studded_gloves
+   NAME= Barite studded gloves
+   ARMOR= 10
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Barite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite studded gorget
+[ITEMDEF i_studded_gorget_Barite]
+   DEFNAME= i_studded_gorget_Barite
+   ID= i_studded_gorget
+   NAME= Barite studded gorget
+   ARMOR= 10
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Barite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite studded leggings
+[ITEMDEF i_studded_leggings_Barite]
+   DEFNAME= i_studded_leggings_Barite
+   ID= i_studded_leggings
+   NAME= Barite studded leggings
+   ARMOR= 19
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Barite, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite studded tunic
+[ITEMDEF i_studded_tunic_Barite]
+   DEFNAME= i_studded_tunic_Barite
+   ID= i_studded_tunic
+   NAME= Barite studded tunic
+   ARMOR= 23
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Barite, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite studded female armor
+[ITEMDEF i_armor_female_studded_Barite]
+   DEFNAME= i_armor_female_studded_Barite
+   ID= i_armor_female_studded
+   NAME= Barite studded female armor
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Barite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Barite]
+   DEFNAME= i_armor_female_bustier_studded_Barite
+   ID= i_armor_female_bustier_studded
+   NAME= Barite studded female bustier
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Barite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite platemail mempo
+[ITEMDEF i_platemail_mempo_Barite]
+   DEFNAME= i_platemail_mempo_Barite
+   ID= i_platemail_mempo
+   NAME= Barite platemail mempo
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite platemail do
+[ITEMDEF i_platemail_do_Barite]
+   DEFNAME= i_platemail_do_Barite
+   ID= i_platemail_do
+   NAME= Barite platemail do
+   ARMOR= 28
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Barite]
+   DEFNAME= i_platemail_hiro_sode_Barite
+   ID= i_platemail_hiro_sode
+   NAME= Barite platemail hiro sode
+   ARMOR= 24
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite platemail suneate
+[ITEMDEF i_platemail_suneate_Barite]
+   DEFNAME= i_platemail_suneate_Barite
+   ID= i_platemail_suneate
+   NAME= Barite platemail suneate
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite platemail haidate
+[ITEMDEF i_platemail_haidate_Barite]
+   DEFNAME= i_platemail_haidate_Barite
+   ID= i_platemail_haidate
+   NAME= Barite platemail haidate
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite studded mempo
+[ITEMDEF i_studded_mempo_Barite]
+   DEFNAME= i_studded_mempo_Barite
+   ID= i_studded_mempo
+   NAME= Barite studded mempo
+   ARMOR= 15
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Barite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite studded do
+[ITEMDEF i_studded_do_Barite]
+   DEFNAME= i_studded_do_Barite
+   ID= i_studded_do
+   NAME= Barite studded do
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Barite, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Barite]
+   DEFNAME= i_studded_hiro_sode_Barite
+   ID= i_studded_hiro_sode
+   NAME= Barite studded hiro sode
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Barite, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite studded suneate
+[ITEMDEF i_studded_suneate_Barite]
+   DEFNAME= i_studded_suneate_Barite
+   ID= i_studded_suneate
+   NAME= Barite studded suneate
+   ARMOR= 17
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Barite, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite studded haidate
+[ITEMDEF i_studded_haidate_Barite]
+   DEFNAME= i_studded_haidate_Barite
+   ID= i_studded_haidate
+   NAME= Barite studded haidate
+   ARMOR= 15
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Barite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Barite]
+   DEFNAME= i_platemail_gargish_arms_Barite
+   ID= i_platemail_gargish_arms
+   NAME= Barite Gargish Platemail Arms
+   ARMOR= 24
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Barite]
+   DEFNAME= i_platemail_gargish_chest_Barite
+   ID= i_platemail_gargish_chest
+   NAME= Barite Gargish Platemail Chest
+   ARMOR= 32
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Barite]
+   DEFNAME= i_platemail_gargish_kilt_Barite
+   ID= i_platemail_gargish_kilt
+   NAME= Barite Gargish Platemail Kilt
+   ARMOR= 23
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Barite]
+   DEFNAME= i_platemail_gargish_leggings_Barite
+   ID= i_platemail_gargish_leggings
+   NAME= Barite Gargish Platemail Leggings
+   ARMOR= 28
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Barite]
+   DEFNAME= i_platemail_gargish_arms_2_Barite
+   ID= i_platemail_gargish_arms_2
+   NAME= Barite Gargish Platemail Arms
+   ARMOR= 24
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Barite]
+   DEFNAME= i_platemail_gargish_chest_2_Barite
+   ID= i_platemail_gargish_chest_2
+   NAME= Barite Gargish Platemail Chest
+   ARMOR= 32
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Barite]
+   DEFNAME= i_platemail_gargish_kilt_2_Barite
+   ID= i_platemail_gargish_kilt_2
+   NAME= Barite Gargish Platemail Kilt
+   ARMOR= 23
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Barite]
+   DEFNAME= i_platemail_gargish_leggings_2_Barite
+   ID= i_platemail_gargish_leggings_2
+   NAME= Barite Gargish Platemail Leggings
+   ARMOR= 28
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Closed Helmet
+[ITEMDEF i_helm_close_Barite]
+   DEFNAME= i_helm_close_Barite
+   ID= i_helm_close
+   NAME= Barite Closed Helmet
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Open Helmet
+[ITEMDEF i_helm_open_Barite]
+   DEFNAME= i_helm_open_Barite
+   ID= i_helm_open
+   NAME= Barite Open Helmet
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {48 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Bascinet
+[ITEMDEF i_bascinet_Barite]
+   DEFNAME= i_bascinet_Barite
+   ID= i_bascinet
+   NAME= Barite Bascinet
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Norse Helmet
+[ITEMDEF i_helm_norse_Barite]
+   DEFNAME= i_helm_norse_Barite
+   ID= i_helm_norse
+   NAME= Barite Norse Helmet
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {58 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Kabuto
+[ITEMDEF i_helm_kabuto_Barite]
+   DEFNAME= i_helm_kabuto_Barite
+   ID= i_helm_kabuto
+   NAME= Barite Kabuto
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Barite]
+   DEFNAME= i_chainmail_hatsuburi_Barite
+   ID= i_chainmail_hatsuburi
+   NAME= Barite Chainmail Hatsuburi
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Barite]
+   DEFNAME= i_platemail_hatsuburi_Barite
+   ID= i_platemail_hatsuburi
+   NAME= Barite Platemail Hatsuburi
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Barite]
+   DEFNAME= i_plate_jingasa_heavy_Barite
+   ID= i_plate_jingasa_heavy
+   NAME= Barite Heavy Jingasa
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Barite]
+   DEFNAME= i_platemail_kabuto_decorative_Barite
+   ID= i_platemail_kabuto_decorative
+   NAME= Barite Decorative Platemail Kabuto
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {98 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Barite]
+   DEFNAME= i_plate_jingasa_light_Barite
+   ID= i_plate_jingasa_light
+   NAME= Barite Light Jingasa
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Barite]
+   DEFNAME= i_plate_jingasa_small_Barite
+   ID= i_plate_jingasa_small
+   NAME= Barite Small Jingasa
+   ARMOR= 16
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {58 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Barite]
+   DEFNAME= i_platemail_kabuto_battle_Barite
+   ID= i_platemail_kabuto_battle
+   NAME= Barite Platemail Battle Kabuto
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Barite]
+   DEFNAME= i_platemail_kabuto_Barite
+   ID= i_platemail_kabuto
+   NAME= Barite Platemail Kabuto
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Circlet
+[ITEMDEF i_circlet_Barite]
+   DEFNAME= i_circlet_Barite
+   ID= i_circlet
+   NAME= Barite Circlet
+   ARMOR= 14
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Royal Circlet
+[ITEMDEF i_circlet_royal_Barite]
+   DEFNAME= i_circlet_royal_Barite
+   ID= i_circlet_royal
+   NAME= Barite Royal Circlet
+   ARMOR= 14
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Barite]
+   DEFNAME= i_circlet_gemmed_Barite
+   ID= i_circlet_gemmed
+   NAME= Barite Gemmed Circlet
+   ARMOR= 14
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {108 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Buckler
+[ITEMDEF i_shield_buckler_Barite]
+   DEFNAME= i_shield_buckler_Barite
+   ID= i_shield_buckler
+   NAME= Barite Buckler
+   ARMOR= 13
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Wooden Shield
+[ITEMDEF i_shield_wood_Barite]
+   DEFNAME= i_shield_wood_Barite
+   ID= i_shield_wood
+   NAME= Barite Wooden Shield
+   ARMOR= 14
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {48 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Barite]
+   DEFNAME= i_shield_round_metal_Barite
+   ID= i_shield_round_metal
+   NAME= Barite Light Metal  Round Shield
+   ARMOR= 15
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {58 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Barite]
+   DEFNAME= i_shield_round_bronze_Barite
+   ID= i_shield_round_bronze
+   NAME= Barite Heavy Metal  Round Shield
+   ARMOR= 17
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Barite]
+   DEFNAME= i_shield_kite_metal_Barite
+   ID= i_shield_kite_metal
+   NAME= Barite Metal Kite Shield
+   ARMOR= 19
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Barite]
+   DEFNAME= i_shield_kite_wood_Barite
+   ID= i_shield_kite_wood
+   NAME= Barite Wooden Kite Shield
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Heater Shield
+[ITEMDEF i_shield_heater_Barite]
+   DEFNAME= i_shield_heater_Barite
+   ID= i_shield_heater
+   NAME= Barite Heater Shield
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {98 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Ancient Shield
+[ITEMDEF i_shield_dupre_Barite]
+   DEFNAME= i_shield_dupre_Barite
+   ID= i_shield_dupre
+   NAME= Barite Ancient Shield
+   ARMOR= 22
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {108 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Shield oh Hell
+[ITEMDEF i_shield_scale_Barite]
+   DEFNAME= i_shield_scale_Barite
+   ID= i_shield_scale
+   NAME= Barite Shield oh Hell
+   ARMOR= 22
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {108 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Chaos Shield
+[ITEMDEF i_shield_chaos_Barite]
+   DEFNAME= i_shield_chaos_Barite
+   ID= i_shield_chaos
+   NAME= Barite Chaos Shield
+   ARMOR= 23
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {118 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Order Shield
+[ITEMDEF i_shield_order_Barite]
+   DEFNAME= i_shield_order_Barite
+   ID= i_shield_order
+   NAME= Barite Order Shield
+   ARMOR= 23
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Barite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Barite
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS= {118 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

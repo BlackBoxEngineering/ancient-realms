@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Verite Quarter Staff
+
+[ITEMDEF i_staff_quarter_Verite]
+   DEFNAME=i_staff_quarter_Verite
+   ID=i_staff_quarter
+   NAME=Verite Quarter Staff
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=23
+   VALUE=94
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={20 34}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Verite]
+   DEFNAME=i_serpentstone_staff_Verite
+   ID=i_serpentstone_staff
+   NAME=Verite Serpentstone Staff
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=27
+   VALUE=94
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={60 74}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Verite]
+   DEFNAME=i_staff_bladed_double_Verite
+   ID=i_staff_bladed_double
+   NAME=Verite Double Bladed Staff
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=35
+   VALUE=94
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={120 134}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Glass Staff
+
+[ITEMDEF i_glass_staff_Verite]
+   DEFNAME=i_glass_staff_Verite
+   ID=i_glass_staff
+   NAME=Verite Glass Staff
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=32
+   VALUE=94
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={90 104}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Bladed Staff
+
+[ITEMDEF i_bladed_staff_Verite]
+   DEFNAME=i_bladed_staff_Verite
+   ID=i_bladed_staff
+   NAME=Verite Bladed Staff
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=33
+   VALUE=94
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={115 129}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Tongs
+
+[ITEMDEF i_tongs_Verite]
+   DEFNAME=i_tongs_Verite
+   ID=i_tongs
+   NAME=Verite Tongs
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=10
+   VALUE=94
+   SPEED=12
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={0 14}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Mace
+
+[ITEMDEF i_mace_Verite]
+   DEFNAME=i_mace_Verite
+   ID=i_mace
+   NAME=Verite Mace
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=23
+   VALUE=94
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Maul
+
+[ITEMDEF i_maul_Verite]
+   DEFNAME=i_maul_Verite
+   ID=i_maul
+   NAME=Verite Maul
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=25
+   VALUE=94
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={40 54}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Scepter
+
+[ITEMDEF i_scepter_Verite]
+   DEFNAME=i_scepter_Verite
+   ID=i_scepter
+   NAME=Verite Scepter
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=27
+   VALUE=94
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={50 64}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Verite]
+   DEFNAME=i_hammer_sledge_Verite
+   ID=i_hammer_sledge
+   NAME=Verite Sledge Hammer
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=27
+   VALUE=94
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={20 34}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Verite]
+   DEFNAME=i_hammer_smith_Verite
+   ID=i_hammer_smith
+   NAME=Verite Smiths Hammer
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=13
+   VALUE=94
+   SPEED=12
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite War Mace
+
+[ITEMDEF i_mace_war_Verite]
+   DEFNAME=i_mace_war_Verite
+   ID=i_mace_war
+   NAME=Verite War Mace
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=31
+   VALUE=94
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={80 94}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Disc Mace
+
+[ITEMDEF i_disc_mace_Verite]
+   DEFNAME=i_disc_mace_Verite
+   ID=i_disc_mace
+   NAME=Verite Disc Mace
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=31
+   VALUE=94
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={70 84}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite War Hammer
+
+[ITEMDEF i_hammer_war_Verite]
+   DEFNAME=i_hammer_war_Verite
+   ID=i_hammer_war
+   NAME=Verite War Hammer
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=37
+   VALUE=94
+   SPEED=52
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={100 114}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Hammer Pick
+
+[ITEMDEF i_hammer_pick_Verite]
+   DEFNAME=i_hammer_pick_Verite
+   ID=i_hammer_pick
+   NAME=Verite Hammer Pick
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=33
+   VALUE=94
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={55 69}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite War Axe
+
+[ITEMDEF i_axe_war_Verite]
+   DEFNAME=i_axe_war_Verite
+   ID=i_axe_war
+   NAME=Verite War Axe
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=23
+   VALUE=94
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={65 79}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Tessen
+
+[ITEMDEF i_tessen_Verite]
+   DEFNAME=i_tessen_Verite
+   ID=i_tessen
+   NAME=Verite Tessen
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=22
+   VALUE=94
+   SPEED=37
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={75 89}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Long Sword
+
+[ITEMDEF i_sword_long_Verite]
+   DEFNAME=i_sword_long_Verite
+   ID=i_sword_long
+   NAME=Verite Long Sword
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=94
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={10 24}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Broad Sword
+
+[ITEMDEF i_sword_broad_Verite]
+   DEFNAME=i_sword_broad_Verite
+   ID=i_sword_broad
+   NAME=Verite Broad Sword
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=94
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={20 34}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Scimitar
+
+[ITEMDEF i_scimitar_Verite]
+   DEFNAME=i_scimitar_Verite
+   ID=i_scimitar
+   NAME=Verite Scimitar
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=94
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Viking Sword
+
+[ITEMDEF i_sword_viking_Verite]
+   DEFNAME=i_sword_viking_Verite
+   ID=i_sword_viking
+   NAME=Verite Viking Sword
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=94
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={35 49}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Katana
+
+[ITEMDEF i_katana_Verite]
+   DEFNAME=i_katana_Verite
+   ID=i_katana
+   NAME=Verite Katana
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=94
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={80 94}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Wakizashi
+
+[ITEMDEF i_wakizashi_Verite]
+   DEFNAME=i_wakizashi_Verite
+   ID=i_wakizashi
+   NAME=Verite Wakizashi
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=94
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={45 59}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Long Sword
+
+[ITEMDEF i_sword_long_b_Verite]
+   DEFNAME=i_sword_long_b_Verite
+   ID=i_sword_long_b
+   NAME=Verite Long Sword
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=94
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={50 64}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Paladin Sword
+
+[ITEMDEF i_sword_paladin_Verite]
+   DEFNAME=i_sword_paladin_Verite
+   ID=i_sword_paladin
+   NAME=Verite Paladin Sword
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=94
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={65 79}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Bokuto
+
+[ITEMDEF i_bokuto_Verite]
+   DEFNAME=i_bokuto_Verite
+   ID=i_bokuto
+   NAME=Verite Bokuto
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=94
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={70 84}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Verite]
+   DEFNAME=i_Radiant_Scimitar_Verite
+   ID=i_Radiant_Scimitar
+   NAME=Verite Radiant Scimitar
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=94
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={75 89}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Bone Harvester
+
+[ITEMDEF i_bone_harvester_Verite]
+   DEFNAME=i_bone_harvester_Verite
+   ID=i_bone_harvester
+   NAME=Verite Bone Harvester
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=94
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={55 69}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Butcher Knife
+
+[ITEMDEF i_knife_butcher_Verite]
+   DEFNAME=i_knife_butcher_Verite
+   ID=i_knife_butcher
+   NAME=Verite Butcher Knife
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=94
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Verite]
+   DEFNAME=i_cleaver_meat_Verite
+   ID=i_cleaver_meat
+   NAME=Verite Meat Cleaver
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=94
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Elven Machete
+
+[ITEMDEF i_elven_machete_Verite]
+   DEFNAME=i_elven_machete_Verite
+   ID=i_elven_machete
+   NAME=Verite Elven Machete
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=94
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={60 74}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Bone Machete
+
+[ITEMDEF i_bone_machete_Verite]
+   DEFNAME=i_bone_machete_Verite
+   ID=i_bone_machete
+   NAME=Verite Bone Machete
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=94
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={50 64}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Daisho
+
+[ITEMDEF i_daisho_Verite]
+   DEFNAME=i_daisho_Verite
+   ID=i_daisho
+   NAME=Verite Daisho
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=94
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={65 79}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite No-Dachi
+
+[ITEMDEF i_no_dachi_Verite]
+   DEFNAME=i_no_dachi_Verite
+   ID=i_no_dachi
+   NAME=Verite No-Dachi
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=29
+   VALUE=94
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={75 89}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Rune Blade
+
+[ITEMDEF i_Rune_Blade_Verite]
+   DEFNAME=i_Rune_Blade_Verite
+   ID=i_Rune_Blade
+   NAME=Verite Rune Blade
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=31
+   VALUE=94
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={115 129}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Axe
+
+[ITEMDEF i_axe_Verite]
+   DEFNAME=i_axe_Verite
+   ID=i_axe
+   NAME=Verite Axe
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=21
+   VALUE=94
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={42 56}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Bardiche
+
+[ITEMDEF i_bardiche_Verite]
+   DEFNAME=i_bardiche_Verite
+   ID=i_bardiche
+   NAME=Verite Bardiche
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=94
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={58 72}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Battle Axe
+
+[ITEMDEF i_axe_battle_Verite]
+   DEFNAME=i_axe_battle_Verite
+   ID=i_axe_battle
+   NAME=Verite Battle Axe
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=94
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={65 79}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Double Axe
+
+[ITEMDEF i_axe_double_Verite]
+   DEFNAME=i_axe_double_Verite
+   ID=i_axe_double
+   NAME=Verite Double Axe
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=94
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={70 84}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Verite]
+   DEFNAME=i_axe_exec_Verite
+   ID=i_axe_exec
+   NAME=Verite Exectutioners Axe
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=94
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={73 87}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Halberd
+
+[ITEMDEF i_halberd_Verite]
+   DEFNAME=i_halberd_Verite
+   ID=i_halberd
+   NAME=Verite Halberd
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=94
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={75 89}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Hatchet
+
+[ITEMDEF i_hatchet_Verite]
+   DEFNAME=i_hatchet_Verite
+   ID=i_hatchet
+   NAME=Verite Hatchet
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=22
+   VALUE=94
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={40 54}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Verite]
+   DEFNAME=i_axe_battle_large_Verite
+   ID=i_axe_battle_large
+   NAME=Verite Large Battle Axe
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=94
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={100 114}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Ornate Axe
+
+[ITEMDEF i_ornate_axe_Verite]
+   DEFNAME=i_ornate_axe_Verite
+   ID=i_ornate_axe
+   NAME=Verite Ornate Axe
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=94
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={60 74}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Verite]
+   DEFNAME=i_axe_two_hand_Verite
+   ID=i_axe_two_hand
+   NAME=Verite Two Handed Axe
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=94
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={55 69}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Dual Axes
+
+[ITEMDEF i_dual_short_axes_Verite]
+   DEFNAME=i_dual_short_axes_Verite
+   ID=i_dual_short_axes
+   NAME=Verite Dual Axes
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=94
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={95 109}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Cresent Blade
+
+[ITEMDEF i_crescent_blade_Verite]
+   DEFNAME=i_crescent_blade_Verite
+   ID=i_crescent_blade
+   NAME=Verite Cresent Blade
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=94
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={110 124}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Dagger
+
+[ITEMDEF i_dagger_Verite]
+   DEFNAME=i_dagger_Verite
+   ID=i_dagger
+   NAME=Verite Dagger
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=13
+   VALUE=94
+   SPEED=25
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={10 24}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Skinning Knife
+
+[ITEMDEF i_knife_skinning_Verite]
+   DEFNAME=i_knife_skinning_Verite
+   ID=i_knife_skinning
+   NAME=Verite Skinning Knife
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=13
+   VALUE=94
+   SPEED=25
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={15 29}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Verite]
+   DEFNAME=i_sword_Assassin_Spike_Verite
+   ID=i_sword_Assassin_Spike
+   NAME=Verite Assassin Spike
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=94
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Cutlass
+
+[ITEMDEF i_cutlass_Verite]
+   DEFNAME=i_cutlass_Verite
+   ID=i_cutlass
+   NAME=Verite Cutlass
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=94
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={25 39}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Short Blade
+
+[ITEMDEF i_shortblade_Verite]
+   DEFNAME=i_shortblade_Verite
+   ID=i_shortblade
+   NAME=Verite Short Blade
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=94
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={35 49}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Scythe
+
+[ITEMDEF i_scythe_Verite]
+   DEFNAME=i_scythe_Verite
+   ID=i_scythe
+   NAME=Verite Scythe
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=30
+   VALUE=94
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={115 129}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Short Spear
+
+[ITEMDEF i_spear_short_Verite]
+   DEFNAME=i_spear_short_Verite
+   ID=i_spear_short
+   NAME=Verite Short Spear
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=94
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={45 59}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite War Fork
+
+[ITEMDEF i_war_fork_Verite]
+   DEFNAME=i_war_fork_Verite
+   ID=i_war_fork
+   NAME=Verite War Fork
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=94
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={50 64}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Leafblade
+
+[ITEMDEF i_sword_leafblade_Verite]
+   DEFNAME=i_sword_leafblade_Verite
+   ID=i_sword_leafblade
+   NAME=Verite Leafblade
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=94
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={60 74}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Verite]
+   DEFNAME=i_elven_spellblade_Verite
+   ID=i_elven_spellblade
+   NAME=Verite Elven Spell Blade
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=94
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={75 89}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Pitchfork
+
+[ITEMDEF i_pitchfork_Verite]
+   DEFNAME=i_pitchfork_Verite
+   ID=i_pitchfork
+   NAME=Verite Pitchfork
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=94
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={55 69}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite War Cleaver
+
+[ITEMDEF i_war_cleaver_Verite]
+   DEFNAME=i_war_cleaver_Verite
+   ID=i_war_cleaver
+   NAME=Verite War Cleaver
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=94
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={65 79}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Pike
+
+[ITEMDEF i_pike_Verite]
+   DEFNAME=i_pike_Verite
+   ID=i_pike
+   NAME=Verite Pike
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=94
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={70 84}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Blood Blade
+
+[ITEMDEF i_bloodblade_Verite]
+   DEFNAME=i_bloodblade_Verite
+   ID=i_bloodblade
+   NAME=Verite Blood Blade
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=94
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={75 89}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Kama
+
+[ITEMDEF i_kama_Verite]
+   DEFNAME=i_kama_Verite
+   ID=i_kama
+   NAME=Verite Kama
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=94
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={77 91}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Kryss
+
+[ITEMDEF i_kryss_Verite]
+   DEFNAME=i_kryss_Verite
+   ID=i_kryss
+   NAME=Verite Kryss
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=94
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={80 94}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Lajatang
+
+[ITEMDEF i_lajatang_Verite]
+   DEFNAME=i_lajatang_Verite
+   ID=i_lajatang
+   NAME=Verite Lajatang
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=94
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={85 99}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Sai
+
+[ITEMDEF i_sai_Verite]
+   DEFNAME=i_sai_Verite
+   ID=i_sai
+   NAME=Verite Sai
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=94
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={76 90}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Tekagi
+
+[ITEMDEF i_tekagi_Verite]
+   DEFNAME=i_tekagi_Verite
+   ID=i_tekagi
+   NAME=Verite Tekagi
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=94
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={90 104}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Verite]
+   DEFNAME=i_dual_pointed_spear_Verite
+   ID=i_dual_pointed_spear
+   NAME=Verite Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Verite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=29
+   VALUE=94
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Verite
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS={115 129}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

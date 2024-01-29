@@ -1,0 +1,563 @@
+/////////////////////////////////////////////Cypress WildStaff
+
+[ITEMDEF i_mace_wildstaff_Cypress]
+   DEFNAME=i_mace_wildstaff_Cypress
+   ID=i_mace_wildstaff
+   NAME=Cypress WildStaff
+   RESOURCES= 20 i_log_Cypress
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=27
+   VALUE=79
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cypress
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS={60 74}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress Black Staff
+
+[ITEMDEF i_staff_black_Cypress]
+   DEFNAME=i_staff_black_Cypress
+   ID=i_staff_black
+   NAME=Cypress Black Staff
+   RESOURCES= 20 i_log_Cypress
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=25
+   VALUE=79
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cypress
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress Gnarled Staff
+
+[ITEMDEF i_staff_gnarled_Cypress]
+   DEFNAME=i_staff_gnarled_Cypress
+   ID=i_staff_gnarled
+   NAME=Cypress Gnarled Staff
+   RESOURCES= 20 i_log_Cypress
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=23
+   VALUE=79
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cypress
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress Nunchaku
+
+[ITEMDEF i_nunchaku_Cypress]
+   DEFNAME=i_nunchaku_Cypress
+   ID=i_nunchaku
+   NAME=Cypress Nunchaku
+   RESOURCES= 20 i_log_Cypress
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=25
+   VALUE=79
+   SPEED=37
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cypress
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress Club
+
+[ITEMDEF i_club_Cypress]
+   DEFNAME=i_club_Cypress
+   ID=i_club
+   NAME=Cypress Club
+   RESOURCES= 20 i_log_Cypress
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=21
+   VALUE=79
+   SPEED=39
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=CARPENTRY 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cypress
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS={10 24}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress Tetsubo
+
+[ITEMDEF i_tetsubo_Cypress]
+   DEFNAME=i_tetsubo_Cypress
+   ID=i_tetsubo
+   NAME=Cypress Tetsubo
+   RESOURCES= 20 i_log_Cypress
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=31
+   VALUE=79
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cypress
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS={80 94}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress Spear
+
+[ITEMDEF i_spear_Cypress]
+   DEFNAME=i_spear_Cypress
+   ID=i_spear
+   NAME=Cypress Spear
+   RESOURCES= 20 i_log_Cypress
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=79
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cypress
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS={60 74}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress Lance
+
+[ITEMDEF i_lance_Cypress]
+   DEFNAME=i_lance_Cypress
+   ID=i_lance
+   NAME=Cypress Lance
+   RESOURCES= 20 i_log_Cypress
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=79
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cypress
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS={100 114}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress Bow
+
+[ITEMDEF i_bow_Cypress]
+   DEFNAME=i_bow_Cypress
+   ID=i_bow
+   NAME=Cypress Bow
+   RESOURCES= 20 i_log_Cypress
+   WEIGHT=17
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=21
+   VALUE=79
+   SPEED=42
+   SKILL=ARCHERY
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cypress
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress Composite Bow
+
+[ITEMDEF i_composite_bow_Cypress]
+   DEFNAME=i_composite_bow_Cypress
+   ID=i_composite_bow
+   NAME=Cypress Composite Bow
+   RESOURCES= 20 i_log_Cypress
+   WEIGHT=17
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=22
+   VALUE=79
+   SPEED=40
+   SKILL=ARCHERY
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cypress
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS={50 64}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress Eleven Composite Bow
+
+[ITEMDEF i_elven_composite_longbow_Cypress]
+   DEFNAME=i_elven_composite_longbow_Cypress
+   ID=i_elven_composite_longbow
+   NAME=Cypress Eleven Composite Bow
+   RESOURCES= 20 i_log_Cypress
+   WEIGHT=17
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=23
+   VALUE=79
+   SPEED=38
+   SKILL=ARCHERY
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cypress
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS={70 84}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress Assassin Shortbow
+
+[ITEMDEF i_assassin_shortbow_Cypress]
+   DEFNAME=i_assassin_shortbow_Cypress
+   ID=i_assassin_shortbow
+   NAME=Cypress Assassin Shortbow
+   RESOURCES= 20 i_log_Cypress
+   WEIGHT=17
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=24
+   VALUE=79
+   SPEED=36
+   SKILL=ARCHERY
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cypress
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS={90 104}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress Yumi
+
+[ITEMDEF i_yumi_Cypress]
+   DEFNAME=i_yumi_Cypress
+   ID=i_yumi
+   NAME=Cypress Yumi
+   RESOURCES= 20 i_log_Cypress
+   WEIGHT=17
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=25
+   VALUE=79
+   SPEED=34
+   SKILL=ARCHERY
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cypress
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS={100 114}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress Crossbow
+
+[ITEMDEF i_crossbow_Cypress]
+   DEFNAME=i_crossbow_Cypress
+   ID=i_crossbow
+   NAME=Cypress Crossbow
+   RESOURCES= 20 i_log_Cypress
+   WEIGHT=17
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=23
+   VALUE=79
+   SPEED=52
+   SKILL=ARCHERY
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cypress
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS={50 64}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress Heavy Crossbow
+
+[ITEMDEF i_crossbow_heavy_Cypress]
+   DEFNAME=i_crossbow_heavy_Cypress
+   ID=i_crossbow_heavy
+   NAME=Cypress Heavy Crossbow
+   RESOURCES= 20 i_log_Cypress
+   WEIGHT=17
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=25
+   VALUE=79
+   SPEED=50
+   SKILL=ARCHERY
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cypress
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS={70 84}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress Repeating Crossbow
+
+[ITEMDEF i_repeating_crossbow_Cypress]
+   DEFNAME=i_repeating_crossbow_Cypress
+   ID=i_repeating_crossbow
+   NAME=Cypress Repeating Crossbow
+   RESOURCES= 20 i_log_Cypress
+   WEIGHT=17
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=22
+   VALUE=79
+   SPEED=48
+   SKILL=ARCHERY
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cypress
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS={90 104}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress Bola
+
+[ITEMDEF i_bola_Cypress]
+   DEFNAME=i_bola_Cypress
+   ID=i_bola
+   NAME=Cypress Bola
+   RESOURCES= 20 i_log_Cypress
+   WEIGHT=17
+   TYPE=t_bola
+   FLIP=1
+   DAM=19
+   VALUE=79
+   SPEED=37
+   SKILL=ARCHERY
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=TINKERING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cypress
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS={110 124}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

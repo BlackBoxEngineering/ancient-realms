@@ -1,0 +1,1150 @@
+[Itemdef i_deed_raft_staff]
+Name=Deed for a raft (dclick to deploy/remove)
+id=i_deed
+type=t_script
+
+on=@create
+	attr=04
+	color=231
+
+on=@dclick
+	if (<src.gm>==1)
+		if (<more1>==0)
+			more1=1
+			src.newitem 04c1
+			src.act.p=<src.p>
+			src.act.name=Magic Raft
+			src.act.color=231
+			tag.centre=<src.act.uid>
+
+			src.newitem i_raftpiece_n
+			src.act.p=<src.p>
+			src.act.move n
+			tag.n=<src.act.uid>
+
+			src.newitem i_raftpiece_ne
+			src.act.p=<src.p>
+			src.act.move ne
+			tag.ne=<src.act.uid>
+
+			src.newitem i_raftpiece_nw
+			src.act.p=<src.p>
+			src.act.move nw
+			tag.nw=<src.act.uid>
+
+			src.newitem i_raftpiece_w
+			src.act.p=<src.p>
+			src.act.move w
+			tag.w=<src.act.uid>
+
+			src.newitem i_raftpiece_e
+			src.act.p=<src.p>
+			src.act.move e
+			tag.e=<src.act.uid>
+
+			src.newitem i_raftpiece_s
+			src.act.p=<src.p>
+			src.act.move s
+			tag.s=<src.act.uid>
+
+			src.newitem i_raftpiece_se
+			src.act.p=<src.p>
+			src.act.move se
+			tag.se=<src.act.uid>
+
+			src.newitem i_raftpiece_sw
+			src.act.p=<src.p>
+			src.act.move sw
+			tag.sw=<src.act.uid>
+
+			src.newitem i_raftcontrol_up
+			src.act.bounce
+			tag.up=<src.act.uid>
+
+			src.newitem i_raftcontrol_down
+			src.act.bounce
+			tag.down=<src.act.uid>
+		elseif (<more1>==1)
+			more1=0
+			try uid.<tag.n>.remove 1
+			try uid.<tag.ne>.remove 1
+			try uid.<tag.nw>.remove 1
+			try uid.<tag.w>.remove 1
+			try uid.<tag.e>.remove 1
+			try uid.<tag.s>.remove 1
+			try uid.<tag.se>.remove 1
+			try uid.<tag.sw>.remove 1
+			try uid.<tag.centre>.remove 1
+			try uid.<tag.up>.remove 1
+			try uid.<tag.down>.remove 1
+		endif
+	elseif (<src.account.plevel><=1)
+		remove
+		src.jail
+		src.stone
+		src.name I am a staff item thief! page about me!
+	endif
+	return 1
+
+[Itemdef i_raftcontrol_down]
+Name=Raftcontrol-down
+id=03ee8
+type=t_script
+
+on=@create
+attr=04
+color 02
+
+on=@dclick
+
+try uid.<src.findid.i_deed_raft_staff.tag.n>.nudgedown 5
+try uid.<src.findid.i_deed_raft_staff.tag.ne>.nudgedown 5
+try uid.<src.findid.i_deed_raft_staff.tag.nw>.nudgedown 5
+try uid.<src.findid.i_deed_raft_staff.tag.w>.nudgedown 5
+try uid.<src.findid.i_deed_raft_staff.tag.e>.nudgedown 5
+try uid.<src.findid.i_deed_raft_staff.tag.s>.nudgedown 5
+try uid.<src.findid.i_deed_raft_staff.tag.se>.nudgedown 5
+try uid.<src.findid.i_deed_raft_staff.tag.sw>.nudgedown 5
+try uid.<src.findid.i_deed_raft_staff.tag.centre>.nudgedown 5
+src.nudgedown 5
+return 1
+
+[Itemdef i_raftcontrol_up]
+Name=Raftcontrol-up
+id=03ee8
+type=t_script
+
+on=@create
+attr=04
+
+on=@dclick
+
+try uid.<src.findid.i_deed_raft_staff.tag.n>.nudgeup 5
+try uid.<src.findid.i_deed_raft_staff.tag.ne>.nudgeup 5
+try uid.<src.findid.i_deed_raft_staff.tag.nw>.nudgeup 5
+try uid.<src.findid.i_deed_raft_staff.tag.w>.nudgeup 5
+try uid.<src.findid.i_deed_raft_staff.tag.e>.nudgeup 5
+try uid.<src.findid.i_deed_raft_staff.tag.s>.nudgeup 5
+try uid.<src.findid.i_deed_raft_staff.tag.se>.nudgeup 5
+try uid.<src.findid.i_deed_raft_staff.tag.sw>.nudgeup 5
+try uid.<src.findid.i_deed_raft_staff.tag.centre>.nudgeup 5
+src.nudgeup 5
+return 1
+
+[Itemdef i_raftpiece_n]
+Name=Magic Raft
+id=04c5
+type=t_script
+
+on=@create
+
+color=231
+attr=attr_move_never
+
+on=@step
+
+if Strmatch(<src.findid.i_deed_raft_staff.tag.n>,<uid>) 
+try uid.<src.findid.i_deed_raft_staff.tag.n>.move n
+try uid.<src.findid.i_deed_raft_staff.tag.ne>.move n
+try uid.<src.findid.i_deed_raft_staff.tag.nw>.move n
+try uid.<src.findid.i_deed_raft_staff.tag.w>.move n
+try uid.<src.findid.i_deed_raft_staff.tag.e>.move n
+try uid.<src.findid.i_deed_raft_staff.tag.s>.move n
+try uid.<src.findid.i_deed_raft_staff.tag.se>.move n
+try uid.<src.findid.i_deed_raft_staff.tag.sw>.move n
+try uid.<src.findid.i_deed_raft_staff.tag.centre>.move n
+return 1
+endif
+
+[Itemdef i_raftpiece_nw]
+Name=Magic Raft
+id=04c5
+type=t_script
+
+on=@create
+color=231
+attr=attr_move_never
+
+on=@step
+if Strmatch(<src.findid.i_deed_raft_staff.tag.nw>,<uid>) 
+try uid.<src.findid.i_deed_raft_staff.tag.n>.move nw
+try uid.<src.findid.i_deed_raft_staff.tag.ne>.move nw
+try uid.<src.findid.i_deed_raft_staff.tag.nw>.move nw
+try uid.<src.findid.i_deed_raft_staff.tag.w>.move nw
+try uid.<src.findid.i_deed_raft_staff.tag.e>.move nw
+try uid.<src.findid.i_deed_raft_staff.tag.s>.move nw
+try uid.<src.findid.i_deed_raft_staff.tag.se>.move nw
+try uid.<src.findid.i_deed_raft_staff.tag.sw>.move nw
+try uid.<src.findid.i_deed_raft_staff.tag.centre>.move nw
+return 1
+endif
+
+[Itemdef i_raftpiece_ne]
+Name=Magic Raft
+id=04c5
+type=t_script
+
+on=@create
+color=231
+attr=attr_move_never
+
+on=@step
+if Strmatch(<src.findid.i_deed_raft_staff.tag.ne>,<uid>) 
+
+try uid.<src.findid.i_deed_raft_staff.tag.n>.move ne
+try uid.<src.findid.i_deed_raft_staff.tag.ne>.move ne
+try uid.<src.findid.i_deed_raft_staff.tag.nw>.move ne
+try uid.<src.findid.i_deed_raft_staff.tag.w>.move ne
+try uid.<src.findid.i_deed_raft_staff.tag.e>.move ne
+try uid.<src.findid.i_deed_raft_staff.tag.s>.move ne
+try uid.<src.findid.i_deed_raft_staff.tag.se>.move ne
+try uid.<src.findid.i_deed_raft_staff.tag.sw>.move ne
+try uid.<src.findid.i_deed_raft_staff.tag.centre>.move ne
+return 1
+endif
+[Itemdef i_raftpiece_e]
+Name=Magic Raft
+id=04c1
+type=t_script
+
+on=@create
+color=231
+attr=attr_move_never
+
+on=@step
+if Strmatch(<src.findid.i_deed_raft_staff.tag.e>,<uid>) 
+try uid.<src.findid.i_deed_raft_staff.tag.n>.move e
+try uid.<src.findid.i_deed_raft_staff.tag.ne>.move e
+try uid.<src.findid.i_deed_raft_staff.tag.nw>.move e
+try uid.<src.findid.i_deed_raft_staff.tag.w>.move e
+try uid.<src.findid.i_deed_raft_staff.tag.e>.move e
+try uid.<src.findid.i_deed_raft_staff.tag.s>.move e
+try uid.<src.findid.i_deed_raft_staff.tag.se>.move e
+try uid.<src.findid.i_deed_raft_staff.tag.sw>.move e
+try uid.<src.findid.i_deed_raft_staff.tag.centre>.move e
+return 1
+endif
+
+[Itemdef i_raftpiece_w]
+Name=Magic Raft
+id=04c1
+type=t_script
+
+on=@create
+color=231
+attr=attr_move_never
+
+on=@step
+if Strmatch(<src.findid.i_deed_raft_staff.tag.w>,<uid>) 
+try uid.<src.findid.i_deed_raft_staff.tag.n>.move w
+try uid.<src.findid.i_deed_raft_staff.tag.ne>.move w
+try uid.<src.findid.i_deed_raft_staff.tag.nw>.move w
+try uid.<src.findid.i_deed_raft_staff.tag.w>.move w
+try uid.<src.findid.i_deed_raft_staff.tag.e>.move w
+try uid.<src.findid.i_deed_raft_staff.tag.s>.move w
+try uid.<src.findid.i_deed_raft_staff.tag.se>.move w
+try uid.<src.findid.i_deed_raft_staff.tag.sw>.move w
+try uid.<src.findid.i_deed_raft_staff.tag.centre>.move w
+return 1
+endif
+
+[Itemdef i_raftpiece_s]
+Name=Magic Raft
+id=04c4
+type=t_script
+
+on=@create
+color=231
+attr=attr_move_never
+
+on=@step
+if Strmatch(<src.findid.i_deed_raft_staff.tag.s>,<uid>) 
+try uid.<src.findid.i_deed_raft_staff.tag.n>.move s
+try uid.<src.findid.i_deed_raft_staff.tag.ne>.move s
+try uid.<src.findid.i_deed_raft_staff.tag.nw>.move s
+try uid.<src.findid.i_deed_raft_staff.tag.w>.move s
+try uid.<src.findid.i_deed_raft_staff.tag.e>.move s
+try uid.<src.findid.i_deed_raft_staff.tag.s>.move s
+try uid.<src.findid.i_deed_raft_staff.tag.se>.move s
+try uid.<src.findid.i_deed_raft_staff.tag.sw>.move s
+try uid.<src.findid.i_deed_raft_staff.tag.centre>.move s
+return 1
+endif
+
+[Itemdef i_raftpiece_se]
+Name=Magic Raft
+id=04c4
+type=t_script
+
+on=@create
+color=231
+attr=attr_move_never
+
+on=@step
+if Strmatch(<src.findid.i_deed_raft_staff.tag.se>,<uid>) 
+try uid.<src.findid.i_deed_raft_staff.tag.n>.move se
+try uid.<src.findid.i_deed_raft_staff.tag.ne>.move se
+try uid.<src.findid.i_deed_raft_staff.tag.nw>.move se
+try uid.<src.findid.i_deed_raft_staff.tag.w>.move se
+try uid.<src.findid.i_deed_raft_staff.tag.e>.move se
+try uid.<src.findid.i_deed_raft_staff.tag.s>.move se
+try uid.<src.findid.i_deed_raft_staff.tag.se>.move se
+try uid.<src.findid.i_deed_raft_staff.tag.sw>.move se
+try uid.<src.findid.i_deed_raft_staff.tag.centre>.move se
+return 1
+endif
+
+[Itemdef i_raftpiece_sw]
+Name=Magic Raft
+id=04c4
+type=t_script
+
+on=@create
+color=231
+attr=attr_move_never
+
+on=@step
+if Strmatch(<src.findid.i_deed_raft_staff.tag.sw>,<uid>) 
+try uid.<src.findid.i_deed_raft_staff.tag.n>.move sw
+try uid.<src.findid.i_deed_raft_staff.tag.ne>.move sw
+try uid.<src.findid.i_deed_raft_staff.tag.nw>.move sw
+try uid.<src.findid.i_deed_raft_staff.tag.w>.move sw
+try uid.<src.findid.i_deed_raft_staff.tag.e>.move sw
+try uid.<src.findid.i_deed_raft_staff.tag.s>.move sw
+try uid.<src.findid.i_deed_raft_staff.tag.se>.move sw
+try uid.<src.findid.i_deed_raft_staff.tag.sw>.move sw
+try uid.<src.findid.i_deed_raft_staff.tag.centre>.move sw
+return 1
+endif
+
+
+[Itemdef i_raft_stand]
+Name=Raft control
+id=014e7
+type=t_script
+
+on=@create
+
+attr=attr_move_never
+
+on=@dclick
+
+if (<src.gm>==1)
+
+if (0<tag.used>==0)
+
+  if (0<tag.n>!=0)
+  try uid.<tag.n>.remove
+  tag.n
+  try uid.<tag.ne>.remove
+  tag.ne
+  try uid.<tag.nw>.remove
+  tag.nw
+  try uid.<tag.e>.remove
+  tag.e
+  try uid.<tag.w>.remove
+  tag.w
+  try uid.<tag.s>.remove
+  tag.s
+  try uid.<tag.se>.remove
+  tag.se
+  try uid.<tag.sw>.remove
+  tag.sw
+  try uid.<tag.centre>.remove
+  tag.centre
+  src.message Old Raft removed!
+  endif
+
+targetg Where to place the raft?
+var.uid=<src.uid>
+
+elseif (<tag.used>==1)
+src.message Sorry, someone is using the current raft! Pls try again later.
+return 1
+endif
+
+elseif (<src.gm>==0)
+
+if (0<tag.used>==0)
+src.message You try to call he raft back
+f_raftcall
+elseif (<tag.used>==1)
+src.message Sorry, someone is using the raft right now! Please try again later.
+endif
+endif
+return 1
+
+on=@targon_ground
+
+tag.targ=<src.targp>
+
+src.newitem i_raft_centre
+src.act.p=<src.targp>
+tag.centre=<src.act.uid>
+src.act.link=<uid>
+tag.c=<src.act.uid>
+
+src.newitem i_raft_n
+src.act.p=<src.targp>
+src.act.move n
+tag.n=<src.act.uid>
+src.act.link=<uid>
+
+src.newitem i_raft_ne
+src.act.p=<src.targp>
+src.act.move ne
+tag.ne=<src.act.uid>
+src.act.link=<uid>
+
+src.newitem i_raft_nw
+src.act.p=<src.targp>
+src.act.move nw
+tag.nw=<src.act.uid>
+src.act.link=<uid>
+
+src.newitem i_raft_w
+src.act.p=<src.targp>
+src.act.move w
+tag.w=<src.act.uid>
+src.act.link=<uid>
+
+src.newitem i_raft_e
+src.act.p=<src.targp>
+src.act.move e
+tag.e=<src.act.uid>
+src.act.link=<uid>
+
+src.newitem i_raft_s
+src.act.p=<src.targp>
+src.act.move s
+tag.s=<src.act.uid>
+src.act.link=<uid>
+
+src.newitem i_raft_se
+src.act.p=<src.targp>
+src.act.move se
+tag.se=<src.act.uid>
+src.act.link=<uid>
+
+src.newitem i_raft_sw
+src.act.p=<src.targp>
+src.act.move sw
+tag.sw=<src.act.uid>
+src.act.link=<uid>
+
+return 1
+
+[Itemdef i_raft_centre]
+Name=Magic Raft
+id=04c1
+type=t_script
+
+on=@step
+
+if (strlen(<src.account>a)!=1)
+if !(<src.findid.i_raft_memory>)
+var.uid=<uid>
+link.tag.used=1
+src.newitem i_raft_memory
+src.act.equip
+src.act.link=<var.uid>
+elseif (<src.findid.i_raft_memory.link>==<uid>)
+src.findid.i_raft_memory.timer=5
+endif
+endif
+
+[Itemdef i_raft_n]
+Name=Magic Raft
+id=04c5
+type=t_script
+
+on=@step
+
+if (<src.findid.i_raft_memory>) && (<src.findid.i_raft_memory.link>==<link.tag.centre>)
+try uid.<link.tag.n>.move n
+try uid.<link.tag.ne>.move n
+try uid.<link.tag.nw>.move n
+try uid.<link.tag.w>.move n
+try uid.<link.tag.e>.move n
+try uid.<link.tag.s>.move n
+try uid.<link.tag.se>.move n
+try uid.<link.tag.sw>.move n
+try uid.<link.tag.centre>.move n
+return 1
+endif
+
+[Itemdef i_raft_nw]
+Name=Magic Raft
+id=04c5
+type=t_script
+
+on=@step
+if (<src.findid.i_raft_memory>) && (<src.findid.i_raft_memory.link>==<link.tag.centre>)
+try uid.<link.tag.n>.move nw
+try uid.<link.tag.ne>.move nw
+try uid.<link.tag.nw>.move nw
+try uid.<link.tag.w>.move nw
+try uid.<link.tag.e>.move nw
+try uid.<link.tag.s>.move nw
+try uid.<link.tag.se>.move nw
+try uid.<link.tag.sw>.move nw
+try uid.<link.tag.centre>.move nw
+return 1
+endif
+
+[Itemdef i_raft_ne]
+Name=Magic Raft
+id=04c5
+type=t_script
+
+on=@step
+if (<src.findid.i_raft_memory>) && (<src.findid.i_raft_memory.link>==<link.tag.centre>)
+try uid.<link.tag.n>.move ne
+try uid.<link.tag.ne>.move ne
+try uid.<link.tag.nw>.move ne
+try uid.<link.tag.w>.move ne
+try uid.<link.tag.e>.move ne
+try uid.<link.tag.s>.move ne
+try uid.<link.tag.se>.move ne
+try uid.<link.tag.sw>.move ne
+try uid.<link.tag.centre>.move ne
+return 1
+endif
+
+[Itemdef i_raft_e]
+Name=Magic Raft
+id=04c1
+type=t_script
+
+on=@step
+if (<src.findid.i_raft_memory>) && (<src.findid.i_raft_memory.link>==<link.tag.centre>)
+try uid.<link.tag.n>.move e
+try uid.<link.tag.ne>.move e
+try uid.<link.tag.nw>.move e
+try uid.<link.tag.w>.move e
+try uid.<link.tag.e>.move e
+try uid.<link.tag.s>.move e
+try uid.<link.tag.se>.move e
+try uid.<link.tag.sw>.move e
+try uid.<link.tag.centre>.move e
+return 1
+endif
+
+[Itemdef i_raft_w]
+Name=Magic Raft
+id=04c1
+type=t_script
+
+on=@step
+if (<src.findid.i_raft_memory>) && (<src.findid.i_raft_memory.link>==<link.tag.centre>)
+try uid.<link.tag.n>.move w
+try uid.<link.tag.ne>.move w
+try uid.<link.tag.nw>.move w
+try uid.<link.tag.w>.move w
+try uid.<link.tag.e>.move w
+try uid.<link.tag.s>.move w
+try uid.<link.tag.se>.move w
+try uid.<link.tag.sw>.move w
+try uid.<link.tag.centre>.move w
+return 1
+endif
+
+[Itemdef i_raft_s]
+Name=Magic Raft
+id=04c4
+type=t_script
+
+on=@step
+if (<src.findid.i_raft_memory>) && (<src.findid.i_raft_memory.link>==<link.tag.centre>)
+try uid.<link.tag.n>.move s
+try uid.<link.tag.ne>.move s
+try uid.<link.tag.nw>.move s
+try uid.<link.tag.w>.move s
+try uid.<link.tag.e>.move s
+try uid.<link.tag.s>.move s
+try uid.<link.tag.se>.move s
+try uid.<link.tag.sw>.move s
+try uid.<link.tag.centre>.move s
+return 1
+endif
+
+[Itemdef i_raft_se]
+Name=Magic Raft
+id=04c4
+type=t_script
+
+on=@step
+if (<src.findid.i_raft_memory>) && (<src.findid.i_raft_memory.link>==<link.tag.centre>)
+try uid.<link.tag.n>.move se
+try uid.<link.tag.ne>.move se
+try uid.<link.tag.nw>.move se
+try uid.<link.tag.w>.move se
+try uid.<link.tag.e>.move se
+try uid.<link.tag.s>.move se
+try uid.<link.tag.se>.move se
+try uid.<link.tag.sw>.move se
+try uid.<link.tag.centre>.move se
+return 1
+endif
+
+[Itemdef i_raft_sw]
+Name=Magic Raft
+id=04c4
+type=t_script
+
+on=@step
+if (<src.findid.i_raft_memory>) && (<src.findid.i_raft_memory.link>==<link.tag.centre>)
+try uid.<link.tag.n>.move sw
+try uid.<link.tag.ne>.move sw
+try uid.<link.tag.nw>.move sw
+try uid.<link.tag.w>.move sw
+try uid.<link.tag.e>.move sw
+try uid.<link.tag.s>.move sw
+try uid.<link.tag.se>.move sw
+try uid.<link.tag.sw>.move sw
+try uid.<link.tag.centre>.move sw
+return 1
+endif
+
+[itemdef I_raft_memory]
+name=raft memory
+id=i_memory
+type=t_eq_script
+
+On=@create
+
+timer=5
+
+on=@timer
+	
+
+if (<link.p.x>==<cont.p.x>) && (<link.p.y>==<cont.p.y>)  (<link.p.z>==<cont.p.z>) 
+timer=5
+else
+link.link.tag.used=0
+remove
+endif
+return 0
+
+on=@unequip 
+link.link.tag.used=0
+return 1
+
+[function f_raftcall]
+
+try uid.<tag.n>.p=<tag.targ>
+try uid.<tag.n>.move n
+try uid.<tag.ne>.p=<tag.targ>
+try uid.<tag.ne>.move ne
+try uid.<tag.nw>.p=<tag.targ>
+try uid.<tag.nw>.move nw
+try uid.<tag.e>.p=<tag.targ>
+try uid.<tag.e>.move e
+try uid.<tag.w>.p=<tag.targ>
+try uid.<tag.w>.move w
+try uid.<tag.s>.p=<tag.targ>
+try uid.<tag.s>.move s
+try uid.<tag.se>.p=<tag.targ>
+try uid.<tag.se>.move se
+try uid.<tag.sw>.p=<tag.targ>
+try uid.<tag.sw>.move sw
+try uid.<tag.centre>.p=<tag.targ>
+
+
+[ITEMDEF i_deed_raft_player]
+DEFNAME=i_deed_raft_player
+ID=i_deed
+Name=Deed to a raft
+WEIGHT=1
+VALUE=10
+SKILLMAKE=Carpentry 100.0
+RESOURCES=200 i_log
+TYPE=t_script
+
+CATEGORY=Ancientrealms - Deeds
+SUBSECTION=Deed to a Raft
+DESCRIPTION=Player Raft
+
+on=@dclick
+targetg Where to place the raft?
+return 1
+
+on=@targon_ground
+morep=<src.targp>
+
+if (<morex><=<src.p.x>
+   LOCAL.distx=<src.p.x>+-<morex>
+elseif (<morex>>=<src.p.x>
+   LOCAL.distx=<morex>+-<src.p.x>
+endif
+if (<morey><=<src.p.y>
+   LOCAL.disty=<src.p.y>+-<morey>
+elseif (<morey>>=<src.p.y>
+   LOCAL.disty=<morey>+-<src.p.y>
+endif
+
+if (<LOCAL.distx>>3) || (<LOCAL.disty>>3)
+src.message This must be placed closer!
+return 1
+endif
+LOCAL.distx=
+LOCAL.disty=
+SAY <src.targp.terrain>
+if !(<src.targp.terrain>=0aa)&&!!(<src.targp.terrain>=060)&&!(<src.targp.terrain>=05d)&&!(<src.targp.terrain>=064)&&!(<src.targp.terrain>=058)&&!(<src.targp.terrain>=057)&&!(<src.targp.terrain>=053)&&!(<src.targp.terrain>=0ab)&&!(<src.targp.terrain>=0a9)
+src.message Can only be placed in the sea!
+return 1
+endif
+
+if (<src.findid.i_raft_memory_player>)
+Src.message You already placed a raft!
+return 1
+endif
+
+
+src.newitem i_raft_memory_player
+src.act.cont=<src.uid>
+
+src.newitem i_raft_player_centre
+src.findid.i_raft_memory_player.tag.c=<src.act.uid>
+src.act.p=<src.targp>
+src.findid.i_raft_memory_player.morep=<src.act.p>
+src.act.link=<src.uid>
+src.go <src.act.p>
+
+src.newitem i_raft_player_n
+src.findid.i_raft_memory_player.tag.n=<src.act.uid>
+src.act.p=<src.targp>
+src.act.move n
+src.act.link=<src.uid>
+
+src.newitem i_raft_player_ne
+src.findid.i_raft_memory_player.tag.ne=<src.act.uid>
+src.act.p=<src.targp>
+src.act.move ne
+src.act.link=<src.uid>
+
+src.newitem i_raft_player_nw
+src.findid.i_raft_memory_player.tag.nw=<src.act.uid>
+src.act.p=<src.targp>
+src.act.move nw
+src.act.link=<src.uid>
+
+src.newitem i_raft_player_w
+src.findid.i_raft_memory_player.tag.w=<src.act.uid>
+src.act.p=<src.targp>
+src.act.move w
+src.act.link=<src.uid>
+
+src.newitem i_raft_player_e
+src.findid.i_raft_memory_player.tag.e=<src.act.uid>
+src.act.p=<src.targp>
+src.act.move e
+src.act.link=<src.uid>
+
+src.newitem i_raft_player_s
+src.findid.i_raft_memory_player.tag.s=<src.act.uid>
+src.act.p=<src.targp>
+src.act.move s
+src.act.link=<src.uid>
+
+src.newitem i_raft_player_se
+src.findid.i_raft_memory_player.tag.se=<src.act.uid>
+src.act.p=<src.targp>
+src.act.move se
+src.act.link=<src.uid>
+
+src.newitem i_raft_player_sw
+src.findid.i_raft_memory_player.tag.sw=<src.act.uid>
+src.act.p=<src.targp>
+src.act.move sw
+src.act.link=<src.uid>
+
+remove
+return 1
+
+[Itemdef i_raft_player_centre]
+Name=Magic Raft
+id=04c1
+type=t_script
+
+on=@dclick
+if (<link>==<src.uid>
+menu m_raft
+endif
+return 1
+
+
+on=@targon_ground
+
+morep=<src.targp>
+if (<morex><=<src.p.x>
+   var.distx=<src.p.x>+-<morex>
+elseif (<morex>>=<src.p.x>
+   var.distx=<morex>+-<src.p.x>
+endif
+if (<morey><=<src.p.y>
+   var.disty=<src.p.y>+-<morey>
+elseif (<morey>>=<src.p.y>
+   var.disty=<morey>+-<src.p.y>
+endif
+
+if (<var.distx><=2) && (<var.disty><=2)
+    src.newitem i_gold
+    src.act.p=<src.targp>
+     
+        if (<src.act.region.flags>==01092) || (<src.act.region.flags>==01292)
+          src.message Cannot go there!
+          src.act.remove 1
+          return 1
+        endif
+    src.act.remove 1
+
+
+    src.go=<src.targp>
+
+else
+    src.message This is not in range!
+endif
+var.distx
+var.disty
+
+return 1
+
+[menu m_raft]
+Choose your action
+on=0 Leave/Enter raft raft
+if (<src.p.x>!=<p.x>) || (<src.p.y>!=<p.y>)
+	morep=<src.targp>
+
+	if (<morex><=<src.p.x>
+	   var.distx=<src.p.x>+-<morex>
+	elseif (<morex>>=<src.p.x>
+	   var.distx=<morex>+-<src.p.x>
+	endif
+	if (<morey><=<src.p.y>
+ 	  var.disty=<src.p.y>+-<morey>
+	elseif (<morey>>=<src.p.y>
+	   var.disty=<morey>+-<src.p.y>
+	endif
+
+	if (<var.distx>>1) || (<var.disty>>1)
+	src.message You must be closer to enter!
+	return 1
+	endif
+	var.distx
+	var.disty
+
+   src.go=<p>
+elseif (<src.p.x>==<p.x>) && (<src.p.y>==<p.y>)
+   targetg Target shore to leave!
+endif
+return 1
+
+on=0 Redeed Raft 
+
+     src.findid.i_raft_memory_player.remove 1
+     src.newitem i_deed_raft_player
+     src.act.bounce
+
+[Menu M_raft_return]
+Do you wish to return your raft?
+on=0 Yes (costs 500gp)
+   if (<src.restest 500 i_gold>)
+     src.findid.i_raft_memory_player.remove 1
+     src.consume 500 i_gold
+     src.newitem i_deed_raft_player
+     src.act.bounce
+   else
+     src.message Sorry, you need 500gp to redeed!
+   endif
+ON=0 NO
+   return 1
+
+[PLevel 1]
+returnraft
+
+[plevel 4]
+removeraft
+
+[function returnraft]
+if (<restest 1 i_raft_memory_player>)
+menu m_raft_return
+else
+src.sysmessage You dont have a raft to return!
+endif
+
+
+[function removeraft]
+if ((<baseid> == i_raft_player_centre ) || (<baseid> == i_raft_player_n) || (<baseid> == i_raft_player_nw) || (<baseid> == i_raft_player_w) || (<baseid> == i_raft_player_sw) || (<baseid> == i_raft_player_s) || (<baseid> == i_raft_player_se) || (<baseid> == i_raft_player_e) || (<baseid> == i_raft_player_ne) )
+	local.player=<link>
+	ref1=<link>
+	
+	if (<link.findid.i_raft_memory_player>)
+		link.findid.i_raft_memory_player.remove
+		
+		src.newitem i_deed_raft_player
+     	src.act.cont <ref1.findlayer.layer_pack>
+	endif	
+else
+	src.sysmessage That is not a raft.
+endif
+
+[Itemdef i_raft_player_n]
+Name=Raft
+id=04c5
+type=t_script
+
+on=@dclick
+if (<link>==<src.uid>
+try uid.<src.findid.i_raft_memory_player.tag.c>.menu m_raft
+endif
+return 1
+
+
+on=@step
+morep=<p>
+if (<link>=<src.uid>)
+try uid.<link.findid.i_raft_memory_player.tag.n>.move n
+try uid.<link.findid.i_raft_memory_player.tag.ne>.move n
+try uid.<link.findid.i_raft_memory_player.tag.nw>.move n
+try uid.<link.findid.i_raft_memory_player.tag.w>.move n
+try uid.<link.findid.i_raft_memory_player.tag.e>.move n
+try uid.<link.findid.i_raft_memory_player.tag.s>.move n
+try uid.<link.findid.i_raft_memory_player.tag.se>.move n
+try uid.<link.findid.i_raft_memory_player.tag.sw>.move n
+try uid.<link.findid.i_raft_memory_player.tag.c>.move n
+
+return 1
+endif
+
+[Itemdef i_raft_player_nw]
+Name=Raft
+id=04c5
+type=t_script
+
+on=@dclick
+if (<link>==<src.uid>
+try uid.<src.findid.i_raft_memory_player.tag.c>.menu m_raft
+endif
+return 1
+
+
+
+on=@step
+morep=<p>
+if (<link>=<src.uid>) 
+try uid.<link.findid.i_raft_memory_player.tag.n>.move nw
+try uid.<link.findid.i_raft_memory_player.tag.ne>.move nw
+try uid.<link.findid.i_raft_memory_player.tag.nw>.move nw
+try uid.<link.findid.i_raft_memory_player.tag.w>.move nw
+try uid.<link.findid.i_raft_memory_player.tag.e>.move nw
+try uid.<link.findid.i_raft_memory_player.tag.s>.move nw
+try uid.<link.findid.i_raft_memory_player.tag.se>.move nw
+try uid.<link.findid.i_raft_memory_player.tag.sw>.move nw
+try uid.<link.findid.i_raft_memory_player.tag.c>.move nw
+
+return 1
+endif
+
+[Itemdef i_raft_player_ne]
+Name=Raft
+id=04c5
+type=t_script
+
+on=@dclick
+if (<link>==<src.uid>
+try uid.<src.findid.i_raft_memory_player.tag.c>.menu m_raft
+endif
+return 1
+
+
+on=@step
+morep=<p>
+if (<link>=<src.uid>) 
+try uid.<link.findid.i_raft_memory_player.tag.n>.move ne
+try uid.<link.findid.i_raft_memory_player.tag.ne>.move ne
+try uid.<link.findid.i_raft_memory_player.tag.nw>.move ne
+try uid.<link.findid.i_raft_memory_player.tag.w>.move ne
+try uid.<link.findid.i_raft_memory_player.tag.e>.move ne
+try uid.<link.findid.i_raft_memory_player.tag.s>.move ne
+try uid.<link.findid.i_raft_memory_player.tag.se>.move ne
+try uid.<link.findid.i_raft_memory_player.tag.sw>.move ne
+try uid.<link.findid.i_raft_memory_player.tag.c>.move ne
+
+return 1
+endif
+
+[Itemdef i_raft_player_e]
+Name=Raft
+id=04c1
+type=t_script
+
+on=@dclick
+if (<link>==<src.uid>
+try uid.<src.findid.i_raft_memory_player.tag.c>.menu m_raft
+endif
+return 1
+
+
+
+on=@step
+morep=<p>
+if (<link>=<src.uid>) 
+try uid.<link.findid.i_raft_memory_player.tag.n>.move e
+try uid.<link.findid.i_raft_memory_player.tag.ne>.move e
+try uid.<link.findid.i_raft_memory_player.tag.nw>.move e
+try uid.<link.findid.i_raft_memory_player.tag.w>.move e
+try uid.<link.findid.i_raft_memory_player.tag.e>.move e
+try uid.<link.findid.i_raft_memory_player.tag.s>.move e
+try uid.<link.findid.i_raft_memory_player.tag.se>.move e
+try uid.<link.findid.i_raft_memory_player.tag.sw>.move e
+try uid.<link.findid.i_raft_memory_player.tag.c>.move e
+
+return 1
+endif
+
+[Itemdef i_raft_player_w]
+Name=Raft
+id=04c1
+type=t_script
+
+on=@dclick
+if (<link>==<src.uid>
+try uid.<src.findid.i_raft_memory_player.tag.c>.menu m_raft
+endif
+return 1
+
+on=@step
+morep=<p>
+if (<link>=<src.uid>)
+try uid.<link.findid.i_raft_memory_player.tag.n>.move w
+try uid.<link.findid.i_raft_memory_player.tag.ne>.move w
+try uid.<link.findid.i_raft_memory_player.tag.nw>.move w
+try uid.<link.findid.i_raft_memory_player.tag.w>.move w
+try uid.<link.findid.i_raft_memory_player.tag.e>.move w
+try uid.<link.findid.i_raft_memory_player.tag.s>.move w
+try uid.<link.findid.i_raft_memory_player.tag.se>.move w
+try uid.<link.findid.i_raft_memory_player.tag.sw>.move w
+try uid.<link.findid.i_raft_memory_player.tag.c>.move w
+
+return 1
+endif
+
+[Itemdef i_raft_player_s]
+Name=Raft
+id=04c4
+type=t_script
+
+on=@dclick
+if (<link>==<src.uid>
+try uid.<src.findid.i_raft_memory_player.tag.c>.menu m_raft
+endif
+return 1
+
+on=@step
+morep=<p>
+if (<link>=<src.uid>)
+try uid.<link.findid.i_raft_memory_player.tag.n>.move s
+try uid.<link.findid.i_raft_memory_player.tag.ne>.move s
+try uid.<link.findid.i_raft_memory_player.tag.nw>.move s
+try uid.<link.findid.i_raft_memory_player.tag.w>.move s
+try uid.<link.findid.i_raft_memory_player.tag.e>.move s
+try uid.<link.findid.i_raft_memory_player.tag.s>.move s
+try uid.<link.findid.i_raft_memory_player.tag.se>.move s
+try uid.<link.findid.i_raft_memory_player.tag.sw>.move s
+try uid.<link.findid.i_raft_memory_player.tag.c>.move s
+
+return 1
+endif
+
+[Itemdef i_raft_player_se]
+Name=Raft
+id=04c4
+type=t_script
+
+on=@dclick
+if (<link>==<src.uid>
+try uid.<src.findid.i_raft_memory_player.tag.c>.menu m_raft
+endif
+return 1
+
+
+on=@step
+morep=<p>
+if (<link>=<src.uid>) 
+try uid.<link.findid.i_raft_memory_player.tag.n>.move se
+try uid.<link.findid.i_raft_memory_player.tag.ne>.move se
+try uid.<link.findid.i_raft_memory_player.tag.nw>.move se
+try uid.<link.findid.i_raft_memory_player.tag.w>.move se
+try uid.<link.findid.i_raft_memory_player.tag.e>.move se
+try uid.<link.findid.i_raft_memory_player.tag.s>.move se
+try uid.<link.findid.i_raft_memory_player.tag.se>.move se
+try uid.<link.findid.i_raft_memory_player.tag.sw>.move se
+try uid.<link.findid.i_raft_memory_player.tag.c>.move se
+
+return 1
+endif
+
+[Itemdef i_raft_player_sw]
+Name=Raft
+id=04c4
+type=t_script
+
+on=@dclick
+if (<link>==<src.uid>
+try uid.<src.findid.i_raft_memory_player.tag.c>.menu m_raft
+endif
+return 1
+
+on=@step
+morep=<p>
+if (<link>=<src.uid>) 
+try uid.<link.findid.i_raft_memory_player.tag.n>.move sw
+try uid.<link.findid.i_raft_memory_player.tag.ne>.move sw
+try uid.<link.findid.i_raft_memory_player.tag.nw>.move sw
+try uid.<link.findid.i_raft_memory_player.tag.w>.move sw
+try uid.<link.findid.i_raft_memory_player.tag.e>.move sw
+try uid.<link.findid.i_raft_memory_player.tag.s>.move sw
+try uid.<link.findid.i_raft_memory_player.tag.se>.move sw
+try uid.<link.findid.i_raft_memory_player.tag.sw>.move sw
+try uid.<link.findid.i_raft_memory_player.tag.c>.move sw
+
+return 1
+endif
+
+[Itemdef i_raft_memory_player]
+Name=I GOT A RAFT!!!
+id=i_deed
+type=t_eq_script
+
+on=@create
+attr=02
+timer=86400
+
+on=@timer
+	
+
+if (<more1>==0)
+  more1=1
+  cont.sysmessage Your raft is shortly about to decay!
+  timer=3600
+  return 1
+
+elseif (<more1>==1)
+  cont.sysmessage Your raft decayed!
+  remove
+  return 1
+endif
+
+on=@unequip
+  try uid.<tag.n>.remove 1
+  try uid.<tag.nw>.remove 1
+  try uid.<tag.ne>.remove 1
+  try uid.<tag.e>.remove 1
+  try uid.<tag.w>.remove 1
+  try uid.<tag.s>.remove 1
+  try uid.<tag.se>.remove 1
+  try uid.<tag.sw>.remove 1
+  try uid.<tag.c>.remove 1
+ 
+[EOF]

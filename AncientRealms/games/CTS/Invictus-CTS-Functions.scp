@@ -1,0 +1,204 @@
+//////////////////////////////// Telepads
+[FUNCTION f_create_telepads]
+IF !(<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG0.RedPadUID>)
+	NEWITEM=i_red_enter_game
+	NEW.P=6051,1585
+	NEW.EFFECT 2,i_fire_column,16,16,5
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedPadUID=<NEW.UID>
+ENDIF
+IF !(<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG0.BluePadUID>)
+	NEWITEM=i_blue_enter_game
+	NEW.P=5992,1732
+	NEW.EFFECT 2,i_fire_column,16,16,5
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BluePadUID=<NEW.UID>
+ENDIF
+SERV.B @63 CTS Has Started! Go! Go! GO!
+
+[FUNCTION f_remove_telepads]
+SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedPadUID>.REMOVE
+SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BluePadUID>.REMOVE
+SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedPadUID=
+SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BluePadUID=
+
+//////////////////////////////// Shields
+[FUNCTION f_create_shields]
+f_reset_red_shield
+f_reset_blue_shield
+SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedShieldHome=1
+SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueShieldHome=1
+
+[FUNCTION f_remove_shields]
+SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedShieldUID>.REMOVE
+SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueShieldUID>.REMOVE
+SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedShieldUID=
+SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueShieldUID=
+SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedShieldHome=0
+SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueShieldHome=0
+SERV.UID.<EVAL AS_FernBank_PlayerControl>.REGION.TAG.RedShieldHome=0
+SERV.UID.<EVAL AS_FernBank_PlayerControl>.REGION.TAG.BlueShieldHome=0
+
+[FUNCTION f_reset_red_shield]
+IF (<SERV.UID.<EVAL AS_FernBank_PlayerControl>.REGION.TAG.RedShieldHome>!=1)
+	NEWITEM=i_red_shield_cts
+	NEW.P=6052,1610
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedShieldUID=<NEW.UID>
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.REGION.TAG.RedShieldHome=1
+ENDIF
+
+[FUNCTION f_reset_blue_shield]
+IF (<SERV.UID.<EVAL AS_FernBank_PlayerControl>.REGION.TAG.BlueShieldHome>!=1)
+	NEWITEM=i_blue_shield_cts
+	NEW.P=5995,1711
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueShieldUID=<NEW.UID>
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.REGION.TAG.BlueShieldHome=1
+ENDIF
+
+//////////////////////////////// Region
+[FUNCTION f_ArenaCTSRegionControl]
+IF (<ARGV[0]>)
+	LOCAL.ArenaCTSRegionUID=<SERV.UID.<ARGV[0]>.REGION.UID>
+	RETURN <SERV.UID.<ARGV[0]>.REGION.UID>
+ENDIF
+
+//////////////////////////////// Clean Players
+[FUNCTION NukeBackPackCTS]
+SERV.UID.<FINDLAYER.21.UID>.REMOVE
+TAG.CTSBagBanked=
+SYSMESSAGE @1462 Go to your Bank to Pick up Your BackPack (Drop it into Paper Doll)
+
+[FUNCTION f_clean_players]
+FOR X 1 <EVAL <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT>>
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.UNEQUIPALL
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.KARMA=<TAG0.ArenaKarma>
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.KILLS=<TAG0.ArenaKills>
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.TAG.ArenaKarma=
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.TAG.ArenaKills=
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.TAG.OriginalBackPack=
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.TAG.CTSTeam=
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.TAG.CTSBagBanked=
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.TAG.MyBackPackColor=
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.TAG.JoinedCTS=
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.TAG.PLAYERCOUNT=
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.TAG.PreArenaLocation=
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.NukeBackPackCTS
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.EVENTS=-e_Games_CTSFernBank
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.EVENTS=-e_RewardCalculator
+ENDFOR
+
+//////////////////////////////// Send Players
+[FUNCTION f_send_players_home]
+FOR X 1 <EVAL <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT>>
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.CRIMINAL=0
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.memoryfindtype.memory_harmedby.remove
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.memoryfindtype.memory_iaggressor.remove
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.memoryfindtype.memory_fight.remove
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.memoryfindtype.memory_sawcrime.remove
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.memoryfindtype.memory_aggreived.remove
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.memoryfindtype.memory_war_targ.remove
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.TAG.CTSBagBanked=
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.UPDATEX
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.GO <SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.TAG.PreArenaLocation>
+	IF <EVAL <SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.TAG.CTSRewardPoints>> > <EVAL <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.HighScore>>
+		SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.HighScore=<EVAL <SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.TAG.CTSRewardPoints>>
+		SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.HighScoreOwner=<SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.NAME>
+	ENDIF
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.EVENTS=-e_RewardCalculator
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.EVENTS=-e_Games_CTSFernBank
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.Dialog d_leavingCTS
+ENDFOR
+
+[FUNCTION f_send_players_cts]
+FOR X 1 <EVAL <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT>>
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.HorseBounceTwo
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.UnEquipAll
+	IF (<SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.TAG0.CTSBagBanked>!=1)
+		SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.SYSMESSAGE @1462 Your Back Pack Has been Placed in Your Bank
+		SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.TAG.MyBackPackColor=<SERV.UID.<SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.FINDLAYER.21.UID>.COLOR>
+		SERV.UID.<SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.FINDLAYER.21.UID>.ATTR &= ~attr_move_never
+		SERV.UID.<SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.FINDLAYER.21.UID>.ATTR &= ~attr_newbie
+		SERV.UID.<SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.FINDLAYER.21.UID>.CONT=<SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.FINDLAYER.29.UID>
+		SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.UPDATEX
+	ENDIF
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.TAG.OriginalBackPack=<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.FINDLAYER.21.UID>
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.TAG.ArenaKills=<SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.KILLS>
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.TAG.ArenaKarma=<SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.KARMA>
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.EVENTS=+e_Games_CTSFernBank
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.EVENTS=+e_RewardCalculator
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.f_ArenaCTSTeamSelector
+	SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>.SYSMESSAGE @55 You have 60 Seconds to Get Ready.
+ENDFOR
+
+[FUNCTION f_check_cts_port]
+FOR X 1 <EVAL <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT>>
+	SAY <EVAL <LOCAL.X>> UID <SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>>
+	SAY <EVAL <LOCAL.X>> NAME <SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>NAME>>
+ENDFOR
+
+//////////////////////////////// Clean Player Control
+[FUNCTION f_clean_PlayerControl]
+SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueTeamPlayerCount=0
+SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueTeamPlayerTotalLevel=0
+SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueTeamPlayerScore=0
+SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedTeamPlayerCount=0
+SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedTeamPlayerTotalLevel=0
+SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedTeamPlayerScore=0
+SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT=0
+FOR X 1 <EVAL <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT>+1>
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID=
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>NAME=
+ENDFOR
+
+//////////////////////////////// Restart Event Manager
+[FUNCTION f_restart_eventmanager]
+SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.ManagerUid>.TAG.Gameison=
+IF !(<SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.ManagerUid>.FINDID.i_event_manager_spam>)
+	NEWITEM=i_event_manager_spam,1,<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.ManagerUid>
+ENDIF
+IF !(<SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.ManagerUid>.FINDID.i_event_manager_countdown>)
+	NEWITEM=i_event_manager_countdown,1,<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.ManagerUid>
+ENDIF
+FOR X 1 50
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>=
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>NAME>=
+ENDFOR
+SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT=0
+SERV.ALLCLIENTS LEAVECTS
+
+//////////////////////////////// START STOP RESET CTS
+[FUNCTION StartCTS]
+SERV.UID.<EVAL AS_FernBank_PlayerSetupBlue>.COLOR 0
+SERV.UID.<EVAL AS_FernBank_PlayerSetupRed>.COLOR 0
+f_create_telepads
+f_create_shields
+
+[FUNCTION StopCTS]
+f_send_players_home
+f_clean_players
+f_restart_eventmanager
+f_remove_telepads
+f_remove_shields
+f_clean_PlayerControl
+
+SERV.UID.<EVAL AS_FernBank_PlayerSetupBlue>.COLOR 0
+SERV.UID.<EVAL AS_FernBank_PlayerSetupRed>.COLOR 0
+SERV.UID.<EVAL AS_FernBank_PlayerSetupBlue>.TIMER= -1
+SERV.UID.<EVAL AS_FernBank_PlayerSetupRed>.TIMER=-1
+
+[FUNCTION ResetCTS]
+StopCTS
+f_restart_eventmanager
+
+[DIALOG d_leavingCTS]
+1,1
+PAGE 0
+RESIZEPIC 0 0 83 400 200
+DTEXT 30 30 55 CTS Champ : <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.HighScoreOwner> Score : <EVAL <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.HighScore>>
+DTEXT 30 50 55 You Scored <EVAL <TAG.CTSRewardPoints>>
+BUTTON 320 160 2074 2075 1 0 10
+
+[DIALOG d_leavingCTS BUTTON]
+ONBUTTON=10
+	f_give_rewards
+
+
+[EOF]

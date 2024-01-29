@@ -1,0 +1,563 @@
+/////////////////////////////////////////////Ebony WildStaff
+
+[ITEMDEF i_mace_wildstaff_Ebony]
+   DEFNAME=i_mace_wildstaff_Ebony
+   ID=i_mace_wildstaff
+   NAME=Ebony WildStaff
+   RESOURCES= 20 i_log_Ebony
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=29
+   VALUE=101
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Ebony
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS={60 78}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony Black Staff
+
+[ITEMDEF i_staff_black_Ebony]
+   DEFNAME=i_staff_black_Ebony
+   ID=i_staff_black
+   NAME=Ebony Black Staff
+   RESOURCES= 20 i_log_Ebony
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=27
+   VALUE=101
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Ebony
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony Gnarled Staff
+
+[ITEMDEF i_staff_gnarled_Ebony]
+   DEFNAME=i_staff_gnarled_Ebony
+   ID=i_staff_gnarled
+   NAME=Ebony Gnarled Staff
+   RESOURCES= 20 i_log_Ebony
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=25
+   VALUE=101
+   SPEED=52
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Ebony
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony Nunchaku
+
+[ITEMDEF i_nunchaku_Ebony]
+   DEFNAME=i_nunchaku_Ebony
+   ID=i_nunchaku
+   NAME=Ebony Nunchaku
+   RESOURCES= 20 i_log_Ebony
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=27
+   VALUE=101
+   SPEED=39
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Ebony
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony Club
+
+[ITEMDEF i_club_Ebony]
+   DEFNAME=i_club_Ebony
+   ID=i_club
+   NAME=Ebony Club
+   RESOURCES= 20 i_log_Ebony
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=23
+   VALUE=101
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=CARPENTRY 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Ebony
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS={10 28}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony Tetsubo
+
+[ITEMDEF i_tetsubo_Ebony]
+   DEFNAME=i_tetsubo_Ebony
+   ID=i_tetsubo
+   NAME=Ebony Tetsubo
+   RESOURCES= 20 i_log_Ebony
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=33
+   VALUE=101
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Ebony
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS={80 98}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony Spear
+
+[ITEMDEF i_spear_Ebony]
+   DEFNAME=i_spear_Ebony
+   ID=i_spear
+   NAME=Ebony Spear
+   RESOURCES= 20 i_log_Ebony
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=101
+   SPEED=43
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Ebony
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS={60 78}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony Lance
+
+[ITEMDEF i_lance_Ebony]
+   DEFNAME=i_lance_Ebony
+   ID=i_lance
+   NAME=Ebony Lance
+   RESOURCES= 20 i_log_Ebony
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=29
+   VALUE=101
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Ebony
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS={100 118}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony Bow
+
+[ITEMDEF i_bow_Ebony]
+   DEFNAME=i_bow_Ebony
+   ID=i_bow
+   NAME=Ebony Bow
+   RESOURCES= 20 i_log_Ebony
+   WEIGHT=19
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=23
+   VALUE=101
+   SPEED=44
+   SKILL=ARCHERY
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Ebony
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony Composite Bow
+
+[ITEMDEF i_composite_bow_Ebony]
+   DEFNAME=i_composite_bow_Ebony
+   ID=i_composite_bow
+   NAME=Ebony Composite Bow
+   RESOURCES= 20 i_log_Ebony
+   WEIGHT=19
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=24
+   VALUE=101
+   SPEED=42
+   SKILL=ARCHERY
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Ebony
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS={50 68}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony Eleven Composite Bow
+
+[ITEMDEF i_elven_composite_longbow_Ebony]
+   DEFNAME=i_elven_composite_longbow_Ebony
+   ID=i_elven_composite_longbow
+   NAME=Ebony Eleven Composite Bow
+   RESOURCES= 20 i_log_Ebony
+   WEIGHT=19
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=25
+   VALUE=101
+   SPEED=40
+   SKILL=ARCHERY
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Ebony
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS={70 88}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony Assassin Shortbow
+
+[ITEMDEF i_assassin_shortbow_Ebony]
+   DEFNAME=i_assassin_shortbow_Ebony
+   ID=i_assassin_shortbow
+   NAME=Ebony Assassin Shortbow
+   RESOURCES= 20 i_log_Ebony
+   WEIGHT=19
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=26
+   VALUE=101
+   SPEED=38
+   SKILL=ARCHERY
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Ebony
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS={90 108}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony Yumi
+
+[ITEMDEF i_yumi_Ebony]
+   DEFNAME=i_yumi_Ebony
+   ID=i_yumi
+   NAME=Ebony Yumi
+   RESOURCES= 20 i_log_Ebony
+   WEIGHT=19
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=27
+   VALUE=101
+   SPEED=36
+   SKILL=ARCHERY
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Ebony
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS={100 118}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony Crossbow
+
+[ITEMDEF i_crossbow_Ebony]
+   DEFNAME=i_crossbow_Ebony
+   ID=i_crossbow
+   NAME=Ebony Crossbow
+   RESOURCES= 20 i_log_Ebony
+   WEIGHT=19
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=25
+   VALUE=101
+   SPEED=54
+   SKILL=ARCHERY
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Ebony
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS={50 68}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony Heavy Crossbow
+
+[ITEMDEF i_crossbow_heavy_Ebony]
+   DEFNAME=i_crossbow_heavy_Ebony
+   ID=i_crossbow_heavy
+   NAME=Ebony Heavy Crossbow
+   RESOURCES= 20 i_log_Ebony
+   WEIGHT=19
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=27
+   VALUE=101
+   SPEED=52
+   SKILL=ARCHERY
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Ebony
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS={70 88}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony Repeating Crossbow
+
+[ITEMDEF i_repeating_crossbow_Ebony]
+   DEFNAME=i_repeating_crossbow_Ebony
+   ID=i_repeating_crossbow
+   NAME=Ebony Repeating Crossbow
+   RESOURCES= 20 i_log_Ebony
+   WEIGHT=19
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=24
+   VALUE=101
+   SPEED=50
+   SKILL=ARCHERY
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Ebony
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS={90 108}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony Bola
+
+[ITEMDEF i_bola_Ebony]
+   DEFNAME=i_bola_Ebony
+   ID=i_bola
+   NAME=Ebony Bola
+   RESOURCES= 20 i_log_Ebony
+   WEIGHT=19
+   TYPE=t_bola
+   FLIP=1
+   DAM=21
+   VALUE=101
+   SPEED=39
+   SKILL=ARCHERY
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=TINKERING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Ebony
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS={110 128}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

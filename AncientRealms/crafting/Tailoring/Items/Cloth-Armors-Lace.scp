@@ -1,0 +1,321 @@
+/////////////////////////////////////////////Lace Gargish Cloth Arms
+[ITEMDEF i_gargish_cloth_arms_1_Lace]
+   DEFNAME= i_gargish_cloth_arms_1_Lace
+   ID= i_gargish_cloth_arms_1
+   NAME= Lace Gargish Cloth Arms
+   ARMOR= 15
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 5 i_cloth_Lace
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Lace
+   DESCRIPTION= Gargish Cloth Arms
+
+ON=@Create
+   COLOR=color_cloth_Lace
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Lace Gargish Cloth Arms
+[ITEMDEF i_gargish_cloth_arms_2_Lace]
+   DEFNAME= i_gargish_cloth_arms_2_Lace
+   ID= i_gargish_cloth_arms_2
+   NAME= Lace Gargish Cloth Arms
+   ARMOR= 15
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 5 i_cloth_Lace
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Lace
+   DESCRIPTION= Gargish Cloth Arms
+
+ON=@Create
+   COLOR=color_cloth_Lace
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Lace Gargish Cloth Chest
+[ITEMDEF i_gargish_cloth_chest_1_Lace]
+   DEFNAME= i_gargish_cloth_chest_1_Lace
+   ID= i_gargish_cloth_chest_1
+   NAME= Lace Gargish Cloth Chest
+   ARMOR= 18
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 8 i_cloth_Lace
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Lace
+   DESCRIPTION= Gargish Cloth Chest
+
+ON=@Create
+   COLOR=color_cloth_Lace
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Lace Gargish Cloth Chest
+[ITEMDEF i_gargish_cloth_chest_2_Lace]
+   DEFNAME= i_gargish_cloth_chest_2_Lace
+   ID= i_gargish_cloth_chest_2
+   NAME= Lace Gargish Cloth Chest
+   ARMOR= 18
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 8 i_cloth_Lace
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Lace
+   DESCRIPTION= Gargish Cloth Chest
+
+ON=@Create
+   COLOR=color_cloth_Lace
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Lace Gargish Cloth Kilt
+[ITEMDEF i_gargish_cloth_kilt_1_Lace]
+   DEFNAME= i_gargish_cloth_kilt_1_Lace
+   ID= i_gargish_cloth_kilt_1
+   NAME= Lace Gargish Cloth Kilt
+   ARMOR= 14
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Lace
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Lace
+   DESCRIPTION= Gargish Cloth Kilt
+
+ON=@Create
+   COLOR=color_cloth_Lace
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Lace Gargish Cloth Kilt
+[ITEMDEF i_gargish_cloth_kilt_2_Lace]
+   DEFNAME= i_gargish_cloth_kilt_2_Lace
+   ID= i_gargish_cloth_kilt_2
+   NAME= Lace Gargish Cloth Kilt
+   ARMOR= 14
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Lace
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Lace
+   DESCRIPTION= Gargish Cloth Kilt
+
+ON=@Create
+   COLOR=color_cloth_Lace
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Lace Gargish Cloth Leggings
+[ITEMDEF i_gargish_cloth_leggings_1_Lace]
+   DEFNAME= i_gargish_cloth_leggings_1_Lace
+   ID= i_gargish_cloth_leggings_1
+   NAME= Lace Gargish Cloth Leggings
+   ARMOR= 14
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Lace
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Lace
+   DESCRIPTION= Gargish Cloth Leggings
+
+ON=@Create
+   COLOR=color_cloth_Lace
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Lace Gargish Cloth Leggings
+[ITEMDEF i_gargish_cloth_leggings_2_Lace]
+   DEFNAME= i_gargish_cloth_leggings_2_Lace
+   ID= i_gargish_cloth_leggings_2
+   NAME= Lace Gargish Cloth Leggings
+   ARMOR= 14
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Lace
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Lace
+   DESCRIPTION= Gargish Cloth Leggings
+
+ON=@Create
+   COLOR=color_cloth_Lace
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Lace Gargish Cloth Wings
+[ITEMDEF i_gargish_cloth_wings_Lace]
+   DEFNAME= i_gargish_cloth_wings_Lace
+   ID= i_gargish_cloth_wings
+   NAME= Lace Gargish Cloth Wings
+   ARMOR= 14
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Lace
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Lace
+   DESCRIPTION= Gargish Cloth Wings
+
+ON=@Create
+   COLOR=color_cloth_Lace
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Lace Lord British Armour
+[ITEMDEF i_person_lord_british_Lace]
+   DEFNAME= i_person_lord_british_Lace
+   ID= i_person_lord_british
+   NAME= Lace Lord British Armour
+   ARMOR= 60
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 50
+   RESOURCES= 50 i_cloth_Lace
+   SKILLMAKE= TAILORING 120.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Lace
+   DESCRIPTION= Lord British Armour
+
+ON=@Create
+   COLOR=color_cloth_Lace
+   HITPOINTS= {130 1200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Lace Blackthorne Robe
+[ITEMDEF i_person_black_thorne_Lace]
+   DEFNAME= i_person_black_thorne_Lace
+   ID= i_person_black_thorne
+   NAME= Lace Blackthorne Robe
+   ARMOR= 60
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 50
+   RESOURCES= 50 i_cloth_Lace
+   SKILLMAKE= TAILORING 120.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Lace
+   DESCRIPTION= Blackthorne Robe
+
+ON=@Create
+   COLOR=color_cloth_Lace
+   HITPOINTS= {130 1200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

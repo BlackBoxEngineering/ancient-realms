@@ -1,0 +1,37 @@
+[FUNCTION f_find_log_type]
+
+	IF (STRMATCH(*Apple*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=Apple
+	ELIF (STRMATCH(*BogOak*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=BogOak
+	ELIF (STRMATCH(*Oak*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=Oak
+	ELIF (STRMATCH(*Ash*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=Ash
+	ELIF (STRMATCH(*Yew*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=Yew
+	ELIF (STRMATCH(*Willow*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=Willow
+	ELIF (STRMATCH(*Cypress*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=Cypress
+	ELIF (STRMATCH(*Birch*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=Birch
+	ELIF (STRMATCH(*Ebony*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=Ebony
+	ELIF (STRMATCH(*Walnut*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=Walnut
+	ELIF (STRMATCH(*Cherry*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=Cherry
+	ELIF (STRMATCH(*BlackCherry*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=BlackCherry
+	ELIF (STRMATCH(*Maple*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=Maple
+	ELIF (STRMATCH(*Hawthorn*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=Hawthorn
+	ELIF (STRMATCH(*Blessedwood*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=Blessedwood
+	ELIF (STRMATCH(*Cursedwood*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=Cursedwood
+	ENDIF
+
+[EOF]

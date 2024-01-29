@@ -1,0 +1,33 @@
+[ITEMDEF i_shopCommunicator]
+DEFNAME=i_shopCommunicator
+NAME=Shop Communicator
+ID=i_paver_stone
+Type=t_comm_crystal
+CATEGORY=AncientRealms
+SUBSECTION=Economy-Shops
+DESCRIPTION=Shop Communicator
+
+ON=@Create
+	COLOR=02
+	ATTR=090
+	SPEECH=spk_shopCommands
+
+ON=@DClick
+	IF (<SRC.GM>)
+	  TARGET Select the Shops Clock!
+	  RETURN 1
+	ELSE
+		SRC.SDIALOG d_ShopPlayerMenu
+		RETURN 0
+	ENDIF
+	
+ON=@Targon_item
+	IF (<SRC.TARG.BASEID>==i_shop_control)
+	  LINK=<SRC.TARG.UID>
+	  SAY Clocks Linked! <REGION.NAME>
+	ELSE
+	  Wrong Target
+	ENDIF
+	RETURN 1
+
+[EOF]

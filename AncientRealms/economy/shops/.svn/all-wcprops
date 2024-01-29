@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/AncientRealms/!svn/ver/98/scripts/AncientRealms/economy/shops
+END
+i_shopClock.scp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/AncientRealms/!svn/ver/152/scripts/AncientRealms/economy/shops/i_shopClock.scp
+END
+d_ShopPlayerMenu.scp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/AncientRealms/!svn/ver/98/scripts/AncientRealms/economy/shops/d_ShopPlayerMenu.scp
+END
+i_playerShopSign.scp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/AncientRealms/!svn/ver/152/scripts/AncientRealms/economy/shops/i_playerShopSign.scp
+END
+i_shopCommunicator.scp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/AncientRealms/!svn/ver/1/scripts/AncientRealms/economy/shops/i_shopCommunicator.scp
+END
+i_tradingLicence.scp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/AncientRealms/!svn/ver/69/scripts/AncientRealms/economy/shops/i_tradingLicence.scp
+END
+f_ShopFunctions.scp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/AncientRealms/!svn/ver/98/scripts/AncientRealms/economy/shops/f_ShopFunctions.scp
+END
+d_shopClock.scp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/AncientRealms/!svn/ver/1/scripts/AncientRealms/economy/shops/d_shopClock.scp
+END
+i_shopDoors.scp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/AncientRealms/!svn/ver/152/scripts/AncientRealms/economy/shops/i_shopDoors.scp
+END
+spk_shopCommands.scp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/AncientRealms/!svn/ver/1/scripts/AncientRealms/economy/shops/spk_shopCommands.scp
+END
+f_shopClock.scp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/AncientRealms/!svn/ver/1/scripts/AncientRealms/economy/shops/f_shopClock.scp
+END

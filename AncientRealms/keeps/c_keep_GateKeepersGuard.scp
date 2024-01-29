@@ -1,0 +1,51 @@
+[CHARDEF c_keep_GateKeepersGuard]
+DEFNAME=c_keep_GateKeepersGuard
+NAME=#NAMES_HUMANMALE Gate Guard Protector
+ID=C_MAN
+CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
+DAM=50,100
+ARMOR=60
+DESIRES=e_notoriety, t_armor, t_weapon_bow
+TEVENTS=e_KeepGuard
+
+CATEGORY=AncientRealms
+SUBSECTION=Keep Guards
+DESCRIPTION=Gate Guard Protector
+
+ON=@Create
+	NPC=brain_monster
+	COLOR=1009
+	STR=100
+	DEX=100
+	INT=50
+	FAME=100
+	KARMA=-1000	
+	ARCHERY			={80.0 100.0}
+	MACEFIGHTING	={80.0 100.0}
+	SWORDSMANSHIP	={80.0 100.0}
+	FENCING			={80.0 100.0}
+	WRESTLING		={80.0 100.0}
+	HEALING			={80.0 100.0}
+	PARRYING		={80.0 100.0}
+	MAGICRESISTANCE	={80.0 100.0}
+	FOCUS			={80.0 100.0}
+	TACTICS			={80.0 100.0}
+	DETECTINGHIDDEN	={80.0 100.0}
+	HIDING			={80.0 100.0}
+	STEALTH			={80.0 100.0}
+	ITEMNEWBIE i_keep_GuardsBrains, 1, <UID>
+
+	
+ON=@NPCRestock
+	ITEMNEWBIE=i_platemail_helm_verite
+	ITEMNEWBIE=i_platemail_chest_verite
+    ITEMNEWBIE=i_platemail_leggings_verite
+    ITEMNEWBIE=i_platemail_arms_verite
+    ITEMNEWBIE=i_platemail_gloves_verite
+    ITEMNEWBIE=i_platemail_gorget_verite
+    ITEMNEWBIE=i_pike_blackrock
+    ITEMNEWBIE=i_yumi_willow
+    ITEM=i_arrow {6 15}
+
+   
+[EOF]

@@ -1,0 +1,52 @@
+[AREADEF a_Bedlam_Peerless]
+NAME=Monstrous Interred Grizzle Realm
+P=102,1624,50,3
+Rect=97,1628,114,1608,3
+EVENTS=r_peerless_area,r_dungeon_bedlam
+FLAGS=region_flag_nobuilding|region_antimagic_recall_in|region_antimagic_gate|region_flag_underground|region_flag_no_pvp
+GROUP=Malas
+[AREADEF a_BlightedGrove_Peerless]
+EVENTS=r_peerless_area,r_dungeon_blightedgrove
+NAME=Lady Melisande Realm
+FLAGS=region_flag_nobuilding|region_antimagic_recall_in|region_antimagic_gate|region_flag_no_pvp
+GROUP=Peerless Areas
+P=6493,882,0,1
+RECT=6446,814,6596,974,1
+
+[AREADEF a_PrismofLight_Peerless]
+EVENTS=r_peerless_area
+NAME=Shimmering Effusion Realm
+FLAGS=region_flag_nobuilding|region_antimagic_recall_in|region_antimagic_gate|region_flag_no_pvp
+GROUP=Peerless Areas
+P=6541,116,-15,0
+RECT=6544,111,6498,136,0
+
+[AREADEF a_PalaceParoxymous_Peerless]
+EVENTS=r_peerless_area,r_palace_paroxysmus
+NAME=Chief Paroxysmus Realm
+FLAGS=region_flag_nobuilding|region_antimagic_recall_in|region_antimagic_gate|region_flag_no_pvp
+GROUP=Peerless Areas
+P=6519,381,1,0
+RECT=6487,405,6558,331,0
+
+[AREADEF a_DreadHorn_Peerless]
+EVENTS=r_peerless_area,r_dungeon_twistedweald
+NAME=Dread Horn Realm
+FLAGS=region_flag_nobuilding|region_antimagic_recall_in|region_antimagic_gate|region_flag_no_pvp
+GROUP=Peerless Areas
+P=2139,1250,-60,2
+RECT=2126,1238,2146,1269,2
+RECT=2145,1270,2152,1237,2
+RECT=2150,1243,2159,1265,2
+RECT=2157,1260,2160,1252,2
+RECT=2150,1266,2154,1263,2
+
+[AREADEF a_Travesty_Peerless]
+EVENTS=r_peerless_area,r_dungeon_travesty
+NAME=Travesty Realm
+FLAGS=region_flag_nobuilding|region_antimagic_recall_in|region_antimagic_gate|region_flag_no_pvp
+GROUP=Peerless Areas
+P=6259,880,0,1
+RECT=6232,922,6328,859,1
+
+[EOF]

@@ -1,0 +1,44 @@
+
+[FUNCTION ThrowXPot]
+IF <FINDID.i_potion_explosiongreat>
+	FINDID.i_potion_explosiongreat.Dclick
+ENDIF
+
+[FUNCTION f_DropXPot]
+IF <FINDID.i_potion_explosiongreat>
+	IF (<FINDID.i_potion_explosiongreat.AMOUNT> < 2)
+		SYSMESSAGE @321 Only one Pot Left ! Throw it!
+		RETURN 1
+	ELSE
+		IF (<P.ISNEARTYPE t_potion 0>)
+			SYSMESSAGE @321 There is already an XPot Here!
+			RETURN 1
+		ELSE
+			CONSUME 1 i_potion_explosiongreat
+			NEWITEM i_potion_explosiongreat
+			NEW.P=<P>
+		ENDIF
+	ENDIF
+ENDIF
+
+[ITEMDEF i_dropxpot]
+DEFNAME=i_dropxpot
+NAME=Focus HP
+ID=i_potion_explosiongreat
+TYPE=t_eq_script
+
+ON=@create
+	ATTR=attr_move_never|attr_invis
+	TIMER=1d
+
+ON=@timer
+	Cont.f_DropXPot
+	REMOVE
+	RETURN
+
+[FUNCTION DropXPot]
+IF !<FINDID.i_dropxpot>
+	NEWITEM i_dropxpot, 1, <UID>
+ENDIF
+
+[EOF]

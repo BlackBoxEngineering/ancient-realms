@@ -1,0 +1,73 @@
+////////////////
+// GUILD CHAT //
+////////////////
+
+[PLEVEL 1]
+gc
+gcwho
+panic
+
+[FUNCTION gc]
+
+IF (!<MEMORYFINDTYPE.memory_guild.link.UID>)
+	SYSMESSAGE @55 Your not in a guild!
+	RETURN 1
+ELIF (<ISEMPTY <ARGS>>)
+	SYSMESSAGE @0481 GC Needs a message, (eg. ".gc Hello")
+	RETURN 1
+ELSE
+	LOCAL.ABBREV = <MEMORYFINDTYPE.memory_guild.link.ABBREV>
+	LOCAL.g_UID = <MEMORYFINDTYPE.memory_guild.link.UID>
+	SERV.ALLCLIENTS f_GuildChat_FindClanAndMessage <LOCAL.g_UID>,<LOCAL.ABBREV>,<NAME>,<ARGS>
+ENDIF
+
+[FUNCTION f_GuildChat_FindClanAndMessage]
+
+IF (<MEMORYFINDTYPE.memory_guild.link.UID> == <ARGV[0]>)
+	SYSMESSAGE @0003f  (<ARGV[2]>): <ARGV[3]>
+ELIF (<ISGM>)&&(0<def.staff_gc_msg>)
+	SYSMESSAGE @0003f  (<ARGV[2]>): <ARGV[3]>
+ENDIF
+RETURN 1
+
+[FUNCTION gcwho]
+
+IF (!<MEMORYFINDTYPE.memory_guild.link.UID>)
+	SYSMESSAGE @55 Your not in a guild!
+	RETURN 1
+ELSE
+	LOCAL.ABBREV = <MEMORYFINDTYPE.memory_guild.link.ABBREV>
+	LOCAL.g_UID = <MEMORYFINDTYPE.memory_guild.link.UID>
+	SERV.ALLCLIENTS f_GuildChat_ListClanMembers <LOCAL.g_UID>,<LOCAL.ABBREV>,<UID>
+ENDIF
+
+[FUNCTION f_GuildChat_ListClanMembers]
+
+ref34 = <ARGV[2]>
+IF (<MEMORYFINDTYPE.memory_guild.link.UID> == <ARGV[0]>)
+	ref34.SYSMESSAGE @0481 <NAME>: <region.NAME> (<p>)
+ENDIF
+ref34 = 
+RETURN 1
+
+[FUNCTION panic]
+
+IF (!<MEMORYFINDTYPE.memory_guild.link.UID>)
+	SYSMESSAGE @55 Your not in a guild!
+	RETURN 1
+ELSE
+LOCAL.ABBREV = <MEMORYFINDTYPE.memory_guild.link.ABBREV>
+LOCAL.g_UID = <MEMORYFINDTYPE.memory_guild.link.UID>
+SERV.ALLCLIENTS f_GuildChat_ScreamForYourLife <LOCAL.g_UID>,<LOCAL.ABBREV>,<NAME>,<region.NAME>,<p>
+ENDIF
+
+[FUNCTION f_GuildChat_ScreamForYourLife]
+
+IF (<MEMORYFINDTYPE.memory_guild.link.UID> == <ARGV[0]>)
+	SYSMESSAGE @00082 PANIC: (<ARGV[2]>): <ARGV[3]> (<ARGV[4]>,<ARGV[5]>,<ARGV[6]>,<ARGV[7]>)
+ELIF (<ISGM>)&&(<def.staff_gc_msg>)
+	SYSMESSAGE @00082 PANIC: (<ARGV[2]>): <ARGV[3]> (<ARGV[4]>,<ARGV[5]>,<ARGV[6]>,<ARGV[7]>)
+ENDIF
+RETURN 1
+
+[EOF]

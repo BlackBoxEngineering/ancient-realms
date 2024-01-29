@@ -1,0 +1,12 @@
+[DEFNAME Invictus_ArenaControlStoneUids]
+AS_FernBank_NoMansLand 040030601
+AS_FernBank_BlueBase 040030619
+AS_FernBank_RedBase 0400305dd
+AS_FernBank_PlayerSetupBlue 040030681
+AS_FernBank_PlayerSetupRed 04002faa4
+AS_FernBank_PlayerControl 04003a404
+
+AS_FernBank_PlayerSetupRedPadP=6052,1610
+AS_FernBank_PlayerSetupBluePadP=5995,1711	
+
+[EOF]

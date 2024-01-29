@@ -1,0 +1,66 @@
+[EVENTS e_Games_CTSFernBank]
+
+ON=@RegionEnter
+	
+	IF (<ARGO.UID>=<f_ArenaCTSRegionControl <EVAL AS_FernBank_BlueBase>>)
+		SRC.SYSMESSAGE @95 You Have Entered Blue Base
+	ENDIF	
+	IF (<ARGO.UID>=<f_ArenaCTSRegionControl <EVAL AS_FernBank_RedBase>>)
+		SRC.SYSMESSAGE @35 You Have Entered Red Base
+	ENDIF
+	IF (<ARGO.UID>=<f_ArenaCTSRegionControl <EVAL AS_FernBank_NoMansLand>>)
+		//SRC.SYSMESSAGE @55 You Have Entered No Mans Land
+	ENDIF
+	
+	IF (<ARGO.UID>=<f_ArenaCTSRegionControl <EVAL AS_FernBank_PlayerSetupBlue>>)
+		SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueTeamPlayerCount=<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG0.BlueTeamPlayerCount>+1
+		SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueTeamPlayerTotalLevel=<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueTeamPlayerTotalLevel>+<SRC.STR>
+	ENDIF
+	
+	IF (<ARGO.UID>=<f_ArenaCTSRegionControl <EVAL AS_FernBank_PlayerSetupRed>>)
+		SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedTeamPlayerCount=<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG0.RedTeamPlayerCount>+1
+		SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedTeamPlayerTotalLevel=<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedTeamPlayerTotalLevel>+<SRC.STR>
+	ENDIF
+	
+
+ON=@Death
+
+	IF <SRC.FINDID.i_red_shield_cts>
+		SRC.FINDID.i_red_shield_cts.DROP
+	ENDIF
+	
+	IF <SRC.FINDID.i_blue_shield_cts>
+		SRC.FINDID.i_blue_shield_cts.DROP
+	ENDIF
+	
+	IF <SRC.FINDID.i_reward_calculater>
+		FINDID.i_reward_calculater.REMOVE
+	ENDIF
+	
+	IF <EVAL <SRC.Tag.CTSRewardPoints>> > 1
+		SRC.Tag.CTSRewardPoints=<SRC.Tag.CTSRewardPoints>-1
+	ENDIF
+	
+	IF (STRMATCH(*blue*,<SRC.TAG0.CTSTeam>))
+		GO <SERV.UID.<EVAL AS_FernBank_PlayerSetupBlue>.P>
+	ELIF (STRMATCH(*red*,<SRC.TAG0.CTSTeam>))
+		GO <SERV.UID.<EVAL AS_FernBank_PlayerSetupRed>.P>
+	ELSE
+		leaveCTS
+		SRC.Tag.CTSRewardPoints=0
+	ENDIF
+
+ON=@DeathCorpse
+
+	ARGO.REMOVE
+	RETURN 1
+
+[PLEVEL 1]
+ShowCtsScore
+	
+[FUNCTION ShowCtsScore]
+SAY @63 Score : ( <EVAL <Tag.CTSRewardPoints>> )
+
+
+	
+[EOF]

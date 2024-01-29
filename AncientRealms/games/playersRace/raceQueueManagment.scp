@@ -1,0 +1,230 @@
+////////////////////////////////////////////// JoinRace
+[FUNCTION JoinRace]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+IF !<REF1.TAG.GameIsOn>
+	CALL f_queuePlayerForRace <UID>
+ELSE
+	SYSMESSAGE @46,,1 There is a race already on you must wait untill it is finished to signup for the next
+	RETURN 1
+ENDIF
+
+////////////////////////////////////////////// f_queuePlayerForRace
+[FUNCTION f_queuePlayerForRace]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+REF2=<SERV.UID.<ARGV[0]>>
+IF !<REF1.TAG.PreventSignUp>
+	LOCAL.AlreadyJoinedRace=0
+	LOCAL.NextSlotNo=<f_findNextSlotNumber <VAR.RaceControlUID>>
+	IF <REF1.TAG0.PlayerCount> < 1
+		REF1.TAG.PlayerCount=0
+	ELSE
+		FOR SlotNo 1 <EVAL <REF1.TAG0.PlayerCount>>
+			IF <REF1.TAG.PlayerNumber_<EVAL <LOCAL.SlotNo>>_UID>==<REF2.UID>
+				LOCAL.AlreadyJoinedRace=1
+			ENDIF
+		ENDFOR
+	ENDIF
+	IF <EVAL <LOCAL.AlreadyJoinedRace>>==1
+		REF2.SYSMESSAGE @55,,1 You are already queued for this race!
+	ELSE
+		REF1.TAG.PlayerNumber_<EVAL <LOCAL.NextSlotNo>>_NAME = <REF2.NAME>
+		REF1.TAG.PlayerNumber_<EVAL <LOCAL.NextSlotNo>>_UID = <ARGV[0]>
+		REF1.TAG.PlayerCount ++
+		REF2.CTAG.PlayerNumber=<EVAL <LOCAL.NextSlotNo>>
+		//SERV.LOG <REF2.NAME> is queued in slot <EVAL <LOCAL.NextSlotNo>>
+		REF2.SYSMESSAGE @55,,1 You are now queued for the race!
+		REF2.TAG.WereIWasBeforeIJoined=<REF2.P>
+	ENDIF
+ELSE
+	REF2.SYSMESSAGE @00029,,1 Try to sign up again in a a few seconds.
+	RETURN 1
+ENDIF
+
+////////////////////////////////////////////// LeaveRace
+[FUNCTION LeaveRace]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+IF !<REF1.TAG.GameIsOn>
+	CALL f_removeQueuedPlayerFromRace <UID>
+ENDIF
+
+////////////////////////////////////////////// f_removeQueuedPlayerFromRace
+[FUNCTION f_removeQueuedPlayerFromRace]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+REF1.TAG.PreventSignUp=1
+REF2=<SERV.UID.<ARGV[0]>>
+IF <REF1.TAG0.PlayerCount> < 1
+	REF1.TAG.PlayerCount=0
+ELSE
+	FOR SlotNo 1 <EVAL <REF1.TAG0.PlayerCount>>
+		IF <REF1.TAG0.PlayerNumber_<EVAL <LOCAL.SlotNo>>_UID>==<REF2.UID>
+			REF1.TAG.PlayerNumber_<EVAL <LOCAL.SlotNo>>_DistanceToLastCP = 
+			REF1.TAG.PlayerNumber_<EVAL <LOCAL.SlotNo>>_NAME = 
+			REF1.TAG.PlayerNumber_<EVAL <LOCAL.SlotNo>>_UID =
+			REF2.SYSMESSAGE @55,,1 You have left the queue for the race!
+			//SERV.LOG <REF2.NAME> is removed from RaceSlot(<EVAL <LOCAL.SlotNo>>)
+			REF2.CTAG.PlayerNumber=
+			REF1.TAG.PlayerCount --
+			CALL f_raceRestackQueue
+		ENDIF
+	ENDFOR
+ENDIF
+REF1.TAG.PreventSignUp=
+
+////////////////////////////////////////////// f_raceRestackQueue
+[FUNCTION f_raceRestackQueue]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+REF1.TAG.PreventSignUp=1
+LOCAL.RevisedPlayerCount=0
+FOR X 1 <EVAL <REF1.TAG0.PlayerCount>>
+	IF <SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.X>>_UID>>
+		//SERV.LOG Slot <EVAL <LOCAL.X>> holds player <REF1.TAG0.PlayerNumber_<EVAL <LOCAL.X>>_NAME> no change needed
+		REF1.TAG.PlayerNumber_<EVAL <LOCAL.X>>_UID	=	<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.X>>_UID>
+		REF1.TAG.PlayerNumber_<EVAL <LOCAL.X>>_NAME	=	<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.X>>_NAME>
+		LOCAL.RevisedPlayerCount=<EVAL <LOCAL.RevisedPlayerCount> + 1 >
+	ELSE
+		FOR Z <EVAL <LOCAL.X>> <EVAL <REF1.TAG0.PlayerCount>+1>
+			IF ((<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.Z>>_UID>)&&(<EVAL <LOCAL.Z>> > <EVAL <LOCAL.X>>))
+				//SERV.LOG Slot <EVAL <LOCAL.Z>> holds player <REF1.TAG0.PlayerNumber_<EVAL <LOCAL.Z>>_NAME> moving down from slot <EVAL <LOCAL.Z>> to <EVAL <LOCAL.Z>-1>
+				REF1.TAG.PlayerNumber_<EVAL <LOCAL.Z> -1 >_UID=<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.Z>>_UID>
+				REF1.TAG.PlayerNumber_<EVAL <LOCAL.Z> -1 >_NAME=<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.Z>>_NAME>
+				SERV.UID.<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.Z>>_UID>.CTAG.PlayerNumber=<EVAL <LOCAL.Z> -1 >
+				REF1.TAG.PlayerNumber_<EVAL <LOCAL.Z>>_UID=
+				REF1.TAG.PlayerNumber_<EVAL <LOCAL.Z>>_NAME=
+				LOCAL.Z=<EVAL <REF1.TAG0.PlayerCount> + <LOCAL.Z>>
+			ENDIF
+		ENDFOR
+	ENDIF
+ENDFOR
+REF1.TAG.PreventSignUp=
+
+////////////////////////////////////////////// f_findNextSlotNumber
+[FUNCTION f_findNextSlotNumber]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+LOCAL.NextFreeSlotNo=0
+FOR SlotNo 1 <EVAL <REF1.TAG0.PlayerCount>>
+	IF !<REF1.TAG0.PlayerNumber_<EVAL <LOCAL.SlotNo>>_UID>
+		LOCAL.NextFreeSlotNo=<EVAL <LOCAL.SlotNo>>
+	ENDIF
+ENDFOR
+IF <EVAL <LOCAL.NextFreeSlotNo>> < 1
+	LOCAL.NextFreeSlotNo=<EVAL <REF1.TAG0.PlayerCount>+1>
+ENDIF
+RETURN <EVAL <LOCAL.NextFreeSlotNo>>
+
+////////////////////////////////////////////// f_raceShuffleQueue
+[FUNCTION f_raceShuffleQueue]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+REF1.TAG.PreventSignUp=1
+LOCAL.TweakRandomRange=<EVAL SuffleRandomicity>	// To increase randomicity by increasing the range.
+FOR SlotNo 1 <EVAL <REF1.TAG.PlayerCount>>
+	LOCAL.RandomSlotNo=<R<EVAL <REF1.TAG.PlayerCount>+1>,<EVAL (<REF1.TAG0.PlayerCount> * <LOCAL.TweakRandomRange>)>>
+	IF <REF1.TAG0.PlayerNumber_<EVAL <LOCAL.RandomSlotNo>>_UID>!=0
+		//SERV.LOG Duplicated Random Value, Slot already Exists, UID from <EVAL <LOCAL.SlotNo>> Shall not move.
+	ELSE
+		IF <REF1.TAG0.PlayerNumber_<EVAL <LOCAL.SlotNo>>_UID>!=0
+			//SERV.LOG Creating Temporary Copy of slotNo <EVAL <LOCAL.SlotNo>> sending to RandomSlotNo <EVAL <LOCAL.RandomSlotNo>>
+			REF1.TAG.PlayerNumber_<EVAL <LOCAL.RandomSlotNo>>_UID=<REF1.TAG.PlayerNumber_<EVAL <LOCAL.SlotNo>>_UID>
+			REF1.TAG.PlayerNumber_<EVAL <LOCAL.RandomSlotNo>>_Name=<REF1.TAG.PlayerNumber_<EVAL <LOCAL.SlotNo>>_NAME>
+			REF1.TAG.PlayerNumber_<EVAL <LOCAL.SlotNo>>_UID =
+			REF1.TAG.PlayerNumber_<EVAL <LOCAL.SlotNo>>_NAME =
+		ENDIF
+	ENDIF
+ENDFOR
+LOCAL.NextUsedSlotNo=1
+FOR NextUsedSlotNo <EVAL <REF1.TAG.PlayerCount>+1> <EVAL <REF1.TAG.PlayerCount> * <LOCAL.TweakRandomRange>>
+	IF <REF1.TAG0.PlayerNumber_<EVAL <LOCAL.NextUsedSlotNo>>_UID>!=0
+		LOCAL.TempSlotNo=<f_findNextSlotNumber>
+		//SERV.LOG The Next Slot in Use is <EVAL <LOCAL.NextUsedSlotNo>> holding player <REF1.TAG.PlayerNumber_<EVAL <LOCAL.NextUsedSlotNo>>_NAME> transfering to slotNo <EVAL <LOCAL.TempSlotNo>>
+		REF1.TAG.PlayerNumber_<EVAL <LOCAL.TempSlotNo>>_UID	 = <REF1.TAG.PlayerNumber_<EVAL <LOCAL.NextUsedSlotNo>>_UID>
+		REF1.TAG.PlayerNumber_<EVAL <LOCAL.TempSlotNo>>_NAME = <REF1.TAG.PlayerNumber_<EVAL <LOCAL.NextUsedSlotNo>>_NAME>
+		SERV.UID.<REF1.TAG.PlayerNumber_<EVAL <LOCAL.NextUsedSlotNo>>_UID>.CTAG.PlayerNumber=<EVAL <LOCAL.TempSlotNo>>
+		REF1.TAG.PlayerNumber_<EVAL <LOCAL.NextUsedSlotNo>>_UID=
+		REF1.TAG.PlayerNumber_<EVAL <LOCAL.NextUsedSlotNo>>_NAME=
+	ENDIF
+ENDFOR
+REF1.TAG.PreventSignUp=
+
+////////////////////////////////////////////// f_racePlaceCheckPoint
+[FUNCTION f_racePlaceCheckPoint]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+SERV.NEWITEM=i_raceCheckPoint
+NEW.P=<TARGP>
+IF !<REF1.TAG.CheckPointCount>
+	REF1.TAG.CheckPointCount=0
+ENDIF
+REF1.TAG.CheckPointCount=<EVAL <REF1.TAG0.CheckPointCount>+1>
+NEW.TAG.CheckPointNumber=<EVAL <REF1.TAG0.CheckPointCount>>
+REF1.TAG.checkpointselected=<EVAL <REF1.TAG0.CheckPointCount>>
+REF1.TAG.CheckPoint_<EVAL <REF1.TAG0.CheckPointCount>>_CheckPointNumber=<EVAL <REF1.TAG0.CheckPointCount>>
+REF1.TAG.CheckPoint_<EVAL <REF1.TAG0.CheckPointCount>>_UID=<NEW.UID>
+REF1.TAG.CheckPoint_<EVAL <REF1.TAG0.CheckPointCount>>_P=<NEW.P>
+NEW.LINK =<SERV.UID.<VAR.RaceControlUID>>
+NEW.TIMER = 2
+IF <EVAL <REF1.TAG.CheckPoint_<EVAL <REF1.TAG0.CheckPointCount>>_CheckPointNumber>>==2
+	REF2=<SERV.UID.<REF1.TAG.CheckPoint_1_UID>>
+	IF ((!<f_isVertical <REF2.UID>,<NEW.UID>>)&&(!<f_isHorizontal <REF2.UID>,<NEW.UID>>))
+		f_raceRemoveCheckPoint 2
+		SYSMESSAGE @33,,1 CheckPoint 2 cannot be placed diagonally from CheckPoint 1 try again
+		REF1.TAG.CheckPointSelected=<EVAL <REF1.TAG.CheckPointSelected>-1>
+	ENDIF
+ENDIF	
+SRC.SDIALOG d_raceTrackSetup 1
+
+////////////////////////////////////////////// f_raceRestackCheckPoints
+[FUNCTION f_raceRestackCheckPoints]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+FOR X 1 <EVAL <REF1.TAG0.CheckPointCount>>
+    IF !<SERV.UID.<REF1.TAG0.CheckPoint_<EVAL <LOCAL.X>>_UID>>
+        FOR Z <EVAL <LOCAL.X>> <EVAL <REF1.TAG0.CheckPointCount>+1>
+			IF ((<REF1.TAG0.CheckPoint_<EVAL <LOCAL.Z>>_UID>)&&(<EVAL <LOCAL.Z>> > <EVAL <LOCAL.X>>))
+				//SERV.LOG Changing CheckPoint(<EVAL <REF1.TAG0.CheckPoint_<EVAL <LOCAL.Z>>_CheckPointNumber>>) too CheckPoint(<EVAL <LOCAL.Z>-1>)
+				REF1.TAG.CheckPoint_<EVAL <LOCAL.Z> -1 >_CheckPointNumber	= <EVAL <LOCAL.Z> -1 >
+				REF1.TAG.CheckPoint_<EVAL <LOCAL.Z> -1 >_P					= <REF1.TAG.CheckPoint_<EVAL <LOCAL.Z>>_P>
+				REF1.TAG.CheckPoint_<EVAL <LOCAL.Z> -1 >_UID				= <REF1.TAG.CheckPoint_<EVAL <LOCAL.Z>>_UID>
+				REF1.TAG.CheckPoint_<EVAL <LOCAL.Z> -1 >_DistanceFromLastCP = <REF1.TAG.CheckPoint_<EVAL <LOCAL.Z>>_DistanceFromLastCP>
+				REF2=<SERV.UID.<REF1.TAG.CheckPoint_<EVAL <LOCAL.Z> -1 >_UID>>
+				REF2.TAG.CheckPointNumber=<EVAL <LOCAL.Z> -1 >
+				REF2.NAME=Check Point [<EVAL <LOCAL.Z> -1 >]
+				REF1.TAG.CheckPoint_<EVAL <LOCAL.Z>>_CheckPointNumber	= 
+				REF1.TAG.CheckPoint_<EVAL <LOCAL.Z>>_P					= 
+				REF1.TAG.CheckPoint_<EVAL <LOCAL.Z>>_UID				= 
+				REF1.TAG.CheckPoint_<EVAL <LOCAL.Z>>_DistanceFromLastCP = 
+				LOCAL.Z=<EVAL <REF1.TAG0.CheckPointCount> + <LOCAL.Z>>
+			ENDIF
+        ENDFOR
+    ENDIF
+ENDFOR
+
+////////////////////////////////////////////// f_raceFindSlotCheckPoint
+[FUNCTION f_raceFindSlotCheckPoint]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+LOCAL.nextCheckPoint=0
+FOR CheckPointNo 1 <EVAL <REF1.TAG.CheckPointCount>>
+	IF !<REF1.TAG.CheckPoint_<EVAL <LOCAL.CheckPointNo>>_UID>
+		LOCAL.CheckPointNo=<EVAL <REF1.TAG.CheckPointCount> * 2>
+		LOCAL.nextCheckPoint=<EVAL <LOCAL.CheckPointNo>>
+		RETURN <EVAL <LOCAL.CheckPointNo>>
+	ENDIF
+ENDFOR
+RETURN <EVAL <LOCAL.CheckPointNo>>
+
+////////////////////////////////////////////// f_raceRemoveCheckPoint
+[FUNCTION f_raceRemoveCheckPoint]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+REF2=<SERV.UID.<REF1.TAG.CheckPoint_<EVAL <ARGV[0]>>_UID>>
+IF <REF2.LINK.UID>
+	REF2.LINK.TIMER=2
+	REF2.LINK=
+ENDIF
+REF1.TAG.CheckPoint_<EVAL <ARGV[0]>>_DistanceFromLastCP=
+REF1.TAG.CheckPoint_<EVAL <ARGV[0]>>_CheckPointNumber=
+REF1.TAG.CheckPoint_<EVAL <ARGV[0]>>_UID=
+REF1.TAG.CheckPoint_<EVAL <ARGV[0]>>_P=
+IF <EVAL <REF1.TAG.CheckPointCount>> > 0
+	REF1.TAG.CheckPointCount=<EVAL <REF1.TAG.CheckPointCount>-1>
+	SERV.UID.<REF2.UID>.REMOVE
+ENDIF
+f_raceRestackCheckPoints
+RETURN 0
+
+[EOF]

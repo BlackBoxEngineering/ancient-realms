@@ -1,0 +1,26 @@
+[SPEECH spk_HouseVendor]
+
+ON=*hungry*
+	FACE <SRC.UID>
+	SAY I have <food> left.
+
+ON=*wish*dress*
+	FACE <SRC.UID>
+	IF (<FINDID.i_vendor_use.LINK>==<SRC.UID>)
+		SRC.TAG.Dress=1
+		FINDID.i_vendor_use.MOREX=1
+		FINDID.i_vendor_use.TARGET
+	ENDIF
+	RETURN 1
+
+ON=*wish*undress*
+	FACE <SRC.UID>
+	UNEQUIPALL
+	RETURN 1
+
+ON=*owner*
+	FACE <SRC.UID>
+	SAY My owner is <FINDID.i_vendor_use.LINK.NAME>
+
+
+[EOF]

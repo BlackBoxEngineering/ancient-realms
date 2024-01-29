@@ -1,0 +1,2483 @@
+Admin Phil (The 13th Floor)
+
+[ITEMDEF i_powerscroll1] 
+DEFNAME=i_powerscroll1 
+NAME=lengendary scroll of swordsmanship (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Swordsmanship 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll1
+Return 1
+
+[MENU m_powerscroll1] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in swordsmanship by 20 points.
+SOUND=495
+SRC.SWORDSMANSHIP=(<SRC.SWORDSMANSHIP>+200)
+SRC.Message Your Skill in Swordsmanship has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll1.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+
+[ITEMDEF i_powerscroll2] 
+DEFNAME=i_powerscroll2 
+NAME=lengendary scroll of magery (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Magery 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll2
+Return 1
+
+[MENU m_powerscroll2] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in magery by 20 points.
+SOUND=495
+SRC.MAGERY=(<SRC.MAGERY>+200)
+SRC.Message Your Skill in Magery has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll2.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll3] 
+DEFNAME=i_powerscroll3 
+NAME=lengendary scroll of tactics (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Tactics 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll3
+Return 1
+
+[MENU m_powerscroll3] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in tactics by 20 points.
+SOUND=495
+SRC.TACTICS=(<SRC.TACTICS>+200)
+SRC.Message Your Skill in Tactics has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll3.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll4] 
+DEFNAME=i_powerscroll4
+NAME=lengendary scroll of anatomy (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Anatomy 20
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll4
+Return 1
+
+[MENU m_powerscroll4] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in anatomy by 20 points.
+SOUND=495
+SRC.ANATOMY=(<SRC.ANATOMY>+200)
+SRC.Message Your Skill in Anatomy has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll4.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll5] 
+DEFNAME=i_powerscroll5 
+NAME=lengendary scroll of evaluating intelligence (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Evaluating Intelligence 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll5
+Return 1
+
+[MENU m_powerscroll5] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in evaluating intelligence by 20 points.
+SOUND=495
+SRC.EVALUATINGINTEL=(<SRC.EVALUATINGINTEL>+200)
+SRC.Message Your Skill in Evaluating Intelligence has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll5.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll6] 
+DEFNAME=i_powerscroll6 
+NAME=lengendary scroll of healing (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Healing 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll6
+Return 1
+
+[MENU m_powerscroll6] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in healing by 20 points.
+SOUND=495
+SRC.HEALING=(<SRC.HEALING>+200)
+SRC.Message Your Skill in Healing has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll6.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll7] 
+DEFNAME=i_powerscroll7 
+NAME=lengendary scroll of lumberjacking (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Lumberjacking 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll7
+Return 1
+
+[MENU m_powerscroll7] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in lumberjacking by 20 points.
+SOUND=495
+SRC.LUMBERJACKING=(<SRC.LUMBERJACKING>+200)
+SRC.Message Your Skill in Lumberjacking has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll7.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll8] 
+DEFNAME=i_powerscroll8 
+NAME=lengendary scroll of resisting spells (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Magic Resistance 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll8
+Return 1
+
+[MENU m_powerscroll8] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in resisting spells by 20 points.
+SOUND=495
+SRC.MAGICRESISTANCE=(<SRC.MAGICRESISTANCE>+200)
+SRC.Message Your Skill in Resisting Spells has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll8.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll9] 
+DEFNAME=i_powerscroll9 
+NAME=lengendary scroll of meditation (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Meditation 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll9
+Return 1
+
+[MENU m_powerscroll9] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in meditation by 20 points.
+SOUND=495
+SRC.MEDITATION=(<SRC.MEDITATION>+200)
+SRC.Message Your Skill in Meditation has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll9.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll10] 
+DEFNAME=i_powerscroll10 
+NAME=lengendary scroll of animal taming (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Animal Taming 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll10
+Return 1
+
+[MENU m_powerscroll10] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in animal taming by 20 points.
+SOUND=495
+SRC.TAMING=(<SRC.TAMING>+200)
+SRC.Message Your Skill in Animal Taming has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll10.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll11] 
+DEFNAME=i_powerscroll11
+NAME=lengendary scroll of wrestling (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Wrestling 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll11
+Return 1
+
+[MENU m_powerscroll11] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in wrestling by 20 points.
+SOUND=495
+SRC.WRESTLING=(<SRC.WRESTLING>+200)
+SRC.Message Your Skill in Wrestling has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll11.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll12] 
+DEFNAME=i_powerscroll12 
+NAME=lengendary scroll of mace fighting (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Mace Fighting 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll12
+Return 1
+
+[MENU m_powerscroll12] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in mace fighting by 20 points.
+SOUND=495
+SRC.MACEFIGHTING=(<SRC.MACEFIGHTING>+200)
+SRC.Message Your Skill in Mace Fighting has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll1.REMOVE
+MORE2=<MORE2>+-12
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll13] 
+DEFNAME=i_powerscroll13 
+NAME=lengendary scroll of archery (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Archery 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll13
+Return 1
+
+[MENU m_powerscroll13] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in archery by 20 points.
+SOUND=495
+SRC.ARCHERY=(<SRC.ARCHERY>+200)
+SRC.Message Your Skill in Archery has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll13.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll14] 
+DEFNAME=i_powerscroll14 
+NAME=lengendary scroll of blacksmithing (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Blacksmithing 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll14
+Return 1
+
+[MENU m_powerscroll14] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in blacksmithing by 20 points.
+SOUND=495
+SRC.BLACKSMITHING=(<SRC.BLACKSMITHING>+200)
+SRC.Message Your Skill in Blacksmithing has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll14.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll15] 
+DEFNAME=i_powerscroll15
+NAME=lengendary scroll of fencing (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Fencing 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll15
+Return 1
+
+[MENU m_powerscroll15] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in fencing by 20 points.
+SOUND=495
+SRC.FENCING=(<SRC.FENCING>+200)
+SRC.Message Your Skill in Fencing has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll15.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll16] 
+DEFNAME=i_powerscroll16 
+NAME=lengendary scroll of mining (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Mining 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll16
+Return 1
+
+[MENU m_powerscroll16] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in mining by 20 points.
+SOUND=495
+SRC.MINING=(<SRC.MINING>+200)
+SRC.Message Your Skill in Mining has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll16.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll17] 
+DEFNAME=i_powerscroll17
+NAME=lengendary scroll of necromancy (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Necromancy 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll17
+Return 1
+
+[MENU m_powerscroll17] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in necromancy by 20 points.
+SOUND=495
+SRC.NECROMANCY=(<SRC.NECROMANCY>+200)
+SRC.Message Your Skill in Necromancy has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll17.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll18] 
+DEFNAME=i_powerscroll18 
+NAME=lengendary scroll of tailoring (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Tailoring 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll18
+Return 1
+
+[MENU m_powerscroll18] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in tailoring by 20 points.
+SOUND=495
+SRC.TAILORING=(<SRC.TAILORING>+200)
+SRC.Message Your Skill in Tailoring has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll1.REMOVE
+MORE2=<MORE2>+-18
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll19] 
+DEFNAME=i_powerscroll19 
+NAME=lengendary scroll of hiding (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Hiding 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll19
+Return 1
+
+[MENU m_powerscroll19] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in hiding by 20 points.
+SOUND=495
+SRC.HIDING=(<SRC.HIDING>+200)
+SRC.Message Your Skill in Hiding has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll1.REMOVE
+MORE2=<MORE2>+-19
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll20] 
+DEFNAME=i_powerscroll20 
+NAME=lengendary scroll of veterinary (+20.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Veterinary 20
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll20
+Return 1
+
+[MENU m_powerscroll20] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in veterinary by 20 points.
+SOUND=495
+SRC.VETERINARY=(<SRC.VETERINARY>+200)
+SRC.Message Your Skill in Veterinary has changed by 20.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll20.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll21] 
+DEFNAME=i_powerscroll21 
+NAME=mythical scroll of swordsmanship (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Swordsmanship 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll21
+Return 1
+
+[MENU m_powerscroll21] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in swordsmanship by 15 points.
+SOUND=495
+SRC.SWORDSMANSHIP=(<SRC.SWORDSMANSHIP>+150)
+SRC.Message Your Skill in Swordsmanship has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll21.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll22] 
+DEFNAME=i_powerscroll22 
+NAME=mythical scroll of magery (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Magery 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll22
+Return 1
+
+[MENU m_powerscroll22] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in magery by 15 points.
+SOUND=495
+SRC.MAGERY=(<SRC.MAGERY>+150)
+SRC.Message Your Skill in Magery has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll22.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll23] 
+DEFNAME=i_powerscroll23 
+NAME=mythical scroll of tactics (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Tactics 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll23
+Return 1
+
+[MENU m_powerscroll23] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in tactics by 15 points.
+SOUND=495
+SRC.TACTICS=(<SRC.TACTICS>+150)
+SRC.Message Your Skill in Tactics has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll23.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll24] 
+DEFNAME=i_powerscroll24 
+NAME=mythical scroll of anatomy (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Anatomy 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll24
+Return 1
+
+[MENU m_powerscroll24] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in anatomy by 15 points.
+SOUND=495
+SRC.ANATOMY=(<SRC.ANATOMY>+150)
+SRC.Message Your Skill in Anatomy has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll24.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll25] 
+DEFNAME=i_powerscroll25 
+NAME=mythical scroll of evaluating intelligence (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Evaluating Intelligence 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll25
+Return 1
+
+[MENU m_powerscroll25] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in evaluating intelligence by 15 points.
+SOUND=495
+SRC.EVALUATINGINTEL=(<SRC.EVALUATINGINTEL>+150)
+SRC.Message Your Skill in Evaluating Intelligence has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll25.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll26] 
+DEFNAME=i_powerscroll26 
+NAME=mythical scroll of healing (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Healing 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll26
+Return 1
+
+[MENU m_powerscroll26] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in healing by 15 points.
+SOUND=495
+SRC.HEALING=(<SRC.HEALING>+150)
+SRC.Message Your skill in healing has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll26.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll27] 
+DEFNAME=i_powerscroll27 
+NAME=mythical scroll of lumberjacking (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Lumberjacking 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll27
+Return 1
+
+[MENU m_powerscroll27] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in lumberjacking by 15 points.
+SOUND=495
+SRC.LUMBERJACKING=(<SRC.LUMBERJACKING>+150)
+SRC.Message Your skill in lumberjacking has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll27.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll28] 
+DEFNAME=i_powerscroll28 
+NAME=mythical scroll of resisting spells (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Resisting Spells 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll268
+Return 1
+
+[MENU m_powerscroll28] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in resisting spells by 15 points.
+SOUND=495
+SRC.MAGICRESISTANCE=(<SRC.MAGICRESISTANCE>+150)
+SRC.Message Your skill in resisting spells has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll28.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll29] 
+DEFNAME=i_powerscroll29 
+NAME=mythical scroll of meditation (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Meditation 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll29
+Return 1
+
+[MENU m_powerscroll29] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in meditation by 15 points.
+SOUND=495
+SRC.MEDITATION=(<SRC.MEDITATION>+150)
+SRC.Message Your skill in meditation has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll29.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll30] 
+DEFNAME=i_powerscroll30 
+NAME=mythical scroll of animal taming (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Animal Taming 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll30
+Return 1
+
+[MENU m_powerscroll30] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in animal taming by 15 points.
+SOUND=495
+SRC.TAMING=(<SRC.TAMING>+150)
+SRC.Message Your skill in animal taming has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll30.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll31] 
+DEFNAME=i_powerscroll31 
+NAME=exalted scroll of animal taming (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Animal Taming 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll31
+Return 1
+
+[MENU m_powerscroll31] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in animal taming by 10 points.
+SOUND=495
+SRC.TAMING=(<SRC.TAMING>+100)
+SRC.Message Your skill in animal taming has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll31.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll32] 
+DEFNAME=i_powerscroll32 
+NAME=wonderous scroll of animal taming (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Animal Taming 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll32
+Return 1
+
+[MENU m_powerscroll32] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in animal taming by 5 points.
+SOUND=495
+SRC.TAMING=(<SRC.TAMING>+50)
+SRC.Message Your skill in animal taming has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll32.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll33] 
+DEFNAME=i_powerscroll33 
+NAME=exalted scroll of meditation (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Meditation 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll33
+Return 1
+
+[MENU m_powerscroll33] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in meditation by 10 points.
+SOUND=495
+SRC.MEDITATION=(<SRC.MEDITATION>+100)
+SRC.Message Your skill in meditation has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll33.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll34] 
+DEFNAME=i_powerscroll34 
+NAME=wonderous scroll of meditation (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Meditation 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll34
+Return 1
+
+[MENU m_powerscroll34] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in meditation by 5 points.
+SOUND=495
+SRC.MEDITATION=(<SRC.MEDITATION>+50)
+SRC.Message Your skill in meditation has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll34.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll35] 
+DEFNAME=i_powerscroll35 
+NAME=exalted scroll of resisting spells (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Resisting Spells 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll35
+Return 1
+
+[MENU m_powerscroll35] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in resisting spells by 10 points.
+SOUND=495
+SRC.MAGICRESISTANCE=(<SRC.MAGICRESISTANCE>+100)
+SRC.Message Your skill in resisting spells has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll35.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll36] 
+DEFNAME=i_powerscroll36 
+NAME=wonderous scroll of resisting spells (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Resisting Spells 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll36
+Return 1
+
+[MENU m_powerscroll36] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in resisting spells by 5 points.
+SOUND=495
+SRC.MAGICRESISTANCE=(<SRC.MAGICRESISTANCE>+50)
+SRC.Message Your skill in resisting spells has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll36.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll37] 
+DEFNAME=i_powerscroll37 
+NAME=exalted scroll of lumberjacking (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Lumberjacking 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll37
+Return 1
+
+[MENU m_powerscroll37] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in lumberjacking by 10 points.
+SOUND=495
+SRC.LUMBERJACKING=(<SRC.LUMBERJACKING>+100)
+SRC.Message Your skill in lumberjacking has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll37.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll38] 
+DEFNAME=i_powerscroll38 
+NAME=wonderous scroll of lumberjacking (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Lumberjacking 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll38
+Return 1
+
+[MENU m_powerscroll38] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in lumberjacking by 5 points.
+SOUND=495
+SRC.LUMBERJACKING=(<SRC.LUMBERJACKING>+50)
+SRC.Message Your skill in lumberjacking has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll38.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll39] 
+DEFNAME=i_powerscroll39 
+NAME=exalted scroll of evaluating intelligence (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Evaluating Intelligence 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll39
+Return 1
+
+[MENU m_powerscroll39] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in evaluating intelligence by 10 points.
+SOUND=495
+SRC.EVALUATINGINTEL=(<SRC.EVALUATINGINTEL>+100)
+SRC.Message Your skill in evaluating intelligence has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll39.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll40] 
+DEFNAME=i_powerscroll40 
+NAME=wonderous scroll of evaluating intelligence (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Evaluating Intelligence 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll40
+Return 1
+
+[MENU m_powerscroll40] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in evaluating intelligence by 5 points.
+SOUND=495
+SRC.EVALUATINGINTEL=(<SRC.EVALUATINGINTEL>+50)
+SRC.Message Your skill in evaluating intelligence has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll40.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll41] 
+DEFNAME=i_powerscroll41 
+NAME=exalted scroll of healing (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Healing 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll41
+Return 1
+
+[MENU m_powerscroll41] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in healing by 10 points.
+SOUND=495
+SRC.HEALING=(<SRC.HEALING>+100)
+SRC.Message Your skill in healing has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll41.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll42] 
+DEFNAME=i_powerscroll42 
+NAME=wonderous scroll of healing (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Healing 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll42
+Return 1
+
+[MENU m_powerscroll42] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in healing by 5 points.
+SOUND=495
+SRC.HEALING=(<SRC.HEALING>+50)
+SRC.Message Your skill in healing has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll32.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll43] 
+DEFNAME=i_powerscroll43 
+NAME=exalted scroll of anatomy (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Anatomy 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll43
+Return 1
+
+[MENU m_powerscroll43] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in anatomy by 10 points.
+SOUND=495
+SRC.ANATOMY=(<SRC.ANATOMY>+100)
+SRC.Message Your skill in anatomy has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll43.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll44] 
+DEFNAME=i_powerscroll44
+NAME=wonderous scroll of anatomy (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Anatomy 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll44
+Return 1
+
+[MENU m_powerscroll44] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in anatomy by 5 points.
+SOUND=495
+SRC.ANATOMY=(<SRC.ANATOMY>+50)
+SRC.Message Your skill in anatomy has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll44.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll45] 
+DEFNAME=i_powerscroll45 
+NAME=exalted scroll of tactics (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Tactics 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll45
+Return 1
+
+[MENU m_powerscroll45] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in tactics by 10 points.
+SOUND=495
+SRC.TACTICS=(<SRC.TACTICS>+100)
+SRC.Message Your skill in tactics has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll45.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll46] 
+DEFNAME=i_powerscroll46 
+NAME=wonderous scroll of tactics (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Tactics 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll46
+Return 1
+
+[MENU m_powerscroll46] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in tactics by 5 points.
+SOUND=495
+SRC.TACTICS=(<SRC.TACTICS>+50)
+SRC.Message Your skill in tactics has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll46.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll47] 
+DEFNAME=i_powerscroll47 
+NAME=exalted scroll of magery (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Magery 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll47
+Return 1
+
+[MENU m_powerscroll47] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in magery by 10 points.
+SOUND=495
+SRC.MAGERY=(<SRC.MAGERY>+100)
+SRC.Message Your skill in magery has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll47.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll48] 
+DEFNAME=i_powerscroll48 
+NAME=wonderous scroll of magery (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Magery 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll48
+Return 1
+
+[MENU m_powerscroll48] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in magery by 5 points.
+SOUND=495
+SRC.MAGERY=(<SRC.MAGERY>+50)
+SRC.Message Your skill in magery has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll48.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll49] 
+DEFNAME=i_powerscroll49 
+NAME=exalted scroll of swordsmanship (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Swordsmanship 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll49
+Return 1
+
+[MENU m_powerscroll49] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in swordsmanship by 10 points.
+SOUND=495
+SRC.SWORDSMANSHIP=(<SRC.SWORDSMANSHIP>+100)
+SRC.Message Your skill in swordsmanship has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll49.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll50] 
+DEFNAME=i_powerscroll50 
+NAME=wonderous scroll of swordsmanship (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Swordsmanship 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll50
+Return 1
+
+[MENU m_powerscroll50] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in swordsmanship by 5 points.
+SOUND=495
+SRC.SWORDSMANSHIP=(<SRC.SWORDSMANSHIP>+50)
+SRC.Message Your skill in swordsmanship has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll50.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll51] 
+DEFNAME=i_powerscroll51
+NAME=mythical scroll of wrestling (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Wrestling 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll51
+Return 1
+
+[MENU m_powerscroll51] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in wrestling by 15 points.
+SOUND=495
+SRC.WRESTLING=(<SRC.WRESTLING>+150)
+SRC.Message Your Skill in wrestling has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll51.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll52] 
+DEFNAME=i_powerscroll52
+NAME=exalted scroll of wrestling (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Wrestling 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll52
+Return 1
+
+[MENU m_powerscroll52] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in wrestling by 10 points.
+SOUND=495
+SRC.WRESTLING=(<SRC.WRESTLING>+100)
+SRC.Message Your skill in wrestling has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll52.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll53] 
+DEFNAME=i_powerscroll53
+NAME=wonderous scroll of wrestling (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Wrestling 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll53
+Return 1
+
+[MENU m_powerscroll53] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in wrestling by 5 points.
+SOUND=495
+SRC.WRESTLING=(<SRC.WRESTLING>+50)
+SRC.Message Your skill in wrestling has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll53.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll54] 
+DEFNAME=i_powerscroll54
+NAME=mythical scroll of mace fighting (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Mace Fighting 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll54
+Return 1
+
+[MENU m_powerscroll54] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in mace fighting by 15 points.
+SOUND=495
+SRC.MACEFIGHTING=(<SRC.MACEFIGHTING>+150)
+SRC.Message Your Skill in mace fighting has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll54.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll55] 
+DEFNAME=i_powerscroll55
+NAME=exalted scroll of mace fighting (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Mace Fighting 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll55
+Return 1
+
+[MENU m_powerscroll55] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in mace fighting by 10 points.
+SOUND=495
+SRC.MACEFIGHTING=(<SRC.MACEFIGHTING>+100)
+SRC.Message Your skill in mace fighting has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll55.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll56] 
+DEFNAME=i_powerscroll56
+NAME=wonderous scroll of mace fighting (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Mace Fighting 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll56
+Return 1
+
+[MENU m_powerscroll56] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in mace fighting by 5 points.
+SOUND=495
+SRC.MACEFIGHTING=(<SRC.MACEFIGHTING>+50)
+SRC.Message Your skill in mace fighting has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll56.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll57] 
+DEFNAME=i_powerscroll57
+NAME=mythical scroll of archery (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Archery 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll57
+Return 1
+
+[MENU m_powerscroll57] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in archery by 15 points.
+SOUND=495
+SRC.ARCHERY=(<SRC.ARHCERY>+150)
+SRC.Message Your Skill in archery has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll57.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll58] 
+DEFNAME=i_powerscroll58
+NAME=exalted scroll of archery (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Archery 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll58
+Return 1
+
+[MENU m_powerscroll58] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in archery by 10 points.
+SOUND=495
+SRC.ARCHERY=(<SRC.ARCHERY>+100)
+SRC.Message Your skill in archery has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll58.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll59] 
+DEFNAME=i_powerscroll59
+NAME=wonderous scroll of archery (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Archery 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll59
+Return 1
+
+[MENU m_powerscroll59] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in archery by 5 points.
+SOUND=495
+SRC.ARCHERY=(<SRC.ARCHERY>+50)
+SRC.Message Your skill in archery has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll59.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll60] 
+DEFNAME=i_powerscroll60
+NAME=mythical scroll of blacksmithing (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Blacksmithing 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll60
+Return 1
+
+[MENU m_powerscroll60] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in blacksmithing by 15 points.
+SOUND=495
+SRC.BLACKSMITHING=(<SRC.BLACKSMITHING>+150)
+SRC.Message Your Skill in blacksmithing has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll60.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll61] 
+DEFNAME=i_powerscroll61
+NAME=exalted scroll of blacksmithing (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Blacksmithing 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll61
+Return 1
+
+[MENU m_powerscroll61] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in blacksmithing by 10 points.
+SOUND=495
+SRC.BLACKSMITHING=(<SRC.BLACKSMITHING>+100)
+SRC.Message Your skill in blacksmithing has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll61.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll62] 
+DEFNAME=i_powerscroll62
+NAME=wonderous scroll of blacksmithing (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Blacksmithing 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll62
+Return 1
+
+[MENU m_powerscroll62] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in blacksmithing by 5 points.
+SOUND=495
+SRC.BLACKSMITHING=(<SRC.BLACKSMITHING>+50)
+SRC.Message Your skill in blacksmithing has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll62.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll63] 
+DEFNAME=i_powerscroll63
+NAME=mythical scroll of fencing (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Fencing 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll63
+Return 1
+
+[MENU m_powerscroll63] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in fencing by 15 points.
+SOUND=495
+SRC.FENCING=(<SRC.FENCING>+150)
+SRC.Message Your Skill in fencing has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll63.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll64] 
+DEFNAME=i_powerscroll64
+NAME=exalted scroll of fencing (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Fencing 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll64
+Return 1
+
+[MENU m_powerscroll64] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in fencing by 10 points.
+SOUND=495
+SRC.FENCING=(<SRC.FENCING>+100)
+SRC.Message Your skill in fencing has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll64.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll65] 
+DEFNAME=i_powerscroll65
+NAME=wonderous scroll of fencing (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Fencing 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll65
+Return 1
+
+[MENU m_powerscroll65] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in fencing by 5 points.
+SOUND=495
+SRC.FENCING=(<SRC.FENCING>+50)
+SRC.Message Your skill in fencing has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll65.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll66] 
+DEFNAME=i_powerscroll66
+NAME=mythical scroll of mining (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Mining 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll66
+Return 1
+
+[MENU m_powerscroll66] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in mining by 15 points.
+SOUND=495
+SRC.MINING=(<SRC.MINING>+150)
+SRC.Message Your Skill in mining has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll66.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll67] 
+DEFNAME=i_powerscroll67
+NAME=exalted scroll of mining (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Mining 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll67
+Return 1
+
+[MENU m_powerscroll67] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in mining by 10 points.
+SOUND=495
+SRC.MINING=(<SRC.MINING>+100)
+SRC.Message Your skill in mining has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll67.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll68] 
+DEFNAME=i_powerscroll68
+NAME=wonderous scroll of mining (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Mining 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll68
+Return 1
+
+[MENU m_powerscroll68] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in mining by 5 points.
+SOUND=495
+SRC.MINING=(<SRC.MINING>+50)
+SRC.Message Your skill in mining has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll68.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll69] 
+DEFNAME=i_powerscroll69
+NAME=mythical scroll of necromancy (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Necromancy 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll69
+Return 1
+
+[MENU m_powerscroll69] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in necromancy by 15 points.
+SOUND=495
+SRC.NECROMANCY=(<SRC.NECROMANCY>+150)
+SRC.Message Your Skill in necromancy has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll69.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll70] 
+DEFNAME=i_powerscroll70
+NAME=exalted scroll of necromancy (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Necromancy 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll70
+Return 1
+
+[MENU m_powerscroll70] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in necromancy by 10 points.
+SOUND=495
+SRC.NECROMANCY=(<SRC.NECROMANCY>+100)
+SRC.Message Your skill in necromancy has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll70.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll71] 
+DEFNAME=i_powerscroll71
+NAME=wonderous scroll of necromancy (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Necromancy 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll71
+Return 1
+
+[MENU m_powerscroll71] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in necromancy by 5 points.
+SOUND=495
+SRC.NECROMANCY=(<SRC.NECROMANCY>+50)
+SRC.Message Your skill in necromancy has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll71.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll72] 
+DEFNAME=i_powerscroll72
+NAME=mythical scroll of tailoring (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Tailoring 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll72
+Return 1
+
+[MENU m_powerscroll72] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in tailoring by 15 points.
+SOUND=495
+SRC.TAILORING=(<SRC.TAILORING>+150)
+SRC.Message Your Skill in tailoring has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll72.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll73] 
+DEFNAME=i_powerscroll73
+NAME=exalted scroll of tailoring (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Tailoring 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll73
+Return 1
+
+[MENU m_powerscroll73] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in tailoring by 10 points.
+SOUND=495
+SRC.TAILORING=(<SRC.TAILORING>+100)
+SRC.Message Your skill in tailoring has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll73.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll74] 
+DEFNAME=i_powerscroll74
+NAME=wonderous scroll of tailoring (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Tailoring 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll74
+Return 1
+
+[MENU m_powerscroll74] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in tailoring by 5 points.
+SOUND=495
+SRC.TAILORING=(<SRC.TAILORING>+50)
+SRC.Message Your skill in tailoring has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll74.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll75] 
+DEFNAME=i_powerscroll75
+NAME=mythical scroll of veterinary (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Veterinary 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll75
+Return 1
+
+[MENU m_powerscroll75] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in veterinary by 15 points.
+SOUND=495
+SRC.VETERINARY=(<SRC.VETERINARY>+150)
+SRC.Message Your Skill in veterinary has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll75.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll76] 
+DEFNAME=i_powerscroll76
+NAME=exalted scroll of veterinary (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Veterinary 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll76
+Return 1
+
+[MENU m_powerscroll76] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in veterinary by 10 points.
+SOUND=495
+SRC.VETERINARY=(<SRC.VETERINARY>+100)
+SRC.Message Your skill in veterinary has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll76.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll77] 
+DEFNAME=i_powerscroll77
+NAME=wonderous scroll of veterinary (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Veterinary 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll77
+Return 1
+
+[MENU m_powerscroll77] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in veterinary by 5 points.
+SOUND=495
+SRC.VETERINARY=(<SRC.VETERINARY>+50)
+SRC.Message Your skill in veterinary has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll77.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll78] 
+DEFNAME=i_powerscroll78
+NAME=mythical scroll of hiding (+15.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Hiding 15
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll78
+Return 1
+
+[MENU m_powerscroll78] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in hiding by 15 points.
+SOUND=495
+SRC.HIDING=(<SRC.HIDING>+150)
+SRC.Message Your Skill in hiding has changed by 15.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll78.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll79] 
+DEFNAME=i_powerscroll79
+NAME=exalted scroll of hiding (+10.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Hiding 10
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll79
+Return 1
+
+[MENU m_powerscroll79] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in hiding by 10 points.
+SOUND=495
+SRC.HIDING=(<SRC.HIDING>+100)
+SRC.Message Your skill in hiding has changed by 10.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll79.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[ITEMDEF i_powerscroll80] 
+DEFNAME=i_powerscroll80
+NAME=wonderous scroll of hiding (+5.0)
+ID=i_deed 
+TYPE=t_deed 
+VALUE=500000
+CATEGORY=Rares 
+SUBSECTION=Powerscrolls
+DESCRIPTION=Hiding 5
+
+ON=@CREATE 
+COLOR=color_snow
+
+ON=@DCLICK 
+SRC.MENU m_powerscroll80
+Return 1
+
+[MENU m_powerscroll80] 
+Enchanted Scroll of Power
+
+ON=0 By accepting this scrolls power it will increase your skill in hiding by 5 points.
+SOUND=495
+SRC.HIDING=(<SRC.HIDING>+50)
+SRC.Message Your skill in hiding has changed by 5.0 its now <EVAL(<VAR.j>)>
+SRC.FINDID.i_powerscroll80.REMOVE
+MORE2=<MORE2>+-1
+Return 1
+ELSE
+Return 1
+ENDIF
+
+[EOF] 

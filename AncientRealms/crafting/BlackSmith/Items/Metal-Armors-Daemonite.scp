@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Daemonite Platemail Arms
+[ITEMDEF i_platemail_arms_Daemonite]
+   DEFNAME= i_platemail_arms_Daemonite
+   ID= i_platemail_arms
+   NAME= Daemonite Platemail Arms
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Platemail Leggings
+[ITEMDEF i_platemail_leggings_Daemonite]
+   DEFNAME= i_platemail_leggings_Daemonite
+   ID= i_platemail_leggings
+   NAME= Daemonite Platemail Leggings
+   ARMOR= 25
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Platemail Helmet
+[ITEMDEF i_platemail_helm_Daemonite]
+   DEFNAME= i_platemail_helm_Daemonite
+   ID= i_platemail_helm
+   NAME= Daemonite Platemail Helmet
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Platemail Gorget
+[ITEMDEF i_platemail_gorget_Daemonite]
+   DEFNAME= i_platemail_gorget_Daemonite
+   ID= i_platemail_gorget
+   NAME= Daemonite Platemail Gorget
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Daemonite]
+   DEFNAME= i_platemail_gorget2_Daemonite
+   ID= i_platemail_gorget2
+   NAME= Daemonite Platemail Gorget
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Platemail Gloves
+[ITEMDEF i_platemail_gloves_Daemonite]
+   DEFNAME= i_platemail_gloves_Daemonite
+   ID= i_platemail_gloves
+   NAME= Daemonite Platemail Gloves
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Platemail Chest
+[ITEMDEF i_platemail_chest_Daemonite]
+   DEFNAME= i_platemail_chest_Daemonite
+   ID= i_platemail_chest
+   NAME= Daemonite Platemail Chest
+   ARMOR= 29
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Daemonite]
+   DEFNAME= i_armor_female_plate_Daemonite
+   ID= i_armor_female_plate
+   NAME= Daemonite Platemail Female Plate
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite chainmail coif
+[ITEMDEF i_chainmail_coif_Daemonite]
+   DEFNAME= i_chainmail_coif_Daemonite
+   ID= i_chainmail_coif
+   NAME= Daemonite chainmail coif
+   ARMOR= 21
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite chainmail leggings
+[ITEMDEF i_chainmail_leggings_Daemonite]
+   DEFNAME= i_chainmail_leggings_Daemonite
+   ID= i_chainmail_leggings
+   NAME= Daemonite chainmail leggings
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite chainmail tunic
+[ITEMDEF i_chainmail_tunic_Daemonite]
+   DEFNAME= i_chainmail_tunic_Daemonite
+   ID= i_chainmail_tunic
+   NAME= Daemonite chainmail tunic
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Daemonite]
+   DEFNAME= i_ringmail_sleeves_Daemonite
+   ID= i_ringmail_sleeves
+   NAME= Daemonite Ringmail Sleeves
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Daemonite]
+   DEFNAME= i_ringmail_leggings_Daemonite
+   ID= i_ringmail_leggings
+   NAME= Daemonite Ringmail Leggings
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Daemonite]
+   DEFNAME= i_ringmail_tunic_Daemonite
+   ID= i_ringmail_tunic
+   NAME= Daemonite Ringmail Tunic
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Daemonite]
+   DEFNAME= i_ringmail_gloves_Daemonite
+   ID= i_ringmail_gloves
+   NAME= Daemonite Ringmail Gloves
+   ARMOR= 9
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite studded sleeves
+[ITEMDEF i_studded_sleeves_Daemonite]
+   DEFNAME= i_studded_sleeves_Daemonite
+   ID= i_studded_sleeves
+   NAME= Daemonite studded sleeves
+   ARMOR= 12
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Daemonite, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite studded gloves
+[ITEMDEF i_studded_gloves_Daemonite]
+   DEFNAME= i_studded_gloves_Daemonite
+   ID= i_studded_gloves
+   NAME= Daemonite studded gloves
+   ARMOR= 9
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Daemonite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite studded gorget
+[ITEMDEF i_studded_gorget_Daemonite]
+   DEFNAME= i_studded_gorget_Daemonite
+   ID= i_studded_gorget
+   NAME= Daemonite studded gorget
+   ARMOR= 9
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Daemonite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite studded leggings
+[ITEMDEF i_studded_leggings_Daemonite]
+   DEFNAME= i_studded_leggings_Daemonite
+   ID= i_studded_leggings
+   NAME= Daemonite studded leggings
+   ARMOR= 18
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Daemonite, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite studded tunic
+[ITEMDEF i_studded_tunic_Daemonite]
+   DEFNAME= i_studded_tunic_Daemonite
+   ID= i_studded_tunic
+   NAME= Daemonite studded tunic
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Daemonite, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite studded female armor
+[ITEMDEF i_armor_female_studded_Daemonite]
+   DEFNAME= i_armor_female_studded_Daemonite
+   ID= i_armor_female_studded
+   NAME= Daemonite studded female armor
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Daemonite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Daemonite]
+   DEFNAME= i_armor_female_bustier_studded_Daemonite
+   ID= i_armor_female_bustier_studded
+   NAME= Daemonite studded female bustier
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Daemonite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite platemail mempo
+[ITEMDEF i_platemail_mempo_Daemonite]
+   DEFNAME= i_platemail_mempo_Daemonite
+   ID= i_platemail_mempo
+   NAME= Daemonite platemail mempo
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite platemail do
+[ITEMDEF i_platemail_do_Daemonite]
+   DEFNAME= i_platemail_do_Daemonite
+   ID= i_platemail_do
+   NAME= Daemonite platemail do
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Daemonite]
+   DEFNAME= i_platemail_hiro_sode_Daemonite
+   ID= i_platemail_hiro_sode
+   NAME= Daemonite platemail hiro sode
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite platemail suneate
+[ITEMDEF i_platemail_suneate_Daemonite]
+   DEFNAME= i_platemail_suneate_Daemonite
+   ID= i_platemail_suneate
+   NAME= Daemonite platemail suneate
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite platemail haidate
+[ITEMDEF i_platemail_haidate_Daemonite]
+   DEFNAME= i_platemail_haidate_Daemonite
+   ID= i_platemail_haidate
+   NAME= Daemonite platemail haidate
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite studded mempo
+[ITEMDEF i_studded_mempo_Daemonite]
+   DEFNAME= i_studded_mempo_Daemonite
+   ID= i_studded_mempo
+   NAME= Daemonite studded mempo
+   ARMOR= 14
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Daemonite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite studded do
+[ITEMDEF i_studded_do_Daemonite]
+   DEFNAME= i_studded_do_Daemonite
+   ID= i_studded_do
+   NAME= Daemonite studded do
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Daemonite, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Daemonite]
+   DEFNAME= i_studded_hiro_sode_Daemonite
+   ID= i_studded_hiro_sode
+   NAME= Daemonite studded hiro sode
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Daemonite, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite studded suneate
+[ITEMDEF i_studded_suneate_Daemonite]
+   DEFNAME= i_studded_suneate_Daemonite
+   ID= i_studded_suneate
+   NAME= Daemonite studded suneate
+   ARMOR= 16
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Daemonite, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite studded haidate
+[ITEMDEF i_studded_haidate_Daemonite]
+   DEFNAME= i_studded_haidate_Daemonite
+   ID= i_studded_haidate
+   NAME= Daemonite studded haidate
+   ARMOR= 14
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Daemonite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Daemonite]
+   DEFNAME= i_platemail_gargish_arms_Daemonite
+   ID= i_platemail_gargish_arms
+   NAME= Daemonite Gargish Platemail Arms
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Daemonite]
+   DEFNAME= i_platemail_gargish_chest_Daemonite
+   ID= i_platemail_gargish_chest
+   NAME= Daemonite Gargish Platemail Chest
+   ARMOR= 31
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Daemonite]
+   DEFNAME= i_platemail_gargish_kilt_Daemonite
+   ID= i_platemail_gargish_kilt
+   NAME= Daemonite Gargish Platemail Kilt
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Daemonite]
+   DEFNAME= i_platemail_gargish_leggings_Daemonite
+   ID= i_platemail_gargish_leggings
+   NAME= Daemonite Gargish Platemail Leggings
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Daemonite]
+   DEFNAME= i_platemail_gargish_arms_2_Daemonite
+   ID= i_platemail_gargish_arms_2
+   NAME= Daemonite Gargish Platemail Arms
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Daemonite]
+   DEFNAME= i_platemail_gargish_chest_2_Daemonite
+   ID= i_platemail_gargish_chest_2
+   NAME= Daemonite Gargish Platemail Chest
+   ARMOR= 31
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Daemonite]
+   DEFNAME= i_platemail_gargish_kilt_2_Daemonite
+   ID= i_platemail_gargish_kilt_2
+   NAME= Daemonite Gargish Platemail Kilt
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Daemonite]
+   DEFNAME= i_platemail_gargish_leggings_2_Daemonite
+   ID= i_platemail_gargish_leggings_2
+   NAME= Daemonite Gargish Platemail Leggings
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Closed Helmet
+[ITEMDEF i_helm_close_Daemonite]
+   DEFNAME= i_helm_close_Daemonite
+   ID= i_helm_close
+   NAME= Daemonite Closed Helmet
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Open Helmet
+[ITEMDEF i_helm_open_Daemonite]
+   DEFNAME= i_helm_open_Daemonite
+   ID= i_helm_open
+   NAME= Daemonite Open Helmet
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Bascinet
+[ITEMDEF i_bascinet_Daemonite]
+   DEFNAME= i_bascinet_Daemonite
+   ID= i_bascinet
+   NAME= Daemonite Bascinet
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Norse Helmet
+[ITEMDEF i_helm_norse_Daemonite]
+   DEFNAME= i_helm_norse_Daemonite
+   ID= i_helm_norse
+   NAME= Daemonite Norse Helmet
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Kabuto
+[ITEMDEF i_helm_kabuto_Daemonite]
+   DEFNAME= i_helm_kabuto_Daemonite
+   ID= i_helm_kabuto
+   NAME= Daemonite Kabuto
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Daemonite]
+   DEFNAME= i_chainmail_hatsuburi_Daemonite
+   ID= i_chainmail_hatsuburi
+   NAME= Daemonite Chainmail Hatsuburi
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Daemonite]
+   DEFNAME= i_platemail_hatsuburi_Daemonite
+   ID= i_platemail_hatsuburi
+   NAME= Daemonite Platemail Hatsuburi
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Daemonite]
+   DEFNAME= i_plate_jingasa_heavy_Daemonite
+   ID= i_plate_jingasa_heavy
+   NAME= Daemonite Heavy Jingasa
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Daemonite]
+   DEFNAME= i_platemail_kabuto_decorative_Daemonite
+   ID= i_platemail_kabuto_decorative
+   NAME= Daemonite Decorative Platemail Kabuto
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {97 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Daemonite]
+   DEFNAME= i_plate_jingasa_light_Daemonite
+   ID= i_plate_jingasa_light
+   NAME= Daemonite Light Jingasa
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Daemonite]
+   DEFNAME= i_plate_jingasa_small_Daemonite
+   ID= i_plate_jingasa_small
+   NAME= Daemonite Small Jingasa
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Daemonite]
+   DEFNAME= i_platemail_kabuto_battle_Daemonite
+   ID= i_platemail_kabuto_battle
+   NAME= Daemonite Platemail Battle Kabuto
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Daemonite]
+   DEFNAME= i_platemail_kabuto_Daemonite
+   ID= i_platemail_kabuto
+   NAME= Daemonite Platemail Kabuto
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Circlet
+[ITEMDEF i_circlet_Daemonite]
+   DEFNAME= i_circlet_Daemonite
+   ID= i_circlet
+   NAME= Daemonite Circlet
+   ARMOR= 13
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Royal Circlet
+[ITEMDEF i_circlet_royal_Daemonite]
+   DEFNAME= i_circlet_royal_Daemonite
+   ID= i_circlet_royal
+   NAME= Daemonite Royal Circlet
+   ARMOR= 13
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Daemonite]
+   DEFNAME= i_circlet_gemmed_Daemonite
+   ID= i_circlet_gemmed
+   NAME= Daemonite Gemmed Circlet
+   ARMOR= 13
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {107 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Buckler
+[ITEMDEF i_shield_buckler_Daemonite]
+   DEFNAME= i_shield_buckler_Daemonite
+   ID= i_shield_buckler
+   NAME= Daemonite Buckler
+   ARMOR= 12
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Wooden Shield
+[ITEMDEF i_shield_wood_Daemonite]
+   DEFNAME= i_shield_wood_Daemonite
+   ID= i_shield_wood
+   NAME= Daemonite Wooden Shield
+   ARMOR= 13
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Daemonite]
+   DEFNAME= i_shield_round_metal_Daemonite
+   ID= i_shield_round_metal
+   NAME= Daemonite Light Metal  Round Shield
+   ARMOR= 14
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Daemonite]
+   DEFNAME= i_shield_round_bronze_Daemonite
+   ID= i_shield_round_bronze
+   NAME= Daemonite Heavy Metal  Round Shield
+   ARMOR= 16
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Daemonite]
+   DEFNAME= i_shield_kite_metal_Daemonite
+   ID= i_shield_kite_metal
+   NAME= Daemonite Metal Kite Shield
+   ARMOR= 18
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Daemonite]
+   DEFNAME= i_shield_kite_wood_Daemonite
+   ID= i_shield_kite_wood
+   NAME= Daemonite Wooden Kite Shield
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Heater Shield
+[ITEMDEF i_shield_heater_Daemonite]
+   DEFNAME= i_shield_heater_Daemonite
+   ID= i_shield_heater
+   NAME= Daemonite Heater Shield
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {97 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Ancient Shield
+[ITEMDEF i_shield_dupre_Daemonite]
+   DEFNAME= i_shield_dupre_Daemonite
+   ID= i_shield_dupre
+   NAME= Daemonite Ancient Shield
+   ARMOR= 21
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {107 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Shield oh Hell
+[ITEMDEF i_shield_scale_Daemonite]
+   DEFNAME= i_shield_scale_Daemonite
+   ID= i_shield_scale
+   NAME= Daemonite Shield oh Hell
+   ARMOR= 21
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {107 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Chaos Shield
+[ITEMDEF i_shield_chaos_Daemonite]
+   DEFNAME= i_shield_chaos_Daemonite
+   ID= i_shield_chaos
+   NAME= Daemonite Chaos Shield
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {117 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Order Shield
+[ITEMDEF i_shield_order_Daemonite]
+   DEFNAME= i_shield_order_Daemonite
+   ID= i_shield_order
+   NAME= Daemonite Order Shield
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Daemonite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Daemonite
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS= {117 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

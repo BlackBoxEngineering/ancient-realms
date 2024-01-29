@@ -1,0 +1,28 @@
+[SPEECH s_keep_JobTamer]
+
+ON=*BUY*
+	IF !(<SRC.GUILD>)
+		IF !(<FINDID.i_Keep_Guard_Warning>)
+			SERV.NEWITEM i_Keep_Guard_Warning, 1, <UID>
+		ENDIF
+		ATTACK
+	ELSE
+		IF (strmatch(*<src.GUILD.UID>*,<region.TAG.OwnersUid>)
+			IF !(<FINDID.i_Keep_Guard_Warning>)
+				FINDID.i_Keep_Guard_Warning.REMOVE
+			ENDIF
+			IF !(<SRC.FINDID.i_keep_point>)
+				SAY @95 You need have no keep points.
+			ELSE
+				SAY @95 Thank you <SRC.NAME> how may I help!
+				SRC.CTAG.VendorName=<NAME>
+				SRC.DIALOG d_Keep_RideVendorMenu
+				RETURN 1
+			ENDIF
+		ELSE 
+			ATTACK
+		ENDIF
+	ENDIF
+	RETURN 1
+
+[EOF]

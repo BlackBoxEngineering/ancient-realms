@@ -1,0 +1,41 @@
+[PLEVEL 5]
+res
+resall
+resallworld
+
+ItemRemover
+
+SetColor			
+whatisHairColor
+HairColor
+EvalColor
+ColorElementalType
+
+UnEquipAll			//UnEquip All Items
+BounceAll			//Bounce All Items
+Pack2Bank			//Bp Contents to Bank On Target
+BackPackToBank		//Bp Contents to Bank
+BackPackToBin		//Bp Contents to Bin
+
+horsebounce		// Dismount Shrink and Bank Ride
+horsebump		// Dismount
+
+
+chatmute		// Mute Player from Speaking ( Only the player hears himself)
+chatunmute		// Unmute
+chatban			// Ban from Chat entirely
+
+playerControl	// Manage Players (Send Msg's access Info)
+
+[PLEVEL 3]
+fireworks
+CountHouses			// Counts how many houses the target Has
+CheckRegionFLags	// Checks the regions flags
+g					// Transport Player on Target
+RealRareRideCount
+ItemCounter
+SetGuildHallTags
+TestTargetGround
+SetGuildHallTags
+ListGuildHallTags
+[EOF]

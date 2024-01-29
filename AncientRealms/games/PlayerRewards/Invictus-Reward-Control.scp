@@ -1,0 +1,532 @@
+[CHARDEF c_Reward_Controller]
+DEFNAME=c_Reward_Controller
+ID=c_elf_female
+NAME=Reward Controller
+//SOUND=snd_monster_daemon1
+CAN=MT_RUN|MT_WALK|MT_FLY
+
+CATEGORY=Ancientrealms
+SUBSECTION=Controller
+DESCRIPTION=Reward Controller
+
+ON=@CREATE
+	INT=9999
+	STR=9999
+	DEX=9999
+	FLAGS=042001
+	VAR.RewardControllerUID=<uid>
+	ITEMNEWBIE=i_backpack
+	TagTheRewardGuard
+
+ON=@GetHit
+	RETURN 1
+	
+ON=@SpellEffect
+	RETURN 1
+
+ON=@DClick
+	VAR.WorldStonesRewardControl=<UID>
+	IF (<SRC.GM>)
+		COLORTagTheRewardGuard
+		DIALOG d_RewardStone_Supplies_Gm
+	ENDIF
+	RETURN 1
+
+[TYPEDEF t_reward_stone]
+ON=@DClick
+	IF <SRC.ISPLAYER>
+		DIALOG d_RewardStone_Supplies_Player
+	ENDIF
+	RETURN 1
+
+[FUNCTION TagTheRewardGuard]
+FOR X 1 10
+TAG.ITEM_<EVAL <LOCAL.X>>_ID=Unused Id Slot
+TAG.ITEM_<EVAL <LOCAL.X>>_PRICE=0
+ENDFOR
+
+[FUNCTION COLORTagTheRewardGuard]
+FOR X 1 10
+TAG.ITEM_<EVAL <LOCAL.X>>_IDCOLOR=55
+TAG.ITEM_<EVAL <LOCAL.X>>_PRICECOLOR=55
+ENDFOR
+
+[DIALOG d_RewardStone_Supplies_GM]
+50,50
+PAGE 0
+RESIZEPIC 0 0 3600 370 290
+RESIZEPIC 20 20 5054 330 250
+PAGE 1
+RESIZEPIC 0 0 3600 370 290
+RESIZEPIC 20 20 5054 330 250
+//___________________________________________________________________________________
+TEXT 50 30 355 0
+DTEXTENTRY 90 30 200 30 <EVAL <TAG.ITEM_1_IDCOLOR>> 1001 <TAG.ITEM_1_ID>
+BUTTON 200 33 2117 2118 1 0 11
+DTEXTENTRY 240 30 200 30 <EVAL <TAG.ITEM_1_PRICECOLOR>> 1101 <EVAL <TAG.ITEM_1_PRICE>>
+BUTTON 300 33 2117 2118 1 0 21
+//___________________________________________________________________________________
+TEXT 50 50 355 1
+DTEXTENTRY 90 50 200 30 <EVAL <TAG.ITEM_2_IDCOLOR>> 1002 <TAG.ITEM_2_ID>
+BUTTON 200 53 2117 2118 1 0 12
+DTEXTENTRY 240 50 200 30 <EVAL <TAG.ITEM_2_PRICECOLOR>> 1102 <EVAL <TAG.ITEM_2_PRICE>>
+BUTTON 300 53 2117 2118 1 0 22
+//___________________________________________________________________________________
+TEXT 50 70 355 2
+DTEXTENTRY 90 70 200 30 <EVAL <TAG.ITEM_3_IDCOLOR>> 1003 <TAG.ITEM_3_ID>
+BUTTON 200 73 2117 2118 1 0 13
+DTEXTENTRY 240 70 200 30 <EVAL <TAG.ITEM_3_PRICECOLOR>> 1103 <EVAL <TAG.ITEM_3_PRICE>>
+BUTTON 300 73 2117 2118 1 0 23
+//___________________________________________________________________________________
+TEXT 50 90 355 3
+DTEXTENTRY 90 90 200 30 <EVAL <TAG.ITEM_4_IDCOLOR>> 1004 <TAG.ITEM_4_ID>
+BUTTON 200 93 2117 2118 1 0 14
+DTEXTENTRY 240 90 200 30 <EVAL <TAG.ITEM_4_PRICECOLOR>> 1104 <EVAL <TAG.ITEM_4_PRICE>>
+BUTTON 300 93 2117 2118 1 0 24
+//___________________________________________________________________________________
+TEXT 50 110 355 4
+DTEXTENTRY 90 110 200 30 <EVAL <TAG.ITEM_5_IDCOLOR>> 1005 <TAG.ITEM_5_ID>
+BUTTON 200 113 2117 2118 1 0 15
+DTEXTENTRY 240 110 200 30 <EVAL <TAG.ITEM_5_PRICECOLOR>> 1105 <EVAL <TAG.ITEM_5_PRICE>>
+BUTTON 300 113 2117 2118 1 0 25
+//___________________________________________________________________________________
+TEXT 50 130 355 5
+DTEXTENTRY 90 130 200 30 <EVAL <TAG.ITEM_6_IDCOLOR>> 1006 <TAG.ITEM_6_ID>
+BUTTON 200 133 2117 2118 1 0 16
+DTEXTENTRY 240 130 200 30 <EVAL <TAG.ITEM_6_PRICECOLOR>> 1106 <EVAL <TAG.ITEM_6_PRICE>>
+BUTTON 300 133 2117 2118 1 0 26
+//___________________________________________________________________________________
+TEXT 50 150 355 6
+DTEXTENTRY 90 150 200 30 <EVAL <TAG.ITEM_7_IDCOLOR>> 1007 <TAG.ITEM_7_ID>
+BUTTON 200 153 2117 2118 1 0 17
+DTEXTENTRY 240 150 200 30 <EVAL <TAG.ITEM_7_PRICECOLOR>> 1107 <EVAL <TAG.ITEM_7_PRICE>>
+BUTTON 300 153 2117 2118 1 0 27
+//___________________________________________________________________________________
+TEXT 50 170 355 7
+DTEXTENTRY 90 170 200 30 <EVAL <TAG.ITEM_8_IDCOLOR>> 1008 <TAG.ITEM_8_ID>
+BUTTON 200 173 2117 2118 1 0 18
+DTEXTENTRY 240 170 200 30 <EVAL <TAG.ITEM_8_PRICECOLOR>> 1108 <EVAL <TAG.ITEM_8_PRICE>>
+BUTTON 300 173 2117 2118 1 0 28
+//___________________________________________________________________________________
+TEXT 50 190 355 8
+DTEXTENTRY 90 190 200 30 <EVAL <TAG.ITEM_9_IDCOLOR>> 1009 <TAG.ITEM_9_ID>
+BUTTON 200 193 2117 2118 1 0 19
+DTEXTENTRY 240 190 200 30 <EVAL <TAG.ITEM_9_PRICECOLOR>> 1109 <EVAL <TAG.ITEM_9_PRICE>>
+BUTTON 300 193 2117 2118 1 0 29
+//___________________________________________________________________________________
+TEXT 50 210 355 9
+DTEXTENTRY 90 210 200 30 <EVAL <TAG.ITEM_10_IDCOLOR>> 1010 <TAG.ITEM_10_ID>
+BUTTON 200 213 2117 2118 1 0 20
+DTEXTENTRY 240 210 200 30 <EVAL <TAG.ITEM_10_PRICECOLOR>> 1110 <EVAL <TAG.ITEM_10_PRICE>>
+BUTTON 300 213 2117 2118 1 0 30
+//___________________________________________________________________________________
+TEXT 80 250 355 10
+BUTTON 320 250 5601 5605 0 2 0
+//___________________________________________________________________________________
+PAGE 2
+RESIZEPIC 0 0 3600 370 290
+RESIZEPIC 20 20 5054 330 250
+//___________________________________________________________________________________
+TEXT 60 250 355 11
+BUTTON 320 250 5601 5605 0 1 0
+//___________________________________________________________________________________
+
+[DIALOG d_RewardStone_Supplies_GM TEXT]
+ID 1:
+ID 2:
+ID 3:
+ID 4:
+ID 5:
+ID 6:
+ID 7:
+ID 8:
+ID 9:
+ID 10:
+Ancientrealms Reward Stone -TOP TEN-
+Ancientrealms Reward Stone -TOP TWENTY-
+//___________________________________________________________________________________
+
+[DIALOG d_RewardStone_Supplies_GM BUTTON]
+//___________________________________________________________________________________
+ONBUTTON=11
+TAG.ITEM_1_ID=<ARGTXT[1001]>
+TAG.ITEM_1_IDCOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=12
+TAG.ITEM_2_ID=<ARGTXT[1002]>
+TAG.ITEM_2_IDCOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=13
+TAG.ITEM_3_ID=<ARGTXT[1003]>
+TAG.ITEM_3_IDCOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=14
+TAG.ITEM_4_ID=<ARGTXT[1004]>
+TAG.ITEM_4_IDCOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=15
+TAG.ITEM_5_ID=<ARGTXT[1005]>
+TAG.ITEM_5_IDCOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=16
+TAG.ITEM_6_ID=<ARGTXT[1006]>
+TAG.ITEM_6_IDCOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=17
+TAG.ITEM_7_ID=<ARGTXT[1007]>
+TAG.ITEM_7_IDCOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=18
+TAG.ITEM_8_ID=<ARGTXT[1008]>
+TAG.ITEM_8_IDCOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=19
+TAG.ITEM_9_ID=<ARGTXT[1009]>
+TAG.ITEM_9_IDCOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=20
+TAG.ITEM_10_ID=<ARGTXT[1010]>
+TAG.ITEM_10_IDCOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=21
+TAG.ITEM_1_PRICE=<ARGTXT[1101]>
+TAG.ITEM_1_PRICECOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=22
+TAG.ITEM_2_PRICE=<ARGTXT[1102]>
+TAG.ITEM_2_PRICECOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=23
+TAG.ITEM_3_PRICE=<ARGTXT[1103]>
+TAG.ITEM_3_PRICECOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=24
+TAG.ITEM_4_PRICE=<ARGTXT[1104]>
+TAG.ITEM_4_PRICECOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=25
+TAG.ITEM_5_PRICE=<ARGTXT[1105]>
+TAG.ITEM_5_PRICECOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=26
+TAG.ITEM_6_PRICE=<ARGTXT[1106]>
+TAG.ITEM_6_PRICECOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=27
+TAG.ITEM_7_PRICE=<ARGTXT[1107]>
+TAG.ITEM_7_PRICECOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=28
+TAG.ITEM_8_PRICE=<ARGTXT[1108]>
+TAG.ITEM_8_PRICECOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=29
+TAG.ITEM_9_PRICE=<ARGTXT[1109]>
+TAG.ITEM_9_PRICECOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+ONBUTTON=30
+TAG.ITEM_10_PRICE=<ARGTXT[1110]>
+TAG.ITEM_10_PRICECOLOR=004fc
+DIALOG d_RewardStone_Supplies_GM
+//___________________________________________________________________________________
+
+[FUNCTION GetNameFromId]
+IF !(STRMATCH(*Unused*,<ARGV[0]>))
+	FORINSTANCES <ARGV[0]>
+		//SERV.B REWARD TESTING <ARGV[0]> <NAME>
+		LOCAL.TempItemName=<NAME>
+	ENDFOR
+ELSE
+	LOCAL.TempItemName=_
+ENDIF
+RETURN <LOCAL.TempItemName>
+//___________________________________________________________________________________
+
+[DIALOG d_RewardStone_Supplies_Player]
+50,50
+PAGE 0
+RESIZEPIC 0 0 3600 370 290
+RESIZEPIC 20 20 5054 330 250
+//___________________________________________________________________________________
+PAGE 1
+RESIZEPIC 0 0 3600 370 290
+RESIZEPIC 20 20 5054 330 250
+//___________________________________________________________________________________
+TEXT 50 30 240 0
+DTEXT 150 30 351 Reward Tickets:
+TEXT 250 30 240 12
+BUTTON 300 33 2074 2075 1 0 21
+//___________________________________________________________________________________
+TEXT 50 50 241 1
+DTEXT 150 50 352 Reward Tickets:
+TEXT 250 50 241 13
+BUTTON 300 53 2074 2075 1 0 22
+//___________________________________________________________________________________
+TEXT 50 70 242 2
+DTEXT 150 70 353 Reward Tickets:
+TEXT 250 70 242 14
+BUTTON 300 73 2074 2075 1 0 23
+//___________________________________________________________________________________
+TEXT 50 90 243 3
+DTEXT 150 90 354 Reward Tickets:
+TEXT 250 90 243 15
+BUTTON 300 93 2074 2075 1 0 24
+//___________________________________________________________________________________
+TEXT 50 110 244 4
+DTEXT 150 110 355 Reward Tickets:
+TEXT 250 110 244 16
+BUTTON 300 110 2074 2075 1 0 25
+//___________________________________________________________________________________
+TEXT 50 130 245 5
+DTEXT 150 130 356 Reward Tickets:
+TEXT 250 130 245 17
+BUTTON 300 130 2074 2075 1 0 26
+//___________________________________________________________________________________
+TEXT 50 150 246 6
+DTEXT 150 150 357 Reward Tickets:
+TEXT 250 150 246 18
+BUTTON 300 150 2074 2075 1 0 27
+//___________________________________________________________________________________
+TEXT 50 170 247 7
+DTEXT 150 170 358 Reward Tickets:
+TEXT 250 170 247 19
+BUTTON 300 170 2074 2075 1 0 28
+//___________________________________________________________________________________
+TEXT 50 190 248 8
+DTEXT 150 190 359 Reward Tickets:
+TEXT 250 190 248 20
+BUTTON 300 190 2074 2075 1 0 29
+//___________________________________________________________________________________
+TEXT 50 210 249 9
+DTEXT 150 210 360 Reward Tickets:
+TEXT 250 210 249 21
+BUTTON 300 210 2074 2075 1 0 30
+//___________________________________________________________________________________
+TEXT 80 250 250 10
+BUTTON 320 250 5601 5605 0 2 0
+//___________________________________________________________________________________
+PAGE 2
+RESIZEPIC 0 0 3600 370 290
+RESIZEPIC 20 20 5054 330 250
+//___________________________________________________________________________________
+TEXT 60 250 355 11
+BUTTON 320 250 5601 5605 0 1 0
+//___________________________________________________________________________________
+
+[DIALOG d_RewardStone_Supplies_Player TEXT]
+<GetNameFromId <SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_1_ID>>
+<GetNameFromId <SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_2_ID>>
+<GetNameFromId <SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_3_ID>>
+<GetNameFromId <SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_4_ID>>
+<GetNameFromId <SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_5_ID>>
+<GetNameFromId <SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_6_ID>>
+<GetNameFromId <SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_7_ID>>
+<GetNameFromId <SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_8_ID>>
+<GetNameFromId <SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_9_ID>>
+<GetNameFromId <SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_10_ID>>
+Player Reward Stone -TOP TEN-
+Player Reward Stone -TOP TWENTY-
+<GetPriceOfRewardItem 1>
+<GetPriceOfRewardItem 2>
+<GetPriceOfRewardItem 3>
+<GetPriceOfRewardItem 4>
+<GetPriceOfRewardItem 5>
+<GetPriceOfRewardItem 6>
+<GetPriceOfRewardItem 7>
+<GetPriceOfRewardItem 8>
+<GetPriceOfRewardItem 9>
+<GetPriceOfRewardItem 10>
+//___________________________________________________________________________________
+
+[DIALOG d_RewardStone_Supplies_Player BUTTON]
+//___________________________________________________________________________________
+ONBUTTON=21
+IF (<SRC.FINDID.i_invictus_reward_stone>)
+	IF (<SRC.RESTEST <GetPriceOfRewardItem 1> i_invictus_reward_stone>)
+		SRC.CONSUME <GetPriceOfRewardItem 1> i_invictus_reward_stone
+		SFX 740
+		NEWITEM=<SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_1_ID>,1 ,<SRC.UID>
+		//ClearReward 1
+	ELSE
+		SRC.SYSMESSAGE @00029 You need <GetPriceOfRewardItem 1> Reward Tickets to Purchase this Item.
+	ENDIF
+ELSE
+	SRC.SYSMESSAGE @00029 Reward tickets must be on your person before purchase!
+ENDIF
+DIALOG d_RewardStone_Supplies_Player
+//___________________________________________________________________________________
+ONBUTTON=22
+IF (<SRC.FINDID.i_invictus_reward_stone>)
+	IF (<SRC.RESTEST <GetPriceOfRewardItem 2> i_invictus_reward_stone>)
+		SRC.CONSUME <GetPriceOfRewardItem 2> i_invictus_reward_stone
+		SFX 740
+		NEWITEM=<SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_2_ID>,1 ,<SRC.UID>
+		//ClearReward 2
+	ELSE
+		SRC.SYSMESSAGE @00029 You need <GetPriceOfRewardItem 2> Reward Tickets to Purchase this Item.
+	ENDIF
+ELSE
+	SRC.SYSMESSAGE @00029 Reward tickets must be on your person before purchase!
+ENDIF
+DIALOG d_RewardStone_Supplies_Player
+//___________________________________________________________________________________
+ONBUTTON=23
+IF (<SRC.FINDID.i_invictus_reward_stone>)
+	IF (<SRC.RESTEST <GetPriceOfRewardItem 3> i_invictus_reward_stone>)
+		SRC.CONSUME <GetPriceOfRewardItem 3> i_invictus_reward_stone
+		SFX 740
+		NEWITEM=<SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_3_ID>,1 ,<SRC.UID>
+		//ClearReward 3
+	ELSE
+		SRC.SYSMESSAGE @00029 You need <GetPriceOfRewardItem 3> Reward Tickets to Purchase this Item.
+	ENDIF
+ELSE
+	SRC.SYSMESSAGE @00029 Reward tickets must be on your person before purchase!
+ENDIF
+DIALOG d_RewardStone_Supplies_Player
+//___________________________________________________________________________________
+ONBUTTON=24
+IF (<SRC.FINDID.i_invictus_reward_stone>)
+	IF (<SRC.RESTEST <GetPriceOfRewardItem 4> i_invictus_reward_stone>)
+		SRC.CONSUME <GetPriceOfRewardItem 4> i_invictus_reward_stone
+		SFX 740
+		NEWITEM=<SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_4_ID>,1 ,<SRC.UID>
+		//ClearReward 4
+	ELSE
+		SRC.SYSMESSAGE @00029 You need <GetPriceOfRewardItem 4> Reward Tickets to Purchase this Item.
+	ENDIF
+ELSE
+	SRC.SYSMESSAGE @00029 Reward tickets must be on your person before purchase!
+ENDIF
+DIALOG d_RewardStone_Supplies_Player
+//___________________________________________________________________________________
+ONBUTTON=25
+IF (<SRC.FINDID.i_invictus_reward_stone>)
+	IF (<SRC.RESTEST <GetPriceOfRewardItem 5> i_invictus_reward_stone>)
+		SRC.CONSUME <GetPriceOfRewardItem 5> i_invictus_reward_stone
+		SFX 740
+		NEWITEM=<SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_5_ID>,1 ,<SRC.UID>
+		//ClearReward 5
+	ELSE
+		SRC.SYSMESSAGE @00029 You need <GetPriceOfRewardItem 5> Reward Tickets to Purchase this Item.
+	ENDIF
+ELSE
+	SRC.SYSMESSAGE @00029 Reward tickets must be on your person before purchase!
+ENDIF
+DIALOG d_RewardStone_Supplies_Player
+//___________________________________________________________________________________
+ONBUTTON=26
+IF (<SRC.FINDID.i_invictus_reward_stone>)
+	IF (<SRC.RESTEST <GetPriceOfRewardItem 6> i_invictus_reward_stone>)
+		SRC.CONSUME <GetPriceOfRewardItem 6> i_invictus_reward_stone
+		SFX 740
+		NEWITEM=<SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_6_ID>,1 ,<SRC.UID>
+		//ClearReward 6
+	ELSE
+		SRC.SYSMESSAGE @00029 You need <GetPriceOfRewardItem 6> Reward Tickets to Purchase this Item.
+	ENDIF
+ELSE
+	SRC.SYSMESSAGE @00029 Reward tickets must be on your person before purchase!
+ENDIF
+DIALOG d_RewardStone_Supplies_Player
+//___________________________________________________________________________________
+ONBUTTON=27
+IF (<SRC.FINDID.i_invictus_reward_stone>)
+	IF (<SRC.RESTEST <GetPriceOfRewardItem 7> i_invictus_reward_stone>)
+		SRC.CONSUME <GetPriceOfRewardItem 7> i_invictus_reward_stone
+		SFX 740
+		NEWITEM=<SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_7_ID>,1 ,<SRC.UID>
+		//ClearReward 7
+	ELSE
+		SRC.SYSMESSAGE @00029 You need <GetPriceOfRewardItem 7> Reward Tickets to Purchase this Item.
+	ENDIF
+ELSE
+	SRC.SYSMESSAGE @00029 Reward tickets must be on your person before purchase!
+ENDIF
+DIALOG d_RewardStone_Supplies_Player
+//___________________________________________________________________________________
+ONBUTTON=28
+IF (<SRC.FINDID.i_invictus_reward_stone>)
+	IF (<SRC.RESTEST <GetPriceOfRewardItem 8> i_invictus_reward_stone>)
+		SRC.CONSUME <GetPriceOfRewardItem 8> i_invictus_reward_stone
+		SFX 740
+		NEWITEM=<SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_8_ID>,1 ,<SRC.UID>
+		//ClearReward 8
+	ELSE
+		SRC.SYSMESSAGE @00029 You need <GetPriceOfRewardItem 8> Reward Tickets to Purchase this Item.
+	ENDIF
+ELSE
+	SRC.SYSMESSAGE @00029 Reward tickets must be on your person before purchase!
+ENDIF
+DIALOG d_RewardStone_Supplies_Player
+//___________________________________________________________________________________
+ONBUTTON=29
+IF (<SRC.FINDID.i_invictus_reward_stone>)
+	IF (<SRC.RESTEST <GetPriceOfRewardItem 9> i_invictus_reward_stone>)
+		SRC.CONSUME <GetPriceOfRewardItem 9> i_invictus_reward_stone
+		SFX 740
+		NEWITEM=<SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_9_ID>,1 ,<SRC.UID>
+		//ClearReward 9
+	ELSE
+		SRC.SYSMESSAGE @00029 You need <GetPriceOfRewardItem 9> Reward Tickets to Purchase this Item.
+	ENDIF
+ELSE
+	SRC.SYSMESSAGE @00029 Reward tickets must be on your person before purchase!
+ENDIF
+DIALOG d_RewardStone_Supplies_Player
+//___________________________________________________________________________________
+ONBUTTON=30
+IF (<SRC.FINDID.i_invictus_reward_stone>)
+	IF (<SRC.RESTEST <GetPriceOfRewardItem 10> i_invictus_reward_stone>)
+		SRC.CONSUME <GetPriceOfRewardItem 10> i_invictus_reward_stone
+		SFX 740
+		NEWITEM=<SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_10_ID>,1 ,<SRC.UID>
+		//ClearReward 10
+	ELSE
+		SRC.SYSMESSAGE @00029 You need <GetPriceOfRewardItem 10> Reward Tickets to Purchase this Item.
+	ENDIF
+ELSE
+	SRC.SYSMESSAGE @00029 Reward tickets must be on your person before purchase!
+ENDIF
+DIALOG d_RewardStone_Supplies_Player
+//___________________________________________________________________________________
+
+[FUNCTION GetPriceOfRewardItem]
+LOCAL.TempItemPrice=0
+IF !(<ARGV[0]>==0)
+	LOCAL.TempItemPrice=<SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_<ARGV[0]>_PRICE>
+	RETURN <EVAL <SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_<ARGV[0]>_PRICE>>
+ELSE
+	LOCAL.TempItemPrice=_
+	RETURN 0
+ENDIF
+//___________________________________________________________________________________
+
+[FUNCTION //ClearReward]
+IF !(<ARGV[0]>==0)
+	SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_<ARGV[0]>_ID=Unused Id Slot
+	SERV.UID.<SERV.VAR.WorldStonesRewardControl>.TAG.ITEM_<ARGV[0]>_PRICE=0
+ENDIF
+	
+
+
+[EOF]

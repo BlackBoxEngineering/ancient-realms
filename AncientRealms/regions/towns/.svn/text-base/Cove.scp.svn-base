@@ -1,0 +1,9 @@
+[AREADEF a_cove_playershop_1]
+EVENTS=r_default,r_default_rock,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Cove Shop One
+GROUP=Cove
+FLAGS=04880
+P=2243,1206,0,0
+RECT=2239,1199,2249,1209,0
+
+[EOF]

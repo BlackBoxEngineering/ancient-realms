@@ -1,0 +1,466 @@
+/////////////////////////////////////////////Ash woodland chest
+[ITEMDEF i_woodland_chest_Ash]
+   DEFNAME= i_woodland_chest_Ash
+   ID= i_woodland_chest
+   NAME= Ash woodland chest
+   ARMOR= 24
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 20 i_log_Ash
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ash
+   DESCRIPTION= woodland chest
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS= {94 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash woodland belt
+[ITEMDEF i_woodland_belt_Ash]
+   DEFNAME= i_woodland_belt_Ash
+   ID= i_woodland_belt
+   NAME= Ash woodland belt
+   ARMOR= 19
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Ash
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ash
+   DESCRIPTION= woodland belt
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS= {94 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash woodland gorget
+[ITEMDEF i_woodland_gorget_Ash]
+   DEFNAME= i_woodland_gorget_Ash
+   ID= i_woodland_gorget
+   NAME= Ash woodland gorget
+   ARMOR= 10
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Ash
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ash
+   DESCRIPTION= woodland gorget
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS= {94 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash woodland gauntlets
+[ITEMDEF i_woodland_gauntlets_Ash]
+   DEFNAME= i_woodland_gauntlets_Ash
+   ID= i_woodland_gauntlets
+   NAME= Ash woodland gauntlets
+   ARMOR= 10
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Ash
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ash
+   DESCRIPTION= woodland gauntlets
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS= {94 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash woodland leggings
+[ITEMDEF i_woodland_leggings_Ash]
+   DEFNAME= i_woodland_leggings_Ash
+   ID= i_woodland_leggings
+   NAME= Ash woodland leggings
+   ARMOR= 19
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Ash
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ash
+   DESCRIPTION= woodland leggings
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS= {94 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash woodland arms
+[ITEMDEF i_woodland_arms_Ash]
+   DEFNAME= i_woodland_arms_Ash
+   ID= i_woodland_arms
+   NAME= Ash woodland arms
+   ARMOR= 12
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 8 i_log_Ash
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ash
+   DESCRIPTION= woodland arms
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS= {94 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash female woodland chest
+[ITEMDEF i_armor_female_woodland_Ash]
+   DEFNAME= i_armor_female_woodland_Ash
+   ID= i_armor_female_woodland
+   NAME= Ash female woodland chest
+   ARMOR= 20
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 16 i_log_Ash
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ash
+   DESCRIPTION= female woodland chest
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS= {94 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash leaf tunic
+[ITEMDEF i_leaf_tunic_Ash]
+   DEFNAME= i_leaf_tunic_Ash
+   ID= i_leaf_tunic
+   NAME= Ash leaf tunic
+   ARMOR= 22
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 18 i_log_Ash
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ash
+   DESCRIPTION= leaf tunic
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash leaf gloves
+[ITEMDEF i_leaf_gloves_Ash]
+   DEFNAME= i_leaf_gloves_Ash
+   ID= i_leaf_gloves
+   NAME= Ash leaf gloves
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_log_Ash
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ash
+   DESCRIPTION= leaf gloves
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash leaf gorget
+[ITEMDEF i_leaf_gorget_Ash]
+   DEFNAME= i_leaf_gorget_Ash
+   ID= i_leaf_gorget
+   NAME= Ash leaf gorget
+   ARMOR= 12
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Ash
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ash
+   DESCRIPTION= leaf gorget
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash leaf arms
+[ITEMDEF i_leaf_arms_Ash]
+   DEFNAME= i_leaf_arms_Ash
+   ID= i_leaf_arms
+   NAME= Ash leaf arms
+   ARMOR= 12
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Ash
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ash
+   DESCRIPTION= leaf arms
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash leaf leggings
+[ITEMDEF i_leaf_leggings_Ash]
+   DEFNAME= i_leaf_leggings_Ash
+   ID= i_leaf_leggings
+   NAME= Ash leaf leggings
+   ARMOR= 19
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 15 i_log_Ash
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ash
+   DESCRIPTION= leaf leggings
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash leaf tonlet
+[ITEMDEF i_leaf_tonlet_Ash]
+   DEFNAME= i_leaf_tonlet_Ash
+   ID= i_leaf_tonlet
+   NAME= Ash leaf tonlet
+   ARMOR= 8
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 4 i_log_Ash
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ash
+   DESCRIPTION= leaf tonlet
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash raven helm
+[ITEMDEF i_helm_raven_Ash]
+   DEFNAME= i_helm_raven_Ash
+   ID= i_helm_raven
+   NAME= Ash raven helm
+   ARMOR= 12
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Ash
+   SKILLMAKE= CARPENTRY 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ash
+   DESCRIPTION= raven helm
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash vulture helm
+[ITEMDEF i_helm_vulture_Ash]
+   DEFNAME= i_helm_vulture_Ash
+   ID= i_helm_vulture
+   NAME= Ash vulture helm
+   ARMOR= 12
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Ash
+   SKILLMAKE= CARPENTRY 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ash
+   DESCRIPTION= vulture helm
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash winged helm
+[ITEMDEF i_helm_winged_Ash]
+   DEFNAME= i_helm_winged_Ash
+   ID= i_helm_winged
+   NAME= Ash winged helm
+   ARMOR= 12
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Ash
+   SKILLMAKE= CARPENTRY 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ash
+   DESCRIPTION= winged helm
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS= {104 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

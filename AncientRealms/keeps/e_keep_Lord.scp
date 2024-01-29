@@ -1,0 +1,23 @@
+[EVENTS e_Keep_Lord]
+ON=@Gethit
+	TAG.HitsOne=<TAG0.HitsTwo> - 10
+	IF <HITS> < <TAG0.HitsOne>
+		SAY @33 <HITS>!
+		TAG.HitsTwo=<HITS>
+	ENDIF	
+	IF (<FLAGS>&080)
+		MESSAGE @035,,1 An Nox
+		Spelleffect s_cure,1000
+		return 1
+	ENDIF
+         
+ON=@NPCRefuseItem
+	SAY @92 You cannot Bribe me.
+	RETURN 1
+
+ON=@Death
+	SERV.B @33 <REGION.NAME> Keep Lord Is Dead!
+	REGION.TAG.CanBeCaptured=01
+	RETURN 0
+
+[EOF]

@@ -1,0 +1,1756 @@
+//#################################################### 
+//############Tracker's Farming System################ 
+//#################################################### 
+//By Tracker of Shattered Alliance 
+//Updated for 56b and improved by Anarch Cassius
+//This is tested on version 56b
+// 
+//
+//This is Tracker's farming system updated to 56b. I've modified several things and
+//fixed some bugs. Most notably the system now interacts with seasons and weather and
+//plants have more configuration options. Also seeds have checks to prevent them being
+//planted on top of each other or in roads and floors.
+// 
+//INSTRUCTIONS!! 
+// 
+//This script is terribly easy to use. Put it in your Sphere folder in a .scp file 
+//that is in your spheretables under [RESOURCES], or make a new one and put it there. 
+// 
+//IF YOU ARE GOING TO INSTALL THIS...READ THIS DOCUMENTATION!!!!
+//
+//Type .newseed name to get a seed of the type you want.
+//
+//You may wish to create some items of specific seeds or immature plants to put on vendors or
+//have spawn in the wild.
+//
+//The "name" is simply the obvious name of the item, ie: Wheat, cotton, etc...
+//Be careful to spell it correctly. If you don't, it will spit out an error message, but
+//it shouldn't break anything because I actually put in error detection (yay!).
+//
+//Plants are defined using a list of information in a defname.
+//
+//Example:
+//farm_grass        0cbb
+//farm_grasscolor   07f3
+//farm_grassdiff     3
+//farm_grass_immature    0cbd
+//farm_grass_mature    0cbb
+//farm_grass_yield    1
+//farm_grass_type        2
+//farm_grass_grow_time 28
+//farm_grass_seasondif_3 3
+//
+//They mean this:
+//  FARM_name, this is what the plant produces, it's crop. In this, you can place 3 things:
+//        1) The defname of an item. i_banana, i_coconut, i_sword_long...any of those could go there 
+//             and the plant would produce them  when it was mature
+//    2) The "hex" value for an item. 0cbb, for instance, is a piece of grass. 085b is an iron door, etc..
+//    3) A random list of objects. ou can use either the defname of a random object types (see sphere_d_defs.scp for examples
+//             or you can use a random list, ie: { i_ring_gold 1 i_ring_silver 1 }
+//    FARM_nameCOLOR, this is the color that the plant will be in it's mature and immature stages.
+//        It is also the color that the seed of the plant will be, to allow for organization. You could make it random
+//        if you really wanted to, ie: {04cb 07c1} would give you a random color between those two, or use { 04cb 1 07c1 1 }
+//        to get an "either this or that" random color. To make it the normal color for it's type, use 00
+//    FARM_nameDIFF, this is the difficulty of the plant to grow and it also determines how much farming skill 
+//        you gain when playing with this plant. See the info above on how to use difficulty. 
+//    FARM_name_IMMATURE, this is the defname or hex id of what the plant will look like when it grows from a seeded plant to
+//        a half-grown plant. Choose something that looks vaguely like the mature form, or even choose the same one as the mature one.
+//        If the immature and mature id's are the same, then it won't change shape when picked. You can choose a random value, making it
+//        so that all of your flowers won't look exactly the same. Wildflowers, for instance: 
+//        { i_crop_flax 1 i_flower_campion 1 i_flower_foxglove 1 i_flower_redpoppies 1 i_flower_campion_2 1 i_flower_snowdrops 1 }
+//    FARM_name_MATURE, this is what the plant looks like when it's ready to be picked. Use a defname or hex id of an item. Like the
+//        immature plant, you can choose a random value using a list.
+//    FARM_name_yield, this is the amount of crop the the plant will yield. If it is one, it will always give one, otherwise
+//        it will give a random amount based on that amount using an over-complicated formula that hurts my head.
+//    FARM_name_type, this it the type of plant. It can be 1, 2, or 3.
+//        1) This is an "annual". It grows once, gets picked, and is gone forever. Atleast, these plants give an extra seed.
+//        2) This is a "perennial". It will grow to maturity, and once it is picked, it will revery back to it's "immature"
+//            state, until it reaches maturity again, allowing it to be picked over-and-over, as long as it is taken care of.
+//            These plants keep half their bonuses from care when they revert.
+//        3) This is a tree. This is pretty much just a perennial that has a few differences, mainly that it makes a "trunk"
+//                when it becomes mature. It doesn't actually revert to immaturity when picked, it just stays mature all the time,
+//                but can only be first picked after another growth cycle of time, however from then on it will produce fruit regularly
+//                in only half that time and will keep most of it's bonuses from care each time it is picked.
+//        4) This is a vine. This is almost exactly like a tree in game terms but doesn't have the same need for extra space that trees do.
+//    FARM_name_TREE, this is what the "trunk" piece of the treeappears as or what the fruit of vines will look like. It uses a defname or hex ID.
+//    FARM_name_GROW_TIME, originally all plants defaulted to 30 for this number but you can set it as you please. This is how many hours it takes
+//        to reach the next cycle. For trees and vines, once mature, half of this time is the wait for more fruit.
+//    FARM_NAME_seasondif_X, this is a new optional setting. Actually several new options. The x is the season, 0 for spring, 1 for summer, 2 for
+//        autumn and 3 for winter. You can set a difficulty for each of these seasons for each plant. The difficulties are 0 (default, no need
+//        to set), 1 for reduced growth during that season, 2 for no growth, and 3 for automatic die off during that season.
+//
+//
+
+
+[defname farming_stuff_list]
+farm_color				00
+farm_snowdrops
+
+farm_foxglove					0c84
+farm_foxglovecolor				00
+farm_foxglovediff				1
+farm_foxglove_immature			0c68
+farm_foxglove_mature			{ 0c84 1 0c8a 1 }
+farm_foxglove_yield				0
+farm_foxglove_grow_time			24
+farm_foxglove_type				1
+farm_foxglove_seasondif_3		3
+
+farm_orfluer					i_flower_orfluer
+farm_orfluercolor				00
+farm_orfluerdiff				1
+farm_orfluer_immature			i_flower_orfluer_2
+farm_orfluer_mature				i_flower_orfluer_3
+farm_orfluer_yield				0
+farm_orfluer_type				2
+farm_orfluer_grow_time         28
+farm_orfluer_seasondif_3		3
+
+farm_poppy						i_flower_redpoppies
+farm_poppycolor					00
+farm_poppydiff					2
+farm_poppy_immature				{ i_plant_poppies 1 i_plant_poppies_2 1 }
+farm_poppy_mature				i_flower_redpoppies
+farm_poppy_yield				0
+farm_poppy_type					1
+farm_poppy_grow_time			28
+farm_poppy_seasondif_3			3
+
+farm_campion					i_flower_campion
+farm_campioncolor				00
+farm_campiondiff				2
+farm_campion_immature			{ i_flower_campion_2 1 i_flower_campion_3 1 }
+farm_campion_mature				i_flower_campion
+farm_campion_yield				0
+farm_campion_type				1
+farm_campion_grow_time			24
+farm_campion_seasondif_3		3
+
+farm_hay						0100c		//this is what it yields....the crop
+farm_haycolor					00			//hex value of the plant's color
+farm_haydiff					3			//difficulty
+farm_hay_sprouted				{ 01EBE 1 01EBF 1 }				//ID of what the sprouted plant looks like
+farm_hay_immature				{ 01a94 1 01a95 1 01a96 1 }		//ID of what the immature plant looks like
+farm_hay_mature					01a92		//ID of what the mature plant looks like
+farm_hay_yield					3			//1 will always yield one of the product when it is ripe, no more no less
+											//more uses this amount as a lower boundry, the higher one 
+											//is based on their skill, so "3" will yield about 3-8
+farm_hay_type					2			//1=annual, 2=perennial, 3=tree, 4=vines
+farm_hay_grow_time				24			//the amount of time it will take during each growth cycle
+farm_hay_seedcolor				06c9		//Optional: changes the color of the seeds to other than black
+farm_hay_seasondif_3			3			//Optional: alters the difficulty of growing during that season, see above
+
+farm_carrot						i_fruit_carrot
+farm_carrotcolor				00
+farm_carrotdiff					3
+farm_carrot_immature			0c69
+farm_carrot_mature				0c76
+farm_carrot_yield				3
+farm_carrot_type				1
+farm_carrot_grow_time			28
+farm_carrot_seasondif_0			2
+farm_carrot_seasondif_1			1
+farm_carrot_seasondif_3			3
+
+farm_lettuce					i_fruit_lettuce
+farm_lettucecolor				00
+farm_lettucediff				3
+farm_lettuce_immature			0c71
+farm_lettuce_mature				0c71
+farm_lettuce_yield				3
+farm_lettuce_type				1
+farm_lettuce_grow_time			22
+farm_lettuce_seasondif_1		1
+farm_lettuce_seasondif_2		3
+farm_lettuce_seasondif_3		3
+
+farm_watermelon					i_fruit_watermelon
+farm_watermeloncolor			0
+farm_watermelondiff				3
+farm_watermelon_immature		0c5e
+farm_watermelon_mature			{ 0c5c 1 0c6d 1 }
+farm_watermelon_yield			2
+farm_watermelon_type			4
+farm_watermelon_grow_time		36
+farm_watermelon_tree			{ 0c5f 1 0c60 1 }
+farm_watermelon_seasondif_0     1
+farm_watermelon_seasondif_2     3
+farm_watermelon_seasondif_3     3
+
+farm_pumpkin					i_fruit_pumpkin
+farm_pumpkincolor				0
+farm_pumpkindiff				3
+farm_pumpkin_immature			0c5e
+farm_pumpkin_mature				{ 0c6a 1 0c6b 1 0c6c 1}
+farm_pumpkin_yield				2
+farm_pumpkin_type				4
+farm_pumpkin_grow_time			36
+farm_pumpkin_tree				{ 0c5f 1 0c60 1 }
+farm_pumpkin_seedcolor			05a6
+farm_pumpkin_seasondif_0		3
+farm_pumpkin_seasondif_1		1
+farm_pumpkin_seasondif_3		3
+
+farm_gourd						{ i_fruit_gourd2 1 i_fruit_gourd1 1 }
+farm_gourdcolor					0
+farm_gourddiff					3
+farm_gourd_immature				0c5e
+farm_gourd_mature				{ 0c66 1 0c67 1 0c64 1 0c65 1 }
+farm_gourd_yield				3
+farm_gourd_type					4
+farm_gourd_grow_time			32
+farm_gourd_tree					{ 0c5f 1 0c60 1 }
+farm_gourd_seedcolor			05a6
+farm_gourd_seasondif_0			3
+farm_gourd_seasondif_1			1
+farm_gourd_seasondif_3			3
+
+farm_squash                i_fruit_squash
+farm_squashcolor            0
+farm_squashdiff            3
+farm_squash_immature        0c5e
+farm_squash_mature        { 0c72 1 0c73 1 }
+farm_squash_yield            3
+farm_squash_type            4
+farm_squash_grow_time         32
+farm_squash_tree            { 0c5f 1 0c60 1 }
+farm_squash_seedcolor        05a6
+farm_squash_seasondif_ 0    3
+farm_squash_seasondif_1     1
+farm_squash_seasondif_3     3
+
+farm_honeydew            i_fruit_honeydew
+farm_honeydewcolor        0
+farm_honeydewdiff            4
+farm_honeydew_immature        0c5e
+farm_honeydew_mature        { 0c74 1 0c75 1 }
+farm_honeydew_yield        4
+farm_honeydew_type        4
+farm_honeydew_grow_time     32
+farm_honeydew_tree        { 0c5f 1 0c60 1 }
+farm_honeydew_seedcolor        05a6
+farm_honeydew_seasondif_0     1
+farm_honeydew_seasondif_2     3
+farm_honeydew_seasondif_3     3
+
+farm_canteloupe            i_fruit_cantelope
+farm_canteloupecolor        0
+farm_canteloupediff        4
+farm_canteloupe_immature    0c5e
+farm_canteloupe_mature        { 0c7a 1 0c79 1 }
+farm_canteloupe_yield        4
+farm_canteloupe_type        4
+farm_canteloupe_grow_time     32
+farm_canteloupe_tree        { 0c5f 1 0c60 1 }
+farm_canteloupe_seedcolor    05a6
+farm_canteloupe_seasondif_0     1
+farm_canteloupe_seasondif_2     3
+farm_canteloupe_seasondif_3     3
+
+farm_turnip                i_fruit_turnip
+farm_turnipcolor            0
+farm_turnipdiff            4
+farm_turnip_immature        0c61
+farm_turnip_mature        { 0c62 1 0c63 1 }
+farm_turnip_yield            3
+farm_turnip_type            1
+farm_turnip_grow_time         28
+farm_turnip_seasondif_1        1
+farm_turnip_seasondif_2        3
+farm_turnip_seasondif_3        3
+
+farm_onion                i_fruit_onion
+farm_onioncolor            0
+farm_oniondiff            4
+farm_onion_immature        0c68
+farm_onion_mature            0c6f
+farm_onion_yield            5
+farm_onion_type            1
+farm_onion_grow_time         24
+farm_onion_seasondif_0         1
+farm_onion_seasondif_2         1
+farm_onion_seasondif_3         3
+
+farm_garlic                i_reag_garlic
+farm_garliccolor            0
+farm_garlicdiff            4
+farm_garlic_immature        018e1
+farm_garlic_mature        018e1
+farm_garlic_yield            5
+farm_garlic_type            1
+farm_garlic_grow_time         24
+farm_garlic_seasondif_0     1
+farm_garlic_seasondif_2     1
+farm_garlic_seasondif_3     3
+
+farm_cabbage            i_fruit_cabbage
+farm_cabbagecolor            0
+farm_cabbagediff            4
+farm_cabbage_immature        0c7b
+farm_cabbage_mature        0c7b
+farm_cabbage_yield        3
+farm_cabbage_type            1
+farm_cabbage_grow_time         28
+farm_cabbage_seasondif_1     1
+farm_cabbage_seasondif_2     3
+farm_cabbage_seasondif_3     3
+
+farm_corn            i_fruit_corn
+farm_corncolor        00
+farm_corndiff        4
+farm_corn_immature    0c7e
+farm_corn_mature        0c7d
+farm_corn_yield        4
+farm_corn_type        1
+farm_corn_grow_time     32
+farm_corn_seedcolor    06b7
+farm_corn_seasondif_0     1
+farm_corn_seasondif_2     1
+farm_corn_seasondif_3     3
+
+farm_wheat            i_wheat_sheaf
+farm_wheatcolor        00
+farm_wheatdiff        5
+farm_wheat_sprouted    { 01EBE 1 01EBF 1 }
+farm_wheat_immature    ( 0c55 1 0c56 1 0c57 1 }
+farm_wheat_mature        0c58
+farm_wheat_yield        5
+farm_wheat_type        1
+farm_wheat_grow_time     28
+farm_wheat_seedcolor    06ae
+farm_wheat_seasondif_0     1
+farm_wheat_seasondif_2     1
+farm_wheat_seasondif_3     3
+
+farm_cotton               i_cotton
+farm_cottoncolor          00
+farm_cottondiff           5
+farm_cotton_immature      { 0c51 1 0c52 1 }
+farm_cotton_mature        { 0c4f 1 0c50 1 }
+farm_cotton_yield         6    
+farm_cotton_type          1
+farm_cotton_grow_time     32
+farm_cotton_seasondif_0   1
+farm_cotton_seasondif_2   1
+farm_cotton_seasondif_3   3
+
+farm_hops    i_fruit_hops
+farm_hopscolor    00
+farm_hopsdiff    5
+farm_hops_immature    i_crop_hops1
+farm_hops_mature    01aa0
+farm_hops_yield    4
+farm_hops_type 2
+farm_hops_grow_time 32
+farm_hops_seasondif_3     3
+
+farm_flax            i_flax_bundle
+farm_flaxcolor        00
+farm_flaxdiff        6
+farm_flax_immature    i_crop_flax1
+farm_flax_mature        i_crop_flax
+farm_flax_yield        4
+farm_flax_type        1
+farm_flax_grow_time    32
+farm_flax_seasondif_3     3
+
+farm_sabadilla        i_sabadilla
+farm_sabadillacolor    089f
+farm_sabadilladiff    5
+farm_sabadilla_immature    0cb9
+farm_sabadilla_mature    i_plant_pampasgrass
+farm_sabadilla_yield    3
+farm_sabadilla_type    2
+farm_sabadilla_grow_time 32
+farm_sabadilla_seasondif_3     3
+
+farm_nightshade            i_reag_nightshade
+farm_nightshadecolor        0
+farm_nightshadediff        5
+farm_nightshade_immature    018e1
+farm_nightshade_mature        018e1
+farm_nightshade_yield        5
+farm_nightshade_type        1
+farm_nightshade_grow_time     24
+farm_nightshade_seasondif_3     3
+
+farm_ginger            i_ginger
+farm_gingercolor        0170
+farm_gingerdiff            5
+farm_ginger_immature        0ca4
+farm_ginger_mature        0ca1
+farm_ginger_yield        3
+farm_ginger_type        2
+farm_ginger_grow_time         28
+farm_ginger_seasondif_3     3
+
+farm_apple                i_fruit_apple
+farm_applecolor            00
+farm_applediff            6
+farm_apple_sprouted        0cea 
+farm_apple_immature        0ce9
+farm_apple_mature            0d96
+farm_apple_yield            6
+farm_apple_type            3
+farm_apple_grow_time        44
+farm_apple_tree            0d94    //Only trees and vines need this last value. It's the ID of the trunk part for trees and the vine part
+                    //of vines. If it's a tree without this part (ie, a banana palm) you'll want to just use something
+                    //that will either blend in, or an invisible item. i recommend a iece of it's fruit, as if it had dropped it  
+farm_apple_seasondif_0         2
+farm_apple_seasondif_1         1
+farm_apple_seasondif_3         2
+
+farm_lemon                i_fruit_lemon
+farm_lemoncolor            07d1
+farm_lemondiff            6
+farm_lemon_sprouted        0cea 
+farm_lemon_immature        0ce9
+farm_lemon_mature            01729
+farm_lemon_yield            6
+farm_lemon_type            3
+farm_lemon_grow_time        44
+farm_lemon_tree            0c9e
+farm_lemon_seedcolor        06c0
+farm_lemon_seasondif_0         1
+farm_lemon_seasondif_2         2
+farm_lemon_seasondif_3         2
+
+farm_lime                i_fruit_lime
+farm_limecolor            07d2
+farm_limediff            6
+farm_lime_sprouted        0cea 
+farm_lime_immature        0ce9
+farm_lime_mature            0172b
+farm_lime_yield            6
+farm_lime_type            3
+farm_lime_grow_time        44
+farm_lime_tree            0c9e
+farm_lime_seedcolor        06c0
+farm_lime_seasondif_0         1
+farm_lime_seasondif_2         2
+farm_lime_seasondif_3         2
+
+farm_peach                i_fruit_peach
+farm_peachcolor            0
+farm_peachdiff            7
+farm_peach_sprouted        0cea 
+farm_peach_immature        0ce9
+farm_peach_mature            0DA2
+farm_peach_yield            5
+farm_peach_type            3
+farm_peach_grow_time        44
+farm_peach_tree            0DA0
+farm_peach_seedcolor        06c0
+farm_peach_seasondif_0         1
+farm_peach_seasondif_2         2
+farm_peach_seasondif_3         2
+
+farm_date                i_fruit_dates
+farm_datecolor            0
+farm_datediff            7
+farm_date_sprouted        0c9a
+farm_date_immature        0c99
+farm_date_mature            01727
+farm_date_yield            5
+farm_date_type            3
+farm_date_grow_time        44
+farm_date_tree            0c96
+farm_date_seasondif_0         1
+farm_date_seasondif_2         1
+farm_date_seasondif_3         2
+
+farm_banana                i_fruit_banana
+farm_bananacolor            0
+farm_bananadiff            7
+farm_banana_sprouted        0c9a
+farm_banana_immature        0ca8
+farm_banana_mature        01721
+farm_banana_yield            6
+farm_banana_type            3
+farm_banana_grow_time        44
+farm_banana_tree            0caa
+farm_banana_seasondif_0     1
+farm_banana_seasondif_2     1
+farm_banana_seasondif_3     2
+
+farm_ginseng            i_reag_ginseng
+farm_ginsengcolor            0
+farm_ginsengdiff            7
+farm_ginseng_immature        018e9
+farm_ginseng_mature        018e9
+farm_ginseng_yield        6
+farm_ginseng_type            1
+farm_ginseng_grow_time         24
+farm_ginseng_seasondif_0    1
+farm_ginseng_seasondif_2    1
+farm_ginseng_seasondif_3     3
+
+farm_mandrake            i_reag_mandrake_root
+farm_mandrakecolor        0
+farm_mandrakediff            7
+farm_mandrake_immature        018e0
+farm_mandrake_mature        018e0
+farm_mandrake_yield        6
+farm_mandrake_type        1
+farm_mandrake_grow_time     24
+farm_mandrake_seasondif_3     3
+
+
+//================================================
+//=====================Sabadilla==================
+//================================================
+
+[ITEMDEF i_sabadilla]
+ID=0c6e
+VALUE=18
+NAME=sabadilla
+WEIGHT=0.5
+TYPE=t_reagent
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Plants
+DESCRIPTION=Sabdilla (harvested)
+
+on=@create
+color=089f
+
+[ITEMDEF i_potion_Sabadilla]
+ID=0efe
+VALUE=31
+NAME=Sabadilla powder
+TYPE=T_POTION
+TDATA1=i_bottle_empty
+RESOURCES=i_sabadilla, i_bottle_EMPTY
+SKILLMAKE=ALCHEMY 10.0
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Plants
+DESCRIPTION=Sabdilla (Potion)
+
+ON=@Create
+    MORE1=s_water
+    MORE2=100.0
+
+on=@dclick
+  target="What plant do you wish to treat?"
+  return 1
+
+on=@targon_item
+if !<src.targ.canseelos>
+src.sysmessage That cannot be seen.
+return 1
+elseif <src.targ.distance>>3
+src.sysmessage That is too far away to treat.
+return 1
+endif
+IF (<TYPE>==t_farm_immature) || (<TYPE>==t_farm_mature)
+    SRC.TARG.tag0.sabadilla=1
+    SRC.NEWITEM i_bottle_empty
+    SRC.new.BOUNCE
+    REMOVE
+ENDIF
+RETURN 1
+
+
+
+
+//================================================
+//========================seed====================
+//================================================
+
+[ITEMDEF i_farm_seed]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=default
+
+on=@create
+color=006d1
+
+[ITEMDEF i_seed_corn]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=corn
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Corn
+
+on=@create
+COLOR=008a6
+nameseed
+
+[ITEMDEF i_seed_hay]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=hay
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Hay
+
+on=@create
+nameseed
+
+[ITEMDEF i_seed_wheat]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=wheat
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Wheat
+
+on=@create
+COLOR=00970
+nameseed
+
+
+[ITEMDEF i_seed_carrot]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=carrot
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Carrot
+
+on=@create
+COLOR=00845
+nameseed
+
+
+[ITEMDEF i_seed_lettuce]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=lettuce
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Lettuce
+
+on=@create
+COLOR=63
+nameseed
+
+[ITEMDEF i_seed_apple]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=apple
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Apple
+
+on=@create
+COLOR=004f6
+nameseed
+
+[ITEMDEF i_seed_watermelon]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=watermelon
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Watermelon
+
+on=@create
+COLOR=00036
+nameseed
+
+[ITEMDEF i_seed_onion]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=onion
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Onion
+
+on=@create
+COLOR=003ed
+nameseed
+
+[ITEMDEF i_seed_turnip]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=turnip
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Turnip
+
+on=@create
+COLOR=006d2
+nameseed
+
+[ITEMDEF i_seed_pumpkin]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=pumpkin
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Pumpkin
+
+on=@create
+COLOR=000da
+nameseed
+
+
+[ITEMDEF i_seed_onion]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=onion
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Onion
+
+on=@create
+COLOR=005e1
+nameseed
+
+[ITEMDEF i_seed_honeydew]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=honeydew
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Honeydew
+
+on=@create
+COLOR=0043b
+nameseed
+
+
+[ITEMDEF i_seed_gourd]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=gourd
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Gourd
+
+on=@create
+COLOR=007d8
+nameseed
+
+
+[ITEMDEF i_seed_canteloupe]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=canteloupe
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Canteloupe
+
+on=@create
+COLOR=007d8
+nameseed
+
+[ITEMDEF i_seed_squash]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=squash
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Squash
+
+on=@create
+COLOR=008a6
+nameseed
+
+
+[ITEMDEF i_seed_cabbage]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=cabbage
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Cabbage
+
+on=@create
+COLOR=007d3
+nameseed
+
+[ITEMDEF i_seed_garlic]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=garlic
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Garlic
+
+on=@create
+COLOR=00482
+nameseed
+
+
+[ITEMDEF i_seed_cotton]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=cotton
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Cotton
+
+on=@create
+COLOR=0098f
+nameseed
+
+
+[ITEMDEF i_seed_flax]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=flax
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Flax
+on=@create
+COLOR=00a2c
+nameseed
+
+
+[ITEMDEF i_seed_hops]
+ID=0f87
+NAME="seed"
+TYPE=t_seed
+VALUE=10
+tag.plant=hops
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Seeds
+DESCRIPTION=Hops
+
+on=@create
+COLOR=007d4
+nameseed
+
+[FUNCTION nameseed]
+name="<tag0.plant> seed"
+if !(<def0.farm_<tag0.plant>_seedcolor>==0)
+    color=<def0.farm_<tag0.plant>_seedcolor>
+elif !(<def0.farm_<tag0.plant>color>==0)
+    color=<def0.farm_<tag0.plant>color>
+else
+    color=007d4
+endif
+if !(<def0.farm_<tag0.plant>_seedid>==0)
+    dispid=<def0.farm_<tag0.plant>_seedid>
+endif
+tag.modvalue=<def0.farm_<tag0.plant>diff>*<def0.farm_<tag0.plant>diff>
+
+[typedef t_seed]
+
+ON=@Dclick
+IF !(<SRC.RESTEST 1 i_shovel>)
+    SRC.MESSAGE You need a shovel to plant seeds.
+    RETURN 1
+ENDIF
+IF !(<SRC.ISNEARTYPE.P t_dirt 0>) && !(<SRC.ISNEARTYPE.P t_grass 0>)
+    SRC.MESSAGE This is not farmable land; try tilled soil or even grass.
+    RETURN 1
+ENDIF
+IF (<SRC.ISNEARTYPE.P t_tree 1>)
+    SRC.MESSAGE You cannot plant in the shade of trees.
+    RETURN 1
+ENDIF
+IF (<def.farm_<tag0.plant>_type>==3)
+    IF (<SRC.ISNEARTYPE.P t_farm_seeded 1>) || (<SRC.ISNEARTYPE.P t_farm_immature 1>) || (<SRC.ISNEARTYPE.P t_farm_mature 1>)
+        SRC.MESSAGE You cannot plant trees near other plants.
+        RETURN 1
+    ENDIF
+ELSE
+    IF (<SRC.ISNEARTYPE.P t_farm_seeded 0>) || (<SRC.ISNEARTYPE.P t_farm_immature 0>) || (<SRC.ISNEARTYPE.P t_farm_mature 0>)
+        SRC.MESSAGE You cannot plant on other plants.
+        RETURN 1
+    ENDIF
+    foritems 1
+        IF (<TYPE>==t_farm_seeded) || (<TYPE>==t_farm_immature)
+            IF (<def.farm_<tag0.plant>_type>==3)
+                SRC.MESSAGE You cannot plant next to young trees.
+                RETURN 1
+            ENDIF
+        ENDIF
+    endfor
+ENDIF
+if (<def0.farm_<tag0.plant>>!=0)  //if the seed is not a defined type (ie: you try making it a "wheet" seed)
+                    //If this happens, it will return an error to the console, and complain 
+                    //to the player. Error prevention=good
+    if (<eval rand(<src.herding>)> < <eval rand(<def.farm_<tag0.plant>diff>*100)>)
+        src.sysmessage @00029 You fail to properly plant the seed and it is wasted.
+        if (<amount> > 1)
+            amount=<amount>-1
+            update
+        else
+            remove
+        endif
+        return 1
+    endif
+    SRC.f_skillgain 20
+    SRC.EMOTE "plant some <tag0.plant> seed"
+    SRC.BOW
+    SRC.NEWITEM i_farm_seeded
+    src.new.tag0.plant=<tag0.plant>
+    SRC.new.P=<SRC.P>
+    SRC.new.LINK=<SRC.UID>
+    SRC.NEW.TIMER=60*60
+    IF (<def.farm_<tag0.plant>_type>==3)
+        SRC.new.NAME="seeded <tag0.plant> tree"
+    ELIF  (<def.farm_<tag0.plant>_type>==4) 
+        SRC.new.NAME="seeded <tag0.plant> vines"
+    ELSE
+        SRC.new.name="seeded <tag0.plant>"
+    ENDIF
+    src.sfx 012d
+    SRC.new.MORE2=<hval <def.farm_<tag0.plant>_grow_time>-(<src.herding>/100)>      //MORE2=number of hours till matures 1 stage
+    SRC.ACT.MOREZ=<hval rand(<SRC.ACT.MORE2>)>+1     //MOREZ=amount of water it has
+    SRC.new.MORE1=<src.herding>         //more1=skill with which it was planted
+    IF (<SRC.ISNEARTYPE.P t_dirt 0>) // bonus for using tilled soil
+        SRC.new.MOREx=5
+    ENDIF
+    src.skillgain herding <eval <def.farm_<tag0.plant>diff>*10>
+    if (<amount> > 1)
+        amount=<amount>-1
+        update
+    else
+        remove
+    endif
+else
+    src.sysmessage "This seed is not a properly created seed. Please page to have it replaced."
+    serv.smsg "WARNING!!!!!!! BAD SEED EXISTS! UID <?UID?>, tag0.plant=<?tag0.plant?> (used by <?SRC.NAME?>)\r"
+ENDIF
+RETURN 1
+//================================================
+//========================Seeded blotch===========
+//================================================
+
+[ITEMDEF i_farm_seeded]
+ID=0913
+NAME="seeded plant"
+TYPE=t_farm_seeded
+
+
+[typedef t_farm_seeded]
+
+on=@create
+attr=012
+TIMER=60*60 //one hour
+
+ON=@TIMER
+farmtimer
+IF (<MORE2><1)        //if it is ready to mature
+    IF (<def0.farm_<tag0.plant>_sprouted>) //if it has a sprout phase
+        NEWITEM i_farm_sprouted    //make the sprouted plant
+        NEW.DISPID=<def.farm_<tag0.plant>_sprouted>    //make it look right
+        IF (<def.farm_<tag0.plant>_type>==3)
+            NEW.NAME="sprouted <tag0.plant> tree"
+        ELIF  (<def.farm_<tag0.plant>_type>==4) 
+            NEW.NAME="sprouted <tag0.plant> vines"
+        ELSE
+            NEW.name="sprouted <tag0.plant>"
+        ENDIF
+        plant_mature
+        NEW.MOREX=<MOREX>
+        link.update
+        remove
+    ELSE
+        NEWITEM i_farm_immature    //make the immature plant
+        NEW.DISPID=<def.farm_<tag0.plant>_immature>    //make it look right
+        IF (<def.farm_<tag0.plant>_type>==3)
+            NEW.NAME="immature <tag0.plant> tree"
+        ELIF  (<def.farm_<tag0.plant>_type>==4) 
+            NEW.NAME="immature <tag0.plant> vines"
+        ELSE
+            NEW.name="immature <tag0.plant>"
+        ENDIF
+        plant_mature
+        NEW.MOREX=<MOREX>
+        link.update
+        remove
+    ENDIF    
+ENDIF
+IF (<MORE2>>((<def.farm_<tag0.plant>_grow_time>*2)) //if it hasn't been watered in some time it should die
+    EMOTE "die"
+    REMOVE
+ENDIF
+TIMER=60*60
+RETURN 1
+
+
+on=@dclick
+waterlevel
+dialog d_examine_plant
+return 1
+
+
+
+//================================================
+//========================spouted plant*==========
+//================================================
+//*optional plant-specifed growth phase
+
+[ITEMDEF i_farm_sprouted]
+ID=0cb6
+NAME="sprouted plant"
+TYPE=t_farm_sprouted
+
+
+[typedef t_farm_sprouted]
+
+on=@create
+attr=012
+TIMER=60*60 //one hour
+
+
+ON=@TIMER
+farmtimer
+IF (<MORE2><1)        //if it is ready to mature
+    NEWITEM i_farm_immature    //make the immature plant
+    NEW.DISPID=<def.farm_<tag0.plant>_immature>    //make it look right
+    IF (<def.farm_<tag0.plant>_type>==3)
+        NEW.NAME="immature <tag0.plant> tree"
+    ELIF  (<def.farm_<tag0.plant>_type>==4) 
+        NEW.NAME="immature <tag0.plant> vines"
+    ELSE
+        NEW.name="immature <tag0.plant>"
+    ENDIF
+    plant_mature
+    NEW.tag0.fruit_eaten=<tag0.fruit_eaten>        //some fruit eaten
+    NEW.MOREX=<MOREX>
+    link.update
+    remove
+ENDIF
+
+IF (<MORE2>>((<def.farm_<tag0.plant>_grow_time>*2)) //if it hasn't been watered in some time it should die
+    EMOTE "die"
+    REMOVE
+ENDIF
+PESTCHECK
+TIMER=60*60
+RETURN 1
+
+
+on=@dclick
+    waterlevel
+    dialog d_examine_plant
+    return 1
+
+
+
+//================================================
+//========================immature plant==========
+//================================================
+
+
+[ITEMDEF i_farm_immature]
+ID=0cb6
+NAME="immature plant"
+TYPE=t_farm_immature
+
+
+[FUNCTION nameplant]
+name="immature <tag0.plant>"
+if !(<def0.farm_<tag0.plant>color>==0)
+    color=<def0.farm_<tag0.plant>color>
+endif
+dispid=<def0.farm_<tag0.plant>_immature>
+MOREX={ 1 300 }
+MORE2 = (<def0.farm_<tag0.plant>_grow_time>/2)
+MOREZ = <MORE2>+1
+TIMER=10
+
+[ITEMDEF i_farm_mandrake]
+ID=0cb6
+TYPE=t_farm_immature
+tag.plant=mandrake
+
+on=@create
+nameplant
+
+[typedef t_farm_immature]
+
+on=@create
+attr=012
+TIMER=60*60 //one hour
+
+
+ON=@TIMER
+farmtimer
+IF (<MORE2><1)        //if it is ready to mature
+    NEWITEM i_farm_mature    //make the mature plant
+    NEW.DISPID=<def.farm_<tag0.plant>_mature>  //make it look right
+    IF (<def.farm_<tag0.plant>_type>==3)
+        NEW.NAME="mature <tag0.plant> tree"
+    ELIF  (<def.farm_<tag0.plant>_type>==4) 
+        NEW.NAME="mature <tag0.plant> vines"
+    ELSE
+        NEW.name="mature <tag0.plant>"
+    ENDIF
+    plant_mature
+    new.tag0.fruit_eaten=<tag0.fruit_eaten>        //some fruit eaten
+    new.MOREX=<MOREX>            //how well it's been cared for
+    VAR.TREE_UID=<NEW.UID>
+
+    IF (<def.farm_<tag0.plant>_type>==3)
+        NEWITEM i_farm_tree_trunk
+        NEW.DISPID=<def.farm_<tag0.plant>_tree>
+        NEW.P=<P>
+        NEW.LINK=<VAR.TREE_UID>
+        NEW.TIMER=10
+        NEW.COLOR=<def.farm_<tag0.plant>color>
+        NEW.NAME="mature <tag0.plant> tree"
+    ENDIF
+    IF  (<def.farm_<tag0.plant>_type>==4) 
+        NEWITEM i_farm_vines
+        NEW.DISPID=<def.farm_<tag0.plant>_tree>
+        NEW.P=<P>
+        NEW.LINK=<VAR.TREE_UID>
+        NEW.TIMER=10
+        NEW.NAME="mature <tag0.plant> vines"
+    ENDIF
+    link.update
+    REMOVE
+  endif
+
+IF (<MORE2>>((<def.farm_<tag0.plant>_grow_time>*3)) //if it hasn't been watered in a very long time it should die
+    EMOTE "die"
+    REMOVE
+ENDIF
+PESTCHECK
+TIMER=60*60
+RETURN 1
+
+
+on=@dclick
+    waterlevel
+    dialog d_examine_plant
+    return 1
+
+
+
+//================================================
+//========================mature plant============
+//================================================
+
+[ITEMDEF i_farm_mature]
+ID=0cbb
+NAME="mature plant"
+TYPE=t_farm_mature
+
+
+[typedef t_farm_mature]
+
+on=@create
+attr=012
+MORE2=1
+TIMER=60*60 //one hour
+
+ON=@TIMER
+farmtimer
+IF (<MORE2>>((<def.farm_<tag0.plant>_grow_time>*4)) //if it hasn't been watered in a very long time it should die
+    EMOTE "die"
+    REMOVE
+ENDIF
+PESTCHECK
+TIMER=60*60
+RETURN 1
+
+
+ON=@Dclick
+IF (<LINK>==<SRC.UID>) || (<LINK>==0) //Make sure they're the owner or it's wild
+    if (!(<def.farm_<tag0.plant>_type>==3) && !(<def.farm_<tag0.plant>_type>==4)) || (<MORE2>==0) //if it's a tree it has to act differently
+        waterlevel
+        dialog d_examine_plant_harvest
+    else
+        if (<morez>><more2>) //if it has enough water to grow for a while
+            tag0.water_text="Fully Watered"
+            tag0.water_color=6
+        elseif (<morez>>=(<more2>/2))
+            tag0.water_text="Watered"
+            tag0.water_color=4
+        elseif (<morez><3)  //amount of water is 2 or 1
+            tag0.water_text="Needs Water Badly"
+            tag0.water_color=38
+        else  //hours worth of water less then half the amount until grown
+            tag0.water_text="Needs Water"
+            tag0.water_color=54
+        endif
+        dialog d_examine_plant
+    endif
+ELSE
+    SRC.SYSMESSAGE "This belongs to <LINK.NAME>, so hands off."
+ENDIF
+RETURN 1
+
+
+//================================================
+//========================TREE TRUNK==============
+//================================================
+
+
+[ITEMDEF i_farm_tree_trunk]
+ID=0cca
+NAME="tree trunk"
+TYPE=t_tree
+
+on=@create
+attr=012
+TIMER=30
+
+on=@timer
+IF !(<LINK.BASEID>==i_farm_mature)
+    REMOVE
+ELSE
+    TIMER=30
+ENDIF
+RETURN 1
+
+[ITEMDEF i_farm_vines]
+ID=0c5f
+NAME="vines"
+TYPE=t_normal
+
+on=@create
+attr=012
+TIMER=30
+
+on=@timer
+IF !(<LINK.BASEID>==i_farm_mature)
+    REMOVE
+ELSE
+    TIMER=30
+ENDIF
+RETURN 1
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//++++++++++++++++Buckets++++++++++++++++++++++++++++++++++
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+[ITEMDEF i_watering_bucket]
+ID=i_bucket_of_water
+NAME="Bucket of Water"
+TYPE=T_normal
+WEIGHT=15
+VALUE=60
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Items
+DESCRIPTION=Watering Bucket
+
+
+ON=@Create
+MOREZ=12        //number of "charges"
+
+
+ON=@Dclick
+TARGET "What plant would you like to water?"
+RETURN 1
+
+on=@targon_char
+src.emote "dump a bucket of water over <src.targ.name>"
+REMOVE
+SRC.NEWITEM i_watering_bucket_empty
+SRC.new.P=<SRC.P>
+SRC.new.BOUNCE
+return 1
+
+ON=@TARGON_ITEM
+if !<src.targ.canseelos>
+src.sysmessage That cannot be seen.
+return 1
+elseif <src.targ.distance>>3
+src.sysmessage That is too far away to water.
+return 1
+endif
+IF (<SRC.TARG.BASEID>==i_farm_seeded)||(<SRC.TARG.BASEID>==i_farm_sprouted)||(<SRC.TARG.BASEID>==i_farm_immature)||(<SRC.TARG.BASEID>==i_farm_mature) //waterable plant
+    SRC.TARG.morez=<SRC.TARG.morez>+8
+    MOREZ=<MOREZ>-1
+    SRC.SFX 004e
+    SRC.BOW
+ENDIF
+IF (<MOREZ>==0)
+    REMOVE
+    SRC.NEWITEM i_watering_bucket_empty
+    SRC.new.P=<SRC.P>
+    SRC.new.BOUNCE
+ENDIF
+RETURN 1
+
+[ITEMDEF i_watering_bucket_empty]
+ID=i_bucket
+NAME="Bucket"
+TYPE=T_normal
+VALUE=250
+RESOURCES=10 i_board, 2 i_barrel_hoops,t_tinker_tools
+skillmake=78.0 tinkering
+
+CATEGORY=Invictus - Farming
+SUBSECTION=Farming Items
+DESCRIPTION=Watering Bucket (Empty)
+
+ON=@Dclick
+
+TARGET "Use this on a fountain, trough, or vat to fill it with water."
+RETURN 1
+
+ON=@TARGON_item
+IF (<SRC.TARG.BASEID>==i_trough_water)||(<SRC.TARG.BASEID>==i_vat_3)
+    REMOVE
+    SRC.SFX 0240
+    SRC.BOW
+    SRC.NEWITEM i_watering_bucket
+    SRC.new.P=<SRC.P>
+    SRC.new.BOUNCE
+ELSE
+    src.sysmessage "Fill this at a trough, or fountain."
+ENDIF
+RETURN 1
+
+//*****************************************************
+//************************newseed**********************
+//**********Gives you 1 of the plant's seed************
+//*****************************************************
+
+//useage: src.newseed("wheat")
+//Ingame: .newseed(wheat)
+[function newseed]
+if (<eval farm_<ARGS>>!=0) //and that the plant is properly created
+    newitem i_farm_seed
+    new.tag0.plant="<ARGS>"
+    new.name="<ARGS> seed"
+    if !(<def0.farm_<new.tag0.plant>_seedcolor>==0)
+        new.color=<def0.farm_<new.tag0.plant>_seedcolor>
+    elif !(<def0.farm_<new.tag0.plant>color>==0)
+        new.color=<def0.farm_<new.tag0.plant>color>
+    endif
+    if !(<def0.farm_<new.tag0.plant>_seedid>==0)
+        new.dispid=<def0.farm_<new.tag0.plant>_seedid>
+    endif
+    new.bounce
+else
+  sysmessage "A seed creation attempt was not done properly. The seed type `<?ARGS?>` is invalid. Please page."
+    serv.smsg "WARNING!!!!!!! BAD SEED CREATION ATTEMPT!, tag0.plant=<?ARGS?> (created on <?NAME?>)\r"
+endif
+
+
+
+
+//================================================
+//============Give Extra Seeds function===========
+//================================================
+//This functions only use is in the farming process.
+[function f_give_extra_seeds]
+if (<eval rand(<src.herding>)> > <eval <def.farm_<tag0.plant>diff>*100>)
+    SRC.NEWSEED "<tag0.plant>"    //give them extra seed as a reward
+endif
+if (<eval rand(<src.herding>)> > <eval <def.farm_<tag0.plant>diff>*200>)
+    SRC.NEWSEED "<tag0.plant>"    //give them extra seed as a reward
+endif
+
+
+//================================================
+//==============Mature Plant function=============
+//================================================
+//This functions only use is in the farming process.
+[function plant_mature]
+NEW.tag0.plant=<tag0.plant>        //it's plant type
+NEW.P=<P>            //move it to the right spot
+IF !(<def.farm_<tag0.plant>_type>==3) || !(<NEW.TYPE>==i_farm_mature)
+    NEW.COLOR=<def.farm_<tag0.plant>color>
+ENDIF
+NEW.MORE1=<MORE1>        //give it the attributes of the current plant
+NEW.tag0.plant=<tag0.plant>        //it's plant type
+NEW.MORE2=<def.farm_<tag0.plant>_grow_time>-(<more1>/100)        //it's amount of time before maturity
+NEW.MOREZ=<MOREZ>            //the amount of water it'll need
+NEW.LINK=<LINK.UID>        //the person it's link'ed to    
+NEW.TIMER=60*60
+
+//================================================
+//========================GROW FUNCTION===========
+//================================================
+//This function just sets a plant up for "insta-growth"
+//To make a group of plants grow, do .nuke grow
+[function grow]				//use .x.grow to make a plant instantly grow
+morez=10					//..by setting it to be watered
+more2=1                     //and ready to go
+timer=1                     
+tag0.slug=0					//it also erases any status ailments on it
+tag0.caterpillar=0
+tag0.aphid=0
+tag0.crow=0
+tag0.moth=0
+
+[FUNCTION farmtimer]
+tag0.tendedto=0
+IF (<sector.weather>==0)
+    MOREZ += 3      //amount of water it has increases
+ELSEIF (<sector.weather>==1) || (<sector.weather>==2)
+    IF (<MOREX><1)  
+        MOREX -= <eval RAND(2)>
+    ENDIF
+    MOREZ += 1      //amount of water it has increases
+ELSE
+    MOREZ -= 1      //amount of water it has decreases
+ENDIF
+IF (<MOREZ><1)			//if it is out of water
+    MOREZ=1				//set it to 1 water
+    MORE2 += 2			//increase the time until it matures
+    IF (<MOREX><1)  
+        MOREX -= <eval RAND(2)>
+    ENDIF
+ENDIF
+if (<def0.farm_<tag0.plant>_seasondif_<sector.season>>==0)
+    IF (<MORE2> > 0)
+     MORE2=<MORE2>-1
+    ENDIF
+
+elseif (<def0.farm_<tag0.plant>_seasondif_<sector.season>>==1)
+    IF (<MORE2> > 0)
+     MORE2 -= <eval RAND(2)>    //amount of time before maturity might decrease
+    ENDIF
+
+//nothing happens during a dif 2 season
+
+elseif (<def0.farm_<tag0.plant>_seasondif_<sector.season>>==3)
+    EMOTE "die"
+    REMOVE
+endif
+
+
+
+[FUNCTION pestcheck]
+if (<tag0.slugbait>==0)  //if no slugbait has been used
+  if (<tag0.slug>==0)
+    //slugs are unattracted by well-planted, well-cared for plants at high elevation
+    //slugs are attracted to mature, leafy plants with lots of fertilizer+water
+    var.slugresist=<eval RAND((<more1>/100)+<morex>+<z>)>
+    var.slugattract=<eval RAND(<eval (<tag0.fertilizer>*5)+((15+(-<more2>))+(<morez>*2))>)>
+     if (<var.slugattract>><var.slugresist>)
+             tag0.slug=<eval RAND(2)>
+     endif
+  else     //50% chance of slugs leaving
+    MORE2=<MORE2>+1    //increase the time until it matures by 1
+    tag0.slug=<eval RAND(2)>
+  endif
+else      //if slugbait has been used
+  tag0.slug=0  //the slugs die
+endif
+
+
+if (<tag0.sabadilla>==0)  //if no poison has been used
+if (<tag0.caterpillar>==0)
+    //caterpillars are unattracted by skillfully farming, and well-cared for plants
+    //caterpillars are attracted to mature, leafy plants
+    var.caterpillarresist=<eval RAND((<more1>/5)+(<morex>*10))>
+    var.caterpillarattract=<eval RAND(<eval ((10+(-<more2>))+<morez>)>)>
+    if (<eval <var.caterpillarattract>>><eval <var.caterpillarresist>>)
+        tag0.caterpillar=<eval RAND(2)>
+    endif
+else      //50% chance of caterpillars dying off
+    MORE2=<MORE2>+2    //increase the time until it matures by 2
+    tag0.caterpillar=<eval RAND(2)>
+endif
+if (<tag0.moth>==0)
+    //moths are unattracted by skillfully farming, and well-cared for plants
+    //moths are attracted to mature, leafy plants
+    tag0.mothresist=<eval RAND((<more1>/5)+(<morex>*10))>
+    tag0.mothattract=<eval RAND(<eval ((10+(-<more2>))+<morez>)>)>
+    if (<eval <tag0.mothattract>>><eval <tag0.mothresist>>)
+        tag0.moth=<eval RAND(1)>
+    endif
+else      //50% chance of moths leaving
+    MORE2=<MORE2>+5    //increase the time until it matures by 5
+    tag0.moth=<eval RAND(2)>  //50% chance
+    tag0.fruit_eaten += 1    //tag it that fruit has been eaten
+endif
+if (<tag0.aphid>==0)
+    //aphids are unattracted by skillfully farming, and especially by well-cared for plants
+    //aphids are attracted to mature, leafy plants
+    tag0.aphidresist=<eval RAND((<more1>/5)+(<morex>*10))>
+    tag0.aphidattract=<eval RAND(<eval ((50+(-<more2>))+<morez>)>)>
+    if (<eval <tag0.aphidattract>>><eval <tag0.aphidresist>>)
+        tag0.aphid=<eval RAND(1)>
+    endif
+else      //will continue till sabadilla used
+    MORE2=<MORE2>+(<eval RAND(3)>)    //increase the time until it matures by 0-2
+    tag0.fruit_eaten += (<eval RAND(2)>)    //tag it that fruit has been eaten
+endif
+else
+tag0.caterpillar=0 //poison is there, so no caterpillars
+tag0.aphid=0 //poison is there, so no aphids
+tag0.moth=0 //poison is there, so no moths
+endif
+
+if (<tag0.catstink>==0)  //if no catstink has been used
+  if (<tag0.crow>==0)
+    //crows are unattracted by well-planted, well-cared for plants
+    //crows are attracted to mature, leafy plants with lots of fruit
+    tag0.crowresist=<eval RAND((<more1>/20)+(<morex>*3)+(<tag0.fruit_eaten>*10))>
+    tag0.crowattract=<eval RAND(<eval ((10+(-<more2>))+<morez>)>)>
+    if (<eval <tag0.crowattract>>><eval <tag0.crowresist>>)
+        tag0.crow=<eval RAND(2)>
+    endif
+else      //50% chance of crows leaving
+    tag0.crow=<eval RAND(2)>  //50% chance
+    tag0.fruit_eaten += 1    //tag it that fruit has been eaten
+endif
+else
+tag0.crow=0
+endif
+
+
+//================================================
+//==============DIALOG D_EXAMINE_PLANT============
+//================================================
+//This is the dialog that is used when you examine a plant by dclicking it.
+
+[function waterlevel]
+if (<morez>><more2>) //if it has enough water to grow for a while
+    tag0.water_text="Fully Watered"
+    tag0.water_color=6
+elseif (<morez>>=(<more2>/2))
+    tag0.water_text="Watered"
+    tag0.water_color=4
+elseif (<morez><3)  //amount of water is 2 or 1
+    tag0.water_text="Needs Water Badly"
+    tag0.water_color=38
+else  //hours worth of water less then half the amount until grown
+    tag0.water_text="Needs Water"
+    tag0.water_color=54
+endif
+return
+
+[dialog d_examine_plant]
+0,0
+page 0
+resizepic 8 8 3500 422 322
+
+button 130 300 2501 2501 1 0 1110 //"Tend To Plant" button
+
+text 40 20 0 1
+text 60 40 0 8
+text 60 60 0 9
+text 60 80 <tag0.water_color> 2
+text 200 80 68 <eval(<tag0.tendedto>*11)>
+text 60 100 88 <eval(<tag0.Slugbait>*12)>
+text 140 100 53 <eval(<tag0.Catstink>*13)>
+text 220 100 58 <eval(<tag0.sabadilla>*14)>
+text 60 180 59 <eval(<tag0.slug>*3)>
+text 60 200 54 <eval(<tag0.caterpillar>*4)>
+text 60 220 49 <eval(<tag0.crow>*6)>
+text 60 240 44 <eval(<tag0.aphid>*7)>
+text 60 260 32 <eval(<tag0.moth>*5)>
+text 160 300 0 10
+
+[dialog d_examine_plant TEXT]
+<var.blankline>
+<link.name>'s <name>
+<tag0.water_text>
+Slugs are stunting this plant's growth!
+Caterpillars are devouring this plant!
+Harvester Moths are killing this plant!
+Gophers have been eating your crop!
+Aphid infestation is destroying this plant!
+Estimated Time until growth:
+<eval(<more2>/8)> days (<eval(<more2>)> hours realtime)
+Tend To Plant
+Tended
+Slugbait
+Catstink
+Sabadilla
+
+[dialog d_examine_plant BUTTON]
+ONBUTTON=1110
+src.emote "tend to the <name>"
+more1=<src.herding>
+src.bow
+if !(<tag0.slug>==0)
+    src.sysmessage "You pull slugs from the plant."
+    tag0.slug=0
+endif
+if !(<tag0.caterpillar>==0)
+    src.sysmessage "You pull caterpillars from the plant."
+    tag0.caterpillar=0
+endif
+if !(<tag0.tendedto>)
+    morex += <eval(RAND(3))>
+    tag0.tendedto=1
+    src.sysmessage "You clear debris from the plant and soil. If it could talk, it would certainly be thanking you."
+    src.skillgain herding <eval <def.farm_<tag0.plant>diff>*10>
+endif
+
+
+[dialog d_examine_plant_harvest]
+0,0
+page 0
+resizepic 8 8 3500 422 322
+
+button 130 300 2501 2501 1 0 1110 //"Tend To Plant" button
+
+text 40 20 0 1
+text 60 40 0 8
+//text 60 60 0 9
+text 60 80 <tag0.water_color> 2
+text 200 80 68 <eval(<tag0.tendedto>*11)>
+text 60 100 88 <eval(<tag0.Slugbait>*12)>
+text 140 100 53 <eval(<tag0.Catstink>*13)>
+text 220 100 58 <eval(<tag0.sabadilla>*14)>
+text 60 180 59 <eval(<tag0.slug>*3)>
+text 60 200 54 <eval(<tag0.caterpillar>*4)>
+text 60 220 49 <eval(<tag0.crow>*6)>
+text 60 240 44 <eval(<tag0.aphid>*7)>
+text 60 260 32 <eval(<tag0.moth>*5)>
+text 160 300 0 10
+
+[dialog d_examine_plant_harvest TEXT]
+
+<var.blankline>
+<link.name>'s <name>
+<tag0.water_text>
+Slugs are stunting this plant's growth!
+Caterpillars are devouring this plant!
+Harvester Moths are killing this plant!
+Gophers have been eating your crop!
+Aphid infestation is destroying this plant!
+This plant is ready to harvest!
+<eval(<more2>/8)> days (<eval(<more2>)> hours realtime)
+Harvest Plant
+Tended
+Slugbait
+Catstink
+Sabadilla
+
+
+[plevel 2]
+newseed
+
+
+[dialog d_examine_plant_harvest BUTTON]
+ONBUTTON=1110
+if !(<def.farm_<tag0.plant>>==0) //and that the plant is properly created
+    if !(<def.farm_<tag0.plant>_type>==3) && !(<def.farm_<tag0.plant>_type>==4) //if it's a tree it has to act differently
+        SRC.BOW
+        if (<def.farm_<tag0.plant>_yield>>1)  //if it should yield more then one
+            var.yield=(((<eval rand(<eval <more1>>)>+(<morex>*10))*<def.farm_<tag0.plant>_yield>)/(<def.farm_<tag0.plant>diff>*100))+<def.farm_<tag0.plant>_yield>
+            var.yield -= <tag0.fruit_eaten>
+            while (<var.yield>>0)
+                SRC.newitem <def.farm_<tag0.plant>>  //give them the amount it's supposed to yield
+                new.bounce //put it in their pack
+                var.yield=<var.yield>-1
+            endwhile
+        else    //if it should always yield just one
+            if (<def.farm_<tag0.plant>_yield>)  //and it should exactly one
+                src.newitem farm_<tag0.plant> //only give them one!
+                new.bounce //put it in their pack
+            endif
+        endif
+        f_give_extra_seeds //test if they deserve getting extra seeds, if they do, give 'em
+        src.skillgain herding <eval <def.farm_<tag0.plant>diff>*10>
+    ELSE //if it is a tree
+        IF (<MORE2>==0)  //If it has been enough time since it was last picked then there should be more ripe fruit...patience has rewards
+            MORE2=(<def.farm_<tag0.plant>_grow_time>-(<more1>/100))/2 
+            MOREX=(<MOREX>/5)*4 
+            tag0.slugbait=0
+            tag0.catstink=0
+            tag0.sabadilla=0
+            src.skillgain herding <eval <def.farm_<tag0.plant>diff>*10>
+            if (<def.farm_<tag0.plant>_yield>>1)  //if it should yield more then one
+                var.yield=(((<eval rand(<eval <more1>>)>+(<morex>*10))*<def.farm_<tag0.plant>_yield>)/(<def.farm_<tag0.plant>diff>*100))+<def.farm_<tag0.plant>_yield>
+                var.yield -= <tag0.fruit_eaten>
+                tag0.fruit_eaten=0
+                while (<var.yield>>0)
+                    SRC.newitem <def.farm_<tag0.plant>>  //give them the amount it's supposed to yield
+                    new.bounce //put it in their pack
+                    var.yield=<var.yield>-1
+                endwhile
+            else    //if it should always yield just one
+                if (<def.farm_<tag0.plant>_yield>)  //and it should exactly one
+                    src.newitem farm_<tag0.plant> //only give them one!
+                    new.bounce //put it in their pack
+                endif
+            endif    
+            f_give_extra_seeds        
+         ELSE
+        ENDIF
+    ENDIF
+
+    IF (<eval farm_<tag0.plant>_type>==2)//If it's a perennial-type plant
+        //perrennials don't go away when picked, they just switch back to their immature form
+        SRC.NEWITEM i_farm_immature    //make the immature plant
+        NEW.DISPID=<def.farm_<tag0.plant>_immature>  //make it look right
+        IF (<def.farm_<tag0.plant>_type>==3)
+            NEW.NAME="immature <tag0.plant> tree"
+        ELIF  (<def.farm_<tag0.plant>_type>==4) 
+            NEW.NAME="immature <tag0.plant> vines"
+        ELSE
+            NEW.name="immature <tag0.plant>"
+        ENDIF
+        plant_mature
+        NEW.MOREX=(<MOREX>/2)            //how well it's been cared for
+        link.update
+        remove
+    ELIF (<eval farm_<tag0.plant>_type>==1)
+        SRC.NEWSEED "<tag0.plant>"
+        remove
+    endif
+    src.sfx 013a
+else
+    src.sysmessage "This was not properly created. tag0.plant is `<tag0.plant>`"
+    remove
+endif
+[EOF]

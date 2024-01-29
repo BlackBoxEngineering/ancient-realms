@@ -1,0 +1,53 @@
+[FUNCTION CheckRegionFLags]
+IF (<REGION.FLAGS>&region_antimagic_all)
+	SYSMESSAGE @55 Magic = 1
+ENDIF
+IF (<REGION.FLAGS>&region_antimagic_recall_in)
+	SYSMESSAGE @55 Recall In = 1
+ENDIF
+IF (<REGION.FLAGS>&region_antimagic_recall_out)
+	SYSMESSAGE @55 Recall Out = 1
+ENDIF
+IF (<REGION.FLAGS>&region_antimagic_gate)
+	SYSMESSAGE @55 Gate = 1
+ENDIF
+IF (<REGION.FLAGS>&region_antimagic_teleport)
+	SYSMESSAGE @55 Teleport = 1
+ENDIF
+IF (<REGION.FLAGS>&region_antimagic_damage)
+	SYSMESSAGE @55 MageDamage = 1
+ENDIF
+IF (<REGION.FLAGS>&region_flag_ship)
+	SYSMESSAGE @55 Ship = 1
+ENDIF
+IF (<REGION.FLAGS>&region_flag_nobuilding)
+	SYSMESSAGE @55 NoBuilding = 1
+ENDIF
+IF (<REGION.FLAGS>&region_flag_globalname)
+	SYSMESSAGE @55 Globally = 1
+ENDIF
+IF (<REGION.FLAGS>&region_flag_announce)
+	SYSMESSAGE @55 Announce = 1
+ENDIF
+IF (<REGION.FLAGS>&region_flag_insta_logout)
+	SYSMESSAGE @55 Logout = 1
+ENDIF
+IF (<REGION.FLAGS>&region_flag_underground)
+	SYSMESSAGE @55 Underground = 1
+ENDIF
+IF (<REGION.FLAGS>&region_flag_nodecay)
+	SYSMESSAGE @55 Nodecay = 1
+ENDIF
+IF (<REGION.FLAGS>&region_flag_safe)
+	SYSMESSAGE @55 Safe = 1
+ENDIF
+IF (<REGION.FLAGS>&region_flag_guarded)
+	SYSMESSAGE @55 Guarded = 1
+ENDIF
+IF (<REGION.FLAGS>&region_flag_no_pvp)
+	SYSMESSAGE @55 NoPvP = 1
+ENDIF
+IF (<REGION.FLAGS>&region_flag_insta_logout)
+	SYSMESSAGE @55 InstaLogout = 1
+ENDIF
+[EOF]

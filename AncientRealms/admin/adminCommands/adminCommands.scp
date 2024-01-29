@@ -1,0 +1,106 @@
+[PLEVEL 5]
+AutoHeal
+RevampAllArmor
+RevampAllSpellBooks // Add spell Channelling
+Gmfreeze
+GmUnfreeze
+ShowWeaponSkill
+KillAllFuckingNpcs
+
+[FUNCTION AutoHeal]
+EVENTS=+e_autoheal
+EVENTS=+e_manaGod
+
+[EVENTS e_manaGod]
+ON=@select
+	MANA=<MAXMANA>
+
+[EVENTS e_autoheal]
+ON=@gethit
+	HITS=<MAXHITS>
+
+[FUNCTION GmUnfreeze]
+FLAGS &=~statf_freeze
+
+[FUNCTION Gmfreeze]
+FLAGS |=statf_freeze
+
+[FUNCTION RevampAllSpellBooks]
+FORITEMS 6500
+IF <BASEID>==i_spellbook
+	//SERV.LOG <TOPOBJ.NAME>
+   TAG.SpellChanneling=1
+ENDIF
+
+[FUNCTION RevampAllArmor]
+FORITEMS 6500
+	IF (STRMATCH(*platemail*,<NAME>)
+		SERV.B @25,,1 <NAME> Setting (Dex 95) and (STR 125)
+		TAG.ArmorTagUid= <UID>
+		TAG.ArmorTagDispId= <DISPID>
+		TAG.ArmorReqSTR= 125
+		TAG.ArmorReqDEX= 100
+	ENDIF
+	IF (STRMATCH(*chainmail*,<NAME>)
+		SERV.B @26,,1 <NAME> Setting (Dex 95) and (STR 125) <UID>
+		TAG.ArmorTagUid= <UID>
+		TAG.ArmorTagDispId= <DISPID>
+		TAG.ArmorReqSTR= 90
+		TAG.ArmorReqDEX= 75
+	ENDIF
+	IF (STRMATCH(*ringmail*,<NAME>)
+		SERV.B @27,,1 <NAME> Setting (Dex 95) and (STR 125) <UID>
+		TAG.ArmorTagUid= <UID>
+		TAG.ArmorTagDispId= <DISPID>
+		TAG.ArmorReqSTR= 80
+		TAG.ArmorReqDEX= 50
+	ENDIF
+	IF (STRMATCH(*studded*,<NAME>)
+		SERV.B <NAME> Setting (Dex 95) and (STR 125) <UID>
+		TAG.ArmorTagUid= <UID>
+		TAG.ArmorTagDispId= <DISPID>
+		TAG.ArmorReqSTR= 70
+		TAG.ArmorReqDEX= 25
+	ENDIF
+ENDFOR
+   
+[FUNCTION ShowWeaponSkill]
+SYSMESSAGE @55,,1 Who ?
+TARGETF f_ShowWeaponSkillTarget
+
+[FUNCTION f_ShowWeaponSkillTarget]
+IF <ARGO.ISPLAYER>
+	REF1=<SERV.UID.<ARGO.UID>>
+	REF2=<SERV.UID.<REF1.FINDLAYER.layer_hand1.UID>> // Whatever is found in Right Hand
+	REF3=<SERV.UID.<REF1.FINDLAYER.layer_hand2.UID>>	// Whatever is found in Left Hand
+	IF <REF2.UID>
+		SYSMESSAGE @95,,1 <REF2.NAME> <SERV.SKILL.<REF2.SKILL>.KEY> <<SERV.SKILL.<REF2.SKILL>.KEY>>
+	ELSE
+		SYSMESSAGE @95,,1 Right Hand unarmed wrestling is <WRESTLING>
+	ENDIF
+	IF <REF3.UID>
+		IF (STRMATCH(*t_shield*,<REF3.TYPE>))
+			SYSMESSAGE @95,,1 <REF3.NAME> Parrying is <PARRYING>
+		ELIF <REF3.IsWeapon>
+			SYSMESSAGE @95,,1 <REF3.NAME> <SERV.SKILL.<REF3.SKILL>.KEY> <<SERV.SKILL.<REF3.SKILL>.KEY>>
+		ENDIF
+	ELSE
+		SYSMESSAGE @95,,1 Left Hand unarmed parrying is <PARRYING>
+	ENDIF
+ELSE
+	SYSMESSAGE @95,,1 Does the <ARGO.NAME> look like a player to you?
+ENDIF
+
+[FUNCTION KillAllFuckingNpcs]
+FORCHARS 65000
+IF !(<ISPLAYER>)
+      HITS 0
+   ENDIF
+ENDIF
+ENDFOR
+FORINSTANCES i_worldgem_bit
+   MORE2=0
+ENDFOR
+
+
+[EOF]

@@ -1,0 +1,69 @@
+[ITEMDEF i_capture_TIMER]
+DEFNAME=i_capture_TIMER
+TYPE=t_eq_script
+NAME=Capture TIMER
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=5
+      
+ON=@EQUIP
+	TIMER=22
+
+ON=@TIMER
+	REGION.TAG.OwnersUid=<CONT.GUILD.UID>
+	REGION.TAG.OwnersName=<CONT.GUILD.NAME>
+	SERV.B @33 <REGION.NAME> Has Been Captured By <REGION.TAG.ownersname>
+	REGION.ALLCHARS f_Keep_SettleRegion
+	REGION.TAG.CanBeCaptured=0
+	IF (<SERV.UID.<CONT.CTAG.KeepCaptureStoneUID>.LINK.TAG.Invasion>!=0)
+		SERV.UID.<CONT.CTAG.KeepCaptureStoneUID>.LINK.TAG.Invasion=0
+		SERV.B @63 <SERV.UID.<CONT.CTAG.KeepCaptureStoneUID>.LINK.REGION.NAME>'s Guardzone is about to Return!!!!
+	ENDIF
+	CONT.f_Keep_KeepLordsGetAstalon
+	REGION.TAG.PeopleTryingToCapture=0
+	SFX 744
+	SFX 1473
+	SFX 1474
+	SFX 1475
+	REMOVE
+	RETURN 1
+
+[ITEMDEF i_keep_CaptureCounter]
+DEFNAME=i_keep_CaptureCounter
+ID=02a93
+TYPE=t_eq_script
+NAME=Capture COUNTER
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=5
+      
+ON=@EQUIP
+	CONT.TAG.CaptureLocationX=<CONT.P.X>
+	CONT.TAG.CaptureLocationY=<CONT.P.Y>
+	CONT.TAG.CaptureLocationZ=<CONT.P.Z>
+	TIMER=1
+
+ON=@TIMER
+	SERV.UID.<REGION.TAG.KeepCaptureStoneUID>.Say @33 <CONT.findid.i_capture_TIMER.TIMER>	
+	IF (<CONT.findid.i_capture_TIMER.TIMER> < 2)
+		CONT.TAG.CaptureLocationX=
+		CONT.TAG.CaptureLocationY=
+		CONT.TAG.CaptureLocationZ=
+		REMOVE
+	ENDIF
+	LOCAL.StartPosX=<CONT.TAG.CaptureLocationX>
+	LOCAL.StartPosY=<CONT.TAG.CaptureLocationY>
+	LOCAL.StartPosZ=<CONT.TAG.CaptureLocationZ>
+	LOCAL.CurrentPosX=<CONT.P.X>
+	LOCAL.CurrentPosY=<CONT.P.Y>
+	LOCAL.CurrentPosZ=<CONT.P.Z>
+	CALL f_Keep_CheckForCaptureBreak	
+	SFX 1307
+	TIMER=1
+	RETURN 1
+
+[EOF]

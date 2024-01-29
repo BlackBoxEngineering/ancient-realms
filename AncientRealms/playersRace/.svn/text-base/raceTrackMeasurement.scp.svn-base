@@ -1,0 +1,156 @@
+////////////////////////////////////////////// f_raceDoPlayerDistance
+[FUNCTION f_raceDoPlayerDistance] 
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+REF2=<SERV.UID.<ARGV[0]>>
+LOCAL.CheckPointAmount=<EVAL <REF1.TAG0.CheckPointCount>>
+LOCAL.ProximityDistance=<EVAL <CONT.CTAG0.RaceLine> + <REF1.TAG.Proximity>  
+LOCAL.LastCheckPoint=<EVAL <REF2.CTAG.ReachedCheckPoint>> 
+LOCAL.NextCheckPoint=<EVAL <REF2.CTAG0.ReachedCheckPoint>+1>
+IF <LOCAL.CheckPointAmount> > 1 && <LOCAL.LastCheckPoint> > 1 && <SERV.UID.<EVAL <LOCAL.NextCheckPoint>>.UID>
+	LOCAL.DistanceToNextCp=<REF2.DISTANCE <SERV.UID.<REF1.TAG.CheckPoint_<EVAL <LOCAL.NextCheckPoint>>_UID>>>
+	LOCAL.DistanceToFinish=<EVAL <f_raceCalculateTotalDistance <LOCAL.NextCheckPoint>>+<LOCAL.DistanceToNextCp>>
+	REF2.CTAG.RaceDistance=<LOCAL.DistanceToFinish>
+	IF <EVAL <LOCAL.DistanceToNextCp>> < <EVAL <REF1.TAG.Proximity>>
+		CALL f_raceDoPlayerCheckPoint <REF2.UID>,<EVAL <LOCAL.NextCheckPoint>>
+	ENDIF
+	TRYSRC <REF2.UID> SDIALOG d_racePlayerStatus
+	RETURN <EVAL <LOCAL.DistanceToFinish>>
+ELSE
+	//SERV.LOG f_raceDoPlayerDistance : There must be at least two check points to use this function
+	RETURN 0
+ENDIF
+
+////////////////////////////////////////////// f_raceCalculateTotalDistance
+[FUNCTION f_raceCalculateTotalDistance]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+LOCAL.CalcTotalDistance=0
+IF <ARGV[0]> 						
+	FOR CheckPointNo <EVAL <ARGV[0]>> <EVAL <REF1.TAG.CheckPointCount>>
+		LOCAL.CalcTotalDistance=<EVAL <LOCAL.CalcTotalDistance> + <REF1.TAG.CheckPoint_<EVAL <LOCAL.CheckPointNo>+1>_DistanceFromLastCP>>
+	ENDFOR
+ELSE
+	FOR CheckPointNo 1 <EVAL <REF1.TAG.CheckPointCount>>
+		LOCAL.CalcTotalDistance=<EVAL <LOCAL.CalcTotalDistance> + <REF1.TAG.CheckPoint_<EVAL <LOCAL.CheckPointNo>>_DistanceFromLastCP>>
+	ENDFOR
+ENDIF
+RETURN <EVAL <LOCAL.CalcTotalDistance>>
+
+////////////////////////////////////////////// f_GPStoneLocate
+[FUNCTION f_GPStoneLocate]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+REF2=<SERV.UID.<ARGV[0]>>
+REF2.TAG.CheckPointNumber=<REF1.TAG.CheckPoint_<EVAL <REF2.TAG.CheckPointNumber>>_CheckPointNumber>
+IF <EVAL <REF2.TAG.CheckPointNumber>> < <EVAL <REF1.TAG.CheckPointCount>+1>
+	IF <EVAL <REF1.TAG.CheckPoint_<EVAL <REF2.TAG.CheckPointNumber>>_CheckPointNumber>> == 1
+		REF2.NAME Starting Line [<EVAL <REF2.TAG.CheckPointNumber>>]
+		REF1.TAG.CheckPoint_<EVAL <REF2.TAG.CheckPointNumber>>_DistanceFromLastCP=0
+		REF1.TAG.CheckPoint_<EVAL <REF2.TAG.CheckPointNumber>>_CheckPointNumber=1
+		REF1.TAG.CheckPoint_<EVAL <REF2.TAG.CheckPointNumber>>_P=<REF2.P>
+		REF1.TAG.CheckPoint_<EVAL <REF2.TAG.CheckPointNumber>>_UID=<REF2.UID>
+	ELSE
+		REF2.NAME Check Point [<EVAL <REF2.TAG.CheckPointNumber>>]
+		REF1.TAG.CheckPoint_<EVAL <REF2.TAG.CheckPointNumber>>_DistanceFromLastCP=<EVAL <f_GPStoneMeasureLine <REF1.TAG.CheckPoint_<EVAL <REF2.TAG.CheckPointNumber>-1>_UID>,<REF2.UID>>>
+		REF1.TAG.CheckPoint_<EVAL <REF2.TAG.CheckPointNumber>>_CheckPointNumber=<EVAL <REF2.TAG.CheckPointNumber>>
+		REF1.TAG.CheckPoint_<EVAL <REF2.TAG.CheckPointNumber>>_P=<REF2.P>
+		REF1.TAG.CheckPoint_<EVAL <REF2.TAG.CheckPointNumber>>_UID=<REF2.UID>		
+	ENDIF
+ELSE
+	REF2.NAME Finish Line [<EVAL <REF2.TAG.CheckPointNumber>>]
+	REF1.TAG.CheckPoint_<EVAL <REF2.TAG.CheckPointNumber>>_DistanceFromLastCP=<EVAL <f_GPStoneMeasureLine <REF1.TAG.CheckPoint_<EVAL <REF2.TAG.CheckPointNumber>-1>_UID>,<REF2.UID>>>
+	REF1.TAG.CheckPoint_<EVAL <REF2.TAG.CheckPointNumber>>_CheckPointNumber=<EVAL <REF2.TAG.CheckPointNumber>>
+	REF1.TAG.CheckPoint_<EVAL <REF2.TAG.CheckPointNumber>>_P=<REF2.P>
+	REF1.TAG.CheckPoint_<EVAL <REF2.TAG.CheckPointNumber>>_UID=<REF2.UID>	
+ENDIF
+REF2.TAG.CheckPointNumber=<EVAL <REF1.TAG.CheckPoint_<EVAL <REF2.TAG.CheckPointNumber>>_CheckPointNumber>>
+
+////////////////////////////////////////////// f_GPStoneMeasureLine
+[FUNCTION f_GPStoneMeasureLine]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+REF2=<SERV.UID.<ARGV[0]>>
+REF3=<SERV.UID.<ARGV[1]>>
+LOCAL.A1x=<REF2.P.X>	//A1x
+LOCAL.J3y=<REF2.P.Y>	//A1y
+LOCAL.J3x=<REF3.P.X>	//A2x
+LOCAL.A2y=<REF3.P.Y>	//A2y
+LOCAL.LineA=<EVAL <LOCAL.J3x>-<LOCAL.A1x>>
+LOCAL.LineO=<EVAL <LOCAL.A2y>-<LOCAL.J3y>>
+IF <EVAL <LOCAL.LineA>> < 0
+	LOCAL.LineA=<EVAL <LOCAL.LineA> * -1>
+ENDIF
+IF <EVAL <LOCAL.LineO>> < 0
+	LOCAL.LineO=<EVAL <LOCAL.LineO> * -1>
+ENDIF
+LOCAL.LineA2=<EVAL <LOCAL.LineA>*<LOCAL.LineA>>
+LOCAL.LineO2=<EVAL <LOCAL.LineO>*<LOCAL.LineO>>
+LOCAL.LineH2=<EVAL (<LOCAL.LineA2>+<LOCAL.LineO2>)>
+LOCAL.LineH=SQRT(<EVAL <LOCAL.LineH2>>)
+IF <f_isHorizontal <REF2.UID>,<REF3.UID>> // East - West
+	//SERV.LOG f_GPStoneMeasureLine CheckPoints <EVAL <REF2.TAG.CheckPointNumber>>-<EVAL <REF2.TAG.CheckPointNumber>-1>: Line Horizontal, Tolerance(<EVAL LineTolerance>) Distance(<EVAL <LOCAL.LineA>>)Tiles
+	IF <EVAL <REF2.TAG.CheckPointNumber>> == 1
+		IF <REF3.P.X> < <REF2.P.X>
+			LOCAL.FindDirection=West
+		ELSE
+			LOCAL.FindDirection=East
+		ENDIF
+		REF2.TAG.StartDirection=<LOCAL.FindDirection>
+		REF2.SAY @95 Race Starts [<LOCAL.FindDirection>]
+	ENDIF
+	RETURN <EVAL <LOCAL.LineA>>
+ELIF <f_isVertical <REF2.UID>,<REF3.UID>> // North - South
+	//SERV.LOG f_GPStoneMeasureLine CheckPoints <EVAL <REF2.TAG.CheckPointNumber>>-<EVAL <REF2.TAG.CheckPointNumber>-1>: Line Vertical, Tolerance(<EVAL LineTolerance>) Distance(<EVAL <LOCAL.LineO>>)Tiles
+	IF <EVAL <REF2.TAG.CheckPointNumber>> == 1
+		IF <REF2.P.Y> < <REF3.P.Y>
+			LOCAL.FindDirection=South
+		ELSE
+			LOCAL.FindDirection=North
+		ENDIF
+		REF2.TAG.StartDirection=<LOCAL.FindDirection>
+		REF2.SAY @95 Race Starts [<LOCAL.FindDirection>]
+	ENDIF
+	REF2.TAG.StartDirection=<LOCAL.FindDirection>
+	REF2.SAY @95 Race Starts [<LOCAL.FindDirection>]
+	RETURN <EVAL <LOCAL.LineO>>
+ELSE
+	//SERV.LOG f_GPStoneMeasureLine CheckPoints <EVAL <REF2.TAG.CheckPointNumber>>-<EVAL <REF2.TAG.CheckPointNumber>-1>: Line Diagonal, Tolerance(<EVAL LineTolerance>) Distance(<EVAL <LOCAL.LineH>>)Tiles
+	RETURN <EVAL <LOCAL.LineH>>
+ENDIF
+
+////////////////////////////////////////////// f_isVertical
+[FUNCTION f_isVertical]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+IF !<EVAL <ARGV[0]>> || !<EVAL <ARGV[1]>>
+	RETURN 0
+ELSE
+	LOCAL.TempLineTolerance=<EVAL LineTolerance>
+	LOCAL.TempLineToleranceA=<EVAL <REF2.P.X> - <LOCAL.TempLineTolerance>>
+	LOCAL.TempLineToleranceB=<EVAL <REF2.P.X> + <LOCAL.TempLineTolerance>>
+	IF ((<REF1.P.X> > <EVAL <LOCAL.TempLineToleranceA>>)&&(<REF1.P.X> < <EVAL <LOCAL.TempLineToleranceB>>))
+		//SERV.LOG [1P.X(<REF1.P.X>) > 2P.X(<REF2.P.X>) - <EVAL <LOCAL.TempLineToleranceA>>] [1P.X(<REF1.P.X>) < 2P.X(<REF2.P.X> + <EVAL <LOCAL.TempLineToleranceB>>)] isVertical
+		RETURN 1
+	ELSE
+		//SERV.LOG [1P.X(<REF1.P.X>) > 2P.X(<REF2.P.X>) - <EVAL <LOCAL.TempLineToleranceA>>] [1P.X(<REF1.P.X>) < 2P.X(<REF2.P.X> + <EVAL <LOCAL.TempLineToleranceB>>)] isNOTVertical
+		RETURN 0
+	ENDIF
+ENDIF
+
+////////////////////////////////////////////// f_isHorizontal
+[FUNCTION f_isHorizontal]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<ARGV[1]>>
+IF !<EVAL <ARGV[0]>> || !<EVAL <ARGV[1]>>
+	RETURN 0
+ELSE
+	LOCAL.TempLineTolerance=<EVAL LineTolerance>
+	LOCAL.TempLineToleranceA=<EVAL <REF2.P.Y> + <LOCAL.TempLineTolerance>>
+	LOCAL.TempLineToleranceB=<EVAL <REF2.P.Y> - <LOCAL.TempLineTolerance>>
+	IF ((<REF1.P.Y> < <EVAL <LOCAL.TempLineToleranceA>>)&&(<REF1.P.Y> > <EVAL <LOCAL.TempLineToleranceB>>))
+		//SERV.LOG [1P.Y(<REF1.P.Y>) > 2P.Y(<REF2.P.Y>) - <EVAL <LOCAL.TempLineToleranceA>>] [1P.Y(<REF1.P.Y>) < 2P.Y(<REF2.P.Y> + <EVAL <LOCAL.TempLineToleranceB>>)] isHoriztonal
+		RETURN 1
+	ELSE
+		//SERV.LOG [1P.Y(<REF1.P.Y>) > 2P.Y(<REF2.P.Y>) - <EVAL <LOCAL.TempLineToleranceA>>] [1P.Y(<REF1.P.Y>) < 2P.Y(<REF2.P.Y> + <EVAL <LOCAL.TempLineToleranceB>>)] isNOTHoriztonal
+		RETURN 0
+	ENDIF
+ENDIF
+
+[EOF]

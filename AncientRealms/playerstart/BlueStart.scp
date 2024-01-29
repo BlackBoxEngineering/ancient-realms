@@ -1,0 +1,108 @@
+[TYPEDEF t_BlueStartBox]
+ON=@DClick
+	IF <SRC.TAG.PlayerGetsStarterPack>
+		SRC.TAG.PlayerGetsStarterPack=
+		NEWITEM = i_pet_horse_tan, 1, <SRC.UID>
+		NEWITEM = i_dagger, 1, <SRC.UID>
+		NEWITEM = i_bandage, 50, <SRC.UID>
+		NEWITEM = i_RuneBook_AncientRealms, 1, <SRC.UID>
+		NEWITEM = i_50runebookcharges, 2, <SRC.UID>
+		NEWITEM = i_rune_marker, 1, <SRC.UID>
+		NEWITEM = i_rune_marker, 1, <SRC.UID>
+		NEWITEM = i_rune_marker, 1, <SRC.UID>
+		IF <SRC.MAGERY> > 30
+			SRC.FullSpellBook
+			NEWITEM = Start_ReagBag, 1, <SRC.UID>
+			IF <SRC.KARMA> > 5000
+				SRC.Givegold 2000
+				SRC.Start_OrcLeather
+				SRC.SYSMESSAGE @524,,1 Because you have over 5000 karma the white wizard gives you some troll skin to wear thinking you will appreciate it.
+			ELSE
+				SRC.Start_Leather
+			ENDIF
+		ELSE
+			IF <SRC.STR> > 124 && <SRC.DEX> > 94
+				SRC.Start_PlateMail
+			ELIF <SRC.STR> > 79 && <SRC.DEX> > 74
+				SRC.Start_ChainMail
+			ELIF <SRC.STR> > 69 && <SRC.DEX> > 64
+				SRC.Start_RingMail
+			ELSE
+				SRC.Start_Studded
+			ENDIF
+		ENDIF			
+		IF ((<SRC.BLACKSMITHING> > 30)||(<SRC.CARPENTRY> > 30)||(<SRC.TINKERING> > 30)||(<SRC.BOWCRAFT> > 30)||(<SRC.TAILORING> > 30)||(<SRC.ALCHEMY> > 30))
+			NEWITEM = Start_ToolBag, 1, <SRC.UID>
+			SRC.Givegold 5000
+		ENDIF
+		IF <SRC.ARCHERY> > 50
+			NEWITEM=i_composite_bow, 1, <SRC.UID>
+			NEW.TAG.SpellChanneling=1
+			NEWITEM=i_arrow, 500, <SRC.UID>
+		ENDIF
+		IF <SRC.MACEFIGHTING> > 50
+			NEWITEM=i_hammer_pick, 1, <SRC.UID>
+			NEW.TAG.SpellChanneling=1
+		ENDIF
+		IF <SRC.SWORDSMANSHIP> > 50
+			NEWITEM=i_bone_machete, 1, <SRC.UID>
+			NEW.TAG.SpellChanneling=1
+		ENDIF
+		IF <SRC.FENCING> > 54
+			NEWITEM=i_pitchfork, 1, <SRC.UID>
+			NEW.TAG.SpellChanneling=1
+		ENDIF
+		IF (<SRC.CARTOGRAPHY> > 30)||(<SRC.TRACKING> > 30))
+			NEWITEM=i_sextant, 1, <SRC.UID>
+			NEWITEM=i_spade, 1, <SRC.UID>
+			NEWITEM=i_spyglass, 1, <SRC.UID>
+		ENDIF
+		IF <SRC.PARRYING> > 50
+			NEWITEM=i_shield_round_metal, 1, <SRC.UID>
+			NEW.TAG.SpellChanneling=1
+		ENDIF
+		SRC.SYSMESSAGE @524,,1 The white wizard presents you with your first trading license and a vendor, this will enable you to trade in the towns.
+		NEWITEM = i_tradingLicence
+		NEW.BOUNCE <SRC.UID>
+		NEWITEM = i_VendorDeed, 1, <SRC.UID>
+		SRC.Givegold 3000	
+	ELSE
+		SAY @24 You have had your present from the white wizard already.
+	ENDIF
+	RETURN 1
+
+[DIALOG d_OldPlayerStartBlue]
+1,1
+RESIZEPIC 0 0 83 420 200
+NOMOVE
+PAGE 0
+DTEXT 30 30 55 You awake from what feels like a very long sleep.
+DTEXT 30 55 55 Your head hurts, your confused you try to remeber
+DTEXT 30 80 55 how you got here but your mind is simply blank.
+DTEXT 30 105 55 You look across the room for your clothes there
+DTEXT 30 130 55 isnt any in sight you search the room and find
+DTEXT 30 155 55 a note entitled "Welcome home <NAME>"
+BUTTON 320 160 2074 2075 1 0 10
+
+[DIALOG d_OldPlayerStartBlue BUTTON]
+ONBUTTON=10
+	SRC.DIALOG d_OldPlayerStartBlueNote
+
+[DIALOG d_OldPlayerStartBlueNote]
+1,1
+RESIZEPIC 0 0 83 420 200
+NOMOVE
+PAGE 0
+DTEXT 30 30 55 The note reads: "I'm pleased to see you have finally
+DTEXT 30 55 55 awoken. You are still a good soul and that is why you're
+DTEXT 30 80 55 in astalon town safe, under the protection of the guards.
+DTEXT 30 105 55 I am the white wizard, leader of the white order and I'm
+DTEXT 30 130 55 always happy to see more good enter this world, the Inn
+DTEXT 30 155 55 keeper downstairs will aid you listen to his instruction.
+BUTTON 320 160 2074 2075 1 0 10
+	
+[DIALOG d_OldPlayerStartBlueNote BUTTON]
+ONBUTTON=10
+	SRC.SYSMESSAGE @452,,1 Go down stairs and see the inn keeper.
+	
+[EOF]

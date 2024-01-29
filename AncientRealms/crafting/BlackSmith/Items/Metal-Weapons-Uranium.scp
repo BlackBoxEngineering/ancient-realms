@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Uranium Quarter Staff
+
+[ITEMDEF i_staff_quarter_Uranium]
+   DEFNAME=i_staff_quarter_Uranium
+   ID=i_staff_quarter
+   NAME=Uranium Quarter Staff
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=25
+   VALUE=121
+   SPEED=52
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={20 38}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Uranium]
+   DEFNAME=i_serpentstone_staff_Uranium
+   ID=i_serpentstone_staff
+   NAME=Uranium Serpentstone Staff
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=29
+   VALUE=121
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={60 78}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Uranium]
+   DEFNAME=i_staff_bladed_double_Uranium
+   ID=i_staff_bladed_double
+   NAME=Uranium Double Bladed Staff
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=37
+   VALUE=121
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={120 138}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Glass Staff
+
+[ITEMDEF i_glass_staff_Uranium]
+   DEFNAME=i_glass_staff_Uranium
+   ID=i_glass_staff
+   NAME=Uranium Glass Staff
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=34
+   VALUE=121
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={90 108}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Bladed Staff
+
+[ITEMDEF i_bladed_staff_Uranium]
+   DEFNAME=i_bladed_staff_Uranium
+   ID=i_bladed_staff
+   NAME=Uranium Bladed Staff
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=35
+   VALUE=121
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={115 133}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Tongs
+
+[ITEMDEF i_tongs_Uranium]
+   DEFNAME=i_tongs_Uranium
+   ID=i_tongs
+   NAME=Uranium Tongs
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=12
+   VALUE=121
+   SPEED=14
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={0 18}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Mace
+
+[ITEMDEF i_mace_Uranium]
+   DEFNAME=i_mace_Uranium
+   ID=i_mace
+   NAME=Uranium Mace
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=25
+   VALUE=121
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Maul
+
+[ITEMDEF i_maul_Uranium]
+   DEFNAME=i_maul_Uranium
+   ID=i_maul
+   NAME=Uranium Maul
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=27
+   VALUE=121
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={40 58}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Scepter
+
+[ITEMDEF i_scepter_Uranium]
+   DEFNAME=i_scepter_Uranium
+   ID=i_scepter
+   NAME=Uranium Scepter
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=29
+   VALUE=121
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={50 68}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Uranium]
+   DEFNAME=i_hammer_sledge_Uranium
+   ID=i_hammer_sledge
+   NAME=Uranium Sledge Hammer
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=29
+   VALUE=121
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={20 38}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Uranium]
+   DEFNAME=i_hammer_smith_Uranium
+   ID=i_hammer_smith
+   NAME=Uranium Smiths Hammer
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=15
+   VALUE=121
+   SPEED=14
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium War Mace
+
+[ITEMDEF i_mace_war_Uranium]
+   DEFNAME=i_mace_war_Uranium
+   ID=i_mace_war
+   NAME=Uranium War Mace
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=33
+   VALUE=121
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={80 98}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Disc Mace
+
+[ITEMDEF i_disc_mace_Uranium]
+   DEFNAME=i_disc_mace_Uranium
+   ID=i_disc_mace
+   NAME=Uranium Disc Mace
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=33
+   VALUE=121
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={70 88}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium War Hammer
+
+[ITEMDEF i_hammer_war_Uranium]
+   DEFNAME=i_hammer_war_Uranium
+   ID=i_hammer_war
+   NAME=Uranium War Hammer
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=39
+   VALUE=121
+   SPEED=54
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={100 118}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Hammer Pick
+
+[ITEMDEF i_hammer_pick_Uranium]
+   DEFNAME=i_hammer_pick_Uranium
+   ID=i_hammer_pick
+   NAME=Uranium Hammer Pick
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=35
+   VALUE=121
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={55 73}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium War Axe
+
+[ITEMDEF i_axe_war_Uranium]
+   DEFNAME=i_axe_war_Uranium
+   ID=i_axe_war
+   NAME=Uranium War Axe
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=25
+   VALUE=121
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={65 83}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Tessen
+
+[ITEMDEF i_tessen_Uranium]
+   DEFNAME=i_tessen_Uranium
+   ID=i_tessen
+   NAME=Uranium Tessen
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=24
+   VALUE=121
+   SPEED=39
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={75 93}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Long Sword
+
+[ITEMDEF i_sword_long_Uranium]
+   DEFNAME=i_sword_long_Uranium
+   ID=i_sword_long
+   NAME=Uranium Long Sword
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=121
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={10 28}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Broad Sword
+
+[ITEMDEF i_sword_broad_Uranium]
+   DEFNAME=i_sword_broad_Uranium
+   ID=i_sword_broad
+   NAME=Uranium Broad Sword
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=121
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={20 38}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Scimitar
+
+[ITEMDEF i_scimitar_Uranium]
+   DEFNAME=i_scimitar_Uranium
+   ID=i_scimitar
+   NAME=Uranium Scimitar
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=121
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Viking Sword
+
+[ITEMDEF i_sword_viking_Uranium]
+   DEFNAME=i_sword_viking_Uranium
+   ID=i_sword_viking
+   NAME=Uranium Viking Sword
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=121
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={35 53}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Katana
+
+[ITEMDEF i_katana_Uranium]
+   DEFNAME=i_katana_Uranium
+   ID=i_katana
+   NAME=Uranium Katana
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=121
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={80 98}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Wakizashi
+
+[ITEMDEF i_wakizashi_Uranium]
+   DEFNAME=i_wakizashi_Uranium
+   ID=i_wakizashi
+   NAME=Uranium Wakizashi
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=121
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={45 63}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Long Sword
+
+[ITEMDEF i_sword_long_b_Uranium]
+   DEFNAME=i_sword_long_b_Uranium
+   ID=i_sword_long_b
+   NAME=Uranium Long Sword
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=121
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={50 68}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Paladin Sword
+
+[ITEMDEF i_sword_paladin_Uranium]
+   DEFNAME=i_sword_paladin_Uranium
+   ID=i_sword_paladin
+   NAME=Uranium Paladin Sword
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=121
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={65 83}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Bokuto
+
+[ITEMDEF i_bokuto_Uranium]
+   DEFNAME=i_bokuto_Uranium
+   ID=i_bokuto
+   NAME=Uranium Bokuto
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=121
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={70 88}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Uranium]
+   DEFNAME=i_Radiant_Scimitar_Uranium
+   ID=i_Radiant_Scimitar
+   NAME=Uranium Radiant Scimitar
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=121
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={75 93}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Bone Harvester
+
+[ITEMDEF i_bone_harvester_Uranium]
+   DEFNAME=i_bone_harvester_Uranium
+   ID=i_bone_harvester
+   NAME=Uranium Bone Harvester
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=121
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={55 73}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Butcher Knife
+
+[ITEMDEF i_knife_butcher_Uranium]
+   DEFNAME=i_knife_butcher_Uranium
+   ID=i_knife_butcher
+   NAME=Uranium Butcher Knife
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=121
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Uranium]
+   DEFNAME=i_cleaver_meat_Uranium
+   ID=i_cleaver_meat
+   NAME=Uranium Meat Cleaver
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=121
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Elven Machete
+
+[ITEMDEF i_elven_machete_Uranium]
+   DEFNAME=i_elven_machete_Uranium
+   ID=i_elven_machete
+   NAME=Uranium Elven Machete
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=121
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={60 78}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Bone Machete
+
+[ITEMDEF i_bone_machete_Uranium]
+   DEFNAME=i_bone_machete_Uranium
+   ID=i_bone_machete
+   NAME=Uranium Bone Machete
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=29
+   VALUE=121
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={50 68}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Daisho
+
+[ITEMDEF i_daisho_Uranium]
+   DEFNAME=i_daisho_Uranium
+   ID=i_daisho
+   NAME=Uranium Daisho
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=30
+   VALUE=121
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={65 83}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium No-Dachi
+
+[ITEMDEF i_no_dachi_Uranium]
+   DEFNAME=i_no_dachi_Uranium
+   ID=i_no_dachi
+   NAME=Uranium No-Dachi
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=31
+   VALUE=121
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={75 93}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Rune Blade
+
+[ITEMDEF i_Rune_Blade_Uranium]
+   DEFNAME=i_Rune_Blade_Uranium
+   ID=i_Rune_Blade
+   NAME=Uranium Rune Blade
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=33
+   VALUE=121
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={115 133}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Axe
+
+[ITEMDEF i_axe_Uranium]
+   DEFNAME=i_axe_Uranium
+   ID=i_axe
+   NAME=Uranium Axe
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=23
+   VALUE=121
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={42 60}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Bardiche
+
+[ITEMDEF i_bardiche_Uranium]
+   DEFNAME=i_bardiche_Uranium
+   ID=i_bardiche
+   NAME=Uranium Bardiche
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=121
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={58 76}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Battle Axe
+
+[ITEMDEF i_axe_battle_Uranium]
+   DEFNAME=i_axe_battle_Uranium
+   ID=i_axe_battle
+   NAME=Uranium Battle Axe
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=121
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={65 83}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Double Axe
+
+[ITEMDEF i_axe_double_Uranium]
+   DEFNAME=i_axe_double_Uranium
+   ID=i_axe_double
+   NAME=Uranium Double Axe
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=121
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={70 88}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Uranium]
+   DEFNAME=i_axe_exec_Uranium
+   ID=i_axe_exec
+   NAME=Uranium Exectutioners Axe
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=121
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={73 91}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Halberd
+
+[ITEMDEF i_halberd_Uranium]
+   DEFNAME=i_halberd_Uranium
+   ID=i_halberd
+   NAME=Uranium Halberd
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=121
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={75 93}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Hatchet
+
+[ITEMDEF i_hatchet_Uranium]
+   DEFNAME=i_hatchet_Uranium
+   ID=i_hatchet
+   NAME=Uranium Hatchet
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=24
+   VALUE=121
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={40 58}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Uranium]
+   DEFNAME=i_axe_battle_large_Uranium
+   ID=i_axe_battle_large
+   NAME=Uranium Large Battle Axe
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=36
+   VALUE=121
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={100 118}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Ornate Axe
+
+[ITEMDEF i_ornate_axe_Uranium]
+   DEFNAME=i_ornate_axe_Uranium
+   ID=i_ornate_axe
+   NAME=Uranium Ornate Axe
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=121
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={60 78}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Uranium]
+   DEFNAME=i_axe_two_hand_Uranium
+   ID=i_axe_two_hand
+   NAME=Uranium Two Handed Axe
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=121
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={55 73}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Dual Axes
+
+[ITEMDEF i_dual_short_axes_Uranium]
+   DEFNAME=i_dual_short_axes_Uranium
+   ID=i_dual_short_axes
+   NAME=Uranium Dual Axes
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=121
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={95 113}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Cresent Blade
+
+[ITEMDEF i_crescent_blade_Uranium]
+   DEFNAME=i_crescent_blade_Uranium
+   ID=i_crescent_blade
+   NAME=Uranium Cresent Blade
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=36
+   VALUE=121
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={110 128}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Dagger
+
+[ITEMDEF i_dagger_Uranium]
+   DEFNAME=i_dagger_Uranium
+   ID=i_dagger
+   NAME=Uranium Dagger
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=121
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={10 28}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Skinning Knife
+
+[ITEMDEF i_knife_skinning_Uranium]
+   DEFNAME=i_knife_skinning_Uranium
+   ID=i_knife_skinning
+   NAME=Uranium Skinning Knife
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=121
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={15 33}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Uranium]
+   DEFNAME=i_sword_Assassin_Spike_Uranium
+   ID=i_sword_Assassin_Spike
+   NAME=Uranium Assassin Spike
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=121
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Cutlass
+
+[ITEMDEF i_cutlass_Uranium]
+   DEFNAME=i_cutlass_Uranium
+   ID=i_cutlass
+   NAME=Uranium Cutlass
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=121
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={25 43}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Short Blade
+
+[ITEMDEF i_shortblade_Uranium]
+   DEFNAME=i_shortblade_Uranium
+   ID=i_shortblade
+   NAME=Uranium Short Blade
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=121
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={35 53}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Scythe
+
+[ITEMDEF i_scythe_Uranium]
+   DEFNAME=i_scythe_Uranium
+   ID=i_scythe
+   NAME=Uranium Scythe
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=32
+   VALUE=121
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={115 133}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Short Spear
+
+[ITEMDEF i_spear_short_Uranium]
+   DEFNAME=i_spear_short_Uranium
+   ID=i_spear_short
+   NAME=Uranium Short Spear
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=121
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={45 63}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium War Fork
+
+[ITEMDEF i_war_fork_Uranium]
+   DEFNAME=i_war_fork_Uranium
+   ID=i_war_fork
+   NAME=Uranium War Fork
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=121
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={50 68}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Leafblade
+
+[ITEMDEF i_sword_leafblade_Uranium]
+   DEFNAME=i_sword_leafblade_Uranium
+   ID=i_sword_leafblade
+   NAME=Uranium Leafblade
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=121
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={60 78}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Uranium]
+   DEFNAME=i_elven_spellblade_Uranium
+   ID=i_elven_spellblade
+   NAME=Uranium Elven Spell Blade
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=121
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={75 93}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Pitchfork
+
+[ITEMDEF i_pitchfork_Uranium]
+   DEFNAME=i_pitchfork_Uranium
+   ID=i_pitchfork
+   NAME=Uranium Pitchfork
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=121
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={55 73}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium War Cleaver
+
+[ITEMDEF i_war_cleaver_Uranium]
+   DEFNAME=i_war_cleaver_Uranium
+   ID=i_war_cleaver
+   NAME=Uranium War Cleaver
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=121
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={65 83}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Pike
+
+[ITEMDEF i_pike_Uranium]
+   DEFNAME=i_pike_Uranium
+   ID=i_pike
+   NAME=Uranium Pike
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=121
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={70 88}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Blood Blade
+
+[ITEMDEF i_bloodblade_Uranium]
+   DEFNAME=i_bloodblade_Uranium
+   ID=i_bloodblade
+   NAME=Uranium Blood Blade
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=121
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={75 93}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Kama
+
+[ITEMDEF i_kama_Uranium]
+   DEFNAME=i_kama_Uranium
+   ID=i_kama
+   NAME=Uranium Kama
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=121
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={77 95}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Kryss
+
+[ITEMDEF i_kryss_Uranium]
+   DEFNAME=i_kryss_Uranium
+   ID=i_kryss
+   NAME=Uranium Kryss
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=121
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={80 98}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Lajatang
+
+[ITEMDEF i_lajatang_Uranium]
+   DEFNAME=i_lajatang_Uranium
+   ID=i_lajatang
+   NAME=Uranium Lajatang
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=121
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={85 103}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Sai
+
+[ITEMDEF i_sai_Uranium]
+   DEFNAME=i_sai_Uranium
+   ID=i_sai
+   NAME=Uranium Sai
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=121
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={76 94}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Tekagi
+
+[ITEMDEF i_tekagi_Uranium]
+   DEFNAME=i_tekagi_Uranium
+   ID=i_tekagi
+   NAME=Uranium Tekagi
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=121
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={90 108}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Uranium Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Uranium]
+   DEFNAME=i_dual_pointed_spear_Uranium
+   ID=i_dual_pointed_spear
+   NAME=Uranium Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Uranium
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=31
+   VALUE=121
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Uranium
+
+ON=@Create
+   COLOR=color_ore_Uranium
+   HITPOINTS={115 133}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

@@ -1,0 +1,38 @@
+[Function resetclock]
+TARGETF TagClock
+[Function resetouterregions]
+TARGETF TagClockOuterRegions
+
+[Function TagClockOuterRegions]
+CTAG.ShopClockUid=<ARGO>
+SERV.UID.<CTAG.ClockControlUID>.TAG.TownControlStoneUID=<REGION.TAG.TownControlStoneUID>
+SERV.UID.<CTAG.ClockControlUID>.TAG.KeepControlStoneUID=<SERV.UID.<REGION.TAG.TownControlStoneUID>.TAG.KeepControlStoneUID>
+SYSMESSAGE TownControlStoneUID <SERV.UID.<CTAG.ShopClockUid>.TAG.TownControlStoneUID>
+SYSMESSAGE KeepControlStoneUID <SERV.UID.<CTAG.ShopClockUid>.TAG.KeepControlStoneUID>
+SAY <SERV.UID.<REGION.TAG.TownControlStoneUID>.REGION.NAME>
+SERV.UID.<CTAG.ClockControlUID>.TIMER=2
+
+[Function TagClock]
+CTAG.ShopClockUid=<ARGO>
+SERV.UID.<ARGO>.TAG.OwnersName=For Rent
+SERV.UID.<ARGO>.TAG.OwnersUID=0
+SERV.UID.<ARGO>.TAG.OwnerLicence=0
+SERV.UID.<ARGO>.TAG.OwnerLicenceUID=0
+SERV.UID.<ARGO>.TAG.VendorCount=0
+SERV.UID.<ARGO>.TAG.ItemCount=0
+SERV.UID.<ARGO>.TAG.Shopactivated=0
+SERV.UID.<ARGO>.TAG.CurrentRent=2500
+SERV.UID.<ARGO>.TAG.CurrentDeposit=5000
+
+[Function ResetShopClock]
+TAG.OwnersName=For Rent
+TAG.OwnersUID=0
+TAG.OwnerLicence=0
+TAG.OwnerLicenceUID=0
+TAG.VendorCount=0
+TAG.ItemCount=0
+TAG.Shopactivated=0
+TAG.CurrentRent=2500
+TAG.CurrentDeposit=5000
+
+[EOF]

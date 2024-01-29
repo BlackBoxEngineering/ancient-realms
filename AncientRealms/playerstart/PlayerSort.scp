@@ -1,0 +1,86 @@
+[TYPEDEF t_OldCharacterStone]
+ON=@DClick
+	TIMER=1
+	SERV.B @55 There was <EVAL <TAG.OriginalAmount>> characters sleeping
+	SERV.B @55  Now there is <EVAL <TAG.CurrentAmount>> characters sleeping
+	SERV.B @55  <EVAL <TAG.OriginalAmount> - <TAG.CurrentAmount>> of them have awoken.
+	
+ON=@Timer
+	DORAND 2
+		Say @682 Whatever deceives men seems to produce a magical enchantment
+		SAY @682 Whenever, therefore, people are deceived and form opinions wide of the truth, it is clear that the error has slid into their minds through the medium of certain resemblances to that truth
+	ENDDO
+	VAR.WorldStonesOldCharacterStoneUID=<UID>
+	TAG.WorldStonesOldCharacterStoneUID=<UID>
+	Timer=360
+	RETURN 1
+	
+[FUNCTION COUNTOLDPLAYERS]
+RETURN <EVAL <SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.CurrentAmount>-1>
+
+[FUNCTION GETNAMEOFFSTONE]
+REF1=<SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>>
+LOCAL.CompleteString=<REF1.TAG.Player_<ARGV[0]>_NAME> [<REF1.TAG.Player_<ARGV[0]>_ACCOUNT>] [<REF1.TAG.Player_<ARGV[0]>_STATUS>]
+RETURN <LOCAL.CompleteString>
+
+[FUNCTION SortAllOldPlayers]
+LOCAL.PlayerCount=0
+SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.ClearTags
+FORPLAYERS 7000
+LOCAL.PlayerRow=1
+LOCAL.PlayerCount=<LOCAL.PlayerCount>+1
+	IF !<ISONLINE>)
+		IF <TAG.PlayerNeverLogged>
+			GO <TAG.FiledLocation>
+			HOME=<TAG.FiledLocation>
+			LOCAL.PlayersSleeping=<EVAL <LOCAL.PlayersSleeping>+1>
+			SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <LOCAL.PlayerCount>>_NAME=<NAME>
+			SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <LOCAL.PlayerCount>>_UID=<UID>
+			SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <LOCAL.PlayerCount>>_ACCOUNT=<ACCOUNT>
+			SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <LOCAL.PlayerCount>>_PASSWORD=<ACCOUNT.PASSWORD>
+			SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <LOCAL.PlayerCount>>_HOME=<HOME>
+			SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <LOCAL.PlayerCount>>_KILLS=<KILLS>
+			SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <LOCAL.PlayerCount>>_KARMA=<KARMA>
+			SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <LOCAL.PlayerCount>>_STATUS=STILL_SLEEPING
+			TAG.PlayerNumber=<EVAL <LOCAL.PlayerCount>>
+		ELSE
+			LOCAL.PlayersAwake=<EVAL <LOCAL.PlayersAwake>+1>
+			SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <LOCAL.PlayerCount>>_NAME=<NAME>
+			SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <LOCAL.PlayerCount>>_UID=<UID>
+			SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <LOCAL.PlayerCount>>_ACCOUNT=ACTIVATED
+			SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <LOCAL.PlayerCount>>_PASSWORD=<ACCOUNT.PASSWORD>
+			SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <LOCAL.PlayerCount>>_HOME=<HOME>
+			SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <LOCAL.PlayerCount>>_KILLS=<KILLS>
+			SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <LOCAL.PlayerCount>>_KARMA=<KARMA>
+			SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.Player_<EVAL <LOCAL.PlayerCount>>_STATUS=HAS_AWOKEN
+			TAG.PlayerNumber=<EVAL <LOCAL.PlayerCount>>
+			TAG.LastAtTheseCoords=<P>
+			IF <LOCAL.PlayerRow> && !<TAG.Stored>
+				LOCAL.RowCalc=<EVAL 254 * <LOCAL.PlayerRow>>
+				IF <EVAL <LOCAL.PlayerCount>> > <EVAL <LOCAL.RowCalc>>
+					LOCAL.PlayerRow=<EVAL <LOCAL.PlayerRow>+1>
+				ENDIF
+				IF <EVAL <LOCAL.PlayerRow>> > 1
+					LOCAL.RowCalcB=<EVAL 254 * <LOCAL.PlayerRow>-1>
+					LOCAL.BumpXCoordCalc=<EVAL <TAG.PlayerNumber> - <LOCAL.RowCalcB>>
+					LOCAL.BumpXCoord=<EVAL <LOCAL.BumpXCoordCalc>>
+				ELSE
+					LOCAL.BumpXCoord=<EVAL 5888 + <TAG.PlayerNumber>>
+				ENDIF
+				LOCAL.BumpYCoord=<EVAL 512 - <LOCAL.PlayerRow>>
+				GO <EVAL <LOCAL.BumpXCoord>>,<EVAL <LOCAL.BumpYCoord>> 
+				//SERV.LOG <NAME> Has been refiled and put away <EVAL <LOCAL.BumpXCoord>>,<EVAL <LOCAL.BumpYCoord>> In Row Number[<EVAL <LOCAL.PlayerRow>>]
+				TAG.FiledLocation=<P>
+				TAG.Stored=1
+			ENDIF
+		ENDIF
+	ENDIF
+ENDFOR
+SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.OriginalAmount=<EVAL <LOCAL.PlayerCount>>
+SERV.UID.<VAR.WorldStonesOldCharacterStoneUID>.TAG.CurrentAmount=<EVAL <LOCAL.PlayersSleeping>>
+
+[FUNCTION PlayersFileLocation]
+TAG.FiledLocation=<SERV.UID.<UID>.P.X>,<SERV.UID.<UID>.P.Y>,0
+//SERV.LOG <NAME> Filed at <SERV.UID.<UID>.P.X>,<SERV.UID.<UID>.P.Y>,0
+
+[EOF]

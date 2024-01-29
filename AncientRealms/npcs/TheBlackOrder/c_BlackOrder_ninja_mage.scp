@@ -1,0 +1,36 @@
+[CHARDEF c_BlackOrder_ninja_mage]
+ID=c_man
+NAME=BlackOrder Mage
+DAM=13,15
+ARMOR=40
+CAN=MT_WALK|MT_USEHANDS|MT_EQUIP
+MOVERATE=120
+CATEGORY=Ancientrealms-NPCS
+SUBSECTION=The Black Order
+DESCRIPTION=BlackOrder Mage
+
+ON=@Create
+	NPC=brain_monster
+	COLOR=colors_skin
+	DEX=125
+	INT=125
+	STR=125
+	MAXHITS=4000	
+	WRESTLING=120.0
+	FENCING=120.0
+	TACTICS=120.0
+	ANATOMY=100.0
+	MAGICRESISTANCE=85.0
+	HIDING=120.0
+	STEALTH=120.0
+	KARMA=-10000
+	FAME=10000
+	ITEMNEWBIE=i_kasa
+	ITEMNEWBIE=i_ninja_tabi
+	ITEMNEWBIE=i_leather_ninja_pants
+	ITEMNEWBIE=i_leather_ninja_jacket
+	
+ON=@NpcRestock
+	ITEM=loot_BlackOrder_ninja_mage
+
+[EOF]

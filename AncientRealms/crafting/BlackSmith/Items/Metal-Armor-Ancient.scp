@@ -1,0 +1,254 @@
+[ITEMDEF i_deed_Ancient_armor]
+ID=i_deed
+NAME=Full Suit of Ancient Armor
+CATEGORY=Ancient
+SUBSECTION=Items
+DESCRIPTION=Ancient Armor Deed
+
+On=@Create
+	COLOR=0047e
+
+On=@dclick
+	SRC.NEWITEM=i_Ancient_helm
+	SRC.ACT.BOUNCE
+	SRC.NEWITEM=i_Ancient_Gorget
+	SRC.ACT.BOUNCE
+	SRC.NEWITEM=i_Ancient_chest
+	SRC.ACT.BOUNCE
+	SRC.NEWITEM=i_Ancient_arms
+	SRC.ACT.BOUNCE
+	SRC.NEWITEM=i_Ancient_gloves
+	SRC.ACT.BOUNCE
+	SRC.NEWITEM=i_Ancient_legs
+	SRC.ACT.BOUNCE
+	SRC.NEWITEM=i_Ancient_shield
+	SRC.ACT.BOUNCE
+	REMOVE
+	RETURN 1
+
+[ITEMDEF i_Ancient_helm]
+NAME="Ancient Helm"
+ID=9797
+ARMOR=150
+REQSTR=100
+WEIGHT=5
+RESOURCES=500 i_ingot_silver
+value=50000
+	
+CATEGORY=Ancient
+SUBSECTION=Items
+DESCRIPTION=Ancient armor helm
+
+ON=@Create
+	HITPOINTS={999 1000}
+	COLOR=95
+
+ON=@EQUIP
+	SRC.ModAR += 5
+	SRC.RESFIRE += 5
+	SRC.RESCOLD += 5
+	SRC.RESPOISON += 5
+	SRC.RESENERGY += 5
+
+ON=@UNEQUIP
+	SRC.ModAR -= 5
+	SRC.RESFIRE -= 5
+	SRC.RESCOLD -= 5
+	SRC.RESPOISON -= 5
+	SRC.RESENERGY -= 5
+	RETURN 1
+
+[ITEMDEF i_Ancient_Gorget
+NAME="Ancient Gorget"
+ID=i_platemail_gorget
+ARMOR=150
+REQSTR=100
+WEIGHT=5
+RESOURCES=500 i_ingot_silver
+value=50000
+	
+CATEGORY=Ancient
+SUBSECTION=Items
+DESCRIPTION=Ancient armor Gorget
+
+ON=@Create
+	HITPOINTS={999 1000}
+	COLOR=95
+
+ON=@EQUIP
+	SRC.ModAR += 5
+	SRC.RESFIRE += 5
+	SRC.RESCOLD += 5
+	SRC.RESPOISON += 5
+	SRC.RESENERGY += 5
+
+ON=@UNEQUIP
+	SRC.ModAR -= 5
+	SRC.RESFIRE -= 5
+	SRC.RESCOLD -= 5
+	SRC.RESPOISON -= 5
+	SRC.RESENERGY -= 5
+	RETURN 1
+
+[ITEMDEF i_Ancient_chest]
+NAME="Ancient Chest"
+ID=9793
+ARMOR=150
+REQSTR=100
+WEIGHT=5
+RESOURCES=500 i_ingot_silver
+value=50000
+
+CATEGORY=Ancient
+SUBSECTION=Items
+DESCRIPTION=Ancient armor Plate
+
+ON=@Create
+	HITPOINTS={999 1000}
+	COLOR=95
+	
+ON=@EQUIP
+	SRC.ModAR += 5
+	SRC.RESFIRE += 5
+	SRC.RESCOLD += 5
+	SRC.RESPOISON += 5
+	SRC.RESENERGY += 5
+
+ON=@UNEQUIP
+	SRC.ModAR -= 5
+	SRC.RESFIRE -= 5
+	SRC.RESCOLD -= 5
+	SRC.RESPOISON -= 5
+	SRC.RESENERGY -= 5
+	RETURN 1
+	
+[ITEMDEF i_Ancient_legs]
+NAME="Ancient Leggings"
+ID=9799
+ARMOR=150
+REQSTR=100
+WEIGHT=5
+RESOURCES=500 i_ingot_silver
+value=50000
+
+CATEGORY=Ancient
+SUBSECTION=Items
+DESCRIPTION=Ancient armor Leggings
+
+ON=@Create
+	HITPOINTS={999 1000}
+	COLOR=95
+	
+ON=@EQUIP
+	SRC.ModAR += 5
+	SRC.RESFIRE += 5
+	SRC.RESCOLD += 5
+	SRC.RESPOISON += 5
+	SRC.RESENERGY += 5
+
+ON=@UNEQUIP
+	SRC.ModAR -= 5
+	SRC.RESFIRE -= 5
+	SRC.RESCOLD -= 5
+	SRC.RESPOISON -= 5
+	SRC.RESENERGY -= 5
+	RETURN 1
+		
+[ITEMDEF i_Ancient_gloves]
+NAME="Ancient Gloves"
+ID=9796
+ARMOR=150
+REQSTR=100
+WEIGHT=5
+RESOURCES=500 i_ingot_silver
+value=50000
+	
+CATEGORY=Ancient
+SUBSECTION=Items
+DESCRIPTION=Ancient armor Gloves
+
+ON=@Create
+	HITPOINTS={999 1000}
+	COLOR=95
+	
+ON=@EQUIP
+	SRC.ModAR += 5
+	SRC.RESFIRE += 5
+	SRC.RESCOLD += 5
+	SRC.RESPOISON += 5
+	SRC.RESENERGY += 5
+
+ON=@UNEQUIP
+	SRC.ModAR -= 5
+	SRC.RESFIRE -= 5
+	SRC.RESCOLD -= 5
+	SRC.RESPOISON -= 5
+	SRC.RESENERGY -= 5
+	RETURN 1
+
+[ITEMDEF i_Ancient_arms]
+NAME="Ancient Arms"
+ID=9815
+ARMOR=150
+REQSTR=100
+WEIGHT=5
+RESOURCES=500 i_ingot_silver
+value=50000
+	
+CATEGORY=Ancient
+SUBSECTION=Items
+DESCRIPTION=Ancient armor Arms
+
+ON=@Create
+	HITPOINTS={999 1000}
+	COLOR=95
+	
+ON=@EQUIP
+	SRC.ModAR += 5
+	SRC.RESFIRE += 5
+	SRC.RESCOLD += 5
+	SRC.RESPOISON += 5
+	SRC.RESENERGY += 5
+
+ON=@UNEQUIP
+	SRC.ModAR -= 5
+	SRC.RESFIRE -= 5
+	SRC.RESCOLD -= 5
+	SRC.RESPOISON -= 5
+	SRC.RESENERGY -= 5
+	RETURN 1
+
+[ITEMDEF i_Ancient_shield]
+DEFNAME=i_Ancient_shield
+NAME="Ancient Shield"
+ID=i_shield_dupre
+ARMOR=150
+REQSTR=100
+WEIGHT=10
+RESOURCES=500 i_ingot_silver
+value=50000
+
+CATEGORY=Ancient
+SUBSECTION=Items
+DESCRIPTION=Ancient Shield
+
+ON=@Create
+	HITPOINTS={999 1000}
+	COLOR=95
+
+ON=@EQUIP
+	SRC.ModAR += 5
+	SRC.RESFIRE += 5
+	SRC.RESCOLD += 5
+	SRC.RESPOISON += 5
+	SRC.RESENERGY += 5
+
+ON=@UNEQUIP
+	SRC.ModAR -= 5
+	SRC.RESFIRE -= 5
+	SRC.RESCOLD -= 5
+	SRC.RESPOISON -= 5
+	SRC.RESENERGY -= 5
+	RETURN 1
+		
+[EOF]

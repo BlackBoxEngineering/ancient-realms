@@ -1,0 +1,58 @@
+[FUNCTION f_consume_tickets]
+TAG.TICKETS=<RESCOUNT i_reward_coin>
+
+// Consume gold tickets
+IF ((<ARGS> > 10000) && (<FINDID.i_reward_coin_gold>))
+  CONSUME 1 i_reward_coin_gold
+  f_consume_tickets <EVAL <ARGS>+-10000>
+
+// Consume silver tickets
+ELSEIF ((<ARGS> > 1000) && (<FINDID.i_reward_coin_silver>))
+  CONSUME 1 i_reward_coin_silver
+  f_consume_tickets <EVAL <ARGS>+-1000>
+
+// Consume regular tickets > 65535, tho
+ELSEIF ((<ARGS> > 65535) && (<FINDID.i_reward_coin>) && (<VAR.TICKETS> >= 65535))
+  CONSUME 65535 i_reward_coin
+  f_consume_tickets <EVAL <ARGS>-65535>
+
+// Consume regular tickets < 65535
+ELSEIF ((<FINDID.i_reward_coin>) && (<TAG.TICKETS> >= <ARGS>))
+  CONSUME <ARGS> i_reward_coin
+
+// Less than 1k and we have a silver ticket
+ELSEIF ((<ARGS> <= 1000) && (<FINDID.i_reward_coin_silver>))
+  CONSUME 1 i_reward_coin_silver
+  f_give_tickets <EVAL 1000+-<ARGS>>
+
+// Less than 10k and we have a gold ticket
+ELSEIF ((<ARGS> <= 10000) && (<FINDID.i_reward_coin_gold>))
+  CONSUME 1 i_reward_coin_gold
+  f_give_tickets <EVAL 10000+-<ARGS>>
+
+ENDIF
+
+
+[FUNCTION f_give_tickets]
+IF (<ARGS> >= 10000)
+  NEWITEM i_reward_coin_gold
+  ACT.CONT=<FINDLAYER(21).UID>
+  f_give_tickets <EVAL <ARGS>-10000>
+
+ELSEIF (<ARGS> >= 1000)
+  NEWITEM i_reward_coin_silver
+  ACT.CONT=<FINDLAYER(21).UID>
+  f_give_tickets <EVAL <ARGS>-1000>
+
+ELSEIF (<ARGS> > 0)
+  NEWITEM i_reward_coin
+  ACT.AMOUNT=<ARGS>
+  ACT.CONT=<FINDLAYER(21).UID>
+
+ENDIF
+
+[FUNCTION counttickets]
+RETURN <EVAL <rescount i_reward_coin>+<eval <rescount i_reward_coin_silver>*1000>+<eval <rescount i_reward_coin_gold>*10000>>
+
+
+[EOF]

@@ -1,0 +1,50 @@
+[CHARDEF c_keep_Guard]
+DEFNAME=c_keep_guard
+NAME=#NAMES_HUMANMALE the Keep Guard
+ID=C_MAN
+CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
+DAM=12
+MOVERATE=60
+ARMOR=20
+DESIRES=i_gold,e_notoriety,t_keep_point
+AVERSIONS=t_TRAP
+DESIRES=e_notoriety, t_armor, t_weapon_bow
+TEVENTS=e_Keep_Guard
+
+CATEGORY=AncientRealms
+SUBSECTION=Keep Guards
+DESCRIPTION=Keep Guard
+
+ON=@Create
+	NPC=brain_human
+	COLOR=1009
+	STR=100
+	DEX=100
+	INT=50
+	FAME=100
+	KARMA=-1000	
+	MACEFIGHTING	=120.0
+	SWORDSMANSHIP	=120.0
+	FENCING			=120.0
+	HEALING			={80.0 100.0}
+	PARRYING		={80.0 100.0}
+	MAGICRESISTANCE	={80.0 100.0}
+	FOCUS			={80.0 100.0}
+	TACTICS			={80.0 100.0}
+	ITEMNEWBIE i_keep_GuardsBrains, 1, <UID>
+	
+ON=@NPCRestock
+    ITEMNEWBIE=random_male_hair
+	COLOR=color_ore_blackrock
+	ITEMNEWBIE=random_facial_hair
+	COLOR=match_hair
+    ITEMNEWBIE=i_platemail_do_Orpiment
+    ITEMNEWBIE=i_platemail_hiro_sode_Orpiment
+    ITEMNEWBIE=i_platemail_suneate_Orpiment
+    ITEMNEWBIE=i_platemail_gorget_Orpiment
+    ITEMNEWBIE=i_platemail_gloves_Orpiment
+    ITEMNEWBIE={i_pike_blackrock 1, i_dual_pointed_spear_blackrock 1, i_crescent_blade_blackrock 1}
+    ITEMNEWBIE=i_mt_ostard_frenzied
+    COLOR=color_ore_blackrock
+   
+[EOF]

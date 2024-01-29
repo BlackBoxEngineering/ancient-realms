@@ -1,0 +1,274 @@
+[DEFNAME WorldSliceData]
+MAP_1_MinX  10
+MAP_1_MinY  10
+MAP_1_MaxX  6128
+MAP_1_MaxY  4080
+
+[REGIONTYPE r_OreClass_1 t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=60.0 mr_rusty
+RESOURCES=30.0 mr_iron
+RESOURCES=35.0 mr_dullcopper
+
+[REGIONTYPE r_OreClass_2 t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=40.0 mr_copper
+RESOURCES=25.0 mr_oldcopper
+RESOURCES=40.0 mr_purecopper
+RESOURCES=35.0 mr_bronze
+RESOURCES=20.0 mr_silver
+RESOURCES=15.0 mr_rose
+
+[REGIONTYPE r_OreClass_3 t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=10.0 mr_Rhodonite
+RESOURCES=15.0 mr_rosequartz
+RESOURCES=9.0 mr_Vanadinate
+
+[REGIONTYPE r_OreClass_4 t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=8.0 mr_Azurite
+RESOURCES=7.0 mr_Erubecite
+RESOURCES=6.0 mr_Galena
+
+[REGIONTYPE r_OreClass_5 t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=5.0 mr_Kunzite
+RESOURCES=4.0 mr_Orpiment
+RESOURCES=3.0 mr_Hematite
+
+[REGIONTYPE r_OreClass_6 t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=2.0 mr_Malachite
+RESOURCES=1.0 mr_Cassiterite
+RESOURCES=0.9 mr_gold
+
+[REGIONTYPE r_OreClass_7 t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=0.8 mr_verite
+RESOURCES=0.7 mr_Autonite
+RESOURCES=0.6 mr_agapite
+RESOURCES=0.5 mr_Daemonite
+
+[REGIONTYPE r_OreClass_8 t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=0.4 mr_Barite
+RESOURCES=0.3 mr_Aquanite
+RESOURCES=0.2 mr_valorite
+
+[REGIONTYPE r_OreClass_9 t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=0.1 mr_uranium
+RESOURCES=0.09 mr_bloodrock
+RESOURCES=0.08 mr_titanium
+
+[REGIONTYPE r_OreClass_10 t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=0.07 mr_blackrock
+RESOURCES=0.06 mr_kryptonite
+RESOURCES=0.05 mr_Cerussite
+
+[REGIONTYPE r_OreClass_11 t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=0.04 mr_Quartz
+RESOURCES=0.03 mr_Chromite
+RESOURCES=0.02 mr_Dioptase
+RESOURCES=0.01 mr_mytheril
+
+[REGIONTYPE r_OreClass_12 t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=0.01 mr_Chromium
+RESOURCES=0.01 mr_invictus
+
+//////////////////////////////////////////////
+
+[REGIONTYPE r_OreClass_1_to_3_common t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=60.0 mr_rusty
+RESOURCES=30.0 mr_iron
+RESOURCES=40.0 mr_copper
+RESOURCES=35.0 mr_bronze
+RESOURCES=20.0 mr_silver
+RESOURCES=15.0 mr_rose
+RESOURCES=15.0 mr_rosequartz
+
+[REGIONTYPE r_OreClass_1_to_3_rare t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=35.0 mr_dullcopper
+RESOURCES=25.0 mr_oldcopper
+RESOURCES=40.0 mr_purecopper
+RESOURCES=10.0 mr_Rhodonite
+RESOURCES=9.0 mr_Vanadinate
+
+[REGIONTYPE r_OreClass_4_to_6_common t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=8.0 mr_Azurite
+RESOURCES=6.0 mr_Galena
+RESOURCES=5.0 mr_Kunzite
+RESOURCES=4.0 mr_Orpiment
+RESOURCES=0.9 mr_gold
+
+[REGIONTYPE r_OreClass_4_to_6_rare t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=7.0 mr_Erubecite
+RESOURCES=3.0 mr_Hematite
+RESOURCES=1.0 mr_Cassiterite
+RESOURCES=2.0 mr_Malachite
+
+[REGIONTYPE r_OreClass_7_to_9_common t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=0.8 mr_verite
+RESOURCES=0.6 mr_agapite
+RESOURCES=0.2 mr_valorite
+RESOURCES=0.09 mr_bloodrock
+
+[REGIONTYPE r_OreClass_7_to_9_rare t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=0.7 mr_Autonite
+RESOURCES=0.5 mr_Daemonite
+RESOURCES=0.4 mr_Barite
+RESOURCES=0.3 mr_Aquanite
+RESOURCES=0.1 mr_uranium
+RESOURCES=0.08 mr_titanium
+
+[REGIONTYPE r_OreClass_10_to_12_common t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=0.05 mr_Cerussite
+RESOURCES=0.04 mr_Quartz
+RESOURCES=0.01 mr_mytheril
+
+[REGIONTYPE r_OreClass_10_to_12_rare t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=0.07 mr_blackrock
+RESOURCES=0.06 mr_kryptonite
+RESOURCES=0.03 mr_Chromite
+RESOURCES=0.02 mr_Dioptase
+RESOURCES=0.009 mr_Chromium
+RESOURCES=0.009 mr_invictus
+
+//////////////////////////////////////////////
+[REGIONTYPE r_default_rock t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=60.0 mr_rusty
+RESOURCES=30.0 mr_iron
+RESOURCES=40.0 mr_copper
+RESOURCES=35.0 mr_bronze
+RESOURCES=20.0 mr_silver
+RESOURCES=15.0 mr_rose
+RESOURCES=15.0 mr_rosequartz
+RESOURCES=8.0 mr_Azurite
+RESOURCES=6.0 mr_Galena
+RESOURCES=5.0 mr_Kunzite
+RESOURCES=4.0 mr_Orpiment
+RESOURCES=0.9 mr_gold
+RESOURCES=0.8 mr_verite
+RESOURCES=0.6 mr_agapite
+
+[REGIONTYPE r_OreClass_All_common t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=60.0 mr_rusty
+RESOURCES=30.0 mr_iron
+RESOURCES=40.0 mr_copper
+RESOURCES=35.0 mr_bronze
+RESOURCES=20.0 mr_silver
+RESOURCES=15.0 mr_rose
+RESOURCES=15.0 mr_rosequartz
+RESOURCES=8.0 mr_Azurite
+RESOURCES=6.0 mr_Galena
+RESOURCES=5.0 mr_Kunzite
+RESOURCES=4.0 mr_Orpiment
+RESOURCES=0.9 mr_gold
+RESOURCES=0.8 mr_verite
+RESOURCES=0.6 mr_agapite
+RESOURCES=0.2 mr_valorite
+RESOURCES=0.09 mr_bloodrock
+RESOURCES=0.05 mr_Cerussite
+RESOURCES=0.04 mr_Quartz
+RESOURCES=0.01 mr_mytheril
+
+[REGIONTYPE r_OreClass_All_rare t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=35.0 mr_dullcopper
+RESOURCES=25.0 mr_oldcopper
+RESOURCES=40.0 mr_purecopper
+RESOURCES=10.0 mr_Rhodonite
+RESOURCES=9.0 mr_Vanadinate
+RESOURCES=7.0 mr_Erubecite
+RESOURCES=3.0 mr_Hematite
+RESOURCES=1.0 mr_Cassiterite
+RESOURCES=2.0 mr_Malachite
+RESOURCES=0.7 mr_Autonite
+RESOURCES=0.5 mr_Daemonite
+RESOURCES=0.4 mr_Barite
+RESOURCES=0.3 mr_Aquanite
+RESOURCES=0.1 mr_uranium
+RESOURCES=0.08 mr_titanium
+RESOURCES=0.07 mr_blackrock
+RESOURCES=0.06 mr_kryptonite
+RESOURCES=0.03 mr_Chromite
+RESOURCES=0.02 mr_Dioptase
+RESOURCES=0.009 mr_Chromium
+RESOURCES=0.009 mr_invictus
+
+//////////////////////////////////////////////
+
+[REGIONTYPE r_OreClass_Mix_Common_1 t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=60.0 mr_rusty
+RESOURCES=35.0 mr_bronze
+RESOURCES=15.0 mr_rosequartz
+RESOURCES=5.0 mr_Kunzite
+RESOURCES=0.8 mr_verite
+RESOURCES=0.09 mr_bloodrock
+
+[REGIONTYPE r_OreClass_Mix_Common_2 t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=30.0 mr_iron
+RESOURCES=20.0 mr_silver
+RESOURCES=8.0 mr_Azurite
+RESOURCES=4.0 mr_Orpiment
+RESOURCES=0.6 mr_agapite
+RESOURCES=0.05 mr_Cerussite
+
+[REGIONTYPE r_OreClass_Mix_Common_3 t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=40.0 mr_copper
+RESOURCES=15.0 mr_rose
+RESOURCES=6.0 mr_Galena
+RESOURCES=0.9 mr_gold
+RESOURCES=0.2 mr_valorite
+RESOURCES=0.04 mr_Quartz
+
+[REGIONTYPE r_OreClass_Mix_Rare_1 t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=35.0 mr_dullcopper
+RESOURCES=10.0 mr_Rhodonite
+RESOURCES=3.0 mr_Hematite
+RESOURCES=0.7 mr_Autonite
+RESOURCES=0.3 mr_Aquanite
+RESOURCES=0.07 mr_blackrock
+RESOURCES=0.02 mr_Dioptase
+
+[REGIONTYPE r_OreClass_Mix_Rare_2 t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=25.0 mr_oldcopper
+RESOURCES=9.0 mr_Vanadinate
+RESOURCES=1.0 mr_Cassiterite
+RESOURCES=0.5 mr_Daemonite
+RESOURCES=0.1 mr_uranium
+RESOURCES=0.06 mr_kryptonite
+RESOURCES=0.009 mr_Chromium
+
+[REGIONTYPE r_OreClass_Mix_Rare_3 t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=40.0 mr_purecopper
+RESOURCES=7.0 mr_Erubecite
+RESOURCES=2.0 mr_Malachite
+RESOURCES=0.4 mr_Barite
+RESOURCES=0.08 mr_titanium
+RESOURCES=0.03 mr_Chromite
+RESOURCES=0.009 mr_invictus
+
+//////////////////////////////////////////////
+
+[EOF]

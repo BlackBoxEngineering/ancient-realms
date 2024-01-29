@@ -1,0 +1,40 @@
+[CHARDEF C_Invictus_Event_Manager]
+DEFNAME=C_Invictus_Event_Manager
+ID=c_man
+NAME=Ancientrealms Event Manager
+CATEGORY=Ancientrealms-Arenas
+SUBSECTION=Npcs
+DESCRIPTION=Events Manager
+
+ON=@CREATE
+	NPC=brain_human
+	COLOR=colors_skin
+	STR=9999
+	DEX=9999
+	INT=9999
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.ManagerUid=<UID>
+		
+ON=@NPCRestock
+	ITEMNEWBIE=i_robe
+	COLOR=00ae4
+	ITEMNEWBIE=i_hat_wizards
+	COLOR=00ae4
+	ITEMNEWBIE=i_staff_black
+	COLOR=00ae4
+	ITEMNEWBIE=i_event_manager_spam	
+
+ON=@GETHIT
+	MESSAGE Carefull You Might Get Hurt!! <SRC.NAME>!
+	SRC.SUICIDE
+	RETURN 1
+
+ON=@SPELLEFFECT
+	MESSAGE Carefull you Might Kill Yourself!! <SRC.NAME>!
+	SRC.SUICIDE
+	RETURN 1
+
+ON=@DCLICK
+	SRC.JoinCTS
+	RETURN 1
+
+[EOF]

@@ -1,0 +1,466 @@
+/////////////////////////////////////////////BogOak woodland chest
+[ITEMDEF i_woodland_chest_BogOak]
+   DEFNAME= i_woodland_chest_BogOak
+   ID= i_woodland_chest
+   NAME= BogOak woodland chest
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 20 i_log_BogOak
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= BogOak
+   DESCRIPTION= woodland chest
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS= {92 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak woodland belt
+[ITEMDEF i_woodland_belt_BogOak]
+   DEFNAME= i_woodland_belt_BogOak
+   ID= i_woodland_belt
+   NAME= BogOak woodland belt
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_BogOak
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= BogOak
+   DESCRIPTION= woodland belt
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS= {92 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak woodland gorget
+[ITEMDEF i_woodland_gorget_BogOak]
+   DEFNAME= i_woodland_gorget_BogOak
+   ID= i_woodland_gorget
+   NAME= BogOak woodland gorget
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_BogOak
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= BogOak
+   DESCRIPTION= woodland gorget
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS= {92 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak woodland gauntlets
+[ITEMDEF i_woodland_gauntlets_BogOak]
+   DEFNAME= i_woodland_gauntlets_BogOak
+   ID= i_woodland_gauntlets
+   NAME= BogOak woodland gauntlets
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_BogOak
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= BogOak
+   DESCRIPTION= woodland gauntlets
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS= {92 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak woodland leggings
+[ITEMDEF i_woodland_leggings_BogOak]
+   DEFNAME= i_woodland_leggings_BogOak
+   ID= i_woodland_leggings
+   NAME= BogOak woodland leggings
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_BogOak
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= BogOak
+   DESCRIPTION= woodland leggings
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS= {92 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak woodland arms
+[ITEMDEF i_woodland_arms_BogOak]
+   DEFNAME= i_woodland_arms_BogOak
+   ID= i_woodland_arms
+   NAME= BogOak woodland arms
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 8 i_log_BogOak
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= BogOak
+   DESCRIPTION= woodland arms
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS= {92 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak female woodland chest
+[ITEMDEF i_armor_female_woodland_BogOak]
+   DEFNAME= i_armor_female_woodland_BogOak
+   ID= i_armor_female_woodland
+   NAME= BogOak female woodland chest
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 16 i_log_BogOak
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= BogOak
+   DESCRIPTION= female woodland chest
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS= {92 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak leaf tunic
+[ITEMDEF i_leaf_tunic_BogOak]
+   DEFNAME= i_leaf_tunic_BogOak
+   ID= i_leaf_tunic
+   NAME= BogOak leaf tunic
+   ARMOR= 20
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 18 i_log_BogOak
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= BogOak
+   DESCRIPTION= leaf tunic
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak leaf gloves
+[ITEMDEF i_leaf_gloves_BogOak]
+   DEFNAME= i_leaf_gloves_BogOak
+   ID= i_leaf_gloves
+   NAME= BogOak leaf gloves
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_log_BogOak
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= BogOak
+   DESCRIPTION= leaf gloves
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak leaf gorget
+[ITEMDEF i_leaf_gorget_BogOak]
+   DEFNAME= i_leaf_gorget_BogOak
+   ID= i_leaf_gorget
+   NAME= BogOak leaf gorget
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_BogOak
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= BogOak
+   DESCRIPTION= leaf gorget
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak leaf arms
+[ITEMDEF i_leaf_arms_BogOak]
+   DEFNAME= i_leaf_arms_BogOak
+   ID= i_leaf_arms
+   NAME= BogOak leaf arms
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_BogOak
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= BogOak
+   DESCRIPTION= leaf arms
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak leaf leggings
+[ITEMDEF i_leaf_leggings_BogOak]
+   DEFNAME= i_leaf_leggings_BogOak
+   ID= i_leaf_leggings
+   NAME= BogOak leaf leggings
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 15 i_log_BogOak
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= BogOak
+   DESCRIPTION= leaf leggings
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak leaf tonlet
+[ITEMDEF i_leaf_tonlet_BogOak]
+   DEFNAME= i_leaf_tonlet_BogOak
+   ID= i_leaf_tonlet
+   NAME= BogOak leaf tonlet
+   ARMOR= 6
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 4 i_log_BogOak
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= BogOak
+   DESCRIPTION= leaf tonlet
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak raven helm
+[ITEMDEF i_helm_raven_BogOak]
+   DEFNAME= i_helm_raven_BogOak
+   ID= i_helm_raven
+   NAME= BogOak raven helm
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_BogOak
+   SKILLMAKE= CARPENTRY 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= BogOak
+   DESCRIPTION= raven helm
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak vulture helm
+[ITEMDEF i_helm_vulture_BogOak]
+   DEFNAME= i_helm_vulture_BogOak
+   ID= i_helm_vulture
+   NAME= BogOak vulture helm
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_BogOak
+   SKILLMAKE= CARPENTRY 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= BogOak
+   DESCRIPTION= vulture helm
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BogOak winged helm
+[ITEMDEF i_helm_winged_BogOak]
+   DEFNAME= i_helm_winged_BogOak
+   ID= i_helm_winged
+   NAME= BogOak winged helm
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_BogOak
+   SKILLMAKE= CARPENTRY 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= BogOak
+   DESCRIPTION= winged helm
+
+ON=@Create
+   COLOR=color_log_BogOak
+   HITPOINTS= {102 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

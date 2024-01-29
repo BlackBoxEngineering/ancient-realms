@@ -1,0 +1,379 @@
+//////////////////////////////////////////
+///DEFNAMES//
+//////////////////////////////////////////
+
+[DEFNAME auction_defs] 
+auction_time 1440 //in minutes 1day = 1440 minutes
+auction_fee 0 //Fee in gold that has to be payd to auction an item
+
+//////////////////////////////////////////
+///FUNCTIONS//
+//////////////////////////////////////////
+
+[FUNCTION f_auction_additem] //most control checks are in the dialog d_auction_sell_item because we need some player input. 
+if (<argo.topobj> != <src.uid>) //we actually check this twice once here and once in d_auction_sell_item because it could have been moved while filling in the chart.
+src.sysmessage That item is not in your backpack.
+return 1
+endif
+if (<argo.baseid> == i_gold)
+src.sysmessage You can not sell gold
+return 1
+endif
+if (<argo.type> == t_container) || (<argo.type> == t_container_locked) 
+src.sysmessage The item is a container and can not be put up for auction.
+return 1
+endif
+serv.newitem i_auction_chart
+new.name <argo.name> auction chart
+new.tag.seller=<src.uid>
+new.cont=<uid.<args>.findlayer.21.uid>
+new.link=<argo.uid>
+new.dialog d_auction_sell_item
+return 0
+
+[FUNCTION f_pick_auctioncontainer]
+if !((<argo.type>==t_container) || (<argo.type>==t_container_locked))
+src.sysmessage You must target a container
+return 1
+endif
+try uid.<args>.tag.auctioncontainer=<argo.uid>
+src.sysmessage All auction items will be held in the container you just targetted, keep it safe. Adding more auctioneers to the same container will make them run the same auction.
+return 1
+
+//////////////////////////////////////////
+///DIALOGS//
+//////////////////////////////////////////
+
+[DIALOG d_auction_item_list] //should be called with the bankbox of the auctioneer as default object
+0, 0
+PAGE 0
+resizepic 0 0 3500 640 480
+dtext 18 15 0C6 Auction house
+
+dtext 65 40 014D Current Bid
+dtext 170 40 014D Step
+dtext 220 40 014D Time remaining
+dtext 378 40 014D Amount
+dtext 460 40 014D Name
+
+local.numberofitems=((<COUNT>-1)-<src.ctag.dialogindex>)
+local.itemindex=(<local.numberofitems>)
+WHILE (<local.itemindex> > (<local.numberofitems>-18)) && (<local.itemindex> >= 0)
+local.y=(((<local.numberofitems>-<local.itemindex>)*20)+65)
+dtext 450 <local.y> 0 <FINDCONT.<local.itemindex>.link.name>
+button 40 <local.y> 5224 5003 1 0 ((<local.numberofitems>-<local.itemindex>)+1) //I do the +1 because I can't use button 0, I do -1 again in the actual button code
+dtext 65 <local.y> 0 <eval (<FINDCONT.<local.itemindex>.tag0.currentbid>)>
+dtext 179 <local.y> 0 <eval (<FINDCONT.<local.itemindex>.tag0.step>)>
+dtext 240 <local.y> 0 <eval (<FINDCONT.<local.itemindex>.timer>/60)> minutes
+dtext 390 <local.y> 0 <eval (<FINDCONT.<local.itemindex>.link.amount>)>
+local.itemindex=<local.itemindex>-1
+ENDWHILE
+
+button 60 435 4014 4015 1 0 20
+button 100 435 4005 4006 1 0 21
+button 130 15 2031 2032 1 0 22
+
+[DIALOG d_auction_item_list BUTTON]
+on=0
+return 1
+
+on=1 18
+src.ctag.dialogindex=<eval ((((<COUNT>)-<src.ctag.dialogindex>)-<argn1>))>
+try FINDCONT.<src.ctag.dialogindex>.dialog d_auction_item_details
+return 1
+
+on=20 //previous page
+if <src.ctag.dialogindex> > 0
+src.ctag.dialogindex=<src.ctag.dialogindex>-18
+ENDIF
+DIALOG d_auction_item_list
+return 1
+
+on=21 //next page
+src.ctag.dialogindex=<src.ctag.dialogindex>+18
+DIALOG d_auction_item_list
+return 1
+
+on=22
+DIALOG d_auction_help
+return 1
+
+/////////////////////////////////////////
+
+[DIALOG d_auction_item_details] //should be called with the i_auction_chart of the item ad default object
+100, 100
+PAGE 0
+resizepic 0 0 3500 550 270
+gumppic 357 70 064
+dtext 18 15 0C6 Auction house
+tilepic 397 100 <link.id> <link.color>
+dtext 51 49 0 Name:
+dtext 145 49 0 <eval (<link.amount>)> <link.name> from <uid.(<tag.seller>).name>
+dtext 51 75 0 Time left:
+dtext 145 75 0 <eval (<timer>/60)> minutes
+dtext 49 101 0 Highest bid:
+dtext 145 101 0 <eval (<tag0.currentbid>)>gp by <uid.(<tag0.highestbidder>).name>
+dtext 49 127 0 Step:
+dtext 145 127 0 <eval (<tag.step>)>gp
+dtext 49 153 0 Place Bid:
+resizepic 137 152 3000 140 20
+dtextentry 145 153 300 25 0 0 <eval (<tag.currentbid>+<tag.step>)>
+button 300 153 4031 4030 1 0 1
+dtext 280 153 0 gp
+button 242 220 9909 9911 1 0 11
+button 341 220 9903 9905 1 0 10
+button 49 220 2324 2323 1 0 5
+button 115 220 2453 2454 1 0 0
+
+[DIALOG d_auction_item_details BUTTON] 
+on=0
+return 1
+
+on=1 //submit bid
+	if !<isnum <ARGTXT[0]>>
+		src.sysmessage Your bid was not a valid numeric value.
+		return 1
+	endif
+	if <EVAL <ARGTXT[0]>> >= <EVAL <tag.step>+<tag.currentbid>>
+		IF <EVAL <SRC.FINDLAYER.29.RESCOUNT i_gold>> > <EVAL (<tag.step>+<tag.currentbid>)-1>
+			if <tag.highestbidder>
+				serv.newitem i_gold 
+				new.amount=<eval <tag.currentbid>>
+				new.cont=<uid.(<tag.highestbidder>).findlayer.29.uid>
+				try uid.<tag.highestbidder>.sysmessage <src.name> has bid <eval(<ARGTXT[0]>)> for <eval (<link.amount>)> <link.name>. If you still want the item, you will have to make a better offer. Your deposit has been returned to your bank box. 
+			endif
+			try tag.currentbid=<eval <ARGTXT[0]>>
+			try tag.highestbidder=<src.uid>
+			LOCAL.AmountToTake=<EVAL <ARGTXT[0]>>
+			src.f_RemoveFromBank i_gold,<EVAL <LOCAL.AmountToTake>>
+			src.sysmessage You currently have the highest bid on this item, you will be informed when someone bids more.
+			DIALOG d_auction_item_details
+			return 1
+		else
+			src.sysmessage You don't have enough gold to make that bid.
+			return 1
+		endif
+	else
+		src.sysmessage You have to bid more than <eval (<tag.step>+<tag.currentbid>)>
+		return 1
+	endif
+	return 1
+
+on=5
+src.ctag.dialogindex=0
+cont.DIALOG d_auction_item_list
+return 1
+on=10 //previous
+if (<src.ctag.dialogindex> > 0)
+src.ctag.dialogindex=<src.ctag.dialogindex>-1
+try cont.FINDCONT.<src.ctag.dialogindex>.DIALOG d_auction_item_details
+return 1
+else
+src.sysmessage There is no item before this one.
+dialog d_auction_item_details
+return 1
+endif
+on=11 //next
+if 0<cont.FINDCONT.(<src.ctag.dialogindex>+1).uid>
+src.ctag.dialogindex=<src.ctag.dialogindex>+1
+try cont.FINDCONT.<src.ctag.dialogindex>.DIALOG d_auction_item_details
+return 1
+else
+src.sysmessage There is no item after this one.
+dialog d_auction_item_details
+return 1
+endif
+
+//////////////////////////////////////////
+
+[DIALOG d_auction_sell_item]
+100, 100
+PAGE 0
+resizepic 0 0 3500 550 270
+gumppic 357 70 064
+dtext 18 15 0C6 <topobj.tag.auction_name> auction
+tilepic 397 100 <link.id> <link.color>
+dtext 205 49 0 <link.name>
+dtext 51 49 0 Name:
+dtext 205 75 0 <eval (<link.amount>)>
+dtext 49 75 0 Amount:
+dtext 49 102 0 Set starting price:
+resizepic 203 101 3000 140 20
+dtextentry 205 102 300 25 0 1 0
+dtext 49 129 0 Minimum Step:
+resizepic 203 128 3000 140 20
+dtextentry 205 129 300 25 0 2 1
+dtext 49 156 0 Minimum sale price:
+resizepic 203 153 3000 140 20
+dtextentry 205 154 300 25 0 3 0
+button 149 220 247 248 1 0 1
+button 215 220 242 241 1 0 0
+
+
+
+[DIALOG d_auction_sell_item BUTTON]
+on=0
+remove
+return 1
+on=1
+if !(<isnum <argtxt[1]>>)
+src.sysmessage Your starting price must be 0 or greater or it is not a numeric value.
+remove
+return 1
+elif !(<isnum <argtxt[2]>> )
+src.sysmessage Your step is not a valid numeric value. 
+remove
+return 1
+elif (<argtxt[2]> < 1)
+src.sysmessage Your step must be 1 or greater.
+remove
+return 1
+elif !(<isnum <argtxt[3]>>)
+src.sysmessage Your minimum sale price must 0 or greater or it is not a numeric value.
+remove
+return 1
+elif (<link.topobj> != <src.uid>)
+src.sysmessage The item is no longer in your backpack.
+remove
+return 1
+endif
+src.consume <def.auction_fee> i_gold
+tag.currentbid=<argtxt[1]>
+tag.step=<argtxt[2]>
+tag.minimum_sale_price=<argtxt[3]>
+timer=<eval (<def.auction_time>*60)>
+cont=<topobj.tag.auctioncontainer>
+link.cont=<uid>
+src.sysmessage The item is now up for auction. 
+return 1
+
+//////////////////////////////////////////
+
+[DIALOG d_auction_help]
+0, 0
+PAGE 0
+resizepic 0 0 3500 640 480
+dtext 18 15 0C6 Auction house
+dtext 22 40 0 Welcome to the auction house
+dtext 22 70 0 Every player can put items or sale here, that will be sold to the highest bidder in 
+dtext 22 90 0 the next <eval(<def.auction_time>)> minutes.
+dtext 22 120 0 To sell an item say sell to the auctioneer, you will then get a targetter to target the 
+dtext 22 140 0 item you wish to sell. When you do so, you get a dialogue asking you the starting 
+dtext 22 160 0 price, the step (the minimum amount a bidder should go over the bid to get the item)
+dtext 22 180 0 and the minimum sale price. A small fee of <eval(<def.auction_fee>)>gp will be asked for this service.
+dtext 22 200 0 If the minimum sale price is not met or no offers were made, the item 
+dtext 22 220 0 will be returned to you. The fee however will not be refunded.
+dtext 22 250 0 To buy an item, say buy to the auctioneer, he will then present you with a list of 
+dtext 22 270 0 items that are being auctioned ordered by which auction ends first. If you click the 
+dtext 22 290 0 arrow left of the item, you will be brought to a menu with some detailed information.
+dtext 22 310 0 There you will be able to put up a bid. The bid must atleast be the the value 
+dtext 22 330 0 automatically filled in. Mind that payment is imminent, you will be refunded when 
+dtext 22 350 0 someone puts in a better offer. When someone bests your bid, you will get a message
+dtext 22 370 0 notifying you of this and your money will be refunded to your bank box immediatly.
+dtext 22 390 0 You can then put a new offer if you are still interested.
+dtext 22 410 0 The highest offer that exceeds the minimum sale price when the auction ends will 
+dtext 22 430 0 receive the item in his bank and will be notified accordingly.
+
+//////////////////////////////////////////
+///AUCTIONEER//
+//////////////////////////////////////////
+
+[CHARDEF c_auctioneer]
+NAME=#NAMES_HUMANMALE
+ID=c_man
+CAN=mt_nonmover|MT_USEHANDS|MT_EQUIP|MT_FIRE_IMMUNE
+ARMOR=200
+TSPEECH=s_auctioneer
+
+on=@create
+COLOR=colors_skin
+STR=1
+INT=0
+DEX=0
+FAME=100
+KARMA=100
+ALLSKILLS=0.0
+INVUL 1
+MODMAXWEIGHT=5000000
+ITEM=i_backpack
+WEIGHT=0
+ITEM=i_bankbox
+WEIGHT=0
+
+on=@dclick
+if 0<src.isgm>
+tag.auctioncontainer=<findlayer.29.uid>
+Targetf f_pick_auctioncontainer <uid>
+src.sysmessage Target the container that should hold the auctioned items. This is optional however. If you cancel, the default will be picked, which is the bank box of the auctioneer.
+endif
+return 0
+
+on=@npcrestock
+ITEM=i_shirt_plain
+COLOR=colors_all
+ITEM=random_pants
+COLOR=colors_all
+ITEM=random_shoes
+COLOR=colors_neutral
+
+//////////////////////////////////////////
+
+[SPEECH s_auctioneer]
+on=buy
+on=sale
+on=auction
+obj=<tag.auctioncontainer>
+src.sysmessage <obj.name>
+local.itemindex=<obj.COUNT>-1
+WHILE (<local.itemindex> >= 0)
+if (<obj.findcont.<local.itemindex>.timer> == 0)
+try obj.findcont.<local.itemindex>.trigger @Timer
+ENDIF
+local.itemindex=<local.itemindex>-1
+ENDWHILE
+src.ctag.dialogindex=0
+obj.DIALOG d_auction_item_list
+return 1
+
+on=*sell*
+targetf f_auction_additem <uid>
+src.sysmessage Target the item you would put up for auction
+return 1
+
+
+//////////////////////////////////////////
+///ITEMS//
+//////////////////////////////////////////
+
+[itemdef i_auction_chart]
+id=i_bag
+name=Auction chart
+
+on=@Timer
+if !<tag.highestbidder> //There haven't been any bids, return the item
+link.cont=<uid.<tag.seller>.findlayer.29.uid>
+try uid.<tag.seller>.sysmessage No-one has made an offer for your <link.name>, it is returned to your bank.
+remove
+return 1
+endif
+if (<tag.currentbid> < <tag.minimum_sale_price>) //There have been bids but the minimum sale price wasn't exceeded, return money to bidder, return item to seller
+serv.newitem i_gold
+new.amount <tag.currentbid>
+new.cont=<uid.<tag.highestbidder>.findlayer.29.uid>
+try uid.<tag.highestbidder>.sysmessage You were the highest bidder for the <link.amount> <link.name> in the auction but the minimum price was not met. Your money is refunded to your bank account.
+link.cont=<uid.<tag.seller>.findlayer.29.uid>
+try uid.<tag.seller>.sysmessage Minimum sale price was not met for your <link.name> in the auction house. The item has been returned to your bank.
+remove
+return 1
+endif
+//the item has been auctioned succefully, transfer money to seller, item to highestbidder
+serv.newitem i_gold
+new.amount <tag.currentbid>
+new.cont=<uid.<tag.seller>.findlayer.29.uid>
+try uid.<tag.seller>.sysmessage Your <link.name> has been sold for <eval (<tag.currentbid>)>gp. They have been transfered to your bank account.
+link.cont=<uid.<tag.highestbidder>.findlayer.29.uid>
+try uid.<tag.highestbidder>.sysmessage You have won the auction for <link.amount> <link.name>, the item has been transfered to your bank.
+remove
+return 1
+
+[EOF]

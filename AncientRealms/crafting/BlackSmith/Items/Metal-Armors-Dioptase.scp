@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Dioptase Platemail Arms
+[ITEMDEF i_platemail_arms_Dioptase]
+   DEFNAME= i_platemail_arms_Dioptase
+   ID= i_platemail_arms
+   NAME= Dioptase Platemail Arms
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Platemail Leggings
+[ITEMDEF i_platemail_leggings_Dioptase]
+   DEFNAME= i_platemail_leggings_Dioptase
+   ID= i_platemail_leggings
+   NAME= Dioptase Platemail Leggings
+   ARMOR= 29
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Platemail Helmet
+[ITEMDEF i_platemail_helm_Dioptase]
+   DEFNAME= i_platemail_helm_Dioptase
+   ID= i_platemail_helm
+   NAME= Dioptase Platemail Helmet
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Platemail Gorget
+[ITEMDEF i_platemail_gorget_Dioptase]
+   DEFNAME= i_platemail_gorget_Dioptase
+   ID= i_platemail_gorget
+   NAME= Dioptase Platemail Gorget
+   ARMOR= 19
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Dioptase]
+   DEFNAME= i_platemail_gorget2_Dioptase
+   ID= i_platemail_gorget2
+   NAME= Dioptase Platemail Gorget
+   ARMOR= 19
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Platemail Gloves
+[ITEMDEF i_platemail_gloves_Dioptase]
+   DEFNAME= i_platemail_gloves_Dioptase
+   ID= i_platemail_gloves
+   NAME= Dioptase Platemail Gloves
+   ARMOR= 19
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Platemail Chest
+[ITEMDEF i_platemail_chest_Dioptase]
+   DEFNAME= i_platemail_chest_Dioptase
+   ID= i_platemail_chest
+   NAME= Dioptase Platemail Chest
+   ARMOR= 33
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Dioptase]
+   DEFNAME= i_armor_female_plate_Dioptase
+   ID= i_armor_female_plate
+   NAME= Dioptase Platemail Female Plate
+   ARMOR= 31
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase chainmail coif
+[ITEMDEF i_chainmail_coif_Dioptase]
+   DEFNAME= i_chainmail_coif_Dioptase
+   ID= i_chainmail_coif
+   NAME= Dioptase chainmail coif
+   ARMOR= 25
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {61 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase chainmail leggings
+[ITEMDEF i_chainmail_leggings_Dioptase]
+   DEFNAME= i_chainmail_leggings_Dioptase
+   ID= i_chainmail_leggings
+   NAME= Dioptase chainmail leggings
+   ARMOR= 27
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {61 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase chainmail tunic
+[ITEMDEF i_chainmail_tunic_Dioptase]
+   DEFNAME= i_chainmail_tunic_Dioptase
+   ID= i_chainmail_tunic
+   NAME= Dioptase chainmail tunic
+   ARMOR= 31
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {61 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Dioptase]
+   DEFNAME= i_ringmail_sleeves_Dioptase
+   ID= i_ringmail_sleeves
+   NAME= Dioptase Ringmail Sleeves
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {51 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Dioptase]
+   DEFNAME= i_ringmail_leggings_Dioptase
+   ID= i_ringmail_leggings
+   NAME= Dioptase Ringmail Leggings
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {51 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Dioptase]
+   DEFNAME= i_ringmail_tunic_Dioptase
+   ID= i_ringmail_tunic
+   NAME= Dioptase Ringmail Tunic
+   ARMOR= 27
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {51 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Dioptase]
+   DEFNAME= i_ringmail_gloves_Dioptase
+   ID= i_ringmail_gloves
+   NAME= Dioptase Ringmail Gloves
+   ARMOR= 13
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {51 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase studded sleeves
+[ITEMDEF i_studded_sleeves_Dioptase]
+   DEFNAME= i_studded_sleeves_Dioptase
+   ID= i_studded_sleeves
+   NAME= Dioptase studded sleeves
+   ARMOR= 16
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Dioptase, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase studded gloves
+[ITEMDEF i_studded_gloves_Dioptase]
+   DEFNAME= i_studded_gloves_Dioptase
+   ID= i_studded_gloves
+   NAME= Dioptase studded gloves
+   ARMOR= 13
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Dioptase, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase studded gorget
+[ITEMDEF i_studded_gorget_Dioptase]
+   DEFNAME= i_studded_gorget_Dioptase
+   ID= i_studded_gorget
+   NAME= Dioptase studded gorget
+   ARMOR= 13
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Dioptase, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase studded leggings
+[ITEMDEF i_studded_leggings_Dioptase]
+   DEFNAME= i_studded_leggings_Dioptase
+   ID= i_studded_leggings
+   NAME= Dioptase studded leggings
+   ARMOR= 22
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Dioptase, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase studded tunic
+[ITEMDEF i_studded_tunic_Dioptase]
+   DEFNAME= i_studded_tunic_Dioptase
+   ID= i_studded_tunic
+   NAME= Dioptase studded tunic
+   ARMOR= 26
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Dioptase, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase studded female armor
+[ITEMDEF i_armor_female_studded_Dioptase]
+   DEFNAME= i_armor_female_studded_Dioptase
+   ID= i_armor_female_studded
+   NAME= Dioptase studded female armor
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Dioptase, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Dioptase]
+   DEFNAME= i_armor_female_bustier_studded_Dioptase
+   ID= i_armor_female_bustier_studded
+   NAME= Dioptase studded female bustier
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Dioptase, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase platemail mempo
+[ITEMDEF i_platemail_mempo_Dioptase]
+   DEFNAME= i_platemail_mempo_Dioptase
+   ID= i_platemail_mempo
+   NAME= Dioptase platemail mempo
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase platemail do
+[ITEMDEF i_platemail_do_Dioptase]
+   DEFNAME= i_platemail_do_Dioptase
+   ID= i_platemail_do
+   NAME= Dioptase platemail do
+   ARMOR= 31
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Dioptase]
+   DEFNAME= i_platemail_hiro_sode_Dioptase
+   ID= i_platemail_hiro_sode
+   NAME= Dioptase platemail hiro sode
+   ARMOR= 27
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase platemail suneate
+[ITEMDEF i_platemail_suneate_Dioptase]
+   DEFNAME= i_platemail_suneate_Dioptase
+   ID= i_platemail_suneate
+   NAME= Dioptase platemail suneate
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase platemail haidate
+[ITEMDEF i_platemail_haidate_Dioptase]
+   DEFNAME= i_platemail_haidate_Dioptase
+   ID= i_platemail_haidate
+   NAME= Dioptase platemail haidate
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase studded mempo
+[ITEMDEF i_studded_mempo_Dioptase]
+   DEFNAME= i_studded_mempo_Dioptase
+   ID= i_studded_mempo
+   NAME= Dioptase studded mempo
+   ARMOR= 18
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Dioptase, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase studded do
+[ITEMDEF i_studded_do_Dioptase]
+   DEFNAME= i_studded_do_Dioptase
+   ID= i_studded_do
+   NAME= Dioptase studded do
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Dioptase, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Dioptase]
+   DEFNAME= i_studded_hiro_sode_Dioptase
+   ID= i_studded_hiro_sode
+   NAME= Dioptase studded hiro sode
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Dioptase, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase studded suneate
+[ITEMDEF i_studded_suneate_Dioptase]
+   DEFNAME= i_studded_suneate_Dioptase
+   ID= i_studded_suneate
+   NAME= Dioptase studded suneate
+   ARMOR= 20
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Dioptase, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase studded haidate
+[ITEMDEF i_studded_haidate_Dioptase]
+   DEFNAME= i_studded_haidate_Dioptase
+   ID= i_studded_haidate
+   NAME= Dioptase studded haidate
+   ARMOR= 18
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Dioptase, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Dioptase]
+   DEFNAME= i_platemail_gargish_arms_Dioptase
+   ID= i_platemail_gargish_arms
+   NAME= Dioptase Gargish Platemail Arms
+   ARMOR= 27
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Dioptase]
+   DEFNAME= i_platemail_gargish_chest_Dioptase
+   ID= i_platemail_gargish_chest
+   NAME= Dioptase Gargish Platemail Chest
+   ARMOR= 35
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Dioptase]
+   DEFNAME= i_platemail_gargish_kilt_Dioptase
+   ID= i_platemail_gargish_kilt
+   NAME= Dioptase Gargish Platemail Kilt
+   ARMOR= 26
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Dioptase]
+   DEFNAME= i_platemail_gargish_leggings_Dioptase
+   ID= i_platemail_gargish_leggings
+   NAME= Dioptase Gargish Platemail Leggings
+   ARMOR= 31
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Dioptase]
+   DEFNAME= i_platemail_gargish_arms_2_Dioptase
+   ID= i_platemail_gargish_arms_2
+   NAME= Dioptase Gargish Platemail Arms
+   ARMOR= 27
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Dioptase]
+   DEFNAME= i_platemail_gargish_chest_2_Dioptase
+   ID= i_platemail_gargish_chest_2
+   NAME= Dioptase Gargish Platemail Chest
+   ARMOR= 35
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Dioptase]
+   DEFNAME= i_platemail_gargish_kilt_2_Dioptase
+   ID= i_platemail_gargish_kilt_2
+   NAME= Dioptase Gargish Platemail Kilt
+   ARMOR= 26
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Dioptase]
+   DEFNAME= i_platemail_gargish_leggings_2_Dioptase
+   ID= i_platemail_gargish_leggings_2
+   NAME= Dioptase Gargish Platemail Leggings
+   ARMOR= 31
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Closed Helmet
+[ITEMDEF i_helm_close_Dioptase]
+   DEFNAME= i_helm_close_Dioptase
+   ID= i_helm_close
+   NAME= Dioptase Closed Helmet
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Open Helmet
+[ITEMDEF i_helm_open_Dioptase]
+   DEFNAME= i_helm_open_Dioptase
+   ID= i_helm_open
+   NAME= Dioptase Open Helmet
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {51 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Bascinet
+[ITEMDEF i_bascinet_Dioptase]
+   DEFNAME= i_bascinet_Dioptase
+   ID= i_bascinet
+   NAME= Dioptase Bascinet
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Norse Helmet
+[ITEMDEF i_helm_norse_Dioptase]
+   DEFNAME= i_helm_norse_Dioptase
+   ID= i_helm_norse
+   NAME= Dioptase Norse Helmet
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {61 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Kabuto
+[ITEMDEF i_helm_kabuto_Dioptase]
+   DEFNAME= i_helm_kabuto_Dioptase
+   ID= i_helm_kabuto
+   NAME= Dioptase Kabuto
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Dioptase]
+   DEFNAME= i_chainmail_hatsuburi_Dioptase
+   ID= i_chainmail_hatsuburi
+   NAME= Dioptase Chainmail Hatsuburi
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Dioptase]
+   DEFNAME= i_platemail_hatsuburi_Dioptase
+   ID= i_platemail_hatsuburi
+   NAME= Dioptase Platemail Hatsuburi
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Dioptase]
+   DEFNAME= i_plate_jingasa_heavy_Dioptase
+   ID= i_plate_jingasa_heavy
+   NAME= Dioptase Heavy Jingasa
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Dioptase]
+   DEFNAME= i_platemail_kabuto_decorative_Dioptase
+   ID= i_platemail_kabuto_decorative
+   NAME= Dioptase Decorative Platemail Kabuto
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {101 990}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Dioptase]
+   DEFNAME= i_plate_jingasa_light_Dioptase
+   ID= i_plate_jingasa_light
+   NAME= Dioptase Light Jingasa
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Dioptase]
+   DEFNAME= i_plate_jingasa_small_Dioptase
+   ID= i_plate_jingasa_small
+   NAME= Dioptase Small Jingasa
+   ARMOR= 19
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {61 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Dioptase]
+   DEFNAME= i_platemail_kabuto_battle_Dioptase
+   ID= i_platemail_kabuto_battle
+   NAME= Dioptase Platemail Battle Kabuto
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Dioptase]
+   DEFNAME= i_platemail_kabuto_Dioptase
+   ID= i_platemail_kabuto
+   NAME= Dioptase Platemail Kabuto
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Circlet
+[ITEMDEF i_circlet_Dioptase]
+   DEFNAME= i_circlet_Dioptase
+   ID= i_circlet
+   NAME= Dioptase Circlet
+   ARMOR= 17
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Royal Circlet
+[ITEMDEF i_circlet_royal_Dioptase]
+   DEFNAME= i_circlet_royal_Dioptase
+   ID= i_circlet_royal
+   NAME= Dioptase Royal Circlet
+   ARMOR= 17
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Dioptase]
+   DEFNAME= i_circlet_gemmed_Dioptase
+   ID= i_circlet_gemmed
+   NAME= Dioptase Gemmed Circlet
+   ARMOR= 17
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {111 1100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Buckler
+[ITEMDEF i_shield_buckler_Dioptase]
+   DEFNAME= i_shield_buckler_Dioptase
+   ID= i_shield_buckler
+   NAME= Dioptase Buckler
+   ARMOR= 16
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Wooden Shield
+[ITEMDEF i_shield_wood_Dioptase]
+   DEFNAME= i_shield_wood_Dioptase
+   ID= i_shield_wood
+   NAME= Dioptase Wooden Shield
+   ARMOR= 17
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {51 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Dioptase]
+   DEFNAME= i_shield_round_metal_Dioptase
+   ID= i_shield_round_metal
+   NAME= Dioptase Light Metal  Round Shield
+   ARMOR= 18
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {61 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Dioptase]
+   DEFNAME= i_shield_round_bronze_Dioptase
+   ID= i_shield_round_bronze
+   NAME= Dioptase Heavy Metal  Round Shield
+   ARMOR= 20
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Dioptase]
+   DEFNAME= i_shield_kite_metal_Dioptase
+   ID= i_shield_kite_metal
+   NAME= Dioptase Metal Kite Shield
+   ARMOR= 22
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Dioptase]
+   DEFNAME= i_shield_kite_wood_Dioptase
+   ID= i_shield_kite_wood
+   NAME= Dioptase Wooden Kite Shield
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Heater Shield
+[ITEMDEF i_shield_heater_Dioptase]
+   DEFNAME= i_shield_heater_Dioptase
+   ID= i_shield_heater
+   NAME= Dioptase Heater Shield
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {101 990}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Ancient Shield
+[ITEMDEF i_shield_dupre_Dioptase]
+   DEFNAME= i_shield_dupre_Dioptase
+   ID= i_shield_dupre
+   NAME= Dioptase Ancient Shield
+   ARMOR= 25
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {111 1100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Shield oh Hell
+[ITEMDEF i_shield_scale_Dioptase]
+   DEFNAME= i_shield_scale_Dioptase
+   ID= i_shield_scale
+   NAME= Dioptase Shield oh Hell
+   ARMOR= 25
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {111 1100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Chaos Shield
+[ITEMDEF i_shield_chaos_Dioptase]
+   DEFNAME= i_shield_chaos_Dioptase
+   ID= i_shield_chaos
+   NAME= Dioptase Chaos Shield
+   ARMOR= 26
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {121 1210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Order Shield
+[ITEMDEF i_shield_order_Dioptase]
+   DEFNAME= i_shield_order_Dioptase
+   ID= i_shield_order
+   NAME= Dioptase Order Shield
+   ARMOR= 26
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Dioptase
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Dioptase
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS= {121 1210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

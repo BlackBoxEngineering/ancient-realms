@@ -1,0 +1,70 @@
+[defname reg_counter]
+regcounter_update 60    //Time in seconds for the gump to update
+
+//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[function regcounter]
+src.sdialog d_reagent_counter
+return
+
+//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[dialog d_reagent_counter]
+0,0
+noclose
+nomove
+If (!<src.findid.i_mem_reg_updater>)
+  serv.newitem i_mem_reg_updater
+   new.cont=<src.uid>
+else
+  src.findid.i_mem_reg_updater.timer=
+endif
+//resizepic 0 0 2620 650 35
+//resizepic 04 05 3000 644 25
+
+button 0 0 2640 2641 1 0 1
+
+tilepic 25 7 <serv.itemdef.i_reag_mandrake_root.id>
+  dtext 58 4 92 <src.rescount i_reag_mandrake_root>
+tilepic 100 7 <serv.itemdef.i_reag_nightshade.id>
+  dtext 133 4 92 <src.rescount i_reag_nightshade>
+tilepic 175 7 <serv.itemdef.i_reag_garlic.id>
+  dtext 208 4 92 <src.rescount i_reag_garlic>
+tilepic 250 7 <serv.itemdef.i_reag_ginseng.id>
+  dtext 283 4 92 <src.rescount i_reag_ginseng>
+tilepic 325 7 <serv.itemdef.i_reag_spider_silk.id>
+  dtext 358 4 92 <src.rescount i_reag_spider_silk>
+tilepic 400 7 <serv.itemdef.i_reag_blood_moss.id>
+  dtext 435 4 92 <src.rescount i_reag_blood_moss>
+tilepic 475 7 <serv.itemdef.i_reag_sulfur_ash.id>
+  dtext 512 4 92 <src.rescount i_reag_sulfur_ash>
+tilepic 550 7 <serv.itemdef.i_reag_black_pearl.id>
+  dtext 583 4 92 <src.rescount i_reag_black_pearl>
+return 0
+
+
+[dialog d_reagent_counter button]
+onbutton=0
+
+onbutton=1
+  src.findid.i_mem_reg_updater.remove
+
+
+//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[itemdef i_mem_reg_updater]
+name=Reagent Updater
+id=i_rune_create_food
+type=t_eq_script
+
+on=@create
+attr=012
+timer=<def0.regcounter_update>
+
+on=@timer
+If (<cont.isonline>)
+  trysrc <cont.uid> src.dialogclose d_reagent_counter
+  trysrc <cont.uid> src.dialog d_reagent_counter
+  cont.sysmessage Reagents Updated
+  timer=<def0.regcounter_update>
+endif
+return 1
+
+[EOF]

@@ -1,0 +1,35 @@
+[PLEVEL 1]
+TestAttackSpeed
+
+[FUNCTION TestAttackSpeed]
+SYSMESSAGE @50,,1 Whos Attack Speed?
+TARGETF TestAttackSpeedTarget
+
+[FUNCTION TestAttackSpeedTarget]
+REF1=<SERV.UID.<ARGO.UID>>
+IF <REF1.ISPLAYER>
+	SRC.SYSMESSAGE @55,,1 <EVAL <f_CombatGetHitSpeed <REF1.UID>>> ( 0 is fastest ) 
+ENDIF
+
+[FUNCTION f_CombatGetHitSpeed]
+REF1=<SERV.UID.<ARGV[0]>>
+REF2=<SERV.UID.<REF1.FINDLAYER.1.UID>>
+REF3=<SERV.UID.<REF1.FINDLAYER.2.UID>>
+LOCAL.AttackSpeed = 0
+LOCAL.AttackSpeed += <EVAL 125 - <REF1.DEX>>
+IF <REF2.isWeapon>
+	LOCAL.AttackSpeed += <REF2.SPEED>
+	LOCAL.AttackSpeed += <EVAL 100 - (<REF1.<SERV.SKILL.<REF2.SKILL>.KEY>> / 10)>
+ELSE
+	IF <REF3.isWeapon>
+		LOCAL.AttackSpeed += <REF3.SPEED>
+		LOCAL.AttackSpeed += <EVAL 100 - (<REF1.<SERV.SKILL.<REF3.SKILL>.KEY>> / 10)>
+	ELSE
+		LOCAL.AttackSpeed += <EVAL 100 - (<REF1.WRESTLING> / 10)>
+	ENDIF
+ENDIF
+LOCAL.AttackSpeed += <EVAL CombatSpeedTweakADD>
+LOCAL.AttackSpeed /= <EVAL CombatSpeedTweakDIV>
+RETURN <EVAL <LOCAL.AttackSpeed>>
+
+[EOF]

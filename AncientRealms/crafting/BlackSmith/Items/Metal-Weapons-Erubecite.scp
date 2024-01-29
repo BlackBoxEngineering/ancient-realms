@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Erubecite Quarter Staff
+
+[ITEMDEF i_staff_quarter_Erubecite]
+   DEFNAME=i_staff_quarter_Erubecite
+   ID=i_staff_quarter
+   NAME=Erubecite Quarter Staff
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=20
+   VALUE=56
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={20 28}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Erubecite]
+   DEFNAME=i_serpentstone_staff_Erubecite
+   ID=i_serpentstone_staff
+   NAME=Erubecite Serpentstone Staff
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=24
+   VALUE=56
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={60 68}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Erubecite]
+   DEFNAME=i_staff_bladed_double_Erubecite
+   ID=i_staff_bladed_double
+   NAME=Erubecite Double Bladed Staff
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=32
+   VALUE=56
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={120 128}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Glass Staff
+
+[ITEMDEF i_glass_staff_Erubecite]
+   DEFNAME=i_glass_staff_Erubecite
+   ID=i_glass_staff
+   NAME=Erubecite Glass Staff
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=29
+   VALUE=56
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={90 98}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Bladed Staff
+
+[ITEMDEF i_bladed_staff_Erubecite]
+   DEFNAME=i_bladed_staff_Erubecite
+   ID=i_bladed_staff
+   NAME=Erubecite Bladed Staff
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=30
+   VALUE=56
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={115 123}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Tongs
+
+[ITEMDEF i_tongs_Erubecite]
+   DEFNAME=i_tongs_Erubecite
+   ID=i_tongs
+   NAME=Erubecite Tongs
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=7
+   VALUE=56
+   SPEED=9
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={0 8}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Mace
+
+[ITEMDEF i_mace_Erubecite]
+   DEFNAME=i_mace_Erubecite
+   ID=i_mace
+   NAME=Erubecite Mace
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=20
+   VALUE=56
+   SPEED=38
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={30 38}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Maul
+
+[ITEMDEF i_maul_Erubecite]
+   DEFNAME=i_maul_Erubecite
+   ID=i_maul
+   NAME=Erubecite Maul
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=22
+   VALUE=56
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={40 48}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Scepter
+
+[ITEMDEF i_scepter_Erubecite]
+   DEFNAME=i_scepter_Erubecite
+   ID=i_scepter
+   NAME=Erubecite Scepter
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=24
+   VALUE=56
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={50 58}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Erubecite]
+   DEFNAME=i_hammer_sledge_Erubecite
+   ID=i_hammer_sledge
+   NAME=Erubecite Sledge Hammer
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=24
+   VALUE=56
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={20 28}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Erubecite]
+   DEFNAME=i_hammer_smith_Erubecite
+   ID=i_hammer_smith
+   NAME=Erubecite Smiths Hammer
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=10
+   VALUE=56
+   SPEED=9
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={30 38}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite War Mace
+
+[ITEMDEF i_mace_war_Erubecite]
+   DEFNAME=i_mace_war_Erubecite
+   ID=i_mace_war
+   NAME=Erubecite War Mace
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=28
+   VALUE=56
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={80 88}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Disc Mace
+
+[ITEMDEF i_disc_mace_Erubecite]
+   DEFNAME=i_disc_mace_Erubecite
+   ID=i_disc_mace
+   NAME=Erubecite Disc Mace
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=28
+   VALUE=56
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={70 78}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite War Hammer
+
+[ITEMDEF i_hammer_war_Erubecite]
+   DEFNAME=i_hammer_war_Erubecite
+   ID=i_hammer_war
+   NAME=Erubecite War Hammer
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=34
+   VALUE=56
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={100 108}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Hammer Pick
+
+[ITEMDEF i_hammer_pick_Erubecite]
+   DEFNAME=i_hammer_pick_Erubecite
+   ID=i_hammer_pick
+   NAME=Erubecite Hammer Pick
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=30
+   VALUE=56
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={55 63}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite War Axe
+
+[ITEMDEF i_axe_war_Erubecite]
+   DEFNAME=i_axe_war_Erubecite
+   ID=i_axe_war
+   NAME=Erubecite War Axe
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=20
+   VALUE=56
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={65 73}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Tessen
+
+[ITEMDEF i_tessen_Erubecite]
+   DEFNAME=i_tessen_Erubecite
+   ID=i_tessen
+   NAME=Erubecite Tessen
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=19
+   VALUE=56
+   SPEED=34
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={75 83}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Long Sword
+
+[ITEMDEF i_sword_long_Erubecite]
+   DEFNAME=i_sword_long_Erubecite
+   ID=i_sword_long
+   NAME=Erubecite Long Sword
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=16
+   VALUE=56
+   SPEED=26
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={10 18}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Broad Sword
+
+[ITEMDEF i_sword_broad_Erubecite]
+   DEFNAME=i_sword_broad_Erubecite
+   ID=i_sword_broad
+   NAME=Erubecite Broad Sword
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=16
+   VALUE=56
+   SPEED=26
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={20 28}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Scimitar
+
+[ITEMDEF i_scimitar_Erubecite]
+   DEFNAME=i_scimitar_Erubecite
+   ID=i_scimitar
+   NAME=Erubecite Scimitar
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=56
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={30 38}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Viking Sword
+
+[ITEMDEF i_sword_viking_Erubecite]
+   DEFNAME=i_sword_viking_Erubecite
+   ID=i_sword_viking
+   NAME=Erubecite Viking Sword
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=56
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={35 43}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Katana
+
+[ITEMDEF i_katana_Erubecite]
+   DEFNAME=i_katana_Erubecite
+   ID=i_katana
+   NAME=Erubecite Katana
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=56
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={80 88}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Wakizashi
+
+[ITEMDEF i_wakizashi_Erubecite]
+   DEFNAME=i_wakizashi_Erubecite
+   ID=i_wakizashi
+   NAME=Erubecite Wakizashi
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=56
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={45 53}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Long Sword
+
+[ITEMDEF i_sword_long_b_Erubecite]
+   DEFNAME=i_sword_long_b_Erubecite
+   ID=i_sword_long_b
+   NAME=Erubecite Long Sword
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=56
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={50 58}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Paladin Sword
+
+[ITEMDEF i_sword_paladin_Erubecite]
+   DEFNAME=i_sword_paladin_Erubecite
+   ID=i_sword_paladin
+   NAME=Erubecite Paladin Sword
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=56
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={65 73}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Bokuto
+
+[ITEMDEF i_bokuto_Erubecite]
+   DEFNAME=i_bokuto_Erubecite
+   ID=i_bokuto
+   NAME=Erubecite Bokuto
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=56
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={70 78}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Erubecite]
+   DEFNAME=i_Radiant_Scimitar_Erubecite
+   ID=i_Radiant_Scimitar
+   NAME=Erubecite Radiant Scimitar
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=56
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={75 83}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Bone Harvester
+
+[ITEMDEF i_bone_harvester_Erubecite]
+   DEFNAME=i_bone_harvester_Erubecite
+   ID=i_bone_harvester
+   NAME=Erubecite Bone Harvester
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=16
+   VALUE=56
+   SPEED=26
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={55 63}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Butcher Knife
+
+[ITEMDEF i_knife_butcher_Erubecite]
+   DEFNAME=i_knife_butcher_Erubecite
+   ID=i_knife_butcher
+   NAME=Erubecite Butcher Knife
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=14
+   VALUE=56
+   SPEED=26
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={30 38}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Erubecite]
+   DEFNAME=i_cleaver_meat_Erubecite
+   ID=i_cleaver_meat
+   NAME=Erubecite Meat Cleaver
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=14
+   VALUE=56
+   SPEED=26
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={30 38}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Elven Machete
+
+[ITEMDEF i_elven_machete_Erubecite]
+   DEFNAME=i_elven_machete_Erubecite
+   ID=i_elven_machete
+   NAME=Erubecite Elven Machete
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=56
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={60 68}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Bone Machete
+
+[ITEMDEF i_bone_machete_Erubecite]
+   DEFNAME=i_bone_machete_Erubecite
+   ID=i_bone_machete
+   NAME=Erubecite Bone Machete
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=56
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={50 58}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Daisho
+
+[ITEMDEF i_daisho_Erubecite]
+   DEFNAME=i_daisho_Erubecite
+   ID=i_daisho
+   NAME=Erubecite Daisho
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=56
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={65 73}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite No-Dachi
+
+[ITEMDEF i_no_dachi_Erubecite]
+   DEFNAME=i_no_dachi_Erubecite
+   ID=i_no_dachi
+   NAME=Erubecite No-Dachi
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=56
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={75 83}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Rune Blade
+
+[ITEMDEF i_Rune_Blade_Erubecite]
+   DEFNAME=i_Rune_Blade_Erubecite
+   ID=i_Rune_Blade
+   NAME=Erubecite Rune Blade
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=56
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={115 123}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Axe
+
+[ITEMDEF i_axe_Erubecite]
+   DEFNAME=i_axe_Erubecite
+   ID=i_axe
+   NAME=Erubecite Axe
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=18
+   VALUE=56
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={42 50}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Bardiche
+
+[ITEMDEF i_bardiche_Erubecite]
+   DEFNAME=i_bardiche_Erubecite
+   ID=i_bardiche
+   NAME=Erubecite Bardiche
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=24
+   VALUE=56
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={58 66}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Battle Axe
+
+[ITEMDEF i_axe_battle_Erubecite]
+   DEFNAME=i_axe_battle_Erubecite
+   ID=i_axe_battle
+   NAME=Erubecite Battle Axe
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=56
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={65 73}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Double Axe
+
+[ITEMDEF i_axe_double_Erubecite]
+   DEFNAME=i_axe_double_Erubecite
+   ID=i_axe_double
+   NAME=Erubecite Double Axe
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=56
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={70 78}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Erubecite]
+   DEFNAME=i_axe_exec_Erubecite
+   ID=i_axe_exec
+   NAME=Erubecite Exectutioners Axe
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=56
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={73 81}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Halberd
+
+[ITEMDEF i_halberd_Erubecite]
+   DEFNAME=i_halberd_Erubecite
+   ID=i_halberd
+   NAME=Erubecite Halberd
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=56
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={75 83}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Hatchet
+
+[ITEMDEF i_hatchet_Erubecite]
+   DEFNAME=i_hatchet_Erubecite
+   ID=i_hatchet
+   NAME=Erubecite Hatchet
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=19
+   VALUE=56
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={40 48}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Erubecite]
+   DEFNAME=i_axe_battle_large_Erubecite
+   ID=i_axe_battle_large
+   NAME=Erubecite Large Battle Axe
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=56
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={100 108}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Ornate Axe
+
+[ITEMDEF i_ornate_axe_Erubecite]
+   DEFNAME=i_ornate_axe_Erubecite
+   ID=i_ornate_axe
+   NAME=Erubecite Ornate Axe
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=56
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={60 68}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Erubecite]
+   DEFNAME=i_axe_two_hand_Erubecite
+   ID=i_axe_two_hand
+   NAME=Erubecite Two Handed Axe
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=56
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={55 63}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Dual Axes
+
+[ITEMDEF i_dual_short_axes_Erubecite]
+   DEFNAME=i_dual_short_axes_Erubecite
+   ID=i_dual_short_axes
+   NAME=Erubecite Dual Axes
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=25
+   VALUE=56
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={95 103}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Cresent Blade
+
+[ITEMDEF i_crescent_blade_Erubecite]
+   DEFNAME=i_crescent_blade_Erubecite
+   ID=i_crescent_blade
+   NAME=Erubecite Cresent Blade
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=56
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={110 118}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Dagger
+
+[ITEMDEF i_dagger_Erubecite]
+   DEFNAME=i_dagger_Erubecite
+   ID=i_dagger
+   NAME=Erubecite Dagger
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=10
+   VALUE=56
+   SPEED=22
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={10 18}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Skinning Knife
+
+[ITEMDEF i_knife_skinning_Erubecite]
+   DEFNAME=i_knife_skinning_Erubecite
+   ID=i_knife_skinning
+   NAME=Erubecite Skinning Knife
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=10
+   VALUE=56
+   SPEED=22
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={15 23}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Erubecite]
+   DEFNAME=i_sword_Assassin_Spike_Erubecite
+   ID=i_sword_Assassin_Spike
+   NAME=Erubecite Assassin Spike
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=12
+   VALUE=56
+   SPEED=24
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={30 38}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Cutlass
+
+[ITEMDEF i_cutlass_Erubecite]
+   DEFNAME=i_cutlass_Erubecite
+   ID=i_cutlass
+   NAME=Erubecite Cutlass
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=13
+   VALUE=56
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={25 33}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Short Blade
+
+[ITEMDEF i_shortblade_Erubecite]
+   DEFNAME=i_shortblade_Erubecite
+   ID=i_shortblade
+   NAME=Erubecite Short Blade
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=56
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={35 43}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Scythe
+
+[ITEMDEF i_scythe_Erubecite]
+   DEFNAME=i_scythe_Erubecite
+   ID=i_scythe
+   NAME=Erubecite Scythe
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=56
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={115 123}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Short Spear
+
+[ITEMDEF i_spear_short_Erubecite]
+   DEFNAME=i_spear_short_Erubecite
+   ID=i_spear_short
+   NAME=Erubecite Short Spear
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=56
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={45 53}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite War Fork
+
+[ITEMDEF i_war_fork_Erubecite]
+   DEFNAME=i_war_fork_Erubecite
+   ID=i_war_fork
+   NAME=Erubecite War Fork
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=56
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={50 58}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Leafblade
+
+[ITEMDEF i_sword_leafblade_Erubecite]
+   DEFNAME=i_sword_leafblade_Erubecite
+   ID=i_sword_leafblade
+   NAME=Erubecite Leafblade
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=56
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={60 68}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Erubecite]
+   DEFNAME=i_elven_spellblade_Erubecite
+   ID=i_elven_spellblade
+   NAME=Erubecite Elven Spell Blade
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=56
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={75 83}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Pitchfork
+
+[ITEMDEF i_pitchfork_Erubecite]
+   DEFNAME=i_pitchfork_Erubecite
+   ID=i_pitchfork
+   NAME=Erubecite Pitchfork
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=56
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={55 63}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite War Cleaver
+
+[ITEMDEF i_war_cleaver_Erubecite]
+   DEFNAME=i_war_cleaver_Erubecite
+   ID=i_war_cleaver
+   NAME=Erubecite War Cleaver
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=56
+   SPEED=26
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={65 73}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Pike
+
+[ITEMDEF i_pike_Erubecite]
+   DEFNAME=i_pike_Erubecite
+   ID=i_pike
+   NAME=Erubecite Pike
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=56
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={70 78}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Blood Blade
+
+[ITEMDEF i_bloodblade_Erubecite]
+   DEFNAME=i_bloodblade_Erubecite
+   ID=i_bloodblade
+   NAME=Erubecite Blood Blade
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=56
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={75 83}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Kama
+
+[ITEMDEF i_kama_Erubecite]
+   DEFNAME=i_kama_Erubecite
+   ID=i_kama
+   NAME=Erubecite Kama
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=56
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={77 85}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Kryss
+
+[ITEMDEF i_kryss_Erubecite]
+   DEFNAME=i_kryss_Erubecite
+   ID=i_kryss
+   NAME=Erubecite Kryss
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=56
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={80 88}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Lajatang
+
+[ITEMDEF i_lajatang_Erubecite]
+   DEFNAME=i_lajatang_Erubecite
+   ID=i_lajatang
+   NAME=Erubecite Lajatang
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=56
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={85 93}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Sai
+
+[ITEMDEF i_sai_Erubecite]
+   DEFNAME=i_sai_Erubecite
+   ID=i_sai
+   NAME=Erubecite Sai
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=56
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={76 84}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Tekagi
+
+[ITEMDEF i_tekagi_Erubecite]
+   DEFNAME=i_tekagi_Erubecite
+   ID=i_tekagi
+   NAME=Erubecite Tekagi
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=56
+   SPEED=24
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={90 98}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Erubecite Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Erubecite]
+   DEFNAME=i_dual_pointed_spear_Erubecite
+   ID=i_dual_pointed_spear
+   NAME=Erubecite Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Erubecite
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=56
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Erubecite
+
+ON=@Create
+   COLOR=color_ore_Erubecite
+   HITPOINTS={115 123}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

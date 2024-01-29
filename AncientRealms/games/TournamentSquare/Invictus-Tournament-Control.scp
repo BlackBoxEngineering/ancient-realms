@@ -1,0 +1,56 @@
+[DEFNAME TournamentSquareControl]
+
+TS_Control  04006094b
+TS_ControlNuke  040050b01
+
+[ITEMDEF i_tournament_control]
+DEFNAME=i_tournament_control
+NAME=Potted Tree
+ID=i_tree_large_potted
+TYPE=t_script
+
+CATEGORY=Ancientrealms - Arenas
+SUBSECTION=Tournament Square
+DESCRIPTION=Region Control
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=15
+	
+ON=@DClick
+	IF <SRC.ISGM>
+		SAY @55 CONTROL <UID>
+		SAY @55 REGION <REGION.UID>
+	ENDIF
+	
+ON=@TIMER
+	TIMER=15
+	TAG.RegionUID=<REGION.UID>
+	RETURN 1
+
+[ITEMDEF i_tournament_control2]
+DEFNAME=i_tournament_control2
+NAME=Potted Tree
+ID=i_tree_large_potted
+TYPE=t_script
+
+CATEGORY=Ancientrealms - Arenas
+SUBSECTION=Tournament Square
+DESCRIPTION=Region Control
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=15
+	
+ON=@DClick
+	IF <SRC.ISGM>
+		SAY @55 CONTROL <UID>
+		SAY @55 REGION <REGION.UID>
+	ENDIF
+	
+ON=@TIMER
+	TIMER=15
+	TAG.RegionUID=<REGION.UID>
+	RETURN 1
+	
+[EOF]

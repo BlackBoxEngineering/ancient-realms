@@ -1,0 +1,29 @@
+[ITEMDEF i_stone_disc]
+ID=i_plate
+NAME=Stone Disc
+TYPE=t_script
+
+CATEGORY=Masonry
+SUBSECTION=Weapons
+DESCRIPTION=Stone Disc
+
+ON=@Create
+	COLOR=color_ore_Chromium
+
+ON=@dclick
+	TARGET Target player to throw disc at
+	RETURN 1
+
+ON=@TARGON_CHAR
+	SRC.ANIM 11
+	SRC.TARG.EFFECT=0,i_spittoon,7
+	SRC.TARG.ANIM 20
+	SRC.TARG.HITS=<SRC.TARG.HITS>+-30
+	SRC.TARG.NEWITEM=i_fx_explode
+	SRC.TARG.ACT.ATTR=attr_decay|attr_move_never
+	SRC.TARG.ACT.TIMER=2
+	SRC.TARG.ACT.P=<SRC.TARG.P>
+	REMOVE
+	RETURN 1
+	
+[EOF]

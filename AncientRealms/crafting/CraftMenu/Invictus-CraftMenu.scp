@@ -1,0 +1,159 @@
+[DIALOG InvictusCraftingMenu]
+1,470
+NOMOVE
+PAGE 0
+resizepic 0 0 2620 440 130
+resizepic 0 0 2620 320 130
+resizepic 0 0 2620 85 130
+resizepic 90 50 5120 125 67
+dhtmlgump 90 15 220 27 99 0 <DEF.CENTER> <NAME>: <CTAG.CraftingSkillName> (<<CTAG.CraftingSkillName>>%) <DEF.CENTERE> // text over brass sign
+dtext 150 60 955 : <SERV.UID.<CTAG.CraftingMaterial>.AMOUNT>
+IF <CTAG.CraftingMaterial>
+	dhtmlgump 98 85 110 27 955 <DEF0.CENTER><SERV.UID.<CTAG0.CraftingMaterial>.NAME><DEF0.CENTER>
+ENDIF
+IF (STRMATCH(*Blacksmithing*,<CTAG.CraftingSkillName>))
+	gumppic 12 15 5555  //A Hammer Symbol
+	tilepic 9 60 4017   //A Forge
+	tilepic 35 68 4015  //An Anvil
+	tilepichue 100 55 7153 <EVAL <SERV.UID.<CTAG.CraftingMaterial>.COLOR>> //Ingots
+	dtext 230 46 955 Items Made
+	dtext 230 63 955 :<EVAL <TAG.CraftingBlackSmithingMade>>
+	dtext 230 80 955 Ingots Used
+	dtext 230 97 955 :<EVAL <TAG.CraftingIngotsUsed>>
+	dtext 342 15 955 ARMOUR
+	button 325 17 5601 5605 1 0 10
+	dtext 342 35 955 SHIELDS
+	button 325 37 5601 5605 1 0 20
+	dtext 342 55 955 WEAPONS
+	button 325 57 5601 5605 1 0 30
+	dtext 342 75 955 TOOLS
+	button 325 77 5601 5605 1 0 40
+	dtext 342 95 955 SIEGE
+	button 325 97 5601 5605 1 0 50
+ELIF (STRMATCH(*Tinkering*,<CTAG.CraftingSkillName>))
+	gumppic 12 15 5582  //A Gear Symbol
+	tilepic 9 60 3703   //A Barrell
+	tilepic 35 68 4246  //A TalisMan
+	dtext 230 46 955 Items Made
+	dtext 230 63 955 :<EVAL <TAG.CraftingTinkeringMade>>
+	dtext 230 80 955 Ores Used
+	dtext 230 97 955 :<EVAL <TAG.CraftingOresUsed>>
+	tilepichue 100 55 6585 <EVAL <SERV.UID.<CTAG.CraftingMaterial>.COLOR>> //Ingots
+	dtext 342 15 955 CONTAINERS
+	button 325 17 5601 5605 1 0 110
+	dtext 342 35 955 PARTS
+	button 325 37 5601 5605 1 0 120
+	dtext 342 55 955 INSTRUMENTS
+	button 325 57 5601 5605 1 0 130
+	dtext 342 75 955 JEWELRY
+	button 325 77 5601 5605 1 0 140
+	dtext 342 95 955 TOOLS
+	button 325 97 5601 5605 1 0 150
+ELIF (STRMATCH(*Tailoring*,<CTAG.CraftingSkillName>))
+	gumppic 12 15 5580  //A Scissor Symbol
+	tilepic 9 60 3995   //A bolt of cloth
+	tilepic 20 68 3990  //A bolt of cloth
+	tilepic 15 68 3992  //A bolt of cloth
+	tilepichue 100 55 5989 <EVAL <SERV.UID.<CTAG.CraftingMaterial>.COLOR>> //
+	dtext 230 46 955 Items Made
+	dtext 230 63 955 :<EVAL <TAG.CraftingTailoringMade>>
+	dtext 230 80 955 Cloth & Leather Used
+	dtext 230 97 955 :<EVAL <TAG.CraftingClothLeatherUsed>>
+	dtext 342 15 955 ARMOUR
+	button 325 17 5601 5605 1 0 210
+ELIF (STRMATCH(*bowcraft*,<CTAG.CraftingSkillName>))
+	gumppic 12 15 5552  //A CrossBow Symbol
+	tilepic 9 75 3905   //Arrows
+	tilepic 25 75 7165  //Bolts
+	tilepichue 35 95 9933 <EVAL <SERV.UID.<CTAG.CraftingMaterial>.COLOR>> //Repeating Crossbow
+	tilepichue 0 78 11551 <EVAL <SERV.UID.<CTAG.CraftingMaterial>.COLOR>>  //MBow
+	tilepichue 100 55 7137 <EVAL <SERV.UID.<CTAG.CraftingMaterial>.COLOR>> //
+	dtext 230 46 955 Items Made
+	dtext 230 63 955 :<EVAL <TAG.CraftingCarpentryMade>>
+	dtext 230 80 955 Ingots Used
+	dtext 230 97 955 :<EVAL <TAG.CraftingLogsUsed>>
+	dtext 342 15 955 ARMOUR
+	button 325 17 5601 5605 1 0 410
+	dtext 342 35 955 WEAPONS
+	button 325 37 5601 5605 1 0 420
+	dtext 342 55 955 FURNITURE
+	button 325 57 5601 5605 1 0 430
+	dtext 342 75 955 SHIPS
+	button 325 77 5601 5605 1 0 440
+	dtext 342 95 955 SIEGE
+	button 325 97 5601 5605 1 0 450	
+ELIF (STRMATCH(*Carpentry*,<CTAG.CraftingSkillName>))
+	gumppic 12 15 5555  //A Hammer Symbol
+	tilepic 9 60 4017   //A Forge
+	tilepic 35 68 4015  //An Anvil
+	tilepichue 100 55 7137 <EVAL <SERV.UID.<CTAG.CraftingMaterial>.COLOR>> //
+	dtext 230 46 955 Items Made
+	dtext 230 63 955 :<EVAL <TAG.CraftingCarpentryMade>>
+	dtext 230 80 955 Ingots Used
+	dtext 230 97 955 :<EVAL <TAG.CraftingLogsUsed>>
+	dtext 342 15 955 ARMOUR
+	button 325 17 5601 5605 1 0 410
+	dtext 342 35 955 WEAPONS
+	button 325 37 5601 5605 1 0 420
+	dtext 342 55 955 SHIELDS
+	button 325 57 5601 5605 1 0 430
+	dtext 342 75 955 SHIPS
+	button 325 77 5601 5605 1 0 440
+	dtext 342 95 955 SIEGE
+	button 325 97 5601 5605 1 0 450
+ELIF (STRMATCH(*Alchemy*,<CTAG.CraftingSkillName>))
+	//gumppic 12 15 5570  //A Wizards Hat Symbol
+	gumppic 12 15 5584  //A Scales Symbol
+	tilepic 9 60 4017   //A Forge
+	tilepic 35 68 4015  //An Anvil
+	tilepichue 100 55 7153 <EVAL <SERV.UID.<CTAG.CraftingMaterial>.COLOR>> //
+ENDIF
+
+[DIALOG InvictusCraftingMenu Button]
+onbutton=1
+	SRC.DIALOGCLOSE InvictusCraftingMenu 1
+	RETURN 1
+onbutton=10
+	SRC.EVENTS=+e_PlayerCraftingEvent
+	SRC.f_find_ore_type <SERV.UID.<SRC.CTAG.CraftingMaterial>.BASEID>
+	SRC.SKILLMENU sm_armors_Blacksmithing_<SRC.CTAG.CraftingMaterialName>
+	RETURN 1
+onbutton=20
+	SRC.EVENTS=+e_PlayerCraftingEvent
+	SRC.f_find_ore_type <SERV.UID.<SRC.CTAG.CraftingMaterial>.BASEID>
+	SRC.SKILLMENU sm_shields_<SRC.CTAG.CraftingMaterialName>
+	RETURN 1
+onbutton=30
+	SRC.EVENTS=+e_PlayerCraftingEvent
+	SRC.f_find_ore_type <SERV.UID.<SRC.CTAG.CraftingMaterial>.BASEID>
+	SRC.SKILLMENU sm_weapons_<SRC.CTAG.CraftingMaterialName>
+	RETURN 1
+onbutton=40
+	SRC.EVENTS=+e_PlayerCraftingEvent
+	SRC.f_find_ore_type <SERV.UID.<SRC.CTAG.CraftingMaterial>.BASEID>
+	SRC.SKILLMENU sm_metal_fencing_<SRC.CTAG.CraftingMaterialName>
+	RETURN 1
+	
+	
+	
+	
+onbutton=110
+	SRC.EVENTS=+e_PlayerCraftingEvent
+	SRC.f_find_hide_type <SERV.UID.<SRC.CTAG.CraftingMaterial>.BASEID>
+	SRC.SKILLMENU sm_armors_tailoring_leather_<SRC.CTAG.CraftingMaterialName>
+	
+onbutton=410
+	SRC.EVENTS=+e_PlayerCraftingEvent
+	SRC.f_find_ore_type <SERV.UID.<SRC.CTAG.CraftingMaterial>.BASEID>
+	SRC.SKILLMENU sm_armors_Carpentry_<SRC.CTAG.CraftingMaterialName>
+onbutton=420
+	SRC.EVENTS=+e_PlayerCraftingEvent
+	SRC.f_find_ore_type <SERV.UID.<SRC.CTAG.CraftingMaterial>.BASEID>
+	SRC.SKILLMENU sm_weapons_<SRC.CTAG.CraftingMaterialName>
+onbutton=430
+	SRC.EVENTS=+e_PlayerCraftingEvent
+	SRC.f_find_ore_type <SERV.UID.<SRC.CTAG.CraftingMaterial>.BASEID>
+	SRC.SKILLMENU sm_shields_<SRC.CTAG.CraftingMaterialName>
+
+
+[EOF]

@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Copper Quarter Staff
+
+[ITEMDEF i_staff_quarter_Copper]
+   DEFNAME=i_staff_quarter_Copper
+   ID=i_staff_quarter
+   NAME=Copper Quarter Staff
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=18
+   VALUE=26
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={20 24}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Copper]
+   DEFNAME=i_serpentstone_staff_Copper
+   ID=i_serpentstone_staff
+   NAME=Copper Serpentstone Staff
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=22
+   VALUE=26
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={60 64}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Copper]
+   DEFNAME=i_staff_bladed_double_Copper
+   ID=i_staff_bladed_double
+   NAME=Copper Double Bladed Staff
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=30
+   VALUE=26
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={120 124}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Glass Staff
+
+[ITEMDEF i_glass_staff_Copper]
+   DEFNAME=i_glass_staff_Copper
+   ID=i_glass_staff
+   NAME=Copper Glass Staff
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=27
+   VALUE=26
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={90 94}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Bladed Staff
+
+[ITEMDEF i_bladed_staff_Copper]
+   DEFNAME=i_bladed_staff_Copper
+   ID=i_bladed_staff
+   NAME=Copper Bladed Staff
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=28
+   VALUE=26
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={115 119}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Tongs
+
+[ITEMDEF i_tongs_Copper]
+   DEFNAME=i_tongs_Copper
+   ID=i_tongs
+   NAME=Copper Tongs
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=5
+   VALUE=26
+   SPEED=7
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={0 4}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Mace
+
+[ITEMDEF i_mace_Copper]
+   DEFNAME=i_mace_Copper
+   ID=i_mace
+   NAME=Copper Mace
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=18
+   VALUE=26
+   SPEED=36
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Maul
+
+[ITEMDEF i_maul_Copper]
+   DEFNAME=i_maul_Copper
+   ID=i_maul
+   NAME=Copper Maul
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=20
+   VALUE=26
+   SPEED=38
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={40 44}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Scepter
+
+[ITEMDEF i_scepter_Copper]
+   DEFNAME=i_scepter_Copper
+   ID=i_scepter
+   NAME=Copper Scepter
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=22
+   VALUE=26
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={50 54}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Copper]
+   DEFNAME=i_hammer_sledge_Copper
+   ID=i_hammer_sledge
+   NAME=Copper Sledge Hammer
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=22
+   VALUE=26
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={20 24}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Copper]
+   DEFNAME=i_hammer_smith_Copper
+   ID=i_hammer_smith
+   NAME=Copper Smiths Hammer
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=8
+   VALUE=26
+   SPEED=7
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper War Mace
+
+[ITEMDEF i_mace_war_Copper]
+   DEFNAME=i_mace_war_Copper
+   ID=i_mace_war
+   NAME=Copper War Mace
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=26
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={80 84}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Disc Mace
+
+[ITEMDEF i_disc_mace_Copper]
+   DEFNAME=i_disc_mace_Copper
+   ID=i_disc_mace
+   NAME=Copper Disc Mace
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=26
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={70 74}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper War Hammer
+
+[ITEMDEF i_hammer_war_Copper]
+   DEFNAME=i_hammer_war_Copper
+   ID=i_hammer_war
+   NAME=Copper War Hammer
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=32
+   VALUE=26
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={100 104}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Hammer Pick
+
+[ITEMDEF i_hammer_pick_Copper]
+   DEFNAME=i_hammer_pick_Copper
+   ID=i_hammer_pick
+   NAME=Copper Hammer Pick
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=28
+   VALUE=26
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={55 59}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper War Axe
+
+[ITEMDEF i_axe_war_Copper]
+   DEFNAME=i_axe_war_Copper
+   ID=i_axe_war
+   NAME=Copper War Axe
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=18
+   VALUE=26
+   SPEED=38
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={65 69}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Tessen
+
+[ITEMDEF i_tessen_Copper]
+   DEFNAME=i_tessen_Copper
+   ID=i_tessen
+   NAME=Copper Tessen
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=17
+   VALUE=26
+   SPEED=32
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={75 79}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Long Sword
+
+[ITEMDEF i_sword_long_Copper]
+   DEFNAME=i_sword_long_Copper
+   ID=i_sword_long
+   NAME=Copper Long Sword
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=14
+   VALUE=26
+   SPEED=24
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={10 14}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Broad Sword
+
+[ITEMDEF i_sword_broad_Copper]
+   DEFNAME=i_sword_broad_Copper
+   ID=i_sword_broad
+   NAME=Copper Broad Sword
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=14
+   VALUE=26
+   SPEED=24
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={20 24}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Scimitar
+
+[ITEMDEF i_scimitar_Copper]
+   DEFNAME=i_scimitar_Copper
+   ID=i_scimitar
+   NAME=Copper Scimitar
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=16
+   VALUE=26
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Viking Sword
+
+[ITEMDEF i_sword_viking_Copper]
+   DEFNAME=i_sword_viking_Copper
+   ID=i_sword_viking
+   NAME=Copper Viking Sword
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=26
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={35 39}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Katana
+
+[ITEMDEF i_katana_Copper]
+   DEFNAME=i_katana_Copper
+   ID=i_katana
+   NAME=Copper Katana
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=26
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={80 84}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Wakizashi
+
+[ITEMDEF i_wakizashi_Copper]
+   DEFNAME=i_wakizashi_Copper
+   ID=i_wakizashi
+   NAME=Copper Wakizashi
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=16
+   VALUE=26
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={45 49}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Long Sword
+
+[ITEMDEF i_sword_long_b_Copper]
+   DEFNAME=i_sword_long_b_Copper
+   ID=i_sword_long_b
+   NAME=Copper Long Sword
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=26
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={50 54}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Paladin Sword
+
+[ITEMDEF i_sword_paladin_Copper]
+   DEFNAME=i_sword_paladin_Copper
+   ID=i_sword_paladin
+   NAME=Copper Paladin Sword
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=26
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={65 69}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Bokuto
+
+[ITEMDEF i_bokuto_Copper]
+   DEFNAME=i_bokuto_Copper
+   ID=i_bokuto
+   NAME=Copper Bokuto
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=26
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={70 74}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Copper]
+   DEFNAME=i_Radiant_Scimitar_Copper
+   ID=i_Radiant_Scimitar
+   NAME=Copper Radiant Scimitar
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=26
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={75 79}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Bone Harvester
+
+[ITEMDEF i_bone_harvester_Copper]
+   DEFNAME=i_bone_harvester_Copper
+   ID=i_bone_harvester
+   NAME=Copper Bone Harvester
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=14
+   VALUE=26
+   SPEED=24
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={55 59}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Butcher Knife
+
+[ITEMDEF i_knife_butcher_Copper]
+   DEFNAME=i_knife_butcher_Copper
+   ID=i_knife_butcher
+   NAME=Copper Butcher Knife
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=12
+   VALUE=26
+   SPEED=24
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Copper]
+   DEFNAME=i_cleaver_meat_Copper
+   ID=i_cleaver_meat
+   NAME=Copper Meat Cleaver
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=12
+   VALUE=26
+   SPEED=24
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Elven Machete
+
+[ITEMDEF i_elven_machete_Copper]
+   DEFNAME=i_elven_machete_Copper
+   ID=i_elven_machete
+   NAME=Copper Elven Machete
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=26
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={60 64}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Bone Machete
+
+[ITEMDEF i_bone_machete_Copper]
+   DEFNAME=i_bone_machete_Copper
+   ID=i_bone_machete
+   NAME=Copper Bone Machete
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=26
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={50 54}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Daisho
+
+[ITEMDEF i_daisho_Copper]
+   DEFNAME=i_daisho_Copper
+   ID=i_daisho
+   NAME=Copper Daisho
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=26
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={65 69}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper No-Dachi
+
+[ITEMDEF i_no_dachi_Copper]
+   DEFNAME=i_no_dachi_Copper
+   ID=i_no_dachi
+   NAME=Copper No-Dachi
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=26
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={75 79}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Rune Blade
+
+[ITEMDEF i_Rune_Blade_Copper]
+   DEFNAME=i_Rune_Blade_Copper
+   ID=i_Rune_Blade
+   NAME=Copper Rune Blade
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=26
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={115 119}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Axe
+
+[ITEMDEF i_axe_Copper]
+   DEFNAME=i_axe_Copper
+   ID=i_axe
+   NAME=Copper Axe
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=16
+   VALUE=26
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={42 46}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Bardiche
+
+[ITEMDEF i_bardiche_Copper]
+   DEFNAME=i_bardiche_Copper
+   ID=i_bardiche
+   NAME=Copper Bardiche
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=22
+   VALUE=26
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={58 62}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Battle Axe
+
+[ITEMDEF i_axe_battle_Copper]
+   DEFNAME=i_axe_battle_Copper
+   ID=i_axe_battle
+   NAME=Copper Battle Axe
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=24
+   VALUE=26
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={65 69}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Double Axe
+
+[ITEMDEF i_axe_double_Copper]
+   DEFNAME=i_axe_double_Copper
+   ID=i_axe_double
+   NAME=Copper Double Axe
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=26
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={70 74}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Copper]
+   DEFNAME=i_axe_exec_Copper
+   ID=i_axe_exec
+   NAME=Copper Exectutioners Axe
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=26
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={73 77}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Halberd
+
+[ITEMDEF i_halberd_Copper]
+   DEFNAME=i_halberd_Copper
+   ID=i_halberd
+   NAME=Copper Halberd
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=26
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={75 79}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Hatchet
+
+[ITEMDEF i_hatchet_Copper]
+   DEFNAME=i_hatchet_Copper
+   ID=i_hatchet
+   NAME=Copper Hatchet
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=17
+   VALUE=26
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={40 44}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Copper]
+   DEFNAME=i_axe_battle_large_Copper
+   ID=i_axe_battle_large
+   NAME=Copper Large Battle Axe
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=26
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={100 104}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Ornate Axe
+
+[ITEMDEF i_ornate_axe_Copper]
+   DEFNAME=i_ornate_axe_Copper
+   ID=i_ornate_axe
+   NAME=Copper Ornate Axe
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=25
+   VALUE=26
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={60 64}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Copper]
+   DEFNAME=i_axe_two_hand_Copper
+   ID=i_axe_two_hand
+   NAME=Copper Two Handed Axe
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=26
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={55 59}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Dual Axes
+
+[ITEMDEF i_dual_short_axes_Copper]
+   DEFNAME=i_dual_short_axes_Copper
+   ID=i_dual_short_axes
+   NAME=Copper Dual Axes
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=23
+   VALUE=26
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={95 99}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Cresent Blade
+
+[ITEMDEF i_crescent_blade_Copper]
+   DEFNAME=i_crescent_blade_Copper
+   ID=i_crescent_blade
+   NAME=Copper Cresent Blade
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=26
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={110 114}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Dagger
+
+[ITEMDEF i_dagger_Copper]
+   DEFNAME=i_dagger_Copper
+   ID=i_dagger
+   NAME=Copper Dagger
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=8
+   VALUE=26
+   SPEED=20
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={10 14}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Skinning Knife
+
+[ITEMDEF i_knife_skinning_Copper]
+   DEFNAME=i_knife_skinning_Copper
+   ID=i_knife_skinning
+   NAME=Copper Skinning Knife
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=8
+   VALUE=26
+   SPEED=20
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={15 19}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Copper]
+   DEFNAME=i_sword_Assassin_Spike_Copper
+   ID=i_sword_Assassin_Spike
+   NAME=Copper Assassin Spike
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=10
+   VALUE=26
+   SPEED=22
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Cutlass
+
+[ITEMDEF i_cutlass_Copper]
+   DEFNAME=i_cutlass_Copper
+   ID=i_cutlass
+   NAME=Copper Cutlass
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=11
+   VALUE=26
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={25 29}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Short Blade
+
+[ITEMDEF i_shortblade_Copper]
+   DEFNAME=i_shortblade_Copper
+   ID=i_shortblade
+   NAME=Copper Short Blade
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=12
+   VALUE=26
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={35 39}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Scythe
+
+[ITEMDEF i_scythe_Copper]
+   DEFNAME=i_scythe_Copper
+   ID=i_scythe
+   NAME=Copper Scythe
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=26
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={115 119}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Short Spear
+
+[ITEMDEF i_spear_short_Copper]
+   DEFNAME=i_spear_short_Copper
+   ID=i_spear_short
+   NAME=Copper Short Spear
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=26
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={45 49}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper War Fork
+
+[ITEMDEF i_war_fork_Copper]
+   DEFNAME=i_war_fork_Copper
+   ID=i_war_fork
+   NAME=Copper War Fork
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=26
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={50 54}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Leafblade
+
+[ITEMDEF i_sword_leafblade_Copper]
+   DEFNAME=i_sword_leafblade_Copper
+   ID=i_sword_leafblade
+   NAME=Copper Leafblade
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=13
+   VALUE=26
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={60 64}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Copper]
+   DEFNAME=i_elven_spellblade_Copper
+   ID=i_elven_spellblade
+   NAME=Copper Elven Spell Blade
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=26
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={75 79}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Pitchfork
+
+[ITEMDEF i_pitchfork_Copper]
+   DEFNAME=i_pitchfork_Copper
+   ID=i_pitchfork
+   NAME=Copper Pitchfork
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=26
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={55 59}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper War Cleaver
+
+[ITEMDEF i_war_cleaver_Copper]
+   DEFNAME=i_war_cleaver_Copper
+   ID=i_war_cleaver
+   NAME=Copper War Cleaver
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=26
+   SPEED=24
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={65 69}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Pike
+
+[ITEMDEF i_pike_Copper]
+   DEFNAME=i_pike_Copper
+   ID=i_pike
+   NAME=Copper Pike
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=26
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={70 74}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Blood Blade
+
+[ITEMDEF i_bloodblade_Copper]
+   DEFNAME=i_bloodblade_Copper
+   ID=i_bloodblade
+   NAME=Copper Blood Blade
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=26
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={75 79}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Kama
+
+[ITEMDEF i_kama_Copper]
+   DEFNAME=i_kama_Copper
+   ID=i_kama
+   NAME=Copper Kama
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=26
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={77 81}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Kryss
+
+[ITEMDEF i_kryss_Copper]
+   DEFNAME=i_kryss_Copper
+   ID=i_kryss
+   NAME=Copper Kryss
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=26
+   SPEED=26
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={80 84}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Lajatang
+
+[ITEMDEF i_lajatang_Copper]
+   DEFNAME=i_lajatang_Copper
+   ID=i_lajatang
+   NAME=Copper Lajatang
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=26
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={85 89}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Sai
+
+[ITEMDEF i_sai_Copper]
+   DEFNAME=i_sai_Copper
+   ID=i_sai
+   NAME=Copper Sai
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=26
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={76 80}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Tekagi
+
+[ITEMDEF i_tekagi_Copper]
+   DEFNAME=i_tekagi_Copper
+   ID=i_tekagi
+   NAME=Copper Tekagi
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=26
+   SPEED=22
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={90 94}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Copper]
+   DEFNAME=i_dual_pointed_spear_Copper
+   ID=i_dual_pointed_spear
+   NAME=Copper Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Copper
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=26
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Copper
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS={115 119}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

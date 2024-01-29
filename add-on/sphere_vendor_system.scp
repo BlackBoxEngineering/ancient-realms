@@ -1,0 +1,48 @@
+//****************************************************************************
+// SphereServer ©1997-2009
+// This script is part from the Sphere Community Script Pack.
+// You can download the full pack from: www.sphereserver.net
+//****************************************************************************
+// FILE LAST UPDATED: 06-Apr-2009
+VERSION=0.56b
+//
+// SCRIPT CREDITS
+// --------------
+// Saci_BR - Main system
+// Coruja (coruja747) - Rewrote all main system, making it optimized and without bugs
+//
+// SCRIPT DOCUMENTATION
+// --------------------
+// Version 1.3
+// This system is based on the official OSI Custom Vendor system.
+// The player buy a vendor deed (Contract of Employment) from an
+// tavernkeeper or innkeeper, and place it on his house.
+//
+// Houses can be turned into shops with many vendors from different players.
+// For this, the house owner must buy a Vendor Rental Contract and place inside the house.
+// Then, the owner of the contract configure and offer it to someone. This will create
+// a new custom vendor for the RENTER, and it will stand on the house until the contract
+// time expire or the vendor salary doesn't get paid.
+//
+// Custom Vendors needs a diary salary to keep working. And the value of the salary
+// is calculated based on the total amount of VALUE that the vendor is selling on
+// his inventory.
+// Salary is paid automatically by the vendor, and it uses the gold on vendor bankbox.
+// Only the vendor owner can give it more gold, and the gold is increased too when someone
+// buy something from the vendor.
+// If the vendor can't pay his salary, it will place all inventory items on his owner
+// bankbox, and then the vendor will disappear.
+//
+
+[DEFNAME VENDOR_SYSTEM]
+//Script variables (DO NOT MAKE CHANGES HERE)
+MALESTYLE			i_hair_short,i_hair_long,i_hair_ponytail,i_hair_mohawk,i_hair_pageboy,i_hair_afro,i_hair_receding,i_hair_2_pigtails,i_hair_krisna,i_beard_long,i_beard_short,i_beard_goatee,i_beard_mustache,i_beard_short_med,i_beard_long_med,i_beard_vandyke
+vendor_random_male_tops		{i_doublet 1 i_tunic 1 i_robe 1}
+vendor_random_female_pants	{i_pants_short 1 i_pants_long 1 i_kilt 1 i_skirt_long 1}
+BFONT_SHOPNAME			<basefont color="#ff8880">
+BFONT_MBLUE			<basefont color="#888FFF">
+
+//////////////////////////////////////////////////////////////////////////////////
+
+
+[EOF]

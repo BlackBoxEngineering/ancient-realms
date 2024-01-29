@@ -1,0 +1,165 @@
+[REGIONTYPE r_LogClass_1 t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=50.0 mr_apple
+
+[REGIONTYPE r_LogClass_2 t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=40.0 mr_bogoak
+
+[REGIONTYPE r_LogClass_3 t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=30.0 mr_oak
+
+[REGIONTYPE r_LogClass_4 t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=20.0 mr_ash
+
+[REGIONTYPE r_LogClass_5 t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=10.0 mr_yew
+
+[REGIONTYPE r_LogClass_6 t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=5.0 mr_willow
+
+[REGIONTYPE r_LogClass_7 t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=4.0 mr_cypress
+
+[REGIONTYPE r_LogClass_8 t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=3.0 mr_birch
+
+[REGIONTYPE r_LogClass_9 t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=2.0 mr_ebony
+RESOURCES=1.0 mr_walnut
+
+[REGIONTYPE r_LogClass_10 t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=0.5 mr_cherry
+
+[REGIONTYPE r_LogClass_11 t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=0.4 mr_blackcherry
+
+[REGIONTYPE r_LogClass_12 t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=0.3 mr_maple
+RESOURCES=0.2 mr_hawthorn
+RESOURCES=0.1 mr_blessedwood
+RESOURCES=0.1 mr_cursedwood
+
+//////////////////////////////////////////////
+
+[REGIONTYPE r_LogClass_1_to_3_common t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=50.0 mr_apple
+RESOURCES=40.0 mr_bogoak
+RESOURCES=30.0 mr_oak
+
+[REGIONTYPE r_LogClass_1_to_3_rare t_tree]
+RESOURCES=30.0 mr_nothing
+
+[REGIONTYPE r_LogClass_4_to_6_common t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=20.0 mr_ash
+RESOURCES=10.0 mr_yew
+RESOURCES=5.0 mr_willow
+
+[REGIONTYPE r_LogClass_4_to_6_rare t_tree]
+RESOURCES=30.0 mr_nothing
+
+[REGIONTYPE r_LogClass_7_to_9_common t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=4.0 mr_cypress
+RESOURCES=3.0 mr_birch
+RESOURCES=2.0 mr_ebony
+
+[REGIONTYPE r_LogClass_7_to_9_rare t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=1.0 mr_walnut
+
+[REGIONTYPE r_LogClass_10_to_12_common t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=0.5 mr_cherry
+RESOURCES=0.4 mr_blackcherry
+RESOURCES=0.3 mr_maple
+
+[REGIONTYPE r_LogClass_10_to_12_rare t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=0.2 mr_hawthorn
+RESOURCES=0.1 mr_blessedwood
+RESOURCES=0.1 mr_cursedwood
+
+//////////////////////////////////////////////
+[REGIONTYPE r_default_tree t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=50.0 mr_apple
+RESOURCES=40.0 mr_bogoak
+RESOURCES=30.0 mr_oak
+RESOURCES=20.0 mr_ash
+RESOURCES=10.0 mr_yew
+RESOURCES=5.0 mr_willow
+
+[REGIONTYPE r_LogClass_All_common t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=50.0 mr_apple
+RESOURCES=40.0 mr_bogoak
+RESOURCES=30.0 mr_oak
+RESOURCES=20.0 mr_ash
+RESOURCES=10.0 mr_yew
+RESOURCES=5.0 mr_willow
+RESOURCES=4.0 mr_cypress
+RESOURCES=3.0 mr_birch
+RESOURCES=2.0 mr_ebony
+RESOURCES=0.5 mr_cherry
+RESOURCES=0.4 mr_blackcherry
+RESOURCES=0.3 mr_maple
+
+[REGIONTYPE r_LogClass_All_rare t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=1.0 mr_walnut
+RESOURCES=0.2 mr_hawthorn
+RESOURCES=0.1 mr_blessedwood
+RESOURCES=0.1 mr_cursedwood
+
+//////////////////////////////////////////////
+
+[REGIONTYPE r_LogClass_Mix_Common_1 t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=50.0 mr_apple
+RESOURCES=40.0 mr_bogoak
+RESOURCES=30.0 mr_oak
+RESOURCES=20.0 mr_ash
+RESOURCES=10.0 mr_yew
+
+[REGIONTYPE r_LogClass_Mix_Common_2 t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=5.0 mr_willow
+RESOURCES=4.0 mr_cypress
+RESOURCES=3.0 mr_birch
+
+[REGIONTYPE r_LogClass_Mix_Common_3 t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=2.0 mr_ebony
+RESOURCES=0.5 mr_cherry
+RESOURCES=0.4 mr_blackcherry
+RESOURCES=0.3 mr_maple
+
+[REGIONTYPE r_LogClass_Mix_Rare_1 t_tree]
+RESOURCES=30.0 mr_nothing
+
+[REGIONTYPE r_LogClass_Mix_Rare_2 t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=1.0 mr_walnut
+
+[REGIONTYPE r_LogClass_Mix_Rare_2 t_tree]
+RESOURCES=30.0 mr_nothing
+RESOURCES=0.2 mr_hawthorn
+RESOURCES=0.1 mr_blessedwood
+RESOURCES=0.1 mr_cursedwood
+
+//////////////////////////////////////////////
+
+[EOF]

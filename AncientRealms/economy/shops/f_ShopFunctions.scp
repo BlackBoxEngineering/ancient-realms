@@ -1,0 +1,91 @@
+[FUNCTION ReleaseItem]
+IF (<ARGO.ATTR>&010)
+	SERV.UID.<ARGO>.attr=<SERV.UID.<ARGO>.ATTR>&~(attr_move_never|attr_static)
+	SERV.UID.<ARGO>.SAY @63 Released!
+	RemoveFromShopItemCount <ARGO.UID>
+ELSE
+	SERV.UID.<ARGO>.SAY @00029 Already Released!
+ENDIF
+
+[FUNCTION LockDownItem]
+IF !(<SERV.UID.<REGION.TAG.ShopControlUID>.TAG.ItemCount> > 9)
+	IF (<ARGO.ATTR>&010)
+		SERV.UID.<ARGO>.SAY @00029 Already locked Down!
+	ELSE
+		SERV.UID.<ARGO>.attr=<SERV.UID.<ARGO>.ATTR>|attr_move_never
+		SERV.UID.<ARGO>.attr=<SERV.UID.<ARGO>.ATTR>&~attr_move_always
+		SERV.UID.<ARGO>.SAY @63 Locked Down!
+		AddTooShopItemCount <ARGO.UID>
+	ENDIF
+ELSE
+	SERV.UID.<ARGO>.SAY @63 Shop Item Limit Already Reached!
+ENDIF	
+
+[FUNCTION AddTooShopItemCount]
+SERV.UID.<REGION.TAG.ShopControlUID>.TAG.ItemCount=<SERV.UID.<REGION.TAG.ShopControlUID>.TAG.ItemCount>+1
+SRC.SYSMESSAGE @55 <SERV.UID.<ARGV[0]>.NAME> Added to Shop Item Base
+SRC.SYSMESSAGE @55 <SERV.UID.<ARGV[0]>.NAME> Item Count (<EVAL <SERV.UID.<REGION.TAG.ShopControlUID>.TAG.ItemCount>>/10)
+
+[FUNCTION RemoveFromShopItemCount]
+SERV.UID.<REGION.TAG.ShopControlUID>.TAG.ItemCount=<SERV.UID.<REGION.TAG.ShopControlUID>.TAG.ItemCount>-1
+SRC.SYSMESSAGE @55 <SERV.UID.<ARGV[0]>.NAME> Removed From Shop Item Base
+SRC.SYSMESSAGE @55 <SERV.UID.<ARGV[0]>.NAME> Item Count (<EVAL <SERV.UID.<REGION.TAG.ShopControlUID>.TAG.ItemCount>>/10)
+
+[FUNCTION ValidateVendorDeed]
+IF (<ARGO.BASEID>==i_VendorDeed)
+	SRC.SYSMESSAGE @63 Vendor Deed is Valid
+	SRC.SAY @63 Place your vendor
+	TARGETF PlaceShopVendor
+ELSE
+	SRC.SYSMESSAGE @63 Thats not a Valid Vendor Deed
+ENDIF
+
+[FUNCTION TestTradingLicence]
+IF (<ARGO.TAG.TradersLicenceUID>)
+	IF (<ARGO.TAG.OwnersUID>==<ARGV[0]>)
+		SRC.TAG.ShopLicence<SRC.CTAG.ShopLinkUid>=1
+		SERV.UID.<SRC.CTAG.ShopLinkUid>.TAG.OwnerLicence=1
+		SERV.UID.<SRC.CTAG.ShopLinkUid>.TAG.OwnerLicenceUID=<ARGO.TAG.OwnersUID>
+		SRC.SYSMESSAGE @00029 Traders Licence Valid
+	ELSE
+		SRC.SYSMESSAGE @00029 This is not your Traders Licence.
+		SRC.TAG.ShopLicence<SRC.CTAG.ShopLinkUid>=
+	ENDIF
+ELSE
+	SRC.SYSMESSAGE @00029 This is not a valid Traders Licence.
+	SRC.TAG.ShopLicence<SRC.CTAG.ShopLinkUid>=
+ENDIF
+CALL SRC.f_SetupShopKeeper <SRC.CTAG.ShopLinkUid>
+DIALOG d_ShopPlayerMenu
+
+[FUNCTION f_SetupShopKeeper]
+IF (<TAG0.ShopDeposit<ARGV[0]>>&&<TAG0.ShopRent<ARGV[0]>>&&<SRC.FINDID.i_LicencedMerchant>)
+	SERV.UID.<ARGV[0]>.TAG.OwnersName=<NAME>
+	SERV.UID.<ARGV[0]>.TAG.OwnersUid=<UID>
+	SERV.UID.<ARGV[0]>.TAG.CurrentDeposit=0
+	SERV.UID.<ARGV[0]>.TAG.CurrentRent=0
+ENDIF
+
+[FUNCTION f_LinkToThisUID]
+REF1=<ARGV[0]>
+REF1.LINK <ARGO.UID>
+ARGO.SAY @95 Linked <REF1.NAME> (<REF1>)
+
+
+[PLEVEL 5]
+ShopSetup
+
+[FUNCTION ShopSetup]
+f_ShopSetup
+
+[FUNCTION f_ShopSetup]
+NEWITEM i_shopClock,1,<UID>
+SYSMESSAGE @63 Place the clock on the wall
+NEWITEM i_shopcommunicator,1,<UID>
+SYSMESSAGE @63 Place the blue tile on the floor Dclick it
+NEWITEM i_playerShopSign,1,<UID>
+SYSMESSAGE @63 Place the shop sign on the shop wall outside.
+NEWITEM @63 Use Axis to Place the Shop Doors link them to the clock.
+SYSMESSAGE @63 Use the Shop Clock Control to Set up the Shop
+
+[EOF]

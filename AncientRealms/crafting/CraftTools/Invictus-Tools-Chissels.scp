@@ -1,0 +1,21 @@
+[ITEMDEF 01026]
+DEFNAME=i_chisels
+TYPE=t_carpentry
+FLIP=1
+WEIGHT=1
+RESOURCES=1 i_ingot_iron
+CATEGORY=Items by Professions
+SUBSECTION=Carpenters
+DESCRIPTION=Chisels
+DUPELIST=01027
+
+ON=@Create
+   HITPOINTS={36 48}
+  
+ON=@DClick
+	targetf MaterialTargets
+	return 1
+
+   
+   
+[EOF]

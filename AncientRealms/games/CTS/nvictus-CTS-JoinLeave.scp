@@ -1,0 +1,44 @@
+[PLEVEL 1]
+JoinCTS
+LeaveCTS
+
+[FUNCTION JoinCTS]
+IF <SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.ManagerUid>.TAG0.Gameison>
+	SYSMESSAGE @55 You Cannot Join CTS Untill The Current Event Ends.
+ELSE
+	TAG.PreArenaLocation=<P>
+	IF (<TAG0.JoinedCTS>!=1)
+		SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT=<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT>+1
+		SERV.B @55 <NAME> You Signed Up for CTS.
+		SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT>UID=<UID>
+		SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT>NAME=<NAME>
+		TAG.PLAYERCOUNT=<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT>
+		TAG.JoinedCTS=1
+		SYSMESSAGE @1462 You will return to this Location after the Event (.LeaveCTS) to Exits the Queue.
+		// Scores .....
+		SYSMESSAGE @1462 Personal CTS Score to Beat : <EVAL <SRC.TAG0.PersonalBestScoreCTS>>
+		TAG.CTSRewardPoints=0
+	ELSE
+		SYSMESSAGE @55 <NAME> Your already signed up for CTS.
+		RETURN 1
+	ENDIF
+ENDIF
+
+[FUNCTION LeaveCTS]
+IF <TAG0.JoinedCTS>
+	IF <SERV.UID.<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.ManagerUid>.TAG0.Gameison>
+		SYSMESSAGE @55 You Cannot Leave the CTS Event Like This when it has Started.
+	ELSE
+		SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT=<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT>+-1
+		SERV.B @55 <NAME> Leaves the Queue For the CTS Event.
+		SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<TAG.PLAYERCOUNT>UID=
+		SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<TAG.PLAYERCOUNT>NAME=
+		EVENTS=-e_RewardCalculator
+		EVENTS=-e_Games_CTSFernBank
+		TAG.JoinedCTS=
+	ENDIF
+ELSE
+	SYSMESSAGE @00029 Your are not Queued For CTS
+ENDIF
+
+[EOF]

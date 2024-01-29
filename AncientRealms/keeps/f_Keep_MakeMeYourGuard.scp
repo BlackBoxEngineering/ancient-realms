@@ -1,0 +1,15 @@
+[FUNCTION f_Keep_MakeMeYourGuard]
+
+	REF1=<argv[0]>
+	SERV.NEWITEM i_memory
+	NEW.ATTR=04
+	NEW.MORE1=04
+	NEW.MORE2=<SERV.TIME>
+	NEW.MOREP=<P>
+	NEW.COLOR=memory_ipet
+	NEW.TIMER=-1
+	NEW.LINK=<REF1>
+	NEW.CONT=<UID>
+	FLAGS |= statf_pet
+
+[EOF]

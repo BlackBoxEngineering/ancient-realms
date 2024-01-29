@@ -1,0 +1,127 @@
+[EVENTS e_PlayerVendor]
+
+ON=@Death
+	HITS=<STR>
+	RETURN 1
+
+ON=@GetHit
+	RETURN 1
+
+ON=@Hit
+	RETURN 1
+	
+ON=@Hunger
+	IF <FINDTYPE.t_food>
+		SAY Yummy <FINDTYPE.t_food.NAME>
+		SERV.UID.<UID>.CONSUME 1 <FINDTYPE.t_food.BASEID>
+		SERV.UID.<UID>.FOOD = <MAXFOOD>
+		IF <ARGO.TAG0.FOODLEVEL> > 1
+			ARGN1=<EVAL <FOOD>+<ARGO.TAG.FOODLEVEL>>
+		ELSE
+			ARGN1=<EVAL <FOOD>+1>
+		ENDIF
+		IF <ARGN1> > <MAXFOOD>
+			ARGN1=<EVAL <MAXFOOD>+1>
+			SAY @95 I'm stuffed!
+		ENDIF
+	ELIF <FINDTYPE.t_fruit.BASEID>
+		SAY Yummy <FINDTYPE.t_food.NAME>
+		SERV.UID.<UID>.CONSUME 1 <FINDTYPE.t_fruit.BASEID>
+		SERV.UID.<UID>.FOOD = <MAXFOOD>
+		IF <ARGO.TAG0.FOODLEVEL> > 1
+			ARGN1=<EVAL <FOOD>+<ARGO.TAG.FOODLEVEL>>
+		ELSE
+			ARGN1=<EVAL <FOOD>+1>
+		ENDIF
+		IF <ARGN1> > <MAXFOOD>
+			ARGN1=<EVAL <MAXFOOD>+1>
+			SAY @95 I'm stuffed!
+		ENDIF
+	ELSE
+		IF <FOOD> < <MAXFOOD>
+			IF <FOOD> < 5
+				IF <VENDGOLD> > 100
+					ARGN1=30
+					VENDGOLD += -100
+					LOCAL.MsgToSend=Your vendor hungry decides to spend some of your money on an expensive meal
+					SERV.UID.<FINDID.i_am_owned_by_this_player.MORE1>.SYSMESSAGE @1462,,1 <LOCAL.MsgToSend>
+				ELSE
+					IF <GOLD> > 100
+						ARGN1=30
+						GOLD += -100
+						LOCAL.MsgToSend=Your vendor hungry and unhappy to have to spend his own earnings on food
+						SERV.UID.<FINDID.i_am_owned_by_this_player.MORE1>.SYSMESSAGE @1462,,1 <LOCAL.MsgToSend>
+					ELSE
+						IF <FOOD>=0
+							LOCAL.MsgToSend=Your vendor hungry with no money quits his job!
+							RedeedVendor <UID>
+							SERV.UID.<FINDID.i_am_owned_by_this_player.MORE1>.FINDID.i_deed_vendor_.REMOVE
+							RETURN 1
+						ELSE
+							LOCAL.MsgToSend=Warning your vendor has no money to buy food, give him money or food or he may quit his job!
+							SERV.UID.<FINDID.i_am_owned_by_this_player.MORE1>.SYSMESSAGE @1462,,1 <LOCAL.MsgToSend>
+						ENDIF
+					ENDIF
+				ENDIF
+			ENDIF
+		ENDIF
+		LOCAL.MsgToSend=Your vendor <NAME>, hunger has dropped by one it is now <EVAL <FOOD> -1 >
+		SERV.UID.<FINDID.i_am_owned_by_this_player.MORE1>.SYSMESSAGE @1462,,1 <LOCAL.MsgToSend>
+	ENDIF
+	IF <ARGN1> > <MAXFOOD>
+		ARGN1=<EVAL <MAXFOOD>+1>
+		SAY @95 I'm stuffed!
+	ENDIF
+	
+ON=@DClick
+	SRC.CTAG.ItemToPriceNAME=
+	SRC.CTAG.ItemToPriceUID=
+	SRC.CTAG.LastVendorUsedUID=<UID>
+	FACE <SRC.UID>
+	IF (<FINDID.i_am_owned_by_this_player.MORE1>==<SRC.UID>)||(<SRC.GM>)
+		IF (<FOOD> < 5)
+			SAY @55 Im Hungry Master
+		ENDIF
+		SAY @55 Greetings Master
+		SRC.SDIALOG d_VendorMenu
+	ELSE
+		IF <SERV.UID.<SRC.CTAG.LastVendorUsedUID>.TAG.ShopOpen>
+			BUY
+		ELSE
+			SAY @55 Sorry <SRC.NAME> I am off duty. Come back later!
+		ENDIF
+	ENDIF
+	IF <SRC.ISGM>||(<FINDID.i_am_owned_by_this_player.MORE1>==<SRC.UID>)
+		RETURN 0
+	ELSE
+		RETURN 1
+	ENDIF
+
+ON=@ReceiveItem
+	IF <ARGO.TYPE> == t_gold
+		GOLD = <GOLD> + <ARGO.AMOUNT>
+		ARGO.REMOVE
+		SAY @55 I now have <EVAL <GOLD>> gold for me! and I hold <EVAL <VEND.GOLD>> for my master!
+	ELIF (<ARGO.TYPE> == t_clothing)
+		ARGO.EQUIP
+		RETURN 0
+	ELIF (<ARGO.TYPE> == t_armor)
+		ARGO.EQUIP
+		RETURN 0
+	ELIF (<ARGO.TYPE> == t_shield)
+		ARGO.EQUIP
+		RETURN 0
+	ELIF (<SERV.UID.<ARGO.UID>.ISWEAPON>)
+		ARGO.EQUIP
+		RETURN 0
+	ELIF (<ARGO.TYPE> == t_food)||(<ARGO.TYPE> == t_fruit)
+		IF (<FINDID.i_am_owned_by_this_player.MORE1>==<SRC.UID>)
+			SAY @55 Foods good thanks master!
+			RETURN 0
+		ELSE
+			SAY @1462,,1 Sorry I only accept food from my master!
+			RETURN 1
+		ENDIF
+	ENDIF
+
+[EOF]

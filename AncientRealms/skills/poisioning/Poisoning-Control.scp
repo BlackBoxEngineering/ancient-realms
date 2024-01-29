@@ -1,0 +1,24 @@
+[DEFNAME Invictus_Controll_Poisons]
+
+PoisonWeak_Loop		6 
+PoisonWeak_Dam		2  
+PoisonMedium_Loop	5 
+PoisonMedium_Dam	4  
+PoisonStrong_Loop	4 
+PoisonStrong_Dam	8 
+PoisonDeadly_Loop	3 
+PoisonDeadly_Dam	12
+PoisonUseDelay		18
+SpellPoison_Set		2
+
+color_poison_weak		04f7	// color_potion_PoisonLess
+color_poison_medium		04f5	// color_potion_Poison
+color_poison_strong		04f4	// color_potion_PoisonGreat
+color_poison_deadly		04f3	// color_potion_PoisonDeadly
+
+// CALL f_PoisonEffect 1 PoisonWeak_Loop	i_invictus_poison_weak
+// CALL f_PoisonEffect 2 PoisonMedium_Loop	i_invictus_poison_medium
+// CALL f_PoisonEffect 3 PoisonStrong_Loop	i_invictus_poison_stong
+// CALL f_PoisonEffect 4 PoisonDeadly_Loop	i_invictus_poison_deadly
+
+[EOF]

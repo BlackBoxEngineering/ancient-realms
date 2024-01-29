@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Cassiterite Quarter Staff
+
+[ITEMDEF i_staff_quarter_Cassiterite]
+   DEFNAME=i_staff_quarter_Cassiterite
+   ID=i_staff_quarter
+   NAME=Cassiterite Quarter Staff
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=22
+   VALUE=82
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={20 32}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Cassiterite]
+   DEFNAME=i_serpentstone_staff_Cassiterite
+   ID=i_serpentstone_staff
+   NAME=Cassiterite Serpentstone Staff
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=26
+   VALUE=82
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={60 72}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Cassiterite]
+   DEFNAME=i_staff_bladed_double_Cassiterite
+   ID=i_staff_bladed_double
+   NAME=Cassiterite Double Bladed Staff
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=34
+   VALUE=82
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={120 132}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Glass Staff
+
+[ITEMDEF i_glass_staff_Cassiterite]
+   DEFNAME=i_glass_staff_Cassiterite
+   ID=i_glass_staff
+   NAME=Cassiterite Glass Staff
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=31
+   VALUE=82
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={90 102}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Bladed Staff
+
+[ITEMDEF i_bladed_staff_Cassiterite]
+   DEFNAME=i_bladed_staff_Cassiterite
+   ID=i_bladed_staff
+   NAME=Cassiterite Bladed Staff
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=32
+   VALUE=82
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={115 127}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Tongs
+
+[ITEMDEF i_tongs_Cassiterite]
+   DEFNAME=i_tongs_Cassiterite
+   ID=i_tongs
+   NAME=Cassiterite Tongs
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=9
+   VALUE=82
+   SPEED=11
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={0 12}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Mace
+
+[ITEMDEF i_mace_Cassiterite]
+   DEFNAME=i_mace_Cassiterite
+   ID=i_mace
+   NAME=Cassiterite Mace
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=22
+   VALUE=82
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Maul
+
+[ITEMDEF i_maul_Cassiterite]
+   DEFNAME=i_maul_Cassiterite
+   ID=i_maul
+   NAME=Cassiterite Maul
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=24
+   VALUE=82
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={40 52}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Scepter
+
+[ITEMDEF i_scepter_Cassiterite]
+   DEFNAME=i_scepter_Cassiterite
+   ID=i_scepter
+   NAME=Cassiterite Scepter
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=82
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={50 62}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Cassiterite]
+   DEFNAME=i_hammer_sledge_Cassiterite
+   ID=i_hammer_sledge
+   NAME=Cassiterite Sledge Hammer
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=82
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={20 32}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Cassiterite]
+   DEFNAME=i_hammer_smith_Cassiterite
+   ID=i_hammer_smith
+   NAME=Cassiterite Smiths Hammer
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=12
+   VALUE=82
+   SPEED=11
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite War Mace
+
+[ITEMDEF i_mace_war_Cassiterite]
+   DEFNAME=i_mace_war_Cassiterite
+   ID=i_mace_war
+   NAME=Cassiterite War Mace
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=30
+   VALUE=82
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={80 92}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Disc Mace
+
+[ITEMDEF i_disc_mace_Cassiterite]
+   DEFNAME=i_disc_mace_Cassiterite
+   ID=i_disc_mace
+   NAME=Cassiterite Disc Mace
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=30
+   VALUE=82
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={70 82}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite War Hammer
+
+[ITEMDEF i_hammer_war_Cassiterite]
+   DEFNAME=i_hammer_war_Cassiterite
+   ID=i_hammer_war
+   NAME=Cassiterite War Hammer
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=36
+   VALUE=82
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={100 112}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Hammer Pick
+
+[ITEMDEF i_hammer_pick_Cassiterite]
+   DEFNAME=i_hammer_pick_Cassiterite
+   ID=i_hammer_pick
+   NAME=Cassiterite Hammer Pick
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=32
+   VALUE=82
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={55 67}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite War Axe
+
+[ITEMDEF i_axe_war_Cassiterite]
+   DEFNAME=i_axe_war_Cassiterite
+   ID=i_axe_war
+   NAME=Cassiterite War Axe
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=22
+   VALUE=82
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={65 77}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Tessen
+
+[ITEMDEF i_tessen_Cassiterite]
+   DEFNAME=i_tessen_Cassiterite
+   ID=i_tessen
+   NAME=Cassiterite Tessen
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=21
+   VALUE=82
+   SPEED=36
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={75 87}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Long Sword
+
+[ITEMDEF i_sword_long_Cassiterite]
+   DEFNAME=i_sword_long_Cassiterite
+   ID=i_sword_long
+   NAME=Cassiterite Long Sword
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=82
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={10 22}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Broad Sword
+
+[ITEMDEF i_sword_broad_Cassiterite]
+   DEFNAME=i_sword_broad_Cassiterite
+   ID=i_sword_broad
+   NAME=Cassiterite Broad Sword
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=82
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={20 32}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Scimitar
+
+[ITEMDEF i_scimitar_Cassiterite]
+   DEFNAME=i_scimitar_Cassiterite
+   ID=i_scimitar
+   NAME=Cassiterite Scimitar
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=82
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Viking Sword
+
+[ITEMDEF i_sword_viking_Cassiterite]
+   DEFNAME=i_sword_viking_Cassiterite
+   ID=i_sword_viking
+   NAME=Cassiterite Viking Sword
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=82
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={35 47}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Katana
+
+[ITEMDEF i_katana_Cassiterite]
+   DEFNAME=i_katana_Cassiterite
+   ID=i_katana
+   NAME=Cassiterite Katana
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=82
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={80 92}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Wakizashi
+
+[ITEMDEF i_wakizashi_Cassiterite]
+   DEFNAME=i_wakizashi_Cassiterite
+   ID=i_wakizashi
+   NAME=Cassiterite Wakizashi
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=82
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={45 57}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Long Sword
+
+[ITEMDEF i_sword_long_b_Cassiterite]
+   DEFNAME=i_sword_long_b_Cassiterite
+   ID=i_sword_long_b
+   NAME=Cassiterite Long Sword
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=82
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={50 62}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Paladin Sword
+
+[ITEMDEF i_sword_paladin_Cassiterite]
+   DEFNAME=i_sword_paladin_Cassiterite
+   ID=i_sword_paladin
+   NAME=Cassiterite Paladin Sword
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=82
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={65 77}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Bokuto
+
+[ITEMDEF i_bokuto_Cassiterite]
+   DEFNAME=i_bokuto_Cassiterite
+   ID=i_bokuto
+   NAME=Cassiterite Bokuto
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=82
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={70 82}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Cassiterite]
+   DEFNAME=i_Radiant_Scimitar_Cassiterite
+   ID=i_Radiant_Scimitar
+   NAME=Cassiterite Radiant Scimitar
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=82
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={75 87}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Bone Harvester
+
+[ITEMDEF i_bone_harvester_Cassiterite]
+   DEFNAME=i_bone_harvester_Cassiterite
+   ID=i_bone_harvester
+   NAME=Cassiterite Bone Harvester
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=82
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={55 67}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Butcher Knife
+
+[ITEMDEF i_knife_butcher_Cassiterite]
+   DEFNAME=i_knife_butcher_Cassiterite
+   ID=i_knife_butcher
+   NAME=Cassiterite Butcher Knife
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=16
+   VALUE=82
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Cassiterite]
+   DEFNAME=i_cleaver_meat_Cassiterite
+   ID=i_cleaver_meat
+   NAME=Cassiterite Meat Cleaver
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=16
+   VALUE=82
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Elven Machete
+
+[ITEMDEF i_elven_machete_Cassiterite]
+   DEFNAME=i_elven_machete_Cassiterite
+   ID=i_elven_machete
+   NAME=Cassiterite Elven Machete
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=82
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={60 72}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Bone Machete
+
+[ITEMDEF i_bone_machete_Cassiterite]
+   DEFNAME=i_bone_machete_Cassiterite
+   ID=i_bone_machete
+   NAME=Cassiterite Bone Machete
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=82
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={50 62}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Daisho
+
+[ITEMDEF i_daisho_Cassiterite]
+   DEFNAME=i_daisho_Cassiterite
+   ID=i_daisho
+   NAME=Cassiterite Daisho
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=82
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={65 77}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite No-Dachi
+
+[ITEMDEF i_no_dachi_Cassiterite]
+   DEFNAME=i_no_dachi_Cassiterite
+   ID=i_no_dachi
+   NAME=Cassiterite No-Dachi
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=82
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={75 87}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Rune Blade
+
+[ITEMDEF i_Rune_Blade_Cassiterite]
+   DEFNAME=i_Rune_Blade_Cassiterite
+   ID=i_Rune_Blade
+   NAME=Cassiterite Rune Blade
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=30
+   VALUE=82
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={115 127}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Axe
+
+[ITEMDEF i_axe_Cassiterite]
+   DEFNAME=i_axe_Cassiterite
+   ID=i_axe
+   NAME=Cassiterite Axe
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=20
+   VALUE=82
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={42 54}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Bardiche
+
+[ITEMDEF i_bardiche_Cassiterite]
+   DEFNAME=i_bardiche_Cassiterite
+   ID=i_bardiche
+   NAME=Cassiterite Bardiche
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=82
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={58 70}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Battle Axe
+
+[ITEMDEF i_axe_battle_Cassiterite]
+   DEFNAME=i_axe_battle_Cassiterite
+   ID=i_axe_battle
+   NAME=Cassiterite Battle Axe
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=82
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={65 77}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Double Axe
+
+[ITEMDEF i_axe_double_Cassiterite]
+   DEFNAME=i_axe_double_Cassiterite
+   ID=i_axe_double
+   NAME=Cassiterite Double Axe
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=82
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={70 82}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Cassiterite]
+   DEFNAME=i_axe_exec_Cassiterite
+   ID=i_axe_exec
+   NAME=Cassiterite Exectutioners Axe
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=82
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={73 85}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Halberd
+
+[ITEMDEF i_halberd_Cassiterite]
+   DEFNAME=i_halberd_Cassiterite
+   ID=i_halberd
+   NAME=Cassiterite Halberd
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=82
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={75 87}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Hatchet
+
+[ITEMDEF i_hatchet_Cassiterite]
+   DEFNAME=i_hatchet_Cassiterite
+   ID=i_hatchet
+   NAME=Cassiterite Hatchet
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=21
+   VALUE=82
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={40 52}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Cassiterite]
+   DEFNAME=i_axe_battle_large_Cassiterite
+   ID=i_axe_battle_large
+   NAME=Cassiterite Large Battle Axe
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=82
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={100 112}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Ornate Axe
+
+[ITEMDEF i_ornate_axe_Cassiterite]
+   DEFNAME=i_ornate_axe_Cassiterite
+   ID=i_ornate_axe
+   NAME=Cassiterite Ornate Axe
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=82
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={60 72}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Cassiterite]
+   DEFNAME=i_axe_two_hand_Cassiterite
+   ID=i_axe_two_hand
+   NAME=Cassiterite Two Handed Axe
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=82
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={55 67}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Dual Axes
+
+[ITEMDEF i_dual_short_axes_Cassiterite]
+   DEFNAME=i_dual_short_axes_Cassiterite
+   ID=i_dual_short_axes
+   NAME=Cassiterite Dual Axes
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=82
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={95 107}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Cresent Blade
+
+[ITEMDEF i_crescent_blade_Cassiterite]
+   DEFNAME=i_crescent_blade_Cassiterite
+   ID=i_crescent_blade
+   NAME=Cassiterite Cresent Blade
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=82
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={110 122}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Dagger
+
+[ITEMDEF i_dagger_Cassiterite]
+   DEFNAME=i_dagger_Cassiterite
+   ID=i_dagger
+   NAME=Cassiterite Dagger
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=12
+   VALUE=82
+   SPEED=24
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={10 22}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Skinning Knife
+
+[ITEMDEF i_knife_skinning_Cassiterite]
+   DEFNAME=i_knife_skinning_Cassiterite
+   ID=i_knife_skinning
+   NAME=Cassiterite Skinning Knife
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=12
+   VALUE=82
+   SPEED=24
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={15 27}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Cassiterite]
+   DEFNAME=i_sword_Assassin_Spike_Cassiterite
+   ID=i_sword_Assassin_Spike
+   NAME=Cassiterite Assassin Spike
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=82
+   SPEED=26
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Cutlass
+
+[ITEMDEF i_cutlass_Cassiterite]
+   DEFNAME=i_cutlass_Cassiterite
+   ID=i_cutlass
+   NAME=Cassiterite Cutlass
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=82
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={25 37}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Short Blade
+
+[ITEMDEF i_shortblade_Cassiterite]
+   DEFNAME=i_shortblade_Cassiterite
+   ID=i_shortblade
+   NAME=Cassiterite Short Blade
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=82
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={35 47}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Scythe
+
+[ITEMDEF i_scythe_Cassiterite]
+   DEFNAME=i_scythe_Cassiterite
+   ID=i_scythe
+   NAME=Cassiterite Scythe
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=29
+   VALUE=82
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={115 127}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Short Spear
+
+[ITEMDEF i_spear_short_Cassiterite]
+   DEFNAME=i_spear_short_Cassiterite
+   ID=i_spear_short
+   NAME=Cassiterite Short Spear
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=82
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={45 57}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite War Fork
+
+[ITEMDEF i_war_fork_Cassiterite]
+   DEFNAME=i_war_fork_Cassiterite
+   ID=i_war_fork
+   NAME=Cassiterite War Fork
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=82
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={50 62}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Leafblade
+
+[ITEMDEF i_sword_leafblade_Cassiterite]
+   DEFNAME=i_sword_leafblade_Cassiterite
+   ID=i_sword_leafblade
+   NAME=Cassiterite Leafblade
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=82
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={60 72}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Cassiterite]
+   DEFNAME=i_elven_spellblade_Cassiterite
+   ID=i_elven_spellblade
+   NAME=Cassiterite Elven Spell Blade
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=82
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={75 87}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Pitchfork
+
+[ITEMDEF i_pitchfork_Cassiterite]
+   DEFNAME=i_pitchfork_Cassiterite
+   ID=i_pitchfork
+   NAME=Cassiterite Pitchfork
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=82
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={55 67}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite War Cleaver
+
+[ITEMDEF i_war_cleaver_Cassiterite]
+   DEFNAME=i_war_cleaver_Cassiterite
+   ID=i_war_cleaver
+   NAME=Cassiterite War Cleaver
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=82
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={65 77}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Pike
+
+[ITEMDEF i_pike_Cassiterite]
+   DEFNAME=i_pike_Cassiterite
+   ID=i_pike
+   NAME=Cassiterite Pike
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=82
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={70 82}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Blood Blade
+
+[ITEMDEF i_bloodblade_Cassiterite]
+   DEFNAME=i_bloodblade_Cassiterite
+   ID=i_bloodblade
+   NAME=Cassiterite Blood Blade
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=82
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={75 87}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Kama
+
+[ITEMDEF i_kama_Cassiterite]
+   DEFNAME=i_kama_Cassiterite
+   ID=i_kama
+   NAME=Cassiterite Kama
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=82
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={77 89}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Kryss
+
+[ITEMDEF i_kryss_Cassiterite]
+   DEFNAME=i_kryss_Cassiterite
+   ID=i_kryss
+   NAME=Cassiterite Kryss
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=82
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={80 92}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Lajatang
+
+[ITEMDEF i_lajatang_Cassiterite]
+   DEFNAME=i_lajatang_Cassiterite
+   ID=i_lajatang
+   NAME=Cassiterite Lajatang
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=82
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={85 97}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Sai
+
+[ITEMDEF i_sai_Cassiterite]
+   DEFNAME=i_sai_Cassiterite
+   ID=i_sai
+   NAME=Cassiterite Sai
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=82
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={76 88}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Tekagi
+
+[ITEMDEF i_tekagi_Cassiterite]
+   DEFNAME=i_tekagi_Cassiterite
+   ID=i_tekagi
+   NAME=Cassiterite Tekagi
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=82
+   SPEED=26
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={90 102}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cassiterite Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Cassiterite]
+   DEFNAME=i_dual_pointed_spear_Cassiterite
+   ID=i_dual_pointed_spear
+   NAME=Cassiterite Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Cassiterite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=82
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cassiterite
+
+ON=@Create
+   COLOR=color_ore_Cassiterite
+   HITPOINTS={115 127}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

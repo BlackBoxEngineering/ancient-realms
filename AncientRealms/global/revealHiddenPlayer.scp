@@ -1,0 +1,16 @@
+[FUNCTION f_revealHiddenPlayer]
+REF1=<SERV.UID.<ARGV[0]>>
+IF ((<REF1.FLAGS>&statf_hidden) && !(<REF1.ISGM>))
+	REF1.FLAGS=<REF1.FLAGS>&~statf_hidden
+	REF1.UPDATE
+ENDIF
+IF ((<REF1.FLAGS>&statf_invisible) && !(<REF1.ISGM>))
+	REF1.FLAGS=<REF1.FLAGS>&~statf_invisible
+	REF1.UPDATE
+ENDIF
+IF ((<REF1.FLAGS>&statf_insubstantial) && !(<REF1.ISGM>))
+	REF1.FLAGS=<REF1.FLAGS>&~statf_insubstantial
+	REF1.UPDATE
+ENDIF
+
+[EOF]

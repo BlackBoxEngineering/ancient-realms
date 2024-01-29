@@ -1,0 +1,91 @@
+[CHARDEF 018]
+DEFNAME=c_liche
+NAME=Liche
+SOUND=snd_MONSTER_LICHE1
+ICON=i_pet_GHOUL
+ANIM=07bc7f
+DAM=25,35
+ARMOR=18
+//RESOURCES=10 t_eerie_stuff
+CAN=MT_WALK|MT_USEHANDS
+FOODTYPE=
+//SHELTER=r_dungeon,r_caves,r_spooky
+DESIRES=t_bone,i_gold,t_wand,t_reagent
+BLOODCOLOR=colors_green
+TEVENTS=e_undead
+CATEGORY=Invictus - Monsters
+SUBSECTION=Undeads
+DESCRIPTION=Liche
+
+ON=@Create
+	NPC=brain_undead
+	FAME={60 80}
+	KARMA={-40 -80}
+	//ALIGNMENT=EVIL
+	STR={105 135}
+	DEX={66 85}
+	INT={175 205}
+	PARRYING={55.0 65.0}
+	MAGERY={70.0 80.0}
+	MAGICRESISTANCE={70.0 90.0}
+	TACTICS={70.0 90.0}
+	//SPELLCIRCLES=2-4
+	// knows undead type spells.
+	ITEMNEWBIE=i_spellbook
+	ADDSPELL=s_Clumsy
+	ADDSPELL=s_Weaken
+	ADDSPELL=s_feeblemind
+	ADDSPELL=s_Harm
+	ADDSPELL=s_magic_arrow
+	ADDSPELL=s_fireball
+	ADDSPELL=s_poison
+	ADDSPELL=s_curse
+	ADDSPELL=s_paralyze
+	ADDSPELL=s_dispel
+	ADDSPELL=s_summon_undead
+	ADDSPELL=s_animate_dead
+	ADDSPELL=s_fire_bolt
+	ADDSPELL=s_Hallucination
+
+ON=@NPCRestock
+	ITEM=loot_LICH
+
+[CHARDEF 01a]
+//SPECTRE (Ghoul,Ghost or Spectre)
+DEFNAME=c_spectre
+//DEFNAME2=SPECTRE
+NAME=Spectre
+SOUND=snd_MONSTER_GHOST1
+ICON=i_pet_GHOUL
+ANIM=078c7f
+DAM=25,30
+ARMOR=14
+CAN=MT_WALK|MT_GHOST
+FOODTYPE=
+//SHELTER=r_spooky,r_dungeon
+BLOODCOLOR=colors_green
+TEVENTS=e_undead
+CATEGORY=Invictus - Monsters
+SUBSECTION=Undeads
+DESCRIPTION=Spectre
+
+ON=@Create
+	NPC=brain_undead
+	FAME={60 80}
+	KARMA={-50 -100}
+	//ALIGNMENT=EVIL
+	STR={76 100}
+	DEX={76 95}
+	INT={36 60}
+	PARRYING={45.0 55.0}
+	MAGICRESISTANCE={35.0 50.0}
+	TACTICS={45.0 60.0}
+	WRESTLING={45.0 55.0}
+
+ON=@NPCRestock
+	ITEM=loot_SPECTRE
+
+
+
+
+[EOF]

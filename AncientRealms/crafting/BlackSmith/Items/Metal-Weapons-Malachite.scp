@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Malachite Quarter Staff
+
+[ITEMDEF i_staff_quarter_Malachite]
+   DEFNAME=i_staff_quarter_Malachite
+   ID=i_staff_quarter
+   NAME=Malachite Quarter Staff
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=22
+   VALUE=81
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={20 32}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Malachite]
+   DEFNAME=i_serpentstone_staff_Malachite
+   ID=i_serpentstone_staff
+   NAME=Malachite Serpentstone Staff
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=26
+   VALUE=81
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={60 72}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Malachite]
+   DEFNAME=i_staff_bladed_double_Malachite
+   ID=i_staff_bladed_double
+   NAME=Malachite Double Bladed Staff
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=34
+   VALUE=81
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={120 132}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Glass Staff
+
+[ITEMDEF i_glass_staff_Malachite]
+   DEFNAME=i_glass_staff_Malachite
+   ID=i_glass_staff
+   NAME=Malachite Glass Staff
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=31
+   VALUE=81
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={90 102}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Bladed Staff
+
+[ITEMDEF i_bladed_staff_Malachite]
+   DEFNAME=i_bladed_staff_Malachite
+   ID=i_bladed_staff
+   NAME=Malachite Bladed Staff
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=32
+   VALUE=81
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={115 127}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Tongs
+
+[ITEMDEF i_tongs_Malachite]
+   DEFNAME=i_tongs_Malachite
+   ID=i_tongs
+   NAME=Malachite Tongs
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=9
+   VALUE=81
+   SPEED=11
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={0 12}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Mace
+
+[ITEMDEF i_mace_Malachite]
+   DEFNAME=i_mace_Malachite
+   ID=i_mace
+   NAME=Malachite Mace
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=22
+   VALUE=81
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Maul
+
+[ITEMDEF i_maul_Malachite]
+   DEFNAME=i_maul_Malachite
+   ID=i_maul
+   NAME=Malachite Maul
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=24
+   VALUE=81
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={40 52}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Scepter
+
+[ITEMDEF i_scepter_Malachite]
+   DEFNAME=i_scepter_Malachite
+   ID=i_scepter
+   NAME=Malachite Scepter
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=81
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={50 62}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Malachite]
+   DEFNAME=i_hammer_sledge_Malachite
+   ID=i_hammer_sledge
+   NAME=Malachite Sledge Hammer
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=81
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={20 32}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Malachite]
+   DEFNAME=i_hammer_smith_Malachite
+   ID=i_hammer_smith
+   NAME=Malachite Smiths Hammer
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=12
+   VALUE=81
+   SPEED=11
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite War Mace
+
+[ITEMDEF i_mace_war_Malachite]
+   DEFNAME=i_mace_war_Malachite
+   ID=i_mace_war
+   NAME=Malachite War Mace
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=30
+   VALUE=81
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={80 92}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Disc Mace
+
+[ITEMDEF i_disc_mace_Malachite]
+   DEFNAME=i_disc_mace_Malachite
+   ID=i_disc_mace
+   NAME=Malachite Disc Mace
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=30
+   VALUE=81
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={70 82}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite War Hammer
+
+[ITEMDEF i_hammer_war_Malachite]
+   DEFNAME=i_hammer_war_Malachite
+   ID=i_hammer_war
+   NAME=Malachite War Hammer
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=36
+   VALUE=81
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={100 112}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Hammer Pick
+
+[ITEMDEF i_hammer_pick_Malachite]
+   DEFNAME=i_hammer_pick_Malachite
+   ID=i_hammer_pick
+   NAME=Malachite Hammer Pick
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=32
+   VALUE=81
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={55 67}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite War Axe
+
+[ITEMDEF i_axe_war_Malachite]
+   DEFNAME=i_axe_war_Malachite
+   ID=i_axe_war
+   NAME=Malachite War Axe
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=22
+   VALUE=81
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={65 77}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Tessen
+
+[ITEMDEF i_tessen_Malachite]
+   DEFNAME=i_tessen_Malachite
+   ID=i_tessen
+   NAME=Malachite Tessen
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=21
+   VALUE=81
+   SPEED=36
+   SKILL=MACEFIGHTING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={75 87}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Long Sword
+
+[ITEMDEF i_sword_long_Malachite]
+   DEFNAME=i_sword_long_Malachite
+   ID=i_sword_long
+   NAME=Malachite Long Sword
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=81
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={10 22}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Broad Sword
+
+[ITEMDEF i_sword_broad_Malachite]
+   DEFNAME=i_sword_broad_Malachite
+   ID=i_sword_broad
+   NAME=Malachite Broad Sword
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=81
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={20 32}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Scimitar
+
+[ITEMDEF i_scimitar_Malachite]
+   DEFNAME=i_scimitar_Malachite
+   ID=i_scimitar
+   NAME=Malachite Scimitar
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=81
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Viking Sword
+
+[ITEMDEF i_sword_viking_Malachite]
+   DEFNAME=i_sword_viking_Malachite
+   ID=i_sword_viking
+   NAME=Malachite Viking Sword
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=81
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={35 47}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Katana
+
+[ITEMDEF i_katana_Malachite]
+   DEFNAME=i_katana_Malachite
+   ID=i_katana
+   NAME=Malachite Katana
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=81
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={80 92}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Wakizashi
+
+[ITEMDEF i_wakizashi_Malachite]
+   DEFNAME=i_wakizashi_Malachite
+   ID=i_wakizashi
+   NAME=Malachite Wakizashi
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=81
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={45 57}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Long Sword
+
+[ITEMDEF i_sword_long_b_Malachite]
+   DEFNAME=i_sword_long_b_Malachite
+   ID=i_sword_long_b
+   NAME=Malachite Long Sword
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=81
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={50 62}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Paladin Sword
+
+[ITEMDEF i_sword_paladin_Malachite]
+   DEFNAME=i_sword_paladin_Malachite
+   ID=i_sword_paladin
+   NAME=Malachite Paladin Sword
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=81
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={65 77}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Bokuto
+
+[ITEMDEF i_bokuto_Malachite]
+   DEFNAME=i_bokuto_Malachite
+   ID=i_bokuto
+   NAME=Malachite Bokuto
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=81
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={70 82}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Malachite]
+   DEFNAME=i_Radiant_Scimitar_Malachite
+   ID=i_Radiant_Scimitar
+   NAME=Malachite Radiant Scimitar
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=81
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={75 87}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Bone Harvester
+
+[ITEMDEF i_bone_harvester_Malachite]
+   DEFNAME=i_bone_harvester_Malachite
+   ID=i_bone_harvester
+   NAME=Malachite Bone Harvester
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=81
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={55 67}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Butcher Knife
+
+[ITEMDEF i_knife_butcher_Malachite]
+   DEFNAME=i_knife_butcher_Malachite
+   ID=i_knife_butcher
+   NAME=Malachite Butcher Knife
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=16
+   VALUE=81
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Malachite]
+   DEFNAME=i_cleaver_meat_Malachite
+   ID=i_cleaver_meat
+   NAME=Malachite Meat Cleaver
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=16
+   VALUE=81
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Elven Machete
+
+[ITEMDEF i_elven_machete_Malachite]
+   DEFNAME=i_elven_machete_Malachite
+   ID=i_elven_machete
+   NAME=Malachite Elven Machete
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=81
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={60 72}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Bone Machete
+
+[ITEMDEF i_bone_machete_Malachite]
+   DEFNAME=i_bone_machete_Malachite
+   ID=i_bone_machete
+   NAME=Malachite Bone Machete
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=81
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={50 62}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Daisho
+
+[ITEMDEF i_daisho_Malachite]
+   DEFNAME=i_daisho_Malachite
+   ID=i_daisho
+   NAME=Malachite Daisho
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=81
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={65 77}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite No-Dachi
+
+[ITEMDEF i_no_dachi_Malachite]
+   DEFNAME=i_no_dachi_Malachite
+   ID=i_no_dachi
+   NAME=Malachite No-Dachi
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=81
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={75 87}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Rune Blade
+
+[ITEMDEF i_Rune_Blade_Malachite]
+   DEFNAME=i_Rune_Blade_Malachite
+   ID=i_Rune_Blade
+   NAME=Malachite Rune Blade
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=30
+   VALUE=81
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={115 127}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Axe
+
+[ITEMDEF i_axe_Malachite]
+   DEFNAME=i_axe_Malachite
+   ID=i_axe
+   NAME=Malachite Axe
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=20
+   VALUE=81
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={42 54}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Bardiche
+
+[ITEMDEF i_bardiche_Malachite]
+   DEFNAME=i_bardiche_Malachite
+   ID=i_bardiche
+   NAME=Malachite Bardiche
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=81
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={58 70}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Battle Axe
+
+[ITEMDEF i_axe_battle_Malachite]
+   DEFNAME=i_axe_battle_Malachite
+   ID=i_axe_battle
+   NAME=Malachite Battle Axe
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=81
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={65 77}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Double Axe
+
+[ITEMDEF i_axe_double_Malachite]
+   DEFNAME=i_axe_double_Malachite
+   ID=i_axe_double
+   NAME=Malachite Double Axe
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=81
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={70 82}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Malachite]
+   DEFNAME=i_axe_exec_Malachite
+   ID=i_axe_exec
+   NAME=Malachite Exectutioners Axe
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=81
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={73 85}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Halberd
+
+[ITEMDEF i_halberd_Malachite]
+   DEFNAME=i_halberd_Malachite
+   ID=i_halberd
+   NAME=Malachite Halberd
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=81
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={75 87}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Hatchet
+
+[ITEMDEF i_hatchet_Malachite]
+   DEFNAME=i_hatchet_Malachite
+   ID=i_hatchet
+   NAME=Malachite Hatchet
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=21
+   VALUE=81
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={40 52}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Malachite]
+   DEFNAME=i_axe_battle_large_Malachite
+   ID=i_axe_battle_large
+   NAME=Malachite Large Battle Axe
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=81
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={100 112}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Ornate Axe
+
+[ITEMDEF i_ornate_axe_Malachite]
+   DEFNAME=i_ornate_axe_Malachite
+   ID=i_ornate_axe
+   NAME=Malachite Ornate Axe
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=81
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={60 72}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Malachite]
+   DEFNAME=i_axe_two_hand_Malachite
+   ID=i_axe_two_hand
+   NAME=Malachite Two Handed Axe
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=81
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={55 67}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Dual Axes
+
+[ITEMDEF i_dual_short_axes_Malachite]
+   DEFNAME=i_dual_short_axes_Malachite
+   ID=i_dual_short_axes
+   NAME=Malachite Dual Axes
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=81
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={95 107}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Cresent Blade
+
+[ITEMDEF i_crescent_blade_Malachite]
+   DEFNAME=i_crescent_blade_Malachite
+   ID=i_crescent_blade
+   NAME=Malachite Cresent Blade
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=81
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={110 122}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Dagger
+
+[ITEMDEF i_dagger_Malachite]
+   DEFNAME=i_dagger_Malachite
+   ID=i_dagger
+   NAME=Malachite Dagger
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=12
+   VALUE=81
+   SPEED=24
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={10 22}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Skinning Knife
+
+[ITEMDEF i_knife_skinning_Malachite]
+   DEFNAME=i_knife_skinning_Malachite
+   ID=i_knife_skinning
+   NAME=Malachite Skinning Knife
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=12
+   VALUE=81
+   SPEED=24
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={15 27}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Malachite]
+   DEFNAME=i_sword_Assassin_Spike_Malachite
+   ID=i_sword_Assassin_Spike
+   NAME=Malachite Assassin Spike
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=81
+   SPEED=26
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={30 42}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Cutlass
+
+[ITEMDEF i_cutlass_Malachite]
+   DEFNAME=i_cutlass_Malachite
+   ID=i_cutlass
+   NAME=Malachite Cutlass
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=81
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={25 37}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Short Blade
+
+[ITEMDEF i_shortblade_Malachite]
+   DEFNAME=i_shortblade_Malachite
+   ID=i_shortblade
+   NAME=Malachite Short Blade
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=81
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={35 47}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Scythe
+
+[ITEMDEF i_scythe_Malachite]
+   DEFNAME=i_scythe_Malachite
+   ID=i_scythe
+   NAME=Malachite Scythe
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=29
+   VALUE=81
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={115 127}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Short Spear
+
+[ITEMDEF i_spear_short_Malachite]
+   DEFNAME=i_spear_short_Malachite
+   ID=i_spear_short
+   NAME=Malachite Short Spear
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=81
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={45 57}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite War Fork
+
+[ITEMDEF i_war_fork_Malachite]
+   DEFNAME=i_war_fork_Malachite
+   ID=i_war_fork
+   NAME=Malachite War Fork
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=81
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={50 62}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Leafblade
+
+[ITEMDEF i_sword_leafblade_Malachite]
+   DEFNAME=i_sword_leafblade_Malachite
+   ID=i_sword_leafblade
+   NAME=Malachite Leafblade
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=81
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={60 72}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Malachite]
+   DEFNAME=i_elven_spellblade_Malachite
+   ID=i_elven_spellblade
+   NAME=Malachite Elven Spell Blade
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=81
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={75 87}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Pitchfork
+
+[ITEMDEF i_pitchfork_Malachite]
+   DEFNAME=i_pitchfork_Malachite
+   ID=i_pitchfork
+   NAME=Malachite Pitchfork
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=81
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={55 67}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite War Cleaver
+
+[ITEMDEF i_war_cleaver_Malachite]
+   DEFNAME=i_war_cleaver_Malachite
+   ID=i_war_cleaver
+   NAME=Malachite War Cleaver
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=81
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={65 77}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Pike
+
+[ITEMDEF i_pike_Malachite]
+   DEFNAME=i_pike_Malachite
+   ID=i_pike
+   NAME=Malachite Pike
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=81
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={70 82}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Blood Blade
+
+[ITEMDEF i_bloodblade_Malachite]
+   DEFNAME=i_bloodblade_Malachite
+   ID=i_bloodblade
+   NAME=Malachite Blood Blade
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=81
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={75 87}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Kama
+
+[ITEMDEF i_kama_Malachite]
+   DEFNAME=i_kama_Malachite
+   ID=i_kama
+   NAME=Malachite Kama
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=81
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={77 89}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Kryss
+
+[ITEMDEF i_kryss_Malachite]
+   DEFNAME=i_kryss_Malachite
+   ID=i_kryss
+   NAME=Malachite Kryss
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=81
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={80 92}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Lajatang
+
+[ITEMDEF i_lajatang_Malachite]
+   DEFNAME=i_lajatang_Malachite
+   ID=i_lajatang
+   NAME=Malachite Lajatang
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=81
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={85 97}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Sai
+
+[ITEMDEF i_sai_Malachite]
+   DEFNAME=i_sai_Malachite
+   ID=i_sai
+   NAME=Malachite Sai
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=81
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={76 88}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Tekagi
+
+[ITEMDEF i_tekagi_Malachite]
+   DEFNAME=i_tekagi_Malachite
+   ID=i_tekagi
+   NAME=Malachite Tekagi
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=81
+   SPEED=26
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={90 102}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Malachite Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Malachite]
+   DEFNAME=i_dual_pointed_spear_Malachite
+   ID=i_dual_pointed_spear
+   NAME=Malachite Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Malachite
+   WEIGHT=16
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=81
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=36
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Malachite
+
+ON=@Create
+   COLOR=color_ore_Malachite
+   HITPOINTS={115 127}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

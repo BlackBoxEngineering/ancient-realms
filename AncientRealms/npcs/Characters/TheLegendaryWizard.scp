@@ -1,0 +1,337 @@
+/////////////////////////////////////////////////////////////////////////////////////////////// The Legendary Wizard Transport Medalions
+[TYPEDEF t_wizpad]
+ON=@DCLICK
+	IF <SRC.ISGM>
+		SAY WizPad
+	ENDIF
+	RETURN 1
+
+[ITEMDEF i_wizardpad]
+NAME=Wizard Pad
+ID=02462
+TYPE=t_WizPad
+
+ON=@Create
+	ATTR=attr_invis|attr_move_never
+
+
+[ITEMDEF i_TransportMedalion_GuildHall]
+NAME=Guild Hall Medalion
+ID=i_necklace_gold
+VALUE=100
+
+ON=@Create
+	ATTR=ATTR_DECAY
+
+ON=@Equip
+	TIMER=10
+	SRC.MESSAGE Travelling to The Guild Hall
+
+ON=@Timer
+	IF <CONT.ISNEARTYPE t_wizpad 6>
+		CONT.GO=The Guild Hall
+		REMOVE
+	ELSE
+		CONT.SAY You Must be Near a Wizard to use the Teleport Necklace
+		BOUNCE
+	ENDIF
+	RETURN 1
+
+[ITEMDEF i_TransportMedalion_BlackFell]
+NAME=BlackFell Medalion
+ID=i_necklace_gold
+VALUE=100
+
+ON=@Create
+	ATTR=ATTR_DECAY
+
+ON=@Equip
+	TIMER=10
+	SRC.MESSAGE Travelling to BlackFell
+
+ON=@Timer
+	IF <CONT.ISNEARTYPE t_wizpad 6>
+		CONT.GO=367,1479,6
+		REMOVE
+	ELSE
+		CONT.SAY You Must be Near a Wizard to use the Teleport Necklace
+		BOUNCE
+	ENDIF
+	RETURN 1
+	
+[ITEMDEF i_TransportMedalion_Minoc]
+NAME=Minoc Medalion
+ID=i_necklace_gold
+VALUE=100
+
+ON=@Create
+	ATTR=ATTR_DECAY
+
+ON=@Equip
+	TIMER=10
+	SRC.MESSAGE Travelling to Minoc
+
+ON=@Timer
+	IF <CONT.ISNEARTYPE t_wizpad 6>
+		CONT.GO=2590,535,15
+		REMOVE
+	ELSE
+		CONT.SAY You Must be Near a Wizard to use the Teleport Necklace
+		BOUNCE
+	ENDIF
+	RETURN 1	
+
+[ITEMDEF i_TransportMedalion_EventHalls]
+NAME=Tournament Square
+ID=i_necklace_gold
+VALUE=100
+
+ON=@Create
+	ATTR=ATTR_DECAY
+
+ON=@Equip
+	TIMER=10
+	SRC.MESSAGE Travelling to Tournament Square
+
+ON=@Timer
+	IF <CONT.ISNEARTYPE t_wizpad 6>
+		CONT.GO=5390,1135
+		REMOVE
+	ELSE
+		CONT.SAY You Must be Near a Wizard to use the Teleport Necklace
+		BOUNCE
+	ENDIF
+	RETURN 1	
+
+
+[ITEMDEF i_TransportMedalion_Astalon]
+NAME=Astalon Medalion
+ID=i_necklace_gold
+VALUE=100
+
+ON=@Create
+	ATTR=ATTR_DECAY
+
+ON=@Equip
+	TIMER=10
+	SRC.MESSAGE Travelling to Astalon
+
+ON=@Timer
+	IF <CONT.ISNEARTYPE t_wizpad 6>
+		CONT.GO=1317,2358,5
+		REMOVE
+	ELSE
+		CONT.SAY You Must be Near a Wizard to use the Teleport Necklace
+		BOUNCE
+	ENDIF
+	RETURN 1	
+
+	
+[ITEMDEF i_TransportMedalion_Britain]
+NAME=Britain Medalion
+ID=i_necklace_gold
+VALUE=100
+
+ON=@Create
+	ATTR=ATTR_DECAY
+
+ON=@Equip
+	TIMER=10
+	SRC.MESSAGE Travelling to Britain
+	
+ON=@Timer
+	IF <CONT.ISNEARTYPE t_wizpad 6>
+		CONT.GO=1617,1638,35
+		REMOVE
+	ELSE
+		CONT.SAY You Must be Near a Wizard to use the Teleport Necklace
+		BOUNCE
+	ENDIF
+	RETURN 1	
+	
+[ITEMDEF i_TransportMedalion_GuildHall]
+NAME=Guild Hall Medalion
+ID=i_necklace_gold
+VALUE=10
+
+ON=@Create
+	ATTR=ATTR_DECAY
+
+ON=@Equip
+	TIMER=10
+	SRC.MESSAGE Travelling to The Guild Hall
+
+ON=@Timer
+	IF <CONT.ISNEARTYPE t_wizpad 6>
+		CONT.GO=the guild hall
+		REMOVE
+	ELSE
+		CONT.SAY You Must be Near a Wizard to use the Teleport Necklace
+		BOUNCE
+	ENDIF
+	RETURN 1	
+	
+
+[ITEMDEF i_TransportMedalion_Cove]
+NAME=Cove Medalion
+ID=i_necklace_gold
+VALUE=100
+
+ON=@Create
+	ATTR=ATTR_DECAY
+
+ON=@Equip
+	TIMER=10
+	SRC.MESSAGE Travelling to Cove
+
+ON=@Timer
+	IF <CONT.ISNEARTYPE t_wizpad 6>
+		CONT.GO=2225,1203
+		REMOVE
+	ELSE
+		CONT.SAY You Must be Near a Wizard to use the Teleport Necklace
+		BOUNCE
+	ENDIF
+	RETURN 1	
+	
+[ITEMDEF i_TransportMedalion_SerpentsHold]
+NAME=Serpent's Hold Medalion
+ID=i_necklace_gold
+VALUE=100
+
+ON=@Create
+	ATTR=ATTR_DECAY
+
+ON=@Equip
+	TIMER=10
+	SRC.MESSAGE Travelling to Serpent's Hold
+
+ON=@Timer
+	IF <CONT.ISNEARTYPE t_wizpad 6>
+		CONT.GO=2879,3470,15
+		REMOVE
+	ELSE
+		CONT.SAY You Must be Near a Wizard to use the Teleport Necklace
+		BOUNCE
+	ENDIF
+	RETURN 1
+	
+[ITEMDEF i_TransportMedalion_SkaraBrae]
+NAME=Skara Brae Medalion
+ID=i_necklace_gold
+VALUE=100
+
+ON=@Create
+	ATTR=ATTR_DECAY
+
+ON=@Equip
+	TIMER=10
+	SRC.MESSAGE Travelling to Skara Brae
+
+ON=@Timer
+	IF <CONT.ISNEARTYPE t_wizpad 6>
+		CONT.GO=597,2263,0
+		REMOVE
+	ELSE
+		CONT.SAY You Must be Near a Wizard to use the Teleport Necklace
+		BOUNCE
+	ENDIF
+	RETURN 1
+
+[ITEMDEF i_TransportMedalion_Jhelom]
+NAME=Skara Brae Medalion
+ID=i_necklace_gold
+VALUE=100
+
+ON=@Create
+	ATTR=ATTR_DECAY
+
+ON=@Equip
+	TIMER=10
+	SRC.MESSAGE Travelling to Jhelom
+
+ON=@Timer
+	IF <CONT.ISNEARTYPE t_wizpad 6>
+		CONT.GO=1125,3623,5
+		REMOVE
+	ELSE
+		CONT.SAY You Must be Near a Wizard to use the Teleport Necklace
+		BOUNCE
+	ENDIF
+	RETURN 1
+
+/////////////////////////////////////////////////////////////////////////////////////////////// The Legendary Wizard
+[CHARDEF C_Invictus_Legendary_Wizard]
+DEFNAME=C_Invictus_Legendary_Wizard
+ID=c_man
+NAME=#NAMES_HUMANMALE
+TSPEECH=spk_human_prime
+TSPEECH=spk_shopkeep
+TSPEECH=spk_rehello
+TSPEECH=spk_needs
+TSPEECH=spk_human_default
+CATEGORY=Ancientrealms
+SUBSECTION=Wizards
+DESCRIPTION=Legendary Wizard
+
+ON=@CREATE
+	NAME=The legendary wizard
+	TITLE=Legendary Wizard
+	NPC=brain_vendor
+	COLOR=colors_skin
+	STR=9999
+	DEX=9999
+	INT=9999
+		
+ON=@NPCRestock
+	ITEMNEWBIE=i_robe
+	COLOR=00a50
+	ITEMNEWBIE=i_hat_wizards
+	COLOR=00a50
+	ITEMNEWBIE=i_staff_black
+	COLOR=00a50
+	ITEMNEWBIE=i_wizard_memory
+	SELL=VENDOR_S_LEGENDARY_WIZARD
+
+ON=@GETHIT
+	MESSAGE Carefull You Might Get Hurt!! <SRC.NAME>!
+	SRC.SUICIDE
+	RETURN 1
+
+ON=@SPELLEFFECT
+	MESSAGE Carefull you Might Kill Yourself!! <SRC.NAME>!
+	SRC.SUICIDE
+	RETURN 1
+
+ON=@DCLICK
+	SRC.ACT=<UID>
+
+/////////////////////////////////////////////////////////////////////////////////////////////// The Legendary Wizard Memory
+[ITEMDEF i_wizard_memory]
+NAME=I am Thee Legendary Wizard
+ID=i_memory
+TYPE=t_eq_script
+
+ON=@Create
+	ATTR=ATTR_DECAY
+	TIMER=15
+	
+ON=@Timer
+	
+	LINK=<TAG.TransportWizard>
+	IF (<link.timer> <= 10)
+		CONT.SAY Time to Go all Stand Close!
+		CONT.EMOTE sneeze
+		CONT.ANIM 17
+		CONT.EFFECT 1,0,0,0,0
+		CONT.SFX 015e
+	ELSEIF (<link.timer> > 10)
+		CONT.SAY I am the Legendary Wizard.
+		CONT.EMOTE gesture with his staff
+		CONT.ANIM 13
+	ENDIF
+	TIMER=15
+	RETURN 1
+
+[EOF]
+

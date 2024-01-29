@@ -1,0 +1,69 @@
+[SPEECH spk_shopCommands]
+
+ON=*Owner*
+	IF (<REGION.UID>==<SRC.REGION.UID>)
+		IF (<SERV.UID.<LINK.UID>.TAG.OwnersUID>==<SRC.UID>)
+			SRC.SAY @63 This is your shop.
+		ELSE		
+			SRC.SAY @63 This shop is owned by <SERV.UID.<LINK.UID>.TAG.Ownersname>.
+		ENDIF	
+	ENDIF
+	RETURN 1
+	
+ON=*bank*
+	IF (<REGION.UID>==<SRC.REGION.UID>)
+		IF (<SERV.UID.<LINK.UID>.TAG.OwnersUID>==<SRC.UID>)
+			SRC.BANKSELF
+		ENDIF
+	ENDIF
+	RETURN 1
+		
+ON=*place*trashcan*
+	IF (<REGION.UID>==<SRC.REGION.UID>)
+		IF (<SERV.UID.<LINK.UID>.TAG.TrashCanUid>)
+			SRC.MESSAGE @00029 There is already a Trash Can in Here!
+			RETURN 1
+		ELSE
+			IF (<SERV.UID.<LINK.UID>.TAG.OwnersUID>==<SRC.UID>)
+				NEWITEM=i_trash_can, 1, <SRC.UID>
+				SRC.NEW.DROP
+				SERV.UID.<LINK.UID>.TAG.TrashCanUid=<NEW.UID>
+			ELSE
+				SRC.MESSAGE @00029 Only the owner and the co-owner can place trash barrels.
+			ENDIF
+		ENDIF
+	ENDIF
+
+ON=*remove*trashcan*
+	IF (<REGION.UID>==<SRC.REGION.UID>)
+		IF (<SERV.UID.<LINK.UID>.TAG.OwnersUID>==<SRC.UID>)
+			SERV.UID.<SERV.UID.<LINK.UID>.TAG.TrashCanUid>.REMOVE
+			SERV.UID.<LINK.UID>.TAG.TrashCanUid=
+		ELSE
+			SRC.MESSAGE @00029 There is no Trash Can!
+		ENDIF
+	ENDIF
+	
+on=*wish*release*
+	IF (<REGION.UID>==<SRC.REGION.UID>)
+		IF (<SERV.UID.<LINK.UID>.TAG.OwnersUID>==<SRC.UID>)
+			TARGETF ReleaseItem
+		ENDIF
+	ENDIF
+
+on=*wish*lock*down*
+	IF (<REGION.UID>==<SRC.REGION.UID>)
+		IF (<SERV.UID.<LINK.UID>.TAG.OwnersUID>==<SRC.UID>)
+			TARGETF LockDownItem
+		ENDIF
+	ENDIF
+
+on=*wish*place*vendor*
+	IF (<REGION.UID>==<SRC.REGION.UID>)
+		IF (<SERV.UID.<LINK.UID>.TAG.OwnersUID>==<SRC.UID>)
+			SRC.SYSMESSAGE @95 Target your Vendor Deed
+			TARGETF ValidateVendorDeed
+		ENDIF
+	ENDIF
+	
+[EOF]

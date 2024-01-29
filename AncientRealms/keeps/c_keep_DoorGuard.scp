@@ -1,0 +1,49 @@
+[CHARDEF c_keep_DoorGuard]
+DEFNAME=c_keep_DoorGuard
+NAME=#NAMES_HUMANMALE the Door Guard
+ID=C_MAN
+CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
+DAM=12
+MOVERATE=20
+ARMOR=15
+DESIRES=i_gold,e_notoriety,t_keep_point
+AVERSIONS=t_TRAP
+DESIRES=e_notoriety, t_armor
+TEVENTS=e_Keep_Guard
+TEVENTS=e_Keep_DoorGuard
+
+CATEGORY=AncientRealms
+SUBSECTION=Keep Guards
+DESCRIPTION=Door Guard
+
+ON=@Create
+	TITLE=Keep Door Guard
+	NPC=brain_monster
+	COLOR=colors_skin
+	STR={151 165}
+	DEX={151 165}
+	INT={151 165}
+	FAME=0
+	KARMA=-1000
+	MAXHITS=<EVAL DoorGuardDefaultMaxHits>
+	SWORDSMANSHIP={80.0 120.0}
+	THROWING={80.0 120.0}
+	MAGICRESISTANCE={80.0 120.0}
+	TACTICS={80.0 120.0}
+	DETECTINGHIDDEN={80.0 120.0}
+	ITEMNEWBIE i_keep_GuardsBrains, 1, <UID>
+
+ON=@NPCRestock
+	ITEMNEWBIE=i_platemail_chest_Daemonite
+	ITEMNEWBIE=i_platemail_leggings_Daemonite
+	ITEMNEWBIE=i_platemail_arms_Daemonite
+	ITEMNEWBIE=i_platemail_helm_Daemonite
+	ITEMNEWBIE=i_platemail_gloves_Daemonite
+	ITEMNEWBIE=i_platemail_gorget_Daemonite
+	ITEMNEWBIE={i_boomerang 1 i_soul_glaive 1}
+	COLOR=color_ore_Chromium
+	ITEMNEWBIE=i_katana_Chromium
+	ITEMNEWBIE=i_ancient_shield
+	COLOR=color_ore_Chromium
+
+[EOF]

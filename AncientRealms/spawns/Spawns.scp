@@ -1,0 +1,108 @@
+[ITEMDEF i_summon_mem] 
+ID=i_rune_summon_creature 
+NAME=custom summon mem 
+TYPE=t_spell 
+LAYER=41 
+ON=@Create 
+   MOREX=40 
+   MOREY=900 
+   TIMER=20 
+   ATTR=026 
+
+[spawn 1]
+defname=random_reptail
+id=c_snake_giant
+id=c_spider_giant
+id=c_scorpion_giant
+id=c_spider_wolf
+id=c_hydra
+id=c_rune_beetle
+
+[spawn 2]
+defname=random_swamp_anim
+id=c_alligator
+id=c_rat_giant
+id=c_toad_giant
+id=c_bullfrog
+id=c_snake
+id=c_mound_maggots
+id=c_bog_thing
+id=c_bogling
+id=c_elemental_water
+id=c_lizardman
+
+[spawn 3]
+defname=random_winter_anim
+id=c_snake_ice
+id=c_leopard_snow
+id=c_bear_polar
+id=c_walrus
+id=c_frostooze
+id=c_wolf_white
+id=c_elemental_snow
+
+[spawn 4]
+defname=random_tropic_anim
+id=c_bird_tropical
+id=c_bird_jungle
+id=c_panther
+id=c_cougar
+id=c_lion
+id=c_panther
+id=c_wisp
+id=c_alligator
+id=c_toad_giant
+id=c_bullfrog
+id=c_gorilla
+id=c_parrot
+id=c_wolf_dark
+id=c_dragon_komodo
+
+[spawn 5]
+defname=random_town_anim
+id=c_rat
+id=c_bird_magpie
+id=c_bird_crow
+id=c_dog
+id=c_cat
+
+[spawn 6]
+defname=random_forest_anim
+id=c_bird_crow
+id=c_bird_magpie
+id=c_bird_raven
+id=c_eagle
+id=c_bird
+id=c_jackrabbit
+id=c_wolf_grey
+id=c_wolf_dire
+id=c_wolf_silver
+id=c_wolf_timber
+id=c_snake
+id=c_wisp
+id=c_treefellow
+id=c_rabbit
+id=c_bear_brown
+id=c_bear_grizzly
+id=c_stag
+id=c_doe
+id=c_turkey
+id=c_crane
+id=c_squirrel
+id=c_pixie
+id=c_ferret
+id=c_goat
+id=c_pig
+id=c_sheep_shorn
+id=c_sheep_woolly
+id=c_turkey
+id=c_chicken
+
+[spawn 7]
+defname=random_see_anim
+id=c_dolphin
+id=c_sea_monster
+id=c_sea_serpent
+//id=c_kraken
+//id=c_leviathan
+

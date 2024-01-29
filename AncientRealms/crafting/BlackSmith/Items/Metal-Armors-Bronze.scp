@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Bronze Platemail Arms
+[ITEMDEF i_platemail_arms_Bronze]
+   DEFNAME= i_platemail_arms_Bronze
+   ID= i_platemail_arms
+   NAME= Bronze Platemail Arms
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Platemail Leggings
+[ITEMDEF i_platemail_leggings_Bronze]
+   DEFNAME= i_platemail_leggings_Bronze
+   ID= i_platemail_leggings
+   NAME= Bronze Platemail Leggings
+   ARMOR= 20
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Platemail Helmet
+[ITEMDEF i_platemail_helm_Bronze]
+   DEFNAME= i_platemail_helm_Bronze
+   ID= i_platemail_helm
+   NAME= Bronze Platemail Helmet
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Platemail Gorget
+[ITEMDEF i_platemail_gorget_Bronze]
+   DEFNAME= i_platemail_gorget_Bronze
+   ID= i_platemail_gorget
+   NAME= Bronze Platemail Gorget
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Bronze]
+   DEFNAME= i_platemail_gorget2_Bronze
+   ID= i_platemail_gorget2
+   NAME= Bronze Platemail Gorget
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Platemail Gloves
+[ITEMDEF i_platemail_gloves_Bronze]
+   DEFNAME= i_platemail_gloves_Bronze
+   ID= i_platemail_gloves
+   NAME= Bronze Platemail Gloves
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Platemail Chest
+[ITEMDEF i_platemail_chest_Bronze]
+   DEFNAME= i_platemail_chest_Bronze
+   ID= i_platemail_chest
+   NAME= Bronze Platemail Chest
+   ARMOR= 24
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Bronze]
+   DEFNAME= i_armor_female_plate_Bronze
+   ID= i_armor_female_plate
+   NAME= Bronze Platemail Female Plate
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze chainmail coif
+[ITEMDEF i_chainmail_coif_Bronze]
+   DEFNAME= i_chainmail_coif_Bronze
+   ID= i_chainmail_coif
+   NAME= Bronze chainmail coif
+   ARMOR= 16
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze chainmail leggings
+[ITEMDEF i_chainmail_leggings_Bronze]
+   DEFNAME= i_chainmail_leggings_Bronze
+   ID= i_chainmail_leggings
+   NAME= Bronze chainmail leggings
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze chainmail tunic
+[ITEMDEF i_chainmail_tunic_Bronze]
+   DEFNAME= i_chainmail_tunic_Bronze
+   ID= i_chainmail_tunic
+   NAME= Bronze chainmail tunic
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Bronze]
+   DEFNAME= i_ringmail_sleeves_Bronze
+   ID= i_ringmail_sleeves
+   NAME= Bronze Ringmail Sleeves
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Bronze]
+   DEFNAME= i_ringmail_leggings_Bronze
+   ID= i_ringmail_leggings
+   NAME= Bronze Ringmail Leggings
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Bronze]
+   DEFNAME= i_ringmail_tunic_Bronze
+   ID= i_ringmail_tunic
+   NAME= Bronze Ringmail Tunic
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Bronze]
+   DEFNAME= i_ringmail_gloves_Bronze
+   ID= i_ringmail_gloves
+   NAME= Bronze Ringmail Gloves
+   ARMOR= 4
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze studded sleeves
+[ITEMDEF i_studded_sleeves_Bronze]
+   DEFNAME= i_studded_sleeves_Bronze
+   ID= i_studded_sleeves
+   NAME= Bronze studded sleeves
+   ARMOR= 7
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Bronze, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze studded gloves
+[ITEMDEF i_studded_gloves_Bronze]
+   DEFNAME= i_studded_gloves_Bronze
+   ID= i_studded_gloves
+   NAME= Bronze studded gloves
+   ARMOR= 4
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Bronze, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze studded gorget
+[ITEMDEF i_studded_gorget_Bronze]
+   DEFNAME= i_studded_gorget_Bronze
+   ID= i_studded_gorget
+   NAME= Bronze studded gorget
+   ARMOR= 4
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Bronze, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze studded leggings
+[ITEMDEF i_studded_leggings_Bronze]
+   DEFNAME= i_studded_leggings_Bronze
+   ID= i_studded_leggings
+   NAME= Bronze studded leggings
+   ARMOR= 13
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Bronze, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze studded tunic
+[ITEMDEF i_studded_tunic_Bronze]
+   DEFNAME= i_studded_tunic_Bronze
+   ID= i_studded_tunic
+   NAME= Bronze studded tunic
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Bronze, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze studded female armor
+[ITEMDEF i_armor_female_studded_Bronze]
+   DEFNAME= i_armor_female_studded_Bronze
+   ID= i_armor_female_studded
+   NAME= Bronze studded female armor
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Bronze, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Bronze]
+   DEFNAME= i_armor_female_bustier_studded_Bronze
+   ID= i_armor_female_bustier_studded
+   NAME= Bronze studded female bustier
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Bronze, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze platemail mempo
+[ITEMDEF i_platemail_mempo_Bronze]
+   DEFNAME= i_platemail_mempo_Bronze
+   ID= i_platemail_mempo
+   NAME= Bronze platemail mempo
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze platemail do
+[ITEMDEF i_platemail_do_Bronze]
+   DEFNAME= i_platemail_do_Bronze
+   ID= i_platemail_do
+   NAME= Bronze platemail do
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Bronze]
+   DEFNAME= i_platemail_hiro_sode_Bronze
+   ID= i_platemail_hiro_sode
+   NAME= Bronze platemail hiro sode
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze platemail suneate
+[ITEMDEF i_platemail_suneate_Bronze]
+   DEFNAME= i_platemail_suneate_Bronze
+   ID= i_platemail_suneate
+   NAME= Bronze platemail suneate
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze platemail haidate
+[ITEMDEF i_platemail_haidate_Bronze]
+   DEFNAME= i_platemail_haidate_Bronze
+   ID= i_platemail_haidate
+   NAME= Bronze platemail haidate
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze studded mempo
+[ITEMDEF i_studded_mempo_Bronze]
+   DEFNAME= i_studded_mempo_Bronze
+   ID= i_studded_mempo
+   NAME= Bronze studded mempo
+   ARMOR= 9
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Bronze, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze studded do
+[ITEMDEF i_studded_do_Bronze]
+   DEFNAME= i_studded_do_Bronze
+   ID= i_studded_do
+   NAME= Bronze studded do
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Bronze, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Bronze]
+   DEFNAME= i_studded_hiro_sode_Bronze
+   ID= i_studded_hiro_sode
+   NAME= Bronze studded hiro sode
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Bronze, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze studded suneate
+[ITEMDEF i_studded_suneate_Bronze]
+   DEFNAME= i_studded_suneate_Bronze
+   ID= i_studded_suneate
+   NAME= Bronze studded suneate
+   ARMOR= 11
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Bronze, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze studded haidate
+[ITEMDEF i_studded_haidate_Bronze]
+   DEFNAME= i_studded_haidate_Bronze
+   ID= i_studded_haidate
+   NAME= Bronze studded haidate
+   ARMOR= 9
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Bronze, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Bronze]
+   DEFNAME= i_platemail_gargish_arms_Bronze
+   ID= i_platemail_gargish_arms
+   NAME= Bronze Gargish Platemail Arms
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Bronze]
+   DEFNAME= i_platemail_gargish_chest_Bronze
+   ID= i_platemail_gargish_chest
+   NAME= Bronze Gargish Platemail Chest
+   ARMOR= 26
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Bronze]
+   DEFNAME= i_platemail_gargish_kilt_Bronze
+   ID= i_platemail_gargish_kilt
+   NAME= Bronze Gargish Platemail Kilt
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Bronze]
+   DEFNAME= i_platemail_gargish_leggings_Bronze
+   ID= i_platemail_gargish_leggings
+   NAME= Bronze Gargish Platemail Leggings
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Bronze]
+   DEFNAME= i_platemail_gargish_arms_2_Bronze
+   ID= i_platemail_gargish_arms_2
+   NAME= Bronze Gargish Platemail Arms
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Bronze]
+   DEFNAME= i_platemail_gargish_chest_2_Bronze
+   ID= i_platemail_gargish_chest_2
+   NAME= Bronze Gargish Platemail Chest
+   ARMOR= 26
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Bronze]
+   DEFNAME= i_platemail_gargish_kilt_2_Bronze
+   ID= i_platemail_gargish_kilt_2
+   NAME= Bronze Gargish Platemail Kilt
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Bronze]
+   DEFNAME= i_platemail_gargish_leggings_2_Bronze
+   ID= i_platemail_gargish_leggings_2
+   NAME= Bronze Gargish Platemail Leggings
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Closed Helmet
+[ITEMDEF i_helm_close_Bronze]
+   DEFNAME= i_helm_close_Bronze
+   ID= i_helm_close
+   NAME= Bronze Closed Helmet
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Open Helmet
+[ITEMDEF i_helm_open_Bronze]
+   DEFNAME= i_helm_open_Bronze
+   ID= i_helm_open
+   NAME= Bronze Open Helmet
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Bascinet
+[ITEMDEF i_bascinet_Bronze]
+   DEFNAME= i_bascinet_Bronze
+   ID= i_bascinet
+   NAME= Bronze Bascinet
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Norse Helmet
+[ITEMDEF i_helm_norse_Bronze]
+   DEFNAME= i_helm_norse_Bronze
+   ID= i_helm_norse
+   NAME= Bronze Norse Helmet
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Kabuto
+[ITEMDEF i_helm_kabuto_Bronze]
+   DEFNAME= i_helm_kabuto_Bronze
+   ID= i_helm_kabuto
+   NAME= Bronze Kabuto
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Bronze]
+   DEFNAME= i_chainmail_hatsuburi_Bronze
+   ID= i_chainmail_hatsuburi
+   NAME= Bronze Chainmail Hatsuburi
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Bronze]
+   DEFNAME= i_platemail_hatsuburi_Bronze
+   ID= i_platemail_hatsuburi
+   NAME= Bronze Platemail Hatsuburi
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Bronze]
+   DEFNAME= i_plate_jingasa_heavy_Bronze
+   ID= i_plate_jingasa_heavy
+   NAME= Bronze Heavy Jingasa
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Bronze]
+   DEFNAME= i_platemail_kabuto_decorative_Bronze
+   ID= i_platemail_kabuto_decorative
+   NAME= Bronze Decorative Platemail Kabuto
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {92 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Bronze]
+   DEFNAME= i_plate_jingasa_light_Bronze
+   ID= i_plate_jingasa_light
+   NAME= Bronze Light Jingasa
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Bronze]
+   DEFNAME= i_plate_jingasa_small_Bronze
+   ID= i_plate_jingasa_small
+   NAME= Bronze Small Jingasa
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Bronze]
+   DEFNAME= i_platemail_kabuto_battle_Bronze
+   ID= i_platemail_kabuto_battle
+   NAME= Bronze Platemail Battle Kabuto
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Bronze]
+   DEFNAME= i_platemail_kabuto_Bronze
+   ID= i_platemail_kabuto
+   NAME= Bronze Platemail Kabuto
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Circlet
+[ITEMDEF i_circlet_Bronze]
+   DEFNAME= i_circlet_Bronze
+   ID= i_circlet
+   NAME= Bronze Circlet
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Royal Circlet
+[ITEMDEF i_circlet_royal_Bronze]
+   DEFNAME= i_circlet_royal_Bronze
+   ID= i_circlet_royal
+   NAME= Bronze Royal Circlet
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Bronze]
+   DEFNAME= i_circlet_gemmed_Bronze
+   ID= i_circlet_gemmed
+   NAME= Bronze Gemmed Circlet
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {102 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Buckler
+[ITEMDEF i_shield_buckler_Bronze]
+   DEFNAME= i_shield_buckler_Bronze
+   ID= i_shield_buckler
+   NAME= Bronze Buckler
+   ARMOR= 7
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Wooden Shield
+[ITEMDEF i_shield_wood_Bronze]
+   DEFNAME= i_shield_wood_Bronze
+   ID= i_shield_wood
+   NAME= Bronze Wooden Shield
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Bronze]
+   DEFNAME= i_shield_round_metal_Bronze
+   ID= i_shield_round_metal
+   NAME= Bronze Light Metal  Round Shield
+   ARMOR= 9
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Bronze]
+   DEFNAME= i_shield_round_bronze_Bronze
+   ID= i_shield_round_bronze
+   NAME= Bronze Heavy Metal  Round Shield
+   ARMOR= 11
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Bronze]
+   DEFNAME= i_shield_kite_metal_Bronze
+   ID= i_shield_kite_metal
+   NAME= Bronze Metal Kite Shield
+   ARMOR= 13
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Bronze]
+   DEFNAME= i_shield_kite_wood_Bronze
+   ID= i_shield_kite_wood
+   NAME= Bronze Wooden Kite Shield
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Heater Shield
+[ITEMDEF i_shield_heater_Bronze]
+   DEFNAME= i_shield_heater_Bronze
+   ID= i_shield_heater
+   NAME= Bronze Heater Shield
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {92 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Ancient Shield
+[ITEMDEF i_shield_dupre_Bronze]
+   DEFNAME= i_shield_dupre_Bronze
+   ID= i_shield_dupre
+   NAME= Bronze Ancient Shield
+   ARMOR= 16
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {102 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Shield oh Hell
+[ITEMDEF i_shield_scale_Bronze]
+   DEFNAME= i_shield_scale_Bronze
+   ID= i_shield_scale
+   NAME= Bronze Shield oh Hell
+   ARMOR= 16
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {102 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Chaos Shield
+[ITEMDEF i_shield_chaos_Bronze]
+   DEFNAME= i_shield_chaos_Bronze
+   ID= i_shield_chaos
+   NAME= Bronze Chaos Shield
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {112 220}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Bronze Order Shield
+[ITEMDEF i_shield_order_Bronze]
+   DEFNAME= i_shield_order_Bronze
+   ID= i_shield_order
+   NAME= Bronze Order Shield
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Bronze
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Bronze
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Bronze
+   HITPOINTS= {112 220}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

@@ -1,0 +1,29 @@
+[REGIONTYPE r_fernbank_rock t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=60.0 mr_rusty
+RESOURCES=30.0 mr_purecopper
+RESOURCES=12.0 mr_rose
+RESOURCES=6.0 mr_Kunzite	
+RESOURCES=3.8 mr_Hematite
+RESOURCES=2.7 mr_Erubecite
+RESOURCES=1.6 mr_Daemonite	
+RESOURCES=0.8 mr_bloodrock	
+RESOURCES=0.2 mr_Chromite		
+
+[AREADEF a_fern_bank]
+EVENTS=r_default,r_fernbank_rock,r_water,r_default_tree,r_default_grass
+NAME=Fern Bank
+GROUP=AncientRealms
+FLAGS=0880
+P=1366,1391
+RECT=1326,1348,1423,1455 
+TAG.KEEPNAME=Fern Bank
+
+[AREADEF a_fernbank_rocks]
+EVENTS=r_default,r_fernbank_rock,r_default_water,r_LogClass_Mix_Common_1,r_default_grass
+NAME=RockPile
+GROUP=AncientRealms
+P=1307,1401,0,0
+RECT=1302,1395,1309,1403,0
+
+[EOF]

@@ -1,0 +1,251 @@
+[CHARDEF 01095]
+DEFNAME=c_h_woodelf_elite_ranger
+NAME=#NAMES_ELF_MALE the Wood-Elf Elite Ranger
+SOUND=snd_HUMAN_M_DIE_01
+ID=C_MAN
+CAN=MT_EQUIP|MT_RUN|MT_USEHANDS|MT_WALK
+DAM=35,50
+ARMOR=38
+TSPEECH=jobFighter
+
+CATEGORY=Invictus - Civilized
+SUBSECTION=Wood Elves
+DESCRIPTION=Wood-Elf Elite Ranger
+
+ON=@Create
+	COLOR=0597
+	STR={60 80}
+	DEX={81 95}
+	INT={70 100}
+	MAGICRESISTANCE={15.0 38.0}
+	TACTICS={50.0 100.0}
+	WRESTLING={25.0 40.0}
+	ARCHERY={80.0 100.0}
+	BOWCRAFT={60.0 80.0}
+	SWORDSMANSHIP={50.0 70.0}
+	NPC=BRAIN_HUMAN
+	KARMA=-5000
+	FAME=150
+	ITEMNEWBIE=i_hair_long
+	ITEMNEWBIE=i_beard_goatee
+	ITEMNEWBIE=i_CAPE_tartan
+	ITEM=i_studded_gloves_shadow
+	ITEM=i_studded_tunic_shadow
+	ITEM=i_studded_gorget_shadow
+	ITEM=i_studded_leggings_shadow
+	ITEM=i_studded_sleeves_shadow
+	ITEM=i_boots_calf_troll
+	ITEMNEWBIE=i_bow_cypress
+
+ON=@NPCRestock
+	ITEM=i_arrow,{10 20}
+	ITEM=i_gold,{80 150}
+	ITEM=i_bow_cypress,R200
+	ITEM=loot_woodelf
+
+[CHARDEF 01096]
+DEFNAME=c_h_woodelf_elite_warrior
+NAME=#NAMES_ELF_MALE the Wood-Elf Elite Warrior
+SOUND=snd_HUMAN_M_DIE_01
+ID=C_MAN
+CAN=MT_EQUIP|MT_RUN|MT_USEHANDS|MT_WALK
+DAM=30,50
+ARMOR=38
+TSPEECH=jobFighter
+CATEGORY=Invictus - Civilized
+SUBSECTION=Wood Elves
+DESCRIPTION=Wood-Elf Elite Warrior
+
+ON=@Create
+	COLOR=0597
+	STR={60 80}
+	DEX={81 95}
+	INT={70 100}
+	MAGICRESISTANCE={15.0 38.0}
+	SWORDSMANSHIP={60.0 100.0}
+	TACTICS={50.0 100.0}
+	WRESTLING={25.0 40.0}
+	NPC=BRAIN_HUMAN
+	KARMA=-5000
+	FAME=150
+	ITEMNEWBIE=i_hair_long
+	ITEMNEWBIE=i_beard_goatee
+	ITEMNEWBIE=i_sword_viking_gold
+	ITEM=I_SHIELD_KITE_WOOD_Willow
+	ITEM=i_studded_sleeves_shadow
+	ITEM=i_studded_tunic_shadow
+	ITEM=i_studded_gloves_shadow
+	ITEM=i_studded_leggings_shadow
+	ITEM=i_studded_gorget_shadow
+
+ON=@NPCRestock
+	ITEM=i_gold,{90 200}
+	ITEM=loot_woodelf
+	ITEM=i_boots_calf_troll	
+
+[CHARDEF 01097]
+DEFNAME=c_h_woodelf_ranger
+NAME=#NAMES_ELF_MALE the Wood-Elf Ranger
+SOUND=snd_HUMAN_M_DIE_01
+ID=C_MAN
+DAM=20,35
+ARMOR=38
+CAN=MT_EQUIP|MT_RUN|MT_USEHANDS|MT_WALK
+TSPEECH=jobFighter
+CATEGORY=Invictus - Civilized
+SUBSECTION=Wood Elves
+DESCRIPTION=Wood-Elf Ranger
+
+ON=@Create
+	COLOR=0597
+	STR={40 60}
+	DEX={50 70}
+	INT={30 50}
+	ARCHERY={65.0 80.0}
+	BOWCRAFT={60.0 80.0}
+	MAGICRESISTANCE={15.0 38.0}
+	SPIRITSPEAK={30.0 100.0}
+	SWORDSMANSHIP={30.0 50.0}
+	TACTICS={50.0 80.0}
+	WRESTLING={25.0 40.0}
+	NPC=BRAIN_HUMAN
+	KARMA=-5000
+	FAME=150
+	ITEMNEWBIE=i_hair_long
+	ITEMNEWBIE=i_beard_goatee
+	ITEM=i_studded_sleeves_shadow
+	ITEM=i_studded_tunic_shadow
+	ITEM=i_studded_gloves_shadow
+	ITEM=i_studded_leggings_shadow
+	ITEM=i_studded_gorget_shadow
+	ITEM=i_boots_calf_troll
+	ITEM=i_cape_tartan
+	ITEMNEWBIE=i_bow_willow
+
+ON=@NPCRestock
+	ITEM=loot_woodelf
+	ITEM=i_arrow,{50 00}
+	ITEM=i_yumi_willow,R300	
+
+[CHARDEF 01098]
+DEFNAME=c_h_woodelf_hunter
+NAME=#NAMES_ELF_MALE the Wood-Elf hunter
+SOUND=snd_HUMAN_M_DIE_01
+ID=C_MAN
+DAM=20,35
+ARMOR=38
+CAN=MT_EQUIP|MT_RUN|MT_USEHANDS|MT_WALK
+TSPEECH=jobFighter
+CATEGORY=Invictus - Civilized
+SUBSECTION=Wood Elves
+DESCRIPTION=Wood-Elf hunter
+
+ON=@Create
+	COLOR=0597
+	STR={40 60}
+	DEX={50 70}
+	INT={30 50}
+	FENCING={40.0 60.0}
+	MAGICRESISTANCE={15.0 38.0}
+	TACTICS={38.0 50.0}
+	WRESTLING={25.0 40.0}
+	NPC=BRAIN_HUMAN
+	KARMA=-5000
+	FAME=150
+	ITEM=i_studded_sleeves_shadow
+	ITEM=i_studded_tunic_shadow
+	ITEM=i_studded_gloves_shadow
+	ITEM=i_studded_leggings_shadow
+	ITEM=i_studded_gorget_shadow
+	ITEM=i_boots_calf_troll
+	ITEMNEWBIE=i_spear_gold
+	ITEMNEWBIE=i_hair_long
+	ITEMNEWBIE=i_beard_long_med
+	
+ON=@NPCRestock
+	ITEM=i_gold,{25 70}
+	ITEM=loot_woodelf
+	
+[CHARDEF 01100]
+DEFNAME=c_h_woodelf_fighter
+NAME=#NAMES_ELF_MALE the Wood_Elf Fighter
+SOUND=snd_HUMAN_M_DIE_01
+ID=C_MAN
+DAM=20,35
+ARMOR=38
+CAN=MT_EQUIP|MT_RUN|MT_USEHANDS|MT_WALK
+TSPEECH=jobFighter
+CATEGORY=Invictus - Civilized
+SUBSECTION=Wood Elves
+DESCRIPTION=Wood-Elf Fighter
+
+ON=@Create
+	COLOR=0597
+	STR={45 65}
+	DEX={55 70}
+	INT={70 100}
+	MAGICRESISTANCE={15.0 38.0}
+	SWORDSMANSHIP={60.0 80.0}
+	TACTICS={50.0 80.0}
+	WRESTLING={25.0 40.0}
+	NPC=BRAIN_HUMAN
+	KARMA=-5000
+	FAME=150
+	ITEMNEWBIE=i_hair_long
+	ITEM=i_CAPE_tartan
+	ITEM=i_studded_gloves_shadow
+	ITEM=i_studded_tunic_shadow
+	ITEM=i_studded_gorget_shadow
+	ITEM=i_studded_leggings_shadow
+	ITEM=i_studded_sleeves_shadow
+	ITEM=i_boots_calf_troll
+	ITEMNEWBIE=i_sword_long_gold
+
+ON=@NPCRestock
+	ITEM=i_gold,{25 70}
+	ITEM=loot_woodelf
+
+[CHARDEF 01105]
+DEFNAME=c_h_woodelf_archer
+ID=C_MAN
+NAME=#NAMES_ELF_MALE the Wood-Elf Archer
+SOUND=snd_HUMAN_M_DIE_01
+DAM=20,40
+ARMOR=38
+CAN=MT_EQUIP|MT_RUN|MT_USEHANDS|MT_WALK
+TSPEECH=jobFighter
+CATEGORY=Invictus - Civilized
+SUBSECTION=Wood Elves
+DESCRIPTION=Wood-Elf Archer
+
+ON=@Create
+	COLOR=0597
+	STR={40 50}
+	DEX={45 60}
+	INT={30 50}
+	ARCHERY={50.0 70.0}
+	BOWCRAFT={60.0 80.0}
+	MAGICRESISTANCE={15.0 38.0}
+	SPIRITSPEAK={30.0 100.0}
+	SWORDSMANSHIP={30.0 50.0}
+	TACTICS={40.0 60.0}
+	WRESTLING={25.0 40.0}
+	NPC=BRAIN_HUMAN
+	KARMA=-5000
+	FAME=150
+	ITEMNEWBIE=i_hair_long
+	ITEMNEWBIE=i_beard_goatee
+	ITEM=i_studded_gloves_shadow
+	ITEM=i_studded_tunic_shadow
+	ITEM=i_studded_gorget_shadow
+	ITEM=i_studded_leggings_shadow
+	ITEM=i_studded_sleeves_shadow
+	ITEM=i_boots_calf_troll
+	ITEMNEWBIE=i_bow_willow
+	
+
+ON=@NPCRestock
+	ITEM=loot_woodelf
+	ITEM=i_yumi_willow,R300	
+
+[EOF]

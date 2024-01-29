@@ -1,0 +1,466 @@
+/////////////////////////////////////////////Oak woodland chest
+[ITEMDEF i_woodland_chest_Oak]
+   DEFNAME= i_woodland_chest_Oak
+   ID= i_woodland_chest
+   NAME= Oak woodland chest
+   ARMOR= 23
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 20 i_log_Oak
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Oak
+   DESCRIPTION= woodland chest
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS= {93 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak woodland belt
+[ITEMDEF i_woodland_belt_Oak]
+   DEFNAME= i_woodland_belt_Oak
+   ID= i_woodland_belt
+   NAME= Oak woodland belt
+   ARMOR= 18
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Oak
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Oak
+   DESCRIPTION= woodland belt
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS= {93 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak woodland gorget
+[ITEMDEF i_woodland_gorget_Oak]
+   DEFNAME= i_woodland_gorget_Oak
+   ID= i_woodland_gorget
+   NAME= Oak woodland gorget
+   ARMOR= 9
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Oak
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Oak
+   DESCRIPTION= woodland gorget
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS= {93 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak woodland gauntlets
+[ITEMDEF i_woodland_gauntlets_Oak]
+   DEFNAME= i_woodland_gauntlets_Oak
+   ID= i_woodland_gauntlets
+   NAME= Oak woodland gauntlets
+   ARMOR= 9
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Oak
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Oak
+   DESCRIPTION= woodland gauntlets
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS= {93 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak woodland leggings
+[ITEMDEF i_woodland_leggings_Oak]
+   DEFNAME= i_woodland_leggings_Oak
+   ID= i_woodland_leggings
+   NAME= Oak woodland leggings
+   ARMOR= 18
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Oak
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Oak
+   DESCRIPTION= woodland leggings
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS= {93 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak woodland arms
+[ITEMDEF i_woodland_arms_Oak]
+   DEFNAME= i_woodland_arms_Oak
+   ID= i_woodland_arms
+   NAME= Oak woodland arms
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 8 i_log_Oak
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Oak
+   DESCRIPTION= woodland arms
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS= {93 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak female woodland chest
+[ITEMDEF i_armor_female_woodland_Oak]
+   DEFNAME= i_armor_female_woodland_Oak
+   ID= i_armor_female_woodland
+   NAME= Oak female woodland chest
+   ARMOR= 19
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 16 i_log_Oak
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Oak
+   DESCRIPTION= female woodland chest
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS= {93 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak leaf tunic
+[ITEMDEF i_leaf_tunic_Oak]
+   DEFNAME= i_leaf_tunic_Oak
+   ID= i_leaf_tunic
+   NAME= Oak leaf tunic
+   ARMOR= 21
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 18 i_log_Oak
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Oak
+   DESCRIPTION= leaf tunic
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak leaf gloves
+[ITEMDEF i_leaf_gloves_Oak]
+   DEFNAME= i_leaf_gloves_Oak
+   ID= i_leaf_gloves
+   NAME= Oak leaf gloves
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_log_Oak
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Oak
+   DESCRIPTION= leaf gloves
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak leaf gorget
+[ITEMDEF i_leaf_gorget_Oak]
+   DEFNAME= i_leaf_gorget_Oak
+   ID= i_leaf_gorget
+   NAME= Oak leaf gorget
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Oak
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Oak
+   DESCRIPTION= leaf gorget
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak leaf arms
+[ITEMDEF i_leaf_arms_Oak]
+   DEFNAME= i_leaf_arms_Oak
+   ID= i_leaf_arms
+   NAME= Oak leaf arms
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Oak
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Oak
+   DESCRIPTION= leaf arms
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak leaf leggings
+[ITEMDEF i_leaf_leggings_Oak]
+   DEFNAME= i_leaf_leggings_Oak
+   ID= i_leaf_leggings
+   NAME= Oak leaf leggings
+   ARMOR= 18
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 15 i_log_Oak
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Oak
+   DESCRIPTION= leaf leggings
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak leaf tonlet
+[ITEMDEF i_leaf_tonlet_Oak]
+   DEFNAME= i_leaf_tonlet_Oak
+   ID= i_leaf_tonlet
+   NAME= Oak leaf tonlet
+   ARMOR= 7
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 4 i_log_Oak
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Oak
+   DESCRIPTION= leaf tonlet
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak raven helm
+[ITEMDEF i_helm_raven_Oak]
+   DEFNAME= i_helm_raven_Oak
+   ID= i_helm_raven
+   NAME= Oak raven helm
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Oak
+   SKILLMAKE= CARPENTRY 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Oak
+   DESCRIPTION= raven helm
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak vulture helm
+[ITEMDEF i_helm_vulture_Oak]
+   DEFNAME= i_helm_vulture_Oak
+   ID= i_helm_vulture
+   NAME= Oak vulture helm
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Oak
+   SKILLMAKE= CARPENTRY 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Oak
+   DESCRIPTION= vulture helm
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak winged helm
+[ITEMDEF i_helm_winged_Oak]
+   DEFNAME= i_helm_winged_Oak
+   ID= i_helm_winged
+   NAME= Oak winged helm
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Oak
+   SKILLMAKE= CARPENTRY 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Oak
+   DESCRIPTION= winged helm
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS= {103 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

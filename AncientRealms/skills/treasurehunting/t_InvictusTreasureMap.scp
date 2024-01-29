@@ -1,0 +1,64 @@
+[TYPEDEF t_TreasureMap]
+
+ON=@DClick
+	IF !<TAG.MapDeciphered>
+		SRC.CTAG.TreasureMapUID=<UID>
+		LOCAL.MapDifficulty=<EVAL <TAG.MapLevel> * 10 >
+		LOCAL.SkillBonus=<EVAL <SRC.CARTOGRAPHY> / 10>
+		LOCAL.IntBonus=<EVAL <SRC.INT> / 10>
+		LOCAL.PlayersLuck=<EVAL <SRC.LUCK> / 10>
+		LOCAL.LawsOfAvergages=<R1,<LOCAL.SkillBonus>>
+		LOCAL.PlayersLuck=<R<LOCAL.LawsOfAvergages>,<EVAL <LOCAL.PlayersLuck> + <LOCAL.IntBonus> + <LOCAL.SkillBonus>>>
+		SRC.SYSMESSAGE @,,1 The map requires <EVAL <LOCAL.MapDifficulty>>% cartograpy.
+		IF <EVAL <LOCAL.PlayersLuck>> > <EVAL <LOCAL.MapDifficulty>-1>
+			LOCAL.PassedBy=<EVAL <LOCAL.PlayersLuck>-<LOCAL.MapDifficulty>>
+			SRC.SYSMESSAGE @,,1 You successfully decipher the map passing the requirement by <EVAL <LOCAL.PassedBy>>%
+			SRC.SFX 1468
+			LOCAL.LocationX=0
+			LOCAL.LocationY=0
+			LOCAL.LocationZ=0
+			LOCAL.LocationFound=0
+			CALL f_SpawnATreasureChest
+			TAG.TreasureLocationX=<LOCAL.LocationX>
+			TAG.TreasureLocationY=<LOCAL.LocationY>
+			TAG.TreasureLocationZ=<LOCAL.LocationZ>
+			TAG.TreasureLocation=<LOCAL.LocationFound>
+			//------ Rescale Width	5195 - 505 factor 10.29
+			//------ Rescale Length 4095 - 500 factor 8.19
+			TAG.TreasureLocationX1=<EVAL (((<LOCAL.LocationX>*100000) / 1029) / 1000)>
+			TAG.TreasureLocationY1=<EVAL (((<LOCAL.LocationY>*100000) / 819)  / 1000)>
+			PIN=<EVAL <TAG.TreasureLocationX1>>,<EVAL <TAG.TreasureLocationY1>>
+			IF <SRC.FINDID.i_sextant>
+				SERV.UID.<SRC.FINDID.i_sextant.UID>.NAME=Treasure <EVAL <TAG.TreasureLocationX>> <EVAL <TAG.TreasureLocationY>> <EVAL <TAG.TreasureLocationZ>>
+				SERV.UID.<SRC.FINDID.i_sextant.UID>.TAG.TargetPosition=<TAG.TreasureLocation>
+				SRC.SYSMESSAGE @0095,,1 The target has been set in your sextant
+				SRC.ARROWQUEST=0
+			ELSE
+				SRC.SYSMESSAGE @0029,,1 You need a sextant to get a target
+			ENDIF
+			IF <SRC.ISGM>
+				SRC.GO <EVAL <LOCAL.LocationX>>,<EVAL <LOCAL.LocationY>>,<EVAL <LOCAL.LocationZ>>
+			ENDIF
+			SRC.SYSMESSAGE @,,1 The Map Coordinates Read (<EVAL <LOCAL.LocationX>>,<EVAL <LOCAL.LocationY>>,<EVAL <LOCAL.LocationZ>>)
+			TAG.MapDeciphered=1
+		ELSE
+			LOCAL.FailedBy=<EVAL <LOCAL.MapDifficulty>-<LOCAL.PlayersLuck>>
+			SRC.EMOTE look confused
+			SRC.SYSMESSAGE @0029,,1 You fail to decipher the map falling short of the required ability by <EVAL <LOCAL.FailedBy>>%
+			RETURN 1
+		ENDIF
+	ELSE
+		SRC.SYSMESSAGE @0052,,1 This map has been deciphered
+		IF <SRC.FINDID.i_sextant>
+			SERV.UID.<SRC.FINDID.i_sextant.UID>.NAME=Treasure <EVAL <TAG.TreasureLocationX>> <EVAL <TAG.TreasureLocationY>> <EVAL <TAG.TreasureLocationZ>>
+			SRC.ARROWQUEST=0
+			SRC.SYSMESSAGE @0095,,1 The target has been set in your sextant
+			SERV.UID.<SRC.FINDID.i_sextant.UID>.TAG.TargetPosition=<TAG.TreasureLocation>
+		ELSE
+			SRC.SYSMESSAGE @0029,,1 You need a sextant to get a target
+		ENDIF
+		RETURN 0
+	ENDIF
+			
+
+[EOF]

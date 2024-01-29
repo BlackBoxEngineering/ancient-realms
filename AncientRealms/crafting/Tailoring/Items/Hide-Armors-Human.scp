@@ -1,0 +1,292 @@
+/////////////////////////////////////////////Human hide tunic
+[ITEMDEF i_hide_tunic_Human]
+   DEFNAME= i_hide_tunic_Human
+   ID= i_hide_tunic
+   NAME= Human hide tunic
+   ARMOR= 15
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 14 i_hide_Human
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= hide tunic
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {31 30}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human hide gloves
+[ITEMDEF i_hide_gloves_Human]
+   DEFNAME= i_hide_gloves_Human
+   ID= i_hide_gloves
+   NAME= Human hide gloves
+   ARMOR= 3
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 2 i_hide_Human
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= hide gloves
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {31 30}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human hide gorget
+[ITEMDEF i_hide_gorget_Human]
+   DEFNAME= i_hide_gorget_Human
+   ID= i_hide_gorget
+   NAME= Human hide gorget
+   ARMOR= 3
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 2 i_hide_Human
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= hide gorget
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {31 30}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human hide pauldrons
+[ITEMDEF i_hide_pauldrons_Human]
+   DEFNAME= i_hide_pauldrons_Human
+   ID= i_hide_pauldrons
+   NAME= Human hide pauldrons
+   ARMOR= 4
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 3 i_hide_Human
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= hide pauldrons
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {31 30}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human hide pants
+[ITEMDEF i_hide_pants_Human]
+   DEFNAME= i_hide_pants_Human
+   ID= i_hide_pants
+   NAME= Human hide pants
+   ARMOR= 10
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 9 i_hide_Human
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= hide pants
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {31 30}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human female hide tunic
+[ITEMDEF i_hide_tunic_female_Human]
+   DEFNAME= i_hide_tunic_female_Human
+   ID= i_hide_tunic_female
+   NAME= Human female hide tunic
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 12 i_hide_Human
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= female hide tunic
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {31 30}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human Spiked Shorts
+[ITEMDEF i_armor_female_shorts_spiked_Human]
+   DEFNAME= i_armor_female_shorts_spiked_Human
+   ID= i_armor_female_shorts_spiked
+   NAME= Human Spiked Shorts
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 12 i_hide_Human
+   SKILLMAKE= TAILORING 100.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= Spiked Shorts
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {101 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human Amazon Harness
+[ITEMDEF i_armor_female_harness_amazon_Human]
+   DEFNAME= i_armor_female_harness_amazon_Human
+   ID= i_armor_female_harness_amazon
+   NAME= Human Amazon Harness
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 12 i_hide_Human
+   SKILLMAKE= TAILORING 100.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= Amazon Harness
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {101 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human Elite Harness
+[ITEMDEF i_armor_female_harness_elite_Human]
+   DEFNAME= i_armor_female_harness_elite_Human
+   ID= i_armor_female_harness_elite
+   NAME= Human Elite Harness
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 12 i_hide_Human
+   SKILLMAKE= TAILORING 100.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= Elite Harness
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {101 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Human Leather Jingasa
+[ITEMDEF i_leather_jingasa_Human]
+   DEFNAME= i_leather_jingasa_Human
+   ID= i_leather_jingasa
+   NAME= Human Leather Jingasa
+   ARMOR= 6
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 5 i_hide_Human
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Human
+   DESCRIPTION= Leather Jingasa
+
+ON=@Create
+   COLOR=color_hide_Human
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

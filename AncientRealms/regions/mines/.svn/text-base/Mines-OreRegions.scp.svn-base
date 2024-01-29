@@ -1,0 +1,777 @@
+[AREADEF a_crazy_mans_cave]
+EVENTS=r_default,r_OreClass_All_rare,r_default_water,r_LogClass_Mix_Common_1,r_default_grass
+NAME=Crazy Man's Cave
+GROUP=AncientRealms
+FLAGS=0880
+P=1251,2651,0,0
+RECT=1239,2642,1261,2661,0
+
+[AREADEF a_passage_from_sbritain_isle_1]
+EVENTS=r_default,r_OreClass_All_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Passage from SBritain Isle
+GROUP=T2A Dungeons
+FLAGS=0880
+P=5828,463,2,0
+RECT=5807,414,5864,475,0
+
+[ROOMDEF a_secret_passage_1]
+EVENTS=r_default,r_OreClass_7_to_9_rare,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Secret Cavern
+GROUP=Hidden Valley
+P=1648,2915,0,0
+RECT=1644,2892,1652,2938,0
+RECT=1652,2918,1664,2938,0
+
+[AREADEF a_wastelands_1]
+EVENTS=r_default,r_OreClass_7_to_9_common,r_default_water,r_LogClass_Mix_Common_1,r_default_grass
+NAME=WasteLands
+GROUP=ALLMAP
+FLAGS=0100
+P=5632,3195,14,0
+RECT=5120,2305,6143,4095,0
+EVENTS=r_plains
+
+[AREADEF a_passage_from_n_minoc_1]
+EVENTS=r_default,r_MinocKeep_rock,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Milagras Passage
+GROUP=T2A Entrances & Exits
+FLAGS=0880
+P=5753,435,77,0
+RECT=5706,408,5776,473,0
+
+[AREADEF a_Bita_rock]
+EVENTS=r_default,r_OreClass_4_to_6_rare,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Bita's Rock
+GROUP=Yew
+FLAGS=0880
+P=550,1104
+RECT=547,1103,551,1106
+
+[AREADEF a_farm2_w_1]
+EVENTS=r_default,r_OreClass_4_to_6_rare,r_default_water,r_LogClass_Mix_Common_1,r_default_grass
+NAME=Farm2 W
+GROUP=Occlo
+FLAGS=0880
+P=3731,2638,40,0
+RECT=3728,2632,3737,2641,0
+
+[AREADEF a_northern_rockC]
+EVENTS=r_default,r_OreClass_4_to_6_rare,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Northern Rock
+GROUP=AncientRealms
+FLAGS=0880
+P=3731,2638,40,0
+RECT=1926,51,2011,113,0
+
+[AREADEF a_pumpkin_patch_sw_1]
+EVENTS=r_default,r_default,r_OreClass_7_to_9_rare,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Pumpkin patch SW
+GROUP=Occlo
+FLAGS=080
+P=3739,2652,0,0
+RECT=3735,2647,3744,2657,0
+
+[AREADEF a_melon_patch_sw_1]
+EVENTS=r_default,r_OreClass_7_to_9_rare,r_default_water,r_LogClass_Mix_Common_1,r_default_grass
+NAME=Melon patch SW
+GROUP=Occlo
+FLAGS=080
+P=3737,2663,40,0
+RECT=3731,2661,3738,2667,0
+
+[AREADEF a_fire_dungeon_level_2_1]
+EVENTS=r_default,r_OreClass_10_to_12_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Fire Dungeon Level 2
+GROUP=T2A Dungeons
+FLAGS=0880|02
+P=5702,1315,1,0
+RECT=5630,1284,5763,1401,0
+RECT=5630,1397,5662,1456,0
+
+[AREADEF a_fire_dungeon_level_1_1]
+EVENTS=r_default,r_OreClass_7_to_9_common,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Fire Dungeon Level 1
+GROUP=T2A Dungeons
+FLAGS=0880|02
+P=5790,1416,-40,0
+RECT=5663,1402,5884,1488,0
+RECT=5727,1480,5884,1519,0
+RECT=5764,1284,5884,1408,0
+
+[AREADEF a_trinsic_passage_level_2_1]
+EVENTS=r_default,r_OreClass_4_to_6_rare,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Trinsic Passage Level 2
+GROUP=T2A Dungeons
+FLAGS=0880|02
+P=5967,1409,45,0
+RECT=5938,1370,6025,1411,0
+RECT=5890,1285,6035,1370,0
+RECT=6035,1300,6048,1323,0
+
+[AREADEF a_minoc_mining_camp_1]
+EVENTS=r_default,r_OreClass_5,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Minoc Mining Camp
+GROUP=Minoc
+FLAGS=080
+P=2583,529,15,0
+RECT=2559,515,2602,543,0
+
+[AREADEF a_minoc_cave1_1]
+EVENTS=r_default,r_OreClass_6,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Minoc Cave1
+GROUP=AncientRealms Mines
+FLAGS=0880
+P=2426,177,0,0
+RECT=2406,168,2428,184,0
+
+[AREADEF a_minoc_cave2_1]
+EVENTS=r_default,r_OreClass_7,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Minoc Cave2
+GROUP=AncientRealms Mines
+FLAGS=0880
+P=2440,94,0,0
+RECT=2418,81,2442,113,0
+
+[AREADEF a_minoc_cave3_1]
+EVENTS=r_default,r_OreClass_8,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Minoc Cave3
+GROUP=AncientRealms Mines
+FLAGS=0880
+P=2471,64,0,0
+RECT=2447,39,2489,67,0
+
+[AREADEF a_minoc_mine_1_1]
+EVENTS=r_default,r_OreClass_All_common,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Minoc Mine 1
+GROUP=AncientRealms Mines
+FLAGS=region_flag_guarded|region_flag_nobuilding|region_flag_underground
+P=2558,499,0,0
+RECT=2556,501,2562,504,0
+RECT=2556,474,2582,501,0
+EVENTS=r_default,r_OreClass_Mix_common_2
+
+[AREADEF a_north_territory_mine1_1]
+EVENTS=r_default,r_OreClass_All_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=North Territory Mine1
+GROUP=AncientRealms Mines
+FLAGS=080
+P=1723,1065,0,0
+RECT=1713,1055,1753,1080,0
+
+[AREADEF a_north_territory_cave1_1]
+EVENTS=r_default,r_OreClass_All_rare,r_default_water,r_LogClass_Mix_Common_2,r_default_grass 
+NAME=North Territory Cave1
+GROUP=AncientRealms Mines
+FLAGS=0880
+P=1984,262,8,0
+RECT=1973,251,1994,274,0
+
+[AREADEF a_north_territory_mine2_1]
+EVENTS=r_default,r_OreClass_Mix_Common_1,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=North Territory Mine2
+GROUP=AncientRealms Mines
+FLAGS=080
+P=1638,974,0,0
+RECT=1604,958,1650,1009,0
+
+[AREADEF a_ml_dungeon_1]
+EVENTS=r_default,r_OreClass_Mix_Rare_3,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Sanctuary
+GROUP=ML Dungeons
+FLAGS=0880|02
+P=6170,195,-10,0
+RECT=6141,0,6401,257,0
+
+[AREADEF a_ml_dungeon_2]
+EVENTS=r_default,r_OreClass_Mix_Rare_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Prism of Light
+FLAGS=0880|02
+GROUP=ML Dungeons
+P=6475,188,-2,0
+RECT=6448,17,6656,256,0
+
+[AREADEF a_ml_dungeon_3]
+EVENTS=r_default,r_OreClass_Mix_Common_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Palace of Paroxysmus
+FLAGS=0880|02
+GROUP=ML Dungeons
+P=6306,403,60,0
+RECT=6198,316,6563,676,0
+
+[AREADEF a_ml_dungeon_4]
+EVENTS=r_default,r_OreClass_Mix_Rare_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=The willow
+GROUP=ML Dungeons
+FLAGS=region_flag_safe|region_flag_no_pvp
+P=7035,409,12,0
+RECT=6907,253,7166,512,0
+
+[AREADEF a_ml_dungeon_5]
+EVENTS=r_default,r_OreClass_Mix_Rare_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Painted Caves
+FLAGS=0880|02
+GROUP=ML Dungeons
+P=6308,892,0,0
+RECT=6243,846,6315,919,0
+
+[AREADEF a_ml_dungeon_6]
+EVENTS=r_default,r_OreClass_Mix_Rare_3,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Blighted Grove
+FLAGS=0880|02
+GROUP=ML Dungeons
+P=6500,890,2,0
+RECT=6446,814,6596,974,0
+
+[AREADEF a_dungeon_101]
+EVENTS=r_default,r_default
+//EVENTS=r_default,r_OreClass_Mix_Rare_3,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=The Orc Mine
+GROUP=AncientRealms Dungeons
+P=5141,1982,0,0
+RECT=5132,1946,5163,2022,0
+
+[AREADEF a_dungeon_1]
+EVENTS=r_default,r_OreClass_Mix_Rare_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=6091,1313,15,0
+RECT=6057,1285,6137,1327,0
+
+[AREADEF a_dungeon_2]
+EVENTS=r_default,r_OreClass_Mix_common_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=5477,1410,0,0
+RECT=5377,1284,5624,1507,0
+
+[AREADEF a_dungeon_3]
+EVENTS=r_default,r_OreClass_Mix_common_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=5248,1462,0,0
+RECT=5125,1409,5372,1516,0
+
+[AREADEF a_dungeon_4]
+EVENTS=r_default,r_OreClass_Mix_common_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+EVENTS=r_default,r_default
+NAME=The Orc Mine
+GROUP=Other Dungeons
+P=5354,1307,0,0
+RECT=5284,1284,5371,1388,0
+
+[AREADEF a_dungeon_5]
+EVENTS=r_default,r_OreClass_Mix_common_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=5132,1324,0,0
+RECT=5124,1284,5230,1390,0
+
+[AREADEF a_dungeon_6]
+EVENTS=r_default,r_OreClass_Mix_rare_1,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=5296,1905,0,0
+RECT=5259,1873,5333,1937,0
+
+[AREADEF a_dungeon_7]
+EVENTS=r_default,r_OreClass_Mix_common_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=5230,1963,0,0
+RECT=5194,1942,5266,1984,0
+
+[AREADEF a_dungeon_8]
+EVENTS=r_default,r_OreClass_Mix_common_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+EVENTS=r_default,r_default
+NAME=The Orc Mine
+GROUP=Other Dungeons
+P=5304,2012,0,0
+RECT=5265,1987,5363,2045,0
+
+[AREADEF a_dungeon_9]
+EVENTS=r_default,r_OreClass_Mix_common_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=5217,2024,0,0
+RECT=5185,2006,5249,2042,0
+
+[AREADEF a_dungeon_10]
+EVENTS=r_default,r_OreClass_Mix_rare_1,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+EVENTS=r_default,r_default
+NAME=The Orc Mine
+GROUP=Other Dungeons
+P=5144,1982,0,0
+RECT=5131,1945,5162,2021,0
+
+[AREADEF a_dungeon_11]
+EVENTS=r_default,r_OreClass_Mix_common_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=5185,1940,0,0
+RECT=5172,1876,5222,1919,0
+
+[AREADEF a_dungeon_12]
+EVENTS=r_default,r_OreClass_Mix_common_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=5144,1879,0,0
+RECT=5126,1863,5171,1917,0
+
+[AREADEF a_dungeon_13]
+EVENTS=r_default,r_OreClass_Mix_common_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=5305,1857,0,0
+RECT=5297,1805,5345,1863,0
+
+[AREADEF a_dungeon_14]
+EVENTS=r_default,r_OreClass_Mix_rare_1,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=5221,1862,0,0
+RECT=5200,1813,5271,1865,0
+
+[AREADEF a_dungeon_15]
+EVENTS=r_default,r_OreClass_Mix_common_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=5164,1829,0,0
+RECT=5130,1810,5169,1847,0
+
+[AREADEF a_dungeon_16]
+EVENTS=r_default,r_OreClass_All_rare,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=5268,1755,0,0
+RECT=5244,1748,5276,1780,0
+
+[AREADEF a_dungeon_17]
+EVENTS=r_default,r_OreClass_Mix_common_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=5212,1748,0,0
+RECT=5197,1725,5227,1763,0
+
+[AREADEF a_dungeon_18]
+EVENTS=r_default,r_OreClass_Mix_common_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=5187,1777,0,0
+RECT=5179,1765,5228,1788,0
+
+[AREADEF a_dungeon_19]
+EVENTS=r_default,r_OreClass_All_common,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=5954,318,0,0
+RECT=5902,263,6007,374,0
+
+[AREADEF a_dungeon_20]
+EVENTS=r_default,r_OreClass_All_common,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=5951,447,22,0
+RECT=5895,392,6008,502,0
+
+[AREADEF a_dungeon_21]
+EVENTS=r_default,r_OreClass_All_rare,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=6079,447,0,0
+RECT=6027,391,6132,504,0
+
+[AREADEF a_dungeon_22]
+EVENTS=r_default,r_OreClass_Mix_Rare_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=6078,317,0,0
+RECT=6020,260,6137,374,0
+
+[AREADEF a_fire_dungeon_4]
+EVENTS=r_default,r_OreClass_Mix_Rare_2,r_default_water,r_LogClass_All_common,r_default_grass
+NAME=Fire Dungeon
+GROUP=T2A
+FLAGS=0880
+P=5790,1416,40,0
+RECT=5627,1282,5887,1491,0
+RECT=5726,1489,5887,1521,0
+EVENTS=r_default,r_dungeon
+
+[AREADEF a_dungeon_23]
+EVENTS=r_default,r_OreClass_Mix_Common_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=5505,446,0,0
+RECT=5380,384,5631,509,0
+
+[AREADEF a_dungeon_24]
+EVENTS=r_default,r_OreClass_Mix_Common_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Dungeon
+GROUP=Other Dungeons
+P=5504,322,0,0
+RECT=5381,262,5628,382,0
+
+[AREADEF a_cave_1]
+EVENTS=r_default,r_OreClass_Mix_rare_2,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=cave
+GROUP=AncientRealms Mines
+FLAGS=080
+P=2367,942,0,0
+RECT=2373,900,2395,928,0
+RECT=2395,903,2409,919,0
+RECT=2373,928,2383,937,0
+RECT=2359,927,2373,945,0
+
+[AREADEF a_cave_2]
+EVENTS=r_default,r_OreClass_Mix_Common_3,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Cave
+GROUP=AncientRealms Mines
+P=1903,365,0,0
+RECT=1887,354,1920,377,0
+
+[AREADEF a_cave_3]
+EVENTS=r_default,r_default_rock,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Cave
+GROUP=AncientRealms Mines
+FLAGS=0880
+P=1934,316,0,0
+RECT=1925,307,1943,325,0
+
+
+[AREADEF a_brit_mine1_1]
+EVENTS=r_default,r_OreClass_Mix_Rare_1,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Brit Mine1
+GROUP=AncientRealms Mines
+FLAGS=080
+P=1443,1228,0,0
+RECT=1436,1215,1465,1252,0
+
+[AREADEF a_brit_mine2_1]
+EVENTS=r_default,r_OreClass_Mix_Rare_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Brit Mine2
+GROUP=AncientRealms Mines
+FLAGS=080
+P=1629,1189,0,0
+RECT=1611,1175,1662,1204,0
+
+
+[AREADEF a_avatar_isle_cave_1]
+EVENTS=r_default,r_OreClass_Mix_Rare_3,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Avatar Isle Cave
+GROUP=AncientRealms Mines
+P=4605,3815,0,0
+RECT=4594,3807,4617,3824,0
+
+[AREADEF a_ice_isle_cave_2]
+EVENTS=r_default,r_OreClass_Mix_common_2,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Ice Isle Cave
+GROUP=AncientRealms Mines
+FLAGS=0880
+P=4054,440,3,0
+RECT=4018,421,4067,470,0
+
+[AREADEF a_ice_isle_cave_2_1]
+EVENTS=r_default,r_OreClass_Mix_common_3,r_default_water,r_LogClass_Mix_Common_3,r_default_grass
+NAME=Ice Isle Cave 2
+GROUP=AncientRealms Mines
+P=4024,329,0,0
+RECT=4002,310,4045,351,0
+RECT=4005,298,4027,310,0
+
+
+[AREADEF a_yew_cave1_1]
+EVENTS=r_default,r_OreClass_All_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Yew Cave1
+GROUP=AncientRealms Mines
+FLAGS=0880
+P=773,1684,45,0
+RECT=766,1683,778,1697,0
+
+[AREADEF a_covetous_mine_1]
+EVENTS=r_default,r_OreClass_Mix_Rare_2,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Covetous Mine
+GROUP=AncientRealms Mines
+P=2438,888,0,0
+RECT=2429,866,2448,911,0
+RECT=2448,879,2475,907,0
+RECT=2456,907,2475,941,0
+
+
+[ROOMDEF a_secret_cave_1]
+EVENTS=r_default,r_OreClass_Mix_Rare_2,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Secret Cave
+GROUP=Hidden Valley
+P=1653,2967,0,0
+RECT=1648,2957,1658,2977,0
+
+[ROOMDEF a_cave_4]
+EVENTS=r_default,r_OreClass_Mix_Rare_2,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Cave
+GROUP=AncientRealms Mines
+P=2345,830,0,0
+RECT=2323,809,2368,851,0
+
+[AREADEF a_covetous_level_3_1]
+EVENTS=r_default,r_OreClass_Mix_Rare_3,r_default_water,r_LogClass_Mix_Common_2,r_default_grass,r_OreClass_Mix_Rare_2
+NAME=Covetous Level 3
+GROUP=Covetous
+FLAGS=0880|02
+P=5579,1925,0,0
+RECT=5532,1821,5630,1930,0
+
+[AREADEF a_covetous_level_2_1]
+EVENTS=r_default,r_OreClass_1_to_3_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass,r_OreClass_Mix_Rare_2
+NAME=Covetous Level 2
+GROUP=Covetous
+FLAGS=0880|02
+P=5613,1998,0,0
+RECT=5425,1948,5624,2044,0
+RECT=5384,1964,5425,2030,0
+
+[AREADEF a_covetous_level_1_1]
+EVENTS=r_default,r_OreClass_1_to_3_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass,r_OreClass_Mix_Rare_2
+NAME=Covetous Level 1
+GROUP=Covetous
+FLAGS=0880|02
+P=5456,1862,0,0
+RECT=5380,1848,5421,1963,0
+RECT=5421,1848,5510,1943,0
+
+[AREADEF a_entrance_from_vesper_cemetary_1]
+EVENTS=r_default,r_OreClass_1_to_3_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass,r_OreClass_Mix_Rare_2
+NAME=Entrance from Vesper Cemetary
+GROUP=T2A Entrances & Exits
+FLAGS=0880
+P=2777,894,-23,0
+RECT=2771,890,2781,895,0
+
+[AREADEF a_entrance_from_vesper_cemetary_1]
+EVENTS=r_default,r_OreClass_Mix_common_2,r_default_water,r_LogClass_Mix_Common_2,r_default_grass,r_OreClass_All_common
+NAME=Entrance from Vesper Cemetary
+GROUP=T2A Entrances & Exits
+FLAGS=0880
+P=2777,894,-23,0
+RECT=2771,890,2781,895,0
+
+[AREADEF a_passage_from_vesper_cemetary_1]
+EVENTS=r_default,r_OreClass_Mix_common_1,r_default_water,r_LogClass_Mix_Common_2,r_default_grass,r_OreClass_Mix_common_2
+NAME=Passage from Vesper Cemetary
+GROUP=T2A Dungeons
+FLAGS=0880
+P=5683,387,1,0
+RECT=5645,374,5699,440,0
+
+[AREADEF a_vesper_cemetary_1]
+EVENTS=r_default,r_OreClass_4_to_6_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass,r_OreClass_Mix_Rare_2
+NAME=Vesper Cemetary
+GROUP=Vesper
+FLAGS=080
+P=2781,867,0,0
+RECT=2727,839,2785,896,0
+
+// ******************************************
+
+[AREADEF a_wrong_level_4_1]
+EVENTS=r_default,r_OreClass_4_to_6_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Wrong Level 4
+GROUP=Wrong
+FLAGS=0880|02
+P=5734,869,0,0
+RECT=5665,785,5873,1017,0
+
+[AREADEF a_wrong_level_3_1]
+EVENTS=r_default,r_OreClass_7_to_9_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Wrong Level 3
+GROUP=Wrong
+FLAGS=0880|02
+P=5703,639,0,0
+RECT=5685,623,5722,668,0
+
+[AREADEF a_wrong_level_2_1]
+EVENTS=r_default,r_OreClass_7_to_9_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Wrong Level 2
+GROUP=Wrong
+FLAGS=0880|02
+P=5690,568,25,0
+RECT=5641,516,5742,586,0
+
+[AREADEF a_wrong_level_1_1]
+EVENTS=r_default,r_OreClass_4_to_6_rare,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Wrong Level 1
+GROUP=Wrong
+FLAGS=0880|02
+P=5825,630,0,0
+RECT=5773,513,5884,636,0
+
+[AREADEF a_shame_level_4_1]
+EVENTS=r_default,r_OreClass_7_to_9_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Shame Level 4
+GROUP=Shame
+FLAGS=0880|02
+P=5876,22,-10,0
+RECT=5638,2,5889,122,0
+
+[AREADEF a_shame_level_4_entryway_1]
+EVENTS=r_default,r_OreClass_All_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Shame Level 4 Entryway
+GROUP=Shame
+FLAGS=0880|02
+P=5506,180,0,0
+RECT=5495,157,5520,194,0
+
+[AREADEF a_shame_level_3_1]
+EVENTS=r_default,r_OreClass_All_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Shame Level 3
+GROUP=Shame
+FLAGS=0880|02
+P=5516,142,25,0
+RECT=5379,133,5626,261,0
+
+[AREADEF a_shame_level_2_1]
+EVENTS=r_default,r_OreClass_All_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Shame Level 2
+GROUP=Shame
+FLAGS=0880|02
+P=5515,15,5,0
+RECT=5507,3,5632,126,0
+
+[AREADEF a_shame_level_1_1]
+EVENTS=r_default,r_OreClass_Mix_Rare_2,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Shame Level 1
+GROUP=Shame
+FLAGS=0880|02
+P=5395,126,0,0
+RECT=5379,5,5498,131,0
+
+[AREADEF a_hythloth_level_4_1]
+EVENTS=r_default,r_OreClass_Mix_Rare_3,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Hythloth Level 4
+GROUP=Hythloth
+FLAGS=0880|02
+P=6059,92,22,0
+RECT=6047,28,6122,107,0
+
+[AREADEF a_hythloth_level_3_1]
+EVENTS=r_default,r_OreClass_Mix_Common_3,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Hythloth Level 3
+GROUP=Hythloth
+FLAGS=0880|02
+P=6083,148,-22,0
+RECT=6021,141,6130,235,0
+
+[AREADEF a_hythloth_level_2_1]
+EVENTS=r_default,r_OreClass_Mix_Common_2,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Hythloth Level 2
+GROUP=Hythloth
+FLAGS=0880|02
+P=5978,171,0,0
+RECT=5911,143,6002,243,0
+
+[AREADEF a_hythloth_level_1_1]
+EVENTS=r_default,r_OreClass_Mix_Common_1,r_default_water,r_OreClass_All_common,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Hythloth Level 1
+GROUP=Hythloth
+FLAGS=0880|02
+P=5906,22,44,0
+RECT=5902,15,6001,114,0
+
+[AREADEF a_destard_level_3_1]
+EVENTS=r_default,r_OreClass_All_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Destard Level 3
+GROUP=Destard
+FLAGS=0880|02
+P=5136,985,10,0
+RECT=5125,954,5154,1020,0
+RECT=5153,982,5198,1020,0
+
+[AREADEF a_destard_level_2_1]
+EVENTS=r_default,r_OreClass_All_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Destard Level 2
+GROUP=Destard
+FLAGS=0880|02
+P=5144,802,5,0
+RECT=5123,794,5186,885,0
+
+[AREADEF a_destard_level_1_1]
+EVENTS=r_default,r_OreClass_Mix_Common_2,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Destard Level 1
+GROUP=Destard
+FLAGS=0880|02
+P=5243,1004,0,0
+RECT=5121,771,5366,1025,0
+
+[AREADEF a_despise_entryway_1]
+EVENTS=r_default,r_OreClass_All_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Despise Entryway
+GROUP=Despise
+FLAGS=0880
+P=5583,632,30,0
+RECT=5566,622,5591,643,0
+
+[AREADEF a_despise_level_3_1]
+EVENTS=r_default,r_OreClass_All_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Despise Level 3
+GROUP=Despise
+FLAGS=0880|02
+P=5405,860,45,0
+RECT=5381,774,5627,1020,0
+
+[AREADEF a_despise_level_2_1]
+EVENTS=r_default,r_OreClass_Mix_Rare_2,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Despise Level 2
+GROUP=Despise
+FLAGS=0880|02
+P=5518,673,20,0
+RECT=5378,644,5530,767,0
+
+[AREADEF a_despise_level_1_1]
+EVENTS=r_default,r_OreClass_Mix_Rare_2,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Despise Level 1
+GROUP=Despise
+FLAGS=0880|02
+P=5501,570,59,0
+RECT=5378,517,5515,637,0
+
+[AREADEF a_deceit_level_4_1]
+EVENTS=r_default,r_OreClass_10_to_12_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Deceit Level 4
+GROUP=Deceit
+FLAGS=0880|02
+P=5307,655,0,0
+RECT=5252,644,5339,765,0
+
+[AREADEF a_deceit_level_3_1]
+EVENTS=r_default,r_OreClass_10_to_12_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Deceit Level 3
+GROUP=Deceit
+FLAGS=0880|02
+P=5138,653,0,0
+RECT=5124,644,5234,769,0
+
+[AREADEF a_deceit_level_2_1]
+EVENTS=r_default,r_OreClass_4_to_6_rare,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Deceit Level 2
+GROUP=Deceit
+FLAGS=0880|02
+P=5307,536,0,0
+RECT=5275,525,5355,634,0
+
+[AREADEF a_deceit_level_1_1]
+EVENTS=r_default,r_OreClass_7_to_9_common,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Deceit Level 1
+GROUP=Deceit
+FLAGS=0880|02
+P=5187,635,0,0
+RECT=5135,526,5235,642,0
+
+[AREADEF a_northern_old_mine]
+EVENTS=r_default,r_OreClass_Mix_Common_3,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=The Old Mine
+GROUP=Deceit
+FLAGS=0880
+P=1822,1030,0,0
+RECT=1792,1033,1821,1015,0
+
+
+
+[EOF]

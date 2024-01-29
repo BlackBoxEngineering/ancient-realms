@@ -1,0 +1,40 @@
+[DEFNAME Random_Rare_Weapons]
+
+Random_MaceFighting_Titanium	{ i_mace_war_titanium 1, i_hammer_war_titanium 1 }
+Random_Swordsmanship_Titanium	{ i_katana_titanium 1, i_bardiche_titanium 1 }
+Random_Fencing_Titanium			{ i_kryss_titanium 1, i_spear_titanium 1 }
+Random_Weapon_Titanium			{ Random_MaceFighting_Titanium 1, Random_Swordsmanship_Titanium 1, Random_Fencing_Titanium 1 }
+
+Random_MaceFighting_blackrock	{ i_mace_war_blackrock 1, i_hammer_war_blackrock 1 }
+Random_Swordsmanship_blackrock	{ i_katana_blackrock 1, i_bardiche_blackrock 1 }
+Random_Fencing_blackrock		{ i_kryss_blackrock 1, i_spear_blackrock 1 }
+Random_Weapon_blackrock			{ Random_MaceFighting_blackrock 1, Random_Swordsmanship_blackrock 1, Random_Fencing_blackrock 1 }
+
+Random_MaceFighting_Cerussite		{ i_mace_war_Cerussite 1, i_hammer_war_Cerussite 1 }
+Random_Swordsmanship_Cerussite		{ i_katana_Cerussite 1, i_bardiche_Cerussite 1 }
+Random_Fencing_Cerussite			{ i_kryss_Cerussite 1, i_spear_Cerussite 1 }
+Random_Weapon_Cerussite			{ Random_MaceFighting_Cerussite 1, Random_Swordsmanship_Cerussite 1, Random_Fencing_Cerussite 1 }
+
+Random_MaceFighting_Dioptase		{ i_mace_war_Dioptase 1, i_hammer_war_Dioptase 1 }
+Random_Swordsmanship_Dioptase		{ i_katana_Dioptase 1, i_bardiche_Dioptase 1 }
+Random_Fencing_Dioptase				{ i_kryss_Dioptase 1, i_spear_Dioptase 1 }
+Random_Weapon_Dioptase				{ Random_MaceFighting_Dioptase 1, Random_Swordsmanship_Dioptase 1, Random_Fencing_Dioptase 1 }
+
+Random_Weapon_Reward {Random_Weapon_Titanium 1, Random_Weapon_blackrock 1, Random_Weapon_Cerussite 1, Random_Weapon_Dioptase 1}
+
+[ITEMDEF i_reward_weapon]
+DEFNAME=i_reward_weapon
+ID=i_deed
+NAME=Random Weapon Reward
+VALUE=15000
+
+ON=@Create
+	COLOR=144fc
+
+ON=@DClick
+	NEWITEM=Random_Weapon_Reward,1,<SRC.FINDLAYER.21.UID>
+	REMOVE
+	RETURN 1
+
+
+[EOF]

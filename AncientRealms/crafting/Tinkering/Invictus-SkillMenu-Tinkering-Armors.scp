@@ -1,0 +1,84 @@
+/////////////////////////////////////////////Ancientrealms Armor
+[SKILLMENU sm_armors_tinkering_Invictus]
+Ancientrealms Armors
+ON=Gargish_glasses_Invictus @color_gem_Invictus Glasses
+    SKILLMENU = sm_armors_tinkering_Glasses_Invictus
+
+
+/////////////////////////////////////////////UndeadBones Armor
+[SKILLMENU sm_armors_tinkering_UndeadBones]
+UndeadBones Armors
+ON=i_bone_chest_UndeadBones @color_gem_UndeadBones Glasses
+    SKILLMENU = sm_armors_tinkering_bone_UndeadBones
+
+
+/////////////////////////////////////////////PirateBones Armor
+[SKILLMENU sm_armors_tinkering_PirateBones]
+PirateBones Armors
+ON=i_bone_chest_PirateBones @color_gem_PirateBones Glasses
+    SKILLMENU = sm_armors_tinkering_bone_PirateBones
+
+
+/////////////////////////////////////////////GrizzledBones Armor
+[SKILLMENU sm_armors_tinkering_GrizzledBones]
+GrizzledBones Armors
+ON=i_bone_chest_GrizzledBones @color_gem_GrizzledBones Glasses
+    SKILLMENU = sm_armors_tinkering_bone_GrizzledBones
+
+
+///////////////////////////////////////////////////////////
+
+///////////////////////////////////////////// sm_armors_tinkering_Glasses_ Ancientrealms
+[SKILLMENU sm_armors_tinkering_Glasses_Invictus]
+Ancientrealms Armors
+ON=i_gargish_glasses_female_Invictus @color_ore_Invictus Gargish female glasses
+    MAKEITEM=i_gargish_glasses_female_Invictus
+ON=i_gargish_glasses_Invictus @color_ore_Invictus Gargish glasses
+    MAKEITEM=i_gargish_glasses_Invictus
+
+///////////////////////////////////////////// sm_armors_tinkering_bone_ UndeadBones
+[SKILLMENU sm_armors_tinkering_bone_UndeadBones]
+UndeadBones Armors
+ON=i_bone_arms_UndeadBones @color_ore_UndeadBones Bone Arms
+    MAKEITEM=i_bone_arms_UndeadBones
+ON=i_bone_chest_UndeadBones @color_ore_UndeadBones Cone Chest
+    MAKEITEM=i_bone_chest_UndeadBones
+ON=i_bone_gloves_UndeadBones @color_ore_UndeadBones Bone Gloves
+    MAKEITEM=i_bone_gloves_UndeadBones
+ON=i_bone_helmet_UndeadBones @color_ore_UndeadBones Bone Helmet
+    MAKEITEM=i_bone_helmet_UndeadBones
+ON=i_bone_leggings_UndeadBones @color_ore_UndeadBones Bone Leggings
+    MAKEITEM=i_bone_leggings_UndeadBones
+
+///////////////////////////////////////////// sm_armors_tinkering_bone_ PirateBones
+[SKILLMENU sm_armors_tinkering_bone_PirateBones]
+PirateBones Armors
+ON=i_bone_arms_PirateBones @color_ore_PirateBones Bone Arms
+    MAKEITEM=i_bone_arms_PirateBones
+ON=i_bone_chest_PirateBones @color_ore_PirateBones Cone Chest
+    MAKEITEM=i_bone_chest_PirateBones
+ON=i_bone_gloves_PirateBones @color_ore_PirateBones Bone Gloves
+    MAKEITEM=i_bone_gloves_PirateBones
+ON=i_bone_helmet_PirateBones @color_ore_PirateBones Bone Helmet
+    MAKEITEM=i_bone_helmet_PirateBones
+ON=i_bone_leggings_PirateBones @color_ore_PirateBones Bone Leggings
+    MAKEITEM=i_bone_leggings_PirateBones
+
+///////////////////////////////////////////// sm_armors_tinkering_bone_ GrizzledBones
+[SKILLMENU sm_armors_tinkering_bone_GrizzledBones]
+GrizzledBones Armors
+ON=i_bone_arms_GrizzledBones @color_ore_GrizzledBones Bone Arms
+    MAKEITEM=i_bone_arms_GrizzledBones
+ON=i_bone_chest_GrizzledBones @color_ore_GrizzledBones Cone Chest
+    MAKEITEM=i_bone_chest_GrizzledBones
+ON=i_bone_gloves_GrizzledBones @color_ore_GrizzledBones Bone Gloves
+    MAKEITEM=i_bone_gloves_GrizzledBones
+ON=i_bone_helmet_GrizzledBones @color_ore_GrizzledBones Bone Helmet
+    MAKEITEM=i_bone_helmet_GrizzledBones
+ON=i_bone_leggings_GrizzledBones @color_ore_GrizzledBones Bone Leggings
+    MAKEITEM=i_bone_leggings_GrizzledBones
+
+///////////////////////////////////////////////////////////
+
+
+[EOF]

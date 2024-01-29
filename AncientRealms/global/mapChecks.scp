@@ -1,0 +1,9 @@
+[FUNCTION f_getMapNumber]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+REF2=<SERV.UID.<REF1.TAG.CheckPoint_1_UID>>
+RETURN <EVAL <f_MapNumberGetFrom <REF2.P>>>
+
+[FUNCTION f_MapNumberGetFrom]
+RETURN <ARGV[3]>
+
+[EOF]

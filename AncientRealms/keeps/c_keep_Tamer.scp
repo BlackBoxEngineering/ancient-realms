@@ -1,0 +1,75 @@
+[CHARDEF c_keep_Tamer]
+DEFNAME=c_keep_Tamer
+NAME=#NAMES_HUMANMALE the Keep Tamer
+ID=C_MAN
+CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
+DAM=6
+MOVERATE=20
+ARMOR=15
+DESIRES=i_gold,e_notoriety,t_keep_point
+AVERSIONS=t_TRAP
+DESIRES=e_notoriety, t_armor
+TSPEECH=s_keep_JobTamer
+TEVENTS=e_Keep_Guard
+
+CATEGORY=AncientRealms
+SUBSECTION=Keep Tradesmen
+DESCRIPTION=Animal Trainer
+
+ON=@Create
+	TITLE=Keep Animal Tamer
+	NPC=brain_monster
+	COLOR=colors_skin
+	STR={151 165}
+	DEX={151 165}
+	INT={151 165}
+	FAME=0
+	KARMA=-1000
+	MAXHITS =<EVAL KeepTamerDefaultMaxHits>
+	ANIMALLORE={80.0 120.0}
+	TAMING={80.0 120.0}
+	VETERINARY={80.0 120.0}
+	MAGERY={80.0 100.0}
+	MAGICRESISTANCE={90.0 120.0}	
+	FOCUS={90.0 120.0}
+	DETECTINGHIDDEN={90.0 100.0}
+	FORENSICS={90.0 100.0}
+	ITEMNEWBIE i_keep_GuardsBrains, 1, <UID>
+	
+ON=@NPCRestock	
+	ITEMNEWBIE=random_male_hair
+	COLOR=colors_hair
+	ITEMNEWBIE=random_facial_hair
+	COLOR=match_hair
+	ITEMNEWBIE=i_chainmail_tunic_gold
+    ITEMNEWBIE=i_platemail_leggings_gold
+    ITEMNEWBIE=i_ringmail_gloves_gold
+	ITEMNEWBIE=i_mt_hiryu
+	COLOR=color_ore_blackrock
+	ITEMNEWBIE=i_spellbook
+	ADDSPELL=s_fireball
+	ADDSPELL=s_flamestrike
+	ADDSPELL=s_paralyze
+	ITEMNEWBIE=i_shepherds_crook
+	COLOR=color_ore_blackrock
+	ITEMNEWBIE=i_hat_wizards
+	COLOR=color_ore_blackrock
+	
+ON=@GetHit
+	MANA=<INT>
+	
+ON=@NPCActFollow
+	IF (<REGION.UID>=<SRC.REGION.UID>)
+		ARGN1=1
+		ARGN2=20
+		ARGN1=0
+		RETURN 2
+	ELSE
+		FINDID.i_memory.REMOVE
+		ARGN1=0
+		ARGN2=8
+		ARGN1=1
+		RETURN 0
+	ENDIF
+
+[EOF]

@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Copper Platemail Arms
+[ITEMDEF i_platemail_arms_Copper]
+   DEFNAME= i_platemail_arms_Copper
+   ID= i_platemail_arms
+   NAME= Copper Platemail Arms
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Platemail Leggings
+[ITEMDEF i_platemail_leggings_Copper]
+   DEFNAME= i_platemail_leggings_Copper
+   ID= i_platemail_leggings
+   NAME= Copper Platemail Leggings
+   ARMOR= 20
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Platemail Helmet
+[ITEMDEF i_platemail_helm_Copper]
+   DEFNAME= i_platemail_helm_Copper
+   ID= i_platemail_helm
+   NAME= Copper Platemail Helmet
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Platemail Gorget
+[ITEMDEF i_platemail_gorget_Copper]
+   DEFNAME= i_platemail_gorget_Copper
+   ID= i_platemail_gorget
+   NAME= Copper Platemail Gorget
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Copper]
+   DEFNAME= i_platemail_gorget2_Copper
+   ID= i_platemail_gorget2
+   NAME= Copper Platemail Gorget
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Platemail Gloves
+[ITEMDEF i_platemail_gloves_Copper]
+   DEFNAME= i_platemail_gloves_Copper
+   ID= i_platemail_gloves
+   NAME= Copper Platemail Gloves
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Platemail Chest
+[ITEMDEF i_platemail_chest_Copper]
+   DEFNAME= i_platemail_chest_Copper
+   ID= i_platemail_chest
+   NAME= Copper Platemail Chest
+   ARMOR= 24
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Copper]
+   DEFNAME= i_armor_female_plate_Copper
+   ID= i_armor_female_plate
+   NAME= Copper Platemail Female Plate
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper chainmail coif
+[ITEMDEF i_chainmail_coif_Copper]
+   DEFNAME= i_chainmail_coif_Copper
+   ID= i_chainmail_coif
+   NAME= Copper chainmail coif
+   ARMOR= 16
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper chainmail leggings
+[ITEMDEF i_chainmail_leggings_Copper]
+   DEFNAME= i_chainmail_leggings_Copper
+   ID= i_chainmail_leggings
+   NAME= Copper chainmail leggings
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper chainmail tunic
+[ITEMDEF i_chainmail_tunic_Copper]
+   DEFNAME= i_chainmail_tunic_Copper
+   ID= i_chainmail_tunic
+   NAME= Copper chainmail tunic
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Copper]
+   DEFNAME= i_ringmail_sleeves_Copper
+   ID= i_ringmail_sleeves
+   NAME= Copper Ringmail Sleeves
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Copper]
+   DEFNAME= i_ringmail_leggings_Copper
+   ID= i_ringmail_leggings
+   NAME= Copper Ringmail Leggings
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Copper]
+   DEFNAME= i_ringmail_tunic_Copper
+   ID= i_ringmail_tunic
+   NAME= Copper Ringmail Tunic
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Copper]
+   DEFNAME= i_ringmail_gloves_Copper
+   ID= i_ringmail_gloves
+   NAME= Copper Ringmail Gloves
+   ARMOR= 4
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper studded sleeves
+[ITEMDEF i_studded_sleeves_Copper]
+   DEFNAME= i_studded_sleeves_Copper
+   ID= i_studded_sleeves
+   NAME= Copper studded sleeves
+   ARMOR= 7
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Copper, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper studded gloves
+[ITEMDEF i_studded_gloves_Copper]
+   DEFNAME= i_studded_gloves_Copper
+   ID= i_studded_gloves
+   NAME= Copper studded gloves
+   ARMOR= 4
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Copper, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper studded gorget
+[ITEMDEF i_studded_gorget_Copper]
+   DEFNAME= i_studded_gorget_Copper
+   ID= i_studded_gorget
+   NAME= Copper studded gorget
+   ARMOR= 4
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Copper, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper studded leggings
+[ITEMDEF i_studded_leggings_Copper]
+   DEFNAME= i_studded_leggings_Copper
+   ID= i_studded_leggings
+   NAME= Copper studded leggings
+   ARMOR= 13
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Copper, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper studded tunic
+[ITEMDEF i_studded_tunic_Copper]
+   DEFNAME= i_studded_tunic_Copper
+   ID= i_studded_tunic
+   NAME= Copper studded tunic
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Copper, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper studded female armor
+[ITEMDEF i_armor_female_studded_Copper]
+   DEFNAME= i_armor_female_studded_Copper
+   ID= i_armor_female_studded
+   NAME= Copper studded female armor
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Copper, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Copper]
+   DEFNAME= i_armor_female_bustier_studded_Copper
+   ID= i_armor_female_bustier_studded
+   NAME= Copper studded female bustier
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Copper, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper platemail mempo
+[ITEMDEF i_platemail_mempo_Copper]
+   DEFNAME= i_platemail_mempo_Copper
+   ID= i_platemail_mempo
+   NAME= Copper platemail mempo
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper platemail do
+[ITEMDEF i_platemail_do_Copper]
+   DEFNAME= i_platemail_do_Copper
+   ID= i_platemail_do
+   NAME= Copper platemail do
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Copper]
+   DEFNAME= i_platemail_hiro_sode_Copper
+   ID= i_platemail_hiro_sode
+   NAME= Copper platemail hiro sode
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper platemail suneate
+[ITEMDEF i_platemail_suneate_Copper]
+   DEFNAME= i_platemail_suneate_Copper
+   ID= i_platemail_suneate
+   NAME= Copper platemail suneate
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper platemail haidate
+[ITEMDEF i_platemail_haidate_Copper]
+   DEFNAME= i_platemail_haidate_Copper
+   ID= i_platemail_haidate
+   NAME= Copper platemail haidate
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper studded mempo
+[ITEMDEF i_studded_mempo_Copper]
+   DEFNAME= i_studded_mempo_Copper
+   ID= i_studded_mempo
+   NAME= Copper studded mempo
+   ARMOR= 9
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Copper, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper studded do
+[ITEMDEF i_studded_do_Copper]
+   DEFNAME= i_studded_do_Copper
+   ID= i_studded_do
+   NAME= Copper studded do
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Copper, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Copper]
+   DEFNAME= i_studded_hiro_sode_Copper
+   ID= i_studded_hiro_sode
+   NAME= Copper studded hiro sode
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Copper, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper studded suneate
+[ITEMDEF i_studded_suneate_Copper]
+   DEFNAME= i_studded_suneate_Copper
+   ID= i_studded_suneate
+   NAME= Copper studded suneate
+   ARMOR= 11
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Copper, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper studded haidate
+[ITEMDEF i_studded_haidate_Copper]
+   DEFNAME= i_studded_haidate_Copper
+   ID= i_studded_haidate
+   NAME= Copper studded haidate
+   ARMOR= 9
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Copper, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Copper]
+   DEFNAME= i_platemail_gargish_arms_Copper
+   ID= i_platemail_gargish_arms
+   NAME= Copper Gargish Platemail Arms
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Copper]
+   DEFNAME= i_platemail_gargish_chest_Copper
+   ID= i_platemail_gargish_chest
+   NAME= Copper Gargish Platemail Chest
+   ARMOR= 26
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Copper]
+   DEFNAME= i_platemail_gargish_kilt_Copper
+   ID= i_platemail_gargish_kilt
+   NAME= Copper Gargish Platemail Kilt
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Copper]
+   DEFNAME= i_platemail_gargish_leggings_Copper
+   ID= i_platemail_gargish_leggings
+   NAME= Copper Gargish Platemail Leggings
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Copper]
+   DEFNAME= i_platemail_gargish_arms_2_Copper
+   ID= i_platemail_gargish_arms_2
+   NAME= Copper Gargish Platemail Arms
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Copper]
+   DEFNAME= i_platemail_gargish_chest_2_Copper
+   ID= i_platemail_gargish_chest_2
+   NAME= Copper Gargish Platemail Chest
+   ARMOR= 26
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Copper]
+   DEFNAME= i_platemail_gargish_kilt_2_Copper
+   ID= i_platemail_gargish_kilt_2
+   NAME= Copper Gargish Platemail Kilt
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Copper]
+   DEFNAME= i_platemail_gargish_leggings_2_Copper
+   ID= i_platemail_gargish_leggings_2
+   NAME= Copper Gargish Platemail Leggings
+   ARMOR= 22
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Closed Helmet
+[ITEMDEF i_helm_close_Copper]
+   DEFNAME= i_helm_close_Copper
+   ID= i_helm_close
+   NAME= Copper Closed Helmet
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Open Helmet
+[ITEMDEF i_helm_open_Copper]
+   DEFNAME= i_helm_open_Copper
+   ID= i_helm_open
+   NAME= Copper Open Helmet
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Bascinet
+[ITEMDEF i_bascinet_Copper]
+   DEFNAME= i_bascinet_Copper
+   ID= i_bascinet
+   NAME= Copper Bascinet
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Norse Helmet
+[ITEMDEF i_helm_norse_Copper]
+   DEFNAME= i_helm_norse_Copper
+   ID= i_helm_norse
+   NAME= Copper Norse Helmet
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Kabuto
+[ITEMDEF i_helm_kabuto_Copper]
+   DEFNAME= i_helm_kabuto_Copper
+   ID= i_helm_kabuto
+   NAME= Copper Kabuto
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Copper]
+   DEFNAME= i_chainmail_hatsuburi_Copper
+   ID= i_chainmail_hatsuburi
+   NAME= Copper Chainmail Hatsuburi
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Copper]
+   DEFNAME= i_platemail_hatsuburi_Copper
+   ID= i_platemail_hatsuburi
+   NAME= Copper Platemail Hatsuburi
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Copper]
+   DEFNAME= i_plate_jingasa_heavy_Copper
+   ID= i_plate_jingasa_heavy
+   NAME= Copper Heavy Jingasa
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Copper]
+   DEFNAME= i_platemail_kabuto_decorative_Copper
+   ID= i_platemail_kabuto_decorative
+   NAME= Copper Decorative Platemail Kabuto
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {92 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Copper]
+   DEFNAME= i_plate_jingasa_light_Copper
+   ID= i_plate_jingasa_light
+   NAME= Copper Light Jingasa
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Copper]
+   DEFNAME= i_plate_jingasa_small_Copper
+   ID= i_plate_jingasa_small
+   NAME= Copper Small Jingasa
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Copper]
+   DEFNAME= i_platemail_kabuto_battle_Copper
+   ID= i_platemail_kabuto_battle
+   NAME= Copper Platemail Battle Kabuto
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Copper]
+   DEFNAME= i_platemail_kabuto_Copper
+   ID= i_platemail_kabuto
+   NAME= Copper Platemail Kabuto
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Circlet
+[ITEMDEF i_circlet_Copper]
+   DEFNAME= i_circlet_Copper
+   ID= i_circlet
+   NAME= Copper Circlet
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Royal Circlet
+[ITEMDEF i_circlet_royal_Copper]
+   DEFNAME= i_circlet_royal_Copper
+   ID= i_circlet_royal
+   NAME= Copper Royal Circlet
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Copper]
+   DEFNAME= i_circlet_gemmed_Copper
+   ID= i_circlet_gemmed
+   NAME= Copper Gemmed Circlet
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {102 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Buckler
+[ITEMDEF i_shield_buckler_Copper]
+   DEFNAME= i_shield_buckler_Copper
+   ID= i_shield_buckler
+   NAME= Copper Buckler
+   ARMOR= 7
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {32 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Wooden Shield
+[ITEMDEF i_shield_wood_Copper]
+   DEFNAME= i_shield_wood_Copper
+   ID= i_shield_wood
+   NAME= Copper Wooden Shield
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {42 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Copper]
+   DEFNAME= i_shield_round_metal_Copper
+   ID= i_shield_round_metal
+   NAME= Copper Light Metal  Round Shield
+   ARMOR= 9
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Copper]
+   DEFNAME= i_shield_round_bronze_Copper
+   ID= i_shield_round_bronze
+   NAME= Copper Heavy Metal  Round Shield
+   ARMOR= 11
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Copper]
+   DEFNAME= i_shield_kite_metal_Copper
+   ID= i_shield_kite_metal
+   NAME= Copper Metal Kite Shield
+   ARMOR= 13
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {72 140}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Copper]
+   DEFNAME= i_shield_kite_wood_Copper
+   ID= i_shield_kite_wood
+   NAME= Copper Wooden Kite Shield
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Heater Shield
+[ITEMDEF i_shield_heater_Copper]
+   DEFNAME= i_shield_heater_Copper
+   ID= i_shield_heater
+   NAME= Copper Heater Shield
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {92 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Ancient Shield
+[ITEMDEF i_shield_dupre_Copper]
+   DEFNAME= i_shield_dupre_Copper
+   ID= i_shield_dupre
+   NAME= Copper Ancient Shield
+   ARMOR= 16
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {102 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Shield oh Hell
+[ITEMDEF i_shield_scale_Copper]
+   DEFNAME= i_shield_scale_Copper
+   ID= i_shield_scale
+   NAME= Copper Shield oh Hell
+   ARMOR= 16
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {102 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Chaos Shield
+[ITEMDEF i_shield_chaos_Copper]
+   DEFNAME= i_shield_chaos_Copper
+   ID= i_shield_chaos
+   NAME= Copper Chaos Shield
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {112 220}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Copper Order Shield
+[ITEMDEF i_shield_order_Copper]
+   DEFNAME= i_shield_order_Copper
+   ID= i_shield_order
+   NAME= Copper Order Shield
+   ARMOR= 17
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Copper
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Copper
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Copper
+   HITPOINTS= {112 220}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

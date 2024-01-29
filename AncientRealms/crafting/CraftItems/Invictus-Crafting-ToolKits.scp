@@ -1,0 +1,35 @@
+[ITEMDEF i_ToolKit_Fencing]
+DEFNAME=i_ToolKit_Fencing
+ID=i_toolkit
+NAME=Fencing Toolkit
+TYPE=t_toolkit_fencing
+WEIGHT=1
+VALUE=100
+SKILLMAKE=TINKERING 75.0
+RESOURCES=20 i_log, 10 i_ingot_iron
+CATEGORY=Invictus - Crafting
+SUBSECTION=ToolKits
+DESCRIPTION=Fencing ToolKit
+
+ON=@Create
+	MAXHITS={50 200}
+
+[TYPEDEF t_toolkit_fencing]
+ON=@Dclick
+	IF (<HITS> > 0)
+		HITS=<HITS>+-1
+		SRC.DIALOG d_ToolKit_Fencing
+	ELSE
+		SRC.SYSMESSAGE @0029  The fencing tool has broken!
+		REMOVE
+	ENDIF
+	RETURN 1
+	
+[DIALOG d_ToolKit_Fencing]
+1,1
+RESIZEPIC 20 20 9350 360 220
+RESIZEPIC 162 38 3500 203 182
+
+PAGE 0
+	
+	TILEPICHUE 150 150 2081

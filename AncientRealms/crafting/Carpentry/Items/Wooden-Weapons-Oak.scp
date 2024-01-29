@@ -1,0 +1,563 @@
+/////////////////////////////////////////////Oak WildStaff
+
+[ITEMDEF i_mace_wildstaff_Oak]
+   DEFNAME=i_mace_wildstaff_Oak
+   ID=i_mace_wildstaff
+   NAME=Oak WildStaff
+   RESOURCES= 20 i_log_Oak
+   WEIGHT=13
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=23
+   VALUE=35
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Oak
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS={60 66}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak Black Staff
+
+[ITEMDEF i_staff_black_Oak]
+   DEFNAME=i_staff_black_Oak
+   ID=i_staff_black
+   NAME=Oak Black Staff
+   RESOURCES= 20 i_log_Oak
+   WEIGHT=13
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=21
+   VALUE=35
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Oak
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS={30 36}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak Gnarled Staff
+
+[ITEMDEF i_staff_gnarled_Oak]
+   DEFNAME=i_staff_gnarled_Oak
+   ID=i_staff_gnarled
+   NAME=Oak Gnarled Staff
+   RESOURCES= 20 i_log_Oak
+   WEIGHT=13
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=19
+   VALUE=35
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Oak
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS={30 36}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak Nunchaku
+
+[ITEMDEF i_nunchaku_Oak]
+   DEFNAME=i_nunchaku_Oak
+   ID=i_nunchaku
+   NAME=Oak Nunchaku
+   RESOURCES= 20 i_log_Oak
+   WEIGHT=13
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=21
+   VALUE=35
+   SPEED=33
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Oak
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS={30 36}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak Club
+
+[ITEMDEF i_club_Oak]
+   DEFNAME=i_club_Oak
+   ID=i_club
+   NAME=Oak Club
+   RESOURCES= 20 i_log_Oak
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=17
+   VALUE=35
+   SPEED=35
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=CARPENTRY 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Oak
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS={10 16}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak Tetsubo
+
+[ITEMDEF i_tetsubo_Oak]
+   DEFNAME=i_tetsubo_Oak
+   ID=i_tetsubo
+   NAME=Oak Tetsubo
+   RESOURCES= 20 i_log_Oak
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=27
+   VALUE=35
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Oak
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS={80 86}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak Spear
+
+[ITEMDEF i_spear_Oak]
+   DEFNAME=i_spear_Oak
+   ID=i_spear
+   NAME=Oak Spear
+   RESOURCES= 20 i_log_Oak
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=35
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Oak
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS={60 66}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak Lance
+
+[ITEMDEF i_lance_Oak]
+   DEFNAME=i_lance_Oak
+   ID=i_lance
+   NAME=Oak Lance
+   RESOURCES= 20 i_log_Oak
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=35
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Oak
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS={100 106}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak Bow
+
+[ITEMDEF i_bow_Oak]
+   DEFNAME=i_bow_Oak
+   ID=i_bow
+   NAME=Oak Bow
+   RESOURCES= 20 i_log_Oak
+   WEIGHT=13
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=17
+   VALUE=35
+   SPEED=38
+   SKILL=ARCHERY
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Oak
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS={30 36}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak Composite Bow
+
+[ITEMDEF i_composite_bow_Oak]
+   DEFNAME=i_composite_bow_Oak
+   ID=i_composite_bow
+   NAME=Oak Composite Bow
+   RESOURCES= 20 i_log_Oak
+   WEIGHT=13
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=18
+   VALUE=35
+   SPEED=36
+   SKILL=ARCHERY
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Oak
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS={50 56}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak Eleven Composite Bow
+
+[ITEMDEF i_elven_composite_longbow_Oak]
+   DEFNAME=i_elven_composite_longbow_Oak
+   ID=i_elven_composite_longbow
+   NAME=Oak Eleven Composite Bow
+   RESOURCES= 20 i_log_Oak
+   WEIGHT=13
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=19
+   VALUE=35
+   SPEED=34
+   SKILL=ARCHERY
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Oak
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS={70 76}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak Assassin Shortbow
+
+[ITEMDEF i_assassin_shortbow_Oak]
+   DEFNAME=i_assassin_shortbow_Oak
+   ID=i_assassin_shortbow
+   NAME=Oak Assassin Shortbow
+   RESOURCES= 20 i_log_Oak
+   WEIGHT=13
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=20
+   VALUE=35
+   SPEED=32
+   SKILL=ARCHERY
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Oak
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS={90 96}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak Yumi
+
+[ITEMDEF i_yumi_Oak]
+   DEFNAME=i_yumi_Oak
+   ID=i_yumi
+   NAME=Oak Yumi
+   RESOURCES= 20 i_log_Oak
+   WEIGHT=13
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=21
+   VALUE=35
+   SPEED=30
+   SKILL=ARCHERY
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Oak
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS={100 106}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak Crossbow
+
+[ITEMDEF i_crossbow_Oak]
+   DEFNAME=i_crossbow_Oak
+   ID=i_crossbow
+   NAME=Oak Crossbow
+   RESOURCES= 20 i_log_Oak
+   WEIGHT=13
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=19
+   VALUE=35
+   SPEED=48
+   SKILL=ARCHERY
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Oak
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS={50 56}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak Heavy Crossbow
+
+[ITEMDEF i_crossbow_heavy_Oak]
+   DEFNAME=i_crossbow_heavy_Oak
+   ID=i_crossbow_heavy
+   NAME=Oak Heavy Crossbow
+   RESOURCES= 20 i_log_Oak
+   WEIGHT=13
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=21
+   VALUE=35
+   SPEED=46
+   SKILL=ARCHERY
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Oak
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS={70 76}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak Repeating Crossbow
+
+[ITEMDEF i_repeating_crossbow_Oak]
+   DEFNAME=i_repeating_crossbow_Oak
+   ID=i_repeating_crossbow
+   NAME=Oak Repeating Crossbow
+   RESOURCES= 20 i_log_Oak
+   WEIGHT=13
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=18
+   VALUE=35
+   SPEED=44
+   SKILL=ARCHERY
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Oak
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS={90 96}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Oak Bola
+
+[ITEMDEF i_bola_Oak]
+   DEFNAME=i_bola_Oak
+   ID=i_bola
+   NAME=Oak Bola
+   RESOURCES= 20 i_log_Oak
+   WEIGHT=13
+   TYPE=t_bola
+   FLIP=1
+   DAM=15
+   VALUE=35
+   SPEED=33
+   SKILL=ARCHERY
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=TINKERING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Oak
+
+ON=@Create
+   COLOR=color_log_Oak
+   HITPOINTS={110 116}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

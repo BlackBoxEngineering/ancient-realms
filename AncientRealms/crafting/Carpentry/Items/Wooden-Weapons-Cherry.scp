@@ -1,0 +1,563 @@
+/////////////////////////////////////////////Cherry WildStaff
+
+[ITEMDEF i_mace_wildstaff_Cherry]
+   DEFNAME=i_mace_wildstaff_Cherry
+   ID=i_mace_wildstaff
+   NAME=Cherry WildStaff
+   RESOURCES= 20 i_log_Cherry
+   WEIGHT=20
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=30
+   VALUE=113
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cherry
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS={60 80}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry Black Staff
+
+[ITEMDEF i_staff_black_Cherry]
+   DEFNAME=i_staff_black_Cherry
+   ID=i_staff_black
+   NAME=Cherry Black Staff
+   RESOURCES= 20 i_log_Cherry
+   WEIGHT=20
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=28
+   VALUE=113
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cherry
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS={30 50}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry Gnarled Staff
+
+[ITEMDEF i_staff_gnarled_Cherry]
+   DEFNAME=i_staff_gnarled_Cherry
+   ID=i_staff_gnarled
+   NAME=Cherry Gnarled Staff
+   RESOURCES= 20 i_log_Cherry
+   WEIGHT=20
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=26
+   VALUE=113
+   SPEED=53
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cherry
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS={30 50}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry Nunchaku
+
+[ITEMDEF i_nunchaku_Cherry]
+   DEFNAME=i_nunchaku_Cherry
+   ID=i_nunchaku
+   NAME=Cherry Nunchaku
+   RESOURCES= 20 i_log_Cherry
+   WEIGHT=20
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=28
+   VALUE=113
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cherry
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS={30 50}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry Club
+
+[ITEMDEF i_club_Cherry]
+   DEFNAME=i_club_Cherry
+   ID=i_club
+   NAME=Cherry Club
+   RESOURCES= 20 i_log_Cherry
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=24
+   VALUE=113
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=CARPENTRY 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cherry
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS={10 30}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry Tetsubo
+
+[ITEMDEF i_tetsubo_Cherry]
+   DEFNAME=i_tetsubo_Cherry
+   ID=i_tetsubo
+   NAME=Cherry Tetsubo
+   RESOURCES= 20 i_log_Cherry
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=34
+   VALUE=113
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cherry
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS={80 100}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry Spear
+
+[ITEMDEF i_spear_Cherry]
+   DEFNAME=i_spear_Cherry
+   ID=i_spear
+   NAME=Cherry Spear
+   RESOURCES= 20 i_log_Cherry
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=113
+   SPEED=44
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cherry
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS={60 80}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry Lance
+
+[ITEMDEF i_lance_Cherry]
+   DEFNAME=i_lance_Cherry
+   ID=i_lance
+   NAME=Cherry Lance
+   RESOURCES= 20 i_log_Cherry
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=30
+   VALUE=113
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cherry
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS={100 120}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry Bow
+
+[ITEMDEF i_bow_Cherry]
+   DEFNAME=i_bow_Cherry
+   ID=i_bow
+   NAME=Cherry Bow
+   RESOURCES= 20 i_log_Cherry
+   WEIGHT=20
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=24
+   VALUE=113
+   SPEED=45
+   SKILL=ARCHERY
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cherry
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS={30 50}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry Composite Bow
+
+[ITEMDEF i_composite_bow_Cherry]
+   DEFNAME=i_composite_bow_Cherry
+   ID=i_composite_bow
+   NAME=Cherry Composite Bow
+   RESOURCES= 20 i_log_Cherry
+   WEIGHT=20
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=25
+   VALUE=113
+   SPEED=43
+   SKILL=ARCHERY
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cherry
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS={50 70}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry Eleven Composite Bow
+
+[ITEMDEF i_elven_composite_longbow_Cherry]
+   DEFNAME=i_elven_composite_longbow_Cherry
+   ID=i_elven_composite_longbow
+   NAME=Cherry Eleven Composite Bow
+   RESOURCES= 20 i_log_Cherry
+   WEIGHT=20
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=26
+   VALUE=113
+   SPEED=41
+   SKILL=ARCHERY
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cherry
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS={70 90}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry Assassin Shortbow
+
+[ITEMDEF i_assassin_shortbow_Cherry]
+   DEFNAME=i_assassin_shortbow_Cherry
+   ID=i_assassin_shortbow
+   NAME=Cherry Assassin Shortbow
+   RESOURCES= 20 i_log_Cherry
+   WEIGHT=20
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=27
+   VALUE=113
+   SPEED=39
+   SKILL=ARCHERY
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cherry
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS={90 110}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry Yumi
+
+[ITEMDEF i_yumi_Cherry]
+   DEFNAME=i_yumi_Cherry
+   ID=i_yumi
+   NAME=Cherry Yumi
+   RESOURCES= 20 i_log_Cherry
+   WEIGHT=20
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=28
+   VALUE=113
+   SPEED=37
+   SKILL=ARCHERY
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cherry
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS={100 120}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry Crossbow
+
+[ITEMDEF i_crossbow_Cherry]
+   DEFNAME=i_crossbow_Cherry
+   ID=i_crossbow
+   NAME=Cherry Crossbow
+   RESOURCES= 20 i_log_Cherry
+   WEIGHT=20
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=26
+   VALUE=113
+   SPEED=55
+   SKILL=ARCHERY
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cherry
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS={50 70}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry Heavy Crossbow
+
+[ITEMDEF i_crossbow_heavy_Cherry]
+   DEFNAME=i_crossbow_heavy_Cherry
+   ID=i_crossbow_heavy
+   NAME=Cherry Heavy Crossbow
+   RESOURCES= 20 i_log_Cherry
+   WEIGHT=20
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=28
+   VALUE=113
+   SPEED=53
+   SKILL=ARCHERY
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cherry
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS={70 90}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry Repeating Crossbow
+
+[ITEMDEF i_repeating_crossbow_Cherry]
+   DEFNAME=i_repeating_crossbow_Cherry
+   ID=i_repeating_crossbow
+   NAME=Cherry Repeating Crossbow
+   RESOURCES= 20 i_log_Cherry
+   WEIGHT=20
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=25
+   VALUE=113
+   SPEED=51
+   SKILL=ARCHERY
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cherry
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS={90 110}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry Bola
+
+[ITEMDEF i_bola_Cherry]
+   DEFNAME=i_bola_Cherry
+   ID=i_bola
+   NAME=Cherry Bola
+   RESOURCES= 20 i_log_Cherry
+   WEIGHT=20
+   TYPE=t_bola
+   FLIP=1
+   DAM=22
+   VALUE=113
+   SPEED=40
+   SKILL=ARCHERY
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=TINKERING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cherry
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS={110 130}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

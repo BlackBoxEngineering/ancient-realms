@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Dioptase Quarter Staff
+
+[ITEMDEF i_staff_quarter_Dioptase]
+   DEFNAME=i_staff_quarter_Dioptase
+   ID=i_staff_quarter
+   NAME=Dioptase Quarter Staff
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=27
+   VALUE=149
+   SPEED=54
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={20 42}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Dioptase]
+   DEFNAME=i_serpentstone_staff_Dioptase
+   ID=i_serpentstone_staff
+   NAME=Dioptase Serpentstone Staff
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=31
+   VALUE=149
+   SPEED=53
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={60 82}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Dioptase]
+   DEFNAME=i_staff_bladed_double_Dioptase
+   ID=i_staff_bladed_double
+   NAME=Dioptase Double Bladed Staff
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=39
+   VALUE=149
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={120 142}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Glass Staff
+
+[ITEMDEF i_glass_staff_Dioptase]
+   DEFNAME=i_glass_staff_Dioptase
+   ID=i_glass_staff
+   NAME=Dioptase Glass Staff
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=36
+   VALUE=149
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={90 112}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Bladed Staff
+
+[ITEMDEF i_bladed_staff_Dioptase]
+   DEFNAME=i_bladed_staff_Dioptase
+   ID=i_bladed_staff
+   NAME=Dioptase Bladed Staff
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=37
+   VALUE=149
+   SPEED=53
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={115 137}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Tongs
+
+[ITEMDEF i_tongs_Dioptase]
+   DEFNAME=i_tongs_Dioptase
+   ID=i_tongs
+   NAME=Dioptase Tongs
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=14
+   VALUE=149
+   SPEED=16
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={0 22}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Mace
+
+[ITEMDEF i_mace_Dioptase]
+   DEFNAME=i_mace_Dioptase
+   ID=i_mace
+   NAME=Dioptase Mace
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=27
+   VALUE=149
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Maul
+
+[ITEMDEF i_maul_Dioptase]
+   DEFNAME=i_maul_Dioptase
+   ID=i_maul
+   NAME=Dioptase Maul
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=29
+   VALUE=149
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={40 62}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Scepter
+
+[ITEMDEF i_scepter_Dioptase]
+   DEFNAME=i_scepter_Dioptase
+   ID=i_scepter
+   NAME=Dioptase Scepter
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=31
+   VALUE=149
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={50 72}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Dioptase]
+   DEFNAME=i_hammer_sledge_Dioptase
+   ID=i_hammer_sledge
+   NAME=Dioptase Sledge Hammer
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=31
+   VALUE=149
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={20 42}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Dioptase]
+   DEFNAME=i_hammer_smith_Dioptase
+   ID=i_hammer_smith
+   NAME=Dioptase Smiths Hammer
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=17
+   VALUE=149
+   SPEED=16
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase War Mace
+
+[ITEMDEF i_mace_war_Dioptase]
+   DEFNAME=i_mace_war_Dioptase
+   ID=i_mace_war
+   NAME=Dioptase War Mace
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=35
+   VALUE=149
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={80 102}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Disc Mace
+
+[ITEMDEF i_disc_mace_Dioptase]
+   DEFNAME=i_disc_mace_Dioptase
+   ID=i_disc_mace
+   NAME=Dioptase Disc Mace
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=35
+   VALUE=149
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={70 92}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase War Hammer
+
+[ITEMDEF i_hammer_war_Dioptase]
+   DEFNAME=i_hammer_war_Dioptase
+   ID=i_hammer_war
+   NAME=Dioptase War Hammer
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=41
+   VALUE=149
+   SPEED=56
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={100 122}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Hammer Pick
+
+[ITEMDEF i_hammer_pick_Dioptase]
+   DEFNAME=i_hammer_pick_Dioptase
+   ID=i_hammer_pick
+   NAME=Dioptase Hammer Pick
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=37
+   VALUE=149
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={55 77}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase War Axe
+
+[ITEMDEF i_axe_war_Dioptase]
+   DEFNAME=i_axe_war_Dioptase
+   ID=i_axe_war
+   NAME=Dioptase War Axe
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=27
+   VALUE=149
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={65 87}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Tessen
+
+[ITEMDEF i_tessen_Dioptase]
+   DEFNAME=i_tessen_Dioptase
+   ID=i_tessen
+   NAME=Dioptase Tessen
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=26
+   VALUE=149
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={75 97}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Long Sword
+
+[ITEMDEF i_sword_long_Dioptase]
+   DEFNAME=i_sword_long_Dioptase
+   ID=i_sword_long
+   NAME=Dioptase Long Sword
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=149
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={10 32}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Broad Sword
+
+[ITEMDEF i_sword_broad_Dioptase]
+   DEFNAME=i_sword_broad_Dioptase
+   ID=i_sword_broad
+   NAME=Dioptase Broad Sword
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=149
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={20 42}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Scimitar
+
+[ITEMDEF i_scimitar_Dioptase]
+   DEFNAME=i_scimitar_Dioptase
+   ID=i_scimitar
+   NAME=Dioptase Scimitar
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=149
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Viking Sword
+
+[ITEMDEF i_sword_viking_Dioptase]
+   DEFNAME=i_sword_viking_Dioptase
+   ID=i_sword_viking
+   NAME=Dioptase Viking Sword
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=149
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={35 57}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Katana
+
+[ITEMDEF i_katana_Dioptase]
+   DEFNAME=i_katana_Dioptase
+   ID=i_katana
+   NAME=Dioptase Katana
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=149
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={80 102}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Wakizashi
+
+[ITEMDEF i_wakizashi_Dioptase]
+   DEFNAME=i_wakizashi_Dioptase
+   ID=i_wakizashi
+   NAME=Dioptase Wakizashi
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=149
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={45 67}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Long Sword
+
+[ITEMDEF i_sword_long_b_Dioptase]
+   DEFNAME=i_sword_long_b_Dioptase
+   ID=i_sword_long_b
+   NAME=Dioptase Long Sword
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=149
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={50 72}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Paladin Sword
+
+[ITEMDEF i_sword_paladin_Dioptase]
+   DEFNAME=i_sword_paladin_Dioptase
+   ID=i_sword_paladin
+   NAME=Dioptase Paladin Sword
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=149
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={65 87}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Bokuto
+
+[ITEMDEF i_bokuto_Dioptase]
+   DEFNAME=i_bokuto_Dioptase
+   ID=i_bokuto
+   NAME=Dioptase Bokuto
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=149
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={70 92}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Dioptase]
+   DEFNAME=i_Radiant_Scimitar_Dioptase
+   ID=i_Radiant_Scimitar
+   NAME=Dioptase Radiant Scimitar
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=29
+   VALUE=149
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={75 97}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Bone Harvester
+
+[ITEMDEF i_bone_harvester_Dioptase]
+   DEFNAME=i_bone_harvester_Dioptase
+   ID=i_bone_harvester
+   NAME=Dioptase Bone Harvester
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=149
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={55 77}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Butcher Knife
+
+[ITEMDEF i_knife_butcher_Dioptase]
+   DEFNAME=i_knife_butcher_Dioptase
+   ID=i_knife_butcher
+   NAME=Dioptase Butcher Knife
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=149
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Dioptase]
+   DEFNAME=i_cleaver_meat_Dioptase
+   ID=i_cleaver_meat
+   NAME=Dioptase Meat Cleaver
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=149
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Elven Machete
+
+[ITEMDEF i_elven_machete_Dioptase]
+   DEFNAME=i_elven_machete_Dioptase
+   ID=i_elven_machete
+   NAME=Dioptase Elven Machete
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=30
+   VALUE=149
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={60 82}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Bone Machete
+
+[ITEMDEF i_bone_machete_Dioptase]
+   DEFNAME=i_bone_machete_Dioptase
+   ID=i_bone_machete
+   NAME=Dioptase Bone Machete
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=31
+   VALUE=149
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={50 72}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Daisho
+
+[ITEMDEF i_daisho_Dioptase]
+   DEFNAME=i_daisho_Dioptase
+   ID=i_daisho
+   NAME=Dioptase Daisho
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=32
+   VALUE=149
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={65 87}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase No-Dachi
+
+[ITEMDEF i_no_dachi_Dioptase]
+   DEFNAME=i_no_dachi_Dioptase
+   ID=i_no_dachi
+   NAME=Dioptase No-Dachi
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=33
+   VALUE=149
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={75 97}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Rune Blade
+
+[ITEMDEF i_Rune_Blade_Dioptase]
+   DEFNAME=i_Rune_Blade_Dioptase
+   ID=i_Rune_Blade
+   NAME=Dioptase Rune Blade
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=35
+   VALUE=149
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={115 137}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Axe
+
+[ITEMDEF i_axe_Dioptase]
+   DEFNAME=i_axe_Dioptase
+   ID=i_axe
+   NAME=Dioptase Axe
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=25
+   VALUE=149
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={42 64}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Bardiche
+
+[ITEMDEF i_bardiche_Dioptase]
+   DEFNAME=i_bardiche_Dioptase
+   ID=i_bardiche
+   NAME=Dioptase Bardiche
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=149
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={58 80}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Battle Axe
+
+[ITEMDEF i_axe_battle_Dioptase]
+   DEFNAME=i_axe_battle_Dioptase
+   ID=i_axe_battle
+   NAME=Dioptase Battle Axe
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=149
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={65 87}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Double Axe
+
+[ITEMDEF i_axe_double_Dioptase]
+   DEFNAME=i_axe_double_Dioptase
+   ID=i_axe_double
+   NAME=Dioptase Double Axe
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=35
+   VALUE=149
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={70 92}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Dioptase]
+   DEFNAME=i_axe_exec_Dioptase
+   ID=i_axe_exec
+   NAME=Dioptase Exectutioners Axe
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=35
+   VALUE=149
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={73 95}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Halberd
+
+[ITEMDEF i_halberd_Dioptase]
+   DEFNAME=i_halberd_Dioptase
+   ID=i_halberd
+   NAME=Dioptase Halberd
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=36
+   VALUE=149
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={75 97}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Hatchet
+
+[ITEMDEF i_hatchet_Dioptase]
+   DEFNAME=i_hatchet_Dioptase
+   ID=i_hatchet
+   NAME=Dioptase Hatchet
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=149
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={40 62}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Dioptase]
+   DEFNAME=i_axe_battle_large_Dioptase
+   ID=i_axe_battle_large
+   NAME=Dioptase Large Battle Axe
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=38
+   VALUE=149
+   SPEED=49
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={100 122}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Ornate Axe
+
+[ITEMDEF i_ornate_axe_Dioptase]
+   DEFNAME=i_ornate_axe_Dioptase
+   ID=i_ornate_axe
+   NAME=Dioptase Ornate Axe
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=149
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={60 82}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Dioptase]
+   DEFNAME=i_axe_two_hand_Dioptase
+   ID=i_axe_two_hand
+   NAME=Dioptase Two Handed Axe
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=36
+   VALUE=149
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={55 77}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Dual Axes
+
+[ITEMDEF i_dual_short_axes_Dioptase]
+   DEFNAME=i_dual_short_axes_Dioptase
+   ID=i_dual_short_axes
+   NAME=Dioptase Dual Axes
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=149
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={95 117}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Cresent Blade
+
+[ITEMDEF i_crescent_blade_Dioptase]
+   DEFNAME=i_crescent_blade_Dioptase
+   ID=i_crescent_blade
+   NAME=Dioptase Cresent Blade
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=38
+   VALUE=149
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={110 132}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Dagger
+
+[ITEMDEF i_dagger_Dioptase]
+   DEFNAME=i_dagger_Dioptase
+   ID=i_dagger
+   NAME=Dioptase Dagger
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=149
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={10 32}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Skinning Knife
+
+[ITEMDEF i_knife_skinning_Dioptase]
+   DEFNAME=i_knife_skinning_Dioptase
+   ID=i_knife_skinning
+   NAME=Dioptase Skinning Knife
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=149
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={15 37}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Dioptase]
+   DEFNAME=i_sword_Assassin_Spike_Dioptase
+   ID=i_sword_Assassin_Spike
+   NAME=Dioptase Assassin Spike
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=149
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Cutlass
+
+[ITEMDEF i_cutlass_Dioptase]
+   DEFNAME=i_cutlass_Dioptase
+   ID=i_cutlass
+   NAME=Dioptase Cutlass
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=149
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={25 47}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Short Blade
+
+[ITEMDEF i_shortblade_Dioptase]
+   DEFNAME=i_shortblade_Dioptase
+   ID=i_shortblade
+   NAME=Dioptase Short Blade
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=149
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={35 57}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Scythe
+
+[ITEMDEF i_scythe_Dioptase]
+   DEFNAME=i_scythe_Dioptase
+   ID=i_scythe
+   NAME=Dioptase Scythe
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=34
+   VALUE=149
+   SPEED=43
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={115 137}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Short Spear
+
+[ITEMDEF i_spear_short_Dioptase]
+   DEFNAME=i_spear_short_Dioptase
+   ID=i_spear_short
+   NAME=Dioptase Short Spear
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=149
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={45 67}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase War Fork
+
+[ITEMDEF i_war_fork_Dioptase]
+   DEFNAME=i_war_fork_Dioptase
+   ID=i_war_fork
+   NAME=Dioptase War Fork
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=149
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={50 72}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Leafblade
+
+[ITEMDEF i_sword_leafblade_Dioptase]
+   DEFNAME=i_sword_leafblade_Dioptase
+   ID=i_sword_leafblade
+   NAME=Dioptase Leafblade
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=149
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={60 82}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Dioptase]
+   DEFNAME=i_elven_spellblade_Dioptase
+   ID=i_elven_spellblade
+   NAME=Dioptase Elven Spell Blade
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=149
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={75 97}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Pitchfork
+
+[ITEMDEF i_pitchfork_Dioptase]
+   DEFNAME=i_pitchfork_Dioptase
+   ID=i_pitchfork
+   NAME=Dioptase Pitchfork
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=29
+   VALUE=149
+   SPEED=44
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={55 77}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase War Cleaver
+
+[ITEMDEF i_war_cleaver_Dioptase]
+   DEFNAME=i_war_cleaver_Dioptase
+   ID=i_war_cleaver
+   NAME=Dioptase War Cleaver
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=149
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={65 87}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Pike
+
+[ITEMDEF i_pike_Dioptase]
+   DEFNAME=i_pike_Dioptase
+   ID=i_pike
+   NAME=Dioptase Pike
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=149
+   SPEED=44
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={70 92}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Blood Blade
+
+[ITEMDEF i_bloodblade_Dioptase]
+   DEFNAME=i_bloodblade_Dioptase
+   ID=i_bloodblade
+   NAME=Dioptase Blood Blade
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=149
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={75 97}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Kama
+
+[ITEMDEF i_kama_Dioptase]
+   DEFNAME=i_kama_Dioptase
+   ID=i_kama
+   NAME=Dioptase Kama
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=29
+   VALUE=149
+   SPEED=43
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={77 99}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Kryss
+
+[ITEMDEF i_kryss_Dioptase]
+   DEFNAME=i_kryss_Dioptase
+   ID=i_kryss
+   NAME=Dioptase Kryss
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=149
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={80 102}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Lajatang
+
+[ITEMDEF i_lajatang_Dioptase]
+   DEFNAME=i_lajatang_Dioptase
+   ID=i_lajatang
+   NAME=Dioptase Lajatang
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=149
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={85 107}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Sai
+
+[ITEMDEF i_sai_Dioptase]
+   DEFNAME=i_sai_Dioptase
+   ID=i_sai
+   NAME=Dioptase Sai
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=30
+   VALUE=149
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={76 98}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Tekagi
+
+[ITEMDEF i_tekagi_Dioptase]
+   DEFNAME=i_tekagi_Dioptase
+   ID=i_tekagi
+   NAME=Dioptase Tekagi
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=149
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={90 112}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Dioptase Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Dioptase]
+   DEFNAME=i_dual_pointed_spear_Dioptase
+   ID=i_dual_pointed_spear
+   NAME=Dioptase Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Dioptase
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=33
+   VALUE=149
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Dioptase
+
+ON=@Create
+   COLOR=color_ore_Dioptase
+   HITPOINTS={115 137}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

@@ -1,0 +1,98 @@
+[TEMPLATE Start_ReagBag]
+	DEFNAME=Bag of reagents
+	CONTAINER=i_bag
+	COLOR=33
+	ITEM=i_reag_garlic, 65
+	ITEM=i_reag_nightshade, 65
+	ITEM=i_reag_sulfur_ash, 65
+	ITEM=i_reag_blood_moss, 65
+	ITEM=i_reag_black_pearl, 65
+	ITEM=i_reag_spider_silk, 65
+	ITEM=i_reag_ginseng, 65
+	ITEM=i_reag_mandrake_root, 65
+	
+[TEMPLATE Start_ToolBag]
+	DEFNAME=Bag of Tools
+	CONTAINER=i_bag
+	COLOR=46
+	ITEMNEWBIE=i_tinker_tools, 1
+	ITEMNEWBIE=i_hammer_smith, 1
+	ITEMNEWBIE=i_saw, 1
+	ITEMNEWBIE=i_scissors, 1
+	ITEMNEWBIE=i_spade, 1
+	ITEMNEWBIE=i_pickaxe, 1
+	ITEMNEWBIE=i_axe, 1
+	ITEMNEWBIE=i_sewing_kit, 1
+	ITEMNEWBIE=i_mortar_pestle, 1
+	ITEMNEWBIE=i_shepherds_crook, 1
+	
+[FUNCTION FullSpellBook]
+	NEWITEM = i_spellbook, 1, <UID>
+	NEW.MORE1=0fffffffff
+	NEW.MORE2=0fffffffff
+	NEW.TAG.SpellChanneling=1
+
+[FUNCTION Start_HumanLeather]
+	NEWITEM = i_leather_sleeves_Human, 1, <UID>
+	NEWITEM = i_leather_gloves_Human, 1, <UID>
+	NEWITEM = i_leather_gorget_Human, 1, <UID>
+	NEWITEM = i_leather_leggings_Human, 1, <UID>
+	NEWITEM = i_leather_tunic_Human, 1, <UID>
+	NEWITEM = i_leather_cap_Human, 1, <UID>
+	NEWITEM = i_boots_calf, 1, <UID>
+
+[FUNCTION Start_OrcLeather]
+	NEWITEM = i_leather_sleeves_Orc, 1, <UID>
+	NEWITEM = i_leather_gloves_Orc, 1, <UID>
+	NEWITEM = i_leather_gorget_Orc, 1, <UID>
+	NEWITEM = i_leather_leggings_Orc, 1, <UID>
+	NEWITEM = i_leather_tunic_Orc, 1, <UID>
+	NEWITEM = i_leather_cap_Orc, 1, <UID>
+	NEWITEM = i_boots_calf, 1, <UID>
+	
+[FUNCTION Start_PlateMail]
+	NEWITEM = i_platemail_arms, 1, <UID>
+	NEWITEM = i_platemail_leggings, 1, <UID>
+	NEWITEM = i_platemail_helm, 1, <UID>
+	NEWITEM = i_platemail_gorget, 1, <UID>
+	NEWITEM = i_platemail_gloves, 1, <UID>
+	NEWITEM = i_platemail_chest, 1, <UID>
+	
+[FUNCTION Start_ChainMail]
+	NEWITEM = i_chainmail_coif, 1, <UID>
+	NEWITEM = i_chainmail_leggings, 1, <UID>
+	NEWITEM = i_chainmail_tunic, 1, <UID>
+	NEWITEM = i_boots_calf, 1, <UID>
+
+[FUNCTION Start_Studded]
+	NEWITEM = i_studded_sleeves, 1, <UID>
+	NEWITEM = i_studded_gloves, 1, <UID>
+	NEWITEM = i_studded_gorget, 1, <UID>
+	NEWITEM = i_studded_leggings, 1, <UID>
+	NEWITEM = i_studded_gorget, 1, <UID>
+	IF (STRMATCH(*c_woman*,<BASEID>))
+		NEWITEM = i_armor_female_studded, 1, <UID>
+		NEWITEM = i_boots_thigh, 1, <UID>
+	ELSE
+		NEWITEM = i_studded_tunic, 1, <UID>
+		NEWITEM = i_boots_calf, 1, <UID>
+	ENDIF
+	
+[FUNCTION Start_RingMail]
+	NEWITEM = i_ringmail_sleeves, 1, <UID>
+	NEWITEM = i_ringmail_leggings, 1, <UID>
+	NEWITEM = i_ringmail_tunic, 1, <UID>
+	NEWITEM = i_ringmail_gloves, 1, <UID>
+	NEWITEM = i_boots_calf, 1, <UID>
+	
+[FUNCTION Start_Leather]
+	NEWITEM = i_leather_sleeves, 1, <UID>
+	NEWITEM = i_leather_gloves, 1, <UID>
+	NEWITEM = i_leather_gorget, 1, <UID>
+	NEWITEM = i_leather_leggings, 1, <UID>
+	NEWITEM = i_leather_tunic, 1, <UID>
+	NEWITEM = i_leather_cap, 1, <UID>
+	NEWITEM = i_boots_calf, 1, <UID>
+	
+	
+[EOF]

@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////DullCopper Platemail Arms
+[ITEMDEF i_platemail_arms_DullCopper]
+   DEFNAME= i_platemail_arms_DullCopper
+   ID= i_platemail_arms
+   NAME= DullCopper Platemail Arms
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Platemail Leggings
+[ITEMDEF i_platemail_leggings_DullCopper]
+   DEFNAME= i_platemail_leggings_DullCopper
+   ID= i_platemail_leggings
+   NAME= DullCopper Platemail Leggings
+   ARMOR= 19
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Platemail Helmet
+[ITEMDEF i_platemail_helm_DullCopper]
+   DEFNAME= i_platemail_helm_DullCopper
+   ID= i_platemail_helm
+   NAME= DullCopper Platemail Helmet
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Platemail Gorget
+[ITEMDEF i_platemail_gorget_DullCopper]
+   DEFNAME= i_platemail_gorget_DullCopper
+   ID= i_platemail_gorget
+   NAME= DullCopper Platemail Gorget
+   ARMOR= 9
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Platemail Gorget
+[ITEMDEF i_platemail_gorget2_DullCopper]
+   DEFNAME= i_platemail_gorget2_DullCopper
+   ID= i_platemail_gorget2
+   NAME= DullCopper Platemail Gorget
+   ARMOR= 9
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Platemail Gloves
+[ITEMDEF i_platemail_gloves_DullCopper]
+   DEFNAME= i_platemail_gloves_DullCopper
+   ID= i_platemail_gloves
+   NAME= DullCopper Platemail Gloves
+   ARMOR= 9
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Platemail Chest
+[ITEMDEF i_platemail_chest_DullCopper]
+   DEFNAME= i_platemail_chest_DullCopper
+   ID= i_platemail_chest
+   NAME= DullCopper Platemail Chest
+   ARMOR= 23
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Platemail Female Plate
+[ITEMDEF i_armor_female_plate_DullCopper]
+   DEFNAME= i_armor_female_plate_DullCopper
+   ID= i_armor_female_plate
+   NAME= DullCopper Platemail Female Plate
+   ARMOR= 21
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper chainmail coif
+[ITEMDEF i_chainmail_coif_DullCopper]
+   DEFNAME= i_chainmail_coif_DullCopper
+   ID= i_chainmail_coif
+   NAME= DullCopper chainmail coif
+   ARMOR= 15
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper chainmail leggings
+[ITEMDEF i_chainmail_leggings_DullCopper]
+   DEFNAME= i_chainmail_leggings_DullCopper
+   ID= i_chainmail_leggings
+   NAME= DullCopper chainmail leggings
+   ARMOR= 17
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper chainmail tunic
+[ITEMDEF i_chainmail_tunic_DullCopper]
+   DEFNAME= i_chainmail_tunic_DullCopper
+   ID= i_chainmail_tunic
+   NAME= DullCopper chainmail tunic
+   ARMOR= 21
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_DullCopper]
+   DEFNAME= i_ringmail_sleeves_DullCopper
+   ID= i_ringmail_sleeves
+   NAME= DullCopper Ringmail Sleeves
+   ARMOR= 11
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {41 40}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_DullCopper]
+   DEFNAME= i_ringmail_leggings_DullCopper
+   ID= i_ringmail_leggings
+   NAME= DullCopper Ringmail Leggings
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {41 40}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_DullCopper]
+   DEFNAME= i_ringmail_tunic_DullCopper
+   ID= i_ringmail_tunic
+   NAME= DullCopper Ringmail Tunic
+   ARMOR= 17
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {41 40}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_DullCopper]
+   DEFNAME= i_ringmail_gloves_DullCopper
+   ID= i_ringmail_gloves
+   NAME= DullCopper Ringmail Gloves
+   ARMOR= 3
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {41 40}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper studded sleeves
+[ITEMDEF i_studded_sleeves_DullCopper]
+   DEFNAME= i_studded_sleeves_DullCopper
+   ID= i_studded_sleeves
+   NAME= DullCopper studded sleeves
+   ARMOR= 6
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_DullCopper, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {31 30}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper studded gloves
+[ITEMDEF i_studded_gloves_DullCopper]
+   DEFNAME= i_studded_gloves_DullCopper
+   ID= i_studded_gloves
+   NAME= DullCopper studded gloves
+   ARMOR= 3
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_DullCopper, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {31 30}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper studded gorget
+[ITEMDEF i_studded_gorget_DullCopper]
+   DEFNAME= i_studded_gorget_DullCopper
+   ID= i_studded_gorget
+   NAME= DullCopper studded gorget
+   ARMOR= 3
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_DullCopper, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {31 30}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper studded leggings
+[ITEMDEF i_studded_leggings_DullCopper]
+   DEFNAME= i_studded_leggings_DullCopper
+   ID= i_studded_leggings
+   NAME= DullCopper studded leggings
+   ARMOR= 12
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_DullCopper, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {31 30}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper studded tunic
+[ITEMDEF i_studded_tunic_DullCopper]
+   DEFNAME= i_studded_tunic_DullCopper
+   ID= i_studded_tunic
+   NAME= DullCopper studded tunic
+   ARMOR= 16
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_DullCopper, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {31 30}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper studded female armor
+[ITEMDEF i_armor_female_studded_DullCopper]
+   DEFNAME= i_armor_female_studded_DullCopper
+   ID= i_armor_female_studded
+   NAME= DullCopper studded female armor
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_DullCopper, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {31 30}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_DullCopper]
+   DEFNAME= i_armor_female_bustier_studded_DullCopper
+   ID= i_armor_female_bustier_studded
+   NAME= DullCopper studded female bustier
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_DullCopper, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {31 30}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper platemail mempo
+[ITEMDEF i_platemail_mempo_DullCopper]
+   DEFNAME= i_platemail_mempo_DullCopper
+   ID= i_platemail_mempo
+   NAME= DullCopper platemail mempo
+   ARMOR= 11
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {71 70}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper platemail do
+[ITEMDEF i_platemail_do_DullCopper]
+   DEFNAME= i_platemail_do_DullCopper
+   ID= i_platemail_do
+   NAME= DullCopper platemail do
+   ARMOR= 21
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {71 70}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_DullCopper]
+   DEFNAME= i_platemail_hiro_sode_DullCopper
+   ID= i_platemail_hiro_sode
+   NAME= DullCopper platemail hiro sode
+   ARMOR= 17
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {71 70}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper platemail suneate
+[ITEMDEF i_platemail_suneate_DullCopper]
+   DEFNAME= i_platemail_suneate_DullCopper
+   ID= i_platemail_suneate
+   NAME= DullCopper platemail suneate
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {71 70}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper platemail haidate
+[ITEMDEF i_platemail_haidate_DullCopper]
+   DEFNAME= i_platemail_haidate_DullCopper
+   ID= i_platemail_haidate
+   NAME= DullCopper platemail haidate
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {71 70}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper studded mempo
+[ITEMDEF i_studded_mempo_DullCopper]
+   DEFNAME= i_studded_mempo_DullCopper
+   ID= i_studded_mempo
+   NAME= DullCopper studded mempo
+   ARMOR= 8
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_DullCopper, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper studded do
+[ITEMDEF i_studded_do_DullCopper]
+   DEFNAME= i_studded_do_DullCopper
+   ID= i_studded_do
+   NAME= DullCopper studded do
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_DullCopper, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper studded hiro sode
+[ITEMDEF i_studded_hiro_sode_DullCopper]
+   DEFNAME= i_studded_hiro_sode_DullCopper
+   ID= i_studded_hiro_sode
+   NAME= DullCopper studded hiro sode
+   ARMOR= 11
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_DullCopper, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper studded suneate
+[ITEMDEF i_studded_suneate_DullCopper]
+   DEFNAME= i_studded_suneate_DullCopper
+   ID= i_studded_suneate
+   NAME= DullCopper studded suneate
+   ARMOR= 10
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_DullCopper, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper studded haidate
+[ITEMDEF i_studded_haidate_DullCopper]
+   DEFNAME= i_studded_haidate_DullCopper
+   ID= i_studded_haidate
+   NAME= DullCopper studded haidate
+   ARMOR= 8
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_DullCopper, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_DullCopper]
+   DEFNAME= i_platemail_gargish_arms_DullCopper
+   ID= i_platemail_gargish_arms
+   NAME= DullCopper Gargish Platemail Arms
+   ARMOR= 17
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_DullCopper]
+   DEFNAME= i_platemail_gargish_chest_DullCopper
+   ID= i_platemail_gargish_chest
+   NAME= DullCopper Gargish Platemail Chest
+   ARMOR= 25
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_DullCopper]
+   DEFNAME= i_platemail_gargish_kilt_DullCopper
+   ID= i_platemail_gargish_kilt
+   NAME= DullCopper Gargish Platemail Kilt
+   ARMOR= 16
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_DullCopper]
+   DEFNAME= i_platemail_gargish_leggings_DullCopper
+   ID= i_platemail_gargish_leggings
+   NAME= DullCopper Gargish Platemail Leggings
+   ARMOR= 21
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_DullCopper]
+   DEFNAME= i_platemail_gargish_arms_2_DullCopper
+   ID= i_platemail_gargish_arms_2
+   NAME= DullCopper Gargish Platemail Arms
+   ARMOR= 17
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_DullCopper]
+   DEFNAME= i_platemail_gargish_chest_2_DullCopper
+   ID= i_platemail_gargish_chest_2
+   NAME= DullCopper Gargish Platemail Chest
+   ARMOR= 25
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_DullCopper]
+   DEFNAME= i_platemail_gargish_kilt_2_DullCopper
+   ID= i_platemail_gargish_kilt_2
+   NAME= DullCopper Gargish Platemail Kilt
+   ARMOR= 16
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_DullCopper]
+   DEFNAME= i_platemail_gargish_leggings_2_DullCopper
+   ID= i_platemail_gargish_leggings_2
+   NAME= DullCopper Gargish Platemail Leggings
+   ARMOR= 21
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Closed Helmet
+[ITEMDEF i_helm_close_DullCopper]
+   DEFNAME= i_helm_close_DullCopper
+   ID= i_helm_close
+   NAME= DullCopper Closed Helmet
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Open Helmet
+[ITEMDEF i_helm_open_DullCopper]
+   DEFNAME= i_helm_open_DullCopper
+   ID= i_helm_open
+   NAME= DullCopper Open Helmet
+   ARMOR= 11
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {41 40}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Bascinet
+[ITEMDEF i_bascinet_DullCopper]
+   DEFNAME= i_bascinet_DullCopper
+   ID= i_bascinet
+   NAME= DullCopper Bascinet
+   ARMOR= 11
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {31 30}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Norse Helmet
+[ITEMDEF i_helm_norse_DullCopper]
+   DEFNAME= i_helm_norse_DullCopper
+   ID= i_helm_norse
+   NAME= DullCopper Norse Helmet
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Kabuto
+[ITEMDEF i_helm_kabuto_DullCopper]
+   DEFNAME= i_helm_kabuto_DullCopper
+   ID= i_helm_kabuto
+   NAME= DullCopper Kabuto
+   ARMOR= 11
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {71 70}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_DullCopper]
+   DEFNAME= i_chainmail_hatsuburi_DullCopper
+   ID= i_chainmail_hatsuburi
+   NAME= DullCopper Chainmail Hatsuburi
+   ARMOR= 11
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {71 70}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_DullCopper]
+   DEFNAME= i_platemail_hatsuburi_DullCopper
+   ID= i_platemail_hatsuburi
+   NAME= DullCopper Platemail Hatsuburi
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_DullCopper]
+   DEFNAME= i_plate_jingasa_heavy_DullCopper
+   ID= i_plate_jingasa_heavy
+   NAME= DullCopper Heavy Jingasa
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_DullCopper]
+   DEFNAME= i_platemail_kabuto_decorative_DullCopper
+   ID= i_platemail_kabuto_decorative
+   NAME= DullCopper Decorative Platemail Kabuto
+   ARMOR= 11
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {91 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Light Jingasa
+[ITEMDEF i_plate_jingasa_light_DullCopper]
+   DEFNAME= i_plate_jingasa_light_DullCopper
+   ID= i_plate_jingasa_light
+   NAME= DullCopper Light Jingasa
+   ARMOR= 11
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Small Jingasa
+[ITEMDEF i_plate_jingasa_small_DullCopper]
+   DEFNAME= i_plate_jingasa_small_DullCopper
+   ID= i_plate_jingasa_small
+   NAME= DullCopper Small Jingasa
+   ARMOR= 9
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_DullCopper]
+   DEFNAME= i_platemail_kabuto_battle_DullCopper
+   ID= i_platemail_kabuto_battle
+   NAME= DullCopper Platemail Battle Kabuto
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {71 70}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_DullCopper]
+   DEFNAME= i_platemail_kabuto_DullCopper
+   ID= i_platemail_kabuto
+   NAME= DullCopper Platemail Kabuto
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {71 70}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Circlet
+[ITEMDEF i_circlet_DullCopper]
+   DEFNAME= i_circlet_DullCopper
+   ID= i_circlet
+   NAME= DullCopper Circlet
+   ARMOR= 7
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Royal Circlet
+[ITEMDEF i_circlet_royal_DullCopper]
+   DEFNAME= i_circlet_royal_DullCopper
+   ID= i_circlet_royal
+   NAME= DullCopper Royal Circlet
+   ARMOR= 7
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_DullCopper]
+   DEFNAME= i_circlet_gemmed_DullCopper
+   ID= i_circlet_gemmed
+   NAME= DullCopper Gemmed Circlet
+   ARMOR= 7
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {101 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Buckler
+[ITEMDEF i_shield_buckler_DullCopper]
+   DEFNAME= i_shield_buckler_DullCopper
+   ID= i_shield_buckler
+   NAME= DullCopper Buckler
+   ARMOR= 6
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {31 30}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Wooden Shield
+[ITEMDEF i_shield_wood_DullCopper]
+   DEFNAME= i_shield_wood_DullCopper
+   ID= i_shield_wood
+   NAME= DullCopper Wooden Shield
+   ARMOR= 7
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {41 40}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_DullCopper]
+   DEFNAME= i_shield_round_metal_DullCopper
+   ID= i_shield_round_metal
+   NAME= DullCopper Light Metal  Round Shield
+   ARMOR= 8
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {51 50}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_DullCopper]
+   DEFNAME= i_shield_round_bronze_DullCopper
+   ID= i_shield_round_bronze
+   NAME= DullCopper Heavy Metal  Round Shield
+   ARMOR= 10
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_DullCopper]
+   DEFNAME= i_shield_kite_metal_DullCopper
+   ID= i_shield_kite_metal
+   NAME= DullCopper Metal Kite Shield
+   ARMOR= 12
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {71 70}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_DullCopper]
+   DEFNAME= i_shield_kite_wood_DullCopper
+   ID= i_shield_kite_wood
+   NAME= DullCopper Wooden Kite Shield
+   ARMOR= 11
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Heater Shield
+[ITEMDEF i_shield_heater_DullCopper]
+   DEFNAME= i_shield_heater_DullCopper
+   ID= i_shield_heater
+   NAME= DullCopper Heater Shield
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {91 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Ancient Shield
+[ITEMDEF i_shield_dupre_DullCopper]
+   DEFNAME= i_shield_dupre_DullCopper
+   ID= i_shield_dupre
+   NAME= DullCopper Ancient Shield
+   ARMOR= 15
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {101 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Shield oh Hell
+[ITEMDEF i_shield_scale_DullCopper]
+   DEFNAME= i_shield_scale_DullCopper
+   ID= i_shield_scale
+   NAME= DullCopper Shield oh Hell
+   ARMOR= 15
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {101 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Chaos Shield
+[ITEMDEF i_shield_chaos_DullCopper]
+   DEFNAME= i_shield_chaos_DullCopper
+   ID= i_shield_chaos
+   NAME= DullCopper Chaos Shield
+   ARMOR= 16
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {111 110}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Order Shield
+[ITEMDEF i_shield_order_DullCopper]
+   DEFNAME= i_shield_order_DullCopper
+   ID= i_shield_order
+   NAME= DullCopper Order Shield
+   ARMOR= 16
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_DullCopper
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= DullCopper
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS= {111 110}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

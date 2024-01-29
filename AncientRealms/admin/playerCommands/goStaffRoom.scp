@@ -1,0 +1,112 @@
+[FUNCTION goStaffRoom]
+IF (<REGION.UID>==<f_ArenaControlRegionUid <EVAL TS_ControlNuke>>)
+	SRC.SAY @33 You must walk out of this Area
+	RETURN 1
+ENDIF
+
+IF (STRMATCH(*jail*,<REGION.NAME>))
+	SRC.SAY @33 You are Currently in Jail!
+	RETURN 1
+ENDIF
+
+IF (<SRC.CheckEvents e_Games_CTSFernBank>))
+	SRC.SAY @33 You are Currently in an event!
+	RETURN 1
+ENDIF
+
+IF (!<GM>)
+	SRC.EFFECT=3,0375A,6,15,1
+	SRC.NEWITEM=i_GoTo_timer
+	SRC.ACT.EQUIP
+	SRC.NEWITEM=i_GoTo_Counter
+	SRC.ACT.EQUIP
+ELSE
+	SRC.GO 5139,1766
+ENDIF
+
+[ITEMDEF i_GoTo_TIMER]
+DEFNAME=i_GoTo_TIMER
+TYPE=t_eq_script
+NAME=GOTO TIMER
+LAYER=layer_special
+
+ON=@CREATE
+	attr=attr_newbie|attr_decay|attr_move_never
+	TIMER=5
+      
+ON=@EQUIP
+	CONT.SAY @55 Stand in peace and wait to be summoned.
+	TIMER=60
+
+ON=@TIMER
+	CONT.EFFECT=3,0375A,6,15,1
+	CONT.GO 5139,1766
+	//CONT.WASHTAGS
+	CONT.SYSMESSAGE @1462 kills <CONT.KILLS>
+	CONT.SYSMESSAGE @1462 Karma <CONT.KARMA>
+	CONT.SYSMESSAGE @1462 Fame <CONT.FAME>
+	CONT.SYSMESSAGE @1462 You were last killed by <CONT.TAG.LastHitByName>
+	CONT.SYSMESSAGE @1462 For ( <EVAL <CONT.TAG.lasthitbydambonus>> ) Damage
+	CONT.EFFECT=3,0375A,6,15,1
+	REMOVE
+	RETURN 1
+
+[ITEMDEF i_GoTo_COUNTER]
+DEFNAME=i_GoTo_COUNTER
+TYPE=t_eq_script
+NAME=GOTO COUNTER
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=1
+      
+ON=@EQUIP
+	CONT.TAG.CaptureLocationX=<CONT.P.X>
+	CONT.TAG.CaptureLocationY=<CONT.P.Y>
+	CONT.TAG.CaptureLocationZ=<CONT.P.Z>
+	CONT.TAG.Hits=<CONT.HITS>
+	TIMER=1
+
+ON=@TIMER
+	CONT.EFFECT=3,0375A,6,15,1
+	CONT.Say <CONT.findid.i_GoTo_TIMER.TIMER>	
+	IF (<CONT.findid.i_GoTo_TIMER.TIMER> < 2)
+		CONT.TAG.CaptureLocationX=
+		CONT.TAG.CaptureLocationY=
+		CONT.TAG.CaptureLocationZ=
+		REMOVE
+	ENDIF
+	LOCAL.StartPosX=<CONT.TAG.CaptureLocationX>
+	LOCAL.StartPosY=<CONT.TAG.CaptureLocationY>
+	LOCAL.StartPosZ=<CONT.TAG.CaptureLocationZ>
+	LOCAL.CurrentPosX=<CONT.P.X>
+	LOCAL.CurrentPosY=<CONT.P.Y>
+	LOCAL.CurrentPosZ=<CONT.P.Z>
+	LOCAL.CurrentHits=<CONT.HITS>
+	CALL f_CheckForGOTOBreak	
+	SFX 1307
+	TIMER=1
+	RETURN 1
+
+[FUNCTION f_CheckForGOTOBreak]
+IF ((<LOCAL.StartPosX>=<LOCAL.CurrentPosX>)&&(<LOCAL.StartPosY>=<LOCAL.CurrentPosY>)&&(<LOCAL.StartPosZ>=<LOCAL.CurrentPosZ>))
+	// -Do Nothing -
+ELSE
+	SFX 855
+	SAY Teleport Interupted You Moved
+	CONT.FINDID.i_GoTo_TIMER.REMOVE
+	CONT.FINDID.i_GoTo_COUNTER.REMOVE
+	CONT.TAG.Hits=
+	RETURN 1
+ENDIF
+IF (<EVAL <LOCAL.CurrentHits>> < <EVAL <CONT.TAG.Hits>>)
+	SFX 855
+	SAY Teleport Interupted You Got Hit
+	CONT.FINDID.i_GoTo_TIMER.REMOVE
+	CONT.FINDID.i_GoTo_COUNTER.REMOVE
+	CONT.TAG.Hits=
+	RETURN 1
+ENDIF
+
+[EOF]

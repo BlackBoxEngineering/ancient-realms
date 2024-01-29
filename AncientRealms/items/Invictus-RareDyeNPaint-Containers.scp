@@ -1,0 +1,94 @@
+[ITEMDEF 3838]
+DEFNAME=i_rare_hair_dye_bottle
+NAME=Hair Dye Bottle
+RESOURCES=1 i_bottle_2, 1 i_raredye_fish 
+WEIGHT=1
+VALUE=10
+TYPE=t_rare_hair_dye
+SKILLMAKE=Alchemy 100.0
+CATEGORY=Ancientrealms - Dyes and Paint
+SUBSECTION=Dye Containers
+DESCRIPTION=Hair Dye Bottle
+
+ON=@Create
+	MORE=random_dye_hair
+	COLOR=<MORE>
+
+ON=@Tooltip
+	ADD_TOOLTIP Rare hair dye.
+	IF <MORE>
+		ADD_TOOLTIP Full
+	ELSE
+		ADD_TOOLTIP Empty
+	ENDIF		
+	FINISH_TOOLTIP
+	
+[ITEMDEF 6209]
+DEFNAME=i_rare_skin_dye_bottle
+NAME=Skin Dye Bottle
+RESOURCES=1 i_flask_long_purple_anim, 1 i_raredye_fish, 1 i_reag_garlic
+WEIGHT=1
+VALUE=10
+TYPE=t_rare_skin_dye
+SKILLMAKE=Alchemy 100.0
+CATEGORY=Ancientrealms - Dyes and Paint
+SUBSECTION=Dye Containers
+DESCRIPTION=Skin Dye Bottle
+
+ON=@Create
+	MORE=random_dye_skin
+	COLOR=<MORE>
+
+ON=@Tooltip
+	ADD_TOOLTIP Rare Skin dye.
+	IF <MORE>
+		ADD_TOOLTIP Full
+	ELSE
+		ADD_TOOLTIP Empty
+	ENDIF		
+	FINISH_TOOLTIP
+
+[ITEMDEF 3843]
+DEFNAME=i_rare_cloth_dye_bottle
+NAME=Cloth Dye Bottle
+RESOURCES=1 i_bottle_2, 1 i_raredye_fish, 1 i_reag_garlic
+WEIGHT=1
+VALUE=10
+TYPE=t_rare_cloth_dye
+SKILLMAKE=Alchemy 100.0
+CATEGORY=Ancientrealms - Dyes and Paint
+SUBSECTION=Dye Containers
+DESCRIPTION=Cloth Dye Bottle
+
+ON=@Create
+	MORE=random_dye_cloth
+	COLOR=<MORE>
+
+ON=@Tooltip
+	ADD_TOOLTIP Rare Cloth dye.
+	IF <MORE>
+		ADD_TOOLTIP Full
+	ELSE
+		ADD_TOOLTIP Empty
+	ENDIF		
+	FINISH_TOOLTIP
+	
+[ITEMDEF i_raredyetub]
+DEFNAME=i_raredyetub
+ID=i_dye_tub
+TYPE=t_rare_dye_tub
+NAME=Rare Dye Tub
+VALUE=1000
+
+ON=@CREATE
+	TAG.RareDyeUses=<R3, 6>
+	MORE=random_dye_cloth
+	COLOR=<MORE>
+		
+ON=@Tooltip
+	ADD_TOOLTIP Rare Dye Tub.
+	ADD_TOOLTIP Charges: <EVAL <TAG.RareDyeUses>>
+	FINISH_TOOLTIP	
+
+
+[EOF]

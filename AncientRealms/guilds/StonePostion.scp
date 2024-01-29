@@ -1,0 +1,35 @@
+[FUNCTION StonePostion]
+IF (<ARGV> > 1)
+	IF (<EVAL <EVAL <ARGV> /2> *2>==<ARGV>)
+		FOR y <EVAL <ARGV> /2> <EVAL <ARGV> +-1>
+			LOCAL.matches_total += 1
+			IF (STRMATCH(<ARGV[<LOCAL.x>]>,<ARGV[<LOCAL.y>]>))
+				LOCAL.matches += 1
+			ENDIF
+			LOCAL.x += 1
+		ENDFOR
+		IF (<LOCAL.matches>==<LOCAL.matches_total>)
+			LOCAL.RETURN=1
+		ENDIF
+	ENDIF
+ENDIF
+RETURN <DLOCAL.RETURN>
+
+[FUNCTION f_GuildTransportGuildStonetoHall]
+REF1=<SERV.UID.<VAR.WorldGuildControlStoneUID>>
+IF <ARGV[0]>
+	LOCAL.SlotNoFound=0
+	FOR X 52 1
+		LOCAL.GuildStoneTile=<SERV.UID.<REF1.UID>.REGION.TAG.GuildStoneSlot-<EVAL <local.X>>>
+		IF !<IsGuildStoneThere <LOCAL.GuildStoneTile>>
+			LOCAL.SlotNoFound=<EVAL <local.X>>
+		ENDIF
+	ENDFOR
+	IF <LOCAL.SlotNoFound>
+		//SERV.LOG <LOCAL.SlotNoFound> GuildStoneSlotNo(<EVAL <local.X>>)[<ARGV[0]>] @ [<REF1.REGION.TAG.GuildStoneSlot-<EVAL <local.X>>>] Is Moved into the Slot
+		SERV.UID.<ARGV[0]>.P=<SERV.UID.<REF1.UID>.REGION.TAG.GuildStoneSlot-<EVAL <local.SlotNoFound>>>
+		SERV.UID.<ARGV[0]>.UPDATE
+	ENDIF
+ENDIF
+
+[EOF]

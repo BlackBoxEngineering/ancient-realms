@@ -1,0 +1,33 @@
+[ITEMDEF i_playerShopSign]
+DEFNAME=i_playerShopSign
+ID=0c09
+NAME=Rentable Shop
+TYPE=t_rentashopsign
+CATEGORY=AncientRealms
+SUBSECTION=Economy-Shops
+DESCRIPTION=Shop Rental Sign
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	COLOR=0075d
+	TIMER=360
+
+ON=@TIMER
+	f_EconomyShopStatistics <CONT.UID>
+	TIMER=360
+	RETURN 1
+	
+[TYPEDEF t_rentashopsign]
+ON=@DCLICK
+	SAY <SERV.UID.<LINK>.REGION.NAME>
+	IF <SRC.GM>
+		IF !<LINK.UID>
+			SRC.SYSMESSAGE @1462 Sign is not linked! Please Link this Sign to the Shops Clock
+			TARGETF f_LinkToThisUID <UID>
+		ENDIF
+	ENDIF
+	SRC.CTAG.ShopLinkUid=<LINK.UID>
+	DIALOG d_ShopPlayerMenu
+	RETURN 1
+	
+[EOF]

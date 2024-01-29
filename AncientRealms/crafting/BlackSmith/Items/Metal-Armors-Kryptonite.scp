@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Kryptonite Platemail Arms
+[ITEMDEF i_platemail_arms_Kryptonite]
+   DEFNAME= i_platemail_arms_Kryptonite
+   ID= i_platemail_arms
+   NAME= Kryptonite Platemail Arms
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Platemail Leggings
+[ITEMDEF i_platemail_leggings_Kryptonite]
+   DEFNAME= i_platemail_leggings_Kryptonite
+   ID= i_platemail_leggings
+   NAME= Kryptonite Platemail Leggings
+   ARMOR= 28
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Platemail Helmet
+[ITEMDEF i_platemail_helm_Kryptonite]
+   DEFNAME= i_platemail_helm_Kryptonite
+   ID= i_platemail_helm
+   NAME= Kryptonite Platemail Helmet
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Platemail Gorget
+[ITEMDEF i_platemail_gorget_Kryptonite]
+   DEFNAME= i_platemail_gorget_Kryptonite
+   ID= i_platemail_gorget
+   NAME= Kryptonite Platemail Gorget
+   ARMOR= 18
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Kryptonite]
+   DEFNAME= i_platemail_gorget2_Kryptonite
+   ID= i_platemail_gorget2
+   NAME= Kryptonite Platemail Gorget
+   ARMOR= 18
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Platemail Gloves
+[ITEMDEF i_platemail_gloves_Kryptonite]
+   DEFNAME= i_platemail_gloves_Kryptonite
+   ID= i_platemail_gloves
+   NAME= Kryptonite Platemail Gloves
+   ARMOR= 18
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Platemail Chest
+[ITEMDEF i_platemail_chest_Kryptonite]
+   DEFNAME= i_platemail_chest_Kryptonite
+   ID= i_platemail_chest
+   NAME= Kryptonite Platemail Chest
+   ARMOR= 32
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Kryptonite]
+   DEFNAME= i_armor_female_plate_Kryptonite
+   ID= i_armor_female_plate
+   NAME= Kryptonite Platemail Female Plate
+   ARMOR= 30
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite chainmail coif
+[ITEMDEF i_chainmail_coif_Kryptonite]
+   DEFNAME= i_chainmail_coif_Kryptonite
+   ID= i_chainmail_coif
+   NAME= Kryptonite chainmail coif
+   ARMOR= 24
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {60 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite chainmail leggings
+[ITEMDEF i_chainmail_leggings_Kryptonite]
+   DEFNAME= i_chainmail_leggings_Kryptonite
+   ID= i_chainmail_leggings
+   NAME= Kryptonite chainmail leggings
+   ARMOR= 26
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {60 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite chainmail tunic
+[ITEMDEF i_chainmail_tunic_Kryptonite]
+   DEFNAME= i_chainmail_tunic_Kryptonite
+   ID= i_chainmail_tunic
+   NAME= Kryptonite chainmail tunic
+   ARMOR= 30
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {60 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Kryptonite]
+   DEFNAME= i_ringmail_sleeves_Kryptonite
+   ID= i_ringmail_sleeves
+   NAME= Kryptonite Ringmail Sleeves
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {50 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Kryptonite]
+   DEFNAME= i_ringmail_leggings_Kryptonite
+   ID= i_ringmail_leggings
+   NAME= Kryptonite Ringmail Leggings
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {50 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Kryptonite]
+   DEFNAME= i_ringmail_tunic_Kryptonite
+   ID= i_ringmail_tunic
+   NAME= Kryptonite Ringmail Tunic
+   ARMOR= 26
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {50 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Kryptonite]
+   DEFNAME= i_ringmail_gloves_Kryptonite
+   ID= i_ringmail_gloves
+   NAME= Kryptonite Ringmail Gloves
+   ARMOR= 12
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {50 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite studded sleeves
+[ITEMDEF i_studded_sleeves_Kryptonite]
+   DEFNAME= i_studded_sleeves_Kryptonite
+   ID= i_studded_sleeves
+   NAME= Kryptonite studded sleeves
+   ARMOR= 15
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Kryptonite, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {40 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite studded gloves
+[ITEMDEF i_studded_gloves_Kryptonite]
+   DEFNAME= i_studded_gloves_Kryptonite
+   ID= i_studded_gloves
+   NAME= Kryptonite studded gloves
+   ARMOR= 12
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Kryptonite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {40 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite studded gorget
+[ITEMDEF i_studded_gorget_Kryptonite]
+   DEFNAME= i_studded_gorget_Kryptonite
+   ID= i_studded_gorget
+   NAME= Kryptonite studded gorget
+   ARMOR= 12
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Kryptonite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {40 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite studded leggings
+[ITEMDEF i_studded_leggings_Kryptonite]
+   DEFNAME= i_studded_leggings_Kryptonite
+   ID= i_studded_leggings
+   NAME= Kryptonite studded leggings
+   ARMOR= 21
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Kryptonite, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {40 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite studded tunic
+[ITEMDEF i_studded_tunic_Kryptonite]
+   DEFNAME= i_studded_tunic_Kryptonite
+   ID= i_studded_tunic
+   NAME= Kryptonite studded tunic
+   ARMOR= 25
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Kryptonite, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {40 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite studded female armor
+[ITEMDEF i_armor_female_studded_Kryptonite]
+   DEFNAME= i_armor_female_studded_Kryptonite
+   ID= i_armor_female_studded
+   NAME= Kryptonite studded female armor
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Kryptonite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {40 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Kryptonite]
+   DEFNAME= i_armor_female_bustier_studded_Kryptonite
+   ID= i_armor_female_bustier_studded
+   NAME= Kryptonite studded female bustier
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Kryptonite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {40 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite platemail mempo
+[ITEMDEF i_platemail_mempo_Kryptonite]
+   DEFNAME= i_platemail_mempo_Kryptonite
+   ID= i_platemail_mempo
+   NAME= Kryptonite platemail mempo
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite platemail do
+[ITEMDEF i_platemail_do_Kryptonite]
+   DEFNAME= i_platemail_do_Kryptonite
+   ID= i_platemail_do
+   NAME= Kryptonite platemail do
+   ARMOR= 30
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Kryptonite]
+   DEFNAME= i_platemail_hiro_sode_Kryptonite
+   ID= i_platemail_hiro_sode
+   NAME= Kryptonite platemail hiro sode
+   ARMOR= 26
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite platemail suneate
+[ITEMDEF i_platemail_suneate_Kryptonite]
+   DEFNAME= i_platemail_suneate_Kryptonite
+   ID= i_platemail_suneate
+   NAME= Kryptonite platemail suneate
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite platemail haidate
+[ITEMDEF i_platemail_haidate_Kryptonite]
+   DEFNAME= i_platemail_haidate_Kryptonite
+   ID= i_platemail_haidate
+   NAME= Kryptonite platemail haidate
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite studded mempo
+[ITEMDEF i_studded_mempo_Kryptonite]
+   DEFNAME= i_studded_mempo_Kryptonite
+   ID= i_studded_mempo
+   NAME= Kryptonite studded mempo
+   ARMOR= 17
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Kryptonite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite studded do
+[ITEMDEF i_studded_do_Kryptonite]
+   DEFNAME= i_studded_do_Kryptonite
+   ID= i_studded_do
+   NAME= Kryptonite studded do
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Kryptonite, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Kryptonite]
+   DEFNAME= i_studded_hiro_sode_Kryptonite
+   ID= i_studded_hiro_sode
+   NAME= Kryptonite studded hiro sode
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Kryptonite, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite studded suneate
+[ITEMDEF i_studded_suneate_Kryptonite]
+   DEFNAME= i_studded_suneate_Kryptonite
+   ID= i_studded_suneate
+   NAME= Kryptonite studded suneate
+   ARMOR= 19
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Kryptonite, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite studded haidate
+[ITEMDEF i_studded_haidate_Kryptonite]
+   DEFNAME= i_studded_haidate_Kryptonite
+   ID= i_studded_haidate
+   NAME= Kryptonite studded haidate
+   ARMOR= 17
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Kryptonite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Kryptonite]
+   DEFNAME= i_platemail_gargish_arms_Kryptonite
+   ID= i_platemail_gargish_arms
+   NAME= Kryptonite Gargish Platemail Arms
+   ARMOR= 26
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Kryptonite]
+   DEFNAME= i_platemail_gargish_chest_Kryptonite
+   ID= i_platemail_gargish_chest
+   NAME= Kryptonite Gargish Platemail Chest
+   ARMOR= 34
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Kryptonite]
+   DEFNAME= i_platemail_gargish_kilt_Kryptonite
+   ID= i_platemail_gargish_kilt
+   NAME= Kryptonite Gargish Platemail Kilt
+   ARMOR= 25
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Kryptonite]
+   DEFNAME= i_platemail_gargish_leggings_Kryptonite
+   ID= i_platemail_gargish_leggings
+   NAME= Kryptonite Gargish Platemail Leggings
+   ARMOR= 30
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Kryptonite]
+   DEFNAME= i_platemail_gargish_arms_2_Kryptonite
+   ID= i_platemail_gargish_arms_2
+   NAME= Kryptonite Gargish Platemail Arms
+   ARMOR= 26
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Kryptonite]
+   DEFNAME= i_platemail_gargish_chest_2_Kryptonite
+   ID= i_platemail_gargish_chest_2
+   NAME= Kryptonite Gargish Platemail Chest
+   ARMOR= 34
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Kryptonite]
+   DEFNAME= i_platemail_gargish_kilt_2_Kryptonite
+   ID= i_platemail_gargish_kilt_2
+   NAME= Kryptonite Gargish Platemail Kilt
+   ARMOR= 25
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Kryptonite]
+   DEFNAME= i_platemail_gargish_leggings_2_Kryptonite
+   ID= i_platemail_gargish_leggings_2
+   NAME= Kryptonite Gargish Platemail Leggings
+   ARMOR= 30
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Closed Helmet
+[ITEMDEF i_helm_close_Kryptonite]
+   DEFNAME= i_helm_close_Kryptonite
+   ID= i_helm_close
+   NAME= Kryptonite Closed Helmet
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Open Helmet
+[ITEMDEF i_helm_open_Kryptonite]
+   DEFNAME= i_helm_open_Kryptonite
+   ID= i_helm_open
+   NAME= Kryptonite Open Helmet
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {50 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Bascinet
+[ITEMDEF i_bascinet_Kryptonite]
+   DEFNAME= i_bascinet_Kryptonite
+   ID= i_bascinet
+   NAME= Kryptonite Bascinet
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {40 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Norse Helmet
+[ITEMDEF i_helm_norse_Kryptonite]
+   DEFNAME= i_helm_norse_Kryptonite
+   ID= i_helm_norse
+   NAME= Kryptonite Norse Helmet
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {60 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Kabuto
+[ITEMDEF i_helm_kabuto_Kryptonite]
+   DEFNAME= i_helm_kabuto_Kryptonite
+   ID= i_helm_kabuto
+   NAME= Kryptonite Kabuto
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Kryptonite]
+   DEFNAME= i_chainmail_hatsuburi_Kryptonite
+   ID= i_chainmail_hatsuburi
+   NAME= Kryptonite Chainmail Hatsuburi
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Kryptonite]
+   DEFNAME= i_platemail_hatsuburi_Kryptonite
+   ID= i_platemail_hatsuburi
+   NAME= Kryptonite Platemail Hatsuburi
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Kryptonite]
+   DEFNAME= i_plate_jingasa_heavy_Kryptonite
+   ID= i_plate_jingasa_heavy
+   NAME= Kryptonite Heavy Jingasa
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Kryptonite]
+   DEFNAME= i_platemail_kabuto_decorative_Kryptonite
+   ID= i_platemail_kabuto_decorative
+   NAME= Kryptonite Decorative Platemail Kabuto
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {100 900}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Kryptonite]
+   DEFNAME= i_plate_jingasa_light_Kryptonite
+   ID= i_plate_jingasa_light
+   NAME= Kryptonite Light Jingasa
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Kryptonite]
+   DEFNAME= i_plate_jingasa_small_Kryptonite
+   ID= i_plate_jingasa_small
+   NAME= Kryptonite Small Jingasa
+   ARMOR= 18
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {60 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Kryptonite]
+   DEFNAME= i_platemail_kabuto_battle_Kryptonite
+   ID= i_platemail_kabuto_battle
+   NAME= Kryptonite Platemail Battle Kabuto
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Kryptonite]
+   DEFNAME= i_platemail_kabuto_Kryptonite
+   ID= i_platemail_kabuto
+   NAME= Kryptonite Platemail Kabuto
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Circlet
+[ITEMDEF i_circlet_Kryptonite]
+   DEFNAME= i_circlet_Kryptonite
+   ID= i_circlet
+   NAME= Kryptonite Circlet
+   ARMOR= 16
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Royal Circlet
+[ITEMDEF i_circlet_royal_Kryptonite]
+   DEFNAME= i_circlet_royal_Kryptonite
+   ID= i_circlet_royal
+   NAME= Kryptonite Royal Circlet
+   ARMOR= 16
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Kryptonite]
+   DEFNAME= i_circlet_gemmed_Kryptonite
+   ID= i_circlet_gemmed
+   NAME= Kryptonite Gemmed Circlet
+   ARMOR= 16
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {110 1000}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Buckler
+[ITEMDEF i_shield_buckler_Kryptonite]
+   DEFNAME= i_shield_buckler_Kryptonite
+   ID= i_shield_buckler
+   NAME= Kryptonite Buckler
+   ARMOR= 15
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {40 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Wooden Shield
+[ITEMDEF i_shield_wood_Kryptonite]
+   DEFNAME= i_shield_wood_Kryptonite
+   ID= i_shield_wood
+   NAME= Kryptonite Wooden Shield
+   ARMOR= 16
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {50 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Kryptonite]
+   DEFNAME= i_shield_round_metal_Kryptonite
+   ID= i_shield_round_metal
+   NAME= Kryptonite Light Metal  Round Shield
+   ARMOR= 17
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {60 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Kryptonite]
+   DEFNAME= i_shield_round_bronze_Kryptonite
+   ID= i_shield_round_bronze
+   NAME= Kryptonite Heavy Metal  Round Shield
+   ARMOR= 19
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Kryptonite]
+   DEFNAME= i_shield_kite_metal_Kryptonite
+   ID= i_shield_kite_metal
+   NAME= Kryptonite Metal Kite Shield
+   ARMOR= 21
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {80 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Kryptonite]
+   DEFNAME= i_shield_kite_wood_Kryptonite
+   ID= i_shield_kite_wood
+   NAME= Kryptonite Wooden Kite Shield
+   ARMOR= 20
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Heater Shield
+[ITEMDEF i_shield_heater_Kryptonite]
+   DEFNAME= i_shield_heater_Kryptonite
+   ID= i_shield_heater
+   NAME= Kryptonite Heater Shield
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {100 900}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Ancient Shield
+[ITEMDEF i_shield_dupre_Kryptonite]
+   DEFNAME= i_shield_dupre_Kryptonite
+   ID= i_shield_dupre
+   NAME= Kryptonite Ancient Shield
+   ARMOR= 24
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {110 1000}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Shield oh Hell
+[ITEMDEF i_shield_scale_Kryptonite]
+   DEFNAME= i_shield_scale_Kryptonite
+   ID= i_shield_scale
+   NAME= Kryptonite Shield oh Hell
+   ARMOR= 24
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {110 1000}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Chaos Shield
+[ITEMDEF i_shield_chaos_Kryptonite]
+   DEFNAME= i_shield_chaos_Kryptonite
+   ID= i_shield_chaos
+   NAME= Kryptonite Chaos Shield
+   ARMOR= 25
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {120 1100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Order Shield
+[ITEMDEF i_shield_order_Kryptonite]
+   DEFNAME= i_shield_order_Kryptonite
+   ID= i_shield_order
+   NAME= Kryptonite Order Shield
+   ARMOR= 25
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Kryptonite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Kryptonite
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS= {120 1100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

@@ -1,0 +1,37 @@
+//On Player Join CTS
+//
+//<PLAYER> TAG.PreArenaLocation=
+//<PLAYER> TAG.JoinedCTS=
+//<PLAYER> TAG.PLAYERCOUNT=
+//
+//<AS_FernBank_PlayerControl> TAG.PLAYER<TAG.PLAYERCOUNT>UID=
+//<AS_FernBank_PlayerControl> TAG.PLAYER<TAG.PLAYERCOUNT>NAME=
+
+//On Sort Teams
+//
+//<PLAYER> TAG.CTSTeam=
+
+
+//On Player Entry to Setup Area
+//
+//<PLAYER> TAG.ArenaKarma=
+//<PLAYER> TAG.ArenaKills=
+//<PLAYER> TAG.CTSBagBanked=
+//<PLAYER> TAG.MyBackPackColor=
+//<PLAYER> TAG.OriginalBackPack=
+
+//On Game Start
+//
+//<EVENT MANAGER> TAG.Gameison=
+//
+//f_create_telepads
+//
+//<AS_FernBank_PlayerControl> TAG.RedPadUID=
+//<AS_FernBank_PlayerControl> TAG.BluePadUID=
+//
+//f_create_shields
+//
+//<EVAL AS_FernBank_PlayerControl>.REGION.TAG.RedShieldHome=
+//<EVAL AS_FernBank_PlayerControl>.REGION.TAG.BlueShieldHome=
+//REGION.TAG.RedShieldHome=
+//REGION.TAG.BlueShieldHome=

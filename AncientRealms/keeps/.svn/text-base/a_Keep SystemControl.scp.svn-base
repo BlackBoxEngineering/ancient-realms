@@ -1,0 +1,62 @@
+[DEFNAME KeepControl]
+
+AmountofIpsToCapture		1
+
+KeepTimeToReleaseDragon		300
+
+GateKeeperMinimumSpawns		1
+GateKeeperMaximumSpawns		5
+GateKeeperEnterTimer		10
+GateKeeperExitTimer			10
+GateKeeperHPPerOrder		10
+
+GatesLogsNeeded				100
+KeepDoorKeyDecayTimer		30
+
+KeepGuardHitMaxHPUpgrade	10000
+GuardHitPointCostInGold		1000
+
+GateKeeperDefaultMaxHits	100
+KeepLordDefaultMaxHits		100
+DoorGuardDefaultMaxHits		100
+KeepTamerDefaultMaxHits		100
+KeepBitchDefaultMaxHits		100
+
+RandomKeepSpy	{c_h_gambler_f 1, c_h_monk 1, c_h_begger 1, c_h_priest 1, c_h_gypsy 1, c_h_minter 1, c_h_thief 1 }
+
+KS_Astalon		040059427
+KS_Buccaneers	04003bbec
+KS_Cove			04003b914
+KS_BritCastle	04003c067
+KS_Minoc		0400389ba
+KS_MoonGlow		0400390b4
+KS_Magincia		040039367
+KS_Trinsic		040038e75
+KS_Skara		040038f73
+KS_Yew			0400558bc
+KS_BritPvp		04003bfc1
+KS_Serpents		04003baf9
+
+TS_Astalon		04005941e
+TS_Buccaneers	04003bbe5
+TS_Cove			04003b901
+TS_BritCastle	04003c066
+TS_Minoc		0400389b1
+TS_MoonGlow		0400390b0
+TS_Magincia		040039362
+TS_Trinsic		040038e74
+TS_Skara		040038f71
+TS_Yew			0400558b2
+TS_Serpents		04003baa5
+	
+[PLEVEL 5]
+KeepSetup
+LinkKeepStones
+
+[FUNCTION KeepSetup]
+CTAG.KeepCaptureStoneUID=<REGION.TAG.KeepCaptureStoneUID>
+DIALOG d_keep_GmMenu
+
+//f_Keep_KeepAndTownStone
+
+[EOF]

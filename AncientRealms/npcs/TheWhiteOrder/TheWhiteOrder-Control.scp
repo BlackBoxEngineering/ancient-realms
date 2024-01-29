@@ -1,0 +1,16 @@
+[ITEMDEF WhiteOrderHit]
+ID=i_dagger
+DEFNAME=WhiteOrderHit
+TYPE=t_eq_script
+NAME=WhiteOrderHit
+LAYER=layer_special
+
+ON=@Create
+   ATTR=attr_invis|attr_decay
+ON=@Equip
+   TIMER=10
+ON=@Timer
+   TOPOBJ.MESSAGE @946,3,1 You White Order are tracking you.
+   RETURN 1
+
+[EOF]

@@ -1,0 +1,122 @@
+[ITEMDEF i_keep_InfoBoard]
+DEFNAME=i_keepinfo_board
+ID=i_bulletin_board_2
+NAME=Keep Info Board
+TYPE=t_script
+FLIP=1
+CATEGORY=AncientRealms
+SUBSECTION=Keep Items
+DESCRIPTION=Keep Info Board
+
+ON=@CREATE
+	COLOR=30
+
+ON=@DCLICK
+	SRC.DIALOG d_keepinfo
+	RETURN 1
+	
+
+[DIALOG d_keepinfo]
+100,100
+page 0
+resizepic 0 0 5170 500 300
+page 1
+//Colum1
+text 30 25 76 0
+text 30 50 <EVAL <uid.<EVAL KS_Buccaneers>.TAG.KeepPoints>>		1
+text 30 70 <EVAL <uid.<EVAL KS_Cove>.TAG.KeepPoints>>			2
+text 30 90 <EVAL <uid.<EVAL KS_BritCastle>.TAG.KeepPoints>>		3
+text 30 110 <EVAL <uid.<EVAL KS_Minoc>.TAG.KeepPoints>>			4
+text 30 130 <EVAL <uid.<EVAL KS_MoonGlow>.TAG.KeepPoints>>		5
+text 30 150 <EVAL <uid.<EVAL KS_Magincia>.TAG.KeepPoints>>		6
+text 30 170 <EVAL <uid.<EVAL KS_Trinsic>.TAG.KeepPoints>>		7
+text 30 190 <EVAL <uid.<EVAL KS_Skara>.TAG.KeepPoints>>			8
+text 30 210 <EVAL <uid.<EVAL KS_Yew>.TAG.KeepPoints>>			9
+//Colum2
+text 140 50 <EVAL <uid.<EVAL KS_Buccaneers>.TAG.KeepPoints>>	10
+text 140 70 <EVAL <uid.<EVAL KS_Cove>.TAG.KeepPoints>>			11
+text 140 90 <EVAL <uid.<EVAL KS_BritCastle>.TAG.KeepPoints>>	12
+text 140 110 <EVAL <uid.<EVAL KS_Minoc>.TAG.KeepPoints>>		13
+text 140 130 <EVAL <uid.<EVAL KS_MoonGlow>.TAG.KeepPoints>>		14
+text 140 150 <EVAL <uid.<EVAL KS_Magincia>.TAG.KeepPoints>>		15
+text 140 170 <EVAL <uid.<EVAL KS_Trinsic>.TAG.KeepPoints>>		16
+text 140 190 <EVAL <uid.<EVAL KS_Skara>.TAG.KeepPoints>>		17
+text 140 210 <EVAL <uid.<EVAL KS_Yew>.TAG.KeepPoints>>			18
+//Colum3
+text 225 50 <EVAL <uid.<EVAL KS_Buccaneers>.TAG.KeepPoints>>	19
+text 225 70 <EVAL <uid.<EVAL KS_Cove>.TAG.KeepPoints>>			20
+text 225 90 <EVAL <uid.<EVAL KS_BritCastle>.TAG.KeepPoints>>	21
+text 225 110 <EVAL <uid.<EVAL KS_Minoc>.TAG.KeepPoints>>		22
+text 225 130 <EVAL <uid.<EVAL KS_MoonGlow>.TAG.KeepPoints>>		23
+text 225 150 <EVAL <uid.<EVAL KS_Magincia>.TAG.KeepPoints>>		24
+text 225 170 <EVAL <uid.<EVAL KS_Trinsic>.TAG.KeepPoints>>		25
+text 225 190 <EVAL <uid.<EVAL KS_Skara>.TAG.KeepPoints>>		26
+text 225 210 <EVAL <uid.<EVAL KS_Yew>.TAG.KeepPoints>>			27
+//Colum4
+text 330 50 <EVAL <uid.<EVAL KS_Buccaneers>.TAG.KeepPoints>>	28
+text 330 70 <EVAL <uid.<EVAL KS_Cove>.TAG.KeepPoints>>			29
+text 330 90 <EVAL <uid.<EVAL KS_BritCastle>.TAG.KeepPoints>>	30
+text 330 110 <EVAL <uid.<EVAL KS_Minoc>.TAG.KeepPoints>>		31
+text 330 130 <EVAL <uid.<EVAL KS_MoonGlow>.TAG.KeepPoints>>		32
+text 330 150 <EVAL <uid.<EVAL KS_Magincia>.TAG.KeepPoints>>		33
+text 330 170 <EVAL <uid.<EVAL KS_Trinsic>.TAG.KeepPoints>>		34
+text 330 190 <EVAL <uid.<EVAL KS_Skara>.TAG.KeepPoints>>		35
+text 330 210 <EVAL <uid.<EVAL KS_Yew>.TAG.KeepPoints>>			36
+text 130 25 76 37
+text 220 25 76 38
+text 330 25 76 39
+text 30 240 <EVAL <uid.<EVAL KS_Astalon>.TAG.KeepPoints>>	 40
+text 225 240 <EVAL <uid.<EVAL KS_Astalon>.TAG.KeepPoints>>	 41
+text 330 240 <EVAL <uid.<EVAL KS_Astalon>.TAG.KeepPoints>>	 42
+
+[DIALOG d_keepinfo TEXT]
+Keep Name
+Buccaneers Keep
+Cove Keep 
+Britain Keep
+Minoc Keep
+Moonglow Keep
+Magincia Keep
+Trinsic Keep
+Skara Brae Keep
+Yew Keep
+(<qval (<uid.<EVAL TS_Buccaneers>.region.guarded>) ?Guarded:Unguarded>)
+(<qval (<uid.<EVAL TS_Cove>.region.guarded>) ?Guarded:Unguarded>)
+(<qval (<uid.<EVAL TS_BritCastle>.region.guarded>) ?Guarded:Unguarded>)
+(<qval (<uid.<EVAL TS_Minoc>.region.guarded>) ?Guarded:Unguarded>)
+(<qval (<uid.<EVAL TS_MoonGlow>.region.guarded>) ?Guarded:Unguarded>)
+(<qval (<uid.<EVAL TS_Magincia>.region.guarded>) ?Guarded:Unguarded>)
+(<qval (<uid.<EVAL TS_Trinsic>.region.guarded>) ?Guarded:Unguarded>)
+(<qval (<uid.<EVAL TS_Skara>.region.guarded>) ?Guarded:Unguarded>)
+(<qval (<uid.<EVAL TS_Yew>.region.guarded>) ?Guarded:Unguarded>)
+<uid.<EVAL KS_Buccaneers>.region.TAG.Ownersname>
+<uid.<EVAL KS_Cove>.region.TAG.Ownersname>
+<uid.<EVAL KS_BritCastle>.region.TAG.Ownersname>
+<uid.<EVAL KS_Minoc>.region.TAG.Ownersname>
+<uid.<EVAL KS_MoonGlow>.region.TAG.Ownersname>
+<uid.<EVAL KS_Magincia>.region.TAG.Ownersname>
+<uid.<EVAL KS_Trinsic>.region.TAG.Ownersname>
+<uid.<EVAL KS_Skara>.region.TAG.Ownersname>
+<uid.<EVAL KS_Yew>.region.TAG.Ownersname>
+KP's <EVAL <uid.<EVAL KS_Buccaneers>.TAG.OwnersKeepPoints>> Regen : <EVAL 1001-<uid.<EVAL KS_Buccaneers>.TAG.PointCounter>>
+KP's <EVAL <uid.<EVAL KS_Cove>.TAG.OwnersKeepPoints>> Regen : <EVAL 1001-<uid.<EVAL KS_Cove>.TAG.PointCounter>>
+KP's <EVAL <uid.<EVAL KS_BritCastle>.TAG.OwnersKeepPoints>> Regen : <EVAL 1001-<uid.<EVAL KS_BritCastle>.TAG.PointCounter>>
+KP's <EVAL <uid.<EVAL KS_Minoc>.TAG.OwnersKeepPoints>> Regen : <EVAL 1001-<uid.<EVAL KS_Minoc>.TAG.PointCounter>>
+KP's <EVAL <uid.<EVAL KS_MoonGlow>.TAG.OwnersKeepPoints>> Regen : <EVAL 1001-<uid.<EVAL KS_MoonGlow>.TAG.PointCounter>>
+KP's <EVAL <uid.<EVAL KS_Magincia>.TAG.OwnersKeepPoints>> Regen : <EVAL 1001-<uid.<EVAL KS_Magincia>.TAG.PointCounter>>
+KP's <EVAL <uid.<EVAL KS_Trinsic>.TAG.OwnersKeepPoints>> Regen : <EVAL 1001-<uid.<EVAL KS_Trinsic>.TAG.PointCounter>>
+KP's <EVAL <uid.<EVAL KS_Skara>.TAG.OwnersKeepPoints>> Regen : <EVAL 1001-<uid.<EVAL KS_Skara>.TAG.PointCounter>>
+KP's <EVAL <uid.<EVAL KS_Yew>.TAG.OwnersKeepPoints>> Regen : <EVAL 1001-<uid.<EVAL KS_Yew>.TAG.PointCounter>>
+Town Status
+Guild in Control
+Keep Points
+Astalon Keep occupied by : 
+<uid.<EVAL KS_Astalon>.region.TAG.Ownersname>
+Score : <EVAL <uid.<EVAL KS_Astalon>.TAG.KeepPoints>>
+
+
+[DIALOG d_keepinfo BUTTON]
+
+
+
+[EOF]

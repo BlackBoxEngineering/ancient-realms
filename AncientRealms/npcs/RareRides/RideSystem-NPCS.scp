@@ -1,0 +1,467 @@
+[DEFNAME RandomRareRides]
+Random_Rare_Ride = {c_m_nightmare 1,c_ostard_forest 1,c_ostard_desert 1,c_ostard_zostrich 1,c_llama 1,c_rare_giant_beetle 1, c_rare_llama 1, c_rare_Orn 1, c_rare_zostrich 1, c_rare_oclock 1, c_rare_mustang 1}
+
+[FUNCTION CreateRareStang]
+NEWNPC=c_rare_mustang
+NEW.GO <SRC.P>
+NEW.HOME=<SRC.P>
+NEW.EVENTS =+e_rarerideevents
+VAR.WorldRoamingRareSpawns=<VAR.WorldRoamingRareSpawns>+1
+VAR.WorldRoamingRareWild=<VAR.WorldRoamingRareWild>+1
+VAR.WorldRoamingRareLastSpawn=<NEW.P>	
+NEWITEM i_rare_pet_id, 1, <NEW.UID>
+LOCAL.Spawned=1
+
+
+[CHARDEF c_rare_mustang]
+DEFNAME=c_rare_mustang
+NAME=Rare Mustang
+SOUND=snd_ANIMALS_HORSE1
+ID=c_horse_brown_dk
+ICON=i_pet_horse_brown_dk
+DAM={5,10}
+ARMOR={10,15}
+RESOURCES=15 i_ribs_raw,10 i_hide
+CAN=MT_WALK|MT_RUN
+FOODTYPE=50 t_crops, 50 t_fruit, 50 t_grain, 50 t_grass
+DESIRES=e_horses,c_man,c_woman
+//TEVENTS=e_horses
+TEVENTS=e_AncientRealms_rides
+AVERSIONS=e_carnivores3
+
+CATEGORY=AncientRealms-Mounts
+SUBSECTION=Rare Rides
+DESCRIPTION=Mustangs
+
+ON=@Create
+	COLOR=random_dye_skin
+	STR={40 100}
+	DEX={40 100}
+	INT={40 100}
+	PARRYING={40.0 60.0}
+	MAGICRESISTANCE={40.0 60.0}
+	TACTICS={40.0 60.0}
+	WRESTLING={40.0 60.0}
+	TAMING=95.0
+	NPC=brain_animal
+	FAME=0
+	KARMA=0
+	
+[CHARDEF c_rare_oclock]
+DEFNAME=c_rare_oclock
+ID=c_ostard_desert
+NAME=Rare Oclock
+SOUND=snd_ANIMAL_OSTARD_DESERT1
+ICON=i_pet_OSTARD_Desert
+DAM={5,10}
+ARMOR={10,15}
+RESOURCES=15 i_ribs_raw
+CAN=MT_WALK|MT_RUN
+FOODTYPE=55 t_crops, 55 t_fruit, 64 t_grass
+DESIRES=e_OSTARDS
+//TEVENTS=e_horses
+TEVENTS=e_AncientRealms_rides
+AVERSIONS=e_carnivores3
+
+CATEGORY=AncientRealms-Mounts
+SUBSECTION=Rare Rides
+DESCRIPTION=Oclocks
+
+ON=@Create
+	COLOR=random_dye_skin
+	STR={40 100}
+	DEX={40 100}
+	INT={40 100}
+	PARRYING={40.0 60.0}
+	MAGICRESISTANCE={40.0 60.0}
+	TACTICS={40.0 60.0}
+	WRESTLING={40.0 60.0}
+	TAMING=95.0
+	NPC=brain_animal
+	FAME=0
+	KARMA=0
+
+[CHARDEF c_rare_zostrich]
+DEFNAME=c_rare_zostrich
+ID=c_ostard_zostrich
+NAME=Rare Zostrich
+SOUND=snd_ANIMAL_OSTARD_FRENZIED1
+ICON=i_pet_OSTARD_ZOSTRICH
+CAN=MT_WALK|MT_RUN
+DAM={5,10}
+ARMOR={10,15}
+RESOURCES=15 i_ribs_raw
+FOODTYPE=55 t_crops, 55 t_fruit, 64 t_grass
+DESIRES=e_OSTARDS
+//TEVENTS=e_horses
+TEVENTS=e_AncientRealms_rides
+AVERSIONS=e_carnivores3
+
+CATEGORY=AncientRealms-Mounts
+SUBSECTION=Rare Rides
+DESCRIPTION=Zostrich
+
+ON=@Create
+	COLOR=random_dye_skin
+	STR={40 100}
+	DEX={40 100}
+	INT={40 100}
+	PARRYING={40.0 60.0}
+	MAGICRESISTANCE={40.0 60.0}
+	TACTICS={40.0 60.0}
+	WRESTLING={40.0 60.0}
+	TAMING=95.0
+	NPC=brain_animal
+	FAME=0
+	KARMA=0
+
+[CHARDEF c_rare_Orn]
+DEFNAME=c_rare_Orn
+ID=c_ostard_forest
+NAME=Rare Orn
+SOUND=snd_ANIMAL_OSTARD_DESERT1
+ICON=i_pet_OSTARD_Forest
+CAN=MT_WALK|MT_RUN
+DAM={5,10}
+ARMOR={10,15}
+RESOURCES=15 i_ribs_raw
+FOODTYPE=55 t_crops, 55 t_fruit, 64 t_grass
+DESIRES=e_OSTARDS
+//TEVENTS=e_horses
+TEVENTS=e_AncientRealms_rides
+AVERSIONS=e_carnivores3
+
+CATEGORY=AncientRealms-Mounts
+SUBSECTION=Rare Rides
+DESCRIPTION=Orn
+
+ON=@Create
+	COLOR=random_dye_skin
+	STR={40 100}
+	DEX={40 100}
+	INT={40 100}
+	PARRYING={40.0 60.0}
+	MAGICRESISTANCE={40.0 60.0}
+	TACTICS={40.0 60.0}
+	WRESTLING={40.0 60.0}
+	TAMING=95.0
+	NPC=brain_animal
+	FAME=0
+	KARMA=0
+
+[CHARDEF c_rare_llama]
+DEFNAME=c_rare_llama
+ID=c_llama
+NAME=Rare Llama
+SOUND=snd_ANIMALS_LLAMA3
+ICON=i_pet_LLAMA
+CAN=MT_WALK|MT_RUN
+DAM={5,10}
+ARMOR={10,15}
+RESOURCES=15 i_ribs_raw
+FOODTYPE=55 t_crops, 55 t_fruit, 64 t_grass
+DESIRES=c_llama,c_llama_pack,spk_human_prime
+//TEVENTS=e_horses
+TEVENTS=e_AncientRealms_rides
+AVERSIONS=e_carnivores3
+
+CATEGORY=AncientRealms-Mounts
+SUBSECTION=Rare Rides
+DESCRIPTION=LLama
+
+ON=@Create
+	COLOR=random_dye_skin
+	STR={40 100}
+	DEX={40 100}
+	INT={40 100}
+	PARRYING={40.0 60.0}
+	MAGICRESISTANCE={40.0 60.0}
+	TACTICS={40.0 60.0}
+	WRESTLING={40.0 60.0}
+	TAMING=95.0
+	NPC=brain_animal
+	FAME=0
+	KARMA=0
+
+[CHARDEF c_rare_cu_sidhe]
+DEFNAME=c_rare_cu_sidhe
+ID=c_cu_sidhe
+NAME=Rare Cu Sidhe
+ICON=i_pet_wolf
+CAN=MT_WALK|MT_RUN
+DAM={5,10}
+ARMOR={10,15}
+RESOURCES=15 i_ribs_raw,10 i_hide
+FOODTYPE=55 i_ribs_raw
+DESIRES=c_elf_male,c_elf_female
+//TEVENTS=e_horses
+TEVENTS=e_AncientRealms_rides
+
+AVERSIONS=e_carnivores3
+
+CATEGORY=AncientRealms-Mounts
+SUBSECTION=Rare Rides
+DESCRIPTION=Cu Sidhe
+
+ON=@Create
+	COLOR=random_dye_skin
+	STR={40 100}
+	DEX={40 100}
+	INT={40 100}
+	PARRYING={40.0 60.0}
+	MAGICRESISTANCE={40.0 60.0}
+	TACTICS={40.0 60.0}
+	WRESTLING={40.0 60.0}
+	TAMING=99.0
+	NPC=brain_animal
+	FAME=0
+	KARMA=0
+
+[CHARDEF c_rare_kirin]
+DEFNAME=c_rare_kirin
+ID=c_kirin
+NAME=Rare Kirin
+ICON=i_pet_kirin
+CAN=MT_WALK|MT_RUN
+DAM={5,10}
+ARMOR={10,15}
+RESOURCES=15 i_ribs_raw,10 i_hide
+FOODTYPE=40 t_meat_raw
+DESIRES=e_horses,c_man,c_woman
+TEVENTS=e_AncientRealms_rides
+//TEVENTS=e_horses
+AVERSIONS=e_carnivores3
+
+CATEGORY=AncientRealms-Mounts
+SUBSECTION=Rare Rides
+DESCRIPTION=kirin
+
+ON=@Create
+	COLOR=random_dye_skin
+	STR={40 100}
+	DEX={40 100}
+	INT={40 100}
+	PARRYING={40.0 60.0}
+	MAGICRESISTANCE={40.0 60.0}
+	TACTICS={40.0 60.0}
+	WRESTLING={40.0 60.0}
+	TAMING=99.0
+	NPC=brain_animal
+	FAME=0
+	KARMA=0
+
+[CHARDEF c_rare_giant_beetle]
+DEFNAME=c_rare_giant_beetle
+ID=c_giant_beetle
+NAME=Rare Giant Beetle
+ICON=i_pet_giantbeetle
+CAN=MT_WALK|MT_RUN
+DAM={5,10}
+ARMOR={10,15}
+RESOURCES=15 i_ribs_raw,10 i_hide
+FOODTYPE=40 t_meat_raw
+DESIRES=i_gold
+//TEVENTS=e_horses
+TEVENTS=e_AncientRealms_rides
+AVERSIONS=r_civilization,r_water
+
+CATEGORY=AncientRealms-Mounts
+SUBSECTION=Rare Rides
+DESCRIPTION=Giant Beetle
+
+ON=@Create
+	COLOR=random_dye_skin
+	STR={40 100}
+	DEX={40 100}
+	INT={40 100}
+	PARRYING={40.0 60.0}
+	MAGICRESISTANCE={40.0 60.0}
+	TACTICS={40.0 60.0}
+	WRESTLING={40.0 60.0}
+	TAMING=99.0
+	NPC=brain_animal
+	FAME=0
+	KARMA=0
+
+[CHARDEF c_reward_oclock]
+DEFNAME=c_reward_oclock
+ID=c_ostard_desert
+NAME=Rare Oclock
+SOUND=snd_ANIMAL_OSTARD_DESERT1
+ICON=i_pet_OSTARD_Desert
+DAM={5,10}
+ARMOR={10,15}
+RESOURCES=15 i_ribs_raw
+CAN=MT_WALK|MT_RUN
+FOODTYPE=55 t_crops, 55 t_fruit, 64 t_grass
+DESIRES=e_OSTARDS
+TEVENTS=e_AncientRealms_rides
+AVERSIONS=e_carnivores3
+
+CATEGORY=AncientRealms-Mounts
+SUBSECTION=Rare Rides
+DESCRIPTION=Oclocks
+
+ON=@Create
+	 
+	COLOR=random_dye_skin
+	STR={40 100}
+	DEX={40 100}
+	INT={40 100}
+	PARRYING={40.0 60.0}
+	MAGICRESISTANCE={40.0 60.0}
+	TACTICS={40.0 60.0}
+	WRESTLING={40.0 60.0}
+	TAMING=95.0
+	NPC=brain_animal
+	FAME=0
+	KARMA=0
+	ITEMNEWBIE=i_rare_pet_id
+
+[CHARDEF c_reward_zostrich]
+DEFNAME=c_reward_zostrich
+ID=c_ostard_zostrich
+NAME=Rare Zostrich
+SOUND=snd_ANIMAL_OSTARD_FRENZIED1
+ICON=i_pet_OSTARD_ZOSTRICH
+CAN=MT_WALK|MT_RUN
+DAM={5,10}
+ARMOR={10,15}
+RESOURCES=15 i_ribs_raw
+FOODTYPE=55 t_crops, 55 t_fruit, 64 t_grass
+DESIRES=e_OSTARDS
+TEVENTS=e_AncientRealms_rides
+AVERSIONS=e_carnivores3
+
+CATEGORY=AncientRealms-Mounts
+SUBSECTION=Rare Rides
+DESCRIPTION=Zostrich
+
+ON=@Create
+	 
+	COLOR=random_dye_skin
+	STR={40 100}
+	DEX={40 100}
+	INT={40 100}
+	PARRYING={40.0 60.0}
+	MAGICRESISTANCE={40.0 60.0}
+	TACTICS={40.0 60.0}
+	WRESTLING={40.0 60.0}
+	TAMING=95.0
+	NPC=brain_animal
+	FAME=0
+	KARMA=0
+	ITEMNEWBIE=i_rare_pet_id
+
+[CHARDEF c_reward_Orn]
+DEFNAME=c_reward_Orn
+ID=c_ostard_forest
+NAME=Rare Orn
+SOUND=snd_ANIMAL_OSTARD_DESERT1
+ICON=i_pet_OSTARD_Forest
+CAN=MT_WALK|MT_RUN
+DAM={5,10}
+ARMOR={10,15}
+RESOURCES=15 i_ribs_raw
+FOODTYPE=55 t_crops, 55 t_fruit, 64 t_grass
+DESIRES=e_OSTARDS
+TEVENTS=e_AncientRealms_rides
+AVERSIONS=e_carnivores3
+
+CATEGORY=AncientRealms-Mounts
+SUBSECTION=Rare Rides
+DESCRIPTION=Orn
+
+ON=@Create
+	
+	COLOR=random_dye_skin
+	STR={40 100}
+	DEX={40 100}
+	INT={40 100}
+	PARRYING={40.0 60.0}
+	MAGICRESISTANCE={40.0 60.0}
+	TACTICS={40.0 60.0}
+	WRESTLING={40.0 60.0}
+	TAMING=95.0
+	NPC=brain_animal
+	FAME=0
+	KARMA=0
+	ITEMNEWBIE=i_rare_pet_id
+
+[CHARDEF c_reward_llama]
+DEFNAME=c_reward_llama
+ID=c_llama
+NAME=Rare Llama
+SOUND=snd_ANIMALS_LLAMA3
+ICON=i_pet_LLAMA
+CAN=MT_WALK|MT_RUN
+DAM={5,10}
+ARMOR={10,15}
+RESOURCES=15 i_ribs_raw
+FOODTYPE=55 t_crops, 55 t_fruit, 64 t_grass
+DESIRES=c_llama,c_llama_pack,spk_human_prime
+TEVENTS=e_AncientRealms_rides
+AVERSIONS=e_carnivores3
+
+CATEGORY=AncientRealms-Mounts
+SUBSECTION=Rare Rides
+DESCRIPTION=LLama
+
+ON=@Create	
+	
+	COLOR=random_dye_skin
+	STR={40 100}
+	DEX={40 100}
+	INT={40 100}
+	PARRYING={40.0 60.0}
+	MAGICRESISTANCE={40.0 60.0}
+	TACTICS={40.0 60.0}
+	WRESTLING={40.0 60.0}
+	TAMING=95.0
+	NPC=brain_animal
+	FAME=0
+	KARMA=0
+	ITEMNEWBIE=i_rare_pet_id
+
+[CHARDEF 01039]
+DEFNAME=c_m_nightmare
+NAME=Nightmare
+ID=c_horse_brown_dk
+SOUND=snd_ANIMALS_HORSE1
+ICON=i_pet_horse_brown_dk
+DAM=25,32
+ARMOR=30
+RESOURCES=25 i_ribs_raw,10 i_hide
+//ALIGNMENT=EVIL
+CAN=MT_WALK
+FOODTYPE=5 t_meat_raw
+//SHELTER==r_caves,r_dungeon
+DESIRES=i_gold
+TEVENTS=e_AncientRealms_rides
+AVERSIONS=r_civilization,r_water
+
+CATEGORY=AncientRealms-Mounts
+SUBSECTION=Rare Rides
+DESCRIPTION=Nightmare
+
+ON=@Create
+	
+	COLOR=colors_black
+	STR={220 225}
+	DEX={86 105}
+	INT={{80 120}
+	PARRYING={55.0 95.0}
+	MAGICRESISTANCE={99.0 100.0}
+	TACTICS={98.0 100.0}
+	WRESTLING={90.0 93.0}
+	TAMING=99.9
+	NPC=brain_monster
+	FAME={100 2000}
+	KARMA={-5000 -5999}
+
+ON=@NPCRestock
+	ITEM=loot_NIGHTMARE
+
+
+
+[EOF]

@@ -1,0 +1,27 @@
+[FUNCTION renamebag]
+	SYSMESSAGE @63 Target the Bag you Wish to name <ARGV[0]>
+	SRC.TARGETF f_BagRenameSelector <ARGV[0]>
+	RETURN 1
+
+[FUNCTION f_BagRenameSelector]
+
+	IF (<ARGO.ISITEM>)
+		IF (<ARGO.BASEID>==i_bag)
+			SERV.UID.<ARGO.UID>.NAME=<ARGV[0]>
+		ENDIF
+	ENDIF
+
+[FUNCTION renamekey]
+	SYSMESSAGE @63 Target the Key you Wish to name <ARGV[0]>
+	SRC.TARGETF f_KeyRenameSelector <ARGV[0]>
+	RETURN 1
+
+[FUNCTION f_KeyRenameSelector]
+
+	IF (<ARGO.ISITEM>)
+		IF (<ARGO.BASEID>==i_key_copper)||(<ARGO.BASEID>==i_key_iron)
+			SERV.UID.<ARGO.UID>.NAME=<ARGV[0]>
+		ENDIF
+	ENDIF
+	
+[EOF]

@@ -1,0 +1,18 @@
+[FUNCTION CountHouses]
+SYSMESSAGE @55,,1 Which Player?
+TARGETF CountHousesTarget
+
+[FUNCTION CountHousesTarget]
+IF <ARGO.ISPLAYER>
+	REF1 = <ARGO.UID> // store the default object in REF1
+	FORCHARLAYER 30
+		If (<COLOR>=0100)&&!(<DISPID>=8928)
+			DISPID = 8928
+			NAME = House
+			LOCAL.HouseCounter=<EVAL <LOCAL.HouseCounter> + 1 >
+		ENDIF
+	ENDFOR
+	SRC.SYSMESSAGE @55,,1 Found <EVAL <LOCAL.HouseCounter>> house memorys on <ARGO.NAME>
+ENDIF
+
+[EOF]

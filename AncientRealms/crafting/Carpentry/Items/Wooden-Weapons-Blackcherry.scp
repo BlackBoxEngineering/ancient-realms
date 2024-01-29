@@ -1,0 +1,563 @@
+/////////////////////////////////////////////Blackcherry WildStaff
+
+[ITEMDEF i_mace_wildstaff_Blackcherry]
+   DEFNAME=i_mace_wildstaff_Blackcherry
+   ID=i_mace_wildstaff
+   NAME=Blackcherry WildStaff
+   RESOURCES= 20 i_log_Blackcherry
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=31
+   VALUE=124
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Blackcherry
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS={60 82}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry Black Staff
+
+[ITEMDEF i_staff_black_Blackcherry]
+   DEFNAME=i_staff_black_Blackcherry
+   ID=i_staff_black
+   NAME=Blackcherry Black Staff
+   RESOURCES= 20 i_log_Blackcherry
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=29
+   VALUE=124
+   SPEED=52
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Blackcherry
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry Gnarled Staff
+
+[ITEMDEF i_staff_gnarled_Blackcherry]
+   DEFNAME=i_staff_gnarled_Blackcherry
+   ID=i_staff_gnarled
+   NAME=Blackcherry Gnarled Staff
+   RESOURCES= 20 i_log_Blackcherry
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=27
+   VALUE=124
+   SPEED=54
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Blackcherry
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry Nunchaku
+
+[ITEMDEF i_nunchaku_Blackcherry]
+   DEFNAME=i_nunchaku_Blackcherry
+   ID=i_nunchaku
+   NAME=Blackcherry Nunchaku
+   RESOURCES= 20 i_log_Blackcherry
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=29
+   VALUE=124
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Blackcherry
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry Club
+
+[ITEMDEF i_club_Blackcherry]
+   DEFNAME=i_club_Blackcherry
+   ID=i_club
+   NAME=Blackcherry Club
+   RESOURCES= 20 i_log_Blackcherry
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=25
+   VALUE=124
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=CARPENTRY 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Blackcherry
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS={10 32}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry Tetsubo
+
+[ITEMDEF i_tetsubo_Blackcherry]
+   DEFNAME=i_tetsubo_Blackcherry
+   ID=i_tetsubo
+   NAME=Blackcherry Tetsubo
+   RESOURCES= 20 i_log_Blackcherry
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=35
+   VALUE=124
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Blackcherry
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS={80 102}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry Spear
+
+[ITEMDEF i_spear_Blackcherry]
+   DEFNAME=i_spear_Blackcherry
+   ID=i_spear
+   NAME=Blackcherry Spear
+   RESOURCES= 20 i_log_Blackcherry
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=29
+   VALUE=124
+   SPEED=45
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Blackcherry
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS={60 82}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry Lance
+
+[ITEMDEF i_lance_Blackcherry]
+   DEFNAME=i_lance_Blackcherry
+   ID=i_lance
+   NAME=Blackcherry Lance
+   RESOURCES= 20 i_log_Blackcherry
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=31
+   VALUE=124
+   SPEED=43
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Blackcherry
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS={100 122}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry Bow
+
+[ITEMDEF i_bow_Blackcherry]
+   DEFNAME=i_bow_Blackcherry
+   ID=i_bow
+   NAME=Blackcherry Bow
+   RESOURCES= 20 i_log_Blackcherry
+   WEIGHT=21
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=25
+   VALUE=124
+   SPEED=46
+   SKILL=ARCHERY
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Blackcherry
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry Composite Bow
+
+[ITEMDEF i_composite_bow_Blackcherry]
+   DEFNAME=i_composite_bow_Blackcherry
+   ID=i_composite_bow
+   NAME=Blackcherry Composite Bow
+   RESOURCES= 20 i_log_Blackcherry
+   WEIGHT=21
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=26
+   VALUE=124
+   SPEED=44
+   SKILL=ARCHERY
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Blackcherry
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS={50 72}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry Eleven Composite Bow
+
+[ITEMDEF i_elven_composite_longbow_Blackcherry]
+   DEFNAME=i_elven_composite_longbow_Blackcherry
+   ID=i_elven_composite_longbow
+   NAME=Blackcherry Eleven Composite Bow
+   RESOURCES= 20 i_log_Blackcherry
+   WEIGHT=21
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=27
+   VALUE=124
+   SPEED=42
+   SKILL=ARCHERY
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Blackcherry
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS={70 92}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry Assassin Shortbow
+
+[ITEMDEF i_assassin_shortbow_Blackcherry]
+   DEFNAME=i_assassin_shortbow_Blackcherry
+   ID=i_assassin_shortbow
+   NAME=Blackcherry Assassin Shortbow
+   RESOURCES= 20 i_log_Blackcherry
+   WEIGHT=21
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=28
+   VALUE=124
+   SPEED=40
+   SKILL=ARCHERY
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Blackcherry
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS={90 112}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry Yumi
+
+[ITEMDEF i_yumi_Blackcherry]
+   DEFNAME=i_yumi_Blackcherry
+   ID=i_yumi
+   NAME=Blackcherry Yumi
+   RESOURCES= 20 i_log_Blackcherry
+   WEIGHT=21
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=29
+   VALUE=124
+   SPEED=38
+   SKILL=ARCHERY
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Blackcherry
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS={100 122}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry Crossbow
+
+[ITEMDEF i_crossbow_Blackcherry]
+   DEFNAME=i_crossbow_Blackcherry
+   ID=i_crossbow
+   NAME=Blackcherry Crossbow
+   RESOURCES= 20 i_log_Blackcherry
+   WEIGHT=21
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=27
+   VALUE=124
+   SPEED=56
+   SKILL=ARCHERY
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Blackcherry
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS={50 72}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry Heavy Crossbow
+
+[ITEMDEF i_crossbow_heavy_Blackcherry]
+   DEFNAME=i_crossbow_heavy_Blackcherry
+   ID=i_crossbow_heavy
+   NAME=Blackcherry Heavy Crossbow
+   RESOURCES= 20 i_log_Blackcherry
+   WEIGHT=21
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=29
+   VALUE=124
+   SPEED=54
+   SKILL=ARCHERY
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Blackcherry
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS={70 92}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry Repeating Crossbow
+
+[ITEMDEF i_repeating_crossbow_Blackcherry]
+   DEFNAME=i_repeating_crossbow_Blackcherry
+   ID=i_repeating_crossbow
+   NAME=Blackcherry Repeating Crossbow
+   RESOURCES= 20 i_log_Blackcherry
+   WEIGHT=21
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=26
+   VALUE=124
+   SPEED=52
+   SKILL=ARCHERY
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Blackcherry
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS={90 112}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry Bola
+
+[ITEMDEF i_bola_Blackcherry]
+   DEFNAME=i_bola_Blackcherry
+   ID=i_bola
+   NAME=Blackcherry Bola
+   RESOURCES= 20 i_log_Blackcherry
+   WEIGHT=21
+   TYPE=t_bola
+   FLIP=1
+   DAM=23
+   VALUE=124
+   SPEED=41
+   SKILL=ARCHERY
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=TINKERING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Blackcherry
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS={110 132}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

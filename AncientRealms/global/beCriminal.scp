@@ -1,0 +1,26 @@
+[function f_beCriminal]
+IF !(<FLAGS>&statf_criminal)
+	IF !(<findid.i_criminal_timer>)
+		flags |= statf_criminal
+		serv.newitem i_criminal_timer,1,<UID>
+		sysmessageloc -1,502275
+	ENDIF
+ENDIF
+
+[ITEMDEF i_criminal_timer]
+DEFNAME=i_criminal_timer
+ID=i_memory
+TYPE=t_eq_script
+NAME=criminal timer
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=360
+
+ON=@TIMER
+	CONT.FLAGS &= ~statf_criminal
+	REMOVE
+	RETURN 1
+
+[EOF]

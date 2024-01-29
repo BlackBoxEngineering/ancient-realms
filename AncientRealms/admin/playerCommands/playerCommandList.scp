@@ -1,0 +1,50 @@
+[PLEVEL 1]
+c					// Chat
+los					// Check Line Of Sight To Target
+allowres			// remove res block
+renamebag			// rename a bag
+renamekey			// rename a key
+regcounter			// display regcounter
+
+frogOffGm			// Turn annoying Gm into Frog.
+eatFood				// Eat Something.
+goStaffRoom			// Go to the staff Chamber
+opendoors			// Open doors close to you   ** Add LOS to this 
+
+usebandage			// Use Bandage
+
+drinkheal
+drinklesserheal		// Drink Heals
+drinkgreaterheal
+
+drinkrefresh		// Drink Refresh
+drinktotalrefresh
+
+drinkmana			// Drink Mana
+drinktotalmana
+
+usepickaxe			// Use Pickaxe
+gettarget			// Get a Target
+
+vote				// Vote
+
+GateMenuOFF			// Players Gate Warning OFF
+GateMenuON			// Players Gate Warning ON
+
+showmap				// Show Map (Webpage)
+
+map					// In game
+
+CheckForGuild		// Count Guild Members in the same area
+
+DropXPot			// Drop an X Pot ( Does not activate XPot ) onto ground.
+ThrowXPot			// Activates XPot and asks for target.
+
+TestArms			// Check out the weapons your holding
+TestStatBonus		// Check out your stat combat bonus
+TestSkillBonus		// Test your skill with a weapon (Must be holding the waon no weapon = wrestling)
+
+gc					// Guild Chat 
+gcwho				// See which guild members are online
+panic				// Send your location to all guild members
+[EOF]

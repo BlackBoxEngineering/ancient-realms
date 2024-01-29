@@ -1,0 +1,63 @@
+[TYPEDEF t_reward_Ticket]
+ON=@Dclick
+	SAY Rewards Yay!
+
+[ITEMDEF i_invictus_reward_stone]
+DEFNAME=i_invictus_reward_stone
+ID=2538
+NAME=Reward Ticket
+TYPE=t_reward_Ticket
+VALUE=1000
+
+ON=@Create
+	COLOR=98
+
+[ITEMDEF i_reward_calculater]
+ID=i_shield_dupre
+DEFNAME=i_reward_calculater
+TYPE=t_eq_script
+NAME=Reward Calcultaor
+LAYER=layer_special
+
+ON=@Create
+	Timer=5
+
+ON=@Timer
+	CONT.Tag.CTSRewardPoints=<CONT.Tag.CTSRewardPoints>+1
+	//SERV.LOG <CONT.NAME> Gains + 1 CTSReward
+	TIMER=5
+	RETURN 1
+
+[EVENTS e_RewardCalculator]
+
+ON=@SpellSuccess
+	SRC.Tag.CTSRewardPoints=<SRC.Tag.CTSRewardPoints>+1
+	//SERV.LOG <SRC.NAME> Gains + 1 CTSReward
+
+ON=@SpellEffect
+	SRC.Tag.CTSRewardPoints=<SRC.Tag.CTSRewardPoints>+1
+	//SERV.LOG <SRC.NAME> Gains + 1 CTSReward
+
+ON=@Hit
+	SRC.Tag.CTSRewardPoints=<SRC.Tag.CTSRewardPoints>+1
+	//SERV.LOG <SRC.NAME> Gains + 1 CTSReward
+
+ON=@GetHit 
+	SRC.Tag.CTSRewardPoints=<SRC.Tag.CTSRewardPoints>+1
+	//SERV.LOG <SRC.NAME> Gains + 1 CTSReward
+
+ON=@Kill
+	SRC.Tag.CTSRewardPoints=<SRC.Tag.CTSRewardPoints>+2
+	//SERV.LOG <SRC.NAME> Gains + 2 CTSReward
+
+[FUNCTION f_give_rewards]
+FOR X 1 <EVAL <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT>+1>
+	LOCAL.UIDForRewards=<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYER<LOCAL.X>UID>
+	LOCAL.AmountOfRewards=<SERV.UID.<EVAL AS_FernBank_PlayerControl>.Tag.CTSRewardPoints>
+	//NEWITEM i_invictus_reward_stone, <LOCAL.AmountOfRewards>, <LOCAL.AmountOfRewards>
+ENDFOR
+
+
+
+
+[EOF]

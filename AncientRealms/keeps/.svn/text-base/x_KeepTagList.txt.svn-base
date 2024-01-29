@@ -1,0 +1,16 @@
+// Keep Capture Stone
+// Keep Control Stone
+// Town Control Stone
+// Town Tax Stone
+
+TAG.KeepCaptureStoneUID=
+TAG.KeepControlStoneUID=
+TAG.TownControlStoneUID=
+
+REGION.TAG.KeepCaptureStoneUID=
+REGION.TAG.KeepControlStoneUID=
+REGION.TAG.TownControlStoneUD=
+
+KeepCaptureStoneUID
+KeepControlStoneUID
+TownControlStoneUID

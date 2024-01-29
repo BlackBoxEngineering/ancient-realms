@@ -1,0 +1,466 @@
+/////////////////////////////////////////////Cypress woodland chest
+[ITEMDEF i_woodland_chest_Cypress]
+   DEFNAME= i_woodland_chest_Cypress
+   ID= i_woodland_chest
+   NAME= Cypress woodland chest
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 20 i_log_Cypress
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cypress
+   DESCRIPTION= woodland chest
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS= {97 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress woodland belt
+[ITEMDEF i_woodland_belt_Cypress]
+   DEFNAME= i_woodland_belt_Cypress
+   ID= i_woodland_belt
+   NAME= Cypress woodland belt
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Cypress
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cypress
+   DESCRIPTION= woodland belt
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS= {97 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress woodland gorget
+[ITEMDEF i_woodland_gorget_Cypress]
+   DEFNAME= i_woodland_gorget_Cypress
+   ID= i_woodland_gorget
+   NAME= Cypress woodland gorget
+   ARMOR= 13
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Cypress
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cypress
+   DESCRIPTION= woodland gorget
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS= {97 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress woodland gauntlets
+[ITEMDEF i_woodland_gauntlets_Cypress]
+   DEFNAME= i_woodland_gauntlets_Cypress
+   ID= i_woodland_gauntlets
+   NAME= Cypress woodland gauntlets
+   ARMOR= 13
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Cypress
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cypress
+   DESCRIPTION= woodland gauntlets
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS= {97 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress woodland leggings
+[ITEMDEF i_woodland_leggings_Cypress]
+   DEFNAME= i_woodland_leggings_Cypress
+   ID= i_woodland_leggings
+   NAME= Cypress woodland leggings
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Cypress
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cypress
+   DESCRIPTION= woodland leggings
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS= {97 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress woodland arms
+[ITEMDEF i_woodland_arms_Cypress]
+   DEFNAME= i_woodland_arms_Cypress
+   ID= i_woodland_arms
+   NAME= Cypress woodland arms
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 8 i_log_Cypress
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cypress
+   DESCRIPTION= woodland arms
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS= {97 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress female woodland chest
+[ITEMDEF i_armor_female_woodland_Cypress]
+   DEFNAME= i_armor_female_woodland_Cypress
+   ID= i_armor_female_woodland
+   NAME= Cypress female woodland chest
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 16 i_log_Cypress
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cypress
+   DESCRIPTION= female woodland chest
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS= {97 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress leaf tunic
+[ITEMDEF i_leaf_tunic_Cypress]
+   DEFNAME= i_leaf_tunic_Cypress
+   ID= i_leaf_tunic
+   NAME= Cypress leaf tunic
+   ARMOR= 25
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 18 i_log_Cypress
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cypress
+   DESCRIPTION= leaf tunic
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress leaf gloves
+[ITEMDEF i_leaf_gloves_Cypress]
+   DEFNAME= i_leaf_gloves_Cypress
+   ID= i_leaf_gloves
+   NAME= Cypress leaf gloves
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_log_Cypress
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cypress
+   DESCRIPTION= leaf gloves
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress leaf gorget
+[ITEMDEF i_leaf_gorget_Cypress]
+   DEFNAME= i_leaf_gorget_Cypress
+   ID= i_leaf_gorget
+   NAME= Cypress leaf gorget
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Cypress
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cypress
+   DESCRIPTION= leaf gorget
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress leaf arms
+[ITEMDEF i_leaf_arms_Cypress]
+   DEFNAME= i_leaf_arms_Cypress
+   ID= i_leaf_arms
+   NAME= Cypress leaf arms
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Cypress
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cypress
+   DESCRIPTION= leaf arms
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress leaf leggings
+[ITEMDEF i_leaf_leggings_Cypress]
+   DEFNAME= i_leaf_leggings_Cypress
+   ID= i_leaf_leggings
+   NAME= Cypress leaf leggings
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 15 i_log_Cypress
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cypress
+   DESCRIPTION= leaf leggings
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress leaf tonlet
+[ITEMDEF i_leaf_tonlet_Cypress]
+   DEFNAME= i_leaf_tonlet_Cypress
+   ID= i_leaf_tonlet
+   NAME= Cypress leaf tonlet
+   ARMOR= 11
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 4 i_log_Cypress
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cypress
+   DESCRIPTION= leaf tonlet
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress raven helm
+[ITEMDEF i_helm_raven_Cypress]
+   DEFNAME= i_helm_raven_Cypress
+   ID= i_helm_raven
+   NAME= Cypress raven helm
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Cypress
+   SKILLMAKE= CARPENTRY 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cypress
+   DESCRIPTION= raven helm
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress vulture helm
+[ITEMDEF i_helm_vulture_Cypress]
+   DEFNAME= i_helm_vulture_Cypress
+   ID= i_helm_vulture
+   NAME= Cypress vulture helm
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Cypress
+   SKILLMAKE= CARPENTRY 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cypress
+   DESCRIPTION= vulture helm
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cypress winged helm
+[ITEMDEF i_helm_winged_Cypress]
+   DEFNAME= i_helm_winged_Cypress
+   ID= i_helm_winged
+   NAME= Cypress winged helm
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Cypress
+   SKILLMAKE= CARPENTRY 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cypress
+   DESCRIPTION= winged helm
+
+ON=@Create
+   COLOR=color_log_Cypress
+   HITPOINTS= {107 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

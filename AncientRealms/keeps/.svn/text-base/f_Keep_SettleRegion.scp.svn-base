@@ -1,0 +1,63 @@
+[FUNCTION f_Keep_SettleRegion]
+
+	IF <memoryfindtype.memory_harmedby>
+		memoryfindtype.memory_harmedby.remove
+	ENDIF
+	IF <memoryfindtype.memory_fight>
+		memoryfindtype.memory_fight.remove
+	ENDIF
+	IF <memoryfindtype.memory_sawcrime>
+		memoryfindtype.memory_sawcrime.remove
+	ENDIF
+	IF <memoryfindtype.memory_aggreived>
+		memoryfindtype.memory_aggreived.remove
+	ENDIF
+	IF <memoryfindtype.memory_war_targ>
+		memoryfindtype.memory_war_targ.remove
+	ENDIF
+	IF <memoryfindtype.memory_speak>
+		memoryfindtype.memory_speak.remove
+	ENDIF
+	IF <memoryfindtype.memory_iaggressor>
+		memoryfindtype.memory_iaggressor.remove
+	ENDIF
+
+[FUNCTION f_Keep_SettleRegionLink]
+
+	IF <memoryfindtype.memory_harmedby>
+		IF <memoryfindtype.memory_harmedby.LINK> == <ARGV[0]>
+			memoryfindtype.memory_harmedby.remove
+		ENDIF
+	ENDIF
+	IF <memoryfindtype.memory_fight>
+		IF <memoryfindtype.memory_harmedby.LINK> == <ARGV[0]>
+			memoryfindtype.memory_harmedby.remove
+		ENDIF
+	ENDIF
+	IF <memoryfindtype.memory_sawcrime>
+		IF <memoryfindtype.memory_harmedby.LINK> == <ARGV[0]>
+			memoryfindtype.memory_harmedby.remove
+		ENDIF
+	ENDIF
+	IF <memoryfindtype.memory_aggreived>
+		IF <memoryfindtype.memory_harmedby.LINK> == <ARGV[0]>
+			memoryfindtype.memory_harmedby.remove
+		ENDIF
+	ENDIF
+	IF <memoryfindtype.memory_war_targ>
+		IF <memoryfindtype.memory_harmedby.LINK> == <ARGV[0]>
+			memoryfindtype.memory_harmedby.remove
+		ENDIF
+	ENDIF
+	IF <memoryfindtype.memory_speak>
+		IF <memoryfindtype.memory_harmedby.LINK> == <ARGV[0]>
+			memoryfindtype.memory_harmedby.remove
+		ENDIF
+	ENDIF
+	IF <memoryfindtype.memory_iaggressor>
+		IF <memoryfindtype.memory_harmedby.LINK> == <ARGV[0]>
+			memoryfindtype.memory_harmedby.remove
+		ENDIF
+	ENDIF
+
+[EOF]

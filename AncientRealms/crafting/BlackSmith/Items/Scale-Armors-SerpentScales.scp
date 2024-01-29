@@ -1,0 +1,176 @@
+/////////////////////////////////////////////SerpentScales dragon breastplate
+[ITEMDEF i_dragon_chest_SerpentScales]
+   DEFNAME= i_dragon_chest_SerpentScales
+   ID= i_dragon_chest
+   NAME= SerpentScales dragon breastplate
+   ARMOR= 26
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 105
+   RESOURCES= 25 i_scale_SerpentScales
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 120.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= SerpentScales
+   DESCRIPTION= dragon breastplate
+
+ON=@Create
+   COLOR=color_scale_SerpentScales
+   HITPOINTS= {111 110}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 105
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////SerpentScales dragon gloves
+[ITEMDEF i_dragon_gloves_SerpentScales]
+   DEFNAME= i_dragon_gloves_SerpentScales
+   ID= i_dragon_gloves
+   NAME= SerpentScales dragon gloves
+   ARMOR= 11
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 105
+   RESOURCES= 10 i_scale_SerpentScales
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 120.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= SerpentScales
+   DESCRIPTION= dragon gloves
+
+ON=@Create
+   COLOR=color_scale_SerpentScales
+   HITPOINTS= {111 110}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 105
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////SerpentScales dragon helm
+[ITEMDEF i_dragon_helm_SerpentScales]
+   DEFNAME= i_dragon_helm_SerpentScales
+   ID= i_dragon_helm
+   NAME= SerpentScales dragon helm
+   ARMOR= 11
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 105
+   RESOURCES= 10 i_scale_SerpentScales
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 120.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= SerpentScales
+   DESCRIPTION= dragon helm
+
+ON=@Create
+   COLOR=color_scale_SerpentScales
+   HITPOINTS= {111 110}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 105
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////SerpentScales dragon leggings
+[ITEMDEF i_dragon_leggings_SerpentScales]
+   DEFNAME= i_dragon_leggings_SerpentScales
+   ID= i_dragon_leggings
+   NAME= SerpentScales dragon leggings
+   ARMOR= 21
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 105
+   RESOURCES= 20 i_scale_SerpentScales
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 120.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= SerpentScales
+   DESCRIPTION= dragon leggings
+
+ON=@Create
+   COLOR=color_scale_SerpentScales
+   HITPOINTS= {111 110}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 105
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////SerpentScales dragon sleeves
+[ITEMDEF i_dragon_sleeves_SerpentScales]
+   DEFNAME= i_dragon_sleeves_SerpentScales
+   ID= i_dragon_sleeves
+   NAME= SerpentScales dragon sleeves
+   ARMOR= 16
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 105
+   RESOURCES= 15 i_scale_SerpentScales
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 120.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= SerpentScales
+   DESCRIPTION= dragon sleeves
+
+ON=@Create
+   COLOR=color_scale_SerpentScales
+   HITPOINTS= {111 110}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 105
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////SerpentScales dragon shoes
+[ITEMDEF i_dragon_shoes_SerpentScales]
+   DEFNAME= i_dragon_shoes_SerpentScales
+   ID= i_dragon_shoes
+   NAME= SerpentScales dragon shoes
+   ARMOR= 6
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 105
+   RESOURCES= 5 i_scale_SerpentScales
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 120.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= SerpentScales
+   DESCRIPTION= dragon shoes
+
+ON=@Create
+   COLOR=color_scale_SerpentScales
+   HITPOINTS= {111 110}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 105
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

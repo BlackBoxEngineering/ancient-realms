@@ -1,0 +1,19 @@
+
+// General Events for the Black Order To Go Here
+// For Example
+// [EVENTS e_blackOrder]
+// ON=@GetHit
+//		IF <DAYTIME>
+//			Increase gets more damage ( ETC )
+//
+// TO DO (Quest Related Black Order Shit)
+
+
+[EOF]
+
+
+
+
+
+
+

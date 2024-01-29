@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Aquanite Quarter Staff
+
+[ITEMDEF i_staff_quarter_Aquanite]
+   DEFNAME=i_staff_quarter_Aquanite
+   ID=i_staff_quarter
+   NAME=Aquanite Quarter Staff
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=24
+   VALUE=109
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={20 36}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Aquanite]
+   DEFNAME=i_serpentstone_staff_Aquanite
+   ID=i_serpentstone_staff
+   NAME=Aquanite Serpentstone Staff
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=28
+   VALUE=109
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={60 76}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Aquanite]
+   DEFNAME=i_staff_bladed_double_Aquanite
+   ID=i_staff_bladed_double
+   NAME=Aquanite Double Bladed Staff
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=36
+   VALUE=109
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={120 136}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Glass Staff
+
+[ITEMDEF i_glass_staff_Aquanite]
+   DEFNAME=i_glass_staff_Aquanite
+   ID=i_glass_staff
+   NAME=Aquanite Glass Staff
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=33
+   VALUE=109
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={90 106}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Bladed Staff
+
+[ITEMDEF i_bladed_staff_Aquanite]
+   DEFNAME=i_bladed_staff_Aquanite
+   ID=i_bladed_staff
+   NAME=Aquanite Bladed Staff
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=34
+   VALUE=109
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={115 131}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Tongs
+
+[ITEMDEF i_tongs_Aquanite]
+   DEFNAME=i_tongs_Aquanite
+   ID=i_tongs
+   NAME=Aquanite Tongs
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=11
+   VALUE=109
+   SPEED=13
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={0 16}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Mace
+
+[ITEMDEF i_mace_Aquanite]
+   DEFNAME=i_mace_Aquanite
+   ID=i_mace
+   NAME=Aquanite Mace
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=24
+   VALUE=109
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Maul
+
+[ITEMDEF i_maul_Aquanite]
+   DEFNAME=i_maul_Aquanite
+   ID=i_maul
+   NAME=Aquanite Maul
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=109
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={40 56}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Scepter
+
+[ITEMDEF i_scepter_Aquanite]
+   DEFNAME=i_scepter_Aquanite
+   ID=i_scepter
+   NAME=Aquanite Scepter
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=28
+   VALUE=109
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={50 66}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Aquanite]
+   DEFNAME=i_hammer_sledge_Aquanite
+   ID=i_hammer_sledge
+   NAME=Aquanite Sledge Hammer
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=28
+   VALUE=109
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={20 36}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Aquanite]
+   DEFNAME=i_hammer_smith_Aquanite
+   ID=i_hammer_smith
+   NAME=Aquanite Smiths Hammer
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=14
+   VALUE=109
+   SPEED=13
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite War Mace
+
+[ITEMDEF i_mace_war_Aquanite]
+   DEFNAME=i_mace_war_Aquanite
+   ID=i_mace_war
+   NAME=Aquanite War Mace
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=32
+   VALUE=109
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={80 96}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Disc Mace
+
+[ITEMDEF i_disc_mace_Aquanite]
+   DEFNAME=i_disc_mace_Aquanite
+   ID=i_disc_mace
+   NAME=Aquanite Disc Mace
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=32
+   VALUE=109
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={70 86}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite War Hammer
+
+[ITEMDEF i_hammer_war_Aquanite]
+   DEFNAME=i_hammer_war_Aquanite
+   ID=i_hammer_war
+   NAME=Aquanite War Hammer
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=38
+   VALUE=109
+   SPEED=53
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={100 116}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Hammer Pick
+
+[ITEMDEF i_hammer_pick_Aquanite]
+   DEFNAME=i_hammer_pick_Aquanite
+   ID=i_hammer_pick
+   NAME=Aquanite Hammer Pick
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=34
+   VALUE=109
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={55 71}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite War Axe
+
+[ITEMDEF i_axe_war_Aquanite]
+   DEFNAME=i_axe_war_Aquanite
+   ID=i_axe_war
+   NAME=Aquanite War Axe
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=24
+   VALUE=109
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={65 81}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Tessen
+
+[ITEMDEF i_tessen_Aquanite]
+   DEFNAME=i_tessen_Aquanite
+   ID=i_tessen
+   NAME=Aquanite Tessen
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=23
+   VALUE=109
+   SPEED=38
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={75 91}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Long Sword
+
+[ITEMDEF i_sword_long_Aquanite]
+   DEFNAME=i_sword_long_Aquanite
+   ID=i_sword_long
+   NAME=Aquanite Long Sword
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=109
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={10 26}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Broad Sword
+
+[ITEMDEF i_sword_broad_Aquanite]
+   DEFNAME=i_sword_broad_Aquanite
+   ID=i_sword_broad
+   NAME=Aquanite Broad Sword
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=109
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={20 36}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Scimitar
+
+[ITEMDEF i_scimitar_Aquanite]
+   DEFNAME=i_scimitar_Aquanite
+   ID=i_scimitar
+   NAME=Aquanite Scimitar
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=109
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Viking Sword
+
+[ITEMDEF i_sword_viking_Aquanite]
+   DEFNAME=i_sword_viking_Aquanite
+   ID=i_sword_viking
+   NAME=Aquanite Viking Sword
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=109
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={35 51}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Katana
+
+[ITEMDEF i_katana_Aquanite]
+   DEFNAME=i_katana_Aquanite
+   ID=i_katana
+   NAME=Aquanite Katana
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=109
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={80 96}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Wakizashi
+
+[ITEMDEF i_wakizashi_Aquanite]
+   DEFNAME=i_wakizashi_Aquanite
+   ID=i_wakizashi
+   NAME=Aquanite Wakizashi
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=109
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={45 61}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Long Sword
+
+[ITEMDEF i_sword_long_b_Aquanite]
+   DEFNAME=i_sword_long_b_Aquanite
+   ID=i_sword_long_b
+   NAME=Aquanite Long Sword
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=109
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={50 66}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Paladin Sword
+
+[ITEMDEF i_sword_paladin_Aquanite]
+   DEFNAME=i_sword_paladin_Aquanite
+   ID=i_sword_paladin
+   NAME=Aquanite Paladin Sword
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=109
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={65 81}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Bokuto
+
+[ITEMDEF i_bokuto_Aquanite]
+   DEFNAME=i_bokuto_Aquanite
+   ID=i_bokuto
+   NAME=Aquanite Bokuto
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=109
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={70 86}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Aquanite]
+   DEFNAME=i_Radiant_Scimitar_Aquanite
+   ID=i_Radiant_Scimitar
+   NAME=Aquanite Radiant Scimitar
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=109
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={75 91}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Bone Harvester
+
+[ITEMDEF i_bone_harvester_Aquanite]
+   DEFNAME=i_bone_harvester_Aquanite
+   ID=i_bone_harvester
+   NAME=Aquanite Bone Harvester
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=109
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={55 71}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Butcher Knife
+
+[ITEMDEF i_knife_butcher_Aquanite]
+   DEFNAME=i_knife_butcher_Aquanite
+   ID=i_knife_butcher
+   NAME=Aquanite Butcher Knife
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=109
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Aquanite]
+   DEFNAME=i_cleaver_meat_Aquanite
+   ID=i_cleaver_meat
+   NAME=Aquanite Meat Cleaver
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=109
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Elven Machete
+
+[ITEMDEF i_elven_machete_Aquanite]
+   DEFNAME=i_elven_machete_Aquanite
+   ID=i_elven_machete
+   NAME=Aquanite Elven Machete
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=109
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={60 76}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Bone Machete
+
+[ITEMDEF i_bone_machete_Aquanite]
+   DEFNAME=i_bone_machete_Aquanite
+   ID=i_bone_machete
+   NAME=Aquanite Bone Machete
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=109
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={50 66}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Daisho
+
+[ITEMDEF i_daisho_Aquanite]
+   DEFNAME=i_daisho_Aquanite
+   ID=i_daisho
+   NAME=Aquanite Daisho
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=29
+   VALUE=109
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={65 81}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite No-Dachi
+
+[ITEMDEF i_no_dachi_Aquanite]
+   DEFNAME=i_no_dachi_Aquanite
+   ID=i_no_dachi
+   NAME=Aquanite No-Dachi
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=30
+   VALUE=109
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={75 91}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Rune Blade
+
+[ITEMDEF i_Rune_Blade_Aquanite]
+   DEFNAME=i_Rune_Blade_Aquanite
+   ID=i_Rune_Blade
+   NAME=Aquanite Rune Blade
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=32
+   VALUE=109
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={115 131}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Axe
+
+[ITEMDEF i_axe_Aquanite]
+   DEFNAME=i_axe_Aquanite
+   ID=i_axe
+   NAME=Aquanite Axe
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=22
+   VALUE=109
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={42 58}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Bardiche
+
+[ITEMDEF i_bardiche_Aquanite]
+   DEFNAME=i_bardiche_Aquanite
+   ID=i_bardiche
+   NAME=Aquanite Bardiche
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=109
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={58 74}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Battle Axe
+
+[ITEMDEF i_axe_battle_Aquanite]
+   DEFNAME=i_axe_battle_Aquanite
+   ID=i_axe_battle
+   NAME=Aquanite Battle Axe
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=109
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={65 81}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Double Axe
+
+[ITEMDEF i_axe_double_Aquanite]
+   DEFNAME=i_axe_double_Aquanite
+   ID=i_axe_double
+   NAME=Aquanite Double Axe
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=109
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={70 86}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Aquanite]
+   DEFNAME=i_axe_exec_Aquanite
+   ID=i_axe_exec
+   NAME=Aquanite Exectutioners Axe
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=109
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={73 89}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Halberd
+
+[ITEMDEF i_halberd_Aquanite]
+   DEFNAME=i_halberd_Aquanite
+   ID=i_halberd
+   NAME=Aquanite Halberd
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=109
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={75 91}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Hatchet
+
+[ITEMDEF i_hatchet_Aquanite]
+   DEFNAME=i_hatchet_Aquanite
+   ID=i_hatchet
+   NAME=Aquanite Hatchet
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=23
+   VALUE=109
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={40 56}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Aquanite]
+   DEFNAME=i_axe_battle_large_Aquanite
+   ID=i_axe_battle_large
+   NAME=Aquanite Large Battle Axe
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=35
+   VALUE=109
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={100 116}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Ornate Axe
+
+[ITEMDEF i_ornate_axe_Aquanite]
+   DEFNAME=i_ornate_axe_Aquanite
+   ID=i_ornate_axe
+   NAME=Aquanite Ornate Axe
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=109
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={60 76}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Aquanite]
+   DEFNAME=i_axe_two_hand_Aquanite
+   ID=i_axe_two_hand
+   NAME=Aquanite Two Handed Axe
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=109
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={55 71}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Dual Axes
+
+[ITEMDEF i_dual_short_axes_Aquanite]
+   DEFNAME=i_dual_short_axes_Aquanite
+   ID=i_dual_short_axes
+   NAME=Aquanite Dual Axes
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=109
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={95 111}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Cresent Blade
+
+[ITEMDEF i_crescent_blade_Aquanite]
+   DEFNAME=i_crescent_blade_Aquanite
+   ID=i_crescent_blade
+   NAME=Aquanite Cresent Blade
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=35
+   VALUE=109
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={110 126}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Dagger
+
+[ITEMDEF i_dagger_Aquanite]
+   DEFNAME=i_dagger_Aquanite
+   ID=i_dagger
+   NAME=Aquanite Dagger
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=109
+   SPEED=26
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={10 26}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Skinning Knife
+
+[ITEMDEF i_knife_skinning_Aquanite]
+   DEFNAME=i_knife_skinning_Aquanite
+   ID=i_knife_skinning
+   NAME=Aquanite Skinning Knife
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=109
+   SPEED=26
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={15 31}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Aquanite]
+   DEFNAME=i_sword_Assassin_Spike_Aquanite
+   ID=i_sword_Assassin_Spike
+   NAME=Aquanite Assassin Spike
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=109
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Cutlass
+
+[ITEMDEF i_cutlass_Aquanite]
+   DEFNAME=i_cutlass_Aquanite
+   ID=i_cutlass
+   NAME=Aquanite Cutlass
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=109
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={25 41}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Short Blade
+
+[ITEMDEF i_shortblade_Aquanite]
+   DEFNAME=i_shortblade_Aquanite
+   ID=i_shortblade
+   NAME=Aquanite Short Blade
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=109
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={35 51}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Scythe
+
+[ITEMDEF i_scythe_Aquanite]
+   DEFNAME=i_scythe_Aquanite
+   ID=i_scythe
+   NAME=Aquanite Scythe
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=31
+   VALUE=109
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={115 131}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Short Spear
+
+[ITEMDEF i_spear_short_Aquanite]
+   DEFNAME=i_spear_short_Aquanite
+   ID=i_spear_short
+   NAME=Aquanite Short Spear
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=109
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={45 61}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite War Fork
+
+[ITEMDEF i_war_fork_Aquanite]
+   DEFNAME=i_war_fork_Aquanite
+   ID=i_war_fork
+   NAME=Aquanite War Fork
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=109
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={50 66}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Leafblade
+
+[ITEMDEF i_sword_leafblade_Aquanite]
+   DEFNAME=i_sword_leafblade_Aquanite
+   ID=i_sword_leafblade
+   NAME=Aquanite Leafblade
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=109
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={60 76}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Aquanite]
+   DEFNAME=i_elven_spellblade_Aquanite
+   ID=i_elven_spellblade
+   NAME=Aquanite Elven Spell Blade
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=109
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={75 91}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Pitchfork
+
+[ITEMDEF i_pitchfork_Aquanite]
+   DEFNAME=i_pitchfork_Aquanite
+   ID=i_pitchfork
+   NAME=Aquanite Pitchfork
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=109
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={55 71}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite War Cleaver
+
+[ITEMDEF i_war_cleaver_Aquanite]
+   DEFNAME=i_war_cleaver_Aquanite
+   ID=i_war_cleaver
+   NAME=Aquanite War Cleaver
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=109
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={65 81}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Pike
+
+[ITEMDEF i_pike_Aquanite]
+   DEFNAME=i_pike_Aquanite
+   ID=i_pike
+   NAME=Aquanite Pike
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=109
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={70 86}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Blood Blade
+
+[ITEMDEF i_bloodblade_Aquanite]
+   DEFNAME=i_bloodblade_Aquanite
+   ID=i_bloodblade
+   NAME=Aquanite Blood Blade
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=109
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={75 91}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Kama
+
+[ITEMDEF i_kama_Aquanite]
+   DEFNAME=i_kama_Aquanite
+   ID=i_kama
+   NAME=Aquanite Kama
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=109
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={77 93}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Kryss
+
+[ITEMDEF i_kryss_Aquanite]
+   DEFNAME=i_kryss_Aquanite
+   ID=i_kryss
+   NAME=Aquanite Kryss
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=109
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={80 96}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Lajatang
+
+[ITEMDEF i_lajatang_Aquanite]
+   DEFNAME=i_lajatang_Aquanite
+   ID=i_lajatang
+   NAME=Aquanite Lajatang
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=109
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={85 101}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Sai
+
+[ITEMDEF i_sai_Aquanite]
+   DEFNAME=i_sai_Aquanite
+   ID=i_sai
+   NAME=Aquanite Sai
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=109
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={76 92}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Tekagi
+
+[ITEMDEF i_tekagi_Aquanite]
+   DEFNAME=i_tekagi_Aquanite
+   ID=i_tekagi
+   NAME=Aquanite Tekagi
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=109
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={90 106}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Aquanite]
+   DEFNAME=i_dual_pointed_spear_Aquanite
+   ID=i_dual_pointed_spear
+   NAME=Aquanite Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Aquanite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=30
+   VALUE=109
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Aquanite
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS={115 131}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

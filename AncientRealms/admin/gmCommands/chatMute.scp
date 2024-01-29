@@ -1,0 +1,49 @@
+[FUNCTION chatmute]
+TARGETF chatmutex
+
+[FUNCTION chatunmute]
+TARGETF chatunmutex
+
+[FUNCTION chatban]
+TARGETF chatbanx
+
+[FUNCTION chatmutex]
+IF !<FINDID.i_chat_mute>
+	NEWITEM i_chat_mute,1,<ARGO.UID>
+ENDIF
+
+[FUNCTION chatunmutex]
+IF <FINDID.i_chat_mute>
+	FINDID.i_chat_mute.REMOVE
+ENDIF
+
+[FUNCTION chatbanx]
+IF !<FINDID.i_chat_bann>
+	FINDID.i_chat_bann.REMOVE
+ENDIF
+NEWITEM i_chat_bann,1,<ARGO.UID>
+
+[ITEMDEF i_chat_mute]
+DEFNAME=i_chat_mute
+ID=i_flesh_head
+NAME=Chat Mute
+TYPE=t_eq_script
+LAYER=layer_special
+
+[ITEMDEF i_chat_bann]
+DEFNAME=i_chat_bann
+ID=i_flesh_head
+NAME=Chat Ban
+TYPE=t_eq_script
+LAYER=layer_special
+
+ON=@Create
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=360
+
+ON=@Timer
+	CONT.SAY You May Chat Again - Watch your Language!
+	REMOVE
+	RETURN 1
+	
+[EOF]

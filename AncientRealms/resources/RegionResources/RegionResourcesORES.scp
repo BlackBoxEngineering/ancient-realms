@@ -1,0 +1,249 @@
+/////////////////////////////////////////////Rusty Ore
+[REGIONRESOURCE mr_Rusty]
+SKILL= 0,120
+AMOUNT= 1,13
+REAP = i_ore_rusty
+REGEN = 60*10*1
+/////////////////////////////////////////////Iron Ore
+[REGIONRESOURCE mr_Iron]
+SKILL= 30,120
+AMOUNT= 1,13
+REAP = i_ore_iron
+REGEN = 60*10*2
+/////////////////////////////////////////////DullCopper Ore
+[REGIONRESOURCE mr_DullCopper]
+SKILL= 5,120
+AMOUNT= 1,13
+REAP = i_ore_dullcopper
+REGEN = 60*10*3
+/////////////////////////////////////////////Copper Ore
+[REGIONRESOURCE mr_Copper]
+SKILL= 10,120
+AMOUNT= 1,12
+REAP = i_ore_copper
+REGEN = 60*10*4
+/////////////////////////////////////////////OldCopper Ore
+[REGIONRESOURCE mr_OldCopper]
+SKILL= 12,120
+AMOUNT= 1,12
+REAP = i_ore_oldcopper
+REGEN = 60*10*5
+/////////////////////////////////////////////PureCopper Ore
+[REGIONRESOURCE mr_PureCopper]
+SKILL= 15,120
+AMOUNT= 1,12
+REAP = i_ore_purecopper
+REGEN = 60*10*6
+/////////////////////////////////////////////Bronze Ore
+[REGIONRESOURCE mr_Bronze]
+SKILL= 20,120
+AMOUNT= 1,12
+REAP = i_ore_bronze
+REGEN = 60*10*7
+/////////////////////////////////////////////Silver Ore
+[REGIONRESOURCE mr_Silver]
+SKILL= 25,120
+AMOUNT= 1,12
+REAP = i_ore_silver
+REGEN = 60*10*8
+/////////////////////////////////////////////Rose Ore
+[REGIONRESOURCE mr_Rose]
+SKILL= 30,120
+AMOUNT= 1,12
+REAP = i_ore_rose
+REGEN = 60*10*10
+/////////////////////////////////////////////Rhodonite Ore
+[REGIONRESOURCE mr_Rhodonite]
+SKILL= 35,120
+AMOUNT= 1,11
+REAP = i_ore_rhodnite
+REGEN = 60*10*11
+/////////////////////////////////////////////RoseQuartz Ore
+[REGIONRESOURCE mr_RoseQuartz]
+SKILL= 40,120
+AMOUNT= 1,11
+REAP = i_ore_rosequartz
+REGEN = 60*10*12
+/////////////////////////////////////////////Vanadinate Ore
+[REGIONRESOURCE mr_Vanadinate]
+SKILL= 45,120
+AMOUNT= 1,11
+REAP = i_ore_vanadinate
+REGEN = 60*10*13
+/////////////////////////////////////////////Azurite Ore
+[REGIONRESOURCE mr_Azurite]
+SKILL= 50,120
+AMOUNT= 1,10
+REAP = i_ore_azurite
+REGEN = 60*10*14
+/////////////////////////////////////////////Erubecite Ore
+[REGIONRESOURCE mr_Erubecite]
+SKILL= 52,120
+AMOUNT= 1,10
+REAP = i_ore_erubecite
+REGEN = 60*10*15
+/////////////////////////////////////////////Galena Ore
+[REGIONRESOURCE mr_Galena]
+SKILL= 55,120
+AMOUNT= 1,10
+REAP = i_ore_galena
+REGEN = 60*10*16
+/////////////////////////////////////////////Kunzite Ore
+[REGIONRESOURCE mr_Kunzite]
+SKILL= 57,120
+AMOUNT= 1,9
+REAP = i_ore_kunzite
+REGEN = 60*10*17
+/////////////////////////////////////////////Orpiment Ore
+[REGIONRESOURCE mr_Orpiment]
+SKILL= 59,120
+AMOUNT= 1,9
+REAP = i_ore_orpiment
+REGEN = 60*10*18
+/////////////////////////////////////////////Hematite Ore
+[REGIONRESOURCE mr_Hematite]
+SKILL= 63,120
+AMOUNT= 1,9
+REAP = i_ore_hematite
+REGEN = 60*10*19
+/////////////////////////////////////////////Malachite Ore
+[REGIONRESOURCE mr_Malachite]
+SKILL= 65,120
+AMOUNT= 1,8
+REAP = i_ore_malachite
+REGEN = 60*10*20
+/////////////////////////////////////////////Cassiterite Ore
+[REGIONRESOURCE mr_Cassiterite]
+SKILL= 68,120
+AMOUNT= 1,8
+REAP = i_ore_cassiterite
+REGEN = 60*10*21
+/////////////////////////////////////////////Gold Ore
+[REGIONRESOURCE mr_Gold]
+SKILL= 71,120
+AMOUNT= 1,8
+REAP = i_ore_gold
+REGEN = 60*10*22
+/////////////////////////////////////////////Verite Ore
+[REGIONRESOURCE mr_Verite]
+SKILL= 74,120
+AMOUNT= 1,7
+REAP = i_ore_verite
+REGEN = 60*10*23
+/////////////////////////////////////////////Autonite Ore
+[REGIONRESOURCE mr_Autonite]
+SKILL= 77,120
+AMOUNT= 1,7
+REAP = i_ore_autonite
+REGEN = 60*10*24
+/////////////////////////////////////////////Agapite Ore
+[REGIONRESOURCE mr_Agapite]
+SKILL= 80,120
+AMOUNT= 1,7
+REAP = i_ore_agapite
+REGEN = 60*10*25
+/////////////////////////////////////////////Daemonite Ore
+[REGIONRESOURCE mr_Daemonite]
+SKILL= 82,120
+AMOUNT= 1,7
+REAP = i_ore_daemonite
+REGEN = 60*10*26
+/////////////////////////////////////////////Barite Ore
+[REGIONRESOURCE mr_Barite]
+SKILL= 83,120
+AMOUNT= 1,6
+REAP = i_ore_barite
+REGEN = 60*10*27
+/////////////////////////////////////////////Aquanite Ore
+[REGIONRESOURCE mr_Aquanite]
+SKILL= 87,120
+AMOUNT= 1,6
+REAP = i_ore_aquanite
+REGEN = 60*10*28
+/////////////////////////////////////////////Valorite Ore
+[REGIONRESOURCE mr_Valorite]
+SKILL= 89,120
+AMOUNT= 1,6
+REAP = i_ore_valorite
+REGEN = 60*10*29
+/////////////////////////////////////////////Uranium Ore
+[REGIONRESOURCE mr_Uranium]
+SKILL= 90,120
+AMOUNT= 1,5
+REAP = i_ore_uranium
+REGEN = 60*10*30
+/////////////////////////////////////////////BloodRock Ore
+[REGIONRESOURCE mr_BloodRock]
+SKILL= 91,120
+AMOUNT= 1,5
+REAP = i_ore_bloodrock
+REGEN = 60*10*31
+/////////////////////////////////////////////Titanium Ore
+[REGIONRESOURCE mr_Titanium]
+SKILL= 92,120
+AMOUNT= 1,5
+REAP = i_ore_titanium
+REGEN = 60*10*32
+/////////////////////////////////////////////BlackRock Ore
+[REGIONRESOURCE mr_BlackRock]
+SKILL= 93,120
+AMOUNT= 1,4
+REAP = i_ore_blackrock
+REGEN = 60*10*33
+/////////////////////////////////////////////Kryptonite Ore
+[REGIONRESOURCE mr_Kryptonite]
+SKILL= 94,120
+AMOUNT= 1,4
+REAP = i_ore_kryptonite
+REGEN = 60*10*34
+/////////////////////////////////////////////Cerussite Ore
+[REGIONRESOURCE mr_Cerussite]
+SKILL= 95,120
+AMOUNT= 1,4
+REAP = i_ore_cerussite
+REGEN = 60*10*35
+/////////////////////////////////////////////Quartz Ore
+[REGIONRESOURCE mr_Quartz]
+SKILL= 98,120
+AMOUNT= 1,3
+REAP = i_ore_quartz
+REGEN = 60*10*36
+/////////////////////////////////////////////Chromite Ore
+[REGIONRESOURCE mr_Chromite]
+SKILL= 100,120
+AMOUNT= 1,3
+REAP = i_ore_chromite
+REGEN = 60*10*37
+/////////////////////////////////////////////Dioptase Ore
+[REGIONRESOURCE mr_Dioptase]
+SKILL= 105,120
+AMOUNT= 1,3
+REAP = i_ore_dioptase
+REGEN = 60*10*38
+/////////////////////////////////////////////Mytheril Ore
+[REGIONRESOURCE mr_Mytheril]
+SKILL= 110,120
+AMOUNT= 1,3
+REAP = i_ore_mytheril
+REGEN = 60*10*39
+/////////////////////////////////////////////Chromium Ore
+[REGIONRESOURCE mr_Chromium]
+SKILL= 115,120
+AMOUNT= 1,2
+REAP = i_ore_chromium
+REGEN = 60*10*40
+/////////////////////////////////////////////Niobium Ore
+[REGIONRESOURCE mr_Niobium]
+SKILL= 120,120
+AMOUNT= 1,2
+REAP = i_ore_niobium
+REGEN = 60*10*41
+/////////////////////////////////////////////Ancientrealms Ore
+[REGIONRESOURCE mr_Invictus]
+SKILL= 120,120
+AMOUNT= 1,2
+REAP = i_ore_invictus
+REGEN = 60*10*42
+
+
+[EOF]

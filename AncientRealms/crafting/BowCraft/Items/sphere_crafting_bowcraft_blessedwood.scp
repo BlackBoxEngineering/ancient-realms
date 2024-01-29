@@ -1,0 +1,274 @@
+//****************************************************************************
+// SphereServer ©1997-2009
+// This script is part from the Sphere Community Script Pack.
+// You can download the full pack from: www.sphereserver.net
+//****************************************************************************
+// FILE LAST UPDATED: Sunday, April 25, 2011
+VERSION=0.56b
+
+
+[ITEMDEF i_bow_blessedwood]
+ID=i_bow
+NAME=Blessed wood bow
+TYPE=t_weapon_bow
+RESOURCES=7 i_log_blessedwood
+SKILLMAKE=Bowcraft 30.0
+WEIGHT=6.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=blessedwood bow
+DESCRIPTION=blessedwood bow
+ 
+ON=@Create
+f_colored_weaps_blessedwood
+HITPOINTS={36 48}
+COLOR=color_log_blessedwood
+ 
+[ITEMDEF i_composite_bow_blessedwood]
+ID=i_composite_bow
+NAME=Blessed wood Composite Bow
+TYPE=t_weapon_bow
+RESOURCES=7 i_log_blessedwood
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=5.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=blessedwood Composite Bow
+DESCRIPTION=blessedwood Composite Bow
+ 
+ON=@Create
+f_colored_weaps_blessedwood
+HITPOINTS={36 48}
+COLOR=color_log_blessedwood
+ 
+[ITEMDEF i_crossbow_blessedwood]
+ID=i_crossbow
+NAME=Blessed wood crossbow
+TYPE=t_weapon_xbow
+RESOURCES=7 i_log_blessedwood
+SKILLMAKE=Bowcraft 60.0
+WEIGHT=7.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=blessedwood crossbow
+DESCRIPTION=blessedwood crossbow
+ 
+ON=@Create
+f_colored_weaps_blessedwood
+HITPOINTS={36 48}
+COLOR=color_log_blessedwood
+ 
+[ITEMDEF i_elven_composite_longbow_blessedwood]
+ID=i_elven_composite_longbow
+NAME=Blessed wood Elven Composite Longbow
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_blessedwood
+SKILLMAKE=Bowcraft 95.0
+WEIGHT=8.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=blessedwood Elven Composite Longbow
+DESCRIPTION=blessedwood Elven Composite Longbow
+ 
+ON=@Create
+f_colored_weaps_blessedwood
+HITPOINTS={36 48}
+COLOR=color_log_blessedwood
+ 
+[ITEMDEF i_crossbow_heavy_blessedwood]
+ID=i_crossbow_heavy
+NAME=Blessed wood heavy crossbow
+TYPE=t_weapon_xbow
+RESOURCES=10 i_log_blessedwood
+SKILLMAKE=Bowcraft 80.0
+WEIGHT=9.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=blessedwood heavy crossbow
+DESCRIPTION=blessedwood heavy crossbow
+ 
+ON=@Create
+f_colored_weaps_blessedwood
+HITPOINTS={36 48}
+COLOR=color_log_blessedwood
+ 
+[ITEMDEF i_magical_shortbow_blessedwood]
+ID=i_magical_shortbow
+NAME=Blessed wood Magical Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_blessedwood
+SKILLMAKE=Bowcraft 85.0
+WEIGHT=6.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=blessedwood Magical Shortbow
+DESCRIPTION=blessedwood Magical Shortbow
+ 
+ON=@Create
+f_colored_weaps_blessedwood
+HITPOINTS={36 48}
+COLOR=color_log_blessedwood
+ 
+[ITEMDEF i_repeating_crossbow_blessedwood]
+ID=i_repeating_crossbow
+NAME=Blessed wood Repeating Crossbow
+TYPE=t_weapon_xbow
+RESOURCES=10 i_log_blessedwood
+SKILLMAKE=Bowcraft 90.0
+WEIGHT=6.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=blessedwood Repeating Crossbow
+DESCRIPTION=blessedwood Repeating Crossbow
+ 
+ON=@Create
+f_colored_weaps_blessedwood
+HITPOINTS={36 48}
+COLOR=color_log_blessedwood
+ 
+[ITEMDEF i_yumi_blessedwood]
+ID=i_yumi
+NAME=Blessed wood Yumi
+TYPE=t_weapon_bow
+RESOURCES=10 i_log_blessedwood
+SKILLMAKE=Bowcraft 90.0
+WEIGHT=8.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=blessedwood Yumi
+DESCRIPTION=blessedwood Yumi
+ 
+ON=@Create
+f_colored_weaps_blessedwood
+HITPOINTS={36 48}
+COLOR=color_log_blessedwood
+ 
+[ITEMDEF i_barbed_longbow_blessedwood]
+ID=i_elven_composite_longbow
+NAME=Blessed wood Barbed Longbow
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_blessedwood, 1 i_gem_fire_ruby
+SKILLMAKE=Bowcraft 95.0
+WEIGHT=8.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=blessedwood Elven Composite Longbow
+DESCRIPTION=blessedwood Barbed Longbow
+ 
+ON=@Create
+f_colored_weaps_blessedwood
+HITPOINTS={36 48}
+COLOR=color_log_blessedwood
+ 
+[ITEMDEF i_slayer_longbow_blessedwood]
+ID=i_elven_composite_longbow
+NAME=Blessed wood Slayer Longbow
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_blessedwood, 1 i_gem_brilliant_amber
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=8.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=blessedwood Elven Composite Longbow
+DESCRIPTION=blessedwood Slayer Longbow
+ 
+ON=@Create
+f_colored_weaps_blessedwood
+HITPOINTS={36 48}
+COLOR=color_log_blessedwood
+ 
+[ITEMDEF i_frozen_longbow_blessedwood]
+ID=i_elven_composite_longbow
+NAME=Blessed wood Frozen Longbow
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_blessedwood, 1 i_gem_turquoise
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=8.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=blessedwood Elven Composite Longbow
+DESCRIPTION=blessedwood Frozen Longbow
+ 
+ON=@Create
+f_colored_weaps_blessedwood
+HITPOINTS={36 48}
+COLOR=color_log_blessedwood
+ 
+[ITEMDEF i_longbow_might_blessedwood]
+ID=i_elven_composite_longbow
+NAME=Blessed wood Longbow of Might
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_blessedwood, 1 i_gem_blue_diamond
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=8.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=blessedwood Elven Composite Longbow
+DESCRIPTION=blessedwood Longbow of Might
+ 
+ON=@Create
+f_colored_weaps_blessedwood
+HITPOINTS={36 48}
+COLOR=color_log_blessedwood
+ 
+[ITEMDEF i_ranger_shortbow_blessedwood]
+ID=i_magical_shortbow
+NAME=Blessed wood Ranger's Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_blessedwood, 1 i_gem_perfect_emerald
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=6.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=blessedwood Magical Shortbow
+DESCRIPTION=blessedwood Ranger's Shortbow
+ 
+ON=@Create
+f_colored_weaps_blessedwood
+HITPOINTS={36 48}
+COLOR=color_log_blessedwood
+ 
+[ITEMDEF i_lightweight_shortbow_blessedwood]
+ID=i_magical_shortbow
+NAME=Blessed wood Lightweight Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_blessedwood, 1 i_gem_white_pearl
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=6.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=blessedwood Magical Shortbow
+DESCRIPTION=blessedwood Lightweight Shortbow
+ 
+ON=@Create
+f_colored_weaps_blessedwood
+HITPOINTS={36 48}
+COLOR=color_log_blessedwood
+ 
+[ITEMDEF i_mystical_shortbow_blessedwood]
+ID=i_magical_shortbow
+NAME=Blessed wood Mystical Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_blessedwood, 1 i_gem_ecru_citrine
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=6.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=blessedwood Magical Shortbow
+DESCRIPTION=blessedwood Mystical Shortbow
+ 
+ON=@Create
+f_colored_weaps_blessedwood
+HITPOINTS={36 48}
+COLOR=color_log_blessedwood
+ 
+[ITEMDEF i_assassin_shortbow_blessedwood]
+ID=i_magical_shortbow
+NAME=Blessed wood Assassin's Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_blessedwood, 1 i_gem_dark_sapphire
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=6.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=blessedwood Magical Shortbow
+DESCRIPTION=blessedwood Assassin's Shortbow
+ 
+ON=@Create
+f_colored_weaps_blessedwood
+HITPOINTS={36 48}
+COLOR=color_log_blessedwood
+ 
+[EOF]

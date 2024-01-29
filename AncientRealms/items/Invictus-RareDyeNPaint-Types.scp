@@ -1,0 +1,225 @@
+[TYPEDEF t_rare_hair_dye]
+
+ON=@DCLICK
+	IF (<CONT> == <SRC.FINDLAYER(21).UID>)              
+		IF (<MORE>!=0)
+			TARGET Whos Hair do you want to pour this on?
+		ELSE
+			IF (<SRC.ALCHEMY> > 95.0)
+				IF (<SRC.FINDID.i_raredye_fish>)
+					LOCAL.FishColor=<SRC.FINDID.i_raredye_fish.COLOR>
+					SRC.SYSMESSAGE @63 You skillfully squeese the head of the fish into the bottle.
+					MORE=<LOCAL.FishColor>
+					COLOR=<LOCAL.FishColor>
+					SRC.CONSUME 1 i_raredye_fish
+					RETURN 1
+				ENDIF
+			ELSE
+				SRC.SYSMESSAGE @55 This Bottle Has been Used!
+				RETURN 1
+			ENDIF
+		ENDIF
+	ELSE
+        SRC.SYSMESSAGE @33 This must be in your Pack To Use.
+        RETURN 1
+    ENDIF
+	RETURN 1
+
+ON=@TARGON_ITEM
+	SRC.SYSMESSAGE @55 This is not a Person!
+	RETURN 1
+		
+ON=@TARGON_CHAR
+	IF !(<SRC.TARG.CANSEELOS>) || (<DISTANCE>>=3)
+		SRC.SYSMESSAGE @55 You can not see the target!
+		RETURN 1
+	ENDIF
+	IF ((<SRC.TARG.ISPLAYER>)&&(<SRC.TARG.UID>==<SRC.UID>))
+		IF ((<SRC.TARG.FINDLAYER.11>==0)&&(<SRC.TARG.FINDLAYER.16>==0))
+			SRC.SYSMESSAGE @55 You have no Hair to Dye!
+			RETURN 1
+		ELSE
+			SRC.TARG.FINDLAYER.11.COLOR=<MORE>
+			SRC.TARG.FINDLAYER.16.COLOR=<MORE>
+			MORE=0
+			COLOR=0
+			RETURN 1
+		ENDIF
+	ELSE
+		SRC.SYSMESSAGE @55 You can only use this on yourself!
+		RETURN 1
+	ENDIF
+	RETURN 1
+		
+
+[TYPEDEF t_rare_skin_dye]
+
+ON=@DCLICK
+	IF (<CONT> == <SRC.FINDLAYER(21).UID>)              
+		IF (<MORE>!=0)
+			TARGET Whos Skin do you want to stain with this?
+		ELSE
+			REMOVE
+			RETURN 1
+		ENDIF
+	ELSE
+        SRC.SYSMESSAGE @33 This must be in your Pack To Use.
+        RETURN 1
+    ENDIF
+	RETURN 1
+		
+ON=@TARGON_ITEM
+	SRC.SYSMESSAGE @55 This is not a Person!
+	RETURN 1
+
+ON=@TARGON_CHAR
+	IF !(<SRC.TARG.CANSEELOS>) || (<DISTANCE>>=3)
+		SRC.SYSMESSAGE @55 You can not see the target!
+		RETURN 1
+	ENDIF
+	IF ((<SRC.TARG.ISPLAYER>)&&(<SRC.TARG.UID>==<SRC.UID>))
+		SRC.TARG.COLOR=<MORE>
+		SRC.TARG.OSKIN=<MORE>
+		CONSUME
+		MORE=0
+		COLOR=0
+		RETURN 1		
+	ELSE
+		SRC.SYSMESSAGE @55 You can only use this on yourself!
+		RETURN 1
+	ENDIF
+	RETURN 1
+
+[TYPEDEF t_rare_cloth_dye]
+
+ON=@DCLICK
+	IF (<CONT> == <SRC.FINDLAYER(21).UID>)              
+		IF (<MORE>!=0)
+			TARGET The Cloth you would Like to dye?
+		ELSE
+			IF (<SRC.ALCHEMY> > 95.0)
+				IF (<SRC.FINDID.i_raredye_fish>)
+					LOCAL.FishColor=<SRC.FINDID.i_raredye_fish.COLOR>
+					SRC.SYSMESSAGE @63 You skillfully squeese the head of the fish into the bottle.
+					MORE=<LOCAL.FishColor>
+					COLOR=<LOCAL.FishColor>
+					SRC.CONSUME 1 i_raredye_fish
+					RETURN 1
+				ENDIF
+			ELSE
+				SRC.SYSMESSAGE @55 This Bottle Has been Used!
+				RETURN 1
+			ENDIF
+		ENDIF
+	ELSE
+        SRC.SYSMESSAGE @33 This must be in your Pack To Use.
+        RETURN 1
+    ENDIF
+	RETURN 1
+		
+ON=@TARGON_ITEM	
+	IF !(<SRC.TARG.CANSEELOS>) || (<DISTANCE>>=3)
+		SRC.SYSMESSAGE @55 You can not see the target!
+		RETURN 1
+	ENDIF
+	IF (<SRC.TARG.TYPE==t_cloth>)||(<SRC.TARG.TYPE==t_clothing>)
+		IF (<SRC.TARG.CONT> == <SRC.FINDLAYER(21).UID>)
+			SRC.TARG.COLOR=<MORE>
+			MORE=0
+			COLOR=0
+		ELSE
+			SRC.SYSMESSAGE @55 The <SRC.TARG.NAME> be in your pack !
+		RETURN 1		
+	ELSE
+		SRC.SYSMESAGE @55 Thats Not Cloth!
+		RETURN 1
+	ENDIF
+	
+ON=@TARGON_CHAR
+	SRC.SYSMESSAGE @55 This is not an Item!
+	RETURN 1
+
+[TYPEDEF t_rare_dye_tub]
+
+ON=@DCLICK
+	SAY @63 (<EVAL <TAG.RareDyeUses>>) Uses Left
+	IF (<CONT.UID> == <SRC.FINDLAYER(21).UID>)              
+		IF (<EVAL <TAG.RareDyeUses>> > 0)
+			TARGET The Cloth you would Like to dye?
+		ELSE
+			IF (<SRC.ALCHEMY> > 95.0)
+				IF (<SRC.FINDID.i_raredye_fish>)
+					LOCAL.FishColor=<SRC.FINDID.i_raredye_fish.COLOR>
+					SRC.SYSMESSAGE @63 You skillfully squeese the head of the fish into the tub.
+					MORE=<LOCAL.FishColor>
+					COLOR=<LOCAL.FishColor>
+					TAG.RareDyeUses=<TAG.RareDyeUses>+1
+					SRC.CONSUME 1 i_raredye_fish
+					RETURN 1
+				ELSE
+					SRC.SYSMESSAGE @55 This Tub has Faded!
+					COLOR=0
+					RETURN 1
+				ENDIF
+			ELSE
+				SRC.SYSMESSAGE @55 This Tub has Faded!
+				COLOR=0
+				RETURN 1
+			ENDIF
+		ENDIF
+	ELSE
+        SRC.SYSMESSAGE @33 This must be in your Pack To Use.
+        RETURN 1
+    ENDIF
+	RETURN 1
+		
+ON=@TARGON_ITEM	
+	IF (<SRC.TARG.CONT>==<SRC.UID>)||(<SRC.TARG.CONT>==<SRC.FINDLAYER.21.UID>)
+		
+		IF (<SRC.TARG.TYPE>==t_cloth)||(<SRC.TARG.TYPE>==t_clothing)||(<SRC.TARG.BASEID>==i_backpack)
+			SRC.TARG.COLOR=<MORE>
+			TAG.RareDyeUses=<TAG.RareDyeUses>-1
+			RETURN 1		
+		ELSE
+			SRC.SYSMESSAGE @55 You Cannot Dye that!
+			RETURN 1
+		ENDIF
+	ELSE
+		SRC.SYSMESSAGE @55 The Item must be on your person or in your pack!
+		RETURN 1
+	ENDIF
+	
+ON=@TARGON_CHAR
+	IF (<SRC.TARG>==<SRC.UID>)
+		IF ((<SRC.TARG.FINDLAYER.11>==0)&&(<SRC.TARG.FINDLAYER.16>==0))
+			SRC.SYSMESSAGE @55 You have no Hair to Dye!
+			RETURN 1
+		ELSE
+			SRC.TARG.FINDLAYER.11.COLOR=<MORE>
+			SRC.TARG.FINDLAYER.16.COLOR=<MORE>
+			TAG.RareDyeUses=<TAG.RareDyeUses>-1
+			RETURN 1	
+		ENDIF
+	ELSE
+		SRC.SYSMESSAGE @55 You can only use this on yourself!
+		RETURN 1
+	ENDIF
+	IF (<TAG.RareDyeUses> < 1)
+		COLOR=0
+	ENDIF
+	RETURN 1
+	
+[FUNCTION goSnakes]
+go 1631,3561
+
+[FUNCTION sethaircolor]
+
+TARGETF sethaircolor2 <ARGV[0]>
+
+[FUNCTION sethaircolor2]
+
+ARGO.FINDLAYER.11.COLOR=<ARGV[0]>
+ARGO.FINDLAYER.16.COLOR=<ARGV[0]>
+
+[EOF]
+

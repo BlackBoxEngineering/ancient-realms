@@ -1,0 +1,31 @@
+[REGIONTYPE r_MoonglowKeep_rock t_rock]
+RESOURCES=30.0 mr_nothing		
+RESOURCES=55.0 mr_iron
+RESOURCES=30.0 mr_bronze
+RESOURCES=10.0 mr_Galena	
+RESOURCES=18.0 mr_Malachite		
+RESOURCES=6.5 mr_agapite	
+RESOURCES=4.3 mr_Barite		
+RESOURCES=2.08 mr_bloodrock		
+RESOURCES=1.5 mr_Quartz		
+RESOURCES=1.1 mr_mytheril	
+
+[AREADEF a_moonglow_keep]
+EVENTS=r_default,r_MoonglowKeep_rock,r_default_water,r_LogClass_All_rare,r_default_grass
+NAME=Moonglow Keep
+GROUP=AncientRealms Keeps
+FLAGS=0880
+P=4540,1378,25,0
+RECT=4478,1375,4488,1353,0 // NNW corner To Eastern Gate
+RECT=4488,1353,4540,1399,0 // NWW corner To SE Corner
+RECT=4539,1373,4543,1394,0 // East Gate
+RECT=4543,1381,4544,1390,0 // East Gate & BS Quarter East
+RECT=4523,1398,4532,1402,0 // Lobby BS Quarter South
+RECT=4478,1399,4502,1405,0 // South End
+RECT=4494,1405,4499,1412,0 // South End
+RECT=4501,1375,4523,1401,0 // South End
+RECT=4509,1401,4514,1407,0 // South End
+RECT=4487,1398,4524,1405,0 // South Gates
+TAG.KEEPNAME=MoonGlow Keep
+
+[EOF]

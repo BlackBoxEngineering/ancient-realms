@@ -1,0 +1,373 @@
+[FUNCTION f_combat_CalculateDamageMelee]
+	
+	REF1=<ARGV[0]>
+	REF2=<ARGV[1]>
+	LOCAL.TotalDamage=0
+	LOCAL.PreHIts=<ACT.HITS>
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	LOCAL.HasPhysical		=	0
+	LOCAL.HasFire			=	0
+	LOCAL.HasCold			=	0
+	LOCAL.HasPoison			=	0
+	LOCAL.HasEnergy			=	0	
+	LOCAL.DamagePhysical	=	0
+	LOCAL.DamageFire		=	0
+	LOCAL.DamageCold		=	0
+	LOCAL.DamagePoison		=	0
+	LOCAL.DamageEnergy		=	0	
+	CALL f_combat_GetWeaponDamage <UID>	
+	LOCAL.DamagePhysical	=	<LOCAL.DamagePhysical>
+	LOCAL.DamageFire		=	<LOCAL.DamageFire>
+	LOCAL.DamageCold		=	<LOCAL.DamageCold>
+	LOCAL.DamagePoison		=	<LOCAL.DamagePoison>
+	LOCAL.DamageEnergy		=	<LOCAL.DamageEnergy>
+	
+	IF <LOCAL.DamagePhysical> > 0
+		LOCAL.HasPhysical	=	1
+	ENDIF
+	IF <LOCAL.DamageFire> > 0
+		LOCAL.HasFire		=	1
+	ENDIF
+	IF <LOCAL.DamageCold> > 0
+		LOCAL.HasCold		=	1
+	ENDIF
+	IF <LOCAL.DamagePoison> > 0
+		LOCAL.HasPoison		=	1
+	ENDIF
+	IF <LOCAL.DamageEnergy> > 0
+		LOCAL.HasEnergy		=	1
+	ENDIF
+		
+	LOCAL.CharacterNaturalAbility=0	
+    CALL f_combat_GetNaturalAbility <UID>
+    LOCAL.CharacterNaturalAbilityShared=<EVAL <LOCAL.CharacterNaturalAbility> / 5>
+	LOCAL.DamagePhysical	= <EVAL <LOCAL.DamagePhysical>	+	<LOCAL.CharacterNaturalAbilityShared>>
+	LOCAL.DamageFire		= <EVAL <LOCAL.DamageFire>		+	<LOCAL.CharacterNaturalAbilityShared>>
+	LOCAL.DamageCold		= <EVAL <LOCAL.DamageCold>		+	<LOCAL.CharacterNaturalAbilityShared>>
+	LOCAL.DamagePoison		= <EVAL <LOCAL.DamagePoison>	+	<LOCAL.CharacterNaturalAbilityShared>>
+	LOCAL.DamageEnergy		= <EVAL <LOCAL.DamageEnergy>	+	<LOCAL.CharacterNaturalAbilityShared>>
+	
+	LOCAL.CharacterLevelBonus=0	
+	CALL f_combat_GetLevelBonus <UID>
+	LOCAL.CharacterLevelBonusShared=<EVAL <LOCAL.CharacterLevelBonus> / 5>
+	LOCAL.DamagePhysical	= <EVAL <LOCAL.DamagePhysical>	+	<LOCAL.CharacterLevelBonusShared>>
+	LOCAL.DamageFire		= <EVAL <LOCAL.DamageFire>		+	<LOCAL.CharacterLevelBonusShared>>
+	LOCAL.DamageCold		= <EVAL <LOCAL.DamageCold>		+	<LOCAL.CharacterLevelBonusShared>>
+	LOCAL.DamagePoison		= <EVAL <LOCAL.DamagePoison>	+	<LOCAL.CharacterLevelBonusShared>>
+	LOCAL.DamageEnergy		= <EVAL <LOCAL.DamageEnergy>	+	<LOCAL.CharacterLevelBonusShared>>
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	
+	IF <ISPLAYER>
+		LOCAL.DefensePhysical	= <SRC.AR>			// Deduct as a percentage
+		LOCAL.DefenseFire		= <SRC.RESFIRE>
+		LOCAL.DefenseCold		= <SRC.RESCOLD>
+		LOCAL.DefensePoison		= <SRC.RESPOISON>
+		LOCAL.DefenseEnergy		= <SRC.RESENERGY>
+	ELSE
+		LOCAL.DefensePhysical	= <SRC.ARMOR>
+		LOCAL.DefenseFire		= <SRC.TAG0.RESFIRE>
+		LOCAL.DefenseCold		= <SRC.TAG0.RESCOLD>
+		LOCAL.DefensePoison		= <SRC.TAG0.RESPOISON>
+		LOCAL.DefenseEnergy		= <SRC.TAG0.RESENERGY>
+	ENDIF
+	
+	IF <ISPLAYER>
+		LOCAL.CharacterNaturalAbility
+		CALL f_combat_GetNaturalAbility <SRC.UID>
+		LOCAL.CharacterNaturalAbilityShared=<EVAL <LOCAL.CharacterNaturalAbility> / 5>
+		LOCAL.DefensePhysical	= <EVAL <LOCAL.DefensePhysical>	+	<LOCAL.CharacterNaturalAbilityShared>>
+		LOCAL.DefenseFire		= <EVAL <LOCAL.DefenseFire>		+	<LOCAL.CharacterNaturalAbilityShared>>
+		LOCAL.DefenseCold		= <EVAL <LOCAL.DefenseCold>		+	<LOCAL.CharacterNaturalAbilityShared>>
+		LOCAL.DefensePoison		= <EVAL <LOCAL.DefensePoison>	+	<LOCAL.CharacterNaturalAbilityShared>>
+		LOCAL.DefenseEnergy		= <EVAL <LOCAL.DefenseEnergy>	+	<LOCAL.CharacterNaturalAbilityShared>>
+	ENDIF
+	
+	LOCAL.SpellBasedDefenseShared=0
+	CALL f_combat_CheckSpellBasedDefense <SRC.UID>
+	LOCAL.SpellBasedDefenseShared=<EVAL <LOCAL.SpellBasedDefense> / 5 >
+	LOCAL.DefensePhysical	= <EVAL <LOCAL.DefensePhysical>	+	<LOCAL.SpellBasedDefenseShared>>
+	LOCAL.DefenseFire		= <EVAL <LOCAL.DefenseFire>		+	<LOCAL.SpellBasedDefenseShared>>
+	LOCAL.DefenseCold		= <EVAL <LOCAL.DefenseCold>		+	<LOCAL.SpellBasedDefenseShared>>
+	LOCAL.DefensePoison		= <EVAL <LOCAL.DefensePoison>	+	<LOCAL.SpellBasedDefenseShared>>
+	LOCAL.DefenseEnergy		= <EVAL <LOCAL.DefenseEnergy>	+	<LOCAL.SpellBasedDefenseShared>>
+
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+	LOCAL.TotalDamagePhysical	=	0
+	LOCAL.TotalDamageFire		=	0
+	LOCAL.TotalDamageCold		=	0
+	LOCAL.TotalDamagePoison		=	0
+	LOCAL.TotalDamageEnergy		=	0	
+	LOCAL.TotalDamagePhysical	=	<EVAL <LOCAL.DamagePhysical>	>//-	<LOCAL.DefensePhysical>>
+	LOCAL.TotalDamageFire		=	<EVAL <LOCAL.DamageFire>		>//-	<LOCAL.DefensePhysical>>
+	LOCAL.TotalDamageCold		=	<EVAL <LOCAL.DamageCold>		>//-	<LOCAL.DefensePhysical>>
+	LOCAL.TotalDamagePoison		=	<EVAL <LOCAL.DamagePoison>		>//-	<LOCAL.DefensePhysical>>
+	LOCAL.TotalDamageEnergy		=	<EVAL <LOCAL.DamageEnergy>		>//-	<LOCAL.DefensePhysical>>
+	LOCAL.PercentDamagePhysical	=	<EVAL <LOCAL.TotalDamagePhysical>	* 1000>
+	LOCAL.PercentDamageFire		=	<EVAL <LOCAL.TotalDamageFire>		* 1000>	
+	LOCAL.PercentDamageCold		=	<EVAL <LOCAL.TotalDamageCold>		* 1000>		
+	LOCAL.PercentDamagePoison	=	<EVAL <LOCAL.TotalDamagePoison>	* 1000>	
+	LOCAL.PercentDamageEnergy	=	<EVAL <LOCAL.TotalDamageEnergy>	* 1000>
+	LOCAL.PercentDamagePhysical	=	<EVAL <LOCAL.PercentDamagePhysical>	/ 100>
+	LOCAL.PercentDamageFire		=	<EVAL <LOCAL.PercentDamageFire>		/ 100>	
+	LOCAL.PercentDamageCold		=	<EVAL <LOCAL.PercentDamageCold>		/ 100>		
+	LOCAL.PercentDamagePoison	=	<EVAL <LOCAL.PercentDamagePoison>		/ 100>	
+	LOCAL.PercentDamageEnergy	=	<EVAL <LOCAL.PercentDamageEnergy>		/ 100>
+	LOCAL.PercentDamagePhysical	=	<EVAL <LOCAL.PercentDamagePhysical>	*	<LOCAL.DefensePhysical>>
+	LOCAL.PercentDamageFire		=	<EVAL <LOCAL.PercentDamageFire>		*	<LOCAL.DefenseFire>>	
+	LOCAL.PercentDamageCold		=	<EVAL <LOCAL.PercentDamageCold>		*	<LOCAL.DefenseCold>>		
+	LOCAL.PercentDamagePoison	=	<EVAL <LOCAL.PercentDamagePoison>		*	<LOCAL.DefensePoison>>	
+	LOCAL.PercentDamageEnergy	=	<EVAL <LOCAL.PercentDamageEnergy>		*	<LOCAL.DefenseEnergy>>
+	LOCAL.PercentDamagePhysical	=	<EVAL <LOCAL.PercentDamagePhysical>	/ 1000>
+	LOCAL.PercentDamageFire		=	<EVAL <LOCAL.TotalDamageFire>			/ 1000>	
+	LOCAL.PercentDamageCold		=	<EVAL <LOCAL.PercentDamageCold>		/ 1000>		
+	LOCAL.PercentDamagePoison	=	<EVAL <LOCAL.PercentDamagePoison>		/ 1000>	
+	LOCAL.PercentDamageEnergy	=	<EVAL <LOCAL.PercentDamageEnergy>		/ 1000>
+	LOCAL.TotalDamagePhysical	=	<EVAL <LOCAL.DamagePhysical>	-	<LOCAL.PercentDamagePhysical>>
+	LOCAL.TotalDamageFire		=	<EVAL <LOCAL.DamageFire>		-	<LOCAL.PercentDamageFire>>
+	LOCAL.TotalDamageCold		=	<EVAL <LOCAL.DamageCold>		-	<LOCAL.PercentDamageCold>>
+	LOCAL.TotalDamagePoison		=	<EVAL <LOCAL.DamagePoison>		-	<LOCAL.PercentDamagePoison>>
+	LOCAL.TotalDamageEnergy		=	<EVAL <LOCAL.DamageEnergy>		-	<LOCAL.PercentDamageEnergy>>
+	LOCAL.TotalDamagePhysical	=	<ReturnOnlyPositives <LOCAL.TotalDamagePhysical>>
+	LOCAL.TotalDamageFire		=	<ReturnOnlyPositives <LOCAL.TotalDamagePhysical>>
+	LOCAL.TotalDamageCold		=	<ReturnOnlyPositives <LOCAL.TotalDamagePhysical>>
+	LOCAL.TotalDamagePoison		=	<ReturnOnlyPositives <LOCAL.TotalDamagePhysical>>
+	LOCAL.TotalDamageEnergy		=	<ReturnOnlyPositives <LOCAL.TotalDamagePhysical>>
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	
+	IF !(<SRC.ISPLAYER>)||!(<SRC.ISDRONE>)
+		IF (<ISPLAYER>)||(<ISDRONE>)
+			IF (<FINDLAYER.2.TYPE>==t_weapon_bow)
+				IF !(<SRC.FINDID.i_kill_archer_delay>)
+					IF !(<SRC.FINDID.i_kill_archer>)
+						NEWITEM i_kill_archer, 1, <SRC.UID>
+						NEWITEM i_kill_archer_delay, 1, <SRC.UID>
+						//SERV.LOG Player <NAME> gives i_kill_archer to NPC <
+					ENDIF
+				ENDIF
+			ENDIF
+		ENDIF
+	ENDIF
+
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	
+	IF (<FINDLAYER.2.ISARMOR>)||(<FINDLAYER.2.ISWEAPON>) 
+		LOCAL.ParryAbility	= 0
+		CALL f_combat_GetParryAbility <SRC.UID>,<UID>
+		IF (<LOCAL.ParryAbility>==2)
+			LOCAL.TotalDamagePhysical	=	0
+			LOCAL.TotalDamageFire		=	<ReturnOnlyPositives <EVAL (<LOCAL.TotalDamageFire>		- <LOCAL.ShieldDefenseFire>)	/ 3>>
+			LOCAL.TotalDamageCold		=	<ReturnOnlyPositives <EVAL (<LOCAL.TotalDamageCold>		- <LOCAL.ShieldDefenseCold>)	/ 3>>
+			LOCAL.TotalDamagePoison		=	<ReturnOnlyPositives <EVAL (<LOCAL.TotalDamagePoison>	- <LOCAL.ShieldDefensePoison>)	/ 3>>
+			LOCAL.TotalDamageEnergy		=	<ReturnOnlyPositives <EVAL (<LOCAL.TotalDamageEnergy>	- <LOCAL.ShieldDefenseEnergy>)	/ 3>>
+		ELIF (<LOCAL.ParryAbility>==1)
+			LOCAL.TotalDamagePhysical	=	<EVAL <LOCAL.TotalDamagePhysical> / 2> 
+			LOCAL.TotalDamageFire		=	<ReturnOnlyPositives <EVAL (<LOCAL.TotalDamageFire>		- <LOCAL.ShieldDefenseFire>)	/ 2>>
+			LOCAL.TotalDamageCold		=	<ReturnOnlyPositives <EVAL (<LOCAL.TotalDamageCold>		- <LOCAL.ShieldDefenseCold>)	/ 2>>
+			LOCAL.TotalDamagePoison		=	<ReturnOnlyPositives <EVAL (<LOCAL.TotalDamagePoison>	- <LOCAL.ShieldDefensePoison>)	/ 2>>
+			LOCAL.TotalDamageEnergy		=	<ReturnOnlyPositives <EVAL (<LOCAL.TotalDamageEnergy>	- <LOCAL.ShieldDefenseEnergy>)	/ 2>>
+		ELSE
+			LOCAL.TotalDamagePhysical	=	<ReturnOnlyPositives <EVAL <LOCAL.TotalDamagePhysical>>>
+			LOCAL.TotalDamageFire		=	<ReturnOnlyPositives <EVAL <LOCAL.TotalDamageFire>		- <LOCAL.ShieldDefenseFire>>>
+			LOCAL.TotalDamageCold		=	<ReturnOnlyPositives <EVAL <LOCAL.TotalDamageCold>		- <LOCAL.ShieldDefenseCold>>>
+			LOCAL.TotalDamagePoison		=	<ReturnOnlyPositives <EVAL <LOCAL.TotalDamagePoison>	- <LOCAL.ShieldDefensePoison>>>
+			LOCAL.TotalDamageEnergy		=	<ReturnOnlyPositives <EVAL <LOCAL.TotalDamageEnergy>	- <LOCAL.ShieldDefenseEnergy>>>
+		ENDIF
+	ENDIF
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+	IF !<LOCAL.HasPhysical>
+		LOCAL.TotalDamagePhysical= 0
+	ENDIF
+	IF !<LOCAL.HasFire>
+		LOCAL.TotalDamageFire	= 0
+	ENDIF
+	IF !<LOCAL.HasCold>
+		LOCAL.TotalDamageCold	= 0
+	ENDIF
+	IF !<LOCAL.HasPoison>
+		LOCAL.TotalDamagePoison	= 0
+	ENDIF
+	IF !<LOCAL.HasEnergy>
+		LOCAL.TotalDamageEnergy	= 0
+	ENDIF
+	
+	LOCAL.TotalDamage=<EVAL <LOCAL.TotalDamagePhysical> + <LOCAL.TotalDamageFire> + <LOCAL.TotalDamageCold> + <LOCAL.TotalDamagePoison> + <LOCAL.TotalDamageEnergy>>
+	
+	IF (!<SRC.ISPLAYER>)
+		LOCAL.TotalDamageToSpread=0
+		IF (<R1, 100> < (<CritHitCHance>/10))
+			EMOTE Stunning strike
+			IF <EVAL <TAG0.LV>> < 5
+				LOCAL.DamageSpin=5
+			ELSE
+				LOCAL.DamageSpin=<TAG0.LV>
+			ENDIF
+			IF <BODY>==c_woman
+				SFX 1300
+			ELSE
+				SFX 1301
+			ENDIF
+			LOCAL.OverkillBonus=<EVAL <LOCAL.TotalDamage>*<LOCAL.DamageSpin>>
+			LOCAL.TotalDamageToSpread=<LOCAL.OverkillBonus>
+		ELIF (<R1, 100> < <CritHitCHance>)
+			LOCAL.CriticalBonus=<EVAL <LOCAL.TotalDamage>*2>
+			LOCAL.TotalDamageToSpread=<LOCAL.CriticalBonus>
+			EMOTE Critical strike
+			SFX 1309
+		ENDIF
+		LOCAL.TotalDamageToSpread	=	<ReturnOnlyPositives <EVAL <LOCAL.TotalDamageToSpread> / 5>>
+		LOCAL.TotalDamagePhysical	=	<ReturnOnlyPositives <EVAL <LOCAL.TotalDamagePhysical>	+ <LOCAL.TotalDamageToSpread>>>
+		LOCAL.TotalDamageFire		=	<ReturnOnlyPositives <EVAL <LOCAL.TotalDamageFire>		+ <LOCAL.TotalDamageToSpread>>>
+		LOCAL.TotalDamageCold		=	<ReturnOnlyPositives <EVAL <LOCAL.TotalDamageCold>		+ <LOCAL.TotalDamageToSpread>>>
+		LOCAL.TotalDamagePoison		=	<ReturnOnlyPositives <EVAL <LOCAL.TotalDamagePoison>	+ <LOCAL.TotalDamageToSpread>>>
+		LOCAL.TotalDamageEnergy		=	<ReturnOnlyPositives <EVAL <LOCAL.TotalDamageEnergy>	+ <LOCAL.TotalDamageToSpread>>>	
+	ENDIF
+	IF !<LOCAL.HasPhysical>
+		LOCAL.TotalDamagePhysical= 0
+	ENDIF
+	IF !<LOCAL.HasFire>
+		LOCAL.TotalDamageFire	= 0
+	ENDIF
+	IF !<LOCAL.HasCold>
+		LOCAL.TotalDamageCold	= 0
+	ENDIF
+	IF !<LOCAL.HasPoison>
+		LOCAL.TotalDamagePoison	= 0
+	ENDIF
+	IF !<LOCAL.HasEnergy>
+		LOCAL.TotalDamageEnergy	= 0
+	ENDIF
+	
+	LOCAL.TotalDamage=<EVAL <LOCAL.TotalDamagePhysical> + <LOCAL.TotalDamageFire> + <LOCAL.TotalDamageCold> + <LOCAL.TotalDamagePoison> + <LOCAL.TotalDamageEnergy>>
+	
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+	LOCAL.HitLocationDamageBonus=0
+	CALL f_combat_selectHitLocation <ARGV[0]>,<ARGV[1]>,<LOCAL.TotalDamage> // Includes armor damage
+	LOCAL.HitLocationDamageBonusToSpread=<ReturnOnlyPositives <EVAL <LOCAL.HitLocationDamageBonus> / 5>>
+	LOCAL.TotalDamagePhysical	=	<ReturnOnlyPositives <EVAL <LOCAL.TotalDamagePhysical>	+ <LOCAL.HitLocationDamageBonusToSpread>>>
+	LOCAL.TotalDamageFire		=	<ReturnOnlyPositives <EVAL <LOCAL.TotalDamageFire>		+ <LOCAL.HitLocationDamageBonusToSpread>>>
+	LOCAL.TotalDamageCold		=	<ReturnOnlyPositives <EVAL <LOCAL.TotalDamageCold>		+ <LOCAL.HitLocationDamageBonusToSpread>>>
+	LOCAL.TotalDamagePoison		=	<ReturnOnlyPositives <EVAL <LOCAL.TotalDamagePoison>	+ <LOCAL.HitLocationDamageBonusToSpread>>>
+	LOCAL.TotalDamageEnergy		=	<ReturnOnlyPositives <EVAL <LOCAL.TotalDamageEnergy>	+ <LOCAL.HitLocationDamageBonusToSpread>>>	
+	
+	IF !<LOCAL.HasPhysical>
+		LOCAL.TotalDamagePhysical= 0
+	ENDIF
+	IF !<LOCAL.HasFire>
+		LOCAL.TotalDamageFire	= 0
+	ENDIF
+	IF !<LOCAL.HasCold>
+		LOCAL.TotalDamageCold	= 0
+	ENDIF
+	IF !<LOCAL.HasPoison>
+		LOCAL.TotalDamagePoison	= 0
+	ENDIF
+	IF !<LOCAL.HasEnergy>
+		LOCAL.TotalDamageEnergy	= 0
+	ENDIF
+	
+	LOCAL.TotalDamage=<ReturnOnlyPositives <EVAL <LOCAL.TotalDamagePhysical> + <LOCAL.TotalDamageFire> + <LOCAL.TotalDamageCold> + <LOCAL.TotalDamagePoison> + <LOCAL.TotalDamageEnergy>>>
+	
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	
+	IF <SRC.TAG0.LastArmorDamage>
+		SFX 87
+	ENDIF		
+	IF (STRMATCH(*Swordsmanship*,<TAG0.CombatSkillName>))
+	DORAND 2
+		SFX 572
+		SFX 573
+	ENDDO
+	ELIF (STRMATCH(*archery*,<TAG0.CombatSkillName>))
+		DORAND 5
+			SFX 1226
+			SFX 1227
+			SFX 690
+			SFX 548
+			SFX 549
+		ENDDO
+	ENDIF
+	
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	
+	//f_combat_CheckWeaponForOrbEffect <REF1>,<REF2>
+		
+	//IF (<ISPLAYER>)||(<ISDRONE>)
+	//	IF !(<SRC.ISPLAYER>)
+	//		LOCAL.PvmLevelDamageReductiona=<EVAL (<LOCAL.TotalDamage>*100)>
+	//		LOCAL.PvmLevelDamageReductionb=<EVAL (<LOCAL.PvmLevelDamageReductiona>/100)>
+	//		LOCAL.PvmLevelDamageReductionc=<EVAL (<LOCAL.PvmLevelDamageReductionb>*<SRC.PVMLevelDefense>)>
+	//		LOCAL.PvmLevelDamageReductiond=<EVAL (<LOCAL.PvmLevelDamageReductionc>/100)>
+	//		LOCAL.TotalDamage=<EVAL (<LOCAL.TotalDamage>-<LOCAL.PvmLevelDamageReductiond>)>
+	//		IF <EVAL <LOCAL.TotalDamage>> < 1
+	//			LOCAL.TotalDamage=1
+	//		ENDIF
+	//	ENDIF
+	//ENDIF
+		
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++	
+		
+	LOCAL.TotalDamage=<ReturnOnlyPositives <EVAL <LOCAL.TotalDamagePhysical> + <LOCAL.TotalDamageFire> + <LOCAL.TotalDamageCold> + <LOCAL.TotalDamagePoison> + <LOCAL.TotalDamageEnergy>>>
+	
+	IF <EVAL <LOCAL.TotalDamage>> > 1
+		IF <EVAL <LOCAL.TotalDamagePhysical>>
+			// SFX Damage
+		ENDIF
+		IF <EVAL <LOCAL.TotalDamageFire>>
+			SRC.EFFECT 3,i_fx_explode,6,15,1
+			EFFECT 3,i_fx_glow_spike,1,5,0,33
+			//SRC.EMOTE burn
+			// SFX
+		ENDIF	
+		IF <EVAL <LOCAL.TotalDamageCold>>
+			SRC.EFFECT 3,i_fx_glow,16,20,5,95
+			EFFECT 3,i_fx_glow_spike,1,5,0,95
+			//SRC.EMOTE freeze
+			// SFX
+		ENDIF
+		IF <EVAL <LOCAL.TotalDamagePoison>>
+			SRC.EFFECT 3,i_fx_heal,16,20,0,63
+			EFFECT 3,i_fx_glow_spike,1,5,0,63
+			//SRC.EMOTE turn green
+			// SFX
+		ENDIF
+		IF <EVAL <LOCAL.TotalDamageEnergy>>
+			SRC.EFFECT 2 i_fx_field_paralyze 10 14 0 0 2
+			EFFECT 3,i_fx_curse,1,5,0,82
+			//SRC.EMOTE fry
+			// SFX
+		ENDIF
+		LOCAL.CombinedDamage=
+		//SRC.SAY <EVAL <LOCAL.TotalDamage>>
+		//SERV.LOG <NAME> Hits <SRC.NAME> For (<EVAL <LOCAL.TotalDamageFire>> Fire) (<EVAL <LOCAL.TotalDamageCold>> Cold) (<EVAL <LOCAL.TotalDamageCold>> Poison) (<EVAL <LOCAL.TotalDamageCold>> Energy)
+	ENDIF
+	
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++	
+	
+	IF (!<ISPLAYER>)
+		IF ((<SRC.ISPLAYER>)&&(<EVAL <TAG0.LV>> > 99))	
+			IF (<R1, 100> < <ReplenishHitsCHance>)
+				SRC.HITS=<EVAL <SRC.HITS>+<TAG0.LV>>
+				SRC.SYSMESSAGECOMBATEFFECT Hitpoints: Replenished <EVAL <TAG0.LV>> Hits
+				//SERV.LOG <NAME> HitsPoints are Replenished <SRC.NAME> 
+				LOCAL.TotalDamage=0
+			ENDIF
+		ENDIF
+	ENDIF
+	
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++	
+	
+	SRC.TAG.LastHitBy=<REF1>
+	SRC.TAG.LastHitByName=<NAME>
+	SRC.TAG.LastHitByDamBonus=<LOCAL.TotalDamage>
+	SRC.TAG.LastHitByDamFame=<FAME>
+	SRC.TAG.LastHitByLv=<TAG0.Lv>
+	SRC.TAG.LastHitByEXP=<TAG0.EXP>
+
+	RETURN <EVAL <LOCAL.TotalDamage>>
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++	
+
+	
+[EOF]

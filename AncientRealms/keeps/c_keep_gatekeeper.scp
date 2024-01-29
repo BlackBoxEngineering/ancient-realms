@@ -1,0 +1,47 @@
+[CHARDEF c_keep_gatekeeper]
+DEFNAME=c_keep_gatekeeper
+NAME=#NAMES_HUMANMALE the Keep Gate Keeper
+ID=C_MAN
+CAN=MT_USEHANDS|MT_EQUIP|MT_FIRE_IMMUNE
+DAM=8
+ARMOR=50
+TSPEECH=s_keep_JobGateKeeper
+TEVENTS=e_Keep_GateGuard
+
+CATEGORY=AncientRealms
+SUBSECTION=Keep Guards
+DESCRIPTION=Keep GateKeeper
+
+ON=@Create
+	NPC=brain_human
+	COLOR=1009
+	STR=100
+	DEX=100
+	INT=100
+	FAME=100
+	KARMA=-1000
+	MAXHITS=<EVAL GateKeeperDefaultMaxHits>
+	HEALING			={80.0 100.0}
+	PARRYING		={80.0 100.0}
+	MAGICRESISTANCE	={80.0 100.0}
+	DETECTINGHIDDEN	={80.0 100.0}
+	NEW.CONT=<uid>
+	TAG.GuardCount=0
+	TAG.GetHitCounter=1
+	ITEMNEWBIE=i_keep_GuardsBrains, 1, <UID>
+	
+ON=@NPCRestock
+	ITEMNEWBIE=random_male_hair
+	ITEMNEWBIE=random_facial_hair
+	ITEMNEWBIE=i_platemail_chest_blackrock
+    ITEMNEWBIE=i_platemail_leggings_blackrock
+    ITEMNEWBIE=i_platemail_arms_blackrock
+    ITEMNEWBIE=i_platemail_helm_blackrock
+    ITEMNEWBIE=i_platemail_gloves_blackrock
+    ITEMNEWBIE=i_platemail_gorget_blackrock
+	ITEMNEWBIE=i_mystic_daisho
+	ITEMNEWBIE=i_keep_GateKeepersGuardSpawner
+	ITEM=i_bandage { 50 100 }
+	TAG.KeepGuard=1
+
+[EOF]

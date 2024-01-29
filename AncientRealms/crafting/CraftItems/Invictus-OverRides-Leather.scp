@@ -1,0 +1,19 @@
+[ITEMDEF i_leather] 
+DEFNAME=i_leather
+NAME=Leather
+ID=5989 
+WEIGHT=3
+VALUE=1
+TYPE=t_leather 
+
+[ITEMDEF i_leather_cut]
+DEFNAME=i_leather
+NAME=Leather
+ID=4199 
+WEIGHT=3
+VALUE=1
+TYPE=t_leather 
+ 
+
+
+[EOF]

@@ -1,0 +1,258 @@
+//****************************************************************************
+// SphereServer ©1997-2009
+// This script is part from the Sphere Community Script Pack.
+// You can download the full pack from: www.sphereserver.net
+//****************************************************************************
+// FILE LAST UPDATED: Sunday, April 25, 2011
+VERSION=0.56b
+
+
+[ITEMDEF i_bow_maple]
+ID=i_bow
+NAME=maple bow
+TYPE=t_weapon_bow
+RESOURCES=7 i_log_maple
+SKILLMAKE=Bowcraft 30.0
+WEIGHT=6.0
+CATEGORY=Provisions - Weapons - Colored
+SUBSECTION=maple bow
+DESCRIPTION=maple bow
+ 
+ON=@Create
+HITPOINTS={36 48}
+COLOR=color_log_maple
+ 
+[ITEMDEF i_composite_bow_maple]
+ID=i_composite_bow
+NAME=maple Composite Bow
+TYPE=t_weapon_bow
+RESOURCES=7 i_log_maple
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=5.0
+CATEGORY=Provisions - Weapons - Colored
+SUBSECTION=maple Composite Bow
+DESCRIPTION=maple Composite Bow
+ 
+ON=@Create
+HITPOINTS={36 48}
+COLOR=color_log_maple
+ 
+[ITEMDEF i_crossbow_maple]
+ID=i_crossbow
+NAME=maple crossbow
+TYPE=t_weapon_xbow
+RESOURCES=7 i_log_maple
+SKILLMAKE=Bowcraft 60.0
+WEIGHT=7.0
+CATEGORY=Provisions - Weapons - Colored
+SUBSECTION=maple crossbow
+DESCRIPTION=maple crossbow
+ 
+ON=@Create
+HITPOINTS={36 48}
+COLOR=color_log_maple
+ 
+[ITEMDEF i_elven_composite_longbow_maple]
+ID=i_elven_composite_longbow
+NAME=maple Elven Composite Longbow
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_maple
+SKILLMAKE=Bowcraft 95.0
+WEIGHT=8.0
+CATEGORY=Provisions - Weapons - Colored
+SUBSECTION=maple Elven Composite Longbow
+DESCRIPTION=maple Elven Composite Longbow
+ 
+ON=@Create
+HITPOINTS={36 48}
+COLOR=color_log_maple
+ 
+[ITEMDEF i_crossbow_heavy_maple]
+ID=i_crossbow_heavy
+NAME=maple heavy crossbow
+TYPE=t_weapon_xbow
+RESOURCES=10 i_log_maple
+SKILLMAKE=Bowcraft 80.0
+WEIGHT=9.0
+CATEGORY=Provisions - Weapons - Colored
+SUBSECTION=maple heavy crossbow
+DESCRIPTION=maple heavy crossbow
+ 
+ON=@Create
+HITPOINTS={36 48}
+COLOR=color_log_maple
+ 
+[ITEMDEF i_magical_shortbow_maple]
+ID=i_magical_shortbow
+NAME=maple Magical Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_maple
+SKILLMAKE=Bowcraft 85.0
+WEIGHT=6.0
+CATEGORY=Provisions - Weapons - Colored
+SUBSECTION=maple Magical Shortbow
+DESCRIPTION=maple Magical Shortbow
+ 
+ON=@Create
+HITPOINTS={36 48}
+COLOR=color_log_maple
+ 
+[ITEMDEF i_repeating_crossbow_maple]
+ID=i_repeating_crossbow
+NAME=maple Repeating Crossbow
+TYPE=t_weapon_xbow
+RESOURCES=10 i_log_maple
+SKILLMAKE=Bowcraft 90.0
+WEIGHT=6.0
+CATEGORY=Provisions - Weapons - Colored
+SUBSECTION=maple Repeating Crossbow
+DESCRIPTION=maple Repeating Crossbow
+ 
+ON=@Create
+HITPOINTS={36 48}
+COLOR=color_log_maple
+ 
+[ITEMDEF i_yumi_maple]
+ID=i_yumi
+NAME=maple Yumi
+TYPE=t_weapon_bow
+RESOURCES=10 i_log_maple
+SKILLMAKE=Bowcraft 90.0
+WEIGHT=8.0
+CATEGORY=Provisions - Weapons - Colored
+SUBSECTION=maple Yumi
+DESCRIPTION=maple Yumi
+ 
+ON=@Create
+HITPOINTS={36 48}
+COLOR=color_log_maple
+ 
+[ITEMDEF i_barbed_longbow_maple]
+ID=i_elven_composite_longbow
+NAME=maple Barbed Longbow
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_maple, 1 i_gem_fire_ruby
+SKILLMAKE=Bowcraft 95.0
+WEIGHT=8.0
+TEVENTS=t_iprop
+CATEGORY=Provisions - Weapons - Colored
+SUBSECTION=maple Elven Composite Longbow
+DESCRIPTION=maple Barbed Longbow
+ 
+ON=@Create
+HITPOINTS={36 48}
+COLOR=color_log_maple
+ 
+[ITEMDEF i_slayer_longbow_maple]
+ID=i_elven_composite_longbow
+NAME=maple Slayer Longbow
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_maple, 1 i_gem_brilliant_amber
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=8.0
+TEVENTS=t_iprop
+CATEGORY=Provisions - Weapons - Colored
+SUBSECTION=maple Elven Composite Longbow
+DESCRIPTION=maple Slayer Longbow
+ 
+ON=@Create
+HITPOINTS={36 48}
+COLOR=color_log_maple
+ 
+[ITEMDEF i_frozen_longbow_maple]
+ID=i_elven_composite_longbow
+NAME=maple Frozen Longbow
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_maple, 1 i_gem_turquoise
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=8.0
+TEVENTS=t_iprop
+CATEGORY=Provisions - Weapons - Colored
+SUBSECTION=maple Elven Composite Longbow
+DESCRIPTION=maple Frozen Longbow
+ 
+ON=@Create
+HITPOINTS={36 48}
+COLOR=color_log_maple
+ 
+[ITEMDEF i_longbow_might_maple]
+ID=i_elven_composite_longbow
+NAME=maple Longbow of Might
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_maple, 1 i_gem_blue_diamond
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=8.0
+TEVENTS=t_iprop
+CATEGORY=Provisions - Weapons - Colored
+SUBSECTION=maple Elven Composite Longbow
+DESCRIPTION=maple Longbow of Might
+ 
+ON=@Create
+HITPOINTS={36 48}
+COLOR=color_log_maple
+ 
+[ITEMDEF i_ranger_shortbow_maple]
+ID=i_magical_shortbow
+NAME=maple Ranger's Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_maple, 1 i_gem_perfect_emerald
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=6.0
+TEVENTS=t_iprop
+CATEGORY=Provisions - Weapons - Colored
+SUBSECTION=maple Magical Shortbow
+DESCRIPTION=maple Ranger's Shortbow
+ 
+ON=@Create
+HITPOINTS={36 48}
+COLOR=color_log_maple
+ 
+[ITEMDEF i_lightweight_shortbow_maple]
+ID=i_magical_shortbow
+NAME=maple Lightweight Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_maple, 1 i_gem_white_pearl
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=6.0
+TEVENTS=t_iprop
+CATEGORY=Provisions - Weapons - Colored
+SUBSECTION=maple Magical Shortbow
+DESCRIPTION=maple Lightweight Shortbow
+ 
+ON=@Create
+HITPOINTS={36 48}
+COLOR=color_log_maple
+ 
+[ITEMDEF i_mystical_shortbow_maple]
+ID=i_magical_shortbow
+NAME=maple Mystical Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_maple, 1 i_gem_ecru_citrine
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=6.0
+TEVENTS=t_iprop
+CATEGORY=Provisions - Weapons - Colored
+SUBSECTION=maple Magical Shortbow
+DESCRIPTION=maple Mystical Shortbow
+ 
+ON=@Create
+HITPOINTS={36 48}
+COLOR=color_log_maple
+ 
+[ITEMDEF i_assassin_shortbow_maple]
+ID=i_magical_shortbow
+NAME=maple Assassin's Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_maple, 1 i_gem_dark_sapphire
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=6.0
+TEVENTS=t_iprop
+CATEGORY=Provisions - Weapons - Colored
+SUBSECTION=maple Magical Shortbow
+DESCRIPTION=maple Assassin's Shortbow
+ 
+ON=@Create
+HITPOINTS={36 48}
+COLOR=color_log_maple
+ 
+[EOF]

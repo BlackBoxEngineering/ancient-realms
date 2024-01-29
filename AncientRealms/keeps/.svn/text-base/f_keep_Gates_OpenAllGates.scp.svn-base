@@ -1,0 +1,21 @@
+[FUNCTION f_keep_Gates_OpenAllGates]
+SERV.UID.<EVAL KS_Buccaneers>.f_keep_GatesNorthLower
+SERV.UID.<EVAL KS_Buccaneers>.f_keep_GatesEastLower
+SERV.UID.<EVAL KS_Cove>.f_keep_GatesNorthLower
+SERV.UID.<EVAL KS_Cove>.f_keep_GatesEastLower
+SERV.UID.<EVAL KS_BritCastle>.f_keep_GatesNorthLower
+SERV.UID.<EVAL KS_BritCastle>.f_keep_GatesEastLower
+SERV.UID.<EVAL KS_Minoc>.f_keep_GatesNorthLower
+SERV.UID.<EVAL KS_Minoc>.f_keep_GatesEastLower
+SERV.UID.<EVAL KS_MoonGlow>.f_keep_GatesNorthLower
+SERV.UID.<EVAL KS_MoonGlow>.f_keep_GatesEastLower
+SERV.UID.<EVAL KS_Magincia>.f_keep_GatesNorthLower
+SERV.UID.<EVAL KS_Magincia>.f_keep_GatesEastLower
+SERV.UID.<EVAL KS_Trinsic>.f_keep_GatesNorthLower
+SERV.UID.<EVAL KS_Trinsic>.f_keep_GatesEastLower
+SERV.UID.<EVAL KS_Skara>.f_keep_GatesNorthLower
+SERV.UID.<EVAL KS_Skara>.f_keep_GatesEastLower
+SERV.UID.<EVAL KS_Yew>.f_keep_GatesNorthLower
+SERV.UID.<EVAL KS_Yew>.f_keep_GatesEastLower
+
+[EOF]

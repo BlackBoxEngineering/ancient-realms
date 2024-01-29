@@ -1,0 +1,20 @@
+[FUNCTION f_SpawnATreasureChest]
+LOCAL.FoundALocation=0
+WHILE (!<LOCAL.FoundALocation>)
+	LOCAL.PosX=<EVAL RAND(0,5119)>
+	LOCAL.PosY=<EVAL RAND(0,4095)>
+	SERV.NEWITEM=i_gold
+	LOCAL.TempUID=<NEW.UID>
+	NEW.P=<EVAL <LOCAL.PosX>>,<EVAL <LOCAL.PosY>>
+	IF (!<SERV.UID.<LOCAL.TempUID>.ISNEARTYPE t_tree 1>) && (<SERV.UID.<LOCAL.TempUID>.ISNEARTYPE t_grass 1>) && (!<SERV.UID.<LOCAL.TempUID>.REGION.GUARDED>) && (<SERV.UID.<LOCAL.TempUID>.REGION.TYPE>!=t_multi) && (<SERV.UID.<LOCAL.TempUID>.REGION.TYPE>!=t_multi_custom)
+        LOCAL.FoundALocation=1
+        LOCAL.LocationFound=<NEW.P>
+        LOCAL.LocationX=<NEW.P.X>
+        LOCAL.LocationY=<NEW.P.Y>
+        LOCAL.LocationZ=<NEW.P.Z>
+	ENDIF
+	SERV.UID.<LOCAL.TempUID>.REMOVE
+ENDWHILE
+
+
+[EOF]

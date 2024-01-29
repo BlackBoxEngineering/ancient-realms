@@ -1,0 +1,53 @@
+[ITEMDEF i_event_manager_spam]
+ID=i_shield_dupre
+DEFNAME=i_event_manager_spam
+TYPE=t_eq_script
+NAME=Event Manager Spam
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=2
+
+ON=@TIMER
+	IF (<CONT.TAG0.Gameison>!=1)
+		IF !(<CONT.FINDID.i_event_manager_countdown>)
+			NEWITEM=i_event_manager_countdown, 1, <CONT.UID>
+		ENDIF
+		CONT.SAY @1462 CTS Starting in <EVAL <CONT.FINDID.i_event_manager_countdown.TIMER>> Seconds
+		CONT.SAY @1462 Currently <EVAL <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT>> Players Entered!
+		IF <EVAL <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT>> < 42
+			LOCAL.PlayersNeeded=<EVAL 4 - <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT>>
+			CONT.SAY @1462 <EVAL <LOCAL.PlayersNeeded>> More Players Needed.
+		ENDIF
+		CONT.SAY @1462 Say .JoinCTS To Join the Queue 
+		CONT.SAY @1462 Say .LeaveCTS To Leave the Queue
+		TIMER 300
+	ENDIF
+	RETURN 1
+
+[ITEMDEF i_event_manager_countdown]
+ID=i_shield_dupre
+DEFNAME=i_event_manager_countdown
+TYPE=t_eq_script
+NAME=Event Manager CountDown
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=30
+
+ON=@TIMER
+	IF (<EVAL <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT>> < 4)
+		CONT.SAY @55 CTS <EVAL 4 - <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.PLAYERCOUNT>> Players Needed (.JoinCTS)
+		TIMER=300
+		RETURN 1
+	ELSE
+		NEWITEM=i_cts_starter,1,<CONT.UID>
+		CONT.SAY @33 CTS About to Begin
+		CONT.TAG.Gameison=1
+		REMOVE
+	ENDIF
+	RETURN 1
+	
+[EOF]

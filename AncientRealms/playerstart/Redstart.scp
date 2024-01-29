@@ -1,0 +1,137 @@
+[TYPEDEF t_RedStartBox]
+ON=@DClick
+	IF <SRC.TAG.PlayerGetsStarterPack>
+		SRC.TAG.PlayerGetsStarterPack=
+		NEWITEM = i_pet_horse_tan, 1, <SRC.UID>
+		NEWITEM = i_dagger, 1, <SRC.UID>
+		NEWITEM = i_bandage, 50, <SRC.UID>
+		NEWITEM = i_RuneBook_AncientRealms, 1, <SRC.UID>
+		NEWITEM = i_50runebookcharges, 2, <SRC.UID>
+		NEWITEM = i_rune_marker, 1, <SRC.UID>
+		NEWITEM = i_rune_marker, 1, <SRC.UID>
+		NEWITEM = i_rune_marker, 1, <SRC.UID>
+		IF <SRC.MAGERY> > 30
+			SRC.FullSpellBook
+			NEWITEM = Start_ReagBag, 1, <SRC.UID>
+			IF <SRC.IsRed>
+				SRC.Givegold 2000
+				SRC.Start_HumanLeather
+				SRC.SYSMESSAGE @524,,1 Because you have over 100 kills Mudock gives you some human skin to wear thinking you will appreciate it.
+			ELSE
+				SRC.Start_Leather
+			ENDIF
+		ELSE
+			IF <SRC.STR> > 124 && <SRC.DEX> > 94
+				SRC.Start_PlateMail
+			ELIF <SRC.STR> > 79 && <SRC.DEX> > 74
+				SRC.Start_ChainMail
+			ELIF <SRC.STR> > 69 && <SRC.DEX> > 64
+				SRC.Start_RingMail
+			ELSE
+				SRC.Start_Studded
+			ENDIF
+		ENDIF			
+		IF ((<SRC.BLACKSMITHING> > 30)||(<SRC.CARPENTRY> > 30)||(<SRC.TINKERING> > 30)||(<SRC.BOWCRAFT> > 30)||(<SRC.TAILORING> > 30)||(<SRC.ALCHEMY> > 30))
+			NEWITEM = Start_ToolBag, 1, <SRC.UID>
+			SRC.Givegold 5000
+		ENDIF
+		IF <SRC.ARCHERY> > 50
+			NEWITEM=i_composite_bow, 1, <SRC.UID>
+			NEW.TAG.SpellChanneling=1
+			NEWITEM=i_arrow, 500, <SRC.UID>
+		ENDIF
+		IF <SRC.MACEFIGHTING> > 50
+			NEWITEM=i_hammer_pick, 1, <SRC.UID>
+			NEW.TAG.SpellChanneling=1
+		ENDIF
+		IF <SRC.SWORDSMANSHIP> > 50
+			NEWITEM=i_bone_machete, 1, <SRC.UID>
+			NEW.TAG.SpellChanneling=1
+		ENDIF
+		IF <SRC.FENCING> > 54
+			NEWITEM=i_pitchfork, 1, <SRC.UID>
+			NEW.TAG.SpellChanneling=1
+		ENDIF
+		IF (<SRC.CARTOGRAPHY> > 30)||(<SRC.TRACKING> > 30))
+			NEWITEM=i_sextant, 1, <SRC.UID>
+			NEWITEM=i_spade, 1, <SRC.UID>
+			NEWITEM=i_spyglass, 1, <SRC.UID>
+		ENDIF
+		IF <SRC.PARRYING> > 50
+			NEWITEM=i_shield_round_metal, 1, <SRC.UID>
+			NEW.TAG.SpellChanneling=1
+		ENDIF
+		SRC.SYSMESSAGE @524,,1 Mudock presents you with your first trading license and a vendor, this will enable you to trade in the towns.
+		NEWITEM = i_tradingLicence
+		NEW.BOUNCE <SRC.UID>
+		NEWITEM = i_VendorDeed, 1, <SRC.UID>
+		SRC.Givegold 3000	
+	ELSE
+		SAY @24 You have had your present from Mudock already.
+	ENDIF
+	RETURN 1
+	
+[DIALOG d_CannotEnterRegionRed]
+1,1
+PAGE 0
+RESIZEPIC 0 0 83 320 180
+DTEXT 40 30 35 This area is under the protection
+DTEXT 40 55 35 of Mudock, Lord of the black order.
+DTEXT 40 80 35 Only criminals and murders may enter.
+DTEXT 40 105 35 To be accepted as a criminal you need
+DTEXT 40 130 35 at least 3 kills or negative karma.
+
+[DIALOG d_OldPlayerStartRed]
+1,1
+RESIZEPIC 0 0 83 420 200
+PAGE 0
+DTEXT 30 30 55 You awake from what feels like a very long sleep.
+DTEXT 30 55 55 Your head hurts, your confused you try to remeber
+DTEXT 30 80 55 how you got here but your mind is simply blank.
+DTEXT 30 105 55 You look across the room for your clothes there
+DTEXT 30 130 55 isnt any in sight you search the room and find
+DTEXT 30 155 55 a note entitled "Welcome home <NAME>"
+BUTTON 320 160 2074 2075 1 0 10
+
+[DIALOG d_OldPlayerStartRed BUTTON]
+ONBUTTON=10
+	SRC.DIALOG d_OldPlayerStartRedNote
+
+[DIALOG d_OldPlayerStartRedNote]
+1,1
+RESIZEPIC 0 0 83 420 200
+PAGE 0
+DTEXT 30 30 55 The note reads: "I'm pleased to see you have finally
+DTEXT 30 55 55 awoken. You are still a criminal and that is why you
+DTEXT 30 80 55 are in Serpent's hold, here you will find no guards.
+DTEXT 30 105 55 My name is Mudock, leader of the Black Order and I'm
+DTEXT 30 130 55 always happy to see more evil in this world, mention
+DTEXT 30 155 55 my name to the bar keeper he will aid you.
+BUTTON 320 160 2074 2075 1 0 10
+	
+[DIALOG d_OldPlayerStartRedNote BUTTON]
+ONBUTTON=10
+	SRC.SYSMESSAGE @452,,1 Go down stairs and see the barkeeper.
+	
+[ITEMDEF i_NoBlueStone]
+DEFNAME=i_NoBlueStone
+NAME=Evil Stone
+ID=3760
+TYPE=t_eq_script
+CATEGORY=Ancientrealms - Towns
+SUBSECTION=Region Stones
+DESCRIPTION=No Blue Stone
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_MOVE_NEVER
+	TIMER=15
+	
+ON=@TIMER
+	REGION.TAG.NoBluesAllowed=1
+	TIMER=15
+	RETURN 1
+
+ON=@DESTROY
+	REGION.TAG.NoBluesAllowed=
+	
+[EOF]

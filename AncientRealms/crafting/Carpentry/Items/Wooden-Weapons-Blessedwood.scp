@@ -1,0 +1,563 @@
+/////////////////////////////////////////////Blessedwood WildStaff
+
+[ITEMDEF i_mace_wildstaff_Blessedwood]
+   DEFNAME=i_mace_wildstaff_Blessedwood
+   ID=i_mace_wildstaff
+   NAME=Blessedwood WildStaff
+   RESOURCES= 20 i_log_Blessedwood
+   WEIGHT=22
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=32
+   VALUE=137
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Blessedwood
+
+ON=@Create
+   COLOR=color_log_Blessedwood
+   HITPOINTS={60 84}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blessedwood Black Staff
+
+[ITEMDEF i_staff_black_Blessedwood]
+   DEFNAME=i_staff_black_Blessedwood
+   ID=i_staff_black
+   NAME=Blessedwood Black Staff
+   RESOURCES= 20 i_log_Blessedwood
+   WEIGHT=22
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=30
+   VALUE=137
+   SPEED=53
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Blessedwood
+
+ON=@Create
+   COLOR=color_log_Blessedwood
+   HITPOINTS={30 54}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blessedwood Gnarled Staff
+
+[ITEMDEF i_staff_gnarled_Blessedwood]
+   DEFNAME=i_staff_gnarled_Blessedwood
+   ID=i_staff_gnarled
+   NAME=Blessedwood Gnarled Staff
+   RESOURCES= 20 i_log_Blessedwood
+   WEIGHT=22
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=28
+   VALUE=137
+   SPEED=55
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Blessedwood
+
+ON=@Create
+   COLOR=color_log_Blessedwood
+   HITPOINTS={30 54}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blessedwood Nunchaku
+
+[ITEMDEF i_nunchaku_Blessedwood]
+   DEFNAME=i_nunchaku_Blessedwood
+   ID=i_nunchaku
+   NAME=Blessedwood Nunchaku
+   RESOURCES= 20 i_log_Blessedwood
+   WEIGHT=22
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=30
+   VALUE=137
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Blessedwood
+
+ON=@Create
+   COLOR=color_log_Blessedwood
+   HITPOINTS={30 54}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blessedwood Club
+
+[ITEMDEF i_club_Blessedwood]
+   DEFNAME=i_club_Blessedwood
+   ID=i_club
+   NAME=Blessedwood Club
+   RESOURCES= 20 i_log_Blessedwood
+   WEIGHT=22
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=137
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=CARPENTRY 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Blessedwood
+
+ON=@Create
+   COLOR=color_log_Blessedwood
+   HITPOINTS={10 34}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blessedwood Tetsubo
+
+[ITEMDEF i_tetsubo_Blessedwood]
+   DEFNAME=i_tetsubo_Blessedwood
+   ID=i_tetsubo
+   NAME=Blessedwood Tetsubo
+   RESOURCES= 20 i_log_Blessedwood
+   WEIGHT=22
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=36
+   VALUE=137
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Blessedwood
+
+ON=@Create
+   COLOR=color_log_Blessedwood
+   HITPOINTS={80 104}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blessedwood Spear
+
+[ITEMDEF i_spear_Blessedwood]
+   DEFNAME=i_spear_Blessedwood
+   ID=i_spear
+   NAME=Blessedwood Spear
+   RESOURCES= 20 i_log_Blessedwood
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=30
+   VALUE=137
+   SPEED=46
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Blessedwood
+
+ON=@Create
+   COLOR=color_log_Blessedwood
+   HITPOINTS={60 84}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blessedwood Lance
+
+[ITEMDEF i_lance_Blessedwood]
+   DEFNAME=i_lance_Blessedwood
+   ID=i_lance
+   NAME=Blessedwood Lance
+   RESOURCES= 20 i_log_Blessedwood
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=32
+   VALUE=137
+   SPEED=44
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Blessedwood
+
+ON=@Create
+   COLOR=color_log_Blessedwood
+   HITPOINTS={100 124}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blessedwood Bow
+
+[ITEMDEF i_bow_Blessedwood]
+   DEFNAME=i_bow_Blessedwood
+   ID=i_bow
+   NAME=Blessedwood Bow
+   RESOURCES= 20 i_log_Blessedwood
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=26
+   VALUE=137
+   SPEED=47
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Blessedwood
+
+ON=@Create
+   COLOR=color_log_Blessedwood
+   HITPOINTS={30 54}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blessedwood Composite Bow
+
+[ITEMDEF i_composite_bow_Blessedwood]
+   DEFNAME=i_composite_bow_Blessedwood
+   ID=i_composite_bow
+   NAME=Blessedwood Composite Bow
+   RESOURCES= 20 i_log_Blessedwood
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=27
+   VALUE=137
+   SPEED=45
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Blessedwood
+
+ON=@Create
+   COLOR=color_log_Blessedwood
+   HITPOINTS={50 74}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blessedwood Eleven Composite Bow
+
+[ITEMDEF i_elven_composite_longbow_Blessedwood]
+   DEFNAME=i_elven_composite_longbow_Blessedwood
+   ID=i_elven_composite_longbow
+   NAME=Blessedwood Eleven Composite Bow
+   RESOURCES= 20 i_log_Blessedwood
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=28
+   VALUE=137
+   SPEED=43
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Blessedwood
+
+ON=@Create
+   COLOR=color_log_Blessedwood
+   HITPOINTS={70 94}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blessedwood Assassin Shortbow
+
+[ITEMDEF i_assassin_shortbow_Blessedwood]
+   DEFNAME=i_assassin_shortbow_Blessedwood
+   ID=i_assassin_shortbow
+   NAME=Blessedwood Assassin Shortbow
+   RESOURCES= 20 i_log_Blessedwood
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=29
+   VALUE=137
+   SPEED=41
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Blessedwood
+
+ON=@Create
+   COLOR=color_log_Blessedwood
+   HITPOINTS={90 114}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blessedwood Yumi
+
+[ITEMDEF i_yumi_Blessedwood]
+   DEFNAME=i_yumi_Blessedwood
+   ID=i_yumi
+   NAME=Blessedwood Yumi
+   RESOURCES= 20 i_log_Blessedwood
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=30
+   VALUE=137
+   SPEED=39
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Blessedwood
+
+ON=@Create
+   COLOR=color_log_Blessedwood
+   HITPOINTS={100 124}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blessedwood Crossbow
+
+[ITEMDEF i_crossbow_Blessedwood]
+   DEFNAME=i_crossbow_Blessedwood
+   ID=i_crossbow
+   NAME=Blessedwood Crossbow
+   RESOURCES= 20 i_log_Blessedwood
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=28
+   VALUE=137
+   SPEED=57
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Blessedwood
+
+ON=@Create
+   COLOR=color_log_Blessedwood
+   HITPOINTS={50 74}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blessedwood Heavy Crossbow
+
+[ITEMDEF i_crossbow_heavy_Blessedwood]
+   DEFNAME=i_crossbow_heavy_Blessedwood
+   ID=i_crossbow_heavy
+   NAME=Blessedwood Heavy Crossbow
+   RESOURCES= 20 i_log_Blessedwood
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=30
+   VALUE=137
+   SPEED=55
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Blessedwood
+
+ON=@Create
+   COLOR=color_log_Blessedwood
+   HITPOINTS={70 94}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blessedwood Repeating Crossbow
+
+[ITEMDEF i_repeating_crossbow_Blessedwood]
+   DEFNAME=i_repeating_crossbow_Blessedwood
+   ID=i_repeating_crossbow
+   NAME=Blessedwood Repeating Crossbow
+   RESOURCES= 20 i_log_Blessedwood
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=27
+   VALUE=137
+   SPEED=53
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Blessedwood
+
+ON=@Create
+   COLOR=color_log_Blessedwood
+   HITPOINTS={90 114}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blessedwood Bola
+
+[ITEMDEF i_bola_Blessedwood]
+   DEFNAME=i_bola_Blessedwood
+   ID=i_bola
+   NAME=Blessedwood Bola
+   RESOURCES= 20 i_log_Blessedwood
+   WEIGHT=22
+   TYPE=t_bola
+   FLIP=1
+   DAM=24
+   VALUE=137
+   SPEED=42
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=TINKERING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Blessedwood
+
+ON=@Create
+   COLOR=color_log_Blessedwood
+   HITPOINTS={110 134}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

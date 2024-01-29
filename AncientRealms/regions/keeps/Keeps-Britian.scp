@@ -1,0 +1,28 @@
+[REGIONTYPE r_BritKeep_rock t_rock]
+RESOURCES=30.0 mr_nothing		
+RESOURCES=55.0 mr_iron
+RESOURCES=30.0 mr_bronze
+RESOURCES=15.7 mr_Erubecite
+RESOURCES=10.0 mr_Hematite	
+RESOURCES=20.8 mr_gold	
+RESOURCES=8.4 mr_Daemonite
+RESOURCES=6.07 mr_titanium
+RESOURCES=2.00 mr_bloodrock
+RESOURCES=2.04 mr_Quartz		
+RESOURCES=1.5 mr_Cerussite
+
+[AREADEF a_lord_britishs_castle_1]
+EVENTS=r_default,r_BritKeep_rock,r_default_water,r_LogClass_All_rare,r_default_grass
+NAME=Britian Keep
+GROUP=AncientRealms Keeps
+FLAGS=0880
+P=1392,1625,30,0
+RECT=1294,1679,1411,1697,0
+RECT=1295,1559,1313,1577,0
+RECT=1392,1559,1410,1577,0
+RECT=1302,1577,1410,1680,0
+RECT=1313,1563,1392,1577,0
+EVENTS=r_brit_castle
+TAG.GUARDOWNER=Lord British\'s Personal
+
+[EOF]

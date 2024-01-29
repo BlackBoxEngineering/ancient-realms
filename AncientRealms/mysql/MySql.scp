@@ -1,0 +1,9 @@
+[function create_table]
+db.connect
+db.execute "create table demo (id int unsigned not null auto_increment primary key, account varchar(15), name varchar(15), guild text, kills int, fame int, karma int);"
+
+[function insert_info]
+db.connect
+db.execute "insert into demo (id, account, name, guild, kills, fame, karma) VALUES (NULL, '<account>', '<name>', '<memoryfindtype.memory_guild.link.name>', <kills>, <fame>, <karma>);"
+
+[EOF]

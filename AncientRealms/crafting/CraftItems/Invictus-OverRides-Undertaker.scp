@@ -1,0 +1,57 @@
+[ITEMDEF i_staff_undertaker] 
+NAME=Undertaker's Staff 
+ID=i_staff_gnarled 
+WEIGHT=3 
+TYPE=T_WEAPON_MACE_STAFF 
+FLIP=1 
+DAM=15,17 
+SPEED=33 
+REQSTR=20 
+TWOHANDS=Y 
+CATEGORY=Custom items 
+SUBSECTION=Misc. items 
+DESCRIPTION=Undertaker's Staff 
+ 
+ON=@ClientToolTip 
+src.addcliloc 1042971,Remaining Uses: <eval <more1>> 
+ 
+ON=@Create 
+attr=attr_magic 
+hitpoints=100 
+color=0219 
+more1=10 
+ 
+ON=@DClick 
+equip 
+if (<uid.<region.uid>.type>==t_multi) 
+  src.sysmessage You cannot use this here 
+  return 1 
+endif 
+foritems 40 
+  if (<type>==t_corpse)&&(<link>==<src.uid>) 
+    if <findcont>) 
+      local.summon=1 
+      p=<src.p> 
+      move <eval {-3 3}> <EVAL {-3 3}> 
+      update 
+      serv.newitem i_fx_smoke 
+      new.p=<p> 
+      new.attr=attr_move_never 
+      new.timerf 1, remove 
+    endif 
+  endif 
+endfor 
+if <local.summon>==1 
+  src.anim 12 
+  src.sound 1309 
+  more1=<more1>-1 
+  resendtooltip 
+  if (<more1> < 1) 
+    src.sysmessage The staff breaks in your hands! 
+    remove 
+  endif 
+else 
+  src.sysmessage Your corpse isn't anywhere nearby 
+endif 
+return 1
+

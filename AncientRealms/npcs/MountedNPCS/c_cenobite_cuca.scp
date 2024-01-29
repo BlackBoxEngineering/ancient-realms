@@ -1,0 +1,57 @@
+[CHARDEF c_cenobite_cuca] 
+DEFNAME=c_cenobite_cuca 
+ID=C_MAN 
+CAN=MT_WALK|MT_RUN|MT_EQUIP| 
+NAME=Cenobite Montado 
+SOUND=snd_HUMAN_M_DIE_01 
+DAM=18,24 
+ARMOR=50 
+CATEGORY=Cenobites Montados 
+AVERSIONS=t_TRAP,t_eerie_stuff 
+TEVENTS= // Insert your custom tevents here// 
+ 
+ON=@Create 
+COLOR=colors_skin 
+STR=130 
+DEX=160 
+INT=300 
+MAXHITS=8500 
+PARRYING=100.0 
+SWORDSMANSHIP=100.0 
+ARCHERY=100.0 
+WRESTLING=90.0 
+MAGICRESISTANCE=250.0 
+TACTICS=500.0 
+POISONING=100.0 
+NPC=brain_monster 
+FAME=9999 
+KARMA=-9999 
+ITEMNEWBIE=i_montura_cuca // Name of the mounting item 
+                         
+ON=@NPCRestock 
+ITEM=i_bone_arms 
+Color=00835 
+ITEM=i_bone_chest 
+Color=00835 
+ITEM=i_bone_gloves 
+Color=00835 
+ITEM=i_bone_helmet 
+Color=00835 
+ITEM=i_bone_leggings 
+Color=00835 
+ITEM=i_sword_viking 
+Color=00835 
+ITEM=i_shield_wood 
+Color=00835 
+// Insert your custom Loot here// 
+                         
+ON=@DEATH 
+serv.newnpc c_giant_beetle   // this is the npc created from the Rider ´s death 
+                          
+[ITEMDEF i_montura_cuca] 
+id=03ebc                     //This is the Mount of the Npc, Can be anyone... Skeletal Mount, Unicorn, Savage Ridgeback, even custom mounts 
+name=Montura de cuca 
+type=t_eq_horse 
+layer=layer_horse
+
+[EOF]

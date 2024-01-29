@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/AncientRealms/!svn/ver/89/scripts/AncientRealms/economy/vendors
+END
+f_vendorFunctions.scp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/AncientRealms/!svn/ver/154/scripts/AncientRealms/economy/vendors/f_vendorFunctions.scp
+END
+e_PlayerVendor.scp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/AncientRealms/!svn/ver/154/scripts/AncientRealms/economy/vendors/e_PlayerVendor.scp
+END
+spk_HouseVendor.scp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/AncientRealms/!svn/ver/155/scripts/AncientRealms/economy/vendors/spk_HouseVendor.scp
+END
+c_vendor.scp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/AncientRealms/!svn/ver/1/scripts/AncientRealms/economy/vendors/c_vendor.scp
+END
+i_vendorMemorys.scp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/AncientRealms/!svn/ver/154/scripts/AncientRealms/economy/vendors/i_vendorMemorys.scp
+END
+d_VendorMenu.scp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/AncientRealms/!svn/ver/154/scripts/AncientRealms/economy/vendors/d_VendorMenu.scp
+END
+i_VendorDeed.scp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/AncientRealms/!svn/ver/154/scripts/AncientRealms/economy/vendors/i_VendorDeed.scp
+END

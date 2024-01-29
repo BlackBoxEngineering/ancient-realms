@@ -1,0 +1,54 @@
+[FUNCTION f_combat_CheckForMagicResistance]
+REF1=<SERV.UID.<ARGV[0]>>	// Target
+REF2=<SERV.UID.<ARGV[1]>>	// Caster
+LOCAL.SpellNumber=<ARGV[2]>
+LOCAL.DragDamageIn=<ARGV[3]>
+LOCAL.TotalResist=0
+IF !<REF1.FINDID.i_rune_magic_reflection>
+	IF !(<EVAL <LOCAL.SpellNumber>>==5)!(<EVAL <LOCAL.SpellNumber>>==29)&&!(<EVAL <LOCAL.SpellNumber>>==36)&&!(<EVAL <LOCAL.SpellNumber>>==59)&&!(<EVAL <LOCAL.SpellNumber>>==4)&&!(<EVAL <LOCAL.SpellNumber>>==6)&&!(<EVAL <LOCAL.SpellNumber>>==26)&&!(<EVAL <LOCAL.SpellNumber>>==36)&&!(<EVAL <LOCAL.SpellNumber>>==48)&&!(<EVAL <LOCAL.SpellNumber>>==35)&&!(<EVAL <LOCAL.SpellNumber>>==44)&&!(<EVAL <LOCAL.SpellNumber>>==54)&&!(<EVAL <LOCAL.SpellNumber>>==41)&&!(<EVAL <LOCAL.SpellNumber>>==59)
+		
+		LOCAL.VictimsResistCalcA=<EVAL <REF1.MAGICRESISTANCE>>
+		LOCAL.VictimsResistCalcB=<EVAL (<REF2.FOCUS>+<REF2.MAGICRESISTANCE>+<REF2.EVALUATINGINTEL>)*<REF1.MAGICRESISTANCE>>
+		LOCAL.VictimsResistCalc=<R<EVAL <LOCAL.VictimsResistCalcA>>,<EVAL <LOCAL.VictimsResistCalcB>>>
+		LOCAL.VictimsResistCalcRand=<R1, 10>
+		LOCAL.VictimsResistCalc=<R1<EVAL <LOCAL.VictimsResistCalc>>,<EVAL <LOCAL.VictimsResistCalcRand>>>
+		
+		LOCAL.CastersEvalIntA=<EVAL <REF2.EVALUATINGINTEL>*2>
+		LOCAL.CastersEvalIntB=<EVAL (<REF2.FOCUS>+<REF2.MAGERY>+<REF2.EVALUATINGINTEL>)*<REF1.MAGICRESISTANCE>>
+		LOCAL.CastersEvalInt=<R<EVAL <LOCAL.CastersEvalIntA>>,<EVAL <LOCAL.CastersEvalIntB>>>
+		LOCAL.CastersEvalIntRand=<R1, 10>
+		LOCAL.CastersEvalInt=<EVAL <LOCAL.CastersEvalInt>+<LOCAL.CastersEvalIntRand>>
+		
+		//SAY <EVAL <LOCAL.VictimsResistCalc>> > <EVAL <LOCAL.CastersEvalInt>>
+		IF (<EVAL <LOCAL.VictimsResistCalc>> > <EVAL <LOCAL.CastersEvalInt>>)
+			LOCAL.ResistChance=<R1, 5>
+			LOCAL.Resist=<EVAL (<LOCAL.VictimsResistCalc> - <LOCAL.CastersEvalInt>)>
+			IF (<EVAL <LOCAL.ResistChance>> > 2)
+				REF2.SYSMESSAGE @63,,1 <NAME> Resists
+				REF1.SYSMESSAGE @63,,1 You Resist
+				REF1.TAG.Resist=1
+				REF1.EFFECT 2 i_fx_explode 10 14 0 61 3
+				REF1.f_SkillGain 26
+				LOCAL.IntelligenceDamage=0
+				LOCAL.IntelligenceSkillCombo=<EVAL (<REF1.FOCUS>+<REF1.MAGICRESISTANCE>)/200>
+				LOCAL.IntelligenceCalcA=<REF1.INT>/10
+				LOCAL.IntelligenceCalcB=<LOCAL.IntelligenceSkillCombo>+<LOCAL.IntelligenceCalcA>
+				LOCAL.TotalResist=<EVAL <LOCAL.TotalResist>+<LOCAL.IntelligenceCalcB>>
+				LOCAL.LevelDefense=0
+				CALL f_GetLevelDefenseBonus
+				LOCAL.TotalResist=<EVAL <LOCAL.TotalResist>+<LOCAL.LevelDefense>>
+				LOCAL.SpellRawResist=0
+				CALL f_GetSpellRawDamage <ARGN1>
+				LOCAL.SpellRawResist=<R1, <EVAL <LOCAL.SpellRawDamage>>>
+				LOCAL.TotalResist=<EVAL (<LOCAL.TotalResist>+<LOCAL.SpellRawResist>)>
+			ENDIF
+		ENDIF
+		
+	ELSE
+		LOCAL.TotalResist=0
+	ENDIF
+SERV.B @92,,1 Active Resist <EVAL <LOCAL.TotalResist>>	
+ENDIF
+RETURN <EVAL <LOCAL.TotalResist>>
+
+[EOF]

@@ -1,0 +1,26 @@
+[FUNCTION f_keep_SpawnKeepSpy]
+	IF <ARGV[0]>
+		LOCAL.SpyNumber=<ARGV[0]>
+		REF1=<SERV.UID.<REGION.TAG.KeepControlStoneUID>>
+		REF2=<SERV.UID.<REF1.TAG.TownControlStoneUID>>
+		SERV.NEWNPC=RandomKeepSpy
+		NEW.HOME=<REF2.P>
+		NEW.HOMEDIST=50
+		REF1.TAG.SpyNo_<EVAL <LOCAL.SpyNumber>>_UID=<NEW.UID>
+		REF2.TAG.SpyNo_<EVAL <LOCAL.SpyNumber>>_UID=<NEW.UID>
+		NEW.TAG.SpyNumber=<EVAL <LOCAL.SpyNumber>>
+		NEW.TAG.KeepControlStoneUID=<REF1.UID>
+		NEW.TAG.TownControlStoneUID=<REF2.UID>
+		NEW.P=<REF2.P>
+		TIMERF 2,SYSMESSAGE @1462,,1 Spy Number(<EVAL <LOCAL.SpyNumber>>): <NEW.NAME> in <NEW.REGION.NAME> Activated
+	ENDIF
+
+[EVENTS e_KeepSPy]
+ON=@DESTROY
+	REF1=<SERV.UID.<TAG.KeepControlStoneUID>>
+	REF2=<SERV.UID.<TAG.TownControlStoneUID>>
+	REF1.TAG.SpyNo_<EVAL <TAG.SpyNumber>>_UID=
+	REF2.TAG.SpyNo_<EVAL <TAG.SpyNumber>>_UID=
+	REF1.REGION.ALLCLIENTS SYSMESSAGE @35,,1 A Spy Has Been Killed in <REGION.NAME>
+	
+[EOF]

@@ -1,0 +1,54 @@
+[FUNCTION UnEquipAll]
+FOR 24
+	IF (<LOCAL._FOR>!=11) && (<LOCAL._FOR>!=15) && (<LOCAL._FOR>!=16) && (<LOCAL._FOR>!=18) && (<LOCAL._FOR>!=21)
+		IF (<FINDLAYER.<LOCAL._FOR>>)
+			IF !(<ARGN1>)
+				UNEQUIP <FINDLAYER.<LOCAL._FOR>>
+			ELSE
+				TRY FINDLAYER.<LOCAL._FOR>.CONT=<ARGN1>
+			ENDIF
+		ENDIF
+	ENDIF
+ENDFOR
+IF (<FINDLAYER.31>)
+	UNEQUIP <FINDLAYER.31>
+ENDIF
+
+[FUNCTION BounceAll]
+FOR X 1 24
+	IF <LOCAL.X> != 9 || <LOCAL.X> != 15 || <LOCAL.X> != 16 || <LOCAL.X> != 21
+		FINDLAYER.<LOCAL.X>.BOUNCE
+	ENDIF
+ENDFOR
+
+[FUNCTION Pack2Bank]
+TARGETF BackPackToBankTarget
+
+[FUNCTION BackPackToBankTarget]
+FORCONT <FINDLAYER.21.UID> 0
+    IF (<ISITEM>)
+		IF (!(<TYPE>=t_key)&&!(<TYPE>=t_reward_Ticket))
+			CONT=<SERV.UID.<ARGO.UID>.FINDLAYER.29.UID>
+		ENDIF
+    ENDIF
+ENDFOR
+
+[FUNCTION BackPackToBank]
+FORCONT <FINDLAYER.21.UID> 0
+    IF (<ISITEM>)
+		IF (!(<TYPE>=t_key)&&!(<TYPE>=t_reward_Ticket))
+			CONT=<SRC.FINDLAYER.29.UID>
+		ENDIF
+    ENDIF
+ENDFOR
+SAY @55 All your Items Have been Banked
+
+[FUNCTION BackPackToBin]
+UNEQUIPALL
+FORCONT <FINDLAYER.21.UID> 0
+	IF (!(<TYPE>=t_key)&&!(<TYPE>=t_reward_Ticket))
+		REMOVE
+	ENDIF
+ENDFOR
+
+[EOF]

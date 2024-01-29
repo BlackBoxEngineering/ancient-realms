@@ -1,0 +1,10 @@
+[AREADEF a_astalon_keep]
+EVENTS=r_default,r_default_rock,r_default_tree,r_default_grass,r_default_water
+NAME=Astalon Keep
+GROUP=AncientRealms Keeps
+FLAGS=0880
+P=1245,2352,12
+RECT=1228,2362,1265,2331 // Main Building
+TAG.KEEPNAME=Astalon Keep
+
+[EOF]

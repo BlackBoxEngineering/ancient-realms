@@ -1,0 +1,117 @@
+[CHARDEF c_BlackOrder_grand_mage]
+ID=c_man
+NAME=BlackOrder Grand Mage
+DAM=18,22
+ARMOR=15
+CAN=MT_WALK|MT_USEHANDS|MT_EQUIP
+MOVERATE=120
+CATEGORY=Ancientrealms-NPCS
+SUBSECTION=The Black Order
+DESCRIPTION=BlackOrder Grand Mage
+
+ON=@Create
+	NPC=brain_monster
+	COLOR=colors_skin
+	DEX=125
+	INT=125
+	STR=125
+	MAXHITS=4000	
+	WRESTLING=120.0
+	FENCING=120.0
+	TACTICS=120.0
+	ANATOMY=100.0
+	MAGICRESISTANCE=85.0
+	HIDING=120.0
+	STEALTH=120.0
+	KARMA=-10000
+	FAME=10000
+	ITEMNEWBIE=i_kasa
+	ITEMNEWBIE=i_ninja_tabi
+	ITEMNEWBIE=i_leather_ninja_pants
+	ITEMNEWBIE=i_leather_ninja_jacket
+
+ON=@NpcRestock
+	ITEM=loot_BlackOrder_grand_mage
+
+ON=@NPCSeeNewPlayer 
+   IF !(<SRC.FLAGS>&statf_freeze) && (<MANA> > 20) 
+      MANA -= 20
+      SAY @95 <SRC.NAME> where do you think you are going ?
+      SRC.
+      SRC.SPELLEFFECT s_paralyze,<MAGERY>,1,<UID> 
+      SRC.EFFECT 3,i_fx_field_paralyze,1,16,0,02 
+      SRC.SOUND snd_spell_paralyze
+      IF <SRC.FINDID.i_unstone_me>
+		SRC.FINDID.i_unstone_me.REMOVE
+		SRC.FINDID.i_unstone_me_counter.REMOVE
+      ENDIF
+      SRC.STONE=1
+      SERV.NEWITEM=i_unstone_me, 1, <SRC.UID>
+	  SERV.NEWITEM=i_unstone_me_counter, 1, <SRC.UID>
+   ENDIF
+   IF (<FLAGS> & statf_conjured) || (<FLAGS> & statf_pet) 
+      RETURN 0 
+   ENDIF 
+   IF (<MANA> >= 25) && (<TAG0.CURFOLLOWER> < 2) 
+      MANA -= 25 
+      TAG0.CURFOLLOWER += 2 
+      TRYSRV SERV.NEWNPC c_blackorder_ninja_assassin
+      NEW.FLAGS |= (statf_war|statf_conjured) 
+      NEW.P=<P> 
+      NEW.ATTACK <SRC> 
+      NEW.UPDATE 
+      LOCAL.Zombie=<NEW.UID> 
+      SRC.NEWITEM=i_summon_mem,1,<LOCAL.Zombie> 
+      NEW.LINK=<UID> 
+      NEW.TIMER=600//10 minutes 
+      TRYSRV SERV.NEWNPC c_wolf_leather 
+      NEW.FLAGS |= (statf_war|statf_conjured) 
+      NEW.P=<P> 
+      NEW.ATTACK <SRC> 
+      NEW.UPDATE 
+      LOCAL.Zombie=<NEW.UID> 
+      SRC.NEWITEM=i_summon_mem,1,<LOCAL.Zombie> 
+      NEW.LINK=<UID> 
+      NEW.TIMER=600//10 minutes 
+   ENDIF
+   RETURN 1
+
+ON=@Hit 
+   //Paralyze Attack 
+   IF (RAND(5)==1) && !(<SRC.FLAGS>&statf_freeze) && (<MANA> > 20) 
+      MANA -= 20 
+      SRC.SPELLEFFECT s_paralyze,<MAGERY>,1,<UID> 
+      SRC.EFFECT 3,i_fx_field_paralyze,1,16,0,02 
+      SRC.SOUND snd_spell_paralyze 
+   ENDIF 
+   //Angry Fire Attack 
+   IF (RAND(5)==1) && (<MANA> > 20) 
+      MANA -= 20 
+      SRC.SYSMESSAGELOC color_text,1070823//"The creature hits you with its Angry Fire." 
+      SRC.SPELLEFFECT s_explosion,<MAGERY>,0,<UID> 
+      SRC.EFFECT 3,i_fx_explode,1,16,0 
+      SRC.SOUND snd_spell_explosion 
+   ENDIF 
+   //Mana Drain Attack 
+   IF (RAND(5)==1) && !(<SRC.FLAGS>&statf_freeze) && (<MANA> > 20) 
+      MANA -= 20 
+      SRC.SPELLEFFECT s_mana_drain,<MAGERY>,1,<UID> 
+      SRC.EFFECT 3,i_fx_field_paralyze,1,16,0,02 
+      SRC.SOUND snd_spell_paralyze 
+   ENDIF 
+   //Dismount Attack 
+   IF (RAND(5)==1) && (<MANA> >= 20) && (<SRC.FLAGS> & statf_onhorse) 
+      MANA -= 20 
+      SRC.DISMOUNT 
+      SRC.SYSMESSAGELOC color_text,1040023//"You have been knocked off of your mount!" 
+      SRC.DAMAGE <R15,25> <DEF.dam_physical> <UID> 
+   ENDIF
+   //Bleed Attack 
+   IF (<MANA> >= 25) && !(<SRC.FINDID.i_bleed_timer>) 
+      MANA -= 25 
+      SERV.NEWITEM i_bleed_timer 
+      NEW.LINK=<UID> 
+      SRC.EQUIP <NEW> 
+   ENDIF 
+
+[EOF]

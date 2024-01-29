@@ -1,0 +1,292 @@
+/////////////////////////////////////////////Terathan hide tunic
+[ITEMDEF i_hide_tunic_Terathan]
+   DEFNAME= i_hide_tunic_Terathan
+   ID= i_hide_tunic
+   NAME= Terathan hide tunic
+   ARMOR= 18
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 14 i_hide_Terathan
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Terathan
+   DESCRIPTION= hide tunic
+
+ON=@Create
+   COLOR=color_hide_Terathan
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Terathan hide gloves
+[ITEMDEF i_hide_gloves_Terathan]
+   DEFNAME= i_hide_gloves_Terathan
+   ID= i_hide_gloves
+   NAME= Terathan hide gloves
+   ARMOR= 6
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 2 i_hide_Terathan
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Terathan
+   DESCRIPTION= hide gloves
+
+ON=@Create
+   COLOR=color_hide_Terathan
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Terathan hide gorget
+[ITEMDEF i_hide_gorget_Terathan]
+   DEFNAME= i_hide_gorget_Terathan
+   ID= i_hide_gorget
+   NAME= Terathan hide gorget
+   ARMOR= 6
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 2 i_hide_Terathan
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Terathan
+   DESCRIPTION= hide gorget
+
+ON=@Create
+   COLOR=color_hide_Terathan
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Terathan hide pauldrons
+[ITEMDEF i_hide_pauldrons_Terathan]
+   DEFNAME= i_hide_pauldrons_Terathan
+   ID= i_hide_pauldrons
+   NAME= Terathan hide pauldrons
+   ARMOR= 7
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 3 i_hide_Terathan
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Terathan
+   DESCRIPTION= hide pauldrons
+
+ON=@Create
+   COLOR=color_hide_Terathan
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Terathan hide pants
+[ITEMDEF i_hide_pants_Terathan]
+   DEFNAME= i_hide_pants_Terathan
+   ID= i_hide_pants
+   NAME= Terathan hide pants
+   ARMOR= 13
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 9 i_hide_Terathan
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Terathan
+   DESCRIPTION= hide pants
+
+ON=@Create
+   COLOR=color_hide_Terathan
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Terathan female hide tunic
+[ITEMDEF i_hide_tunic_female_Terathan]
+   DEFNAME= i_hide_tunic_female_Terathan
+   ID= i_hide_tunic_female
+   NAME= Terathan female hide tunic
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 12 i_hide_Terathan
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Terathan
+   DESCRIPTION= female hide tunic
+
+ON=@Create
+   COLOR=color_hide_Terathan
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Terathan Spiked Shorts
+[ITEMDEF i_armor_female_shorts_spiked_Terathan]
+   DEFNAME= i_armor_female_shorts_spiked_Terathan
+   ID= i_armor_female_shorts_spiked
+   NAME= Terathan Spiked Shorts
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 12 i_hide_Terathan
+   SKILLMAKE= TAILORING 100.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Terathan
+   DESCRIPTION= Spiked Shorts
+
+ON=@Create
+   COLOR=color_hide_Terathan
+   HITPOINTS= {104 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Terathan Amazon Harness
+[ITEMDEF i_armor_female_harness_amazon_Terathan]
+   DEFNAME= i_armor_female_harness_amazon_Terathan
+   ID= i_armor_female_harness_amazon
+   NAME= Terathan Amazon Harness
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 12 i_hide_Terathan
+   SKILLMAKE= TAILORING 100.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Terathan
+   DESCRIPTION= Amazon Harness
+
+ON=@Create
+   COLOR=color_hide_Terathan
+   HITPOINTS= {104 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Terathan Elite Harness
+[ITEMDEF i_armor_female_harness_elite_Terathan]
+   DEFNAME= i_armor_female_harness_elite_Terathan
+   ID= i_armor_female_harness_elite
+   NAME= Terathan Elite Harness
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 12 i_hide_Terathan
+   SKILLMAKE= TAILORING 100.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Terathan
+   DESCRIPTION= Elite Harness
+
+ON=@Create
+   COLOR=color_hide_Terathan
+   HITPOINTS= {104 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Terathan Leather Jingasa
+[ITEMDEF i_leather_jingasa_Terathan]
+   DEFNAME= i_leather_jingasa_Terathan
+   ID= i_leather_jingasa
+   NAME= Terathan Leather Jingasa
+   ARMOR= 9
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 5 i_hide_Terathan
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Terathan
+   DESCRIPTION= Leather Jingasa
+
+ON=@Create
+   COLOR=color_hide_Terathan
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

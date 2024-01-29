@@ -1,0 +1,21 @@
+[ITEMDEF i_Keep_GuardWarning]
+
+	DEFNAME=i_Keep_GuardWarning
+	ID=10903
+	TYPE=t_eq_script
+	NAME=Keep Guard Warning
+	LAYER=layer_special
+	ON=@CREATE
+		  attr=attr_newbie|attr_decay|attr_move_never
+		  TIMER=5  
+	ON=@TIMER
+		DORAND 4
+			CONT.SAY @55 Long live <REGION.TAG0.Ownersname>!
+			CONT.SAY @55 <REGION.TAG0.Ownersname> Rule!
+			CONT.SAY @55 Tresspassers shall be executed!
+			CONT.SAY @55 Leave This Place Or Die!
+		ENDDO
+		REMOVE
+		RETURN 1
+
+[EOF]

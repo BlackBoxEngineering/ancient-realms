@@ -1,0 +1,24 @@
+[REGIONTYPE r_BuccanneersKeep_rock t_rock]
+RESOURCES=30.0 mr_nothing		
+RESOURCES=55.0 mr_iron
+RESOURCES=30.0 mr_bronze
+RESOURCES=10.0 mr_rosequartz
+RESOURCES=8.0 mr_Erubecite	
+RESOURCES=16.0 mr_Hematite   
+RESOURCES=3.0 mr_verite
+RESOURCES=2.0 mr_Daemonite
+RESOURCES=1.5 mr_uranium
+RESOURCES=1.1 mr_kryptonite	
+
+[AREADEF a_buccaneers_keep]
+EVENTS=r_default,r_BuccanneersKeep_rock,r_default_water,r_LogClass_All_rare,r_default_grass
+NAME=Buccaneer's Keep
+GROUP=AncientRealms Keeps
+FLAGS=0880
+P=2956,2158,10
+RECT=2929,2169,2972,2125 // Main Building
+RECT=2942,2170,2982,2170 // Main Building
+RECT=2942,2169,2973,2178
+TAG.KEEPNAME=Buccaneer's Keep
+
+[EOF]

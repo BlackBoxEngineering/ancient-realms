@@ -1,0 +1,886 @@
+/////////////////////////////////////////////Apple Armor
+[SKILLMENU sm_armors_carpentry_Apple]
+Apple Armors
+ON=i_helm_winged_Apple @color_log_Apple Helmets
+    SKILLMENU = sm_armors_carpentry_Helmets_Apple
+ON=i_woodland_chest_Apple @color_log_Apple Woodland
+    SKILLMENU = sm_armors_Carpentry_Woodland_Apple
+ON=i_leaf_tunic_Apple @color_log_Apple Leaf
+    SKILLMENU = sm_armors_Carpentry_Leaf_Apple
+
+
+/////////////////////////////////////////////BogOak Armor
+[SKILLMENU sm_armors_carpentry_BogOak]
+BogOak Armors
+ON=i_helm_winged_BogOak @color_log_BogOak Helmets
+    SKILLMENU = sm_armors_carpentry_Helmets_BogOak
+ON=i_woodland_chest_BogOak @color_log_BogOak Woodland
+    SKILLMENU = sm_armors_Carpentry_Woodland_BogOak
+ON=i_leaf_tunic_BogOak @color_log_BogOak Leaf
+    SKILLMENU = sm_armors_Carpentry_Leaf_BogOak
+
+
+/////////////////////////////////////////////Oak Armor
+[SKILLMENU sm_armors_carpentry_Oak]
+Oak Armors
+ON=i_helm_winged_Oak @color_log_Oak Helmets
+    SKILLMENU = sm_armors_carpentry_Helmets_Oak
+ON=i_woodland_chest_Oak @color_log_Oak Woodland
+    SKILLMENU = sm_armors_Carpentry_Woodland_Oak
+ON=i_leaf_tunic_Oak @color_log_Oak Leaf
+    SKILLMENU = sm_armors_Carpentry_Leaf_Oak
+
+
+/////////////////////////////////////////////Ash Armor
+[SKILLMENU sm_armors_carpentry_Ash]
+Ash Armors
+ON=i_helm_winged_Ash @color_log_Ash Helmets
+    SKILLMENU = sm_armors_carpentry_Helmets_Ash
+ON=i_woodland_chest_Ash @color_log_Ash Woodland
+    SKILLMENU = sm_armors_Carpentry_Woodland_Ash
+ON=i_leaf_tunic_Ash @color_log_Ash Leaf
+    SKILLMENU = sm_armors_Carpentry_Leaf_Ash
+
+
+/////////////////////////////////////////////Yew Armor
+[SKILLMENU sm_armors_carpentry_Yew]
+Yew Armors
+ON=i_helm_winged_Yew @color_log_Yew Helmets
+    SKILLMENU = sm_armors_carpentry_Helmets_Yew
+ON=i_woodland_chest_Yew @color_log_Yew Woodland
+    SKILLMENU = sm_armors_Carpentry_Woodland_Yew
+ON=i_leaf_tunic_Yew @color_log_Yew Leaf
+    SKILLMENU = sm_armors_Carpentry_Leaf_Yew
+
+
+/////////////////////////////////////////////Willow Armor
+[SKILLMENU sm_armors_carpentry_Willow]
+Willow Armors
+ON=i_helm_winged_Willow @color_log_Willow Helmets
+    SKILLMENU = sm_armors_carpentry_Helmets_Willow
+ON=i_woodland_chest_Willow @color_log_Willow Woodland
+    SKILLMENU = sm_armors_Carpentry_Woodland_Willow
+ON=i_leaf_tunic_Willow @color_log_Willow Leaf
+    SKILLMENU = sm_armors_Carpentry_Leaf_Willow
+
+
+/////////////////////////////////////////////Cypress Armor
+[SKILLMENU sm_armors_carpentry_Cypress]
+Cypress Armors
+ON=i_helm_winged_Cypress @color_log_Cypress Helmets
+    SKILLMENU = sm_armors_carpentry_Helmets_Cypress
+ON=i_woodland_chest_Cypress @color_log_Cypress Woodland
+    SKILLMENU = sm_armors_Carpentry_Woodland_Cypress
+ON=i_leaf_tunic_Cypress @color_log_Cypress Leaf
+    SKILLMENU = sm_armors_Carpentry_Leaf_Cypress
+
+
+/////////////////////////////////////////////Birch Armor
+[SKILLMENU sm_armors_carpentry_Birch]
+Birch Armors
+ON=i_helm_winged_Birch @color_log_Birch Helmets
+    SKILLMENU = sm_armors_carpentry_Helmets_Birch
+ON=i_woodland_chest_Birch @color_log_Birch Woodland
+    SKILLMENU = sm_armors_Carpentry_Woodland_Birch
+ON=i_leaf_tunic_Birch @color_log_Birch Leaf
+    SKILLMENU = sm_armors_Carpentry_Leaf_Birch
+
+
+/////////////////////////////////////////////Ebony Armor
+[SKILLMENU sm_armors_carpentry_Ebony]
+Ebony Armors
+ON=i_helm_winged_Ebony @color_log_Ebony Helmets
+    SKILLMENU = sm_armors_carpentry_Helmets_Ebony
+ON=i_woodland_chest_Ebony @color_log_Ebony Woodland
+    SKILLMENU = sm_armors_Carpentry_Woodland_Ebony
+ON=i_leaf_tunic_Ebony @color_log_Ebony Leaf
+    SKILLMENU = sm_armors_Carpentry_Leaf_Ebony
+
+
+/////////////////////////////////////////////Walnut Armor
+[SKILLMENU sm_armors_carpentry_Walnut]
+Walnut Armors
+ON=i_helm_winged_Walnut @color_log_Walnut Helmets
+    SKILLMENU = sm_armors_carpentry_Helmets_Walnut
+ON=i_woodland_chest_Walnut @color_log_Walnut Woodland
+    SKILLMENU = sm_armors_Carpentry_Woodland_Walnut
+ON=i_leaf_tunic_Walnut @color_log_Walnut Leaf
+    SKILLMENU = sm_armors_Carpentry_Leaf_Walnut
+
+
+/////////////////////////////////////////////Cherry Armor
+[SKILLMENU sm_armors_carpentry_Cherry]
+Cherry Armors
+ON=i_helm_winged_Cherry @color_log_Cherry Helmets
+    SKILLMENU = sm_armors_carpentry_Helmets_Cherry
+ON=i_woodland_chest_Cherry @color_log_Cherry Woodland
+    SKILLMENU = sm_armors_Carpentry_Woodland_Cherry
+ON=i_leaf_tunic_Cherry @color_log_Cherry Leaf
+    SKILLMENU = sm_armors_Carpentry_Leaf_Cherry
+
+
+/////////////////////////////////////////////Blackcherry Armor
+[SKILLMENU sm_armors_carpentry_Blackcherry]
+Blackcherry Armors
+ON=i_helm_winged_Blackcherry @color_log_Blackcherry Helmets
+    SKILLMENU = sm_armors_carpentry_Helmets_Blackcherry
+ON=i_woodland_chest_Blackcherry @color_log_Blackcherry Woodland
+    SKILLMENU = sm_armors_Carpentry_Woodland_Blackcherry
+ON=i_leaf_tunic_Blackcherry @color_log_Blackcherry Leaf
+    SKILLMENU = sm_armors_Carpentry_Leaf_Blackcherry
+
+
+/////////////////////////////////////////////Maple Armor
+[SKILLMENU sm_armors_carpentry_Maple]
+Maple Armors
+ON=i_helm_winged_Maple @color_log_Maple Helmets
+    SKILLMENU = sm_armors_carpentry_Helmets_Maple
+ON=i_woodland_chest_Maple @color_log_Maple Woodland
+    SKILLMENU = sm_armors_Carpentry_Woodland_Maple
+ON=i_leaf_tunic_Maple @color_log_Maple Leaf
+    SKILLMENU = sm_armors_Carpentry_Leaf_Maple
+
+
+/////////////////////////////////////////////Hawthorn Armor
+[SKILLMENU sm_armors_carpentry_Hawthorn]
+Hawthorn Armors
+ON=i_helm_winged_Hawthorn @color_log_Hawthorn Helmets
+    SKILLMENU = sm_armors_carpentry_Helmets_Hawthorn
+ON=i_woodland_chest_Hawthorn @color_log_Hawthorn Woodland
+    SKILLMENU = sm_armors_Carpentry_Woodland_Hawthorn
+ON=i_leaf_tunic_Hawthorn @color_log_Hawthorn Leaf
+    SKILLMENU = sm_armors_Carpentry_Leaf_Hawthorn
+
+
+/////////////////////////////////////////////Blessedwood Armor
+[SKILLMENU sm_armors_carpentry_Blessedwood]
+Blessedwood Armors
+ON=i_helm_winged_Blessedwood @color_log_Blessedwood Helmets
+    SKILLMENU = sm_armors_carpentry_Helmets_Blessedwood
+ON=i_woodland_chest_Blessedwood @color_log_Blessedwood Woodland
+    SKILLMENU = sm_armors_Carpentry_Woodland_Blessedwood
+ON=i_leaf_tunic_Blessedwood @color_log_Blessedwood Leaf
+    SKILLMENU = sm_armors_Carpentry_Leaf_Blessedwood
+
+
+/////////////////////////////////////////////Cursedwood Armor
+[SKILLMENU sm_armors_carpentry_Cursedwood]
+Cursedwood Armors
+ON=i_helm_winged_Cursedwood @color_log_Cursedwood Helmets
+    SKILLMENU = sm_armors_carpentry_Helmets_Cursedwood
+ON=i_woodland_chest_Cursedwood @color_log_Cursedwood Woodland
+    SKILLMENU = sm_armors_Carpentry_Woodland_Cursedwood
+ON=i_leaf_tunic_Cursedwood @color_log_Cursedwood Leaf
+    SKILLMENU = sm_armors_Carpentry_Leaf_Cursedwood
+
+
+///////////////////////////////////////////////////////////
+
+///////////////////////////////////////////// sm_armors_carpentry_Helmets_ Apple
+[SKILLMENU sm_armors_carpentry_Helmets_Apple]
+Apple Armors
+ON=i_helm_raven_Apple @color_log_Apple raven helm
+    MAKEITEM=i_helm_raven_Apple
+ON=i_helm_vulture_Apple @color_log_Apple vulture helm
+    MAKEITEM=i_helm_vulture_Apple
+ON=i_helm_winged_Apple @color_log_Apple winged helm
+    MAKEITEM=i_helm_winged_Apple
+
+///////////////////////////////////////////// sm_armors_carpentry_Helmets_ BogOak
+[SKILLMENU sm_armors_carpentry_Helmets_BogOak]
+BogOak Armors
+ON=i_helm_raven_BogOak @color_log_BogOak raven helm
+    MAKEITEM=i_helm_raven_BogOak
+ON=i_helm_vulture_BogOak @color_log_BogOak vulture helm
+    MAKEITEM=i_helm_vulture_BogOak
+ON=i_helm_winged_BogOak @color_log_BogOak winged helm
+    MAKEITEM=i_helm_winged_BogOak
+
+///////////////////////////////////////////// sm_armors_carpentry_Helmets_ Oak
+[SKILLMENU sm_armors_carpentry_Helmets_Oak]
+Oak Armors
+ON=i_helm_raven_Oak @color_log_Oak raven helm
+    MAKEITEM=i_helm_raven_Oak
+ON=i_helm_vulture_Oak @color_log_Oak vulture helm
+    MAKEITEM=i_helm_vulture_Oak
+ON=i_helm_winged_Oak @color_log_Oak winged helm
+    MAKEITEM=i_helm_winged_Oak
+
+///////////////////////////////////////////// sm_armors_carpentry_Helmets_ Ash
+[SKILLMENU sm_armors_carpentry_Helmets_Ash]
+Ash Armors
+ON=i_helm_raven_Ash @color_log_Ash raven helm
+    MAKEITEM=i_helm_raven_Ash
+ON=i_helm_vulture_Ash @color_log_Ash vulture helm
+    MAKEITEM=i_helm_vulture_Ash
+ON=i_helm_winged_Ash @color_log_Ash winged helm
+    MAKEITEM=i_helm_winged_Ash
+
+///////////////////////////////////////////// sm_armors_carpentry_Helmets_ Yew
+[SKILLMENU sm_armors_carpentry_Helmets_Yew]
+Yew Armors
+ON=i_helm_raven_Yew @color_log_Yew raven helm
+    MAKEITEM=i_helm_raven_Yew
+ON=i_helm_vulture_Yew @color_log_Yew vulture helm
+    MAKEITEM=i_helm_vulture_Yew
+ON=i_helm_winged_Yew @color_log_Yew winged helm
+    MAKEITEM=i_helm_winged_Yew
+
+///////////////////////////////////////////// sm_armors_carpentry_Helmets_ Willow
+[SKILLMENU sm_armors_carpentry_Helmets_Willow]
+Willow Armors
+ON=i_helm_raven_Willow @color_log_Willow raven helm
+    MAKEITEM=i_helm_raven_Willow
+ON=i_helm_vulture_Willow @color_log_Willow vulture helm
+    MAKEITEM=i_helm_vulture_Willow
+ON=i_helm_winged_Willow @color_log_Willow winged helm
+    MAKEITEM=i_helm_winged_Willow
+
+///////////////////////////////////////////// sm_armors_carpentry_Helmets_ Cypress
+[SKILLMENU sm_armors_carpentry_Helmets_Cypress]
+Cypress Armors
+ON=i_helm_raven_Cypress @color_log_Cypress raven helm
+    MAKEITEM=i_helm_raven_Cypress
+ON=i_helm_vulture_Cypress @color_log_Cypress vulture helm
+    MAKEITEM=i_helm_vulture_Cypress
+ON=i_helm_winged_Cypress @color_log_Cypress winged helm
+    MAKEITEM=i_helm_winged_Cypress
+
+///////////////////////////////////////////// sm_armors_carpentry_Helmets_ Birch
+[SKILLMENU sm_armors_carpentry_Helmets_Birch]
+Birch Armors
+ON=i_helm_raven_Birch @color_log_Birch raven helm
+    MAKEITEM=i_helm_raven_Birch
+ON=i_helm_vulture_Birch @color_log_Birch vulture helm
+    MAKEITEM=i_helm_vulture_Birch
+ON=i_helm_winged_Birch @color_log_Birch winged helm
+    MAKEITEM=i_helm_winged_Birch
+
+///////////////////////////////////////////// sm_armors_carpentry_Helmets_ Ebony
+[SKILLMENU sm_armors_carpentry_Helmets_Ebony]
+Ebony Armors
+ON=i_helm_raven_Ebony @color_log_Ebony raven helm
+    MAKEITEM=i_helm_raven_Ebony
+ON=i_helm_vulture_Ebony @color_log_Ebony vulture helm
+    MAKEITEM=i_helm_vulture_Ebony
+ON=i_helm_winged_Ebony @color_log_Ebony winged helm
+    MAKEITEM=i_helm_winged_Ebony
+
+///////////////////////////////////////////// sm_armors_carpentry_Helmets_ Walnut
+[SKILLMENU sm_armors_carpentry_Helmets_Walnut]
+Walnut Armors
+ON=i_helm_raven_Walnut @color_log_Walnut raven helm
+    MAKEITEM=i_helm_raven_Walnut
+ON=i_helm_vulture_Walnut @color_log_Walnut vulture helm
+    MAKEITEM=i_helm_vulture_Walnut
+ON=i_helm_winged_Walnut @color_log_Walnut winged helm
+    MAKEITEM=i_helm_winged_Walnut
+
+///////////////////////////////////////////// sm_armors_carpentry_Helmets_ Cherry
+[SKILLMENU sm_armors_carpentry_Helmets_Cherry]
+Cherry Armors
+ON=i_helm_raven_Cherry @color_log_Cherry raven helm
+    MAKEITEM=i_helm_raven_Cherry
+ON=i_helm_vulture_Cherry @color_log_Cherry vulture helm
+    MAKEITEM=i_helm_vulture_Cherry
+ON=i_helm_winged_Cherry @color_log_Cherry winged helm
+    MAKEITEM=i_helm_winged_Cherry
+
+///////////////////////////////////////////// sm_armors_carpentry_Helmets_ Blackcherry
+[SKILLMENU sm_armors_carpentry_Helmets_Blackcherry]
+Blackcherry Armors
+ON=i_helm_raven_Blackcherry @color_log_Blackcherry raven helm
+    MAKEITEM=i_helm_raven_Blackcherry
+ON=i_helm_vulture_Blackcherry @color_log_Blackcherry vulture helm
+    MAKEITEM=i_helm_vulture_Blackcherry
+ON=i_helm_winged_Blackcherry @color_log_Blackcherry winged helm
+    MAKEITEM=i_helm_winged_Blackcherry
+
+///////////////////////////////////////////// sm_armors_carpentry_Helmets_ Maple
+[SKILLMENU sm_armors_carpentry_Helmets_Maple]
+Maple Armors
+ON=i_helm_raven_Maple @color_log_Maple raven helm
+    MAKEITEM=i_helm_raven_Maple
+ON=i_helm_vulture_Maple @color_log_Maple vulture helm
+    MAKEITEM=i_helm_vulture_Maple
+ON=i_helm_winged_Maple @color_log_Maple winged helm
+    MAKEITEM=i_helm_winged_Maple
+
+///////////////////////////////////////////// sm_armors_carpentry_Helmets_ Hawthorn
+[SKILLMENU sm_armors_carpentry_Helmets_Hawthorn]
+Hawthorn Armors
+ON=i_helm_raven_Hawthorn @color_log_Hawthorn raven helm
+    MAKEITEM=i_helm_raven_Hawthorn
+ON=i_helm_vulture_Hawthorn @color_log_Hawthorn vulture helm
+    MAKEITEM=i_helm_vulture_Hawthorn
+ON=i_helm_winged_Hawthorn @color_log_Hawthorn winged helm
+    MAKEITEM=i_helm_winged_Hawthorn
+
+///////////////////////////////////////////// sm_armors_carpentry_Helmets_ Blessedwood
+[SKILLMENU sm_armors_carpentry_Helmets_Blessedwood]
+Blessedwood Armors
+ON=i_helm_raven_Blessedwood @color_log_Blessedwood raven helm
+    MAKEITEM=i_helm_raven_Blessedwood
+ON=i_helm_vulture_Blessedwood @color_log_Blessedwood vulture helm
+    MAKEITEM=i_helm_vulture_Blessedwood
+ON=i_helm_winged_Blessedwood @color_log_Blessedwood winged helm
+    MAKEITEM=i_helm_winged_Blessedwood
+
+///////////////////////////////////////////// sm_armors_carpentry_Helmets_ Cursedwood
+[SKILLMENU sm_armors_carpentry_Helmets_Cursedwood]
+Cursedwood Armors
+ON=i_helm_raven_Cursedwood @color_log_Cursedwood raven helm
+    MAKEITEM=i_helm_raven_Cursedwood
+ON=i_helm_vulture_Cursedwood @color_log_Cursedwood vulture helm
+    MAKEITEM=i_helm_vulture_Cursedwood
+ON=i_helm_winged_Cursedwood @color_log_Cursedwood winged helm
+    MAKEITEM=i_helm_winged_Cursedwood
+
+///////////////////////////////////////////// sm_armors_Carpentry_Woodland_ Apple
+[SKILLMENU sm_armors_Carpentry_Woodland_Apple]
+Apple Armors
+ON=i_woodland_chest_Apple @color_log_Apple woodland chest
+    MAKEITEM=i_woodland_chest_Apple
+ON=i_woodland_belt_Apple @color_log_Apple woodland belt
+    MAKEITEM=i_woodland_belt_Apple
+ON=i_woodland_gorget_Apple @color_log_Apple woodland gorget
+    MAKEITEM=i_woodland_gorget_Apple
+ON=i_woodland_gauntlets_Apple @color_log_Apple woodland gauntlets
+    MAKEITEM=i_woodland_gauntlets_Apple
+ON=i_woodland_leggings_Apple @color_log_Apple woodland leggings
+    MAKEITEM=i_woodland_leggings_Apple
+ON=i_woodland_arms_Apple @color_log_Apple woodland arms
+    MAKEITEM=i_woodland_arms_Apple
+ON=i_armor_female_woodland_Apple @color_log_Apple female woodland chest
+    MAKEITEM=i_armor_female_woodland_Apple
+
+///////////////////////////////////////////// sm_armors_Carpentry_Woodland_ BogOak
+[SKILLMENU sm_armors_Carpentry_Woodland_BogOak]
+BogOak Armors
+ON=i_woodland_chest_BogOak @color_log_BogOak woodland chest
+    MAKEITEM=i_woodland_chest_BogOak
+ON=i_woodland_belt_BogOak @color_log_BogOak woodland belt
+    MAKEITEM=i_woodland_belt_BogOak
+ON=i_woodland_gorget_BogOak @color_log_BogOak woodland gorget
+    MAKEITEM=i_woodland_gorget_BogOak
+ON=i_woodland_gauntlets_BogOak @color_log_BogOak woodland gauntlets
+    MAKEITEM=i_woodland_gauntlets_BogOak
+ON=i_woodland_leggings_BogOak @color_log_BogOak woodland leggings
+    MAKEITEM=i_woodland_leggings_BogOak
+ON=i_woodland_arms_BogOak @color_log_BogOak woodland arms
+    MAKEITEM=i_woodland_arms_BogOak
+ON=i_armor_female_woodland_BogOak @color_log_BogOak female woodland chest
+    MAKEITEM=i_armor_female_woodland_BogOak
+
+///////////////////////////////////////////// sm_armors_Carpentry_Woodland_ Oak
+[SKILLMENU sm_armors_Carpentry_Woodland_Oak]
+Oak Armors
+ON=i_woodland_chest_Oak @color_log_Oak woodland chest
+    MAKEITEM=i_woodland_chest_Oak
+ON=i_woodland_belt_Oak @color_log_Oak woodland belt
+    MAKEITEM=i_woodland_belt_Oak
+ON=i_woodland_gorget_Oak @color_log_Oak woodland gorget
+    MAKEITEM=i_woodland_gorget_Oak
+ON=i_woodland_gauntlets_Oak @color_log_Oak woodland gauntlets
+    MAKEITEM=i_woodland_gauntlets_Oak
+ON=i_woodland_leggings_Oak @color_log_Oak woodland leggings
+    MAKEITEM=i_woodland_leggings_Oak
+ON=i_woodland_arms_Oak @color_log_Oak woodland arms
+    MAKEITEM=i_woodland_arms_Oak
+ON=i_armor_female_woodland_Oak @color_log_Oak female woodland chest
+    MAKEITEM=i_armor_female_woodland_Oak
+
+///////////////////////////////////////////// sm_armors_Carpentry_Woodland_ Ash
+[SKILLMENU sm_armors_Carpentry_Woodland_Ash]
+Ash Armors
+ON=i_woodland_chest_Ash @color_log_Ash woodland chest
+    MAKEITEM=i_woodland_chest_Ash
+ON=i_woodland_belt_Ash @color_log_Ash woodland belt
+    MAKEITEM=i_woodland_belt_Ash
+ON=i_woodland_gorget_Ash @color_log_Ash woodland gorget
+    MAKEITEM=i_woodland_gorget_Ash
+ON=i_woodland_gauntlets_Ash @color_log_Ash woodland gauntlets
+    MAKEITEM=i_woodland_gauntlets_Ash
+ON=i_woodland_leggings_Ash @color_log_Ash woodland leggings
+    MAKEITEM=i_woodland_leggings_Ash
+ON=i_woodland_arms_Ash @color_log_Ash woodland arms
+    MAKEITEM=i_woodland_arms_Ash
+ON=i_armor_female_woodland_Ash @color_log_Ash female woodland chest
+    MAKEITEM=i_armor_female_woodland_Ash
+
+///////////////////////////////////////////// sm_armors_Carpentry_Woodland_ Yew
+[SKILLMENU sm_armors_Carpentry_Woodland_Yew]
+Yew Armors
+ON=i_woodland_chest_Yew @color_log_Yew woodland chest
+    MAKEITEM=i_woodland_chest_Yew
+ON=i_woodland_belt_Yew @color_log_Yew woodland belt
+    MAKEITEM=i_woodland_belt_Yew
+ON=i_woodland_gorget_Yew @color_log_Yew woodland gorget
+    MAKEITEM=i_woodland_gorget_Yew
+ON=i_woodland_gauntlets_Yew @color_log_Yew woodland gauntlets
+    MAKEITEM=i_woodland_gauntlets_Yew
+ON=i_woodland_leggings_Yew @color_log_Yew woodland leggings
+    MAKEITEM=i_woodland_leggings_Yew
+ON=i_woodland_arms_Yew @color_log_Yew woodland arms
+    MAKEITEM=i_woodland_arms_Yew
+ON=i_armor_female_woodland_Yew @color_log_Yew female woodland chest
+    MAKEITEM=i_armor_female_woodland_Yew
+
+///////////////////////////////////////////// sm_armors_Carpentry_Woodland_ Willow
+[SKILLMENU sm_armors_Carpentry_Woodland_Willow]
+Willow Armors
+ON=i_woodland_chest_Willow @color_log_Willow woodland chest
+    MAKEITEM=i_woodland_chest_Willow
+ON=i_woodland_belt_Willow @color_log_Willow woodland belt
+    MAKEITEM=i_woodland_belt_Willow
+ON=i_woodland_gorget_Willow @color_log_Willow woodland gorget
+    MAKEITEM=i_woodland_gorget_Willow
+ON=i_woodland_gauntlets_Willow @color_log_Willow woodland gauntlets
+    MAKEITEM=i_woodland_gauntlets_Willow
+ON=i_woodland_leggings_Willow @color_log_Willow woodland leggings
+    MAKEITEM=i_woodland_leggings_Willow
+ON=i_woodland_arms_Willow @color_log_Willow woodland arms
+    MAKEITEM=i_woodland_arms_Willow
+ON=i_armor_female_woodland_Willow @color_log_Willow female woodland chest
+    MAKEITEM=i_armor_female_woodland_Willow
+
+///////////////////////////////////////////// sm_armors_Carpentry_Woodland_ Cypress
+[SKILLMENU sm_armors_Carpentry_Woodland_Cypress]
+Cypress Armors
+ON=i_woodland_chest_Cypress @color_log_Cypress woodland chest
+    MAKEITEM=i_woodland_chest_Cypress
+ON=i_woodland_belt_Cypress @color_log_Cypress woodland belt
+    MAKEITEM=i_woodland_belt_Cypress
+ON=i_woodland_gorget_Cypress @color_log_Cypress woodland gorget
+    MAKEITEM=i_woodland_gorget_Cypress
+ON=i_woodland_gauntlets_Cypress @color_log_Cypress woodland gauntlets
+    MAKEITEM=i_woodland_gauntlets_Cypress
+ON=i_woodland_leggings_Cypress @color_log_Cypress woodland leggings
+    MAKEITEM=i_woodland_leggings_Cypress
+ON=i_woodland_arms_Cypress @color_log_Cypress woodland arms
+    MAKEITEM=i_woodland_arms_Cypress
+ON=i_armor_female_woodland_Cypress @color_log_Cypress female woodland chest
+    MAKEITEM=i_armor_female_woodland_Cypress
+
+///////////////////////////////////////////// sm_armors_Carpentry_Woodland_ Birch
+[SKILLMENU sm_armors_Carpentry_Woodland_Birch]
+Birch Armors
+ON=i_woodland_chest_Birch @color_log_Birch woodland chest
+    MAKEITEM=i_woodland_chest_Birch
+ON=i_woodland_belt_Birch @color_log_Birch woodland belt
+    MAKEITEM=i_woodland_belt_Birch
+ON=i_woodland_gorget_Birch @color_log_Birch woodland gorget
+    MAKEITEM=i_woodland_gorget_Birch
+ON=i_woodland_gauntlets_Birch @color_log_Birch woodland gauntlets
+    MAKEITEM=i_woodland_gauntlets_Birch
+ON=i_woodland_leggings_Birch @color_log_Birch woodland leggings
+    MAKEITEM=i_woodland_leggings_Birch
+ON=i_woodland_arms_Birch @color_log_Birch woodland arms
+    MAKEITEM=i_woodland_arms_Birch
+ON=i_armor_female_woodland_Birch @color_log_Birch female woodland chest
+    MAKEITEM=i_armor_female_woodland_Birch
+
+///////////////////////////////////////////// sm_armors_Carpentry_Woodland_ Ebony
+[SKILLMENU sm_armors_Carpentry_Woodland_Ebony]
+Ebony Armors
+ON=i_woodland_chest_Ebony @color_log_Ebony woodland chest
+    MAKEITEM=i_woodland_chest_Ebony
+ON=i_woodland_belt_Ebony @color_log_Ebony woodland belt
+    MAKEITEM=i_woodland_belt_Ebony
+ON=i_woodland_gorget_Ebony @color_log_Ebony woodland gorget
+    MAKEITEM=i_woodland_gorget_Ebony
+ON=i_woodland_gauntlets_Ebony @color_log_Ebony woodland gauntlets
+    MAKEITEM=i_woodland_gauntlets_Ebony
+ON=i_woodland_leggings_Ebony @color_log_Ebony woodland leggings
+    MAKEITEM=i_woodland_leggings_Ebony
+ON=i_woodland_arms_Ebony @color_log_Ebony woodland arms
+    MAKEITEM=i_woodland_arms_Ebony
+ON=i_armor_female_woodland_Ebony @color_log_Ebony female woodland chest
+    MAKEITEM=i_armor_female_woodland_Ebony
+
+///////////////////////////////////////////// sm_armors_Carpentry_Woodland_ Walnut
+[SKILLMENU sm_armors_Carpentry_Woodland_Walnut]
+Walnut Armors
+ON=i_woodland_chest_Walnut @color_log_Walnut woodland chest
+    MAKEITEM=i_woodland_chest_Walnut
+ON=i_woodland_belt_Walnut @color_log_Walnut woodland belt
+    MAKEITEM=i_woodland_belt_Walnut
+ON=i_woodland_gorget_Walnut @color_log_Walnut woodland gorget
+    MAKEITEM=i_woodland_gorget_Walnut
+ON=i_woodland_gauntlets_Walnut @color_log_Walnut woodland gauntlets
+    MAKEITEM=i_woodland_gauntlets_Walnut
+ON=i_woodland_leggings_Walnut @color_log_Walnut woodland leggings
+    MAKEITEM=i_woodland_leggings_Walnut
+ON=i_woodland_arms_Walnut @color_log_Walnut woodland arms
+    MAKEITEM=i_woodland_arms_Walnut
+ON=i_armor_female_woodland_Walnut @color_log_Walnut female woodland chest
+    MAKEITEM=i_armor_female_woodland_Walnut
+
+///////////////////////////////////////////// sm_armors_Carpentry_Woodland_ Cherry
+[SKILLMENU sm_armors_Carpentry_Woodland_Cherry]
+Cherry Armors
+ON=i_woodland_chest_Cherry @color_log_Cherry woodland chest
+    MAKEITEM=i_woodland_chest_Cherry
+ON=i_woodland_belt_Cherry @color_log_Cherry woodland belt
+    MAKEITEM=i_woodland_belt_Cherry
+ON=i_woodland_gorget_Cherry @color_log_Cherry woodland gorget
+    MAKEITEM=i_woodland_gorget_Cherry
+ON=i_woodland_gauntlets_Cherry @color_log_Cherry woodland gauntlets
+    MAKEITEM=i_woodland_gauntlets_Cherry
+ON=i_woodland_leggings_Cherry @color_log_Cherry woodland leggings
+    MAKEITEM=i_woodland_leggings_Cherry
+ON=i_woodland_arms_Cherry @color_log_Cherry woodland arms
+    MAKEITEM=i_woodland_arms_Cherry
+ON=i_armor_female_woodland_Cherry @color_log_Cherry female woodland chest
+    MAKEITEM=i_armor_female_woodland_Cherry
+
+///////////////////////////////////////////// sm_armors_Carpentry_Woodland_ Blackcherry
+[SKILLMENU sm_armors_Carpentry_Woodland_Blackcherry]
+Blackcherry Armors
+ON=i_woodland_chest_Blackcherry @color_log_Blackcherry woodland chest
+    MAKEITEM=i_woodland_chest_Blackcherry
+ON=i_woodland_belt_Blackcherry @color_log_Blackcherry woodland belt
+    MAKEITEM=i_woodland_belt_Blackcherry
+ON=i_woodland_gorget_Blackcherry @color_log_Blackcherry woodland gorget
+    MAKEITEM=i_woodland_gorget_Blackcherry
+ON=i_woodland_gauntlets_Blackcherry @color_log_Blackcherry woodland gauntlets
+    MAKEITEM=i_woodland_gauntlets_Blackcherry
+ON=i_woodland_leggings_Blackcherry @color_log_Blackcherry woodland leggings
+    MAKEITEM=i_woodland_leggings_Blackcherry
+ON=i_woodland_arms_Blackcherry @color_log_Blackcherry woodland arms
+    MAKEITEM=i_woodland_arms_Blackcherry
+ON=i_armor_female_woodland_Blackcherry @color_log_Blackcherry female woodland chest
+    MAKEITEM=i_armor_female_woodland_Blackcherry
+
+///////////////////////////////////////////// sm_armors_Carpentry_Woodland_ Maple
+[SKILLMENU sm_armors_Carpentry_Woodland_Maple]
+Maple Armors
+ON=i_woodland_chest_Maple @color_log_Maple woodland chest
+    MAKEITEM=i_woodland_chest_Maple
+ON=i_woodland_belt_Maple @color_log_Maple woodland belt
+    MAKEITEM=i_woodland_belt_Maple
+ON=i_woodland_gorget_Maple @color_log_Maple woodland gorget
+    MAKEITEM=i_woodland_gorget_Maple
+ON=i_woodland_gauntlets_Maple @color_log_Maple woodland gauntlets
+    MAKEITEM=i_woodland_gauntlets_Maple
+ON=i_woodland_leggings_Maple @color_log_Maple woodland leggings
+    MAKEITEM=i_woodland_leggings_Maple
+ON=i_woodland_arms_Maple @color_log_Maple woodland arms
+    MAKEITEM=i_woodland_arms_Maple
+ON=i_armor_female_woodland_Maple @color_log_Maple female woodland chest
+    MAKEITEM=i_armor_female_woodland_Maple
+
+///////////////////////////////////////////// sm_armors_Carpentry_Woodland_ Hawthorn
+[SKILLMENU sm_armors_Carpentry_Woodland_Hawthorn]
+Hawthorn Armors
+ON=i_woodland_chest_Hawthorn @color_log_Hawthorn woodland chest
+    MAKEITEM=i_woodland_chest_Hawthorn
+ON=i_woodland_belt_Hawthorn @color_log_Hawthorn woodland belt
+    MAKEITEM=i_woodland_belt_Hawthorn
+ON=i_woodland_gorget_Hawthorn @color_log_Hawthorn woodland gorget
+    MAKEITEM=i_woodland_gorget_Hawthorn
+ON=i_woodland_gauntlets_Hawthorn @color_log_Hawthorn woodland gauntlets
+    MAKEITEM=i_woodland_gauntlets_Hawthorn
+ON=i_woodland_leggings_Hawthorn @color_log_Hawthorn woodland leggings
+    MAKEITEM=i_woodland_leggings_Hawthorn
+ON=i_woodland_arms_Hawthorn @color_log_Hawthorn woodland arms
+    MAKEITEM=i_woodland_arms_Hawthorn
+ON=i_armor_female_woodland_Hawthorn @color_log_Hawthorn female woodland chest
+    MAKEITEM=i_armor_female_woodland_Hawthorn
+
+///////////////////////////////////////////// sm_armors_Carpentry_Woodland_ Blessedwood
+[SKILLMENU sm_armors_Carpentry_Woodland_Blessedwood]
+Blessedwood Armors
+ON=i_woodland_chest_Blessedwood @color_log_Blessedwood woodland chest
+    MAKEITEM=i_woodland_chest_Blessedwood
+ON=i_woodland_belt_Blessedwood @color_log_Blessedwood woodland belt
+    MAKEITEM=i_woodland_belt_Blessedwood
+ON=i_woodland_gorget_Blessedwood @color_log_Blessedwood woodland gorget
+    MAKEITEM=i_woodland_gorget_Blessedwood
+ON=i_woodland_gauntlets_Blessedwood @color_log_Blessedwood woodland gauntlets
+    MAKEITEM=i_woodland_gauntlets_Blessedwood
+ON=i_woodland_leggings_Blessedwood @color_log_Blessedwood woodland leggings
+    MAKEITEM=i_woodland_leggings_Blessedwood
+ON=i_woodland_arms_Blessedwood @color_log_Blessedwood woodland arms
+    MAKEITEM=i_woodland_arms_Blessedwood
+ON=i_armor_female_woodland_Blessedwood @color_log_Blessedwood female woodland chest
+    MAKEITEM=i_armor_female_woodland_Blessedwood
+
+///////////////////////////////////////////// sm_armors_Carpentry_Woodland_ Cursedwood
+[SKILLMENU sm_armors_Carpentry_Woodland_Cursedwood]
+Cursedwood Armors
+ON=i_woodland_chest_Cursedwood @color_log_Cursedwood woodland chest
+    MAKEITEM=i_woodland_chest_Cursedwood
+ON=i_woodland_belt_Cursedwood @color_log_Cursedwood woodland belt
+    MAKEITEM=i_woodland_belt_Cursedwood
+ON=i_woodland_gorget_Cursedwood @color_log_Cursedwood woodland gorget
+    MAKEITEM=i_woodland_gorget_Cursedwood
+ON=i_woodland_gauntlets_Cursedwood @color_log_Cursedwood woodland gauntlets
+    MAKEITEM=i_woodland_gauntlets_Cursedwood
+ON=i_woodland_leggings_Cursedwood @color_log_Cursedwood woodland leggings
+    MAKEITEM=i_woodland_leggings_Cursedwood
+ON=i_woodland_arms_Cursedwood @color_log_Cursedwood woodland arms
+    MAKEITEM=i_woodland_arms_Cursedwood
+ON=i_armor_female_woodland_Cursedwood @color_log_Cursedwood female woodland chest
+    MAKEITEM=i_armor_female_woodland_Cursedwood
+
+///////////////////////////////////////////// sm_armors_Carpentry_Leaf_ Apple
+[SKILLMENU sm_armors_Carpentry_Leaf_Apple]
+Apple Armors
+ON=i_leaf_tunic_Apple @color_log_Apple leaf tunic
+    MAKEITEM=i_leaf_tunic_Apple
+ON=i_leaf_gloves_Apple @color_log_Apple leaf gloves
+    MAKEITEM=i_leaf_gloves_Apple
+ON=i_leaf_gorget_Apple @color_log_Apple leaf gorget
+    MAKEITEM=i_leaf_gorget_Apple
+ON=i_leaf_arms_Apple @color_log_Apple leaf arms
+    MAKEITEM=i_leaf_arms_Apple
+ON=i_leaf_leggings_Apple @color_log_Apple leaf leggings
+    MAKEITEM=i_leaf_leggings_Apple
+ON=i_leaf_tonlet_Apple @color_log_Apple leaf tonlet
+    MAKEITEM=i_leaf_tonlet_Apple
+
+///////////////////////////////////////////// sm_armors_Carpentry_Leaf_ BogOak
+[SKILLMENU sm_armors_Carpentry_Leaf_BogOak]
+BogOak Armors
+ON=i_leaf_tunic_BogOak @color_log_BogOak leaf tunic
+    MAKEITEM=i_leaf_tunic_BogOak
+ON=i_leaf_gloves_BogOak @color_log_BogOak leaf gloves
+    MAKEITEM=i_leaf_gloves_BogOak
+ON=i_leaf_gorget_BogOak @color_log_BogOak leaf gorget
+    MAKEITEM=i_leaf_gorget_BogOak
+ON=i_leaf_arms_BogOak @color_log_BogOak leaf arms
+    MAKEITEM=i_leaf_arms_BogOak
+ON=i_leaf_leggings_BogOak @color_log_BogOak leaf leggings
+    MAKEITEM=i_leaf_leggings_BogOak
+ON=i_leaf_tonlet_BogOak @color_log_BogOak leaf tonlet
+    MAKEITEM=i_leaf_tonlet_BogOak
+
+///////////////////////////////////////////// sm_armors_Carpentry_Leaf_ Oak
+[SKILLMENU sm_armors_Carpentry_Leaf_Oak]
+Oak Armors
+ON=i_leaf_tunic_Oak @color_log_Oak leaf tunic
+    MAKEITEM=i_leaf_tunic_Oak
+ON=i_leaf_gloves_Oak @color_log_Oak leaf gloves
+    MAKEITEM=i_leaf_gloves_Oak
+ON=i_leaf_gorget_Oak @color_log_Oak leaf gorget
+    MAKEITEM=i_leaf_gorget_Oak
+ON=i_leaf_arms_Oak @color_log_Oak leaf arms
+    MAKEITEM=i_leaf_arms_Oak
+ON=i_leaf_leggings_Oak @color_log_Oak leaf leggings
+    MAKEITEM=i_leaf_leggings_Oak
+ON=i_leaf_tonlet_Oak @color_log_Oak leaf tonlet
+    MAKEITEM=i_leaf_tonlet_Oak
+
+///////////////////////////////////////////// sm_armors_Carpentry_Leaf_ Ash
+[SKILLMENU sm_armors_Carpentry_Leaf_Ash]
+Ash Armors
+ON=i_leaf_tunic_Ash @color_log_Ash leaf tunic
+    MAKEITEM=i_leaf_tunic_Ash
+ON=i_leaf_gloves_Ash @color_log_Ash leaf gloves
+    MAKEITEM=i_leaf_gloves_Ash
+ON=i_leaf_gorget_Ash @color_log_Ash leaf gorget
+    MAKEITEM=i_leaf_gorget_Ash
+ON=i_leaf_arms_Ash @color_log_Ash leaf arms
+    MAKEITEM=i_leaf_arms_Ash
+ON=i_leaf_leggings_Ash @color_log_Ash leaf leggings
+    MAKEITEM=i_leaf_leggings_Ash
+ON=i_leaf_tonlet_Ash @color_log_Ash leaf tonlet
+    MAKEITEM=i_leaf_tonlet_Ash
+
+///////////////////////////////////////////// sm_armors_Carpentry_Leaf_ Yew
+[SKILLMENU sm_armors_Carpentry_Leaf_Yew]
+Yew Armors
+ON=i_leaf_tunic_Yew @color_log_Yew leaf tunic
+    MAKEITEM=i_leaf_tunic_Yew
+ON=i_leaf_gloves_Yew @color_log_Yew leaf gloves
+    MAKEITEM=i_leaf_gloves_Yew
+ON=i_leaf_gorget_Yew @color_log_Yew leaf gorget
+    MAKEITEM=i_leaf_gorget_Yew
+ON=i_leaf_arms_Yew @color_log_Yew leaf arms
+    MAKEITEM=i_leaf_arms_Yew
+ON=i_leaf_leggings_Yew @color_log_Yew leaf leggings
+    MAKEITEM=i_leaf_leggings_Yew
+ON=i_leaf_tonlet_Yew @color_log_Yew leaf tonlet
+    MAKEITEM=i_leaf_tonlet_Yew
+
+///////////////////////////////////////////// sm_armors_Carpentry_Leaf_ Willow
+[SKILLMENU sm_armors_Carpentry_Leaf_Willow]
+Willow Armors
+ON=i_leaf_tunic_Willow @color_log_Willow leaf tunic
+    MAKEITEM=i_leaf_tunic_Willow
+ON=i_leaf_gloves_Willow @color_log_Willow leaf gloves
+    MAKEITEM=i_leaf_gloves_Willow
+ON=i_leaf_gorget_Willow @color_log_Willow leaf gorget
+    MAKEITEM=i_leaf_gorget_Willow
+ON=i_leaf_arms_Willow @color_log_Willow leaf arms
+    MAKEITEM=i_leaf_arms_Willow
+ON=i_leaf_leggings_Willow @color_log_Willow leaf leggings
+    MAKEITEM=i_leaf_leggings_Willow
+ON=i_leaf_tonlet_Willow @color_log_Willow leaf tonlet
+    MAKEITEM=i_leaf_tonlet_Willow
+
+///////////////////////////////////////////// sm_armors_Carpentry_Leaf_ Cypress
+[SKILLMENU sm_armors_Carpentry_Leaf_Cypress]
+Cypress Armors
+ON=i_leaf_tunic_Cypress @color_log_Cypress leaf tunic
+    MAKEITEM=i_leaf_tunic_Cypress
+ON=i_leaf_gloves_Cypress @color_log_Cypress leaf gloves
+    MAKEITEM=i_leaf_gloves_Cypress
+ON=i_leaf_gorget_Cypress @color_log_Cypress leaf gorget
+    MAKEITEM=i_leaf_gorget_Cypress
+ON=i_leaf_arms_Cypress @color_log_Cypress leaf arms
+    MAKEITEM=i_leaf_arms_Cypress
+ON=i_leaf_leggings_Cypress @color_log_Cypress leaf leggings
+    MAKEITEM=i_leaf_leggings_Cypress
+ON=i_leaf_tonlet_Cypress @color_log_Cypress leaf tonlet
+    MAKEITEM=i_leaf_tonlet_Cypress
+
+///////////////////////////////////////////// sm_armors_Carpentry_Leaf_ Birch
+[SKILLMENU sm_armors_Carpentry_Leaf_Birch]
+Birch Armors
+ON=i_leaf_tunic_Birch @color_log_Birch leaf tunic
+    MAKEITEM=i_leaf_tunic_Birch
+ON=i_leaf_gloves_Birch @color_log_Birch leaf gloves
+    MAKEITEM=i_leaf_gloves_Birch
+ON=i_leaf_gorget_Birch @color_log_Birch leaf gorget
+    MAKEITEM=i_leaf_gorget_Birch
+ON=i_leaf_arms_Birch @color_log_Birch leaf arms
+    MAKEITEM=i_leaf_arms_Birch
+ON=i_leaf_leggings_Birch @color_log_Birch leaf leggings
+    MAKEITEM=i_leaf_leggings_Birch
+ON=i_leaf_tonlet_Birch @color_log_Birch leaf tonlet
+    MAKEITEM=i_leaf_tonlet_Birch
+
+///////////////////////////////////////////// sm_armors_Carpentry_Leaf_ Ebony
+[SKILLMENU sm_armors_Carpentry_Leaf_Ebony]
+Ebony Armors
+ON=i_leaf_tunic_Ebony @color_log_Ebony leaf tunic
+    MAKEITEM=i_leaf_tunic_Ebony
+ON=i_leaf_gloves_Ebony @color_log_Ebony leaf gloves
+    MAKEITEM=i_leaf_gloves_Ebony
+ON=i_leaf_gorget_Ebony @color_log_Ebony leaf gorget
+    MAKEITEM=i_leaf_gorget_Ebony
+ON=i_leaf_arms_Ebony @color_log_Ebony leaf arms
+    MAKEITEM=i_leaf_arms_Ebony
+ON=i_leaf_leggings_Ebony @color_log_Ebony leaf leggings
+    MAKEITEM=i_leaf_leggings_Ebony
+ON=i_leaf_tonlet_Ebony @color_log_Ebony leaf tonlet
+    MAKEITEM=i_leaf_tonlet_Ebony
+
+///////////////////////////////////////////// sm_armors_Carpentry_Leaf_ Walnut
+[SKILLMENU sm_armors_Carpentry_Leaf_Walnut]
+Walnut Armors
+ON=i_leaf_tunic_Walnut @color_log_Walnut leaf tunic
+    MAKEITEM=i_leaf_tunic_Walnut
+ON=i_leaf_gloves_Walnut @color_log_Walnut leaf gloves
+    MAKEITEM=i_leaf_gloves_Walnut
+ON=i_leaf_gorget_Walnut @color_log_Walnut leaf gorget
+    MAKEITEM=i_leaf_gorget_Walnut
+ON=i_leaf_arms_Walnut @color_log_Walnut leaf arms
+    MAKEITEM=i_leaf_arms_Walnut
+ON=i_leaf_leggings_Walnut @color_log_Walnut leaf leggings
+    MAKEITEM=i_leaf_leggings_Walnut
+ON=i_leaf_tonlet_Walnut @color_log_Walnut leaf tonlet
+    MAKEITEM=i_leaf_tonlet_Walnut
+
+///////////////////////////////////////////// sm_armors_Carpentry_Leaf_ Cherry
+[SKILLMENU sm_armors_Carpentry_Leaf_Cherry]
+Cherry Armors
+ON=i_leaf_tunic_Cherry @color_log_Cherry leaf tunic
+    MAKEITEM=i_leaf_tunic_Cherry
+ON=i_leaf_gloves_Cherry @color_log_Cherry leaf gloves
+    MAKEITEM=i_leaf_gloves_Cherry
+ON=i_leaf_gorget_Cherry @color_log_Cherry leaf gorget
+    MAKEITEM=i_leaf_gorget_Cherry
+ON=i_leaf_arms_Cherry @color_log_Cherry leaf arms
+    MAKEITEM=i_leaf_arms_Cherry
+ON=i_leaf_leggings_Cherry @color_log_Cherry leaf leggings
+    MAKEITEM=i_leaf_leggings_Cherry
+ON=i_leaf_tonlet_Cherry @color_log_Cherry leaf tonlet
+    MAKEITEM=i_leaf_tonlet_Cherry
+
+///////////////////////////////////////////// sm_armors_Carpentry_Leaf_ Blackcherry
+[SKILLMENU sm_armors_Carpentry_Leaf_Blackcherry]
+Blackcherry Armors
+ON=i_leaf_tunic_Blackcherry @color_log_Blackcherry leaf tunic
+    MAKEITEM=i_leaf_tunic_Blackcherry
+ON=i_leaf_gloves_Blackcherry @color_log_Blackcherry leaf gloves
+    MAKEITEM=i_leaf_gloves_Blackcherry
+ON=i_leaf_gorget_Blackcherry @color_log_Blackcherry leaf gorget
+    MAKEITEM=i_leaf_gorget_Blackcherry
+ON=i_leaf_arms_Blackcherry @color_log_Blackcherry leaf arms
+    MAKEITEM=i_leaf_arms_Blackcherry
+ON=i_leaf_leggings_Blackcherry @color_log_Blackcherry leaf leggings
+    MAKEITEM=i_leaf_leggings_Blackcherry
+ON=i_leaf_tonlet_Blackcherry @color_log_Blackcherry leaf tonlet
+    MAKEITEM=i_leaf_tonlet_Blackcherry
+
+///////////////////////////////////////////// sm_armors_Carpentry_Leaf_ Maple
+[SKILLMENU sm_armors_Carpentry_Leaf_Maple]
+Maple Armors
+ON=i_leaf_tunic_Maple @color_log_Maple leaf tunic
+    MAKEITEM=i_leaf_tunic_Maple
+ON=i_leaf_gloves_Maple @color_log_Maple leaf gloves
+    MAKEITEM=i_leaf_gloves_Maple
+ON=i_leaf_gorget_Maple @color_log_Maple leaf gorget
+    MAKEITEM=i_leaf_gorget_Maple
+ON=i_leaf_arms_Maple @color_log_Maple leaf arms
+    MAKEITEM=i_leaf_arms_Maple
+ON=i_leaf_leggings_Maple @color_log_Maple leaf leggings
+    MAKEITEM=i_leaf_leggings_Maple
+ON=i_leaf_tonlet_Maple @color_log_Maple leaf tonlet
+    MAKEITEM=i_leaf_tonlet_Maple
+
+///////////////////////////////////////////// sm_armors_Carpentry_Leaf_ Hawthorn
+[SKILLMENU sm_armors_Carpentry_Leaf_Hawthorn]
+Hawthorn Armors
+ON=i_leaf_tunic_Hawthorn @color_log_Hawthorn leaf tunic
+    MAKEITEM=i_leaf_tunic_Hawthorn
+ON=i_leaf_gloves_Hawthorn @color_log_Hawthorn leaf gloves
+    MAKEITEM=i_leaf_gloves_Hawthorn
+ON=i_leaf_gorget_Hawthorn @color_log_Hawthorn leaf gorget
+    MAKEITEM=i_leaf_gorget_Hawthorn
+ON=i_leaf_arms_Hawthorn @color_log_Hawthorn leaf arms
+    MAKEITEM=i_leaf_arms_Hawthorn
+ON=i_leaf_leggings_Hawthorn @color_log_Hawthorn leaf leggings
+    MAKEITEM=i_leaf_leggings_Hawthorn
+ON=i_leaf_tonlet_Hawthorn @color_log_Hawthorn leaf tonlet
+    MAKEITEM=i_leaf_tonlet_Hawthorn
+
+///////////////////////////////////////////// sm_armors_Carpentry_Leaf_ Blessedwood
+[SKILLMENU sm_armors_Carpentry_Leaf_Blessedwood]
+Blessedwood Armors
+ON=i_leaf_tunic_Blessedwood @color_log_Blessedwood leaf tunic
+    MAKEITEM=i_leaf_tunic_Blessedwood
+ON=i_leaf_gloves_Blessedwood @color_log_Blessedwood leaf gloves
+    MAKEITEM=i_leaf_gloves_Blessedwood
+ON=i_leaf_gorget_Blessedwood @color_log_Blessedwood leaf gorget
+    MAKEITEM=i_leaf_gorget_Blessedwood
+ON=i_leaf_arms_Blessedwood @color_log_Blessedwood leaf arms
+    MAKEITEM=i_leaf_arms_Blessedwood
+ON=i_leaf_leggings_Blessedwood @color_log_Blessedwood leaf leggings
+    MAKEITEM=i_leaf_leggings_Blessedwood
+ON=i_leaf_tonlet_Blessedwood @color_log_Blessedwood leaf tonlet
+    MAKEITEM=i_leaf_tonlet_Blessedwood
+
+///////////////////////////////////////////// sm_armors_Carpentry_Leaf_ Cursedwood
+[SKILLMENU sm_armors_Carpentry_Leaf_Cursedwood]
+Cursedwood Armors
+ON=i_leaf_tunic_Cursedwood @color_log_Cursedwood leaf tunic
+    MAKEITEM=i_leaf_tunic_Cursedwood
+ON=i_leaf_gloves_Cursedwood @color_log_Cursedwood leaf gloves
+    MAKEITEM=i_leaf_gloves_Cursedwood
+ON=i_leaf_gorget_Cursedwood @color_log_Cursedwood leaf gorget
+    MAKEITEM=i_leaf_gorget_Cursedwood
+ON=i_leaf_arms_Cursedwood @color_log_Cursedwood leaf arms
+    MAKEITEM=i_leaf_arms_Cursedwood
+ON=i_leaf_leggings_Cursedwood @color_log_Cursedwood leaf leggings
+    MAKEITEM=i_leaf_leggings_Cursedwood
+ON=i_leaf_tonlet_Cursedwood @color_log_Cursedwood leaf tonlet
+    MAKEITEM=i_leaf_tonlet_Cursedwood
+
+///////////////////////////////////////////////////////////
+
+
+[EOF]

@@ -1,0 +1,42 @@
+[FUNCTION HorseBounce]
+IF (<SRC.FLAGS> & statf_onhorse)
+	SRC.TAG.PreBounceHorseUid=<SRC.FINDLAYER(layer_horse).more2>
+	SRC.FINDLAYER(layer_horse).MORE2	= 0
+	SRC.FINDLAYER(layer_horse).REMOVE
+	SERV.UID.<SRC.TAG.PreBounceHorseUid>.P=<P>
+	SERV.UID.<SRC.TAG.PreBounceHorseUid>.SHRINK
+	FORITEMS 1
+		IF (<TYPE> == t_figurine)
+			SRC.BOUNCE <UID>
+			SRC.TAG.PreBounceHorseUid=<UID>
+		ENDIF
+	ENDFOR
+	SERV.UID.<SRC.TAG.PreBounceHorseUid>.CONT=<SRC.FINDLAYER.29.UID>
+	SRC.SAY @55 Horse Shrunk and Banked
+	SRC.FLAGS=<FLAGS> & ~statf_onhorse
+	SRC.UPDATE
+	SRC.TAG.PreBounceHorseUid=
+ENDIF
+
+[FUNCTION HorseBounceTwo]
+IF (<FLAGS> & statf_onhorse)
+	TAG.PreBounceHorseUid=<FINDLAYER(layer_horse).more2>
+	FINDLAYER(layer_horse).MORE2	= 0
+	FINDLAYER(layer_horse).REMOVE
+	SERV.UID.<TAG.PreBounceHorseUid>.P=<P>
+	SERV.UID.<TAG.PreBounceHorseUid>.SHRINK
+	LOCAL.PlayerUID=<UID>
+	FORITEMS 1
+		IF (<TYPE> == t_figurine)
+			SERV.UID.<LOCAL.PlayerUID>.BOUNCE <UID>
+			SERV.UID.<LOCAL.PlayerUID>.TAG.PreBounceHorseUid=<UID>
+		ENDIF
+	ENDFOR
+	SERV.UID.<TAG.PreBounceHorseUid>.CONT=<FINDLAYER.29.UID>
+	SAY @55 Horse Shrunk and Banked
+	FLAGS=<FLAGS> & ~statf_onhorse
+	UPDATE
+	TAG.PreBounceHorseUid=
+ENDIF
+
+[EOF]

@@ -1,0 +1,19 @@
+[ITEMDEF i_keep_GateKeepersGuardSpawner]
+
+	DEFNAME=i_keep_GateKeepersGuardSpawner
+	ID=i_handr_1
+	NAME=Gate Keepers Guard Spawner
+	LAYER=layer_special
+	TYPE=t_eq_script
+
+	ON=@CREATE
+		ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+		TIMER=5
+
+	ON=@TIMER
+		LOCAL.GuardCountMax=<EVAL MaximumGateKeeperSpawns>
+		CALL f_Keep_GateKeepersGuardSpawner
+		TIMER=5
+		RETURN 1
+
+[EOF]

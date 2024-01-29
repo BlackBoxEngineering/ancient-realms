@@ -1,0 +1,9 @@
+[FUNCTION f_EquipANewPack]
+	SAY pack found in layer <FINDID.i_backpack.LAYER>
+	FINDID.i_backpack.REMOVE
+	SERV.NEWITEM i_backpack
+	SAY now in layer <FINDID.i_backpack.LAYER>
+	NEW.EQUIP
+	SAY bp back in layer <FINDID.i_backpack.LAYER>
+	
+[EOF]

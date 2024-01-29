@@ -1,0 +1,144 @@
+////////////////////////////////////////////// i_racePlayersBrain
+[ITEMDEF i_racePlayersBrain]  
+DEFNAME=i_racePlayersBrain  
+ID=i_flesh_brain  
+NAME=Race Brain 
+TYPE=t_eq_script 
+LAYER=layer_special 
+  
+ON=@CREATE  
+	ATTR=ATTR_DECAY|ATTR_NEWBIE|ATTR_MOVE_NEVER  
+	TIMER=2 
+ 
+ON=@TIMER 
+	REF1=<SERV.UID.<VAR.RaceControlUID>>
+	IF !<CONT.CTAG.RaceWaiting>
+		TRYSRC <CONT.UID> DIALOGCLOSE d_racePlayerStatus
+		f_setPolePosition <CONT.UID>
+		IF <CONT.UID>
+			TRYSRC <CONT.UID> DIALOG d_racePlayerStatus
+		ENDIF
+	ENDIF
+	LINK=<REF1.UID>
+	TIMERD=<EVAL RaceBrainTimer>
+	RETURN 1
+
+ON=@DESTROY
+	TOPOBJ.ARROWQUEST 0,0,1
+	//SERV.LOG Brain from <TOPOBJ.NAME> Destroyed
+	
+////////////////////////////////////////////// i_playersRaceControl
+[TYPEDEF t_playersRaceControl]
+ON=@DClick
+	VAR.RaceControlUID = <UID>
+	IF <SRC.ISGM>
+		SDIALOG d_raceTrackSetup 3
+	ELSE
+		IF !<TAG0.PreventSignUp> && !<TAG0.GameIsOn>
+			f_queuePlayerForRace <SRC.UID>
+		ENDIF
+	ENDIF	
+	RETURN 1
+	
+[ITEMDEF i_playersRaceControl] 
+DEFNAME=i_playersRaceControl 
+ID=i_gravestone_17 
+NAME=Tournament Stone 
+TYPE=t_playersRaceControl
+CATEGORY=SphereServer
+SUBSECTION=Race Event
+DESCRIPTION=Race Control Stone
+ 
+ON=@CREATE 
+	ATTR=ATTR_DECAY|ATTR_NEWBIE|ATTR_MOVE_NEVER 
+	TAG.CheckPointCount=0
+	TAG.PlayerCount=0
+	TAG.StartCount=10
+	TAG.Proximity=5
+	TAG.LapsOn=1	
+	TIMER=2
+
+ON=@TIMER
+	VAR.RaceControlUID = <UID>
+	f_raceTrackDefineStart
+	TIMER=<EVAL AutoStartTimer>
+	RETURN 1
+	
+ON=@DESTROY
+	//SERV.LOG Warning the Race Control Stone has been removed all linked checkpoints will be removed on the next world save
+	VAR.RaceControlUID=
+
+////////////////////////////////////////////// i_raceCheckPoint
+[TYPEDEF t_raceCheckPoint]
+ON=@DCLICK
+IF <SRC.ISGM>
+	REF1=<SERV.UID.<VAR.RaceControlUID>>
+	REF1.TAG.checkpointselected=<EVAL <TAG.CheckPointNumber>>
+	SRC.SDIALOG d_raceTrackSetup
+	TIMER=2
+	RETURN 1
+ENDIF
+
+ON=@DROPON_GROUND
+	LINK =<SERV.UID.<VAR.RaceControlUID>>
+	TIMER = 2
+	
+ON=@DESTROY
+	REF1=<SERV.UID.<VAR.RaceControlUID>>
+	IF <REF1.TAG.CheckPoint_<EVAL <REF1.TAG.checkpointselected>>_UID>
+		SAY @55,,1 This check point is being used remove using menu
+		RETURN 1
+	ENDIF
+	
+[ITEMDEF i_raceCheckPoint]
+DEFNAME=i_raceCheckPoint
+ID=37625
+NAME=Check Point
+TYPE=t_raceCheckPoint
+
+ON=@CREATE
+	ATTR=attr_newbie|attr_decay|attr_move_never
+	COLOR=color_o_midnightgypsy
+	TIMER=15
+
+ON=@TIMER
+	REF1=<SERV.UID.<VAR.RaceControlUID>>
+	CALL f_GPStoneLocate <UID>
+	IF <EVAL <TAG.CheckPointNumber>> == 1
+		TAG.RaceTimer=<EVAL <TAG0.RaceTimer>+1>
+		IF <EVAL <TAG.RaceTimer>> > 9999
+			TAG.RaceTimer=0
+		ENDIF
+		IF <TAG0.RaceStarted> && <TAG0.RaceCountDown>
+			TAG.RaceCountDown=<EVAL <TAG0.RaceCountDown>-1>
+			IF !<EVAL <TAG.RaceCountDown>> < 1
+				SAY Race Starts In :[<EVAL <TAG.RaceCountDown>>]
+			ELSE
+				REF1.TAG.StartCount=0
+				REF1.TAG.RaceTimer=0
+				SAY GO Go Go Go!!!
+				CALL f_raceStartPlayers
+				TIMER=1
+				RETURN 1
+			ENDIF
+		ELSE
+			IF <TAG0.RaceStarted>
+				IF <TAG.TimerReset>
+					TAG.RaceTimer=1
+					TAG.TimerReset=
+				ENDIF
+				IF !<REF1.TAG0.PlayerCount>
+					TAG.RaceStarted=
+					f_raceEndGame
+				ELSE
+					SAY @54,,1 RaceTime[<EVAL <TAG0.RaceTimer>>]
+				ENDIF
+			ENDIF
+		ENDIF
+		TIMER=1
+		RETURN 1
+	ENDIF
+	TIMER=<EVAL CheckPointTimer>
+	RETURN 1
+
+[EOF]

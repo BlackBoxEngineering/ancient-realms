@@ -1,0 +1,49 @@
+[FUNCTION f_checkForParry]
+LOCAL.DamTransfer	= <ARGV[1]>
+IF <SERV.UID.<ARGV[0]>.ISPLAYER>
+LOCAL.ShieldUID				=	0
+LOCAL.ShieldDefensePhysical	=	0
+LOCAL.ShieldDefenseFire		=	0
+LOCAL.ShieldDefenseCold		=	0
+LOCAL.ShieldDefensePoison	=	0
+LOCAL.ShieldDefenseEnergy	=	0
+IF (<SERV.UID.<ARGV[0]>.FINDLAYER.2.ISARMOR>)
+	LOCAL.ShieldUID=<SERV.UID.<ARGV[0]>.FINDLAYER.2.UID>
+	IF (<LOCAL.ShieldUID>)
+		LOCAL.ShieldDefensePhysical	= <SERV.UID.<LOCAL.ShieldUID>.ARMOR>
+		LOCAL.ShieldDefenseFire		= <SERV.UID.<LOCAL.ShieldUID>.RESFIRE>
+		LOCAL.ShieldDefenseCold		= <SERV.UID.<LOCAL.ShieldUID>.RESCOLD>
+		LOCAL.ShieldDefensePoison	= <SERV.UID.<LOCAL.ShieldUID>.RESPOISON>
+		LOCAL.ShieldDefenseEnergy	= <SERV.UID.<LOCAL.ShieldUID>.RESENERGY>
+		LOCAL.ForceOfAttack=<R<EVAL <SERV.UID.<ARGV[1]>.STR> / 2>,<EVAL <SERV.UID.<ARGV[1]>.STR>>>
+		LOCAL.SpeedOfAttack=<R<EVAL <SERV.UID.<ARGV[1]>.DEX>>,<EVAL <SERV.UID.<ARGV[1]>.DEX> + <SERV.UID.<ARGV[1]>.FINDLAYER.2.SPEED>>>
+		LOCAL.SkillOFAttack=<R<EVAL <<SERV.SKILL.<SERV.<UID.<ARGV[1]>.CTAG0.SkillInUse>.KEY>>/2>,<EVAL <<SERV.SKILL.<SERV.<UID.<ARGV[1]>.CTAG0.SkillInUse>.KEY>> + <SERV.<UID.<ARGV[1]>.FOOD>>>
+		LOCAL.ForceAttack=<EVAL <LOCAL.ForceOfAttack> + <LOCAL.SpeedOfAttack> + <LOCAL.SkillOFAttack>>
+		LOCAL.ShieldMaterialClass=<EVAL <SERV.UID.<ARGV[0]>.FINDLAYER.2.TAG0.MaterialClass>
+		LOCAL.SpeedOfDefense=<R<EVAL <SERV.SKILL.<SERV.<UID.<ARGV[0]>.TACTICS>/2>,<EVAL <SERV.SKILL.<SERV.<UID.<ARGV[0]>.TACTICS> + <SERV.<UID.<ARGV[0]>.DEX> + <SERV.<UID.<ARGV[0]>.FOOD>>>
+		LOCAL.SkillOfDefense=<R<EVAL <SERV.SKILL.<SERV.<UID.<ARGV[0]>.PARRYING>/2>,<EVAL <SERV.SKILL.<SERV.<UID.<ARGV[0]>.PARRYING> + <SERV.<UID.<ARGV[0]>.STR>>>
+		LOCAL.ForceDefend=<EVAL <LOCAL.ShieldMaterialClass> + <LOCAL.SpeedOfDefense> + <LOCAL.SkillOfDefense>>
+		IF (<LOCAL.ForceDefend> > <LOCAL.ForceAttack>)
+			LOCAL.ChanceToCriticalBlock=<R<EVAL <SERV.UID.<ARGV[0]>.DEX> / 5>,<EVAL <SERV.UID.<ARGV[0]>.DEX> + <SERV.<UID.<ARGV[0]>.FOOD>>>
+			LOCAL.ChanceNotToo=<R<EVAL <SERV.UID.<ARGV[1]>.DEX> / 5>,<EVAL <SERV.UID.<ARGV[1]>.DEX> + <SERV.<UID.<ARGV[1]>.FOOD>>>
+			IF (<LOCAL.ChanceToCriticalBlock> > <LOCAL.ChanceNotToo>)
+				SERV.UID.<ARGV[0]>.EMOTE block
+				DORAND 2
+					SFX 1335
+					SFX 1334
+				ENDDO
+				LOCAL.DamTransfer	=	0	// Block all damage
+			ELIF (<EVAL <LOCAL.ChanceToCriticalBlock>> > <EVAL <LOCAL.ChanceNotToo> / 2>)
+				SERV.UID.<ARGV[0]>.EMOTE deflect
+				LOCAL.DamTransfer	= <EVAL <LOCAL.DamTransfer>/2>	// Reflect some damage
+			ELSE
+				// Shield Damage
+				LOCAL.DamTransfer	= <ARGV[1]>	// Miss
+			ENDIF
+		ENDIF
+	ENDIF
+ENDIF
+ENDIF
+RETURN <EVAL <LOCAL.DamTransfer>>
+	
+[EOF]

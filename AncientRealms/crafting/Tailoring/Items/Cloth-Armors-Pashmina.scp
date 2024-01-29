@@ -1,0 +1,321 @@
+/////////////////////////////////////////////Pashmina Gargish Cloth Arms
+[ITEMDEF i_gargish_cloth_arms_1_Pashmina]
+   DEFNAME= i_gargish_cloth_arms_1_Pashmina
+   ID= i_gargish_cloth_arms_1
+   NAME= Pashmina Gargish Cloth Arms
+   ARMOR= 7
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 5 i_cloth_Pashmina
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Pashmina
+   DESCRIPTION= Gargish Cloth Arms
+
+ON=@Create
+   COLOR=color_cloth_Pashmina
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Pashmina Gargish Cloth Arms
+[ITEMDEF i_gargish_cloth_arms_2_Pashmina]
+   DEFNAME= i_gargish_cloth_arms_2_Pashmina
+   ID= i_gargish_cloth_arms_2
+   NAME= Pashmina Gargish Cloth Arms
+   ARMOR= 7
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 5 i_cloth_Pashmina
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Pashmina
+   DESCRIPTION= Gargish Cloth Arms
+
+ON=@Create
+   COLOR=color_cloth_Pashmina
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Pashmina Gargish Cloth Chest
+[ITEMDEF i_gargish_cloth_chest_1_Pashmina]
+   DEFNAME= i_gargish_cloth_chest_1_Pashmina
+   ID= i_gargish_cloth_chest_1
+   NAME= Pashmina Gargish Cloth Chest
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 8 i_cloth_Pashmina
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Pashmina
+   DESCRIPTION= Gargish Cloth Chest
+
+ON=@Create
+   COLOR=color_cloth_Pashmina
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Pashmina Gargish Cloth Chest
+[ITEMDEF i_gargish_cloth_chest_2_Pashmina]
+   DEFNAME= i_gargish_cloth_chest_2_Pashmina
+   ID= i_gargish_cloth_chest_2
+   NAME= Pashmina Gargish Cloth Chest
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 8 i_cloth_Pashmina
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Pashmina
+   DESCRIPTION= Gargish Cloth Chest
+
+ON=@Create
+   COLOR=color_cloth_Pashmina
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Pashmina Gargish Cloth Kilt
+[ITEMDEF i_gargish_cloth_kilt_1_Pashmina]
+   DEFNAME= i_gargish_cloth_kilt_1_Pashmina
+   ID= i_gargish_cloth_kilt_1
+   NAME= Pashmina Gargish Cloth Kilt
+   ARMOR= 6
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Pashmina
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Pashmina
+   DESCRIPTION= Gargish Cloth Kilt
+
+ON=@Create
+   COLOR=color_cloth_Pashmina
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Pashmina Gargish Cloth Kilt
+[ITEMDEF i_gargish_cloth_kilt_2_Pashmina]
+   DEFNAME= i_gargish_cloth_kilt_2_Pashmina
+   ID= i_gargish_cloth_kilt_2
+   NAME= Pashmina Gargish Cloth Kilt
+   ARMOR= 6
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Pashmina
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Pashmina
+   DESCRIPTION= Gargish Cloth Kilt
+
+ON=@Create
+   COLOR=color_cloth_Pashmina
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Pashmina Gargish Cloth Leggings
+[ITEMDEF i_gargish_cloth_leggings_1_Pashmina]
+   DEFNAME= i_gargish_cloth_leggings_1_Pashmina
+   ID= i_gargish_cloth_leggings_1
+   NAME= Pashmina Gargish Cloth Leggings
+   ARMOR= 6
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Pashmina
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Pashmina
+   DESCRIPTION= Gargish Cloth Leggings
+
+ON=@Create
+   COLOR=color_cloth_Pashmina
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Pashmina Gargish Cloth Leggings
+[ITEMDEF i_gargish_cloth_leggings_2_Pashmina]
+   DEFNAME= i_gargish_cloth_leggings_2_Pashmina
+   ID= i_gargish_cloth_leggings_2
+   NAME= Pashmina Gargish Cloth Leggings
+   ARMOR= 6
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Pashmina
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Pashmina
+   DESCRIPTION= Gargish Cloth Leggings
+
+ON=@Create
+   COLOR=color_cloth_Pashmina
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Pashmina Gargish Cloth Wings
+[ITEMDEF i_gargish_cloth_wings_Pashmina]
+   DEFNAME= i_gargish_cloth_wings_Pashmina
+   ID= i_gargish_cloth_wings
+   NAME= Pashmina Gargish Cloth Wings
+   ARMOR= 6
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 20
+   RESOURCES= 4 i_cloth_Pashmina
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Pashmina
+   DESCRIPTION= Gargish Cloth Wings
+
+ON=@Create
+   COLOR=color_cloth_Pashmina
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 20
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Pashmina Lord British Armour
+[ITEMDEF i_person_lord_british_Pashmina]
+   DEFNAME= i_person_lord_british_Pashmina
+   ID= i_person_lord_british
+   NAME= Pashmina Lord British Armour
+   ARMOR= 52
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 50
+   RESOURCES= 50 i_cloth_Pashmina
+   SKILLMAKE= TAILORING 120.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Pashmina
+   DESCRIPTION= Lord British Armour
+
+ON=@Create
+   COLOR=color_cloth_Pashmina
+   HITPOINTS= {122 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Pashmina Blackthorne Robe
+[ITEMDEF i_person_black_thorne_Pashmina]
+   DEFNAME= i_person_black_thorne_Pashmina
+   ID= i_person_black_thorne
+   NAME= Pashmina Blackthorne Robe
+   ARMOR= 52
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 50
+   RESOURCES= 50 i_cloth_Pashmina
+   SKILLMAKE= TAILORING 120.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Pashmina
+   DESCRIPTION= Blackthorne Robe
+
+ON=@Create
+   COLOR=color_cloth_Pashmina
+   HITPOINTS= {122 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

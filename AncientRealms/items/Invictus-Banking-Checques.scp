@@ -1,0 +1,212 @@
+[function e]
+say <ARGS>
+SAY <ARGV[0]>
+SAY <ARGV[1]>
+SAY <ARGV[2]>
+
+.e One Two Three, Four, Five
+
+[ITEMDEF i_cheque_100000]
+NAME=Cheque for 100,000gp
+ID=i_deed
+TYPE=t_script
+VALUE=100200
+
+On=@Create
+COLOR=0038e
+
+ON=@DClick
+	IF (<CONT> == <SRC.FINDLAYER(21).UID>)
+       SRC.GIVEGOLD 100000
+       SRC.SYSMESSAGE @1462 You cashed 100000gp
+       REMOVE
+       RETURN 1
+    ELSE
+        SRC.SYSMESSAGE @00029 This must be in your Pack To Use.
+        RETURN 1
+    ENDIF
+
+[ITEMDEF i_cheque_250000]
+NAME=Cheque for 250,400gp
+ID=i_deed
+TYPE=t_script
+VALUE=250000
+
+On=@Create
+COLOR=00331
+
+ON=@DClick
+	IF (<CONT> == <SRC.FINDLAYER(21).UID>)
+       SRC.GIVEGOLD 250000
+       SRC.SYSMESSAGE @1462 You cashed 250000gp
+       REMOVE
+       RETURN 1
+    ELSE
+        SRC.SYSMESSAGE @00029 This must be in your Pack To Use.
+        RETURN 1
+    ENDIF
+
+
+[ITEMDEF i_cheque_500000]
+NAME=Cheque for 500,600gp
+ID=i_deed
+TYPE=t_script
+VALUE=500000
+
+On=@Create
+COLOR=00280
+
+ON=@DClick
+	IF (<CONT> == <SRC.FINDLAYER(21).UID>)
+       SRC.GIVEGOLD 500000
+       SRC.SYSMESSAGE @1462 You cashed 500000gp
+       REMOVE
+       RETURN 1
+    ELSE
+        SRC.SYSMESSAGE @00029 This must be in your Pack To Use.
+        RETURN 1
+    ENDIF
+
+
+[ITEMDEF i_cheque_750000]
+NAME=Cheque for 750,800gp
+ID=i_deed
+TYPE=t_script
+VALUE=750000
+
+On=@Create
+COLOR=001ca
+
+ON=@DClick
+	IF (<CONT> == <SRC.FINDLAYER(21).UID>)
+       SRC.GIVEGOLD 750000
+       SRC.SYSMESSAGE @1462 You cashed 750000gp
+       REMOVE
+       RETURN 1
+    ELSE
+        SRC.SYSMESSAGE @00029 This must be in your Pack To Use.
+        RETURN 1
+    ENDIF
+
+[ITEMDEF i_cheque_1000000]
+NAME=Cheque for 1,001,000gp
+ID=i_deed
+TYPE=t_script
+VALUE=1000000
+
+On=@Create
+COLOR=00190
+
+ON=@DClick
+	IF (<CONT> == <SRC.FINDLAYER(21).UID>)
+       SRC.GIVEGOLD 1000000
+       SRC.SYSMESSAGE @1462 You cashed 1000000gp
+       REMOVE
+       RETURN 1
+    ELSE
+        SRC.SYSMESSAGE @00029 This must be in your Pack To Use.
+        RETURN 1
+    ENDIF
+
+[ITEMDEF i_cheque_2500000]
+NAME=Cheque for 2,501,200gp
+ID=i_deed
+TYPE=t_script
+VALUE=2500000
+
+On=@Create
+COLOR=00194
+
+ON=@DClick
+	IF (<CONT> == <SRC.FINDLAYER(21).UID>)
+       SRC.GIVEGOLD 2500000
+       SRC.SYSMESSAGE @1462 You cashed 2500000gp
+       REMOVE
+       RETURN 1
+    ELSE
+        SRC.SYSMESSAGE @00029 This must be in your Pack To Use.
+        RETURN 1
+    ENDIF
+
+[ITEMDEF i_cheque_5000000]
+NAME=Cheque for 5,001,400gp
+ID=i_deed
+TYPE=t_script
+VALUE=5000000
+
+On=@Create
+COLOR=00145
+
+ON=@DClick
+	IF (<CONT> == <SRC.FINDLAYER(21).UID>)
+       SRC.GIVEGOLD 5000000
+       SRC.SYSMESSAGE @1462 You cashed 5000000gp
+       REMOVE
+       RETURN 1
+    ELSE
+        SRC.SYSMESSAGE @00029 This must be in your Pack To Use.
+        RETURN 1
+    ENDIF
+
+
+[ITEMDEF i_cheque_7500000]
+NAME=Cheque for 7,501,600gp
+ID=i_deed
+TYPE=t_script
+VALUE=7500000
+
+On=@Create
+COLOR=0009e
+
+ON=@DClick
+	IF (<CONT> == <SRC.FINDLAYER(21).UID>)
+       SRC.GIVEGOLD 7500000
+       SRC.SYSMESSAGE @1462 You cashed 7500000gp
+       REMOVE
+       RETURN 1
+    ELSE
+        SRC.SYSMESSAGE @00029 This must be in your Pack To Use.
+        RETURN 1
+    ENDIF
+
+[ITEMDEF i_cheque_10000000]
+NAME=Cheque for 10,001,800gp
+ID=i_deed
+TYPE=t_script
+VALUE=10000000
+
+On=@Create
+COLOR=00095
+
+ON=@DClick
+	IF (<CONT> == <SRC.FINDLAYER(21).UID>)
+       SRC.GIVEGOLD 10000000
+       SRC.SYSMESSAGE @1462 You cashed 10000000gp
+       REMOVE
+       RETURN 1
+    ELSE
+        SRC.SYSMESSAGE @00029 This must be in your Pack To Use.
+        RETURN 1
+    ENDIF
+
+[ITEMDEF i_cheque_25000000]
+NAME=Cheque for 25,002,000gp
+ID=i_deed
+TYPE=t_script
+VALUE=25000000
+
+On=@Create
+COLOR=0008a
+
+ON=@DClick
+	IF (<CONT> == <SRC.FINDLAYER(21).UID>)
+       SRC.GIVEGOLD 25000000
+       SRC.SYSMESSAGE @1462 You cashed 25000000gp
+       REMOVE
+       RETURN 1
+    ELSE
+        SRC.SYSMESSAGE @00029 This must be in your Pack To Use.
+        RETURN 1
+    ENDIF
+
+[EOF]

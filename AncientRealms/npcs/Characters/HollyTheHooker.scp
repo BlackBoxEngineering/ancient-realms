@@ -1,0 +1,198 @@
+/////////////////////////////////////////////////////////////////////////////////////////////// Holly The Hooker
+[CHARDEF C_PROSTITUTE]
+DEFNAME=C_PROSTITUTE
+NAME=Holly The Hooker
+ID=C_WOMAN
+HIREDAYWAGE=250
+DESIRES=i_gold,e_notoriety
+CAN=MT_EQUIP|MT_USEHANDS|MT_WALK|MT_RUN|MT_FEMALE
+TSPEECH=spk_prost_one
+TSPEECH=spk_prost_two
+TSPEECH=spk_prost_three
+TSPEECH=spk_prost_four
+TSPEECH=spk_prost_five
+TSPEECH=spk_prost_six
+TSPEECH=spk_prost_seven
+TEVENTS=e_prositute_Greet
+TEVENTS=e_prostitute_HearUnk
+TEVENTS=e_PROSTITUTE_ConvInit
+TEVENTS=e_prostitute_Space
+TEVENTS=e_prostitute_Needs
+TEVENTS=e_prostitute_Refuse
+TEVENTS=e_prostitute_Scavenge
+TEVENTS=e_exp
+DAM=15,30
+ARMOR=120
+CATEGORY=Ancientrealms - Characters
+SUBSECTION=NPCs
+DESCRIPTION=Prostitute
+
+ON=@Create
+	STR={200 300}
+	DEX={50 100}
+	INT={10 30}
+	MAGICRESISTANCE=150.0
+	TACTICS=150.0
+	WRESTLING=150.0
+	FENCING=150.0
+	PARRYING=150.0
+	NPC=BRAIN_HUMAN
+	COLOR=03EA
+	KARMA={1 5000}
+	FAME={1 5000} 
+	ITEMNEWBIE=i_HAIR_PONYTAIL
+	COLOR=00a15
+	ITEM=i_FISHING_POLE
+	NAME=Whip
+	TYPE=t_whip
+	COLOR=0454
+	ITEM=i_armor_female_studded
+	COLOR=0454
+	ITEM=I_ARMOR_FEMALE_SHORTS
+	COLOR=0454
+	ITEM=I_BOOTS_THIGH
+	COLOR=0454
+	ITEM=I_CAP
+	COLOR=0454
+	on=@death
+	newITEM=backpack_rich
+	act.bounce
+	
+[TYPEDEF t_whip]
+
+On=@DClick
+TARGET Who would you like to whip?
+RETURN 1
+
+On=@TargOn_Char
+SRC.TARG.EMOTE crack
+RETURN 1
+
+[SPEECH spk_prost_one]
+ON=*BITCH*
+ON=*SLUT*
+ON=*BITCH*
+ON=*SKANK*
+ON=*HOE*
+ON=*HOOKER*
+ON=*WHORE*
+ON=*SLEEZE*
+ON=*SKEEZE*
+ON=*BAG*
+FACE
+SAY=Ohh, a naughty one Eh? Well you need a whipping!
+ATTACK
+ON=CORNER
+ON=WERE
+ON=HI
+ON=HELLO
+ON=WHATS
+ON=UP
+ON=WASSUP
+FACE
+SAY=Give it to me baby!
+
+[SPEECH spk_prost_two]
+ON=*TWAT*
+ON=*PUSSY*
+ON=*CUNT*
+FACE
+SAY=You want to rub me? I wont charge you for THAT
+
+[SPEECH spk_prost_three]
+ON=*PROSTITUTE*
+FACE
+SAY=At least I get PAID for being easy!
+
+[SPEECH spk_prost_four]
+ON=*money*
+ON=*cash*
+ON=*GOLD*
+ON=*GP*
+FACE
+SAY=I may be easy, but Im not cheap!
+
+[SPEECH spk_prost_five]
+ON=*HORE*
+ON=*HO*
+FACE
+SAY=Your calling me names you can't even spell? Gimme some money and you may still get some sucky sucky!
+
+[SPEECH spk_prost_six]
+ON=*SEX*
+ON=*FUCK*
+FACE
+SAY=Me so horny, me love you long time
+
+[SPEECH spk_prost_seven]
+ON=*ASS*
+ON=*SUCK*
+ON=*COCK*
+ON=*DICK*
+ON=*PECKER*
+FACE
+anim 32
+
+[EVENTS e_prositute_Greet]
+
+ON=@NPCHearGreeting
+
+[EVENTS e_prostitute_HearUnk]
+ON=@NPCHearUnknown
+FACE
+SAY=Well i dunno bout that, but i do know about sucky sucky.
+
+[EVENTS e_PROSTITUTE_ConvInit]
+ON=@NPCSeeNewPlayer
+FACE
+SAY=HAY I work this corner find your own!
+
+[EVENTS e_prostitute_Space]
+
+ON=@PersonalSpace
+SAY=Are you grabing my ass?
+SAY=Hay I charge for that!
+SAY=Oooohhhh, That feels good!
+SAY=You like that too eh?
+
+[EVENTS e_prostitute_Needs]
+// Notes: This is called whenever an item is given to an NPC
+ON=@NPCAcceptItem
+// I was given an item i want
+FACE
+SAY Oh <src.name>? now were talking!
+SAY A little sucky sucky?
+anim 32
+anim 32
+SAY=oh yah
+anim 32
+anim 32
+SAY you like that?
+anim 32
+anim 32
+SAY=WELL worth the money huh.
+anim 32
+anim 32
+SAY=OK? So soon? Haha that didnt take long.
+
+ON=@NPCHearNeed
+FACE
+SAY You say <needname>? Get me some! Mabee a little somthing in it for you!
+
+[EVENTS e_prostitute_Refuse]
+
+ON=@NPCRefuseItem
+// I got something I don't want.
+FACE
+SAY I dont want no damn <argo.name>, Gemme gold!
+
+[EVENTS e_prostitute_Scavenge]
+
+ON=@npcSeeWantItem
+
+SAY Mine!
+SAY I'll take that!
+SAY Keep away from this! It's mine!
+SAY Ah ha! It's mine!
+SAY Come here, my pretty.
+[EOF]

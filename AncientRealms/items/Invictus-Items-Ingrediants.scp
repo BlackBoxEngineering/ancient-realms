@@ -1,0 +1,14 @@
+
+[ITEMDEF 01cf1]
+DEFNAME=i_blood_2
+VALUE=1
+TYPE=T_BLOOD
+weight=.1
+CATEGORY=Decoration - Dungeons and The Dead
+SUBSECTION=Blood
+DESCRIPTION=@
+DUPELIST=01cf2,01cf3,01cf4,01cf5,01cf6,01cf7,01cf8,01cf9,01cfa,01cfb,01cfc,01cfd,01cfe,01cff,01d00,01d01,01d02,01d03,01d04,01d05,01d06,01d07,01d08,01d09,01d0a,01d0b,01d0c,01d0d,01d0e,01d0f,01d10,01d11,01d12
+
+
+
+[EOF]

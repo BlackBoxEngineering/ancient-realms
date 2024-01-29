@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Barite Quarter Staff
+
+[ITEMDEF i_staff_quarter_Barite]
+   DEFNAME=i_staff_quarter_Barite
+   ID=i_staff_quarter
+   NAME=Barite Quarter Staff
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=24
+   VALUE=108
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={20 36}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Barite]
+   DEFNAME=i_serpentstone_staff_Barite
+   ID=i_serpentstone_staff
+   NAME=Barite Serpentstone Staff
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=28
+   VALUE=108
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={60 76}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Barite]
+   DEFNAME=i_staff_bladed_double_Barite
+   ID=i_staff_bladed_double
+   NAME=Barite Double Bladed Staff
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=36
+   VALUE=108
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={120 136}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Glass Staff
+
+[ITEMDEF i_glass_staff_Barite]
+   DEFNAME=i_glass_staff_Barite
+   ID=i_glass_staff
+   NAME=Barite Glass Staff
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=33
+   VALUE=108
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={90 106}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Bladed Staff
+
+[ITEMDEF i_bladed_staff_Barite]
+   DEFNAME=i_bladed_staff_Barite
+   ID=i_bladed_staff
+   NAME=Barite Bladed Staff
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=34
+   VALUE=108
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={115 131}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Tongs
+
+[ITEMDEF i_tongs_Barite]
+   DEFNAME=i_tongs_Barite
+   ID=i_tongs
+   NAME=Barite Tongs
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=11
+   VALUE=108
+   SPEED=13
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={0 16}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Mace
+
+[ITEMDEF i_mace_Barite]
+   DEFNAME=i_mace_Barite
+   ID=i_mace
+   NAME=Barite Mace
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=24
+   VALUE=108
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Maul
+
+[ITEMDEF i_maul_Barite]
+   DEFNAME=i_maul_Barite
+   ID=i_maul
+   NAME=Barite Maul
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=108
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={40 56}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Scepter
+
+[ITEMDEF i_scepter_Barite]
+   DEFNAME=i_scepter_Barite
+   ID=i_scepter
+   NAME=Barite Scepter
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=28
+   VALUE=108
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={50 66}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Barite]
+   DEFNAME=i_hammer_sledge_Barite
+   ID=i_hammer_sledge
+   NAME=Barite Sledge Hammer
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=28
+   VALUE=108
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={20 36}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Barite]
+   DEFNAME=i_hammer_smith_Barite
+   ID=i_hammer_smith
+   NAME=Barite Smiths Hammer
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=14
+   VALUE=108
+   SPEED=13
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite War Mace
+
+[ITEMDEF i_mace_war_Barite]
+   DEFNAME=i_mace_war_Barite
+   ID=i_mace_war
+   NAME=Barite War Mace
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=32
+   VALUE=108
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={80 96}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Disc Mace
+
+[ITEMDEF i_disc_mace_Barite]
+   DEFNAME=i_disc_mace_Barite
+   ID=i_disc_mace
+   NAME=Barite Disc Mace
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=32
+   VALUE=108
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={70 86}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite War Hammer
+
+[ITEMDEF i_hammer_war_Barite]
+   DEFNAME=i_hammer_war_Barite
+   ID=i_hammer_war
+   NAME=Barite War Hammer
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=38
+   VALUE=108
+   SPEED=53
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={100 116}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Hammer Pick
+
+[ITEMDEF i_hammer_pick_Barite]
+   DEFNAME=i_hammer_pick_Barite
+   ID=i_hammer_pick
+   NAME=Barite Hammer Pick
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=34
+   VALUE=108
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={55 71}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite War Axe
+
+[ITEMDEF i_axe_war_Barite]
+   DEFNAME=i_axe_war_Barite
+   ID=i_axe_war
+   NAME=Barite War Axe
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=24
+   VALUE=108
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={65 81}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Tessen
+
+[ITEMDEF i_tessen_Barite]
+   DEFNAME=i_tessen_Barite
+   ID=i_tessen
+   NAME=Barite Tessen
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=23
+   VALUE=108
+   SPEED=38
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={75 91}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Long Sword
+
+[ITEMDEF i_sword_long_Barite]
+   DEFNAME=i_sword_long_Barite
+   ID=i_sword_long
+   NAME=Barite Long Sword
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=108
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={10 26}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Broad Sword
+
+[ITEMDEF i_sword_broad_Barite]
+   DEFNAME=i_sword_broad_Barite
+   ID=i_sword_broad
+   NAME=Barite Broad Sword
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=108
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={20 36}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Scimitar
+
+[ITEMDEF i_scimitar_Barite]
+   DEFNAME=i_scimitar_Barite
+   ID=i_scimitar
+   NAME=Barite Scimitar
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=108
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Viking Sword
+
+[ITEMDEF i_sword_viking_Barite]
+   DEFNAME=i_sword_viking_Barite
+   ID=i_sword_viking
+   NAME=Barite Viking Sword
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=108
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={35 51}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Katana
+
+[ITEMDEF i_katana_Barite]
+   DEFNAME=i_katana_Barite
+   ID=i_katana
+   NAME=Barite Katana
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=108
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={80 96}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Wakizashi
+
+[ITEMDEF i_wakizashi_Barite]
+   DEFNAME=i_wakizashi_Barite
+   ID=i_wakizashi
+   NAME=Barite Wakizashi
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=108
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={45 61}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Long Sword
+
+[ITEMDEF i_sword_long_b_Barite]
+   DEFNAME=i_sword_long_b_Barite
+   ID=i_sword_long_b
+   NAME=Barite Long Sword
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=108
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={50 66}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Paladin Sword
+
+[ITEMDEF i_sword_paladin_Barite]
+   DEFNAME=i_sword_paladin_Barite
+   ID=i_sword_paladin
+   NAME=Barite Paladin Sword
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=108
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={65 81}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Bokuto
+
+[ITEMDEF i_bokuto_Barite]
+   DEFNAME=i_bokuto_Barite
+   ID=i_bokuto
+   NAME=Barite Bokuto
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=108
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={70 86}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Barite]
+   DEFNAME=i_Radiant_Scimitar_Barite
+   ID=i_Radiant_Scimitar
+   NAME=Barite Radiant Scimitar
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=108
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={75 91}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Bone Harvester
+
+[ITEMDEF i_bone_harvester_Barite]
+   DEFNAME=i_bone_harvester_Barite
+   ID=i_bone_harvester
+   NAME=Barite Bone Harvester
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=108
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={55 71}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Butcher Knife
+
+[ITEMDEF i_knife_butcher_Barite]
+   DEFNAME=i_knife_butcher_Barite
+   ID=i_knife_butcher
+   NAME=Barite Butcher Knife
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=108
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Barite]
+   DEFNAME=i_cleaver_meat_Barite
+   ID=i_cleaver_meat
+   NAME=Barite Meat Cleaver
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=108
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Elven Machete
+
+[ITEMDEF i_elven_machete_Barite]
+   DEFNAME=i_elven_machete_Barite
+   ID=i_elven_machete
+   NAME=Barite Elven Machete
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=108
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={60 76}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Bone Machete
+
+[ITEMDEF i_bone_machete_Barite]
+   DEFNAME=i_bone_machete_Barite
+   ID=i_bone_machete
+   NAME=Barite Bone Machete
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=108
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={50 66}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Daisho
+
+[ITEMDEF i_daisho_Barite]
+   DEFNAME=i_daisho_Barite
+   ID=i_daisho
+   NAME=Barite Daisho
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=29
+   VALUE=108
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={65 81}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite No-Dachi
+
+[ITEMDEF i_no_dachi_Barite]
+   DEFNAME=i_no_dachi_Barite
+   ID=i_no_dachi
+   NAME=Barite No-Dachi
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=30
+   VALUE=108
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={75 91}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Rune Blade
+
+[ITEMDEF i_Rune_Blade_Barite]
+   DEFNAME=i_Rune_Blade_Barite
+   ID=i_Rune_Blade
+   NAME=Barite Rune Blade
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=32
+   VALUE=108
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={115 131}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Axe
+
+[ITEMDEF i_axe_Barite]
+   DEFNAME=i_axe_Barite
+   ID=i_axe
+   NAME=Barite Axe
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=22
+   VALUE=108
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={42 58}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Bardiche
+
+[ITEMDEF i_bardiche_Barite]
+   DEFNAME=i_bardiche_Barite
+   ID=i_bardiche
+   NAME=Barite Bardiche
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=108
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={58 74}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Battle Axe
+
+[ITEMDEF i_axe_battle_Barite]
+   DEFNAME=i_axe_battle_Barite
+   ID=i_axe_battle
+   NAME=Barite Battle Axe
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=108
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={65 81}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Double Axe
+
+[ITEMDEF i_axe_double_Barite]
+   DEFNAME=i_axe_double_Barite
+   ID=i_axe_double
+   NAME=Barite Double Axe
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=108
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={70 86}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Barite]
+   DEFNAME=i_axe_exec_Barite
+   ID=i_axe_exec
+   NAME=Barite Exectutioners Axe
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=108
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={73 89}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Halberd
+
+[ITEMDEF i_halberd_Barite]
+   DEFNAME=i_halberd_Barite
+   ID=i_halberd
+   NAME=Barite Halberd
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=108
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={75 91}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Hatchet
+
+[ITEMDEF i_hatchet_Barite]
+   DEFNAME=i_hatchet_Barite
+   ID=i_hatchet
+   NAME=Barite Hatchet
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=23
+   VALUE=108
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={40 56}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Barite]
+   DEFNAME=i_axe_battle_large_Barite
+   ID=i_axe_battle_large
+   NAME=Barite Large Battle Axe
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=35
+   VALUE=108
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={100 116}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Ornate Axe
+
+[ITEMDEF i_ornate_axe_Barite]
+   DEFNAME=i_ornate_axe_Barite
+   ID=i_ornate_axe
+   NAME=Barite Ornate Axe
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=108
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={60 76}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Barite]
+   DEFNAME=i_axe_two_hand_Barite
+   ID=i_axe_two_hand
+   NAME=Barite Two Handed Axe
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=108
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={55 71}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Dual Axes
+
+[ITEMDEF i_dual_short_axes_Barite]
+   DEFNAME=i_dual_short_axes_Barite
+   ID=i_dual_short_axes
+   NAME=Barite Dual Axes
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=108
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={95 111}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Cresent Blade
+
+[ITEMDEF i_crescent_blade_Barite]
+   DEFNAME=i_crescent_blade_Barite
+   ID=i_crescent_blade
+   NAME=Barite Cresent Blade
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=35
+   VALUE=108
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={110 126}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Dagger
+
+[ITEMDEF i_dagger_Barite]
+   DEFNAME=i_dagger_Barite
+   ID=i_dagger
+   NAME=Barite Dagger
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=108
+   SPEED=26
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={10 26}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Skinning Knife
+
+[ITEMDEF i_knife_skinning_Barite]
+   DEFNAME=i_knife_skinning_Barite
+   ID=i_knife_skinning
+   NAME=Barite Skinning Knife
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=108
+   SPEED=26
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={15 31}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Barite]
+   DEFNAME=i_sword_Assassin_Spike_Barite
+   ID=i_sword_Assassin_Spike
+   NAME=Barite Assassin Spike
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=108
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Cutlass
+
+[ITEMDEF i_cutlass_Barite]
+   DEFNAME=i_cutlass_Barite
+   ID=i_cutlass
+   NAME=Barite Cutlass
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=108
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={25 41}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Short Blade
+
+[ITEMDEF i_shortblade_Barite]
+   DEFNAME=i_shortblade_Barite
+   ID=i_shortblade
+   NAME=Barite Short Blade
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=108
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={35 51}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Scythe
+
+[ITEMDEF i_scythe_Barite]
+   DEFNAME=i_scythe_Barite
+   ID=i_scythe
+   NAME=Barite Scythe
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=31
+   VALUE=108
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={115 131}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Short Spear
+
+[ITEMDEF i_spear_short_Barite]
+   DEFNAME=i_spear_short_Barite
+   ID=i_spear_short
+   NAME=Barite Short Spear
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=108
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={45 61}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite War Fork
+
+[ITEMDEF i_war_fork_Barite]
+   DEFNAME=i_war_fork_Barite
+   ID=i_war_fork
+   NAME=Barite War Fork
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=108
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={50 66}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Leafblade
+
+[ITEMDEF i_sword_leafblade_Barite]
+   DEFNAME=i_sword_leafblade_Barite
+   ID=i_sword_leafblade
+   NAME=Barite Leafblade
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=108
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={60 76}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Barite]
+   DEFNAME=i_elven_spellblade_Barite
+   ID=i_elven_spellblade
+   NAME=Barite Elven Spell Blade
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=108
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={75 91}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Pitchfork
+
+[ITEMDEF i_pitchfork_Barite]
+   DEFNAME=i_pitchfork_Barite
+   ID=i_pitchfork
+   NAME=Barite Pitchfork
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=108
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={55 71}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite War Cleaver
+
+[ITEMDEF i_war_cleaver_Barite]
+   DEFNAME=i_war_cleaver_Barite
+   ID=i_war_cleaver
+   NAME=Barite War Cleaver
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=108
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={65 81}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Pike
+
+[ITEMDEF i_pike_Barite]
+   DEFNAME=i_pike_Barite
+   ID=i_pike
+   NAME=Barite Pike
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=108
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={70 86}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Blood Blade
+
+[ITEMDEF i_bloodblade_Barite]
+   DEFNAME=i_bloodblade_Barite
+   ID=i_bloodblade
+   NAME=Barite Blood Blade
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=108
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={75 91}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Kama
+
+[ITEMDEF i_kama_Barite]
+   DEFNAME=i_kama_Barite
+   ID=i_kama
+   NAME=Barite Kama
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=108
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={77 93}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Kryss
+
+[ITEMDEF i_kryss_Barite]
+   DEFNAME=i_kryss_Barite
+   ID=i_kryss
+   NAME=Barite Kryss
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=108
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={80 96}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Lajatang
+
+[ITEMDEF i_lajatang_Barite]
+   DEFNAME=i_lajatang_Barite
+   ID=i_lajatang
+   NAME=Barite Lajatang
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=108
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={85 101}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Sai
+
+[ITEMDEF i_sai_Barite]
+   DEFNAME=i_sai_Barite
+   ID=i_sai
+   NAME=Barite Sai
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=108
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={76 92}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Tekagi
+
+[ITEMDEF i_tekagi_Barite]
+   DEFNAME=i_tekagi_Barite
+   ID=i_tekagi
+   NAME=Barite Tekagi
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=108
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={90 106}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Barite Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Barite]
+   DEFNAME=i_dual_pointed_spear_Barite
+   ID=i_dual_pointed_spear
+   NAME=Barite Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Barite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=30
+   VALUE=108
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Barite
+
+ON=@Create
+   COLOR=color_ore_Barite
+   HITPOINTS={115 131}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

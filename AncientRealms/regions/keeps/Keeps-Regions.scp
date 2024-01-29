@@ -1,0 +1,11 @@
+[AREADEF a_Ezys_Rectangle]
+EVENTS=r_default,r_default_rock,r_default_water,r_LogClass_All_rare,r_default_grass
+NAME=Ezys Spot
+GROUP=AncientRealms
+FLAGS=0880
+P=2556,343,15
+RECT=2553,343,2559,343
+TAG.KEEPNAME=Ezys Spot
+
+
+[EOF]

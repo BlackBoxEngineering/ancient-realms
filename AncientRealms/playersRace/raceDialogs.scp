@@ -1,0 +1,236 @@
+////////////////////////////////////////////// DIALOG d_racePlayerWait
+[DIALOG d_racePlayerWait]
+1,1
+PAGE 0
+NOMOVE
+
+PAGE 1
+RESIZEPIC 0 0 83 320 180
+DTEXT 32 30 35 YOU CANNOT PASS THESE POSTS WHILE
+DTEXT 32 55 35 YOU ARE IN A KNOCKOUT RACE. YOU
+DTEXT 32 80 35 MUST WAIT WITHIN THESE POSTS UNTIL
+DTEXT 32 105 35 THE NEXT ROUND STARTS. REMEBER HE
+DTEXT 32 130 35 WHO COMES LAST GETS KNOCKED OUT
+
+////////////////////////////////////////////// DIALOG d_racePlayerStatus
+[DIALOG d_racePlayerStatus]
+1,1
+PAGE 0
+NOMOVE
+
+PAGE 1
+LOCAL.Spacer=30
+DTEXT 30 50 434 [LAP <EVAL <SRC.CTAG.RaceLapNo>>][<SRC.NAME>][<EVAL <SRC.CTAG.RaceDistance>>]
+////////////////////////////////////////////// DIALOG d_raceTrackSetup
+[DIALOG d_raceTrackSetup]
+50,50
+PAGE 0
+
+PAGE 1
+RESIZEPIC 0 0 5120 287 140
+RESIZEPIC 20 20 5054 250 100
+DTEXT 100 3 1782 - ANCIENTS -
+DTEXT 30 30 347 SPHERESERVER RACE-TRACK CONTROL
+DHTMLGUMP 35 58 115 25 40 0 <DEF.CENTER> CheckPoint (<EVAL <SERV.UID.<VAR.RaceControlUID>.TAG.checkpointselected>>) <DEF.CENTER>
+DHTMLGUMP 35 88 115 25 40 0 <DEF.CENTER> Dist (<EVAL <SERV.UID.<VAR.RaceControlUID>.TAG.CheckPoint_<EVAL <SERV.UID.<VAR.RaceControlUID>.TAG.checkpointselected>>_DistanceFromLastCP>>) <DEF.CENTER>
+DTEXT 110 120 1782 - JESUS -
+BUTTON 158 58 4015 4016 1 0 10
+BUTTON 193 58 4018 4019 1 0 20
+BUTTON 228 58 4006 4007 1 0 30
+BUTTON 158 88 4009 4010 0 2 1
+BUTTON 193 88 4012 4013 0 3 1
+BUTTON 228 88 4024 4025 1 0 100
+
+PAGE 2
+RESIZEPIC 0 0 5120 287 340
+RESIZEPIC 20 20 5054 250 300
+BUTTON 220 290 4024 4025 0 1 1
+LOCAL.Spacer=8
+RESIZEPIC 0 0 5120 287 <EVAL ((<SERV.UID.<VAR.RaceControlUID>.TAG0.PlayerCount>*<LOCAL.Spacer>)*WinningLevels)+190>
+RESIZEPIC 20 20 5054 250 <EVAL ((<SERV.UID.<VAR.RaceControlUID>.TAG0.PlayerCount>*<LOCAL.Spacer>)*WinningLevels)+150>
+DTEXT 100 3 1782 - ANCIENTS -
+DTEXT 25 30 347 SPHERESERVER RACE-TRACK CONTROL
+DTEXT 50 85 347 - POLE POSITION -
+DHTMLGUMP 45 58 200 25 40 0 <DEF.CENTER> Players Queued (<EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.PlayerCount>>) <DEF.CENTER>
+IF <EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.PlayerCount>>
+	LOCAL.Spacer=8
+	FOR Player 1 <EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.PlayerCount>>
+		DTEXT 60 <EVAL ((<LOCAL.Player>*<LOCAL.Spacer>)*WinningLevels)+90> 367 <SERV.UID.<VAR.RaceControlUID>.TAG.PolePosition_<EVAL <LOCAL.Player>>_NAME>
+	ENDFOR
+ENDIF
+BUTTON 50 <EVAL ((<LOCAL.Player>*<LOCAL.Spacer>)*WinningLevels)+140> 4006 4007 1 0 50
+DTEXT 85 <EVAL ((<LOCAL.Player>*<LOCAL.Spacer>)*WinningLevels)+139> 347 SH
+BUTTON 220 <EVAL ((<LOCAL.Player>*<LOCAL.Spacer>)*WinningLevels)+139> 4024 4025 0 3 1
+DHTMLGUMP 45 58 200 25 40 0 <DEF.CENTER> Players Queued (<EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.PlayerCount>>) <DEF.CENTER>
+
+PAGE 3
+RESIZEPIC 0 0 5120 287 240
+RESIZEPIC 20 20 5054 250 200
+DTEXT 100 3 1782 - ANCIENTS -
+DTEXT 25 30 347 SPHERESERVER RACE-TRACK CONTROL
+DHTMLGUMP 45 58 200 25 40 0 <DEF.CENTER> Players Queued (<EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.PlayerCount>>) <DEF.CENTER>
+DTEXT 85 90 347 MANAGE QUEUE
+BUTTON 50 90 4012 4013 0 4 1
+DHTMLGUMP 45 122 200 25 40 0 <DEF.CENTER> CheckPoints (<EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.CheckPointCount>>) <DEF.CENTER>
+DTEXT 85 154 347 CHECK POINTS
+BUTTON 50 154 4012 4013 0 5 1
+DTEXT 85 190 347 RACE OPTIONS
+BUTTON 50 190 4006 4007 0 6 1
+DTEXT 110 220 1782 - JESUS -
+BUTTON 220 190 4024 4025 0 1 1
+
+PAGE 4
+LOCAL.Spacer=8
+RESIZEPIC 0 0 5120 287 <EVAL ((<SERV.UID.<VAR.RaceControlUID>.TAG0.PlayerCount>*<LOCAL.Spacer>)*WinningLevels)+190>
+RESIZEPIC 20 20 5054 250 <EVAL ((<SERV.UID.<VAR.RaceControlUID>.TAG0.PlayerCount>*<LOCAL.Spacer>)*WinningLevels)+150>
+DTEXT 100 3 1782 - ANCIENTS -
+DTEXT 25 30 347 SPHERESERVER RACE-TRACK CONTROL
+DTEXT 50 85 347 - PLAYERS -
+DHTMLGUMP 45 58 200 25 40 0 <DEF.CENTER> Players Queued (<EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.PlayerCount>>) <DEF.CENTER>
+IF <EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.PlayerCount>>
+	LOCAL.Spacer=8
+	FOR Player 1 <EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.PlayerCount>>
+		DTEXT 60 <EVAL ((<LOCAL.Player>*<LOCAL.Spacer>)*WinningLevels)+90> 367 <SERV.UID.<VAR.RaceControlUID>.TAG0.PlayerNumber_<EVAL <LOCAL.Player>>_NAME>
+	ENDFOR
+ENDIF
+BUTTON 50 <EVAL ((<LOCAL.Player>*<LOCAL.Spacer>)*WinningLevels)+140> 4006 4007 1 0 50
+DTEXT 85 <EVAL ((<LOCAL.Player>*<LOCAL.Spacer>)*WinningLevels)+139> 347 SHUFFLE QUEUE
+BUTTON 220 <EVAL ((<LOCAL.Player>*<LOCAL.Spacer>)*WinningLevels)+139> 4024 4025 0 3 1
+DHTMLGUMP 45 58 200 25 40 0 <DEF.CENTER> Players Queued (<EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.PlayerCount>>) <DEF.CENTER>
+
+PAGE 5
+LOCAL.Spacer=8
+RESIZEPIC 0 0 5120 287 <EVAL ((<EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.CheckPointCount>>*<LOCAL.Spacer>)*WinningLevels)+195>
+RESIZEPIC 20 20 5054 250 <EVAL ((<EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.CheckPointCount>>*<LOCAL.Spacer>)*WinningLevels)+155>
+DTEXT 100 3 1782 - ANCIENTS -
+DTEXT 25 30 347 SPHERESERVER RACE-TRACK CONTROL
+DTEXT 82 85 347 - CHECK POINTS -
+DHTMLGUMP 45 58 200 25 40 0 <DEF.CENTER> Check Points (<EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.CheckPointCount>>) <DEF.CENTER>
+IF <EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.CheckPointCount>>
+	LOCAL.Spacer=8
+	FOR CheckPoint 1 <EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.CheckPointCount>>
+		IF <SERV.UID.<VAR.RaceControlUID>.TAG0.CheckPoint_<EVAL <LOCAL.CheckPoint>>_UID>
+		DTEXT 35 <EVAL ((<LOCAL.CheckPoint>*<LOCAL.Spacer>)*WinningLevels)+90> 367 CheckPoint (<EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.CheckPoint_<EVAL <LOCAL.CheckPoint>>_CheckPointNumber>>)
+		DTEXT 135 <EVAL ((<LOCAL.CheckPoint>*<LOCAL.Spacer>)*WinningLevels)+90> 367 (<SERV.UID.<VAR.RaceControlUID>.TAG0.CheckPoint_<EVAL <LOCAL.CheckPoint>>_P>)
+		DTEXT 235 <EVAL ((<LOCAL.CheckPoint>*<LOCAL.Spacer>)*WinningLevels)+90> 367 (<EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.CheckPoint_<EVAL <LOCAL.CheckPoint>>_DistanceFromLastCP>>)
+		ENDIF
+	ENDFOR
+	DHTMLGUMP 45 58 200 25 40 0 <DEF.CENTER> Check Points (<EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.CheckPointCount>>) <DEF.CENTER>
+ENDIF
+BUTTON 230 <EVAL ((<LOCAL.CheckPoint>*<LOCAL.Spacer>)*WinningLevels)+119> 4024 4025 0 3 1
+IF (<EVAL <f_raceCalculateTotalDistance>>)
+	DTEXT 70 <EVAL ((<LOCAL.CheckPoint>*<LOCAL.Spacer>)*WinningLevels)+120> 847 TOTAL DISTANCE (<EVAL <f_raceCalculateTotalDistance>>) 
+ENDIF
+BUTTON 35 <EVAL ((<LOCAL.CheckPoint>*<LOCAL.Spacer>)*WinningLevels)+149> 4006 4007 0 1 1
+DTEXT 70 <EVAL ((<LOCAL.CheckPoint>*<LOCAL.Spacer>)*WinningLevels)+150> 347 MANAGE CHECK POINTS
+
+PAGE 6
+RESIZEPIC 0 0 5120 247 180
+RESIZEPIC 20 20 5054 210 140
+DTEXT 85 40 347 SET LAPS :
+DTEXTENTRY 165 40 95 50 63 1 <EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.LapsOn>>
+BUTTON 45 40 4006 4007 1 0 60
+DTEXT 85 70 347 SET PROXIMITY :
+DTEXTENTRY 195 70 95 50 63 2 <EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.Proximity>>
+BUTTON 45 70 4006 4007 1 0 70
+DTEXT 85 100 347 START COUNT :
+DTEXTENTRY 185 100 95 50 63 3 <EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.StartCount>>
+BUTTON 45 100 4006 4007 1 0 80
+DTEXT 85 130 555 START RACE
+BUTTON 45 130 4006 4007 1 0 40
+BUTTON 180 130 4024 4025 0 1 1
+
+[DIALOG d_raceTrackSetup BUTTON]
+ONBUTTON=10
+// Back a Check Point
+	REF1=<SERV.UID.<VAR.RaceControlUID>>
+	IF !<EVAL <REF1.TAG0.checkpointselected>>
+		SRC.SYSMESSAGE @0029,,1 There is currently no check points placed, use the forward arrow to create the first check point and race start
+		SRC.SDIALOG d_raceTrackSetup
+		REF1.TAG.checkpointselected=0
+		RETURN 1
+	ELIF <EVAL <REF1.TAG0.checkpointselected>>==1
+		SRC.SYSMESSAGE @0029,,1 Check Point one is the Race Start
+	ELSE
+		IF <EVAL <REF1.TAG0.checkpointselected>> > 0
+			REF1.TAG.checkpointselected=<EVAL <REF1.TAG.checkpointselected>-1>
+		ENDIF
+		SERV.UID.<SRC.UID>.P=<SERV.UID.<REF1.TAG0.CheckPoint_<EVAL <REF1.TAG.checkpointselected>>_UID>.P>
+		SERV.UID.<SRC.UID>.UPDATE
+	ENDIF
+	SRC.SDIALOG d_raceTrackSetup 1
+	RETURN 1
+
+ONBUTTON=20
+// Delete a Check Point
+	REF1=<SERV.UID.<VAR.RaceControlUID>>
+	IF ((<REF1.TAG.CheckPoint_<EVAL <REF1.TAG.CheckPointSelected>-1>_UID>)&&(<REF1.TAG.CheckPoint_<EVAL <REF1.TAG.CheckPointSelected>+1>_UID>))
+		IF ((!<f_isVertical <REF1.TAG.CheckPoint_<EVAL <REF1.TAG.CheckPointSelected>-1>_UID>, <REF1.TAG.CheckPoint_<EVAL <REF1.TAG.CheckPointSelected>+1>_UID>>)&&(!<f_isHorizontal <REF1.TAG.CheckPoint_<EVAL <REF1.TAG.CheckPointSelected>-1>_UID>, <REF1.TAG.CheckPoint_<EVAL <REF1.TAG.CheckPointSelected>+1>_UID>>))
+			SRC.SYSMESSAGE @33,,1 As CheckPoint 3 is not vertically or horizontally inline with CheckPoint 1 you cannot remove CheckPoint 2 move CheckPoint 3 and try again
+			RETURN 1
+		ENDIF
+	ENDIF
+	f_raceRemoveCheckPoint <EVAL <REF1.TAG.CheckPointSelected>>
+	SRC.SYSMESSAGE @0029,,1 Deleting Check Point (<EVAL <REF1.TAG.CheckPointSelected>>)
+	REF1.TAG.CheckPointSelected=<EVAL <REF1.TAG.CheckPointSelected>-1>
+	IF <EVAL <REF1.TAG.CheckPointSelected>> < 0
+		REF1.TAG.CheckPointSelected=0
+		SERV.UID.<SRC.UID>.P= <REF1.P>
+		SERV.UID.<SRC.UID>.UPDATE
+	ELSE
+		SERV.UID.<SRC.UID>.P=<SERV.UID.<REF1.TAG.CheckPoint_<EVAL <REF1.TAG.CheckPointSelected>>_UID>.P>
+		SERV.UID.<SRC.UID>.UPDATE
+	ENDIF
+	SRC.SDIALOG d_raceTrackSetup 1
+	RETURN 1
+
+ONBUTTON=30
+// Forward a Check Point or create a Check Point
+	REF1=<SERV.UID.<VAR.RaceControlUID>>
+	IF !<REF1.TAG.CheckPoint_<EVAL <REF1.TAG0.checkpointselected>+1>_UID>
+		SRC.SYSMESSAGE @55,,1 Please Target were you wish to place the check point
+		SRC.TARGETFG f_racePlaceCheckPoint
+		RETURN 1
+	ELSE
+		REF1.TAG.checkpointselected=<EVAL <REF1.TAG.checkpointselected>+1>
+		SERV.UID.<SRC.UID>.P= <SERV.UID.<REF1.TAG0.CheckPoint_<EVAL <REF1.TAG.checkpointselected>>_UID>.P>
+		SERV.UID.<SRC.UID>.UPDATE
+	ENDIF
+	SRC.SDIALOG d_raceTrackSetup 1
+	RETURN 1
+	
+ONBUTTON=40 
+	// Just incase the StartCount or CountDown has not been set
+	REF1=<SERV.UID.<VAR.RaceControlUID>> 
+	IF <EVAL <SERV.UID.<VAR.RaceControlUID>.TAG0.StartCount>> < 1 
+		SERV.UID.<VAR.RaceControlUID>.TAG.StartCount=<EVAL CountDownDefault> 
+		//SERV.LOG Race CountDown Not Set Using Default Value 
+	ENDIF 
+	f_raceTrackDefineStart 
+	RETURN 1 
+
+ONBUTTON=50
+	// Shuffle Queue
+	IF !<EVAL <SERV.UID.<VAR.RaceControlUID>.TAG.PreventSignUp>>
+		f_raceShuffleQueue
+	ELSE
+		SYSMESSAGE @55,,1 Currently shuffling dont spam the button
+	ENDIF
+	SRC.SDIALOG d_raceTrackSetup 4
+	
+ONBUTTON=60
+	SERV.UID.<VAR.RaceControlUID>.TAG.LapsOn=<ARGTXT[1]>
+	SRC.SDIALOG d_raceTrackSetup 6
+	RETURN 1
+
+ONBUTTON=70
+	SERV.UID.<VAR.RaceControlUID>.TAG.Proximity=<ARGTXT[2]>
+	SRC.SDIALOG d_raceTrackSetup 6
+	RETURN 1
+
+ONBUTTON=80
+	SERV.UID.<VAR.RaceControlUID>.TAG.StartCount=<ARGTXT[3]>
+	SRC.SDIALOG d_raceTrackSetup 6
+	RETURN 1
+
+[EOF]

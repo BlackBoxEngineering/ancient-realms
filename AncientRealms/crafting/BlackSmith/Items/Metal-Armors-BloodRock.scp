@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////BloodRock Platemail Arms
+[ITEMDEF i_platemail_arms_BloodRock]
+   DEFNAME= i_platemail_arms_BloodRock
+   ID= i_platemail_arms
+   NAME= BloodRock Platemail Arms
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Platemail Leggings
+[ITEMDEF i_platemail_leggings_BloodRock]
+   DEFNAME= i_platemail_leggings_BloodRock
+   ID= i_platemail_leggings
+   NAME= BloodRock Platemail Leggings
+   ARMOR= 27
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Platemail Helmet
+[ITEMDEF i_platemail_helm_BloodRock]
+   DEFNAME= i_platemail_helm_BloodRock
+   ID= i_platemail_helm
+   NAME= BloodRock Platemail Helmet
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Platemail Gorget
+[ITEMDEF i_platemail_gorget_BloodRock]
+   DEFNAME= i_platemail_gorget_BloodRock
+   ID= i_platemail_gorget
+   NAME= BloodRock Platemail Gorget
+   ARMOR= 17
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Platemail Gorget
+[ITEMDEF i_platemail_gorget2_BloodRock]
+   DEFNAME= i_platemail_gorget2_BloodRock
+   ID= i_platemail_gorget2
+   NAME= BloodRock Platemail Gorget
+   ARMOR= 17
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Platemail Gloves
+[ITEMDEF i_platemail_gloves_BloodRock]
+   DEFNAME= i_platemail_gloves_BloodRock
+   ID= i_platemail_gloves
+   NAME= BloodRock Platemail Gloves
+   ARMOR= 17
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Platemail Chest
+[ITEMDEF i_platemail_chest_BloodRock]
+   DEFNAME= i_platemail_chest_BloodRock
+   ID= i_platemail_chest
+   NAME= BloodRock Platemail Chest
+   ARMOR= 31
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Platemail Female Plate
+[ITEMDEF i_armor_female_plate_BloodRock]
+   DEFNAME= i_armor_female_plate_BloodRock
+   ID= i_armor_female_plate
+   NAME= BloodRock Platemail Female Plate
+   ARMOR= 29
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock chainmail coif
+[ITEMDEF i_chainmail_coif_BloodRock]
+   DEFNAME= i_chainmail_coif_BloodRock
+   ID= i_chainmail_coif
+   NAME= BloodRock chainmail coif
+   ARMOR= 23
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {59 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock chainmail leggings
+[ITEMDEF i_chainmail_leggings_BloodRock]
+   DEFNAME= i_chainmail_leggings_BloodRock
+   ID= i_chainmail_leggings
+   NAME= BloodRock chainmail leggings
+   ARMOR= 25
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {59 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock chainmail tunic
+[ITEMDEF i_chainmail_tunic_BloodRock]
+   DEFNAME= i_chainmail_tunic_BloodRock
+   ID= i_chainmail_tunic
+   NAME= BloodRock chainmail tunic
+   ARMOR= 29
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {59 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_BloodRock]
+   DEFNAME= i_ringmail_sleeves_BloodRock
+   ID= i_ringmail_sleeves
+   NAME= BloodRock Ringmail Sleeves
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {49 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_BloodRock]
+   DEFNAME= i_ringmail_leggings_BloodRock
+   ID= i_ringmail_leggings
+   NAME= BloodRock Ringmail Leggings
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {49 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_BloodRock]
+   DEFNAME= i_ringmail_tunic_BloodRock
+   ID= i_ringmail_tunic
+   NAME= BloodRock Ringmail Tunic
+   ARMOR= 25
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {49 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_BloodRock]
+   DEFNAME= i_ringmail_gloves_BloodRock
+   ID= i_ringmail_gloves
+   NAME= BloodRock Ringmail Gloves
+   ARMOR= 11
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {49 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock studded sleeves
+[ITEMDEF i_studded_sleeves_BloodRock]
+   DEFNAME= i_studded_sleeves_BloodRock
+   ID= i_studded_sleeves
+   NAME= BloodRock studded sleeves
+   ARMOR= 14
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_BloodRock, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {39 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock studded gloves
+[ITEMDEF i_studded_gloves_BloodRock]
+   DEFNAME= i_studded_gloves_BloodRock
+   ID= i_studded_gloves
+   NAME= BloodRock studded gloves
+   ARMOR= 11
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_BloodRock, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {39 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock studded gorget
+[ITEMDEF i_studded_gorget_BloodRock]
+   DEFNAME= i_studded_gorget_BloodRock
+   ID= i_studded_gorget
+   NAME= BloodRock studded gorget
+   ARMOR= 11
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_BloodRock, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {39 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock studded leggings
+[ITEMDEF i_studded_leggings_BloodRock]
+   DEFNAME= i_studded_leggings_BloodRock
+   ID= i_studded_leggings
+   NAME= BloodRock studded leggings
+   ARMOR= 20
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_BloodRock, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {39 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock studded tunic
+[ITEMDEF i_studded_tunic_BloodRock]
+   DEFNAME= i_studded_tunic_BloodRock
+   ID= i_studded_tunic
+   NAME= BloodRock studded tunic
+   ARMOR= 24
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_BloodRock, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {39 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock studded female armor
+[ITEMDEF i_armor_female_studded_BloodRock]
+   DEFNAME= i_armor_female_studded_BloodRock
+   ID= i_armor_female_studded
+   NAME= BloodRock studded female armor
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_BloodRock, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {39 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_BloodRock]
+   DEFNAME= i_armor_female_bustier_studded_BloodRock
+   ID= i_armor_female_bustier_studded
+   NAME= BloodRock studded female bustier
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_BloodRock, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {39 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock platemail mempo
+[ITEMDEF i_platemail_mempo_BloodRock]
+   DEFNAME= i_platemail_mempo_BloodRock
+   ID= i_platemail_mempo
+   NAME= BloodRock platemail mempo
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock platemail do
+[ITEMDEF i_platemail_do_BloodRock]
+   DEFNAME= i_platemail_do_BloodRock
+   ID= i_platemail_do
+   NAME= BloodRock platemail do
+   ARMOR= 29
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_BloodRock]
+   DEFNAME= i_platemail_hiro_sode_BloodRock
+   ID= i_platemail_hiro_sode
+   NAME= BloodRock platemail hiro sode
+   ARMOR= 25
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock platemail suneate
+[ITEMDEF i_platemail_suneate_BloodRock]
+   DEFNAME= i_platemail_suneate_BloodRock
+   ID= i_platemail_suneate
+   NAME= BloodRock platemail suneate
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock platemail haidate
+[ITEMDEF i_platemail_haidate_BloodRock]
+   DEFNAME= i_platemail_haidate_BloodRock
+   ID= i_platemail_haidate
+   NAME= BloodRock platemail haidate
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock studded mempo
+[ITEMDEF i_studded_mempo_BloodRock]
+   DEFNAME= i_studded_mempo_BloodRock
+   ID= i_studded_mempo
+   NAME= BloodRock studded mempo
+   ARMOR= 16
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_BloodRock, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock studded do
+[ITEMDEF i_studded_do_BloodRock]
+   DEFNAME= i_studded_do_BloodRock
+   ID= i_studded_do
+   NAME= BloodRock studded do
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_BloodRock, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock studded hiro sode
+[ITEMDEF i_studded_hiro_sode_BloodRock]
+   DEFNAME= i_studded_hiro_sode_BloodRock
+   ID= i_studded_hiro_sode
+   NAME= BloodRock studded hiro sode
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_BloodRock, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock studded suneate
+[ITEMDEF i_studded_suneate_BloodRock]
+   DEFNAME= i_studded_suneate_BloodRock
+   ID= i_studded_suneate
+   NAME= BloodRock studded suneate
+   ARMOR= 18
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_BloodRock, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock studded haidate
+[ITEMDEF i_studded_haidate_BloodRock]
+   DEFNAME= i_studded_haidate_BloodRock
+   ID= i_studded_haidate
+   NAME= BloodRock studded haidate
+   ARMOR= 16
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_BloodRock, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_BloodRock]
+   DEFNAME= i_platemail_gargish_arms_BloodRock
+   ID= i_platemail_gargish_arms
+   NAME= BloodRock Gargish Platemail Arms
+   ARMOR= 25
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_BloodRock]
+   DEFNAME= i_platemail_gargish_chest_BloodRock
+   ID= i_platemail_gargish_chest
+   NAME= BloodRock Gargish Platemail Chest
+   ARMOR= 33
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_BloodRock]
+   DEFNAME= i_platemail_gargish_kilt_BloodRock
+   ID= i_platemail_gargish_kilt
+   NAME= BloodRock Gargish Platemail Kilt
+   ARMOR= 24
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_BloodRock]
+   DEFNAME= i_platemail_gargish_leggings_BloodRock
+   ID= i_platemail_gargish_leggings
+   NAME= BloodRock Gargish Platemail Leggings
+   ARMOR= 29
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_BloodRock]
+   DEFNAME= i_platemail_gargish_arms_2_BloodRock
+   ID= i_platemail_gargish_arms_2
+   NAME= BloodRock Gargish Platemail Arms
+   ARMOR= 25
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_BloodRock]
+   DEFNAME= i_platemail_gargish_chest_2_BloodRock
+   ID= i_platemail_gargish_chest_2
+   NAME= BloodRock Gargish Platemail Chest
+   ARMOR= 33
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_BloodRock]
+   DEFNAME= i_platemail_gargish_kilt_2_BloodRock
+   ID= i_platemail_gargish_kilt_2
+   NAME= BloodRock Gargish Platemail Kilt
+   ARMOR= 24
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_BloodRock]
+   DEFNAME= i_platemail_gargish_leggings_2_BloodRock
+   ID= i_platemail_gargish_leggings_2
+   NAME= BloodRock Gargish Platemail Leggings
+   ARMOR= 29
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Closed Helmet
+[ITEMDEF i_helm_close_BloodRock]
+   DEFNAME= i_helm_close_BloodRock
+   ID= i_helm_close
+   NAME= BloodRock Closed Helmet
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Open Helmet
+[ITEMDEF i_helm_open_BloodRock]
+   DEFNAME= i_helm_open_BloodRock
+   ID= i_helm_open
+   NAME= BloodRock Open Helmet
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {49 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Bascinet
+[ITEMDEF i_bascinet_BloodRock]
+   DEFNAME= i_bascinet_BloodRock
+   ID= i_bascinet
+   NAME= BloodRock Bascinet
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {39 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Norse Helmet
+[ITEMDEF i_helm_norse_BloodRock]
+   DEFNAME= i_helm_norse_BloodRock
+   ID= i_helm_norse
+   NAME= BloodRock Norse Helmet
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {59 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Kabuto
+[ITEMDEF i_helm_kabuto_BloodRock]
+   DEFNAME= i_helm_kabuto_BloodRock
+   ID= i_helm_kabuto
+   NAME= BloodRock Kabuto
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_BloodRock]
+   DEFNAME= i_chainmail_hatsuburi_BloodRock
+   ID= i_chainmail_hatsuburi
+   NAME= BloodRock Chainmail Hatsuburi
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_BloodRock]
+   DEFNAME= i_platemail_hatsuburi_BloodRock
+   ID= i_platemail_hatsuburi
+   NAME= BloodRock Platemail Hatsuburi
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_BloodRock]
+   DEFNAME= i_plate_jingasa_heavy_BloodRock
+   ID= i_plate_jingasa_heavy
+   NAME= BloodRock Heavy Jingasa
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_BloodRock]
+   DEFNAME= i_platemail_kabuto_decorative_BloodRock
+   ID= i_platemail_kabuto_decorative
+   NAME= BloodRock Decorative Platemail Kabuto
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {99 810}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Light Jingasa
+[ITEMDEF i_plate_jingasa_light_BloodRock]
+   DEFNAME= i_plate_jingasa_light_BloodRock
+   ID= i_plate_jingasa_light
+   NAME= BloodRock Light Jingasa
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Small Jingasa
+[ITEMDEF i_plate_jingasa_small_BloodRock]
+   DEFNAME= i_plate_jingasa_small_BloodRock
+   ID= i_plate_jingasa_small
+   NAME= BloodRock Small Jingasa
+   ARMOR= 17
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {59 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_BloodRock]
+   DEFNAME= i_platemail_kabuto_battle_BloodRock
+   ID= i_platemail_kabuto_battle
+   NAME= BloodRock Platemail Battle Kabuto
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_BloodRock]
+   DEFNAME= i_platemail_kabuto_BloodRock
+   ID= i_platemail_kabuto
+   NAME= BloodRock Platemail Kabuto
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Circlet
+[ITEMDEF i_circlet_BloodRock]
+   DEFNAME= i_circlet_BloodRock
+   ID= i_circlet
+   NAME= BloodRock Circlet
+   ARMOR= 15
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Royal Circlet
+[ITEMDEF i_circlet_royal_BloodRock]
+   DEFNAME= i_circlet_royal_BloodRock
+   ID= i_circlet_royal
+   NAME= BloodRock Royal Circlet
+   ARMOR= 15
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_BloodRock]
+   DEFNAME= i_circlet_gemmed_BloodRock
+   ID= i_circlet_gemmed
+   NAME= BloodRock Gemmed Circlet
+   ARMOR= 15
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {109 900}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Buckler
+[ITEMDEF i_shield_buckler_BloodRock]
+   DEFNAME= i_shield_buckler_BloodRock
+   ID= i_shield_buckler
+   NAME= BloodRock Buckler
+   ARMOR= 14
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {39 270}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Wooden Shield
+[ITEMDEF i_shield_wood_BloodRock]
+   DEFNAME= i_shield_wood_BloodRock
+   ID= i_shield_wood
+   NAME= BloodRock Wooden Shield
+   ARMOR= 15
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {49 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_BloodRock]
+   DEFNAME= i_shield_round_metal_BloodRock
+   ID= i_shield_round_metal
+   NAME= BloodRock Light Metal  Round Shield
+   ARMOR= 16
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {59 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_BloodRock]
+   DEFNAME= i_shield_round_bronze_BloodRock
+   ID= i_shield_round_bronze
+   NAME= BloodRock Heavy Metal  Round Shield
+   ARMOR= 18
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_BloodRock]
+   DEFNAME= i_shield_kite_metal_BloodRock
+   ID= i_shield_kite_metal
+   NAME= BloodRock Metal Kite Shield
+   ARMOR= 20
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {79 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_BloodRock]
+   DEFNAME= i_shield_kite_wood_BloodRock
+   ID= i_shield_kite_wood
+   NAME= BloodRock Wooden Kite Shield
+   ARMOR= 19
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Heater Shield
+[ITEMDEF i_shield_heater_BloodRock]
+   DEFNAME= i_shield_heater_BloodRock
+   ID= i_shield_heater
+   NAME= BloodRock Heater Shield
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {99 810}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Ancient Shield
+[ITEMDEF i_shield_dupre_BloodRock]
+   DEFNAME= i_shield_dupre_BloodRock
+   ID= i_shield_dupre
+   NAME= BloodRock Ancient Shield
+   ARMOR= 23
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {109 900}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Shield oh Hell
+[ITEMDEF i_shield_scale_BloodRock]
+   DEFNAME= i_shield_scale_BloodRock
+   ID= i_shield_scale
+   NAME= BloodRock Shield oh Hell
+   ARMOR= 23
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {109 900}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Chaos Shield
+[ITEMDEF i_shield_chaos_BloodRock]
+   DEFNAME= i_shield_chaos_BloodRock
+   ID= i_shield_chaos
+   NAME= BloodRock Chaos Shield
+   ARMOR= 24
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {119 990}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Order Shield
+[ITEMDEF i_shield_order_BloodRock]
+   DEFNAME= i_shield_order_BloodRock
+   ID= i_shield_order
+   NAME= BloodRock Order Shield
+   ARMOR= 24
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_BloodRock
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= BloodRock
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS= {119 990}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

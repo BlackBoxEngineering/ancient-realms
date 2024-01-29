@@ -1,0 +1,563 @@
+/////////////////////////////////////////////Hawthorn WildStaff
+
+[ITEMDEF i_mace_wildstaff_Hawthorn]
+   DEFNAME=i_mace_wildstaff_Hawthorn
+   ID=i_mace_wildstaff
+   NAME=Hawthorn WildStaff
+   RESOURCES= 20 i_log_Hawthorn
+   WEIGHT=22
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=32
+   VALUE=136
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hawthorn
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS={60 84}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn Black Staff
+
+[ITEMDEF i_staff_black_Hawthorn]
+   DEFNAME=i_staff_black_Hawthorn
+   ID=i_staff_black
+   NAME=Hawthorn Black Staff
+   RESOURCES= 20 i_log_Hawthorn
+   WEIGHT=22
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=30
+   VALUE=136
+   SPEED=53
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hawthorn
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS={30 54}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn Gnarled Staff
+
+[ITEMDEF i_staff_gnarled_Hawthorn]
+   DEFNAME=i_staff_gnarled_Hawthorn
+   ID=i_staff_gnarled
+   NAME=Hawthorn Gnarled Staff
+   RESOURCES= 20 i_log_Hawthorn
+   WEIGHT=22
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=28
+   VALUE=136
+   SPEED=55
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hawthorn
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS={30 54}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn Nunchaku
+
+[ITEMDEF i_nunchaku_Hawthorn]
+   DEFNAME=i_nunchaku_Hawthorn
+   ID=i_nunchaku
+   NAME=Hawthorn Nunchaku
+   RESOURCES= 20 i_log_Hawthorn
+   WEIGHT=22
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=30
+   VALUE=136
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hawthorn
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS={30 54}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn Club
+
+[ITEMDEF i_club_Hawthorn]
+   DEFNAME=i_club_Hawthorn
+   ID=i_club
+   NAME=Hawthorn Club
+   RESOURCES= 20 i_log_Hawthorn
+   WEIGHT=22
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=136
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=CARPENTRY 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hawthorn
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS={10 34}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn Tetsubo
+
+[ITEMDEF i_tetsubo_Hawthorn]
+   DEFNAME=i_tetsubo_Hawthorn
+   ID=i_tetsubo
+   NAME=Hawthorn Tetsubo
+   RESOURCES= 20 i_log_Hawthorn
+   WEIGHT=22
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=36
+   VALUE=136
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hawthorn
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS={80 104}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn Spear
+
+[ITEMDEF i_spear_Hawthorn]
+   DEFNAME=i_spear_Hawthorn
+   ID=i_spear
+   NAME=Hawthorn Spear
+   RESOURCES= 20 i_log_Hawthorn
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=30
+   VALUE=136
+   SPEED=46
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hawthorn
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS={60 84}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn Lance
+
+[ITEMDEF i_lance_Hawthorn]
+   DEFNAME=i_lance_Hawthorn
+   ID=i_lance
+   NAME=Hawthorn Lance
+   RESOURCES= 20 i_log_Hawthorn
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=32
+   VALUE=136
+   SPEED=44
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hawthorn
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS={100 124}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn Bow
+
+[ITEMDEF i_bow_Hawthorn]
+   DEFNAME=i_bow_Hawthorn
+   ID=i_bow
+   NAME=Hawthorn Bow
+   RESOURCES= 20 i_log_Hawthorn
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=26
+   VALUE=136
+   SPEED=47
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Hawthorn
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS={30 54}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn Composite Bow
+
+[ITEMDEF i_composite_bow_Hawthorn]
+   DEFNAME=i_composite_bow_Hawthorn
+   ID=i_composite_bow
+   NAME=Hawthorn Composite Bow
+   RESOURCES= 20 i_log_Hawthorn
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=27
+   VALUE=136
+   SPEED=45
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Hawthorn
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS={50 74}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn Eleven Composite Bow
+
+[ITEMDEF i_elven_composite_longbow_Hawthorn]
+   DEFNAME=i_elven_composite_longbow_Hawthorn
+   ID=i_elven_composite_longbow
+   NAME=Hawthorn Eleven Composite Bow
+   RESOURCES= 20 i_log_Hawthorn
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=28
+   VALUE=136
+   SPEED=43
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Hawthorn
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS={70 94}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn Assassin Shortbow
+
+[ITEMDEF i_assassin_shortbow_Hawthorn]
+   DEFNAME=i_assassin_shortbow_Hawthorn
+   ID=i_assassin_shortbow
+   NAME=Hawthorn Assassin Shortbow
+   RESOURCES= 20 i_log_Hawthorn
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=29
+   VALUE=136
+   SPEED=41
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Hawthorn
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS={90 114}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn Yumi
+
+[ITEMDEF i_yumi_Hawthorn]
+   DEFNAME=i_yumi_Hawthorn
+   ID=i_yumi
+   NAME=Hawthorn Yumi
+   RESOURCES= 20 i_log_Hawthorn
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=30
+   VALUE=136
+   SPEED=39
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Hawthorn
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS={100 124}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn Crossbow
+
+[ITEMDEF i_crossbow_Hawthorn]
+   DEFNAME=i_crossbow_Hawthorn
+   ID=i_crossbow
+   NAME=Hawthorn Crossbow
+   RESOURCES= 20 i_log_Hawthorn
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=28
+   VALUE=136
+   SPEED=57
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Hawthorn
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS={50 74}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn Heavy Crossbow
+
+[ITEMDEF i_crossbow_heavy_Hawthorn]
+   DEFNAME=i_crossbow_heavy_Hawthorn
+   ID=i_crossbow_heavy
+   NAME=Hawthorn Heavy Crossbow
+   RESOURCES= 20 i_log_Hawthorn
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=30
+   VALUE=136
+   SPEED=55
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Hawthorn
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS={70 94}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn Repeating Crossbow
+
+[ITEMDEF i_repeating_crossbow_Hawthorn]
+   DEFNAME=i_repeating_crossbow_Hawthorn
+   ID=i_repeating_crossbow
+   NAME=Hawthorn Repeating Crossbow
+   RESOURCES= 20 i_log_Hawthorn
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=27
+   VALUE=136
+   SPEED=53
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Hawthorn
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS={90 114}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hawthorn Bola
+
+[ITEMDEF i_bola_Hawthorn]
+   DEFNAME=i_bola_Hawthorn
+   ID=i_bola
+   NAME=Hawthorn Bola
+   RESOURCES= 20 i_log_Hawthorn
+   WEIGHT=22
+   TYPE=t_bola
+   FLIP=1
+   DAM=24
+   VALUE=136
+   SPEED=42
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=TINKERING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Hawthorn
+
+ON=@Create
+   COLOR=color_log_Hawthorn
+   HITPOINTS={110 134}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

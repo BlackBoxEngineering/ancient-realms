@@ -1,0 +1,58 @@
+/////////////////////////////////////////////Granite Armor
+[SKILLMENU sm_armors_masonry_Granite]
+Granite Armors
+ON=i_gargish_stone_chest_Granite @color_ore_Granite Gargish
+    SKILLMENU = sm_armors_masonry_Gargish_Granite
+
+
+/////////////////////////////////////////////Marble Armor
+[SKILLMENU sm_armors_masonry_Marble]
+Marble Armors
+ON=i_gargish_stone_chest_Marble @color_ore_Marble Gargish
+    SKILLMENU = sm_armors_masonry_Gargish_Marble
+
+
+///////////////////////////////////////////////////////////
+
+///////////////////////////////////////////// sm_armors_masonry_Gargish_ Granite
+[SKILLMENU sm_armors_masonry_Gargish_Granite]
+Granite Armors
+ON=i_gargish_stone_arms_female_Granite @color_ore_Granite Gargish female stone arms
+    MAKEITEM=i_gargish_stone_arms_female_Granite
+ON=i_gargish_stone_arms_Granite @color_ore_Granite Gargish stone arms
+    MAKEITEM=i_gargish_stone_arms_Granite
+ON=i_gargish_stone_chest_female_Granite @color_ore_Granite Gargish female stone chest
+    MAKEITEM=i_gargish_stone_chest_female_Granite
+ON=i_gargish_stone_chest_Granite @color_ore_Granite Gargish stone chest
+    MAKEITEM=i_gargish_stone_chest_Granite
+ON=i_gargish_stone_kilt_female_Granite @color_ore_Granite Gargish female stone kilt
+    MAKEITEM=i_gargish_stone_kilt_female_Granite
+ON=i_gargish_stone_kilt_Granite @color_ore_Granite Gargish stone kilt
+    MAKEITEM=i_gargish_stone_kilt_Granite
+ON=i_gargish_stone_leggings_female_Granite @color_ore_Granite Gargish female stone leggings
+    MAKEITEM=i_gargish_stone_leggings_female_Granite
+ON=i_gargish_stone_leggings_Granite @color_ore_Granite Gargish stone leggings
+    MAKEITEM=i_gargish_stone_leggings_Granite
+
+///////////////////////////////////////////// sm_armors_masonry_Gargish_ Marble
+[SKILLMENU sm_armors_masonry_Gargish_Marble]
+Marble Armors
+ON=i_gargish_stone_arms_female_Marble @color_ore_Marble Gargish female stone arms
+    MAKEITEM=i_gargish_stone_arms_female_Marble
+ON=i_gargish_stone_arms_Marble @color_ore_Marble Gargish stone arms
+    MAKEITEM=i_gargish_stone_arms_Marble
+ON=i_gargish_stone_chest_female_Marble @color_ore_Marble Gargish female stone chest
+    MAKEITEM=i_gargish_stone_chest_female_Marble
+ON=i_gargish_stone_chest_Marble @color_ore_Marble Gargish stone chest
+    MAKEITEM=i_gargish_stone_chest_Marble
+ON=i_gargish_stone_kilt_female_Marble @color_ore_Marble Gargish female stone kilt
+    MAKEITEM=i_gargish_stone_kilt_female_Marble
+ON=i_gargish_stone_kilt_Marble @color_ore_Marble Gargish stone kilt
+    MAKEITEM=i_gargish_stone_kilt_Marble
+ON=i_gargish_stone_leggings_female_Marble @color_ore_Marble Gargish female stone leggings
+    MAKEITEM=i_gargish_stone_leggings_female_Marble
+ON=i_gargish_stone_leggings_Marble @color_ore_Marble Gargish stone leggings
+    MAKEITEM=i_gargish_stone_leggings_Marble
+
+
+[EOF]

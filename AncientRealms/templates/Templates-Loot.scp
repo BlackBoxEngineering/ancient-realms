@@ -1,0 +1,1299 @@
+///// All Loot To Be Edited Here in This File // Jesus
+
+// Stay the fuck out and don't Touch it!!!
+// DONT USE RANDOM WEAPONS - TRY A MINER AND BLACKSMITH FFS
+
+^^ ROFL oh dear looks like this was an Issue on Invictus
+   AncientRealms Laughs in the Face of Invictus now..
+
+//// Random Trophies /// For Special Use ( Yet to be scripted chests )
+[TEMPLATE RandomTrophie]
+	ITEM=i_trophy_trollhead, R12
+	ITEM=i_trophie_polarbearhead, R12
+	ITEM=i_trophieorchead, R12
+	ITEM=i_trophy_gorillahead, R12
+	ITEM=i_trophy_fish, R12
+	ITEM=i_trophy_deerhead, R12
+	ITEM=i_trophy_bearhead, R12
+	ITEM=i_nounted_dread_horn, R12
+	ITEM=0224e, R12
+	ITEM=02235, R12
+	
+//// Random RuneBook charges
+[TEMPLATE RandomRuneBookcharge]
+	ITEM=i_10runebookcharges, R50
+	ITEM=i_20runebookcharges, R100
+	ITEM=i_30runebookcharges, R150
+
+
+/// Random Rings
+[TEMPLATE Random_magic_rings]
+	ITEM={ i_mana_ring 1 i_stamina_ring 1 i_health_ring 1 }
+
+// MOBS // **********
+///// Template Monster Loot Packs
+[TEMPLATE poor_monster_backpack]
+[TEMPLATE meager_monster_backpack]
+[TEMPLATE average_monster_backpack]
+[TEMPLATE rich_monster_backpack]
+[TEMPLATE GREAT]
+
+///// Template Champion Loot Packs		// Placed By Barry
+///// Below This seem acceptable Templates to be Used // Dont Edit - Thx Jesus
+[TEMPLATE CHAMP_LOOT_LOW]
+	ITEM=random_reagent	5				// Placed By Jesus
+	ITEM=random_reagent	2				// Placed By Jesus
+	ITEM=i_gold,{3000 5000}
+	ITEM=i_raredyetub,R250				// Placed By Jesus
+	ITEM=i_rare_skin_dye_bottle,R80		// Placed By Barry
+	ITEM=i_rare_hair_dye_bottle,R20		// Placed By Barry
+	ITEM=i_raredyetub,R250				// Placed By Jesus
+	ITEM=i_1maxchargeincrease,R7
+	ITEM=i_2maxchargeincrease,R14
+	ITEM=i_3maxchargeincrease,R21
+	
+[TEMPLATE CHAMP_LOOT_MED]				// Placed By Barry
+	ITEM=random_reagent	3				// Placed By Jesus
+	ITEM=random_reagent	4				// Placed By Jesus
+	ITEM=random_reagent	2				// Placed By Jesus
+	ITEM=i_gold,{5000 7000}
+	ITEM=random_bottle
+	ITEM=i_raredyetub,R100
+	ITEM=i_rare_skin_dye_bottle,R25		// Placed By Barry
+	ITEM=i_rare_hair_dye_bottle,R15		// Placed By Jesus
+	ITEM=i_raredyetub,R400				// Placed By Jesus
+	ITEM=i_1maxchargeincrease,R2
+	ITEM=i_2maxchargeincrease,R10
+	ITEM=i_3maxchargeincrease,R15
+	
+[TEMPLATE CHAMP_LOOT_HIGH]				// Placed By Barry
+	ITEM=i_raredyetub,R300				// Placed By Jesus
+	ITEM=i_gold,{7000 9000}
+	ITEM=i_rare_skin_dye_bottle,R10		// Placed By Barry
+	ITEM=i_rare_hair_dye_bottle,R5		// Placed By Barry
+	ITEM=random_reagent	2				// Placed By Jesus
+	ITEM=random_reagent	4				// Placed By Jesus
+	ITEM=random_reagent	6				// Placed By Jesus
+	ITEM=random_reagent	8				// Placed By Jesus
+	ITEM=random_bottle
+	ITEM=Random_magic_rings
+	ITEM=i_1maxchargeincrease
+	ITEM=i_2maxchargeincrease,R2
+	ITEM=i_3maxchargeincrease,R6
+	
+[TEMPLATE CHAMP_LOOT_VERY_HIGH_2]			// Placed By Barry
+	ITEM=i_gold,{9000 11000}
+	ITEM=i_rare_skin_dye_bottle,R8		// Placed By Barry
+	ITEM=i_rare_hair_dye_bottle,R3		// Placed By Barry
+	ITEM=random_reagent	2				// Placed By Jesus
+	ITEM=random_reagent	4				// Placed By Jesus
+	ITEM=random_reagent	6				// Placed By Jesus
+	ITEM=random_reagent	4				// Placed By Jesus
+	ITEM=random_reagent	2				// Placed By Jesus
+	ITEM=Random_magic_rings
+	ITEM=random_bottle
+	ITEM=i_raredyetub,R200	
+	ITEM=i_1maxchargeincrease
+	ITEM=i_2maxchargeincrease
+	ITEM=i_3maxchargeincrease,R2
+
+[TEMPLATE GREAT]
+	ITEM=i_gold,{11000 13000}
+	ITEM=i_raredyetub,R10				// Placed By Jesus
+	ITEM=i_rare_skin_dye_bottle,R25		// Placed By Barry
+	ITEM=i_rare_hair_dye_bottle			// Placed By Barry
+	ITEM=random_reagent	{8 12}				// Placed By Jesus
+	ITEM=random_reagent	{8 12}			// Placed By Jesus
+	ITEM=random_reagent	{8 12}				// Placed By Jesus
+	ITEM=random_reagent	{8 12}			// Placed By Jesus
+	ITEM=random_reagent	{8 12}			// Placed By Jesus
+	ITEM=Random_magic_rings
+	ITEM=random_bottle
+	ITEM=i_1maxchargeincrease
+	ITEM=i_2maxchargeincrease, R3
+	ITEM=i_3maxchargeincrease, R5
+	ITEM=tm_drone_parts,R15
+
+///// Template Standard Loot Packs
+[TEMPLATE backpack_poor]				
+	ITEM=i_gold,{40 100}					// fixed by noobdy 	// Placed By Barry PLEASE DONT CHANGE BECAUSE IT RUINS THE SYSTEM
+	ITEM=random_jewel 					// Placed By Barry
+	ITEM=random_reagent	{8 12}			// Placed By Jesus
+	ITEM=i_10runebookcharges,R130		// Placed By Nobody
+	ITEM=i_20runebookcharges,R170		// Placed By Nobody
+	ITEM=i_30runebookcharges,R200		// Placed By Nobody
+	ITEM=i_1maxchargeincrease,R180
+	ITEM=i_2maxchargeincrease,R200
+	ITEM=i_3maxchargeincrease,R250
+	
+[TEMPLATE backpack_meager]
+	ITEM=i_gold,{100 150}				// fixed by noobdy 	// Placed By Barry PLEASE DONT CHANGE BECAUSE IT RUINS THE SYSTEM
+	ITEM=random_lower_scroll			// Placed By Barry
+	ITEM=random_reagent	{4 12}				// Placed By Jesus
+	ITEM=random_reagent	{8 12}			// Placed By Jesus
+
+	ITEM=i_10runebookcharges,R100		// Placed By Nobody
+	ITEM=i_20runebookcharges,R105		// Placed By Nobody
+	ITEM=i_30runebookcharges,R110		// Placed By Nobody
+	ITEM=i_1maxchargeincrease,R130
+	ITEM=i_2maxchargeincrease,R160
+	ITEM=i_3maxchargeincrease,R200
+	
+[TEMPLATE backpack_average]
+	ITEM=i_gold,{250 350}				// fixed by noobdy 	// Placed By Barry PLEASE DONT CHANGE BECAUSE IT RUINS THE SYSTEM
+	ITEM=random_jewel					// Placed By Barry
+	ITEM=random_bottle					// Placed By Barry
+	ITEM=random_reagent	{4 12}			// Placed By Barry
+	ITEM=random_reagent	{4 12}			// Placed By Jesus
+	ITEM=random_reagent	{4 12}			// Placed By Jesus
+	ITEM=random_potion					// Placed By Barry
+
+	ITEM=i_10runebookcharges,R70		// Placed By Nobody
+	ITEM=i_20runebookcharges,R90		// Placed By Nobody
+	ITEM=i_30runebookcharges,R100		// Placed By Nobody
+	ITEM=i_1maxchargeincrease,R110
+	ITEM=i_2maxchargeincrease,R130
+	ITEM=i_3maxchargeincrease,R160
+	
+[TEMPLATE backpack_rich]
+	ITEM=i_gold,{400 600}
+	ITEM=random_jewel {1 3}
+	ITEM=random_bottle
+	ITEM=random_potion {2 4}
+	ITEM=random_reagent	{4 12}				// Placed By Jesus
+	ITEM=random_reagent	{4 12}				// Placed By Jesus
+	ITEM=random_reagent	{4 12}				// Placed By Jesus
+	ITEM=random_reagent	{4 12}				// Placed By Jesus
+	ITEM=random_upper_scroll
+
+	ITEM=i_10runebookcharges,R45		// Placed By Nobody
+	ITEM=i_20runebookcharges,R55		// Placed By Nobody
+	ITEM=i_30runebookcharges,R70		// Placed By Nobody
+	ITEM=i_1maxchargeincrease,R80
+	ITEM=i_2maxchargeincrease,R100
+	ITEM=i_3maxchargeincrease,R130
+
+//// Dragon custom Loot ! !
+
+[TEMPLATE loot_dragon_darkdeus]
+	ITEM=backpack_rich
+	ITEM=i_ingot_darkdeus,R7
+	ITEM=RANDOM_dragon_studded,R1
+	ITEM=i_boots_thigh_dragon,R20
+
+[TEMPLATE loot_dragon_deus]
+	ITEM=backpack_rich
+	ITEM=i_ingot_deus,R6
+	ITEM=i_boots_thigh_dragon,R20
+
+[TEMPLATE loot_dragon_mytheril]
+	ITEM=backpack_rich
+	ITEM=i_ingot_mytheril,R5
+	ITEM=i_boots_thigh_dragon,R7
+
+[TEMPLATE loot_dragon_opiate]
+	ITEM=backpack_rich
+	ITEM=i_ingot_opiate,R5
+	ITEM=i_boots_thigh_dragon,R7
+
+//// Elementals Custom ! !
+
+[TEMPLATE loot_elemental_darkdeus]
+	ITEM=backpack_rich
+	ITEM=random_reagent {8 12}
+	ITEM=i_ingot_darkdeus,R7
+
+[TEMPLATE loot_elemental_deus]
+	ITEM=backpack_rich
+	ITEM=random_reagent {8 12}
+	ITEM=i_ore_deus,R6
+
+[TEMPLATE loot_elemental_mytheril]
+	ITEM=backpack_rich
+	ITEM=random_reagent {8 12}
+	ITEM=i_ore_mytheril,R6
+
+[TEMPLATE loot_elemental_jolt]
+	ITEM=backpack_rich
+	ITEM=random_reagent {8 12}
+	ITEM=i_ingot_jolt,R5
+
+[TEMPLATE loot_elemental_negative]
+	ITEM=backpack_rich
+	ITEM=random_reagent {8 12}
+	ITEM=i_ingot_negative,R5
+
+[TEMPLATE loot_elemental_Opiate]
+	ITEM=backpack_rich
+	ITEM=random_reagent {8 12}
+	ITEM=i_ore_opiate,R4
+
+//// Exodus Robot Minions !! Drop Drone Parts !!!
+[TEMPLATE loot_exodus_minion]
+	ITEM=backpack_average
+	ITEM=i_gold,{1000 2000}
+	ITEM=tm_drone_parts,R30
+	ITEM=RandomRuneBookcharge, R30
+	ITEM=random_reagent, {8 12}
+	ITEM=i_gears, R5
+	ITEM=i_axel_and_gears
+	ITEM=i_clock_parts, R3
+	ITEM=random_armor_gold,R25
+
+[TEMPLATE loot_exodus_overseer]
+	ITEM=backpack_average
+	ITEM=i_gold,{200 500}
+	ITEM=tm_drone_parts,R20
+	ITEM=RandomRuneBookcharge, R10
+	ITEM=random_reagent {8 12}
+	ITEM=i_gears, R5
+	ITEM=i_axel_and_gears
+	ITEM=i_clock_parts, R3
+	ITEM=random_armor_gold,R5
+
+[TEMPLATE loot_exodus_minion_lord]
+	ITEM=backpack_rich
+	ITEM=i_gold,{500 800}
+	ITEM=tm_drone_parts,R10
+	ITEM=RandomRuneBookcharge, R10
+	ITEM=random_reagent {8 12}
+	ITEM=i_gears, R5
+	ITEM=i_axel_and_gears
+	ITEM=i_clock_parts, R3
+	ITEM=i_ore_gold, {1 3}
+	ITEM=random_armor_gold,R3
+	ITEM=i_scroll_of_punishment,R200
+
+///// Template Mobs Daemons
+[TEMPLATE loot_Ice_Fiend]
+	ITEM=backpack_average
+	ITEM=random_reagent {8 12}
+	ITEM=i_hide_ice_fiend,{2 4},R55
+	ITEM=i_leather_sleeves_Ice_Fiend ,R120
+	ITEM=i_leather_gloves_Ice_Fiend, R140
+	ITEM=i_leather_gorget_Ice_Fiend, R120
+	ITEM=i_leather_leggings_Ice_Fiend, R150
+	ITEM=i_leather_tunic_Ice_Fiend, R180
+	ITEM=i_leather_cap_Ice_Fiend, R170
+	ITEM=i_armor_female_skirt_Ice_Fiend, R150
+	ITEM=i_armor_female_LEATHER_Ice_Fiend, R120
+	
+[TEMPLATE loot_Balron]
+	ITEM=backpack_rich
+	ITEM=i_gold {350 700}
+
+[TEMPLATE loot_daemon_w_sword}
+	ITEM=backpack_average
+	ITEM=i_gold {250 350}
+	
+[TEMPLATE loot_Daemon]
+	ITEM=backpack_average
+	ITEM=i_gold {100 250}
+
+///// Template Mobs Dragons
+[TEMPLATE loot_Ancient_Wyrm]
+	ITEM=backpack_rich
+	ITEM=i_gold,{800 1400}
+
+
+[TEMPLATE loot_Dragon_Great]
+	ITEM=backpack_rich
+	ITEM=i_egg_dragon, R1000				// Placed By Jesus
+	ITEM=i_reag_dragon_scale, R80			// Do  - NOT - 
+	ITEM=i_reag_dragon_blood, R100			// Remove Please
+	ITEM=i_dragon_helm, R1000				// Thankyou :P
+
+	
+[TEMPLATE loot_skeletal_dragon]
+	ITEM=backpack_average
+	ITEM=i_bone_skull,R280
+	ITEM=i_bone_helmet,R300
+	ITEM=i_bone_spine,R200
+	ITEM=i_bone_jaw,R220
+	ITEM=i_bone_ribcage,R320
+	ITEM=i_bone_shards,R300
+	ITEM=i_bone_pelvis,R200
+	ITEM=i_egg_dragon, R1000				// Placed By Jesus
+	ITEM=i_reag_dragon_scale, R50			// Do  - NOT - 
+	ITEM=i_reag_dragon_blood, R50			// Remove Please
+	
+[TEMPLATE loot_Dragon]
+	ITEM=backpack_rich					// fixed by noobdy
+	ITEM=i_egg_dragon, R1000				// Placed By Jesus
+	ITEM=i_reag_dragon_scale, R50			// Do  - NOT - 
+	ITEM=i_reag_dragon_blood, R50			// Remove Please
+	ITEM=i_dragon_helm, R1000				// Thankyou :P
+
+
+///// Template Mobs Drakes
+[TEMPLATE loot_Drake]
+	ITEM=backpack_average					// fixed by noobdy // Just Got Uped :P
+	ITEM=i_egg_dragon, R1000				// Placed By Jesus
+	ITEM=i_reag_dragon_scale, R50			// Do  - NOT - 
+	ITEM=i_reag_dragon_blood, R50			// Remove Please
+	ITEM=i_dragon_helm, R1000				// Thankyou :P
+	ITEM=Random_magic_rings, R7
+
+///// Template Mobs Gargoyles Cyclops Titans
+[TEMPLATE loot_Gargoyle]
+	ITEM=backpack_poor
+
+[TEMPLATE loot_Stone_Gargoyle]
+	ITEM=backpack_Meager
+
+[TEMPLATE loot_Cyclops]
+	ITEM=backpack_Meager
+	ITEM=i_leather_sleeves_Cyclops, R200
+	ITEM=i_leather_gloves_Cyclops, R220
+	ITEM=i_leather_gorget_Cyclops, R185
+	ITEM=i_leather_leggings_Cyclops, R225
+	ITEM=i_leather_tunic_Cyclops, R250
+	ITEM=i_leather_cap_Cyclops, R200
+	ITEM=i_armor_female_skirt_Cyclops, R185
+	ITEM=i_armor_female_LEATHER_Cyclops, R185
+
+[TEMPLATE loot_cyclops_king]
+	ITEM=backpack_average
+	ITEM=i_leather_sleeves_Cyclops, R100
+	ITEM=i_leather_gloves_Cyclops, R120
+	ITEM=i_leather_gorget_Cyclops, R85
+	ITEM=i_leather_leggings_Cyclops, R125
+	ITEM=i_leather_tunic_Cyclops, R150
+	ITEM=i_leather_cap_Cyclops, R100
+	ITEM=i_armor_female_skirt_Cyclops, R85
+	ITEM=i_armor_female_LEATHER_Cyclops, R85
+
+[TEMPLATE loot_Titan]
+	ITEM=backpack_average
+
+///// Template Mobs Ogres Ettins Trolls
+[TEMPLATE loot_Ogre]
+	ITEM=backpack_meager
+	ITEM=i_leather_sleeves_Ogre. R10
+	ITEM=i_leather_gloves_Ogre, R125
+	ITEM=i_leather_gorget_Ogre, R130
+	ITEM=i_leather_leggings_Ogre, R140
+	ITEM=i_leather_tunic_Ogre, R180
+	ITEM=i_leather_cap_Ogre, R140
+	ITEM=i_armor_female_skirt_Ogre, R125
+	ITEM=i_armor_female_LEATHER_Ogre, R125
+[TEMPLATE loot_Ogre_Lord]
+	ITEM=backpack_average
+	ITEM=i_leather_sleeves_Ogre. R70
+	ITEM=i_leather_gloves_Ogre, R75
+	ITEM=i_leather_gorget_Ogre, R80
+	ITEM=i_leather_leggings_Ogre, R90
+	ITEM=i_leather_tunic_Ogre, R120
+	ITEM=i_leather_cap_Ogre, R100
+	ITEM=i_armor_female_skirt_Ogre, R85
+	ITEM=i_armor_female_LEATHER_Ogre, R85
+[TEMPLATE loot_Ettin]
+	ITEM=backpack_poor
+	ITEM=i_potion_invisibility,R10	// Placed By Jesus
+	ITEM=i_potion_healGreat,R10		// Placed By Jesus
+	ITEM=i_potion_poison,R10		// Placed By Jesus
+	ITEM=i_potion_agility,R10		// Placed By Jesus
+	ITEM=i_ore_rosequartz,R10		// Placed By Jesus
+	ITEM=i_reag_garlic {5 10}		// Placed By Jesus
+	ITEM=i_10runebookcharges,R70	// Placed By Jesus
+[TEMPLATE loot_Frost_Ettin]
+	ITEM=backpack_poor
+	ITEM=i_10runebookcharges,R50	// Placed By Jesus
+	ITEM=i_leather_sleeves_Ettin, R50
+	ITEM=i_leather_gloves_ettin, R55
+	ITEM=i_leather_gorget_Ettin, R45
+	ITEM=i_leather_leggings_Ettin, R65
+	ITEM=i_leather_tunic_Ettin, R100
+	ITEM=i_leather_cap_ettin, R75
+	ITEM=i_armor_female_skirt_Ettin, R85
+	ITEM=i_armor_female_LEATHER_Ettin, R85
+
+[TEMPLATE loot_Ettin_Lord]
+	ITEM=backpack_meager
+	ITEM=i_20runebookcharges,R60	// Placed By Jesus
+	ITEM=i_leather_sleeves_Ettin, R50
+	ITEM=i_leather_gloves_ettin, R55
+	ITEM=i_leather_gorget_Ettin, R45
+	ITEM=i_leather_leggings_Ettin, R65
+	ITEM=i_leather_tunic_Ettin, R100
+	ITEM=i_leather_cap_ettin, R75
+	ITEM=i_armor_female_skirt_Ettin, R85
+	ITEM=i_armor_female_LEATHER_Ettin, R85
+
+[TEMPLATE loot_troll]
+	ITEM=backpack_poor
+	ITEM=i_10runebookcharges,R120	// Placed By Jesus
+	ITEM=i_leather_sleeves_Troll, R50
+	ITEM=i_leather_gloves_Troll, R75
+	ITEM=i_leather_gorget_Troll, R65
+	ITEM=i_leather_leggings_Troll, R85
+	ITEM=i_leather_tunic_Troll, R100
+	ITEM=i_leather_cap_Troll, R90
+	ITEM=i_armor_female_skirt_Troll, R85
+	ITEM=i_armor_female_LEATHER_Troll, R75
+
+[TEMPLATE loot_frost_troll]
+	ITEM=backpack_poor
+	ITEM=i_10runebookcharges,R120	// Placed By Jesus
+	ITEM=i_leather_sleeves_Troll, R50
+	ITEM=i_leather_gloves_Troll, R75
+	ITEM=i_leather_gorget_Troll, R65
+	ITEM=i_leather_leggings_Troll, R85
+	ITEM=i_leather_tunic_Troll, R100
+	ITEM=i_leather_cap_Troll, R90
+	ITEM=i_armor_female_skirt_Troll, R85
+	ITEM=i_armor_female_LEATHER_Troll, R75
+
+///// Template Mobs Spiders
+[TEMPLATE loot_Frost_Spider]
+	ITEM=backpack_poor
+	ITEM=i_reag_spider_silk {1 4}	// Placed By Jesus
+	ITEM=i_silk_strands,R7			// Placed By Jesus
+[TEMPLATE loot_Spider]
+	ITEM=backpack_poor
+	ITEM=i_reag_spider_silk {1 7}	// Placed By Jesus
+	ITEM=i_silk_strands,R7			// Placed By Jesus
+[TEMPLATE loot_Dread_Spider]
+	ITEM=backpack_average
+	ITEM=i_reag_spider_silk {5 10}	// Placed By Jesus
+	ITEM=i_silk_strands {1 2}		// Placed By Jesus
+[TEMPLATE loot_BlackWidow_Spider]
+	ITEM=backpack_average
+	ITEM=i_reag_spider_silk {10 20}	// Placed By Jesus
+	ITEM=i_silk_strands {5 10}		// Placed By Jesus
+[TEMPLATE loot_spider_lord]
+	ITEM=backpack_average
+	ITEM=i_reag_spider_silk {10 20}	// Placed By Jesus
+	ITEM=i_silk_strands {20 30}		// Placed By Jesus
+
+///// Template Mobs Undead
+
+[TEMPLATE Random_bones]
+	ITEM=i_bone_skull,R12
+	ITEM=i_bone_helmet,R65
+	ITEM=i_bone_spine,R21
+	ITEM=i_bone_jaw,R13
+	ITEM=i_bone_ribcage,R56
+	ITEM=i_bone_shards,R10
+	ITEM=i_bone_pelvis,R20
+
+[TEMPLATE loot_bone_daemon] //Jesus 
+	ITEM=CHAMP_LOOT_LOW
+
+	ITEM=i_gold,{500 1500}
+	ITEM=Random_bones,R12
+	ITEM=i_unholy_bone,R50
+	ITEM=i_spooky_toolkit,R700
+	ITEM=i_reag_daemon_bone,R10
+	ITEM=i_reag_bone,R8
+	ITEM=i_bone_throne,R989
+	
+[TEMPLATE loot_SKELETON]
+	ITEM=backpack_poor
+	ITEM=Random_bones,R12
+[TEMPLATE loot_SKELETON_ARCHER]
+	ITEM=backpack_poor
+	ITEM=Random_bones,R12
+[TEMPLATE loot_SKELETAL_MAGE]
+	ITEM=backpack_poor
+	ITEM=Random_bones,R12
+[TEMPLATE loot_SKELETAL_KNIGHT]
+	ITEM=backpack_meager
+	ITEM=Random_bones,R12
+	
+[TEMPLATE loot_Ghoul]
+	ITEM=backpack_poor
+	ITEM=i_spooky_toolkit,R700	
+[TEMPLATE loot_Spectre]
+	ITEM=backpack_poor
+	ITEM=i_spooky_toolkit,R700
+[TEMPLATE loot_Wraith]
+	ITEM=backpack_poor
+	ITEM=i_spooky_toolkit,R700
+	
+[TEMPLATE loot_Zombie]
+	ITEM=backpack_poor
+	ITEM=i_bandage {4 16}
+[TEMPLATE loot_Mummy]
+	ITEM=backpack_poor
+	ITEM=i_bandage {4 16}
+[TEMPLATE loot_HEADLESS]
+	ITEM=backpack_poor
+	ITEM=i_bandage {4 16}
+[TEMPLATE loot_Vampire_Bat]
+	ITEM=backpack_poor
+	ITEM=i_bandage {4 16}
+[TEMPLATE loot_Banshee]
+	ITEM=backpack_poor
+	ITEM=i_bandage {4 16}
+
+///// Template Mobs Orcs
+[TEMPLATE loot_ORC_CAPTAIN]
+	ITEM=backpack_poor
+[TEMPLATE loot_Orc]
+	ITEM=backpack_poor
+[TEMPLATE loot_ORCISH_LORD]
+	ITEM=backpack_poor
+
+///// Template Mobs Elements
+[TEMPLATE loot_elem_earth]
+	ITEM=backpack_meager
+[TEMPLATE loot_elem_water]
+	ITEM=backpack_meager
+[TEMPLATE loot_elem_air]
+	ITEM=backpack_meager
+[TEMPLATE loot_elem_ice]
+	ITEM=backpack_meager
+[TEMPLATE loot_elem_fire]
+	ITEM=backpack_meager
+[TEMPLATE loot_elem_poison]
+	ITEM=backpack_meager
+	ITEM=i_potion_poisonless,R5
+	ITEM=i_potion_poison,R5
+[TEMPLATE loot_elem_blood]
+	ITEM=backpack_average
+[TEMPLATE loot_EFREET]
+	ITEM=backpack_average
+
+///// Template Mobs Winged
+[TEMPLATE loot_IMP]
+	ITEM=backpack_poor
+[TEMPLATE loot_MONGBAT]
+	ITEM=backpack_poor
+[TEMPLATE loot_Phoenix]
+	ITEM=backpack_poor
+	
+// Template Mobs Harpeys
+[TEMPLATE loot_HARPEY]
+	ITEM=backpack_poor	
+[TEMPLATE loot_STONE_HARPY]
+	ITEM=backpack_meager
+	ITEM=i_reag_blood_moss,R8
+
+///// Template Mobs Sea Creatures
+[TEMPLATE RandomSeaSerpentDebri]
+	ITEM={i_spyglass, i_rope, i_anchor}
+
+[TEMPLATE loot_sea_serpent]
+	ITEM=backpack_meager
+	ITEM=RandomSeaSerpentDebri,R36
+[TEMPLATE loot_KRAKEN]
+	ITEM=backpack_meager
+	ITEM=RandomSeaSerpentDebri,R26
+[TEMPLATE loot_Leviathan]
+	ITEM=RandomSeaSerpentDebri,R16
+	ITEM=backpack_meager
+
+///// Template Mobs RepGUILDFROMUIDs and slime
+[TEMPLATE loot_lizardman]
+	ITEM=backpack_poor
+[TEMPLATE loot_Lava_Lizard]
+	ITEM=backpack_poor
+[TEMPLATE loot_Slime]
+	ITEM=backpack_poor
+[TEMPLATE loot_CORPSER]
+	ITEM=backpack_poor
+[TEMPLATE loot_SWAMP_TENTACLE]
+	ITEM=backpack_poor
+	
+[TEMPLATE loot_Bog_Thing]
+	ITEM=backpack_meager
+	ITEM=i_potion_invisibility,R15	// Placed By Jesus
+	ITEM=i_potion_poisonless,R5	// Placed By Jesus
+	ITEM=i_potion_poison,R10		// Placed By Jesus
+	ITEM=i_potion_poisongreat,R15	// Placed By Jesus
+	ITEM=i_potion_poisondeadly,R20	// Placed By Jesus
+	ITEM=i_ore_lime,R10				// Placed By Jesus
+	ITEM=i_reag_garlic {5 10}		// Placed By Jesus
+	ITEM=i_10runebookcharges,R70	// Placed By Jesus
+	
+[TEMPLATE loot_Bogling]
+	ITEM=backpack_poor
+	ITEM=i_potion_poison,R10		// Placed By Jesus
+	ITEM=i_potion_poisongreat,R15	// Placed By Jesus
+	ITEM=i_potion_poisondeadly,R20	// Placed By Jesus
+	
+[TEMPLATE loot_Plague_Beast]
+	ITEM=backpack_meager
+	ITEM=i_potion_poison,R10		// Placed By Jesus
+	ITEM=i_potion_poisongreat,R10	// Placed By Jesus
+	ITEM=i_potion_poisondeadly,R10	// Placed By Jesus
+
+///// Template Mobs Magical
+[TEMPLATE loot_GAZER]
+	ITEM=backpack_meager
+[TEMPLATE loot_ELDER_GAZER]
+	ITEM=backpack_average
+[TEMPLATE loot_Reaper]
+	ITEM=backpack_meager
+[TEMPLATE loot_Pixie]
+	ITEM=backpack_meager
+	ITEM=i_pixie_leg,R20
+[TEMPLATE loot_pixie_queen]
+	ITEM=backpack_meager
+[TEMPLATE loot_Changling]
+	ITEM=backpack_meager
+
+///// Template Mobs Cilivized - Ish
+
+[TEMPLATE loot_high_executioner]
+	ITEM=backpack_average
+	ITEM=i_halberd_verite,R25 // Placed By Jesus
+
+[TEMPLATE loot_woodelf]
+	ITEM=backpack_poor
+	ITEM=i_bow_cedar,R50				// Placed By Jesus
+	ITEM=i_yumi_apple,R20				// Placed By Jesus
+	ITEM=i_yumi_bogoak,R30				// Placed By Jesus
+	ITEM i_leather_cap_troll, R10		// Placed By Jesus
+	ITEM i_leather_gloves_troll, R10	// Placed By Jesus
+	ITEM i_leather_leggings_troll, R10	// Placed By Jesus
+	ITEM i_leather_sleeves_troll, R10	// Placed By Jesus
+	ITEM i_leather_tunic_troll, R10		// Placed By Jesus
+	ITEM i_leather_gorget_troll, R10	// Placed By Jesus
+
+///// Template Mobs Yomotsu's
+[TEMPLATE loot_Yomotsu]
+	ITEM=backpack_meager
+	ITEM i_leather_cap_ogre, R10
+	ITEM i_leather_gloves_ogre, R10
+	ITEM i_leather_leggings_ogre, R10
+	ITEM i_leather_sleeves_ogre, R10
+	ITEM i_leather_tunic_ogre, R10
+	ITEM i_leather_gorget_ogre, R10
+[TEMPLATE loot_Yomotsu_Priest]
+	ITEM=backpack_meager
+	ITEM i_leather_cap_ogre, R10
+	ITEM i_leather_gloves_ogre, R10
+	ITEM i_leather_leggings_ogre, R10
+	ITEM i_leather_sleeves_ogre, R10
+	ITEM i_leather_tunic_ogre, R10
+	ITEM i_leather_gorget_ogre, R10
+[TEMPLATE loot_Yomotsu_Warrior]
+	ITEM=backpack_meager
+	ITEM i_leather_cap_ogre, R10
+	ITEM i_leather_gloves_ogre, R10
+	ITEM i_leather_leggings_ogre, R10
+	ITEM i_leather_sleeves_ogre, R10
+	ITEM i_leather_tunic_ogre, R10
+	ITEM i_leather_gorget_ogre, R10
+
+// Bandits
+[TEMPLATE loot_bandits]
+	ITEM=backpack_meager
+	ITEM=backpack_poor
+	ITEM=Random_Potion
+	ITEM=Random_Potion
+	ITEM=i_bandage {8 16}
+
+// Dark Elfs
+[TEMPLATE loot_darkelf_war]
+	ITEM=backpack_meager
+	ITEM=loot_darkelf_standard
+	ITEM=random_armor_lime,R21
+
+[TEMPLATE loot_darkelf_standard]
+	ITEM=backpack_meager
+	ITEM=i_potion_HealGreat,R3 // Placed By Jesus
+	ITEM=i_gold,{50 220}	   // Placed By Jesus
+	ITEM=i_bandage,R3		   // Placed By Jesus
+
+///// Template Mobs Minotaurs
+[TEMPLATE loot_Tormented_Minotaur]
+	ITEM=backpack_average
+	ITEM=random_jewel,R45
+	ITEM=i_gold,{2000 2500}
+
+	ITEM=i_scroll_of_punishment, R99 // Placed By Jesus
+	ITEM=i_orb,R30
+[TEMPLATE loot_Minotaur]
+	ITEM=backpack_average
+	ITEM=random_jewel,R45
+	ITEM=i_gold,{2000 2500}
+
+	ITEM=i_scroll_of_punishment, R99 // Placed By Jesus
+	ITEM=i_orb,R30
+[TEMPLATE loot_minotaur_captain]
+	ITEM=backpack_rich
+	ITEM=random_jewel,R35
+	ITEM=i_gold,{2000 2500}
+
+	ITEM=i_scroll_of_punishment, R99 // Placed By Jesus
+	ITEM=i_orb,R30
+[TEMPLATE loot_minotaur_scout]
+	ITEM=backpack_rich
+	ITEM=random_jewel,R10
+	ITEM=i_gold,{2000 2500}
+
+	ITEM=i_scroll_of_punishment, R99 // Placed By Jesus
+	ITEM=i_orb,R30
+
+///// Template Mobs Insects
+
+///// Template Mobs Ants
+[TEMPLATE loot_fire_ant_queen]
+	ITEM=backpack_meager
+	ITEM=i_sabadilla {12 24}	// Placed By Jesus
+	
+[TEMPLATE loot_fire_ant_worker]
+	ITEM=backpack_meager
+	ITEM=i_sabadilla {6 8}		// Placed By Jesus
+	
+[TEMPLATE loot_fire_ant_warrior]
+	ITEM=backpack_meager
+	ITEM=i_sabadilla {8 10}		// Placed By Jesus
+	
+[TEMPLATE loot_ant_lion]
+	ITEM=backpack_meager
+	ITEM=i_sabadilla {8 12}		// Placed By Jesus
+
+///// Template Mobs Scorpions
+[TEMPLATE loot_scorpion]
+	ITEM=i_potion_poisonless
+	ITEM=backpack_poor
+[TEMPLATE loot_scorpion_prince]
+	ITEM=i_potion_poison
+	ITEM=backpack_meager
+[TEMPLATE loot_scorpion_king]
+	ITEM=i_potion_poisonstrong
+	ITEM=backpack_meager
+[TEMPLATE loot_scorpion_queen]
+	ITEM=i_potion_poisongreat
+	ITEM=backpack_meager
+[TEMPLATE loot_scorpion_thrall]
+	ITEM=i_potion_poisongreat {2 8}
+	ITEM=backpack_meager
+
+///// Template Mobs Unsorted
+[TEMPLATE loot_rune_beetle]
+	ITEM=backpack_meager
+	ITEM=i_10runebookcharges,R110	// Placed By Nobody
+	ITEM=i_20runebookcharges,R125	// Placed By Nobody
+	ITEM=i_30runebookcharges,R135	// Placed By Nobody
+	ITEM=i_rune_marker,R2
+	
+[TEMPLATE loot_BULLFROG]
+
+[TEMPLATE loot_RatMan]
+	ITEM=backpack_poor
+	
+[TEMPLATE loot_Kappa]
+	ITEM=backpack_meager
+	
+[TEMPLATE loot_hellhound]
+	ITEM=backpack_meager
+	
+[TEMPLATE loot_hellcat]
+	ITEM=backpack_meager
+	
+[TEMPLATE loot_lady_m]
+	ITEM=backpack_meager
+	
+[TEMPLATE loot_Satyr]
+	ITEM=backpack_meager
+	
+[TEMPLATE loot_super_besouro]
+	ITEM=backpack_average
+
+[TEMPLATE loot_Troglodyte]
+	ITEM=backpack_meager
+	
+[TEMPLATE loot_Hydra]
+	ITEM=backpack_meager	
+	
+[TEMPLATE loot_reaper_redux]
+	ITEM=backpack_meager
+	ITEM=random_log_uncommon_all,R15 // Placed by Jesus
+	
+[TEMPLATE loot_Tree_Fellow]
+	ITEM=backpack_meager
+	ITEM=random_log_all // Placed by Jesus
+	
+[TEMPLATE loot_chaosdaemon]
+ITEM=backpack_meager
+ITEM=i_gold,{500 3050}
+	
+[TEMPLATE loot_mound_of_maggots]
+	ITEM=backpack_meager
+	
+[TEMPLATE loot_Barbarian]
+	ITEM=backpack_poor
+	ITEM=i_rune_marker, R5
+	ITEM=i_scroll_recall, R15
+	ITEM=i_spear_shadow, R23
+	
+[TEMPLATE loot_elem_snow]
+	ITEM=backpack_meager
+	ITEM=i_halberd_ice,R125
+	ITEM=i_spear_ice,R125
+	ITEM=i_hammer_war_ice,R125
+	
+[TEMPLATE loot_fourarmed_daemon]
+	ITEM=backpack_meager
+	
+[TEMPLATE lady_of_snow]
+	ITEM=backpack_meager
+	
+[TEMPLATE loot_samurai]
+	ITEM=backpack_meager
+	
+[TEMPLATE loot_meer_mage]
+	ITEM=backpack_meager
+	
+[TEMPLATE loot_monstrous_interred_grizzle]
+	ITEM=backpack_average
+	
+[TEMPLATE loot_Horde_Daemon_Medium]
+	ITEM=backpack_meager
+	
+[TEMPLATE loot_Fetid_Essence]
+	ITEM=backpack_meager
+	
+[TEMPLATE loot_Dryad]
+	ITEM=backpack_meager
+	
+[TEMPLATE loot_ravenger]
+	ITEM=backpack_meager
+	
+[TEMPLATE loot_iron_golem]
+	ITEM=backpack_average
+	
+[TEMPLATE loot_Goblin]
+	ITEM=backpack_poor
+	
+[TEMPLATE loot_Goblin_Mage]
+	ITEM=backpack_poor
+	
+[TEMPLATE loot_Goblin_Chief]
+	ITEM=backpack_poor
+	
+[TEMPLATE loot_Goblin_Shaman]
+	ITEM=backpack_poor
+	
+[TEMPLATE loot_Goblin_Lord]
+	ITEM=backpack_poor
+	
+[TEMPLATE loot_Serpent]
+	ITEM=backpack_poor
+	
+[TEMPLATE loot_Serpent_Ice]
+	ITEM=backpack_poor
+	
+[TEMPLATE loot_Serpent_Lava]
+	ITEM=backpack_poor
+	
+[TEMPLATE loot_Babarian]
+	ITEM=backpack_poor
+	
+[TEMPLATE loot_Yomotsu]
+	ITEM=backpack_meager
+	ITEM=i_ore_chromeorange,R10
+	
+[TEMPLATE loot_Yomotsu_Elder]
+	ITEM=backpack_average
+	ITEM=i_ore_chromeorange,R10
+	
+[TEMPLATE loot_Yomotsu_Warrior]
+	ITEM=backpack_meager
+	ITEM=i_ore_chromeorange,R10
+	
+[TEMPLATE loot_Yomotsu_Mage]
+	ITEM=backpack_meager
+	ITEM=i_crystal_ball, R10
+	ITEM=i_ore_chromeorange,R10
+	
+[TEMPLATE loot_meer_capt]
+	ITEM=backpack_meager
+	
+[TEMPLATE loot_Skittering_Hopper]
+	ITEM=backpack_poor
+	
+[TEMPLATE loot_meer_capt]
+	ITEM=backpack_poor
+
+[TEMPLATE loot_night_imp]
+	ITEM=backpack_poor
+	
+[TEMPLATE loot_Shimmering_Effusion]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_dread_horn]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_LICH]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_LICH_LORD]
+	ITEM=backpack_meager
+	ITEM=i_gold, {500 1500}
+
+[TEMPLATE loot_patchwork_skeleton]
+	ITEM=backpack_poor
+
+[TEMPLATE loot_TERATHAN_AVENGER]
+	ITEM=backpack_poor
+	ITEM=Random_Potion
+
+	ITEM=i_leather_sleeves_Terathan, R50
+	ITEM=i_leather_gloves_Terathan, R55
+	ITEM=i_leather_gorget_Terathan, R45
+	ITEM=i_leather_leggings_Terathan, R65
+	ITEM=i_leather_tunic_Terathan, R65
+	ITEM=i_leather_cap_Terathan, R100
+	ITEM=i_armor_female_skirt_Terathan, R85
+	ITEM=i_armor_female_LEATHER_Terathan, R85
+
+[TEMPLATE loot_TERATHAN_DRONE]
+	ITEM=backpack_poor
+	ITEM=i_reag_spider_silk,{1 5}
+	ITEM=i_leather_sleeves_Terathan, R50
+	ITEM=i_leather_gloves_Terathan, R55
+	ITEM=i_leather_gorget_Terathan, R45
+	ITEM=i_leather_leggings_Terathan, R65
+	ITEM=i_leather_tunic_Terathan, R65
+	ITEM=i_leather_cap_Terathan, R100
+	ITEM=i_armor_female_skirt_Terathan, R85
+	ITEM=i_armor_female_LEATHER_Terathan, R85
+
+[TEMPLATE loot_TERATHAN_MATRIARCH]
+	ITEM=backpack_poor
+	ITEM=i_reag_spider_silk,{1 5}
+	ITEM=Random_Potion
+	ITEM=Random_Potion
+
+	ITEM=i_leather_sleeves_Terathan, R50
+	ITEM=i_leather_gloves_Terathan, R55
+	ITEM=i_leather_gorget_Terathan, R45
+	ITEM=i_leather_leggings_Terathan, R65
+	ITEM=i_leather_tunic_Terathan,R 65
+	ITEM=i_leather_cap_Terathan, R100
+	ITEM=i_armor_female_skirt_Terathan, R85
+	ITEM=i_armor_female_LEATHER_Terathan, R85
+
+[TEMPLATE loot_TERATHAN_WARRIOR]
+	ITEM=backpack_meager
+	ITEM=Random_Potion
+	ITEM=Random_Potion
+
+	ITEM=i_gold,{50 70}
+	ITEM=i_leather_sleeves_Terathan, R75
+	ITEM=i_leather_gloves_Terathan, R75
+	ITEM=i_leather_gorget_Terathan, R80
+	ITEM=i_leather_leggings_Terathan, R90
+	ITEM=i_leather_tunic_Terathan, R65
+	ITEM=i_leather_cap_Terathan, R100
+	ITEM=i_armor_female_skirt_Terathan, R85
+	ITEM=i_armor_female_LEATHER_Terathan, R85
+
+[TEMPLATE loot_arcane_daemon]
+	ITEM=backpack_meager
+
+	ITEM=i_gold,{500 3050}
+	ITEM=i_10runebookcharges, R50
+	ITEM=i_20runebookcharges, R100
+	ITEM=i_30runebookcharges, R150
+
+[TEMPLATE loot_exodus]
+	ITEM=backpack_average
+	ITEM=i_gold,{500 1500}
+	ITEM=tm_drone_parts, R18
+	ITEM=random_reagent
+	ITEM=random_reagent
+	ITEM=random_reagent
+	ITEM=random_reagent
+	ITEM=random_reagent	
+	ITEM=i_ore_iron, {10 20}
+	ITEM=i_sticks, R2
+	ITEM=i_gears, R5
+	ITEM=i_axel_and_gears
+	ITEM=i_clock_parts, R3
+
+[TEMPLATE loot_forest_lord]
+	ITEM=backpack_meager
+
+	ITEM=i_gold,{500 3050}
+	ITEM=i_10runebookcharges, R65
+	ITEM=i_20runebookcharges, R75
+	ITEM=i_30runebookcharges, R85
+
+[TEMPLATE loot_Succubus]
+	ITEM=backpack_meager
+	ITEM=i_10runebookcharges, R50
+	ITEM=i_20runebookcharges, R100
+	ITEM=i_30runebookcharges, R150
+
+[TEMPLATE loot_quagmire]
+	ITEM=backpack_poor
+
+[TEMPLATE loot_Horde_Daemon_Large]
+	ITEM=backpack_poor
+	ITEM=i_gold,{100 800}
+
+[TEMPLATE loot_Horde_Daemon_Medium]
+	ITEM=backpack_poor
+
+[TEMPLATE loot_fire_gargoyle]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_swarm]
+	ITEM=backpack_poor
+	ITEM=i_gold,{50 70}
+
+[TEMPLATE loot_Ethereal_Warrior]
+	ITEM=backpack_meager
+	ITEM=i_gold,{100 200}
+
+[TEMPLATE loot_multicolored_horde_minion]
+	ITEM=backpack_meager
+	ITEM=i_bandage,{100 200}
+	ITEM=i_10runebookcharges, R50
+	ITEM=i_20runebookcharges, R80
+	ITEM=i_30runebookcharges, R90
+
+[TEMPLATE loot_destroyer_gargoyle]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_Moloch]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_orc_brute]
+	ITEM=backpack_average
+
+[TEMPLATE loot_serpentine_dragon]
+	ITEM=backpack_average
+
+[TEMPLATE loot_centaur]
+	ITEM=backpack_meager
+	ITEM=i_arrow,{30 60}
+
+[TEMPLATE loot_abyss_lord]
+	ITEM=backpack_average
+
+[TEMPLATE loot_Blackthorn_Juggernaught]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_Sphynx]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_Meer_Warrior]
+	ITEM=backpack_poor
+
+[TEMPLATE loot_meer_eternal]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_meer_captain]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_horde_minion]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_Doppelganger]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_wyvern_mutant]
+	ITEM=backpack_meager
+	ITEM=i_hide_dragon,3,R50
+
+[TEMPLATE loot_enforcer_gargoyle]
+	ITEM=backpack_average
+
+[TEMPLATE loot_enslaved_gargoyle]
+	ITEM=backpack_average
+
+[TEMPLATE loot_repGUILDFROMUID_lord]
+	ITEM=backpack_rich
+
+[TEMPLATE loot_forest_lord]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_overlord]
+	ITEM=backpack_average
+
+[TEMPLATE loot_dammed_soul]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_chief_Paroxysmus]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_reptalon]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_Yomotsu_Elder]
+	ITEM=backpack_meager
+	ITEM=i_leather_cap_ogre, R2
+	ITEM=i_leather_gloves_ogre, R2
+	ITEM=i_leather_leggings_ogre, R2
+	ITEM=i_leather_sleeves_ogre, R2
+	ITEM=i_leather_tunic_ogre, R2
+	ITEM=i_leather_gorget_ogre, R2
+
+[TEMPLATE loot_deathwatch_beetle]
+	ITEM=backpack_meager
+	ITEM=RandomRuneBookcharge
+
+[TEMPLATE loot_tsuki_wolf]
+	ITEM=backpack_average
+	ITEM=RandomRuneBookcharge
+
+[TEMPLATE loot_revenant_lion]
+	ITEM=backpack_average
+	ITEM=RandomRuneBookcharge
+
+[TEMPLATE loot_rai_ju]
+	ITEM=backpack_average
+	ITEM=RandomRuneBookcharge
+
+[TEMPLATE lady_kaze_kemono]
+	ITEM=backpack_average
+	ITEM=RandomRuneBookcharge
+
+[TEMPLATE ice_hound]
+	ITEM=backpack_meager
+	ITEM=RandomRuneBookcharge
+
+[TEMPLATE loot_oni]
+	ITEM=backpack_average
+	ITEM=RandomRuneBookcharge
+
+[TEMPLATE loot_big_worm]
+	ITEM=backpack_meager
+	ITEM=RandomRuneBookcharge
+
+[TEMPLATE loot_big_worm_hatch]
+	ITEM=backpack_poor
+	ITEM=RandomRuneBookcharge
+
+[TEMPLATE loot_master_thief]
+	ITEM=backpack_rich
+
+[TEMPLATE loot_grand_mage]
+	ITEM=backpack_rich
+
+[TEMPLATE loot_ninja_mage]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_ninja_assassin]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_rotting_corpse]
+	ITEM=backpack_average
+
+[TEMPLATE loot_Gore_Fiend]
+	ITEM=backpack_poor
+
+[TEMPLATE loot_wanderer_void]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_flesh_golem]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_devourer_souls]
+	ITEM=backpack_average
+
+[TEMPLATE loot_abyssmal_horror]
+	ITEM=backpack_meager
+
+[TEMPLATE loot_crystal_elemental]
+	ITEM=backpack_average
+
+[TEMPLATE loot_gibberling]
+	ITEM=backpack_poor
+
+[TEMPLATE loot_ettin]
+	ITEM=backpack_meager
+	ITEM=i_leather_sleeves_Ettin, R150
+	ITEM=i_leather_gloves_ettin, R175
+	ITEM=i_leather_gorget_Ettin, R195
+	ITEM=i_leather_leggings_Ettin, R210
+	ITEM=i_leather_tunic_Ettin, R250
+	ITEM=i_leather_cap_ettin, R250
+	ITEM=i_armor_female_skirt_Ettin, R185
+	ITEM=i_armor_female_LEATHER_Ettin, R185
+
+[TEMPLATE loot_ettin_lord]
+	ITEM=backpack_average
+	ITEM=i_leather_sleeves_Ettin, R50
+	ITEM=i_leather_gloves_ettin, R55
+	ITEM=i_leather_gorget_Ettin, R45
+	ITEM=i_leather_leggings_Ettin, R65
+	ITEM=i_leather_tunic_Ettin, R100
+	ITEM=i_leather_cap_ettin, R75
+	ITEM=i_armor_female_skirt_Ettin, R85
+	ITEM=i_armor_female_LEATHER_Ettin, R85
+
+[TEMPLATE loot_ettin_w_axe]
+	ITEM=backpack_meager
+	ITEM=i_leather_sleeves_Ettin, R150
+	ITEM=i_leather_gloves_ettin, R175
+	ITEM=i_leather_gorget_Ettin, R195
+	ITEM=i_leather_leggings_Ettin, R210
+	ITEM=i_leather_tunic_Ettin, R250
+	ITEM=i_leather_cap_ettin, R250
+	ITEM=i_armor_female_skirt_Ettin, R185
+	ITEM=i_armor_female_LEATHER_Ettin, R185
+
+[TEMPLATE loot_ettin_frost]
+	ITEM=backpack_meager
+	ITEM=i_leather_sleeves_Ettin, R150
+	ITEM=i_leather_gloves_ettin, R175
+	ITEM=i_leather_gorget_Ettin, R195
+	ITEM=i_leather_leggings_Ettin, R210
+	ITEM=i_leather_tunic_Ettin, R250
+	ITEM=i_leather_cap_ettin, R250
+	ITEM=i_armor_female_skirt_Ettin, R185
+	ITEM=i_armor_female_LEATHER_Ettin, R185
+
+[TEMPLATE loot_crimson_dragon]
+	ITEM=CHAMP_LOOT_VERY_HIGH
+	ITEM=i_gold,{8000 13000}
+	ITEM=i_raredyetub,R15				// Placed By Jesus
+	ITEM=i_rare_skin_dye_bottle,R15		// Placed By Barry
+	ITEM=i_rare_hair_dye_bottle,R5		// Placed By Barry
+	ITEM=random_reagent					// Placed By Jesus
+	ITEM=random_reagent					// Placed By Jesus
+	ITEM=random_reagent					// Placed By Jesus
+	ITEM=random_reagent					// Placed By Jesus
+	ITEM=random_reagent					// Placed By Jesus
+	ITEM=Random_magic_rings
+	ITEM=Random_magic_rings
+	ITEM=random_bottle
+	ITEM=i_scroll_of_punishment,R150
+	ITEM=i_10runebookcharges
+	ITEM=i_20runebookcharges, R2
+	ITEM=i_30runebookcharges, R4
+	ITEM=i_1maxchargeincrease
+	ITEM=i_2maxchargeincrease,R2
+	ITEM=i_3maxchargeincrease,R4	
+
+	
+[TEMPLATE loot_platinum_dragon]
+	ITEM=CHAMP_LOOT_VERY_HIGH
+	ITEM=i_gold,{8000 13000}
+	ITEM=i_raredyetub,R15				// Placed By Jesus
+	ITEM=i_rare_skin_dye_bottle,R15		// Placed By Barry
+	ITEM=i_rare_hair_dye_bottle,R5		// Placed By Barry
+	ITEM=random_reagent					// Placed By Jesus
+	ITEM=random_reagent					// Placed By Jesus
+	ITEM=random_reagent					// Placed By Jesus
+	ITEM=random_reagent					// Placed By Jesus
+	ITEM=random_reagent					// Placed By Jesus
+	ITEM=Random_magic_rings
+	ITEM=Random_magic_rings
+	ITEM=i_scroll_of_punishment,R150
+	ITEM=i_10runebookcharges
+	ITEM=i_20runebookcharges, R2
+	ITEM=i_30runebookcharges, R4	
+	ITEM=i_1maxchargeincrease
+	ITEM=i_2maxchargeincrease,R2
+	ITEM=i_3maxchargeincrease,R4
+
+	
+[TEMPLATE loot_elem_training]
+	ITEM=random_reagent					// Placed By Jesus
+	ITEM=random_reagent					// Placed By Jesus
+	ITEM=random_reagent					// Placed By Jesus
+	ITEM=random_reagent					// Placed By Jesus
+	ITEM=random_reagent					// Placed By Jesus
+	
+	
+[EOF]

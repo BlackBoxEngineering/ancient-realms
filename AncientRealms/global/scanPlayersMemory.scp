@@ -1,0 +1,15 @@
+[FUNCTION ImagesToPlayersMemory]
+// Hopefully this will stop me from deleting the wrong memorys from a players head LOL
+REF1 = <SERV.UID.<UID>>
+FORCHARLAYER 30
+    If (<COLOR>=00400)&&!(<DISPID>=3805)
+		DISPID = 3805
+		NAME = Guild
+	ENDIF
+	If (<BASEID>=i_food_and_drink_sys_mem)
+		DISPID = i_cake
+		NAME = Food
+	ENDIF
+ENDFOR
+
+[EOF]

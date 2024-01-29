@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Hematite Quarter Staff
+
+[ITEMDEF i_staff_quarter_Hematite]
+   DEFNAME=i_staff_quarter_Hematite
+   ID=i_staff_quarter
+   NAME=Hematite Quarter Staff
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=21
+   VALUE=70
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={20 30}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Hematite]
+   DEFNAME=i_serpentstone_staff_Hematite
+   ID=i_serpentstone_staff
+   NAME=Hematite Serpentstone Staff
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=25
+   VALUE=70
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={60 70}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Hematite]
+   DEFNAME=i_staff_bladed_double_Hematite
+   ID=i_staff_bladed_double
+   NAME=Hematite Double Bladed Staff
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=33
+   VALUE=70
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={120 130}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Glass Staff
+
+[ITEMDEF i_glass_staff_Hematite]
+   DEFNAME=i_glass_staff_Hematite
+   ID=i_glass_staff
+   NAME=Hematite Glass Staff
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=30
+   VALUE=70
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={90 100}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Bladed Staff
+
+[ITEMDEF i_bladed_staff_Hematite]
+   DEFNAME=i_bladed_staff_Hematite
+   ID=i_bladed_staff
+   NAME=Hematite Bladed Staff
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=31
+   VALUE=70
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={115 125}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Tongs
+
+[ITEMDEF i_tongs_Hematite]
+   DEFNAME=i_tongs_Hematite
+   ID=i_tongs
+   NAME=Hematite Tongs
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=8
+   VALUE=70
+   SPEED=10
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={0 10}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Mace
+
+[ITEMDEF i_mace_Hematite]
+   DEFNAME=i_mace_Hematite
+   ID=i_mace
+   NAME=Hematite Mace
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=21
+   VALUE=70
+   SPEED=39
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Maul
+
+[ITEMDEF i_maul_Hematite]
+   DEFNAME=i_maul_Hematite
+   ID=i_maul
+   NAME=Hematite Maul
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=23
+   VALUE=70
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={40 50}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Scepter
+
+[ITEMDEF i_scepter_Hematite]
+   DEFNAME=i_scepter_Hematite
+   ID=i_scepter
+   NAME=Hematite Scepter
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=25
+   VALUE=70
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={50 60}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Hematite]
+   DEFNAME=i_hammer_sledge_Hematite
+   ID=i_hammer_sledge
+   NAME=Hematite Sledge Hammer
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=25
+   VALUE=70
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={20 30}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Hematite]
+   DEFNAME=i_hammer_smith_Hematite
+   ID=i_hammer_smith
+   NAME=Hematite Smiths Hammer
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=11
+   VALUE=70
+   SPEED=10
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite War Mace
+
+[ITEMDEF i_mace_war_Hematite]
+   DEFNAME=i_mace_war_Hematite
+   ID=i_mace_war
+   NAME=Hematite War Mace
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=29
+   VALUE=70
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={80 90}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Disc Mace
+
+[ITEMDEF i_disc_mace_Hematite]
+   DEFNAME=i_disc_mace_Hematite
+   ID=i_disc_mace
+   NAME=Hematite Disc Mace
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=29
+   VALUE=70
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={70 80}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite War Hammer
+
+[ITEMDEF i_hammer_war_Hematite]
+   DEFNAME=i_hammer_war_Hematite
+   ID=i_hammer_war
+   NAME=Hematite War Hammer
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=35
+   VALUE=70
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={100 110}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Hammer Pick
+
+[ITEMDEF i_hammer_pick_Hematite]
+   DEFNAME=i_hammer_pick_Hematite
+   ID=i_hammer_pick
+   NAME=Hematite Hammer Pick
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=31
+   VALUE=70
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={55 65}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite War Axe
+
+[ITEMDEF i_axe_war_Hematite]
+   DEFNAME=i_axe_war_Hematite
+   ID=i_axe_war
+   NAME=Hematite War Axe
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=21
+   VALUE=70
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={65 75}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Tessen
+
+[ITEMDEF i_tessen_Hematite]
+   DEFNAME=i_tessen_Hematite
+   ID=i_tessen
+   NAME=Hematite Tessen
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=20
+   VALUE=70
+   SPEED=35
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={75 85}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Long Sword
+
+[ITEMDEF i_sword_long_Hematite]
+   DEFNAME=i_sword_long_Hematite
+   ID=i_sword_long
+   NAME=Hematite Long Sword
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=70
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={10 20}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Broad Sword
+
+[ITEMDEF i_sword_broad_Hematite]
+   DEFNAME=i_sword_broad_Hematite
+   ID=i_sword_broad
+   NAME=Hematite Broad Sword
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=70
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={20 30}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Scimitar
+
+[ITEMDEF i_scimitar_Hematite]
+   DEFNAME=i_scimitar_Hematite
+   ID=i_scimitar
+   NAME=Hematite Scimitar
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=70
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Viking Sword
+
+[ITEMDEF i_sword_viking_Hematite]
+   DEFNAME=i_sword_viking_Hematite
+   ID=i_sword_viking
+   NAME=Hematite Viking Sword
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=70
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={35 45}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Katana
+
+[ITEMDEF i_katana_Hematite]
+   DEFNAME=i_katana_Hematite
+   ID=i_katana
+   NAME=Hematite Katana
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=70
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={80 90}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Wakizashi
+
+[ITEMDEF i_wakizashi_Hematite]
+   DEFNAME=i_wakizashi_Hematite
+   ID=i_wakizashi
+   NAME=Hematite Wakizashi
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=70
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={45 55}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Long Sword
+
+[ITEMDEF i_sword_long_b_Hematite]
+   DEFNAME=i_sword_long_b_Hematite
+   ID=i_sword_long_b
+   NAME=Hematite Long Sword
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=70
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={50 60}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Paladin Sword
+
+[ITEMDEF i_sword_paladin_Hematite]
+   DEFNAME=i_sword_paladin_Hematite
+   ID=i_sword_paladin
+   NAME=Hematite Paladin Sword
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=70
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={65 75}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Bokuto
+
+[ITEMDEF i_bokuto_Hematite]
+   DEFNAME=i_bokuto_Hematite
+   ID=i_bokuto
+   NAME=Hematite Bokuto
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=70
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={70 80}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Hematite]
+   DEFNAME=i_Radiant_Scimitar_Hematite
+   ID=i_Radiant_Scimitar
+   NAME=Hematite Radiant Scimitar
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=70
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={75 85}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Bone Harvester
+
+[ITEMDEF i_bone_harvester_Hematite]
+   DEFNAME=i_bone_harvester_Hematite
+   ID=i_bone_harvester
+   NAME=Hematite Bone Harvester
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=70
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={55 65}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Butcher Knife
+
+[ITEMDEF i_knife_butcher_Hematite]
+   DEFNAME=i_knife_butcher_Hematite
+   ID=i_knife_butcher
+   NAME=Hematite Butcher Knife
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=15
+   VALUE=70
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Hematite]
+   DEFNAME=i_cleaver_meat_Hematite
+   ID=i_cleaver_meat
+   NAME=Hematite Meat Cleaver
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=15
+   VALUE=70
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Elven Machete
+
+[ITEMDEF i_elven_machete_Hematite]
+   DEFNAME=i_elven_machete_Hematite
+   ID=i_elven_machete
+   NAME=Hematite Elven Machete
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=70
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={60 70}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Bone Machete
+
+[ITEMDEF i_bone_machete_Hematite]
+   DEFNAME=i_bone_machete_Hematite
+   ID=i_bone_machete
+   NAME=Hematite Bone Machete
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=70
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={50 60}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Daisho
+
+[ITEMDEF i_daisho_Hematite]
+   DEFNAME=i_daisho_Hematite
+   ID=i_daisho
+   NAME=Hematite Daisho
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=70
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={65 75}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite No-Dachi
+
+[ITEMDEF i_no_dachi_Hematite]
+   DEFNAME=i_no_dachi_Hematite
+   ID=i_no_dachi
+   NAME=Hematite No-Dachi
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=70
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={75 85}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Rune Blade
+
+[ITEMDEF i_Rune_Blade_Hematite]
+   DEFNAME=i_Rune_Blade_Hematite
+   ID=i_Rune_Blade
+   NAME=Hematite Rune Blade
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=29
+   VALUE=70
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={115 125}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Axe
+
+[ITEMDEF i_axe_Hematite]
+   DEFNAME=i_axe_Hematite
+   ID=i_axe
+   NAME=Hematite Axe
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=19
+   VALUE=70
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={42 52}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Bardiche
+
+[ITEMDEF i_bardiche_Hematite]
+   DEFNAME=i_bardiche_Hematite
+   ID=i_bardiche
+   NAME=Hematite Bardiche
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=25
+   VALUE=70
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={58 68}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Battle Axe
+
+[ITEMDEF i_axe_battle_Hematite]
+   DEFNAME=i_axe_battle_Hematite
+   ID=i_axe_battle
+   NAME=Hematite Battle Axe
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=70
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={65 75}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Double Axe
+
+[ITEMDEF i_axe_double_Hematite]
+   DEFNAME=i_axe_double_Hematite
+   ID=i_axe_double
+   NAME=Hematite Double Axe
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=70
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={70 80}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Hematite]
+   DEFNAME=i_axe_exec_Hematite
+   ID=i_axe_exec
+   NAME=Hematite Exectutioners Axe
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=70
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={73 83}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Halberd
+
+[ITEMDEF i_halberd_Hematite]
+   DEFNAME=i_halberd_Hematite
+   ID=i_halberd
+   NAME=Hematite Halberd
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=70
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={75 85}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Hatchet
+
+[ITEMDEF i_hatchet_Hematite]
+   DEFNAME=i_hatchet_Hematite
+   ID=i_hatchet
+   NAME=Hematite Hatchet
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=20
+   VALUE=70
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={40 50}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Hematite]
+   DEFNAME=i_axe_battle_large_Hematite
+   ID=i_axe_battle_large
+   NAME=Hematite Large Battle Axe
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=70
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={100 110}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Ornate Axe
+
+[ITEMDEF i_ornate_axe_Hematite]
+   DEFNAME=i_ornate_axe_Hematite
+   ID=i_ornate_axe
+   NAME=Hematite Ornate Axe
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=70
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={60 70}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Hematite]
+   DEFNAME=i_axe_two_hand_Hematite
+   ID=i_axe_two_hand
+   NAME=Hematite Two Handed Axe
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=70
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={55 65}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Dual Axes
+
+[ITEMDEF i_dual_short_axes_Hematite]
+   DEFNAME=i_dual_short_axes_Hematite
+   ID=i_dual_short_axes
+   NAME=Hematite Dual Axes
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=70
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={95 105}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Cresent Blade
+
+[ITEMDEF i_crescent_blade_Hematite]
+   DEFNAME=i_crescent_blade_Hematite
+   ID=i_crescent_blade
+   NAME=Hematite Cresent Blade
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=70
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={110 120}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Dagger
+
+[ITEMDEF i_dagger_Hematite]
+   DEFNAME=i_dagger_Hematite
+   ID=i_dagger
+   NAME=Hematite Dagger
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=11
+   VALUE=70
+   SPEED=23
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={10 20}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Skinning Knife
+
+[ITEMDEF i_knife_skinning_Hematite]
+   DEFNAME=i_knife_skinning_Hematite
+   ID=i_knife_skinning
+   NAME=Hematite Skinning Knife
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=11
+   VALUE=70
+   SPEED=23
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={15 25}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Hematite]
+   DEFNAME=i_sword_Assassin_Spike_Hematite
+   ID=i_sword_Assassin_Spike
+   NAME=Hematite Assassin Spike
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=13
+   VALUE=70
+   SPEED=25
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Cutlass
+
+[ITEMDEF i_cutlass_Hematite]
+   DEFNAME=i_cutlass_Hematite
+   ID=i_cutlass
+   NAME=Hematite Cutlass
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=70
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={25 35}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Short Blade
+
+[ITEMDEF i_shortblade_Hematite]
+   DEFNAME=i_shortblade_Hematite
+   ID=i_shortblade
+   NAME=Hematite Short Blade
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=70
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={35 45}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Scythe
+
+[ITEMDEF i_scythe_Hematite]
+   DEFNAME=i_scythe_Hematite
+   ID=i_scythe
+   NAME=Hematite Scythe
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=70
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={115 125}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Short Spear
+
+[ITEMDEF i_spear_short_Hematite]
+   DEFNAME=i_spear_short_Hematite
+   ID=i_spear_short
+   NAME=Hematite Short Spear
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=70
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={45 55}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite War Fork
+
+[ITEMDEF i_war_fork_Hematite]
+   DEFNAME=i_war_fork_Hematite
+   ID=i_war_fork
+   NAME=Hematite War Fork
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=70
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={50 60}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Leafblade
+
+[ITEMDEF i_sword_leafblade_Hematite]
+   DEFNAME=i_sword_leafblade_Hematite
+   ID=i_sword_leafblade
+   NAME=Hematite Leafblade
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=70
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={60 70}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Hematite]
+   DEFNAME=i_elven_spellblade_Hematite
+   ID=i_elven_spellblade
+   NAME=Hematite Elven Spell Blade
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=70
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={75 85}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Pitchfork
+
+[ITEMDEF i_pitchfork_Hematite]
+   DEFNAME=i_pitchfork_Hematite
+   ID=i_pitchfork
+   NAME=Hematite Pitchfork
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=70
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={55 65}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite War Cleaver
+
+[ITEMDEF i_war_cleaver_Hematite]
+   DEFNAME=i_war_cleaver_Hematite
+   ID=i_war_cleaver
+   NAME=Hematite War Cleaver
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=70
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={65 75}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Pike
+
+[ITEMDEF i_pike_Hematite]
+   DEFNAME=i_pike_Hematite
+   ID=i_pike
+   NAME=Hematite Pike
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=70
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={70 80}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Blood Blade
+
+[ITEMDEF i_bloodblade_Hematite]
+   DEFNAME=i_bloodblade_Hematite
+   ID=i_bloodblade
+   NAME=Hematite Blood Blade
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=70
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={75 85}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Kama
+
+[ITEMDEF i_kama_Hematite]
+   DEFNAME=i_kama_Hematite
+   ID=i_kama
+   NAME=Hematite Kama
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=70
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={77 87}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Kryss
+
+[ITEMDEF i_kryss_Hematite]
+   DEFNAME=i_kryss_Hematite
+   ID=i_kryss
+   NAME=Hematite Kryss
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=70
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={80 90}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Lajatang
+
+[ITEMDEF i_lajatang_Hematite]
+   DEFNAME=i_lajatang_Hematite
+   ID=i_lajatang
+   NAME=Hematite Lajatang
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=70
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={85 95}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Sai
+
+[ITEMDEF i_sai_Hematite]
+   DEFNAME=i_sai_Hematite
+   ID=i_sai
+   NAME=Hematite Sai
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=70
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={76 86}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Tekagi
+
+[ITEMDEF i_tekagi_Hematite]
+   DEFNAME=i_tekagi_Hematite
+   ID=i_tekagi
+   NAME=Hematite Tekagi
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=70
+   SPEED=25
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={90 100}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Hematite Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Hematite]
+   DEFNAME=i_dual_pointed_spear_Hematite
+   ID=i_dual_pointed_spear
+   NAME=Hematite Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Hematite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=70
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Hematite
+
+ON=@Create
+   COLOR=color_ore_Hematite
+   HITPOINTS={115 125}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

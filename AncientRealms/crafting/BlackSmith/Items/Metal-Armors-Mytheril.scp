@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Mytheril Platemail Arms
+[ITEMDEF i_platemail_arms_Mytheril]
+   DEFNAME= i_platemail_arms_Mytheril
+   ID= i_platemail_arms
+   NAME= Mytheril Platemail Arms
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Platemail Leggings
+[ITEMDEF i_platemail_leggings_Mytheril]
+   DEFNAME= i_platemail_leggings_Mytheril
+   ID= i_platemail_leggings
+   NAME= Mytheril Platemail Leggings
+   ARMOR= 29
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Platemail Helmet
+[ITEMDEF i_platemail_helm_Mytheril]
+   DEFNAME= i_platemail_helm_Mytheril
+   ID= i_platemail_helm
+   NAME= Mytheril Platemail Helmet
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Platemail Gorget
+[ITEMDEF i_platemail_gorget_Mytheril]
+   DEFNAME= i_platemail_gorget_Mytheril
+   ID= i_platemail_gorget
+   NAME= Mytheril Platemail Gorget
+   ARMOR= 19
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Mytheril]
+   DEFNAME= i_platemail_gorget2_Mytheril
+   ID= i_platemail_gorget2
+   NAME= Mytheril Platemail Gorget
+   ARMOR= 19
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Platemail Gloves
+[ITEMDEF i_platemail_gloves_Mytheril]
+   DEFNAME= i_platemail_gloves_Mytheril
+   ID= i_platemail_gloves
+   NAME= Mytheril Platemail Gloves
+   ARMOR= 19
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Platemail Chest
+[ITEMDEF i_platemail_chest_Mytheril]
+   DEFNAME= i_platemail_chest_Mytheril
+   ID= i_platemail_chest
+   NAME= Mytheril Platemail Chest
+   ARMOR= 33
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Mytheril]
+   DEFNAME= i_armor_female_plate_Mytheril
+   ID= i_armor_female_plate
+   NAME= Mytheril Platemail Female Plate
+   ARMOR= 31
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril chainmail coif
+[ITEMDEF i_chainmail_coif_Mytheril]
+   DEFNAME= i_chainmail_coif_Mytheril
+   ID= i_chainmail_coif
+   NAME= Mytheril chainmail coif
+   ARMOR= 25
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {61 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril chainmail leggings
+[ITEMDEF i_chainmail_leggings_Mytheril]
+   DEFNAME= i_chainmail_leggings_Mytheril
+   ID= i_chainmail_leggings
+   NAME= Mytheril chainmail leggings
+   ARMOR= 27
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {61 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril chainmail tunic
+[ITEMDEF i_chainmail_tunic_Mytheril]
+   DEFNAME= i_chainmail_tunic_Mytheril
+   ID= i_chainmail_tunic
+   NAME= Mytheril chainmail tunic
+   ARMOR= 31
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {61 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Mytheril]
+   DEFNAME= i_ringmail_sleeves_Mytheril
+   ID= i_ringmail_sleeves
+   NAME= Mytheril Ringmail Sleeves
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {51 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Mytheril]
+   DEFNAME= i_ringmail_leggings_Mytheril
+   ID= i_ringmail_leggings
+   NAME= Mytheril Ringmail Leggings
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {51 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Mytheril]
+   DEFNAME= i_ringmail_tunic_Mytheril
+   ID= i_ringmail_tunic
+   NAME= Mytheril Ringmail Tunic
+   ARMOR= 27
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {51 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Mytheril]
+   DEFNAME= i_ringmail_gloves_Mytheril
+   ID= i_ringmail_gloves
+   NAME= Mytheril Ringmail Gloves
+   ARMOR= 13
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {51 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril studded sleeves
+[ITEMDEF i_studded_sleeves_Mytheril]
+   DEFNAME= i_studded_sleeves_Mytheril
+   ID= i_studded_sleeves
+   NAME= Mytheril studded sleeves
+   ARMOR= 16
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Mytheril, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril studded gloves
+[ITEMDEF i_studded_gloves_Mytheril]
+   DEFNAME= i_studded_gloves_Mytheril
+   ID= i_studded_gloves
+   NAME= Mytheril studded gloves
+   ARMOR= 13
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Mytheril, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril studded gorget
+[ITEMDEF i_studded_gorget_Mytheril]
+   DEFNAME= i_studded_gorget_Mytheril
+   ID= i_studded_gorget
+   NAME= Mytheril studded gorget
+   ARMOR= 13
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Mytheril, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril studded leggings
+[ITEMDEF i_studded_leggings_Mytheril]
+   DEFNAME= i_studded_leggings_Mytheril
+   ID= i_studded_leggings
+   NAME= Mytheril studded leggings
+   ARMOR= 22
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Mytheril, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril studded tunic
+[ITEMDEF i_studded_tunic_Mytheril]
+   DEFNAME= i_studded_tunic_Mytheril
+   ID= i_studded_tunic
+   NAME= Mytheril studded tunic
+   ARMOR= 26
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Mytheril, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril studded female armor
+[ITEMDEF i_armor_female_studded_Mytheril]
+   DEFNAME= i_armor_female_studded_Mytheril
+   ID= i_armor_female_studded
+   NAME= Mytheril studded female armor
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Mytheril, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Mytheril]
+   DEFNAME= i_armor_female_bustier_studded_Mytheril
+   ID= i_armor_female_bustier_studded
+   NAME= Mytheril studded female bustier
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Mytheril, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril platemail mempo
+[ITEMDEF i_platemail_mempo_Mytheril]
+   DEFNAME= i_platemail_mempo_Mytheril
+   ID= i_platemail_mempo
+   NAME= Mytheril platemail mempo
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril platemail do
+[ITEMDEF i_platemail_do_Mytheril]
+   DEFNAME= i_platemail_do_Mytheril
+   ID= i_platemail_do
+   NAME= Mytheril platemail do
+   ARMOR= 31
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Mytheril]
+   DEFNAME= i_platemail_hiro_sode_Mytheril
+   ID= i_platemail_hiro_sode
+   NAME= Mytheril platemail hiro sode
+   ARMOR= 27
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril platemail suneate
+[ITEMDEF i_platemail_suneate_Mytheril]
+   DEFNAME= i_platemail_suneate_Mytheril
+   ID= i_platemail_suneate
+   NAME= Mytheril platemail suneate
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril platemail haidate
+[ITEMDEF i_platemail_haidate_Mytheril]
+   DEFNAME= i_platemail_haidate_Mytheril
+   ID= i_platemail_haidate
+   NAME= Mytheril platemail haidate
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril studded mempo
+[ITEMDEF i_studded_mempo_Mytheril]
+   DEFNAME= i_studded_mempo_Mytheril
+   ID= i_studded_mempo
+   NAME= Mytheril studded mempo
+   ARMOR= 18
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Mytheril, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril studded do
+[ITEMDEF i_studded_do_Mytheril]
+   DEFNAME= i_studded_do_Mytheril
+   ID= i_studded_do
+   NAME= Mytheril studded do
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Mytheril, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Mytheril]
+   DEFNAME= i_studded_hiro_sode_Mytheril
+   ID= i_studded_hiro_sode
+   NAME= Mytheril studded hiro sode
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Mytheril, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril studded suneate
+[ITEMDEF i_studded_suneate_Mytheril]
+   DEFNAME= i_studded_suneate_Mytheril
+   ID= i_studded_suneate
+   NAME= Mytheril studded suneate
+   ARMOR= 20
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Mytheril, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril studded haidate
+[ITEMDEF i_studded_haidate_Mytheril]
+   DEFNAME= i_studded_haidate_Mytheril
+   ID= i_studded_haidate
+   NAME= Mytheril studded haidate
+   ARMOR= 18
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Mytheril, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Mytheril]
+   DEFNAME= i_platemail_gargish_arms_Mytheril
+   ID= i_platemail_gargish_arms
+   NAME= Mytheril Gargish Platemail Arms
+   ARMOR= 27
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Mytheril]
+   DEFNAME= i_platemail_gargish_chest_Mytheril
+   ID= i_platemail_gargish_chest
+   NAME= Mytheril Gargish Platemail Chest
+   ARMOR= 35
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Mytheril]
+   DEFNAME= i_platemail_gargish_kilt_Mytheril
+   ID= i_platemail_gargish_kilt
+   NAME= Mytheril Gargish Platemail Kilt
+   ARMOR= 26
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Mytheril]
+   DEFNAME= i_platemail_gargish_leggings_Mytheril
+   ID= i_platemail_gargish_leggings
+   NAME= Mytheril Gargish Platemail Leggings
+   ARMOR= 31
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Mytheril]
+   DEFNAME= i_platemail_gargish_arms_2_Mytheril
+   ID= i_platemail_gargish_arms_2
+   NAME= Mytheril Gargish Platemail Arms
+   ARMOR= 27
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Mytheril]
+   DEFNAME= i_platemail_gargish_chest_2_Mytheril
+   ID= i_platemail_gargish_chest_2
+   NAME= Mytheril Gargish Platemail Chest
+   ARMOR= 35
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Mytheril]
+   DEFNAME= i_platemail_gargish_kilt_2_Mytheril
+   ID= i_platemail_gargish_kilt_2
+   NAME= Mytheril Gargish Platemail Kilt
+   ARMOR= 26
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Mytheril]
+   DEFNAME= i_platemail_gargish_leggings_2_Mytheril
+   ID= i_platemail_gargish_leggings_2
+   NAME= Mytheril Gargish Platemail Leggings
+   ARMOR= 31
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Closed Helmet
+[ITEMDEF i_helm_close_Mytheril]
+   DEFNAME= i_helm_close_Mytheril
+   ID= i_helm_close
+   NAME= Mytheril Closed Helmet
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Open Helmet
+[ITEMDEF i_helm_open_Mytheril]
+   DEFNAME= i_helm_open_Mytheril
+   ID= i_helm_open
+   NAME= Mytheril Open Helmet
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {51 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Bascinet
+[ITEMDEF i_bascinet_Mytheril]
+   DEFNAME= i_bascinet_Mytheril
+   ID= i_bascinet
+   NAME= Mytheril Bascinet
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Norse Helmet
+[ITEMDEF i_helm_norse_Mytheril]
+   DEFNAME= i_helm_norse_Mytheril
+   ID= i_helm_norse
+   NAME= Mytheril Norse Helmet
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {61 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Kabuto
+[ITEMDEF i_helm_kabuto_Mytheril]
+   DEFNAME= i_helm_kabuto_Mytheril
+   ID= i_helm_kabuto
+   NAME= Mytheril Kabuto
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Mytheril]
+   DEFNAME= i_chainmail_hatsuburi_Mytheril
+   ID= i_chainmail_hatsuburi
+   NAME= Mytheril Chainmail Hatsuburi
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Mytheril]
+   DEFNAME= i_platemail_hatsuburi_Mytheril
+   ID= i_platemail_hatsuburi
+   NAME= Mytheril Platemail Hatsuburi
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Mytheril]
+   DEFNAME= i_plate_jingasa_heavy_Mytheril
+   ID= i_plate_jingasa_heavy
+   NAME= Mytheril Heavy Jingasa
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Mytheril]
+   DEFNAME= i_platemail_kabuto_decorative_Mytheril
+   ID= i_platemail_kabuto_decorative
+   NAME= Mytheril Decorative Platemail Kabuto
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {101 990}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Mytheril]
+   DEFNAME= i_plate_jingasa_light_Mytheril
+   ID= i_plate_jingasa_light
+   NAME= Mytheril Light Jingasa
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Mytheril]
+   DEFNAME= i_plate_jingasa_small_Mytheril
+   ID= i_plate_jingasa_small
+   NAME= Mytheril Small Jingasa
+   ARMOR= 19
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {61 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Mytheril]
+   DEFNAME= i_platemail_kabuto_battle_Mytheril
+   ID= i_platemail_kabuto_battle
+   NAME= Mytheril Platemail Battle Kabuto
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Mytheril]
+   DEFNAME= i_platemail_kabuto_Mytheril
+   ID= i_platemail_kabuto
+   NAME= Mytheril Platemail Kabuto
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Circlet
+[ITEMDEF i_circlet_Mytheril]
+   DEFNAME= i_circlet_Mytheril
+   ID= i_circlet
+   NAME= Mytheril Circlet
+   ARMOR= 17
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Royal Circlet
+[ITEMDEF i_circlet_royal_Mytheril]
+   DEFNAME= i_circlet_royal_Mytheril
+   ID= i_circlet_royal
+   NAME= Mytheril Royal Circlet
+   ARMOR= 17
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Mytheril]
+   DEFNAME= i_circlet_gemmed_Mytheril
+   ID= i_circlet_gemmed
+   NAME= Mytheril Gemmed Circlet
+   ARMOR= 17
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {111 1100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Buckler
+[ITEMDEF i_shield_buckler_Mytheril]
+   DEFNAME= i_shield_buckler_Mytheril
+   ID= i_shield_buckler
+   NAME= Mytheril Buckler
+   ARMOR= 16
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {41 330}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Wooden Shield
+[ITEMDEF i_shield_wood_Mytheril]
+   DEFNAME= i_shield_wood_Mytheril
+   ID= i_shield_wood
+   NAME= Mytheril Wooden Shield
+   ARMOR= 17
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {51 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Mytheril]
+   DEFNAME= i_shield_round_metal_Mytheril
+   ID= i_shield_round_metal
+   NAME= Mytheril Light Metal  Round Shield
+   ARMOR= 18
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {61 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Mytheril]
+   DEFNAME= i_shield_round_bronze_Mytheril
+   ID= i_shield_round_bronze
+   NAME= Mytheril Heavy Metal  Round Shield
+   ARMOR= 20
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Mytheril]
+   DEFNAME= i_shield_kite_metal_Mytheril
+   ID= i_shield_kite_metal
+   NAME= Mytheril Metal Kite Shield
+   ARMOR= 22
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {81 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Mytheril]
+   DEFNAME= i_shield_kite_wood_Mytheril
+   ID= i_shield_kite_wood
+   NAME= Mytheril Wooden Kite Shield
+   ARMOR= 21
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Heater Shield
+[ITEMDEF i_shield_heater_Mytheril]
+   DEFNAME= i_shield_heater_Mytheril
+   ID= i_shield_heater
+   NAME= Mytheril Heater Shield
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {101 990}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Ancient Shield
+[ITEMDEF i_shield_dupre_Mytheril]
+   DEFNAME= i_shield_dupre_Mytheril
+   ID= i_shield_dupre
+   NAME= Mytheril Ancient Shield
+   ARMOR= 25
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {111 1100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Shield oh Hell
+[ITEMDEF i_shield_scale_Mytheril]
+   DEFNAME= i_shield_scale_Mytheril
+   ID= i_shield_scale
+   NAME= Mytheril Shield oh Hell
+   ARMOR= 25
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {111 1100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Chaos Shield
+[ITEMDEF i_shield_chaos_Mytheril]
+   DEFNAME= i_shield_chaos_Mytheril
+   ID= i_shield_chaos
+   NAME= Mytheril Chaos Shield
+   ARMOR= 26
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {121 1210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Order Shield
+[ITEMDEF i_shield_order_Mytheril]
+   DEFNAME= i_shield_order_Mytheril
+   ID= i_shield_order
+   NAME= Mytheril Order Shield
+   ARMOR= 26
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Mytheril
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Mytheril
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS= {121 1210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

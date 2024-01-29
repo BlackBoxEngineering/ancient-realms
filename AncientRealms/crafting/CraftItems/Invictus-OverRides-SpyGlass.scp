@@ -1,0 +1,23 @@
+// Invictus Spyglass
+// The Spyglass lets the player see the Status of The Moons
+// Jesus
+
+[ITEMDEF 014f5]
+DEFNAME=i_spyglass
+TYPE=T_SPY_GLASS
+FLIP=1
+RESOURCES=2 i_ingot_iron, 1 i_GLASS
+WEIGHT=3
+CATEGORY=Decoration - Miscellaneous
+SUBSECTION=Nautical
+DESCRIPTION=SpyGlass (N)
+DUPELIST=014f6
+
+ON=@DClick
+	f_spyglass
+	return 1
+
+
+[ITEMDEF 014f6]
+//spyglass
+DUPEITEM=014f5

@@ -1,0 +1,36 @@
+[TYPEDEF t_DEED_LOCKED_CHEST]
+// Locked Chest Trigger
+
+ON=@DCLICK
+	SRC.NEWITEM=009ab //chest
+	SRC.ACT.BOUNCE
+	SRC.ACT.MORE=rand(0ffff)
+	SRC.TAG.CHESTSERIAL=<SRC.ACT.UID>
+	SRC.TAG.CHESTKEYCODE=<SRC.ACT.MORE>
+	SRC.NEWITEM=0100f // key
+	src.act.attr=04
+	SRC.ACT.P=<SRC.P>
+	SRC.ACT.MORE=<SRC.TAG.CHESTKEYCODE>
+	SRC.ACT.LINK=<SRC.TAG.CHESTSERIAL>
+	SRC.ACT.NAME=Key to a Locked Chest
+	SRC.ACT.BOUNCE
+	SRC.ACT.DUPE
+	SRC.ACT.BOUNCE
+	REMOVE
+	
+[ITEMDEF i_deed_to_lockable_chest]
+DEFNAME=i_deed_to_lockable_chest
+NAME=deed to lockable chest
+ID=0014ef
+TYPE=t_DEED_LOCKED_CHEST
+VALUE=1110
+resources=40 i_log, 1 i_key_iron
+skillmake=tinkering 80.0,t_tinker_tools
+CATEGORY=Provisions - Deeds
+SUBSECTION=Item Deeds
+DESCRIPTION=Locked Chest
+
+ON=@CREATE
+NAME=Deed to a Locked Chest
+
+[EOF]

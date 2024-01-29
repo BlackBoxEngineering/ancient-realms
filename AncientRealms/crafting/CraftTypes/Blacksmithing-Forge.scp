@@ -1,0 +1,116 @@
+[TYPEDEF t_forge]
+ON=@DClick
+	DIALOGCLOSE InvictusCraftingMenu
+	SRC.TAG.ForgeUID=<UID>
+	SRC.TAG.ForgeP=<P>
+	SRC.TAG.ForgeP.X=<P.X>
+	SRC.TAG.ForgeP.Y=<P.Y>
+	SRC.TAG.ForgeP.Z=<P.Z>
+	TARGET
+	RETURN 1
+
+ON=@TARGON_ITEM
+	IF (<SRC.TARG.CONT> == <SRC.FINDLAYER(21).UID>)
+		CALL f_CheckTargetForOre
+		SRC.CTAG.ForgeUID=
+		SRC.CTAG.ForgeP=
+	ELSE
+		SRC.SYSMESSAGE @92 This must be in your pack or bank to smelt.
+		SRC.CTAG.ForgeUID=
+		SRC.CTAG.ForgeP=
+		RETURN 1
+	ENDIF
+	RETURN 1
+	
+[FUNCTION f_CheckTargetForOre]
+	IF (<SRC.isneartype t_forge 1>)
+		LOCAL.TargetUID=<SRC.TARG.UID>
+		IF (<SRC.TARG.TYPE>==t_ore)
+			IF (<SRC.MINING> < <EVAL <SRC.TARG.SKILLMAKE>>)
+				SRC.SYSMESSAGE @55 You not skilled enough to handle this kind of ore!
+				RETURN 1
+			ELSE		
+				LOCAL.PlayerSkill=<SRC.MINING>
+				LOCAL.TargetSkill=<SRC.TARG.SKILLMAKE>
+				LOCAL.TargetSkillGainLimit=<EVAL <LOCAL.TargetSkill> / 2>
+				LOCAL.OriginalAmountOfIngot=<SRC.TARG.AMOUNT>
+				LOCAL.IngotKind=<SRC.TARG.TDATA1>			
+				IF <SRC.TARG.AMOUNT> > 1
+					LOCAL.IngotReturnChance=<R1, 100>
+					IF <SRC.MINING> > <LOCAL.IngotReturnChance>
+						SRC.SYSMESSAGE @63 You Succeed in smelting all the Ore.
+						LOCAL.IngotReturn=<LOCAL.OriginalAmountOfIngot>
+					ELSE
+						SRC.SYSMESSAGE @00029 You Loose some ore during smelting. 
+						IF <SRC.MINING> > 90
+							LOCAL.IngotReturn=<EVAL <LOCAL.OriginalAmountOfIngot> - <R1, 6>>
+						ELIF <SRC.MINING> > 70
+							LOCAL.IngotReturn=<EVAL <LOCAL.OriginalAmountOfIngot> - <R1, 12>>
+						ELIF <SRC.MINING> > 50
+							LOCAL.IngotReturn=<EVAL <LOCAL.OriginalAmountOfIngot> - <R1, 18>>
+						ELIF <SRC.MINING> > 30
+							LOCAL.IngotReturn=<EVAL <LOCAL.OriginalAmountOfIngot> - <R1, 24>>
+						ELSE
+							LOCAL.IngotReturn=<EVAL <LOCAL.OriginalAmountOfIngot> - <R1, 30>>
+						ENDIF
+					ENDIF
+					IF (<EVAL <LOCAL.IngotReturn>> < 1)
+						SRC.SYSMESSAGE @53 You Fail to Create any Ingots
+						SERV.UID.<LOCAL.TargetUID>.remove
+						RETURN 1
+					ENDIF			
+					CALL f_smelt_effect			
+					SRC.TARG.REMOVE
+					SRC.NEWITEM <LOCAL.IngotKind>, <LOCAL.IngotReturn>
+					SRC.ACT.BOUNCE			
+					SRC.SYSMESSAGE @92 You obtain <EVAL <LOCAL.IngotReturn>> ingots
+					LOCAL.MiningNo=45
+					IF (<EVAL <LOCAL.SomeChaosXThree>> > <EVAL <LOCAL.IngotReturnStart>>)
+						CALL SRC.f_SkillGain <EVAL <LOCAL.MiningNo>>
+					ENDIF
+					RETURN 1
+				ELSE
+					SRC.SYSMESSAGE @33 You need more ore than this!
+					RETURN 1
+				ENDIF	
+			ENDIF
+		ENDIF
+		IF (<SRC.TARG.TYPE>==t_armor)||(<SRC.TARG.TYPE>==t_shield)||(<SRC.TARG.TYPE>==t_weapon_mace_smith)||(<SRC.TARG.TYPE>==t_weapon_mace_sharp)||(<SRC.TARG.TYPE>==t_weapon_sword)||(<SRC.TARG.TYPE>==t_weapon_fence)||(STRMATCH(*i_Players_Gate*,<SRC.TARG.BASEID>))||(STRMATCH(*i_Players_Fence*,<SRC.TARG.BASEID>))
+			CALL f_smelt_item
+			RETURN 1
+		ELSE
+			SRC.SYSMESSAGE @33 This is not Smeltable.
+			RETURN 1
+		ENDIF
+	ELSE
+		SRC.SYSMESSAGE @33 Stand Closer to Forge.
+		RETURN 1
+	ENDIF
+
+[FUNCTION f_smelt_effect]
+	SRC.SFX=84
+	SERV.NEWITEM=i_fire_column, 16, 0, 1
+	LOCAL.NudgeEffect=<EVAL <SRC.TAG.ForgeP.Z>+10>
+	NEW.P=<EVAL <SRC.TAG.ForgeP.X>>,<EVAL <SRC.TAG.ForgeP.Y>>,<EVAL <LOCAL.NudgeEffect>>
+	NEW.ATTR=ATTR_DECAY
+	NEW.TIMER = 1
+	SRC.SOUND=011c
+
+[FUNCTION f_smelt_item]
+	LOCAL.ReturnIngotType=<SERV.ITEMDEF.<SRC.TARG.BASEID>.RESOURCES.1.KEY>
+	LOCAL.ReturnIngotAmount=<SERV.ITEMDEF.<SRC.TARG.BASEID>.RESOURCES.1.VAL>
+	LOCAL.ReturnIngotAmount=(<LOCAL.ReturnIngotAmount>/2)
+	CALL f_smelt_effect
+	SRC.TARG.REMOVE
+	NEWITEM <LOCAL.ReturnIngotType>, <LOCAL.ReturnIngotAmount>, <SRC.UID>
+	SRC.SYSMESSAGE @92 You obtain <EVAL <LOCAL.ReturnIngotAmount>> ingots.
+	RETURN 1
+	
+[FUNCTION IsNearForge]
+	IF (<isneartype t_forge 1>)
+		RETURN 1
+	ELSE 
+		RETURN 0
+	ENDIF
+
+[EOF]

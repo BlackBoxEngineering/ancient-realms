@@ -1,0 +1,466 @@
+/////////////////////////////////////////////Maple woodland chest
+[ITEMDEF i_woodland_chest_Maple]
+   DEFNAME= i_woodland_chest_Maple
+   ID= i_woodland_chest
+   NAME= Maple woodland chest
+   ARMOR= 32
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 20 i_log_Maple
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Maple
+   DESCRIPTION= woodland chest
+
+ON=@Create
+   COLOR=color_log_Maple
+   HITPOINTS= {102 1080}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Maple woodland belt
+[ITEMDEF i_woodland_belt_Maple]
+   DEFNAME= i_woodland_belt_Maple
+   ID= i_woodland_belt
+   NAME= Maple woodland belt
+   ARMOR= 27
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Maple
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Maple
+   DESCRIPTION= woodland belt
+
+ON=@Create
+   COLOR=color_log_Maple
+   HITPOINTS= {102 1080}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Maple woodland gorget
+[ITEMDEF i_woodland_gorget_Maple]
+   DEFNAME= i_woodland_gorget_Maple
+   ID= i_woodland_gorget
+   NAME= Maple woodland gorget
+   ARMOR= 18
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Maple
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Maple
+   DESCRIPTION= woodland gorget
+
+ON=@Create
+   COLOR=color_log_Maple
+   HITPOINTS= {102 1080}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Maple woodland gauntlets
+[ITEMDEF i_woodland_gauntlets_Maple]
+   DEFNAME= i_woodland_gauntlets_Maple
+   ID= i_woodland_gauntlets
+   NAME= Maple woodland gauntlets
+   ARMOR= 18
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Maple
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Maple
+   DESCRIPTION= woodland gauntlets
+
+ON=@Create
+   COLOR=color_log_Maple
+   HITPOINTS= {102 1080}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Maple woodland leggings
+[ITEMDEF i_woodland_leggings_Maple]
+   DEFNAME= i_woodland_leggings_Maple
+   ID= i_woodland_leggings
+   NAME= Maple woodland leggings
+   ARMOR= 27
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Maple
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Maple
+   DESCRIPTION= woodland leggings
+
+ON=@Create
+   COLOR=color_log_Maple
+   HITPOINTS= {102 1080}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Maple woodland arms
+[ITEMDEF i_woodland_arms_Maple]
+   DEFNAME= i_woodland_arms_Maple
+   ID= i_woodland_arms
+   NAME= Maple woodland arms
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 8 i_log_Maple
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Maple
+   DESCRIPTION= woodland arms
+
+ON=@Create
+   COLOR=color_log_Maple
+   HITPOINTS= {102 1080}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Maple female woodland chest
+[ITEMDEF i_armor_female_woodland_Maple]
+   DEFNAME= i_armor_female_woodland_Maple
+   ID= i_armor_female_woodland
+   NAME= Maple female woodland chest
+   ARMOR= 28
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 16 i_log_Maple
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Maple
+   DESCRIPTION= female woodland chest
+
+ON=@Create
+   COLOR=color_log_Maple
+   HITPOINTS= {102 1080}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Maple leaf tunic
+[ITEMDEF i_leaf_tunic_Maple]
+   DEFNAME= i_leaf_tunic_Maple
+   ID= i_leaf_tunic
+   NAME= Maple leaf tunic
+   ARMOR= 30
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 18 i_log_Maple
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Maple
+   DESCRIPTION= leaf tunic
+
+ON=@Create
+   COLOR=color_log_Maple
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Maple leaf gloves
+[ITEMDEF i_leaf_gloves_Maple]
+   DEFNAME= i_leaf_gloves_Maple
+   ID= i_leaf_gloves
+   NAME= Maple leaf gloves
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_log_Maple
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Maple
+   DESCRIPTION= leaf gloves
+
+ON=@Create
+   COLOR=color_log_Maple
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Maple leaf gorget
+[ITEMDEF i_leaf_gorget_Maple]
+   DEFNAME= i_leaf_gorget_Maple
+   ID= i_leaf_gorget
+   NAME= Maple leaf gorget
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Maple
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Maple
+   DESCRIPTION= leaf gorget
+
+ON=@Create
+   COLOR=color_log_Maple
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Maple leaf arms
+[ITEMDEF i_leaf_arms_Maple]
+   DEFNAME= i_leaf_arms_Maple
+   ID= i_leaf_arms
+   NAME= Maple leaf arms
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Maple
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Maple
+   DESCRIPTION= leaf arms
+
+ON=@Create
+   COLOR=color_log_Maple
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Maple leaf leggings
+[ITEMDEF i_leaf_leggings_Maple]
+   DEFNAME= i_leaf_leggings_Maple
+   ID= i_leaf_leggings
+   NAME= Maple leaf leggings
+   ARMOR= 27
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 15 i_log_Maple
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Maple
+   DESCRIPTION= leaf leggings
+
+ON=@Create
+   COLOR=color_log_Maple
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Maple leaf tonlet
+[ITEMDEF i_leaf_tonlet_Maple]
+   DEFNAME= i_leaf_tonlet_Maple
+   ID= i_leaf_tonlet
+   NAME= Maple leaf tonlet
+   ARMOR= 16
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 4 i_log_Maple
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Maple
+   DESCRIPTION= leaf tonlet
+
+ON=@Create
+   COLOR=color_log_Maple
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Maple raven helm
+[ITEMDEF i_helm_raven_Maple]
+   DEFNAME= i_helm_raven_Maple
+   ID= i_helm_raven
+   NAME= Maple raven helm
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Maple
+   SKILLMAKE= CARPENTRY 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Maple
+   DESCRIPTION= raven helm
+
+ON=@Create
+   COLOR=color_log_Maple
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Maple vulture helm
+[ITEMDEF i_helm_vulture_Maple]
+   DEFNAME= i_helm_vulture_Maple
+   ID= i_helm_vulture
+   NAME= Maple vulture helm
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Maple
+   SKILLMAKE= CARPENTRY 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Maple
+   DESCRIPTION= vulture helm
+
+ON=@Create
+   COLOR=color_log_Maple
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Maple winged helm
+[ITEMDEF i_helm_winged_Maple]
+   DEFNAME= i_helm_winged_Maple
+   ID= i_helm_winged
+   NAME= Maple winged helm
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Maple
+   SKILLMAKE= CARPENTRY 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Maple
+   DESCRIPTION= winged helm
+
+ON=@Create
+   COLOR=color_log_Maple
+   HITPOINTS= {112 1200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

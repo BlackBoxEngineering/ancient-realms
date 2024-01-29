@@ -1,0 +1,128 @@
+[FUNCTION f_find_ore_type]
+
+	IF (STRMATCH(*rusty*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=rusty
+		
+	ELIF (STRMATCH(*iron*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=iron
+		
+	ELIF (STRMATCH(*dullcopper*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=dullcopper
+		
+	ELIF (STRMATCH(*oldcopper*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=oldcopper
+		
+	ELIF (STRMATCH(*purecopper*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=purecopper
+	
+	ELIF (STRMATCH(*copper*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=copper
+	
+	ELIF (STRMATCH(*bronze*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=bronze
+		
+	ELIF (STRMATCH(*silver*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=silver
+		
+	ELIF (STRMATCH(*rose*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=rose
+	
+	ELIF (STRMATCH(*rhodonite*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=rhodonite
+		
+	ELIF (STRMATCH(*rosequartz*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=rosequartz
+
+	ELIF (STRMATCH(*vanadinate*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=vanadinate
+		
+	ELIF (STRMATCH(*azurite*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=azurite
+		
+	ELIF (STRMATCH(*erubecite*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=erubecite
+		
+	ELIF (STRMATCH(*galena*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=galena
+		
+	ELIF (STRMATCH(*kunzite*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=kunzite
+		
+	ELIF (STRMATCH(*Orpiment*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=Orpiment
+		
+	ELIF (STRMATCH(*hematite*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=hematite
+		
+	ELIF (STRMATCH(*malachite*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=malachite
+		
+	ELIF (STRMATCH(*cassiterite*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=cassiterite
+		
+	ELIF (STRMATCH(*gold*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=gold
+		
+	ELIF (STRMATCH(*verite*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=verite
+		
+	ELIF (STRMATCH(*autonite*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=autonite
+		
+	ELIF (STRMATCH(*agapite*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=agapite
+		
+	ELIF (STRMATCH(*daemonite*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=daemonite
+		
+	ELIF (STRMATCH(*barite*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=barite
+		
+	ELIF (STRMATCH(*aquanite*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=aquanite
+		
+	ELIF (STRMATCH(*valorite*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=valorite
+		
+	ELIF (STRMATCH(*uranium*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=uranium
+		
+	ELIF (STRMATCH(*bloodrock*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=bloodrock
+		
+	ELIF (STRMATCH(*titanium*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=titanium
+		
+	ELIF (STRMATCH(*blackrock*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=blackrock
+		
+	ELIF (STRMATCH(*kryptonite*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=kryptonite
+		
+	ELIF (STRMATCH(*cerussite*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=cerussite
+		
+	ELIF (STRMATCH(*quartz*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=quartz
+		
+	ELIF (STRMATCH(*chromite*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=chromite
+		
+	ELIF (STRMATCH(*dioptase*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=dioptase
+		
+	ELIF (STRMATCH(*mytheril*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=mytheril
+		
+	ELIF (STRMATCH(*chromium*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=chromium
+		
+	ELIF (STRMATCH(*niobium*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=niobium
+		
+	ELIF (STRMATCH(*Ancientrealms*,<ARGV[0]>))
+		CTAG.CraftingMaterialName=Ancientrealms
+	ENDIF
+
+
+[EOF]

@@ -1,0 +1,11 @@
+[FUNCTION f_Keep_RemoveGateKeeperBodyGuards]
+
+	IF (<ARGV[0]>)
+		IF (<SERV.UID.<ARGV[0]>.TAG.GuardCount>)
+			FOR X 1 <EVAL <SERV.UID.<ARGV[0]>.TAG.GuardCount>>
+				SERV.UID.<SERV.UID.<ARGV[0]>.TAG.BodyGuardNo<EVAL <LOCAL.X>>>.REMOVE
+			ENDFOR
+		ENDIF
+	ENDIF
+
+[EOF]

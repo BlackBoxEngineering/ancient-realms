@@ -1,0 +1,77 @@
+[ITEMDEF 0100e] 
+DEFNAME=i_key_copper 
+TYPE=t_key 
+VALUE=16 
+WEIGHT=0.1 
+RESOURCES=2 i_ingot_iron,1 i_ingot_copper 
+SKILLMAKE=Tinkering 43.0,t_tinker_tools 
+CATEGORY=Provisions - Miscellaneous 
+SUBSECTION=Keys 
+DESCRIPTION=Copper Key 
+ON=@Create 
+   ATTR=attr_newbie 
+ON=@ContextMenuRequest 
+   SRC.AddContextEntry 101,98 
+ON=@ContextMenuSelect 
+   IF (<ARGN>==101) 
+          IF (<TOPOBJ.UID>!=<SRC>) && !(<SRC.ISGM>) 
+                 SRC.SYSMESSAGELOC 032,1042001//"That must be in your backpack for you to use it." 
+                 RETURN 1 
+          ENDIF 
+          TRIGGER @Click 
+   ENDIF 
+ON=@Click 
+   REF1=<UID.<MORE1>.REGION.UID> 
+   IF (<REF1.TYPE>==t_multi) || (<REF1.TYPE>==t_ship) 
+          sdialog d_key_aspects 
+   ENDIF
+
+[DIALOG d_key_aspects] 
+0,0 
+PAGE 0 
+resizepic 0 0 2620 290 135 
+gumppictiled  5   5 280 122 2604 
+gumppictiled  5   5 280  22 2624 //top section 
+gumppictiled  5  33  80  72 2624 //middle left section 
+gumppictiled 90  33 195  72 2624 //middle right section 
+gumppictiled  5 110 280  22 2624 //bottom section 
+IF !(<TAG0.UserPrefersBlackDialogs> == 1) 
+   checkertrans 5 5 280 122 
+ENDIF 
+ 
+dtext   10   5  025 Key Menu: 
+dtext  238   5  025 Exit: 
+dtext  182 109  025 Save Changes: 
+button 267   6 2708 2709 1 0 0 //Exit without saving 
+button 267 110 2714 2715 1 0 1 //Save changes 
+ 
+dtext 10 40 2010 Key Name: 
+dtextentry 100 40 165 15 0ad 0 <name> 
+dtext 10 60 2010 Key to: 
+dtext 100 60 88 <uid.<uid.<more1>.region.uid>.name> 
+dtext 10 80 2010 Position: 
+dtext 100 80 88 <uid.<uid.<more1>.region.uid>.p> 
+ 
+[DIALOG d_key_aspects BUTTON] 
+OnButton=0 
+//SRC.SYSMESSAGE @032 Leaving key menu 
+ 
+OnButton=1 
+IF (<ISBADSTR <ARGTXT[0]>>) 
+   SRC.SYSMESSAGELOC 032,1079165//"The text you entered contains illegal characters.  Please try again." 
+   SDIALOG d_key_aspects 
+   RETURN 1 
+ENDIF 
+NAME=<strsub 0 20 <argtxt[0]>> 
+RESENDTOOLTIP
+
+[FUNCTION isbadstr] 
+IF !(<STRPOS 0 41 <ARGS>>=-1) || !(<EVAL STRLEN(<ARGS>)>) || (STRMATCH("*[[]*","<ARGS>")) || (STRMATCH("*]*","<ARGS>")) || (STRMATCH("*[(]*","<ARGS>")) || (STRMATCH("*-*","<ARGS>")) || (STRMATCH("*[*}`>?';:^%$"!"<#.@_~|=+&/æ{]*","<ARGS>")) 
+  RETURN 1 
+ELSE 
+  RETURN 0 
+ENDIF
+
+
+
+[EOF]

@@ -1,0 +1,630 @@
+///////////////////////////////////////////////////
+[DEFNAME COLOR_LOG]
+color_log_Apple          0750
+color_log_BogOak          0763
+color_log_Oak          060a
+color_log_Ash          0641
+color_log_Yew          0590
+color_log_Willow          0054d
+color_log_Cypress          06d6
+color_log_Birch          2920
+color_log_Ebony          2758
+color_log_Walnut          0665
+color_log_Cherry          0490
+color_log_Blackcherry          2910
+color_log_Maple          04b6
+color_log_Hawthorn          00556
+color_log_Blessedwood          00bs6
+color_log_Cursedwood          00557
+
+///////////////////////////////////////////////////
+/////////////////////////////////////////////Apple Log
+[ITEMDEF i_log_Apple]
+DEFNAME = i_log_Apple
+ID = i_log
+NAME= Apple Log%s
+Type = t_log
+SKILLMAKE= Lumberjacking 0
+TDATA1 = i_board_Apple
+VALUE = 0
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Logs
+DESCRIPTION=Apple Log
+
+ON=@Create
+        TAG.MaterialClass = 1
+        Color = color_log_Apple
+
+/////////////////////////////////////////////BogOak Log
+[ITEMDEF i_log_BogOak]
+DEFNAME = i_log_BogOak
+ID = i_log
+NAME= BogOak Log%s
+Type = t_log
+SKILLMAKE= Lumberjacking 30
+TDATA1 = i_board_BogOak
+VALUE = 60
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Logs
+DESCRIPTION=BogOak Log
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_log_BogOak
+
+/////////////////////////////////////////////Oak Log
+[ITEMDEF i_log_Oak]
+DEFNAME = i_log_Oak
+ID = i_log
+NAME= Oak Log%s
+Type = t_log
+SKILLMAKE= Lumberjacking 5
+TDATA1 = i_board_Oak
+VALUE = 15
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Logs
+DESCRIPTION=Oak Log
+
+ON=@Create
+        TAG.MaterialClass = 3
+        Color = color_log_Oak
+
+/////////////////////////////////////////////Ash Log
+[ITEMDEF i_log_Ash]
+DEFNAME = i_log_Ash
+ID = i_log
+NAME= Ash Log%s
+Type = t_log
+SKILLMAKE= Lumberjacking 10
+TDATA1 = i_board_Ash
+VALUE = 40
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Logs
+DESCRIPTION=Ash Log
+
+ON=@Create
+        TAG.MaterialClass = 4
+        Color = color_log_Ash
+
+/////////////////////////////////////////////Yew Log
+[ITEMDEF i_log_Yew]
+DEFNAME = i_log_Yew
+ID = i_log
+NAME= Yew Log%s
+Type = t_log
+SKILLMAKE= Lumberjacking 12
+TDATA1 = i_board_Yew
+VALUE = 60
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Logs
+DESCRIPTION=Yew Log
+
+ON=@Create
+        TAG.MaterialClass = 5
+        Color = color_log_Yew
+
+/////////////////////////////////////////////Willow Log
+[ITEMDEF i_log_Willow]
+DEFNAME = i_log_Willow
+ID = i_log
+NAME= Willow Log%s
+Type = t_log
+SKILLMAKE= Lumberjacking 15
+TDATA1 = i_board_Willow
+VALUE = 90
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Logs
+DESCRIPTION=Willow Log
+
+ON=@Create
+        TAG.MaterialClass = 6
+        Color = color_log_Willow
+
+/////////////////////////////////////////////Cypress Log
+[ITEMDEF i_log_Cypress]
+DEFNAME = i_log_Cypress
+ID = i_log
+NAME= Cypress Log%s
+Type = t_log
+SKILLMAKE= Lumberjacking 20
+TDATA1 = i_board_Cypress
+VALUE = 140
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Logs
+DESCRIPTION=Cypress Log
+
+ON=@Create
+        TAG.MaterialClass = 7
+        Color = color_log_Cypress
+
+/////////////////////////////////////////////Birch Log
+[ITEMDEF i_log_Birch]
+DEFNAME = i_log_Birch
+ID = i_log
+NAME= Birch Log%s
+Type = t_log
+SKILLMAKE= Lumberjacking 25
+TDATA1 = i_board_Birch
+VALUE = 200
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Logs
+DESCRIPTION=Birch Log
+
+ON=@Create
+        TAG.MaterialClass = 8
+        Color = color_log_Birch
+
+/////////////////////////////////////////////Ebony Log
+[ITEMDEF i_log_Ebony]
+DEFNAME = i_log_Ebony
+ID = i_log
+NAME= Ebony Log%s
+Type = t_log
+SKILLMAKE= Lumberjacking 40
+TDATA1 = i_board_Ebony
+VALUE = 360
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Logs
+DESCRIPTION=Ebony Log
+
+ON=@Create
+        TAG.MaterialClass = 9
+        Color = color_log_Ebony
+
+/////////////////////////////////////////////Walnut Log
+[ITEMDEF i_log_Walnut]
+DEFNAME = i_log_Walnut
+ID = i_log
+NAME= Walnut Log%s
+Type = t_log
+SKILLMAKE= Lumberjacking 30
+TDATA1 = i_board_Walnut
+VALUE = 270
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Logs
+DESCRIPTION=Walnut Log
+
+ON=@Create
+        TAG.MaterialClass = 9
+        Color = color_log_Walnut
+
+/////////////////////////////////////////////Cherry Log
+[ITEMDEF i_log_Cherry]
+DEFNAME = i_log_Cherry
+ID = i_log
+NAME= Cherry Log%s
+Type = t_log
+SKILLMAKE= Lumberjacking 35
+TDATA1 = i_board_Cherry
+VALUE = 350
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Logs
+DESCRIPTION=Cherry Log
+
+ON=@Create
+        TAG.MaterialClass = 10
+        Color = color_log_Cherry
+
+/////////////////////////////////////////////Blackcherry Log
+[ITEMDEF i_log_Blackcherry]
+DEFNAME = i_log_Blackcherry
+ID = i_log
+NAME= Blackcherry Log%s
+Type = t_log
+SKILLMAKE= Lumberjacking 40
+TDATA1 = i_board_Blackcherry
+VALUE = 440
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Logs
+DESCRIPTION=Blackcherry Log
+
+ON=@Create
+        TAG.MaterialClass = 11
+        Color = color_log_Blackcherry
+
+/////////////////////////////////////////////Maple Log
+[ITEMDEF i_log_Maple]
+DEFNAME = i_log_Maple
+ID = i_log
+NAME= Maple Log%s
+Type = t_log
+SKILLMAKE= Lumberjacking 45
+TDATA1 = i_board_Maple
+VALUE = 540
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Logs
+DESCRIPTION=Maple Log
+
+ON=@Create
+        TAG.MaterialClass = 12
+        Color = color_log_Maple
+
+/////////////////////////////////////////////Hawthorn Log
+[ITEMDEF i_log_Hawthorn]
+DEFNAME = i_log_Hawthorn
+ID = i_log
+NAME= Hawthorn Log%s
+Type = t_log
+SKILLMAKE= Lumberjacking 50
+TDATA1 = i_board_Hawthorn
+VALUE = 600
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Logs
+DESCRIPTION=Hawthorn Log
+
+ON=@Create
+        TAG.MaterialClass = 12
+        Color = color_log_Hawthorn
+
+/////////////////////////////////////////////Blessedwood Log
+[ITEMDEF i_log_Blessedwood]
+DEFNAME = i_log_Blessedwood
+ID = i_log
+NAME= Blessedwood Log%s
+Type = t_log
+SKILLMAKE= Lumberjacking 120
+TDATA1 = i_board_Blessedwood
+VALUE = 1440
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Logs
+DESCRIPTION=Blessedwood Log
+
+ON=@Create
+        TAG.MaterialClass = 12
+        Color = color_log_Blessedwood
+
+/////////////////////////////////////////////Cursedwood Log
+[ITEMDEF i_log_Cursedwood]
+DEFNAME = i_log_Cursedwood
+ID = i_log
+NAME= Cursedwood Log%s
+Type = t_log
+SKILLMAKE= Lumberjacking 120
+TDATA1 = i_board_Cursedwood
+VALUE = 1440
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Logs
+DESCRIPTION=Cursedwood Log
+
+ON=@Create
+        TAG.MaterialClass = 12
+        Color = color_log_Cursedwood
+
+/////////////////////////////////////////////Apple Board
+[ITEMDEF i_board_Apple]
+DEFNAME = i_board_Apple
+ID = i_board
+NAME= Apple Board%s
+Type = t_board
+SKILLMAKE= Carpentry 0
+RESOURCES= i_log_Apple
+TDATA1 = 0
+TDATA2 = 109
+VALUE = 1
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Boards
+DESCRIPTION=Apple Board
+
+ON=@Create
+        TAG.MaterialClass = 1
+        Color = color_log_Apple
+
+/////////////////////////////////////////////BogOak Board
+[ITEMDEF i_board_BogOak]
+DEFNAME = i_board_BogOak
+ID = i_board
+NAME= BogOak Board%s
+Type = t_board
+SKILLMAKE= Carpentry 30
+RESOURCES= i_log_BogOak
+TDATA1 = 30
+TDATA2 = 110
+VALUE = 62
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Boards
+DESCRIPTION=BogOak Board
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_log_BogOak
+
+/////////////////////////////////////////////Oak Board
+[ITEMDEF i_board_Oak]
+DEFNAME = i_board_Oak
+ID = i_board
+NAME= Oak Board%s
+Type = t_board
+SKILLMAKE= Carpentry 5
+RESOURCES= i_log_Oak
+TDATA1 = 5
+TDATA2 = 111
+VALUE = 18
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Boards
+DESCRIPTION=Oak Board
+
+ON=@Create
+        TAG.MaterialClass = 3
+        Color = color_log_Oak
+
+/////////////////////////////////////////////Ash Board
+[ITEMDEF i_board_Ash]
+DEFNAME = i_board_Ash
+ID = i_board
+NAME= Ash Board%s
+Type = t_board
+SKILLMAKE= Carpentry 10
+RESOURCES= i_log_Ash
+TDATA1 = 10
+TDATA2 = 112
+VALUE = 44
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Boards
+DESCRIPTION=Ash Board
+
+ON=@Create
+        TAG.MaterialClass = 4
+        Color = color_log_Ash
+
+/////////////////////////////////////////////Yew Board
+[ITEMDEF i_board_Yew]
+DEFNAME = i_board_Yew
+ID = i_board
+NAME= Yew Board%s
+Type = t_board
+SKILLMAKE= Carpentry 12
+RESOURCES= i_log_Yew
+TDATA1 = 12
+TDATA2 = 113
+VALUE = 65
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Boards
+DESCRIPTION=Yew Board
+
+ON=@Create
+        TAG.MaterialClass = 5
+        Color = color_log_Yew
+
+/////////////////////////////////////////////Willow Board
+[ITEMDEF i_board_Willow]
+DEFNAME = i_board_Willow
+ID = i_board
+NAME= Willow Board%s
+Type = t_board
+SKILLMAKE= Carpentry 15
+RESOURCES= i_log_Willow
+TDATA1 = 15
+TDATA2 = 114
+VALUE = 96
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Boards
+DESCRIPTION=Willow Board
+
+ON=@Create
+        TAG.MaterialClass = 6
+        Color = color_log_Willow
+
+/////////////////////////////////////////////Cypress Board
+[ITEMDEF i_board_Cypress]
+DEFNAME = i_board_Cypress
+ID = i_board
+NAME= Cypress Board%s
+Type = t_board
+SKILLMAKE= Carpentry 20
+RESOURCES= i_log_Cypress
+TDATA1 = 20
+TDATA2 = 115
+VALUE = 147
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Boards
+DESCRIPTION=Cypress Board
+
+ON=@Create
+        TAG.MaterialClass = 7
+        Color = color_log_Cypress
+
+/////////////////////////////////////////////Birch Board
+[ITEMDEF i_board_Birch]
+DEFNAME = i_board_Birch
+ID = i_board
+NAME= Birch Board%s
+Type = t_board
+SKILLMAKE= Carpentry 25
+RESOURCES= i_log_Birch
+TDATA1 = 25
+TDATA2 = 116
+VALUE = 208
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Boards
+DESCRIPTION=Birch Board
+
+ON=@Create
+        TAG.MaterialClass = 8
+        Color = color_log_Birch
+
+/////////////////////////////////////////////Ebony Board
+[ITEMDEF i_board_Ebony]
+DEFNAME = i_board_Ebony
+ID = i_board
+NAME= Ebony Board%s
+Type = t_board
+SKILLMAKE= Carpentry 40
+RESOURCES= i_log_Ebony
+TDATA1 = 40
+TDATA2 = 117
+VALUE = 369
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Boards
+DESCRIPTION=Ebony Board
+
+ON=@Create
+        TAG.MaterialClass = 9
+        Color = color_log_Ebony
+
+/////////////////////////////////////////////Walnut Board
+[ITEMDEF i_board_Walnut]
+DEFNAME = i_board_Walnut
+ID = i_board
+NAME= Walnut Board%s
+Type = t_board
+SKILLMAKE= Carpentry 30
+RESOURCES= i_log_Walnut
+TDATA1 = 30
+TDATA2 = 117
+VALUE = 279
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Boards
+DESCRIPTION=Walnut Board
+
+ON=@Create
+        TAG.MaterialClass = 9
+        Color = color_log_Walnut
+
+/////////////////////////////////////////////Cherry Board
+[ITEMDEF i_board_Cherry]
+DEFNAME = i_board_Cherry
+ID = i_board
+NAME= Cherry Board%s
+Type = t_board
+SKILLMAKE= Carpentry 35
+RESOURCES= i_log_Cherry
+TDATA1 = 35
+TDATA2 = 118
+VALUE = 360
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Boards
+DESCRIPTION=Cherry Board
+
+ON=@Create
+        TAG.MaterialClass = 10
+        Color = color_log_Cherry
+
+/////////////////////////////////////////////Blackcherry Board
+[ITEMDEF i_board_Blackcherry]
+DEFNAME = i_board_Blackcherry
+ID = i_board
+NAME= Blackcherry Board%s
+Type = t_board
+SKILLMAKE= Carpentry 40
+RESOURCES= i_log_Blackcherry
+TDATA1 = 40
+TDATA2 = 119
+VALUE = 451
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Boards
+DESCRIPTION=Blackcherry Board
+
+ON=@Create
+        TAG.MaterialClass = 11
+        Color = color_log_Blackcherry
+
+/////////////////////////////////////////////Maple Board
+[ITEMDEF i_board_Maple]
+DEFNAME = i_board_Maple
+ID = i_board
+NAME= Maple Board%s
+Type = t_board
+SKILLMAKE= Carpentry 45
+RESOURCES= i_log_Maple
+TDATA1 = 45
+TDATA2 = 120
+VALUE = 552
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Boards
+DESCRIPTION=Maple Board
+
+ON=@Create
+        TAG.MaterialClass = 12
+        Color = color_log_Maple
+
+/////////////////////////////////////////////Hawthorn Board
+[ITEMDEF i_board_Hawthorn]
+DEFNAME = i_board_Hawthorn
+ID = i_board
+NAME= Hawthorn Board%s
+Type = t_board
+SKILLMAKE= Carpentry 50
+RESOURCES= i_log_Hawthorn
+TDATA1 = 50
+TDATA2 = 120
+VALUE = 612
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Boards
+DESCRIPTION=Hawthorn Board
+
+ON=@Create
+        TAG.MaterialClass = 12
+        Color = color_log_Hawthorn
+
+/////////////////////////////////////////////Blessedwood Board
+[ITEMDEF i_board_Blessedwood]
+DEFNAME = i_board_Blessedwood
+ID = i_board
+NAME= Blessedwood Board%s
+Type = t_board
+SKILLMAKE= Carpentry 120
+RESOURCES= i_log_Blessedwood
+TDATA1 = 120
+TDATA2 = 120
+VALUE = 1452
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Boards
+DESCRIPTION=Blessedwood Board
+
+ON=@Create
+        TAG.MaterialClass = 12
+        Color = color_log_Blessedwood
+
+/////////////////////////////////////////////Cursedwood Board
+[ITEMDEF i_board_Cursedwood]
+DEFNAME = i_board_Cursedwood
+ID = i_board
+NAME= Cursedwood Board%s
+Type = t_board
+SKILLMAKE= Carpentry 120
+RESOURCES= i_log_Cursedwood
+TDATA1 = 120
+TDATA2 = 120
+VALUE = 1452
+WEIGHT=0.1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Boards
+DESCRIPTION=Cursedwood Board
+
+ON=@Create
+        TAG.MaterialClass = 12
+        Color = color_log_Cursedwood
+
+
+[EOF]

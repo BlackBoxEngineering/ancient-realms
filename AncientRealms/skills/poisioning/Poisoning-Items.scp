@@ -1,0 +1,363 @@
+[PLEVEL 1]
+PoisonWeapon
+
+[FUNCTION PoisonWeapon]
+//<TAG.WeaponBaseID>
+//<TAG.WeaponUID>
+//<TAG.WeaponSkillName>
+//i_invictus_poison_weak
+//i_invictus_poison_medium
+//i_invictus_poison_strong
+//i_invictus_poison_deadly
+//i_potion_PoisonLess
+//i_potion_Poison
+//i_potion_PoisonGreat
+//i_potion_PoisonDeadly
+IF <ISPLAYER>
+	LOCAL.WeaponUID=<TAG.WeaponUID>
+	IF (<SERV.UID.<EVAL <TAG.WeaponUID>>.TYPE> == t_weapon_fence)||(<SERV.UID.<EVAL <TAG.WeaponUID>>.TYPE> == t_weapon_sword)
+		IF (<SERV.UID.<EVAL <TAG.WeaponUID>>.TAG0.PoisonStrikes>)        
+			SYSMESSAGE @64 Your Weapon is already Poisoned
+			RETURN 1
+		ELSE
+			IF <FINDID.i_potion_PoisonDeadly>			
+				SYSMESSAGE @64 You Use a Deadly Poison
+				SERV.UID.<EVAL <TAG.WeaponUID>>.Bounce			
+				IF (<SERV.UID.<LOCAL.WeaponUID>.TYPE> == t_weapon_fence)
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonStrikes=3
+					SERV.UID.<LOCAL.WeaponUID>.TAG.Poisoned=<EVAL <FINDID.i_potion_PoisonDeadly.MORE1>>
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByUid=<UID>
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByName=<NAME>
+					NEWITEM i_bottle_empty,1 ,<UID>
+					NEWITEM i_poison_delay,1 ,<UID>
+					CONSUME 1 i_potion_PoisonDeadly				
+				ELIF (<SERV.UID.<LOCAL.WeaponUID>.TYPE> == t_weapon_sword)
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonStrikes=1
+					SERV.UID.<LOCAL.WeaponUID>.TAG.Poisoned=<EVAL <FINDID.i_potion_PoisonDeadly.MORE1>>
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByUid=<UID>
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByName=<NAME>
+					NEWITEM i_bottle_empty,1 ,<UID>
+					NEWITEM i_poison_delay,1 ,<UID>
+					CONSUME 1 i_potion_PoisonDeadly		
+				ELSE
+					SYSMESSAGE @55 Page Invictus with this Error Code (PoisonPlayerMacro)
+					RETURN 1
+				ENDIF			                        		                
+				EMOTE Poisons Weapon			
+				CALL f_SkillGain <EVAL <LOCAL.SKILLNO>>
+				SERV.UID.<LOCAL.WeaponUID>.EQUIP			
+				SYSMESSAGE @63 Weapon Poisoned and Ready!			
+			ELIF <FINDID.i_potion_PoisonGreat>
+				SYSMESSAGE @64 You Use a Strong Poison
+				SERV.UID.<EVAL <TAG.WeaponUID>>.Bounce			
+				IF (<SERV.UID.<LOCAL.WeaponUID>.TYPE> == t_weapon_fence)
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonStrikes=3
+					SERV.UID.<LOCAL.WeaponUID>.TAG.Poisoned=<EVAL <FINDID.i_potion_PoisonDeadly.MORE1>>
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByUid=<UID>
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByName=<NAME>
+					NEWITEM i_bottle_empty,1 ,<UID>
+					NEWITEM i_poison_delay,1 ,<UID>
+					CONSUME 1 i_potion_PoisonGreat		
+				ELIF (<SERV.UID.<LOCAL.WeaponUID>.TYPE> == t_weapon_sword)
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonStrikes=1
+					SERV.UID.<LOCAL.WeaponUID>.TAG.Poisoned=<EVAL <FINDID.i_potion_PoisonDeadly.MORE1>>
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByUid=<UID>
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByName=<NAME>
+					NEWITEM i_bottle_empty,1 ,<UID>
+					NEWITEM i_poison_delay,1 ,<UID>
+					CONSUME 1 i_potion_PoisonGreat			
+				ELSE
+					SYSMESSAGE @55 Page Invictus with this Error Code (PoisonPlayerMacro)
+					RETURN 1
+				ENDIF			                        	                
+				EMOTE Poisons Weapon			
+				CALL f_SkillGain <EVAL <LOCAL.SKILLNO>>			
+				SERV.UID.<LOCAL.WeaponUID>.EQUIP			
+				SYSMESSAGE @63 Weapon Poisoned and Ready!			
+			ELIF <FINDID.i_potion_Poison>
+				SYSMESSAGE @64 You Use a Medium Poison
+				SERV.UID.<EVAL <TAG.WeaponUID>>.Bounce			
+				IF (<SERV.UID.<LOCAL.WeaponUID>.TYPE> == t_weapon_fence)
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonStrikes=3
+					SERV.UID.<LOCAL.WeaponUID>.TAG.Poisoned=<EVAL <FINDID.i_potion_PoisonDeadly.MORE1>>
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByUid=<UID>
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByName=<NAME>
+					NEWITEM i_bottle_empty,1 ,<UID>
+					NEWITEM i_poison_delay,1 ,<UID>
+					CONSUME 1 i_potion_PoisonGreat
+				ELIF (<SERV.UID.<LOCAL.WeaponUID>.TYPE> == t_weapon_sword)
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonStrikes=1
+					SERV.UID.<LOCAL.WeaponUID>.TAG.Poisoned=<EVAL <FINDID.i_potion_PoisonDeadly.MORE1>>
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByUid=<UID>
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByName=<NAME>
+					NEWITEM i_bottle_empty,1 ,<UID>
+					NEWITEM i_poison_delay,1 ,<UID>
+					CONSUME 1 i_potion_PoisonGreat
+				ELSE
+					SYSMESSAGE @55 Page Invictus with this Error Code (PoisonPlayerMacro)
+					RETURN 1
+				ENDIF
+				EMOTE Poisons Weapon			
+				CALL f_SkillGain <EVAL <LOCAL.SKILLNO>>			
+				SERV.UID.<LOCAL.WeaponUID>.EQUIP						
+				SYSMESSAGE @63 Weapon Poisoned and Ready!
+			ELIF <FINDID.i_potion_PoisonLess>
+				SYSMESSAGE @64 You Use a Weak Poison
+				SERV.UID.<EVAL <TAG.WeaponUID>>.Bounce			
+				IF (<SERV.UID.<LOCAL.WeaponUID>.TYPE> == t_weapon_fence)
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonStrikes=3
+					SERV.UID.<LOCAL.WeaponUID>.TAG.Poisoned=<EVAL <FINDID.i_potion_PoisonDeadly.MORE1>>
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByUid=<UID>
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByName=<NAME>			
+				ELIF (<SERV.UID.<LOCAL.WeaponUID>.TYPE> == t_weapon_sword)
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonStrikes=1
+					SERV.UID.<LOCAL.WeaponUID>.TAG.Poisoned=<EVAL <FINDID.i_potion_PoisonDeadly.MORE1>>
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByUid=<UID>
+					SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByName=<NAME>			
+				ELSE
+					SYSMESSAGE @55 Page Invictus with this Error Code (PoisonPlayerMacro)
+					RETURN 1
+				ENDIF			                        		                
+				EMOTE Poisons Weapon			
+				CALL f_SkillGain <EVAL <LOCAL.SKILLNO>>			
+				SERV.UID.<LOCAL.WeaponUID>.EQUIP			
+				SYSMESSAGE @63 Weapon Poisoned and Ready!
+			ELSE
+				SYSMESSAGE @64 Your out of poison!
+				RETURN 1
+			ENDIF
+		ENDIF
+	ELSE
+		SYSMESSAGE @64 Your cannot poison that weapon!
+		RETURN 1
+	ENDIF
+ELSE
+	IF <FINDID.i_spear_daemon> && !<ISPLAYER>
+		IF !<FINDID.i_poison_delay>
+			LOCAL.WeaponUID=<FINDID.i_spear_daemon.UID>
+			TAG.WeaponUID=<FINDID.i_spear_daemon.UID>
+			IF <FINDID.i_potion_PoisonDeadly>			
+				SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonStrikes=3
+				SERV.UID.<LOCAL.WeaponUID>.TAG.Poisoned=<FINDID.i_potion_PoisonDeadly.MORE1>
+				SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByUid=<UID>
+				SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByName=<NAME>
+				NEWITEM i_bottle_empty,1 ,<UID>
+				NEWITEM i_poison_delay,1 ,<UID>
+				CONSUME 1 i_potion_PoisonDeadly
+				CALL f_SkillGain <EVAL <LOCAL.SKILLNO>>
+				EMOTE Poisons Weapon
+			ELIF <FINDID.i_potion_PoisonGreat>
+				SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonStrikes=3
+				SERV.UID.<LOCAL.WeaponUID>.TAG.Poisoned=<FINDID.i_potion_PoisonGreat.MORE1>
+				SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByUid=<UID>
+				SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByName=<NAME>
+				NEWITEM i_bottle_empty,1 ,<UID>
+				NEWITEM i_poison_delay,1 ,<UID>
+				CONSUME 1 i_potion_PoisonGreat
+				CALL f_SkillGain <EVAL <LOCAL.SKILLNO>>
+				EMOTE Poisons Weapon
+			ELIF <FINDID.i_potion_Poison>
+				SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonStrikes=3
+				SERV.UID.<LOCAL.WeaponUID>.TAG.Poisoned=<FINDID.i_potion_Poison.MORE1>
+				SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByUid=<UID>
+				SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByName=<NAME>
+				NEWITEM i_bottle_empty,1 ,<UID>
+				NEWITEM i_poison_delay,1 ,<UID>
+				CONSUME 1 i_potion_Poison
+				CALL f_SkillGain <EVAL <LOCAL.SKILLNO>>
+				EMOTE Poisons Weapon
+			ELIF <FINDID.i_potion_PoisonLess>
+				SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonStrikes=3
+				SERV.UID.<LOCAL.WeaponUID>.TAG.Poisoned=<FINDID.i_potion_PoisonLess.MORE1>
+				SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByUid=<UID>
+				SERV.UID.<LOCAL.WeaponUID>.TAG.PoisonedByName=<NAME>
+				NEWITEM i_bottle_empty,1 ,<UID>
+				NEWITEM i_poison_delay,1 ,<UID>
+				CONSUME 1 i_potion_PoisonLess
+				CALL f_SkillGain <EVAL <LOCAL.SKILLNO>>
+				EMOTE Poisons Weapon
+			ENDIF
+		ENDIF					
+	ENDIF
+ENDIF
+
+[ITEMDEF i_poison_delay]
+DEFNAME=i_poison_delay
+ID=8339
+NAME=Posion Delay
+TYPE=t_eq_script
+LAYER=layer_special
+
+ON=@Create
+    ATTR=attr_invis|attr_decay
+    TIMER=<EVAL PoisonUseDelay>
+		
+ON=@Timer
+	IF <SERV.UID.<EVAL <CONT.TAG.WeaponUID>>.TAG0.Poisoned>
+		CONT.SYSMESSAGE @63 The Poison Has Dripped Off your Weapon.
+		SERV.UID.<EVAL <CONT.TAG.WeaponUID>>.TAG.Poisoned=
+		SERV.UID.<EVAL <CONT.TAG.WeaponUID>>.TAG.PoisonedByUid=
+		SERV.UID.<EVAL <CONT.TAG.WeaponUID>>.TAG.PoisonedByName=
+		SERV.UID.<EVAL <CONT.TAG.WeaponUID>>.TAG.PoisonStrikes=
+	ENDIF
+	REMOVE
+	RETURN 1
+
+
+[ITEMDEF i_invictus_poison_weak]	// Memory Weak Poison
+NAME=Weak Poison 
+ID=8339
+TYPE=t_eq_script
+LAYER=layer_special
+
+ON=@CREATE
+	attr=attr_newbie|attr_decay|attr_move_never
+	TAG.PosionMsg=1
+	TIMERD=1
+	MORE1=1
+		
+ON=@TIMER
+	LOCAL.VictimsUid=<CONT.UID>
+	IF ( (<EVAL <MORE1>> > <EVAL PoisonWeak_Loop>) || (<CONT.FLAGS>&statf_invul) )
+		CONT.SYSMESSAGE @92 The poison wears off
+		LOCAL.PoisonBegun=0
+		REMOVE
+		CONT.TAG.PoisonedByUid=
+		CONT.TAG.PoisonedByName=
+		SERV.UID.<CONT.UID>.FLAGS = <SERV.UID.<CONT.UID>.FLAGS>&~080
+		CONT.UPDATE
+	ELSE	
+		IF (<TAG.PosionMsg>==1)
+			//CONT.SYSMESSAGE @33 Poisoned (Weak)
+			TAG.PosionMsg=0
+		ENDIF
+		LOCAL.PoisonBegun=1		
+		CALL f_PoisonEffect <EVAL <LOCAL.PoisonBegun>>
+		CONT.SYSMESSAGE @33 Poisoned: <EVAL PoisonWeak_Dam>
+		CONT.FLAGS = <CONT.FLAGS>|080
+		CONT.UPDATE
+	ENDIF
+	TIMER=4
+	RETURN 1
+	
+[ITEMDEF i_invictus_poison_medium]	// Memory Medium Poison
+NAME=Medium Poison 
+ID=8339
+TYPE=t_eq_script
+LAYER=layer_special
+
+ON=@CREATE
+	attr=attr_newbie|attr_decay|attr_move_never
+	TAG.PosionMsg=1
+	TIMERD=1
+	MORE1=1
+		
+ON=@TIMER
+	LOCAL.VictimsUid=<CONT.UID>
+	IF ( (<EVAL <MORE1>> > <EVAL PoisonMedium_Loop>) || (<CONT.FLAGS>&statf_invul) )
+		IF <CONT.ISPLAYER>
+			//CONT.SYSMESSAGE @92 The poison fades.
+			LOCAL.PoisonBegun=0
+			REMOVE
+			SERV.NEWITEM i_invictus_poison_weak,1,<EVAL <LOCAL.VictimsUid>>
+		ELSE
+			LOCAL.PoisonBegun=0
+			REMOVE
+			CONT.TAG.PoisonedByUid=
+			CONT.TAG.PoisonedByName=
+		ENDIF
+	ELSE	
+		IF (<TAG.PosionMsg>==1)
+			//CONT.SYSMESSAGE @33 Poisoned (Medium)
+			TAG.PosionMsg=0
+		ENDIF
+		LOCAL.PoisonBegun=2		
+		CALL f_PoisonEffect <EVAL <LOCAL.PoisonBegun>>
+		CONT.SYSMESSAGE @33 Poisoned: <EVAL PoisonMedium_Dam>
+		CONT.FLAGS = <CONT.FLAGS>|080
+		CONT.UPDATE
+	ENDIF
+	TIMER=4
+	RETURN 1
+
+[ITEMDEF i_invictus_poison_strong]	// Memory Strong Poison
+NAME=Strong Poison 
+ID=8339
+TYPE=t_eq_script
+LAYER=layer_special
+
+ON=@CREATE
+	attr=attr_newbie|attr_decay|attr_move_never
+	TAG.PosionMsg=1
+	TIMERD=1
+	MORE1=1
+		
+ON=@TIMER
+	LOCAL.VictimsUid=<CONT.UID>
+	IF ( (<EVAL <MORE1>> > <EVAL PoisonStrong_Loop>) || (<CONT.FLAGS>&statf_invul) )
+		IF <CONT.ISPLAYER>
+			//CONT.SYSMESSAGE @92 The poison fades.
+			LOCAL.PoisonBegun=0
+			REMOVE
+			SERV.NEWITEM i_invictus_poison_medium,1,<EVAL <LOCAL.VictimsUid>>
+		ELSE
+			LOCAL.PoisonBegun=0
+			REMOVE
+			CONT.TAG.PoisonedByUid=
+			CONT.TAG.PoisonedByName=
+		ENDIF
+	ELSE	
+		IF (<TAG.PosionMsg>==1)
+			//CONT.SYSMESSAGE @33 Poisoned (Strong)
+			TAG.PosionMsg=0
+		ENDIF
+		LOCAL.PoisonBegun=3		
+		CALL f_PoisonEffect <EVAL <LOCAL.PoisonBegun>>
+		CONT.SYSMESSAGE @33 Poisoned: <EVAL PoisonStrong_Dam>
+		CONT.FLAGS = <CONT.FLAGS>|080
+		CONT.UPDATE
+	ENDIF
+	TIMER=4
+	RETURN 1
+
+[ITEMDEF i_invictus_poison_deadly]	// Memory Deadly Poison
+NAME=Deadly Poison 
+ID=8339
+TYPE=t_eq_script
+LAYER=layer_special
+
+ON=@CREATE
+	attr=attr_newbie|attr_decay|attr_move_never
+	TAG.PosionMsg=1
+	TIMERD=1
+	MORE1=1
+		
+ON=@TIMER
+	LOCAL.VictimsUid=<CONT.UID>
+	IF ( (<EVAL <MORE1>> > <EVAL PoisonDeadly_Loop>) || (<CONT.FLAGS>&statf_invul) )
+		IF <CONT.ISPLAYER>
+			//CONT.SYSMESSAGE @92 The poison fades.
+			LOCAL.PoisonBegun=0
+			REMOVE
+			SERV.NEWITEM i_invictus_poison_strong,1,<EVAL <LOCAL.VictimsUid>>
+		ELSE
+			LOCAL.PoisonBegun=0
+			REMOVE
+			CONT.TAG.PoisonedByUid=
+			CONT.TAG.PoisonedByName=
+		ENDIF
+	ELSE	
+		IF (<TAG.PosionMsg>==1)
+			//CONT.SYSMESSAGE @33 Poisoned (Deadly)
+			TAG.PosionMsg=0
+		ENDIF
+		LOCAL.PoisonBegun=4		
+		CALL f_PoisonEffect <EVAL <LOCAL.PoisonBegun>>
+		CONT.SYSMESSAGE @33 Poisoned: <EVAL PoisonDeadly_Dam>
+		CONT.FLAGS = <CONT.FLAGS>|080
+		CONT.UPDATE
+	ENDIF
+	TIMER=4
+	RETURN 1
+
+[EOF]

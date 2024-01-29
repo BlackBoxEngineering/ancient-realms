@@ -1,0 +1,146 @@
+[ITEMDEF i_CraftMenu_Delay]
+DEFNAME=i_CraftMenu_Delay
+TYPE=t_eq_script
+NAME=CraftMenu Delay
+LAYER=layer_special
+
+ON=@Create
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=5
+	
+ON=@TIMER
+	CONT.DIALOG InvictusCraftingMenu
+	REMOVE
+	
+	
+[events e_PlayerCraftingEvent]
+on=@skillabort
+	DIALOGCLOSE InvictusCraftingMenu
+
+on=@skillfail
+	DIALOGCLOSE InvictusCraftingMenu
+
+on=@skillmakeitem
+	REF2=<ACT.UID>
+	LOCAL.CraftingSkillName=<CTAG.CraftingSkillName>
+	LOCAL.CraftedItemUID=<ACT.UID>
+	LOCAL.CraftedItemMaterial=<ARGO.NAME>
+	LOCAL.CraftedItemMaker=<NAME>
+	LOCAL.CraftedItemDifficulty=<STRARG <SERV.UID.<ACT.UID>.SKILLMAKE>>
+	LOCAL.CraftingBonus=<EVAL <R1,30> + <<LOCAL.CraftingSkillName>>>
+	LOCAL.CraftingSpin=<EVAL <R1,40> + <LOCAL.CraftedItemDifficulty>>
+	IF <EVAL <LOCAL.CraftingBonus>> > <EVAL <LOCAL.CraftingSpin>>
+		IF <EVAL <<LOCAL.CraftingSkillName>>> > 999 
+			REF2.TAG.Exceptional = 1
+			f_apply_material_properties <REF2>
+			IF <REF2.ISWEAPON>
+				SERV.B IS WEAPON Pro
+				REF2.TAG.DamPhysical	= <REF2.TAG.ResPhysical>
+				REF2.TAG.DamFire		= <REF2.TAG.ResFire>
+				REF2.TAG.DamCold		= <REF2.TAG.ResCold>
+				REF2.TAG.DamPoison		= <REF2.TAG.ResPoison>
+				REF2.TAG.DamEnergy		= <REF2.TAG.ResEnergy>
+				REF2.TAG.ResPhysical	=	
+				REF2.TAG.ResFire		=
+				REF2.TAG.ResCold		=
+				REF2.TAG.ResPoison		=
+				REF2.TAG.ResEnergy		=
+			ENDIF
+			REF2.TAG.CraftedBy = <qval (<fame> < 10000) ? "<name>":"<sex Lord/Lady> <name>">
+		ELSE
+			f_apply_material_properties <REF2>
+			IF <REF2.ISWEAPON>
+				SERV.B IS WEAPON
+				REF2.TAG.DamPhysical	= <REF2.TAG.ResPhysical>
+				REF2.TAG.DamFire		= <REF2.TAG.ResFire>
+				REF2.TAG.DamCold		= <REF2.TAG.ResCold>
+				REF2.TAG.DamPoison		= <REF2.TAG.ResPoison>
+				REF2.TAG.DamEnergy		= <REF2.TAG.ResEnergy>
+				REF2.TAG.ResPhysical	=	
+				REF2.TAG.ResFire		=
+				REF2.TAG.ResCold		=
+				REF2.TAG.ResPoison		=
+				REF2.TAG.ResEnergy		=
+			ENDIF
+			DORAND 3
+				REF2.TAG.StrengthBonus=
+				REF2.REF2.TAG.DexterityBonus=
+				REF2.TAG.IntelligenceBonus=
+			ENDDO
+			DORAND 3
+				REF2.TAG.StaminaIncrease=
+				REF2.TAG.HitPointIncrease=
+				REF2.TAG.ManaIncrease=
+			ENDDO
+			DORAND 3
+				REF2.TAG.SkillBonus=
+				REF2.TAG.StaminaRegeneration=
+				REF2.TAG.HitRegeneration=
+			ENDDO
+			DORAND 3
+				REF2.TAG.ManaRegeneration=
+				REF2.TAG.BestWeaponSkill=
+				REF2.TAG.SpellChanneling=
+			ENDDO
+			DORAND 3
+				REF2.TAG.SelfRepair=
+				REF2.TAG.NightSight=
+				REF2.TAG.Luck=
+			ENDDO
+			DORAND 3
+				REF2.TAG.Penalty.Stealth=
+				REF2.TAG.ResPhysical=
+				REF2.TAG.ResFire=
+			ENDDO
+			DORAND 3
+				REF2.TAG.ResCold=
+				REF2.TAG.ResPoison=
+				REF2.TAG.ResEnergy=
+			ENDDO
+			REF2.TAG.StrengthBonus=<EVAL <REF2.TAG.StrengthBonus>/2>
+			REF2.TAG.DexterityBonus=<EVAL <REF2.TAG.DexterityBonus>/2>
+			REF2.TAG.IntelligenceBonus=<EVAL <REF2.TAG.IntelligenceBonus>/2>
+			REF2.TAG.StaminaIncrease=<EVAL <REF2.TAG.StaminaIncrease>/2>
+			REF2.TAG.HitPointIncrease=<EVAL <REF2.TAG.HitPointIncrease>/2>
+			REF2.TAG.ManaIncrease=<EVAL <REF2.TAG.ManaIncrease>/2>
+			REF2.TAG.SkillBonus=<EVAL <REF2.TAG.SkillBonus>/2>
+			REF2.TAG.StaminaRegeneration=<EVAL <REF2.TAG.StaminaRegeneration>/2>
+			REF2.TAG.HitRegeneration=<EVAL <REF2.TAG.HitRegeneration>/2>
+			REF2.TAG.ManaRegeneration=<EVAL <REF2.TAG.ManaRegeneration>/2>
+			REF2.TAG.BestWeaponSkill=<EVAL <REF2.TAG.BestWeaponSkill>/2>
+			REF2.TAG.SpellChanneling=<EVAL <REF2.TAG.SpellChanneling>/2>
+			REF2.TAG.SelfRepair=<EVAL <REF2.TAG.SelfRepair>/2>
+			REF2.TAG.NightSight=<EVAL <REF2.TAG.NightSight>/2>
+			REF2.TAG.Luck=<EVAL <REF2.TAG.Luck>/2>
+			REF2.TAG.Penalty.Stealth=<EVAL <REF2.TAG.Penalty>/2>
+			REF2.TAG.ResFire=<EVAL <REF2.TAG.ResFire>/2>
+			REF2.TAG.ResCold=<EVAL <REF2.TAG.ResCold>/2>
+			REF2.TAG.ResPoison=<EVAL <REF2.TAG.ResPoison>/2>
+			REF2.TAG.ResEnergy=<EVAL <REF2.TAG.ResEnergy>/2>
+			REF2.TAG.ResPhysical=<EVAL <REF2.TAG.ResPhysical>/2>
+		ENDIF
+		LOCAL.TempCalc=<EVAL <REF2.ARMOR> + <REF2.TAG.ResPhysical> + <REF2.TAG.MaterialClass>>
+		REF2.TAG.ResPhysical=<EVAL <LOCAL.TempCalc>/3>
+		IF <CTAG.CraftingSkillName>=Blacksmithing
+			TAG.CraftingBlackSmithingMade=<EVAL <TAG.CraftingBlackSmithingMade>+1>
+			TAG.CraftingIngotsUsed=<EVAL <TAG.CraftingIngotsUsed>+<SERV.UID.<REF2>.RESOURCES.1.VAL>>
+		ELIF <CTAG.CraftingSkillName>=Tinkering
+			TAG.CraftingBlackSmithingMade=<EVAL <TAG.CraftingTinkeringMade>+1>
+			TAG.CraftingOresUsed=<EVAL <TAG.CraftingOresUsed>+<SERV.UID.<REF2>.RESOURCES.1.VAL>>
+		ENDIF
+		ref2.resendtooltip 1
+		
+		DIALOGCLOSE InvictusCraftingMenu
+		DIALOG InvictusCraftingMenu
+		
+		return 0
+	ELSE
+		SYSMESSAGE @1462 You are not skilled enough to make this item.
+		RETURN 1
+	ENDIF
+	
+
+[eof]
+
+
+	

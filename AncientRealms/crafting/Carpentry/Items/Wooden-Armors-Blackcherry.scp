@@ -1,0 +1,466 @@
+/////////////////////////////////////////////Blackcherry woodland chest
+[ITEMDEF i_woodland_chest_Blackcherry]
+   DEFNAME= i_woodland_chest_Blackcherry
+   ID= i_woodland_chest
+   NAME= Blackcherry woodland chest
+   ARMOR= 31
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 20 i_log_Blackcherry
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Blackcherry
+   DESCRIPTION= woodland chest
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS= {101 990}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry woodland belt
+[ITEMDEF i_woodland_belt_Blackcherry]
+   DEFNAME= i_woodland_belt_Blackcherry
+   ID= i_woodland_belt
+   NAME= Blackcherry woodland belt
+   ARMOR= 26
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Blackcherry
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Blackcherry
+   DESCRIPTION= woodland belt
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS= {101 990}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry woodland gorget
+[ITEMDEF i_woodland_gorget_Blackcherry]
+   DEFNAME= i_woodland_gorget_Blackcherry
+   ID= i_woodland_gorget
+   NAME= Blackcherry woodland gorget
+   ARMOR= 17
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Blackcherry
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Blackcherry
+   DESCRIPTION= woodland gorget
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS= {101 990}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry woodland gauntlets
+[ITEMDEF i_woodland_gauntlets_Blackcherry]
+   DEFNAME= i_woodland_gauntlets_Blackcherry
+   ID= i_woodland_gauntlets
+   NAME= Blackcherry woodland gauntlets
+   ARMOR= 17
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Blackcherry
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Blackcherry
+   DESCRIPTION= woodland gauntlets
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS= {101 990}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry woodland leggings
+[ITEMDEF i_woodland_leggings_Blackcherry]
+   DEFNAME= i_woodland_leggings_Blackcherry
+   ID= i_woodland_leggings
+   NAME= Blackcherry woodland leggings
+   ARMOR= 26
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Blackcherry
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Blackcherry
+   DESCRIPTION= woodland leggings
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS= {101 990}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry woodland arms
+[ITEMDEF i_woodland_arms_Blackcherry]
+   DEFNAME= i_woodland_arms_Blackcherry
+   ID= i_woodland_arms
+   NAME= Blackcherry woodland arms
+   ARMOR= 19
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 8 i_log_Blackcherry
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Blackcherry
+   DESCRIPTION= woodland arms
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS= {101 990}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry female woodland chest
+[ITEMDEF i_armor_female_woodland_Blackcherry]
+   DEFNAME= i_armor_female_woodland_Blackcherry
+   ID= i_armor_female_woodland
+   NAME= Blackcherry female woodland chest
+   ARMOR= 27
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 16 i_log_Blackcherry
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Blackcherry
+   DESCRIPTION= female woodland chest
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS= {101 990}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry leaf tunic
+[ITEMDEF i_leaf_tunic_Blackcherry]
+   DEFNAME= i_leaf_tunic_Blackcherry
+   ID= i_leaf_tunic
+   NAME= Blackcherry leaf tunic
+   ARMOR= 29
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 18 i_log_Blackcherry
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Blackcherry
+   DESCRIPTION= leaf tunic
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry leaf gloves
+[ITEMDEF i_leaf_gloves_Blackcherry]
+   DEFNAME= i_leaf_gloves_Blackcherry
+   ID= i_leaf_gloves
+   NAME= Blackcherry leaf gloves
+   ARMOR= 23
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_log_Blackcherry
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Blackcherry
+   DESCRIPTION= leaf gloves
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry leaf gorget
+[ITEMDEF i_leaf_gorget_Blackcherry]
+   DEFNAME= i_leaf_gorget_Blackcherry
+   ID= i_leaf_gorget
+   NAME= Blackcherry leaf gorget
+   ARMOR= 19
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Blackcherry
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Blackcherry
+   DESCRIPTION= leaf gorget
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry leaf arms
+[ITEMDEF i_leaf_arms_Blackcherry]
+   DEFNAME= i_leaf_arms_Blackcherry
+   ID= i_leaf_arms
+   NAME= Blackcherry leaf arms
+   ARMOR= 19
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Blackcherry
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Blackcherry
+   DESCRIPTION= leaf arms
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry leaf leggings
+[ITEMDEF i_leaf_leggings_Blackcherry]
+   DEFNAME= i_leaf_leggings_Blackcherry
+   ID= i_leaf_leggings
+   NAME= Blackcherry leaf leggings
+   ARMOR= 26
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 15 i_log_Blackcherry
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Blackcherry
+   DESCRIPTION= leaf leggings
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry leaf tonlet
+[ITEMDEF i_leaf_tonlet_Blackcherry]
+   DEFNAME= i_leaf_tonlet_Blackcherry
+   ID= i_leaf_tonlet
+   NAME= Blackcherry leaf tonlet
+   ARMOR= 15
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 4 i_log_Blackcherry
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Blackcherry
+   DESCRIPTION= leaf tonlet
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry raven helm
+[ITEMDEF i_helm_raven_Blackcherry]
+   DEFNAME= i_helm_raven_Blackcherry
+   ID= i_helm_raven
+   NAME= Blackcherry raven helm
+   ARMOR= 19
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Blackcherry
+   SKILLMAKE= CARPENTRY 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Blackcherry
+   DESCRIPTION= raven helm
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS= {71 660}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry vulture helm
+[ITEMDEF i_helm_vulture_Blackcherry]
+   DEFNAME= i_helm_vulture_Blackcherry
+   ID= i_helm_vulture
+   NAME= Blackcherry vulture helm
+   ARMOR= 19
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Blackcherry
+   SKILLMAKE= CARPENTRY 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Blackcherry
+   DESCRIPTION= vulture helm
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS= {91 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Blackcherry winged helm
+[ITEMDEF i_helm_winged_Blackcherry]
+   DEFNAME= i_helm_winged_Blackcherry
+   ID= i_helm_winged
+   NAME= Blackcherry winged helm
+   ARMOR= 19
+   WEIGHT= 21
+   VALUE= 110
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Blackcherry
+   SKILLMAKE= CARPENTRY 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Blackcherry
+   DESCRIPTION= winged helm
+
+ON=@Create
+   COLOR=color_log_Blackcherry
+   HITPOINTS= {111 1100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

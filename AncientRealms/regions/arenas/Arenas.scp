@@ -1,0 +1,112 @@
+[AREADEF a_britain_pvp_arena]
+EVENTS=r_default,r_OreClass_2,r_default_water,r_LogClass_All_common,r_default_grass
+NAME=PVP Arena
+GROUP=AncientRealms
+P=1415,1715,20,0
+RECT=1401,1725,1413,1707,0
+
+[AREADEF a_AncientRealms_CTS_arena]
+EVENTS=r_default,r_default_rock,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Arena - Fern Bank
+GROUP=AncientRealms
+FLAGS=0880
+P=6012,1653,20,0
+RECT=5979,1701,6067,1599,0
+ANNOUNCE=0
+TAG.ArenaName=Fern Bank
+
+[AREADEF a_AncientRealms_CTS_arena_player_start_Blue]
+EVENTS=r_default,r_OreClass_10,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Blue Player Start
+GROUP=AncientRealms
+FLAGS=0880
+P=5993,1735,0,0
+RECT=5980,1724,6010,1748,0
+ANNOUNCE=0
+
+[AREADEF a_AncientRealms_CTS_arena_player_start_Red]
+EVENTS=r_default,r_OreClass_9,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Red Player Start
+GROUP=AncientRealms
+FLAGS=0880
+P=6052,1585,0,0
+RECT=6038,1572,6067,1598,0
+ANNOUNCE=0
+
+[AREADEF a_AncientRealms_CTS_arena_blue_base]
+EVENTS=r_default,r_OreClass_11,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Blue Base
+GROUP=AncientRealms
+FLAGS=0880
+P=5995,1711,0,0
+RECT=5980,1700,6009,1724,0
+ANNOUNCE=0
+
+[AREADEF a_AncientRealms_CTS_arena_red_base]
+EVENTS=r_default,r_OreClass_11,r_default_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=Red Base
+GROUP=AncientRealms
+FLAGS=0880
+P=6052,6010,0,0
+RECT=6038,1598,6066,1622,0
+ANNOUNCE=0
+
+
+[DEFNAME TournamentSquareControl]
+
+TS_Control  04006094b
+TS_ControlNuke  040050b01
+
+[ITEMDEF i_tournament_control]
+DEFNAME=i_tournament_control
+NAME=Potted Tree
+ID=i_tree_large_potted
+TYPE=t_script
+
+CATEGORY=Ancientrealms - Arenas
+SUBSECTION=Tournament Square
+DESCRIPTION=Region Control
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=15
+	
+ON=@DClick
+	IF <SRC.ISGM>
+		SAY @55 CONTROL <UID>
+		SAY @55 REGION <REGION.UID>
+	ENDIF
+	
+ON=@TIMER
+	//SERV.LOG I exsist at <P>
+	TIMER=15
+	TAG.RegionUID=<REGION.UID>
+	RETURN 1
+
+[ITEMDEF i_tournament_control2]
+DEFNAME=i_tournament_control2
+NAME=Potted Tree
+ID=i_tree_large_potted
+TYPE=t_script
+
+CATEGORY=Ancientrealms - Arenas
+SUBSECTION=Tournament Square
+DESCRIPTION=Region Control
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=15
+	
+ON=@DClick
+	IF <SRC.ISGM>
+		SAY @55 CONTROL <UID>
+		SAY @55 REGION <REGION.UID>
+	ENDIF
+	
+ON=@TIMER
+	TIMER=15
+	//SERV.LOG I exsist at <P>
+	TAG.RegionUID=<REGION.UID>
+	RETURN 1
+
+[EOF]

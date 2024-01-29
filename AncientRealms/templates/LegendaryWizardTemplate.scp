@@ -1,0 +1,29 @@
+[TEMPLATE VENDOR_S_LEGENDARY_WIZARD]
+CATEGORY=Vendor Templates
+SUBSECTION=Sell Templates
+DESCRIPTION=Legendary Wizard
+
+SELL=i_TransportMedalion_Astalon,100
+SELL=i_TransportMedalion_Britain,100
+SELL=i_TransportMedalion_SerpentsHold,100
+SELL=i_TransportMedalion_SkaraBrae,100
+SELL=i_TransportMedalion_Cove,100
+SELL=i_TransportMedalion_Minoc,100
+SELL=i_TransportMedalion_BlackFell,100
+SELL=i_TransportMedalion_EventHalls,100
+SELL=i_TransportMedalion_GuildHall,100
+SELL=i_tradingLicence,10
+
+//SELL=i_TransportMedalion_BucaneersDen,100
+//SELL=i_TransportMedalion_Jhelom,100
+//SELL=i_TransportMedalion_Minoc,100
+//SELL=i_TransportMedalion_Moonglow,100
+//SELL=i_TransportMedalion_Njuhelm,100
+//SELL=i_TransportMedalion_Occlo,100
+//SELL=i_TransportMedalion_Trinsic,100
+//SELL=i_TransportMedalion_Vesper,100
+//SELL=i_TransportMedalion_Wind,100
+//SELL=i_TransportMedalion_Yew,100
+//SELL=i_transportgem_Prison,100
+
+[EOF]

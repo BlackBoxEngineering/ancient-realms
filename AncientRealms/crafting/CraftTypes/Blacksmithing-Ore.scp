@@ -1,0 +1,42 @@
+[TYPEDEF t_ore]
+ON=@DClick
+	DIALOGCLOSE InvictusCraftingMenu
+	SRC.CTAG.CraftingMaterial = <UID>
+	IF <SRC.FINDID.i_tinker_tools>
+		SRC.CTAG.CraftingSkillName = Tinkering
+		SRC.DIALOGCLOSE InvictusCraftingMenu
+		SRC.DIALOG InvictusCraftingMenu
+		RETURN 1
+	ELSE
+		IF <SRC.FINDID.i_tongs>||<SRC.FINDID.i_pickaxe>||<SRC.FINDID.i_shovel>
+			IF <SRC.IsNearForge>
+				SRC.CTAG.CraftingSkillName = Mining
+				SRC.SYSMESSAGE @55 You smelt the <SRC.f_find_ore_type <BASEID>> ore using the forge.
+				RETURN 0
+			ELSE
+				SRC.SYSMESSAGE @55 You need a forge to smelt this ore.
+				SRC.CTAG.CraftingSkillName = 
+				RETURN 1
+			ENDIF
+			RETURN 1
+		ELSE
+			IF <SRC.IsNearForge>
+				SRC.CTAG.CraftingSkillName = Mining
+				SRC.SYSMESSAGE @55 You need tongs to put the ore in the fire.
+				RETURN 1
+			ELSE
+				SRC.SYSMESSAGE @55 You need a forge to smelt this ore.
+				SRC.CTAG.CraftingSkillName = 
+				RETURN 1
+			ENDIF
+		ENDIF
+	ENDIF		
+
+[FUNCTION IsNearForge]
+	IF (<isneartype t_forge 1>)
+		RETURN 1
+	ELSE 
+		RETURN 0
+	ENDIF
+
+[EOF]

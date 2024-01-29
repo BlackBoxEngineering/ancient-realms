@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Rose Quarter Staff
+
+[ITEMDEF i_staff_quarter_Rose]
+   DEFNAME=i_staff_quarter_Rose
+   ID=i_staff_quarter
+   NAME=Rose Quarter Staff
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=18
+   VALUE=31
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={20 24}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Rose]
+   DEFNAME=i_serpentstone_staff_Rose
+   ID=i_serpentstone_staff
+   NAME=Rose Serpentstone Staff
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=22
+   VALUE=31
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={60 64}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Rose]
+   DEFNAME=i_staff_bladed_double_Rose
+   ID=i_staff_bladed_double
+   NAME=Rose Double Bladed Staff
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=30
+   VALUE=31
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={120 124}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Glass Staff
+
+[ITEMDEF i_glass_staff_Rose]
+   DEFNAME=i_glass_staff_Rose
+   ID=i_glass_staff
+   NAME=Rose Glass Staff
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=27
+   VALUE=31
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={90 94}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Bladed Staff
+
+[ITEMDEF i_bladed_staff_Rose]
+   DEFNAME=i_bladed_staff_Rose
+   ID=i_bladed_staff
+   NAME=Rose Bladed Staff
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=28
+   VALUE=31
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={115 119}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Tongs
+
+[ITEMDEF i_tongs_Rose]
+   DEFNAME=i_tongs_Rose
+   ID=i_tongs
+   NAME=Rose Tongs
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=5
+   VALUE=31
+   SPEED=7
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={0 4}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Mace
+
+[ITEMDEF i_mace_Rose]
+   DEFNAME=i_mace_Rose
+   ID=i_mace
+   NAME=Rose Mace
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=18
+   VALUE=31
+   SPEED=36
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Maul
+
+[ITEMDEF i_maul_Rose]
+   DEFNAME=i_maul_Rose
+   ID=i_maul
+   NAME=Rose Maul
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=20
+   VALUE=31
+   SPEED=38
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={40 44}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Scepter
+
+[ITEMDEF i_scepter_Rose]
+   DEFNAME=i_scepter_Rose
+   ID=i_scepter
+   NAME=Rose Scepter
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=22
+   VALUE=31
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={50 54}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Rose]
+   DEFNAME=i_hammer_sledge_Rose
+   ID=i_hammer_sledge
+   NAME=Rose Sledge Hammer
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=22
+   VALUE=31
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={20 24}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Rose]
+   DEFNAME=i_hammer_smith_Rose
+   ID=i_hammer_smith
+   NAME=Rose Smiths Hammer
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=8
+   VALUE=31
+   SPEED=7
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose War Mace
+
+[ITEMDEF i_mace_war_Rose]
+   DEFNAME=i_mace_war_Rose
+   ID=i_mace_war
+   NAME=Rose War Mace
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=31
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={80 84}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Disc Mace
+
+[ITEMDEF i_disc_mace_Rose]
+   DEFNAME=i_disc_mace_Rose
+   ID=i_disc_mace
+   NAME=Rose Disc Mace
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=31
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={70 74}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose War Hammer
+
+[ITEMDEF i_hammer_war_Rose]
+   DEFNAME=i_hammer_war_Rose
+   ID=i_hammer_war
+   NAME=Rose War Hammer
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=32
+   VALUE=31
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={100 104}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Hammer Pick
+
+[ITEMDEF i_hammer_pick_Rose]
+   DEFNAME=i_hammer_pick_Rose
+   ID=i_hammer_pick
+   NAME=Rose Hammer Pick
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=28
+   VALUE=31
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={55 59}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose War Axe
+
+[ITEMDEF i_axe_war_Rose]
+   DEFNAME=i_axe_war_Rose
+   ID=i_axe_war
+   NAME=Rose War Axe
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=18
+   VALUE=31
+   SPEED=38
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={65 69}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Tessen
+
+[ITEMDEF i_tessen_Rose]
+   DEFNAME=i_tessen_Rose
+   ID=i_tessen
+   NAME=Rose Tessen
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=17
+   VALUE=31
+   SPEED=32
+   SKILL=MACEFIGHTING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={75 79}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Long Sword
+
+[ITEMDEF i_sword_long_Rose]
+   DEFNAME=i_sword_long_Rose
+   ID=i_sword_long
+   NAME=Rose Long Sword
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=14
+   VALUE=31
+   SPEED=24
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={10 14}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Broad Sword
+
+[ITEMDEF i_sword_broad_Rose]
+   DEFNAME=i_sword_broad_Rose
+   ID=i_sword_broad
+   NAME=Rose Broad Sword
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=14
+   VALUE=31
+   SPEED=24
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={20 24}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Scimitar
+
+[ITEMDEF i_scimitar_Rose]
+   DEFNAME=i_scimitar_Rose
+   ID=i_scimitar
+   NAME=Rose Scimitar
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=16
+   VALUE=31
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Viking Sword
+
+[ITEMDEF i_sword_viking_Rose]
+   DEFNAME=i_sword_viking_Rose
+   ID=i_sword_viking
+   NAME=Rose Viking Sword
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=31
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={35 39}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Katana
+
+[ITEMDEF i_katana_Rose]
+   DEFNAME=i_katana_Rose
+   ID=i_katana
+   NAME=Rose Katana
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=31
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={80 84}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Wakizashi
+
+[ITEMDEF i_wakizashi_Rose]
+   DEFNAME=i_wakizashi_Rose
+   ID=i_wakizashi
+   NAME=Rose Wakizashi
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=16
+   VALUE=31
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={45 49}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Long Sword
+
+[ITEMDEF i_sword_long_b_Rose]
+   DEFNAME=i_sword_long_b_Rose
+   ID=i_sword_long_b
+   NAME=Rose Long Sword
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=31
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={50 54}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Paladin Sword
+
+[ITEMDEF i_sword_paladin_Rose]
+   DEFNAME=i_sword_paladin_Rose
+   ID=i_sword_paladin
+   NAME=Rose Paladin Sword
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=31
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={65 69}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Bokuto
+
+[ITEMDEF i_bokuto_Rose]
+   DEFNAME=i_bokuto_Rose
+   ID=i_bokuto
+   NAME=Rose Bokuto
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=31
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={70 74}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Rose]
+   DEFNAME=i_Radiant_Scimitar_Rose
+   ID=i_Radiant_Scimitar
+   NAME=Rose Radiant Scimitar
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=31
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={75 79}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Bone Harvester
+
+[ITEMDEF i_bone_harvester_Rose]
+   DEFNAME=i_bone_harvester_Rose
+   ID=i_bone_harvester
+   NAME=Rose Bone Harvester
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=14
+   VALUE=31
+   SPEED=24
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={55 59}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Butcher Knife
+
+[ITEMDEF i_knife_butcher_Rose]
+   DEFNAME=i_knife_butcher_Rose
+   ID=i_knife_butcher
+   NAME=Rose Butcher Knife
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=12
+   VALUE=31
+   SPEED=24
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Rose]
+   DEFNAME=i_cleaver_meat_Rose
+   ID=i_cleaver_meat
+   NAME=Rose Meat Cleaver
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=12
+   VALUE=31
+   SPEED=24
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Elven Machete
+
+[ITEMDEF i_elven_machete_Rose]
+   DEFNAME=i_elven_machete_Rose
+   ID=i_elven_machete
+   NAME=Rose Elven Machete
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=31
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={60 64}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Bone Machete
+
+[ITEMDEF i_bone_machete_Rose]
+   DEFNAME=i_bone_machete_Rose
+   ID=i_bone_machete
+   NAME=Rose Bone Machete
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=31
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={50 54}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Daisho
+
+[ITEMDEF i_daisho_Rose]
+   DEFNAME=i_daisho_Rose
+   ID=i_daisho
+   NAME=Rose Daisho
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=31
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={65 69}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose No-Dachi
+
+[ITEMDEF i_no_dachi_Rose]
+   DEFNAME=i_no_dachi_Rose
+   ID=i_no_dachi
+   NAME=Rose No-Dachi
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=31
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={75 79}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Rune Blade
+
+[ITEMDEF i_Rune_Blade_Rose]
+   DEFNAME=i_Rune_Blade_Rose
+   ID=i_Rune_Blade
+   NAME=Rose Rune Blade
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=31
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={115 119}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Axe
+
+[ITEMDEF i_axe_Rose]
+   DEFNAME=i_axe_Rose
+   ID=i_axe
+   NAME=Rose Axe
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=16
+   VALUE=31
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={42 46}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Bardiche
+
+[ITEMDEF i_bardiche_Rose]
+   DEFNAME=i_bardiche_Rose
+   ID=i_bardiche
+   NAME=Rose Bardiche
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=22
+   VALUE=31
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={58 62}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Battle Axe
+
+[ITEMDEF i_axe_battle_Rose]
+   DEFNAME=i_axe_battle_Rose
+   ID=i_axe_battle
+   NAME=Rose Battle Axe
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=24
+   VALUE=31
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={65 69}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Double Axe
+
+[ITEMDEF i_axe_double_Rose]
+   DEFNAME=i_axe_double_Rose
+   ID=i_axe_double
+   NAME=Rose Double Axe
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=31
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={70 74}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Rose]
+   DEFNAME=i_axe_exec_Rose
+   ID=i_axe_exec
+   NAME=Rose Exectutioners Axe
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=31
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={73 77}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Halberd
+
+[ITEMDEF i_halberd_Rose]
+   DEFNAME=i_halberd_Rose
+   ID=i_halberd
+   NAME=Rose Halberd
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=31
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={75 79}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Hatchet
+
+[ITEMDEF i_hatchet_Rose]
+   DEFNAME=i_hatchet_Rose
+   ID=i_hatchet
+   NAME=Rose Hatchet
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=17
+   VALUE=31
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={40 44}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Rose]
+   DEFNAME=i_axe_battle_large_Rose
+   ID=i_axe_battle_large
+   NAME=Rose Large Battle Axe
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=31
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={100 104}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Ornate Axe
+
+[ITEMDEF i_ornate_axe_Rose]
+   DEFNAME=i_ornate_axe_Rose
+   ID=i_ornate_axe
+   NAME=Rose Ornate Axe
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=25
+   VALUE=31
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={60 64}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Rose]
+   DEFNAME=i_axe_two_hand_Rose
+   ID=i_axe_two_hand
+   NAME=Rose Two Handed Axe
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=31
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={55 59}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Dual Axes
+
+[ITEMDEF i_dual_short_axes_Rose]
+   DEFNAME=i_dual_short_axes_Rose
+   ID=i_dual_short_axes
+   NAME=Rose Dual Axes
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=23
+   VALUE=31
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={95 99}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Cresent Blade
+
+[ITEMDEF i_crescent_blade_Rose]
+   DEFNAME=i_crescent_blade_Rose
+   ID=i_crescent_blade
+   NAME=Rose Cresent Blade
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=31
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={110 114}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Dagger
+
+[ITEMDEF i_dagger_Rose]
+   DEFNAME=i_dagger_Rose
+   ID=i_dagger
+   NAME=Rose Dagger
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=8
+   VALUE=31
+   SPEED=20
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={10 14}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Skinning Knife
+
+[ITEMDEF i_knife_skinning_Rose]
+   DEFNAME=i_knife_skinning_Rose
+   ID=i_knife_skinning
+   NAME=Rose Skinning Knife
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=8
+   VALUE=31
+   SPEED=20
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={15 19}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Rose]
+   DEFNAME=i_sword_Assassin_Spike_Rose
+   ID=i_sword_Assassin_Spike
+   NAME=Rose Assassin Spike
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=10
+   VALUE=31
+   SPEED=22
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={30 34}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Cutlass
+
+[ITEMDEF i_cutlass_Rose]
+   DEFNAME=i_cutlass_Rose
+   ID=i_cutlass
+   NAME=Rose Cutlass
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=11
+   VALUE=31
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={25 29}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Short Blade
+
+[ITEMDEF i_shortblade_Rose]
+   DEFNAME=i_shortblade_Rose
+   ID=i_shortblade
+   NAME=Rose Short Blade
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=12
+   VALUE=31
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={35 39}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Scythe
+
+[ITEMDEF i_scythe_Rose]
+   DEFNAME=i_scythe_Rose
+   ID=i_scythe
+   NAME=Rose Scythe
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=31
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={115 119}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Short Spear
+
+[ITEMDEF i_spear_short_Rose]
+   DEFNAME=i_spear_short_Rose
+   ID=i_spear_short
+   NAME=Rose Short Spear
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=31
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={45 49}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose War Fork
+
+[ITEMDEF i_war_fork_Rose]
+   DEFNAME=i_war_fork_Rose
+   ID=i_war_fork
+   NAME=Rose War Fork
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=31
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={50 54}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Leafblade
+
+[ITEMDEF i_sword_leafblade_Rose]
+   DEFNAME=i_sword_leafblade_Rose
+   ID=i_sword_leafblade
+   NAME=Rose Leafblade
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=13
+   VALUE=31
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={60 64}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Rose]
+   DEFNAME=i_elven_spellblade_Rose
+   ID=i_elven_spellblade
+   NAME=Rose Elven Spell Blade
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=31
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={75 79}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Pitchfork
+
+[ITEMDEF i_pitchfork_Rose]
+   DEFNAME=i_pitchfork_Rose
+   ID=i_pitchfork
+   NAME=Rose Pitchfork
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=31
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={55 59}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose War Cleaver
+
+[ITEMDEF i_war_cleaver_Rose]
+   DEFNAME=i_war_cleaver_Rose
+   ID=i_war_cleaver
+   NAME=Rose War Cleaver
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=31
+   SPEED=24
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={65 69}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Pike
+
+[ITEMDEF i_pike_Rose]
+   DEFNAME=i_pike_Rose
+   ID=i_pike
+   NAME=Rose Pike
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=31
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={70 74}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Blood Blade
+
+[ITEMDEF i_bloodblade_Rose]
+   DEFNAME=i_bloodblade_Rose
+   ID=i_bloodblade
+   NAME=Rose Blood Blade
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=31
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={75 79}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Kama
+
+[ITEMDEF i_kama_Rose]
+   DEFNAME=i_kama_Rose
+   ID=i_kama
+   NAME=Rose Kama
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=31
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={77 81}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Kryss
+
+[ITEMDEF i_kryss_Rose]
+   DEFNAME=i_kryss_Rose
+   ID=i_kryss
+   NAME=Rose Kryss
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=31
+   SPEED=26
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={80 84}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Lajatang
+
+[ITEMDEF i_lajatang_Rose]
+   DEFNAME=i_lajatang_Rose
+   ID=i_lajatang
+   NAME=Rose Lajatang
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=31
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={85 89}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Sai
+
+[ITEMDEF i_sai_Rose]
+   DEFNAME=i_sai_Rose
+   ID=i_sai
+   NAME=Rose Sai
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=31
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={76 80}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Tekagi
+
+[ITEMDEF i_tekagi_Rose]
+   DEFNAME=i_tekagi_Rose
+   ID=i_tekagi
+   NAME=Rose Tekagi
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=31
+   SPEED=22
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={90 94}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rose Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Rose]
+   DEFNAME=i_dual_pointed_spear_Rose
+   ID=i_dual_pointed_spear
+   NAME=Rose Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Rose
+   WEIGHT=12
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=31
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=32
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rose
+
+ON=@Create
+   COLOR=color_ore_Rose
+   HITPOINTS={115 119}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

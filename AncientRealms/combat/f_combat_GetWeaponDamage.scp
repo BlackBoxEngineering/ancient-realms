@@ -1,0 +1,91 @@
+[FUNCTION TestArms]
+CALL f_combat_GetWeaponDamage <UID>
+IF	(<EVAL <LOCAL.WeaponUID>>)
+	SYSMESSAGE @50,,1 Weapon Name (<LOCAL.WeaponName>)
+	SYSMESSAGE @51,,1 Weapon Speed (<EVAL <LOCAL.WeaponSpeed>>)
+	SYSMESSAGE @52,,1 DamagePhysical (<EVAL <LOCAL.DamagePhysical>>)
+	SYSMESSAGE @53,,1 DamageFire (<EVAL <LOCAL.DamageFire>>)
+	SYSMESSAGE @54,,1 DamageCold (<EVAL <LOCAL.DamageCold>>)
+	SYSMESSAGE @54,,1 DamagePoison (<EVAL <LOCAL.DamagePoison>>)
+	SYSMESSAGE @56,,1 DamageEnergy (<EVAL <LOCAL.DamageEnergy>>)
+ENDIF
+IF (<EVAL <LOCAL.ShieldUID>>)
+	SYSMESSAGE @50,,1 Shield Name (<LOCAL.WeaponName>)
+	SYSMESSAGE @51,,1 Shield Speed (<EVAL <LOCAL.WeaponSpeed>>)
+	SYSMESSAGE @53,,1 DefensePhysical (<EVAL <LOCAL.DefensePhysical>>)
+	SYSMESSAGE @53,,1 DefenseFire (<EVAL <LOCAL.DefenseFire>>)
+	SYSMESSAGE @53,,1 DefenseCold (<EVAL <LOCAL.DefenseCold>>)
+	SYSMESSAGE @53,,1 DefensePoison (<EVAL <LOCAL.DefensePoison>>)
+	SYSMESSAGE @53,,1 DefenseEnergy (<EVAL <LOCAL.DefenseEnergy>>)
+ENDIF
+
+[FUNCTION f_combat_GetWeaponDamage]
+REF1=<SERV.UID.<ARGV[0]>.FINDLAYER.1>
+REF2=<SERV.UID.<ARGV[0]>.FINDLAYER.2>
+IF (<REF1.ISWEAPON>)||(<REF2.ISWEAPON>)  
+	LOCAL.WeaponUID=0
+	LOCAL.ShieldUID=0
+	LOCAL.WeaponBaseId=0                                            
+	LOCAL.ShieldBaseId=0
+	LOCAL.DamagePhysical=0
+	LOCAL.DamageFire=0
+	LOCAL.DamageCold=0
+	LOCAL.DamagePoison=0
+	LOCAL.DamageEnergy=0
+	LOCAL.DefensePhysical=0
+	LOCAL.DefenseFire=0
+	LOCAL.DefenseCold=0
+	LOCAL.DefensePoison=0
+	LOCAL.DefenseEnergy=0
+	IF (<SERV.UID.<ARGV[0]>.FINDLAYER.1>)||(<SERV.UID.<ARGV[0]>.FINDLAYER.2>)                  
+		IF (<SERV.UID.<ARGV[0]>.FINDLAYER.1.ISWEAPON>)
+			LOCAL.WeaponUID=<SERV.UID.<ARGV[0]>.FINDLAYER.1.UID> 
+			LOCAL.ShieldUID=0
+		ELIF (<SERV.UID.<ARGV[0]>.FINDLAYER.2.ISWEAPON>)                       
+			LOCAL.WeaponUID=<SERV.UID.<ARGV[0]>.FINDLAYER.2.UID> 
+			LOCAL.ShieldUID=0
+		ELIF (<SERV.UID.<ARGV[0]>.FINDLAYER.2.ISARMOR>)                             
+			LOCAL.ShieldUID=<SERV.UID.<ARGV[0]>.FINDLAYER.2.UID> 
+			LOCAL.WeaponUID=0 
+		ELSE
+			SERV.B Weapon not recognized           
+		ENDIF
+	ENDIF
+	IF (<LOCAL.ShieldUID>)
+		LOCAL.WeaponName=<SERV.UID.<LOCAL.WeaponUID>.NAME>
+		LOCAL.WeaponSpeed=<SERV.UID.<LOCAL.WeaponUID>.SPEED>
+		LOCAL.DefensePhysical=<SERV.UID.<LOCAL.WeaponUID>.DAM>
+		LOCAL.DefenseFire=<SERV.UID.<LOCAL.WeaponUID>.TAG0.DamFire>
+		LOCAL.DefenseCold=<SERV.UID.<LOCAL.WeaponUID>.TAG0.DamCold>
+		LOCAL.DefensePoison=<SERV.UID.<LOCAL.WeaponUID>.TAG0.DamPoison>
+		LOCAL.DefenseEnergy=<SERV.UID.<LOCAL.WeaponUID>.TAG0.DamEnergy>
+	ENDIF
+	IF (<LOCAL.WeaponUID>)
+		LOCAL.WeaponName=<SERV.UID.<LOCAL.WeaponUID>.NAME>
+		LOCAL.WeaponSpeed=<SERV.UID.<LOCAL.WeaponUID>.SPEED>
+		LOCAL.DamagePhysical=<SERV.UID.<LOCAL.WeaponUID>.DAM>
+		LOCAL.DamageFire=<SERV.UID.<LOCAL.WeaponUID>.TAG0.DamFire>
+		LOCAL.DamageCold=<SERV.UID.<LOCAL.WeaponUID>.TAG0.DamCold>
+		LOCAL.DamagePoison=<SERV.UID.<LOCAL.WeaponUID>.TAG0.DamPoison>
+		LOCAL.DamageEnergy=<SERV.UID.<LOCAL.WeaponUID>.TAG0.DamEnergy>
+	ENDIF
+ELSE
+	IF <SERV.UID.<ARGV[0]>.ISPLAYER>
+		LOCAL.WeaponName=Fists
+		LOCAL.DamagePhysical=<EVAL (<SERV.UID.<ARGV[0]>.STR> + <SERV.UID.<ARGV[0]>.WRESTLING> + <SERV.UID.<ARGV[0]>.NINJITSU>) / 333 >
+	ELSE
+		LOCAL.WeaponSpeed=<ReturnOnlyPositives <EVAL 125 - <SERV.UID.<ARGV[0]>.DEX>>>
+		LOCAL.DamagePhysical=<SERV.UID.<ARGV[0]>.DAM>
+	ENDIF
+ENDIF
+
+[FUNCTION f_combat_CheckPlayersDefense_GetValues]
+IF (<ISPLAYER>)||(<ISDRONE>)
+	LOCAL.DefensePhysical=<AR>
+	LOCAL.DefenseFire=<RESFIRE>
+	LOCAL.DefenseCold=<RESCOLD>
+	LOCAL.DefensePoison=<RESPOISON>
+	LOCAL.DefenseEnergy=<RESENERGY>
+ENDIF
+
+[EOF]

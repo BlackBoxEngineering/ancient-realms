@@ -1,0 +1,49 @@
+[FUNCTION TestStatBonus]
+	LOCAL.DexTweak=<EVAL <DEX>/2>
+	LOCAL.StatTweak=<EVAL (<STR>+<LOCAL.DexTweak>)/10>
+	SYSMESSAGE @55,,1 Stat Bonus <EVAL <LOCAL.StatTweak>>
+	
+[FUNCTION TestSkillBonus]
+	LOCAL.TempSkillDamage=<<SERV.SKILL.<TAG0.WeaponSkillName>.KEY>>
+	LOCAL.TempSkillDamageTweak=<EVAL <LOCAL.TempSkillDamage>/20>
+	SYSMESSAGE @55,,1 Skill Bonus <EVAL <LOCAL.TempSkillDamageTweak>>
+
+[FUNCTION f_combat_GetNaturalAbility]
+	// Notes on this Function : Jesus
+	// Designed to Incorporate Players Stats into Melee Damage
+	// With a (STR of 125) and a (DEX of 100) The Raw Stat Damage is 17 - (PURE MELEE)
+	// With a (STR of 100) and a (DEX of 70) The Raw Stat Damage is 13   - (TANK MAGE)
+	// With a (STR of 100) and a (DEX of 25) The Raw Stat Damage is 11   - (PURE MAGE)
+	IF <SERV.UID.<ARGV[0]>.ISPLAYER>
+		LOCAL.DexTweak=<EVAL <SERV.UID.<ARGV[0]>.DEX> / 2>
+		LOCAL.StatTweak=<EVAL (<SERV.UID.<ARGV[0]>.STR>+<LOCAL.DexTweak>) / 10>
+		LOCAL.TempSkillDamage=<<SERV.SKILL.<SERV.UID.<ARGV[0]>.CTAG0.SkillInUse>.KEY>>
+		LOCAL.TempSkillDamageTweak=<EVAL <LOCAL.TempSkillDamage>/20>	
+		LOCAL.CharacterNaturalAbility=<LOCAL.StatTweak>+<LOCAL.TempSkillDamageTweak>
+	ELSE
+		LOCAL.DexTweak=<EVAL <SERV.UID.<ARGV[0]>.DEX> / 2>
+		LOCAL.StatTweak=<EVAL (<SERV.UID.<ARGV[0]>.STR>+<LOCAL.DexTweak>) / 10>
+		LOCAL.TempSkillDamage=<SERV.UID.<ARGV[0]>.DAM>
+		LOCAL.TempSkillDamageTweak=<ReturnOnlyPositives <EVAL <LOCAL.TempSkillDamage>/20>>	
+		LOCAL.CharacterNaturalAbility=<LOCAL.StatTweak>+<LOCAL.TempSkillDamageTweak>
+	ENDIF
+
+[FUNCTION f_combat_GetNaturalSpellAbility]
+	REF1=<SERV.UID.<ARGV[0]>>
+	IF <REF1.ISPLAYER>
+		LOCAL.DexTweak=<EVAL <REF1.DEX> / 2>
+		LOCAL.StatTweak=<EVAL (<REF1.INT>+<LOCAL.DexTweak>) / 10>
+		LOCAL.TempSkillDamage=<EVAL <REF1.MAGERY>/10>
+		LOCAL.TempSkillDamageTweak=<EVAL <LOCAL.TempSkillDamage>/10>	
+		LOCAL.CharacterNaturalAbility=<LOCAL.StatTweak>+<LOCAL.TempSkillDamageTweak>
+	ELSE
+		LOCAL.DexTweak=<EVAL <SERV.UID.<ARGV[0]>.DEX> / 2>
+		LOCAL.StatTweak=<EVAL (<SERV.UID.<ARGV[0]>.INT>+<LOCAL.DexTweak>) / 10>
+		LOCAL.TempSkillDamage=<SERV.UID.<ARGV[0]>.DAM>
+		LOCAL.CharacterNaturalAbility=<LOCAL.StatTweak>+<LOCAL.TempSkillDamage>
+	ENDIF
+	//SERV.LOG @NATURALABILITY : <EVAL <LOCAL.CharacterNaturalAbility>>
+	
+	RETURN <EVAL <LOCAL.CharacterNaturalAbility>>
+	
+[EOF]

@@ -1,0 +1,752 @@
+[PLEVEL 1]
+duel
+
+/////////////////////////////
+//DuelTAG0s				   //
+/////////////////////////////
+//TAG0.RegionUID=
+//TAG0.CurrentGameNo=
+//TAG0.TotalGameNo=
+/////////////////////////////
+//TAG0.PlayerOneName=
+//TAG0.PlayerTwoName=
+//TAG0.PlayerOneUID=
+//TAG0.PlayerTwoUID=
+//TAG0.PlayerOneScore=
+//TAG0.PlayerTwoScore=
+//TAG0.PlayerOneScore=
+/////////////////////////////
+//TAG0.DuelHighScore=
+//TAG0.DuelHighName=
+/////////////////////////////
+//TAG0.DuelPersonalScore=
+/////////////////////////////
+[TYPEDEF t_DueltopTen]
+ON=@DClick
+	SRC.DIALOG d_DuelTopTen
+	NAME=<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Name>
+	RETURN 1
+	
+	
+[DIALOG d_DuelTopTen]
+50,50
+PAGE 0
+RESIZEPIC 0 0 5120 300 480
+RESIZEPIC 20 60 5054 260 330
+////                   ////                   ////                   ////
+PAGE 1
+DTEXT 50 30 454 -   =TOP TEN DUEL PITS=   - 
+DTEXT 30 65 454 Name 
+DTEXT 180 65 254 Total Score
+////                   ////                   ////                   ////
+DTEXT  30 90 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Name>
+DTEXT  180 90 342 <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Score>>
+////                  ////                   ////                   ////
+DTEXT  30 120 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Name>
+DTEXT  180 120 342 <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Score>>
+////                   ////                   ////                   ////
+DTEXT  30 150 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Name>
+DTEXT  180 150 342 <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Score>>
+////                   ////                   ////                   ////
+DTEXT  30 180 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Name>
+DTEXT  180 180 342 <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score>>
+////                   ////                   ////                   ////
+DTEXT  30 210 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name>
+DTEXT  180 210 342 <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score>>
+////                   ////                   ////                   ////
+DTEXT  30 240 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name>
+DTEXT  180 240 342 <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score>>
+////                   ////                   ////                   ////
+DTEXT  30 270 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name>
+DTEXT  180 270 342 <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score>>
+////                   ////                   ////                   ////
+DTEXT  30 300 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name>
+DTEXT  180 300 342 <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>>
+////                   ////                   ////                   ////
+DTEXT  30 330 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+DTEXT  180 330 342 <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>>
+////                   ////                   ////                   ////
+DTEXT  30 360 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name>
+DTEXT  180 360 342 <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score>>
+////                   ////                   ////
+
+DTEXT 20 410 352 TOTAL DAMAGE DEALT
+DTEXT 170 410 332 - TIME TO DO IT
+
+DTEXT 35 440 352 Winner is awarded +200
+DTEXT 200 440 332 Looser +0
+
+[DIALOG d_DuelStone]
+50,50
+PAGE 0
+RESIZEPIC 0 0 5120 500 480
+RESIZEPIC 20 60 5054 460 330
+////                   ////                   ////                   ////
+PAGE 1
+DTEXT 50 30 215 <REGION.NAME> DUEL PITS -=TOP TEN =-
+DTEXT 50 65 454 Players Name
+DTEXT 160 65 122 Win/
+DTEXT 190 65 111 Loose
+DTEXT 260 65 898 Damage/
+DTEXT 310 65 954 Hits
+DTEXT 390 65 254 Total Score
+////                   ////                   ////                   ////
+DTEXT  50 90 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Name>
+DTEXT  160 90 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Win>
+DTEXT  190 90 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Loose>
+DTEXT  260 90 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Damage>
+DTEXT  310 90 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Hits>
+DTEXT  390 90 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Score>
+////                   ////                   ////                   ////
+DTEXT  50 120 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Name>
+DTEXT  160 120 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Win>
+DTEXT  190 120 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Loose>
+DTEXT  260 120 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Damage>
+DTEXT  310 120 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Hits>
+DTEXT  390 120 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Score>
+////                   ////                   ////                   ////
+DTEXT  50 150 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Name>
+DTEXT  160 150 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Win>
+DTEXT  190 150 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Loose>
+DTEXT  260 150 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Damage>
+DTEXT  310 150 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3>
+DTEXT  390 150 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3>
+////                   ////                   ////                   ////
+DTEXT  50 180 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Name>
+DTEXT  160 180 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Win>
+DTEXT  190 180 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Loose>
+DTEXT  260 180 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Damage>
+DTEXT  310 180 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Hits>
+DTEXT  390 180 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score>
+////                   ////                   ////                   ////
+DTEXT  50 210 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name>
+DTEXT  160 210 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Win>
+DTEXT  190 210 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Loose>
+DTEXT  260 210 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Damage>
+DTEXT  310 210 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Hits>
+DTEXT  390 210 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score>
+////                   ////                   ////                   ////
+DTEXT  50 240 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name>
+DTEXT  160 240 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Win>
+DTEXT  190 240 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Loose>
+DTEXT  260 240 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Damage>
+DTEXT  310 240 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Hits>
+DTEXT  390 240 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score>
+////                   ////                   ////                   ////
+DTEXT  50 270 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name>
+DTEXT  160 270 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Win>
+DTEXT  190 270 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Loose>
+DTEXT  260 270 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Damage>
+DTEXT  310 270 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Hits>
+DTEXT  390 270 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score>
+////                   ////                   ////                   ////
+DTEXT  50 300 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name>
+DTEXT  160 300 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Win>
+DTEXT  190 300 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Loose>
+DTEXT  260 300 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Damage>
+DTEXT  310 300 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Hits>
+DTEXT  390 300 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>
+////                   ////                   ////                   ////
+DTEXT  50 330 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+DTEXT  160 330 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Win>
+DTEXT  190 330 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Loose>
+DTEXT  260 330 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Damage>
+DTEXT  310 330 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Hits>
+DTEXT  390 330 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+////                   ////                   ////                   ////
+DTEXT  50 360 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name>
+DTEXT  160 360 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Win>
+DTEXT  190 360 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Loose>
+DTEXT  260 360 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Damage>
+DTEXT  310 360 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Hits>
+DTEXT  390 360 342 <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score>
+////                   ////                   ////
+DTEXT 50 410 352 Player One: <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneName>
+DTEXT 260 410 332 Score: <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>>
+
+DTEXT 50 440 352 Player Two: <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoName>
+DTEXT 260 440 332 Score: <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>>
+
+//TAG0.PlayerOneName=
+//TAG0.PlayerTwoName=
+//TAG0.PlayerOneUID=
+//TAG0.PlayerTwoUID=
+//TAG0.PlayerOneScore=
+//TAG0.PlayerTwoScore=
+//TAG0.PlayerOneScore=
+
+BUTTON 390 455 9027 9026 1 0 150
+DTEXT 420 455 55 Exit Duel
+////                   ////                   ////                   ////
+
+[DIALOG d_DuelStone BUTTON]
+ON=150
+f_EndDuel
+
+[ITEMDEF i_duel_exit]
+DEFNAME=i_duel_exit
+TYPE=t_eq_script
+NAME=Duel Exit
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=12
+
+ON=@TIMER
+	REMOVE
+	RETURN 1
+
+[ITEMDEF i_duel_exitCounter]
+DEFNAME=i_duel_exitCounter
+TYPE=t_eq_script
+NAME=Duel Exit Counter
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=2
+
+ON=@TIMER
+	IF <EVAL <CONT.FINDID.i_duel_exit.TIMER>> < 1
+		CONT.FINDID.i_duel_exit.REMOVE
+		CONT.REGION.SYSMESSAGE @55,,1 Leaving Pits!!
+		f_EndDuel
+		REMOVE
+	ELSE
+		CONT.REGION.SYSMESSAGE @1462,,1 <EVAL <CONT.FINDID.i_duel_exit.TIMER>>
+		TIMER=1
+	ENDIF
+	RETURN 1
+	
+[ITEMDEF i_duel_resurrect]
+DEFNAME=i_duel_resurrect
+TYPE=t_eq_script
+NAME=Duel Resurrect
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=1
+
+ON=@TIMER
+	CONT.RESURRECT
+	CONT.SAY @1462 Looser!!
+	REMOVE
+	RETURN 1
+
+[EVENTS e_PlayerDuel]
+ON=@GETHIT
+	IF <UID>=<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneUID>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore=<EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>+<ARGN1>>
+		SRC.SYSMESSAGE @1462,,1 Score: <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>>
+	ELIF <UID>=<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoUID>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore=<EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>+<ARGN1>>
+		SRC.SYSMESSAGE @1462,,1 Score: <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>>
+	ELSE
+		//SERV.LOG EVENT e_PlayerDuel is on <NAME> <UID> and shouldnt be ?
+	ENDIF
+
+ON=@DEATH
+	IF <UID>=<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneUID>
+		NEWITEM i_duel_resurrect,1,<SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneUID>>
+		SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoUID>.GO 1409,1710,20
+		SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoUID>.SAY @1462 Winner!!
+		NEWITEM i_duel_exit,1,<SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoUID>>
+		NEWITEM i_duel_exitCounter,1,<SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoUID>>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore=<EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>-<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TimePenalty>>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore=<EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore> + 200>
+	
+	ELIF <UID>=<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoUID>
+		NEWITEM i_duel_resurrect,1,<SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoUID>>
+		SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneUID>.GO 1404,1721,20
+		SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneUID>.SAY @1462 Winner!!
+		NEWITEM i_duel_exit,1,<SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneUID>>
+		NEWITEM i_duel_exitCounter,1,<SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneUID>>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore=<EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>-<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TimePenalty>>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore=<EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore> + 200>
+		
+	ELSE
+		//SERV.LOG <NAME> has been killed in Duel Pits but by who?
+	ENDIF
+	
+	IF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Score>>
+		
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>		
+		
+	ELIF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Score>>
+		
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>
+		
+	ELIF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Score>>
+		
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>
+		
+	ELIF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score>>
+	
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score>	
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>
+		
+	ELIF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score>>
+	
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>
+		
+	ELIF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score>>
+		
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score>	
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>
+		
+	ELIF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score>>
+			
+		
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>
+		
+	ELIF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>>
+		
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>		
+		
+	ELIF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>>
+	
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>
+		
+	ELIF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score>>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneScore>
+	ENDIF
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	IF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Score>>
+		
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer1Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>		
+		
+	ELIF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Score>>
+		
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer2Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>
+		
+	ELIF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Score>>
+		
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer3Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>
+		
+	ELIF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score>>
+	
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score>	
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer4Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>
+		
+	ELIF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score>>
+	
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer5Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>
+		
+	ELIF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score>>
+		
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score>	
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer6Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>
+		
+	ELIF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score>>
+			
+		
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer7Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>
+		
+	ELIF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>>
+		
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer8Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>		
+		
+	ELIF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>>
+	
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer9Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>
+		
+	ELIF <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>> > <EVAL <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score>>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Name	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoName>
+		SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TopPlayer10Score	=	<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore>
+	ENDIF
+
+[FUNCTION ResetDuelScore]
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer10Name	=	Ancientrealms
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer10Score	=	
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer9Name	=	Ancientrealms	
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer9Score	=	
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer8Name	=	Ancientrealms	
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer8Score	=	
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer7Name	=	Ancientrealms	
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer7Score	=	
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer6Name	=	Ancientrealms	
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer6Score	=	
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer5Name	=	Ancientrealms	
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer5Score	=	
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer4Name	=	Ancientrealms	
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer4Score	=	
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer3Name	=	Ancientrealms	
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer3Score	=	
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer2Name	=	Ancientrealms	
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer2Score	=	
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer1Name	=	Ancientrealms	
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG.TopPlayer1Score	=
+SAY <VAR.WorldStonesDuelStoneUidBritain>
+
+[ITEMDEF i_Duel_Stone]
+DEFNAME=i_Duel_Stone
+ID=02d13
+TYPE=t_container
+
+ON=@CREATE
+	ATTR=ATTR_DECAY|ATTR_NEWBIE|ATTR_MOVE_NEVER
+	TIMER=10
+	
+ON=@DROPON_GROUND
+	IF !(<REGION.TAG0.DuelStoneUid>)
+		REGION.TAG0.DuelStoneUid=<UID>
+		TAG0.RegionUID=<REGION.UID>
+		VAR.WorldStonesDuelStoneUidBritain=<UID>
+	ELSE
+		IF (<REGION.TAG0.DuelStoneUid>!=<UID>)
+			SRC.SYSMESSAGE @35,,1 There is already a Duel Stone Here UID <REGION.TAG0.DuelStoneUid>
+			SRC.GO <SERV.UID.<REGION.TAG0.DuelStoneUid>.P>
+		ENDIF
+	ENDIF
+	VAR.WorldStonesDuelStoneUidBritain=<UID>
+	TAG0.CurrentGame=0
+	TAG0.PlayerOneName=- Slot Empty -
+	TAG0.PlayerTwoName=- Slot Empty -
+	TAG0.PlayerOneScore=0
+	TAG0.PlayerTwoScore=0
+	TAG0.PlayerOneUID=0
+	TAG0.PlayerTwoUID=0
+	TAG0.TimePenalty=0
+	ResetDuelScore
+	TIMER=10
+	
+ON=@DCLICK
+	f_FlagAKeep3
+	VAR.WorldStonesDuelStoneUidBritain=<UID>
+	DIALOG d_DuelStone
+	
+ON=@TIMER
+	TAG0.TimePenalty=<EVAL <TAG0.TimePenalty> + 1 >
+	TIMER=10
+	RETURN 1
+		
+ON=@TOOTIP
+	FINISH_TOOLTIP
+	
+[FUNCTION Duel]
+IF <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.CurrentGame>
+	SYSMESSAGE @55,,1 Arena is currently in use.
+	RETURN 1
+ELSE
+	SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneName=<NAME>
+	SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneUID=<UID>
+	SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneSCore=0
+	SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOnePosition=<P>
+	SYSMESSAGE @55,,1 Who do you want to duel?
+	TARGETF DuelSelectPlayer
+ENDIF
+
+[ITEMDEF i_DuelStarter]
+DEFNAME=i_DuelStarter
+TYPE=t_eq_script
+NAME=Duel Starter
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=12
+
+ON=@TIMER
+	REMOVE
+	RETURN 1
+
+[ITEMDEF i_DuelStarterCounter]
+DEFNAME=i_DuelStarterCounter
+TYPE=t_eq_script
+NAME=Duel Starter Counter
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=2
+
+ON=@TIMER
+	IF <EVAL <CONT.FINDID.i_DuelStarter.TIMER>> < 1
+		CONT.FINDID.i_DuelStarter.REMOVE
+		CONT.SAY @55 Duel Started!!
+		SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneUID>.STONE 0
+		SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoUID>.STONE 0		
+		REMOVE
+	ELSE
+		CONT.SYSMESSAGE @33,,1 <EVAL <CONT.FINDID.i_DuelStarter.TIMER>>
+		TIMER=1
+	ENDIF
+	RETURN 1
+	
+[FUNCTION f_EndDuel]
+SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneUID>.GO <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOnePosition>
+SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoUID>.GO <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoPosition>
+SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneUID>.EVENTS -e_PlayerDuel
+SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoUID>.EVENTS -e_PlayerDuel
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneName=- Slot Empty -
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneUID=0
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneSCore=0
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoName=- Slot Empty -
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoUID=0
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoSCore=0
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.CurrentGame=0
+
+[FUNCTION f_Do_DuelStartTimerPlayer]
+NEWITEM=i_DuelStarter,1,<UID>
+NEWITEM=i_DuelStarterCounter,1,<UID>
+EVENTS +e_PlayerDuel
+
+[FUNCTION f_Do_DuelStartTimer]
+SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneUID>.f_Do_DuelStartTimerPlayer
+SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoUID>.f_Do_DuelStartTimerPlayer
+SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.TimePenalty=0
+
+[FUNCTION f_Do_DuelStartPostions]
+SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneUID>.GO 1404,1721,20
+SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoUID>.GO 1409,1710,20
+SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneUID>.STONE 1
+SERV.UID.<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoUID>.STONE 1
+f_Do_DuelStartTimer
+
+[MENU d_duelInvite]
+<SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneName> Is challenging you to a duel
+
+ON=0 Accept The Challenge
+	SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoName=<SRC.NAME>
+	SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoUID=<SRC.UID>
+	SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoScore=0
+	SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoPosition=<P>
+	SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.CurrentGame=1
+    SRC.SYSMESSAGE @55,,1 You Accept the Challenge
+    SRC.EMOTE Accept
+    f_Do_DuelStartPostions
+    RETURN
+
+ON=0 Decline From The Challenge
+	SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneName=- Slot Empty -
+	SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneUID=0
+	SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerOneSCore=0
+	SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoName=- Slot Empty -
+	SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoUID=0
+	SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.PlayerTwoSCore=0
+    SRC.SYSMESSAGE @35,,1 You Decline from the Challenge
+    SRC.EMOTE Refuse
+    RETURN
+    
+ON=@Cancel
+    SRC.SYSMESSAGE @92,,1 You must Accept or Decline This Challenge
+    MENU d_duelInvite
+
+[FUNCTION DuelSelectPlayer]
+
+IF <SERV.UID.<VAR.WorldStonesDuelStoneUidBritain>.TAG0.CurrentGame>
+	SYSMESSAGE @55,,1 Arena is currently in use.
+	RETURN 1
+ELSE
+	IF (<SERV.UID.<ARGO>.UID> != <UID>)
+		IF 	<SERV.UID.<ARGO>.ISPLAYER>
+			EMOTE Offers <SERV.UID.<ARGO>.NAME> a Duel
+			SERV.UID.<ARGO>.MENU d_duelInvite
+		ELSE
+			SYSMESSAGE @55,,1 Thats not worth dueling!
+		ENDIF			
+	ELSE
+		SYSMESSAGE @55,,1 You want to fight yourself?
+	ENDIF
+ENDIF
+
+[EOF]

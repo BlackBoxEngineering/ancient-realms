@@ -1,0 +1,274 @@
+//****************************************************************************
+// SphereServer ©1997-2009
+// This script is part from the Sphere Community Script Pack.
+// You can download the full pack from: www.sphereserver.net
+//****************************************************************************
+// FILE LAST UPDATED: Sunday, April 25, 2011
+VERSION=0.56b
+
+
+[ITEMDEF i_bow_cursedwood]
+ID=i_bow
+NAME=Cursed wood bow
+TYPE=t_weapon_bow
+RESOURCES=7 i_log_cursedwood
+SKILLMAKE=Bowcraft 30.0
+WEIGHT=6.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=cursedwood bow
+DESCRIPTION=cursedwood bow
+ 
+ON=@Create
+f_colored_weaps_cursedwood
+HITPOINTS={36 48}
+COLOR=color_log_cursedwood
+ 
+[ITEMDEF i_composite_bow_cursedwood]
+ID=i_composite_bow
+NAME=Cursed wood Composite Bow
+TYPE=t_weapon_bow
+RESOURCES=7 i_log_cursedwood
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=5.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=cursedwood Composite Bow
+DESCRIPTION=cursedwood Composite Bow
+ 
+ON=@Create
+f_colored_weaps_cursedwood
+HITPOINTS={36 48}
+COLOR=color_log_cursedwood
+ 
+[ITEMDEF i_crossbow_cursedwood]
+ID=i_crossbow
+NAME=Cursed wood crossbow
+TYPE=t_weapon_xbow
+RESOURCES=7 i_log_cursedwood
+SKILLMAKE=Bowcraft 60.0
+WEIGHT=7.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=cursedwood crossbow
+DESCRIPTION=cursedwood crossbow
+ 
+ON=@Create
+f_colored_weaps_cursedwood
+HITPOINTS={36 48}
+COLOR=color_log_cursedwood
+ 
+[ITEMDEF i_elven_composite_longbow_cursedwood]
+ID=i_elven_composite_longbow
+NAME=Cursed wood Elven Composite Longbow
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_cursedwood
+SKILLMAKE=Bowcraft 95.0
+WEIGHT=8.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=cursedwood Elven Composite Longbow
+DESCRIPTION=cursedwood Elven Composite Longbow
+ 
+ON=@Create
+f_colored_weaps_cursedwood
+HITPOINTS={36 48}
+COLOR=color_log_cursedwood
+ 
+[ITEMDEF i_crossbow_heavy_cursedwood]
+ID=i_crossbow_heavy
+NAME=Cursed wood heavy crossbow
+TYPE=t_weapon_xbow
+RESOURCES=10 i_log_cursedwood
+SKILLMAKE=Bowcraft 80.0
+WEIGHT=9.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=cursedwood heavy crossbow
+DESCRIPTION=cursedwood heavy crossbow
+ 
+ON=@Create
+f_colored_weaps_cursedwood
+HITPOINTS={36 48}
+COLOR=color_log_cursedwood
+ 
+[ITEMDEF i_magical_shortbow_cursedwood]
+ID=i_magical_shortbow
+NAME=Cursed wood Magical Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_cursedwood
+SKILLMAKE=Bowcraft 85.0
+WEIGHT=6.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=cursedwood Magical Shortbow
+DESCRIPTION=cursedwood Magical Shortbow
+ 
+ON=@Create
+f_colored_weaps_cursedwood
+HITPOINTS={36 48}
+COLOR=color_log_cursedwood
+ 
+[ITEMDEF i_repeating_crossbow_cursedwood]
+ID=i_repeating_crossbow
+NAME=Cursed wood Repeating Crossbow
+TYPE=t_weapon_xbow
+RESOURCES=10 i_log_cursedwood
+SKILLMAKE=Bowcraft 90.0
+WEIGHT=6.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=cursedwood Repeating Crossbow
+DESCRIPTION=cursedwood Repeating Crossbow
+ 
+ON=@Create
+f_colored_weaps_cursedwood
+HITPOINTS={36 48}
+COLOR=color_log_cursedwood
+ 
+[ITEMDEF i_yumi_cursedwood]
+ID=i_yumi
+NAME=Cursed wood Yumi
+TYPE=t_weapon_bow
+RESOURCES=10 i_log_cursedwood
+SKILLMAKE=Bowcraft 90.0
+WEIGHT=8.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=cursedwood Yumi
+DESCRIPTION=cursedwood Yumi
+ 
+ON=@Create
+f_colored_weaps_cursedwood
+HITPOINTS={36 48}
+COLOR=color_log_cursedwood
+ 
+[ITEMDEF i_barbed_longbow_cursedwood]
+ID=i_elven_composite_longbow
+NAME=Cursed wood Barbed Longbow
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_cursedwood, 1 i_gem_fire_ruby
+SKILLMAKE=Bowcraft 95.0
+WEIGHT=8.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=cursedwood Elven Composite Longbow
+DESCRIPTION=cursedwood Barbed Longbow
+ 
+ON=@Create
+f_colored_weaps_cursedwood
+HITPOINTS={36 48}
+COLOR=color_log_cursedwood
+ 
+[ITEMDEF i_slayer_longbow_cursedwood]
+ID=i_elven_composite_longbow
+NAME=Cursed wood Slayer Longbow
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_cursedwood, 1 i_gem_brilliant_amber
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=8.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=cursedwood Elven Composite Longbow
+DESCRIPTION=cursedwood Slayer Longbow
+ 
+ON=@Create
+f_colored_weaps_cursedwood
+HITPOINTS={36 48}
+COLOR=color_log_cursedwood
+ 
+[ITEMDEF i_frozen_longbow_cursedwood]
+ID=i_elven_composite_longbow
+NAME=Cursed wood Frozen Longbow
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_cursedwood, 1 i_gem_turquoise
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=8.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=cursedwood Elven Composite Longbow
+DESCRIPTION=cursedwood Frozen Longbow
+ 
+ON=@Create
+f_colored_weaps_cursedwood
+HITPOINTS={36 48}
+COLOR=color_log_cursedwood
+ 
+[ITEMDEF i_longbow_might_cursedwood]
+ID=i_elven_composite_longbow
+NAME=Cursed wood Longbow of Might
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_cursedwood, 1 i_gem_blue_diamond
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=8.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=cursedwood Elven Composite Longbow
+DESCRIPTION=cursedwood Longbow of Might
+ 
+ON=@Create
+f_colored_weaps_cursedwood
+HITPOINTS={36 48}
+COLOR=color_log_cursedwood
+ 
+[ITEMDEF i_ranger_shortbow_cursedwood]
+ID=i_magical_shortbow
+NAME=Cursed wood Ranger's Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_cursedwood, 1 i_gem_perfect_emerald
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=6.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=cursedwood Magical Shortbow
+DESCRIPTION=cursedwood Ranger's Shortbow
+ 
+ON=@Create
+f_colored_weaps_cursedwood
+HITPOINTS={36 48}
+COLOR=color_log_cursedwood
+ 
+[ITEMDEF i_lightweight_shortbow_cursedwood]
+ID=i_magical_shortbow
+NAME=Cursed wood Lightweight Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_cursedwood, 1 i_gem_white_pearl
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=6.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=cursedwood Magical Shortbow
+DESCRIPTION=cursedwood Lightweight Shortbow
+ 
+ON=@Create
+f_colored_weaps_cursedwood
+HITPOINTS={36 48}
+COLOR=color_log_cursedwood
+ 
+[ITEMDEF i_mystical_shortbow_cursedwood]
+ID=i_magical_shortbow
+NAME=Cursed wood Mystical Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_cursedwood, 1 i_gem_ecru_citrine
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=6.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=cursedwood Magical Shortbow
+DESCRIPTION=cursedwood Mystical Shortbow
+ 
+ON=@Create
+f_colored_weaps_cursedwood
+HITPOINTS={36 48}
+COLOR=color_log_cursedwood
+ 
+[ITEMDEF i_assassin_shortbow_cursedwood]
+ID=i_magical_shortbow
+NAME=Cursed wood Assassin's Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_cursedwood, 1 i_gem_dark_sapphire
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=6.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=cursedwood Magical Shortbow
+DESCRIPTION=cursedwood Assassin's Shortbow
+ 
+ON=@Create
+f_colored_weaps_cursedwood
+HITPOINTS={36 48}
+COLOR=color_log_cursedwood
+ 
+[EOF]

@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Daemonite Quarter Staff
+
+[ITEMDEF i_staff_quarter_Daemonite]
+   DEFNAME=i_staff_quarter_Daemonite
+   ID=i_staff_quarter
+   NAME=Daemonite Quarter Staff
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=23
+   VALUE=97
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={20 34}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Daemonite]
+   DEFNAME=i_serpentstone_staff_Daemonite
+   ID=i_serpentstone_staff
+   NAME=Daemonite Serpentstone Staff
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=27
+   VALUE=97
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={60 74}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Daemonite]
+   DEFNAME=i_staff_bladed_double_Daemonite
+   ID=i_staff_bladed_double
+   NAME=Daemonite Double Bladed Staff
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=35
+   VALUE=97
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={120 134}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Glass Staff
+
+[ITEMDEF i_glass_staff_Daemonite]
+   DEFNAME=i_glass_staff_Daemonite
+   ID=i_glass_staff
+   NAME=Daemonite Glass Staff
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=32
+   VALUE=97
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={90 104}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Bladed Staff
+
+[ITEMDEF i_bladed_staff_Daemonite]
+   DEFNAME=i_bladed_staff_Daemonite
+   ID=i_bladed_staff
+   NAME=Daemonite Bladed Staff
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=33
+   VALUE=97
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={115 129}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Tongs
+
+[ITEMDEF i_tongs_Daemonite]
+   DEFNAME=i_tongs_Daemonite
+   ID=i_tongs
+   NAME=Daemonite Tongs
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=10
+   VALUE=97
+   SPEED=12
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={0 14}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Mace
+
+[ITEMDEF i_mace_Daemonite]
+   DEFNAME=i_mace_Daemonite
+   ID=i_mace
+   NAME=Daemonite Mace
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=23
+   VALUE=97
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Maul
+
+[ITEMDEF i_maul_Daemonite]
+   DEFNAME=i_maul_Daemonite
+   ID=i_maul
+   NAME=Daemonite Maul
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=25
+   VALUE=97
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={40 54}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Scepter
+
+[ITEMDEF i_scepter_Daemonite]
+   DEFNAME=i_scepter_Daemonite
+   ID=i_scepter
+   NAME=Daemonite Scepter
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=27
+   VALUE=97
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={50 64}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Daemonite]
+   DEFNAME=i_hammer_sledge_Daemonite
+   ID=i_hammer_sledge
+   NAME=Daemonite Sledge Hammer
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=27
+   VALUE=97
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={20 34}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Daemonite]
+   DEFNAME=i_hammer_smith_Daemonite
+   ID=i_hammer_smith
+   NAME=Daemonite Smiths Hammer
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=13
+   VALUE=97
+   SPEED=12
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite War Mace
+
+[ITEMDEF i_mace_war_Daemonite]
+   DEFNAME=i_mace_war_Daemonite
+   ID=i_mace_war
+   NAME=Daemonite War Mace
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=31
+   VALUE=97
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={80 94}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Disc Mace
+
+[ITEMDEF i_disc_mace_Daemonite]
+   DEFNAME=i_disc_mace_Daemonite
+   ID=i_disc_mace
+   NAME=Daemonite Disc Mace
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=31
+   VALUE=97
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={70 84}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite War Hammer
+
+[ITEMDEF i_hammer_war_Daemonite]
+   DEFNAME=i_hammer_war_Daemonite
+   ID=i_hammer_war
+   NAME=Daemonite War Hammer
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=37
+   VALUE=97
+   SPEED=52
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={100 114}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Hammer Pick
+
+[ITEMDEF i_hammer_pick_Daemonite]
+   DEFNAME=i_hammer_pick_Daemonite
+   ID=i_hammer_pick
+   NAME=Daemonite Hammer Pick
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=33
+   VALUE=97
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={55 69}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite War Axe
+
+[ITEMDEF i_axe_war_Daemonite]
+   DEFNAME=i_axe_war_Daemonite
+   ID=i_axe_war
+   NAME=Daemonite War Axe
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=23
+   VALUE=97
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={65 79}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Tessen
+
+[ITEMDEF i_tessen_Daemonite]
+   DEFNAME=i_tessen_Daemonite
+   ID=i_tessen
+   NAME=Daemonite Tessen
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=22
+   VALUE=97
+   SPEED=37
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={75 89}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Long Sword
+
+[ITEMDEF i_sword_long_Daemonite]
+   DEFNAME=i_sword_long_Daemonite
+   ID=i_sword_long
+   NAME=Daemonite Long Sword
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=97
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={10 24}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Broad Sword
+
+[ITEMDEF i_sword_broad_Daemonite]
+   DEFNAME=i_sword_broad_Daemonite
+   ID=i_sword_broad
+   NAME=Daemonite Broad Sword
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=97
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={20 34}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Scimitar
+
+[ITEMDEF i_scimitar_Daemonite]
+   DEFNAME=i_scimitar_Daemonite
+   ID=i_scimitar
+   NAME=Daemonite Scimitar
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=97
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Viking Sword
+
+[ITEMDEF i_sword_viking_Daemonite]
+   DEFNAME=i_sword_viking_Daemonite
+   ID=i_sword_viking
+   NAME=Daemonite Viking Sword
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=97
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={35 49}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Katana
+
+[ITEMDEF i_katana_Daemonite]
+   DEFNAME=i_katana_Daemonite
+   ID=i_katana
+   NAME=Daemonite Katana
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=97
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={80 94}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Wakizashi
+
+[ITEMDEF i_wakizashi_Daemonite]
+   DEFNAME=i_wakizashi_Daemonite
+   ID=i_wakizashi
+   NAME=Daemonite Wakizashi
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=97
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={45 59}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Long Sword
+
+[ITEMDEF i_sword_long_b_Daemonite]
+   DEFNAME=i_sword_long_b_Daemonite
+   ID=i_sword_long_b
+   NAME=Daemonite Long Sword
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=97
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={50 64}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Paladin Sword
+
+[ITEMDEF i_sword_paladin_Daemonite]
+   DEFNAME=i_sword_paladin_Daemonite
+   ID=i_sword_paladin
+   NAME=Daemonite Paladin Sword
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=97
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={65 79}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Bokuto
+
+[ITEMDEF i_bokuto_Daemonite]
+   DEFNAME=i_bokuto_Daemonite
+   ID=i_bokuto
+   NAME=Daemonite Bokuto
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=97
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={70 84}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Daemonite]
+   DEFNAME=i_Radiant_Scimitar_Daemonite
+   ID=i_Radiant_Scimitar
+   NAME=Daemonite Radiant Scimitar
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=97
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={75 89}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Bone Harvester
+
+[ITEMDEF i_bone_harvester_Daemonite]
+   DEFNAME=i_bone_harvester_Daemonite
+   ID=i_bone_harvester
+   NAME=Daemonite Bone Harvester
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=97
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={55 69}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Butcher Knife
+
+[ITEMDEF i_knife_butcher_Daemonite]
+   DEFNAME=i_knife_butcher_Daemonite
+   ID=i_knife_butcher
+   NAME=Daemonite Butcher Knife
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=97
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Daemonite]
+   DEFNAME=i_cleaver_meat_Daemonite
+   ID=i_cleaver_meat
+   NAME=Daemonite Meat Cleaver
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=97
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Elven Machete
+
+[ITEMDEF i_elven_machete_Daemonite]
+   DEFNAME=i_elven_machete_Daemonite
+   ID=i_elven_machete
+   NAME=Daemonite Elven Machete
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=97
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={60 74}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Bone Machete
+
+[ITEMDEF i_bone_machete_Daemonite]
+   DEFNAME=i_bone_machete_Daemonite
+   ID=i_bone_machete
+   NAME=Daemonite Bone Machete
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=97
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={50 64}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Daisho
+
+[ITEMDEF i_daisho_Daemonite]
+   DEFNAME=i_daisho_Daemonite
+   ID=i_daisho
+   NAME=Daemonite Daisho
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=97
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={65 79}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite No-Dachi
+
+[ITEMDEF i_no_dachi_Daemonite]
+   DEFNAME=i_no_dachi_Daemonite
+   ID=i_no_dachi
+   NAME=Daemonite No-Dachi
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=29
+   VALUE=97
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={75 89}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Rune Blade
+
+[ITEMDEF i_Rune_Blade_Daemonite]
+   DEFNAME=i_Rune_Blade_Daemonite
+   ID=i_Rune_Blade
+   NAME=Daemonite Rune Blade
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=31
+   VALUE=97
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={115 129}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Axe
+
+[ITEMDEF i_axe_Daemonite]
+   DEFNAME=i_axe_Daemonite
+   ID=i_axe
+   NAME=Daemonite Axe
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=21
+   VALUE=97
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={42 56}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Bardiche
+
+[ITEMDEF i_bardiche_Daemonite]
+   DEFNAME=i_bardiche_Daemonite
+   ID=i_bardiche
+   NAME=Daemonite Bardiche
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=97
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={58 72}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Battle Axe
+
+[ITEMDEF i_axe_battle_Daemonite]
+   DEFNAME=i_axe_battle_Daemonite
+   ID=i_axe_battle
+   NAME=Daemonite Battle Axe
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=97
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={65 79}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Double Axe
+
+[ITEMDEF i_axe_double_Daemonite]
+   DEFNAME=i_axe_double_Daemonite
+   ID=i_axe_double
+   NAME=Daemonite Double Axe
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=97
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={70 84}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Daemonite]
+   DEFNAME=i_axe_exec_Daemonite
+   ID=i_axe_exec
+   NAME=Daemonite Exectutioners Axe
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=97
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={73 87}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Halberd
+
+[ITEMDEF i_halberd_Daemonite]
+   DEFNAME=i_halberd_Daemonite
+   ID=i_halberd
+   NAME=Daemonite Halberd
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=97
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={75 89}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Hatchet
+
+[ITEMDEF i_hatchet_Daemonite]
+   DEFNAME=i_hatchet_Daemonite
+   ID=i_hatchet
+   NAME=Daemonite Hatchet
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=22
+   VALUE=97
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={40 54}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Daemonite]
+   DEFNAME=i_axe_battle_large_Daemonite
+   ID=i_axe_battle_large
+   NAME=Daemonite Large Battle Axe
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=97
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={100 114}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Ornate Axe
+
+[ITEMDEF i_ornate_axe_Daemonite]
+   DEFNAME=i_ornate_axe_Daemonite
+   ID=i_ornate_axe
+   NAME=Daemonite Ornate Axe
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=97
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={60 74}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Daemonite]
+   DEFNAME=i_axe_two_hand_Daemonite
+   ID=i_axe_two_hand
+   NAME=Daemonite Two Handed Axe
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=97
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={55 69}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Dual Axes
+
+[ITEMDEF i_dual_short_axes_Daemonite]
+   DEFNAME=i_dual_short_axes_Daemonite
+   ID=i_dual_short_axes
+   NAME=Daemonite Dual Axes
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=97
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={95 109}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Cresent Blade
+
+[ITEMDEF i_crescent_blade_Daemonite]
+   DEFNAME=i_crescent_blade_Daemonite
+   ID=i_crescent_blade
+   NAME=Daemonite Cresent Blade
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=97
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={110 124}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Dagger
+
+[ITEMDEF i_dagger_Daemonite]
+   DEFNAME=i_dagger_Daemonite
+   ID=i_dagger
+   NAME=Daemonite Dagger
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=13
+   VALUE=97
+   SPEED=25
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={10 24}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Skinning Knife
+
+[ITEMDEF i_knife_skinning_Daemonite]
+   DEFNAME=i_knife_skinning_Daemonite
+   ID=i_knife_skinning
+   NAME=Daemonite Skinning Knife
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=13
+   VALUE=97
+   SPEED=25
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={15 29}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Daemonite]
+   DEFNAME=i_sword_Assassin_Spike_Daemonite
+   ID=i_sword_Assassin_Spike
+   NAME=Daemonite Assassin Spike
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=97
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Cutlass
+
+[ITEMDEF i_cutlass_Daemonite]
+   DEFNAME=i_cutlass_Daemonite
+   ID=i_cutlass
+   NAME=Daemonite Cutlass
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=97
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={25 39}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Short Blade
+
+[ITEMDEF i_shortblade_Daemonite]
+   DEFNAME=i_shortblade_Daemonite
+   ID=i_shortblade
+   NAME=Daemonite Short Blade
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=97
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={35 49}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Scythe
+
+[ITEMDEF i_scythe_Daemonite]
+   DEFNAME=i_scythe_Daemonite
+   ID=i_scythe
+   NAME=Daemonite Scythe
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=30
+   VALUE=97
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={115 129}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Short Spear
+
+[ITEMDEF i_spear_short_Daemonite]
+   DEFNAME=i_spear_short_Daemonite
+   ID=i_spear_short
+   NAME=Daemonite Short Spear
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=97
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={45 59}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite War Fork
+
+[ITEMDEF i_war_fork_Daemonite]
+   DEFNAME=i_war_fork_Daemonite
+   ID=i_war_fork
+   NAME=Daemonite War Fork
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=97
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={50 64}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Leafblade
+
+[ITEMDEF i_sword_leafblade_Daemonite]
+   DEFNAME=i_sword_leafblade_Daemonite
+   ID=i_sword_leafblade
+   NAME=Daemonite Leafblade
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=97
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={60 74}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Daemonite]
+   DEFNAME=i_elven_spellblade_Daemonite
+   ID=i_elven_spellblade
+   NAME=Daemonite Elven Spell Blade
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=97
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={75 89}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Pitchfork
+
+[ITEMDEF i_pitchfork_Daemonite]
+   DEFNAME=i_pitchfork_Daemonite
+   ID=i_pitchfork
+   NAME=Daemonite Pitchfork
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=97
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={55 69}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite War Cleaver
+
+[ITEMDEF i_war_cleaver_Daemonite]
+   DEFNAME=i_war_cleaver_Daemonite
+   ID=i_war_cleaver
+   NAME=Daemonite War Cleaver
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=97
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={65 79}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Pike
+
+[ITEMDEF i_pike_Daemonite]
+   DEFNAME=i_pike_Daemonite
+   ID=i_pike
+   NAME=Daemonite Pike
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=97
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={70 84}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Blood Blade
+
+[ITEMDEF i_bloodblade_Daemonite]
+   DEFNAME=i_bloodblade_Daemonite
+   ID=i_bloodblade
+   NAME=Daemonite Blood Blade
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=97
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={75 89}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Kama
+
+[ITEMDEF i_kama_Daemonite]
+   DEFNAME=i_kama_Daemonite
+   ID=i_kama
+   NAME=Daemonite Kama
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=97
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={77 91}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Kryss
+
+[ITEMDEF i_kryss_Daemonite]
+   DEFNAME=i_kryss_Daemonite
+   ID=i_kryss
+   NAME=Daemonite Kryss
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=97
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={80 94}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Lajatang
+
+[ITEMDEF i_lajatang_Daemonite]
+   DEFNAME=i_lajatang_Daemonite
+   ID=i_lajatang
+   NAME=Daemonite Lajatang
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=97
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={85 99}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Sai
+
+[ITEMDEF i_sai_Daemonite]
+   DEFNAME=i_sai_Daemonite
+   ID=i_sai
+   NAME=Daemonite Sai
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=97
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={76 90}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Tekagi
+
+[ITEMDEF i_tekagi_Daemonite]
+   DEFNAME=i_tekagi_Daemonite
+   ID=i_tekagi
+   NAME=Daemonite Tekagi
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=97
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={90 104}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Daemonite Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Daemonite]
+   DEFNAME=i_dual_pointed_spear_Daemonite
+   ID=i_dual_pointed_spear
+   NAME=Daemonite Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Daemonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=29
+   VALUE=97
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Daemonite
+
+ON=@Create
+   COLOR=color_ore_Daemonite
+   HITPOINTS={115 129}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

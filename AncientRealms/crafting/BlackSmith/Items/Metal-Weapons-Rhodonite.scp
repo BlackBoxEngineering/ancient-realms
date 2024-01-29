@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Rhodonite Quarter Staff
+
+[ITEMDEF i_staff_quarter_Rhodonite]
+   DEFNAME=i_staff_quarter_Rhodonite
+   ID=i_staff_quarter
+   NAME=Rhodonite Quarter Staff
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=19
+   VALUE=42
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={20 26}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Rhodonite]
+   DEFNAME=i_serpentstone_staff_Rhodonite
+   ID=i_serpentstone_staff
+   NAME=Rhodonite Serpentstone Staff
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=23
+   VALUE=42
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={60 66}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Rhodonite]
+   DEFNAME=i_staff_bladed_double_Rhodonite
+   ID=i_staff_bladed_double
+   NAME=Rhodonite Double Bladed Staff
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=31
+   VALUE=42
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={120 126}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Glass Staff
+
+[ITEMDEF i_glass_staff_Rhodonite]
+   DEFNAME=i_glass_staff_Rhodonite
+   ID=i_glass_staff
+   NAME=Rhodonite Glass Staff
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=28
+   VALUE=42
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={90 96}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Bladed Staff
+
+[ITEMDEF i_bladed_staff_Rhodonite]
+   DEFNAME=i_bladed_staff_Rhodonite
+   ID=i_bladed_staff
+   NAME=Rhodonite Bladed Staff
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=29
+   VALUE=42
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={115 121}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Tongs
+
+[ITEMDEF i_tongs_Rhodonite]
+   DEFNAME=i_tongs_Rhodonite
+   ID=i_tongs
+   NAME=Rhodonite Tongs
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=6
+   VALUE=42
+   SPEED=8
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={0 6}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Mace
+
+[ITEMDEF i_mace_Rhodonite]
+   DEFNAME=i_mace_Rhodonite
+   ID=i_mace
+   NAME=Rhodonite Mace
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=19
+   VALUE=42
+   SPEED=37
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={30 36}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Maul
+
+[ITEMDEF i_maul_Rhodonite]
+   DEFNAME=i_maul_Rhodonite
+   ID=i_maul
+   NAME=Rhodonite Maul
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=21
+   VALUE=42
+   SPEED=39
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={40 46}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Scepter
+
+[ITEMDEF i_scepter_Rhodonite]
+   DEFNAME=i_scepter_Rhodonite
+   ID=i_scepter
+   NAME=Rhodonite Scepter
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=23
+   VALUE=42
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={50 56}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Rhodonite]
+   DEFNAME=i_hammer_sledge_Rhodonite
+   ID=i_hammer_sledge
+   NAME=Rhodonite Sledge Hammer
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=23
+   VALUE=42
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={20 26}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Rhodonite]
+   DEFNAME=i_hammer_smith_Rhodonite
+   ID=i_hammer_smith
+   NAME=Rhodonite Smiths Hammer
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=9
+   VALUE=42
+   SPEED=8
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={30 36}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite War Mace
+
+[ITEMDEF i_mace_war_Rhodonite]
+   DEFNAME=i_mace_war_Rhodonite
+   ID=i_mace_war
+   NAME=Rhodonite War Mace
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=27
+   VALUE=42
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={80 86}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Disc Mace
+
+[ITEMDEF i_disc_mace_Rhodonite]
+   DEFNAME=i_disc_mace_Rhodonite
+   ID=i_disc_mace
+   NAME=Rhodonite Disc Mace
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=27
+   VALUE=42
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={70 76}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite War Hammer
+
+[ITEMDEF i_hammer_war_Rhodonite]
+   DEFNAME=i_hammer_war_Rhodonite
+   ID=i_hammer_war
+   NAME=Rhodonite War Hammer
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=33
+   VALUE=42
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={100 106}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Hammer Pick
+
+[ITEMDEF i_hammer_pick_Rhodonite]
+   DEFNAME=i_hammer_pick_Rhodonite
+   ID=i_hammer_pick
+   NAME=Rhodonite Hammer Pick
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=29
+   VALUE=42
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={55 61}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite War Axe
+
+[ITEMDEF i_axe_war_Rhodonite]
+   DEFNAME=i_axe_war_Rhodonite
+   ID=i_axe_war
+   NAME=Rhodonite War Axe
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=19
+   VALUE=42
+   SPEED=39
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={65 71}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Tessen
+
+[ITEMDEF i_tessen_Rhodonite]
+   DEFNAME=i_tessen_Rhodonite
+   ID=i_tessen
+   NAME=Rhodonite Tessen
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=18
+   VALUE=42
+   SPEED=33
+   SKILL=MACEFIGHTING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={75 81}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Long Sword
+
+[ITEMDEF i_sword_long_Rhodonite]
+   DEFNAME=i_sword_long_Rhodonite
+   ID=i_sword_long
+   NAME=Rhodonite Long Sword
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=15
+   VALUE=42
+   SPEED=25
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={10 16}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Broad Sword
+
+[ITEMDEF i_sword_broad_Rhodonite]
+   DEFNAME=i_sword_broad_Rhodonite
+   ID=i_sword_broad
+   NAME=Rhodonite Broad Sword
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=15
+   VALUE=42
+   SPEED=25
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={20 26}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Scimitar
+
+[ITEMDEF i_scimitar_Rhodonite]
+   DEFNAME=i_scimitar_Rhodonite
+   ID=i_scimitar
+   NAME=Rhodonite Scimitar
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=42
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={30 36}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Viking Sword
+
+[ITEMDEF i_sword_viking_Rhodonite]
+   DEFNAME=i_sword_viking_Rhodonite
+   ID=i_sword_viking
+   NAME=Rhodonite Viking Sword
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=42
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={35 41}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Katana
+
+[ITEMDEF i_katana_Rhodonite]
+   DEFNAME=i_katana_Rhodonite
+   ID=i_katana
+   NAME=Rhodonite Katana
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=42
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={80 86}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Wakizashi
+
+[ITEMDEF i_wakizashi_Rhodonite]
+   DEFNAME=i_wakizashi_Rhodonite
+   ID=i_wakizashi
+   NAME=Rhodonite Wakizashi
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=42
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={45 51}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Long Sword
+
+[ITEMDEF i_sword_long_b_Rhodonite]
+   DEFNAME=i_sword_long_b_Rhodonite
+   ID=i_sword_long_b
+   NAME=Rhodonite Long Sword
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=42
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={50 56}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Paladin Sword
+
+[ITEMDEF i_sword_paladin_Rhodonite]
+   DEFNAME=i_sword_paladin_Rhodonite
+   ID=i_sword_paladin
+   NAME=Rhodonite Paladin Sword
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=42
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={65 71}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Bokuto
+
+[ITEMDEF i_bokuto_Rhodonite]
+   DEFNAME=i_bokuto_Rhodonite
+   ID=i_bokuto
+   NAME=Rhodonite Bokuto
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=42
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={70 76}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Rhodonite]
+   DEFNAME=i_Radiant_Scimitar_Rhodonite
+   ID=i_Radiant_Scimitar
+   NAME=Rhodonite Radiant Scimitar
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=42
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={75 81}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Bone Harvester
+
+[ITEMDEF i_bone_harvester_Rhodonite]
+   DEFNAME=i_bone_harvester_Rhodonite
+   ID=i_bone_harvester
+   NAME=Rhodonite Bone Harvester
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=15
+   VALUE=42
+   SPEED=25
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={55 61}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Butcher Knife
+
+[ITEMDEF i_knife_butcher_Rhodonite]
+   DEFNAME=i_knife_butcher_Rhodonite
+   ID=i_knife_butcher
+   NAME=Rhodonite Butcher Knife
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=13
+   VALUE=42
+   SPEED=25
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={30 36}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Rhodonite]
+   DEFNAME=i_cleaver_meat_Rhodonite
+   ID=i_cleaver_meat
+   NAME=Rhodonite Meat Cleaver
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=13
+   VALUE=42
+   SPEED=25
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={30 36}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Elven Machete
+
+[ITEMDEF i_elven_machete_Rhodonite]
+   DEFNAME=i_elven_machete_Rhodonite
+   ID=i_elven_machete
+   NAME=Rhodonite Elven Machete
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=42
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={60 66}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Bone Machete
+
+[ITEMDEF i_bone_machete_Rhodonite]
+   DEFNAME=i_bone_machete_Rhodonite
+   ID=i_bone_machete
+   NAME=Rhodonite Bone Machete
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=42
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={50 56}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Daisho
+
+[ITEMDEF i_daisho_Rhodonite]
+   DEFNAME=i_daisho_Rhodonite
+   ID=i_daisho
+   NAME=Rhodonite Daisho
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=42
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={65 71}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite No-Dachi
+
+[ITEMDEF i_no_dachi_Rhodonite]
+   DEFNAME=i_no_dachi_Rhodonite
+   ID=i_no_dachi
+   NAME=Rhodonite No-Dachi
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=42
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={75 81}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Rune Blade
+
+[ITEMDEF i_Rune_Blade_Rhodonite]
+   DEFNAME=i_Rune_Blade_Rhodonite
+   ID=i_Rune_Blade
+   NAME=Rhodonite Rune Blade
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=42
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={115 121}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Axe
+
+[ITEMDEF i_axe_Rhodonite]
+   DEFNAME=i_axe_Rhodonite
+   ID=i_axe
+   NAME=Rhodonite Axe
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=17
+   VALUE=42
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={42 48}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Bardiche
+
+[ITEMDEF i_bardiche_Rhodonite]
+   DEFNAME=i_bardiche_Rhodonite
+   ID=i_bardiche
+   NAME=Rhodonite Bardiche
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=23
+   VALUE=42
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={58 64}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Battle Axe
+
+[ITEMDEF i_axe_battle_Rhodonite]
+   DEFNAME=i_axe_battle_Rhodonite
+   ID=i_axe_battle
+   NAME=Rhodonite Battle Axe
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=25
+   VALUE=42
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={65 71}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Double Axe
+
+[ITEMDEF i_axe_double_Rhodonite]
+   DEFNAME=i_axe_double_Rhodonite
+   ID=i_axe_double
+   NAME=Rhodonite Double Axe
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=42
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={70 76}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Rhodonite]
+   DEFNAME=i_axe_exec_Rhodonite
+   ID=i_axe_exec
+   NAME=Rhodonite Exectutioners Axe
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=42
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={73 79}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Halberd
+
+[ITEMDEF i_halberd_Rhodonite]
+   DEFNAME=i_halberd_Rhodonite
+   ID=i_halberd
+   NAME=Rhodonite Halberd
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=42
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={75 81}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Hatchet
+
+[ITEMDEF i_hatchet_Rhodonite]
+   DEFNAME=i_hatchet_Rhodonite
+   ID=i_hatchet
+   NAME=Rhodonite Hatchet
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=18
+   VALUE=42
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={40 46}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Rhodonite]
+   DEFNAME=i_axe_battle_large_Rhodonite
+   ID=i_axe_battle_large
+   NAME=Rhodonite Large Battle Axe
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=42
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={100 106}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Ornate Axe
+
+[ITEMDEF i_ornate_axe_Rhodonite]
+   DEFNAME=i_ornate_axe_Rhodonite
+   ID=i_ornate_axe
+   NAME=Rhodonite Ornate Axe
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=42
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={60 66}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Rhodonite]
+   DEFNAME=i_axe_two_hand_Rhodonite
+   ID=i_axe_two_hand
+   NAME=Rhodonite Two Handed Axe
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=42
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={55 61}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Dual Axes
+
+[ITEMDEF i_dual_short_axes_Rhodonite]
+   DEFNAME=i_dual_short_axes_Rhodonite
+   ID=i_dual_short_axes
+   NAME=Rhodonite Dual Axes
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=24
+   VALUE=42
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={95 101}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Cresent Blade
+
+[ITEMDEF i_crescent_blade_Rhodonite]
+   DEFNAME=i_crescent_blade_Rhodonite
+   ID=i_crescent_blade
+   NAME=Rhodonite Cresent Blade
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=42
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={110 116}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Dagger
+
+[ITEMDEF i_dagger_Rhodonite]
+   DEFNAME=i_dagger_Rhodonite
+   ID=i_dagger
+   NAME=Rhodonite Dagger
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=9
+   VALUE=42
+   SPEED=21
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={10 16}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Skinning Knife
+
+[ITEMDEF i_knife_skinning_Rhodonite]
+   DEFNAME=i_knife_skinning_Rhodonite
+   ID=i_knife_skinning
+   NAME=Rhodonite Skinning Knife
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=9
+   VALUE=42
+   SPEED=21
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={15 21}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Rhodonite]
+   DEFNAME=i_sword_Assassin_Spike_Rhodonite
+   ID=i_sword_Assassin_Spike
+   NAME=Rhodonite Assassin Spike
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=11
+   VALUE=42
+   SPEED=23
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={30 36}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Cutlass
+
+[ITEMDEF i_cutlass_Rhodonite]
+   DEFNAME=i_cutlass_Rhodonite
+   ID=i_cutlass
+   NAME=Rhodonite Cutlass
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=12
+   VALUE=42
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={25 31}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Short Blade
+
+[ITEMDEF i_shortblade_Rhodonite]
+   DEFNAME=i_shortblade_Rhodonite
+   ID=i_shortblade
+   NAME=Rhodonite Short Blade
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=13
+   VALUE=42
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={35 41}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Scythe
+
+[ITEMDEF i_scythe_Rhodonite]
+   DEFNAME=i_scythe_Rhodonite
+   ID=i_scythe
+   NAME=Rhodonite Scythe
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=42
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={115 121}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Short Spear
+
+[ITEMDEF i_spear_short_Rhodonite]
+   DEFNAME=i_spear_short_Rhodonite
+   ID=i_spear_short
+   NAME=Rhodonite Short Spear
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=42
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={45 51}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite War Fork
+
+[ITEMDEF i_war_fork_Rhodonite]
+   DEFNAME=i_war_fork_Rhodonite
+   ID=i_war_fork
+   NAME=Rhodonite War Fork
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=42
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={50 56}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Leafblade
+
+[ITEMDEF i_sword_leafblade_Rhodonite]
+   DEFNAME=i_sword_leafblade_Rhodonite
+   ID=i_sword_leafblade
+   NAME=Rhodonite Leafblade
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=42
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={60 66}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Rhodonite]
+   DEFNAME=i_elven_spellblade_Rhodonite
+   ID=i_elven_spellblade
+   NAME=Rhodonite Elven Spell Blade
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=42
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={75 81}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Pitchfork
+
+[ITEMDEF i_pitchfork_Rhodonite]
+   DEFNAME=i_pitchfork_Rhodonite
+   ID=i_pitchfork
+   NAME=Rhodonite Pitchfork
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=42
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={55 61}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite War Cleaver
+
+[ITEMDEF i_war_cleaver_Rhodonite]
+   DEFNAME=i_war_cleaver_Rhodonite
+   ID=i_war_cleaver
+   NAME=Rhodonite War Cleaver
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=42
+   SPEED=25
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={65 71}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Pike
+
+[ITEMDEF i_pike_Rhodonite]
+   DEFNAME=i_pike_Rhodonite
+   ID=i_pike
+   NAME=Rhodonite Pike
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=42
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={70 76}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Blood Blade
+
+[ITEMDEF i_bloodblade_Rhodonite]
+   DEFNAME=i_bloodblade_Rhodonite
+   ID=i_bloodblade
+   NAME=Rhodonite Blood Blade
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=42
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={75 81}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Kama
+
+[ITEMDEF i_kama_Rhodonite]
+   DEFNAME=i_kama_Rhodonite
+   ID=i_kama
+   NAME=Rhodonite Kama
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=42
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={77 83}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Kryss
+
+[ITEMDEF i_kryss_Rhodonite]
+   DEFNAME=i_kryss_Rhodonite
+   ID=i_kryss
+   NAME=Rhodonite Kryss
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=42
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={80 86}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Lajatang
+
+[ITEMDEF i_lajatang_Rhodonite]
+   DEFNAME=i_lajatang_Rhodonite
+   ID=i_lajatang
+   NAME=Rhodonite Lajatang
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=42
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={85 91}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Sai
+
+[ITEMDEF i_sai_Rhodonite]
+   DEFNAME=i_sai_Rhodonite
+   ID=i_sai
+   NAME=Rhodonite Sai
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=42
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={76 82}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Tekagi
+
+[ITEMDEF i_tekagi_Rhodonite]
+   DEFNAME=i_tekagi_Rhodonite
+   ID=i_tekagi
+   NAME=Rhodonite Tekagi
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=42
+   SPEED=23
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={90 96}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Rhodonite Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Rhodonite]
+   DEFNAME=i_dual_pointed_spear_Rhodonite
+   ID=i_dual_pointed_spear
+   NAME=Rhodonite Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Rhodonite
+   WEIGHT=13
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=42
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=33
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Rhodonite
+
+ON=@Create
+   COLOR=color_ore_Rhodonite
+   HITPOINTS={115 121}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

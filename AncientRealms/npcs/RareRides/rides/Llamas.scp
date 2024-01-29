@@ -1,0 +1,66 @@
+[CHARDEF 0dc]
+DEFNAME=c_llama
+NAME=Llama
+SOUND=snd_ANIMALS_LLAMA3
+ICON=i_pet_LLAMA
+CAN=MT_WALK|MT_RUN
+ANIM=01fff
+DAM=2,6
+ARMOR=8
+RESOURCES=7 i_ribs_raw,2 i_fur_light
+FOODTYPE=5 t_crops, 5 t_fruit, 5 t_grain, 5 i_hay, 64 t_grass
+TEVENTS=e_horses
+TEVENTS=e_AncientRealms_rides
+DESIRES=c_llama,c_llama_pack,spk_human_prime
+DESCRIPTION=Llama
+SUBSECTION=Land (Domestic)
+CATEGORY=Animals
+
+ON=@Create
+	NPC=brain_animal
+	STR={21 49}
+	DEX={36 55}
+	INT={16 30}
+	PARRYING={35.0 45.0}
+	MAGICRESISTANCE={15.0 20.0}
+	TACTICS={19.0 29.0}
+	WRESTLING={19.0 29.0}
+	TAMING=50.0
+	FAME=10
+	KARMA={-1 -99}
+	TAG.control.slots=1
+
+[CHARDEF 0124]
+DEFNAME=c_llama_pack
+DEFNAME2=PACKLLAMAS
+NAME=Pack Llama
+SOUND=snd_ANIMALS_LLAMA3
+ICON=i_pet_llama_pack
+ANIM=01fff
+DAM=2,6
+ARMOR=8
+RESOURCES=7 i_ribs_raw,2 i_fur_dark
+CAN=MT_WALK|MT_RUN
+FOODTYPE=5 t_crops, 5 t_fruit, 5 t_grain, 5 I_HAY, 64 t_grass
+TEVENTS=e_horses
+TEVENTS=e_AncientRealms_rides
+DESIRES=c_llama,c_llama_pack,spk_human_prime
+DESCRIPTION=Pack Llama
+SUBSECTION=Land (Domestic)
+CATEGORY=Animals
+
+ON=@Create
+	NPC=brain_animal
+	STR={52 80}
+	DEX={36 55}
+	INT={16 30}
+	PARRYING={35.0 45.0}
+	MAGICRESISTANCE={15.0 20.0}
+	TACTICS={19.0 29.0}
+	WRESTLING={19.0 29.0}
+	TAMING=50.0
+	FAME=0
+	KARMA={-1 -199}
+	TAG.control.slots=1
+
+[EOF]

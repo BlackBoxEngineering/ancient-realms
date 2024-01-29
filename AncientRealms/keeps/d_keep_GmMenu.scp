@@ -1,0 +1,148 @@
+[DIALOG d_keep_GmMenu]
+0,0
+PAGE 0
+RESIZEPIC 36 31 9270 419 481
+TEXT 63 52 22 0
+TEXT 63 73 67 1
+TEXT 65 104 1345 2
+TEXT 94 127 10 3
+BUTTON 70 129 1209 1210 1 0 10
+TEXT 93 151 10 4
+BUTTON 70 153 1209 1210 1 0 20
+TEXT 64 285 1345 5
+TEXT 92 306 10 6
+BUTTON 70 310 1209 1210 1 0 30
+TEXT 91 329 10 7
+BUTTON 70 333 1209 1210 1 0 40
+TEXT 93 175 10 8
+BUTTON 70 177 1209 1210 1 0 50
+TEXT 93 355 10 9
+BUTTON 70 357 1209 1210 1 0 60
+BUTTON 70 390 1209 1210 1 0 70
+TEXT 91 390 10 10
+BUTTON 70 210 1209 1210 1 0 80
+TEXT 91 210 10 11
+BUTTON 70 430 1209 1210 1 0 90
+TEXT 91 430 10 12
+BUTTON 70 460 1209 1210 1 0 100
+TEXT 91 460 10 13
+
+[DIALOG d_keep_GmMenu text]
+
+Owners <UID.<CTAG.KeepCaptureStoneUID>.REGION.TAG0.Ownersname> Points Generated : <EVAL <SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepPoints>>
+Linked : <SERV.UID.<CTAG.KeepCaptureStoneUID>.LINK.NAME> <SERV.UID.<CTAG.KeepCaptureStoneUID>.LINK.UID> <SERV.UID.<CTAG.KeepCaptureStoneUID>.LINK.REGION.NAME>
+North Gate Setup
+Start Location: <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGateStart>
+End Location: <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGateEnd>
+West Gate Setup
+Start Location: <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGateStart>
+End Location: <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGateEnd>
+Guard Spawn Location: <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGatekeeperSpawnLocation>
+Guard Spawn Location: <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGatekeeperSpawnLocation>
+Reset Gates West
+Reset Gates North
+UnCapture this Keep
+Link A Town Stone
+
+[DIALOG d_keep_GmMenu button]
+ON=10
+	targetfg f_keep_GateLengthNorthStart <UID>
+ON=20
+	targetfg f_keep_GateLengthNorthEnd <UID>
+ON=30
+	targetfg f_keep_GateLengthEastStart <UID>
+ON=40
+	targetfg f_keep_GateLengthEastEnd <UID>
+ON=50
+	targetfg f_keep_GateKeeperNorthSpawnLocation <UID>
+ON=60
+	targetfg f_keep_GateKeeperEastSpawnLocation <UID>
+ON=70
+	f_keep_GatesResetRegionTagsNorthGate
+ON=80
+	f_keep_GatesResetRegionTagsEastGate
+ON=90
+	f_keep_SetRegionUncaptured
+ON=100
+	f_keep_LinkTownControlStoneToRegion
+	
+[FUNCTION f_keep_GateLengthNorthStart]
+	REF1=<ARGV[0]>
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGateStart=<TARGP>
+	REF1.SAY <TARGP> <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGateStart>
+	REF1.DIALOG d_keep_GmMenu
+
+[FUNCTION f_keep_GateLengthNorthEnd]
+	REF1=<ARGV[0]>
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGateEnd=<TARGP>
+	REF1.SAY <TARGP> <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGateEnd>
+	REF1.DIALOG d_keep_GmMenu
+
+[FUNCTION f_keep_GateLengthEastStart]
+	REF1=<ARGV[0]>
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGateStart=<TARGP>
+	REF1.SAY <TARGP> <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGateStart>
+	REF1.DIALOG d_keep_GmMenu
+
+[FUNCTION f_keep_GateLengthEastEnd]
+	REF1=<ARGV[0]>
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGateEnd=<TARGP>
+	REF1.SAY <TARGP> <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGateEnd>
+	REF1.DIALOG d_keep_GmMenu
+
+[FUNCTION f_keep_GateKeeperNorthSpawnLocation]
+	REF1=<ARGV[0]>
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGatekeeperSpawnLocation=<TARGP>
+	REF1.SAY <TARGP> <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGatekeeperSpawnLocation>
+	REF1.DIALOG d_keep_GmMenu
+	
+[FUNCTION f_keep_GateKeeperEastSpawnLocation]
+	REF1=<ARGV[0]>
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGatekeeperSpawnLocation=<TARGP>
+	REF1.SAY <TARGP> <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGatekeeperSpawnLocation>
+	REF1.DIALOG d_keep_GmMenu
+	
+
+
+[FUNCTION f_keep_GatesResetRegionTagsNorthGate]
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGateStart=
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGateEnd=
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGatekeeperSpawnLocation=
+	FOR X 0 20
+		SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.eastgatepeice<LOCAL.X>=
+	ENDFOR
+	FOR X 0 -20
+		SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.eastgatepeice<LOCAL.X>=
+	ENDFOR
+
+[FUNCTION f_keep_GatesResetRegionTagsEastGate]
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGateStart=
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGateEnd=
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGatekeeperSpawnLocation=
+	FOR X 0 20
+		SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.northgatepeice<LOCAL.X>=
+	ENDFOR
+	FOR X 0 -20
+		SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.northgatepeice<LOCAL.X>=
+	ENDFOR
+
+[FUNCTION f_keep_SetRegionUncaptured]
+	SERV.UID.<CTAG.KeepCaptureStoneUID>.LINK.TAG.Invasion=0
+	REGION.TAG.OwnersName=Uncaptured
+	REGION.TAG.OwnersUID=Uncaptured //carefull with this as a string
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.OwnersKeepPoints=0
+	SRC.SYSMESSAGE @33,,1 <REGION.NAME> Is now Uncaptured!
+	SFX 855
+
+[FUNCTION f_keep_LinkKeepControlStoneToRegion]
+	REGION.TAG.CTAG.KeepCaptureStoneUID=<UID>
+	TAG.REGIONUID=<REGION.UID>
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GuardCount=0
+
+[FUNCTION f_keep_LinkTownControlStoneToRegion]
+	SERV.NEWITEM i_keep_TownControlstone, 1, <SRC.FINDLAYER.21.UID>
+	SRC.SAY <SRC.CTAG.KeepCaptureStoneUID>
+	SERV.UID.<SRC.CTAG.KeepCaptureStoneUID>.LINK = <NEW.UID>
+	REGION.TAG.TownGuardStatus=01
+	
+[EOF]

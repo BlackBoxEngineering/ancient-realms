@@ -1,0 +1,274 @@
+//****************************************************************************
+// SphereServer ©1997-2009
+// This script is part from the Sphere Community Script Pack.
+// You can download the full pack from: www.sphereserver.net
+//****************************************************************************
+// FILE LAST UPDATED: Sunday, April 25, 2011
+VERSION=0.56b
+
+
+[ITEMDEF i_bow_willow]
+ID=i_bow
+NAME=willow bow
+TYPE=t_weapon_bow
+RESOURCES=7 i_log_willow
+SKILLMAKE=Bowcraft 30.0
+WEIGHT=6.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=willow bow
+DESCRIPTION=willow bow
+ 
+ON=@Create
+f_colored_weaps_willow
+HITPOINTS={36 48}
+COLOR=color_log_willow
+ 
+[ITEMDEF i_composite_bow_willow]
+ID=i_composite_bow
+NAME=willow Composite Bow
+TYPE=t_weapon_bow
+RESOURCES=7 i_log_willow
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=5.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=willow Composite Bow
+DESCRIPTION=willow Composite Bow
+ 
+ON=@Create
+f_colored_weaps_willow
+HITPOINTS={36 48}
+COLOR=color_log_willow
+ 
+[ITEMDEF i_crossbow_willow]
+ID=i_crossbow
+NAME=willow crossbow
+TYPE=t_weapon_xbow
+RESOURCES=7 i_log_willow
+SKILLMAKE=Bowcraft 60.0
+WEIGHT=7.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=willow crossbow
+DESCRIPTION=willow crossbow
+ 
+ON=@Create
+f_colored_weaps_willow
+HITPOINTS={36 48}
+COLOR=color_log_willow
+ 
+[ITEMDEF i_elven_composite_longbow_willow]
+ID=i_elven_composite_longbow
+NAME=willow Elven Composite Longbow
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_willow
+SKILLMAKE=Bowcraft 95.0
+WEIGHT=8.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=willow Elven Composite Longbow
+DESCRIPTION=willow Elven Composite Longbow
+ 
+ON=@Create
+f_colored_weaps_willow
+HITPOINTS={36 48}
+COLOR=color_log_willow
+ 
+[ITEMDEF i_crossbow_heavy_willow]
+ID=i_crossbow_heavy
+NAME=willow heavy crossbow
+TYPE=t_weapon_xbow
+RESOURCES=10 i_log_willow
+SKILLMAKE=Bowcraft 80.0
+WEIGHT=9.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=willow heavy crossbow
+DESCRIPTION=willow heavy crossbow
+ 
+ON=@Create
+f_colored_weaps_willow
+HITPOINTS={36 48}
+COLOR=color_log_willow
+ 
+[ITEMDEF i_magical_shortbow_willow]
+ID=i_magical_shortbow
+NAME=willow Magical Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_willow
+SKILLMAKE=Bowcraft 85.0
+WEIGHT=6.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=willow Magical Shortbow
+DESCRIPTION=willow Magical Shortbow
+ 
+ON=@Create
+f_colored_weaps_willow
+HITPOINTS={36 48}
+COLOR=color_log_willow
+ 
+[ITEMDEF i_repeating_crossbow_willow]
+ID=i_repeating_crossbow
+NAME=willow Repeating Crossbow
+TYPE=t_weapon_xbow
+RESOURCES=10 i_log_willow
+SKILLMAKE=Bowcraft 90.0
+WEIGHT=6.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=willow Repeating Crossbow
+DESCRIPTION=willow Repeating Crossbow
+ 
+ON=@Create
+f_colored_weaps_willow
+HITPOINTS={36 48}
+COLOR=color_log_willow
+ 
+[ITEMDEF i_yumi_willow]
+ID=i_yumi
+NAME=willow Yumi
+TYPE=t_weapon_bow
+RESOURCES=10 i_log_willow
+SKILLMAKE=Bowcraft 90.0
+WEIGHT=8.0
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=willow Yumi
+DESCRIPTION=willow Yumi
+ 
+ON=@Create
+f_colored_weaps_willow
+HITPOINTS={36 48}
+COLOR=color_log_willow
+ 
+[ITEMDEF i_barbed_longbow_willow]
+ID=i_elven_composite_longbow
+NAME=willow Barbed Longbow
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_willow, 1 i_gem_fire_ruby
+SKILLMAKE=Bowcraft 95.0
+WEIGHT=8.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=willow Elven Composite Longbow
+DESCRIPTION=willow Barbed Longbow
+ 
+ON=@Create
+f_colored_weaps_willow
+HITPOINTS={36 48}
+COLOR=color_log_willow
+ 
+[ITEMDEF i_slayer_longbow_willow]
+ID=i_elven_composite_longbow
+NAME=willow Slayer Longbow
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_willow, 1 i_gem_brilliant_amber
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=8.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=willow Elven Composite Longbow
+DESCRIPTION=willow Slayer Longbow
+ 
+ON=@Create
+f_colored_weaps_willow
+HITPOINTS={36 48}
+COLOR=color_log_willow
+ 
+[ITEMDEF i_frozen_longbow_willow]
+ID=i_elven_composite_longbow
+NAME=willow Frozen Longbow
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_willow, 1 i_gem_turquoise
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=8.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=willow Elven Composite Longbow
+DESCRIPTION=willow Frozen Longbow
+ 
+ON=@Create
+f_colored_weaps_willow
+HITPOINTS={36 48}
+COLOR=color_log_willow
+ 
+[ITEMDEF i_longbow_might_willow]
+ID=i_elven_composite_longbow
+NAME=willow Longbow of Might
+TYPE=t_weapon_bow
+RESOURCES=20 i_log_willow, 1 i_gem_blue_diamond
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=8.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=willow Elven Composite Longbow
+DESCRIPTION=willow Longbow of Might
+ 
+ON=@Create
+f_colored_weaps_willow
+HITPOINTS={36 48}
+COLOR=color_log_willow
+ 
+[ITEMDEF i_ranger_shortbow_willow]
+ID=i_magical_shortbow
+NAME=willow Ranger's Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_willow, 1 i_gem_perfect_emerald
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=6.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=willow Magical Shortbow
+DESCRIPTION=willow Ranger's Shortbow
+ 
+ON=@Create
+f_colored_weaps_willow
+HITPOINTS={36 48}
+COLOR=color_log_willow
+ 
+[ITEMDEF i_lightweight_shortbow_willow]
+ID=i_magical_shortbow
+NAME=willow Lightweight Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_willow, 1 i_gem_white_pearl
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=6.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=willow Magical Shortbow
+DESCRIPTION=willow Lightweight Shortbow
+ 
+ON=@Create
+f_colored_weaps_willow
+HITPOINTS={36 48}
+COLOR=color_log_willow
+ 
+[ITEMDEF i_mystical_shortbow_willow]
+ID=i_magical_shortbow
+NAME=willow Mystical Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_willow, 1 i_gem_ecru_citrine
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=6.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=willow Magical Shortbow
+DESCRIPTION=willow Mystical Shortbow
+ 
+ON=@Create
+f_colored_weaps_willow
+HITPOINTS={36 48}
+COLOR=color_log_willow
+ 
+[ITEMDEF i_assassin_shortbow_willow]
+ID=i_magical_shortbow
+NAME=willow Assassin's Shortbow
+TYPE=t_weapon_bow
+RESOURCES=15 i_log_willow, 1 i_gem_dark_sapphire
+SKILLMAKE=Bowcraft 70.0
+WEIGHT=6.0
+TEVENTS=t_iprop
+CATEGORY=Ancientrealms-Weapons-BowCraft
+SUBSECTION=willow Magical Shortbow
+DESCRIPTION=willow Assassin's Shortbow
+ 
+ON=@Create
+f_colored_weaps_willow
+HITPOINTS={36 48}
+COLOR=color_log_willow
+ 
+[EOF]

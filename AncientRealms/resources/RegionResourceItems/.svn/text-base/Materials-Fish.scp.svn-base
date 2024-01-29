@@ -1,0 +1,173 @@
+//[REGIONRESOURCE mr_fish1]
+//[REGIONRESOURCE mr_fish2]
+//[REGIONRESOURCE mr_fish3]
+//[REGIONRESOURCE mr_fish4]
+//[REGIONRESOURCE mr_seaserpent]
+//[REGIONRESOURCE mr_killfish]
+//[REGIONRESOURCE mr_ruinedfurniture]
+//[REGIONRESOURCE mr_prizefish]
+//[REGIONRESOURCE mr_wonderousfish]
+//[REGIONRESOURCE mr_highlyperculiarfish]
+//[REGIONRESOURCE mr_raredye_fish]
+//[REGIONRESOURCE mr_messageinbottle]
+//[REGIONRESOURCE mr_trulyrarefish]
+//[REGIONRESOURCE mr_whitepearl]
+
+[REGIONRESOURCE mr_fishingpack]
+[REGIONRESOURCE mr_fishingchest]
+
+[ITEMDEF i_fishingchest]
+DEFNAME=i_fishingchest
+NAME=Chest
+ID=0e41
+TYPE=t_container
+
+ON=@Create
+	COLOR=978
+	
+ON=@DClick
+	IF !<TAG.OPENED>
+		f_loot_fishingchest
+		TAG.OPENED=1
+	ENDIF
+
+[ITEMDEF i_kill_fish]
+DEFNAME=i_kill_fish
+ID=15109
+NAME=Kill Fish
+VALUE=600
+WEIGHT=10
+TYPE=T_POTION
+TDATA1=0
+
+ON=@Create
+	MORE1=s_explosion
+	MORE2=130.0
+	
+ON=@DCLICK
+	IF (<SRC.FINDID.i_potiondelay>)
+		SRC.SYSMESSAGE @00023 You can't use another potion yet.
+		RETURN 1
+	ELSE
+		NEWITEM i_potiondelay, 1, <SRC.UID>
+		RETURN 0
+	ENDIF
+
+[ITEMDEF i_prize_fish]
+DEFNAME=i_prize_fish
+ID=15101
+NAME=prize fish
+VALUE=2000
+WEIGHT=5
+TYPE=t_normal
+TDATA1=0
+
+[ITEMDEF i_Wonderous_fish]
+DEFNAME=i_Wonderous_fish
+ID=15102
+NAME=wonderous fish
+VALUE=3000
+WEIGHT=4
+TYPE=t_normal
+TDATA1=0
+
+[ITEMDEF i_Highly_Peculiar_fish]
+DEFNAME=i_Highly_Peculiar_fish
+ID=15104
+NAME=highly peculiar fish
+VALUE=800
+WEIGHT=2
+TYPE=t_normal
+TDATA1=0
+
+[ITEMDEF i_raredye_fish]
+DEFNAME=i_raredye_fish
+ID=15105
+NAME=Rare Dye Fish
+VALUE=1000
+WEIGHT=2
+TYPE=t_normal
+TDATA1=0
+
+ON=@Create
+	MORE=random_dye_hair
+	COLOR=<MORE>
+	
+[ITEMDEF 12694]
+DEFNAME=i_white_pearl
+NAME=highly peculiar fish
+VALUE=4500
+WEIGHT=6
+TYPE=t_normal
+TDATA1=0
+
+[ITEMDEF i_Truly_Rare_fish]
+DEFNAME=i_Truly_Rare_fish
+ID=15103
+NAME=truly rare fish
+VALUE=4500
+WEIGHT=6
+TYPE=t_normal
+TDATA1=0
+
+[ITEMDEF i_mib]
+DEFNAME=i_mib
+ID=i_bottle
+NAME=Message in a bottle
+VALUE=600
+WEIGHT=6
+TYPE=t_normal
+
+ON=@create
+  MORE1={1 10}
+
+ON=@DCLICK
+IF <MORE1> > 2
+	SRC.MESSAGE @63 The bottle has a map inside, you take it out.
+	DORAND 15
+		NEWITEM i_tmap_1, 1, <SRC.UID>
+		NEWITEM i_tmap_1, 1, <SRC.UID>
+		NEWITEM i_tmap_1, 1, <SRC.UID>
+		NEWITEM i_tmap_1, 1, <SRC.UID>
+		NEWITEM i_tmap_1, 1, <SRC.UID>
+		NEWITEM i_tmap_2, 1, <SRC.UID>
+		NEWITEM i_tmap_2, 1, <SRC.UID>
+		NEWITEM i_tmap_2, 1, <SRC.UID>
+		NEWITEM i_tmap_2, 1, <SRC.UID>
+		NEWITEM i_tmap_3, 1, <SRC.UID>
+		NEWITEM i_tmap_3, 1, <SRC.UID>
+		NEWITEM i_tmap_3, 1, <SRC.UID>
+		NEWITEM i_tmap_4, 1, <SRC.UID>
+		NEWITEM i_tmap_4, 1, <SRC.UID>
+		NEWITEM i_tmap_5, 1, <SRC.UID>
+	ENDDO
+	REMOVE
+	RETURN 1
+ELSE
+	SRC.MESSAGE @63 The message is so old it crumbles into dust.
+	REMOVE
+	RETURN 1
+ENDIF
+
+[FUNCTION Giveserpent]
+NEWITEM i_sea_serpentspawner,1,<UID>
+
+[ITEMDEF i_sea_serpentspawner]
+DEFNAME=i_sea_serpentspawner
+ID=i_gold
+NAME=Serpent
+TYPE=t_eq_script
+
+ON=@Create
+	ATTR=attr_invis
+
+ON=@DropOn_Ground
+	TAG.ItsUId=<UID>
+	SERV.UID.<SRC.UID>.SAY @33 Watch Out!!
+	SERV.NEWNPC {c_elem_water 1 c_elem_water 1 c_elem_water 1 c_shimmering_effusion 1 c_elem_water 1 c_Hydra 1}
+	NEW.HOME <SRC.P>
+	NEW.GO <SRC.P>
+	SERV.UID.<TAG.ItsUId>.REMOVE
+	RETURN 1
+	
+[EOF]

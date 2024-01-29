@@ -1,0 +1,1605 @@
+///////////////////////////////////////////////////
+[DEFNAME COLOR_ORE]
+color_ore_Rusty          0750
+color_ore_Iron          0763
+color_ore_DullCopper          060a
+color_ore_Copper          0641
+color_ore_OldCopper          0590
+color_ore_PureCopper          0054d
+color_ore_Bronze          06d6
+color_ore_Silver          2920
+color_ore_Rose          0665
+color_ore_Rhodonite          0490
+color_ore_RoseQuartz          2910
+color_ore_Vanadinate          04b6
+color_ore_Azurite          00556
+color_ore_Erubecite          00bs6
+color_ore_Galena          00557
+color_ore_Kunzite          0770
+color_ore_Orpiment          0054f
+color_ore_Hematite          004f9
+color_ore_Malachite          2928
+color_ore_Cassiterite          0065
+color_ore_Gold          045e
+color_ore_Verite          2930
+color_ore_Autonite          2933
+color_ore_Agapite          00b5d
+color_ore_Daemonite          0494
+color_ore_Barite          2898
+color_ore_Aquanite          04f2
+color_ore_Valorite          0515
+color_ore_Uranium          00b2d
+color_ore_BloodRock          04c2
+color_ore_Titanium          052f
+color_ore_BlackRock          0455
+color_ore_Kryptonite          055c
+color_ore_Cerussite          047e
+color_ore_Quartz          2927
+color_ore_Chromite          0bb2
+color_ore_Dioptase          048c
+color_ore_Mytheril          052d
+color_ore_Chromium          04ec
+color_ore_Niobium          2925
+color_ore_Invictus          1287
+
+///////////////////////////////////////////////////
+/////////////////////////////////////////////Rusty Ore
+[ITEMDEF i_ore_rusty]
+DEFNAME = i_ore_rusty
+ID = i_ore_iron
+NAME= Rusty Ore
+Type = t_ore
+SKILLMAKE= Mining 0
+TDATA1 = i_ingot_Rusty
+VALUE = 0
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Rusty Ore
+
+ON=@Create
+        TAG.MaterialClass = 1
+        Color = color_ore_Rusty
+
+/////////////////////////////////////////////Iron Ore
+[ITEMDEF 019b7]
+DEFNAME=i_ore_iron
+NAME=iron ore
+TYPE=t_ore
+TDATA1=i_ingot_iron
+VALUE=4
+WEIGHT=2
+SKILLMAKE=Mining 20.0
+DUPELIST=019b8,019b9,019ba
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Iron Ore
+
+ON=@Create
+        TAG.MaterialClass = 1
+        Color = color_ore_Iron
+
+[ITEMDEF 019b8]
+//iron ore medium pile
+DUPEITEM=019b7
+DESCRIPTION=Iron Ore (medium pile)
+
+[ITEMDEF 019b9]
+//iron ore large pile
+DUPEITEM=019b7
+DESCRIPTION=Iron Ore (large pile)
+
+[ITEMDEF 019ba]
+//iron ore pile leftovers
+DUPEITEM=019b7
+DESCRIPTION=Iron Ore (leftovers)
+
+/////////////////////////////////////////////DullCopper Ore
+[ITEMDEF i_ore_dullcopper]
+DEFNAME = i_ore_dullcopper
+ID = i_ore_iron
+NAME= DullCopper Ore
+Type = t_ore
+SKILLMAKE= Mining 5
+TDATA1 = i_ingot_DullCopper
+VALUE = 5
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=DullCopper Ore
+
+ON=@Create
+        TAG.MaterialClass = 1
+        Color = color_ore_DullCopper
+
+/////////////////////////////////////////////Copper Ore
+[ITEMDEF i_ore_copper]
+ID=i_ore_iron
+NAME=copper ore
+TDATA1=i_ingot_copper
+VALUE=15
+SKILLMAKE=Mining 10.0
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Copper Ore
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_ore_Copper
+
+/////////////////////////////////////////////OldCopper Ore
+[ITEMDEF i_ore_oldcopper]
+DEFNAME = i_ore_oldcopper
+ID = i_ore_iron
+NAME= OldCopper Ore
+Type = t_ore
+SKILLMAKE= Mining 12
+TDATA1 = i_ingot_OldCopper
+VALUE = 24
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=OldCopper Ore
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_ore_OldCopper
+
+/////////////////////////////////////////////PureCopper Ore
+[ITEMDEF i_ore_purecopper]
+DEFNAME = i_ore_purecopper
+ID = i_ore_iron
+NAME= PureCopper Ore
+Type = t_ore
+SKILLMAKE= Mining 15
+TDATA1 = i_ingot_PureCopper
+VALUE = 30
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=PureCopper Ore
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_ore_PureCopper
+
+/////////////////////////////////////////////Bronze Ore
+[ITEMDEF i_ore_bronze]
+DEFNAME = i_ore_bronze
+ID = i_ore_iron
+NAME= Bronze Ore
+Type = t_ore
+SKILLMAKE= Mining 20
+TDATA1 = i_ingot_Bronze
+VALUE = 40
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Bronze Ore
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_ore_Bronze
+
+/////////////////////////////////////////////Silver Ore
+[ITEMDEF i_ore_silver]
+ID=i_ore_iron
+NAME=silver ore
+TDATA1=i_ingot_silver
+VALUE=7
+SKILLMAKE=Mining 25.0
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Silver Ore
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_ore_Silver
+
+/////////////////////////////////////////////Rose Ore
+[ITEMDEF i_ore_rose]
+DEFNAME = i_ore_rose
+ID = i_ore_iron
+NAME= Rose Ore
+Type = t_ore
+SKILLMAKE= Mining 30
+TDATA1 = i_ingot_Rose
+VALUE = 60
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Rose Ore
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_ore_Rose
+
+/////////////////////////////////////////////Rhodonite Ore
+[ITEMDEF i_ore_rhodnite]
+DEFNAME = i_ore_rhodnite
+ID = i_ore_iron
+NAME= Rhodonite Ore
+Type = t_ore
+SKILLMAKE= Mining 35
+TDATA1 = i_ingot_Rhodonite
+VALUE = 105
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Rhodonite Ore
+
+ON=@Create
+        TAG.MaterialClass = 3
+        Color = color_ore_Rhodonite
+
+/////////////////////////////////////////////RoseQuartz Ore
+[ITEMDEF i_ore_rosequartz]
+DEFNAME = i_ore_rosequartz
+ID = i_ore_iron
+NAME= RoseQuartz Ore
+Type = t_ore
+SKILLMAKE= Mining 40
+TDATA1 = i_ingot_RoseQuartz
+VALUE = 120
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=RoseQuartz Ore
+
+ON=@Create
+        TAG.MaterialClass = 3
+        Color = color_ore_RoseQuartz
+
+/////////////////////////////////////////////Vanadinate Ore
+[ITEMDEF i_ore_vanadinate]
+DEFNAME = i_ore_vanadinate
+ID = i_ore_iron
+NAME= Vanadinate Ore
+Type = t_ore
+SKILLMAKE= Mining 45
+TDATA1 = i_ingot_Vanadinate
+VALUE = 135
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Vanadinate Ore
+
+ON=@Create
+        TAG.MaterialClass = 3
+        Color = color_ore_Vanadinate
+
+/////////////////////////////////////////////Azurite Ore
+[ITEMDEF i_ore_azurite]
+DEFNAME = i_ore_azurite
+ID = i_ore_iron
+NAME= Azurite Ore
+Type = t_ore
+SKILLMAKE= Mining 50
+TDATA1 = i_ingot_Azurite
+VALUE = 200
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Azurite Ore
+
+ON=@Create
+        TAG.MaterialClass = 4
+        Color = color_ore_Azurite
+
+/////////////////////////////////////////////Erubecite Ore
+[ITEMDEF i_ore_erubecite]
+DEFNAME = i_ore_erubecite
+ID = i_ore_iron
+NAME= Erubecite Ore
+Type = t_ore
+SKILLMAKE= Mining 52
+TDATA1 = i_ingot_Erubecite
+VALUE = 208
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Erubecite Ore
+
+ON=@Create
+        TAG.MaterialClass = 4
+        Color = color_ore_Erubecite
+
+/////////////////////////////////////////////Galena Ore
+[ITEMDEF i_ore_galena]
+DEFNAME = i_ore_galena
+ID = i_ore_iron
+NAME= Galena Ore
+Type = t_ore
+SKILLMAKE= Mining 55
+TDATA1 = i_ingot_Galena
+VALUE = 220
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Galena Ore
+
+ON=@Create
+        TAG.MaterialClass = 4
+        Color = color_ore_Galena
+
+/////////////////////////////////////////////Kunzite Ore
+[ITEMDEF i_ore_kunzite]
+DEFNAME = i_ore_kunzite
+ID = i_ore_iron
+NAME= Kunzite Ore
+Type = t_ore
+SKILLMAKE= Mining 57
+TDATA1 = i_ingot_Kunzite
+VALUE = 285
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Kunzite Ore
+
+ON=@Create
+        TAG.MaterialClass = 5
+        Color = color_ore_Kunzite
+
+/////////////////////////////////////////////Orpiment Ore
+[ITEMDEF i_ore_orpiment]
+DEFNAME = i_ore_orpiment
+ID = i_ore_iron
+NAME= Orpiment Ore
+Type = t_ore
+SKILLMAKE= Mining 59
+TDATA1 = i_ingot_Orpiment
+VALUE = 295
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Orpiment Ore
+
+ON=@Create
+        TAG.MaterialClass = 5
+        Color = color_ore_Orpiment
+
+/////////////////////////////////////////////Hematite Ore
+[ITEMDEF i_ore_hematite]
+DEFNAME = i_ore_hematite
+ID = i_ore_iron
+NAME= Hematite Ore
+Type = t_ore
+SKILLMAKE= Mining 63
+TDATA1 = i_ingot_Hematite
+VALUE = 315
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Hematite Ore
+
+ON=@Create
+        TAG.MaterialClass = 5
+        Color = color_ore_Hematite
+
+/////////////////////////////////////////////Malachite Ore
+[ITEMDEF i_ore_malachite]
+DEFNAME = i_ore_malachite
+ID = i_ore_iron
+NAME= Malachite Ore
+Type = t_ore
+SKILLMAKE= Mining 65
+TDATA1 = i_ingot_Malachite
+VALUE = 390
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Malachite Ore
+
+ON=@Create
+        TAG.MaterialClass = 6
+        Color = color_ore_Malachite
+
+/////////////////////////////////////////////Cassiterite Ore
+[ITEMDEF i_ore_cassiterite]
+DEFNAME = i_ore_cassiterite
+ID = i_ore_iron
+NAME= Cassiterite Ore
+Type = t_ore
+SKILLMAKE= Mining 68
+TDATA1 = i_ingot_Cassiterite
+VALUE = 408
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Cassiterite Ore
+
+ON=@Create
+        TAG.MaterialClass = 6
+        Color = color_ore_Cassiterite
+
+/////////////////////////////////////////////Gold Ore
+[ITEMDEF i_ore_gold]
+ID=i_ore_iron
+NAME=gold ore
+TDATA1=i_ingot_gold
+VALUE=15
+SKILLMAKE=Mining 71.0
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Gold Ore
+
+ON=@Create
+        TAG.MaterialClass = 6
+        Color = color_ore_Gold
+
+/////////////////////////////////////////////Verite Ore
+[ITEMDEF i_ore_verite]
+DEFNAME = i_ore_verite
+ID = i_ore_iron
+NAME= Verite Ore
+Type = t_ore
+SKILLMAKE= Mining 74
+TDATA1 = i_ingot_Verite
+VALUE = 518
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Verite Ore
+
+ON=@Create
+        TAG.MaterialClass = 7
+        Color = color_ore_Verite
+
+/////////////////////////////////////////////Autonite Ore
+[ITEMDEF i_ore_autonite]
+DEFNAME = i_ore_autonite
+ID = i_ore_iron
+NAME= Autonite Ore
+Type = t_ore
+SKILLMAKE= Mining 77
+TDATA1 = i_ingot_Autonite
+VALUE = 539
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Autonite Ore
+
+ON=@Create
+        TAG.MaterialClass = 7
+        Color = color_ore_Autonite
+
+/////////////////////////////////////////////Agapite Ore
+[ITEMDEF i_ore_agapite]
+DEFNAME = i_ore_agapite
+ID = i_ore_iron
+NAME= Agapite Ore
+Type = t_ore
+SKILLMAKE= Mining 80
+TDATA1 = i_ingot_Agapite
+VALUE = 560
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Agapite Ore
+
+ON=@Create
+        TAG.MaterialClass = 7
+        Color = color_ore_Agapite
+
+/////////////////////////////////////////////Daemonite Ore
+[ITEMDEF i_ore_daemonite]
+DEFNAME = i_ore_daemonite
+ID = i_ore_iron
+NAME= Daemonite Ore
+Type = t_ore
+SKILLMAKE= Mining 82
+TDATA1 = i_ingot_Daemonite
+VALUE = 574
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Daemonite Ore
+
+ON=@Create
+        TAG.MaterialClass = 7
+        Color = color_ore_Daemonite
+
+/////////////////////////////////////////////Barite Ore
+[ITEMDEF i_ore_barite]
+DEFNAME = i_ore_barite
+ID = i_ore_iron
+NAME= Barite Ore
+Type = t_ore
+SKILLMAKE= Mining 83
+TDATA1 = i_ingot_Barite
+VALUE = 664
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Barite Ore
+
+ON=@Create
+        TAG.MaterialClass = 8
+        Color = color_ore_Barite
+
+/////////////////////////////////////////////Aquanite Ore
+[ITEMDEF i_ore_aquanite]
+DEFNAME = i_ore_aquanite
+ID = i_ore_iron
+NAME= Aquanite Ore
+Type = t_ore
+SKILLMAKE= Mining 87
+TDATA1 = i_ingot_Aquanite
+VALUE = 696
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Aquanite Ore
+
+ON=@Create
+        TAG.MaterialClass = 8
+        Color = color_ore_Aquanite
+
+/////////////////////////////////////////////Valorite Ore
+[ITEMDEF i_ore_valorite]
+DEFNAME = i_ore_valorite
+ID = i_ore_iron
+NAME= Valorite Ore
+Type = t_ore
+SKILLMAKE= Mining 89
+TDATA1 = i_ingot_Valorite
+VALUE = 712
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Valorite Ore
+
+ON=@Create
+        TAG.MaterialClass = 8
+        Color = color_ore_Valorite
+
+/////////////////////////////////////////////Uranium Ore
+[ITEMDEF i_ore_uranium]
+DEFNAME = i_ore_uranium
+ID = i_ore_iron
+NAME= Uranium Ore
+Type = t_ore
+SKILLMAKE= Mining 90
+TDATA1 = i_ingot_Uranium
+VALUE = 810
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Uranium Ore
+
+ON=@Create
+        TAG.MaterialClass = 9
+        Color = color_ore_Uranium
+
+/////////////////////////////////////////////BloodRock Ore
+[ITEMDEF i_ore_bloodrock]
+DEFNAME = i_ore_bloodrock
+ID = i_ore_iron
+NAME= BloodRock Ore
+Type = t_ore
+SKILLMAKE= Mining 91
+TDATA1 = i_ingot_BloodRock
+VALUE = 819
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=BloodRock Ore
+
+ON=@Create
+        TAG.MaterialClass = 9
+        Color = color_ore_BloodRock
+
+/////////////////////////////////////////////Titanium Ore
+[ITEMDEF i_ore_titanium]
+DEFNAME = i_ore_titanium
+ID = i_ore_iron
+NAME= Titanium Ore
+Type = t_ore
+SKILLMAKE= Mining 92
+TDATA1 = i_ingot_Titanium
+VALUE = 828
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Titanium Ore
+
+ON=@Create
+        TAG.MaterialClass = 9
+        Color = color_ore_Titanium
+
+/////////////////////////////////////////////BlackRock Ore
+[ITEMDEF i_ore_blackrock]
+DEFNAME = i_ore_blackrock
+ID = i_ore_iron
+NAME= BlackRock Ore
+Type = t_ore
+SKILLMAKE= Mining 93
+TDATA1 = i_ingot_BlackRock
+VALUE = 930
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=BlackRock Ore
+
+ON=@Create
+        TAG.MaterialClass = 10
+        Color = color_ore_BlackRock
+
+/////////////////////////////////////////////Kryptonite Ore
+[ITEMDEF i_ore_kryptonite]
+DEFNAME = i_ore_kryptonite
+ID = i_ore_iron
+NAME= Kryptonite Ore
+Type = t_ore
+SKILLMAKE= Mining 94
+TDATA1 = i_ingot_Kryptonite
+VALUE = 940
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Kryptonite Ore
+
+ON=@Create
+        TAG.MaterialClass = 10
+        Color = color_ore_Kryptonite
+
+/////////////////////////////////////////////Cerussite Ore
+[ITEMDEF i_ore_cerussite]
+DEFNAME = i_ore_cerussite
+ID = i_ore_iron
+NAME= Cerussite Ore
+Type = t_ore
+SKILLMAKE= Mining 95
+TDATA1 = i_ingot_Cerussite
+VALUE = 950
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Cerussite Ore
+
+ON=@Create
+        TAG.MaterialClass = 10
+        Color = color_ore_Cerussite
+
+/////////////////////////////////////////////Quartz Ore
+[ITEMDEF i_ore_quartz]
+DEFNAME = i_ore_quartz
+ID = i_ore_iron
+NAME= Quartz Ore
+Type = t_ore
+SKILLMAKE= Mining 98
+TDATA1 = i_ingot_Quartz
+VALUE = 1078
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Quartz Ore
+
+ON=@Create
+        TAG.MaterialClass = 11
+        Color = color_ore_Quartz
+
+/////////////////////////////////////////////Chromite Ore
+[ITEMDEF i_ore_chromite]
+DEFNAME = i_ore_chromite
+ID = i_ore_iron
+NAME= Chromite Ore
+Type = t_ore
+SKILLMAKE= Mining 100
+TDATA1 = i_ingot_Chromite
+VALUE = 1100
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Chromite Ore
+
+ON=@Create
+        TAG.MaterialClass = 11
+        Color = color_ore_Chromite
+
+/////////////////////////////////////////////Dioptase Ore
+[ITEMDEF i_ore_dioptase]
+DEFNAME = i_ore_dioptase
+ID = i_ore_iron
+NAME= Dioptase Ore
+Type = t_ore
+SKILLMAKE= Mining 105
+TDATA1 = i_ingot_Dioptase
+VALUE = 1155
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Dioptase Ore
+
+ON=@Create
+        TAG.MaterialClass = 11
+        Color = color_ore_Dioptase
+
+/////////////////////////////////////////////Mytheril Ore
+[ITEMDEF i_ore_mytheril]
+DEFNAME = i_ore_mytheril
+ID = i_ore_iron
+NAME= Mytheril Ore
+Type = t_ore
+SKILLMAKE= Mining 110
+TDATA1 = i_ingot_Mytheril
+VALUE = 1210
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Mytheril Ore
+
+ON=@Create
+        TAG.MaterialClass = 11
+        Color = color_ore_Mytheril
+
+/////////////////////////////////////////////Chromium Ore
+[ITEMDEF i_ore_chromium]
+DEFNAME = i_ore_chromium
+ID = i_ore_iron
+NAME= Chromium Ore
+Type = t_ore
+SKILLMAKE= Mining 115
+TDATA1 = i_ingot_Chromium
+VALUE = 1380
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Chromium Ore
+
+ON=@Create
+        TAG.MaterialClass = 12
+        Color = color_ore_Chromium
+
+/////////////////////////////////////////////Niobium Ore
+[ITEMDEF i_ore_Niobium]
+DEFNAME = i_ore_Niobium
+ID = i_ore_iron
+NAME= Niobium Ore
+Type = t_ore
+SKILLMAKE= Mining 120
+TDATA1 = i_ingot_Niobium
+VALUE = 1440
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Niobium Ore
+
+ON=@Create
+        TAG.MaterialClass = 12
+        Color = color_ore_Niobium
+
+/////////////////////////////////////////////Ancientrealms Ore
+[ITEMDEF i_ore_invictus]
+DEFNAME = i_ore_invictus
+ID = i_ore_iron
+NAME= Ancientrealms Ore
+Type = t_ore
+SKILLMAKE= Mining 120
+TDATA1 = i_ingot_Invictus
+VALUE = 1440
+WEIGHT = 0.5
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ores
+DESCRIPTION=Ancientrealms Ore
+
+ON=@Create
+        TAG.MaterialClass = 12
+        Color = color_ore_Invictus
+
+/////////////////////////////////////////////Rusty Ingot
+[ITEMDEF i_ingot_Rusty]
+DEFNAME = i_ingot_Rusty
+ID = i_ingot_iron
+NAME= Rusty Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 0
+RESOURCES= i_ore_rusty
+TDATA1 = 0
+TDATA2 = 109
+VALUE = 1
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Rusty Ingot
+
+ON=@Create
+        TAG.MaterialClass = 1
+        Color = color_ore_Rusty
+
+/////////////////////////////////////////////Iron Ingot
+[ITEMDEF 01bef]
+//DEFNAME2=INGOTS
+//DEFNAME2=IRON_INGOT
+DEFNAME=i_ingot_iron
+TYPE=T_INGOT
+RESOURCES=i_ore_iron
+SKILLMAKE=Mining 20.0
+TDATA1=20.0
+TDATA2=50.0
+WEIGHT=2
+DUPELIST=01bf0,01bf1,01bf2,01bf3,01bf4
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Iron Ingot
+
+ON=@Create
+        TAG.MaterialClass = 1
+        Color = color_ore_Iron
+
+/////////////////////////////////////////////DullCopper Ingot
+[ITEMDEF i_ingot_DullCopper]
+DEFNAME = i_ingot_DullCopper
+ID = i_ingot_iron
+NAME= DullCopper Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 5
+RESOURCES= i_ore_dullcopper
+TDATA1 = 5
+TDATA2 = 109
+VALUE = 6
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=DullCopper Ingot
+
+ON=@Create
+        TAG.MaterialClass = 1
+        Color = color_ore_DullCopper
+
+/////////////////////////////////////////////Copper Ingot
+[ITEMDEF 01be3]
+DEFNAME=i_ingot_copper
+TYPE=T_INGOT
+RESOURCES=i_ore_copper
+SKILLMAKE=MINING 10.0
+TDATA1=75.0
+TDATA2=100.0
+WEIGHT=2
+DUPELIST=01be4,01be5,01be6,01be7,01be8
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Copper Ingot
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_ore_Copper
+
+/////////////////////////////////////////////OldCopper Ingot
+[ITEMDEF i_ingot_OldCopper]
+DEFNAME = i_ingot_OldCopper
+ID = i_ingot_iron
+NAME= OldCopper Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 12
+RESOURCES= i_ore_oldcopper
+TDATA1 = 12
+TDATA2 = 110
+VALUE = 26
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=OldCopper Ingot
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_ore_OldCopper
+
+/////////////////////////////////////////////PureCopper Ingot
+[ITEMDEF i_ingot_PureCopper]
+DEFNAME = i_ingot_PureCopper
+ID = i_ingot_iron
+NAME= PureCopper Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 15
+RESOURCES= i_ore_purecopper
+TDATA1 = 15
+TDATA2 = 110
+VALUE = 32
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=PureCopper Ingot
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_ore_PureCopper
+
+/////////////////////////////////////////////Bronze Ingot
+[ITEMDEF i_ingot_Bronze]
+DEFNAME = i_ingot_Bronze
+ID = i_ingot_iron
+NAME= Bronze Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 20
+RESOURCES= i_ore_bronze
+TDATA1 = 20
+TDATA2 = 110
+VALUE = 42
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Bronze Ingot
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_ore_Bronze
+
+/////////////////////////////////////////////Silver Ingot
+[ITEMDEF 01bf5]
+DEFNAME=i_ingot_silver
+TYPE=T_INGOT
+SKILLMAKE=MINING 25.0
+TDATA1=90.0
+TDATA2=100.0
+RESOURCES=i_ore_silver
+WEIGHT=2
+DUPELIST=01bf6,01bf7,01bf8,01bf9,01bfa
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Silver Ingot
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_ore_Silver
+
+/////////////////////////////////////////////Rose Ingot
+[ITEMDEF i_ingot_Rose]
+DEFNAME = i_ingot_Rose
+ID = i_ingot_iron
+NAME= Rose Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 30
+RESOURCES= i_ore_rose
+TDATA1 = 30
+TDATA2 = 110
+VALUE = 62
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Rose Ingot
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_ore_Rose
+
+/////////////////////////////////////////////Rhodonite Ingot
+[ITEMDEF i_ingot_Rhodonite]
+DEFNAME = i_ingot_Rhodonite
+ID = i_ingot_iron
+NAME= Rhodonite Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 35
+RESOURCES= i_ore_rhodnite
+TDATA1 = 35
+TDATA2 = 111
+VALUE = 108
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Rhodonite Ingot
+
+ON=@Create
+        TAG.MaterialClass = 3
+        Color = color_ore_Rhodonite
+
+/////////////////////////////////////////////RoseQuartz Ingot
+[ITEMDEF i_ingot_RoseQuartz]
+DEFNAME = i_ingot_RoseQuartz
+ID = i_ingot_iron
+NAME= RoseQuartz Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 40
+RESOURCES= i_ore_rosequartz
+TDATA1 = 40
+TDATA2 = 111
+VALUE = 123
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=RoseQuartz Ingot
+
+ON=@Create
+        TAG.MaterialClass = 3
+        Color = color_ore_RoseQuartz
+
+/////////////////////////////////////////////Vanadinate Ingot
+[ITEMDEF i_ingot_Vanadinate]
+DEFNAME = i_ingot_Vanadinate
+ID = i_ingot_iron
+NAME= Vanadinate Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 45
+RESOURCES= i_ore_vanadinate
+TDATA1 = 45
+TDATA2 = 111
+VALUE = 138
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Vanadinate Ingot
+
+ON=@Create
+        TAG.MaterialClass = 3
+        Color = color_ore_Vanadinate
+
+/////////////////////////////////////////////Azurite Ingot
+[ITEMDEF i_ingot_Azurite]
+DEFNAME = i_ingot_Azurite
+ID = i_ingot_iron
+NAME= Azurite Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 50
+RESOURCES= i_ore_azurite
+TDATA1 = 50
+TDATA2 = 112
+VALUE = 204
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Azurite Ingot
+
+ON=@Create
+        TAG.MaterialClass = 4
+        Color = color_ore_Azurite
+
+/////////////////////////////////////////////Erubecite Ingot
+[ITEMDEF i_ingot_Erubecite]
+DEFNAME = i_ingot_Erubecite
+ID = i_ingot_iron
+NAME= Erubecite Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 52
+RESOURCES= i_ore_erubecite
+TDATA1 = 52
+TDATA2 = 112
+VALUE = 212
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Erubecite Ingot
+
+ON=@Create
+        TAG.MaterialClass = 4
+        Color = color_ore_Erubecite
+
+/////////////////////////////////////////////Galena Ingot
+[ITEMDEF i_ingot_Galena]
+DEFNAME = i_ingot_Galena
+ID = i_ingot_iron
+NAME= Galena Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 55
+RESOURCES= i_ore_galena
+TDATA1 = 55
+TDATA2 = 112
+VALUE = 224
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Galena Ingot
+
+ON=@Create
+        TAG.MaterialClass = 4
+        Color = color_ore_Galena
+
+/////////////////////////////////////////////Kunzite Ingot
+[ITEMDEF i_ingot_Kunzite]
+DEFNAME = i_ingot_Kunzite
+ID = i_ingot_iron
+NAME= Kunzite Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 57
+RESOURCES= i_ore_kunzite
+TDATA1 = 57
+TDATA2 = 113
+VALUE = 290
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Kunzite Ingot
+
+ON=@Create
+        TAG.MaterialClass = 5
+        Color = color_ore_Kunzite
+
+/////////////////////////////////////////////Orpiment Ingot
+[ITEMDEF i_ingot_Orpiment]
+DEFNAME = i_ingot_Orpiment
+ID = i_ingot_iron
+NAME= Orpiment Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 59
+RESOURCES= i_ore_orpiment
+TDATA1 = 59
+TDATA2 = 113
+VALUE = 300
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Orpiment Ingot
+
+ON=@Create
+        TAG.MaterialClass = 5
+        Color = color_ore_Orpiment
+
+/////////////////////////////////////////////Hematite Ingot
+[ITEMDEF i_ingot_Hematite]
+DEFNAME = i_ingot_Hematite
+ID = i_ingot_iron
+NAME= Hematite Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 63
+RESOURCES= i_ore_hematite
+TDATA1 = 63
+TDATA2 = 113
+VALUE = 320
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Hematite Ingot
+
+ON=@Create
+        TAG.MaterialClass = 5
+        Color = color_ore_Hematite
+
+/////////////////////////////////////////////Malachite Ingot
+[ITEMDEF i_ingot_Malachite]
+DEFNAME = i_ingot_Malachite
+ID = i_ingot_iron
+NAME= Malachite Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 65
+RESOURCES= i_ore_malachite
+TDATA1 = 65
+TDATA2 = 114
+VALUE = 396
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Malachite Ingot
+
+ON=@Create
+        TAG.MaterialClass = 6
+        Color = color_ore_Malachite
+
+/////////////////////////////////////////////Cassiterite Ingot
+[ITEMDEF i_ingot_Cassiterite]
+DEFNAME = i_ingot_Cassiterite
+ID = i_ingot_iron
+NAME= Cassiterite Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 68
+RESOURCES= i_ore_cassiterite
+TDATA1 = 68
+TDATA2 = 114
+VALUE = 414
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Cassiterite Ingot
+
+ON=@Create
+        TAG.MaterialClass = 6
+        Color = color_ore_Cassiterite
+
+/////////////////////////////////////////////Gold Ingot
+[ITEMDEF 01be9]
+DEFNAME=i_ingot_gold
+TYPE=T_INGOT
+SKILLMAKE=MINING 71.0
+TDATA1=85.0
+TDATA2=110.0
+RESOURCES=i_ore_gold
+WEIGHT=2
+DUPELIST=01bea,01beb,01bec,01bed,01bee
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Gold Ingot
+
+ON=@Create
+        TAG.MaterialClass = 6
+        Color = color_ore_Gold
+
+/////////////////////////////////////////////Verite Ingot
+[ITEMDEF i_ingot_Verite]
+DEFNAME = i_ingot_Verite
+ID = i_ingot_iron
+NAME= Verite Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 74
+RESOURCES= i_ore_verite
+TDATA1 = 74
+TDATA2 = 115
+VALUE = 525
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Verite Ingot
+
+ON=@Create
+        TAG.MaterialClass = 7
+        Color = color_ore_Verite
+
+/////////////////////////////////////////////Autonite Ingot
+[ITEMDEF i_ingot_Autonite]
+DEFNAME = i_ingot_Autonite
+ID = i_ingot_iron
+NAME= Autonite Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 77
+RESOURCES= i_ore_autonite
+TDATA1 = 77
+TDATA2 = 115
+VALUE = 546
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Autonite Ingot
+
+ON=@Create
+        TAG.MaterialClass = 7
+        Color = color_ore_Autonite
+
+/////////////////////////////////////////////Agapite Ingot
+[ITEMDEF i_ingot_Agapite]
+DEFNAME = i_ingot_Agapite
+ID = i_ingot_iron
+NAME= Agapite Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 80
+RESOURCES= i_ore_agapite
+TDATA1 = 80
+TDATA2 = 115
+VALUE = 567
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Agapite Ingot
+
+ON=@Create
+        TAG.MaterialClass = 7
+        Color = color_ore_Agapite
+
+/////////////////////////////////////////////Daemonite Ingot
+[ITEMDEF i_ingot_Daemonite]
+DEFNAME = i_ingot_Daemonite
+ID = i_ingot_iron
+NAME= Daemonite Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 82
+RESOURCES= i_ore_daemonite
+TDATA1 = 82
+TDATA2 = 115
+VALUE = 581
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Daemonite Ingot
+
+ON=@Create
+        TAG.MaterialClass = 7
+        Color = color_ore_Daemonite
+
+/////////////////////////////////////////////Barite Ingot
+[ITEMDEF i_ingot_Barite]
+DEFNAME = i_ingot_Barite
+ID = i_ingot_iron
+NAME= Barite Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 83
+RESOURCES= i_ore_barite
+TDATA1 = 83
+TDATA2 = 116
+VALUE = 672
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Barite Ingot
+
+ON=@Create
+        TAG.MaterialClass = 8
+        Color = color_ore_Barite
+
+/////////////////////////////////////////////Aquanite Ingot
+[ITEMDEF i_ingot_Aquanite]
+DEFNAME = i_ingot_Aquanite
+ID = i_ingot_iron
+NAME= Aquanite Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 87
+RESOURCES= i_ore_aquanite
+TDATA1 = 87
+TDATA2 = 116
+VALUE = 704
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Aquanite Ingot
+
+ON=@Create
+        TAG.MaterialClass = 8
+        Color = color_ore_Aquanite
+
+/////////////////////////////////////////////Valorite Ingot
+[ITEMDEF i_ingot_Valorite]
+DEFNAME = i_ingot_Valorite
+ID = i_ingot_iron
+NAME= Valorite Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 89
+RESOURCES= i_ore_valorite
+TDATA1 = 89
+TDATA2 = 116
+VALUE = 720
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Valorite Ingot
+
+ON=@Create
+        TAG.MaterialClass = 8
+        Color = color_ore_Valorite
+
+/////////////////////////////////////////////Uranium Ingot
+[ITEMDEF i_ingot_Uranium]
+DEFNAME = i_ingot_Uranium
+ID = i_ingot_iron
+NAME= Uranium Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 90
+RESOURCES= i_ore_uranium
+TDATA1 = 90
+TDATA2 = 117
+VALUE = 819
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Uranium Ingot
+
+ON=@Create
+        TAG.MaterialClass = 9
+        Color = color_ore_Uranium
+
+/////////////////////////////////////////////BloodRock Ingot
+[ITEMDEF i_ingot_BloodRock]
+DEFNAME = i_ingot_BloodRock
+ID = i_ingot_iron
+NAME= BloodRock Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 91
+RESOURCES= i_ore_bloodrock
+TDATA1 = 91
+TDATA2 = 117
+VALUE = 828
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=BloodRock Ingot
+
+ON=@Create
+        TAG.MaterialClass = 9
+        Color = color_ore_BloodRock
+
+/////////////////////////////////////////////Titanium Ingot
+[ITEMDEF i_ingot_Titanium]
+DEFNAME = i_ingot_Titanium
+ID = i_ingot_iron
+NAME= Titanium Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 92
+RESOURCES= i_ore_titanium
+TDATA1 = 92
+TDATA2 = 117
+VALUE = 837
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Titanium Ingot
+
+ON=@Create
+        TAG.MaterialClass = 9
+        Color = color_ore_Titanium
+
+/////////////////////////////////////////////BlackRock Ingot
+[ITEMDEF i_ingot_BlackRock]
+DEFNAME = i_ingot_BlackRock
+ID = i_ingot_iron
+NAME= BlackRock Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 93
+RESOURCES= i_ore_blackrock
+TDATA1 = 93
+TDATA2 = 118
+VALUE = 940
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=BlackRock Ingot
+
+ON=@Create
+        TAG.MaterialClass = 10
+        Color = color_ore_BlackRock
+
+/////////////////////////////////////////////Kryptonite Ingot
+[ITEMDEF i_ingot_Kryptonite]
+DEFNAME = i_ingot_Kryptonite
+ID = i_ingot_iron
+NAME= Kryptonite Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 94
+RESOURCES= i_ore_kryptonite
+TDATA1 = 94
+TDATA2 = 118
+VALUE = 950
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Kryptonite Ingot
+
+ON=@Create
+        TAG.MaterialClass = 10
+        Color = color_ore_Kryptonite
+
+/////////////////////////////////////////////Cerussite Ingot
+[ITEMDEF i_ingot_Cerussite]
+DEFNAME = i_ingot_Cerussite
+ID = i_ingot_iron
+NAME= Cerussite Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 95
+RESOURCES= i_ore_cerussite
+TDATA1 = 95
+TDATA2 = 118
+VALUE = 960
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Cerussite Ingot
+
+ON=@Create
+        TAG.MaterialClass = 10
+        Color = color_ore_Cerussite
+
+/////////////////////////////////////////////Quartz Ingot
+[ITEMDEF i_ingot_Quartz]
+DEFNAME = i_ingot_Quartz
+ID = i_ingot_iron
+NAME= Quartz Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 98
+RESOURCES= i_ore_quartz
+TDATA1 = 98
+TDATA2 = 119
+VALUE = 1089
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Quartz Ingot
+
+ON=@Create
+        TAG.MaterialClass = 11
+        Color = color_ore_Quartz
+
+/////////////////////////////////////////////Chromite Ingot
+[ITEMDEF i_ingot_Chromite]
+DEFNAME = i_ingot_Chromite
+ID = i_ingot_iron
+NAME= Chromite Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 100
+RESOURCES= i_ore_chromite
+TDATA1 = 100
+TDATA2 = 119
+VALUE = 1111
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Chromite Ingot
+
+ON=@Create
+        TAG.MaterialClass = 11
+        Color = color_ore_Chromite
+
+/////////////////////////////////////////////Dioptase Ingot
+[ITEMDEF i_ingot_Dioptase]
+DEFNAME = i_ingot_Dioptase
+ID = i_ingot_iron
+NAME= Dioptase Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 105
+RESOURCES= i_ore_dioptase
+TDATA1 = 105
+TDATA2 = 119
+VALUE = 1166
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Dioptase Ingot
+
+ON=@Create
+        TAG.MaterialClass = 11
+        Color = color_ore_Dioptase
+
+/////////////////////////////////////////////Mytheril Ingot
+[ITEMDEF i_ingot_Mytheril]
+DEFNAME = i_ingot_Mytheril
+ID = i_ingot_iron
+NAME= Mytheril Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 110
+RESOURCES= i_ore_mytheril
+TDATA1 = 110
+TDATA2 = 119
+VALUE = 1221
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Mytheril Ingot
+
+ON=@Create
+        TAG.MaterialClass = 11
+        Color = color_ore_Mytheril
+
+/////////////////////////////////////////////Chromium Ingot
+[ITEMDEF i_ingot_Chromium]
+DEFNAME = i_ingot_Chromium
+ID = i_ingot_iron
+NAME= Chromium Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 115
+RESOURCES= i_ore_chromium
+TDATA1 = 115
+TDATA2 = 120
+VALUE = 1392
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Chromium Ingot
+
+ON=@Create
+        TAG.MaterialClass = 12
+        Color = color_ore_Chromium
+
+/////////////////////////////////////////////Niobium Ingot
+[ITEMDEF i_ingot_Niobium]
+DEFNAME = i_ingot_Niobium
+ID = i_ingot_iron
+NAME= Niobium Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 120
+RESOURCES= i_ore_Niobium
+TDATA1 = 120
+TDATA2 = 120
+VALUE = 1452
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Niobium Ingot
+
+ON=@Create
+        TAG.MaterialClass = 12
+        Color = color_ore_Niobium
+
+/////////////////////////////////////////////Ancientrealms Ingot
+[ITEMDEF i_ingot_Invictus]
+DEFNAME = i_ingot_Invictus
+ID = i_ingot_iron
+NAME= Ancientrealms Ingot%s
+Type = t_ingot
+SKILLMAKE= Mining 120
+RESOURCES= i_ore_invictus
+TDATA1 = 120
+TDATA2 = 120
+VALUE = 1452
+WEIGHT = 1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Ingots
+DESCRIPTION=Ancientrealms Ingot
+
+ON=@Create
+        TAG.MaterialClass = 12
+        Color = color_ore_Invictus
+
+
+[EOF]

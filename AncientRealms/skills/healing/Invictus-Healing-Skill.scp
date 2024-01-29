@@ -1,0 +1,44 @@
+[SKILL 17]
+DEFNAME=Skill_Healing
+KEY=Healing
+TITLE=Healer
+PROMPT_MSG=Who will you use the bandages on?
+DELAY=3.0,1.0
+EFFECT=2.0,20.0
+ADV_RATE=10.0,100.0,250.0
+STAT_STR=10
+STAT_INT=90
+STAT_DEX=10
+BONUS_STATS=20
+BONUS_STR=0
+BONUS_DEX=30
+BONUS_INT=70
+
+ON=@Fail
+	SRC.SYSMESSAGE @00029,,1 You apply the bandages, but they barely help.
+
+ON=@Abort
+	SRC.SYSMESSAGE @00029,,1 You stop applying the bandages.
+	
+[SKILL 39]
+DEFNAME=Skill_Vet
+KEY=Veterinary
+TITLE=Veterinarian
+PROMPT_MSG=What animal would you like to heal?
+DELAY=2.0
+STAT_STR=30
+STAT_INT=50
+STAT_DEX=40
+BONUS_STR=40
+BONUS_DEX=40
+BONUS_INT=100
+BONUS_STATS=40
+ADV_RATE=10.0,200.0,800.0
+
+ON=@Fail
+	SRC.SYSMESSAGE @00029,,1 You apply the bandages, but they barely help.
+
+ON=@Abort
+	SRC.SYSMESSAGE @00029,,1 You stop applying the bandages.
+
+[EOF]

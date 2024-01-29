@@ -1,0 +1,16 @@
+[ITEMDEF i_spade]
+DEFNAME=i_spade
+ID=i_shovel
+NAME=Spade
+TYPE=t_spade
+WEIGHT=0.1
+VALUE=1
+CATEGORY=AncientRealms
+SUBSECTION=TreasureHunting
+DESCRIPTION=Spade
+
+ON=@Create
+	COLOR=0038d
+	TAG.Uses=<R8,20>
+
+[EOF]

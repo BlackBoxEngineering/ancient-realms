@@ -1,0 +1,97 @@
+[DIALOG d_Keep_RideVendorMenu]
+100,100
+PAGE 0
+resizepic 0 0 3500 200 300
+TEXT 20 10 33 0
+TEXT 30 50 55 1
+BUTTON 10 53 1209 1210 1 0 10
+TEXT 135 50 55 2
+TEXT 30 70 55 3
+BUTTON 10 73 1209 1210 1 0 20
+TEXT 135 70 55 4
+TEXT 30 90 55 5
+BUTTON 10 93 1209 1210 1 0 30
+TEXT 135 90 55 6
+TEXT 30 110 55 7
+BUTTON 10 113 1209 1210 1 0 40
+TEXT 135 110 55 8
+TEXT 30 130 55 9
+BUTTON 10 133 1209 1210 1 0 50
+TEXT 135 130 55 10
+TEXT 30 150 55 11
+BUTTON 10 153 1209 1210 1 0 60
+TEXT 135 150 55 12
+
+[DIALOG d_Keep_RideVendorMenu Text]
+<REGION.NAME> <CTAG.VendorName>
+Llama
+: 2 KP
+Ostard
+: 3 KP
+Zostrich
+: 4 KP
+Swamp Dragon
+: 8 KP
+Giant Beetle
+: 15 KP
+Hiryu
+: 30 KP
+
+[DIALOG d_Keep_RideVendorMenu Button]
+ON=10
+	IF (<SRC.RESTEST 2 i_keep_point>)
+		SRC.CONSUME 2 i_keep_point
+		SRC.SYSMESSAGE @1462,,1 2 Keep Points Thank Thee.
+		NEWITEM=i_pet_llama, 1, <SRC.UID>
+	ELSE
+		SRC.SYSMESSAGE @1462,,1 You Need 2 Keep Points for a Llama
+		RETURN 1
+	ENDIF
+ON=20
+	IF (<SRC.RESTEST 3 i_keep_point>)
+		SRC.CONSUME 3 i_keep_point
+		SRC.SYSMESSAGE @1462,,1 3 Keep Points Thank Thee.
+		NEWITEM=i_pet_ostard_desert, 1, <SRC.UID>
+	ELSE
+		SRC.SYSMESSAGE @1462,,1 You Need 3 Keep Points for an Orn
+		RETURN 1
+	ENDIF
+ON=30
+	IF (<SRC.RESTEST 4 i_keep_point>)
+		SRC.CONSUME 4 i_keep_point
+		SRC.SYSMESSAGE @1462,,1 4 Keep Points Thank Thee.
+		NEWITEM=i_pet_ostard_zostrich, 1, <SRC.UID>
+	ELSE
+		SRC.SYSMESSAGE @1462,,1 You Need 4 Keep Points for an Zostrich
+		RETURN 1
+	ENDIF
+ON=40
+	IF (<SRC.RESTEST 8 i_keep_point>)
+		SRC.CONSUME 8 i_keep_point
+		SRC.SYSMESSAGE @1462,,1 8 Keep Points Thank Thee.
+		NEWITEM=i_pet_swampdragon, 1, <SRC.UID>
+		NEW.COLOR=color_ore_Dioptase
+	ELSE
+		SRC.SYSMESSAGE @1462,,1 You Need 8 Keep Points for an Swamp Dragon
+		RETURN 1
+	ENDIF
+ON=50
+	IF (<SRC.RESTEST 15 i_keep_point>)
+		SRC.CONSUME 15 i_keep_point
+		SRC.SYSMESSAGE @1462,,1 15 Keep Points Thank Thee.
+		NEWITEM=i_pet_giantbeetle, 1, <SRC.UID>
+	ELSE
+		SRC.SYSMESSAGE @1462,,1 You Need 15 Keep Points for a Giant Beetle
+		RETURN 1
+	ENDIF
+ON=60
+	IF (<SRC.RESTEST 30 i_keep_point>)
+		SRC.CONSUME 30 i_keep_point
+		SRC.SYSMESSAGE @1462,,1 15 Keep Points Thank Thee.
+		NEWITEM=i_pet_hiryu, 1, <SRC.UID>
+	ELSE
+		SRC.SYSMESSAGE @1462,,1 You Need 15 Keep Points for a Hiryu
+		RETURN 1
+	ENDIF
+
+[EOF]

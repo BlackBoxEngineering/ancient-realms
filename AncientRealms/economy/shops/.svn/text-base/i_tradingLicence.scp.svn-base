@@ -1,0 +1,70 @@
+[ITEMDEF i_LicencedMerchant]
+DEFNAME=i_LicencedMerchant
+ID=02258
+TYPE=t_eq_script
+NAME=Merchant Licence
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	LINK=<SERV.UID.<CONT.TAG.TradersLicenseUid>.CONT>
+	TIMER=604800
+	RETURN 1
+
+ON=@TIMER
+	CONT.SYSMESSAGE @1642 Your Traders License Expires!
+	SERV.UID.<CONT.TAG.TradersLicenseUid>.REMOVE
+	CONT.TAG.TradersLicenseUid=
+	REMOVE
+
+[ITEMDEF i_tradingLicence]
+DEFNAME=i_tradingLicence
+ID=02258
+NAME=Traders License
+TYPE=t_eq_script
+VALUE=15000
+RESOURCES=i_scroll_blank 20, i_pen_and_ink 10, i_wax_seal 1
+SKILLMAKE=Inscription 100.0
+CATEGORY=AncientRealms
+SUBSECTION=Economy-Players
+DESCRIPTION=Trading Licence
+
+ON=@Create
+	ATTR=ATTR_NEWBIE
+	TAG.OwnersName=0
+	TAG.OwnersUID=0
+
+ON=@DClick
+	TAG.TradersLicenceUID=<UID>
+	IF !(<SRC.FINDID.i_LicencedMerchant>)
+		SRC.TAG.TradersLicenseUid=0
+	ENDIF	
+	IF (<CONT> == <SRC.FINDLAYER(21).UID>)
+		IF !(<SRC.TAG0.TradersLicenseUid>)
+			IF !(<TAG0.OwnersUID>)
+				SRC.SYSMESSAGE @55 This is now Licensed to you.
+				NAME=<SRC.NAME>'s Traders License
+				TAG.OwnersName=<SRC.NAME>
+				TAG.OwnersUID=<SRC.UID>
+				SRC.TAG.TradersLicenseUid=<UID>
+				COLOR=65
+				ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+				NEWITEM i_LicencedMerchant, 1, <SRC.UID>
+				NEW.LINK=<UID>
+				LINK=<NEW.UID>
+			ELSE
+				SRC.SYSMESSAGE @55 This belongs too <TAG.OwnersName>
+			ENDIF				
+		ELSE
+			IF !(<TAG0.OwnersUID>)
+				SRC.SYSMESSAGE @55 You Already Have a Traders License!
+			ELSE
+				SRC.SYSMESSAGE @55 This is Your Traders License!
+			ENDIF				
+		ENDIF
+	ELSE
+		SRC.SYSMESSAGE @00029 This must be in your Pack To Use.
+	ENDIF
+    RETURN 1
+		
+[EOF]

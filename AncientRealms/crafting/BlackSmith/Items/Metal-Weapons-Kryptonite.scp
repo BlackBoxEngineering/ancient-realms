@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Kryptonite Quarter Staff
+
+[ITEMDEF i_staff_quarter_Kryptonite]
+   DEFNAME=i_staff_quarter_Kryptonite
+   ID=i_staff_quarter
+   NAME=Kryptonite Quarter Staff
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=26
+   VALUE=135
+   SPEED=53
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={20 40}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Kryptonite]
+   DEFNAME=i_serpentstone_staff_Kryptonite
+   ID=i_serpentstone_staff
+   NAME=Kryptonite Serpentstone Staff
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=30
+   VALUE=135
+   SPEED=52
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={60 80}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Kryptonite]
+   DEFNAME=i_staff_bladed_double_Kryptonite
+   ID=i_staff_bladed_double
+   NAME=Kryptonite Double Bladed Staff
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=38
+   VALUE=135
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={120 140}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Glass Staff
+
+[ITEMDEF i_glass_staff_Kryptonite]
+   DEFNAME=i_glass_staff_Kryptonite
+   ID=i_glass_staff
+   NAME=Kryptonite Glass Staff
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=35
+   VALUE=135
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={90 110}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Bladed Staff
+
+[ITEMDEF i_bladed_staff_Kryptonite]
+   DEFNAME=i_bladed_staff_Kryptonite
+   ID=i_bladed_staff
+   NAME=Kryptonite Bladed Staff
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=36
+   VALUE=135
+   SPEED=52
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={115 135}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Tongs
+
+[ITEMDEF i_tongs_Kryptonite]
+   DEFNAME=i_tongs_Kryptonite
+   ID=i_tongs
+   NAME=Kryptonite Tongs
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=13
+   VALUE=135
+   SPEED=15
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={0 20}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Mace
+
+[ITEMDEF i_mace_Kryptonite]
+   DEFNAME=i_mace_Kryptonite
+   ID=i_mace
+   NAME=Kryptonite Mace
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=135
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={30 50}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Maul
+
+[ITEMDEF i_maul_Kryptonite]
+   DEFNAME=i_maul_Kryptonite
+   ID=i_maul
+   NAME=Kryptonite Maul
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=28
+   VALUE=135
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={40 60}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Scepter
+
+[ITEMDEF i_scepter_Kryptonite]
+   DEFNAME=i_scepter_Kryptonite
+   ID=i_scepter
+   NAME=Kryptonite Scepter
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=30
+   VALUE=135
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={50 70}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Kryptonite]
+   DEFNAME=i_hammer_sledge_Kryptonite
+   ID=i_hammer_sledge
+   NAME=Kryptonite Sledge Hammer
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=30
+   VALUE=135
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={20 40}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Kryptonite]
+   DEFNAME=i_hammer_smith_Kryptonite
+   ID=i_hammer_smith
+   NAME=Kryptonite Smiths Hammer
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=16
+   VALUE=135
+   SPEED=15
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={30 50}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite War Mace
+
+[ITEMDEF i_mace_war_Kryptonite]
+   DEFNAME=i_mace_war_Kryptonite
+   ID=i_mace_war
+   NAME=Kryptonite War Mace
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=34
+   VALUE=135
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={80 100}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Disc Mace
+
+[ITEMDEF i_disc_mace_Kryptonite]
+   DEFNAME=i_disc_mace_Kryptonite
+   ID=i_disc_mace
+   NAME=Kryptonite Disc Mace
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=34
+   VALUE=135
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={70 90}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite War Hammer
+
+[ITEMDEF i_hammer_war_Kryptonite]
+   DEFNAME=i_hammer_war_Kryptonite
+   ID=i_hammer_war
+   NAME=Kryptonite War Hammer
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=40
+   VALUE=135
+   SPEED=55
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={100 120}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Hammer Pick
+
+[ITEMDEF i_hammer_pick_Kryptonite]
+   DEFNAME=i_hammer_pick_Kryptonite
+   ID=i_hammer_pick
+   NAME=Kryptonite Hammer Pick
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=36
+   VALUE=135
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={55 75}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite War Axe
+
+[ITEMDEF i_axe_war_Kryptonite]
+   DEFNAME=i_axe_war_Kryptonite
+   ID=i_axe_war
+   NAME=Kryptonite War Axe
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=26
+   VALUE=135
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={65 85}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Tessen
+
+[ITEMDEF i_tessen_Kryptonite]
+   DEFNAME=i_tessen_Kryptonite
+   ID=i_tessen
+   NAME=Kryptonite Tessen
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=25
+   VALUE=135
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={75 95}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Long Sword
+
+[ITEMDEF i_sword_long_Kryptonite]
+   DEFNAME=i_sword_long_Kryptonite
+   ID=i_sword_long
+   NAME=Kryptonite Long Sword
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=135
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={10 30}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Broad Sword
+
+[ITEMDEF i_sword_broad_Kryptonite]
+   DEFNAME=i_sword_broad_Kryptonite
+   ID=i_sword_broad
+   NAME=Kryptonite Broad Sword
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=135
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={20 40}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Scimitar
+
+[ITEMDEF i_scimitar_Kryptonite]
+   DEFNAME=i_scimitar_Kryptonite
+   ID=i_scimitar
+   NAME=Kryptonite Scimitar
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=135
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={30 50}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Viking Sword
+
+[ITEMDEF i_sword_viking_Kryptonite]
+   DEFNAME=i_sword_viking_Kryptonite
+   ID=i_sword_viking
+   NAME=Kryptonite Viking Sword
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=135
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={35 55}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Katana
+
+[ITEMDEF i_katana_Kryptonite]
+   DEFNAME=i_katana_Kryptonite
+   ID=i_katana
+   NAME=Kryptonite Katana
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=135
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={80 100}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Wakizashi
+
+[ITEMDEF i_wakizashi_Kryptonite]
+   DEFNAME=i_wakizashi_Kryptonite
+   ID=i_wakizashi
+   NAME=Kryptonite Wakizashi
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=135
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={45 65}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Long Sword
+
+[ITEMDEF i_sword_long_b_Kryptonite]
+   DEFNAME=i_sword_long_b_Kryptonite
+   ID=i_sword_long_b
+   NAME=Kryptonite Long Sword
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=135
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={50 70}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Paladin Sword
+
+[ITEMDEF i_sword_paladin_Kryptonite]
+   DEFNAME=i_sword_paladin_Kryptonite
+   ID=i_sword_paladin
+   NAME=Kryptonite Paladin Sword
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=135
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={65 85}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Bokuto
+
+[ITEMDEF i_bokuto_Kryptonite]
+   DEFNAME=i_bokuto_Kryptonite
+   ID=i_bokuto
+   NAME=Kryptonite Bokuto
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=135
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={70 90}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Kryptonite]
+   DEFNAME=i_Radiant_Scimitar_Kryptonite
+   ID=i_Radiant_Scimitar
+   NAME=Kryptonite Radiant Scimitar
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=135
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={75 95}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Bone Harvester
+
+[ITEMDEF i_bone_harvester_Kryptonite]
+   DEFNAME=i_bone_harvester_Kryptonite
+   ID=i_bone_harvester
+   NAME=Kryptonite Bone Harvester
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=135
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={55 75}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Butcher Knife
+
+[ITEMDEF i_knife_butcher_Kryptonite]
+   DEFNAME=i_knife_butcher_Kryptonite
+   ID=i_knife_butcher
+   NAME=Kryptonite Butcher Knife
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=135
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={30 50}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Kryptonite]
+   DEFNAME=i_cleaver_meat_Kryptonite
+   ID=i_cleaver_meat
+   NAME=Kryptonite Meat Cleaver
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=135
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={30 50}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Elven Machete
+
+[ITEMDEF i_elven_machete_Kryptonite]
+   DEFNAME=i_elven_machete_Kryptonite
+   ID=i_elven_machete
+   NAME=Kryptonite Elven Machete
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=29
+   VALUE=135
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={60 80}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Bone Machete
+
+[ITEMDEF i_bone_machete_Kryptonite]
+   DEFNAME=i_bone_machete_Kryptonite
+   ID=i_bone_machete
+   NAME=Kryptonite Bone Machete
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=30
+   VALUE=135
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={50 70}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Daisho
+
+[ITEMDEF i_daisho_Kryptonite]
+   DEFNAME=i_daisho_Kryptonite
+   ID=i_daisho
+   NAME=Kryptonite Daisho
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=31
+   VALUE=135
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={65 85}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite No-Dachi
+
+[ITEMDEF i_no_dachi_Kryptonite]
+   DEFNAME=i_no_dachi_Kryptonite
+   ID=i_no_dachi
+   NAME=Kryptonite No-Dachi
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=32
+   VALUE=135
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={75 95}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Rune Blade
+
+[ITEMDEF i_Rune_Blade_Kryptonite]
+   DEFNAME=i_Rune_Blade_Kryptonite
+   ID=i_Rune_Blade
+   NAME=Kryptonite Rune Blade
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=34
+   VALUE=135
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={115 135}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Axe
+
+[ITEMDEF i_axe_Kryptonite]
+   DEFNAME=i_axe_Kryptonite
+   ID=i_axe
+   NAME=Kryptonite Axe
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=24
+   VALUE=135
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={42 62}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Bardiche
+
+[ITEMDEF i_bardiche_Kryptonite]
+   DEFNAME=i_bardiche_Kryptonite
+   ID=i_bardiche
+   NAME=Kryptonite Bardiche
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=135
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={58 78}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Battle Axe
+
+[ITEMDEF i_axe_battle_Kryptonite]
+   DEFNAME=i_axe_battle_Kryptonite
+   ID=i_axe_battle
+   NAME=Kryptonite Battle Axe
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=135
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={65 85}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Double Axe
+
+[ITEMDEF i_axe_double_Kryptonite]
+   DEFNAME=i_axe_double_Kryptonite
+   ID=i_axe_double
+   NAME=Kryptonite Double Axe
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=135
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={70 90}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Kryptonite]
+   DEFNAME=i_axe_exec_Kryptonite
+   ID=i_axe_exec
+   NAME=Kryptonite Exectutioners Axe
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=135
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={73 93}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Halberd
+
+[ITEMDEF i_halberd_Kryptonite]
+   DEFNAME=i_halberd_Kryptonite
+   ID=i_halberd
+   NAME=Kryptonite Halberd
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=35
+   VALUE=135
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={75 95}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Hatchet
+
+[ITEMDEF i_hatchet_Kryptonite]
+   DEFNAME=i_hatchet_Kryptonite
+   ID=i_hatchet
+   NAME=Kryptonite Hatchet
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=25
+   VALUE=135
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={40 60}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Kryptonite]
+   DEFNAME=i_axe_battle_large_Kryptonite
+   ID=i_axe_battle_large
+   NAME=Kryptonite Large Battle Axe
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=37
+   VALUE=135
+   SPEED=48
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={100 120}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Ornate Axe
+
+[ITEMDEF i_ornate_axe_Kryptonite]
+   DEFNAME=i_ornate_axe_Kryptonite
+   ID=i_ornate_axe
+   NAME=Kryptonite Ornate Axe
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=135
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={60 80}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Kryptonite]
+   DEFNAME=i_axe_two_hand_Kryptonite
+   ID=i_axe_two_hand
+   NAME=Kryptonite Two Handed Axe
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=35
+   VALUE=135
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={55 75}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Dual Axes
+
+[ITEMDEF i_dual_short_axes_Kryptonite]
+   DEFNAME=i_dual_short_axes_Kryptonite
+   ID=i_dual_short_axes
+   NAME=Kryptonite Dual Axes
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=135
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={95 115}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Cresent Blade
+
+[ITEMDEF i_crescent_blade_Kryptonite]
+   DEFNAME=i_crescent_blade_Kryptonite
+   ID=i_crescent_blade
+   NAME=Kryptonite Cresent Blade
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=37
+   VALUE=135
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={110 130}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Dagger
+
+[ITEMDEF i_dagger_Kryptonite]
+   DEFNAME=i_dagger_Kryptonite
+   ID=i_dagger
+   NAME=Kryptonite Dagger
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=135
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={10 30}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Skinning Knife
+
+[ITEMDEF i_knife_skinning_Kryptonite]
+   DEFNAME=i_knife_skinning_Kryptonite
+   ID=i_knife_skinning
+   NAME=Kryptonite Skinning Knife
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=135
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={15 35}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Kryptonite]
+   DEFNAME=i_sword_Assassin_Spike_Kryptonite
+   ID=i_sword_Assassin_Spike
+   NAME=Kryptonite Assassin Spike
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=135
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={30 50}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Cutlass
+
+[ITEMDEF i_cutlass_Kryptonite]
+   DEFNAME=i_cutlass_Kryptonite
+   ID=i_cutlass
+   NAME=Kryptonite Cutlass
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=135
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={25 45}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Short Blade
+
+[ITEMDEF i_shortblade_Kryptonite]
+   DEFNAME=i_shortblade_Kryptonite
+   ID=i_shortblade
+   NAME=Kryptonite Short Blade
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=135
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={35 55}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Scythe
+
+[ITEMDEF i_scythe_Kryptonite]
+   DEFNAME=i_scythe_Kryptonite
+   ID=i_scythe
+   NAME=Kryptonite Scythe
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=33
+   VALUE=135
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={115 135}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Short Spear
+
+[ITEMDEF i_spear_short_Kryptonite]
+   DEFNAME=i_spear_short_Kryptonite
+   ID=i_spear_short
+   NAME=Kryptonite Short Spear
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=135
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={45 65}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite War Fork
+
+[ITEMDEF i_war_fork_Kryptonite]
+   DEFNAME=i_war_fork_Kryptonite
+   ID=i_war_fork
+   NAME=Kryptonite War Fork
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=135
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={50 70}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Leafblade
+
+[ITEMDEF i_sword_leafblade_Kryptonite]
+   DEFNAME=i_sword_leafblade_Kryptonite
+   ID=i_sword_leafblade
+   NAME=Kryptonite Leafblade
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=135
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={60 80}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Kryptonite]
+   DEFNAME=i_elven_spellblade_Kryptonite
+   ID=i_elven_spellblade
+   NAME=Kryptonite Elven Spell Blade
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=135
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={75 95}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Pitchfork
+
+[ITEMDEF i_pitchfork_Kryptonite]
+   DEFNAME=i_pitchfork_Kryptonite
+   ID=i_pitchfork
+   NAME=Kryptonite Pitchfork
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=135
+   SPEED=43
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={55 75}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite War Cleaver
+
+[ITEMDEF i_war_cleaver_Kryptonite]
+   DEFNAME=i_war_cleaver_Kryptonite
+   ID=i_war_cleaver
+   NAME=Kryptonite War Cleaver
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=135
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={65 85}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Pike
+
+[ITEMDEF i_pike_Kryptonite]
+   DEFNAME=i_pike_Kryptonite
+   ID=i_pike
+   NAME=Kryptonite Pike
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=135
+   SPEED=43
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={70 90}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Blood Blade
+
+[ITEMDEF i_bloodblade_Kryptonite]
+   DEFNAME=i_bloodblade_Kryptonite
+   ID=i_bloodblade
+   NAME=Kryptonite Blood Blade
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=135
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={75 95}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Kama
+
+[ITEMDEF i_kama_Kryptonite]
+   DEFNAME=i_kama_Kryptonite
+   ID=i_kama
+   NAME=Kryptonite Kama
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=135
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={77 97}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Kryss
+
+[ITEMDEF i_kryss_Kryptonite]
+   DEFNAME=i_kryss_Kryptonite
+   ID=i_kryss
+   NAME=Kryptonite Kryss
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=135
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={80 100}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Lajatang
+
+[ITEMDEF i_lajatang_Kryptonite]
+   DEFNAME=i_lajatang_Kryptonite
+   ID=i_lajatang
+   NAME=Kryptonite Lajatang
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=135
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={85 105}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Sai
+
+[ITEMDEF i_sai_Kryptonite]
+   DEFNAME=i_sai_Kryptonite
+   ID=i_sai
+   NAME=Kryptonite Sai
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=29
+   VALUE=135
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={76 96}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Tekagi
+
+[ITEMDEF i_tekagi_Kryptonite]
+   DEFNAME=i_tekagi_Kryptonite
+   ID=i_tekagi
+   NAME=Kryptonite Tekagi
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=135
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={90 110}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kryptonite Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Kryptonite]
+   DEFNAME=i_dual_pointed_spear_Kryptonite
+   ID=i_dual_pointed_spear
+   NAME=Kryptonite Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Kryptonite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=32
+   VALUE=135
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kryptonite
+
+ON=@Create
+   COLOR=color_ore_Kryptonite
+   HITPOINTS={115 135}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

@@ -1,0 +1,26 @@
+[FUNCTION closealldialogsexcept]
+// closealldialogsexcept <ARGV[0]> is the dialog name to remain open.
+// (i.e) closealldialogsexcept d_keepsys_keep_setup_owners
+// Jesus
+
+IF (<DIALOGLIST.COUNT>)
+	FOR 0 <EVAL <DIALOGLIST.COUNT>-1>
+	LOCAL.DIALOGNAME=<DIALOGLIST.<dLOCAL._FOR>.ID>
+		IF (STRCMPI(<ARGV[0]>,<LOCAL.DIALOGNAME>))
+		DIALOGCLOSE <LOCAL.DIALOGNAME> <ARGN2>
+		ENDIF
+	ENDFOR
+ENDIF
+
+[FUNCTION closealldialogs]
+IF (<DIALOGLIST.COUNT>)
+	FOR 0 <EVAL <DIALOGLIST.COUNT>-1>
+		DIALOGCLOSE <DIALOGLIST.<dLOCAL._FOR>.ID> <ARGN2>
+	ENDFOR
+ENDIF
+
+[FUNCTION f_resenddialog]
+dialogclose <ARGV[0]>
+sdialog <ARGS>
+
+[EOF]

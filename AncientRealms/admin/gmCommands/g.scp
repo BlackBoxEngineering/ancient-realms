@@ -1,0 +1,41 @@
+[Function g]
+	findlayer(layer_pack).findid(i_teleto).remove
+	consume 5 i_teleto
+	Newitem i_teleto
+	act.bounce
+	act.target @1462 Teleport Who?
+return 0
+
+[Itemdef I_teleto]
+
+on=@create
+	attr 08092
+	timer 10
+
+ON=@Targon_Char
+	if (0(<src.targ.account.plevel> > <src.account.plevel>))
+		src.sysmessage @1462 You are not privileged enough to do that!
+		remove
+	else
+		link <SRC.Targ.uid>
+		targetg @1462 Where should <src.targ.name> go?
+	endif
+Return 1
+
+On=@Targon_Ground
+	src.findlayer(layer_pack).findid(i_teleto).link.go <Src.Targp>
+	src.findlayer(layer_pack).findid(i_teleto).link.update
+	remove
+Return 1
+
+ON=@TARGON_ITEM
+	src.findlayer(layer_pack).findid(i_teleto).link.p <Src.Targp>
+	remove
+Return 1
+
+on=@timer
+	src.findlayer(layer_pack).findid(i_teleto).remove
+	remove
+return 1
+
+[EOF]

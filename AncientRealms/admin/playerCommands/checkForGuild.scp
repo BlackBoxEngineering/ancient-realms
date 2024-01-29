@@ -1,0 +1,28 @@
+[FUNCTION CheckForGuild]
+SAY @63 <SRC.CountRegionGuild>
+
+[FUNCTION CountRegionCharacters]
+REF2=<UID>
+FORCHARS 2000
+   IF <ISPLAYER>
+	IF <REGION.UID> = <SRC.REGION.UID>
+      SERV.UID.<REF2>.sysmessage <NAME> <ACCOUNT.LASTIP> 
+	ENDIF
+   ENDIF
+ENDFOR
+
+[FUNCTION CountRegionGuild]
+REF1=<UID>
+LOCAL.GuildMembersPresent=0
+FORCHARS 2000
+	IF <ISPLAYER>
+		IF <REGION.UID> = <SRC.REGION.UID>
+			IF <GUILD.UID> = <SRC.GUILD.UID>
+				LOCAL.GuildMembersPresent=<LOCAL.GuildMembersPresent>+1
+			ENDIF
+		ENDIF
+	ENDIF
+ENDFOR
+RETURN <EVAL <LOCAL.GuildMembersPresent>>
+
+[EOF]

@@ -1,0 +1,208 @@
+[DEFNAME HousingExternalProperty]
+DistanceMax	15
+DistanceMin	1
+
+[PLEVEL 1]
+OwnerBumpItemCountUp
+OwnerBumpItemCountDown
+testhouselink
+
+[FUNCTION OwnerBumpItemCountUp]
+UID.<UID.<SERV.UID.<UID.<CTAG.HousingToolUID>.TAG.HouseSignUid>.REGION.UID>.MORE2>.TAG0.LOCKED_ITEMS ++
+
+[FUNCTION OwnerBumpItemCountDown]
+UID.<UID.<SERV.UID.<UID.<CTAG.HousingToolUID>.TAG.HouseSignUid>.REGION.UID>.MORE2>.TAG0.LOCKED_ITEMS --
+
+[FUNCTION testhouselink]
+REF1=<SERV.UID.<CTAG.HousingToolUID>.TAG.HouseSignUid>
+SAY @0029,,1 <REF1.MORE2>
+
+[ITEMDEF i_ExternalHousingTool]
+DEFNAME=i_ExternalHousingTool
+ID=0fc1
+NAME=External Property Tool Kit
+TYPE=t_eq_script
+VALUE=1
+WEIGHT=0.1
+
+ON=@Create
+	COLOR=63
+	TAG.Uses=<R30,100>
+
+ON=@DClick
+	IF <TAG.Uses> > 0
+		TAG.Uses --
+		SRC.CTAG.HousingToolUID=<UID>
+		SRC.SDIALOG d_ExternalHousingTool
+	ELSE
+		SRC.EMOTE destroy a housing tool
+		SRC.SYSMESSAGE @0029,,1 your property tool has been destroyed
+		REMOVE
+	ENDIF
+	RETURN 1
+	
+[DIALOG d_ExternalHousingTool]
+50,50
+PAGE 0
+RESIZEPIC 0 0 5120 237 140
+RESIZEPIC 20 20 5054 200 100
+PAGE 1
+DTEXT 40 30 346 EXTERNAL HOUSING TOOL
+IF <SERV.UID.<CTAG.HousingToolUID>.TAG.HouseSignUid>
+	DHTMLGUMP 25 58 160 25 40 0 <DEF.CENTER> <SERV.UID.<SERV.UID.<CTAG.HousingToolUID>.TAG.HouseSignUid>.NAME> <DEF.CENTER>
+	BUTTON 185 60 4018 4019 1 0 10
+	IF <SERV.UID.<SERV.UID.<CTAG.HousingToolUID>.TAG.HouseSignUid>.MORE2> == <UID>
+		BUTTON 55 90 5042 5043 1 0 30
+	ELSE
+		DTEXT 40 90 346 You must own this house
+	ENDIF
+ELSE
+	DHTMLGUMP 25 58 160 25 40 0 <DEF.CENTER> No House Is Selected <DEF.CENTER>
+	BUTTON 185 60 4015 4016 1 0 20
+ENDIF
+	
+[DIALOG d_ExternalHousingTool BUTTON]
+ONBUTTON=10
+	SERV.UID.<CTAG.HousingToolUID>.TAG.HouseSignUid=
+	SRC.SYSMESSAGE @389,,1 Selection removed.
+	SRC.SDIALOG d_ExternalHousingTool
+	RETURN 1
+	
+ONBUTTON=20
+	SRC.SYSMESSAGE @389,,1 Select your house sign.
+	SRC.TARGETF f_PropertyToolSelectHouseSign
+	RETURN 1
+
+ONBUTTON=30
+	IF <SERV.UID.<UID.<CTAG.HousingToolUID>.TAG.HouseSignUid>.REGION.UID>
+		SRC.SYSMESSAGE @389,,1 Target the items you wish to release or lock down.
+		SRC.TARGETF f_PropertyToolSelectItem
+	ELSE
+		SRC.SYSMESSAGE @389,,1 You must attach this tool to your house before use
+		SRC.SDIALOG d_ExternalHousingTool
+		RETURN 1
+	ENDIF
+	RETURN 1
+
+[FUNCTION f_PropertyToolSelectItem]
+IF <ARGO.ISITEM>
+	IF (STRMATCH(*i_Players_Gate*,<ARGO.BASEID>))
+		IF (<ARGO.CheckEvents t_locked_down>))
+			IF <ARGO.LINK> == <UID>
+				ARGO.TAG.AlwaysSend=
+				ARGO.ATTR=0
+				ARGO.EVENTS -t_locked_down
+				UID.<UID.<SERV.UID.<UID.<CTAG.HousingToolUID>.TAG.HouseSignUid>.REGION.UID>.MORE2>.TAG0.LOCKED_ITEMS --
+				IF !(<REGION.FLAGS> & region_flag_nodecay)
+					ARGO.ATTR=<REF1.ATTR>|attr_decay
+					ARGO.TIMER=<EVAL <SERV.DecayTimer>*60>
+				ENDIF
+				ARGO.UPDATE
+				ARGO.SAY @63,,1 Released!
+				ARGO.TAG.Locked=
+				ARGO.LINK =
+				ARGO.MORE1=<ARGO.UID>
+				SERV.UID.<ARGO.TAG.CurrentKeyUID>.REMOVE
+				SYSMESSAGE @00029,,1 A newbie key for this gate has been deleted.
+				SYSMESSAGE @00029,,1 Press ESC to cancel target
+			ELSE
+				SYSMESSAGE @00029,,1 That is not your property.
+				RETURN 1
+			ENDIF
+		ELSE	
+			//IF (<ARGO.CAN> & can_i_block)
+				ARGO.TAG.AlwaysSend=1
+			//ENDIF
+			ARGO.ATTR=010
+			ARGO.TIMER=-1
+			ARGO.EVENTS +t_locked_down
+			ARGO.TYPE=t_door_locked
+			UID.<UID.<SERV.UID.<UID.<CTAG.HousingToolUID>.TAG.HouseSignUid>.REGION.UID>.MORE2>.TAG0.LOCKED_ITEMS ++
+			ARGO.UPDATE
+			ARGO.SAY @95,,1 Locked Down!
+			ARGO.TAG.Locked=1
+			REF1=<SERV.UID.<CTAG.HousingToolUID>.TAG.HouseSignUid>
+			ARGO.LINK = <REF1.MORE2>
+			SYSMESSAGE @00029,,1 Press ESC to cancel target <SERV.<UID.<CTAG.HousingToolUID>.TAG.HouseSignUid>.MORE2>
+			SERV.NEWITEM=i_key_copper, 1, <UID>
+			NEW.ATTR=04
+			NEW.MORE1=<ARGO.UID>
+			ARGO.MORE1=<ARGO.UID>
+			ARGO.TAG.CurrentKeyUID=<NEW.UID>
+			SYSMESSAGE @00029,,1 A newbie key for this gate has been created.
+			REF1=<SERV.UID.<CTAG.HousingToolUID>.TAG.HouseSignUid>
+			ARGO.LINK = <REF1.MORE2>
+		ENDIF
+		TARGETF f_PropertyToolSelectItem
+		RETURN 1
+	ENDIF
+	IF (<ARGO.CONT.UID>)
+		SYSMESSAGE @00029,,1 This item cannot be inside a container.
+		RETURN 1
+	ENDIF
+	IF (<ARGO.DISTANCE <SERV.UID.<CTAG.HousingToolUID>.TAG.HouseSignUid>> < <EVAL DistanceMin>)
+		SYSMESSAGE @00029,,1 That is too close to your house sign move it first.
+		RETURN 1
+	ENDIF
+	IF (<ARGO.DISTANCE <SERV.UID.<CTAG.HousingToolUID>.TAG.HouseSignUid>> > <EVAL DistanceMax>)
+		SYSMESSAGE @00029,,1 That is too far away from your house sign move it first.
+		RETURN 1
+	ENDIF
+	IF (<ARGO.CheckEvents t_locked_down>))
+		IF <ARGO.LINK> == <UID>
+			ARGO.TAG.AlwaysSend=
+			ARGO.ATTR=0
+			ARGO.EVENTS -t_locked_down
+			UID.<UID.<SERV.UID.<UID.<CTAG.HousingToolUID>.TAG.HouseSignUid>.REGION.UID>.MORE2>.TAG0.LOCKED_ITEMS --
+			IF !(<REGION.FLAGS> & region_flag_nodecay)
+				ARGO.ATTR=<REF1.ATTR>|attr_decay
+				ARGO.TIMER=<EVAL <SERV.DecayTimer>*60>
+			ENDIF
+			ARGO.UPDATE
+			ARGO.SAY @63,,1 Released!
+			ARGO.TAG.Locked=
+			ARGO.LINK =
+			SYSMESSAGE @00029,,1 Press ESC to cancel target
+		ELSE
+			SYSMESSAGE @00029,,1 That is not your property.
+			RETURN 1
+		ENDIF
+	ELSE
+		IF (<ARGO.CAN> & can_i_block)
+			ARGO.TAG.AlwaysSend=1
+		ENDIF
+		ARGO.ATTR=010
+		ARGO.TIMER=-1
+		ARGO.EVENTS +t_locked_down
+		UID.<UID.<SERV.UID.<UID.<CTAG.HousingToolUID>.TAG.HouseSignUid>.REGION.UID>.MORE2>.TAG0.LOCKED_ITEMS ++
+		ARGO.UPDATE
+		ARGO.SAY @95,,1 Locked Down!
+		ARGO.TAG.Locked=1
+		REF1=<SERV.UID.<CTAG.HousingToolUID>.TAG.HouseSignUid>
+		ARGO.LINK = <REF1.MORE2>
+		SYSMESSAGE @00029,,1 Press ESC to cancel target
+	ENDIF		
+	TARGETF f_PropertyToolSelectItem
+	RETURN 1
+ELSE
+	SYSMESSAGE @00029,,1 That is not an Item you may use with the property tool.
+	RETURN 1
+ENDIF
+RETURN 1
+
+[FUNCTION f_PropertyToolSelectHouseSign]
+IF (STRMATCH(*i_sign_brass*,<ARGO.BASEID>))
+	IF !(<ARGO.MORE2>==<UID>)
+		SYSMESSAGE @00029,,1 That is not your house.
+	ELSE
+		SYSMESSAGE @389,,1 You attach the tool to your house
+		SERV.UID.<CTAG.HousingToolUID>.TAG.HouseSignUid=<ARGO.UID>
+	ENDIF
+ELSE
+	SYSMESSAGE @00029,,1 Target your house sign thats not it
+	SERV.UID.<CTAG.HousingToolUID>.TAG.HouseSignUid=
+ENDIF
+SDIALOG d_ExternalHousingTool
+RETURN 1
+
+[EOF]

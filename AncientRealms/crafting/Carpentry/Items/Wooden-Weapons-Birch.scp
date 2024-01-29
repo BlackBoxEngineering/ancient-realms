@@ -1,0 +1,563 @@
+/////////////////////////////////////////////Birch WildStaff
+
+[ITEMDEF i_mace_wildstaff_Birch]
+   DEFNAME=i_mace_wildstaff_Birch
+   ID=i_mace_wildstaff
+   NAME=Birch WildStaff
+   RESOURCES= 20 i_log_Birch
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=28
+   VALUE=90
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Birch
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS={60 76}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch Black Staff
+
+[ITEMDEF i_staff_black_Birch]
+   DEFNAME=i_staff_black_Birch
+   ID=i_staff_black
+   NAME=Birch Black Staff
+   RESOURCES= 20 i_log_Birch
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=26
+   VALUE=90
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Birch
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch Gnarled Staff
+
+[ITEMDEF i_staff_gnarled_Birch]
+   DEFNAME=i_staff_gnarled_Birch
+   ID=i_staff_gnarled
+   NAME=Birch Gnarled Staff
+   RESOURCES= 20 i_log_Birch
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=24
+   VALUE=90
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Birch
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch Nunchaku
+
+[ITEMDEF i_nunchaku_Birch]
+   DEFNAME=i_nunchaku_Birch
+   ID=i_nunchaku
+   NAME=Birch Nunchaku
+   RESOURCES= 20 i_log_Birch
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=26
+   VALUE=90
+   SPEED=38
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Birch
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch Club
+
+[ITEMDEF i_club_Birch]
+   DEFNAME=i_club_Birch
+   ID=i_club
+   NAME=Birch Club
+   RESOURCES= 20 i_log_Birch
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=22
+   VALUE=90
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=CARPENTRY 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Birch
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS={10 26}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch Tetsubo
+
+[ITEMDEF i_tetsubo_Birch]
+   DEFNAME=i_tetsubo_Birch
+   ID=i_tetsubo
+   NAME=Birch Tetsubo
+   RESOURCES= 20 i_log_Birch
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=32
+   VALUE=90
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Birch
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS={80 96}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch Spear
+
+[ITEMDEF i_spear_Birch]
+   DEFNAME=i_spear_Birch
+   ID=i_spear
+   NAME=Birch Spear
+   RESOURCES= 20 i_log_Birch
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=90
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Birch
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS={60 76}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch Lance
+
+[ITEMDEF i_lance_Birch]
+   DEFNAME=i_lance_Birch
+   ID=i_lance
+   NAME=Birch Lance
+   RESOURCES= 20 i_log_Birch
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=90
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Birch
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS={100 116}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch Bow
+
+[ITEMDEF i_bow_Birch]
+   DEFNAME=i_bow_Birch
+   ID=i_bow
+   NAME=Birch Bow
+   RESOURCES= 20 i_log_Birch
+   WEIGHT=18
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=22
+   VALUE=90
+   SPEED=43
+   SKILL=ARCHERY
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Birch
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch Composite Bow
+
+[ITEMDEF i_composite_bow_Birch]
+   DEFNAME=i_composite_bow_Birch
+   ID=i_composite_bow
+   NAME=Birch Composite Bow
+   RESOURCES= 20 i_log_Birch
+   WEIGHT=18
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=23
+   VALUE=90
+   SPEED=41
+   SKILL=ARCHERY
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Birch
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS={50 66}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch Eleven Composite Bow
+
+[ITEMDEF i_elven_composite_longbow_Birch]
+   DEFNAME=i_elven_composite_longbow_Birch
+   ID=i_elven_composite_longbow
+   NAME=Birch Eleven Composite Bow
+   RESOURCES= 20 i_log_Birch
+   WEIGHT=18
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=24
+   VALUE=90
+   SPEED=39
+   SKILL=ARCHERY
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Birch
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS={70 86}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch Assassin Shortbow
+
+[ITEMDEF i_assassin_shortbow_Birch]
+   DEFNAME=i_assassin_shortbow_Birch
+   ID=i_assassin_shortbow
+   NAME=Birch Assassin Shortbow
+   RESOURCES= 20 i_log_Birch
+   WEIGHT=18
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=25
+   VALUE=90
+   SPEED=37
+   SKILL=ARCHERY
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Birch
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS={90 106}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch Yumi
+
+[ITEMDEF i_yumi_Birch]
+   DEFNAME=i_yumi_Birch
+   ID=i_yumi
+   NAME=Birch Yumi
+   RESOURCES= 20 i_log_Birch
+   WEIGHT=18
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=26
+   VALUE=90
+   SPEED=35
+   SKILL=ARCHERY
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Birch
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS={100 116}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch Crossbow
+
+[ITEMDEF i_crossbow_Birch]
+   DEFNAME=i_crossbow_Birch
+   ID=i_crossbow
+   NAME=Birch Crossbow
+   RESOURCES= 20 i_log_Birch
+   WEIGHT=18
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=24
+   VALUE=90
+   SPEED=53
+   SKILL=ARCHERY
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Birch
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS={50 66}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch Heavy Crossbow
+
+[ITEMDEF i_crossbow_heavy_Birch]
+   DEFNAME=i_crossbow_heavy_Birch
+   ID=i_crossbow_heavy
+   NAME=Birch Heavy Crossbow
+   RESOURCES= 20 i_log_Birch
+   WEIGHT=18
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=26
+   VALUE=90
+   SPEED=51
+   SKILL=ARCHERY
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Birch
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS={70 86}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch Repeating Crossbow
+
+[ITEMDEF i_repeating_crossbow_Birch]
+   DEFNAME=i_repeating_crossbow_Birch
+   ID=i_repeating_crossbow
+   NAME=Birch Repeating Crossbow
+   RESOURCES= 20 i_log_Birch
+   WEIGHT=18
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=23
+   VALUE=90
+   SPEED=49
+   SKILL=ARCHERY
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Birch
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS={90 106}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Birch Bola
+
+[ITEMDEF i_bola_Birch]
+   DEFNAME=i_bola_Birch
+   ID=i_bola
+   NAME=Birch Bola
+   RESOURCES= 20 i_log_Birch
+   WEIGHT=18
+   TYPE=t_bola
+   FLIP=1
+   DAM=20
+   VALUE=90
+   SPEED=38
+   SKILL=ARCHERY
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=TINKERING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Birch
+
+ON=@Create
+   COLOR=color_log_Birch
+   HITPOINTS={110 126}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

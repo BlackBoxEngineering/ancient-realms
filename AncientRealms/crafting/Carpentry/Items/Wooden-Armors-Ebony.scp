@@ -1,0 +1,466 @@
+/////////////////////////////////////////////Ebony woodland chest
+[ITEMDEF i_woodland_chest_Ebony]
+   DEFNAME= i_woodland_chest_Ebony
+   ID= i_woodland_chest
+   NAME= Ebony woodland chest
+   ARMOR= 29
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 20 i_log_Ebony
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ebony
+   DESCRIPTION= woodland chest
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS= {99 810}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony woodland belt
+[ITEMDEF i_woodland_belt_Ebony]
+   DEFNAME= i_woodland_belt_Ebony
+   ID= i_woodland_belt
+   NAME= Ebony woodland belt
+   ARMOR= 24
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Ebony
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ebony
+   DESCRIPTION= woodland belt
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS= {99 810}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony woodland gorget
+[ITEMDEF i_woodland_gorget_Ebony]
+   DEFNAME= i_woodland_gorget_Ebony
+   ID= i_woodland_gorget
+   NAME= Ebony woodland gorget
+   ARMOR= 15
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Ebony
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ebony
+   DESCRIPTION= woodland gorget
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS= {99 810}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony woodland gauntlets
+[ITEMDEF i_woodland_gauntlets_Ebony]
+   DEFNAME= i_woodland_gauntlets_Ebony
+   ID= i_woodland_gauntlets
+   NAME= Ebony woodland gauntlets
+   ARMOR= 15
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Ebony
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ebony
+   DESCRIPTION= woodland gauntlets
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS= {99 810}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony woodland leggings
+[ITEMDEF i_woodland_leggings_Ebony]
+   DEFNAME= i_woodland_leggings_Ebony
+   ID= i_woodland_leggings
+   NAME= Ebony woodland leggings
+   ARMOR= 24
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Ebony
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ebony
+   DESCRIPTION= woodland leggings
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS= {99 810}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony woodland arms
+[ITEMDEF i_woodland_arms_Ebony]
+   DEFNAME= i_woodland_arms_Ebony
+   ID= i_woodland_arms
+   NAME= Ebony woodland arms
+   ARMOR= 17
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 8 i_log_Ebony
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ebony
+   DESCRIPTION= woodland arms
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS= {99 810}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony female woodland chest
+[ITEMDEF i_armor_female_woodland_Ebony]
+   DEFNAME= i_armor_female_woodland_Ebony
+   ID= i_armor_female_woodland
+   NAME= Ebony female woodland chest
+   ARMOR= 25
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 16 i_log_Ebony
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ebony
+   DESCRIPTION= female woodland chest
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS= {99 810}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony leaf tunic
+[ITEMDEF i_leaf_tunic_Ebony]
+   DEFNAME= i_leaf_tunic_Ebony
+   ID= i_leaf_tunic
+   NAME= Ebony leaf tunic
+   ARMOR= 27
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 18 i_log_Ebony
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ebony
+   DESCRIPTION= leaf tunic
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony leaf gloves
+[ITEMDEF i_leaf_gloves_Ebony]
+   DEFNAME= i_leaf_gloves_Ebony
+   ID= i_leaf_gloves
+   NAME= Ebony leaf gloves
+   ARMOR= 21
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_log_Ebony
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ebony
+   DESCRIPTION= leaf gloves
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony leaf gorget
+[ITEMDEF i_leaf_gorget_Ebony]
+   DEFNAME= i_leaf_gorget_Ebony
+   ID= i_leaf_gorget
+   NAME= Ebony leaf gorget
+   ARMOR= 17
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Ebony
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ebony
+   DESCRIPTION= leaf gorget
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony leaf arms
+[ITEMDEF i_leaf_arms_Ebony]
+   DEFNAME= i_leaf_arms_Ebony
+   ID= i_leaf_arms
+   NAME= Ebony leaf arms
+   ARMOR= 17
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Ebony
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ebony
+   DESCRIPTION= leaf arms
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony leaf leggings
+[ITEMDEF i_leaf_leggings_Ebony]
+   DEFNAME= i_leaf_leggings_Ebony
+   ID= i_leaf_leggings
+   NAME= Ebony leaf leggings
+   ARMOR= 24
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 15 i_log_Ebony
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ebony
+   DESCRIPTION= leaf leggings
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony leaf tonlet
+[ITEMDEF i_leaf_tonlet_Ebony]
+   DEFNAME= i_leaf_tonlet_Ebony
+   ID= i_leaf_tonlet
+   NAME= Ebony leaf tonlet
+   ARMOR= 13
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 4 i_log_Ebony
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ebony
+   DESCRIPTION= leaf tonlet
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony raven helm
+[ITEMDEF i_helm_raven_Ebony]
+   DEFNAME= i_helm_raven_Ebony
+   ID= i_helm_raven
+   NAME= Ebony raven helm
+   ARMOR= 17
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Ebony
+   SKILLMAKE= CARPENTRY 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ebony
+   DESCRIPTION= raven helm
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS= {69 540}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony vulture helm
+[ITEMDEF i_helm_vulture_Ebony]
+   DEFNAME= i_helm_vulture_Ebony
+   ID= i_helm_vulture
+   NAME= Ebony vulture helm
+   ARMOR= 17
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Ebony
+   SKILLMAKE= CARPENTRY 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ebony
+   DESCRIPTION= vulture helm
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS= {89 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ebony winged helm
+[ITEMDEF i_helm_winged_Ebony]
+   DEFNAME= i_helm_winged_Ebony
+   ID= i_helm_winged
+   NAME= Ebony winged helm
+   ARMOR= 17
+   WEIGHT= 19
+   VALUE= 90
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Ebony
+   SKILLMAKE= CARPENTRY 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ebony
+   DESCRIPTION= winged helm
+
+ON=@Create
+   COLOR=color_log_Ebony
+   HITPOINTS= {109 900}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

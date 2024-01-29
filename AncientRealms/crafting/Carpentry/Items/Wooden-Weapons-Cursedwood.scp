@@ -1,0 +1,563 @@
+/////////////////////////////////////////////Cursedwood WildStaff
+
+[ITEMDEF i_mace_wildstaff_Cursedwood]
+   DEFNAME=i_mace_wildstaff_Cursedwood
+   ID=i_mace_wildstaff
+   NAME=Cursedwood WildStaff
+   RESOURCES= 20 i_log_Cursedwood
+   WEIGHT=22
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=32
+   VALUE=138
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cursedwood
+
+ON=@Create
+   COLOR=color_log_Cursedwood
+   HITPOINTS={60 84}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cursedwood Black Staff
+
+[ITEMDEF i_staff_black_Cursedwood]
+   DEFNAME=i_staff_black_Cursedwood
+   ID=i_staff_black
+   NAME=Cursedwood Black Staff
+   RESOURCES= 20 i_log_Cursedwood
+   WEIGHT=22
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=30
+   VALUE=138
+   SPEED=53
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cursedwood
+
+ON=@Create
+   COLOR=color_log_Cursedwood
+   HITPOINTS={30 54}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cursedwood Gnarled Staff
+
+[ITEMDEF i_staff_gnarled_Cursedwood]
+   DEFNAME=i_staff_gnarled_Cursedwood
+   ID=i_staff_gnarled
+   NAME=Cursedwood Gnarled Staff
+   RESOURCES= 20 i_log_Cursedwood
+   WEIGHT=22
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=28
+   VALUE=138
+   SPEED=55
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cursedwood
+
+ON=@Create
+   COLOR=color_log_Cursedwood
+   HITPOINTS={30 54}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cursedwood Nunchaku
+
+[ITEMDEF i_nunchaku_Cursedwood]
+   DEFNAME=i_nunchaku_Cursedwood
+   ID=i_nunchaku
+   NAME=Cursedwood Nunchaku
+   RESOURCES= 20 i_log_Cursedwood
+   WEIGHT=22
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=30
+   VALUE=138
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cursedwood
+
+ON=@Create
+   COLOR=color_log_Cursedwood
+   HITPOINTS={30 54}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cursedwood Club
+
+[ITEMDEF i_club_Cursedwood]
+   DEFNAME=i_club_Cursedwood
+   ID=i_club
+   NAME=Cursedwood Club
+   RESOURCES= 20 i_log_Cursedwood
+   WEIGHT=22
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=138
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=CARPENTRY 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cursedwood
+
+ON=@Create
+   COLOR=color_log_Cursedwood
+   HITPOINTS={10 34}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cursedwood Tetsubo
+
+[ITEMDEF i_tetsubo_Cursedwood]
+   DEFNAME=i_tetsubo_Cursedwood
+   ID=i_tetsubo
+   NAME=Cursedwood Tetsubo
+   RESOURCES= 20 i_log_Cursedwood
+   WEIGHT=22
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=36
+   VALUE=138
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cursedwood
+
+ON=@Create
+   COLOR=color_log_Cursedwood
+   HITPOINTS={80 104}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cursedwood Spear
+
+[ITEMDEF i_spear_Cursedwood]
+   DEFNAME=i_spear_Cursedwood
+   ID=i_spear
+   NAME=Cursedwood Spear
+   RESOURCES= 20 i_log_Cursedwood
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=30
+   VALUE=138
+   SPEED=46
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cursedwood
+
+ON=@Create
+   COLOR=color_log_Cursedwood
+   HITPOINTS={60 84}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cursedwood Lance
+
+[ITEMDEF i_lance_Cursedwood]
+   DEFNAME=i_lance_Cursedwood
+   ID=i_lance
+   NAME=Cursedwood Lance
+   RESOURCES= 20 i_log_Cursedwood
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=32
+   VALUE=138
+   SPEED=44
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cursedwood
+
+ON=@Create
+   COLOR=color_log_Cursedwood
+   HITPOINTS={100 124}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cursedwood Bow
+
+[ITEMDEF i_bow_Cursedwood]
+   DEFNAME=i_bow_Cursedwood
+   ID=i_bow
+   NAME=Cursedwood Bow
+   RESOURCES= 20 i_log_Cursedwood
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=26
+   VALUE=138
+   SPEED=47
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cursedwood
+
+ON=@Create
+   COLOR=color_log_Cursedwood
+   HITPOINTS={30 54}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cursedwood Composite Bow
+
+[ITEMDEF i_composite_bow_Cursedwood]
+   DEFNAME=i_composite_bow_Cursedwood
+   ID=i_composite_bow
+   NAME=Cursedwood Composite Bow
+   RESOURCES= 20 i_log_Cursedwood
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=27
+   VALUE=138
+   SPEED=45
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cursedwood
+
+ON=@Create
+   COLOR=color_log_Cursedwood
+   HITPOINTS={50 74}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cursedwood Eleven Composite Bow
+
+[ITEMDEF i_elven_composite_longbow_Cursedwood]
+   DEFNAME=i_elven_composite_longbow_Cursedwood
+   ID=i_elven_composite_longbow
+   NAME=Cursedwood Eleven Composite Bow
+   RESOURCES= 20 i_log_Cursedwood
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=28
+   VALUE=138
+   SPEED=43
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cursedwood
+
+ON=@Create
+   COLOR=color_log_Cursedwood
+   HITPOINTS={70 94}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cursedwood Assassin Shortbow
+
+[ITEMDEF i_assassin_shortbow_Cursedwood]
+   DEFNAME=i_assassin_shortbow_Cursedwood
+   ID=i_assassin_shortbow
+   NAME=Cursedwood Assassin Shortbow
+   RESOURCES= 20 i_log_Cursedwood
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=29
+   VALUE=138
+   SPEED=41
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cursedwood
+
+ON=@Create
+   COLOR=color_log_Cursedwood
+   HITPOINTS={90 114}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cursedwood Yumi
+
+[ITEMDEF i_yumi_Cursedwood]
+   DEFNAME=i_yumi_Cursedwood
+   ID=i_yumi
+   NAME=Cursedwood Yumi
+   RESOURCES= 20 i_log_Cursedwood
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=30
+   VALUE=138
+   SPEED=39
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cursedwood
+
+ON=@Create
+   COLOR=color_log_Cursedwood
+   HITPOINTS={100 124}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cursedwood Crossbow
+
+[ITEMDEF i_crossbow_Cursedwood]
+   DEFNAME=i_crossbow_Cursedwood
+   ID=i_crossbow
+   NAME=Cursedwood Crossbow
+   RESOURCES= 20 i_log_Cursedwood
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=28
+   VALUE=138
+   SPEED=57
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cursedwood
+
+ON=@Create
+   COLOR=color_log_Cursedwood
+   HITPOINTS={50 74}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cursedwood Heavy Crossbow
+
+[ITEMDEF i_crossbow_heavy_Cursedwood]
+   DEFNAME=i_crossbow_heavy_Cursedwood
+   ID=i_crossbow_heavy
+   NAME=Cursedwood Heavy Crossbow
+   RESOURCES= 20 i_log_Cursedwood
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=30
+   VALUE=138
+   SPEED=55
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cursedwood
+
+ON=@Create
+   COLOR=color_log_Cursedwood
+   HITPOINTS={70 94}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cursedwood Repeating Crossbow
+
+[ITEMDEF i_repeating_crossbow_Cursedwood]
+   DEFNAME=i_repeating_crossbow_Cursedwood
+   ID=i_repeating_crossbow
+   NAME=Cursedwood Repeating Crossbow
+   RESOURCES= 20 i_log_Cursedwood
+   WEIGHT=22
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=27
+   VALUE=138
+   SPEED=53
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cursedwood
+
+ON=@Create
+   COLOR=color_log_Cursedwood
+   HITPOINTS={90 114}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cursedwood Bola
+
+[ITEMDEF i_bola_Cursedwood]
+   DEFNAME=i_bola_Cursedwood
+   ID=i_bola
+   NAME=Cursedwood Bola
+   RESOURCES= 20 i_log_Cursedwood
+   WEIGHT=22
+   TYPE=t_bola
+   FLIP=1
+   DAM=24
+   VALUE=138
+   SPEED=42
+   SKILL=ARCHERY
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=TINKERING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Cursedwood
+
+ON=@Create
+   COLOR=color_log_Cursedwood
+   HITPOINTS={110 134}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

@@ -1,0 +1,101 @@
+/////////////////////////////////////////////Apple Ore
+[REGIONRESOURCE mr_Apple]
+SKILL= 0,120
+AMOUNT= 1,13
+REAP = i_log_Apple
+REGEN = 60*10*1
+/////////////////////////////////////////////BogOak Ore
+[REGIONRESOURCE mr_BogOak]
+SKILL= 30,120
+AMOUNT= 1,13
+REAP = i_log_BogOak
+REGEN = 60*10*2
+/////////////////////////////////////////////Oak Ore
+[REGIONRESOURCE mr_Oak]
+SKILL= 5,120
+AMOUNT= 1,13
+REAP = i_log_Oak
+REGEN = 60*10*3
+/////////////////////////////////////////////Ash Ore
+[REGIONRESOURCE mr_Ash]
+SKILL= 10,120
+AMOUNT= 1,12
+REAP = i_log_Ash
+REGEN = 60*10*4
+/////////////////////////////////////////////Yew Ore
+[REGIONRESOURCE mr_Yew]
+SKILL= 12,120
+AMOUNT= 1,12
+REAP = i_log_Yew
+REGEN = 60*10*5
+/////////////////////////////////////////////Willow Ore
+[REGIONRESOURCE mr_Willow]
+SKILL= 15,120
+AMOUNT= 1,12
+REAP = i_log_Willow
+REGEN = 60*10*6
+/////////////////////////////////////////////Cypress Ore
+[REGIONRESOURCE mr_Cypress]
+SKILL= 20,120
+AMOUNT= 1,12
+REAP = i_log_Cypress
+REGEN = 60*10*7
+/////////////////////////////////////////////Birch Ore
+[REGIONRESOURCE mr_Birch]
+SKILL= 25,120
+AMOUNT= 1,12
+REAP = i_log_Birch
+REGEN = 60*10*8
+/////////////////////////////////////////////Ebony Ore
+[REGIONRESOURCE mr_Ebony]
+SKILL= 40,120
+AMOUNT= 1,12
+REAP = i_log_Ebony
+REGEN = 60*10*9
+/////////////////////////////////////////////Walnut Ore
+[REGIONRESOURCE mr_Walnut]
+SKILL= 30,120
+AMOUNT= 1,12
+REAP = i_log_Walnut
+REGEN = 60*10*10
+/////////////////////////////////////////////Cherry Ore
+[REGIONRESOURCE mr_Cherry]
+SKILL= 35,120
+AMOUNT= 1,11
+REAP = i_log_Cherry
+REGEN = 60*10*11
+/////////////////////////////////////////////Blackcherry Ore
+[REGIONRESOURCE mr_Blackcherry]
+SKILL= 40,120
+AMOUNT= 1,11
+REAP = i_log_Blackcherry
+REGEN = 60*10*12
+/////////////////////////////////////////////Maple Ore
+[REGIONRESOURCE mr_Maple]
+SKILL= 45,120
+AMOUNT= 1,11
+REAP = i_log_Maple
+REGEN = 60*10*13
+/////////////////////////////////////////////Hawthorn Ore
+[REGIONRESOURCE mr_Hawthorn]
+SKILL= 50,120
+AMOUNT= 1,10
+REAP = i_log_Hawthorn
+REGEN = 60*10*14
+/////////////////////////////////////////////Blessedwood Ore
+[REGIONRESOURCE mr_Blessedwood]
+SKILL= 120,120
+AMOUNT= 1,10
+REAP = i_log_Blessedwood
+REGEN = 60*10*15
+/////////////////////////////////////////////Cursedwood Ore
+[REGIONRESOURCE mr_Cursedwood]
+SKILL= 120,120
+AMOUNT= 1,10
+REAP = i_log_Cursedwood
+REGEN = 60*10*
+/////////////////////////////////////////////Apple Ore
+[DEFNAME LogSets]
+random_log { i_log_Apple 1  i_log_BogOak 1  i_log_Oak 1  i_log_Ash 1  i_log_Yew 1  i_log_Willow 1  i_log_Cypress 1  i_log_Birch 1 }
+random_logB { i_log_Ebony 1  i_log_Walnut 1  i_log_Cherry 1  i_log_Blackcherry 1  i_log_Maple 1  i_log_Hawthorn 1  i_log_Blessedwood 1 i_log_Cursedwood 1 }
+[EOF]

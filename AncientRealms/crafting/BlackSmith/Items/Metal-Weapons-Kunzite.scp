@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Kunzite Quarter Staff
+
+[ITEMDEF i_staff_quarter_Kunzite]
+   DEFNAME=i_staff_quarter_Kunzite
+   ID=i_staff_quarter
+   NAME=Kunzite Quarter Staff
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=21
+   VALUE=68
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={20 30}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Kunzite]
+   DEFNAME=i_serpentstone_staff_Kunzite
+   ID=i_serpentstone_staff
+   NAME=Kunzite Serpentstone Staff
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=25
+   VALUE=68
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={60 70}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Kunzite]
+   DEFNAME=i_staff_bladed_double_Kunzite
+   ID=i_staff_bladed_double
+   NAME=Kunzite Double Bladed Staff
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=33
+   VALUE=68
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={120 130}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Glass Staff
+
+[ITEMDEF i_glass_staff_Kunzite]
+   DEFNAME=i_glass_staff_Kunzite
+   ID=i_glass_staff
+   NAME=Kunzite Glass Staff
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=30
+   VALUE=68
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={90 100}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Bladed Staff
+
+[ITEMDEF i_bladed_staff_Kunzite]
+   DEFNAME=i_bladed_staff_Kunzite
+   ID=i_bladed_staff
+   NAME=Kunzite Bladed Staff
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=31
+   VALUE=68
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={115 125}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Tongs
+
+[ITEMDEF i_tongs_Kunzite]
+   DEFNAME=i_tongs_Kunzite
+   ID=i_tongs
+   NAME=Kunzite Tongs
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=8
+   VALUE=68
+   SPEED=10
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={0 10}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Mace
+
+[ITEMDEF i_mace_Kunzite]
+   DEFNAME=i_mace_Kunzite
+   ID=i_mace
+   NAME=Kunzite Mace
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=21
+   VALUE=68
+   SPEED=39
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Maul
+
+[ITEMDEF i_maul_Kunzite]
+   DEFNAME=i_maul_Kunzite
+   ID=i_maul
+   NAME=Kunzite Maul
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=23
+   VALUE=68
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={40 50}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Scepter
+
+[ITEMDEF i_scepter_Kunzite]
+   DEFNAME=i_scepter_Kunzite
+   ID=i_scepter
+   NAME=Kunzite Scepter
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=25
+   VALUE=68
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={50 60}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Kunzite]
+   DEFNAME=i_hammer_sledge_Kunzite
+   ID=i_hammer_sledge
+   NAME=Kunzite Sledge Hammer
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=25
+   VALUE=68
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={20 30}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Kunzite]
+   DEFNAME=i_hammer_smith_Kunzite
+   ID=i_hammer_smith
+   NAME=Kunzite Smiths Hammer
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=11
+   VALUE=68
+   SPEED=10
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite War Mace
+
+[ITEMDEF i_mace_war_Kunzite]
+   DEFNAME=i_mace_war_Kunzite
+   ID=i_mace_war
+   NAME=Kunzite War Mace
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=29
+   VALUE=68
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={80 90}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Disc Mace
+
+[ITEMDEF i_disc_mace_Kunzite]
+   DEFNAME=i_disc_mace_Kunzite
+   ID=i_disc_mace
+   NAME=Kunzite Disc Mace
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=29
+   VALUE=68
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={70 80}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite War Hammer
+
+[ITEMDEF i_hammer_war_Kunzite]
+   DEFNAME=i_hammer_war_Kunzite
+   ID=i_hammer_war
+   NAME=Kunzite War Hammer
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=35
+   VALUE=68
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={100 110}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Hammer Pick
+
+[ITEMDEF i_hammer_pick_Kunzite]
+   DEFNAME=i_hammer_pick_Kunzite
+   ID=i_hammer_pick
+   NAME=Kunzite Hammer Pick
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=31
+   VALUE=68
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={55 65}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite War Axe
+
+[ITEMDEF i_axe_war_Kunzite]
+   DEFNAME=i_axe_war_Kunzite
+   ID=i_axe_war
+   NAME=Kunzite War Axe
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=21
+   VALUE=68
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={65 75}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Tessen
+
+[ITEMDEF i_tessen_Kunzite]
+   DEFNAME=i_tessen_Kunzite
+   ID=i_tessen
+   NAME=Kunzite Tessen
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=20
+   VALUE=68
+   SPEED=35
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={75 85}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Long Sword
+
+[ITEMDEF i_sword_long_Kunzite]
+   DEFNAME=i_sword_long_Kunzite
+   ID=i_sword_long
+   NAME=Kunzite Long Sword
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=68
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={10 20}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Broad Sword
+
+[ITEMDEF i_sword_broad_Kunzite]
+   DEFNAME=i_sword_broad_Kunzite
+   ID=i_sword_broad
+   NAME=Kunzite Broad Sword
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=68
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={20 30}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Scimitar
+
+[ITEMDEF i_scimitar_Kunzite]
+   DEFNAME=i_scimitar_Kunzite
+   ID=i_scimitar
+   NAME=Kunzite Scimitar
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=68
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Viking Sword
+
+[ITEMDEF i_sword_viking_Kunzite]
+   DEFNAME=i_sword_viking_Kunzite
+   ID=i_sword_viking
+   NAME=Kunzite Viking Sword
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=68
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={35 45}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Katana
+
+[ITEMDEF i_katana_Kunzite]
+   DEFNAME=i_katana_Kunzite
+   ID=i_katana
+   NAME=Kunzite Katana
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=68
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={80 90}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Wakizashi
+
+[ITEMDEF i_wakizashi_Kunzite]
+   DEFNAME=i_wakizashi_Kunzite
+   ID=i_wakizashi
+   NAME=Kunzite Wakizashi
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=68
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={45 55}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Long Sword
+
+[ITEMDEF i_sword_long_b_Kunzite]
+   DEFNAME=i_sword_long_b_Kunzite
+   ID=i_sword_long_b
+   NAME=Kunzite Long Sword
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=68
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={50 60}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Paladin Sword
+
+[ITEMDEF i_sword_paladin_Kunzite]
+   DEFNAME=i_sword_paladin_Kunzite
+   ID=i_sword_paladin
+   NAME=Kunzite Paladin Sword
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=68
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={65 75}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Bokuto
+
+[ITEMDEF i_bokuto_Kunzite]
+   DEFNAME=i_bokuto_Kunzite
+   ID=i_bokuto
+   NAME=Kunzite Bokuto
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=68
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={70 80}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Kunzite]
+   DEFNAME=i_Radiant_Scimitar_Kunzite
+   ID=i_Radiant_Scimitar
+   NAME=Kunzite Radiant Scimitar
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=68
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={75 85}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Bone Harvester
+
+[ITEMDEF i_bone_harvester_Kunzite]
+   DEFNAME=i_bone_harvester_Kunzite
+   ID=i_bone_harvester
+   NAME=Kunzite Bone Harvester
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=68
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={55 65}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Butcher Knife
+
+[ITEMDEF i_knife_butcher_Kunzite]
+   DEFNAME=i_knife_butcher_Kunzite
+   ID=i_knife_butcher
+   NAME=Kunzite Butcher Knife
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=15
+   VALUE=68
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Kunzite]
+   DEFNAME=i_cleaver_meat_Kunzite
+   ID=i_cleaver_meat
+   NAME=Kunzite Meat Cleaver
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=15
+   VALUE=68
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Elven Machete
+
+[ITEMDEF i_elven_machete_Kunzite]
+   DEFNAME=i_elven_machete_Kunzite
+   ID=i_elven_machete
+   NAME=Kunzite Elven Machete
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=68
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={60 70}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Bone Machete
+
+[ITEMDEF i_bone_machete_Kunzite]
+   DEFNAME=i_bone_machete_Kunzite
+   ID=i_bone_machete
+   NAME=Kunzite Bone Machete
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=68
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={50 60}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Daisho
+
+[ITEMDEF i_daisho_Kunzite]
+   DEFNAME=i_daisho_Kunzite
+   ID=i_daisho
+   NAME=Kunzite Daisho
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=68
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={65 75}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite No-Dachi
+
+[ITEMDEF i_no_dachi_Kunzite]
+   DEFNAME=i_no_dachi_Kunzite
+   ID=i_no_dachi
+   NAME=Kunzite No-Dachi
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=68
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={75 85}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Rune Blade
+
+[ITEMDEF i_Rune_Blade_Kunzite]
+   DEFNAME=i_Rune_Blade_Kunzite
+   ID=i_Rune_Blade
+   NAME=Kunzite Rune Blade
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=29
+   VALUE=68
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={115 125}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Axe
+
+[ITEMDEF i_axe_Kunzite]
+   DEFNAME=i_axe_Kunzite
+   ID=i_axe
+   NAME=Kunzite Axe
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=19
+   VALUE=68
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={42 52}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Bardiche
+
+[ITEMDEF i_bardiche_Kunzite]
+   DEFNAME=i_bardiche_Kunzite
+   ID=i_bardiche
+   NAME=Kunzite Bardiche
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=25
+   VALUE=68
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={58 68}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Battle Axe
+
+[ITEMDEF i_axe_battle_Kunzite]
+   DEFNAME=i_axe_battle_Kunzite
+   ID=i_axe_battle
+   NAME=Kunzite Battle Axe
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=68
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={65 75}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Double Axe
+
+[ITEMDEF i_axe_double_Kunzite]
+   DEFNAME=i_axe_double_Kunzite
+   ID=i_axe_double
+   NAME=Kunzite Double Axe
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=68
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={70 80}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Kunzite]
+   DEFNAME=i_axe_exec_Kunzite
+   ID=i_axe_exec
+   NAME=Kunzite Exectutioners Axe
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=68
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={73 83}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Halberd
+
+[ITEMDEF i_halberd_Kunzite]
+   DEFNAME=i_halberd_Kunzite
+   ID=i_halberd
+   NAME=Kunzite Halberd
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=68
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={75 85}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Hatchet
+
+[ITEMDEF i_hatchet_Kunzite]
+   DEFNAME=i_hatchet_Kunzite
+   ID=i_hatchet
+   NAME=Kunzite Hatchet
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=20
+   VALUE=68
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={40 50}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Kunzite]
+   DEFNAME=i_axe_battle_large_Kunzite
+   ID=i_axe_battle_large
+   NAME=Kunzite Large Battle Axe
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=68
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={100 110}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Ornate Axe
+
+[ITEMDEF i_ornate_axe_Kunzite]
+   DEFNAME=i_ornate_axe_Kunzite
+   ID=i_ornate_axe
+   NAME=Kunzite Ornate Axe
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=68
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={60 70}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Kunzite]
+   DEFNAME=i_axe_two_hand_Kunzite
+   ID=i_axe_two_hand
+   NAME=Kunzite Two Handed Axe
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=68
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={55 65}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Dual Axes
+
+[ITEMDEF i_dual_short_axes_Kunzite]
+   DEFNAME=i_dual_short_axes_Kunzite
+   ID=i_dual_short_axes
+   NAME=Kunzite Dual Axes
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=68
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={95 105}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Cresent Blade
+
+[ITEMDEF i_crescent_blade_Kunzite]
+   DEFNAME=i_crescent_blade_Kunzite
+   ID=i_crescent_blade
+   NAME=Kunzite Cresent Blade
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=68
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={110 120}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Dagger
+
+[ITEMDEF i_dagger_Kunzite]
+   DEFNAME=i_dagger_Kunzite
+   ID=i_dagger
+   NAME=Kunzite Dagger
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=11
+   VALUE=68
+   SPEED=23
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={10 20}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Skinning Knife
+
+[ITEMDEF i_knife_skinning_Kunzite]
+   DEFNAME=i_knife_skinning_Kunzite
+   ID=i_knife_skinning
+   NAME=Kunzite Skinning Knife
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=11
+   VALUE=68
+   SPEED=23
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={15 25}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Kunzite]
+   DEFNAME=i_sword_Assassin_Spike_Kunzite
+   ID=i_sword_Assassin_Spike
+   NAME=Kunzite Assassin Spike
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=13
+   VALUE=68
+   SPEED=25
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Cutlass
+
+[ITEMDEF i_cutlass_Kunzite]
+   DEFNAME=i_cutlass_Kunzite
+   ID=i_cutlass
+   NAME=Kunzite Cutlass
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=68
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={25 35}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Short Blade
+
+[ITEMDEF i_shortblade_Kunzite]
+   DEFNAME=i_shortblade_Kunzite
+   ID=i_shortblade
+   NAME=Kunzite Short Blade
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=68
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={35 45}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Scythe
+
+[ITEMDEF i_scythe_Kunzite]
+   DEFNAME=i_scythe_Kunzite
+   ID=i_scythe
+   NAME=Kunzite Scythe
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=68
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={115 125}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Short Spear
+
+[ITEMDEF i_spear_short_Kunzite]
+   DEFNAME=i_spear_short_Kunzite
+   ID=i_spear_short
+   NAME=Kunzite Short Spear
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=68
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={45 55}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite War Fork
+
+[ITEMDEF i_war_fork_Kunzite]
+   DEFNAME=i_war_fork_Kunzite
+   ID=i_war_fork
+   NAME=Kunzite War Fork
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=68
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={50 60}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Leafblade
+
+[ITEMDEF i_sword_leafblade_Kunzite]
+   DEFNAME=i_sword_leafblade_Kunzite
+   ID=i_sword_leafblade
+   NAME=Kunzite Leafblade
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=68
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={60 70}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Kunzite]
+   DEFNAME=i_elven_spellblade_Kunzite
+   ID=i_elven_spellblade
+   NAME=Kunzite Elven Spell Blade
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=68
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={75 85}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Pitchfork
+
+[ITEMDEF i_pitchfork_Kunzite]
+   DEFNAME=i_pitchfork_Kunzite
+   ID=i_pitchfork
+   NAME=Kunzite Pitchfork
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=68
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={55 65}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite War Cleaver
+
+[ITEMDEF i_war_cleaver_Kunzite]
+   DEFNAME=i_war_cleaver_Kunzite
+   ID=i_war_cleaver
+   NAME=Kunzite War Cleaver
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=68
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={65 75}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Pike
+
+[ITEMDEF i_pike_Kunzite]
+   DEFNAME=i_pike_Kunzite
+   ID=i_pike
+   NAME=Kunzite Pike
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=68
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={70 80}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Blood Blade
+
+[ITEMDEF i_bloodblade_Kunzite]
+   DEFNAME=i_bloodblade_Kunzite
+   ID=i_bloodblade
+   NAME=Kunzite Blood Blade
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=68
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={75 85}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Kama
+
+[ITEMDEF i_kama_Kunzite]
+   DEFNAME=i_kama_Kunzite
+   ID=i_kama
+   NAME=Kunzite Kama
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=68
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={77 87}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Kryss
+
+[ITEMDEF i_kryss_Kunzite]
+   DEFNAME=i_kryss_Kunzite
+   ID=i_kryss
+   NAME=Kunzite Kryss
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=68
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={80 90}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Lajatang
+
+[ITEMDEF i_lajatang_Kunzite]
+   DEFNAME=i_lajatang_Kunzite
+   ID=i_lajatang
+   NAME=Kunzite Lajatang
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=68
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={85 95}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Sai
+
+[ITEMDEF i_sai_Kunzite]
+   DEFNAME=i_sai_Kunzite
+   ID=i_sai
+   NAME=Kunzite Sai
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=68
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={76 86}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Tekagi
+
+[ITEMDEF i_tekagi_Kunzite]
+   DEFNAME=i_tekagi_Kunzite
+   ID=i_tekagi
+   NAME=Kunzite Tekagi
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=68
+   SPEED=25
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={90 100}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Kunzite Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Kunzite]
+   DEFNAME=i_dual_pointed_spear_Kunzite
+   ID=i_dual_pointed_spear
+   NAME=Kunzite Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Kunzite
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=68
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Kunzite
+
+ON=@Create
+   COLOR=color_ore_Kunzite
+   HITPOINTS={115 125}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

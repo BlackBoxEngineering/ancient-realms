@@ -1,0 +1,22 @@
+[REGIONTYPE r_SkaraKeep_rock t_rock]
+RESOURCES=30.0 mr_nothing		
+RESOURCES=55.0 mr_iron
+RESOURCES=30.0 mr_bronze
+RESOURCES=15.6 mr_Autonite
+RESOURCES=10.4 mr_Daemonite	
+RESOURCES=8.3 mr_Barite
+RESOURCES=3.07 mr_titanium			
+RESOURCES=2.05 mr_kryptonite	
+RESOURCES=1.03 mr_Cerussite		
+RESOURCES=0.5 mr_Dioptase
+
+[AREADEF a_Skara_keep]
+EVENTS=r_default,r_SkaraKeep_rock,r_default_water,r_LogClass_All_rare,r_default_grass
+NAME=Skara Brae Keep
+GROUP=AncientRealms Keeps
+FLAGS=0880
+P=482,2130,16
+RECT=450,2063,495,2140
+TAG.KEEPNAME=Skara Brae Keep
+
+[EOF]

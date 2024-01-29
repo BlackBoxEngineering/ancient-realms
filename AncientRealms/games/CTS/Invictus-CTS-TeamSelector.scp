@@ -1,0 +1,47 @@
+//////////////////////////////// Team Selector
+[FUNCTION f_ArenaCTSTeamSelector]
+IF (<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG0.BlueTeamPlayerCount> > <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG0.RedTeamPlayerCount>)
+	GO <SERV.UID.<EVAL AS_FernBank_PlayerSetupRed>.P>
+	TAG.CTSTeam=Red
+	NEWITEM=i_robe,1,<UID>
+	NEW.COLOR=33
+	NEW.EQUIP
+ELIF (<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG0.BlueTeamPlayerCount> < <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG0.RedTeamPlayerCount>)
+	GO <SERV.UID.<EVAL AS_FernBank_PlayerSetupBlue>.P>
+	NEWITEM=i_robe,1,<UID>
+	TAG.CTSTeam=Blue
+	NEW.COLOR=95
+	NEW.EQUIP
+ELSE
+	IF <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueTeamPlayerTotalLevel> > <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedTeamPlayerTotalLevel>
+		GO <SERV.UID.<EVAL AS_FernBank_PlayerSetupRed>.P>
+		TAG.CTSTeam=Red
+		NEWITEM=i_robe,1,<UID>
+		NEW.COLOR=33
+		NEW.EQUIP
+	ELIF <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueTeamPlayerTotalLevel> < <SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedTeamPlayerTotalLevel>
+		GO <SERV.UID.<EVAL AS_FernBank_PlayerSetupBlue>.P>
+		TAG.CTSTeam=Blue
+		NEWITEM=i_robe,1,<UID>
+		NEW.COLOR=95
+		NEW.EQUIP
+	ELSE
+		LOCAL.RandomSelection=<R1,50>
+		IF <LOCAL.RandomSelection> > 25
+			GO <SERV.UID.<EVAL AS_FernBank_PlayerSetupRed>.P>
+			TAG.CTSTeam=Red
+			NEWITEM=i_robe,1,<UID>
+			NEW.COLOR=33
+			NEW.EQUIP
+		ELSE
+			GO <SERV.UID.<EVAL AS_FernBank_PlayerSetupBlue>.P>
+			TAG.CTSTeam=Blue
+			NEWITEM=i_robe,1,<UID>
+			NEW.COLOR=95
+			NEW.EQUIP
+		ENDIF
+	ENDIF
+ENDIF
+
+
+[EOF]

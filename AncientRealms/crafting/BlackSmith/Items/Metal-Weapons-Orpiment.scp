@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Orpiment Quarter Staff
+
+[ITEMDEF i_staff_quarter_Orpiment]
+   DEFNAME=i_staff_quarter_Orpiment
+   ID=i_staff_quarter
+   NAME=Orpiment Quarter Staff
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=21
+   VALUE=69
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={20 30}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Orpiment]
+   DEFNAME=i_serpentstone_staff_Orpiment
+   ID=i_serpentstone_staff
+   NAME=Orpiment Serpentstone Staff
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=25
+   VALUE=69
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={60 70}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Orpiment]
+   DEFNAME=i_staff_bladed_double_Orpiment
+   ID=i_staff_bladed_double
+   NAME=Orpiment Double Bladed Staff
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=33
+   VALUE=69
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={120 130}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Glass Staff
+
+[ITEMDEF i_glass_staff_Orpiment]
+   DEFNAME=i_glass_staff_Orpiment
+   ID=i_glass_staff
+   NAME=Orpiment Glass Staff
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=30
+   VALUE=69
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={90 100}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Bladed Staff
+
+[ITEMDEF i_bladed_staff_Orpiment]
+   DEFNAME=i_bladed_staff_Orpiment
+   ID=i_bladed_staff
+   NAME=Orpiment Bladed Staff
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=31
+   VALUE=69
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={115 125}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Tongs
+
+[ITEMDEF i_tongs_Orpiment]
+   DEFNAME=i_tongs_Orpiment
+   ID=i_tongs
+   NAME=Orpiment Tongs
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=8
+   VALUE=69
+   SPEED=10
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={0 10}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Mace
+
+[ITEMDEF i_mace_Orpiment]
+   DEFNAME=i_mace_Orpiment
+   ID=i_mace
+   NAME=Orpiment Mace
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=21
+   VALUE=69
+   SPEED=39
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Maul
+
+[ITEMDEF i_maul_Orpiment]
+   DEFNAME=i_maul_Orpiment
+   ID=i_maul
+   NAME=Orpiment Maul
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=23
+   VALUE=69
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={40 50}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Scepter
+
+[ITEMDEF i_scepter_Orpiment]
+   DEFNAME=i_scepter_Orpiment
+   ID=i_scepter
+   NAME=Orpiment Scepter
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=25
+   VALUE=69
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={50 60}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Orpiment]
+   DEFNAME=i_hammer_sledge_Orpiment
+   ID=i_hammer_sledge
+   NAME=Orpiment Sledge Hammer
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=25
+   VALUE=69
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={20 30}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Orpiment]
+   DEFNAME=i_hammer_smith_Orpiment
+   ID=i_hammer_smith
+   NAME=Orpiment Smiths Hammer
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=11
+   VALUE=69
+   SPEED=10
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment War Mace
+
+[ITEMDEF i_mace_war_Orpiment]
+   DEFNAME=i_mace_war_Orpiment
+   ID=i_mace_war
+   NAME=Orpiment War Mace
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=29
+   VALUE=69
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={80 90}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Disc Mace
+
+[ITEMDEF i_disc_mace_Orpiment]
+   DEFNAME=i_disc_mace_Orpiment
+   ID=i_disc_mace
+   NAME=Orpiment Disc Mace
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=29
+   VALUE=69
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={70 80}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment War Hammer
+
+[ITEMDEF i_hammer_war_Orpiment]
+   DEFNAME=i_hammer_war_Orpiment
+   ID=i_hammer_war
+   NAME=Orpiment War Hammer
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=35
+   VALUE=69
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={100 110}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Hammer Pick
+
+[ITEMDEF i_hammer_pick_Orpiment]
+   DEFNAME=i_hammer_pick_Orpiment
+   ID=i_hammer_pick
+   NAME=Orpiment Hammer Pick
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=31
+   VALUE=69
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={55 65}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment War Axe
+
+[ITEMDEF i_axe_war_Orpiment]
+   DEFNAME=i_axe_war_Orpiment
+   ID=i_axe_war
+   NAME=Orpiment War Axe
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=21
+   VALUE=69
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={65 75}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Tessen
+
+[ITEMDEF i_tessen_Orpiment]
+   DEFNAME=i_tessen_Orpiment
+   ID=i_tessen
+   NAME=Orpiment Tessen
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=20
+   VALUE=69
+   SPEED=35
+   SKILL=MACEFIGHTING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={75 85}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Long Sword
+
+[ITEMDEF i_sword_long_Orpiment]
+   DEFNAME=i_sword_long_Orpiment
+   ID=i_sword_long
+   NAME=Orpiment Long Sword
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=69
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={10 20}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Broad Sword
+
+[ITEMDEF i_sword_broad_Orpiment]
+   DEFNAME=i_sword_broad_Orpiment
+   ID=i_sword_broad
+   NAME=Orpiment Broad Sword
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=69
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={20 30}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Scimitar
+
+[ITEMDEF i_scimitar_Orpiment]
+   DEFNAME=i_scimitar_Orpiment
+   ID=i_scimitar
+   NAME=Orpiment Scimitar
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=69
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Viking Sword
+
+[ITEMDEF i_sword_viking_Orpiment]
+   DEFNAME=i_sword_viking_Orpiment
+   ID=i_sword_viking
+   NAME=Orpiment Viking Sword
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=69
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={35 45}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Katana
+
+[ITEMDEF i_katana_Orpiment]
+   DEFNAME=i_katana_Orpiment
+   ID=i_katana
+   NAME=Orpiment Katana
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=69
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={80 90}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Wakizashi
+
+[ITEMDEF i_wakizashi_Orpiment]
+   DEFNAME=i_wakizashi_Orpiment
+   ID=i_wakizashi
+   NAME=Orpiment Wakizashi
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=69
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={45 55}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Long Sword
+
+[ITEMDEF i_sword_long_b_Orpiment]
+   DEFNAME=i_sword_long_b_Orpiment
+   ID=i_sword_long_b
+   NAME=Orpiment Long Sword
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=69
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={50 60}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Paladin Sword
+
+[ITEMDEF i_sword_paladin_Orpiment]
+   DEFNAME=i_sword_paladin_Orpiment
+   ID=i_sword_paladin
+   NAME=Orpiment Paladin Sword
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=69
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={65 75}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Bokuto
+
+[ITEMDEF i_bokuto_Orpiment]
+   DEFNAME=i_bokuto_Orpiment
+   ID=i_bokuto
+   NAME=Orpiment Bokuto
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=69
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={70 80}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Orpiment]
+   DEFNAME=i_Radiant_Scimitar_Orpiment
+   ID=i_Radiant_Scimitar
+   NAME=Orpiment Radiant Scimitar
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=69
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={75 85}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Bone Harvester
+
+[ITEMDEF i_bone_harvester_Orpiment]
+   DEFNAME=i_bone_harvester_Orpiment
+   ID=i_bone_harvester
+   NAME=Orpiment Bone Harvester
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=69
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={55 65}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Butcher Knife
+
+[ITEMDEF i_knife_butcher_Orpiment]
+   DEFNAME=i_knife_butcher_Orpiment
+   ID=i_knife_butcher
+   NAME=Orpiment Butcher Knife
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=15
+   VALUE=69
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Orpiment]
+   DEFNAME=i_cleaver_meat_Orpiment
+   ID=i_cleaver_meat
+   NAME=Orpiment Meat Cleaver
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=15
+   VALUE=69
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Elven Machete
+
+[ITEMDEF i_elven_machete_Orpiment]
+   DEFNAME=i_elven_machete_Orpiment
+   ID=i_elven_machete
+   NAME=Orpiment Elven Machete
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=69
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={60 70}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Bone Machete
+
+[ITEMDEF i_bone_machete_Orpiment]
+   DEFNAME=i_bone_machete_Orpiment
+   ID=i_bone_machete
+   NAME=Orpiment Bone Machete
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=69
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={50 60}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Daisho
+
+[ITEMDEF i_daisho_Orpiment]
+   DEFNAME=i_daisho_Orpiment
+   ID=i_daisho
+   NAME=Orpiment Daisho
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=69
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={65 75}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment No-Dachi
+
+[ITEMDEF i_no_dachi_Orpiment]
+   DEFNAME=i_no_dachi_Orpiment
+   ID=i_no_dachi
+   NAME=Orpiment No-Dachi
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=69
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={75 85}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Rune Blade
+
+[ITEMDEF i_Rune_Blade_Orpiment]
+   DEFNAME=i_Rune_Blade_Orpiment
+   ID=i_Rune_Blade
+   NAME=Orpiment Rune Blade
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=29
+   VALUE=69
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={115 125}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Axe
+
+[ITEMDEF i_axe_Orpiment]
+   DEFNAME=i_axe_Orpiment
+   ID=i_axe
+   NAME=Orpiment Axe
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=19
+   VALUE=69
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={42 52}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Bardiche
+
+[ITEMDEF i_bardiche_Orpiment]
+   DEFNAME=i_bardiche_Orpiment
+   ID=i_bardiche
+   NAME=Orpiment Bardiche
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=25
+   VALUE=69
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={58 68}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Battle Axe
+
+[ITEMDEF i_axe_battle_Orpiment]
+   DEFNAME=i_axe_battle_Orpiment
+   ID=i_axe_battle
+   NAME=Orpiment Battle Axe
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=69
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={65 75}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Double Axe
+
+[ITEMDEF i_axe_double_Orpiment]
+   DEFNAME=i_axe_double_Orpiment
+   ID=i_axe_double
+   NAME=Orpiment Double Axe
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=69
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={70 80}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Orpiment]
+   DEFNAME=i_axe_exec_Orpiment
+   ID=i_axe_exec
+   NAME=Orpiment Exectutioners Axe
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=69
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={73 83}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Halberd
+
+[ITEMDEF i_halberd_Orpiment]
+   DEFNAME=i_halberd_Orpiment
+   ID=i_halberd
+   NAME=Orpiment Halberd
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=69
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={75 85}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Hatchet
+
+[ITEMDEF i_hatchet_Orpiment]
+   DEFNAME=i_hatchet_Orpiment
+   ID=i_hatchet
+   NAME=Orpiment Hatchet
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=20
+   VALUE=69
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={40 50}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Orpiment]
+   DEFNAME=i_axe_battle_large_Orpiment
+   ID=i_axe_battle_large
+   NAME=Orpiment Large Battle Axe
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=69
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={100 110}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Ornate Axe
+
+[ITEMDEF i_ornate_axe_Orpiment]
+   DEFNAME=i_ornate_axe_Orpiment
+   ID=i_ornate_axe
+   NAME=Orpiment Ornate Axe
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=69
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={60 70}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Orpiment]
+   DEFNAME=i_axe_two_hand_Orpiment
+   ID=i_axe_two_hand
+   NAME=Orpiment Two Handed Axe
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=69
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={55 65}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Dual Axes
+
+[ITEMDEF i_dual_short_axes_Orpiment]
+   DEFNAME=i_dual_short_axes_Orpiment
+   ID=i_dual_short_axes
+   NAME=Orpiment Dual Axes
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=69
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={95 105}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Cresent Blade
+
+[ITEMDEF i_crescent_blade_Orpiment]
+   DEFNAME=i_crescent_blade_Orpiment
+   ID=i_crescent_blade
+   NAME=Orpiment Cresent Blade
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=69
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={110 120}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Dagger
+
+[ITEMDEF i_dagger_Orpiment]
+   DEFNAME=i_dagger_Orpiment
+   ID=i_dagger
+   NAME=Orpiment Dagger
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=11
+   VALUE=69
+   SPEED=23
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={10 20}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Skinning Knife
+
+[ITEMDEF i_knife_skinning_Orpiment]
+   DEFNAME=i_knife_skinning_Orpiment
+   ID=i_knife_skinning
+   NAME=Orpiment Skinning Knife
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=11
+   VALUE=69
+   SPEED=23
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={15 25}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Orpiment]
+   DEFNAME=i_sword_Assassin_Spike_Orpiment
+   ID=i_sword_Assassin_Spike
+   NAME=Orpiment Assassin Spike
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=13
+   VALUE=69
+   SPEED=25
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={30 40}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Cutlass
+
+[ITEMDEF i_cutlass_Orpiment]
+   DEFNAME=i_cutlass_Orpiment
+   ID=i_cutlass
+   NAME=Orpiment Cutlass
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=69
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={25 35}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Short Blade
+
+[ITEMDEF i_shortblade_Orpiment]
+   DEFNAME=i_shortblade_Orpiment
+   ID=i_shortblade
+   NAME=Orpiment Short Blade
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=69
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={35 45}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Scythe
+
+[ITEMDEF i_scythe_Orpiment]
+   DEFNAME=i_scythe_Orpiment
+   ID=i_scythe
+   NAME=Orpiment Scythe
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=69
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={115 125}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Short Spear
+
+[ITEMDEF i_spear_short_Orpiment]
+   DEFNAME=i_spear_short_Orpiment
+   ID=i_spear_short
+   NAME=Orpiment Short Spear
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=69
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={45 55}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment War Fork
+
+[ITEMDEF i_war_fork_Orpiment]
+   DEFNAME=i_war_fork_Orpiment
+   ID=i_war_fork
+   NAME=Orpiment War Fork
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=69
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={50 60}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Leafblade
+
+[ITEMDEF i_sword_leafblade_Orpiment]
+   DEFNAME=i_sword_leafblade_Orpiment
+   ID=i_sword_leafblade
+   NAME=Orpiment Leafblade
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=69
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={60 70}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Orpiment]
+   DEFNAME=i_elven_spellblade_Orpiment
+   ID=i_elven_spellblade
+   NAME=Orpiment Elven Spell Blade
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=69
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={75 85}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Pitchfork
+
+[ITEMDEF i_pitchfork_Orpiment]
+   DEFNAME=i_pitchfork_Orpiment
+   ID=i_pitchfork
+   NAME=Orpiment Pitchfork
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=69
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={55 65}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment War Cleaver
+
+[ITEMDEF i_war_cleaver_Orpiment]
+   DEFNAME=i_war_cleaver_Orpiment
+   ID=i_war_cleaver
+   NAME=Orpiment War Cleaver
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=69
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={65 75}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Pike
+
+[ITEMDEF i_pike_Orpiment]
+   DEFNAME=i_pike_Orpiment
+   ID=i_pike
+   NAME=Orpiment Pike
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=69
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={70 80}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Blood Blade
+
+[ITEMDEF i_bloodblade_Orpiment]
+   DEFNAME=i_bloodblade_Orpiment
+   ID=i_bloodblade
+   NAME=Orpiment Blood Blade
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=69
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={75 85}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Kama
+
+[ITEMDEF i_kama_Orpiment]
+   DEFNAME=i_kama_Orpiment
+   ID=i_kama
+   NAME=Orpiment Kama
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=69
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={77 87}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Kryss
+
+[ITEMDEF i_kryss_Orpiment]
+   DEFNAME=i_kryss_Orpiment
+   ID=i_kryss
+   NAME=Orpiment Kryss
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=69
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={80 90}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Lajatang
+
+[ITEMDEF i_lajatang_Orpiment]
+   DEFNAME=i_lajatang_Orpiment
+   ID=i_lajatang
+   NAME=Orpiment Lajatang
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=69
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={85 95}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Sai
+
+[ITEMDEF i_sai_Orpiment]
+   DEFNAME=i_sai_Orpiment
+   ID=i_sai
+   NAME=Orpiment Sai
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=69
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={76 86}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Tekagi
+
+[ITEMDEF i_tekagi_Orpiment]
+   DEFNAME=i_tekagi_Orpiment
+   ID=i_tekagi
+   NAME=Orpiment Tekagi
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=69
+   SPEED=25
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={90 100}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Orpiment]
+   DEFNAME=i_dual_pointed_spear_Orpiment
+   ID=i_dual_pointed_spear
+   NAME=Orpiment Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Orpiment
+   WEIGHT=15
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=69
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=35
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Orpiment
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS={115 125}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

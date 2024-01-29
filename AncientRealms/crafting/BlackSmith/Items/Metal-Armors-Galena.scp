@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Galena Platemail Arms
+[ITEMDEF i_platemail_arms_Galena]
+   DEFNAME= i_platemail_arms_Galena
+   ID= i_platemail_arms
+   NAME= Galena Platemail Arms
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Platemail Leggings
+[ITEMDEF i_platemail_leggings_Galena]
+   DEFNAME= i_platemail_leggings_Galena
+   ID= i_platemail_leggings
+   NAME= Galena Platemail Leggings
+   ARMOR= 22
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Platemail Helmet
+[ITEMDEF i_platemail_helm_Galena]
+   DEFNAME= i_platemail_helm_Galena
+   ID= i_platemail_helm
+   NAME= Galena Platemail Helmet
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Platemail Gorget
+[ITEMDEF i_platemail_gorget_Galena]
+   DEFNAME= i_platemail_gorget_Galena
+   ID= i_platemail_gorget
+   NAME= Galena Platemail Gorget
+   ARMOR= 12
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Galena]
+   DEFNAME= i_platemail_gorget2_Galena
+   ID= i_platemail_gorget2
+   NAME= Galena Platemail Gorget
+   ARMOR= 12
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Platemail Gloves
+[ITEMDEF i_platemail_gloves_Galena]
+   DEFNAME= i_platemail_gloves_Galena
+   ID= i_platemail_gloves
+   NAME= Galena Platemail Gloves
+   ARMOR= 12
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Platemail Chest
+[ITEMDEF i_platemail_chest_Galena]
+   DEFNAME= i_platemail_chest_Galena
+   ID= i_platemail_chest
+   NAME= Galena Platemail Chest
+   ARMOR= 26
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Galena]
+   DEFNAME= i_armor_female_plate_Galena
+   ID= i_armor_female_plate
+   NAME= Galena Platemail Female Plate
+   ARMOR= 24
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena chainmail coif
+[ITEMDEF i_chainmail_coif_Galena]
+   DEFNAME= i_chainmail_coif_Galena
+   ID= i_chainmail_coif
+   NAME= Galena chainmail coif
+   ARMOR= 18
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {54 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena chainmail leggings
+[ITEMDEF i_chainmail_leggings_Galena]
+   DEFNAME= i_chainmail_leggings_Galena
+   ID= i_chainmail_leggings
+   NAME= Galena chainmail leggings
+   ARMOR= 20
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {54 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena chainmail tunic
+[ITEMDEF i_chainmail_tunic_Galena]
+   DEFNAME= i_chainmail_tunic_Galena
+   ID= i_chainmail_tunic
+   NAME= Galena chainmail tunic
+   ARMOR= 24
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {54 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Galena]
+   DEFNAME= i_ringmail_sleeves_Galena
+   ID= i_ringmail_sleeves
+   NAME= Galena Ringmail Sleeves
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {44 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Galena]
+   DEFNAME= i_ringmail_leggings_Galena
+   ID= i_ringmail_leggings
+   NAME= Galena Ringmail Leggings
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {44 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Galena]
+   DEFNAME= i_ringmail_tunic_Galena
+   ID= i_ringmail_tunic
+   NAME= Galena Ringmail Tunic
+   ARMOR= 20
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {44 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Galena]
+   DEFNAME= i_ringmail_gloves_Galena
+   ID= i_ringmail_gloves
+   NAME= Galena Ringmail Gloves
+   ARMOR= 6
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {44 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena studded sleeves
+[ITEMDEF i_studded_sleeves_Galena]
+   DEFNAME= i_studded_sleeves_Galena
+   ID= i_studded_sleeves
+   NAME= Galena studded sleeves
+   ARMOR= 9
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Galena, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena studded gloves
+[ITEMDEF i_studded_gloves_Galena]
+   DEFNAME= i_studded_gloves_Galena
+   ID= i_studded_gloves
+   NAME= Galena studded gloves
+   ARMOR= 6
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Galena, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena studded gorget
+[ITEMDEF i_studded_gorget_Galena]
+   DEFNAME= i_studded_gorget_Galena
+   ID= i_studded_gorget
+   NAME= Galena studded gorget
+   ARMOR= 6
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Galena, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena studded leggings
+[ITEMDEF i_studded_leggings_Galena]
+   DEFNAME= i_studded_leggings_Galena
+   ID= i_studded_leggings
+   NAME= Galena studded leggings
+   ARMOR= 15
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Galena, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena studded tunic
+[ITEMDEF i_studded_tunic_Galena]
+   DEFNAME= i_studded_tunic_Galena
+   ID= i_studded_tunic
+   NAME= Galena studded tunic
+   ARMOR= 19
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Galena, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena studded female armor
+[ITEMDEF i_armor_female_studded_Galena]
+   DEFNAME= i_armor_female_studded_Galena
+   ID= i_armor_female_studded
+   NAME= Galena studded female armor
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Galena, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Galena]
+   DEFNAME= i_armor_female_bustier_studded_Galena
+   ID= i_armor_female_bustier_studded
+   NAME= Galena studded female bustier
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Galena, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena platemail mempo
+[ITEMDEF i_platemail_mempo_Galena]
+   DEFNAME= i_platemail_mempo_Galena
+   ID= i_platemail_mempo
+   NAME= Galena platemail mempo
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena platemail do
+[ITEMDEF i_platemail_do_Galena]
+   DEFNAME= i_platemail_do_Galena
+   ID= i_platemail_do
+   NAME= Galena platemail do
+   ARMOR= 24
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Galena]
+   DEFNAME= i_platemail_hiro_sode_Galena
+   ID= i_platemail_hiro_sode
+   NAME= Galena platemail hiro sode
+   ARMOR= 20
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena platemail suneate
+[ITEMDEF i_platemail_suneate_Galena]
+   DEFNAME= i_platemail_suneate_Galena
+   ID= i_platemail_suneate
+   NAME= Galena platemail suneate
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena platemail haidate
+[ITEMDEF i_platemail_haidate_Galena]
+   DEFNAME= i_platemail_haidate_Galena
+   ID= i_platemail_haidate
+   NAME= Galena platemail haidate
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena studded mempo
+[ITEMDEF i_studded_mempo_Galena]
+   DEFNAME= i_studded_mempo_Galena
+   ID= i_studded_mempo
+   NAME= Galena studded mempo
+   ARMOR= 11
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Galena, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena studded do
+[ITEMDEF i_studded_do_Galena]
+   DEFNAME= i_studded_do_Galena
+   ID= i_studded_do
+   NAME= Galena studded do
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Galena, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Galena]
+   DEFNAME= i_studded_hiro_sode_Galena
+   ID= i_studded_hiro_sode
+   NAME= Galena studded hiro sode
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Galena, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena studded suneate
+[ITEMDEF i_studded_suneate_Galena]
+   DEFNAME= i_studded_suneate_Galena
+   ID= i_studded_suneate
+   NAME= Galena studded suneate
+   ARMOR= 13
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Galena, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena studded haidate
+[ITEMDEF i_studded_haidate_Galena]
+   DEFNAME= i_studded_haidate_Galena
+   ID= i_studded_haidate
+   NAME= Galena studded haidate
+   ARMOR= 11
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Galena, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Galena]
+   DEFNAME= i_platemail_gargish_arms_Galena
+   ID= i_platemail_gargish_arms
+   NAME= Galena Gargish Platemail Arms
+   ARMOR= 20
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Galena]
+   DEFNAME= i_platemail_gargish_chest_Galena
+   ID= i_platemail_gargish_chest
+   NAME= Galena Gargish Platemail Chest
+   ARMOR= 28
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Galena]
+   DEFNAME= i_platemail_gargish_kilt_Galena
+   ID= i_platemail_gargish_kilt
+   NAME= Galena Gargish Platemail Kilt
+   ARMOR= 19
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Galena]
+   DEFNAME= i_platemail_gargish_leggings_Galena
+   ID= i_platemail_gargish_leggings
+   NAME= Galena Gargish Platemail Leggings
+   ARMOR= 24
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Galena]
+   DEFNAME= i_platemail_gargish_arms_2_Galena
+   ID= i_platemail_gargish_arms_2
+   NAME= Galena Gargish Platemail Arms
+   ARMOR= 20
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Galena]
+   DEFNAME= i_platemail_gargish_chest_2_Galena
+   ID= i_platemail_gargish_chest_2
+   NAME= Galena Gargish Platemail Chest
+   ARMOR= 28
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Galena]
+   DEFNAME= i_platemail_gargish_kilt_2_Galena
+   ID= i_platemail_gargish_kilt_2
+   NAME= Galena Gargish Platemail Kilt
+   ARMOR= 19
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Galena]
+   DEFNAME= i_platemail_gargish_leggings_2_Galena
+   ID= i_platemail_gargish_leggings_2
+   NAME= Galena Gargish Platemail Leggings
+   ARMOR= 24
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Closed Helmet
+[ITEMDEF i_helm_close_Galena]
+   DEFNAME= i_helm_close_Galena
+   ID= i_helm_close
+   NAME= Galena Closed Helmet
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Open Helmet
+[ITEMDEF i_helm_open_Galena]
+   DEFNAME= i_helm_open_Galena
+   ID= i_helm_open
+   NAME= Galena Open Helmet
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {44 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Bascinet
+[ITEMDEF i_bascinet_Galena]
+   DEFNAME= i_bascinet_Galena
+   ID= i_bascinet
+   NAME= Galena Bascinet
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Norse Helmet
+[ITEMDEF i_helm_norse_Galena]
+   DEFNAME= i_helm_norse_Galena
+   ID= i_helm_norse
+   NAME= Galena Norse Helmet
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {54 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Kabuto
+[ITEMDEF i_helm_kabuto_Galena]
+   DEFNAME= i_helm_kabuto_Galena
+   ID= i_helm_kabuto
+   NAME= Galena Kabuto
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Galena]
+   DEFNAME= i_chainmail_hatsuburi_Galena
+   ID= i_chainmail_hatsuburi
+   NAME= Galena Chainmail Hatsuburi
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Galena]
+   DEFNAME= i_platemail_hatsuburi_Galena
+   ID= i_platemail_hatsuburi
+   NAME= Galena Platemail Hatsuburi
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Galena]
+   DEFNAME= i_plate_jingasa_heavy_Galena
+   ID= i_plate_jingasa_heavy
+   NAME= Galena Heavy Jingasa
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Galena]
+   DEFNAME= i_platemail_kabuto_decorative_Galena
+   ID= i_platemail_kabuto_decorative
+   NAME= Galena Decorative Platemail Kabuto
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {94 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Galena]
+   DEFNAME= i_plate_jingasa_light_Galena
+   ID= i_plate_jingasa_light
+   NAME= Galena Light Jingasa
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Galena]
+   DEFNAME= i_plate_jingasa_small_Galena
+   ID= i_plate_jingasa_small
+   NAME= Galena Small Jingasa
+   ARMOR= 12
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {54 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Galena]
+   DEFNAME= i_platemail_kabuto_battle_Galena
+   ID= i_platemail_kabuto_battle
+   NAME= Galena Platemail Battle Kabuto
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Galena]
+   DEFNAME= i_platemail_kabuto_Galena
+   ID= i_platemail_kabuto
+   NAME= Galena Platemail Kabuto
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Circlet
+[ITEMDEF i_circlet_Galena]
+   DEFNAME= i_circlet_Galena
+   ID= i_circlet
+   NAME= Galena Circlet
+   ARMOR= 10
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Royal Circlet
+[ITEMDEF i_circlet_royal_Galena]
+   DEFNAME= i_circlet_royal_Galena
+   ID= i_circlet_royal
+   NAME= Galena Royal Circlet
+   ARMOR= 10
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Galena]
+   DEFNAME= i_circlet_gemmed_Galena
+   ID= i_circlet_gemmed
+   NAME= Galena Gemmed Circlet
+   ARMOR= 10
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {104 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Buckler
+[ITEMDEF i_shield_buckler_Galena]
+   DEFNAME= i_shield_buckler_Galena
+   ID= i_shield_buckler
+   NAME= Galena Buckler
+   ARMOR= 9
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {34 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Wooden Shield
+[ITEMDEF i_shield_wood_Galena]
+   DEFNAME= i_shield_wood_Galena
+   ID= i_shield_wood
+   NAME= Galena Wooden Shield
+   ARMOR= 10
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {44 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Galena]
+   DEFNAME= i_shield_round_metal_Galena
+   ID= i_shield_round_metal
+   NAME= Galena Light Metal  Round Shield
+   ARMOR= 11
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {54 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Galena]
+   DEFNAME= i_shield_round_bronze_Galena
+   ID= i_shield_round_bronze
+   NAME= Galena Heavy Metal  Round Shield
+   ARMOR= 13
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {64 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Galena]
+   DEFNAME= i_shield_kite_metal_Galena
+   ID= i_shield_kite_metal
+   NAME= Galena Metal Kite Shield
+   ARMOR= 15
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {74 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Galena]
+   DEFNAME= i_shield_kite_wood_Galena
+   ID= i_shield_kite_wood
+   NAME= Galena Wooden Kite Shield
+   ARMOR= 14
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {84 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Heater Shield
+[ITEMDEF i_shield_heater_Galena]
+   DEFNAME= i_shield_heater_Galena
+   ID= i_shield_heater
+   NAME= Galena Heater Shield
+   ARMOR= 16
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {94 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Ancient Shield
+[ITEMDEF i_shield_dupre_Galena]
+   DEFNAME= i_shield_dupre_Galena
+   ID= i_shield_dupre
+   NAME= Galena Ancient Shield
+   ARMOR= 18
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {104 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Shield oh Hell
+[ITEMDEF i_shield_scale_Galena]
+   DEFNAME= i_shield_scale_Galena
+   ID= i_shield_scale
+   NAME= Galena Shield oh Hell
+   ARMOR= 18
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {104 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Chaos Shield
+[ITEMDEF i_shield_chaos_Galena]
+   DEFNAME= i_shield_chaos_Galena
+   ID= i_shield_chaos
+   NAME= Galena Chaos Shield
+   ARMOR= 19
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {114 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Galena Order Shield
+[ITEMDEF i_shield_order_Galena]
+   DEFNAME= i_shield_order_Galena
+   ID= i_shield_order
+   NAME= Galena Order Shield
+   ARMOR= 19
+   WEIGHT= 14
+   VALUE= 40
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Galena
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Galena
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Galena
+   HITPOINTS= {114 440}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

@@ -1,0 +1,61 @@
+[TYPEDEF t_potion_poison]
+
+
+ON=@DCLICK
+	IF (<SRC.FINDID.i_poison_delay>)
+		SRC.SYSMESSAGE @00023 You cannot use another potion yet.
+		RETURN 1
+	ELSE
+		IF (<SRC.POISONING>>=<MORE2>)
+			SRC.SYSMESSAGE @55 What would you like to poison?
+			TARGET
+		ELSE
+			SRC.SYSMESSAGE @35 You are not skilled enough to use this!
+		ENDIF
+	ENDIF	
+	RETURN 1
+	
+ON=@TARGON_GROUND
+	SRC.SYSMESSAGE @35 Why would you want to Poison the Ground?.
+	RETURN 1
+
+ON=@TARGON_CHAR
+	IF <ARGO.ISPLAYER>
+		SRC.SYSMESSAGE @55 You Could ask them to Drink it ?
+	ELSE
+		SRC.SYSMESSAGE @55 <ARGO.NAME> Looks at you as if you are stupid.
+	RETURN 1
+
+ON=@TARGON_ITEM
+LOCAL.SkillNo = 30
+LOCAL.PlayerSkillTotal=<SRC.SKILLTOTAL>
+// First Check If If Posioner Using his own Weapon
+IF ((<SRC.TARG.CONT>==<SRC.UID>) || (<SRC.TARG.CONT>==<SRC.FINDLAYER(21).UID>))	
+     IF (<SRC.TARG.TYPE>==t_food)
+          CALL f_ApplyPoisonFood <MORE1>                           
+          SRC.EMOTE Poisons Food
+          CALL SRC.f_SkillGain <EVAL <LOCAL.SKILLNO>>     
+          RETURN 1
+     ELIF ((<SRC.TARG.TYPE>==t_weapon_sword)               
+          SRC.TARG.TAG.PoisonStrikes=1                            
+          CALL f_ApplyPoisonWeapon <MORE1>                     
+          SRC.EMOTE Poisons Weapon
+          CALL SRC.f_SkillGain <EVAL <LOCAL.SKILLNO>>      
+          RETURN 1
+     ELIF ((<SRC.TARG.TYPE>==t_weapon_fence)             
+          SRC.TARG.TAG.PoisonStrikes=3                     
+          CALL f_ApplyPoisonWeapon <MORE1>                      
+          SRC.EMOTE Poisons Weapon
+          CALL SRC.f_SkillGain <EVAL <LOCAL.SKILLNO>>     
+          RETURN 1
+     ELSE
+          SRC.SYSMESSAGE @1462 You Cant Poison This!
+          RETURN 1
+     ENDIF			
+ELSE
+     SRC.SYSMESSAGE @55 The <SRC.TARG.Name> must be on your Person!
+     RETURN 1
+ENDIF
+RETURN 1
+	
+[EOF]

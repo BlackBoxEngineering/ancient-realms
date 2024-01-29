@@ -1,0 +1,48 @@
+[FUNCTION Los]
+targetf CheckLineOfSights
+
+[FUNCTION CheckLineOfSights]
+IF <ARGV[0]>
+	LOCAL.TargetUID=<ARGV[0]>
+ELSE
+	LOCAL.TargetUID=<ARGO.UID>
+ENDIF
+IF (<CANSEELOS <ARGO.P.X>,<ARGO.P.Y>,<ARGO.P.Z>,<ARGO.P.M>>)
+	//SYSMESSAGE @00029,,1 I can see <argo.name> located at (<argo.p.x>,<argo.p.y>,<argo.p.z>,<argo.p.m>)
+	RETURN 0
+ELSE
+	//SYSMESSAGE @00029,,1 I cannot see <argo.name>
+	RETURN 1
+ENDIF
+		
+[FUNCTION CheckLineOfSight]
+	IF <ARGV[0]>
+		REF1=<SERV.UID.<ARGV[0]>>
+	ENDIF
+	IF (<CANSEELOS <REF1.P.X>,<REF1.P.Y>,<REF1.P.Z>,<REF1.P.M>>)
+		IF <f_CantHitWhatYouCantSee <REF1>>
+			//SERV.LOG <NAME> can see <REF1.name> located at (<REF1.p.x>,<REF1.p.y>,<REF1.p.z>,<REF1.p.m>)
+			RETURN 0
+		ELSE
+			//SERV.LOG <NAME> cannot see <REF1.name> possibly invisible at (<REF1.p.x>,<REF1.p.y>,<REF1.p.z>,<REF1.p.m>)
+			RETURN 1
+		ENDIF
+	ELSE
+		//SERV.LOG <NAME> cannot see <REF1.name> located at (<REF1.p.x>,<REF1.p.y>,<REF1.p.z>,<REF1.p.m>)
+		RETURN 1
+	ENDIF
+
+[FUNCTION closewhatdialogs] 
+IF (<DIALOGLIST.COUNT>)
+	//SERV.LOG <NAME> has <EVAL <<DIALOGLIST.COUNT>>>
+	FOR 0 <EVAL <DIALOGLIST.COUNT>-1> 
+        LOCAL.DIALOGNAME=<DIALOGLIST.<dLOCAL._FOR>.ID> 
+        //SERV.LOG OPEN DIALOG <EVAL <dLOCAL._FOR>> <LOCAL.DIALOGNAME>
+        //IF (STRCMPI(d_pages_resp_alerta,<LOCAL.DIALOGNAME>)) 
+        //		DIALOGCLOSE <LOCAL.DIALOGNAME> <ARGN2> 
+        //ENDIF 
+	ENDFOR 
+ENDIF
+
+
+[EOF]

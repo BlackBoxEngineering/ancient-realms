@@ -1,0 +1,563 @@
+/////////////////////////////////////////////Apple WildStaff
+
+[ITEMDEF i_mace_wildstaff_Apple]
+   DEFNAME=i_mace_wildstaff_Apple
+   ID=i_mace_wildstaff
+   NAME=Apple WildStaff
+   RESOURCES= 20 i_log_Apple
+   WEIGHT=11
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=21
+   VALUE=13
+   SPEED=39
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Apple
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS={60 62}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple Black Staff
+
+[ITEMDEF i_staff_black_Apple]
+   DEFNAME=i_staff_black_Apple
+   ID=i_staff_black
+   NAME=Apple Black Staff
+   RESOURCES= 20 i_log_Apple
+   WEIGHT=11
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=19
+   VALUE=13
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Apple
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS={30 32}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple Gnarled Staff
+
+[ITEMDEF i_staff_gnarled_Apple]
+   DEFNAME=i_staff_gnarled_Apple
+   ID=i_staff_gnarled
+   NAME=Apple Gnarled Staff
+   RESOURCES= 20 i_log_Apple
+   WEIGHT=11
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=17
+   VALUE=13
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Apple
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS={30 32}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple Nunchaku
+
+[ITEMDEF i_nunchaku_Apple]
+   DEFNAME=i_nunchaku_Apple
+   ID=i_nunchaku
+   NAME=Apple Nunchaku
+   RESOURCES= 20 i_log_Apple
+   WEIGHT=11
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=19
+   VALUE=13
+   SPEED=31
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Apple
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS={30 32}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple Club
+
+[ITEMDEF i_club_Apple]
+   DEFNAME=i_club_Apple
+   ID=i_club
+   NAME=Apple Club
+   RESOURCES= 20 i_log_Apple
+   WEIGHT=11
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=15
+   VALUE=13
+   SPEED=33
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=CARPENTRY 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Apple
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS={10 12}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple Tetsubo
+
+[ITEMDEF i_tetsubo_Apple]
+   DEFNAME=i_tetsubo_Apple
+   ID=i_tetsubo
+   NAME=Apple Tetsubo
+   RESOURCES= 20 i_log_Apple
+   WEIGHT=11
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=25
+   VALUE=13
+   SPEED=39
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Apple
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS={80 82}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple Spear
+
+[ITEMDEF i_spear_Apple]
+   DEFNAME=i_spear_Apple
+   ID=i_spear
+   NAME=Apple Spear
+   RESOURCES= 20 i_log_Apple
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=13
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Apple
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS={60 62}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple Lance
+
+[ITEMDEF i_lance_Apple]
+   DEFNAME=i_lance_Apple
+   ID=i_lance
+   NAME=Apple Lance
+   RESOURCES= 20 i_log_Apple
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=13
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Apple
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS={100 102}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple Bow
+
+[ITEMDEF i_bow_Apple]
+   DEFNAME=i_bow_Apple
+   ID=i_bow
+   NAME=Apple Bow
+   RESOURCES= 20 i_log_Apple
+   WEIGHT=11
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=15
+   VALUE=13
+   SPEED=36
+   SKILL=ARCHERY
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Apple
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS={30 32}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple Composite Bow
+
+[ITEMDEF i_composite_bow_Apple]
+   DEFNAME=i_composite_bow_Apple
+   ID=i_composite_bow
+   NAME=Apple Composite Bow
+   RESOURCES= 20 i_log_Apple
+   WEIGHT=11
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=16
+   VALUE=13
+   SPEED=34
+   SKILL=ARCHERY
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Apple
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS={50 52}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple Eleven Composite Bow
+
+[ITEMDEF i_elven_composite_longbow_Apple]
+   DEFNAME=i_elven_composite_longbow_Apple
+   ID=i_elven_composite_longbow
+   NAME=Apple Eleven Composite Bow
+   RESOURCES= 20 i_log_Apple
+   WEIGHT=11
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=17
+   VALUE=13
+   SPEED=32
+   SKILL=ARCHERY
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Apple
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS={70 72}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple Assassin Shortbow
+
+[ITEMDEF i_assassin_shortbow_Apple]
+   DEFNAME=i_assassin_shortbow_Apple
+   ID=i_assassin_shortbow
+   NAME=Apple Assassin Shortbow
+   RESOURCES= 20 i_log_Apple
+   WEIGHT=11
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=18
+   VALUE=13
+   SPEED=30
+   SKILL=ARCHERY
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Apple
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS={90 92}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple Yumi
+
+[ITEMDEF i_yumi_Apple]
+   DEFNAME=i_yumi_Apple
+   ID=i_yumi
+   NAME=Apple Yumi
+   RESOURCES= 20 i_log_Apple
+   WEIGHT=11
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=19
+   VALUE=13
+   SPEED=28
+   SKILL=ARCHERY
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Apple
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS={100 102}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple Crossbow
+
+[ITEMDEF i_crossbow_Apple]
+   DEFNAME=i_crossbow_Apple
+   ID=i_crossbow
+   NAME=Apple Crossbow
+   RESOURCES= 20 i_log_Apple
+   WEIGHT=11
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=17
+   VALUE=13
+   SPEED=46
+   SKILL=ARCHERY
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Apple
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS={50 52}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple Heavy Crossbow
+
+[ITEMDEF i_crossbow_heavy_Apple]
+   DEFNAME=i_crossbow_heavy_Apple
+   ID=i_crossbow_heavy
+   NAME=Apple Heavy Crossbow
+   RESOURCES= 20 i_log_Apple
+   WEIGHT=11
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=19
+   VALUE=13
+   SPEED=44
+   SKILL=ARCHERY
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Apple
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS={70 72}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple Repeating Crossbow
+
+[ITEMDEF i_repeating_crossbow_Apple]
+   DEFNAME=i_repeating_crossbow_Apple
+   ID=i_repeating_crossbow
+   NAME=Apple Repeating Crossbow
+   RESOURCES= 20 i_log_Apple
+   WEIGHT=11
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=16
+   VALUE=13
+   SPEED=42
+   SKILL=ARCHERY
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Apple
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS={90 92}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple Bola
+
+[ITEMDEF i_bola_Apple]
+   DEFNAME=i_bola_Apple
+   ID=i_bola
+   NAME=Apple Bola
+   RESOURCES= 20 i_log_Apple
+   WEIGHT=11
+   TYPE=t_bola
+   FLIP=1
+   DAM=13
+   VALUE=13
+   SPEED=31
+   SKILL=ARCHERY
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=TINKERING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Apple
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS={110 112}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

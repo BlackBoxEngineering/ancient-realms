@@ -1,0 +1,11 @@
+[FUNCTION DamageArea]
+IF (<SRC>)
+LOCAL.UID=<SRC>
+	FORCHARS 2
+		IF (!(<REGION.FLAGS>&region_flag_safe)) && (!(<REGION.FLAGS>&region_flag_guarded)) && (!(<ISBENEFICIAL <SRC>>)) && (<CANSEELOS>)
+		DAMAGE <EVAL (<ARGN1>/(<DISTANCE>+1))> 02 <LOCAL.UID>
+		ENDIF
+	ENDFOR
+ENDIF
+
+[EOF]

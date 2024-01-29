@@ -1,0 +1,76 @@
+[ITEMDEF i_keep_TownControlstone]
+DEFNAME=i_keep_TownControlstone
+NAME=Town Stone
+ID=i_gravestone_2
+TYPE=t_script
+CATEGORY=AncientRealms
+SUBSECTION=Keep Stones
+DESCRIPTION=Town Stone
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_MOVE_NEVER
+	COLOR=1462
+	TAG.Invasion=0
+	TAG.InvasionTimeOut=0
+	TIMER=15
+
+ON=@DClick
+	REGION.TAG.TownControlStoneUID=<UID>
+	IF <SRC.GM>
+		SRC.SYSMESSAGE @1462,,1 <REGION.NAME> (<QVAL (<REGION.GUARDED>) ?Guarded:Unguarded>)
+		SRC.SYSMESSAGE @1462,,1 Guild in control of this town: <SERV.UID.<TAG.KeepControlStoneUID>.TAG.OwnersName>
+		SRC.SYSMESSAGE @1462,,1 Linked Keep Stone UID <TAG.KeepControlStoneUID>
+		SRC.SYSMESSAGE @1462,,1 This Town Stones UID <UID>
+		LOCAL.CountdownGzTime=(<VAR.WorldKeepsInvasionTimeOut>-<EVAL <TAG.InvasionTimeOut>>)
+		REGION.ALLCLIENTS sysmessage @844,,1 Invasion Timeout :<EVAL <LOCAL.CountdownGzTime>> Secs
+		TAGLIST
+	ELSE
+		SAY @0029 <REGION.NAME> (<QVAL (<REGION.GUARDED>) ?Guarded:Unguarded>)
+		IF (<TAG0.InvasionTimeOut>)
+			IF (<REGION.GUARDED>=0)
+				LOCAL.CountdownGzTime=(<VAR.WorldKeepsInvasionTimeOut>-<EVAL <TAG.InvasionTimeOut>>)
+				SAY @0029 Invasion Timeout :<EVAL <LOCAL.CountdownGzTime>> Secs
+			ENDIF
+		ENDIF
+	ENDIF
+	RETURN 1
+
+ON=@Damage
+	TAG.InvasionTimeOut=<EVAL <TAG.InvasionTimeOut>-<DAMAGE>>
+	SRC.SYSMESSAGE @1462,,1 GuardZone Regen Time <EVAL <TAG.InvasionTimeOut>>
+	
+ON=@TIMER
+	REGION.TAG.TownControlStoneUID=<UID>
+	TAG.OwnersName=<SERV.UID.<TAG.KeepControlStoneUID>.TAG.OwnersName>
+	TAG.TownTaxStoneUid=<REGION.TAG.TownTaxStoneUid>
+	TAG.TownTaxPercentage=<SERV.UID.<TAG.TownTaxStoneUid>.TAG.TownTaxPercentage>
+	TAG.KeepTaxPercentage=<SERV.UID.<TAG.KeepControlStoneUID>.TAG.KeepTaxPercentage>
+	IF <REGION.GUARDED>
+		TAG.GuardStatus=Guarded
+	ELSE
+		TAG.GuardStatus=UnGuarded
+	ENDIF
+	IF (<TAG.Invasion>=01)
+		REGION.GUARDED=0
+		LOCAL.CountdownGzTime=(<VAR.WorldKeepsInvasionTimeOut>-<EVAL <TAG.InvasionTimeOut>>)
+		REGION.ALLCLIENTS sysmessage @844,,1 <Region.Name>'s guard zone is off
+		REGION.ALLCLIENTS sysmessage @844,,1 Invasion Timeout :<EVAL <LOCAL.CountdownGzTime>> Secs
+		TAG.InvasionTimeOut=(<EVAL <TAG.InvasionTimeOut>>+1)
+		COLOR=33
+	ELSE
+		REGION.GUARDED=1
+		COLOR=02
+		TAG.InvasionTimeOut=
+	ENDIF
+	IF (<EVAL <TAG.InvasionTimeOut>> > <VAR.WorldKeepsInvasionTimeOut>)
+		TAG.Invasion=0
+		REGION.ALLCLIENTS sysmessage @55,,1 Beware <Region.Name>'s GuardsZone has returned!
+		TAG.InvasionTimeOut=
+	ENDIF	
+	TIMER=15
+	RETURN 1
+
+ON=@TOOTIP
+	FINISH_TOOLTIP
+	
+[EOF]

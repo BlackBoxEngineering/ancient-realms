@@ -1,0 +1,871 @@
+/////////////////////////////////////////////Troll leather sleeves
+[ITEMDEF i_leather_sleeves_Troll]
+   DEFNAME= i_leather_sleeves_Troll
+   ID= i_leather_sleeves
+   NAME= Troll leather sleeves
+   ARMOR= 5
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 3 i_leather_Troll
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather sleeves
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather gloves
+[ITEMDEF i_leather_gloves_Troll]
+   DEFNAME= i_leather_gloves_Troll
+   ID= i_leather_gloves
+   NAME= Troll leather gloves
+   ARMOR= 4
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 2 i_leather_Troll
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather gloves
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather gorget
+[ITEMDEF i_leather_gorget_Troll]
+   DEFNAME= i_leather_gorget_Troll
+   ID= i_leather_gorget
+   NAME= Troll leather gorget
+   ARMOR= 4
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 2 i_leather_Troll
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather gorget
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather leggings
+[ITEMDEF i_leather_leggings_Troll]
+   DEFNAME= i_leather_leggings_Troll
+   ID= i_leather_leggings
+   NAME= Troll leather leggings
+   ARMOR= 7
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 5 i_leather_Troll
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather leggings
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather tunic
+[ITEMDEF i_leather_tunic_Troll]
+   DEFNAME= i_leather_tunic_Troll
+   ID= i_leather_tunic
+   NAME= Troll leather tunic
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 10 i_leather_Troll
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather tunic
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather cap
+[ITEMDEF i_leather_cap_Troll]
+   ID=i_leather_cap
+   NAME= Troll leather cap
+   ARMOR= 5
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 3 i_leather_Troll
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather cap
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather female shorts
+[ITEMDEF i_armor_female_shorts_Troll]
+   DEFNAME= i_armor_female_shorts_Troll
+   ID= i_armor_female_shorts
+   NAME= Troll leather female shorts
+   ARMOR= 5
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 3 i_leather_Troll
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather female shorts
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather female armor
+[ITEMDEF i_armor_female_leather_Troll]
+   DEFNAME= i_armor_female_leather_Troll
+   ID= i_armor_female_leather
+   NAME= Troll leather female armor
+   ARMOR= 7
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 5 i_leather_Troll
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather female armor
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather female skirt
+[ITEMDEF i_armor_female_skirt_Troll]
+   DEFNAME= i_armor_female_skirt_Troll
+   ID= i_armor_female_skirt
+   NAME= Troll leather female skirt
+   ARMOR= 5
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 3 i_leather_Troll
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather female skirt
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather female bustier
+[ITEMDEF i_armor_female_bustier_Troll]
+   DEFNAME= i_armor_female_bustier_Troll
+   ID= i_armor_female_bustier
+   NAME= Troll leather female bustier
+   ARMOR= 7
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 5 i_leather_Troll
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather female bustier
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather mempo
+[ITEMDEF i_leather_mempo_Troll]
+   DEFNAME= i_leather_mempo_Troll
+   ID= i_leather_mempo
+   NAME= Troll leather mempo
+   ARMOR= 6
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 4 i_leather_Troll
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather mempo
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather do
+[ITEMDEF i_leather_do_Troll]
+   DEFNAME= i_leather_do_Troll
+   ID= i_leather_do
+   NAME= Troll leather do
+   ARMOR= 11
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 9 i_leather_Troll
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather do
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather hiro sode
+[ITEMDEF i_leather_hiro_sode_Troll]
+   DEFNAME= i_leather_hiro_sode_Troll
+   ID= i_leather_hiro_sode
+   NAME= Troll leather hiro sode
+   ARMOR= 9
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 7 i_leather_Troll
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather hiro sode
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather suneate
+[ITEMDEF i_leather_suneate_Troll]
+   DEFNAME= i_leather_suneate_Troll
+   ID= i_leather_suneate
+   NAME= Troll leather suneate
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 6 i_leather_Troll
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather suneate
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather haidate
+[ITEMDEF i_leather_haidate_Troll]
+   DEFNAME= i_leather_haidate_Troll
+   ID= i_leather_haidate
+   NAME= Troll leather haidate
+   ARMOR= 6
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 4 i_leather_Troll
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather haidate
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather ninja hood
+[ITEMDEF i_leather_ninja_hood_Troll]
+   DEFNAME= i_leather_ninja_hood_Troll
+   ID= i_leather_ninja_hood
+   NAME= Troll leather ninja hood
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 8 i_leather_Troll
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather ninja hood
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather ninja belt
+[ITEMDEF i_leather_ninja_belt_Troll]
+   DEFNAME= i_leather_ninja_belt_Troll
+   ID= i_leather_ninja_belt
+   NAME= Troll leather ninja belt
+   ARMOR= 5
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 3 i_leather_Troll
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather ninja belt
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather ninja pants
+[ITEMDEF i_leather_ninja_pants_Troll]
+   DEFNAME= i_leather_ninja_pants_Troll
+   ID= i_leather_ninja_pants
+   NAME= Troll leather ninja pants
+   ARMOR= 11
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 9 i_leather_Troll
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather ninja pants
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather ninja mitts
+[ITEMDEF i_leather_ninja_mitts_Troll]
+   DEFNAME= i_leather_ninja_mitts_Troll
+   ID= i_leather_ninja_mitts
+   NAME= Troll leather ninja mitts
+   ARMOR= 5
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 3 i_leather_Troll
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather ninja mitts
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather ninja jacket
+[ITEMDEF i_leather_ninja_jacket_Troll]
+   DEFNAME= i_leather_ninja_jacket_Troll
+   ID= i_leather_ninja_jacket
+   NAME= Troll leather ninja jacket
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 12 i_leather_Troll
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather ninja jacket
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {62 120}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather gargoyle arms
+[ITEMDEF i_leather_gargoyle_arms_1_Troll]
+   DEFNAME= i_leather_gargoyle_arms_1_Troll
+   ID= i_leather_gargoyle_arms_1
+   NAME= Troll leather gargoyle arms
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 6 i_leather_Troll
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather gargoyle arms
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather gargoyle arms
+[ITEMDEF i_leather_gargoyle_arms_2_Troll]
+   DEFNAME= i_leather_gargoyle_arms_2_Troll
+   ID= i_leather_gargoyle_arms_2
+   NAME= Troll leather gargoyle arms
+   ARMOR= 8
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 6 i_leather_Troll
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather gargoyle arms
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather gargoyle chest
+[ITEMDEF i_leather_gargoyle_chest_2_Troll]
+   DEFNAME= i_leather_gargoyle_chest_2_Troll
+   ID= i_leather_gargoyle_chest_2
+   NAME= Troll leather gargoyle chest
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 12 i_leather_Troll
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather gargoyle chest
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather gargoyle chest
+[ITEMDEF i_leather_gargoyle_chest_1_Troll]
+   DEFNAME= i_leather_gargoyle_chest_1_Troll
+   ID= i_leather_gargoyle_chest_1
+   NAME= Troll leather gargoyle chest
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 12 i_leather_Troll
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather gargoyle chest
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather gargoyle leggings
+[ITEMDEF i_leather_gargoyle_leggings_1_Troll]
+   DEFNAME= i_leather_gargoyle_leggings_1_Troll
+   ID= i_leather_gargoyle_leggings_1
+   NAME= Troll leather gargoyle leggings
+   ARMOR= 11
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 9 i_leather_Troll
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather gargoyle leggings
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather gargoyle leggings
+[ITEMDEF i_leather_gargoyle_leggings_2_Troll]
+   DEFNAME= i_leather_gargoyle_leggings_2_Troll
+   ID= i_leather_gargoyle_leggings_2
+   NAME= Troll leather gargoyle leggings
+   ARMOR= 11
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 9 i_leather_Troll
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather gargoyle leggings
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather gargoyle kilt
+[ITEMDEF i_leather_gargoyle_kilt_2_Troll]
+   DEFNAME= i_leather_gargoyle_kilt_2_Troll
+   ID= i_leather_gargoyle_kilt_2
+   NAME= Troll leather gargoyle kilt
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_leather_Troll
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather gargoyle kilt
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather gargoyle kilt
+[ITEMDEF i_leather_gargoyle_kilt_1_Troll]
+   DEFNAME= i_leather_gargoyle_kilt_1_Troll
+   ID= i_leather_gargoyle_kilt_1
+   NAME= Troll leather gargoyle kilt
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_leather_Troll
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather gargoyle kilt
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll leather gargoyle wings
+[ITEMDEF i_gargish_leather_wings_Troll]
+   DEFNAME= i_gargish_leather_wings_Troll
+   ID= i_gargish_leather_wings
+   NAME= Troll leather gargoyle wings
+   ARMOR= 7
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 5 i_leather_Troll
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= leather gargoyle wings
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {82 160}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Troll arcane leather gloves
+[ITEMDEF i_leather_gloves_arcane_Troll]
+   DEFNAME= i_leather_gloves_arcane_Troll
+   ID= i_leather_gloves_arcane
+   NAME= Troll arcane leather gloves
+   ARMOR= 7
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 5 i_leather_Troll
+   SKILLMAKE= TAILORING 120.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Troll
+   DESCRIPTION= arcane leather gloves
+
+ON=@Create
+   COLOR=color_hide_Troll
+   HITPOINTS= {122 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

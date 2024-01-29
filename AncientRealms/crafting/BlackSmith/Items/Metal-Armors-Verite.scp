@@ -1,0 +1,1945 @@
+ /////////////////////////////////////////////Verite Platemail Arms
+[ITEMDEF i_platemail_arms_Verite]
+   DEFNAME= i_platemail_arms_Verite
+   ID= i_platemail_arms
+   NAME= Verite Platemail Arms
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Platemail Leggings
+[ITEMDEF i_platemail_leggings_Verite]
+   DEFNAME= i_platemail_leggings_Verite
+   ID= i_platemail_leggings
+   NAME= Verite Platemail Leggings
+   ARMOR= 25
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Platemail Helmet
+[ITEMDEF i_platemail_helm_Verite]
+   DEFNAME= i_platemail_helm_Verite
+   ID= i_platemail_helm
+   NAME= Verite Platemail Helmet
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Platemail Gorget
+[ITEMDEF i_platemail_gorget_Verite]
+   DEFNAME= i_platemail_gorget_Verite
+   ID= i_platemail_gorget
+   NAME= Verite Platemail Gorget
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Verite]
+   DEFNAME= i_platemail_gorget2_Verite
+   ID= i_platemail_gorget2
+   NAME= Verite Platemail Gorget
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Platemail Gloves
+[ITEMDEF i_platemail_gloves_Verite]
+   DEFNAME= i_platemail_gloves_Verite
+   ID= i_platemail_gloves
+   NAME= Verite Platemail Gloves
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Platemail Chest
+[ITEMDEF i_platemail_chest_Verite]
+   DEFNAME= i_platemail_chest_Verite
+   ID= i_platemail_chest
+   NAME= Verite Platemail Chest
+   ARMOR= 29
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Verite]
+   DEFNAME= i_armor_female_plate_Verite
+   ID= i_armor_female_plate
+   NAME= Verite Platemail Female Plate
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite chainmail coif
+[ITEMDEF i_chainmail_coif_Verite]
+   DEFNAME= i_chainmail_coif_Verite
+   ID= i_chainmail_coif
+   NAME= Verite chainmail coif
+   ARMOR= 21
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite chainmail leggings
+[ITEMDEF i_chainmail_leggings_Verite]
+   DEFNAME= i_chainmail_leggings_Verite
+   ID= i_chainmail_leggings
+   NAME= Verite chainmail leggings
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite chainmail tunic
+[ITEMDEF i_chainmail_tunic_Verite]
+   DEFNAME= i_chainmail_tunic_Verite
+   ID= i_chainmail_tunic
+   NAME= Verite chainmail tunic
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Verite]
+   DEFNAME= i_ringmail_sleeves_Verite
+   ID= i_ringmail_sleeves
+   NAME= Verite Ringmail Sleeves
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Verite]
+   DEFNAME= i_ringmail_leggings_Verite
+   ID= i_ringmail_leggings
+   NAME= Verite Ringmail Leggings
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Verite]
+   DEFNAME= i_ringmail_tunic_Verite
+   ID= i_ringmail_tunic
+   NAME= Verite Ringmail Tunic
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Verite]
+   DEFNAME= i_ringmail_gloves_Verite
+   ID= i_ringmail_gloves
+   NAME= Verite Ringmail Gloves
+   ARMOR= 9
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite studded sleeves
+[ITEMDEF i_studded_sleeves_Verite]
+   DEFNAME= i_studded_sleeves_Verite
+   ID= i_studded_sleeves
+   NAME= Verite studded sleeves
+   ARMOR= 12
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Verite, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite studded gloves
+[ITEMDEF i_studded_gloves_Verite]
+   DEFNAME= i_studded_gloves_Verite
+   ID= i_studded_gloves
+   NAME= Verite studded gloves
+   ARMOR= 9
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Verite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite studded gorget
+[ITEMDEF i_studded_gorget_Verite]
+   DEFNAME= i_studded_gorget_Verite
+   ID= i_studded_gorget
+   NAME= Verite studded gorget
+   ARMOR= 9
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Verite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite studded leggings
+[ITEMDEF i_studded_leggings_Verite]
+   DEFNAME= i_studded_leggings_Verite
+   ID= i_studded_leggings
+   NAME= Verite studded leggings
+   ARMOR= 18
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Verite, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite studded tunic
+[ITEMDEF i_studded_tunic_Verite]
+   DEFNAME= i_studded_tunic_Verite
+   ID= i_studded_tunic
+   NAME= Verite studded tunic
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Verite, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite studded female armor
+[ITEMDEF i_armor_female_studded_Verite]
+   DEFNAME= i_armor_female_studded_Verite
+   ID= i_armor_female_studded
+   NAME= Verite studded female armor
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Verite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Verite]
+   DEFNAME= i_armor_female_bustier_studded_Verite
+   ID= i_armor_female_bustier_studded
+   NAME= Verite studded female bustier
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Verite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite platemail mempo
+[ITEMDEF i_platemail_mempo_Verite]
+   DEFNAME= i_platemail_mempo_Verite
+   ID= i_platemail_mempo
+   NAME= Verite platemail mempo
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite platemail do
+[ITEMDEF i_platemail_do_Verite]
+   DEFNAME= i_platemail_do_Verite
+   ID= i_platemail_do
+   NAME= Verite platemail do
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Verite]
+   DEFNAME= i_platemail_hiro_sode_Verite
+   ID= i_platemail_hiro_sode
+   NAME= Verite platemail hiro sode
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite platemail suneate
+[ITEMDEF i_platemail_suneate_Verite]
+   DEFNAME= i_platemail_suneate_Verite
+   ID= i_platemail_suneate
+   NAME= Verite platemail suneate
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite platemail haidate
+[ITEMDEF i_platemail_haidate_Verite]
+   DEFNAME= i_platemail_haidate_Verite
+   ID= i_platemail_haidate
+   NAME= Verite platemail haidate
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite studded mempo
+[ITEMDEF i_studded_mempo_Verite]
+   DEFNAME= i_studded_mempo_Verite
+   ID= i_studded_mempo
+   NAME= Verite studded mempo
+   ARMOR= 14
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Verite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite studded do
+[ITEMDEF i_studded_do_Verite]
+   DEFNAME= i_studded_do_Verite
+   ID= i_studded_do
+   NAME= Verite studded do
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Verite, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Verite]
+   DEFNAME= i_studded_hiro_sode_Verite
+   ID= i_studded_hiro_sode
+   NAME= Verite studded hiro sode
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Verite, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite studded suneate
+[ITEMDEF i_studded_suneate_Verite]
+   DEFNAME= i_studded_suneate_Verite
+   ID= i_studded_suneate
+   NAME= Verite studded suneate
+   ARMOR= 16
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Verite, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite studded haidate
+[ITEMDEF i_studded_haidate_Verite]
+   DEFNAME= i_studded_haidate_Verite
+   ID= i_studded_haidate
+   NAME= Verite studded haidate
+   ARMOR= 14
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Verite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Verite]
+   DEFNAME= i_platemail_gargish_arms_Verite
+   ID= i_platemail_gargish_arms
+   NAME= Verite Gargish Platemail Arms
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Verite]
+   DEFNAME= i_platemail_gargish_chest_Verite
+   ID= i_platemail_gargish_chest
+   NAME= Verite Gargish Platemail Chest
+   ARMOR= 31
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Verite]
+   DEFNAME= i_platemail_gargish_kilt_Verite
+   ID= i_platemail_gargish_kilt
+   NAME= Verite Gargish Platemail Kilt
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Verite]
+   DEFNAME= i_platemail_gargish_leggings_Verite
+   ID= i_platemail_gargish_leggings
+   NAME= Verite Gargish Platemail Leggings
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Verite]
+   DEFNAME= i_platemail_gargish_arms_2_Verite
+   ID= i_platemail_gargish_arms_2
+   NAME= Verite Gargish Platemail Arms
+   ARMOR= 23
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Verite]
+   DEFNAME= i_platemail_gargish_chest_2_Verite
+   ID= i_platemail_gargish_chest_2
+   NAME= Verite Gargish Platemail Chest
+   ARMOR= 31
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Verite]
+   DEFNAME= i_platemail_gargish_kilt_2_Verite
+   ID= i_platemail_gargish_kilt_2
+   NAME= Verite Gargish Platemail Kilt
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Verite]
+   DEFNAME= i_platemail_gargish_leggings_2_Verite
+   ID= i_platemail_gargish_leggings_2
+   NAME= Verite Gargish Platemail Leggings
+   ARMOR= 27
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Closed Helmet
+[ITEMDEF i_helm_close_Verite]
+   DEFNAME= i_helm_close_Verite
+   ID= i_helm_close
+   NAME= Verite Closed Helmet
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Open Helmet
+[ITEMDEF i_helm_open_Verite]
+   DEFNAME= i_helm_open_Verite
+   ID= i_helm_open
+   NAME= Verite Open Helmet
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Bascinet
+[ITEMDEF i_bascinet_Verite]
+   DEFNAME= i_bascinet_Verite
+   ID= i_bascinet
+   NAME= Verite Bascinet
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Norse Helmet
+[ITEMDEF i_helm_norse_Verite]
+   DEFNAME= i_helm_norse_Verite
+   ID= i_helm_norse
+   NAME= Verite Norse Helmet
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Kabuto
+[ITEMDEF i_helm_kabuto_Verite]
+   DEFNAME= i_helm_kabuto_Verite
+   ID= i_helm_kabuto
+   NAME= Verite Kabuto
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Verite]
+   DEFNAME= i_chainmail_hatsuburi_Verite
+   ID= i_chainmail_hatsuburi
+   NAME= Verite Chainmail Hatsuburi
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Verite]
+   DEFNAME= i_platemail_hatsuburi_Verite
+   ID= i_platemail_hatsuburi
+   NAME= Verite Platemail Hatsuburi
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Verite]
+   DEFNAME= i_plate_jingasa_heavy_Verite
+   ID= i_plate_jingasa_heavy
+   NAME= Verite Heavy Jingasa
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Verite]
+   DEFNAME= i_platemail_kabuto_decorative_Verite
+   ID= i_platemail_kabuto_decorative
+   NAME= Verite Decorative Platemail Kabuto
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {97 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Verite]
+   DEFNAME= i_plate_jingasa_light_Verite
+   ID= i_plate_jingasa_light
+   NAME= Verite Light Jingasa
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Verite]
+   DEFNAME= i_plate_jingasa_small_Verite
+   ID= i_plate_jingasa_small
+   NAME= Verite Small Jingasa
+   ARMOR= 15
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Verite]
+   DEFNAME= i_platemail_kabuto_battle_Verite
+   ID= i_platemail_kabuto_battle
+   NAME= Verite Platemail Battle Kabuto
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Verite]
+   DEFNAME= i_platemail_kabuto_Verite
+   ID= i_platemail_kabuto
+   NAME= Verite Platemail Kabuto
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Circlet
+[ITEMDEF i_circlet_Verite]
+   DEFNAME= i_circlet_Verite
+   ID= i_circlet
+   NAME= Verite Circlet
+   ARMOR= 13
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Royal Circlet
+[ITEMDEF i_circlet_royal_Verite]
+   DEFNAME= i_circlet_royal_Verite
+   ID= i_circlet_royal
+   NAME= Verite Royal Circlet
+   ARMOR= 13
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Verite]
+   DEFNAME= i_circlet_gemmed_Verite
+   ID= i_circlet_gemmed
+   NAME= Verite Gemmed Circlet
+   ARMOR= 13
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {107 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Buckler
+[ITEMDEF i_shield_buckler_Verite]
+   DEFNAME= i_shield_buckler_Verite
+   ID= i_shield_buckler
+   NAME= Verite Buckler
+   ARMOR= 12
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {37 210}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Wooden Shield
+[ITEMDEF i_shield_wood_Verite]
+   DEFNAME= i_shield_wood_Verite
+   ID= i_shield_wood
+   NAME= Verite Wooden Shield
+   ARMOR= 13
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {47 280}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Verite]
+   DEFNAME= i_shield_round_metal_Verite
+   ID= i_shield_round_metal
+   NAME= Verite Light Metal  Round Shield
+   ARMOR= 14
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {57 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Verite]
+   DEFNAME= i_shield_round_bronze_Verite
+   ID= i_shield_round_bronze
+   NAME= Verite Heavy Metal  Round Shield
+   ARMOR= 16
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {67 420}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Verite]
+   DEFNAME= i_shield_kite_metal_Verite
+   ID= i_shield_kite_metal
+   NAME= Verite Metal Kite Shield
+   ARMOR= 18
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {77 490}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Verite]
+   DEFNAME= i_shield_kite_wood_Verite
+   ID= i_shield_kite_wood
+   NAME= Verite Wooden Kite Shield
+   ARMOR= 17
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {87 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Heater Shield
+[ITEMDEF i_shield_heater_Verite]
+   DEFNAME= i_shield_heater_Verite
+   ID= i_shield_heater
+   NAME= Verite Heater Shield
+   ARMOR= 19
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {97 630}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Ancient Shield
+[ITEMDEF i_shield_dupre_Verite]
+   DEFNAME= i_shield_dupre_Verite
+   ID= i_shield_dupre
+   NAME= Verite Ancient Shield
+   ARMOR= 21
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {107 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Shield oh Hell
+[ITEMDEF i_shield_scale_Verite]
+   DEFNAME= i_shield_scale_Verite
+   ID= i_shield_scale
+   NAME= Verite Shield oh Hell
+   ARMOR= 21
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {107 700}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Chaos Shield
+[ITEMDEF i_shield_chaos_Verite]
+   DEFNAME= i_shield_chaos_Verite
+   ID= i_shield_chaos
+   NAME= Verite Chaos Shield
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {117 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Verite Order Shield
+[ITEMDEF i_shield_order_Verite]
+   DEFNAME= i_shield_order_Verite
+   ID= i_shield_order
+   NAME= Verite Order Shield
+   ARMOR= 22
+   WEIGHT= 17
+   VALUE= 70
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Verite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Verite
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Verite
+   HITPOINTS= {117 770}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

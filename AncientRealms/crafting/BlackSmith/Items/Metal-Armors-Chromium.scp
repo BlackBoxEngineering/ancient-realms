@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Chromium Platemail Arms
+[ITEMDEF i_platemail_arms_Chromium]
+   DEFNAME= i_platemail_arms_Chromium
+   ID= i_platemail_arms
+   NAME= Chromium Platemail Arms
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Platemail Leggings
+[ITEMDEF i_platemail_leggings_Chromium]
+   DEFNAME= i_platemail_leggings_Chromium
+   ID= i_platemail_leggings
+   NAME= Chromium Platemail Leggings
+   ARMOR= 30
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Platemail Helmet
+[ITEMDEF i_platemail_helm_Chromium]
+   DEFNAME= i_platemail_helm_Chromium
+   ID= i_platemail_helm
+   NAME= Chromium Platemail Helmet
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Platemail Gorget
+[ITEMDEF i_platemail_gorget_Chromium]
+   DEFNAME= i_platemail_gorget_Chromium
+   ID= i_platemail_gorget
+   NAME= Chromium Platemail Gorget
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Chromium]
+   DEFNAME= i_platemail_gorget2_Chromium
+   ID= i_platemail_gorget2
+   NAME= Chromium Platemail Gorget
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Platemail Gloves
+[ITEMDEF i_platemail_gloves_Chromium]
+   DEFNAME= i_platemail_gloves_Chromium
+   ID= i_platemail_gloves
+   NAME= Chromium Platemail Gloves
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Platemail Chest
+[ITEMDEF i_platemail_chest_Chromium]
+   DEFNAME= i_platemail_chest_Chromium
+   ID= i_platemail_chest
+   NAME= Chromium Platemail Chest
+   ARMOR= 34
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Chromium]
+   DEFNAME= i_armor_female_plate_Chromium
+   ID= i_armor_female_plate
+   NAME= Chromium Platemail Female Plate
+   ARMOR= 32
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium chainmail coif
+[ITEMDEF i_chainmail_coif_Chromium]
+   DEFNAME= i_chainmail_coif_Chromium
+   ID= i_chainmail_coif
+   NAME= Chromium chainmail coif
+   ARMOR= 26
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {62 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium chainmail leggings
+[ITEMDEF i_chainmail_leggings_Chromium]
+   DEFNAME= i_chainmail_leggings_Chromium
+   ID= i_chainmail_leggings
+   NAME= Chromium chainmail leggings
+   ARMOR= 28
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {62 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium chainmail tunic
+[ITEMDEF i_chainmail_tunic_Chromium]
+   DEFNAME= i_chainmail_tunic_Chromium
+   ID= i_chainmail_tunic
+   NAME= Chromium chainmail tunic
+   ARMOR= 32
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {62 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Chromium]
+   DEFNAME= i_ringmail_sleeves_Chromium
+   ID= i_ringmail_sleeves
+   NAME= Chromium Ringmail Sleeves
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {52 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Chromium]
+   DEFNAME= i_ringmail_leggings_Chromium
+   ID= i_ringmail_leggings
+   NAME= Chromium Ringmail Leggings
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {52 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Chromium]
+   DEFNAME= i_ringmail_tunic_Chromium
+   ID= i_ringmail_tunic
+   NAME= Chromium Ringmail Tunic
+   ARMOR= 28
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {52 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Chromium]
+   DEFNAME= i_ringmail_gloves_Chromium
+   ID= i_ringmail_gloves
+   NAME= Chromium Ringmail Gloves
+   ARMOR= 14
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {52 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium studded sleeves
+[ITEMDEF i_studded_sleeves_Chromium]
+   DEFNAME= i_studded_sleeves_Chromium
+   ID= i_studded_sleeves
+   NAME= Chromium studded sleeves
+   ARMOR= 17
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Chromium, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {42 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium studded gloves
+[ITEMDEF i_studded_gloves_Chromium]
+   DEFNAME= i_studded_gloves_Chromium
+   ID= i_studded_gloves
+   NAME= Chromium studded gloves
+   ARMOR= 14
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Chromium, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {42 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium studded gorget
+[ITEMDEF i_studded_gorget_Chromium]
+   DEFNAME= i_studded_gorget_Chromium
+   ID= i_studded_gorget
+   NAME= Chromium studded gorget
+   ARMOR= 14
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Chromium, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {42 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium studded leggings
+[ITEMDEF i_studded_leggings_Chromium]
+   DEFNAME= i_studded_leggings_Chromium
+   ID= i_studded_leggings
+   NAME= Chromium studded leggings
+   ARMOR= 23
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Chromium, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {42 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium studded tunic
+[ITEMDEF i_studded_tunic_Chromium]
+   DEFNAME= i_studded_tunic_Chromium
+   ID= i_studded_tunic
+   NAME= Chromium studded tunic
+   ARMOR= 27
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Chromium, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {42 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium studded female armor
+[ITEMDEF i_armor_female_studded_Chromium]
+   DEFNAME= i_armor_female_studded_Chromium
+   ID= i_armor_female_studded
+   NAME= Chromium studded female armor
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Chromium, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {42 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Chromium]
+   DEFNAME= i_armor_female_bustier_studded_Chromium
+   ID= i_armor_female_bustier_studded
+   NAME= Chromium studded female bustier
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Chromium, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {42 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium platemail mempo
+[ITEMDEF i_platemail_mempo_Chromium]
+   DEFNAME= i_platemail_mempo_Chromium
+   ID= i_platemail_mempo
+   NAME= Chromium platemail mempo
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium platemail do
+[ITEMDEF i_platemail_do_Chromium]
+   DEFNAME= i_platemail_do_Chromium
+   ID= i_platemail_do
+   NAME= Chromium platemail do
+   ARMOR= 32
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Chromium]
+   DEFNAME= i_platemail_hiro_sode_Chromium
+   ID= i_platemail_hiro_sode
+   NAME= Chromium platemail hiro sode
+   ARMOR= 28
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium platemail suneate
+[ITEMDEF i_platemail_suneate_Chromium]
+   DEFNAME= i_platemail_suneate_Chromium
+   ID= i_platemail_suneate
+   NAME= Chromium platemail suneate
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium platemail haidate
+[ITEMDEF i_platemail_haidate_Chromium]
+   DEFNAME= i_platemail_haidate_Chromium
+   ID= i_platemail_haidate
+   NAME= Chromium platemail haidate
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium studded mempo
+[ITEMDEF i_studded_mempo_Chromium]
+   DEFNAME= i_studded_mempo_Chromium
+   ID= i_studded_mempo
+   NAME= Chromium studded mempo
+   ARMOR= 19
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Chromium, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium studded do
+[ITEMDEF i_studded_do_Chromium]
+   DEFNAME= i_studded_do_Chromium
+   ID= i_studded_do
+   NAME= Chromium studded do
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Chromium, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Chromium]
+   DEFNAME= i_studded_hiro_sode_Chromium
+   ID= i_studded_hiro_sode
+   NAME= Chromium studded hiro sode
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Chromium, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium studded suneate
+[ITEMDEF i_studded_suneate_Chromium]
+   DEFNAME= i_studded_suneate_Chromium
+   ID= i_studded_suneate
+   NAME= Chromium studded suneate
+   ARMOR= 21
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Chromium, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium studded haidate
+[ITEMDEF i_studded_haidate_Chromium]
+   DEFNAME= i_studded_haidate_Chromium
+   ID= i_studded_haidate
+   NAME= Chromium studded haidate
+   ARMOR= 19
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Chromium, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Chromium]
+   DEFNAME= i_platemail_gargish_arms_Chromium
+   ID= i_platemail_gargish_arms
+   NAME= Chromium Gargish Platemail Arms
+   ARMOR= 28
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Chromium]
+   DEFNAME= i_platemail_gargish_chest_Chromium
+   ID= i_platemail_gargish_chest
+   NAME= Chromium Gargish Platemail Chest
+   ARMOR= 36
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Chromium]
+   DEFNAME= i_platemail_gargish_kilt_Chromium
+   ID= i_platemail_gargish_kilt
+   NAME= Chromium Gargish Platemail Kilt
+   ARMOR= 27
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Chromium]
+   DEFNAME= i_platemail_gargish_leggings_Chromium
+   ID= i_platemail_gargish_leggings
+   NAME= Chromium Gargish Platemail Leggings
+   ARMOR= 32
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Chromium]
+   DEFNAME= i_platemail_gargish_arms_2_Chromium
+   ID= i_platemail_gargish_arms_2
+   NAME= Chromium Gargish Platemail Arms
+   ARMOR= 28
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Chromium]
+   DEFNAME= i_platemail_gargish_chest_2_Chromium
+   ID= i_platemail_gargish_chest_2
+   NAME= Chromium Gargish Platemail Chest
+   ARMOR= 36
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Chromium]
+   DEFNAME= i_platemail_gargish_kilt_2_Chromium
+   ID= i_platemail_gargish_kilt_2
+   NAME= Chromium Gargish Platemail Kilt
+   ARMOR= 27
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Chromium]
+   DEFNAME= i_platemail_gargish_leggings_2_Chromium
+   ID= i_platemail_gargish_leggings_2
+   NAME= Chromium Gargish Platemail Leggings
+   ARMOR= 32
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Closed Helmet
+[ITEMDEF i_helm_close_Chromium]
+   DEFNAME= i_helm_close_Chromium
+   ID= i_helm_close
+   NAME= Chromium Closed Helmet
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Open Helmet
+[ITEMDEF i_helm_open_Chromium]
+   DEFNAME= i_helm_open_Chromium
+   ID= i_helm_open
+   NAME= Chromium Open Helmet
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {52 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Bascinet
+[ITEMDEF i_bascinet_Chromium]
+   DEFNAME= i_bascinet_Chromium
+   ID= i_bascinet
+   NAME= Chromium Bascinet
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {42 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Norse Helmet
+[ITEMDEF i_helm_norse_Chromium]
+   DEFNAME= i_helm_norse_Chromium
+   ID= i_helm_norse
+   NAME= Chromium Norse Helmet
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {62 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Kabuto
+[ITEMDEF i_helm_kabuto_Chromium]
+   DEFNAME= i_helm_kabuto_Chromium
+   ID= i_helm_kabuto
+   NAME= Chromium Kabuto
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Chromium]
+   DEFNAME= i_chainmail_hatsuburi_Chromium
+   ID= i_chainmail_hatsuburi
+   NAME= Chromium Chainmail Hatsuburi
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Chromium]
+   DEFNAME= i_platemail_hatsuburi_Chromium
+   ID= i_platemail_hatsuburi
+   NAME= Chromium Platemail Hatsuburi
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Chromium]
+   DEFNAME= i_plate_jingasa_heavy_Chromium
+   ID= i_plate_jingasa_heavy
+   NAME= Chromium Heavy Jingasa
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Chromium]
+   DEFNAME= i_platemail_kabuto_decorative_Chromium
+   ID= i_platemail_kabuto_decorative
+   NAME= Chromium Decorative Platemail Kabuto
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {102 1080}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Chromium]
+   DEFNAME= i_plate_jingasa_light_Chromium
+   ID= i_plate_jingasa_light
+   NAME= Chromium Light Jingasa
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Chromium]
+   DEFNAME= i_plate_jingasa_small_Chromium
+   ID= i_plate_jingasa_small
+   NAME= Chromium Small Jingasa
+   ARMOR= 20
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {62 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Chromium]
+   DEFNAME= i_platemail_kabuto_battle_Chromium
+   ID= i_platemail_kabuto_battle
+   NAME= Chromium Platemail Battle Kabuto
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Chromium]
+   DEFNAME= i_platemail_kabuto_Chromium
+   ID= i_platemail_kabuto
+   NAME= Chromium Platemail Kabuto
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Circlet
+[ITEMDEF i_circlet_Chromium]
+   DEFNAME= i_circlet_Chromium
+   ID= i_circlet
+   NAME= Chromium Circlet
+   ARMOR= 18
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Royal Circlet
+[ITEMDEF i_circlet_royal_Chromium]
+   DEFNAME= i_circlet_royal_Chromium
+   ID= i_circlet_royal
+   NAME= Chromium Royal Circlet
+   ARMOR= 18
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Chromium]
+   DEFNAME= i_circlet_gemmed_Chromium
+   ID= i_circlet_gemmed
+   NAME= Chromium Gemmed Circlet
+   ARMOR= 18
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {112 1200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Buckler
+[ITEMDEF i_shield_buckler_Chromium]
+   DEFNAME= i_shield_buckler_Chromium
+   ID= i_shield_buckler
+   NAME= Chromium Buckler
+   ARMOR= 17
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {42 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Wooden Shield
+[ITEMDEF i_shield_wood_Chromium]
+   DEFNAME= i_shield_wood_Chromium
+   ID= i_shield_wood
+   NAME= Chromium Wooden Shield
+   ARMOR= 18
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {52 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Chromium]
+   DEFNAME= i_shield_round_metal_Chromium
+   ID= i_shield_round_metal
+   NAME= Chromium Light Metal  Round Shield
+   ARMOR= 19
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {62 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Chromium]
+   DEFNAME= i_shield_round_bronze_Chromium
+   ID= i_shield_round_bronze
+   NAME= Chromium Heavy Metal  Round Shield
+   ARMOR= 21
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {72 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Chromium]
+   DEFNAME= i_shield_kite_metal_Chromium
+   ID= i_shield_kite_metal
+   NAME= Chromium Metal Kite Shield
+   ARMOR= 23
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {82 840}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Chromium]
+   DEFNAME= i_shield_kite_wood_Chromium
+   ID= i_shield_kite_wood
+   NAME= Chromium Wooden Kite Shield
+   ARMOR= 22
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {92 960}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Heater Shield
+[ITEMDEF i_shield_heater_Chromium]
+   DEFNAME= i_shield_heater_Chromium
+   ID= i_shield_heater
+   NAME= Chromium Heater Shield
+   ARMOR= 24
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {102 1080}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Ancient Shield
+[ITEMDEF i_shield_dupre_Chromium]
+   DEFNAME= i_shield_dupre_Chromium
+   ID= i_shield_dupre
+   NAME= Chromium Ancient Shield
+   ARMOR= 26
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {112 1200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Shield oh Hell
+[ITEMDEF i_shield_scale_Chromium]
+   DEFNAME= i_shield_scale_Chromium
+   ID= i_shield_scale
+   NAME= Chromium Shield oh Hell
+   ARMOR= 26
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {112 1200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Chaos Shield
+[ITEMDEF i_shield_chaos_Chromium]
+   DEFNAME= i_shield_chaos_Chromium
+   ID= i_shield_chaos
+   NAME= Chromium Chaos Shield
+   ARMOR= 27
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {122 1320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Chromium Order Shield
+[ITEMDEF i_shield_order_Chromium]
+   DEFNAME= i_shield_order_Chromium
+   ID= i_shield_order
+   NAME= Chromium Order Shield
+   ARMOR= 27
+   WEIGHT= 22
+   VALUE= 120
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Chromium
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Chromium
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Chromium
+   HITPOINTS= {122 1320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

@@ -1,0 +1,30 @@
+[ITEMDEF 0ee3]
+//spiderweb
+DEFNAME=i_spider_web
+VALUE=1
+TYPE=t_web
+CATEGORY=Decoration - Dungeons and The Dead
+SUBSECTION=Spider Web
+DESCRIPTION=Spider Web 01 (N)
+DUPELIST=0ee4,0ee5,0ee6
+
+[ITEMDEF 0ee4]
+//spiderweb
+DUPEITEM=0ee3
+CATEGORY=Decoration - Dungeons and The Dead
+SUBSECTION=Spider Web
+DESCRIPTION=Spider Web 01 (W)
+
+[ITEMDEF 0ee5]
+//spiderweb
+DUPEITEM=0ee3
+CATEGORY=Decoration - Dungeons and The Dead
+SUBSECTION=Spider Web
+DESCRIPTION=Spider Web 02 (N)
+
+[ITEMDEF 0ee6]
+//spiderweb
+DUPEITEM=0ee3
+CATEGORY=Decoration - Dungeons and The Dead
+SUBSECTION=Spider Web
+DESCRIPTION=Spider Web 02 (N)

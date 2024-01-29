@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Niobium Quarter Staff
+
+[ITEMDEF i_staff_quarter_Niobium]
+   DEFNAME=i_staff_quarter_Niobium
+   ID=i_staff_quarter
+   NAME=Niobium Quarter Staff
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=28
+   VALUE=162
+   SPEED=55
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={20 44}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Niobium]
+   DEFNAME=i_serpentstone_staff_Niobium
+   ID=i_serpentstone_staff
+   NAME=Niobium Serpentstone Staff
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=32
+   VALUE=162
+   SPEED=54
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={60 84}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Niobium]
+   DEFNAME=i_staff_bladed_double_Niobium
+   ID=i_staff_bladed_double
+   NAME=Niobium Double Bladed Staff
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=40
+   VALUE=162
+   SPEED=52
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={120 144}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Glass Staff
+
+[ITEMDEF i_glass_staff_Niobium]
+   DEFNAME=i_glass_staff_Niobium
+   ID=i_glass_staff
+   NAME=Niobium Glass Staff
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=37
+   VALUE=162
+   SPEED=52
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={90 114}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Bladed Staff
+
+[ITEMDEF i_bladed_staff_Niobium]
+   DEFNAME=i_bladed_staff_Niobium
+   ID=i_bladed_staff
+   NAME=Niobium Bladed Staff
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=38
+   VALUE=162
+   SPEED=54
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={115 139}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Tongs
+
+[ITEMDEF i_tongs_Niobium]
+   DEFNAME=i_tongs_Niobium
+   ID=i_tongs
+   NAME=Niobium Tongs
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=15
+   VALUE=162
+   SPEED=17
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={0 24}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Mace
+
+[ITEMDEF i_mace_Niobium]
+   DEFNAME=i_mace_Niobium
+   ID=i_mace
+   NAME=Niobium Mace
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=28
+   VALUE=162
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={30 54}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Maul
+
+[ITEMDEF i_maul_Niobium]
+   DEFNAME=i_maul_Niobium
+   ID=i_maul
+   NAME=Niobium Maul
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=30
+   VALUE=162
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={40 64}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Scepter
+
+[ITEMDEF i_scepter_Niobium]
+   DEFNAME=i_scepter_Niobium
+   ID=i_scepter
+   NAME=Niobium Scepter
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=32
+   VALUE=162
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={50 74}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Niobium]
+   DEFNAME=i_hammer_sledge_Niobium
+   ID=i_hammer_sledge
+   NAME=Niobium Sledge Hammer
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=32
+   VALUE=162
+   SPEED=52
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={20 44}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Niobium]
+   DEFNAME=i_hammer_smith_Niobium
+   ID=i_hammer_smith
+   NAME=Niobium Smiths Hammer
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=18
+   VALUE=162
+   SPEED=17
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={30 54}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium War Mace
+
+[ITEMDEF i_mace_war_Niobium]
+   DEFNAME=i_mace_war_Niobium
+   ID=i_mace_war
+   NAME=Niobium War Mace
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=36
+   VALUE=162
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={80 104}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Disc Mace
+
+[ITEMDEF i_disc_mace_Niobium]
+   DEFNAME=i_disc_mace_Niobium
+   ID=i_disc_mace
+   NAME=Niobium Disc Mace
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=36
+   VALUE=162
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={70 94}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium War Hammer
+
+[ITEMDEF i_hammer_war_Niobium]
+   DEFNAME=i_hammer_war_Niobium
+   ID=i_hammer_war
+   NAME=Niobium War Hammer
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=42
+   VALUE=162
+   SPEED=57
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={100 124}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Hammer Pick
+
+[ITEMDEF i_hammer_pick_Niobium]
+   DEFNAME=i_hammer_pick_Niobium
+   ID=i_hammer_pick
+   NAME=Niobium Hammer Pick
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=38
+   VALUE=162
+   SPEED=52
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={55 79}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium War Axe
+
+[ITEMDEF i_axe_war_Niobium]
+   DEFNAME=i_axe_war_Niobium
+   ID=i_axe_war
+   NAME=Niobium War Axe
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=28
+   VALUE=162
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={65 89}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Tessen
+
+[ITEMDEF i_tessen_Niobium]
+   DEFNAME=i_tessen_Niobium
+   ID=i_tessen
+   NAME=Niobium Tessen
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=27
+   VALUE=162
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={75 99}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Long Sword
+
+[ITEMDEF i_sword_long_Niobium]
+   DEFNAME=i_sword_long_Niobium
+   ID=i_sword_long
+   NAME=Niobium Long Sword
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=162
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={10 34}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Broad Sword
+
+[ITEMDEF i_sword_broad_Niobium]
+   DEFNAME=i_sword_broad_Niobium
+   ID=i_sword_broad
+   NAME=Niobium Broad Sword
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=162
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={20 44}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Scimitar
+
+[ITEMDEF i_scimitar_Niobium]
+   DEFNAME=i_scimitar_Niobium
+   ID=i_scimitar
+   NAME=Niobium Scimitar
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=162
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={30 54}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Viking Sword
+
+[ITEMDEF i_sword_viking_Niobium]
+   DEFNAME=i_sword_viking_Niobium
+   ID=i_sword_viking
+   NAME=Niobium Viking Sword
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=162
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={35 59}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Katana
+
+[ITEMDEF i_katana_Niobium]
+   DEFNAME=i_katana_Niobium
+   ID=i_katana
+   NAME=Niobium Katana
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=162
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={80 104}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Wakizashi
+
+[ITEMDEF i_wakizashi_Niobium]
+   DEFNAME=i_wakizashi_Niobium
+   ID=i_wakizashi
+   NAME=Niobium Wakizashi
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=162
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={45 69}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Long Sword
+
+[ITEMDEF i_sword_long_b_Niobium]
+   DEFNAME=i_sword_long_b_Niobium
+   ID=i_sword_long_b
+   NAME=Niobium Long Sword
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=162
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={50 74}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Paladin Sword
+
+[ITEMDEF i_sword_paladin_Niobium]
+   DEFNAME=i_sword_paladin_Niobium
+   ID=i_sword_paladin
+   NAME=Niobium Paladin Sword
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=162
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={65 89}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Bokuto
+
+[ITEMDEF i_bokuto_Niobium]
+   DEFNAME=i_bokuto_Niobium
+   ID=i_bokuto
+   NAME=Niobium Bokuto
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=29
+   VALUE=162
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={70 94}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Niobium]
+   DEFNAME=i_Radiant_Scimitar_Niobium
+   ID=i_Radiant_Scimitar
+   NAME=Niobium Radiant Scimitar
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=30
+   VALUE=162
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={75 99}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Bone Harvester
+
+[ITEMDEF i_bone_harvester_Niobium]
+   DEFNAME=i_bone_harvester_Niobium
+   ID=i_bone_harvester
+   NAME=Niobium Bone Harvester
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=162
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={55 79}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Butcher Knife
+
+[ITEMDEF i_knife_butcher_Niobium]
+   DEFNAME=i_knife_butcher_Niobium
+   ID=i_knife_butcher
+   NAME=Niobium Butcher Knife
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=162
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={30 54}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Niobium]
+   DEFNAME=i_cleaver_meat_Niobium
+   ID=i_cleaver_meat
+   NAME=Niobium Meat Cleaver
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=162
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={30 54}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Elven Machete
+
+[ITEMDEF i_elven_machete_Niobium]
+   DEFNAME=i_elven_machete_Niobium
+   ID=i_elven_machete
+   NAME=Niobium Elven Machete
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=31
+   VALUE=162
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={60 84}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Bone Machete
+
+[ITEMDEF i_bone_machete_Niobium]
+   DEFNAME=i_bone_machete_Niobium
+   ID=i_bone_machete
+   NAME=Niobium Bone Machete
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=32
+   VALUE=162
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={50 74}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Daisho
+
+[ITEMDEF i_daisho_Niobium]
+   DEFNAME=i_daisho_Niobium
+   ID=i_daisho
+   NAME=Niobium Daisho
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=33
+   VALUE=162
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={65 89}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium No-Dachi
+
+[ITEMDEF i_no_dachi_Niobium]
+   DEFNAME=i_no_dachi_Niobium
+   ID=i_no_dachi
+   NAME=Niobium No-Dachi
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=34
+   VALUE=162
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={75 99}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Rune Blade
+
+[ITEMDEF i_Rune_Blade_Niobium]
+   DEFNAME=i_Rune_Blade_Niobium
+   ID=i_Rune_Blade
+   NAME=Niobium Rune Blade
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=36
+   VALUE=162
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={115 139}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Axe
+
+[ITEMDEF i_axe_Niobium]
+   DEFNAME=i_axe_Niobium
+   ID=i_axe
+   NAME=Niobium Axe
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=162
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={42 66}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Bardiche
+
+[ITEMDEF i_bardiche_Niobium]
+   DEFNAME=i_bardiche_Niobium
+   ID=i_bardiche
+   NAME=Niobium Bardiche
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=162
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={58 82}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Battle Axe
+
+[ITEMDEF i_axe_battle_Niobium]
+   DEFNAME=i_axe_battle_Niobium
+   ID=i_axe_battle
+   NAME=Niobium Battle Axe
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=162
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={65 89}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Double Axe
+
+[ITEMDEF i_axe_double_Niobium]
+   DEFNAME=i_axe_double_Niobium
+   ID=i_axe_double
+   NAME=Niobium Double Axe
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=36
+   VALUE=162
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={70 94}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Niobium]
+   DEFNAME=i_axe_exec_Niobium
+   ID=i_axe_exec
+   NAME=Niobium Exectutioners Axe
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=36
+   VALUE=162
+   SPEED=48
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={73 97}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Halberd
+
+[ITEMDEF i_halberd_Niobium]
+   DEFNAME=i_halberd_Niobium
+   ID=i_halberd
+   NAME=Niobium Halberd
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=37
+   VALUE=162
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={75 99}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Hatchet
+
+[ITEMDEF i_hatchet_Niobium]
+   DEFNAME=i_hatchet_Niobium
+   ID=i_hatchet
+   NAME=Niobium Hatchet
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=162
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={40 64}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Niobium]
+   DEFNAME=i_axe_battle_large_Niobium
+   ID=i_axe_battle_large
+   NAME=Niobium Large Battle Axe
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=39
+   VALUE=162
+   SPEED=50
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={100 124}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Ornate Axe
+
+[ITEMDEF i_ornate_axe_Niobium]
+   DEFNAME=i_ornate_axe_Niobium
+   ID=i_ornate_axe
+   NAME=Niobium Ornate Axe
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=35
+   VALUE=162
+   SPEED=48
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={60 84}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Niobium]
+   DEFNAME=i_axe_two_hand_Niobium
+   ID=i_axe_two_hand
+   NAME=Niobium Two Handed Axe
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=37
+   VALUE=162
+   SPEED=48
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={55 79}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Dual Axes
+
+[ITEMDEF i_dual_short_axes_Niobium]
+   DEFNAME=i_dual_short_axes_Niobium
+   ID=i_dual_short_axes
+   NAME=Niobium Dual Axes
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=162
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={95 119}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Cresent Blade
+
+[ITEMDEF i_crescent_blade_Niobium]
+   DEFNAME=i_crescent_blade_Niobium
+   ID=i_crescent_blade
+   NAME=Niobium Cresent Blade
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=39
+   VALUE=162
+   SPEED=48
+   SKILL=SWORDSMANSHIP
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={110 134}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Dagger
+
+[ITEMDEF i_dagger_Niobium]
+   DEFNAME=i_dagger_Niobium
+   ID=i_dagger
+   NAME=Niobium Dagger
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=162
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={10 34}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Skinning Knife
+
+[ITEMDEF i_knife_skinning_Niobium]
+   DEFNAME=i_knife_skinning_Niobium
+   ID=i_knife_skinning
+   NAME=Niobium Skinning Knife
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=162
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={15 39}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Niobium]
+   DEFNAME=i_sword_Assassin_Spike_Niobium
+   ID=i_sword_Assassin_Spike
+   NAME=Niobium Assassin Spike
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=162
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={30 54}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Cutlass
+
+[ITEMDEF i_cutlass_Niobium]
+   DEFNAME=i_cutlass_Niobium
+   ID=i_cutlass
+   NAME=Niobium Cutlass
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=162
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={25 49}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Short Blade
+
+[ITEMDEF i_shortblade_Niobium]
+   DEFNAME=i_shortblade_Niobium
+   ID=i_shortblade
+   NAME=Niobium Short Blade
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=162
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={35 59}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Scythe
+
+[ITEMDEF i_scythe_Niobium]
+   DEFNAME=i_scythe_Niobium
+   ID=i_scythe
+   NAME=Niobium Scythe
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=35
+   VALUE=162
+   SPEED=44
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={115 139}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Short Spear
+
+[ITEMDEF i_spear_short_Niobium]
+   DEFNAME=i_spear_short_Niobium
+   ID=i_spear_short
+   NAME=Niobium Short Spear
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=162
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={45 69}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium War Fork
+
+[ITEMDEF i_war_fork_Niobium]
+   DEFNAME=i_war_fork_Niobium
+   ID=i_war_fork
+   NAME=Niobium War Fork
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=162
+   SPEED=43
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={50 74}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Leafblade
+
+[ITEMDEF i_sword_leafblade_Niobium]
+   DEFNAME=i_sword_leafblade_Niobium
+   ID=i_sword_leafblade
+   NAME=Niobium Leafblade
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=162
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={60 84}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Niobium]
+   DEFNAME=i_elven_spellblade_Niobium
+   ID=i_elven_spellblade
+   NAME=Niobium Elven Spell Blade
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=29
+   VALUE=162
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={75 99}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Pitchfork
+
+[ITEMDEF i_pitchfork_Niobium]
+   DEFNAME=i_pitchfork_Niobium
+   ID=i_pitchfork
+   NAME=Niobium Pitchfork
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=30
+   VALUE=162
+   SPEED=45
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={55 79}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium War Cleaver
+
+[ITEMDEF i_war_cleaver_Niobium]
+   DEFNAME=i_war_cleaver_Niobium
+   ID=i_war_cleaver
+   NAME=Niobium War Cleaver
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=162
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={65 89}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Pike
+
+[ITEMDEF i_pike_Niobium]
+   DEFNAME=i_pike_Niobium
+   ID=i_pike
+   NAME=Niobium Pike
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=162
+   SPEED=45
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={70 94}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Blood Blade
+
+[ITEMDEF i_bloodblade_Niobium]
+   DEFNAME=i_bloodblade_Niobium
+   ID=i_bloodblade
+   NAME=Niobium Blood Blade
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=162
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={75 99}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Kama
+
+[ITEMDEF i_kama_Niobium]
+   DEFNAME=i_kama_Niobium
+   ID=i_kama
+   NAME=Niobium Kama
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=30
+   VALUE=162
+   SPEED=44
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={77 101}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Kryss
+
+[ITEMDEF i_kryss_Niobium]
+   DEFNAME=i_kryss_Niobium
+   ID=i_kryss
+   NAME=Niobium Kryss
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=162
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={80 104}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Lajatang
+
+[ITEMDEF i_lajatang_Niobium]
+   DEFNAME=i_lajatang_Niobium
+   ID=i_lajatang
+   NAME=Niobium Lajatang
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=162
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={85 109}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Sai
+
+[ITEMDEF i_sai_Niobium]
+   DEFNAME=i_sai_Niobium
+   ID=i_sai
+   NAME=Niobium Sai
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=31
+   VALUE=162
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={76 100}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Tekagi
+
+[ITEMDEF i_tekagi_Niobium]
+   DEFNAME=i_tekagi_Niobium
+   ID=i_tekagi
+   NAME=Niobium Tekagi
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=162
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={90 114}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Niobium Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Niobium]
+   DEFNAME=i_dual_pointed_spear_Niobium
+   ID=i_dual_pointed_spear
+   NAME=Niobium Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Niobium
+   WEIGHT=22
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=34
+   VALUE=162
+   SPEED=43
+   SKILL=FENCING
+   REQSTR=42
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Niobium
+
+ON=@Create
+   COLOR=color_ore_Niobium
+   HITPOINTS={115 139}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

@@ -1,0 +1,200 @@
+[FUNCTION IsAlly] 
+IF (<TAG0.Alliance.Leader>) && (<TAG0.Alliance.Leader>==<UID.<ARGS>.TAG0.Alliance.Leader>) 
+ return 1 
+ENDIF 
+return 0
+
+[FUNCTION iscriminalwithkarma]
+IF (<ISPLAYER>)
+IF (<FLAGS>&statf_criminal) || (<karma> <= -2000)
+RETURN 1
+ELSE
+RETURN 0
+ENDIF
+ENDIF
+IF ((<FLAGS>&statf_criminal) || (<karma> <= 0)) && (<NPC>!=brain_human)
+RETURN 1
+ELSE
+RETURN 0
+ENDIF
+
+[FUNCTION isRed]
+IF (<KILLS> > <SERV.MURDERMINCOUNT>)
+	RETURN 1
+ELIF (<karma> < -1000)
+	RETURN 1
+ELSE
+	IF (<FLAGS>&statf_criminal)
+		RETURN 1
+	ELSE
+		RETURN 0
+	ENDIF
+ENDIF
+
+
+[FUNCTION iscriminal]
+IF (<FLAGS>&statf_criminal)
+RETURN 1
+ELSE
+RETURN 0
+ENDIF
+
+[FUNCTION ispk]
+IF (!(<ISPLAYER>))
+	IF (<KARMA> < -2000)
+	RETURN 1
+	ELSE
+	RETURN 0
+	ENDIF
+ENDIF
+IF (<KILLS> > <SERV.MURDERMINCOUNT>)
+RETURN 1
+ENDIF
+RETURN 0
+
+[FUNCTION memoryisatwar]
+IF ( <COLOR> & 01 ) || ( <COLOR> & 04 ) || ( <COLOR> & 08 ) || ( <COLOR> & 010 ) || ( <COLOR> & 020 ) || ( <COLOR> & 080 ) || ( <COLOR> & 02000 )
+LOCAL.return=1
+ENDIF
+RETURN <DLOCAL.RETURN>
+
+[FUNCTION isdamagespell]
+IF ((<ARGN1> == 5) || (<ARGN1> == 12) || (<ARGN1> == 18) || (<ARGN1> == 30) || (<ARGN1> == 42) || (<ARGN1> == 49) || (<ARGN1> == 51) || (<ARGN1> == 55))
+RETURN 1
+ENDIF
+RETURN 0
+
+[FUNCTION isresistspell]
+IF ((<ARGN1> == 1) || (<ARGN1> == 46) || (<ARGN1> == 3) || (<ARGN1> == 8) || (<ARGN1> == 27) || (<ARGN1> == 31) || (<ARGN1> == 53) || (<ARGN1> == 38) || (<ARGN1> == 47) || (<ARGN1> == 39) || (<ARGN1> == 20))
+RETURN 1
+ENDIF
+RETURN 0
+
+[FUNCTION isinbank]
+LOCAL.PUR=<UID>
+FORCONT <UID.<ARGN1>.FINDLAYER.29> 9999
+	IF (<UID>==<LOCAL.PUR>)
+	RETURN 1
+	ENDIF
+ENDFOR
+RETURN 0
+
+[FUNCTION isdrone]
+IF (!(<ISPLAYER>))
+	IF (STRMATCH(*c_drone*,<BASEID>))||(STRMATCH(*c_darkelf*,<BASEID>))
+		RETURN 1
+	ELSE
+		RETURN 0
+	ENDIF
+ELSE
+	RETURN 0
+ENDIF
+
+[FUNCTION isatwar]
+FORCHARLAYER 30
+   IF <memoryisatwar>
+      LOCAL.isatwar=1
+   ENDIF
+ENDFOR
+RETURN <DLOCAL.isatwar>
+
+[FUNCTION isgargoyle]
+IF (<body> == c_gargoyle_male) || (<body> == c_gargoyle_female)
+return 1
+endif
+return 0
+
+[FUNCTION iselven]
+IF (<BODY> == c_elf_male) || (<BODY> == c_elf_female)
+	RETURN 1
+ENDIF
+RETURN 0
+
+[FUNCTION ismale]
+IF (<BODY> == c_gargoyle_male) || (<BODY> == c_elf_male) || (<BODY> == c_man)
+	RETURN 1
+ENDIF
+RETURN 0
+
+[FUNCTION isfemale]
+IF (<BODY> == c_gargoyle_female) || (<BODY> == c_elf_female) || (<BODY> == c_woman)
+	RETURN 1
+ENDIF
+RETURN 0
+
+[FUNCTION isamulti]
+IF ((<TYPE>==T_MULTI) || (<TYPE>==T_MULTI_CUSTOM))
+RETURN 1
+ELSE
+RETURN 0
+ENDIF
+
+[FUNCTION GETMEMBERLIST]
+IF (<member.count>)
+LOCAL.MEMBERLIST=<member.0.name>,
+FOR <member.count>
+IF !(<member.<dlocal._for>>)
+RETURN <local.memberlist>
+ELSE
+LOCAL.MEMBERLIST .= <member.<HVAL <local._for>>.name>,
+ENDIF
+ENDFOR
+ENDIF
+
+[FUNCTION ISORDER]
+IF <GUILD>
+	IF (STRMATCH(*order*,<GUILD.ALIGN>))
+		RETURN 1
+	ELSE
+		RETURN 0
+	ENDIF
+ENDIF
+
+[FUNCTION ISCHAOS]
+IF <GUILD>
+	IF (STRMATCH(*chaos*,<GUILD.ALIGN>))
+		RETURN 1
+	ELSE
+		RETURN 0
+	ENDIF
+ENDIF
+
+[FUNCTION ISNEUTRAL]
+IF (STRMATCH(*neutral*,<GUILD.ALIGN>))
+	RETURN 1
+ELSE
+	RETURN 0
+ENDIF
+
+[FUNCTION GuildAlignment]
+//Neutral 0//Order 1//Chaos 2
+IF <ARGV[0]>
+	IF <SERV.UID.<ARGV[0]>.ISPLAYER>
+		IF <EVAL <SERV.UID.<ARGV[0]>.ISORDER>>
+			RETURN 1
+		ELIF <EVAL <SERV.UID.<ARGV[0]>.ISCHAOS>>
+			RETURN 2
+		ELSE
+			RETURN 0
+		ENDIF
+	ELSE
+		RETURN 0
+	ENDIF
+ELSE
+	RETURN 0
+ENDIF
+
+[FUNCTION isguildememy]
+// <ARGV[0]> Attacker // 02950d
+// <ARGV[1]> Defender // 055566
+
+If (<GUILDFROMUID.<ARGV[0]>.ISENEMY> && <<ARGV[0]>.GUILDFROMUID.<ARGV[1]>.ISENEMY>)
+	SRC.SAY YES
+	SAY YES
+ELSE
+	SRC.SAY NO
+	SAY NO
+ENDIF
+
+
+[EOF]

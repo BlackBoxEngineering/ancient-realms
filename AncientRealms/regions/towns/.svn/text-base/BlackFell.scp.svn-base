@@ -1,0 +1,21 @@
+[REGIONTYPE r_BlackFell_rock t_rock]
+RESOURCES=30.0 mr_nothing
+RESOURCES=55.0 mr_iron
+RESOURCES=45.0 mr_copper
+RESOURCES=25.0 mr_silver
+RESOURCES=10.0 mr_rosequartz	
+RESOURCES=4.8 mr_Azurite
+RESOURCES=4.7 mr_Erubecite
+RESOURCES=3.6 mr_Galena	
+RESOURCES=2.0 mr_Kunzite	
+RESOURCES=1.0 mr_Orpiment	
+RESOURCES=0.5 mr_Hematite		
+
+[AREADEF a_blackfell]
+EVENTS=r_default,r_BlackFell_rock,r_water,r_LogClass_Mix_Common_2,r_default_grass
+NAME=BlackFell
+GROUP=AncientRealms
+P=367,1479,6,0
+RECT=336,1500,423,1426,0
+
+[EOF]

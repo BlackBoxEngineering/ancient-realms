@@ -1,0 +1,106 @@
+[DEFNAME World_Tax_control]
+WorldTaxTownPercentage		5
+WorldTaxShopPercentage		10
+WorldTaxHousePercentage		12
+WorldTaxKeepPercentage		12
+
+[DEFNAME Vendor_Tax_Control]
+VendorsPlayersTotalMax		15
+VendorsPlayerShopMax		5
+VendorsPlayerHouseMax		10
+VendorsWagePercentage		2
+
+[DEFNAME Shop_Tax_Control]
+ShopsTownShopRent			2500
+ShopsTownShopDeposit		4000
+
+[ITEMDEF i_towntax_stone]
+DEFNAME=i_towntax_stone
+ID=012cb
+NAME=Town Mayor
+WEIGHT=2000
+VALUE=300000
+CATEGORY=AncientRealms
+SUBSECTION=Economy-Tax
+DESCRIPTION=Tax Stone
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=60
+
+ON=@DCLICK
+	SAY @63,,1 Tax Contributions
+	SAY @76 <SERV.UID.<UID.<REGION.TAG.TownControlStoneUID>.TAG.KeepControlStoneUID>.REGION.NAME>: <EVAL <SERV.UID.<UID.<REGION.TAG.TownControlStoneUID>.TAG.KeepControlStoneUID>.TAG.KeepTaxPercentage>>%
+	IF <SRC.GM>
+		TAGLIST
+	ENDIF
+	RETURN 1
+
+ON=@TIMER
+	REGION.TAG.Taxed=1
+	REGION.TAG.TownTaxStoneUid=<UID>
+	TAG.TownTaxStoneRegionUID=<REGION.UID>
+	
+	IF <REGION.TAG.AreaTaxPercentage>
+		LOCAL.TempA=<EVAL <REGION.TAG.AreaTaxPercentage>>
+		LOCAL.TempB=<EVAL WorldTaxTownPercentage>
+		TAG.TownTaxPercentage=<EVAL <LOCAL.TempA> + <LOCAL.TempB>>
+	ELSE
+		TAG.TownTaxPercentage=<EVAL WorldTaxTownPercentage>
+	ENDIF
+	IF !<EVAL <SERV.UID.<REGION.TAG.TownControlStoneUID>.TAG.KeepTaxPercentage>>
+		//SERV.LOG <UID> <REGION.NAME> Tax Fuckup
+	ENDIF
+	TAG.KeepTaxPercentage=<EVAL <SERV.UID.<REGION.TAG.TownControlStoneUID>.TAG.KeepTaxPercentage>>
+	VAR.worldstonestaxstone<REGION.NAME>UID=<UID>
+	COLOR=<EVAL <TAG.TownTaxPercentage>+<TAG.KeepTaxPercentage>>
+	SERV.UID.<REGION.TAG.TownControlStoneUID>.TAG.TownTaxPercentage=<TAG.TownTaxPercentage>
+	SERV.UID.<REGION.TAG.TownControlStoneUID>.TAG.KeepTaxPercentage=<TAG.KeepTaxPercentage>
+	TIMER=60
+	RETURN 1
+	
+[FUNCTION f_taxdetuction]
+REF1=<SERV.UID.<REGION.TAG.ShopControlUID>>	//Shop Control (Clock)
+REF2=<SERV.UID.<REGION.TAG.TownControlStoneUID>>
+REF3=<SERV.UID.<REF2.TAG.TownTaxStoneUID>>
+REF4=<SERV.UID.<REF1.TAG.KeepControlStoneUID>>
+REF5=<SERV.UID.<REF4.TAG.KeepCaptureStoneUID>>
+
+LOCAL.KeepTax=0
+LOCAL.TownTax=0
+LOCAL.VendorTax=0
+
+SRC.SYSMESSAGE @265,,1 Gross Profit: <EVAL <ARGV[0]>>gp
+
+LOCAL.KeepPercentage=<EVAL <REF3.TAG.KeepTaxPercentage>>
+LOCAL.TownPercentage=<EVAL <REF3.TAG.TownTaxPercentage>>
+LOCAL.VendorPercentage=<EVAL VendorsWagePercentage>
+
+LOCAL.KeepTax += <EVAL <ARGV[0]>>
+LOCAL.KeepTax /= 100
+LOCAL.KeepTax *= <EVAL <LOCAL.KeepPercentage>>
+
+LOCAL.TownTax += <EVAL <ARGV[0]>>
+LOCAL.TownTax /= 100
+LOCAL.TownTax *= <EVAL <LOCAL.TownPercentage>>
+
+LOCAL.VendorTax += <EVAL <ARGV[0]>>
+LOCAL.VendorTax /= 100
+LOCAL.VendorTax *= <EVAL <LOCAL.VendorPercentage>>
+
+SRC.SYSMESSAGE @81,,1 Keeps Taxes	<EVAL <LOCAL.KeepPercentage>>% (<EVAL <LOCAL.KeepTax>>gp)
+SRC.SYSMESSAGE @63,,1 Towns Taxes	<EVAL <LOCAL.TownPercentage>>% (<EVAL <LOCAL.TownTax>>gp)
+SRC.SYSMESSAGE @55,,1 Vendors Wages <EVAL <LOCAL.VendorPercentage>>% (<EVAL <LOCAL.VendorTax>>gp)
+
+LOCAL.CashTotal = <EVAL <ARGV[0]>>
+LOCAL.CashTotal -= <EVAL <LOCAL.KeepTax> + <LOCAL.TownTax> + <LOCAL.VendorTax>>
+
+SRC.SYSMESSAGE @265,,1 Net Profit:	<EVAL <LOCAL.CashTotal>>gp
+
+SERV.UID.<REF5.UID>.TAG.GoldViaTax = <EVAL <REF5.TAG0.GoldViaTax> + <LOCAL.KeepTax>>
+REF5.TAG.GoldViaTax = <EVAL <REF5.TAG0.GoldViaTax> + <LOCAL.TownTax>>
+REF5.SAY I Just Got <EVAL <REF5.TAG.GoldViaTax>>
+REF5.TAG.GoldViaTax=<EVAL <REF5.TAG.GoldViaTax>>
+SRC.GIVEGOLD <EVAL <LOCAL.CashTotal>>
+
+[EOF]

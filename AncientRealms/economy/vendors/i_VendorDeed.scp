@@ -1,0 +1,31 @@
+[ITEMDEF i_VendorDeed] 
+NAME=Contract Of Employment
+ID=i_deed
+TYPE=t_normal
+VALUE=1500
+RESOURCES=1 i_deed, 1 i_pet_man, 1 i_flesh_heart, 1 i_flesh_brain
+SKILLMAKE=Inscription 120.0
+CATEGORY=AncientRealms
+SUBSECTION=Economy-Vendors
+DESCRIPTION=Vendor Deed
+
+ON=@Create
+	COLOR=93
+
+ON=@DClick
+	IF !(<SRC.ISGM>)
+		IF <EVAL <SRC.FINDLAYER.29.RESCOUNT i_gold>> > <EVAL <ARGV[1]>>
+			IF (<CONT.UID> == <SRC.FINDLAYER(21).UID>)
+				DIALOG d_SelectEmploymentType
+			ELSE
+				SRC.SYSMESSAGE @0029,,1 This must be in your Pack To Use.
+			ENDIF
+		ELSE
+			SRC.SYSMESSAGE @0029,,1 It costs 1000 gold to place a vendor you must have it in your bank.
+		ENDIF
+	ELSE
+		DIALOG d_SelectEmploymentType
+	ENDIF
+	RETURN 1	
+
+[EOF]

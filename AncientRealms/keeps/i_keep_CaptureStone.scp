@@ -1,0 +1,52 @@
+[ITEMDEF i_keep_CaptureStone]
+DEFNAME=i_keep_capture_stone
+ID=02a93
+TYPE=t_container
+TDATA2=04a
+CATEGORY=AncientRealms
+SUBSECTION=Keep Stones
+DESCRIPTION=Capture Stone
+
+ON=@CREATE
+	ATTR=ATTR_DECAY|ATTR_NEWBIE|ATTR_MOVE_NEVER
+     
+ON=@DCLICK
+	f_keep_FlagAKeep
+	REGION.TAG.KeepCaptureStoneUID=<UID>
+	SRC.CTAG.KeepCaptureStoneUID=<UID>
+	TAG.CaptureStoneHeight=<P.Z>
+	SAY @33 Owners <REGION.TAG.OwnersName>
+		
+	IF <SRC.ISGM>
+		SRC.REGION.TAG.PeopleTryingToCapture=0
+		SRC.DIALOG d_Keep_OwnersMenu
+		SRC.SYSMESSAGE @55,,1 Use the Command '.KeepSetup' to get the gm menu
+	ELSE
+		IF <SRC.GUILD>
+			SRC.CTAG.KeepCaptureStoneUID=<UID>
+			f_Keep_CaptureStone <SRC.UID>
+		ELSE
+			SAY @55 Your not in any Guild!
+			SRC.CTAG.KeepCaptureStoneUID=
+		ENDIF
+	ENDIF
+	RETURN 1
+
+ON=@DROPON_GROUND
+	IF (<REGION.TAG.KeepCaptureStoneUID> && <UID.<REGION.TAG.KeepCaptureStoneUID>.BASEID> == i_keep_CaptureStone)
+		IF (<REGION.TAG0.KeepCaptureStoneUID> != <UID>)
+			SAY This region already has a capture stone!
+			BOUNCE
+		ENDIF
+	ELSE
+		REGION.TAG.KeepCaptureStoneUID=<UID>
+		TAG.RegionUID=<REGION.UID>
+		SERV.UID.<f_DiscoverRegionsKeepStoneUID>.TAG.GuardCount=0
+		SERV.UID.<f_DiscoverRegionsKeepStoneUID>.TAG.GateGuardCount=1
+	ENDIF
+	
+
+ON=@TOOTIP
+	FINISH_TOOLTIP
+
+[EOF]

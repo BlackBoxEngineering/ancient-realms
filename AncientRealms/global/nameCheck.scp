@@ -1,0 +1,81 @@
+
+[FUNCTION isnametaken]
+OBJ=<UID>
+FORPLAYERS 6144
+	IF (<OBJ.UID> != <UID>)
+		IF (STRMATCH('<OBJ.NAME>', '<UID.<UID>.NAME>'))
+			OBJ.f_dupedNameFound
+			OBJ.STONE 1
+			RETURN 1
+		ENDIF
+	ENDIF
+ENDFOR
+
+[FUNCTION f_dupedNameFound]
+SRC.DIALOG d_PlayerNameChange
+RETURN 1
+
+[DIALOG d_PlayerNameChange]
+20,20
+nomove
+nodispose
+resizepic 0 180 5170 450 250
+dtext 25 200 0 <serv.name> Name Menu
+dhtmlgump 20 240 420 200 0 0 The Name <def.bfont_red>"<src.name>"<def.bfont_black>,is unfortunately already in use.
+dhtmlgump 20 260 420 25 0 0 Please Enter another name below and press okay.
+resizepic 100 307 3000 250 25
+dtextentry 110 310 200 20 0 1 <src.name>
+dhtmlgump 140 353 100 20 0 0 Okay
+button 100 350 4005 4006 1 0 1
+
+[dialog d_PlayerNameChange button]
+on=0
+src.dialog d_PlayerNameChange
+return 1
+on=1
+if (strmatch('<argtxt[1]>','')
+src.sys_error Please write name.
+return 1
+endif
+for 0 <eval strlen(<argtxt[1]>) -1>
+if !strmatch('[a-z]','<strsub <eval <local._for>> 1 <argtxt[1]>>')
+src.sys_error Wrong usage.
+src.sdialog d_PlayerNameChange
+return 1
+endif
+endfor
+obj=<uid>
+forplayers 6144
+if (<obj.uid> != <uid>
+if (strmatch('<obj.name>', '<argtxt[1]>')
+src.isnametaken
+src.sys_error Name Change : <src.name> has being be found.
+return 1
+endif
+endif
+endfor
+if ((strlen(<argtxt[1]>) > 12)
+src.sdialog d_PlayerNameChange
+src.sys_error Your name very long.
+return 1
+elif  ((strlen(<argtxt[1]>) < 4)
+src.sdialog d_PlayerNameChange
+src.sys_erorr Your name is very short.
+return 1
+endif
+src.name <argtxt[1]>
+src.tag.NamesBeenAccepted=1
+src.PlayerNameUpdate
+src.sysmessage @95 Your name has been changed: <argtxt[1]>
+src.stone 0
+
+[function PlayerNameUpdate]
+local.ilkharf=<strsub 0 1 <name>>
+local.gerisi=<strsub 1 15 <name>>
+local.1=<strtoupper(<local.ilkharf>)>
+local.2=<strtolower(<local.gerisi>)>
+name <local.1><local.2>
+name <strarg <name>>
+update
+
+[EOF]

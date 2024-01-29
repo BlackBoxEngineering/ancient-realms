@@ -1,0 +1,66 @@
+[ITEMDEF i_stone_home]
+DEFNAME i_stone_home
+NAME=Home Stone
+ID=3803
+CATEGORY=Ancientrealms - Towns
+SUBSECTION=Home Stones
+DESCRIPTION=Home Stone
+
+ON=@CREATE
+	ATTR=010
+	
+ON=@DCLICK
+	SRC.HOME=<SRC.P>
+	SRC.SYSMESSAGE @1462 You will now return to this position after saying "home home home" when dead.
+	RETURN 1
+
+[ITEMDEF i_stone_home1]
+DEFNAME i_stone_home1
+NAME=Home Stone
+ID=3804
+CATEGORY=Ancientrealms - Towns
+SUBSECTION=Home Stones
+DESCRIPTION=Home Stone 1
+
+ON=@CREATE
+	ATTR=010
+	
+ON=@DCLICK
+	SRC.HOME=<P>
+	SRC.SYSMESSAGE @1462 You will now return to this position after saying "home home home" when dead..
+	RETURN 1
+	
+
+[ITEMDEF i_stone_home3]
+DEFNAME i_stone_home3
+NAME=Home Stone
+ID=02a94
+CATEGORY=Ancientrealms - Towns
+SUBSECTION=Home Stones
+DESCRIPTION=Home Stone 3
+
+ON=@CREATE
+	ATTR=010
+	
+ON=@DCLICK
+	SRC.HOME=<P>
+	SRC.SYSMESSAGE @1462 You will now return to this position after saying "home home home" when dead.
+	RETURN 1
+	
+[ITEMDEF i_stone_home4]
+DEFNAME i_stone_home4
+NAME=Home Stone
+ID=3797
+CATEGORY=Ancientrealms - Towns
+SUBSECTION=Home Stones
+DESCRIPTION=Home Stone 4
+
+ON=@CREATE
+	ATTR=010
+	
+ON=@DCLICK
+	SRC.HOME=<P>
+	SRC.SYSMESSAGE @1462 You will now return to this position after saying "home home home" when dead.
+	RETURN 1
+
+[EOF]

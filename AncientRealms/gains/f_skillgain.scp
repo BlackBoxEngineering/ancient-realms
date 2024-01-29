@@ -1,0 +1,647 @@
+// Triggered From the Main Player Event. - Jesus
+
+// ON=@SkillSuccess
+//              LOCAL.SkillNo = <ARGN1>
+//              LOCAL.PlayerSkillTotal=<SKILLTOTAL>
+//              CALL f_SkillGain <ARGN1>
+
+// SkillNumbers Listed For Quick Reference
+// SkillNo= 0 ,Alchemy
+// SkillNo= 1 ,Anatomy
+// SkillNo= 2 ,AnimalLore
+// SkillNo= 3 ,ItemID
+// SkillNo= 4 ,ArmsLore
+// SkillNo= 5 ,Parrying
+// SkillNo= 6 ,Masonry
+// SkillNo= 7 ,Blacksmithing
+// SkillNo= 8 ,Bowcraft
+// SkillNo= 9 ,Peacemaking
+// SkillNo=10 ,Camping
+// SkillNo=11 ,Carpentry
+// SkillNo=12 ,Cartography
+// SkillNo=13 ,Cooking
+// SkillNo=14 ,DetectingHidden
+// SkillNo=15 ,Enticement
+// SkillNo=16 ,EvaluatingIntel
+// SkillNo=17 ,Healing
+// SkillNo=18 ,Fishing
+// SkillNo=19 ,Forensics
+// SkillNo=20 ,Herding
+// SkillNo=21 ,Hiding
+// SkillNo=22 ,Provocation
+// SkillNo=23 ,Inscription
+// SkillNo=24 ,LockPicking
+// SkillNo=25 ,Magery
+// SkillNo=26 ,MagicResistance
+// SkillNo=27 ,Tactics
+// SkillNo=28 ,Snooping
+// SkillNo=29 ,Musicianship
+// SkillNo=30 ,Poisoning
+// SkillNo=31 ,Archery
+// SkillNo=32 ,SpiritSpeak
+// SkillNo=33 ,Stealing
+// SkillNo=34 ,Tailoring
+// SkillNo=35 ,Taming
+// SkillNo=36 ,TasteID
+// SkillNo=37 ,Tinkering
+// SkillNo=38 ,Tracking
+// SkillNo=39 ,Veterinary
+// SkillNo=40 ,Swordsmanship
+// SkillNo=41 ,Macefighting
+// SkillNo=42 ,Fencing
+// SkillNo=43 ,Wrestling
+// SkillNo=44 ,Lumberjack
+// SkillNo=45 ,Mining
+// SkillNo=46 ,Meditation
+// SkillNo=47 ,Stealth
+// SkillNo=48 ,RemoveTrap
+// SkillNo=49 ,Necromancy
+// SkillNo=50 ,Focus
+// SkillNo=51 ,Chivalry
+// SkillNo=52 ,Bushido
+// SkillNo=53 ,Ninjitsu
+// SkillNo=54 ,Spellweaving
+
+// SRC.SKILLOCK[<ARGV[0]>]=1
+// 0 The skill goes up. 
+// 1 The skill goes down. 
+// 2 The skill is blocked.
+
+
+[FUNCTION f_SkillGain]
+
+IF (<ARGV[0]>==0)
+	CALL f_PrepareSkillForGain 0
+ELSE
+	CALL f_PrepareSkillForGain <ARGV[0]>  // Attempt to Gain Parent Skill
+ENDIF
+
+// Combat (Melee) - Additional Gains Swordsmanship (40) / Macefighting (41) / Fencing (42) / Wrestling (43) / Bushido (52) / Ninjitsu (53)
+IF ((<ARGV[0]>==40)||(<ARGV[0]>==41)||(<ARGV[0]>==42)||(<ARGV[0]>==43)||(<ARGV[0]>==52)||(<ARGV[0]>==53))
+         // Additional Gaining Skills  -  Anatomy (1)  ||   Tactics (27)
+         // Additional Gaining Stats  -  <DEX>
+         DORAND 3
+         CALL f_PrepareSkillForGain 1
+         CALL f_PrepareSkillForGain 27
+         CALL f_PrepareStatForGain DEX
+         ENDDO
+         CALL f_PrepareStatForGain STR
+         
+// Combat (Archery) - Additional Gains Archery (31)
+ELIF (<ARGV[0]>==31)||(<ARGV[0]>==4)||(<ARGV[0]>==14)
+         // Additional Gaining Skills  -  Anatomy (1)  ||  Tactics (27) )
+         // Additional Gaining Stats  -  <DEX>
+         DORAND 3
+         CALL f_PrepareSkillForGain 1
+         CALL f_PrepareSkillForGain 27
+         CALL f_PrepareSkillForGain 50
+         ENDDO
+         CALL f_PrepareStatForGain DEX
+         
+// Combat (Magery) - Additional Gains Magery (25)  -  Necromancy (49) - Meditate (46)
+ELIF ((<ARGV[0]>==25)||(<ARGV[0]>==49)||(<ARGV[0]>==46))
+         // Additional Gaining Skills  -  EvaluatingIntel (16)  -  Focus (50)
+         // Additional Gaining Stats  -  <INT>
+         CALL f_PrepareSkillForGain 16
+         CALL f_PrepareSkillForGain 50
+         CALL f_PrepareStatForGain INT
+         
+// Combat (Parrying) - Additional Gains Parrying (5)
+ELIF (<ARGV[0]>==5)
+         // Additional Gaining Skills  -  Tactics (27)  ||  Focus (50)
+         // Additional Gaining Stats  -  <DEX>
+         DORAND 2
+         CALL f_PrepareSkillForGain 27
+         ENDDO
+         CALL f_PrepareStatForGain DEX
+         
+// Combat (Magic Resistance) - Additional Gains MagicResistance (26)
+ELIF (<ARGV[0]>==26)||(<ARGV[0]>==9)
+         // Additional Gaining Skills  -  Spellweaving (54)  ||  Focus (50)
+         // Additional Gaining Stats  -  <INT>
+         DORAND 2
+          CALL f_PrepareStatForGain INT
+         CALL f_PrepareSkillForGain 50
+         ENDDO
+                 
+// Animals (AnimalLore) - Additional Gains INT
+ELIF (<ARGV[0]>==2)
+	CALL f_PrepareStatForGain DEX    
+	 
+// Animals (Taming) - Additional Gains Animal Lore (2)  
+ELIF (<ARGV[0]>==35)
+	DORAND 2
+		CALL f_PrepareSkillForGain 2
+		CALL f_PrepareStatForGain INT
+	ENDDO
+	
+// Animals (Veterinary) - Additional Gains Animal Lore (2)  
+ELIF (<ARGV[0]>==39)
+	DORAND 2
+		CALL f_PrepareSkillForGain 2
+		CALL f_PrepareStatForGain INT
+	ENDDO
+
+// Healing (Anatomy) - Additional Gains INT
+ELIF (<ARGV[0]>==1)
+	CALL f_PrepareStatForGain INT 
+	
+// Healing (Healing) - Additional Gains Anatomy (1) +  <INT> || <DEX>
+ELIF (<ARGV[0]>==26)
+	CALL f_PrepareSkillForGain 1
+	DORAND 2
+		CALL f_PrepareStatForGain INT
+		CALL f_PrepareStatForGain DEX
+	ENDDO
+
+     
+// Hiding (Hiding) - Additional Gains Hiding (21)
+ELIF (<ARGV[0]>==21)||(<ARGV[0]>==17)||(<ARGV[0]>==24)
+	// Additional Gaining Skills  -  NONE 
+	// Additional Gaining Stats  -  <INT> || <DEX>
+	DORAND 2
+		CALL f_PrepareStatForGain INT
+		CALL f_PrepareStatForGain DEX
+	ENDDO
+
+// Stealth (Stealth) - Additional Gains Stealth (47)
+ELIF (<ARGV[0]>==47)
+	// Additional Gaining Skills  -  NONE 
+	// Additional Gaining Stats  -  <INT> || <DEX>
+	DORAND 2
+		CALL f_PrepareStatForGain INT
+		CALL f_PrepareStatForGain DEX
+	ENDDO
+	 
+ELIF (<ARGV[0]>==16)
+         // Additional Gaining Stats  -  <INT>
+         CALL f_PrepareStatForGain INT
+         CALL f_PrepareSkillForGain 50
+         
+ELIF (<ARGV[0]>==30) // Eval Int
+         // Additional Gaining Stats  -  <INT>
+         CALL f_PrepareStatForGain DEX
+         
+// Snooping (Snooping) - NONE
+ELIF (<ARGV[0]>==28) // Snooping
+         // Additional Gaining Skills  -  NONE 
+         // Additional Gaining Stats  -  <DEX>
+         CALL f_PrepareStatForGain DEX
+         
+// Stealing (Stealing) - NONE
+ELIF (<ARGV[0]>==33)
+         // Additional Gaining Skills  -  NONE 
+         // Additional Gaining Stats  -  <INT> || <DEX>
+         DORAND 2
+			CALL f_PrepareStatForGain INT
+			CALL f_PrepareStatForGain DEX
+         ENDDO
+              
+ELIF (<ARGV[0]>==32)
+         CALL f_PrepareStatForGain INT
+         
+ELIF (<ARGV[0]>==50)
+         // Additional Gaining Skills  -  None
+         // Additional Gaining Stats  -  <INT>
+         CALL f_PrepareStatForGain INT
+         
+// Music (Musicianship) - Additional Gains Musicianship (29)
+ELIF (<ARGV[0]>==29)
+         // Additional Gaining Skills  -  None
+         // Additional Gaining Stats  -  <INT>  ||  <DEX>
+         DORAND 2
+			 CALL f_PrepareStatForGain INT
+			 CALL f_PrepareStatForGain DEX
+			 CALL f_PrepareSkillForGain 50
+         ENDDO
+         
+// Music (Enticement) - Additional Gains Enticement (15)
+ELIF (<ARGV[0]>==15)
+         // Additional Gaining Skills  -  Musicianship (29)
+         // Additional Gaining Stats  -  <INT>  +  <DEX>
+         CALL f_PrepareStatForGain INT
+         CALL f_PrepareStatForGain DEX
+         CALL f_PrepareSkillForGain 50
+         
+// Music (Provocation) - Additional Gains Provocation (22)
+ELIF (<ARGV[0]>==22)
+         // Additional Gaining Skills  -  Musicianship (29)
+         // Additional Gaining Stats  -  <INT>  +  <DEX>
+         CALL f_PrepareStatForGain INT
+         CALL f_PrepareStatForGain DEX
+         CALL f_PrepareSkillForGain 50
+         
+// Crafting Additional Gains Alchemy (0) / Masonry (6) / Blacksmithing (7) / Bowcraft (8) / Carpentry (11) / Cartography (12) / Cooking (13) / Herding (20) / Inscription (23) / Tailoring (34) / Tinkering (37)
+ELIF ((<ARGV[0]>==0)||(<ARGV[0]>==6)||(<ARGV[0]>==7)||(<ARGV[0]>==8)||(<ARGV[0]>==11)||(<ARGV[0]>==12)||(<ARGV[0]>==13)||(<ARGV[0]>==20)||(<ARGV[0]>==23)||(<ARGV[0]>==34)||(<ARGV[0]>==37))
+         // Additional Gaining Skills  -  None
+         // Additional Gaining Stats  -  <INT> || <DEX>
+         DORAND 3
+			 CALL f_PrepareStatForGain INT
+			 CALL f_PrepareStatForGain DEX
+			 CALL f_PrepareStatForGain STR
+         ENDDO
+         
+// Resource Gathering Additional Gains Fishing (18) / Lumberjack (44) / Mining (45) 
+ELIF ((<ARGV[0]>==18)||(<ARGV[0]>==44)||(<ARGV[0]>==45))
+         // Additional Gaining Skills  -  None
+         // Additional Gaining Stats  -  <STR>
+         CALL f_PrepareStatForGain STR
+         
+// OutDoor Skills Additional Gains Camping (10) / Tracking (38)
+ELIF ((<ARGV[0]>==7)||(<ARGV[0]>==8)||(<ARGV[0]>==37)||(<ARGV[0]>==3))
+         // Additional Gaining Skills  -  None
+         // Additional Gaining Stats  -  <INT>
+         CALL f_PrepareStatForGain INT
+         
+// Crafting Skills
+ELIF ((<ARGV[0]>==10)||(<ARGV[0]>==38))
+         // Additional Gaining Skills  -  None
+         // Additional Gaining Stats  -  <DEX>
+        CALL f_PrepareStatForGain STR
+	ELSE
+       SYSMESSAGE @1462 Player Gain Error : <ARGV[0]>
+       SYSMESSAGE @1462 Please Report to Staff! 
+	ENDIF
+
+[DEFNAME Invictus_Char_Limits]
+
+// Char Skill and Stat Limitations
+
+char_stat_total 250
+char_stat_max 125
+char_stat_min 25
+
+char_skill_total 7000
+char_skill_max 1000
+char_skill_min 0
+
+cheating_badly 1000
+
+StatGroup_GainWeight 1010   // 1010 Is Min
+StatNatural_GainFriction 3000 // 1000 Is Min
+
+SkillGroup_GainWeight 1010   // 1010 Is Min
+SkillNatural_GainFriction 3000 // 1000 Is Min
+
+////////////////////////////////////////////////////////
+// 													  //
+// To Tweak SkillGain Combinations -				  //
+// See "f_SkillGain in "Invictus-Regulator-Gains.scp" //
+// - Jesus                                            //
+//                                                    //
+//-------DO NOT EDIT ANYTHING BELOW THIS LINE---------//
+////////////////////////////////////////////////////////
+[FUNCTION TESTTOTx]
+LOCAL.StatTotals=<EVAL <SRC.DEX> + <SRC.INT> + <SRC.STR>>
+SRC.SAY <EVAL <LOCAL.StatTotals>> <SRC.NAME>
+SRC.SAY <SRC.STATTOTAL>
+
+[FUNCTION GainsOn]
+Tag.ShowGains=1
+
+[FUNCTION GainsOFf]
+Tag.ShowGains=
+
+[PLEVEL 1]
+GainsOn
+GainsOFf
+
+////////////////////////////////////////
+///// FUNCTIONS -  Stat Gain       /////
+////////////////////////////////////////
+
+[FUNCTION f_CheckStatTotals]
+	IF (<ISPLAYER>)
+		IF !(<ISGM>)
+			TAG.PreJailPosition=<P>
+			LOCAL.PlayerStatTotalA=<STR>+<DEX>+<INT>
+			IF (<EVAL <LOCAL.PlayerStatTotalA>> > <EVAL char_stat_total>)
+				LOCAL.Lowest=0
+				LOCAL.Higest=0
+				IF (<BODY>==c_man) || (<BODY>==c_woman)
+					CALL f_StatScratcher	
+				ENDIF	
+			ENDIF
+		ENDIF
+	ENDIF
+
+[FUNCTION f_PrepareStatForGain]
+	LOCAL.SelectedStat=<ARGV[0]>
+	LOCAL.PlayersStatTotal=<STR>+<DEX>+<INT>
+	IF (<ISPLAYER>
+		IF (<BODY>==c_man) || (<BODY>==c_woman)
+			CALL f_CheckStatTotals
+			IF (<STATLOCK.<ARGV[0]>>=0)
+				IF (<LOCAL.PlayersStatTotal> < <EVAL char_stat_total>)
+					IF (<<LOCAL.SelectedStat>> < <EVAL char_stat_max>)								
+						LOCAL.StatGainChance=<R1, <EVAL StatGroup_GainWeight>>
+						LOCAL.StatGainPrevention=<R1, <EVAL StatNatural_GainFriction>>				
+						IF (<EVAL <Tag.ShowGains>>=1)
+							SYSMESSAGE @1462 Gain Difficulty (<EVAL <LOCAL.StatGainChance>>)
+							SYSMESSAGE @1462 You Roll: (<EVAL <LOCAL.StatGainPrevention>>)
+						ENDIF				
+						IF (<EVAL <LOCAL.StatGainChance>> > <EVAL <LOCAL.StatGainPrevention>>)
+							<LOCAL.SelectedStat>=(<<LOCAL.SelectedStat>>+1)
+						ENDIF
+					ELSE
+					IF (<EVAL <Tag.ShowGains>>=1)
+						SYSMESSAGE @1462 StatTotal:(<EVAL <LOCAL.PlayersStatTotal>>/<EVAL char_stat_total>)
+					ENDIF
+				ENDIF
+			ELIF (<STATLOCK.<LOCAL.SelectedStat>>=1)		
+				IF (<EVAL <Tag.ShowGains>>=1)
+					SYSMESSAGE @55 Stat <LOCAL.SelectedStat> Is Set to Drop!
+				ENDIF		
+				<LOCAL.SelectedStat>=<<LOCAL.SelectedStat>>-1
+			ELIF (<STATLOCK.<LOCAL.SelectedStat>>=2)		
+				IF (<EVAL <Tag.ShowGains>>=1)
+					SYSMESSAGE @55 Stat <LOCAL.SelectedStat> Is Locked!
+					SYSMESSAGE @55 No Gain <LOCAL.SelectedStat>!	
+				ENDIF	
+			ENDIF
+		ENDIF
+	ENDIF
+	IF (<ISDRONE>)||(<FINDID.i_rare_pet_id>)
+		LOCAL.SelectedStat=<ARGV[0]>
+		LOCAL.StatGainChance=<R1, <EVAL StatGroup_GainWeight>>
+		LOCAL.StatGainPrevention=<R1, <EVAL StatNatural_GainFriction>>
+		<LOCAL.SelectedStat>=(<<LOCAL.SelectedStat>>+1)
+		SERV.LOG (NPC) StatGain <NAME> <LOCAL.SelectedStat> +1 <EVAL <<LOCAL.SelectedStat>>>
+	ENDIF
+		
+
+[FUNCTION f_StatScratcher]
+	IF (<BODY>==c_man) || (<BODY>==c_woman)|| (<BODY>==c_elf_male) || (<BODY>==c_elf_female)
+		IF <STR> > <EVAL char_stat_max>
+			STR=<EVAL char_stat_max>
+		ENDIF
+		IF <STR> < <EVAL char_stat_min>
+			STR=<EVAL char_stat_min>
+		ENDIF
+		IF <DEX> > <EVAL char_stat_max>
+			DEX=<EVAL char_stat_max>
+		ENDIF
+		IF <DEX> < <EVAL char_stat_min>
+			DEX=<EVAL char_stat_min>
+		ENDIF
+		IF <INT> > <EVAL char_stat_max>
+			INT=<EVAL char_stat_max>
+		ENDIF
+		IF <INT> < <EVAL char_stat_min>
+			INT=<EVAL char_stat_min>
+		ENDIF
+		FOR X 0 3
+			LOCAL.PlayersStatTotal=<STR>+<DEX>+<INT>
+			IF (<EVAL <LOCAL.PlayersStatTotal>> > <EVAL char_stat_total>)
+				IF ((<STATLOCK[DEX]>=0)&&(<STATLOCK[INT]>=2)&&(<STATLOCK[STR]>=2))
+					DEX=<DEX>-1
+				ENDIF
+				IF ((<STATLOCK[DEX]>=2)&&(<STATLOCK[INT]>=0)&&(<STATLOCK[STR]>=2))
+					INT=<INT>-1
+				ENDIF
+				IF ((<STATLOCK[DEX]>=2)&&(<STATLOCK[INT]>=2)&&(<STATLOCK[STR]>=0))
+					STR=<STR>-1
+				ENDIF
+			ENDIF
+		ENDFOR
+		FOR X 0 3
+			LOCAL.PlayersStatTotal=<STR>+<DEX>+<INT>
+			IF (<EVAL <LOCAL.PlayersStatTotal>> > <EVAL char_stat_total>)
+				IF ((<STATLOCK[DEX]>=1)	//&&(<STATLOCK[INT]>=2)&&(<STATLOCK[STR]>=2))
+					DEX=<DEX>-1
+				ENDIF
+				IF ((<STATLOCK[INT]>=2)	//&&(<STATLOCK[INT]>=1)&&(<STATLOCK[STR]>=2))
+					INT=<INT>-1
+				ENDIF
+				IF ((<STATLOCK[STR]>=2)	//&&(<STATLOCK[INT]>=2)&&(<STATLOCK[STR]>=1))
+					STR=<STR>-1
+				ENDIF
+			ENDIF
+		ENDFOR
+		LOCAL.PlayersStatTotal=<STR>+<DEX>+<INT>
+		LOCAL.PlayerStatDiff=<EVAL <STR>+<DEX>+<INT> - <EVAL char_stat_total>>
+		IF (<EVAL <LOCAL.PlayerStatDiff>> > 1)
+			IF (<BODY>==c_man) || (<BODY>==c_woman)
+				IF ((<STATLOCK[DEX]>=2)&&(<STATLOCK[INT]>=2)&&(<STATLOCK[STR]>=2))
+					GO 5276,1164
+					STONE = 1
+					IF !(<FINDID.i_stat_reducer>)
+						NEWITEM i_stat_reducer, 1, <UID>
+					ENDIF
+				ENDIF
+			ENDIF
+		ENDIF
+		LOCAL.PlayersStatTotal=<STR>+<DEX>+<INT>
+		IF (<BODY>==c_man) || (<BODY>==c_woman)
+			IF (<EVAL <LOCAL.PlayersStatTotal>> < <EVAL char_stat_total + 1>)
+				IF (<FINDID.i_stat_reducer>)
+					FINDID.i_stat_reducer.REMOVE
+					GO <TAG.PreJailPosition>
+				ENDIF
+				STONE = 0
+				TAG.PreJailPosition=
+			ENDIF
+		ENDIF
+	ENDIF
+		
+[ITEMDEF i_stat_reducer]
+DEFNAME=i_stat_reducer
+ID=i_campfire
+NAME=Stat Reducer
+TYPE=t_eq_script
+LAYER=layer_special
+
+ON=@Create
+    ATTR=attr_invis|attr_decay|attr_move_never
+    TIMER=5
+
+ON=@Timer	
+	IF ((<CONT.STATLOCK[DEX]>=2)&&(<CONT.STATLOCK[INT]>=2)&&(<CONT.STATLOCK[STR]>=2))
+		LOCAL.PlayerStatTotalA=<CONT.STR>+<CONT.DEX>+<CONT.INT>
+		CONT.SYSMESSAGE @1462 All your Stats are locked and one needs to go down.
+		CONT.SYSMESSAGE @1462 Please Select a Stat and Unlock it.
+		CONT.SYSMESSAGE @1462 Current Stat Total is (<EVAL <LOCAL.PlayerStatTotalA>>)
+		CONT.SYSMESSAGE @1462 This Shit will just spam if you do not.
+	ENDIF	
+	CONT.f_StatScratcher
+	TIMER=5
+	RETURN 1
+	
+////////////////////////////////////////
+///// FUNCTIONS -  Skill Gain      /////
+////////////////////////////////////////
+
+[FUNCTION f_PrepareSkillForGain]
+
+	IF (<ARGV[0]>==0)
+		LOCAL.SkillNo=00
+	ELSE 
+		LOCAL.SkillNo=<ARGV[0]>
+	ENDIF
+	LOCAL.SkillName=<SERV.SKILL(<ARGV[0]>).KEY>
+	LOCAL.SkillValue=<<LOCAL.SkillName>>
+	LOCAL.GainChance=0
+	LOCAL.PlayersGainChance=0
+	LOCAL.NaturalGainPrevention=0	
+	CALL f_SkillTotalChecker <ARGV[0]>
+
+[FUNCTION f_SkillTotalChecker]
+
+	IF (<ISPLAYER>
+		LOCAL.SkillNo=<ARGV[0]>
+		LOCAL.SkillName=<SERV.SKILL(<ARGV[0]>).KEY>
+		LOCAL.SkillValue=<<LOCAL.SkillName>>
+		LOCAL.NaturalGainPrevention=<R1, <EVAL SkillNatural_GainFriction>>
+		LOCAL.PlayerSkillTotal=<SKILLTOTAL>
+		FOR X 0 54
+			IF (<<SERV.SKILL(<LOCAL.X>).KEY>> > <EVAL char_skill_max>)
+				<SERV.SKILL(<LOCAL.X>).KEY>=<EVAL char_skill_max>
+			ENDIF
+		ENDFOR
+	ENDIF		
+
+	IF (<ARGV[0]>==0)
+		CALL f_SkillGainChance 00
+	ELSE 
+		CALL f_SkillGainChance <ARGV[0]>
+	ENDIF
+
+[FUNCTION f_SkillGainChance]
+	IF (<ARGV[0]>==0)
+		LOCAL.SkillNo=00
+	ELSE 
+		LOCAL.SkillNo=<ARGV[0]>
+	ENDIF
+	LOCAL.SkillName=<SERV.SKILL(<ARGV[0]>).KEY>
+	LOCAL.SkillValue=<<LOCAL.SkillName>>	
+	IF (<ISPLAYER>)
+		IF ((<SKILLTOTAL> < <EVAL char_skill_total>) && (<<LOCAL.SkillName>> < <EVAL char_skill_max>))		
+			LOCAL.GainChance=(<EVAL SkillGroup_GainWeight> - <EVAL <LOCAL.SkillValue>>)
+			LOCAL.PlayersGainChance=<R<LOCAL.GainChance>, 100>        
+			LOCAL.NaturalGainPrevention=<R1, <EVAL SkillNatural_GainFriction>>			
+			CALL f_SkillGainInit <LOCAL.SkillNo>
+		ELSE
+			IF (<SKILLTOTAL> >= <EVAL char_skill_total>)
+				IF (<EVAL <Tag.ShowGains>>=1)
+					SYSMESSAGE @55 Skill Cap Reached
+				ENDIF
+			ENDIF
+			IF (<<LOCAL.SkillName>> >= <EVAL char_skill_max>)
+				IF (<EVAL <Tag.ShowGains>>=1)
+					SYSMESSAGE @55 <LOCAL.SkillName> Already 100%
+				ENDIF
+			ENDIF			     
+		ENDIF
+	ELSE
+		LOCAL.GainChance=(<EVAL SkillGroup_GainWeight> - <EVAL <LOCAL.SkillValue>>)
+		LOCAL.PlayersGainChance=<R<LOCAL.GainChance>, 100>        
+		LOCAL.NaturalGainPrevention=<R1, <EVAL SkillNatural_GainFriction>>			
+		CALL f_SkillGainInit <LOCAL.SkillNo>
+	ENDIF
+		
+
+[FUNCTION f_SkillGainInit]
+
+	LOCAL.SkillName=<SERV.SKILL(<ARGV[0]>).KEY>
+	IF (<ISPLAYER>)
+		IF (<SKILLLOCK.<SERV.SKILL(<ARGV[0]>).KEY>>=0)			
+			IF (<EVAL <Tag.ShowGains>>=1)
+				SYSMESSAGE @1462 Gain Diffculty (<EVAL <LOCAL.PlayersGainChance>>) 
+				SYSMESSAGE @1462 You Roll: (<EVAL <LOCAL.NaturalGainPrevention>>)
+			ENDIF	
+			IF (<EVAL <LOCAL.PlayersGainChance>> > <EVAL <LOCAL.NaturalGainPrevention>>)			
+				IF (<EVAL <Tag.ShowGains>>=1)
+					SYSMESSAGE @1462 Gain <LOCAL.SkillName>!
+				ENDIF				
+				<LOCAL.SkillName>=<<LOCAL.SkillName>>+1
+			ELSE				
+				IF (<EVAL <Tag.ShowGains>>=1)
+					SYSMESSAGE @1462 No Gain <LOCAL.SkillName>!
+					RETURN 1
+				ENDIF				
+			ENDIF			
+		ELIF (<SKILLLOCK.<SERV.SKILL(<ARGV[0]>).KEY>>=1)
+			IF (<EVAL <Tag.ShowGains>>=1)
+				SYSMESSAGE @1462 Skill <LOCAL.SkillName> Is Set to Drop!
+			ENDIF			
+			<LOCAL.SkillName>=<<LOCAL.SkillName>>-1			
+		ELIF (<SKILLLOCK.<SERV.SKILL(<ARGV[0]>).KEY>>=2)
+			IF (<EVAL <Tag.ShowGains>>=1)
+				SYSMESSAGE @1462 Skill <LOCAL.SkillName> Is Locked!
+				SYSMESSAGE @1462 No Gain <LOCAL.SkillName>!
+			ENDIF	
+		ENDIF
+	ELSE
+		<LOCAL.SkillName>=<<LOCAL.SkillName>>+1
+	ENDIF
+
+[ITEMDEF i_BurnRandomSkill_Delay]
+DEFNAME=i_BurnRandomSkill_Delay
+ID=i_memory
+NAME=BurnRandomSkill Delay
+TYPE=t_eq_script
+LAYER=layer_special
+
+ON=@Create
+    ATTR=attr_invis|attr_decay|attr_move_never
+    TIMER=5
+		
+ON=@Timer
+	
+	CONT.f_BurnRandomSkill
+	TIMER=5
+	
+[FUNCTION f_BurnRandomSkill]
+	LOCAL.RandomSkillBurn=<R0, 54>
+	LOCAL.SkillBurnName=<SERV.SKILL(<EVAL <LOCAL.RandomSkillBurn>>).KEY>
+	SAY @33 !
+	IF (<<LOCAL.SkillBurnName>> > 0)
+		SYSMESSAGE @1462 !** Auto God Activated **!
+		SYSMESSAGE @1462 Skill Burn in Progress: <NAME>
+		SYSMESSAGE @1462 SkillTotal: <SKILLTOTAL>/<EVAL char_skill_total>
+		SYSMESSAGE @1462 Random SkillNo Selection : <EVAL <LOCAL.RandomSkillBurn>> :o
+		SYSMESSAGE @1462 Nuking Skill : <LOCAL.SkillBurnName> 
+		<LOCAL.SkillBurnName>=0
+	ENDIF
+	IF (<SKILLTOTAL> < <EVAL char_skill_total>)
+		FINDID.i_BurnRandomSkill_Delay.REMOVE
+		SYSMESSAGE @1462 Skill Burn in Terminated.
+		SYSMESSAGE @1462 <NAME> Has been Forgiven.
+		SYSMESSAGE @1462 Thank you for your Co-Operation!
+		SYSMESSAGE @1462 !** Auto God Deactivated **!
+	ELSE
+		NEWITEM i_BurnRandomSkill_Delay, 1, <UID>
+	ENDIF
+	
+[ITEMDEF i_Player_Skill_Decay]
+DEFNAME=i_Player_Skill_Decay
+ID=i_anchor
+NAME=Players Skill Decay
+TYPE=t_eq_script
+LAYER=layer_special
+
+ON=@Create
+    ATTR=attr_invis|attr_decay|attr_move_never
+    TIMER=5
+    RETURN 1
+
+ON=@Timer
+	FOR X 0 54
+		IF (<CONT.SKILLLOCK[<EVAL <LOCAL.X>>]>==1)			
+			CONT.f_DropSkillByOne <EVAL <LOCAL.X>>
+		ENDIF	
+	ENDFOR
+	TIMER=5
+	RETURN 1
+	
+[FUNCTION f_DropSkillByOne]
+IF (<ARGV[0]>)
+	LOCAL.SkillName=<SERV.SKILL(<ARGV[0]>).KEY>
+	<LOCAL.SkillName>=<<LOCAL.SkillName>>-1
+ELSE
+	Alchemy=<<Alchemy>>-1
+ENDIF
+		
+ 
+[EOF]
+

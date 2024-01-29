@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Cerussite Quarter Staff
+
+[ITEMDEF i_staff_quarter_Cerussite]
+   DEFNAME=i_staff_quarter_Cerussite
+   ID=i_staff_quarter
+   NAME=Cerussite Quarter Staff
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=26
+   VALUE=136
+   SPEED=53
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={20 40}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Cerussite]
+   DEFNAME=i_serpentstone_staff_Cerussite
+   ID=i_serpentstone_staff
+   NAME=Cerussite Serpentstone Staff
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=30
+   VALUE=136
+   SPEED=52
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={60 80}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Cerussite]
+   DEFNAME=i_staff_bladed_double_Cerussite
+   ID=i_staff_bladed_double
+   NAME=Cerussite Double Bladed Staff
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=38
+   VALUE=136
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={120 140}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Glass Staff
+
+[ITEMDEF i_glass_staff_Cerussite]
+   DEFNAME=i_glass_staff_Cerussite
+   ID=i_glass_staff
+   NAME=Cerussite Glass Staff
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=35
+   VALUE=136
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={90 110}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Bladed Staff
+
+[ITEMDEF i_bladed_staff_Cerussite]
+   DEFNAME=i_bladed_staff_Cerussite
+   ID=i_bladed_staff
+   NAME=Cerussite Bladed Staff
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=36
+   VALUE=136
+   SPEED=52
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={115 135}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Tongs
+
+[ITEMDEF i_tongs_Cerussite]
+   DEFNAME=i_tongs_Cerussite
+   ID=i_tongs
+   NAME=Cerussite Tongs
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=13
+   VALUE=136
+   SPEED=15
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={0 20}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Mace
+
+[ITEMDEF i_mace_Cerussite]
+   DEFNAME=i_mace_Cerussite
+   ID=i_mace
+   NAME=Cerussite Mace
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=136
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={30 50}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Maul
+
+[ITEMDEF i_maul_Cerussite]
+   DEFNAME=i_maul_Cerussite
+   ID=i_maul
+   NAME=Cerussite Maul
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=28
+   VALUE=136
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={40 60}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Scepter
+
+[ITEMDEF i_scepter_Cerussite]
+   DEFNAME=i_scepter_Cerussite
+   ID=i_scepter
+   NAME=Cerussite Scepter
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=30
+   VALUE=136
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={50 70}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Cerussite]
+   DEFNAME=i_hammer_sledge_Cerussite
+   ID=i_hammer_sledge
+   NAME=Cerussite Sledge Hammer
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=30
+   VALUE=136
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={20 40}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Cerussite]
+   DEFNAME=i_hammer_smith_Cerussite
+   ID=i_hammer_smith
+   NAME=Cerussite Smiths Hammer
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=16
+   VALUE=136
+   SPEED=15
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={30 50}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite War Mace
+
+[ITEMDEF i_mace_war_Cerussite]
+   DEFNAME=i_mace_war_Cerussite
+   ID=i_mace_war
+   NAME=Cerussite War Mace
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=34
+   VALUE=136
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={80 100}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Disc Mace
+
+[ITEMDEF i_disc_mace_Cerussite]
+   DEFNAME=i_disc_mace_Cerussite
+   ID=i_disc_mace
+   NAME=Cerussite Disc Mace
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=34
+   VALUE=136
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={70 90}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite War Hammer
+
+[ITEMDEF i_hammer_war_Cerussite]
+   DEFNAME=i_hammer_war_Cerussite
+   ID=i_hammer_war
+   NAME=Cerussite War Hammer
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=40
+   VALUE=136
+   SPEED=55
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={100 120}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Hammer Pick
+
+[ITEMDEF i_hammer_pick_Cerussite]
+   DEFNAME=i_hammer_pick_Cerussite
+   ID=i_hammer_pick
+   NAME=Cerussite Hammer Pick
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=36
+   VALUE=136
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={55 75}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite War Axe
+
+[ITEMDEF i_axe_war_Cerussite]
+   DEFNAME=i_axe_war_Cerussite
+   ID=i_axe_war
+   NAME=Cerussite War Axe
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=26
+   VALUE=136
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={65 85}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Tessen
+
+[ITEMDEF i_tessen_Cerussite]
+   DEFNAME=i_tessen_Cerussite
+   ID=i_tessen
+   NAME=Cerussite Tessen
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=25
+   VALUE=136
+   SPEED=40
+   SKILL=MACEFIGHTING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={75 95}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Long Sword
+
+[ITEMDEF i_sword_long_Cerussite]
+   DEFNAME=i_sword_long_Cerussite
+   ID=i_sword_long
+   NAME=Cerussite Long Sword
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=136
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={10 30}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Broad Sword
+
+[ITEMDEF i_sword_broad_Cerussite]
+   DEFNAME=i_sword_broad_Cerussite
+   ID=i_sword_broad
+   NAME=Cerussite Broad Sword
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=136
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={20 40}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Scimitar
+
+[ITEMDEF i_scimitar_Cerussite]
+   DEFNAME=i_scimitar_Cerussite
+   ID=i_scimitar
+   NAME=Cerussite Scimitar
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=136
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={30 50}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Viking Sword
+
+[ITEMDEF i_sword_viking_Cerussite]
+   DEFNAME=i_sword_viking_Cerussite
+   ID=i_sword_viking
+   NAME=Cerussite Viking Sword
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=136
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={35 55}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Katana
+
+[ITEMDEF i_katana_Cerussite]
+   DEFNAME=i_katana_Cerussite
+   ID=i_katana
+   NAME=Cerussite Katana
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=136
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={80 100}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Wakizashi
+
+[ITEMDEF i_wakizashi_Cerussite]
+   DEFNAME=i_wakizashi_Cerussite
+   ID=i_wakizashi
+   NAME=Cerussite Wakizashi
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=136
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={45 65}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Long Sword
+
+[ITEMDEF i_sword_long_b_Cerussite]
+   DEFNAME=i_sword_long_b_Cerussite
+   ID=i_sword_long_b
+   NAME=Cerussite Long Sword
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=136
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={50 70}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Paladin Sword
+
+[ITEMDEF i_sword_paladin_Cerussite]
+   DEFNAME=i_sword_paladin_Cerussite
+   ID=i_sword_paladin
+   NAME=Cerussite Paladin Sword
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=136
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={65 85}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Bokuto
+
+[ITEMDEF i_bokuto_Cerussite]
+   DEFNAME=i_bokuto_Cerussite
+   ID=i_bokuto
+   NAME=Cerussite Bokuto
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=136
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={70 90}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Cerussite]
+   DEFNAME=i_Radiant_Scimitar_Cerussite
+   ID=i_Radiant_Scimitar
+   NAME=Cerussite Radiant Scimitar
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=136
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={75 95}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Bone Harvester
+
+[ITEMDEF i_bone_harvester_Cerussite]
+   DEFNAME=i_bone_harvester_Cerussite
+   ID=i_bone_harvester
+   NAME=Cerussite Bone Harvester
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=136
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={55 75}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Butcher Knife
+
+[ITEMDEF i_knife_butcher_Cerussite]
+   DEFNAME=i_knife_butcher_Cerussite
+   ID=i_knife_butcher
+   NAME=Cerussite Butcher Knife
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=136
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={30 50}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Cerussite]
+   DEFNAME=i_cleaver_meat_Cerussite
+   ID=i_cleaver_meat
+   NAME=Cerussite Meat Cleaver
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=136
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={30 50}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Elven Machete
+
+[ITEMDEF i_elven_machete_Cerussite]
+   DEFNAME=i_elven_machete_Cerussite
+   ID=i_elven_machete
+   NAME=Cerussite Elven Machete
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=29
+   VALUE=136
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={60 80}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Bone Machete
+
+[ITEMDEF i_bone_machete_Cerussite]
+   DEFNAME=i_bone_machete_Cerussite
+   ID=i_bone_machete
+   NAME=Cerussite Bone Machete
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=30
+   VALUE=136
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={50 70}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Daisho
+
+[ITEMDEF i_daisho_Cerussite]
+   DEFNAME=i_daisho_Cerussite
+   ID=i_daisho
+   NAME=Cerussite Daisho
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=31
+   VALUE=136
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={65 85}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite No-Dachi
+
+[ITEMDEF i_no_dachi_Cerussite]
+   DEFNAME=i_no_dachi_Cerussite
+   ID=i_no_dachi
+   NAME=Cerussite No-Dachi
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=32
+   VALUE=136
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={75 95}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Rune Blade
+
+[ITEMDEF i_Rune_Blade_Cerussite]
+   DEFNAME=i_Rune_Blade_Cerussite
+   ID=i_Rune_Blade
+   NAME=Cerussite Rune Blade
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=34
+   VALUE=136
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={115 135}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Axe
+
+[ITEMDEF i_axe_Cerussite]
+   DEFNAME=i_axe_Cerussite
+   ID=i_axe
+   NAME=Cerussite Axe
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=24
+   VALUE=136
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={42 62}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Bardiche
+
+[ITEMDEF i_bardiche_Cerussite]
+   DEFNAME=i_bardiche_Cerussite
+   ID=i_bardiche
+   NAME=Cerussite Bardiche
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=136
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={58 78}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Battle Axe
+
+[ITEMDEF i_axe_battle_Cerussite]
+   DEFNAME=i_axe_battle_Cerussite
+   ID=i_axe_battle
+   NAME=Cerussite Battle Axe
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=136
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={65 85}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Double Axe
+
+[ITEMDEF i_axe_double_Cerussite]
+   DEFNAME=i_axe_double_Cerussite
+   ID=i_axe_double
+   NAME=Cerussite Double Axe
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=136
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={70 90}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Cerussite]
+   DEFNAME=i_axe_exec_Cerussite
+   ID=i_axe_exec
+   NAME=Cerussite Exectutioners Axe
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=136
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={73 93}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Halberd
+
+[ITEMDEF i_halberd_Cerussite]
+   DEFNAME=i_halberd_Cerussite
+   ID=i_halberd
+   NAME=Cerussite Halberd
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=35
+   VALUE=136
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={75 95}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Hatchet
+
+[ITEMDEF i_hatchet_Cerussite]
+   DEFNAME=i_hatchet_Cerussite
+   ID=i_hatchet
+   NAME=Cerussite Hatchet
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=25
+   VALUE=136
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={40 60}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Cerussite]
+   DEFNAME=i_axe_battle_large_Cerussite
+   ID=i_axe_battle_large
+   NAME=Cerussite Large Battle Axe
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=37
+   VALUE=136
+   SPEED=48
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={100 120}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Ornate Axe
+
+[ITEMDEF i_ornate_axe_Cerussite]
+   DEFNAME=i_ornate_axe_Cerussite
+   ID=i_ornate_axe
+   NAME=Cerussite Ornate Axe
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=136
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={60 80}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Cerussite]
+   DEFNAME=i_axe_two_hand_Cerussite
+   ID=i_axe_two_hand
+   NAME=Cerussite Two Handed Axe
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=35
+   VALUE=136
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={55 75}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Dual Axes
+
+[ITEMDEF i_dual_short_axes_Cerussite]
+   DEFNAME=i_dual_short_axes_Cerussite
+   ID=i_dual_short_axes
+   NAME=Cerussite Dual Axes
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=136
+   SPEED=40
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={95 115}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Cresent Blade
+
+[ITEMDEF i_crescent_blade_Cerussite]
+   DEFNAME=i_crescent_blade_Cerussite
+   ID=i_crescent_blade
+   NAME=Cerussite Cresent Blade
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=37
+   VALUE=136
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={110 130}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Dagger
+
+[ITEMDEF i_dagger_Cerussite]
+   DEFNAME=i_dagger_Cerussite
+   ID=i_dagger
+   NAME=Cerussite Dagger
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=136
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={10 30}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Skinning Knife
+
+[ITEMDEF i_knife_skinning_Cerussite]
+   DEFNAME=i_knife_skinning_Cerussite
+   ID=i_knife_skinning
+   NAME=Cerussite Skinning Knife
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=136
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={15 35}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Cerussite]
+   DEFNAME=i_sword_Assassin_Spike_Cerussite
+   ID=i_sword_Assassin_Spike
+   NAME=Cerussite Assassin Spike
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=136
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={30 50}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Cutlass
+
+[ITEMDEF i_cutlass_Cerussite]
+   DEFNAME=i_cutlass_Cerussite
+   ID=i_cutlass
+   NAME=Cerussite Cutlass
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=136
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={25 45}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Short Blade
+
+[ITEMDEF i_shortblade_Cerussite]
+   DEFNAME=i_shortblade_Cerussite
+   ID=i_shortblade
+   NAME=Cerussite Short Blade
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=136
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={35 55}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Scythe
+
+[ITEMDEF i_scythe_Cerussite]
+   DEFNAME=i_scythe_Cerussite
+   ID=i_scythe
+   NAME=Cerussite Scythe
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=33
+   VALUE=136
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={115 135}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Short Spear
+
+[ITEMDEF i_spear_short_Cerussite]
+   DEFNAME=i_spear_short_Cerussite
+   ID=i_spear_short
+   NAME=Cerussite Short Spear
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=136
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={45 65}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite War Fork
+
+[ITEMDEF i_war_fork_Cerussite]
+   DEFNAME=i_war_fork_Cerussite
+   ID=i_war_fork
+   NAME=Cerussite War Fork
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=136
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={50 70}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Leafblade
+
+[ITEMDEF i_sword_leafblade_Cerussite]
+   DEFNAME=i_sword_leafblade_Cerussite
+   ID=i_sword_leafblade
+   NAME=Cerussite Leafblade
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=136
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={60 80}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Cerussite]
+   DEFNAME=i_elven_spellblade_Cerussite
+   ID=i_elven_spellblade
+   NAME=Cerussite Elven Spell Blade
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=136
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={75 95}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Pitchfork
+
+[ITEMDEF i_pitchfork_Cerussite]
+   DEFNAME=i_pitchfork_Cerussite
+   ID=i_pitchfork
+   NAME=Cerussite Pitchfork
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=136
+   SPEED=43
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={55 75}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite War Cleaver
+
+[ITEMDEF i_war_cleaver_Cerussite]
+   DEFNAME=i_war_cleaver_Cerussite
+   ID=i_war_cleaver
+   NAME=Cerussite War Cleaver
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=136
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={65 85}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Pike
+
+[ITEMDEF i_pike_Cerussite]
+   DEFNAME=i_pike_Cerussite
+   ID=i_pike
+   NAME=Cerussite Pike
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=136
+   SPEED=43
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={70 90}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Blood Blade
+
+[ITEMDEF i_bloodblade_Cerussite]
+   DEFNAME=i_bloodblade_Cerussite
+   ID=i_bloodblade
+   NAME=Cerussite Blood Blade
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=136
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={75 95}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Kama
+
+[ITEMDEF i_kama_Cerussite]
+   DEFNAME=i_kama_Cerussite
+   ID=i_kama
+   NAME=Cerussite Kama
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=136
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={77 97}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Kryss
+
+[ITEMDEF i_kryss_Cerussite]
+   DEFNAME=i_kryss_Cerussite
+   ID=i_kryss
+   NAME=Cerussite Kryss
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=136
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={80 100}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Lajatang
+
+[ITEMDEF i_lajatang_Cerussite]
+   DEFNAME=i_lajatang_Cerussite
+   ID=i_lajatang
+   NAME=Cerussite Lajatang
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=136
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={85 105}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Sai
+
+[ITEMDEF i_sai_Cerussite]
+   DEFNAME=i_sai_Cerussite
+   ID=i_sai
+   NAME=Cerussite Sai
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=29
+   VALUE=136
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={76 96}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Tekagi
+
+[ITEMDEF i_tekagi_Cerussite]
+   DEFNAME=i_tekagi_Cerussite
+   ID=i_tekagi
+   NAME=Cerussite Tekagi
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=136
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={90 110}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cerussite Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Cerussite]
+   DEFNAME=i_dual_pointed_spear_Cerussite
+   ID=i_dual_pointed_spear
+   NAME=Cerussite Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Cerussite
+   WEIGHT=20
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=32
+   VALUE=136
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=40
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Cerussite
+
+ON=@Create
+   COLOR=color_ore_Cerussite
+   HITPOINTS={115 135}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

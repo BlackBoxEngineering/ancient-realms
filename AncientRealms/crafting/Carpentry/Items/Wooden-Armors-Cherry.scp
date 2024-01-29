@@ -1,0 +1,466 @@
+/////////////////////////////////////////////Cherry woodland chest
+[ITEMDEF i_woodland_chest_Cherry]
+   DEFNAME= i_woodland_chest_Cherry
+   ID= i_woodland_chest
+   NAME= Cherry woodland chest
+   ARMOR= 30
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 20 i_log_Cherry
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cherry
+   DESCRIPTION= woodland chest
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS= {100 900}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry woodland belt
+[ITEMDEF i_woodland_belt_Cherry]
+   DEFNAME= i_woodland_belt_Cherry
+   ID= i_woodland_belt
+   NAME= Cherry woodland belt
+   ARMOR= 25
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Cherry
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cherry
+   DESCRIPTION= woodland belt
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS= {100 900}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry woodland gorget
+[ITEMDEF i_woodland_gorget_Cherry]
+   DEFNAME= i_woodland_gorget_Cherry
+   ID= i_woodland_gorget
+   NAME= Cherry woodland gorget
+   ARMOR= 16
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Cherry
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cherry
+   DESCRIPTION= woodland gorget
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS= {100 900}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry woodland gauntlets
+[ITEMDEF i_woodland_gauntlets_Cherry]
+   DEFNAME= i_woodland_gauntlets_Cherry
+   ID= i_woodland_gauntlets
+   NAME= Cherry woodland gauntlets
+   ARMOR= 16
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Cherry
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cherry
+   DESCRIPTION= woodland gauntlets
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS= {100 900}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry woodland leggings
+[ITEMDEF i_woodland_leggings_Cherry]
+   DEFNAME= i_woodland_leggings_Cherry
+   ID= i_woodland_leggings
+   NAME= Cherry woodland leggings
+   ARMOR= 25
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Cherry
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cherry
+   DESCRIPTION= woodland leggings
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS= {100 900}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry woodland arms
+[ITEMDEF i_woodland_arms_Cherry]
+   DEFNAME= i_woodland_arms_Cherry
+   ID= i_woodland_arms
+   NAME= Cherry woodland arms
+   ARMOR= 18
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 8 i_log_Cherry
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cherry
+   DESCRIPTION= woodland arms
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS= {100 900}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry female woodland chest
+[ITEMDEF i_armor_female_woodland_Cherry]
+   DEFNAME= i_armor_female_woodland_Cherry
+   ID= i_armor_female_woodland
+   NAME= Cherry female woodland chest
+   ARMOR= 26
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 16 i_log_Cherry
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cherry
+   DESCRIPTION= female woodland chest
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS= {100 900}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry leaf tunic
+[ITEMDEF i_leaf_tunic_Cherry]
+   DEFNAME= i_leaf_tunic_Cherry
+   ID= i_leaf_tunic
+   NAME= Cherry leaf tunic
+   ARMOR= 28
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 18 i_log_Cherry
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cherry
+   DESCRIPTION= leaf tunic
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry leaf gloves
+[ITEMDEF i_leaf_gloves_Cherry]
+   DEFNAME= i_leaf_gloves_Cherry
+   ID= i_leaf_gloves
+   NAME= Cherry leaf gloves
+   ARMOR= 22
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_log_Cherry
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cherry
+   DESCRIPTION= leaf gloves
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry leaf gorget
+[ITEMDEF i_leaf_gorget_Cherry]
+   DEFNAME= i_leaf_gorget_Cherry
+   ID= i_leaf_gorget
+   NAME= Cherry leaf gorget
+   ARMOR= 18
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Cherry
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cherry
+   DESCRIPTION= leaf gorget
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry leaf arms
+[ITEMDEF i_leaf_arms_Cherry]
+   DEFNAME= i_leaf_arms_Cherry
+   ID= i_leaf_arms
+   NAME= Cherry leaf arms
+   ARMOR= 18
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Cherry
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cherry
+   DESCRIPTION= leaf arms
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry leaf leggings
+[ITEMDEF i_leaf_leggings_Cherry]
+   DEFNAME= i_leaf_leggings_Cherry
+   ID= i_leaf_leggings
+   NAME= Cherry leaf leggings
+   ARMOR= 25
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 15 i_log_Cherry
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cherry
+   DESCRIPTION= leaf leggings
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry leaf tonlet
+[ITEMDEF i_leaf_tonlet_Cherry]
+   DEFNAME= i_leaf_tonlet_Cherry
+   ID= i_leaf_tonlet
+   NAME= Cherry leaf tonlet
+   ARMOR= 14
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 4 i_log_Cherry
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cherry
+   DESCRIPTION= leaf tonlet
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry raven helm
+[ITEMDEF i_helm_raven_Cherry]
+   DEFNAME= i_helm_raven_Cherry
+   ID= i_helm_raven
+   NAME= Cherry raven helm
+   ARMOR= 18
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Cherry
+   SKILLMAKE= CARPENTRY 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cherry
+   DESCRIPTION= raven helm
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS= {70 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry vulture helm
+[ITEMDEF i_helm_vulture_Cherry]
+   DEFNAME= i_helm_vulture_Cherry
+   ID= i_helm_vulture
+   NAME= Cherry vulture helm
+   ARMOR= 18
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Cherry
+   SKILLMAKE= CARPENTRY 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cherry
+   DESCRIPTION= vulture helm
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS= {90 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cherry winged helm
+[ITEMDEF i_helm_winged_Cherry]
+   DEFNAME= i_helm_winged_Cherry
+   ID= i_helm_winged
+   NAME= Cherry winged helm
+   ARMOR= 18
+   WEIGHT= 20
+   VALUE= 100
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Cherry
+   SKILLMAKE= CARPENTRY 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cherry
+   DESCRIPTION= winged helm
+
+ON=@Create
+   COLOR=color_log_Cherry
+   HITPOINTS= {110 1000}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

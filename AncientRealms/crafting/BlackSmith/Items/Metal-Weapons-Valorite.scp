@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Valorite Quarter Staff
+
+[ITEMDEF i_staff_quarter_Valorite]
+   DEFNAME=i_staff_quarter_Valorite
+   ID=i_staff_quarter
+   NAME=Valorite Quarter Staff
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=24
+   VALUE=110
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={20 36}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Valorite]
+   DEFNAME=i_serpentstone_staff_Valorite
+   ID=i_serpentstone_staff
+   NAME=Valorite Serpentstone Staff
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=28
+   VALUE=110
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={60 76}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Valorite]
+   DEFNAME=i_staff_bladed_double_Valorite
+   ID=i_staff_bladed_double
+   NAME=Valorite Double Bladed Staff
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=36
+   VALUE=110
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={120 136}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Glass Staff
+
+[ITEMDEF i_glass_staff_Valorite]
+   DEFNAME=i_glass_staff_Valorite
+   ID=i_glass_staff
+   NAME=Valorite Glass Staff
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=33
+   VALUE=110
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={90 106}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Bladed Staff
+
+[ITEMDEF i_bladed_staff_Valorite]
+   DEFNAME=i_bladed_staff_Valorite
+   ID=i_bladed_staff
+   NAME=Valorite Bladed Staff
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=34
+   VALUE=110
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={115 131}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Tongs
+
+[ITEMDEF i_tongs_Valorite]
+   DEFNAME=i_tongs_Valorite
+   ID=i_tongs
+   NAME=Valorite Tongs
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=11
+   VALUE=110
+   SPEED=13
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={0 16}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Mace
+
+[ITEMDEF i_mace_Valorite]
+   DEFNAME=i_mace_Valorite
+   ID=i_mace
+   NAME=Valorite Mace
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=24
+   VALUE=110
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Maul
+
+[ITEMDEF i_maul_Valorite]
+   DEFNAME=i_maul_Valorite
+   ID=i_maul
+   NAME=Valorite Maul
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=26
+   VALUE=110
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={40 56}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Scepter
+
+[ITEMDEF i_scepter_Valorite]
+   DEFNAME=i_scepter_Valorite
+   ID=i_scepter
+   NAME=Valorite Scepter
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=28
+   VALUE=110
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={50 66}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Valorite]
+   DEFNAME=i_hammer_sledge_Valorite
+   ID=i_hammer_sledge
+   NAME=Valorite Sledge Hammer
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=28
+   VALUE=110
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={20 36}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Valorite]
+   DEFNAME=i_hammer_smith_Valorite
+   ID=i_hammer_smith
+   NAME=Valorite Smiths Hammer
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=14
+   VALUE=110
+   SPEED=13
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite War Mace
+
+[ITEMDEF i_mace_war_Valorite]
+   DEFNAME=i_mace_war_Valorite
+   ID=i_mace_war
+   NAME=Valorite War Mace
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=32
+   VALUE=110
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={80 96}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Disc Mace
+
+[ITEMDEF i_disc_mace_Valorite]
+   DEFNAME=i_disc_mace_Valorite
+   ID=i_disc_mace
+   NAME=Valorite Disc Mace
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=32
+   VALUE=110
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={70 86}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite War Hammer
+
+[ITEMDEF i_hammer_war_Valorite]
+   DEFNAME=i_hammer_war_Valorite
+   ID=i_hammer_war
+   NAME=Valorite War Hammer
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=38
+   VALUE=110
+   SPEED=53
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={100 116}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Hammer Pick
+
+[ITEMDEF i_hammer_pick_Valorite]
+   DEFNAME=i_hammer_pick_Valorite
+   ID=i_hammer_pick
+   NAME=Valorite Hammer Pick
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=34
+   VALUE=110
+   SPEED=48
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={55 71}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite War Axe
+
+[ITEMDEF i_axe_war_Valorite]
+   DEFNAME=i_axe_war_Valorite
+   ID=i_axe_war
+   NAME=Valorite War Axe
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=24
+   VALUE=110
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={65 81}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Tessen
+
+[ITEMDEF i_tessen_Valorite]
+   DEFNAME=i_tessen_Valorite
+   ID=i_tessen
+   NAME=Valorite Tessen
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=23
+   VALUE=110
+   SPEED=38
+   SKILL=MACEFIGHTING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={75 91}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Long Sword
+
+[ITEMDEF i_sword_long_Valorite]
+   DEFNAME=i_sword_long_Valorite
+   ID=i_sword_long
+   NAME=Valorite Long Sword
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=110
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={10 26}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Broad Sword
+
+[ITEMDEF i_sword_broad_Valorite]
+   DEFNAME=i_sword_broad_Valorite
+   ID=i_sword_broad
+   NAME=Valorite Broad Sword
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=110
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={20 36}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Scimitar
+
+[ITEMDEF i_scimitar_Valorite]
+   DEFNAME=i_scimitar_Valorite
+   ID=i_scimitar
+   NAME=Valorite Scimitar
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=110
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Viking Sword
+
+[ITEMDEF i_sword_viking_Valorite]
+   DEFNAME=i_sword_viking_Valorite
+   ID=i_sword_viking
+   NAME=Valorite Viking Sword
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=110
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={35 51}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Katana
+
+[ITEMDEF i_katana_Valorite]
+   DEFNAME=i_katana_Valorite
+   ID=i_katana
+   NAME=Valorite Katana
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=110
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={80 96}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Wakizashi
+
+[ITEMDEF i_wakizashi_Valorite]
+   DEFNAME=i_wakizashi_Valorite
+   ID=i_wakizashi
+   NAME=Valorite Wakizashi
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=110
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={45 61}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Long Sword
+
+[ITEMDEF i_sword_long_b_Valorite]
+   DEFNAME=i_sword_long_b_Valorite
+   ID=i_sword_long_b
+   NAME=Valorite Long Sword
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=110
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={50 66}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Paladin Sword
+
+[ITEMDEF i_sword_paladin_Valorite]
+   DEFNAME=i_sword_paladin_Valorite
+   ID=i_sword_paladin
+   NAME=Valorite Paladin Sword
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=110
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={65 81}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Bokuto
+
+[ITEMDEF i_bokuto_Valorite]
+   DEFNAME=i_bokuto_Valorite
+   ID=i_bokuto
+   NAME=Valorite Bokuto
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=110
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={70 86}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Valorite]
+   DEFNAME=i_Radiant_Scimitar_Valorite
+   ID=i_Radiant_Scimitar
+   NAME=Valorite Radiant Scimitar
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=110
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={75 91}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Bone Harvester
+
+[ITEMDEF i_bone_harvester_Valorite]
+   DEFNAME=i_bone_harvester_Valorite
+   ID=i_bone_harvester
+   NAME=Valorite Bone Harvester
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=110
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={55 71}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Butcher Knife
+
+[ITEMDEF i_knife_butcher_Valorite]
+   DEFNAME=i_knife_butcher_Valorite
+   ID=i_knife_butcher
+   NAME=Valorite Butcher Knife
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=110
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Valorite]
+   DEFNAME=i_cleaver_meat_Valorite
+   ID=i_cleaver_meat
+   NAME=Valorite Meat Cleaver
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=110
+   SPEED=30
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Elven Machete
+
+[ITEMDEF i_elven_machete_Valorite]
+   DEFNAME=i_elven_machete_Valorite
+   ID=i_elven_machete
+   NAME=Valorite Elven Machete
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=110
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={60 76}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Bone Machete
+
+[ITEMDEF i_bone_machete_Valorite]
+   DEFNAME=i_bone_machete_Valorite
+   ID=i_bone_machete
+   NAME=Valorite Bone Machete
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=110
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={50 66}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Daisho
+
+[ITEMDEF i_daisho_Valorite]
+   DEFNAME=i_daisho_Valorite
+   ID=i_daisho
+   NAME=Valorite Daisho
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=29
+   VALUE=110
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={65 81}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite No-Dachi
+
+[ITEMDEF i_no_dachi_Valorite]
+   DEFNAME=i_no_dachi_Valorite
+   ID=i_no_dachi
+   NAME=Valorite No-Dachi
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=30
+   VALUE=110
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={75 91}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Rune Blade
+
+[ITEMDEF i_Rune_Blade_Valorite]
+   DEFNAME=i_Rune_Blade_Valorite
+   ID=i_Rune_Blade
+   NAME=Valorite Rune Blade
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=32
+   VALUE=110
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={115 131}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Axe
+
+[ITEMDEF i_axe_Valorite]
+   DEFNAME=i_axe_Valorite
+   ID=i_axe
+   NAME=Valorite Axe
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=22
+   VALUE=110
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={42 58}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Bardiche
+
+[ITEMDEF i_bardiche_Valorite]
+   DEFNAME=i_bardiche_Valorite
+   ID=i_bardiche
+   NAME=Valorite Bardiche
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=110
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={58 74}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Battle Axe
+
+[ITEMDEF i_axe_battle_Valorite]
+   DEFNAME=i_axe_battle_Valorite
+   ID=i_axe_battle
+   NAME=Valorite Battle Axe
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=110
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={65 81}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Double Axe
+
+[ITEMDEF i_axe_double_Valorite]
+   DEFNAME=i_axe_double_Valorite
+   ID=i_axe_double
+   NAME=Valorite Double Axe
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=110
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={70 86}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Valorite]
+   DEFNAME=i_axe_exec_Valorite
+   ID=i_axe_exec
+   NAME=Valorite Exectutioners Axe
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=110
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={73 89}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Halberd
+
+[ITEMDEF i_halberd_Valorite]
+   DEFNAME=i_halberd_Valorite
+   ID=i_halberd
+   NAME=Valorite Halberd
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=110
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={75 91}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Hatchet
+
+[ITEMDEF i_hatchet_Valorite]
+   DEFNAME=i_hatchet_Valorite
+   ID=i_hatchet
+   NAME=Valorite Hatchet
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=23
+   VALUE=110
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={40 56}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Valorite]
+   DEFNAME=i_axe_battle_large_Valorite
+   ID=i_axe_battle_large
+   NAME=Valorite Large Battle Axe
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=35
+   VALUE=110
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={100 116}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Ornate Axe
+
+[ITEMDEF i_ornate_axe_Valorite]
+   DEFNAME=i_ornate_axe_Valorite
+   ID=i_ornate_axe
+   NAME=Valorite Ornate Axe
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=110
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={60 76}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Valorite]
+   DEFNAME=i_axe_two_hand_Valorite
+   ID=i_axe_two_hand
+   NAME=Valorite Two Handed Axe
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=110
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={55 71}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Dual Axes
+
+[ITEMDEF i_dual_short_axes_Valorite]
+   DEFNAME=i_dual_short_axes_Valorite
+   ID=i_dual_short_axes
+   NAME=Valorite Dual Axes
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=110
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={95 111}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Cresent Blade
+
+[ITEMDEF i_crescent_blade_Valorite]
+   DEFNAME=i_crescent_blade_Valorite
+   ID=i_crescent_blade
+   NAME=Valorite Cresent Blade
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=35
+   VALUE=110
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={110 126}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Dagger
+
+[ITEMDEF i_dagger_Valorite]
+   DEFNAME=i_dagger_Valorite
+   ID=i_dagger
+   NAME=Valorite Dagger
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=110
+   SPEED=26
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={10 26}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Skinning Knife
+
+[ITEMDEF i_knife_skinning_Valorite]
+   DEFNAME=i_knife_skinning_Valorite
+   ID=i_knife_skinning
+   NAME=Valorite Skinning Knife
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=14
+   VALUE=110
+   SPEED=26
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={15 31}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Valorite]
+   DEFNAME=i_sword_Assassin_Spike_Valorite
+   ID=i_sword_Assassin_Spike
+   NAME=Valorite Assassin Spike
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=110
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={30 46}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Cutlass
+
+[ITEMDEF i_cutlass_Valorite]
+   DEFNAME=i_cutlass_Valorite
+   ID=i_cutlass
+   NAME=Valorite Cutlass
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=110
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={25 41}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Short Blade
+
+[ITEMDEF i_shortblade_Valorite]
+   DEFNAME=i_shortblade_Valorite
+   ID=i_shortblade
+   NAME=Valorite Short Blade
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=110
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={35 51}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Scythe
+
+[ITEMDEF i_scythe_Valorite]
+   DEFNAME=i_scythe_Valorite
+   ID=i_scythe
+   NAME=Valorite Scythe
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=31
+   VALUE=110
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={115 131}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Short Spear
+
+[ITEMDEF i_spear_short_Valorite]
+   DEFNAME=i_spear_short_Valorite
+   ID=i_spear_short
+   NAME=Valorite Short Spear
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=110
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={45 61}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite War Fork
+
+[ITEMDEF i_war_fork_Valorite]
+   DEFNAME=i_war_fork_Valorite
+   ID=i_war_fork
+   NAME=Valorite War Fork
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=110
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={50 66}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Leafblade
+
+[ITEMDEF i_sword_leafblade_Valorite]
+   DEFNAME=i_sword_leafblade_Valorite
+   ID=i_sword_leafblade
+   NAME=Valorite Leafblade
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=110
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={60 76}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Valorite]
+   DEFNAME=i_elven_spellblade_Valorite
+   ID=i_elven_spellblade
+   NAME=Valorite Elven Spell Blade
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=110
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={75 91}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Pitchfork
+
+[ITEMDEF i_pitchfork_Valorite]
+   DEFNAME=i_pitchfork_Valorite
+   ID=i_pitchfork
+   NAME=Valorite Pitchfork
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=110
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={55 71}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite War Cleaver
+
+[ITEMDEF i_war_cleaver_Valorite]
+   DEFNAME=i_war_cleaver_Valorite
+   ID=i_war_cleaver
+   NAME=Valorite War Cleaver
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=110
+   SPEED=30
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={65 81}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Pike
+
+[ITEMDEF i_pike_Valorite]
+   DEFNAME=i_pike_Valorite
+   ID=i_pike
+   NAME=Valorite Pike
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=110
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={70 86}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Blood Blade
+
+[ITEMDEF i_bloodblade_Valorite]
+   DEFNAME=i_bloodblade_Valorite
+   ID=i_bloodblade
+   NAME=Valorite Blood Blade
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=110
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={75 91}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Kama
+
+[ITEMDEF i_kama_Valorite]
+   DEFNAME=i_kama_Valorite
+   ID=i_kama
+   NAME=Valorite Kama
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=110
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={77 93}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Kryss
+
+[ITEMDEF i_kryss_Valorite]
+   DEFNAME=i_kryss_Valorite
+   ID=i_kryss
+   NAME=Valorite Kryss
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=110
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={80 96}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Lajatang
+
+[ITEMDEF i_lajatang_Valorite]
+   DEFNAME=i_lajatang_Valorite
+   ID=i_lajatang
+   NAME=Valorite Lajatang
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=110
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={85 101}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Sai
+
+[ITEMDEF i_sai_Valorite]
+   DEFNAME=i_sai_Valorite
+   ID=i_sai
+   NAME=Valorite Sai
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=110
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={76 92}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Tekagi
+
+[ITEMDEF i_tekagi_Valorite]
+   DEFNAME=i_tekagi_Valorite
+   ID=i_tekagi
+   NAME=Valorite Tekagi
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=110
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={90 106}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Valorite Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Valorite]
+   DEFNAME=i_dual_pointed_spear_Valorite
+   ID=i_dual_pointed_spear
+   NAME=Valorite Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Valorite
+   WEIGHT=18
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=30
+   VALUE=110
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=38
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Valorite
+
+ON=@Create
+   COLOR=color_ore_Valorite
+   HITPOINTS={115 131}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

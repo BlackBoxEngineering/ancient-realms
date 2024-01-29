@@ -1,0 +1,872 @@
+/////////////////////////////////////////////Ettin leather sleeves
+[ITEMDEF i_leather_sleeves_Ettin]
+   DEFNAME= i_leather_sleeves_Ettin
+   ID= i_leather_sleeves
+   NAME= Ettin leather sleeves
+   ARMOR= 6
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 3 i_leather_Ettin
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather sleeves
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather gloves
+[ITEMDEF i_leather_gloves_Ettin]
+   DEFNAME= i_leather_gloves_Ettin
+   ID= i_leather_gloves
+   NAME= Ettin leather gloves
+   ARMOR= 5
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 2 i_leather_Ettin
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather gloves
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather gorget
+[ITEMDEF i_leather_gorget_Ettin]
+   DEFNAME= i_leather_gorget_Ettin
+   ID= i_leather_gorget
+   NAME= Ettin leather gorget
+   ARMOR= 5
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 2 i_leather_Ettin
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather gorget
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather leggings
+[ITEMDEF i_leather_leggings_Ettin]
+   DEFNAME= i_leather_leggings_Ettin
+   ID= i_leather_leggings
+   NAME= Ettin leather leggings
+   ARMOR= 8
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 5 i_leather_Ettin
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather leggings
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather tunic
+[ITEMDEF i_leather_tunic_Ettin]
+   DEFNAME= i_leather_tunic_Ettin
+   ID= i_leather_tunic
+   NAME= Ettin leather tunic
+   ARMOR= 13
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 10 i_leather_Ettin
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather tunic
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather cap
+[ITEMDEF i_leather_cap_Ettin]
+   DEFNAME= i_leather_cap_Ettin
+   ID= i_leather_cap
+   NAME= Ettin leather cap
+   ARMOR= 6
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 3 i_leather_Ettin
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather cap
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather female shorts
+[ITEMDEF i_armor_female_shorts_Ettin]
+   DEFNAME= i_armor_female_shorts_Ettin
+   ID= i_armor_female_shorts
+   NAME= Ettin leather female shorts
+   ARMOR= 6
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 3 i_leather_Ettin
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather female shorts
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather female armor
+[ITEMDEF i_armor_female_leather_Ettin]
+   DEFNAME= i_armor_female_leather_Ettin
+   ID= i_armor_female_leather
+   NAME= Ettin leather female armor
+   ARMOR= 8
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 5 i_leather_Ettin
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather female armor
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather female skirt
+[ITEMDEF i_armor_female_skirt_Ettin]
+   DEFNAME= i_armor_female_skirt_Ettin
+   ID= i_armor_female_skirt
+   NAME= Ettin leather female skirt
+   ARMOR= 6
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 3 i_leather_Ettin
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather female skirt
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather female bustier
+[ITEMDEF i_armor_female_bustier_Ettin]
+   DEFNAME= i_armor_female_bustier_Ettin
+   ID= i_armor_female_bustier
+   NAME= Ettin leather female bustier
+   ARMOR= 8
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 5 i_leather_Ettin
+   SKILLMAKE= TAILORING 50.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather female bustier
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {53 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather mempo
+[ITEMDEF i_leather_mempo_Ettin]
+   DEFNAME= i_leather_mempo_Ettin
+   ID= i_leather_mempo
+   NAME= Ettin leather mempo
+   ARMOR= 7
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 4 i_leather_Ettin
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather mempo
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather do
+[ITEMDEF i_leather_do_Ettin]
+   DEFNAME= i_leather_do_Ettin
+   ID= i_leather_do
+   NAME= Ettin leather do
+   ARMOR= 12
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 9 i_leather_Ettin
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather do
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather hiro sode
+[ITEMDEF i_leather_hiro_sode_Ettin]
+   DEFNAME= i_leather_hiro_sode_Ettin
+   ID= i_leather_hiro_sode
+   NAME= Ettin leather hiro sode
+   ARMOR= 10
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 7 i_leather_Ettin
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather hiro sode
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather suneate
+[ITEMDEF i_leather_suneate_Ettin]
+   DEFNAME= i_leather_suneate_Ettin
+   ID= i_leather_suneate
+   NAME= Ettin leather suneate
+   ARMOR= 9
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 6 i_leather_Ettin
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather suneate
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather haidate
+[ITEMDEF i_leather_haidate_Ettin]
+   DEFNAME= i_leather_haidate_Ettin
+   ID= i_leather_haidate
+   NAME= Ettin leather haidate
+   ARMOR= 7
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 4 i_leather_Ettin
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather haidate
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather ninja hood
+[ITEMDEF i_leather_ninja_hood_Ettin]
+   DEFNAME= i_leather_ninja_hood_Ettin
+   ID= i_leather_ninja_hood
+   NAME= Ettin leather ninja hood
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 8 i_leather_Ettin
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather ninja hood
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather ninja belt
+[ITEMDEF i_leather_ninja_belt_Ettin]
+   DEFNAME= i_leather_ninja_belt_Ettin
+   ID= i_leather_ninja_belt
+   NAME= Ettin leather ninja belt
+   ARMOR= 6
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 3 i_leather_Ettin
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather ninja belt
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather ninja pants
+[ITEMDEF i_leather_ninja_pants_Ettin]
+   DEFNAME= i_leather_ninja_pants_Ettin
+   ID= i_leather_ninja_pants
+   NAME= Ettin leather ninja pants
+   ARMOR= 12
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 9 i_leather_Ettin
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather ninja pants
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather ninja mitts
+[ITEMDEF i_leather_ninja_mitts_Ettin]
+   DEFNAME= i_leather_ninja_mitts_Ettin
+   ID= i_leather_ninja_mitts
+   NAME= Ettin leather ninja mitts
+   ARMOR= 6
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 3 i_leather_Ettin
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather ninja mitts
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather ninja jacket
+[ITEMDEF i_leather_ninja_jacket_Ettin]
+   DEFNAME= i_leather_ninja_jacket_Ettin
+   ID= i_leather_ninja_jacket
+   NAME= Ettin leather ninja jacket
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 12 i_leather_Ettin
+   SKILLMAKE= TAILORING 60.0 ARMSLORE 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather ninja jacket
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {63 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather gargoyle arms
+[ITEMDEF i_leather_gargoyle_arms_1_Ettin]
+   DEFNAME= i_leather_gargoyle_arms_1_Ettin
+   ID= i_leather_gargoyle_arms_1
+   NAME= Ettin leather gargoyle arms
+   ARMOR= 9
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 6 i_leather_Ettin
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather gargoyle arms
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather gargoyle arms
+[ITEMDEF i_leather_gargoyle_arms_2_Ettin]
+   DEFNAME= i_leather_gargoyle_arms_2_Ettin
+   ID= i_leather_gargoyle_arms_2
+   NAME= Ettin leather gargoyle arms
+   ARMOR= 9
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 6 i_leather_Ettin
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather gargoyle arms
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather gargoyle chest
+[ITEMDEF i_leather_gargoyle_chest_2_Ettin]
+   DEFNAME= i_leather_gargoyle_chest_2_Ettin
+   ID= i_leather_gargoyle_chest_2
+   NAME= Ettin leather gargoyle chest
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 12 i_leather_Ettin
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather gargoyle chest
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather gargoyle chest
+[ITEMDEF i_leather_gargoyle_chest_1_Ettin]
+   DEFNAME= i_leather_gargoyle_chest_1_Ettin
+   ID= i_leather_gargoyle_chest_1
+   NAME= Ettin leather gargoyle chest
+   ARMOR= 15
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 12 i_leather_Ettin
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather gargoyle chest
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather gargoyle leggings
+[ITEMDEF i_leather_gargoyle_leggings_1_Ettin]
+   DEFNAME= i_leather_gargoyle_leggings_1_Ettin
+   ID= i_leather_gargoyle_leggings_1
+   NAME= Ettin leather gargoyle leggings
+   ARMOR= 12
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 9 i_leather_Ettin
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather gargoyle leggings
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather gargoyle leggings
+[ITEMDEF i_leather_gargoyle_leggings_2_Ettin]
+   DEFNAME= i_leather_gargoyle_leggings_2_Ettin
+   ID= i_leather_gargoyle_leggings_2
+   NAME= Ettin leather gargoyle leggings
+   ARMOR= 12
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 9 i_leather_Ettin
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather gargoyle leggings
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather gargoyle kilt
+[ITEMDEF i_leather_gargoyle_kilt_2_Ettin]
+   DEFNAME= i_leather_gargoyle_kilt_2_Ettin
+   ID= i_leather_gargoyle_kilt_2
+   NAME= Ettin leather gargoyle kilt
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_leather_Ettin
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather gargoyle kilt
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather gargoyle kilt
+[ITEMDEF i_leather_gargoyle_kilt_1_Ettin]
+   DEFNAME= i_leather_gargoyle_kilt_1_Ettin
+   ID= i_leather_gargoyle_kilt_1
+   NAME= Ettin leather gargoyle kilt
+   ARMOR= 11
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_leather_Ettin
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather gargoyle kilt
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin leather gargoyle wings
+[ITEMDEF i_gargish_leather_wings_Ettin]
+   DEFNAME= i_gargish_leather_wings_Ettin
+   ID= i_gargish_leather_wings
+   NAME= Ettin leather gargoyle wings
+   ARMOR= 8
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 5 i_leather_Ettin
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= leather gargoyle wings
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {83 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ettin arcane leather gloves
+[ITEMDEF i_leather_gloves_arcane_Ettin]
+   DEFNAME= i_leather_gloves_arcane_Ettin
+   ID= i_leather_gloves_arcane
+   NAME= Ettin arcane leather gloves
+   ARMOR= 8
+   WEIGHT= 13
+   VALUE= 30
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 5 i_leather_Ettin
+   SKILLMAKE= TAILORING 120.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Ettin
+   DESCRIPTION= arcane leather gloves
+
+ON=@Create
+   COLOR=color_hide_Ettin
+   HITPOINTS= {123 360}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

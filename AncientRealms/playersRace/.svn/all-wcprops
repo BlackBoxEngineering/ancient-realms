@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/AncientRealms/!svn/ver/92/scripts/AncientRealms/games/playersRace
+END
+raceFinish.scp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/AncientRealms/!svn/ver/89/scripts/AncientRealms/games/playersRace/raceFinish.scp
+END
+raceControlSettings.scp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/AncientRealms/!svn/ver/1/scripts/AncientRealms/games/playersRace/raceControlSettings.scp
+END
+raceItems.scp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/AncientRealms/!svn/ver/92/scripts/AncientRealms/games/playersRace/raceItems.scp
+END
+racePlayerEvents.scp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/AncientRealms/!svn/ver/1/scripts/AncientRealms/games/playersRace/racePlayerEvents.scp
+END
+raceDialogs.scp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/AncientRealms/!svn/ver/1/scripts/AncientRealms/games/playersRace/raceDialogs.scp
+END
+racePolePosition.scp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/AncientRealms/!svn/ver/89/scripts/AncientRealms/games/playersRace/racePolePosition.scp
+END
+notes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/AncientRealms/!svn/ver/1/scripts/AncientRealms/games/playersRace/notes.txt
+END
+raceMulti.scp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/AncientRealms/!svn/ver/1/scripts/AncientRealms/games/playersRace/raceMulti.scp
+END
+raceTrackMeasurement.scp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/AncientRealms/!svn/ver/1/scripts/AncientRealms/games/playersRace/raceTrackMeasurement.scp
+END
+raceQueueManagment.scp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/AncientRealms/!svn/ver/1/scripts/AncientRealms/games/playersRace/raceQueueManagment.scp
+END
+raceStart.scp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/AncientRealms/!svn/ver/1/scripts/AncientRealms/games/playersRace/raceStart.scp
+END

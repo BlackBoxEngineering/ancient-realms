@@ -1,0 +1,21 @@
+[FUNCTION horseBump]
+horse_bump
+
+[FUNCTION horse_bump]
+IF ( <FLAGS> & statf_onhorse )
+	LOCAL.ACT=<ACT>
+	ACT=<FINDLAYER(layer_horse).more2>
+	FINDLAYER(layer_horse).MORE2	= 0
+	FINDLAYER(layer_horse).REMOVE
+	ACT.P=<P>
+	ACT.FLAGS=0
+	FLAGS=<FLAGS> & ~statf_onhorse
+	UPDATE
+	ACT.UPDATE
+	ACT.ANIM 5
+	ACT.SOUND <ACT.SOUND>
+	ANIM 21
+	ACT=<LOCAL.ACT>
+ENDIF
+
+[EOF]

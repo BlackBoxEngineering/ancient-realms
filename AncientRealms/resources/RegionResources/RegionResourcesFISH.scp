@@ -1,0 +1,193 @@
+///////////////////////////////////////////////////////////////////////////////// ROCKS
+//////////////////////////////////////////////////////////////////////////////////////
+// ***** default distributions of fish/resources ****** //
+//////////////////////////////////////////////////////////////////////////////////////
+
+[REGIONRESOURCE mr_fish1]
+skill=1.0,100.0
+amount=1,1
+REAP=i_fish_big_1
+REGEN=60*5
+
+[REGIONRESOURCE mr_fish2]
+skill=10.0,100.0
+REAP=i_fish_big_2
+amount=1,1
+REGEN=60*10
+
+[REGIONRESOURCE mr_fish3]
+skill=20.0,100.0
+amount=1,1
+REAP=i_fish_big_3
+REGEN=60*15
+
+[REGIONRESOURCE mr_fish4]
+skill=1.0,100.0
+amount=1,2
+REAP=i_fish_big_4
+REGEN=60*20
+
+[REGIONRESOURCE mr_fish4]
+skill=1.0,100.0
+amount=1,2
+REAP=i_fish_big_4
+REGEN=60*20
+
+[REGIONRESOURCE mr_fishingchest]
+skill=50.0,100.0
+amount=1,1
+REAP=i_fishingchest
+REGEN=60*40*30
+
+[REGIONRESOURCE mr_seaserpent]
+SKILL=50.0,100.0
+AMOUNT=1,1
+REAP=i_sea_serpentspawner
+REGEN=60*30*5
+
+[REGIONRESOURCE mr_killfish]
+SKILL=60.0,100.0
+AMOUNT=1,1
+REAP=i_kill_fish
+REGEN=60*60*10
+
+[REGIONRESOURCE mr_ruinedfurniture]
+SKILL=30.0,100.0
+AMOUNT=1,1
+REAP=i_prize_fish
+REGEN=60*60*10
+
+[REGIONRESOURCE mr_prizefish]
+skill=60.0,100.0
+amount=1,1
+REAP=i_prize_fish
+REGEN=60*60*10
+
+[REGIONRESOURCE mr_wonderousfish]
+skill=85.0,100.0
+amount=1,1
+REAP=i_Wonderous_fish
+REGEN=60*60*15
+
+[REGIONRESOURCE mr_highlyperculiarfish]
+skill=95.0,100.0
+AMOUNT=1,1
+REAP=i_Highly_Peculiar_fish
+REGEN=60*60*20
+
+[REGIONRESOURCE mr_raredye_fish]
+skill=90.0,100.0
+amount=1,1
+REAP=i_raredye_fish
+REGEN=60*60*30
+
+[REGIONRESOURCE mr_messageinbottle]
+skill=30.0,100.0
+amount=1,1
+REAP=i_mib
+REGEN=60*60*40
+
+[REGIONRESOURCE mr_trulyrarefish]
+skill=99.0,100.0
+AMOUNT=1,1
+REAP=i_Truly_Rare_fish
+REGEN=60*60*50
+
+[REGIONRESOURCE mr_whitepearl]
+skill=100.0,100.0
+AMOUNT=1,1
+REAP=i_white_pearl
+REGEN=60*60*60
+
+
+[REGIONTYPE r_default_water t_water]
+// Not really ocean area.
+RESOURCES=30.0 mr_nothing
+RESOURCES=65.0 mr_fish1
+RESOURCES=60.0 mr_fish2
+RESOURCES=55.0 mr_fish3
+RESOURCES=40.0 mr_fish4
+RESOURCES=4.0 mr_ruinedfurniture
+RESOURCES=4.0 mr_wonderousfish
+RESOURCES=1.0 mr_fishingchest
+RESOURCES=2.0 mr_highlyperculiarfish
+RESOURCES=2.0 mr_killfish
+RESOURCES=1.0 mr_prizefish
+
+[REGIONTYPE r_water t_water]
+// Water/Ocean boat sounds
+RESOURCES=30.0 mr_nothing
+RESOURCES=65.0 mr_fish1
+RESOURCES=60.0 mr_fish2
+RESOURCES=55.0 mr_fish3
+RESOURCES=40.0 mr_fish4
+RESOURCES=6.0 mr_ruinedfurniture
+RESOURCES=7.0 mr_seaserpent
+RESOURCES=5.0 mr_killfish
+RESOURCES=4.0 mr_prizefish
+RESOURCES=3.0 mr_wonderousfish
+RESOURCES=2.0 mr_highlyperculiarfish
+RESOURCES=1.0 mr_raredye_fish
+RESOURCES=1.0 mr_messageinbottle
+RESOURCES=0.1 mr_trulyrarefish
+RESOURCES=0.5 mr_whitepearl
+
+ON=@REGPERIODIC
+	src.SFX={025,1,026,1,027,1,010,1,011,1,012,1,013,1}
+
+[REGIONTYPE r_water_town t_water]
+RESOURCES=30.0 mr_nothing
+RESOURCES=65.0 mr_fish1
+RESOURCES=60.0 mr_fish2
+RESOURCES=55.0 mr_fish3
+RESOURCES=40.0 mr_fish4
+RESOURCES=5.0 mr_ruinedfurniture
+
+ON=@REGPERIODIC
+	src.SFX={025,1,026,1,027,1,010,1,011,1,012,1,013,1}
+
+[REGIONTYPE r_water_deep t_water]//deepsea?
+RESOURCES=30.0 mr_nothing
+RESOURCES=65.0 mr_fish1
+RESOURCES=60.0 mr_fish2
+RESOURCES=55.0 mr_fish3
+RESOURCES=40.0 mr_fish4
+RESOURCES=8.0 mr_ruinedfurniture
+RESOURCES=7.0 mr_seaserpent
+RESOURCES=6.0 mr_killfish
+RESOURCES=5.0 mr_prizefish
+RESOURCES=4.0 mr_wonderousfish
+RESOURCES=1.0 mr_fishingchest
+RESOURCES=2.0 mr_highlyperculiarfish
+RESOURCES=1.0 mr_raredye_fish
+RESOURCES=0.5 mr_messageinbottle
+RESOURCES=0.1 mr_trulyrarefish
+RESOURCES=0.5 mr_whitepearl
+
+ON=@REGPERIODIC
+	src.SFX={025,1,026,1,027,1,010,1,011,1,012,1,013,1}
+	
+
+[REGIONTYPE r_water_deeprare t_water]//deepsea?
+RESOURCES=30.0 mr_nothing
+RESOURCES=65.0 mr_fish1
+RESOURCES=60.0 mr_fish2
+RESOURCES=55.0 mr_fish3
+RESOURCES=40.0 mr_fish4
+RESOURCES=1.0 mr_ruinedfurniture
+RESOURCES=9.0 mr_seaserpent
+RESOURCES=7.0 mr_killfish
+RESOURCES=6.0 mr_prizefish
+RESOURCES=5.0 mr_wonderousfish
+RESOURCES=0.5 mr_fishingchest
+RESOURCES=2.0 mr_highlyperculiarfish
+RESOURCES=1.0 mr_raredye_fish
+RESOURCES=0.5 mr_messageinbottle
+RESOURCES=0.1 mr_trulyrarefish
+RESOURCES=0.5 mr_whitepearl
+
+ON=@REGPERIODIC
+	src.SFX={025,1,026,1,027,1,010,1,011,1,012,1,013,1}
+
+
+[EOF]

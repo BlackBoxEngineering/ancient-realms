@@ -1,0 +1,35 @@
+[FUNCTION f_combat_CalculateDamageMage]
+LOCAL.SpellEffect=0
+LOCAL.SpellAbility=0
+REF1=<SERV.UID.<ARGV[0]>>		//Caster Uid
+REF2=<SERV.UID.<ARGV[1]>>		//Target Uid
+//<ARGV[2]>						//Spell Number
+LOCAL.PassiveSpell=1
+LOCAL.DefaultSpell=1
+LOCAL.SpellEffect=0
+LOCAL.SpellAbility=0
+CALL f_combat_DoSpellProperties <ARGV[2]>
+IF !<LOCAL.PassiveSpell>
+	LOCAL.SpellEffect=<f_combat_GetspellEffect <ARGV[2]>>
+	LOCAL.SpellAbility=<f_combat_GetNaturalSpellAbility <REF1.UID>,<ARGV[2]>>
+	LOCAL.SpellTotalDamage=<EVAL <ReturnOnlyPositives <EVAL (<LOCAL.SpellEffect> + <LOCAL.SpellAbility>) / 2>>>
+	LOCAL.SpellTotalDamage=<R<LOCAL.SpellTotalDamage>,<EVAL <LOCAL.SpellTotalDamage> + 1>>
+	IF <REF2.FLAGS>&statf_reflection
+		REF2.FLAGS &= ~statf_reflection
+		REF2.FINDID.i_rune_magic_reflection.REMOVE
+		LOCAL.SpellTotalDamage=0
+	ENDIF
+ENDIF
+IF <ARGV[2]>==12
+	LOCAL.SpellTotalDamage=<f_combat_GetspellEffect <ARGV[2]>>
+ENDIF
+IF <ARGV[2]>==5
+	LOCAL.SpellTotalDamage=1
+ENDIF
+LOCAL.SpellTotalDamage += <EVAL (<REF1.INT>/33)-5>
+RETURN <EVAL <LOCAL.SpellTotalDamage>>
+
+[FUNCTION f_combat_GetspellEffect]
+RETURN <EVAL <SERV.SPELL.<ARGV[0]>.EFFECT>>
+
+[EOF]

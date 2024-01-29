@@ -1,0 +1,9 @@
+[function f_loopanim]
+if <argv[1]>>1
+	for <eval (<argv[1]>-1)>
+	timerf <eval (<local._for>*<argv[2]>)>,anim <eval <argv[0]>>
+	endfor
+endif
+anim <argv[0]>
+
+[EOF]

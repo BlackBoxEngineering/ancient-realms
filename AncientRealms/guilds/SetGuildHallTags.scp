@@ -1,0 +1,81 @@
+[FUNCTION SetGuildHallTags]
+// West Line Ground Floor
+REGION.TAG.GuildStoneSlot-1=1513,1437,15
+REGION.TAG.GuildStoneSlot-2=1513,1434,15
+REGION.TAG.GuildStoneSlot-3=1513,1431,15
+REGION.TAG.GuildStoneSlot-4=1513,1428,15
+REGION.TAG.GuildStoneSlot-5=1513,1425,15
+REGION.TAG.GuildStoneSlot-6=1513,1422,15
+REGION.TAG.GuildStoneSlot-7=1513,1419,15
+REGION.TAG.GuildStoneSlot-8=1513,1416,15
+REGION.TAG.GuildStoneSlot-9=1513,1413,15
+//
+// North Line Ground Floor
+REGION.TAG.GuildStoneSlot-10=1516,1413,15
+REGION.TAG.GuildStoneSlot-11=1519,1413,15
+REGION.TAG.GuildStoneSlot-12=1522,1413,15
+REGION.TAG.GuildStoneSlot-13=1525,1413,15
+REGION.TAG.GuildStoneSlot-14=1528,1413,15
+REGION.TAG.GuildStoneSlot-15=1531,1413,15
+REGION.TAG.GuildStoneSlot-16=1534,1413,15
+//
+// East Line Ground Floor
+REGION.TAG.GuildStoneSlot-17=1537,1437,15
+REGION.TAG.GuildStoneSlot-18=1537,1434,15
+REGION.TAG.GuildStoneSlot-19=1537,1431,15
+REGION.TAG.GuildStoneSlot-20=1537,1428,15
+REGION.TAG.GuildStoneSlot-21=1537,1425,15
+REGION.TAG.GuildStoneSlot-22=1537,1422,15
+REGION.TAG.GuildStoneSlot-23=1537,1419,15
+REGION.TAG.GuildStoneSlot-24=1537,1416,15
+REGION.TAG.GuildStoneSlot-25=1537,1413,15
+//
+// West Line First Floor
+REGION.TAG.GuildStoneSlot-26=1513,1440,35
+REGION.TAG.GuildStoneSlot-27=1513,1437,35
+REGION.TAG.GuildStoneSlot-28=1513,1434,35
+REGION.TAG.GuildStoneSlot-29=1513,1431,35
+REGION.TAG.GuildStoneSlot-30=1513,1428,35
+REGION.TAG.GuildStoneSlot-31=1513,1425,35
+REGION.TAG.GuildStoneSlot-32=1513,1422,35
+REGION.TAG.GuildStoneSlot-33=1513,1419,35
+REGION.TAG.GuildStoneSlot-34=1513,1416,35
+REGION.TAG.GuildStoneSlot-35=1513,1413,35
+//
+// North Line First Floor
+REGION.TAG.GuildStoneSlot-36=1516,1413,35
+REGION.TAG.GuildStoneSlot-37=1519,1413,35
+REGION.TAG.GuildStoneSlot-38=1522,1413,35
+REGION.TAG.GuildStoneSlot-39=1526,1413,35
+REGION.TAG.GuildStoneSlot-40=1529,1413,35
+REGION.TAG.GuildStoneSlot-41=1532,1413,35
+REGION.TAG.GuildStoneSlot-42=1535,1413,35
+//
+// East Line First Floor
+REGION.TAG.GuildStoneSlot-43=1538,1440,35
+REGION.TAG.GuildStoneSlot-44=1538,1437,35
+REGION.TAG.GuildStoneSlot-45=1538,1434,35
+REGION.TAG.GuildStoneSlot-46=1538,1431,35
+REGION.TAG.GuildStoneSlot-47=1538,1428,35
+REGION.TAG.GuildStoneSlot-48=1538,1425,35
+REGION.TAG.GuildStoneSlot-49=1538,1422,35
+REGION.TAG.GuildStoneSlot-50=1538,1419,35
+REGION.TAG.GuildStoneSlot-51=1538,1416,35
+REGION.TAG.GuildStoneSlot-52=1538,1413,35
+//
+
+[FUNCTION ListGuildHallTags]
+FOR X 1 52
+	LOCAL.GuildStoneTile=<REGION.TAG.GuildStoneSlot-<EVAL <local.X>>>
+	IF <IsGuildStoneThere <LOCAL.GuildStoneTile>>
+		//SERV.LOG GuildStoneSlotNo(<EVAL <local.X>>) @ [<LOCAL.GuildStoneTile>] Is in Use
+	ELSE
+		//SERV.LOG GuildStoneSlotNo(<EVAL <local.X>>) @ [<LOCAL.GuildStoneTile>] Is in Free
+	ENDIF
+ENDFOR
+
+[PLEVEL 6]
+SetGuildHallTags
+ListGuildHallTags
+
+[EOF]

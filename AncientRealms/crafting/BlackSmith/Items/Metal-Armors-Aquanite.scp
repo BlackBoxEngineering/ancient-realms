@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Aquanite Platemail Arms
+[ITEMDEF i_platemail_arms_Aquanite]
+   DEFNAME= i_platemail_arms_Aquanite
+   ID= i_platemail_arms
+   NAME= Aquanite Platemail Arms
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Platemail Leggings
+[ITEMDEF i_platemail_leggings_Aquanite]
+   DEFNAME= i_platemail_leggings_Aquanite
+   ID= i_platemail_leggings
+   NAME= Aquanite Platemail Leggings
+   ARMOR= 26
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Platemail Helmet
+[ITEMDEF i_platemail_helm_Aquanite]
+   DEFNAME= i_platemail_helm_Aquanite
+   ID= i_platemail_helm
+   NAME= Aquanite Platemail Helmet
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Platemail Gorget
+[ITEMDEF i_platemail_gorget_Aquanite]
+   DEFNAME= i_platemail_gorget_Aquanite
+   ID= i_platemail_gorget
+   NAME= Aquanite Platemail Gorget
+   ARMOR= 16
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Aquanite]
+   DEFNAME= i_platemail_gorget2_Aquanite
+   ID= i_platemail_gorget2
+   NAME= Aquanite Platemail Gorget
+   ARMOR= 16
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Platemail Gloves
+[ITEMDEF i_platemail_gloves_Aquanite]
+   DEFNAME= i_platemail_gloves_Aquanite
+   ID= i_platemail_gloves
+   NAME= Aquanite Platemail Gloves
+   ARMOR= 16
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Platemail Chest
+[ITEMDEF i_platemail_chest_Aquanite]
+   DEFNAME= i_platemail_chest_Aquanite
+   ID= i_platemail_chest
+   NAME= Aquanite Platemail Chest
+   ARMOR= 30
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Aquanite]
+   DEFNAME= i_armor_female_plate_Aquanite
+   ID= i_armor_female_plate
+   NAME= Aquanite Platemail Female Plate
+   ARMOR= 28
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite chainmail coif
+[ITEMDEF i_chainmail_coif_Aquanite]
+   DEFNAME= i_chainmail_coif_Aquanite
+   ID= i_chainmail_coif
+   NAME= Aquanite chainmail coif
+   ARMOR= 22
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {58 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite chainmail leggings
+[ITEMDEF i_chainmail_leggings_Aquanite]
+   DEFNAME= i_chainmail_leggings_Aquanite
+   ID= i_chainmail_leggings
+   NAME= Aquanite chainmail leggings
+   ARMOR= 24
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {58 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite chainmail tunic
+[ITEMDEF i_chainmail_tunic_Aquanite]
+   DEFNAME= i_chainmail_tunic_Aquanite
+   ID= i_chainmail_tunic
+   NAME= Aquanite chainmail tunic
+   ARMOR= 28
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {58 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Aquanite]
+   DEFNAME= i_ringmail_sleeves_Aquanite
+   ID= i_ringmail_sleeves
+   NAME= Aquanite Ringmail Sleeves
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {48 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Aquanite]
+   DEFNAME= i_ringmail_leggings_Aquanite
+   ID= i_ringmail_leggings
+   NAME= Aquanite Ringmail Leggings
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {48 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Aquanite]
+   DEFNAME= i_ringmail_tunic_Aquanite
+   ID= i_ringmail_tunic
+   NAME= Aquanite Ringmail Tunic
+   ARMOR= 24
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {48 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Aquanite]
+   DEFNAME= i_ringmail_gloves_Aquanite
+   ID= i_ringmail_gloves
+   NAME= Aquanite Ringmail Gloves
+   ARMOR= 10
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {48 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite studded sleeves
+[ITEMDEF i_studded_sleeves_Aquanite]
+   DEFNAME= i_studded_sleeves_Aquanite
+   ID= i_studded_sleeves
+   NAME= Aquanite studded sleeves
+   ARMOR= 13
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Aquanite, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite studded gloves
+[ITEMDEF i_studded_gloves_Aquanite]
+   DEFNAME= i_studded_gloves_Aquanite
+   ID= i_studded_gloves
+   NAME= Aquanite studded gloves
+   ARMOR= 10
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Aquanite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite studded gorget
+[ITEMDEF i_studded_gorget_Aquanite]
+   DEFNAME= i_studded_gorget_Aquanite
+   ID= i_studded_gorget
+   NAME= Aquanite studded gorget
+   ARMOR= 10
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Aquanite, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite studded leggings
+[ITEMDEF i_studded_leggings_Aquanite]
+   DEFNAME= i_studded_leggings_Aquanite
+   ID= i_studded_leggings
+   NAME= Aquanite studded leggings
+   ARMOR= 19
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Aquanite, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite studded tunic
+[ITEMDEF i_studded_tunic_Aquanite]
+   DEFNAME= i_studded_tunic_Aquanite
+   ID= i_studded_tunic
+   NAME= Aquanite studded tunic
+   ARMOR= 23
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Aquanite, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite studded female armor
+[ITEMDEF i_armor_female_studded_Aquanite]
+   DEFNAME= i_armor_female_studded_Aquanite
+   ID= i_armor_female_studded
+   NAME= Aquanite studded female armor
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Aquanite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Aquanite]
+   DEFNAME= i_armor_female_bustier_studded_Aquanite
+   ID= i_armor_female_bustier_studded
+   NAME= Aquanite studded female bustier
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Aquanite, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite platemail mempo
+[ITEMDEF i_platemail_mempo_Aquanite]
+   DEFNAME= i_platemail_mempo_Aquanite
+   ID= i_platemail_mempo
+   NAME= Aquanite platemail mempo
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite platemail do
+[ITEMDEF i_platemail_do_Aquanite]
+   DEFNAME= i_platemail_do_Aquanite
+   ID= i_platemail_do
+   NAME= Aquanite platemail do
+   ARMOR= 28
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Aquanite]
+   DEFNAME= i_platemail_hiro_sode_Aquanite
+   ID= i_platemail_hiro_sode
+   NAME= Aquanite platemail hiro sode
+   ARMOR= 24
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite platemail suneate
+[ITEMDEF i_platemail_suneate_Aquanite]
+   DEFNAME= i_platemail_suneate_Aquanite
+   ID= i_platemail_suneate
+   NAME= Aquanite platemail suneate
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite platemail haidate
+[ITEMDEF i_platemail_haidate_Aquanite]
+   DEFNAME= i_platemail_haidate_Aquanite
+   ID= i_platemail_haidate
+   NAME= Aquanite platemail haidate
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite studded mempo
+[ITEMDEF i_studded_mempo_Aquanite]
+   DEFNAME= i_studded_mempo_Aquanite
+   ID= i_studded_mempo
+   NAME= Aquanite studded mempo
+   ARMOR= 15
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Aquanite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite studded do
+[ITEMDEF i_studded_do_Aquanite]
+   DEFNAME= i_studded_do_Aquanite
+   ID= i_studded_do
+   NAME= Aquanite studded do
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Aquanite, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Aquanite]
+   DEFNAME= i_studded_hiro_sode_Aquanite
+   ID= i_studded_hiro_sode
+   NAME= Aquanite studded hiro sode
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Aquanite, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite studded suneate
+[ITEMDEF i_studded_suneate_Aquanite]
+   DEFNAME= i_studded_suneate_Aquanite
+   ID= i_studded_suneate
+   NAME= Aquanite studded suneate
+   ARMOR= 17
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Aquanite, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite studded haidate
+[ITEMDEF i_studded_haidate_Aquanite]
+   DEFNAME= i_studded_haidate_Aquanite
+   ID= i_studded_haidate
+   NAME= Aquanite studded haidate
+   ARMOR= 15
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Aquanite, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Aquanite]
+   DEFNAME= i_platemail_gargish_arms_Aquanite
+   ID= i_platemail_gargish_arms
+   NAME= Aquanite Gargish Platemail Arms
+   ARMOR= 24
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Aquanite]
+   DEFNAME= i_platemail_gargish_chest_Aquanite
+   ID= i_platemail_gargish_chest
+   NAME= Aquanite Gargish Platemail Chest
+   ARMOR= 32
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Aquanite]
+   DEFNAME= i_platemail_gargish_kilt_Aquanite
+   ID= i_platemail_gargish_kilt
+   NAME= Aquanite Gargish Platemail Kilt
+   ARMOR= 23
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Aquanite]
+   DEFNAME= i_platemail_gargish_leggings_Aquanite
+   ID= i_platemail_gargish_leggings
+   NAME= Aquanite Gargish Platemail Leggings
+   ARMOR= 28
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Aquanite]
+   DEFNAME= i_platemail_gargish_arms_2_Aquanite
+   ID= i_platemail_gargish_arms_2
+   NAME= Aquanite Gargish Platemail Arms
+   ARMOR= 24
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Aquanite]
+   DEFNAME= i_platemail_gargish_chest_2_Aquanite
+   ID= i_platemail_gargish_chest_2
+   NAME= Aquanite Gargish Platemail Chest
+   ARMOR= 32
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Aquanite]
+   DEFNAME= i_platemail_gargish_kilt_2_Aquanite
+   ID= i_platemail_gargish_kilt_2
+   NAME= Aquanite Gargish Platemail Kilt
+   ARMOR= 23
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Aquanite]
+   DEFNAME= i_platemail_gargish_leggings_2_Aquanite
+   ID= i_platemail_gargish_leggings_2
+   NAME= Aquanite Gargish Platemail Leggings
+   ARMOR= 28
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Closed Helmet
+[ITEMDEF i_helm_close_Aquanite]
+   DEFNAME= i_helm_close_Aquanite
+   ID= i_helm_close
+   NAME= Aquanite Closed Helmet
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Open Helmet
+[ITEMDEF i_helm_open_Aquanite]
+   DEFNAME= i_helm_open_Aquanite
+   ID= i_helm_open
+   NAME= Aquanite Open Helmet
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {48 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Bascinet
+[ITEMDEF i_bascinet_Aquanite]
+   DEFNAME= i_bascinet_Aquanite
+   ID= i_bascinet
+   NAME= Aquanite Bascinet
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Norse Helmet
+[ITEMDEF i_helm_norse_Aquanite]
+   DEFNAME= i_helm_norse_Aquanite
+   ID= i_helm_norse
+   NAME= Aquanite Norse Helmet
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {58 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Kabuto
+[ITEMDEF i_helm_kabuto_Aquanite]
+   DEFNAME= i_helm_kabuto_Aquanite
+   ID= i_helm_kabuto
+   NAME= Aquanite Kabuto
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Aquanite]
+   DEFNAME= i_chainmail_hatsuburi_Aquanite
+   ID= i_chainmail_hatsuburi
+   NAME= Aquanite Chainmail Hatsuburi
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Aquanite]
+   DEFNAME= i_platemail_hatsuburi_Aquanite
+   ID= i_platemail_hatsuburi
+   NAME= Aquanite Platemail Hatsuburi
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Aquanite]
+   DEFNAME= i_plate_jingasa_heavy_Aquanite
+   ID= i_plate_jingasa_heavy
+   NAME= Aquanite Heavy Jingasa
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Aquanite]
+   DEFNAME= i_platemail_kabuto_decorative_Aquanite
+   ID= i_platemail_kabuto_decorative
+   NAME= Aquanite Decorative Platemail Kabuto
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {98 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Aquanite]
+   DEFNAME= i_plate_jingasa_light_Aquanite
+   ID= i_plate_jingasa_light
+   NAME= Aquanite Light Jingasa
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Aquanite]
+   DEFNAME= i_plate_jingasa_small_Aquanite
+   ID= i_plate_jingasa_small
+   NAME= Aquanite Small Jingasa
+   ARMOR= 16
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {58 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Aquanite]
+   DEFNAME= i_platemail_kabuto_battle_Aquanite
+   ID= i_platemail_kabuto_battle
+   NAME= Aquanite Platemail Battle Kabuto
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Aquanite]
+   DEFNAME= i_platemail_kabuto_Aquanite
+   ID= i_platemail_kabuto
+   NAME= Aquanite Platemail Kabuto
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Circlet
+[ITEMDEF i_circlet_Aquanite]
+   DEFNAME= i_circlet_Aquanite
+   ID= i_circlet
+   NAME= Aquanite Circlet
+   ARMOR= 14
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Royal Circlet
+[ITEMDEF i_circlet_royal_Aquanite]
+   DEFNAME= i_circlet_royal_Aquanite
+   ID= i_circlet_royal
+   NAME= Aquanite Royal Circlet
+   ARMOR= 14
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Aquanite]
+   DEFNAME= i_circlet_gemmed_Aquanite
+   ID= i_circlet_gemmed
+   NAME= Aquanite Gemmed Circlet
+   ARMOR= 14
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {108 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Buckler
+[ITEMDEF i_shield_buckler_Aquanite]
+   DEFNAME= i_shield_buckler_Aquanite
+   ID= i_shield_buckler
+   NAME= Aquanite Buckler
+   ARMOR= 13
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {38 240}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Wooden Shield
+[ITEMDEF i_shield_wood_Aquanite]
+   DEFNAME= i_shield_wood_Aquanite
+   ID= i_shield_wood
+   NAME= Aquanite Wooden Shield
+   ARMOR= 14
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {48 320}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Aquanite]
+   DEFNAME= i_shield_round_metal_Aquanite
+   ID= i_shield_round_metal
+   NAME= Aquanite Light Metal  Round Shield
+   ARMOR= 15
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {58 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Aquanite]
+   DEFNAME= i_shield_round_bronze_Aquanite
+   ID= i_shield_round_bronze
+   NAME= Aquanite Heavy Metal  Round Shield
+   ARMOR= 17
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {68 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Aquanite]
+   DEFNAME= i_shield_kite_metal_Aquanite
+   ID= i_shield_kite_metal
+   NAME= Aquanite Metal Kite Shield
+   ARMOR= 19
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {78 560}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Aquanite]
+   DEFNAME= i_shield_kite_wood_Aquanite
+   ID= i_shield_kite_wood
+   NAME= Aquanite Wooden Kite Shield
+   ARMOR= 18
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {88 640}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Heater Shield
+[ITEMDEF i_shield_heater_Aquanite]
+   DEFNAME= i_shield_heater_Aquanite
+   ID= i_shield_heater
+   NAME= Aquanite Heater Shield
+   ARMOR= 20
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {98 720}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Ancient Shield
+[ITEMDEF i_shield_dupre_Aquanite]
+   DEFNAME= i_shield_dupre_Aquanite
+   ID= i_shield_dupre
+   NAME= Aquanite Ancient Shield
+   ARMOR= 22
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {108 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Shield oh Hell
+[ITEMDEF i_shield_scale_Aquanite]
+   DEFNAME= i_shield_scale_Aquanite
+   ID= i_shield_scale
+   NAME= Aquanite Shield oh Hell
+   ARMOR= 22
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {108 800}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Chaos Shield
+[ITEMDEF i_shield_chaos_Aquanite]
+   DEFNAME= i_shield_chaos_Aquanite
+   ID= i_shield_chaos
+   NAME= Aquanite Chaos Shield
+   ARMOR= 23
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {118 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Aquanite Order Shield
+[ITEMDEF i_shield_order_Aquanite]
+   DEFNAME= i_shield_order_Aquanite
+   ID= i_shield_order
+   NAME= Aquanite Order Shield
+   ARMOR= 23
+   WEIGHT= 18
+   VALUE= 80
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Aquanite
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Aquanite
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Aquanite
+   HITPOINTS= {118 880}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

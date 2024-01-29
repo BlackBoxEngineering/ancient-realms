@@ -1,0 +1,108 @@
+[ITEMDEF i_invictus_playerbuff_clumsy]
+DEFNAME=i_invictus_playerbuff_clumsy
+ID=8320
+TYPE=t_eq_script
+NAME=Buff Clumsy
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=5
+
+ON=@TIMER
+	CONT.f_Spells_StatSpell_CLUMSY
+	REMOVE
+	RETURN 1
+
+[ITEMDEF i_invictus_playerbuff_feeblemind]
+DEFNAME=i_invictus_playerbuff_feeblemind
+ID=8322
+TYPE=t_eq_script
+NAME=Buff Feeblemind
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=2
+
+ON=@TIMER
+	CONT.MANA=<EVAL <CONT.MANA>-1>
+	MORE1=<EVAL <MORE1>+1>
+	IF <MORE1> > 10
+		REMOVE
+	ELSE
+		TIMER=2
+	ENDIF
+	RETURN 1
+
+[ITEMDEF i_invictus_playerbuff_weaken]
+DEFNAME=i_invictus_playerbuff_weaken
+ID=8327
+TYPE=t_eq_script
+NAME=Buff Weaken
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=1
+
+ON=@TIMER
+	CONT.STAMINA=<EVAL <CONT.STAMINA>-1>
+	MORE1=<EVAL <MORE1>+1>
+	IF <MORE1> > 5
+		REMOVE
+	ELSE
+		TIMER=1
+	ENDIF
+	RETURN 1
+
+[ITEMDEF i_invictus_playerbuff_curse]
+DEFNAME=i_invictus_playerbuff_curse
+ID=8346
+TYPE=t_eq_script
+NAME=Buff Curse
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=5
+
+ON=@TIMER
+	CONT.f_Spells_StatSpell_CURSE
+	REMOVE
+	RETURN 1
+
+[ITEMDEF i_invictus_playerbuff_manadrain]
+DEFNAME=i_invictus_playerbuff_manadrain
+ID=8350
+TYPE=t_eq_script
+NAME=Buff ManaDrain
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=5
+
+ON=@TIMER
+	CONT.f_Spells_StatSpell_MANADRAIN
+	REMOVE
+	RETURN 1
+
+[ITEMDEF i_invictus_playerbuff_mindblast]
+DEFNAME=i_invictus_playerbuff_mindblast
+ID=8356
+TYPE=t_eq_script
+NAME=Buff MindBlast
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=5
+
+ON=@TIMER
+	CONT.f_Spells_StatSpell_MINDBLAST
+	REMOVE
+	RETURN 1
+
+	
+[EOF]

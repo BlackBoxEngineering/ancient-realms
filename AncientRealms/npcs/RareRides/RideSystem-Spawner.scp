@@ -1,0 +1,76 @@
+//VAR.worldroamingrarelastspawn=0
+//VAR.worldroamingrarespawns=0
+//VAR.worldroamingraretamed=0
+//VAR.worldroamingrarewild=0
+//VAR.worldroamingrarewildmax=0
+[FUNCTION makepetrare]
+EVENTS =+e_rarerideevents
+NEWITEM i_rare_pet_id, 1, <UID>
+
+[ITEMDEF i_AncientRealms_rare_ride_spawn]
+DEFNAME=i_AncientRealms_rare_ride_spawn
+ID=01f13
+NAME=AncientRealms Rare Ride Spawn Checker
+TYPE=t_eq_script
+CATEGORY=AncientRealms-GM Items
+SUBSECTION=Special Items
+DESCRIPTION=Rare Ride Spawner
+
+ON=@Create
+	TIMER=20
+
+ON=@TIMER
+	REMOVE
+	RETURN
+
+[FUNCTION f_RareRideSpawnLocationFinder]
+//SERV.b f_RareRideSpawnLocationFinder
+LOCAL.XCoord=<R100,6120>
+LOCAL.YCoord=<R100,4060>
+NEWITEM = i_AncientRealms_rare_ride_spawn
+NEW.P = <EVAL <LOCAL.XCoord>>,<EVAL <LOCAL.YCoord>>,20
+LOCAL.LatestSpawnUId=<NEW.UID>
+IF (<SERV.UID.<LOCAL.LatestSpawnUId>.f_CheckIfCanSpawnHere>)
+	NEWNPC=Random_Rare_Ride
+	NEW.GO <EVAL <LOCAL.XCoord>>,<EVAL <LOCAL.YCoord>>,20
+	NEW.HOME=<NEW.P>
+	NEW.EVENTS =+e_rarerideevents
+	VAR.WorldRoamingRareSpawns=<EVAL <VAR.WorldRoamingRareSpawns>+1>
+	VAR.WorldRoamingRareWild=<EVAL <VAR.WorldRoamingRareWild>+1>
+	VAR.WorldRoamingRareLastSpawn=<NEW.P>	
+	NEWITEM i_rare_pet_id, 1, <NEW.UID>
+	LOCAL.Spawned=1
+ENDIF
+SERV.UID.<LOCAL.LatestSpawnUId>.REMOVE
+
+[FUNCTION CheckTerrain]
+SAY <SERV.MAP(<p.x>,<p.y>).TERRAIN>
+
+[FUNCTION f_CheckIfCanSpawnHere]
+	LOCAL.Terrain = <SERV.MAP(<p.x>,<p.y>).TERRAIN>
+	IF (<can_spawn>)
+		IF (<ISNEARTYPE,t_rock,3>)
+			RETURN 0
+		ENDIF
+		IF ((<LOCAL.Terrain> == 011d)||<LOCAL.Terrain> == 0ac)||(<LOCAL.Terrain> == 0d1)||(<LOCAL.Terrain> == 06)||(<LOCAL.Terrain> == 05)||(<LOCAL.Terrain> == 04)||(<LOCAL.Terrain> == 03)||(<LOCAL.Terrain> == 0c5)||(<LOCAL.Terrain> == 0c6)||(<LOCAL.Terrain> == 0c7))
+			RETURN 1
+		ELSE			
+			RETURN 0			
+		ENDIF
+	ELSE
+		RETURN 0		
+	ENDIF
+	
+[FUNCTION can_spawn]
+IF ((<REGION.FLAGS> & 00800)||(<REGION.FLAGS> & 02000)||(<REGION.FLAGS> & 04000))
+	RETURN 0
+ELSE
+	RETURN 1
+ENDIF
+
+[FUNCTION checkspawnloc]
+SAY <can_spawn>
+SAY <f_CheckIfCanSpawnHere>
+
+
+[EOF]

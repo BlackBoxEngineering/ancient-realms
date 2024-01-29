@@ -1,0 +1,23 @@
+[ITEMDEF i_trash_can]
+DEFNAME=i_trash_can
+Name=Trash Can
+Category=Ancientrealms - Items
+Subsection=Containers
+Description=Trash Can
+id=i_barrel
+TYPE=T_TRASH_CAN
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_MOVE_NEVER
+	COLOR=COLORS_WHITE
+
+ON=@DCLICK
+	SAY Trashcan
+	SRC.SYSMESSAGE @63,,1 Keep your world tidy, use a trash can.
+	TIMER=20
+	
+ON=@TIMER
+	SAY @54,,1 Items Disposed
+	RETURN 0
+
+[EOF]

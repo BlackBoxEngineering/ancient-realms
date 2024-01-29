@@ -1,0 +1,1945 @@
+/////////////////////////////////////////////Orpiment Platemail Arms
+[ITEMDEF i_platemail_arms_Orpiment]
+   DEFNAME= i_platemail_arms_Orpiment
+   ID= i_platemail_arms
+   NAME= Orpiment Platemail Arms
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Platemail Leggings
+[ITEMDEF i_platemail_leggings_Orpiment]
+   DEFNAME= i_platemail_leggings_Orpiment
+   ID= i_platemail_leggings
+   NAME= Orpiment Platemail Leggings
+   ARMOR= 23
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 18 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Platemail Helmet
+[ITEMDEF i_platemail_helm_Orpiment]
+   DEFNAME= i_platemail_helm_Orpiment
+   ID= i_platemail_helm
+   NAME= Orpiment Platemail Helmet
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Platemail Helmet
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Platemail Gorget
+[ITEMDEF i_platemail_gorget_Orpiment]
+   DEFNAME= i_platemail_gorget_Orpiment
+   ID= i_platemail_gorget
+   NAME= Orpiment Platemail Gorget
+   ARMOR= 13
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Platemail Gorget
+[ITEMDEF i_platemail_gorget2_Orpiment]
+   DEFNAME= i_platemail_gorget2_Orpiment
+   ID= i_platemail_gorget2
+   NAME= Orpiment Platemail Gorget
+   ARMOR= 13
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Platemail Gorget
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Platemail Gloves
+[ITEMDEF i_platemail_gloves_Orpiment]
+   DEFNAME= i_platemail_gloves_Orpiment
+   ID= i_platemail_gloves
+   NAME= Orpiment Platemail Gloves
+   ARMOR= 13
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 8 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Platemail Gloves
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Platemail Chest
+[ITEMDEF i_platemail_chest_Orpiment]
+   DEFNAME= i_platemail_chest_Orpiment
+   ID= i_platemail_chest
+   NAME= Orpiment Platemail Chest
+   ARMOR= 27
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 22 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Platemail Female Plate
+[ITEMDEF i_armor_female_plate_Orpiment]
+   DEFNAME= i_armor_female_plate_Orpiment
+   ID= i_armor_female_plate
+   NAME= Orpiment Platemail Female Plate
+   ARMOR= 25
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 20 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Platemail Female Plate
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment chainmail coif
+[ITEMDEF i_chainmail_coif_Orpiment]
+   DEFNAME= i_chainmail_coif_Orpiment
+   ID= i_chainmail_coif
+   NAME= Orpiment chainmail coif
+   ARMOR= 19
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 14 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= chainmail coif
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {55 250}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment chainmail leggings
+[ITEMDEF i_chainmail_leggings_Orpiment]
+   DEFNAME= i_chainmail_leggings_Orpiment
+   ID= i_chainmail_leggings
+   NAME= Orpiment chainmail leggings
+   ARMOR= 21
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= chainmail leggings
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {55 250}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment chainmail tunic
+[ITEMDEF i_chainmail_tunic_Orpiment]
+   DEFNAME= i_chainmail_tunic_Orpiment
+   ID= i_chainmail_tunic
+   NAME= Orpiment chainmail tunic
+   ARMOR= 25
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= chainmail tunic
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {55 250}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Ringmail Sleeves
+[ITEMDEF i_ringmail_sleeves_Orpiment]
+   DEFNAME= i_ringmail_sleeves_Orpiment
+   ID= i_ringmail_sleeves
+   NAME= Orpiment Ringmail Sleeves
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Ringmail Sleeves
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {45 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Ringmail Leggings
+[ITEMDEF i_ringmail_leggings_Orpiment]
+   DEFNAME= i_ringmail_leggings_Orpiment
+   ID= i_ringmail_leggings
+   NAME= Orpiment Ringmail Leggings
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Ringmail Leggings
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {45 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Ringmail Tunic
+[ITEMDEF i_ringmail_tunic_Orpiment]
+   DEFNAME= i_ringmail_tunic_Orpiment
+   ID= i_ringmail_tunic
+   NAME= Orpiment Ringmail Tunic
+   ARMOR= 21
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 16 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Ringmail Tunic
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {45 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Ringmail Gloves
+[ITEMDEF i_ringmail_gloves_Orpiment]
+   DEFNAME= i_ringmail_gloves_Orpiment
+   ID= i_ringmail_gloves
+   NAME= Orpiment Ringmail Gloves
+   ARMOR= 7
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 2 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Ringmail Gloves
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {45 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment studded sleeves
+[ITEMDEF i_studded_sleeves_Orpiment]
+   DEFNAME= i_studded_sleeves_Orpiment
+   ID= i_studded_sleeves
+   NAME= Orpiment studded sleeves
+   ARMOR= 10
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 5 i_ingot_Orpiment, 5 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= studded sleeves
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment studded gloves
+[ITEMDEF i_studded_gloves_Orpiment]
+   DEFNAME= i_studded_gloves_Orpiment
+   ID= i_studded_gloves
+   NAME= Orpiment studded gloves
+   ARMOR= 7
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Orpiment, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= studded gloves
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment studded gorget
+[ITEMDEF i_studded_gorget_Orpiment]
+   DEFNAME= i_studded_gorget_Orpiment
+   ID= i_studded_gorget
+   NAME= Orpiment studded gorget
+   ARMOR= 7
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 2 i_ingot_Orpiment, 2 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= studded gorget
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment studded leggings
+[ITEMDEF i_studded_leggings_Orpiment]
+   DEFNAME= i_studded_leggings_Orpiment
+   ID= i_studded_leggings
+   NAME= Orpiment studded leggings
+   ARMOR= 16
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 11 i_ingot_Orpiment, 11 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= studded leggings
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment studded tunic
+[ITEMDEF i_studded_tunic_Orpiment]
+   DEFNAME= i_studded_tunic_Orpiment
+   ID= i_studded_tunic
+   NAME= Orpiment studded tunic
+   ARMOR= 20
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_ingot_Orpiment, 15 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= studded tunic
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment studded female armor
+[ITEMDEF i_armor_female_studded_Orpiment]
+   DEFNAME= i_armor_female_studded_Orpiment
+   ID= i_armor_female_studded
+   NAME= Orpiment studded female armor
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Orpiment, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= studded female armor
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment studded female bustier
+[ITEMDEF i_armor_female_bustier_studded_Orpiment]
+   DEFNAME= i_armor_female_bustier_studded_Orpiment
+   ID= i_armor_female_bustier_studded
+   NAME= Orpiment studded female bustier
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_ingot_Orpiment, 12 i_leather
+   SKILLMAKE= BLACKSMITHING 30.0 TAILORING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= studded female bustier
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment platemail mempo
+[ITEMDEF i_platemail_mempo_Orpiment]
+   DEFNAME= i_platemail_mempo_Orpiment
+   ID= i_platemail_mempo
+   NAME= Orpiment platemail mempo
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 10 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= platemail mempo
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment platemail do
+[ITEMDEF i_platemail_do_Orpiment]
+   DEFNAME= i_platemail_do_Orpiment
+   ID= i_platemail_do
+   NAME= Orpiment platemail do
+   ARMOR= 25
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 20 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= platemail do
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment platemail hiro sode
+[ITEMDEF i_platemail_hiro_sode_Orpiment]
+   DEFNAME= i_platemail_hiro_sode_Orpiment
+   ID= i_platemail_hiro_sode
+   NAME= Orpiment platemail hiro sode
+   ARMOR= 21
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 16 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= platemail hiro sode
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment platemail suneate
+[ITEMDEF i_platemail_suneate_Orpiment]
+   DEFNAME= i_platemail_suneate_Orpiment
+   ID= i_platemail_suneate
+   NAME= Orpiment platemail suneate
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= platemail suneate
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment platemail haidate
+[ITEMDEF i_platemail_haidate_Orpiment]
+   DEFNAME= i_platemail_haidate_Orpiment
+   ID= i_platemail_haidate
+   NAME= Orpiment platemail haidate
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 90
+   RESOURCES= 12 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 70.0 ARMSLORE 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= platemail haidate
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 90
+   TAG.ArmorReqDEX= 85
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment studded mempo
+[ITEMDEF i_studded_mempo_Orpiment]
+   DEFNAME= i_studded_mempo_Orpiment
+   ID= i_studded_mempo
+   NAME= Orpiment studded mempo
+   ARMOR= 12
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Orpiment, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= studded mempo
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment studded do
+[ITEMDEF i_studded_do_Orpiment]
+   DEFNAME= i_studded_do_Orpiment
+   ID= i_studded_do
+   NAME= Orpiment studded do
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_ingot_Orpiment, 12 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= studded do
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment studded hiro sode
+[ITEMDEF i_studded_hiro_sode_Orpiment]
+   DEFNAME= i_studded_hiro_sode_Orpiment
+   ID= i_studded_hiro_sode
+   NAME= Orpiment studded hiro sode
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 10 i_ingot_Orpiment, 10 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= studded hiro sode
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment studded suneate
+[ITEMDEF i_studded_suneate_Orpiment]
+   DEFNAME= i_studded_suneate_Orpiment
+   ID= i_studded_suneate
+   NAME= Orpiment studded suneate
+   ARMOR= 14
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 9 i_ingot_Orpiment, 9 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= studded suneate
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment studded haidate
+[ITEMDEF i_studded_haidate_Orpiment]
+   DEFNAME= i_studded_haidate_Orpiment
+   ID= i_studded_haidate
+   NAME= Orpiment studded haidate
+   ARMOR= 12
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 7 i_ingot_Orpiment, 7 t_leather
+   SKILLMAKE= BLACKSMITHING 60.0 TAILORING 35.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= studded haidate
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 65
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_Orpiment]
+   DEFNAME= i_platemail_gargish_arms_Orpiment
+   ID= i_platemail_gargish_arms
+   NAME= Orpiment Gargish Platemail Arms
+   ARMOR= 21
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_Orpiment]
+   DEFNAME= i_platemail_gargish_chest_Orpiment
+   ID= i_platemail_gargish_chest
+   NAME= Orpiment Gargish Platemail Chest
+   ARMOR= 29
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_Orpiment]
+   DEFNAME= i_platemail_gargish_kilt_Orpiment
+   ID= i_platemail_gargish_kilt
+   NAME= Orpiment Gargish Platemail Kilt
+   ARMOR= 20
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_Orpiment]
+   DEFNAME= i_platemail_gargish_leggings_Orpiment
+   ID= i_platemail_gargish_leggings
+   NAME= Orpiment Gargish Platemail Leggings
+   ARMOR= 25
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Gargish Platemail Arms
+[ITEMDEF i_platemail_gargish_arms_2_Orpiment]
+   DEFNAME= i_platemail_gargish_arms_2_Orpiment
+   ID= i_platemail_gargish_arms_2
+   NAME= Orpiment Gargish Platemail Arms
+   ARMOR= 21
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 16 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Gargish Platemail Arms
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Gargish Platemail Chest
+[ITEMDEF i_platemail_gargish_chest_2_Orpiment]
+   DEFNAME= i_platemail_gargish_chest_2_Orpiment
+   ID= i_platemail_gargish_chest_2
+   NAME= Orpiment Gargish Platemail Chest
+   ARMOR= 29
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 24 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Gargish Platemail Chest
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Gargish Platemail Kilt
+[ITEMDEF i_platemail_gargish_kilt_2_Orpiment]
+   DEFNAME= i_platemail_gargish_kilt_2_Orpiment
+   ID= i_platemail_gargish_kilt_2
+   NAME= Orpiment Gargish Platemail Kilt
+   ARMOR= 20
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 15 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Gargish Platemail Kilt
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Gargish Platemail Leggings
+[ITEMDEF i_platemail_gargish_leggings_2_Orpiment]
+   DEFNAME= i_platemail_gargish_leggings_2_Orpiment
+   ID= i_platemail_gargish_leggings_2
+   NAME= Orpiment Gargish Platemail Leggings
+   ARMOR= 25
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 20 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 80.0 ARMSLORE 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Gargish Platemail Leggings
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 105
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Closed Helmet
+[ITEMDEF i_helm_close_Orpiment]
+   DEFNAME= i_helm_close_Orpiment
+   ID= i_helm_close
+   NAME= Orpiment Closed Helmet
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Closed Helmet
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Open Helmet
+[ITEMDEF i_helm_open_Orpiment]
+   DEFNAME= i_helm_open_Orpiment
+   ID= i_helm_open
+   NAME= Orpiment Open Helmet
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Open Helmet
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {45 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Bascinet
+[ITEMDEF i_bascinet_Orpiment]
+   DEFNAME= i_bascinet_Orpiment
+   ID= i_bascinet
+   NAME= Orpiment Bascinet
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Bascinet
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Norse Helmet
+[ITEMDEF i_helm_norse_Orpiment]
+   DEFNAME= i_helm_norse_Orpiment
+   ID= i_helm_norse
+   NAME= Orpiment Norse Helmet
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Norse Helmet
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {55 250}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Kabuto
+[ITEMDEF i_helm_kabuto_Orpiment]
+   DEFNAME= i_helm_kabuto_Orpiment
+   ID= i_helm_kabuto
+   NAME= Orpiment Kabuto
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 10 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Kabuto
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Chainmail Hatsuburi
+[ITEMDEF i_chainmail_hatsuburi_Orpiment]
+   DEFNAME= i_chainmail_hatsuburi_Orpiment
+   ID= i_chainmail_hatsuburi
+   NAME= Orpiment Chainmail Hatsuburi
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Chainmail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Platemail Hatsuburi
+[ITEMDEF i_platemail_hatsuburi_Orpiment]
+   DEFNAME= i_platemail_hatsuburi_Orpiment
+   ID= i_platemail_hatsuburi
+   NAME= Orpiment Platemail Hatsuburi
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Platemail Hatsuburi
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Heavy Jingasa
+[ITEMDEF i_plate_jingasa_heavy_Orpiment]
+   DEFNAME= i_plate_jingasa_heavy_Orpiment
+   ID= i_plate_jingasa_heavy
+   NAME= Orpiment Heavy Jingasa
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Heavy Jingasa
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Decorative Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_decorative_Orpiment]
+   DEFNAME= i_platemail_kabuto_decorative_Orpiment
+   ID= i_platemail_kabuto_decorative
+   NAME= Orpiment Decorative Platemail Kabuto
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Decorative Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {95 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Light Jingasa
+[ITEMDEF i_plate_jingasa_light_Orpiment]
+   DEFNAME= i_plate_jingasa_light_Orpiment
+   ID= i_plate_jingasa_light
+   NAME= Orpiment Light Jingasa
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Light Jingasa
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Small Jingasa
+[ITEMDEF i_plate_jingasa_small_Orpiment]
+   DEFNAME= i_plate_jingasa_small_Orpiment
+   ID= i_plate_jingasa_small
+   NAME= Orpiment Small Jingasa
+   ARMOR= 13
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 80
+   RESOURCES= 8 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Small Jingasa
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {55 250}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 75
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Platemail Battle Kabuto
+[ITEMDEF i_platemail_kabuto_battle_Orpiment]
+   DEFNAME= i_platemail_kabuto_battle_Orpiment
+   ID= i_platemail_kabuto_battle
+   NAME= Orpiment Platemail Battle Kabuto
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Platemail Battle Kabuto
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Platemail Kabuto
+[ITEMDEF i_platemail_kabuto_Orpiment]
+   DEFNAME= i_platemail_kabuto_Orpiment
+   ID= i_platemail_kabuto
+   NAME= Orpiment Platemail Kabuto
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 100
+   RESOURCES= 12 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Platemail Kabuto
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 95
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Circlet
+[ITEMDEF i_circlet_Orpiment]
+   DEFNAME= i_circlet_Orpiment
+   ID= i_circlet
+   NAME= Orpiment Circlet
+   ARMOR= 11
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Circlet
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Royal Circlet
+[ITEMDEF i_circlet_royal_Orpiment]
+   DEFNAME= i_circlet_royal_Orpiment
+   ID= i_circlet_royal
+   NAME= Orpiment Royal Circlet
+   ARMOR= 11
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 80.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Royal Circlet
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Gemmed Circlet
+[ITEMDEF i_circlet_gemmed_Orpiment]
+   DEFNAME= i_circlet_gemmed_Orpiment
+   ID= i_circlet_gemmed
+   NAME= Orpiment Gemmed Circlet
+   ARMOR= 11
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 6 i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 100.0 TINKERING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Gemmed Circlet
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {105 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 20
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Buckler
+[ITEMDEF i_shield_buckler_Orpiment]
+   DEFNAME= i_shield_buckler_Orpiment
+   ID= i_shield_buckler
+   NAME= Orpiment Buckler
+   ARMOR= 10
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 25
+   RESOURCES=  i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 30.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Buckler
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {35 150}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Wooden Shield
+[ITEMDEF i_shield_wood_Orpiment]
+   DEFNAME= i_shield_wood_Orpiment
+   ID= i_shield_wood
+   NAME= Orpiment Wooden Shield
+   ARMOR= 11
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 40
+   RESOURCES=  i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 40.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Wooden Shield
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {45 200}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 40
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Light Metal  Round Shield
+[ITEMDEF i_shield_round_metal_Orpiment]
+   DEFNAME= i_shield_round_metal_Orpiment
+   ID= i_shield_round_metal
+   NAME= Orpiment Light Metal  Round Shield
+   ARMOR= 12
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 50
+   RESOURCES=  i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Light Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {55 250}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 50
+   TAG.ArmorReqDEX= 50
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Heavy Metal  Round Shield
+[ITEMDEF i_shield_round_bronze_Orpiment]
+   DEFNAME= i_shield_round_bronze_Orpiment
+   ID= i_shield_round_bronze
+   NAME= Orpiment Heavy Metal  Round Shield
+   ARMOR= 14
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 55
+   RESOURCES=  i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Heavy Metal  Round Shield
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {65 300}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 55
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Metal Kite Shield
+[ITEMDEF i_shield_kite_metal_Orpiment]
+   DEFNAME= i_shield_kite_metal_Orpiment
+   ID= i_shield_kite_metal
+   NAME= Orpiment Metal Kite Shield
+   ARMOR= 16
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 70.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Metal Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {75 350}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Wooden Kite Shield
+[ITEMDEF i_shield_kite_wood_Orpiment]
+   DEFNAME= i_shield_kite_wood_Orpiment
+   ID= i_shield_kite_wood
+   NAME= Orpiment Wooden Kite Shield
+   ARMOR= 15
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 60
+   RESOURCES=  i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Wooden Kite Shield
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {85 400}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 60
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Heater Shield
+[ITEMDEF i_shield_heater_Orpiment]
+   DEFNAME= i_shield_heater_Orpiment
+   ID= i_shield_heater
+   NAME= Orpiment Heater Shield
+   ARMOR= 17
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 90.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Heater Shield
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {95 450}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 80
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Ancient Shield
+[ITEMDEF i_shield_dupre_Orpiment]
+   DEFNAME= i_shield_dupre_Orpiment
+   ID= i_shield_dupre
+   NAME= Orpiment Ancient Shield
+   ARMOR= 19
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Ancient Shield
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {105 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Shield oh Hell
+[ITEMDEF i_shield_scale_Orpiment]
+   DEFNAME= i_shield_scale_Orpiment
+   ID= i_shield_scale
+   NAME= Orpiment Shield oh Hell
+   ARMOR= 19
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 100
+   RESOURCES=  i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 100.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Shield oh Hell
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {105 500}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 100
+   TAG.ArmorReqDEX= 100
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Chaos Shield
+[ITEMDEF i_shield_chaos_Orpiment]
+   DEFNAME= i_shield_chaos_Orpiment
+   ID= i_shield_chaos
+   NAME= Orpiment Chaos Shield
+   ARMOR= 20
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Chaos Shield
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {115 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Orpiment Order Shield
+[ITEMDEF i_shield_order_Orpiment]
+   DEFNAME= i_shield_order_Orpiment
+   ID= i_shield_order
+   NAME= Orpiment Order Shield
+   ARMOR= 20
+   WEIGHT= 15
+   VALUE= 50
+   TYPE= t_shield
+   REQSTR= 80
+   RESOURCES=  i_ingot_Orpiment
+   SKILLMAKE= BLACKSMITHING 110.0 ARMSLORE 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Invictus Armors
+   SUBSECTION= Orpiment
+   DESCRIPTION= Order Shield
+
+ON=@Create
+   COLOR=color_ore_Orpiment
+   HITPOINTS= {115 550}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 80
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

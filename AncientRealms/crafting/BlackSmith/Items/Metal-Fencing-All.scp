@@ -1,0 +1,1982 @@
+[TYPEDEF t_player_fence]
+ON=@DClick
+	IF (<CheckEvents t_locked_down>))
+		SAY @95,,1 Locked Down!
+	ELSE
+		FLIP
+	ENDIF
+	RETURN 1
+	
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Rusty]
+DEFNAME = i_Players_Fence_Rusty
+ID = i_fence_iron
+NAME=Rusty fence
+SKILLMAKE= BLACKSMITHING 0
+RESOURCES=100 i_ingot_Rusty
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Rusty
+
+ON=@Create
+    Color = color_ore_Rusty
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Rusty_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Rusty_w
+NAME=Rusty gate (w)
+SKILLMAKE= BLACKSMITHING 0
+RESOURCES=100 i_ingot_Rusty
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Rusty
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Rusty_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Rusty_n
+NAME=Rusty gate (n)
+SKILLMAKE= BLACKSMITHING 0
+RESOURCES=100 i_ingot_Rusty
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Rusty
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Iron]
+DEFNAME = i_Players_Fence_Iron
+ID = i_fence_iron
+NAME=Iron fence
+SKILLMAKE= BLACKSMITHING 30
+RESOURCES=100 i_ingot_Iron
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Iron
+
+ON=@Create
+    Color = color_ore_Iron
+
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Iron_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Iron_w
+NAME=Iron gate (w)
+SKILLMAKE= BLACKSMITHING 30
+RESOURCES=100 i_ingot_Iron
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Iron
+    ATTR=0
+
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Iron_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Iron_n
+NAME=Iron gate (n)
+SKILLMAKE= BLACKSMITHING 30
+RESOURCES=100 i_ingot_Iron
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Iron
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_DullCopper]
+DEFNAME = i_Players_Fence_DullCopper
+ID = i_fence_iron
+NAME=DullCopper fence
+SKILLMAKE= BLACKSMITHING 5
+RESOURCES=100 i_ingot_DullCopper
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence DullCopper
+
+ON=@Create
+    Color = color_ore_DullCopper
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_DullCopper_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_DullCopper_w
+NAME=DullCopper gate (w)
+SKILLMAKE= BLACKSMITHING 5
+RESOURCES=100 i_ingot_DullCopper
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_DullCopper
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_DullCopper_n]
+ID = 082c
+DEFNAME = i_Players_Gate_DullCopper_n
+NAME=DullCopper gate (n)
+SKILLMAKE= BLACKSMITHING 5
+RESOURCES=100 i_ingot_DullCopper
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_DullCopper
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Copper]
+DEFNAME = i_Players_Fence_Copper
+ID = i_fence_iron
+NAME=Copper fence
+SKILLMAKE= BLACKSMITHING 10
+RESOURCES=100 i_ingot_Copper
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Copper
+
+ON=@Create
+    Color = color_ore_Copper
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Copper_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Copper_w
+NAME=Copper gate (w)
+SKILLMAKE= BLACKSMITHING 10
+RESOURCES=100 i_ingot_Copper
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Copper
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Copper_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Copper_n
+NAME=Copper gate (n)
+SKILLMAKE= BLACKSMITHING 10
+RESOURCES=100 i_ingot_Copper
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Copper
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_OldCopper]
+DEFNAME = i_Players_Fence_OldCopper
+ID = i_fence_iron
+NAME=OldCopper fence
+SKILLMAKE= BLACKSMITHING 12
+RESOURCES=100 i_ingot_OldCopper
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence OldCopper
+
+ON=@Create
+    Color = color_ore_OldCopper
+
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_OldCopper_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_OldCopper_w
+NAME=OldCopper gate (w)
+SKILLMAKE= BLACKSMITHING 12
+RESOURCES=100 i_ingot_OldCopper
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_OldCopper
+    ATTR=0
+
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_OldCopper_n]
+ID = 082c
+DEFNAME = i_Players_Gate_OldCopper_n
+NAME=OldCopper gate (n)
+SKILLMAKE= BLACKSMITHING 12
+RESOURCES=100 i_ingot_OldCopper
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_OldCopper
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_PureCopper]
+DEFNAME = i_Players_Fence_PureCopper
+ID = i_fence_iron
+NAME=PureCopper fence
+SKILLMAKE= BLACKSMITHING 15
+RESOURCES=100 i_ingot_PureCopper
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence PureCopper
+
+ON=@Create
+    Color = color_ore_PureCopper
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_PureCopper_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_PureCopper_w
+NAME=PureCopper gate (w)
+SKILLMAKE= BLACKSMITHING 15
+RESOURCES=100 i_ingot_PureCopper
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_PureCopper
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_PureCopper_n]
+ID = 082c
+DEFNAME = i_Players_Gate_PureCopper_n
+NAME=PureCopper gate (n)
+SKILLMAKE= BLACKSMITHING 15
+RESOURCES=100 i_ingot_PureCopper
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_PureCopper
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Bronze]
+DEFNAME = i_Players_Fence_Bronze
+ID = i_fence_iron
+NAME=Bronze fence
+SKILLMAKE= BLACKSMITHING 20
+RESOURCES=100 i_ingot_Bronze
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Bronze
+
+ON=@Create
+    Color = color_ore_Bronze
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Bronze_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Bronze_w
+NAME=Bronze gate (w)
+SKILLMAKE= BLACKSMITHING 20
+RESOURCES=100 i_ingot_Bronze
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Bronze
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Bronze_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Bronze_n
+NAME=Bronze gate (n)
+SKILLMAKE= BLACKSMITHING 20
+RESOURCES=100 i_ingot_Bronze
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Bronze
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Silver]
+DEFNAME = i_Players_Fence_Silver
+ID = i_fence_iron
+NAME=Silver fence
+SKILLMAKE= BLACKSMITHING 25
+RESOURCES=100 i_ingot_Silver
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Silver
+
+ON=@Create
+    Color = color_ore_Silver
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Silver_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Silver_w
+NAME=Silver gate (w)
+SKILLMAKE= BLACKSMITHING 25
+RESOURCES=100 i_ingot_Silver
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Silver
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Silver_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Silver_n
+NAME=Silver gate (n)
+SKILLMAKE= BLACKSMITHING 25
+RESOURCES=100 i_ingot_Silver
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Silver
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Rose]
+DEFNAME = i_Players_Fence_Rose
+ID = i_fence_iron
+NAME=Rose fence
+SKILLMAKE= BLACKSMITHING 30
+RESOURCES=100 i_ingot_Rose
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Rose
+
+ON=@Create
+    Color = color_ore_Rose
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Rose_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Rose_w
+NAME=Rose gate (w)
+SKILLMAKE= BLACKSMITHING 30
+RESOURCES=100 i_ingot_Rose
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Rose
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Rose_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Rose_n
+NAME=Rose gate (n)
+SKILLMAKE= BLACKSMITHING 30
+RESOURCES=100 i_ingot_Rose
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Rose
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Rhodonite]
+DEFNAME = i_Players_Fence_Rhodonite
+ID = i_fence_iron
+NAME=Rhodonite fence
+SKILLMAKE= BLACKSMITHING 35
+RESOURCES=100 i_ingot_Rhodonite
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Rhodonite
+
+ON=@Create
+    Color = color_ore_Rhodonite
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Rhodonite_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Rhodonite_w
+NAME=Rhodonite gate (w)
+SKILLMAKE= BLACKSMITHING 35
+RESOURCES=100 i_ingot_Rhodonite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Rhodonite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Rhodonite_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Rhodonite_n
+NAME=Rhodonite gate (n)
+SKILLMAKE= BLACKSMITHING 35
+RESOURCES=100 i_ingot_Rhodonite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Rhodonite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_RoseQuartz]
+DEFNAME = i_Players_Fence_RoseQuartz
+ID = i_fence_iron
+NAME=RoseQuartz fence
+SKILLMAKE= BLACKSMITHING 40
+RESOURCES=100 i_ingot_RoseQuartz
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence RoseQuartz
+
+ON=@Create
+    Color = color_ore_RoseQuartz
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_RoseQuartz_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_RoseQuartz_w
+NAME=RoseQuartz gate (w)
+SKILLMAKE= BLACKSMITHING 40
+RESOURCES=100 i_ingot_RoseQuartz
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_RoseQuartz
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_RoseQuartz_n]
+ID = 082c
+DEFNAME = i_Players_Gate_RoseQuartz_n
+NAME=RoseQuartz gate (n)
+SKILLMAKE= BLACKSMITHING 40
+RESOURCES=100 i_ingot_RoseQuartz
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_RoseQuartz
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Vanadinate]
+DEFNAME = i_Players_Fence_Vanadinate
+ID = i_fence_iron
+NAME=Vanadinate fence
+SKILLMAKE= BLACKSMITHING 45
+RESOURCES=100 i_ingot_Vanadinate
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Vanadinate
+
+ON=@Create
+    Color = color_ore_Vanadinate
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Vanadinate_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Vanadinate_w
+NAME=Vanadinate gate (w)
+SKILLMAKE= BLACKSMITHING 45
+RESOURCES=100 i_ingot_Vanadinate
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Vanadinate
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Vanadinate_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Vanadinate_n
+NAME=Vanadinate gate (n)
+SKILLMAKE= BLACKSMITHING 45
+RESOURCES=100 i_ingot_Vanadinate
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Vanadinate
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Azurite]
+DEFNAME = i_Players_Fence_Azurite
+ID = i_fence_iron
+NAME=Azurite fence
+SKILLMAKE= BLACKSMITHING 50
+RESOURCES=100 i_ingot_Azurite
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Azurite
+
+ON=@Create
+    Color = color_ore_Azurite
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Azurite_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Azurite_w
+NAME=Azurite gate (w)
+SKILLMAKE= BLACKSMITHING 50
+RESOURCES=100 i_ingot_Azurite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Azurite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Azurite_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Azurite_n
+NAME=Azurite gate (n)
+SKILLMAKE= BLACKSMITHING 50
+RESOURCES=100 i_ingot_Azurite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Azurite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Erubecite]
+DEFNAME = i_Players_Fence_Erubecite
+ID = i_fence_iron
+NAME=Erubecite fence
+SKILLMAKE= BLACKSMITHING 52
+RESOURCES=100 i_ingot_Erubecite
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Erubecite
+
+ON=@Create
+    Color = color_ore_Erubecite
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Erubecite_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Erubecite_w
+NAME=Erubecite gate (w)
+SKILLMAKE= BLACKSMITHING 52
+RESOURCES=100 i_ingot_Erubecite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Erubecite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Erubecite_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Erubecite_n
+NAME=Erubecite gate (n)
+SKILLMAKE= BLACKSMITHING 52
+RESOURCES=100 i_ingot_Erubecite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Erubecite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Galena]
+DEFNAME = i_Players_Fence_Galena
+ID = i_fence_iron
+NAME=Galena fence
+SKILLMAKE= BLACKSMITHING 55
+RESOURCES=100 i_ingot_Galena
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Galena
+
+ON=@Create
+    Color = color_ore_Galena
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Galena_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Galena_w
+NAME=Galena gate (w)
+SKILLMAKE= BLACKSMITHING 55
+RESOURCES=100 i_ingot_Galena
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Galena
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Galena_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Galena_n
+NAME=Galena gate (n)
+SKILLMAKE= BLACKSMITHING 55
+RESOURCES=100 i_ingot_Galena
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Galena
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Kunzite]
+DEFNAME = i_Players_Fence_Kunzite
+ID = i_fence_iron
+NAME=Kunzite fence
+SKILLMAKE= BLACKSMITHING 57
+RESOURCES=100 i_ingot_Kunzite
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Kunzite
+
+ON=@Create
+    Color = color_ore_Kunzite
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Kunzite_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Kunzite_w
+NAME=Kunzite gate (w)
+SKILLMAKE= BLACKSMITHING 57
+RESOURCES=100 i_ingot_Kunzite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Kunzite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Kunzite_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Kunzite_n
+NAME=Kunzite gate (n)
+SKILLMAKE= BLACKSMITHING 57
+RESOURCES=100 i_ingot_Kunzite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Kunzite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Orpiment]
+DEFNAME = i_Players_Fence_Orpiment
+ID = i_fence_iron
+NAME=Orpiment fence
+SKILLMAKE= BLACKSMITHING 59
+RESOURCES=100 i_ingot_Orpiment
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Orpiment
+
+ON=@Create
+    Color = color_ore_Orpiment
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Orpiment_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Orpiment_w
+NAME=Orpiment gate (w)
+SKILLMAKE= BLACKSMITHING 59
+RESOURCES=100 i_ingot_Orpiment
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Orpiment
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Orpiment_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Orpiment_n
+NAME=Orpiment gate (n)
+SKILLMAKE= BLACKSMITHING 59
+RESOURCES=100 i_ingot_Orpiment
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Orpiment
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Hematite]
+DEFNAME = i_Players_Fence_Hematite
+ID = i_fence_iron
+NAME=Hematite fence
+SKILLMAKE= BLACKSMITHING 63
+RESOURCES=100 i_ingot_Hematite
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Hematite
+
+ON=@Create
+    Color = color_ore_Hematite
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Hematite_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Hematite_w
+NAME=Hematite gate (w)
+SKILLMAKE= BLACKSMITHING 63
+RESOURCES=100 i_ingot_Hematite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Hematite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Hematite_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Hematite_n
+NAME=Hematite gate (n)
+SKILLMAKE= BLACKSMITHING 63
+RESOURCES=100 i_ingot_Hematite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Hematite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Malachite]
+DEFNAME = i_Players_Fence_Malachite
+ID = i_fence_iron
+NAME=Malachite fence
+SKILLMAKE= BLACKSMITHING 65
+RESOURCES=100 i_ingot_Malachite
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Malachite
+
+ON=@Create
+    Color = color_ore_Malachite
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Malachite_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Malachite_w
+NAME=Malachite gate (w)
+SKILLMAKE= BLACKSMITHING 65
+RESOURCES=100 i_ingot_Malachite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Malachite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Malachite_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Malachite_n
+NAME=Malachite gate (n)
+SKILLMAKE= BLACKSMITHING 65
+RESOURCES=100 i_ingot_Malachite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Malachite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Cassiterite]
+DEFNAME = i_Players_Fence_Cassiterite
+ID = i_fence_iron
+NAME=Cassiterite fence
+SKILLMAKE= BLACKSMITHING 68
+RESOURCES=100 i_ingot_Cassiterite
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Cassiterite
+
+ON=@Create
+    Color = color_ore_Cassiterite
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Cassiterite_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Cassiterite_w
+NAME=Cassiterite gate (w)
+SKILLMAKE= BLACKSMITHING 68
+RESOURCES=100 i_ingot_Cassiterite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Cassiterite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Cassiterite_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Cassiterite_n
+NAME=Cassiterite gate (n)
+SKILLMAKE= BLACKSMITHING 68
+RESOURCES=100 i_ingot_Cassiterite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Cassiterite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Gold]
+DEFNAME = i_Players_Fence_Gold
+ID = i_fence_iron
+NAME=Gold fence
+SKILLMAKE= BLACKSMITHING 71
+RESOURCES=100 i_ingot_Gold
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Gold
+
+ON=@Create
+    Color = color_ore_Gold
+
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Gold_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Gold_w
+NAME=Gold gate (w)
+SKILLMAKE= BLACKSMITHING 71
+RESOURCES=100 i_ingot_Gold
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Gold
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Gold_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Gold_n
+NAME=Gold gate (n)
+SKILLMAKE= BLACKSMITHING 71
+RESOURCES=100 i_ingot_Gold
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Gold
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Verite]
+DEFNAME = i_Players_Fence_Verite
+ID = i_fence_iron
+NAME=Verite fence
+SKILLMAKE= BLACKSMITHING 74
+RESOURCES=100 i_ingot_Verite
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Verite
+
+ON=@Create
+    Color = color_ore_Verite
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Verite_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Verite_w
+NAME=Verite gate (w)
+SKILLMAKE= BLACKSMITHING 74
+RESOURCES=100 i_ingot_Verite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Verite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Verite_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Verite_n
+NAME=Verite gate (n)
+SKILLMAKE= BLACKSMITHING 74
+RESOURCES=100 i_ingot_Verite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Verite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Autonite]
+DEFNAME = i_Players_Fence_Autonite
+ID = i_fence_iron
+NAME=Autonite fence
+SKILLMAKE= BLACKSMITHING 77
+RESOURCES=100 i_ingot_Autonite
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Autonite
+
+ON=@Create
+    Color = color_ore_Autonite
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Autonite_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Autonite_w
+NAME=Autonite gate (w)
+SKILLMAKE= BLACKSMITHING 77
+RESOURCES=100 i_ingot_Autonite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Autonite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Autonite_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Autonite_n
+NAME=Autonite gate (n)
+SKILLMAKE= BLACKSMITHING 77
+RESOURCES=100 i_ingot_Autonite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Autonite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Agapite]
+DEFNAME = i_Players_Fence_Agapite
+ID = i_fence_iron
+NAME=Agapite fence
+SKILLMAKE= BLACKSMITHING 80
+RESOURCES=100 i_ingot_Agapite
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Agapite
+
+ON=@Create
+    Color = color_ore_Agapite
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Agapite_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Agapite_w
+NAME=Agapite gate (w)
+SKILLMAKE= BLACKSMITHING 80
+RESOURCES=100 i_ingot_Agapite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Agapite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Agapite_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Agapite_n
+NAME=Agapite gate (n)
+SKILLMAKE= BLACKSMITHING 80
+RESOURCES=100 i_ingot_Agapite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Agapite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Daemonite]
+DEFNAME = i_Players_Fence_Daemonite
+ID = i_fence_iron
+NAME=Daemonite fence
+SKILLMAKE= BLACKSMITHING 82
+RESOURCES=100 i_ingot_Daemonite
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Daemonite
+
+ON=@Create
+    Color = color_ore_Daemonite
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Daemonite_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Daemonite_w
+NAME=Daemonite gate (w)
+SKILLMAKE= BLACKSMITHING 82
+RESOURCES=100 i_ingot_Daemonite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Daemonite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Daemonite_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Daemonite_n
+NAME=Daemonite gate (n)
+SKILLMAKE= BLACKSMITHING 82
+RESOURCES=100 i_ingot_Daemonite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Daemonite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Barite]
+DEFNAME = i_Players_Fence_Barite
+ID = i_fence_iron
+NAME=Barite fence
+SKILLMAKE= BLACKSMITHING 83
+RESOURCES=100 i_ingot_Barite
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Barite
+
+ON=@Create
+    Color = color_ore_Barite
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Barite_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Barite_w
+NAME=Barite gate (w)
+SKILLMAKE= BLACKSMITHING 83
+RESOURCES=100 i_ingot_Barite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Barite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Barite_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Barite_n
+NAME=Barite gate (n)
+SKILLMAKE= BLACKSMITHING 83
+RESOURCES=100 i_ingot_Barite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Barite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Aquanite]
+DEFNAME = i_Players_Fence_Aquanite
+ID = i_fence_iron
+NAME=Aquanite fence
+SKILLMAKE= BLACKSMITHING 87
+RESOURCES=100 i_ingot_Aquanite
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Aquanite
+
+ON=@Create
+    Color = color_ore_Aquanite
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Aquanite_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Aquanite_w
+NAME=Aquanite gate (w)
+SKILLMAKE= BLACKSMITHING 87
+RESOURCES=100 i_ingot_Aquanite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Aquanite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Aquanite_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Aquanite_n
+NAME=Aquanite gate (n)
+SKILLMAKE= BLACKSMITHING 87
+RESOURCES=100 i_ingot_Aquanite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Aquanite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Valorite]
+DEFNAME = i_Players_Fence_Valorite
+ID = i_fence_iron
+NAME=Valorite fence
+SKILLMAKE= BLACKSMITHING 89
+RESOURCES=100 i_ingot_Valorite
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Valorite
+
+ON=@Create
+    Color = color_ore_Valorite
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Valorite_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Valorite_w
+NAME=Valorite gate (w)
+SKILLMAKE= BLACKSMITHING 89
+RESOURCES=100 i_ingot_Valorite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Valorite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Valorite_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Valorite_n
+NAME=Valorite gate (n)
+SKILLMAKE= BLACKSMITHING 89
+RESOURCES=100 i_ingot_Valorite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Valorite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Uranium]
+DEFNAME = i_Players_Fence_Uranium
+ID = i_fence_iron
+NAME=Uranium fence
+SKILLMAKE= BLACKSMITHING 90
+RESOURCES=100 i_ingot_Uranium
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Uranium
+
+ON=@Create
+    Color = color_ore_Uranium
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Uranium_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Uranium_w
+NAME=Uranium gate (w)
+SKILLMAKE= BLACKSMITHING 90
+RESOURCES=100 i_ingot_Uranium
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Uranium
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Uranium_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Uranium_n
+NAME=Uranium gate (n)
+SKILLMAKE= BLACKSMITHING 90
+RESOURCES=100 i_ingot_Uranium
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Uranium
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_BloodRock]
+DEFNAME = i_Players_Fence_BloodRock
+ID = i_fence_iron
+NAME=BloodRock fence
+SKILLMAKE= BLACKSMITHING 91
+RESOURCES=100 i_ingot_BloodRock
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence BloodRock
+
+ON=@Create
+    Color = color_ore_BloodRock
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_BloodRock_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_BloodRock_w
+NAME=BloodRock gate (w)
+SKILLMAKE= BLACKSMITHING 91
+RESOURCES=100 i_ingot_BloodRock
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_BloodRock
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_BloodRock_n]
+ID = 082c
+DEFNAME = i_Players_Gate_BloodRock_n
+NAME=BloodRock gate (n)
+SKILLMAKE= BLACKSMITHING 91
+RESOURCES=100 i_ingot_BloodRock
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_BloodRock
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Titanium]
+DEFNAME = i_Players_Fence_Titanium
+ID = i_fence_iron
+NAME=Titanium fence
+SKILLMAKE= BLACKSMITHING 92
+RESOURCES=100 i_ingot_Titanium
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Titanium
+
+ON=@Create
+    Color = color_ore_Titanium
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Titanium_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Titanium_w
+NAME=Titanium gate (w)
+SKILLMAKE= BLACKSMITHING 92
+RESOURCES=100 i_ingot_Titanium
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Titanium
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Titanium_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Titanium_n
+NAME=Titanium gate (n)
+SKILLMAKE= BLACKSMITHING 92
+RESOURCES=100 i_ingot_Titanium
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Titanium
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_BlackRock]
+DEFNAME = i_Players_Fence_BlackRock
+ID = i_fence_iron
+NAME=BlackRock fence
+SKILLMAKE= BLACKSMITHING 93
+RESOURCES=100 i_ingot_BlackRock
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence BlackRock
+
+ON=@Create
+    Color = color_ore_BlackRock
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_BlackRock_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_BlackRock_w
+NAME=BlackRock gate (w)
+SKILLMAKE= BLACKSMITHING 93
+RESOURCES=100 i_ingot_BlackRock
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_BlackRock
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_BlackRock_n]
+ID = 082c
+DEFNAME = i_Players_Gate_BlackRock_n
+NAME=BlackRock gate (n)
+SKILLMAKE= BLACKSMITHING 93
+RESOURCES=100 i_ingot_BlackRock
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_BlackRock
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Kryptonite]
+DEFNAME = i_Players_Fence_Kryptonite
+ID = i_fence_iron
+NAME=Kryptonite fence
+SKILLMAKE= BLACKSMITHING 94
+RESOURCES=100 i_ingot_Kryptonite
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Kryptonite
+
+ON=@Create
+    Color = color_ore_Kryptonite
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Kryptonite_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Kryptonite_w
+NAME=Kryptonite gate (w)
+SKILLMAKE= BLACKSMITHING 94
+RESOURCES=100 i_ingot_Kryptonite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Kryptonite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Kryptonite_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Kryptonite_n
+NAME=Kryptonite gate (n)
+SKILLMAKE= BLACKSMITHING 94
+RESOURCES=100 i_ingot_Kryptonite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Kryptonite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Cerussite]
+DEFNAME = i_Players_Fence_Cerussite
+ID = i_fence_iron
+NAME=Cerussite fence
+SKILLMAKE= BLACKSMITHING 95
+RESOURCES=100 i_ingot_Cerussite
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Cerussite
+
+ON=@Create
+    Color = color_ore_Cerussite
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Cerussite_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Cerussite_w
+NAME=Cerussite gate (w)
+SKILLMAKE= BLACKSMITHING 95
+RESOURCES=100 i_ingot_Cerussite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Cerussite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Cerussite_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Cerussite_n
+NAME=Cerussite gate (n)
+SKILLMAKE= BLACKSMITHING 95
+RESOURCES=100 i_ingot_Cerussite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Cerussite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Quartz]
+DEFNAME = i_Players_Fence_Quartz
+ID = i_fence_iron
+NAME=Quartz fence
+SKILLMAKE= BLACKSMITHING 98
+RESOURCES=100 i_ingot_Quartz
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Quartz
+
+ON=@Create
+    Color = color_ore_Quartz
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Quartz_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Quartz_w
+NAME=Quartz gate (w)
+SKILLMAKE= BLACKSMITHING 98
+RESOURCES=100 i_ingot_Quartz
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Quartz
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Quartz_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Quartz_n
+NAME=Quartz gate (n)
+SKILLMAKE= BLACKSMITHING 98
+RESOURCES=100 i_ingot_Quartz
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Quartz
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Chromite]
+DEFNAME = i_Players_Fence_Chromite
+ID = i_fence_iron
+NAME=Chromite fence
+SKILLMAKE= BLACKSMITHING 100
+RESOURCES=100 i_ingot_Chromite
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Chromite
+
+ON=@Create
+    Color = color_ore_Chromite
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Chromite_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Chromite_w
+NAME=Chromite gate (w)
+SKILLMAKE= BLACKSMITHING 100
+RESOURCES=100 i_ingot_Chromite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Chromite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Chromite_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Chromite_n
+NAME=Chromite gate (n)
+SKILLMAKE= BLACKSMITHING 100
+RESOURCES=100 i_ingot_Chromite
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Chromite
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Dioptase]
+DEFNAME = i_Players_Fence_Dioptase
+ID = i_fence_iron
+NAME=Dioptase fence
+SKILLMAKE= BLACKSMITHING 105
+RESOURCES=100 i_ingot_Dioptase
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Dioptase
+
+ON=@Create
+    Color = color_ore_Dioptase
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Dioptase_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Dioptase_w
+NAME=Dioptase gate (w)
+SKILLMAKE= BLACKSMITHING 105
+RESOURCES=100 i_ingot_Dioptase
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Dioptase
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Dioptase_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Dioptase_n
+NAME=Dioptase gate (n)
+SKILLMAKE= BLACKSMITHING 105
+RESOURCES=100 i_ingot_Dioptase
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Dioptase
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Mytheril]
+DEFNAME = i_Players_Fence_Mytheril
+ID = i_fence_iron
+NAME=Mytheril fence
+SKILLMAKE= BLACKSMITHING 110
+RESOURCES=100 i_ingot_Mytheril
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Mytheril
+
+ON=@Create
+    Color = color_ore_Mytheril
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Mytheril_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Mytheril_w
+NAME=Mytheril gate (w)
+SKILLMAKE= BLACKSMITHING 110
+RESOURCES=100 i_ingot_Mytheril
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Mytheril
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Mytheril_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Mytheril_n
+NAME=Mytheril gate (n)
+SKILLMAKE= BLACKSMITHING 110
+RESOURCES=100 i_ingot_Mytheril
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Mytheril
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Chromium]
+DEFNAME = i_Players_Fence_Chromium
+ID = i_fence_iron
+NAME=Chromium fence
+SKILLMAKE= BLACKSMITHING 115
+RESOURCES=100 i_ingot_Chromium
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Chromium
+
+ON=@Create
+    Color = color_ore_Chromium
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Chromium_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Chromium_w
+NAME=Chromium gate (w)
+SKILLMAKE= BLACKSMITHING 115
+RESOURCES=100 i_ingot_Chromium
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Chromium
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Chromium_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Chromium_n
+NAME=Chromium gate (n)
+SKILLMAKE= BLACKSMITHING 115
+RESOURCES=100 i_ingot_Chromium
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Chromium
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Niobium]
+DEFNAME = i_Players_Fence_Niobium
+ID = i_fence_iron
+NAME=Niobium fence
+SKILLMAKE= BLACKSMITHING 120
+RESOURCES=100 i_ingot_Niobium
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Niobium
+
+ON=@Create
+    Color = color_ore_Niobium
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Niobium_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Niobium_w
+NAME=Niobium gate (w)
+SKILLMAKE= BLACKSMITHING 120
+RESOURCES=100 i_ingot_Niobium
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Niobium
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Niobium_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Niobium_n
+NAME=Niobium gate (n)
+SKILLMAKE= BLACKSMITHING 120
+RESOURCES=100 i_ingot_Niobium
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Niobium
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Fence_Invictus]
+DEFNAME = i_Players_Fence_Invictus
+ID = i_fence_iron
+NAME=Ancientrealms fence
+SKILLMAKE= BLACKSMITHING 120
+RESOURCES=100 i_ingot_Invictus
+FLIP = 0
+VALUE = 1
+WEIGHT = 0.1
+Type = t_player_fence
+CATEGORY = Ancientrealms
+SUBSECTION=Metal Fencing
+DESCRIPTION=Iron Fence Ancientrealms
+
+ON=@Create
+    Color = color_ore_Invictus
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Invictus_w]
+ID = i_gate_iron
+DEFNAME = i_Players_Gate_Invictus_w
+NAME=Ancientrealms gate (w)
+SKILLMAKE= BLACKSMITHING 120
+RESOURCES=100 i_ingot_Invictus
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Invictus
+    ATTR=0
+
+///////////////////////////////////////////////////
+[ITEMDEF i_Players_Gate_Invictus_n]
+ID = 082c
+DEFNAME = i_Players_Gate_Invictus_n
+NAME=Ancientrealms gate (n)
+SKILLMAKE= BLACKSMITHING 120
+RESOURCES=100 i_ingot_Invictus
+VALUE = 1
+WEIGHT = 0.1
+Type = t_door
+
+ON=@CREATE
+    Color = color_ore_Invictus
+    ATTR=0
+[EOF]

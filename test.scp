@@ -1,0 +1,12 @@
+[FUNCTION wipeMLMap]
+FOROBJS 7168
+    if <p.x> >= 6144
+        serv.log object <name> found
+        if <argn1> == 1
+            remove
+            serv.log object <name> removed.
+        endif
+    endif
+endfor
+
+[EOF]

@@ -1,0 +1,1390 @@
+/////////////////////////////////////////////Cotton Armor
+[SKILLMENU sm_armors_tailoring_Cotton]
+Cotton Armors
+ON=i_gargish_cloth_chest_1_Cotton @color_cloth_Cotton Gargish
+    SKILLMENU = sm_armors_tailoring_gargish_Cotton
+ON=i_person_lord_british_Cotton @color_cloth_Cotton Uniforms
+    SKILLMENU = sm_armors_tailoring_uniforms_Cotton
+
+
+/////////////////////////////////////////////Pashmina Armor
+[SKILLMENU sm_armors_tailoring_Pashmina]
+Pashmina Armors
+ON=i_gargish_cloth_chest_1_Pashmina @color_cloth_Pashmina Gargish
+    SKILLMENU = sm_armors_tailoring_gargish_Pashmina
+ON=i_person_lord_british_Pashmina @color_cloth_Pashmina Uniforms
+    SKILLMENU = sm_armors_tailoring_uniforms_Pashmina
+
+
+/////////////////////////////////////////////Tartan Armor
+[SKILLMENU sm_armors_tailoring_Tartan]
+Tartan Armors
+ON=i_gargish_cloth_chest_1_Tartan @color_cloth_Tartan Gargish
+    SKILLMENU = sm_armors_tailoring_gargish_Tartan
+ON=i_person_lord_british_Tartan @color_cloth_Tartan Uniforms
+    SKILLMENU = sm_armors_tailoring_uniforms_Tartan
+
+
+/////////////////////////////////////////////Silk Armor
+[SKILLMENU sm_armors_tailoring_Silk]
+Silk Armors
+ON=i_gargish_cloth_chest_1_Silk @color_cloth_Silk Gargish
+    SKILLMENU = sm_armors_tailoring_gargish_Silk
+ON=i_person_lord_british_Silk @color_cloth_Silk Uniforms
+    SKILLMENU = sm_armors_tailoring_uniforms_Silk
+
+
+/////////////////////////////////////////////Satin Armor
+[SKILLMENU sm_armors_tailoring_Satin]
+Satin Armors
+ON=i_gargish_cloth_chest_1_Satin @color_cloth_Satin Gargish
+    SKILLMENU = sm_armors_tailoring_gargish_Satin
+ON=i_person_lord_british_Satin @color_cloth_Satin Uniforms
+    SKILLMENU = sm_armors_tailoring_uniforms_Satin
+
+
+/////////////////////////////////////////////Lace Armor
+[SKILLMENU sm_armors_tailoring_Lace]
+Lace Armors
+ON=i_gargish_cloth_chest_1_Lace @color_cloth_Lace Gargish
+    SKILLMENU = sm_armors_tailoring_gargish_Lace
+ON=i_person_lord_british_Lace @color_cloth_Lace Uniforms
+    SKILLMENU = sm_armors_tailoring_uniforms_Lace
+
+
+/////////////////////////////////////////////Human Armor
+[SKILLMENU sm_armors_tailoring_leather_Human]
+Human Armors
+ON=i_armor_female_harness_elite_Human @color_hide_Human Uniforms
+    SKILLMENU = sm_armors_tailoring_hide_armor_Human
+ON=i_hide_tunic_Human @color_hide_Human Gargish
+    SKILLMENU = sm_armors_tailoring_hide_armor_Human
+ON=i_leather_tunic_Human @color_hide_Human Standard
+    SKILLMENU = sm_armors_tailoring_leather_armor_Human
+ON=i_leather_do_Human @color_hide_Human Samurai
+    SKILLMENU = sm_armors_tailoring_leather_armor_sa_Human
+ON=i_leather_ninja_jacket_Human @color_hide_Human Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_ninja_Human
+ON=i_leather_gargoyle_chest_Human @color_hide_Human Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_gargish_Human
+
+
+/////////////////////////////////////////////Troll Armor
+[SKILLMENU sm_armors_tailoring_leather_Troll]
+Troll Armors
+ON=i_armor_female_harness_elite_Troll @color_hide_Troll Uniforms
+    SKILLMENU = sm_armors_tailoring_hide_armor_Troll
+ON=i_hide_tunic_Troll @color_hide_Troll Gargish
+    SKILLMENU = sm_armors_tailoring_hide_armor_Troll
+ON=i_leather_tunic_Troll @color_hide_Troll Standard
+    SKILLMENU = sm_armors_tailoring_leather_armor_Troll
+ON=i_leather_do_Troll @color_hide_Troll Samurai
+    SKILLMENU = sm_armors_tailoring_leather_armor_sa_Troll
+ON=i_leather_ninja_jacket_Troll @color_hide_Troll Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_ninja_Troll
+ON=i_leather_gargoyle_chest_Troll @color_hide_Troll Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_gargish_Troll
+
+
+/////////////////////////////////////////////Ettin Armor
+[SKILLMENU sm_armors_tailoring_leather_Ettin]
+Ettin Armors
+ON=i_armor_female_harness_elite_Ettin @color_hide_Ettin Uniforms
+    SKILLMENU = sm_armors_tailoring_hide_armor_Ettin
+ON=i_hide_tunic_Ettin @color_hide_Ettin Gargish
+    SKILLMENU = sm_armors_tailoring_hide_armor_Ettin
+ON=i_leather_tunic_Ettin @color_hide_Ettin Standard
+    SKILLMENU = sm_armors_tailoring_leather_armor_Ettin
+ON=i_leather_do_Ettin @color_hide_Ettin Samurai
+    SKILLMENU = sm_armors_tailoring_leather_armor_sa_Ettin
+ON=i_leather_ninja_jacket_Ettin @color_hide_Ettin Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_ninja_Ettin
+ON=i_leather_gargoyle_chest_Ettin @color_hide_Ettin Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_gargish_Ettin
+
+
+/////////////////////////////////////////////Terathan Armor
+[SKILLMENU sm_armors_tailoring_leather_Terathan]
+Terathan Armors
+ON=i_armor_female_harness_elite_Terathan @color_hide_Terathan Uniforms
+    SKILLMENU = sm_armors_tailoring_hide_armor_Terathan
+ON=i_hide_tunic_Terathan @color_hide_Terathan Gargish
+    SKILLMENU = sm_armors_tailoring_hide_armor_Terathan
+ON=i_leather_tunic_Terathan @color_hide_Terathan Standard
+    SKILLMENU = sm_armors_tailoring_leather_armor_Terathan
+ON=i_leather_do_Terathan @color_hide_Terathan Samurai
+    SKILLMENU = sm_armors_tailoring_leather_armor_sa_Terathan
+ON=i_leather_ninja_jacket_Terathan @color_hide_Terathan Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_ninja_Terathan
+ON=i_leather_gargoyle_chest_Terathan @color_hide_Terathan Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_gargish_Terathan
+
+
+/////////////////////////////////////////////Ogre Armor
+[SKILLMENU sm_armors_tailoring_leather_Ogre]
+Ogre Armors
+ON=i_armor_female_harness_elite_Ogre @color_hide_Ogre Uniforms
+    SKILLMENU = sm_armors_tailoring_hide_armor_Ogre
+ON=i_hide_tunic_Ogre @color_hide_Ogre Gargish
+    SKILLMENU = sm_armors_tailoring_hide_armor_Ogre
+ON=i_leather_tunic_Ogre @color_hide_Ogre Standard
+    SKILLMENU = sm_armors_tailoring_leather_armor_Ogre
+ON=i_leather_do_Ogre @color_hide_Ogre Samurai
+    SKILLMENU = sm_armors_tailoring_leather_armor_sa_Ogre
+ON=i_leather_ninja_jacket_Ogre @color_hide_Ogre Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_ninja_Ogre
+ON=i_leather_gargoyle_chest_Ogre @color_hide_Ogre Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_gargish_Ogre
+
+
+/////////////////////////////////////////////Cyclops Armor
+[SKILLMENU sm_armors_tailoring_leather_Cyclops]
+Cyclops Armors
+ON=i_armor_female_harness_elite_Cyclops @color_hide_Cyclops Uniforms
+    SKILLMENU = sm_armors_tailoring_hide_armor_Cyclops
+ON=i_hide_tunic_Cyclops @color_hide_Cyclops Gargish
+    SKILLMENU = sm_armors_tailoring_hide_armor_Cyclops
+ON=i_leather_tunic_Cyclops @color_hide_Cyclops Standard
+    SKILLMENU = sm_armors_tailoring_leather_armor_Cyclops
+ON=i_leather_do_Cyclops @color_hide_Cyclops Samurai
+    SKILLMENU = sm_armors_tailoring_leather_armor_sa_Cyclops
+ON=i_leather_ninja_jacket_Cyclops @color_hide_Cyclops Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_ninja_Cyclops
+ON=i_leather_gargoyle_chest_Cyclops @color_hide_Cyclops Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_gargish_Cyclops
+
+
+/////////////////////////////////////////////Spined Armor
+[SKILLMENU sm_armors_tailoring_leather_Spined]
+Spined Armors
+ON=i_armor_female_harness_elite_Spined @color_hide_Spined Uniforms
+    SKILLMENU = sm_armors_tailoring_hide_armor_Spined
+ON=i_hide_tunic_Spined @color_hide_Spined Gargish
+    SKILLMENU = sm_armors_tailoring_hide_armor_Spined
+ON=i_leather_tunic_Spined @color_hide_Spined Standard
+    SKILLMENU = sm_armors_tailoring_leather_armor_Spined
+ON=i_leather_do_Spined @color_hide_Spined Samurai
+    SKILLMENU = sm_armors_tailoring_leather_armor_sa_Spined
+ON=i_leather_ninja_jacket_Spined @color_hide_Spined Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_ninja_Spined
+ON=i_leather_gargoyle_chest_Spined @color_hide_Spined Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_gargish_Spined
+
+
+/////////////////////////////////////////////IceFiend Armor
+[SKILLMENU sm_armors_tailoring_leather_IceFiend]
+IceFiend Armors
+ON=i_armor_female_harness_elite_IceFiend @color_hide_IceFiend Uniforms
+    SKILLMENU = sm_armors_tailoring_hide_armor_IceFiend
+ON=i_hide_tunic_IceFiend @color_hide_IceFiend Gargish
+    SKILLMENU = sm_armors_tailoring_hide_armor_IceFiend
+ON=i_leather_tunic_IceFiend @color_hide_IceFiend Standard
+    SKILLMENU = sm_armors_tailoring_leather_armor_IceFiend
+ON=i_leather_do_IceFiend @color_hide_IceFiend Samurai
+    SKILLMENU = sm_armors_tailoring_leather_armor_sa_IceFiend
+ON=i_leather_ninja_jacket_IceFiend @color_hide_IceFiend Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_ninja_IceFiend
+ON=i_leather_gargoyle_chest_IceFiend @color_hide_IceFiend Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_gargish_IceFiend
+
+
+/////////////////////////////////////////////Horned Armor
+[SKILLMENU sm_armors_tailoring_leather_Horned]
+Horned Armors
+ON=i_armor_female_harness_elite_Horned @color_hide_Horned Uniforms
+    SKILLMENU = sm_armors_tailoring_hide_armor_Horned
+ON=i_hide_tunic_Horned @color_hide_Horned Gargish
+    SKILLMENU = sm_armors_tailoring_hide_armor_Horned
+ON=i_leather_tunic_Horned @color_hide_Horned Standard
+    SKILLMENU = sm_armors_tailoring_leather_armor_Horned
+ON=i_leather_do_Horned @color_hide_Horned Samurai
+    SKILLMENU = sm_armors_tailoring_leather_armor_sa_Horned
+ON=i_leather_ninja_jacket_Horned @color_hide_Horned Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_ninja_Horned
+ON=i_leather_gargoyle_chest_Horned @color_hide_Horned Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_gargish_Horned
+
+
+/////////////////////////////////////////////Barbed Armor
+[SKILLMENU sm_armors_tailoring_leather_Barbed]
+Barbed Armors
+ON=i_armor_female_harness_elite_Barbed @color_hide_Barbed Uniforms
+    SKILLMENU = sm_armors_tailoring_hide_armor_Barbed
+ON=i_hide_tunic_Barbed @color_hide_Barbed Gargish
+    SKILLMENU = sm_armors_tailoring_hide_armor_Barbed
+ON=i_leather_tunic_Barbed @color_hide_Barbed Standard
+    SKILLMENU = sm_armors_tailoring_leather_armor_Barbed
+ON=i_leather_do_Barbed @color_hide_Barbed Samurai
+    SKILLMENU = sm_armors_tailoring_leather_armor_sa_Barbed
+ON=i_leather_ninja_jacket_Barbed @color_hide_Barbed Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_ninja_Barbed
+ON=i_leather_gargoyle_chest_Barbed @color_hide_Barbed Ninja
+    SKILLMENU = sm_armors_tailoring_leather_armor_gargish_Barbed
+
+
+///////////////////////////////////////////////////////////
+
+///////////////////////////////////////////// sm_armors_tailoring_gargish_ Cotton
+[SKILLMENU sm_armors_tailoring_gargish_Cotton]
+Cotton Armors
+ON=i_gargish_cloth_arms_1_Cotton @color_cloth_Cotton Gargish Cloth Arms
+    MAKEITEM=i_gargish_cloth_arms_1_Cotton
+ON=i_gargish_cloth_arms_2_Cotton @color_cloth_Cotton Gargish Cloth Arms
+    MAKEITEM=i_gargish_cloth_arms_2_Cotton
+ON=i_gargish_cloth_chest_1_Cotton @color_cloth_Cotton Gargish Cloth Chest
+    MAKEITEM=i_gargish_cloth_chest_1_Cotton
+ON=i_gargish_cloth_chest_2_Cotton @color_cloth_Cotton Gargish Cloth Chest
+    MAKEITEM=i_gargish_cloth_chest_2_Cotton
+ON=i_gargish_cloth_kilt_1_Cotton @color_cloth_Cotton Gargish Cloth Kilt
+    MAKEITEM=i_gargish_cloth_kilt_1_Cotton
+ON=i_gargish_cloth_kilt_2_Cotton @color_cloth_Cotton Gargish Cloth Kilt
+    MAKEITEM=i_gargish_cloth_kilt_2_Cotton
+ON=i_gargish_cloth_leggings_1_Cotton @color_cloth_Cotton Gargish Cloth Leggings
+    MAKEITEM=i_gargish_cloth_leggings_1_Cotton
+ON=i_gargish_cloth_leggings_2_Cotton @color_cloth_Cotton Gargish Cloth Leggings
+    MAKEITEM=i_gargish_cloth_leggings_2_Cotton
+ON=i_gargish_cloth_wings_Cotton @color_cloth_Cotton Gargish Cloth Wings
+    MAKEITEM=i_gargish_cloth_wings_Cotton
+
+///////////////////////////////////////////// sm_armors_tailoring_gargish_ Pashmina
+[SKILLMENU sm_armors_tailoring_gargish_Pashmina]
+Pashmina Armors
+ON=i_gargish_cloth_arms_1_Pashmina @color_cloth_Pashmina Gargish Cloth Arms
+    MAKEITEM=i_gargish_cloth_arms_1_Pashmina
+ON=i_gargish_cloth_arms_2_Pashmina @color_cloth_Pashmina Gargish Cloth Arms
+    MAKEITEM=i_gargish_cloth_arms_2_Pashmina
+ON=i_gargish_cloth_chest_1_Pashmina @color_cloth_Pashmina Gargish Cloth Chest
+    MAKEITEM=i_gargish_cloth_chest_1_Pashmina
+ON=i_gargish_cloth_chest_2_Pashmina @color_cloth_Pashmina Gargish Cloth Chest
+    MAKEITEM=i_gargish_cloth_chest_2_Pashmina
+ON=i_gargish_cloth_kilt_1_Pashmina @color_cloth_Pashmina Gargish Cloth Kilt
+    MAKEITEM=i_gargish_cloth_kilt_1_Pashmina
+ON=i_gargish_cloth_kilt_2_Pashmina @color_cloth_Pashmina Gargish Cloth Kilt
+    MAKEITEM=i_gargish_cloth_kilt_2_Pashmina
+ON=i_gargish_cloth_leggings_1_Pashmina @color_cloth_Pashmina Gargish Cloth Leggings
+    MAKEITEM=i_gargish_cloth_leggings_1_Pashmina
+ON=i_gargish_cloth_leggings_2_Pashmina @color_cloth_Pashmina Gargish Cloth Leggings
+    MAKEITEM=i_gargish_cloth_leggings_2_Pashmina
+ON=i_gargish_cloth_wings_Pashmina @color_cloth_Pashmina Gargish Cloth Wings
+    MAKEITEM=i_gargish_cloth_wings_Pashmina
+
+///////////////////////////////////////////// sm_armors_tailoring_gargish_ Tartan
+[SKILLMENU sm_armors_tailoring_gargish_Tartan]
+Tartan Armors
+ON=i_gargish_cloth_arms_1_Tartan @color_cloth_Tartan Gargish Cloth Arms
+    MAKEITEM=i_gargish_cloth_arms_1_Tartan
+ON=i_gargish_cloth_arms_2_Tartan @color_cloth_Tartan Gargish Cloth Arms
+    MAKEITEM=i_gargish_cloth_arms_2_Tartan
+ON=i_gargish_cloth_chest_1_Tartan @color_cloth_Tartan Gargish Cloth Chest
+    MAKEITEM=i_gargish_cloth_chest_1_Tartan
+ON=i_gargish_cloth_chest_2_Tartan @color_cloth_Tartan Gargish Cloth Chest
+    MAKEITEM=i_gargish_cloth_chest_2_Tartan
+ON=i_gargish_cloth_kilt_1_Tartan @color_cloth_Tartan Gargish Cloth Kilt
+    MAKEITEM=i_gargish_cloth_kilt_1_Tartan
+ON=i_gargish_cloth_kilt_2_Tartan @color_cloth_Tartan Gargish Cloth Kilt
+    MAKEITEM=i_gargish_cloth_kilt_2_Tartan
+ON=i_gargish_cloth_leggings_1_Tartan @color_cloth_Tartan Gargish Cloth Leggings
+    MAKEITEM=i_gargish_cloth_leggings_1_Tartan
+ON=i_gargish_cloth_leggings_2_Tartan @color_cloth_Tartan Gargish Cloth Leggings
+    MAKEITEM=i_gargish_cloth_leggings_2_Tartan
+ON=i_gargish_cloth_wings_Tartan @color_cloth_Tartan Gargish Cloth Wings
+    MAKEITEM=i_gargish_cloth_wings_Tartan
+
+///////////////////////////////////////////// sm_armors_tailoring_gargish_ Silk
+[SKILLMENU sm_armors_tailoring_gargish_Silk]
+Silk Armors
+ON=i_gargish_cloth_arms_1_Silk @color_cloth_Silk Gargish Cloth Arms
+    MAKEITEM=i_gargish_cloth_arms_1_Silk
+ON=i_gargish_cloth_arms_2_Silk @color_cloth_Silk Gargish Cloth Arms
+    MAKEITEM=i_gargish_cloth_arms_2_Silk
+ON=i_gargish_cloth_chest_1_Silk @color_cloth_Silk Gargish Cloth Chest
+    MAKEITEM=i_gargish_cloth_chest_1_Silk
+ON=i_gargish_cloth_chest_2_Silk @color_cloth_Silk Gargish Cloth Chest
+    MAKEITEM=i_gargish_cloth_chest_2_Silk
+ON=i_gargish_cloth_kilt_1_Silk @color_cloth_Silk Gargish Cloth Kilt
+    MAKEITEM=i_gargish_cloth_kilt_1_Silk
+ON=i_gargish_cloth_kilt_2_Silk @color_cloth_Silk Gargish Cloth Kilt
+    MAKEITEM=i_gargish_cloth_kilt_2_Silk
+ON=i_gargish_cloth_leggings_1_Silk @color_cloth_Silk Gargish Cloth Leggings
+    MAKEITEM=i_gargish_cloth_leggings_1_Silk
+ON=i_gargish_cloth_leggings_2_Silk @color_cloth_Silk Gargish Cloth Leggings
+    MAKEITEM=i_gargish_cloth_leggings_2_Silk
+ON=i_gargish_cloth_wings_Silk @color_cloth_Silk Gargish Cloth Wings
+    MAKEITEM=i_gargish_cloth_wings_Silk
+
+///////////////////////////////////////////// sm_armors_tailoring_gargish_ Satin
+[SKILLMENU sm_armors_tailoring_gargish_Satin]
+Satin Armors
+ON=i_gargish_cloth_arms_1_Satin @color_cloth_Satin Gargish Cloth Arms
+    MAKEITEM=i_gargish_cloth_arms_1_Satin
+ON=i_gargish_cloth_arms_2_Satin @color_cloth_Satin Gargish Cloth Arms
+    MAKEITEM=i_gargish_cloth_arms_2_Satin
+ON=i_gargish_cloth_chest_1_Satin @color_cloth_Satin Gargish Cloth Chest
+    MAKEITEM=i_gargish_cloth_chest_1_Satin
+ON=i_gargish_cloth_chest_2_Satin @color_cloth_Satin Gargish Cloth Chest
+    MAKEITEM=i_gargish_cloth_chest_2_Satin
+ON=i_gargish_cloth_kilt_1_Satin @color_cloth_Satin Gargish Cloth Kilt
+    MAKEITEM=i_gargish_cloth_kilt_1_Satin
+ON=i_gargish_cloth_kilt_2_Satin @color_cloth_Satin Gargish Cloth Kilt
+    MAKEITEM=i_gargish_cloth_kilt_2_Satin
+ON=i_gargish_cloth_leggings_1_Satin @color_cloth_Satin Gargish Cloth Leggings
+    MAKEITEM=i_gargish_cloth_leggings_1_Satin
+ON=i_gargish_cloth_leggings_2_Satin @color_cloth_Satin Gargish Cloth Leggings
+    MAKEITEM=i_gargish_cloth_leggings_2_Satin
+ON=i_gargish_cloth_wings_Satin @color_cloth_Satin Gargish Cloth Wings
+    MAKEITEM=i_gargish_cloth_wings_Satin
+
+///////////////////////////////////////////// sm_armors_tailoring_gargish_ Lace
+[SKILLMENU sm_armors_tailoring_gargish_Lace]
+Lace Armors
+ON=i_gargish_cloth_arms_1_Lace @color_cloth_Lace Gargish Cloth Arms
+    MAKEITEM=i_gargish_cloth_arms_1_Lace
+ON=i_gargish_cloth_arms_2_Lace @color_cloth_Lace Gargish Cloth Arms
+    MAKEITEM=i_gargish_cloth_arms_2_Lace
+ON=i_gargish_cloth_chest_1_Lace @color_cloth_Lace Gargish Cloth Chest
+    MAKEITEM=i_gargish_cloth_chest_1_Lace
+ON=i_gargish_cloth_chest_2_Lace @color_cloth_Lace Gargish Cloth Chest
+    MAKEITEM=i_gargish_cloth_chest_2_Lace
+ON=i_gargish_cloth_kilt_1_Lace @color_cloth_Lace Gargish Cloth Kilt
+    MAKEITEM=i_gargish_cloth_kilt_1_Lace
+ON=i_gargish_cloth_kilt_2_Lace @color_cloth_Lace Gargish Cloth Kilt
+    MAKEITEM=i_gargish_cloth_kilt_2_Lace
+ON=i_gargish_cloth_leggings_1_Lace @color_cloth_Lace Gargish Cloth Leggings
+    MAKEITEM=i_gargish_cloth_leggings_1_Lace
+ON=i_gargish_cloth_leggings_2_Lace @color_cloth_Lace Gargish Cloth Leggings
+    MAKEITEM=i_gargish_cloth_leggings_2_Lace
+ON=i_gargish_cloth_wings_Lace @color_cloth_Lace Gargish Cloth Wings
+    MAKEITEM=i_gargish_cloth_wings_Lace
+
+///////////////////////////////////////////// sm_armors_tailoring_uniforms_ Cotton
+[SKILLMENU sm_armors_tailoring_uniforms_Cotton]
+Cotton Armors
+ON=i_person_lord_british_Cotton @color_cloth_Cotton Lord British Armour
+    MAKEITEM=i_person_lord_british_Cotton
+ON=i_person_black_thorne_Cotton @color_cloth_Cotton Blackthorne Robe
+    MAKEITEM=i_person_black_thorne_Cotton
+
+///////////////////////////////////////////// sm_armors_tailoring_uniforms_ Pashmina
+[SKILLMENU sm_armors_tailoring_uniforms_Pashmina]
+Pashmina Armors
+ON=i_person_lord_british_Pashmina @color_cloth_Pashmina Lord British Armour
+    MAKEITEM=i_person_lord_british_Pashmina
+ON=i_person_black_thorne_Pashmina @color_cloth_Pashmina Blackthorne Robe
+    MAKEITEM=i_person_black_thorne_Pashmina
+
+///////////////////////////////////////////// sm_armors_tailoring_uniforms_ Tartan
+[SKILLMENU sm_armors_tailoring_uniforms_Tartan]
+Tartan Armors
+ON=i_person_lord_british_Tartan @color_cloth_Tartan Lord British Armour
+    MAKEITEM=i_person_lord_british_Tartan
+ON=i_person_black_thorne_Tartan @color_cloth_Tartan Blackthorne Robe
+    MAKEITEM=i_person_black_thorne_Tartan
+
+///////////////////////////////////////////// sm_armors_tailoring_uniforms_ Silk
+[SKILLMENU sm_armors_tailoring_uniforms_Silk]
+Silk Armors
+ON=i_person_lord_british_Silk @color_cloth_Silk Lord British Armour
+    MAKEITEM=i_person_lord_british_Silk
+ON=i_person_black_thorne_Silk @color_cloth_Silk Blackthorne Robe
+    MAKEITEM=i_person_black_thorne_Silk
+
+///////////////////////////////////////////// sm_armors_tailoring_uniforms_ Satin
+[SKILLMENU sm_armors_tailoring_uniforms_Satin]
+Satin Armors
+ON=i_person_lord_british_Satin @color_cloth_Satin Lord British Armour
+    MAKEITEM=i_person_lord_british_Satin
+ON=i_person_black_thorne_Satin @color_cloth_Satin Blackthorne Robe
+    MAKEITEM=i_person_black_thorne_Satin
+
+///////////////////////////////////////////// sm_armors_tailoring_uniforms_ Lace
+[SKILLMENU sm_armors_tailoring_uniforms_Lace]
+Lace Armors
+ON=i_person_lord_british_Lace @color_cloth_Lace Lord British Armour
+    MAKEITEM=i_person_lord_british_Lace
+ON=i_person_black_thorne_Lace @color_cloth_Lace Blackthorne Robe
+    MAKEITEM=i_person_black_thorne_Lace
+
+///////////////////////////////////////////// sm_armors_tailoring_hide_armor_ Human
+[SKILLMENU sm_armors_tailoring_hide_armor_Human]
+Human Armors
+ON=i_hide_tunic_Human @color_hide_Human hide tunic
+    MAKEITEM=i_hide_tunic_Human
+ON=i_hide_gloves_Human @color_hide_Human hide gloves
+    MAKEITEM=i_hide_gloves_Human
+ON=i_hide_gorget_Human @color_hide_Human hide gorget
+    MAKEITEM=i_hide_gorget_Human
+ON=i_hide_pauldrons_Human @color_hide_Human hide pauldrons
+    MAKEITEM=i_hide_pauldrons_Human
+ON=i_hide_pants_Human @color_hide_Human hide pants
+    MAKEITEM=i_hide_pants_Human
+ON=i_hide_tunic_female_Human @color_hide_Human female hide tunic
+    MAKEITEM=i_hide_tunic_female_Human
+ON=i_armor_female_shorts_spiked_Human @color_hide_Human Spiked Shorts
+    MAKEITEM=i_armor_female_shorts_spiked_Human
+ON=i_armor_female_harness_amazon_Human @color_hide_Human Amazon Harness
+    MAKEITEM=i_armor_female_harness_amazon_Human
+ON=i_armor_female_harness_elite_Human @color_hide_Human Elite Harness
+    MAKEITEM=i_armor_female_harness_elite_Human
+ON=i_leather_jingasa_Human @color_hide_Human Leather Jingasa
+    MAKEITEM=i_leather_jingasa_Human
+
+///////////////////////////////////////////// sm_armors_tailoring_hide_armor_ Troll
+[SKILLMENU sm_armors_tailoring_hide_armor_Troll]
+Troll Armors
+ON=i_hide_tunic_Troll @color_hide_Troll hide tunic
+    MAKEITEM=i_hide_tunic_Troll
+ON=i_hide_gloves_Troll @color_hide_Troll hide gloves
+    MAKEITEM=i_hide_gloves_Troll
+ON=i_hide_gorget_Troll @color_hide_Troll hide gorget
+    MAKEITEM=i_hide_gorget_Troll
+ON=i_hide_pauldrons_Troll @color_hide_Troll hide pauldrons
+    MAKEITEM=i_hide_pauldrons_Troll
+ON=i_hide_pants_Troll @color_hide_Troll hide pants
+    MAKEITEM=i_hide_pants_Troll
+ON=i_hide_tunic_female_Troll @color_hide_Troll female hide tunic
+    MAKEITEM=i_hide_tunic_female_Troll
+ON=i_armor_female_shorts_spiked_Troll @color_hide_Troll Spiked Shorts
+    MAKEITEM=i_armor_female_shorts_spiked_Troll
+ON=i_armor_female_harness_amazon_Troll @color_hide_Troll Amazon Harness
+    MAKEITEM=i_armor_female_harness_amazon_Troll
+ON=i_armor_female_harness_elite_Troll @color_hide_Troll Elite Harness
+    MAKEITEM=i_armor_female_harness_elite_Troll
+ON=i_leather_jingasa_Troll @color_hide_Troll Leather Jingasa
+    MAKEITEM=i_leather_jingasa_Troll
+
+///////////////////////////////////////////// sm_armors_tailoring_hide_armor_ Ettin
+[SKILLMENU sm_armors_tailoring_hide_armor_Ettin]
+Ettin Armors
+ON=i_hide_tunic_Ettin @color_hide_Ettin hide tunic
+    MAKEITEM=i_hide_tunic_Ettin
+ON=i_hide_gloves_Ettin @color_hide_Ettin hide gloves
+    MAKEITEM=i_hide_gloves_Ettin
+ON=i_hide_gorget_Ettin @color_hide_Ettin hide gorget
+    MAKEITEM=i_hide_gorget_Ettin
+ON=i_hide_pauldrons_Ettin @color_hide_Ettin hide pauldrons
+    MAKEITEM=i_hide_pauldrons_Ettin
+ON=i_hide_pants_Ettin @color_hide_Ettin hide pants
+    MAKEITEM=i_hide_pants_Ettin
+ON=i_hide_tunic_female_Ettin @color_hide_Ettin female hide tunic
+    MAKEITEM=i_hide_tunic_female_Ettin
+ON=i_armor_female_shorts_spiked_Ettin @color_hide_Ettin Spiked Shorts
+    MAKEITEM=i_armor_female_shorts_spiked_Ettin
+ON=i_armor_female_harness_amazon_Ettin @color_hide_Ettin Amazon Harness
+    MAKEITEM=i_armor_female_harness_amazon_Ettin
+ON=i_armor_female_harness_elite_Ettin @color_hide_Ettin Elite Harness
+    MAKEITEM=i_armor_female_harness_elite_Ettin
+ON=i_leather_jingasa_Ettin @color_hide_Ettin Leather Jingasa
+    MAKEITEM=i_leather_jingasa_Ettin
+
+///////////////////////////////////////////// sm_armors_tailoring_hide_armor_ Terathan
+[SKILLMENU sm_armors_tailoring_hide_armor_Terathan]
+Terathan Armors
+ON=i_hide_tunic_Terathan @color_hide_Terathan hide tunic
+    MAKEITEM=i_hide_tunic_Terathan
+ON=i_hide_gloves_Terathan @color_hide_Terathan hide gloves
+    MAKEITEM=i_hide_gloves_Terathan
+ON=i_hide_gorget_Terathan @color_hide_Terathan hide gorget
+    MAKEITEM=i_hide_gorget_Terathan
+ON=i_hide_pauldrons_Terathan @color_hide_Terathan hide pauldrons
+    MAKEITEM=i_hide_pauldrons_Terathan
+ON=i_hide_pants_Terathan @color_hide_Terathan hide pants
+    MAKEITEM=i_hide_pants_Terathan
+ON=i_hide_tunic_female_Terathan @color_hide_Terathan female hide tunic
+    MAKEITEM=i_hide_tunic_female_Terathan
+ON=i_armor_female_shorts_spiked_Terathan @color_hide_Terathan Spiked Shorts
+    MAKEITEM=i_armor_female_shorts_spiked_Terathan
+ON=i_armor_female_harness_amazon_Terathan @color_hide_Terathan Amazon Harness
+    MAKEITEM=i_armor_female_harness_amazon_Terathan
+ON=i_armor_female_harness_elite_Terathan @color_hide_Terathan Elite Harness
+    MAKEITEM=i_armor_female_harness_elite_Terathan
+ON=i_leather_jingasa_Terathan @color_hide_Terathan Leather Jingasa
+    MAKEITEM=i_leather_jingasa_Terathan
+
+///////////////////////////////////////////// sm_armors_tailoring_hide_armor_ Ogre
+[SKILLMENU sm_armors_tailoring_hide_armor_Ogre]
+Ogre Armors
+ON=i_hide_tunic_Ogre @color_hide_Ogre hide tunic
+    MAKEITEM=i_hide_tunic_Ogre
+ON=i_hide_gloves_Ogre @color_hide_Ogre hide gloves
+    MAKEITEM=i_hide_gloves_Ogre
+ON=i_hide_gorget_Ogre @color_hide_Ogre hide gorget
+    MAKEITEM=i_hide_gorget_Ogre
+ON=i_hide_pauldrons_Ogre @color_hide_Ogre hide pauldrons
+    MAKEITEM=i_hide_pauldrons_Ogre
+ON=i_hide_pants_Ogre @color_hide_Ogre hide pants
+    MAKEITEM=i_hide_pants_Ogre
+ON=i_hide_tunic_female_Ogre @color_hide_Ogre female hide tunic
+    MAKEITEM=i_hide_tunic_female_Ogre
+ON=i_armor_female_shorts_spiked_Ogre @color_hide_Ogre Spiked Shorts
+    MAKEITEM=i_armor_female_shorts_spiked_Ogre
+ON=i_armor_female_harness_amazon_Ogre @color_hide_Ogre Amazon Harness
+    MAKEITEM=i_armor_female_harness_amazon_Ogre
+ON=i_armor_female_harness_elite_Ogre @color_hide_Ogre Elite Harness
+    MAKEITEM=i_armor_female_harness_elite_Ogre
+ON=i_leather_jingasa_Ogre @color_hide_Ogre Leather Jingasa
+    MAKEITEM=i_leather_jingasa_Ogre
+
+///////////////////////////////////////////// sm_armors_tailoring_hide_armor_ Cyclops
+[SKILLMENU sm_armors_tailoring_hide_armor_Cyclops]
+Cyclops Armors
+ON=i_hide_tunic_Cyclops @color_hide_Cyclops hide tunic
+    MAKEITEM=i_hide_tunic_Cyclops
+ON=i_hide_gloves_Cyclops @color_hide_Cyclops hide gloves
+    MAKEITEM=i_hide_gloves_Cyclops
+ON=i_hide_gorget_Cyclops @color_hide_Cyclops hide gorget
+    MAKEITEM=i_hide_gorget_Cyclops
+ON=i_hide_pauldrons_Cyclops @color_hide_Cyclops hide pauldrons
+    MAKEITEM=i_hide_pauldrons_Cyclops
+ON=i_hide_pants_Cyclops @color_hide_Cyclops hide pants
+    MAKEITEM=i_hide_pants_Cyclops
+ON=i_hide_tunic_female_Cyclops @color_hide_Cyclops female hide tunic
+    MAKEITEM=i_hide_tunic_female_Cyclops
+ON=i_armor_female_shorts_spiked_Cyclops @color_hide_Cyclops Spiked Shorts
+    MAKEITEM=i_armor_female_shorts_spiked_Cyclops
+ON=i_armor_female_harness_amazon_Cyclops @color_hide_Cyclops Amazon Harness
+    MAKEITEM=i_armor_female_harness_amazon_Cyclops
+ON=i_armor_female_harness_elite_Cyclops @color_hide_Cyclops Elite Harness
+    MAKEITEM=i_armor_female_harness_elite_Cyclops
+ON=i_leather_jingasa_Cyclops @color_hide_Cyclops Leather Jingasa
+    MAKEITEM=i_leather_jingasa_Cyclops
+
+///////////////////////////////////////////// sm_armors_tailoring_hide_armor_ Spined
+[SKILLMENU sm_armors_tailoring_hide_armor_Spined]
+Spined Armors
+ON=i_hide_tunic_Spined @color_hide_Spined hide tunic
+    MAKEITEM=i_hide_tunic_Spined
+ON=i_hide_gloves_Spined @color_hide_Spined hide gloves
+    MAKEITEM=i_hide_gloves_Spined
+ON=i_hide_gorget_Spined @color_hide_Spined hide gorget
+    MAKEITEM=i_hide_gorget_Spined
+ON=i_hide_pauldrons_Spined @color_hide_Spined hide pauldrons
+    MAKEITEM=i_hide_pauldrons_Spined
+ON=i_hide_pants_Spined @color_hide_Spined hide pants
+    MAKEITEM=i_hide_pants_Spined
+ON=i_hide_tunic_female_Spined @color_hide_Spined female hide tunic
+    MAKEITEM=i_hide_tunic_female_Spined
+ON=i_armor_female_shorts_spiked_Spined @color_hide_Spined Spiked Shorts
+    MAKEITEM=i_armor_female_shorts_spiked_Spined
+ON=i_armor_female_harness_amazon_Spined @color_hide_Spined Amazon Harness
+    MAKEITEM=i_armor_female_harness_amazon_Spined
+ON=i_armor_female_harness_elite_Spined @color_hide_Spined Elite Harness
+    MAKEITEM=i_armor_female_harness_elite_Spined
+ON=i_leather_jingasa_Spined @color_hide_Spined Leather Jingasa
+    MAKEITEM=i_leather_jingasa_Spined
+
+///////////////////////////////////////////// sm_armors_tailoring_hide_armor_ IceFiend
+[SKILLMENU sm_armors_tailoring_hide_armor_IceFiend]
+IceFiend Armors
+ON=i_hide_tunic_IceFiend @color_hide_IceFiend hide tunic
+    MAKEITEM=i_hide_tunic_IceFiend
+ON=i_hide_gloves_IceFiend @color_hide_IceFiend hide gloves
+    MAKEITEM=i_hide_gloves_IceFiend
+ON=i_hide_gorget_IceFiend @color_hide_IceFiend hide gorget
+    MAKEITEM=i_hide_gorget_IceFiend
+ON=i_hide_pauldrons_IceFiend @color_hide_IceFiend hide pauldrons
+    MAKEITEM=i_hide_pauldrons_IceFiend
+ON=i_hide_pants_IceFiend @color_hide_IceFiend hide pants
+    MAKEITEM=i_hide_pants_IceFiend
+ON=i_hide_tunic_female_IceFiend @color_hide_IceFiend female hide tunic
+    MAKEITEM=i_hide_tunic_female_IceFiend
+ON=i_armor_female_shorts_spiked_IceFiend @color_hide_IceFiend Spiked Shorts
+    MAKEITEM=i_armor_female_shorts_spiked_IceFiend
+ON=i_armor_female_harness_amazon_IceFiend @color_hide_IceFiend Amazon Harness
+    MAKEITEM=i_armor_female_harness_amazon_IceFiend
+ON=i_armor_female_harness_elite_IceFiend @color_hide_IceFiend Elite Harness
+    MAKEITEM=i_armor_female_harness_elite_IceFiend
+ON=i_leather_jingasa_IceFiend @color_hide_IceFiend Leather Jingasa
+    MAKEITEM=i_leather_jingasa_IceFiend
+
+///////////////////////////////////////////// sm_armors_tailoring_hide_armor_ Horned
+[SKILLMENU sm_armors_tailoring_hide_armor_Horned]
+Horned Armors
+ON=i_hide_tunic_Horned @color_hide_Horned hide tunic
+    MAKEITEM=i_hide_tunic_Horned
+ON=i_hide_gloves_Horned @color_hide_Horned hide gloves
+    MAKEITEM=i_hide_gloves_Horned
+ON=i_hide_gorget_Horned @color_hide_Horned hide gorget
+    MAKEITEM=i_hide_gorget_Horned
+ON=i_hide_pauldrons_Horned @color_hide_Horned hide pauldrons
+    MAKEITEM=i_hide_pauldrons_Horned
+ON=i_hide_pants_Horned @color_hide_Horned hide pants
+    MAKEITEM=i_hide_pants_Horned
+ON=i_hide_tunic_female_Horned @color_hide_Horned female hide tunic
+    MAKEITEM=i_hide_tunic_female_Horned
+ON=i_armor_female_shorts_spiked_Horned @color_hide_Horned Spiked Shorts
+    MAKEITEM=i_armor_female_shorts_spiked_Horned
+ON=i_armor_female_harness_amazon_Horned @color_hide_Horned Amazon Harness
+    MAKEITEM=i_armor_female_harness_amazon_Horned
+ON=i_armor_female_harness_elite_Horned @color_hide_Horned Elite Harness
+    MAKEITEM=i_armor_female_harness_elite_Horned
+ON=i_leather_jingasa_Horned @color_hide_Horned Leather Jingasa
+    MAKEITEM=i_leather_jingasa_Horned
+
+///////////////////////////////////////////// sm_armors_tailoring_hide_armor_ Barbed
+[SKILLMENU sm_armors_tailoring_hide_armor_Barbed]
+Barbed Armors
+ON=i_hide_tunic_Barbed @color_hide_Barbed hide tunic
+    MAKEITEM=i_hide_tunic_Barbed
+ON=i_hide_gloves_Barbed @color_hide_Barbed hide gloves
+    MAKEITEM=i_hide_gloves_Barbed
+ON=i_hide_gorget_Barbed @color_hide_Barbed hide gorget
+    MAKEITEM=i_hide_gorget_Barbed
+ON=i_hide_pauldrons_Barbed @color_hide_Barbed hide pauldrons
+    MAKEITEM=i_hide_pauldrons_Barbed
+ON=i_hide_pants_Barbed @color_hide_Barbed hide pants
+    MAKEITEM=i_hide_pants_Barbed
+ON=i_hide_tunic_female_Barbed @color_hide_Barbed female hide tunic
+    MAKEITEM=i_hide_tunic_female_Barbed
+ON=i_armor_female_shorts_spiked_Barbed @color_hide_Barbed Spiked Shorts
+    MAKEITEM=i_armor_female_shorts_spiked_Barbed
+ON=i_armor_female_harness_amazon_Barbed @color_hide_Barbed Amazon Harness
+    MAKEITEM=i_armor_female_harness_amazon_Barbed
+ON=i_armor_female_harness_elite_Barbed @color_hide_Barbed Elite Harness
+    MAKEITEM=i_armor_female_harness_elite_Barbed
+ON=i_leather_jingasa_Barbed @color_hide_Barbed Leather Jingasa
+    MAKEITEM=i_leather_jingasa_Barbed
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ Human
+[SKILLMENU sm_armors_tailoring_leather_armor_Human]
+Human Armors
+ON=i_leather_sleeves_Human @color_hide_Human leather sleeves
+    MAKEITEM=i_leather_sleeves_Human
+ON=i_leather_gloves_Human @color_hide_Human leather gloves
+    MAKEITEM=i_leather_gloves_Human
+ON=i_leather_gorget_Human @color_hide_Human leather gorget
+    MAKEITEM=i_leather_gorget_Human
+ON=i_leather_leggings_Human @color_hide_Human leather leggings
+    MAKEITEM=i_leather_leggings_Human
+ON=i_leather_tunic_Human @color_hide_Human leather tunic
+    MAKEITEM=i_leather_tunic_Human
+ON=i_leather_cap_Human @color_hide_Human leather cap
+    MAKEITEM=i_leather_cap_Human
+ON=i_armor_female_shorts_Human @color_hide_Human leather female shorts
+    MAKEITEM=i_armor_female_shorts_Human
+ON=i_armor_female_leather_Human @color_hide_Human leather female armor
+    MAKEITEM=i_armor_female_leather_Human
+ON=i_armor_female_skirt_Human @color_hide_Human leather female skirt
+    MAKEITEM=i_armor_female_skirt_Human
+ON=i_armor_female_bustier_Human @color_hide_Human leather female bustier
+    MAKEITEM=i_armor_female_bustier_Human
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ Troll
+[SKILLMENU sm_armors_tailoring_leather_armor_Troll]
+Troll Armors
+ON=i_leather_sleeves_Troll @color_hide_Troll leather sleeves
+    MAKEITEM=i_leather_sleeves_Troll
+ON=i_leather_gloves_Troll @color_hide_Troll leather gloves
+    MAKEITEM=i_leather_gloves_Troll
+ON=i_leather_gorget_Troll @color_hide_Troll leather gorget
+    MAKEITEM=i_leather_gorget_Troll
+ON=i_leather_leggings_Troll @color_hide_Troll leather leggings
+    MAKEITEM=i_leather_leggings_Troll
+ON=i_leather_tunic_Troll @color_hide_Troll leather tunic
+    MAKEITEM=i_leather_tunic_Troll
+ON=i_leather_cap_Troll @color_hide_Troll leather cap
+    MAKEITEM=i_leather_cap_Troll
+ON=i_armor_female_shorts_Troll @color_hide_Troll leather female shorts
+    MAKEITEM=i_armor_female_shorts_Troll
+ON=i_armor_female_leather_Troll @color_hide_Troll leather female armor
+    MAKEITEM=i_armor_female_leather_Troll
+ON=i_armor_female_skirt_Troll @color_hide_Troll leather female skirt
+    MAKEITEM=i_armor_female_skirt_Troll
+ON=i_armor_female_bustier_Troll @color_hide_Troll leather female bustier
+    MAKEITEM=i_armor_female_bustier_Troll
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ Ettin
+[SKILLMENU sm_armors_tailoring_leather_armor_Ettin]
+Ettin Armors
+ON=i_leather_sleeves_Ettin @color_hide_Ettin leather sleeves
+    MAKEITEM=i_leather_sleeves_Ettin
+ON=i_leather_gloves_Ettin @color_hide_Ettin leather gloves
+    MAKEITEM=i_leather_gloves_Ettin
+ON=i_leather_gorget_Ettin @color_hide_Ettin leather gorget
+    MAKEITEM=i_leather_gorget_Ettin
+ON=i_leather_leggings_Ettin @color_hide_Ettin leather leggings
+    MAKEITEM=i_leather_leggings_Ettin
+ON=i_leather_tunic_Ettin @color_hide_Ettin leather tunic
+    MAKEITEM=i_leather_tunic_Ettin
+ON=i_leather_cap_Ettin @color_hide_Ettin leather cap
+    MAKEITEM=i_leather_cap_Ettin
+ON=i_armor_female_shorts_Ettin @color_hide_Ettin leather female shorts
+    MAKEITEM=i_armor_female_shorts_Ettin
+ON=i_armor_female_leather_Ettin @color_hide_Ettin leather female armor
+    MAKEITEM=i_armor_female_leather_Ettin
+ON=i_armor_female_skirt_Ettin @color_hide_Ettin leather female skirt
+    MAKEITEM=i_armor_female_skirt_Ettin
+ON=i_armor_female_bustier_Ettin @color_hide_Ettin leather female bustier
+    MAKEITEM=i_armor_female_bustier_Ettin
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ Terathan
+[SKILLMENU sm_armors_tailoring_leather_armor_Terathan]
+Terathan Armors
+ON=i_leather_sleeves_Terathan @color_hide_Terathan leather sleeves
+    MAKEITEM=i_leather_sleeves_Terathan
+ON=i_leather_gloves_Terathan @color_hide_Terathan leather gloves
+    MAKEITEM=i_leather_gloves_Terathan
+ON=i_leather_gorget_Terathan @color_hide_Terathan leather gorget
+    MAKEITEM=i_leather_gorget_Terathan
+ON=i_leather_leggings_Terathan @color_hide_Terathan leather leggings
+    MAKEITEM=i_leather_leggings_Terathan
+ON=i_leather_tunic_Terathan @color_hide_Terathan leather tunic
+    MAKEITEM=i_leather_tunic_Terathan
+ON=i_leather_cap_Terathan @color_hide_Terathan leather cap
+    MAKEITEM=i_leather_cap_Terathan
+ON=i_armor_female_shorts_Terathan @color_hide_Terathan leather female shorts
+    MAKEITEM=i_armor_female_shorts_Terathan
+ON=i_armor_female_leather_Terathan @color_hide_Terathan leather female armor
+    MAKEITEM=i_armor_female_leather_Terathan
+ON=i_armor_female_skirt_Terathan @color_hide_Terathan leather female skirt
+    MAKEITEM=i_armor_female_skirt_Terathan
+ON=i_armor_female_bustier_Terathan @color_hide_Terathan leather female bustier
+    MAKEITEM=i_armor_female_bustier_Terathan
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ Ogre
+[SKILLMENU sm_armors_tailoring_leather_armor_Ogre]
+Ogre Armors
+ON=i_leather_sleeves_Ogre @color_hide_Ogre leather sleeves
+    MAKEITEM=i_leather_sleeves_Ogre
+ON=i_leather_gloves_Ogre @color_hide_Ogre leather gloves
+    MAKEITEM=i_leather_gloves_Ogre
+ON=i_leather_gorget_Ogre @color_hide_Ogre leather gorget
+    MAKEITEM=i_leather_gorget_Ogre
+ON=i_leather_leggings_Ogre @color_hide_Ogre leather leggings
+    MAKEITEM=i_leather_leggings_Ogre
+ON=i_leather_tunic_Ogre @color_hide_Ogre leather tunic
+    MAKEITEM=i_leather_tunic_Ogre
+ON=i_leather_cap_Ogre @color_hide_Ogre leather cap
+    MAKEITEM=i_leather_cap_Ogre
+ON=i_armor_female_shorts_Ogre @color_hide_Ogre leather female shorts
+    MAKEITEM=i_armor_female_shorts_Ogre
+ON=i_armor_female_leather_Ogre @color_hide_Ogre leather female armor
+    MAKEITEM=i_armor_female_leather_Ogre
+ON=i_armor_female_skirt_Ogre @color_hide_Ogre leather female skirt
+    MAKEITEM=i_armor_female_skirt_Ogre
+ON=i_armor_female_bustier_Ogre @color_hide_Ogre leather female bustier
+    MAKEITEM=i_armor_female_bustier_Ogre
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ Cyclops
+[SKILLMENU sm_armors_tailoring_leather_armor_Cyclops]
+Cyclops Armors
+ON=i_leather_sleeves_Cyclops @color_hide_Cyclops leather sleeves
+    MAKEITEM=i_leather_sleeves_Cyclops
+ON=i_leather_gloves_Cyclops @color_hide_Cyclops leather gloves
+    MAKEITEM=i_leather_gloves_Cyclops
+ON=i_leather_gorget_Cyclops @color_hide_Cyclops leather gorget
+    MAKEITEM=i_leather_gorget_Cyclops
+ON=i_leather_leggings_Cyclops @color_hide_Cyclops leather leggings
+    MAKEITEM=i_leather_leggings_Cyclops
+ON=i_leather_tunic_Cyclops @color_hide_Cyclops leather tunic
+    MAKEITEM=i_leather_tunic_Cyclops
+ON=i_leather_cap_Cyclops @color_hide_Cyclops leather cap
+    MAKEITEM=i_leather_cap_Cyclops
+ON=i_armor_female_shorts_Cyclops @color_hide_Cyclops leather female shorts
+    MAKEITEM=i_armor_female_shorts_Cyclops
+ON=i_armor_female_leather_Cyclops @color_hide_Cyclops leather female armor
+    MAKEITEM=i_armor_female_leather_Cyclops
+ON=i_armor_female_skirt_Cyclops @color_hide_Cyclops leather female skirt
+    MAKEITEM=i_armor_female_skirt_Cyclops
+ON=i_armor_female_bustier_Cyclops @color_hide_Cyclops leather female bustier
+    MAKEITEM=i_armor_female_bustier_Cyclops
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ Spined
+[SKILLMENU sm_armors_tailoring_leather_armor_Spined]
+Spined Armors
+ON=i_leather_sleeves_Spined @color_hide_Spined leather sleeves
+    MAKEITEM=i_leather_sleeves_Spined
+ON=i_leather_gloves_Spined @color_hide_Spined leather gloves
+    MAKEITEM=i_leather_gloves_Spined
+ON=i_leather_gorget_Spined @color_hide_Spined leather gorget
+    MAKEITEM=i_leather_gorget_Spined
+ON=i_leather_leggings_Spined @color_hide_Spined leather leggings
+    MAKEITEM=i_leather_leggings_Spined
+ON=i_leather_tunic_Spined @color_hide_Spined leather tunic
+    MAKEITEM=i_leather_tunic_Spined
+ON=i_leather_cap_Spined @color_hide_Spined leather cap
+    MAKEITEM=i_leather_cap_Spined
+ON=i_armor_female_shorts_Spined @color_hide_Spined leather female shorts
+    MAKEITEM=i_armor_female_shorts_Spined
+ON=i_armor_female_leather_Spined @color_hide_Spined leather female armor
+    MAKEITEM=i_armor_female_leather_Spined
+ON=i_armor_female_skirt_Spined @color_hide_Spined leather female skirt
+    MAKEITEM=i_armor_female_skirt_Spined
+ON=i_armor_female_bustier_Spined @color_hide_Spined leather female bustier
+    MAKEITEM=i_armor_female_bustier_Spined
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ IceFiend
+[SKILLMENU sm_armors_tailoring_leather_armor_IceFiend]
+IceFiend Armors
+ON=i_leather_sleeves_IceFiend @color_hide_IceFiend leather sleeves
+    MAKEITEM=i_leather_sleeves_IceFiend
+ON=i_leather_gloves_IceFiend @color_hide_IceFiend leather gloves
+    MAKEITEM=i_leather_gloves_IceFiend
+ON=i_leather_gorget_IceFiend @color_hide_IceFiend leather gorget
+    MAKEITEM=i_leather_gorget_IceFiend
+ON=i_leather_leggings_IceFiend @color_hide_IceFiend leather leggings
+    MAKEITEM=i_leather_leggings_IceFiend
+ON=i_leather_tunic_IceFiend @color_hide_IceFiend leather tunic
+    MAKEITEM=i_leather_tunic_IceFiend
+ON=i_leather_cap_IceFiend @color_hide_IceFiend leather cap
+    MAKEITEM=i_leather_cap_IceFiend
+ON=i_armor_female_shorts_IceFiend @color_hide_IceFiend leather female shorts
+    MAKEITEM=i_armor_female_shorts_IceFiend
+ON=i_armor_female_leather_IceFiend @color_hide_IceFiend leather female armor
+    MAKEITEM=i_armor_female_leather_IceFiend
+ON=i_armor_female_skirt_IceFiend @color_hide_IceFiend leather female skirt
+    MAKEITEM=i_armor_female_skirt_IceFiend
+ON=i_armor_female_bustier_IceFiend @color_hide_IceFiend leather female bustier
+    MAKEITEM=i_armor_female_bustier_IceFiend
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ Horned
+[SKILLMENU sm_armors_tailoring_leather_armor_Horned]
+Horned Armors
+ON=i_leather_sleeves_Horned @color_hide_Horned leather sleeves
+    MAKEITEM=i_leather_sleeves_Horned
+ON=i_leather_gloves_Horned @color_hide_Horned leather gloves
+    MAKEITEM=i_leather_gloves_Horned
+ON=i_leather_gorget_Horned @color_hide_Horned leather gorget
+    MAKEITEM=i_leather_gorget_Horned
+ON=i_leather_leggings_Horned @color_hide_Horned leather leggings
+    MAKEITEM=i_leather_leggings_Horned
+ON=i_leather_tunic_Horned @color_hide_Horned leather tunic
+    MAKEITEM=i_leather_tunic_Horned
+ON=i_leather_cap_Horned @color_hide_Horned leather cap
+    MAKEITEM=i_leather_cap_Horned
+ON=i_armor_female_shorts_Horned @color_hide_Horned leather female shorts
+    MAKEITEM=i_armor_female_shorts_Horned
+ON=i_armor_female_leather_Horned @color_hide_Horned leather female armor
+    MAKEITEM=i_armor_female_leather_Horned
+ON=i_armor_female_skirt_Horned @color_hide_Horned leather female skirt
+    MAKEITEM=i_armor_female_skirt_Horned
+ON=i_armor_female_bustier_Horned @color_hide_Horned leather female bustier
+    MAKEITEM=i_armor_female_bustier_Horned
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ Barbed
+[SKILLMENU sm_armors_tailoring_leather_armor_Barbed]
+Barbed Armors
+ON=i_leather_sleeves_Barbed @color_hide_Barbed leather sleeves
+    MAKEITEM=i_leather_sleeves_Barbed
+ON=i_leather_gloves_Barbed @color_hide_Barbed leather gloves
+    MAKEITEM=i_leather_gloves_Barbed
+ON=i_leather_gorget_Barbed @color_hide_Barbed leather gorget
+    MAKEITEM=i_leather_gorget_Barbed
+ON=i_leather_leggings_Barbed @color_hide_Barbed leather leggings
+    MAKEITEM=i_leather_leggings_Barbed
+ON=i_leather_tunic_Barbed @color_hide_Barbed leather tunic
+    MAKEITEM=i_leather_tunic_Barbed
+ON=i_leather_cap_Barbed @color_hide_Barbed leather cap
+    MAKEITEM=i_leather_cap_Barbed
+ON=i_armor_female_shorts_Barbed @color_hide_Barbed leather female shorts
+    MAKEITEM=i_armor_female_shorts_Barbed
+ON=i_armor_female_leather_Barbed @color_hide_Barbed leather female armor
+    MAKEITEM=i_armor_female_leather_Barbed
+ON=i_armor_female_skirt_Barbed @color_hide_Barbed leather female skirt
+    MAKEITEM=i_armor_female_skirt_Barbed
+ON=i_armor_female_bustier_Barbed @color_hide_Barbed leather female bustier
+    MAKEITEM=i_armor_female_bustier_Barbed
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_sa_ Human
+[SKILLMENU sm_armors_tailoring_leather_armor_sa_Human]
+Human Armors
+ON=i_leather_mempo_Human @color_hide_Human leather mempo
+    MAKEITEM=i_leather_mempo_Human
+ON=i_leather_do_Human @color_hide_Human leather do
+    MAKEITEM=i_leather_do_Human
+ON=i_leather_hiro_sode_Human @color_hide_Human leather hiro sode
+    MAKEITEM=i_leather_hiro_sode_Human
+ON=i_leather_suneate_Human @color_hide_Human leather suneate
+    MAKEITEM=i_leather_suneate_Human
+ON=i_leather_haidate_Human @color_hide_Human leather haidate
+    MAKEITEM=i_leather_haidate_Human
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_sa_ Troll
+[SKILLMENU sm_armors_tailoring_leather_armor_sa_Troll]
+Troll Armors
+ON=i_leather_mempo_Troll @color_hide_Troll leather mempo
+    MAKEITEM=i_leather_mempo_Troll
+ON=i_leather_do_Troll @color_hide_Troll leather do
+    MAKEITEM=i_leather_do_Troll
+ON=i_leather_hiro_sode_Troll @color_hide_Troll leather hiro sode
+    MAKEITEM=i_leather_hiro_sode_Troll
+ON=i_leather_suneate_Troll @color_hide_Troll leather suneate
+    MAKEITEM=i_leather_suneate_Troll
+ON=i_leather_haidate_Troll @color_hide_Troll leather haidate
+    MAKEITEM=i_leather_haidate_Troll
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_sa_ Ettin
+[SKILLMENU sm_armors_tailoring_leather_armor_sa_Ettin]
+Ettin Armors
+ON=i_leather_mempo_Ettin @color_hide_Ettin leather mempo
+    MAKEITEM=i_leather_mempo_Ettin
+ON=i_leather_do_Ettin @color_hide_Ettin leather do
+    MAKEITEM=i_leather_do_Ettin
+ON=i_leather_hiro_sode_Ettin @color_hide_Ettin leather hiro sode
+    MAKEITEM=i_leather_hiro_sode_Ettin
+ON=i_leather_suneate_Ettin @color_hide_Ettin leather suneate
+    MAKEITEM=i_leather_suneate_Ettin
+ON=i_leather_haidate_Ettin @color_hide_Ettin leather haidate
+    MAKEITEM=i_leather_haidate_Ettin
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_sa_ Terathan
+[SKILLMENU sm_armors_tailoring_leather_armor_sa_Terathan]
+Terathan Armors
+ON=i_leather_mempo_Terathan @color_hide_Terathan leather mempo
+    MAKEITEM=i_leather_mempo_Terathan
+ON=i_leather_do_Terathan @color_hide_Terathan leather do
+    MAKEITEM=i_leather_do_Terathan
+ON=i_leather_hiro_sode_Terathan @color_hide_Terathan leather hiro sode
+    MAKEITEM=i_leather_hiro_sode_Terathan
+ON=i_leather_suneate_Terathan @color_hide_Terathan leather suneate
+    MAKEITEM=i_leather_suneate_Terathan
+ON=i_leather_haidate_Terathan @color_hide_Terathan leather haidate
+    MAKEITEM=i_leather_haidate_Terathan
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_sa_ Ogre
+[SKILLMENU sm_armors_tailoring_leather_armor_sa_Ogre]
+Ogre Armors
+ON=i_leather_mempo_Ogre @color_hide_Ogre leather mempo
+    MAKEITEM=i_leather_mempo_Ogre
+ON=i_leather_do_Ogre @color_hide_Ogre leather do
+    MAKEITEM=i_leather_do_Ogre
+ON=i_leather_hiro_sode_Ogre @color_hide_Ogre leather hiro sode
+    MAKEITEM=i_leather_hiro_sode_Ogre
+ON=i_leather_suneate_Ogre @color_hide_Ogre leather suneate
+    MAKEITEM=i_leather_suneate_Ogre
+ON=i_leather_haidate_Ogre @color_hide_Ogre leather haidate
+    MAKEITEM=i_leather_haidate_Ogre
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_sa_ Cyclops
+[SKILLMENU sm_armors_tailoring_leather_armor_sa_Cyclops]
+Cyclops Armors
+ON=i_leather_mempo_Cyclops @color_hide_Cyclops leather mempo
+    MAKEITEM=i_leather_mempo_Cyclops
+ON=i_leather_do_Cyclops @color_hide_Cyclops leather do
+    MAKEITEM=i_leather_do_Cyclops
+ON=i_leather_hiro_sode_Cyclops @color_hide_Cyclops leather hiro sode
+    MAKEITEM=i_leather_hiro_sode_Cyclops
+ON=i_leather_suneate_Cyclops @color_hide_Cyclops leather suneate
+    MAKEITEM=i_leather_suneate_Cyclops
+ON=i_leather_haidate_Cyclops @color_hide_Cyclops leather haidate
+    MAKEITEM=i_leather_haidate_Cyclops
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_sa_ Spined
+[SKILLMENU sm_armors_tailoring_leather_armor_sa_Spined]
+Spined Armors
+ON=i_leather_mempo_Spined @color_hide_Spined leather mempo
+    MAKEITEM=i_leather_mempo_Spined
+ON=i_leather_do_Spined @color_hide_Spined leather do
+    MAKEITEM=i_leather_do_Spined
+ON=i_leather_hiro_sode_Spined @color_hide_Spined leather hiro sode
+    MAKEITEM=i_leather_hiro_sode_Spined
+ON=i_leather_suneate_Spined @color_hide_Spined leather suneate
+    MAKEITEM=i_leather_suneate_Spined
+ON=i_leather_haidate_Spined @color_hide_Spined leather haidate
+    MAKEITEM=i_leather_haidate_Spined
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_sa_ IceFiend
+[SKILLMENU sm_armors_tailoring_leather_armor_sa_IceFiend]
+IceFiend Armors
+ON=i_leather_mempo_IceFiend @color_hide_IceFiend leather mempo
+    MAKEITEM=i_leather_mempo_IceFiend
+ON=i_leather_do_IceFiend @color_hide_IceFiend leather do
+    MAKEITEM=i_leather_do_IceFiend
+ON=i_leather_hiro_sode_IceFiend @color_hide_IceFiend leather hiro sode
+    MAKEITEM=i_leather_hiro_sode_IceFiend
+ON=i_leather_suneate_IceFiend @color_hide_IceFiend leather suneate
+    MAKEITEM=i_leather_suneate_IceFiend
+ON=i_leather_haidate_IceFiend @color_hide_IceFiend leather haidate
+    MAKEITEM=i_leather_haidate_IceFiend
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_sa_ Horned
+[SKILLMENU sm_armors_tailoring_leather_armor_sa_Horned]
+Horned Armors
+ON=i_leather_mempo_Horned @color_hide_Horned leather mempo
+    MAKEITEM=i_leather_mempo_Horned
+ON=i_leather_do_Horned @color_hide_Horned leather do
+    MAKEITEM=i_leather_do_Horned
+ON=i_leather_hiro_sode_Horned @color_hide_Horned leather hiro sode
+    MAKEITEM=i_leather_hiro_sode_Horned
+ON=i_leather_suneate_Horned @color_hide_Horned leather suneate
+    MAKEITEM=i_leather_suneate_Horned
+ON=i_leather_haidate_Horned @color_hide_Horned leather haidate
+    MAKEITEM=i_leather_haidate_Horned
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_sa_ Barbed
+[SKILLMENU sm_armors_tailoring_leather_armor_sa_Barbed]
+Barbed Armors
+ON=i_leather_mempo_Barbed @color_hide_Barbed leather mempo
+    MAKEITEM=i_leather_mempo_Barbed
+ON=i_leather_do_Barbed @color_hide_Barbed leather do
+    MAKEITEM=i_leather_do_Barbed
+ON=i_leather_hiro_sode_Barbed @color_hide_Barbed leather hiro sode
+    MAKEITEM=i_leather_hiro_sode_Barbed
+ON=i_leather_suneate_Barbed @color_hide_Barbed leather suneate
+    MAKEITEM=i_leather_suneate_Barbed
+ON=i_leather_haidate_Barbed @color_hide_Barbed leather haidate
+    MAKEITEM=i_leather_haidate_Barbed
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ninja_ Human
+[SKILLMENU sm_armors_tailoring_leather_armor_ninja_Human]
+Human Armors
+ON=i_leather_ninja_hood_Human @color_hide_Human leather ninja hood
+    MAKEITEM=i_leather_ninja_hood_Human
+ON=i_leather_ninja_belt_Human @color_hide_Human leather ninja belt
+    MAKEITEM=i_leather_ninja_belt_Human
+ON=i_leather_ninja_pants_Human @color_hide_Human leather ninja pants
+    MAKEITEM=i_leather_ninja_pants_Human
+ON=i_leather_ninja_mitts_Human @color_hide_Human leather ninja mitts
+    MAKEITEM=i_leather_ninja_mitts_Human
+ON=i_leather_ninja_jacket_Human @color_hide_Human leather ninja jacket
+    MAKEITEM=i_leather_ninja_jacket_Human
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ninja_ Troll
+[SKILLMENU sm_armors_tailoring_leather_armor_ninja_Troll]
+Troll Armors
+ON=i_leather_ninja_hood_Troll @color_hide_Troll leather ninja hood
+    MAKEITEM=i_leather_ninja_hood_Troll
+ON=i_leather_ninja_belt_Troll @color_hide_Troll leather ninja belt
+    MAKEITEM=i_leather_ninja_belt_Troll
+ON=i_leather_ninja_pants_Troll @color_hide_Troll leather ninja pants
+    MAKEITEM=i_leather_ninja_pants_Troll
+ON=i_leather_ninja_mitts_Troll @color_hide_Troll leather ninja mitts
+    MAKEITEM=i_leather_ninja_mitts_Troll
+ON=i_leather_ninja_jacket_Troll @color_hide_Troll leather ninja jacket
+    MAKEITEM=i_leather_ninja_jacket_Troll
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ninja_ Ettin
+[SKILLMENU sm_armors_tailoring_leather_armor_ninja_Ettin]
+Ettin Armors
+ON=i_leather_ninja_hood_Ettin @color_hide_Ettin leather ninja hood
+    MAKEITEM=i_leather_ninja_hood_Ettin
+ON=i_leather_ninja_belt_Ettin @color_hide_Ettin leather ninja belt
+    MAKEITEM=i_leather_ninja_belt_Ettin
+ON=i_leather_ninja_pants_Ettin @color_hide_Ettin leather ninja pants
+    MAKEITEM=i_leather_ninja_pants_Ettin
+ON=i_leather_ninja_mitts_Ettin @color_hide_Ettin leather ninja mitts
+    MAKEITEM=i_leather_ninja_mitts_Ettin
+ON=i_leather_ninja_jacket_Ettin @color_hide_Ettin leather ninja jacket
+    MAKEITEM=i_leather_ninja_jacket_Ettin
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ninja_ Terathan
+[SKILLMENU sm_armors_tailoring_leather_armor_ninja_Terathan]
+Terathan Armors
+ON=i_leather_ninja_hood_Terathan @color_hide_Terathan leather ninja hood
+    MAKEITEM=i_leather_ninja_hood_Terathan
+ON=i_leather_ninja_belt_Terathan @color_hide_Terathan leather ninja belt
+    MAKEITEM=i_leather_ninja_belt_Terathan
+ON=i_leather_ninja_pants_Terathan @color_hide_Terathan leather ninja pants
+    MAKEITEM=i_leather_ninja_pants_Terathan
+ON=i_leather_ninja_mitts_Terathan @color_hide_Terathan leather ninja mitts
+    MAKEITEM=i_leather_ninja_mitts_Terathan
+ON=i_leather_ninja_jacket_Terathan @color_hide_Terathan leather ninja jacket
+    MAKEITEM=i_leather_ninja_jacket_Terathan
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ninja_ Ogre
+[SKILLMENU sm_armors_tailoring_leather_armor_ninja_Ogre]
+Ogre Armors
+ON=i_leather_ninja_hood_Ogre @color_hide_Ogre leather ninja hood
+    MAKEITEM=i_leather_ninja_hood_Ogre
+ON=i_leather_ninja_belt_Ogre @color_hide_Ogre leather ninja belt
+    MAKEITEM=i_leather_ninja_belt_Ogre
+ON=i_leather_ninja_pants_Ogre @color_hide_Ogre leather ninja pants
+    MAKEITEM=i_leather_ninja_pants_Ogre
+ON=i_leather_ninja_mitts_Ogre @color_hide_Ogre leather ninja mitts
+    MAKEITEM=i_leather_ninja_mitts_Ogre
+ON=i_leather_ninja_jacket_Ogre @color_hide_Ogre leather ninja jacket
+    MAKEITEM=i_leather_ninja_jacket_Ogre
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ninja_ Cyclops
+[SKILLMENU sm_armors_tailoring_leather_armor_ninja_Cyclops]
+Cyclops Armors
+ON=i_leather_ninja_hood_Cyclops @color_hide_Cyclops leather ninja hood
+    MAKEITEM=i_leather_ninja_hood_Cyclops
+ON=i_leather_ninja_belt_Cyclops @color_hide_Cyclops leather ninja belt
+    MAKEITEM=i_leather_ninja_belt_Cyclops
+ON=i_leather_ninja_pants_Cyclops @color_hide_Cyclops leather ninja pants
+    MAKEITEM=i_leather_ninja_pants_Cyclops
+ON=i_leather_ninja_mitts_Cyclops @color_hide_Cyclops leather ninja mitts
+    MAKEITEM=i_leather_ninja_mitts_Cyclops
+ON=i_leather_ninja_jacket_Cyclops @color_hide_Cyclops leather ninja jacket
+    MAKEITEM=i_leather_ninja_jacket_Cyclops
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ninja_ Spined
+[SKILLMENU sm_armors_tailoring_leather_armor_ninja_Spined]
+Spined Armors
+ON=i_leather_ninja_hood_Spined @color_hide_Spined leather ninja hood
+    MAKEITEM=i_leather_ninja_hood_Spined
+ON=i_leather_ninja_belt_Spined @color_hide_Spined leather ninja belt
+    MAKEITEM=i_leather_ninja_belt_Spined
+ON=i_leather_ninja_pants_Spined @color_hide_Spined leather ninja pants
+    MAKEITEM=i_leather_ninja_pants_Spined
+ON=i_leather_ninja_mitts_Spined @color_hide_Spined leather ninja mitts
+    MAKEITEM=i_leather_ninja_mitts_Spined
+ON=i_leather_ninja_jacket_Spined @color_hide_Spined leather ninja jacket
+    MAKEITEM=i_leather_ninja_jacket_Spined
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ninja_ IceFiend
+[SKILLMENU sm_armors_tailoring_leather_armor_ninja_IceFiend]
+IceFiend Armors
+ON=i_leather_ninja_hood_IceFiend @color_hide_IceFiend leather ninja hood
+    MAKEITEM=i_leather_ninja_hood_IceFiend
+ON=i_leather_ninja_belt_IceFiend @color_hide_IceFiend leather ninja belt
+    MAKEITEM=i_leather_ninja_belt_IceFiend
+ON=i_leather_ninja_pants_IceFiend @color_hide_IceFiend leather ninja pants
+    MAKEITEM=i_leather_ninja_pants_IceFiend
+ON=i_leather_ninja_mitts_IceFiend @color_hide_IceFiend leather ninja mitts
+    MAKEITEM=i_leather_ninja_mitts_IceFiend
+ON=i_leather_ninja_jacket_IceFiend @color_hide_IceFiend leather ninja jacket
+    MAKEITEM=i_leather_ninja_jacket_IceFiend
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ninja_ Horned
+[SKILLMENU sm_armors_tailoring_leather_armor_ninja_Horned]
+Horned Armors
+ON=i_leather_ninja_hood_Horned @color_hide_Horned leather ninja hood
+    MAKEITEM=i_leather_ninja_hood_Horned
+ON=i_leather_ninja_belt_Horned @color_hide_Horned leather ninja belt
+    MAKEITEM=i_leather_ninja_belt_Horned
+ON=i_leather_ninja_pants_Horned @color_hide_Horned leather ninja pants
+    MAKEITEM=i_leather_ninja_pants_Horned
+ON=i_leather_ninja_mitts_Horned @color_hide_Horned leather ninja mitts
+    MAKEITEM=i_leather_ninja_mitts_Horned
+ON=i_leather_ninja_jacket_Horned @color_hide_Horned leather ninja jacket
+    MAKEITEM=i_leather_ninja_jacket_Horned
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_ninja_ Barbed
+[SKILLMENU sm_armors_tailoring_leather_armor_ninja_Barbed]
+Barbed Armors
+ON=i_leather_ninja_hood_Barbed @color_hide_Barbed leather ninja hood
+    MAKEITEM=i_leather_ninja_hood_Barbed
+ON=i_leather_ninja_belt_Barbed @color_hide_Barbed leather ninja belt
+    MAKEITEM=i_leather_ninja_belt_Barbed
+ON=i_leather_ninja_pants_Barbed @color_hide_Barbed leather ninja pants
+    MAKEITEM=i_leather_ninja_pants_Barbed
+ON=i_leather_ninja_mitts_Barbed @color_hide_Barbed leather ninja mitts
+    MAKEITEM=i_leather_ninja_mitts_Barbed
+ON=i_leather_ninja_jacket_Barbed @color_hide_Barbed leather ninja jacket
+    MAKEITEM=i_leather_ninja_jacket_Barbed
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_gargish_ Human
+[SKILLMENU sm_armors_tailoring_leather_armor_gargish_Human]
+Human Armors
+ON=i_leather_gargoyle_arms_1_Human @color_hide_Human leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_1_Human
+ON=i_leather_gargoyle_arms_2_Human @color_hide_Human leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_2_Human
+ON=i_leather_gargoyle_chest_2_Human @color_hide_Human leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_2_Human
+ON=i_leather_gargoyle_chest_1_Human @color_hide_Human leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_1_Human
+ON=i_leather_gargoyle_leggings_1_Human @color_hide_Human leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_1_Human
+ON=i_leather_gargoyle_leggings_2_Human @color_hide_Human leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_2_Human
+ON=i_leather_gargoyle_kilt_2_Human @color_hide_Human leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_2_Human
+ON=i_leather_gargoyle_kilt_1_Human @color_hide_Human leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_1_Human
+ON=i_gargish_leather_wings_Human @color_hide_Human leather gargoyle wings
+    MAKEITEM=i_gargish_leather_wings_Human
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_gargish_ Troll
+[SKILLMENU sm_armors_tailoring_leather_armor_gargish_Troll]
+Troll Armors
+ON=i_leather_gargoyle_arms_1_Troll @color_hide_Troll leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_1_Troll
+ON=i_leather_gargoyle_arms_2_Troll @color_hide_Troll leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_2_Troll
+ON=i_leather_gargoyle_chest_2_Troll @color_hide_Troll leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_2_Troll
+ON=i_leather_gargoyle_chest_1_Troll @color_hide_Troll leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_1_Troll
+ON=i_leather_gargoyle_leggings_1_Troll @color_hide_Troll leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_1_Troll
+ON=i_leather_gargoyle_leggings_2_Troll @color_hide_Troll leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_2_Troll
+ON=i_leather_gargoyle_kilt_2_Troll @color_hide_Troll leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_2_Troll
+ON=i_leather_gargoyle_kilt_1_Troll @color_hide_Troll leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_1_Troll
+ON=i_gargish_leather_wings_Troll @color_hide_Troll leather gargoyle wings
+    MAKEITEM=i_gargish_leather_wings_Troll
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_gargish_ Ettin
+[SKILLMENU sm_armors_tailoring_leather_armor_gargish_Ettin]
+Ettin Armors
+ON=i_leather_gargoyle_arms_1_Ettin @color_hide_Ettin leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_1_Ettin
+ON=i_leather_gargoyle_arms_2_Ettin @color_hide_Ettin leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_2_Ettin
+ON=i_leather_gargoyle_chest_2_Ettin @color_hide_Ettin leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_2_Ettin
+ON=i_leather_gargoyle_chest_1_Ettin @color_hide_Ettin leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_1_Ettin
+ON=i_leather_gargoyle_leggings_1_Ettin @color_hide_Ettin leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_1_Ettin
+ON=i_leather_gargoyle_leggings_2_Ettin @color_hide_Ettin leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_2_Ettin
+ON=i_leather_gargoyle_kilt_2_Ettin @color_hide_Ettin leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_2_Ettin
+ON=i_leather_gargoyle_kilt_1_Ettin @color_hide_Ettin leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_1_Ettin
+ON=i_gargish_leather_wings_Ettin @color_hide_Ettin leather gargoyle wings
+    MAKEITEM=i_gargish_leather_wings_Ettin
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_gargish_ Terathan
+[SKILLMENU sm_armors_tailoring_leather_armor_gargish_Terathan]
+Terathan Armors
+ON=i_leather_gargoyle_arms_1_Terathan @color_hide_Terathan leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_1_Terathan
+ON=i_leather_gargoyle_arms_2_Terathan @color_hide_Terathan leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_2_Terathan
+ON=i_leather_gargoyle_chest_2_Terathan @color_hide_Terathan leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_2_Terathan
+ON=i_leather_gargoyle_chest_1_Terathan @color_hide_Terathan leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_1_Terathan
+ON=i_leather_gargoyle_leggings_1_Terathan @color_hide_Terathan leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_1_Terathan
+ON=i_leather_gargoyle_leggings_2_Terathan @color_hide_Terathan leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_2_Terathan
+ON=i_leather_gargoyle_kilt_2_Terathan @color_hide_Terathan leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_2_Terathan
+ON=i_leather_gargoyle_kilt_1_Terathan @color_hide_Terathan leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_1_Terathan
+ON=i_gargish_leather_wings_Terathan @color_hide_Terathan leather gargoyle wings
+    MAKEITEM=i_gargish_leather_wings_Terathan
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_gargish_ Ogre
+[SKILLMENU sm_armors_tailoring_leather_armor_gargish_Ogre]
+Ogre Armors
+ON=i_leather_gargoyle_arms_1_Ogre @color_hide_Ogre leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_1_Ogre
+ON=i_leather_gargoyle_arms_2_Ogre @color_hide_Ogre leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_2_Ogre
+ON=i_leather_gargoyle_chest_2_Ogre @color_hide_Ogre leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_2_Ogre
+ON=i_leather_gargoyle_chest_1_Ogre @color_hide_Ogre leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_1_Ogre
+ON=i_leather_gargoyle_leggings_1_Ogre @color_hide_Ogre leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_1_Ogre
+ON=i_leather_gargoyle_leggings_2_Ogre @color_hide_Ogre leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_2_Ogre
+ON=i_leather_gargoyle_kilt_2_Ogre @color_hide_Ogre leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_2_Ogre
+ON=i_leather_gargoyle_kilt_1_Ogre @color_hide_Ogre leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_1_Ogre
+ON=i_gargish_leather_wings_Ogre @color_hide_Ogre leather gargoyle wings
+    MAKEITEM=i_gargish_leather_wings_Ogre
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_gargish_ Cyclops
+[SKILLMENU sm_armors_tailoring_leather_armor_gargish_Cyclops]
+Cyclops Armors
+ON=i_leather_gargoyle_arms_1_Cyclops @color_hide_Cyclops leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_1_Cyclops
+ON=i_leather_gargoyle_arms_2_Cyclops @color_hide_Cyclops leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_2_Cyclops
+ON=i_leather_gargoyle_chest_2_Cyclops @color_hide_Cyclops leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_2_Cyclops
+ON=i_leather_gargoyle_chest_1_Cyclops @color_hide_Cyclops leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_1_Cyclops
+ON=i_leather_gargoyle_leggings_1_Cyclops @color_hide_Cyclops leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_1_Cyclops
+ON=i_leather_gargoyle_leggings_2_Cyclops @color_hide_Cyclops leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_2_Cyclops
+ON=i_leather_gargoyle_kilt_2_Cyclops @color_hide_Cyclops leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_2_Cyclops
+ON=i_leather_gargoyle_kilt_1_Cyclops @color_hide_Cyclops leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_1_Cyclops
+ON=i_gargish_leather_wings_Cyclops @color_hide_Cyclops leather gargoyle wings
+    MAKEITEM=i_gargish_leather_wings_Cyclops
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_gargish_ Spined
+[SKILLMENU sm_armors_tailoring_leather_armor_gargish_Spined]
+Spined Armors
+ON=i_leather_gargoyle_arms_1_Spined @color_hide_Spined leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_1_Spined
+ON=i_leather_gargoyle_arms_2_Spined @color_hide_Spined leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_2_Spined
+ON=i_leather_gargoyle_chest_2_Spined @color_hide_Spined leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_2_Spined
+ON=i_leather_gargoyle_chest_1_Spined @color_hide_Spined leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_1_Spined
+ON=i_leather_gargoyle_leggings_1_Spined @color_hide_Spined leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_1_Spined
+ON=i_leather_gargoyle_leggings_2_Spined @color_hide_Spined leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_2_Spined
+ON=i_leather_gargoyle_kilt_2_Spined @color_hide_Spined leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_2_Spined
+ON=i_leather_gargoyle_kilt_1_Spined @color_hide_Spined leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_1_Spined
+ON=i_gargish_leather_wings_Spined @color_hide_Spined leather gargoyle wings
+    MAKEITEM=i_gargish_leather_wings_Spined
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_gargish_ IceFiend
+[SKILLMENU sm_armors_tailoring_leather_armor_gargish_IceFiend]
+IceFiend Armors
+ON=i_leather_gargoyle_arms_1_IceFiend @color_hide_IceFiend leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_1_IceFiend
+ON=i_leather_gargoyle_arms_2_IceFiend @color_hide_IceFiend leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_2_IceFiend
+ON=i_leather_gargoyle_chest_2_IceFiend @color_hide_IceFiend leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_2_IceFiend
+ON=i_leather_gargoyle_chest_1_IceFiend @color_hide_IceFiend leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_1_IceFiend
+ON=i_leather_gargoyle_leggings_1_IceFiend @color_hide_IceFiend leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_1_IceFiend
+ON=i_leather_gargoyle_leggings_2_IceFiend @color_hide_IceFiend leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_2_IceFiend
+ON=i_leather_gargoyle_kilt_2_IceFiend @color_hide_IceFiend leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_2_IceFiend
+ON=i_leather_gargoyle_kilt_1_IceFiend @color_hide_IceFiend leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_1_IceFiend
+ON=i_gargish_leather_wings_IceFiend @color_hide_IceFiend leather gargoyle wings
+    MAKEITEM=i_gargish_leather_wings_IceFiend
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_gargish_ Horned
+[SKILLMENU sm_armors_tailoring_leather_armor_gargish_Horned]
+Horned Armors
+ON=i_leather_gargoyle_arms_1_Horned @color_hide_Horned leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_1_Horned
+ON=i_leather_gargoyle_arms_2_Horned @color_hide_Horned leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_2_Horned
+ON=i_leather_gargoyle_chest_2_Horned @color_hide_Horned leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_2_Horned
+ON=i_leather_gargoyle_chest_1_Horned @color_hide_Horned leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_1_Horned
+ON=i_leather_gargoyle_leggings_1_Horned @color_hide_Horned leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_1_Horned
+ON=i_leather_gargoyle_leggings_2_Horned @color_hide_Horned leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_2_Horned
+ON=i_leather_gargoyle_kilt_2_Horned @color_hide_Horned leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_2_Horned
+ON=i_leather_gargoyle_kilt_1_Horned @color_hide_Horned leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_1_Horned
+ON=i_gargish_leather_wings_Horned @color_hide_Horned leather gargoyle wings
+    MAKEITEM=i_gargish_leather_wings_Horned
+
+///////////////////////////////////////////// sm_armors_tailoring_leather_armor_gargish_ Barbed
+[SKILLMENU sm_armors_tailoring_leather_armor_gargish_Barbed]
+Barbed Armors
+ON=i_leather_gargoyle_arms_1_Barbed @color_hide_Barbed leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_1_Barbed
+ON=i_leather_gargoyle_arms_2_Barbed @color_hide_Barbed leather gargoyle arms
+    MAKEITEM=i_leather_gargoyle_arms_2_Barbed
+ON=i_leather_gargoyle_chest_2_Barbed @color_hide_Barbed leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_2_Barbed
+ON=i_leather_gargoyle_chest_1_Barbed @color_hide_Barbed leather gargoyle chest
+    MAKEITEM=i_leather_gargoyle_chest_1_Barbed
+ON=i_leather_gargoyle_leggings_1_Barbed @color_hide_Barbed leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_1_Barbed
+ON=i_leather_gargoyle_leggings_2_Barbed @color_hide_Barbed leather gargoyle leggings
+    MAKEITEM=i_leather_gargoyle_leggings_2_Barbed
+ON=i_leather_gargoyle_kilt_2_Barbed @color_hide_Barbed leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_2_Barbed
+ON=i_leather_gargoyle_kilt_1_Barbed @color_hide_Barbed leather gargoyle kilt
+    MAKEITEM=i_leather_gargoyle_kilt_1_Barbed
+ON=i_gargish_leather_wings_Barbed @color_hide_Barbed leather gargoyle wings
+    MAKEITEM=i_gargish_leather_wings_Barbed
+
+///////////////////////////////////////////////////////////
+
+
+[EOF]

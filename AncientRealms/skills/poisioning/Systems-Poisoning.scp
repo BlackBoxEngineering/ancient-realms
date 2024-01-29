@@ -1,0 +1,175 @@
+
+[FUNCTION f_RemoveAllPoisons]
+	FINDID.i_rune_poison.REMOVE
+	FINDID.i_invictus_poison_weak.REMOVE
+	FINDID.i_invictus_poison_medium.REMOVE
+	FINDID.i_invictus_poison_strong.REMOVE
+	FINDID.i_invictus_poison_deadly.REMOVE
+	TAG.PoisonedByUid=
+	TAG.PoisonedByName=
+
+[FUNCTION f_RemoveAllPoisons2]
+	FINDID.i_rune_poison.REMOVE
+	FINDID.i_invictus_poison_weak.REMOVE
+	FINDID.i_invictus_poison_medium.REMOVE
+	FINDID.i_invictus_poison_strong.REMOVE
+	TAG.PoisonedByUid=
+	TAG.PoisonedByName=
+
+[FUNCTION f_CheckWeaponPoison]
+IF (<ARGO>!=0)
+     IF (<SERV.UID.<EVAL <TAG.WeaponUID>>.TAG0.PoisonStrikes>)        
+          LOCAL.IsPoisoned=1
+     ELSE
+          LOCAL.IsPoisoned=0                                                                    
+     ENDIF
+ENDIF
+
+[FUNCTION f_ApplyPoisonWeapon]
+	SRC.TARG.TAG.Poisoned=<ARGV[0]>
+	SRC.TARG.TAG.PoisonedByUid=<SRC.UID>
+	SRC.TARG.TAG.PoisonedByName=<SRC.NAME>
+	SRC.SYSMESSAGE @75 The weapon now has <NAME>
+	CONSUME
+	SRC.SFX 583
+	SRC.NEWITEM i_bottle_empty,1 ,<SRC.UID>
+	SRC.NEWITEM i_poison_delay,1 ,<SRC.UID>
+	
+[FUNCTION f_ApplyPoisonFood]	
+	SRC.TARG.TAG.Poisoned=<ARGV[0]>
+	SRC.TARG.TAG.PoisonedByUid=<SRC.UID>
+	SRC.TARG.TAG.PoisonedByName=<SRC.NAME>
+	SRC.SYSMESSAGE @75 The Food now has <NAME> in it.
+	CONSUME
+	SRC.SFX 583
+	SRC.NEWITEM i_bottle_empty,1 ,<SRC.UID>
+	SRC.NEWITEM i_poison_delay,1 ,<SRC.UID>
+	SRC.BOUNCE
+	CONT.TAG.LastHitBy=<CONT.TAG.PoisonedByUid>
+	CONT.TAG.LastHitByName=<CONT.TAG.PoisonedByName>
+
+[FUNCTION f_ConsumingPoison]
+	IF (<ARGV[0]>=1)
+		NEWITEM i_invictus_poison_weak
+	ELIF (<ARGV[0]>=2)
+		NEWITEM i_invictus_poison_medium
+	ELIF (<ARGV[0]>=3)
+		NEWITEM i_invictus_poison_strong
+	ELIF (<ARGV[0]>=4)
+		NEWITEM i_invictus_poison_deadly
+	ENDIF
+	EFFECT=3,i_fx_curse,0,32,0
+	SYSMESSAGECOMBATEFFECT Poison: Inflicted on <SRC.NAME>
+	TAG.PoisonedByUid=<ACT.TAG.PoisonedByUid>
+	TAG.PoisonedByName=<ACT.TAG.PoisonedByName>
+	RETURN 1 
+	
+[FUNCTION f_MeleePoisonAttack]
+IF (<SERV.UID.<EVAL <TAG.WeaponUID>>.TAG0.PoisonStrikes>)
+	CALL SRC.f_RemoveAllPoisons
+	IF (<SERV.UID.<EVAL <TAG.WeaponUID>>.TAG0.Poisoned>=1)                  
+		NEWITEM i_invictus_poison_weak
+		NEW.CONT <SRC.UID>
+	SRC.EFFECT=3,i_fx_curse,0,32,0
+	SYSMESSAGECOMBATEFFECT Poison: Inflicted on <SRC.NAME>
+	SRC.SYSMESSAGECOMBATEFFECT <NAME> Poisons you.
+	SRC.TAG.PoisonedByUid=<UID> 
+	SRC.TAG.PoisonedByName=<NAME> 
+	ELIF (<SERV.UID.<EVAL <TAG.WeaponUID>>.TAG0.Poisoned>=2)
+		NEWITEM i_invictus_poison_medium
+		NEW.CONT <SRC.UID>
+	SRC.EFFECT=3,i_fx_curse,0,32,0
+	SYSMESSAGECOMBATEFFECT Poison: Inflicted on <SRC.NAME>
+	SRC.SYSMESSAGECOMBATEFFECT <NAME> Poisons you.
+	SRC.TAG.PoisonedByUid=<UID> 
+	SRC.TAG.PoisonedByName=<NAME> 
+	ELIF (<SERV.UID.<EVAL <TAG.WeaponUID>>.TAG0.Poisoned>=3)
+		NEWITEM i_invictus_poison_strong
+		NEW.CONT <SRC.UID>
+	SRC.EFFECT=3,i_fx_curse,0,32,0
+	SYSMESSAGECOMBATEFFECT Poison: Inflicted on <SRC.NAME>
+	SRC.SYSMESSAGECOMBATEFFECT <NAME> Poisons you.
+	SRC.TAG.PoisonedByUid=<UID> 
+	SRC.TAG.PoisonedByName=<NAME> 
+	ELIF (<SERV.UID.<EVAL <TAG.WeaponUID>>.TAG0.Poisoned>=4)
+		NEWITEM i_invictus_poison_deadly
+		NEW.CONT <SRC.UID>
+	SRC.EFFECT=3,i_fx_curse,0,32,0
+	SYSMESSAGECOMBATEFFECT Poison: Inflicted on <SRC.NAME>
+	SRC.SYSMESSAGECOMBATEFFECT <NAME> Poisons you.
+	SRC.TAG.PoisonedByUid=<UID> 
+	SRC.TAG.PoisonedByName=<NAME> 
+	ENDIF
+	IF (<SERV.UID.<EVAL <TAG.WeaponUID>>.TAG0.PoisonStrikes> > 1)
+		SERV.UID.<EVAL <TAG.WeaponUID>>.TAG0.PoisonStrikes=(<SERV.UID.<EVAL <TAG.WeaponUID>>.TAG0.PoisonStrikes>-1)
+	ELIF (<SERV.UID.<EVAL <TAG.WeaponUID>>.TAG0.PoisonStrikes> < 2)
+		SERV.UID.<EVAL <TAG.WeaponUID>>.TAG0.PoisonStrikes=
+        SERV.UID.<EVAL <TAG.WeaponUID>>.TAG0.PoisonedByName=
+        SERV.UID.<EVAL <TAG.WeaponUID>>.TAG0.PoisonedByUid=
+	ENDIF
+ENDIF
+RETURN 1
+           	
+[FUNCTION f_PoisonEffect]
+	IF (<ARGV[0]>=1) // (Weak Poison)
+		DORAND 3
+			CONT.EMOTE A little ill
+			CONT.EMOTE Looking Sweaty
+			CONT.EMOTE Very Pale
+		ENDDO
+		MORE1=<EVAL (<MORE1>+1)>	
+		CONT.HITS=<EVAL (<CONT.HITS>-<EVAL PoisonWeak_Dam>)>
+		CONT.TAG.LastHitBy=<CONT.TAG.PoisonedByUid>
+		CONT.TAG.LastHitByName=<CONT.TAG.PoisonedByName>
+		CONT.ANIM 20
+		CONT.SFX 0155
+		//CONT.ACTION=-1
+		RETURN 1
+	ENDIF
+	IF (<ARGV[0]>=2) // (Medium Poison)
+		DORAND 3
+			CONT.EMOTE Vommit!
+			CONT.EMOTE Turning Green!
+			CONT.EMOTE Very Dizzy!
+		ENDDO
+		MORE1=<EVAL (<MORE1>+1)>	
+		CONT.HITS=<EVAL (<CONT.HITS>-<EVAL PoisonMedium_Dam>)>
+		CONT.TAG.LastHitBy=<CONT.TAG.PoisonedByUid>
+		CONT.TAG.LastHitByName=<CONT.TAG.PoisonedByName>
+		CONT.ANIM 20
+		CONT.SFX 0155
+		//CONT.ACTION=-1
+		RETURN 1
+	ENDIF
+	IF (<ARGV[0]>=3) // (Strong Poison)
+		DORAND 3
+			CONT.EMOTE Farting And Gipping!
+			CONT.EMOTE Vommits Alot!
+			CONT.EMOTE Extremely Ill!
+		ENDDO
+		MORE1=<EVAL (<MORE1>+1)>	
+		CONT.HITS=<EVAL (<CONT.HITS>-<EVAL PoisonStrong_Dam>)>
+		CONT.TAG.LastHitBy=<CONT.TAG.PoisonedByUid>
+		CONT.TAG.LastHitByName=<CONT.TAG.PoisonedByName>
+		CONT.ANIM 20
+		CONT.SFX 0155
+		//CONT.ACTION=-1
+		RETURN 1
+	ENDIF
+	IF (<ARGV[0]>=4) // (Deadly Poison)
+		DORAND 3
+			CONT.EMOTE Feel Like Death!
+			CONT.EMOTE Shit and Vommit Everywhere!
+			CONT.EMOTE Violently Sick!
+		ENDDO
+		MORE1=<EVAL (<MORE1>+1)>
+		CONT.HITS=<EVAL (<CONT.HITS>-<EVAL PoisonDeadly_Dam>)>
+		CONT.TAG.LastHitBy=<CONT.TAG.PoisonedByUid>
+		CONT.TAG.LastHitByName=<CONT.TAG.PoisonedByName>
+		CONT.ANIM 20
+		CONT.SFX 0155
+		//CONT.ACTION=-1
+		RETURN 1
+	ENDIF
+
+[EOF]

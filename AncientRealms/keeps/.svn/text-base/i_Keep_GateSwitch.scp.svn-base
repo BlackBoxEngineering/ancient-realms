@@ -1,0 +1,201 @@
+[ITEMDEF i_Keep_GateSwitch]
+DEFNAME=i_Keep_GateSwitch
+NAME= Keep Gate Switch
+ID=i_switch_2
+TYPE=t_keep_GateSwitch
+CATEGORY=AncientRealms
+SUBSECTION=Keep Gates
+DESCRIPTION=Gate Switch1
+
+ON=@Create
+	COLOR = color_ore_silver
+	TAG.GateSwitch=0
+	TAG.GateNo=0
+
+[ITEMDEF i_Keep_GateSwitch2]
+DEFNAME=i_Keep_GateSwitch2
+NAME= Keep Gate Switch
+ID=i_switch
+TYPE=t_keep_GateSwitch
+CATEGORY=AncientRealms
+SUBSECTION=Keep Gates
+DESCRIPTION=Gate Switch2
+
+ON=@Create
+	COLOR = color_ore_silver
+	TAG.GateSwitch=0
+	TAG.GateNo=0
+
+[FUNCTION BuildOne]
+SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoOneBuilt=1
+[FUNCTION BuildTwo]
+SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoTwoBuilt=1
+
+[TYPEDEF t_keep_GateSwitch]
+ON=@DClick
+	IF (<SRC.ISGM>)
+		SAY @62 GateNo(<EVAL <TAG0.GateNo>>)
+		IF (<TAG0.GateNo>=01)
+			SAY @62 (<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoOneBuilt>)
+			IF !<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoOneBuilt>
+				SRC.SYSMESSAGE @35,,1 <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoOneName> Gate Destroyed
+			ENDIF
+		ENDIF
+		IF (<TAG0.GateNo>=02)
+			SAY @62 (<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoTwoBuilt>)
+			IF !<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoTwoBuilt>
+				SRC.SYSMESSAGE @35,,1 <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoTwoName> Gate Destroyed
+			ENDIF
+		ENDIF
+	ENDIF
+	IF ((<SRC.ISGM>)||(STRMATCH(*Uncaptured*,<REGION.TAG.Ownersname>))||(<SRC.GUILD.UID>=<REGION.TAG0.OwnersUID>))
+		IF (<TAG0.GateNo>=01)		// If Switch is the WestEastGate.
+			IF ((<SRC.ISGM>)||(<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG0.GateNoOneBuilt>))
+				IF (<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG0.GateStatusW>=1)	// If Gates are Up.
+					f_keep_GatesEastLower
+					REGION.ALLCLIENTS SYSMESSAGE @33,,1 <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoOneName> Gate Down 
+				ELSE
+					f_keep_GatesEastRaise
+					REGION.ALLCLIENTS SYSMESSAGE @33,,1 <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoOneName> Gate Up
+				ENDIF
+			ELSE
+				SAY @38 This Gate Has been Destroyed!
+			ENDIF
+		ELIF (<TAG0.GateNo>=02)
+			IF ((<SRC.ISGM>)||(<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG0.GateNoTwoBuilt>))
+				IF (<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG0.GateStatusN>=1)	// If Gates are Up.
+					f_keep_GatesNorthLower
+					REGION.ALLCLIENTS SYSMESSAGE @33,,1 <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoTwoName> Gate Down
+					SRC.GO <f_keep_DiscoverRegionsKeepStoneUID> 
+				ELSE
+					f_keep_GatesNorthRaise
+					REGION.ALLCLIENTS SYSMESSAGE @33,,1 <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoTwoName> Gate Up 
+				ENDIF
+			ELSE
+				SAY @38 This Gate Has been Destroyed!
+			ENDIF
+		ENDIF
+	ELSE
+		SAY @55 <REGION.TAG.Ownersname> members only!
+	ENDIF
+	RETURN 1
+
+[FUNCTION f_keep_GatesEastRaise]
+
+	FOR X 0 <EVAL <f_keep_GateLengthEast>-1>
+		LOCAL.PeiceIndex = <LOCAL.X>
+		SERV.NEWITEM i_keep_gate_E
+		NEW.TAG.KeepRegion = <REGION.UID>
+		NEW.TAG.PeiceIndex = <EVAL <LOCAL.PeiceIndex>>
+		NEW.P = <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGateStart>
+		NEW.TAG.GateP = <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGateStart>
+		SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGatePeice<EVAL <LOCAL.PeiceIndex>> = <NEW.UID>
+		IF <EVAL <LOCAL.X>> != 0
+			NEW.MOVE E -<EVAL <LOCAL.X>>
+		ENDIF
+		NEW.EFFECT 2 i_fx_sparkle 10 14 0 61 2
+		NEW.SFX 240
+	ENDFOR
+	
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateStatusW = 1
+	f_keep_GateKeeperEastSpawn
+
+[FUNCTION f_keep_GatesEastLower]
+
+	FOR X 0 <EVAL <f_keep_GateLengthEast>>
+		LOCAL.PeiceIndex = <LOCAL.X>
+		IF (<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGatePeice<EVAL <LOCAL.PeiceIndex>>>)
+			SERV.UID.<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGatePeice<EVAL <LOCAL.PeiceIndex>>>.EFFECT 2 i_fx_explode 10 14 0 61 3
+			SERV.UID.<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGatePeice<EVAL <LOCAL.PeiceIndex>>>.SFX 241
+			SERV.UID.<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGatePeice<EVAL <LOCAL.PeiceIndex>>>.REMOVE
+			SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGatePeice<EVAL <LOCAL.PeiceIndex>>=
+		ENDIF
+	ENDFOR
+	
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateStatusW = 0
+	f_keep_GateKeeperEastRemove
+
+[FUNCTION f_keep_GatesNorthRaise]
+
+	FOR X 0 <EVAL <f_keep_GateLengthNorth>-1>
+		LOCAL.PeiceIndex = <LOCAL.X>
+		SERV.NEWITEM i_keep_gate_N
+		NEW.TAG.KeepRegion = <REGION.UID>
+		NEW.TAG.PeiceIndex = <EVAL <LOCAL.PeiceIndex>>
+		NEW.P = <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGateStart>
+		NEW.TAG.GateP = <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGateStart>
+		SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGatePeice<EVAL <LOCAL.PeiceIndex>> = <NEW.UID>
+		IF <EVAL <LOCAL.X>> != 0
+			NEW.MOVE N <EVAL <LOCAL.X>>
+		ENDIF
+		NEW.EFFECT 2 i_fx_sparkle 10 14 0 61 2
+		NEW.SFX 240	
+	ENDFOR
+	
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateStatusN = 1
+	f_keep_GateKeeperNorthSpawn
+
+[FUNCTION f_keep_GatesNorthLower]
+
+	FOR X 0 <EVAL <f_keep_GateLengthNorth>>
+		LOCAL.PeiceIndex = <LOCAL.X>
+		IF (<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGatePeice<EVAL <LOCAL.PeiceIndex>>>)
+			SERV.UID.<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGatePeice<EVAL <LOCAL.PeiceIndex>>>.EFFECT 2 i_fx_explode 10 14 0 61 3
+			SERV.UID.<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGatePeice<EVAL <LOCAL.PeiceIndex>>>.SFX 241
+			SERV.UID.<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGatePeice<EVAL <LOCAL.PeiceIndex>>>.REMOVE
+			SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGatePeice<EVAL <LOCAL.PeiceIndex>>=
+		ENDIF
+	ENDFOR
+	
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateStatusN = 0
+	f_keep_GateKeeperNorthRemove
+
+[FUNCTION f_keep_GateLengthNorth]
+	LOCAL.StartP = <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGateStart>
+	LOCAL.EndP = <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGateEnd>
+	RETURN <EVAL <strarg <streat <local.startp>>> - <strarg <streat <local.endp>>>>
+
+[FUNCTION f_keep_GateLengthEast]
+	LOCAL.StartP = <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGateStart>
+	LOCAL.EndP = <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGateEnd>
+	RETURN <EVAL <strarg <local.startp>> - <strarg <local.endp>>>
+	
+[FUNCTION f_keep_GateKeeperNorthSpawn]
+	serv.newnpc c_keep_gatekeeper
+	new.go <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG0.NorthGatekeeperSpawnLocation>
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGatekeeperUID = <SRC.NEW.UID>
+	new.TAG.GateNo=2
+
+[FUNCTION f_keep_GateKeeperEastSpawn]
+	serv.newnpc c_keep_gatekeeper
+	new.go <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG0.EastGatekeeperSpawnLocation>
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGatekeeperUID = <SRC.NEW.UID>
+	new.TAG.GateNo=1
+
+[FUNCTION f_keep_GateKeeperNorthRemove]
+	f_Keep_RemoveGateKeeperBodyGuards <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGatekeeperUID>
+	SERV.UID.<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.NorthGatekeeperUID>.REMOVE
+
+[FUNCTION f_keep_GateKeeperEastRemove]
+	f_Keep_RemoveGateKeeperBodyGuards <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGatekeeperUID>
+	SERV.UID.<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.EastGatekeeperUID>.REMOVE
+
+[FUNCTION f_keepsys_gatekeepers_spawn]
+	f_keep_GateKeeperNorthSpawn
+	f_keep_GateKeeperEastSpawn
+
+[FUNCTION f_keepEnterpoint]
+	REGION.TAG.GuildEnterPoint=<P>
+	SAY @55 <REGION.TAG.GuildEnterPoint>
+
+[FUNCTION f_keepExitpoint]
+	REGION.TAG.GuildEnterPoint=<P>
+	SAY @55 <REGION.TAG.GuildEnterPoint>
+
+[FUNCTION BuildKeepGates]
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoOneBuilt=1
+	f_keep_GatesEastRaise
+	SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoTwoBuilt=1
+	f_keep_GatesNorthRaise
+	
+[EOF]

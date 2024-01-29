@@ -1,0 +1,340 @@
+[ITEMDEF i_arena_equipment_stone]
+ID=i_gravestone
+NAME=Weapons
+TYPE=t_eq_script
+
+CATEGORY=Ancientrealms - Arenas
+SUBSECTION=Event Stones
+DESCRIPTION=Weapon Stone
+
+On=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_MOVE_NEVER
+	COLOR=555
+
+On=@DCLICK
+	SRC.CTAG.WeaponStoneUID=<UID>
+	IF (STRMATCH(*blue*,<SRC.TAG0.CTSTeam>))
+		TAG.EquipmentColor=92
+	ELIF (STRMATCH(*red*,<SRC.TAG0.CTSTeam>))
+		TAG.EquipmentColor=33
+	ELSE
+		TAG.EquipmentColor=1462
+	ENDIF
+	SRC.MENU m_CTS
+	RETURN 1
+
+[MENU m_CTS_weapons]
+Please choose your weapon type:
+ON=0 Swordsmanship Weapons
+MENU m_CTS_swords
+ON=0 Mace Fighting Weapons
+MENU m_CTS_maces
+ON=0 Fencing Weapons
+MENU m_CTS_fencing
+ON=0 Archery Weapons
+MENU m_CTS_archery
+
+[MENU m_CTS_shields]
+Please choose your Shield type:
+ON=0 Buckler
+NEWITEM i_shield_buckler_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+ON=0 Round Shield
+NEWITEM i_shield_round_metal_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+ON=0 Kite Shield
+NEWITEM i_shield_kite_metal_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+ON=0 Heater Shield
+NEWITEM i_shield_heater_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+ON=0 Ancientrealms Shield
+NEWITEM i_shield_dupre_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+
+[MENU m_CTS_Armor]
+Please choose your Armor type:
+ON=0 Platemail
+NEWITEM i_platemail_chest_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_platemail_helm_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_platemail_leggings_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_platemail_arms_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_platemail_gloves_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_platemail_gorget_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+
+ON=0 Chainmail
+NEWITEM i_chainmail_tunic_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_chainmail_coif_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_chainmail_leggings_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_ringmail_gloves_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_boots_calf,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+
+ON=0 Ringmail
+NEWITEM i_ringmail_tunic_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_ringmail_sleeves_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_ringmail_leggings_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_ringmail_gloves_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_studded_gorget_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_boots_calf,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+
+ON=0 Studded
+NEWITEM i_studded_tunic_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_studded_sleeves_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_studded_leggings_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_studded_gloves_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_studded_gorget_verite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+NEWITEM i_boots_calf,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+
+[MENU m_CTS_swords]
+Please choose your weapon:
+
+ON=0 Halberd
+NEWITEM i_halberd_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_halberd_Daemonite"
+
+ON=0 Katana
+NEWITEM i_katana_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_katana_Daemonite"
+
+ON=0 Bardiche
+NEWITEM i_bardiche_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_bardiche_Daemonite"
+
+ON=0 Viking Sword
+NEWITEM i_sword_viking_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_sword_viking_Daemonite"
+
+ON=0 Longsword
+NEWITEM i_sword_long_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_sword_long_Daemonite"
+
+[MENU m_CTS_maces]
+Please choose your weapon:
+
+ON=0 War Hammer
+NEWITEM i_hammer_war_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_hammer_war_Daemonite"
+
+ON=0 War Mace
+NEWITEM i_mace_war_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_mace_war_Daemonite"
+
+ON=0 War Axe
+NEWITEM i_axe_war_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_axe_war_Daemonite"
+
+ON=0 Maul
+NEWITEM i_maul_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_maul_Daemonite"
+
+ON=0 Hammer Pick
+NEWITEM i_hammer_pick_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_hammer_pick_Daemonite"
+
+ON=0 Mace
+NEWITEM i_mace_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_mace_Daemonite"
+
+[MENU m_CTS_fencing]
+Please choose your weapon:
+
+ON=0 Spear
+NEWITEM i_spear_Daemonite,1,<SRC.UID>
+SRC.SAY <EVAL <TAG.EquipmentColor>>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_spear_Daemonite"
+
+ON=0 Short Spear
+NEWITEM i_spear_short_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_spear_short_Daemonite"
+
+ON=0 War Fork
+NEWITEM i_war_fork_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_war_fork_Daemonite"
+
+ON=0 Kryss
+NEWITEM i_kryss_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_kryss_Daemonite"
+
+ON=0 Dagger
+NEWITEM i_dagger_Daemonite,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_dagger_Daemonite"
+
+[MENU m_CTS_archery]
+Please choose your weapon:
+
+ON=0 Bow
+NEWITEM i_bow_cherry,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_bow_cherry"
+
+ON=0 Crossbow
+NEWITEM i_crossbow_cherry,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_crossbow_cherry"
+
+ON=0 Yumi
+NEWITEM i_yumi_cherry,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_yumi_cherry"
+
+ON=0 Heavy Crossbow
+NEWITEM i_yumi_cherry,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+NEW.BOUNCE
+SRC.TAG.RESWEAPON="i_crossbow_heavy_cherry"
+
+
+[MENU m_CTS]
+Welcome to the Assault items menu:
+ON=0 Weapons
+SRC.MENU m_CTS_weapons
+
+ON=0 Armor
+SRC.MENU m_CTS_Armor
+
+ON=0 Shields
+SRC.MENU m_CTS_Shields
+
+ON=0 Reagents
+NEWITEM CTS_reagbag,1,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+IF !<SRC.FINDID.i_cts_spellbook>
+	NEWITEM i_cts_spellbook,1,<SRC.UID>
+	NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+ENDIF
+
+ON=0 Five Mana Refresh Potions
+NEWITEM i_potion_mana,5,<SRC.UID>
+
+ON=0 Five Greater Heal Potions
+NEWITEM i_potion_healgreat,5,<SRC.UID>
+
+ON=0 Five Total Refresh Potions
+NEWITEM i_potion_refreshtotal,5,<SRC.UID>
+
+ON=0 Five Poison Potions
+NEWITEM i_potion_poison,5,<SRC.UID>
+
+ON=0 Mage Staff
+NEWITEM i_staff_gnarled_ebony,5,<SRC.UID>
+
+ON=0 Bandages
+SRC.NEWITEM i_bandage,100,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+
+ON=0 Arrows & Bolts
+SRC.NEWITEM i_arrow,50,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+SRC.NEWITEM i_xbolt,50,<SRC.UID>
+NEW.COLOR=<SERV.UID.<CTAG.WeaponStoneUID>.TAG.EquipmentColor>
+
+[TEMPLATE CTS_reagbag]
+DEFNAME=CTS_reagbag
+CONTAINER=i_bag
+ITEM=i_reag_garlic
+AMOUNT=50
+ITEM=i_reag_nightshade
+AMOUNT=50
+ITEM=i_reag_sulfur_ash
+AMOUNT=50
+ITEM=i_reag_blood_moss
+AMOUNT=50
+ITEM=i_reag_black_pearl
+AMOUNT=50
+ITEM=i_reag_spider_silk
+AMOUNT=50
+ITEM=i_reag_ginseng
+AMOUNt=50
+ITEM=i_reag_mandrake_root
+AMOUNT=50
+
+
+
+
+[EOF]

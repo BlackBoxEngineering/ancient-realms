@@ -1,0 +1,15 @@
+[FUNCTION f_Keep_CheckForCaptureBreak]
+
+	IF ((<LOCAL.StartPosX>=<LOCAL.CurrentPosX>)&&(<LOCAL.StartPosY>=<LOCAL.CurrentPosY>)&&(<LOCAL.StartPosZ>=<LOCAL.CurrentPosZ>))
+		// Has Not Moved
+	ELSE
+		SFX 855
+		SAY @33 Capture Failed! ( You Moved )
+		REGION.TAG.PeopleTryingToCapture=0
+		CONT.REGION.TAG.PeopleTryingToCapture=
+		CONT.FINDID.i_capture_TIMER.REMOVE
+		CONT.FINDID.i_keep_CaptureCounter.REMOVE	
+		RETURN 1	
+	ENDIF
+
+[EOF]

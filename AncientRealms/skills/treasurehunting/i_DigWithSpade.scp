@@ -1,0 +1,86 @@
+[ITEMDEF i_DigWithSpade]
+DEFNAME=i_DigWithSpade
+ID=i_shovel
+NAME=I am digging
+TYPE=t_eq_script
+LAYER=layer_special
+
+ON=@Create
+	ATTR=attr_newbie|attr_decay|attr_move_never
+	TAG.UseCount=1
+	TIMERD=1
+
+ON=@TIMER
+	LOCAL.MaxUseCount=<EVAL 15 - <CONT.CARTOGRAPHY>/100>
+	IF ((<EVAL <CONT.CTAG.SpadeStartPosX>>!=<CONT.P.X>) || (<EVAL <CONT.CTAG.SpadeStartPosY>>!=<CONT.P.Y>) || (<EVAL <CONT.CTAG.SpadeStartPosZ>>!=<CONT.P.Z>))
+		CONT.CTAG.SpadeStartPosX=
+		CONT.CTAG.SpadeStartPosY=
+		CONT.CTAG.SpadeStartPosZ=
+		REMOVE
+		RETURN 1
+	ENDIF
+	DORAND 2
+		CONT.ANIM 7
+		CONT.ANIM 8
+	ENDDO
+	DORAND 5
+		CONT.SFX 945
+		CONT.SFX 946
+		CONT.SFX 947
+		CONT.SFX 948
+		CONT.SFX 949
+	ENDDO
+	IF (STRMATCH(*t_normal*,<SERV.MAP(<CONT.P.X>,<CONT.P.Y>,<MAP>).TYPE>))
+		CONT.SYSMESSAGE @154,,1 You dig in the ground
+	ELIF (STRMATCH(*t_dirt*,<SERV.MAP(<CONT.P.X>,<CONT.P.Y>,<MAP>).TYPE>))
+		CONT.SYSMESSAGE @154,,1 You dig in the dirt
+	ELIF (STRMATCH(*t_grass*,<SERV.MAP(<CONT.P.X>,<CONT.P.Y>,<MAP>).TYPE>))
+		CONT.SYSMESSAGE @154,,1 You dig up the grass
+	ELIF (STRMATCH(*t_water*,<SERV.MAP(<CONT.P.X>,<CONT.P.Y>,<MAP>).TYPE>))
+		CONT.SYSMESSAGE @154,,1 You try digging in the water but its useless!
+		CONT.CTAG.SpadeStartPosX=
+		CONT.CTAG.SpadeStartPosY=
+		CONT.CTAG.SpadeStartPosZ=
+		REMOVE
+		RETURN 1
+	ELSE
+		CONT.SYSMESSAGE @154,,1 You cant dig in <SERV.MAP(<CONT.P.X>,<CONT.P.Y>,<MAP>).TYPE>
+		CONT.CTAG.SpadeStartPosX=
+		CONT.CTAG.SpadeStartPosY=
+		CONT.CTAG.SpadeStartPosZ=
+		REMOVE
+		RETURN 1
+	ENDIF
+	IF <EVAL <TAG.UseCount>> > <EVAL <LOCAL.MaxUseCount>>
+		REF1=<CONT.UID>
+		LOCAL.Discovered=0
+		FORCONT <REF1.FINDLAYER.21.UID> 10
+			IF (STRMATCH(*i_TreasureMapLevel*,<BASEID>))
+				IF ((<EVAL <TAG.TreasureLocationX>>=<REF1.P.X>) && (<EVAL <TAG.TreasureLocationY>>=<REF1.P.Y>) && (<EVAL <TAG.TreasureLocationZ>>=<REF1.P.Z>))
+					LOCAL.MapInUseUID=<UID>
+					LOCAL.Discovered=1
+					REF1.SFX 1230
+				ENDIF
+			ENDIF
+		ENDFOR
+		IF <EVAL <LOCAL.Discovered>> > 0
+			REF1.EMOTE pull something out of the ground
+			SERV.UID.<LOCAL.MapInUseUID>.COLOR=63
+			REF1.f_DigUpTreasureChestHere <SERV.UID.<LOCAL.MapInUseUID>.TAG.MapLevel>, <SERV.UID.<LOCAL.MapInUseUID>.TAG.TreasureLocation>
+			SERV.UID.<LOCAL.MapInUseUID>.TAG.TreasureLocationX=
+			SERV.UID.<LOCAL.MapInUseUID>.TAG.TreasureLocationY=
+			SERV.UID.<LOCAL.MapInUseUID>.TAG.TreasureLocationZ=
+			SERV.UID.<LOCAL.MapInUseUID>.TAG.MapLevel=
+		ELSE
+			REF1.SAY @55 There does not seem to be anything here
+		ENDIF
+		REMOVE
+		RETURN 1
+	ELSE
+		TAG.UseCount=<EVAL <TAG.UseCount>+1>
+		TIMER=1
+	ENDIF
+	RETURN 1
+	
+	
+[EOF]

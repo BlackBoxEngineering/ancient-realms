@@ -1,0 +1,236 @@
+[itemdef i_cts_spellbook]
+ID=i_spellbook
+ON=@CREATE
+  ATTR=04
+  MORE=0770bceff
+  MORE2=0575a73a
+
+[itemdef i_red_enter_game]
+ID=i_paver_stone
+TYPE=t_script
+
+ON=@Create
+	ATTR=ATTR_NEWBIE|ATTR_MOVE_NEVER
+	COLOR=33
+
+ON=@DCLICK
+	SAY @33 Enter Game Pad!
+	RETURN 1
+
+ON=@STEP
+	IF (<SRC.FLAGS>&STATF_DEAD)
+		RETURN 1
+	ELSE
+		SRC.GO 6008,1603
+	ENDIF
+
+[itemdef i_blue_enter_game]
+ID=i_paver_stone
+TYPE=t_script
+
+ON=@Create
+	ATTR=ATTR_NEWBIE|ATTR_MOVE_NEVER
+	COLOR=92
+
+ON=@DCLICK
+	SAY @92 Enter Game Pad!
+	RETURN 1
+
+ON=@STEP
+	IF (<SRC.FLAGS>&STATF_DEAD)
+		RETURN 1
+	ELSE
+		SRC.GO 6027,1713
+	ENDIF
+
+
+[ITEMDEF i_blue_shield_cts]
+Name=Blue Shield
+ID=i_shield_order
+Type=t_shield
+
+ON=@Create
+	ATTR=ATTR_NEWBIE|ATTR_MOVE_NEVER
+	HITPOINTS=10000
+	COLOR=92
+	
+ON=@DCLICK
+	SAY @63 Step on Me!
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueShieldUID=<UID>
+	RETURN 1
+
+ON=@CLICK
+	SAY @63 Step on Me!
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueShieldUID=<UID>
+	RETURN 1
+
+ON=@STEP
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueShieldUID=<UID>
+	IF (<SRC.FLAGS>&STATF_DEAD)
+		RETURN 1
+	ELSE
+		IF (STRMATCH(*red*,<SRC.TAG0.CTSTeam>))
+			EQUIP			
+			SRC.Say @63 I have the shield!
+			SRC.Tag.CTSRewardPoints=<EVAL <SRC.TAG.CTSRewardPoints> +10>
+			SERV.B @33 <SRC.NAME> Has Captured The Blue Shield Shield!
+			NEWITEM=i_reward_calculater, 1, <SRC.UID>
+			SERV.UID.<EVAL AS_FernBank_PlayerControl>.REGION.TAG.BlueShieldHome=
+			RETURN 1
+		ENDIF
+		IF (STRMATCH(*blue*,<SRC.TAG0.CTSTeam>))
+			IF (<SRC.P.X>!=5995)&&(<SRC.P.Y>!=1711)
+				SRC.Say @63 I Returned the shield!
+				SRC.Tag.CTSRewardPoints=<EVAL <SRC.TAG.CTSRewardPoints> +10>
+				SERV.B @95 <SRC.NAME> Has Returned The Blue Shield!
+				IF <SRC.FINDID.i_reward_calculater>
+					SRC.FINDID.i_reward_calculater.REMOVE
+				ENDIF
+				f_reset_blue_shield
+				REMOVE				
+				RETURN 1
+			ENDIF
+		ENDIF
+	ENDIF
+	RETURN 1
+
+[ITEMDEF i_red_shield_cts]
+Name=Red Shield
+ID=i_shield_order
+Type=t_shield
+
+ON=@Create
+	ATTR=ATTR_NEWBIE|ATTR_MOVE_NEVER
+	HITPOINTS=10000
+	COLOR=35
+	
+ON=@DCLICK
+	SAY @63 Step on Me!
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedShieldUID=<UID>
+	RETURN 1
+
+ON=@CLICK
+	SAY @63 Step on Me!
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedShieldUID=<UID>
+	RETURN 1
+
+ON=@STEP
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedShieldUID=<UID>
+	IF (<SRC.FLAGS>&STATF_DEAD)
+		RETURN 1
+	ELSE
+		IF (STRMATCH(*blue*,<SRC.TAG0.CTSTeam>))
+			EQUIP			
+			SRC.Say @63 I have the shield!
+			SRC.Tag.CTSRewardPoints=<EVAL <SRC.TAG.CTSRewardPoints> +10>
+			SERV.B @95 <SRC.NAME> Has Captured The Red Shield Shield!
+			NEWITEM=i_reward_calculater, 1, <SRC.UID>
+			SERV.UID.<EVAL AS_FernBank_PlayerControl>.REGION.TAG.RedShieldHome=
+			RETURN 1
+		ENDIF
+		IF (STRMATCH(*red*,<SRC.TAG0.CTSTeam>))
+			IF (<SRC.P.X>!=6052)&&(<SRC.P.Y>!=1610)
+				SRC.Say @63 I Returned the shield!
+				SRC.TAG.CTSRewardPoints=<EVAL <SRC.TAG.CTSRewardPoints> +10>
+				SERV.B @33 <SRC.NAME> Has Returned The Red Shield!
+				IF <SRC.FINDID.i_reward_calculater>
+					SRC.FINDID.i_reward_calculater.REMOVE
+				ENDIF
+				f_reset_red_shield
+				REMOVE
+				RETURN 1
+			ENDIF
+		ENDIF
+	ENDIF
+	RETURN 1
+
+[ITEMDEF i_blue_pad_cts]
+Name=Blue CTS Pad
+ID = i_rune_alchem_6
+Type=t_shield
+
+CATEGORY=Ancientrealms - Arenas
+SUBSECTION=CTS PADS
+DESCRIPTION=BLUE
+
+ON=@Create
+	ATTR=ATTR_NEWBIE|ATTR_MOVE_NEVER
+	HITPOINTS=10000	
+	COLOR=95
+
+ON=@DCLICK
+	Say @95 Blue Pad
+	RETURN 1
+
+ON=@Step
+	IF (<SERV.UID.<EVAL AS_FernBank_PlayerControl>.REGION.TAG0.BlueShieldHome>=1)
+		IF (<SRC.FINDID.i_red_shield_cts>)
+			SRC.FINDID.i_red_shield_cts.REMOVE
+			IF <SRC.FINDID.i_reward_calculater>
+				SRC.FINDID.i_reward_calculater.REMOVE
+			ENDIF
+			SRC.TAG.CTSRewardPoints=<EVAL <SRC.TAG.CTSRewardPoints> +10>
+			SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueTeamPlayerScore=<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueTeamPlayerScore>+1
+			SERV.B @95 <SRC.NAME> SCORES! Blues(<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueTeamPlayerScore>)
+			SERV.B @33 Reds (<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedTeamPlayerScore>)
+			IF (<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueTeamPlayerScore> > 2)
+				SERV.B @63 BLUE TEAM WINS!!!
+				StopCTS
+				RETURN 1
+			ENDIF				
+			f_reset_red_shield
+			RETURN 1
+		ENDIF	
+	ELSE
+		IF (<SRC.FINDID.i_red_shield_cts>)
+			REGION.SYSMESSAGE @95 You must Return the Blue Shield to Score
+		ENDIF
+	ENDIF
+	RETURN 1
+	
+[ITEMDEF i_red_pad_cts]
+Name=Red CTS Pad
+ID = i_rune_alchem_6
+Type=t_shield
+
+CATEGORY=Ancientrealms - Arenas
+SUBSECTION=CTS PADS
+DESCRIPTION=RED
+
+ON=@Create
+	ATTR=ATTR_NEWBIE|ATTR_MOVE_NEVER
+	HITPOINTS=10000	
+	COLOR=33
+
+ON=@DCLICK
+	Say @35 Red Pad
+	RETURN 1
+
+ON=@Step
+	IF (<SERV.UID.<EVAL AS_FernBank_PlayerControl>.REGION.TAG0.RedShieldHome>=1)
+		IF (<SRC.FINDID.i_blue_shield_cts>)
+			SRC.FINDID.i_blue_shield_cts.REMOVE
+			IF <SRC.FINDID.i_reward_calculater>
+				SRC.FINDID.i_reward_calculater.REMOVE
+			ENDIF
+			SRC.TAG.CTSRewardPoints=<EVAL <SRC.TAG.CTSRewardPoints> +10>
+			SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedTeamPlayerScore=<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedTeamPlayerScore>+1
+			SERV.B @33 <SRC.NAME> SCORES! Reds (<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedTeamPlayerScore>)
+			SERV.B @95 Blues (<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueTeamPlayerScore>)
+			IF (<SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedTeamPlayerScore> > 2)
+				SERV.B @63 RED TEAM WINS!!!
+				StopCTS
+				RETURN 1
+			ENDIF				
+			f_reset_blue_shield
+			RETURN 1
+		ENDIF	
+	ELSE
+		IF (<SRC.FINDID.i_blue_shield_cts>)
+			REGION.SYSMESSAGE @95 You must Return the Red Shield to Score
+		ENDIF
+	ENDIF
+	RETURN 1
+	
+	
+[EOF]

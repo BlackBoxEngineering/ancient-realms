@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////DullCopper Quarter Staff
+
+[ITEMDEF i_staff_quarter_DullCopper]
+   DEFNAME=i_staff_quarter_DullCopper
+   ID=i_staff_quarter
+   NAME=DullCopper Quarter Staff
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=17
+   VALUE=15
+   SPEED=44
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={20 22}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_DullCopper]
+   DEFNAME=i_serpentstone_staff_DullCopper
+   ID=i_serpentstone_staff
+   NAME=DullCopper Serpentstone Staff
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=21
+   VALUE=15
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={60 62}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_DullCopper]
+   DEFNAME=i_staff_bladed_double_DullCopper
+   ID=i_staff_bladed_double
+   NAME=DullCopper Double Bladed Staff
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=29
+   VALUE=15
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={120 122}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Glass Staff
+
+[ITEMDEF i_glass_staff_DullCopper]
+   DEFNAME=i_glass_staff_DullCopper
+   ID=i_glass_staff
+   NAME=DullCopper Glass Staff
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=26
+   VALUE=15
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={90 92}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Bladed Staff
+
+[ITEMDEF i_bladed_staff_DullCopper]
+   DEFNAME=i_bladed_staff_DullCopper
+   ID=i_bladed_staff
+   NAME=DullCopper Bladed Staff
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=27
+   VALUE=15
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={115 117}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Tongs
+
+[ITEMDEF i_tongs_DullCopper]
+   DEFNAME=i_tongs_DullCopper
+   ID=i_tongs
+   NAME=DullCopper Tongs
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=4
+   VALUE=15
+   SPEED=6
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={0 2}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Mace
+
+[ITEMDEF i_mace_DullCopper]
+   DEFNAME=i_mace_DullCopper
+   ID=i_mace
+   NAME=DullCopper Mace
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=17
+   VALUE=15
+   SPEED=35
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={30 32}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Maul
+
+[ITEMDEF i_maul_DullCopper]
+   DEFNAME=i_maul_DullCopper
+   ID=i_maul
+   NAME=DullCopper Maul
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=19
+   VALUE=15
+   SPEED=37
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={40 42}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Scepter
+
+[ITEMDEF i_scepter_DullCopper]
+   DEFNAME=i_scepter_DullCopper
+   ID=i_scepter
+   NAME=DullCopper Scepter
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=21
+   VALUE=15
+   SPEED=39
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={50 52}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_DullCopper]
+   DEFNAME=i_hammer_sledge_DullCopper
+   ID=i_hammer_sledge
+   NAME=DullCopper Sledge Hammer
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=21
+   VALUE=15
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={20 22}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Smiths Hammer
+
+[ITEMDEF i_hammer_smith_DullCopper]
+   DEFNAME=i_hammer_smith_DullCopper
+   ID=i_hammer_smith
+   NAME=DullCopper Smiths Hammer
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=7
+   VALUE=15
+   SPEED=6
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={30 32}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper War Mace
+
+[ITEMDEF i_mace_war_DullCopper]
+   DEFNAME=i_mace_war_DullCopper
+   ID=i_mace_war
+   NAME=DullCopper War Mace
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=25
+   VALUE=15
+   SPEED=39
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={80 82}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Disc Mace
+
+[ITEMDEF i_disc_mace_DullCopper]
+   DEFNAME=i_disc_mace_DullCopper
+   ID=i_disc_mace
+   NAME=DullCopper Disc Mace
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=25
+   VALUE=15
+   SPEED=39
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={70 72}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper War Hammer
+
+[ITEMDEF i_hammer_war_DullCopper]
+   DEFNAME=i_hammer_war_DullCopper
+   ID=i_hammer_war
+   NAME=DullCopper War Hammer
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=31
+   VALUE=15
+   SPEED=46
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={100 102}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Hammer Pick
+
+[ITEMDEF i_hammer_pick_DullCopper]
+   DEFNAME=i_hammer_pick_DullCopper
+   ID=i_hammer_pick
+   NAME=DullCopper Hammer Pick
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=27
+   VALUE=15
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={55 57}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper War Axe
+
+[ITEMDEF i_axe_war_DullCopper]
+   DEFNAME=i_axe_war_DullCopper
+   ID=i_axe_war
+   NAME=DullCopper War Axe
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=17
+   VALUE=15
+   SPEED=37
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={65 67}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Tessen
+
+[ITEMDEF i_tessen_DullCopper]
+   DEFNAME=i_tessen_DullCopper
+   ID=i_tessen
+   NAME=DullCopper Tessen
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=16
+   VALUE=15
+   SPEED=31
+   SKILL=MACEFIGHTING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={75 77}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Long Sword
+
+[ITEMDEF i_sword_long_DullCopper]
+   DEFNAME=i_sword_long_DullCopper
+   ID=i_sword_long
+   NAME=DullCopper Long Sword
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=13
+   VALUE=15
+   SPEED=23
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={10 12}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Broad Sword
+
+[ITEMDEF i_sword_broad_DullCopper]
+   DEFNAME=i_sword_broad_DullCopper
+   ID=i_sword_broad
+   NAME=DullCopper Broad Sword
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=13
+   VALUE=15
+   SPEED=23
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={20 22}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Scimitar
+
+[ITEMDEF i_scimitar_DullCopper]
+   DEFNAME=i_scimitar_DullCopper
+   ID=i_scimitar
+   NAME=DullCopper Scimitar
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=15
+   VALUE=15
+   SPEED=26
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={30 32}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Viking Sword
+
+[ITEMDEF i_sword_viking_DullCopper]
+   DEFNAME=i_sword_viking_DullCopper
+   ID=i_sword_viking
+   NAME=DullCopper Viking Sword
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=16
+   VALUE=15
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={35 37}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Katana
+
+[ITEMDEF i_katana_DullCopper]
+   DEFNAME=i_katana_DullCopper
+   ID=i_katana
+   NAME=DullCopper Katana
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=15
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={80 82}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Wakizashi
+
+[ITEMDEF i_wakizashi_DullCopper]
+   DEFNAME=i_wakizashi_DullCopper
+   ID=i_wakizashi
+   NAME=DullCopper Wakizashi
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=15
+   VALUE=15
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={45 47}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Long Sword
+
+[ITEMDEF i_sword_long_b_DullCopper]
+   DEFNAME=i_sword_long_b_DullCopper
+   ID=i_sword_long_b
+   NAME=DullCopper Long Sword
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=16
+   VALUE=15
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={50 52}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Paladin Sword
+
+[ITEMDEF i_sword_paladin_DullCopper]
+   DEFNAME=i_sword_paladin_DullCopper
+   ID=i_sword_paladin
+   NAME=DullCopper Paladin Sword
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=15
+   SPEED=28
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={65 67}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Bokuto
+
+[ITEMDEF i_bokuto_DullCopper]
+   DEFNAME=i_bokuto_DullCopper
+   ID=i_bokuto
+   NAME=DullCopper Bokuto
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=18
+   VALUE=15
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={70 72}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_DullCopper]
+   DEFNAME=i_Radiant_Scimitar_DullCopper
+   ID=i_Radiant_Scimitar
+   NAME=DullCopper Radiant Scimitar
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=15
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={75 77}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Bone Harvester
+
+[ITEMDEF i_bone_harvester_DullCopper]
+   DEFNAME=i_bone_harvester_DullCopper
+   ID=i_bone_harvester
+   NAME=DullCopper Bone Harvester
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=13
+   VALUE=15
+   SPEED=23
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={55 57}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Butcher Knife
+
+[ITEMDEF i_knife_butcher_DullCopper]
+   DEFNAME=i_knife_butcher_DullCopper
+   ID=i_knife_butcher
+   NAME=DullCopper Butcher Knife
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=11
+   VALUE=15
+   SPEED=23
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={30 32}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_DullCopper]
+   DEFNAME=i_cleaver_meat_DullCopper
+   ID=i_cleaver_meat
+   NAME=DullCopper Meat Cleaver
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=11
+   VALUE=15
+   SPEED=23
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={30 32}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Elven Machete
+
+[ITEMDEF i_elven_machete_DullCopper]
+   DEFNAME=i_elven_machete_DullCopper
+   ID=i_elven_machete
+   NAME=DullCopper Elven Machete
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=20
+   VALUE=15
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={60 62}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Bone Machete
+
+[ITEMDEF i_bone_machete_DullCopper]
+   DEFNAME=i_bone_machete_DullCopper
+   ID=i_bone_machete
+   NAME=DullCopper Bone Machete
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=15
+   SPEED=27
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={50 52}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Daisho
+
+[ITEMDEF i_daisho_DullCopper]
+   DEFNAME=i_daisho_DullCopper
+   ID=i_daisho
+   NAME=DullCopper Daisho
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=15
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={65 67}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper No-Dachi
+
+[ITEMDEF i_no_dachi_DullCopper]
+   DEFNAME=i_no_dachi_DullCopper
+   ID=i_no_dachi
+   NAME=DullCopper No-Dachi
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=15
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={75 77}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Rune Blade
+
+[ITEMDEF i_Rune_Blade_DullCopper]
+   DEFNAME=i_Rune_Blade_DullCopper
+   ID=i_Rune_Blade
+   NAME=DullCopper Rune Blade
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=15
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={115 117}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Axe
+
+[ITEMDEF i_axe_DullCopper]
+   DEFNAME=i_axe_DullCopper
+   ID=i_axe
+   NAME=DullCopper Axe
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=15
+   VALUE=15
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={42 44}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Bardiche
+
+[ITEMDEF i_bardiche_DullCopper]
+   DEFNAME=i_bardiche_DullCopper
+   ID=i_bardiche
+   NAME=DullCopper Bardiche
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=21
+   VALUE=15
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={58 60}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Battle Axe
+
+[ITEMDEF i_axe_battle_DullCopper]
+   DEFNAME=i_axe_battle_DullCopper
+   ID=i_axe_battle
+   NAME=DullCopper Battle Axe
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=23
+   VALUE=15
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={65 67}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Double Axe
+
+[ITEMDEF i_axe_double_DullCopper]
+   DEFNAME=i_axe_double_DullCopper
+   ID=i_axe_double
+   NAME=DullCopper Double Axe
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=25
+   VALUE=15
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={70 72}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Exectutioners Axe
+
+[ITEMDEF i_axe_exec_DullCopper]
+   DEFNAME=i_axe_exec_DullCopper
+   ID=i_axe_exec
+   NAME=DullCopper Exectutioners Axe
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=25
+   VALUE=15
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={73 75}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Halberd
+
+[ITEMDEF i_halberd_DullCopper]
+   DEFNAME=i_halberd_DullCopper
+   ID=i_halberd
+   NAME=DullCopper Halberd
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=15
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={75 77}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Hatchet
+
+[ITEMDEF i_hatchet_DullCopper]
+   DEFNAME=i_hatchet_DullCopper
+   ID=i_hatchet
+   NAME=DullCopper Hatchet
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=16
+   VALUE=15
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={40 42}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_DullCopper]
+   DEFNAME=i_axe_battle_large_DullCopper
+   ID=i_axe_battle_large
+   NAME=DullCopper Large Battle Axe
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=15
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={100 102}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Ornate Axe
+
+[ITEMDEF i_ornate_axe_DullCopper]
+   DEFNAME=i_ornate_axe_DullCopper
+   ID=i_ornate_axe
+   NAME=DullCopper Ornate Axe
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=24
+   VALUE=15
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={60 62}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_DullCopper]
+   DEFNAME=i_axe_two_hand_DullCopper
+   ID=i_axe_two_hand
+   NAME=DullCopper Two Handed Axe
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=15
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={55 57}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Dual Axes
+
+[ITEMDEF i_dual_short_axes_DullCopper]
+   DEFNAME=i_dual_short_axes_DullCopper
+   ID=i_dual_short_axes
+   NAME=DullCopper Dual Axes
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=22
+   VALUE=15
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={95 97}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Cresent Blade
+
+[ITEMDEF i_crescent_blade_DullCopper]
+   DEFNAME=i_crescent_blade_DullCopper
+   ID=i_crescent_blade
+   NAME=DullCopper Cresent Blade
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=15
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={110 112}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Dagger
+
+[ITEMDEF i_dagger_DullCopper]
+   DEFNAME=i_dagger_DullCopper
+   ID=i_dagger
+   NAME=DullCopper Dagger
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=7
+   VALUE=15
+   SPEED=19
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={10 12}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Skinning Knife
+
+[ITEMDEF i_knife_skinning_DullCopper]
+   DEFNAME=i_knife_skinning_DullCopper
+   ID=i_knife_skinning
+   NAME=DullCopper Skinning Knife
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=7
+   VALUE=15
+   SPEED=19
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={15 17}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_DullCopper]
+   DEFNAME=i_sword_Assassin_Spike_DullCopper
+   ID=i_sword_Assassin_Spike
+   NAME=DullCopper Assassin Spike
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=9
+   VALUE=15
+   SPEED=21
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={30 32}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Cutlass
+
+[ITEMDEF i_cutlass_DullCopper]
+   DEFNAME=i_cutlass_DullCopper
+   ID=i_cutlass
+   NAME=DullCopper Cutlass
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=10
+   VALUE=15
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={25 27}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Short Blade
+
+[ITEMDEF i_shortblade_DullCopper]
+   DEFNAME=i_shortblade_DullCopper
+   ID=i_shortblade
+   NAME=DullCopper Short Blade
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=11
+   VALUE=15
+   SPEED=28
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={35 37}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Scythe
+
+[ITEMDEF i_scythe_DullCopper]
+   DEFNAME=i_scythe_DullCopper
+   ID=i_scythe
+   NAME=DullCopper Scythe
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=15
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={115 117}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Short Spear
+
+[ITEMDEF i_spear_short_DullCopper]
+   DEFNAME=i_spear_short_DullCopper
+   ID=i_spear_short
+   NAME=DullCopper Short Spear
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=15
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={45 47}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper War Fork
+
+[ITEMDEF i_war_fork_DullCopper]
+   DEFNAME=i_war_fork_DullCopper
+   ID=i_war_fork
+   NAME=DullCopper War Fork
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=15
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={50 52}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Leafblade
+
+[ITEMDEF i_sword_leafblade_DullCopper]
+   DEFNAME=i_sword_leafblade_DullCopper
+   ID=i_sword_leafblade
+   NAME=DullCopper Leafblade
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=12
+   VALUE=15
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={60 62}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_DullCopper]
+   DEFNAME=i_elven_spellblade_DullCopper
+   ID=i_elven_spellblade
+   NAME=DullCopper Elven Spell Blade
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=15
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={75 77}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Pitchfork
+
+[ITEMDEF i_pitchfork_DullCopper]
+   DEFNAME=i_pitchfork_DullCopper
+   ID=i_pitchfork
+   NAME=DullCopper Pitchfork
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=15
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={55 57}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper War Cleaver
+
+[ITEMDEF i_war_cleaver_DullCopper]
+   DEFNAME=i_war_cleaver_DullCopper
+   ID=i_war_cleaver
+   NAME=DullCopper War Cleaver
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=13
+   VALUE=15
+   SPEED=23
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={65 67}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Pike
+
+[ITEMDEF i_pike_DullCopper]
+   DEFNAME=i_pike_DullCopper
+   ID=i_pike
+   NAME=DullCopper Pike
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=15
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={70 72}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Blood Blade
+
+[ITEMDEF i_bloodblade_DullCopper]
+   DEFNAME=i_bloodblade_DullCopper
+   ID=i_bloodblade
+   NAME=DullCopper Blood Blade
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=13
+   VALUE=15
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={75 77}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Kama
+
+[ITEMDEF i_kama_DullCopper]
+   DEFNAME=i_kama_DullCopper
+   ID=i_kama
+   NAME=DullCopper Kama
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=15
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={77 79}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Kryss
+
+[ITEMDEF i_kryss_DullCopper]
+   DEFNAME=i_kryss_DullCopper
+   ID=i_kryss
+   NAME=DullCopper Kryss
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=15
+   SPEED=25
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={80 82}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Lajatang
+
+[ITEMDEF i_lajatang_DullCopper]
+   DEFNAME=i_lajatang_DullCopper
+   ID=i_lajatang
+   NAME=DullCopper Lajatang
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=15
+   SPEED=26
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={85 87}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Sai
+
+[ITEMDEF i_sai_DullCopper]
+   DEFNAME=i_sai_DullCopper
+   ID=i_sai
+   NAME=DullCopper Sai
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=15
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={76 78}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Tekagi
+
+[ITEMDEF i_tekagi_DullCopper]
+   DEFNAME=i_tekagi_DullCopper
+   ID=i_tekagi
+   NAME=DullCopper Tekagi
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=15
+   SPEED=21
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={90 92}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////DullCopper Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_DullCopper]
+   DEFNAME=i_dual_pointed_spear_DullCopper
+   ID=i_dual_pointed_spear
+   NAME=DullCopper Dual Pointed Spear
+   RESOURCES= 20 i_ingot_DullCopper
+   WEIGHT=11
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=15
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=31
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=DullCopper
+
+ON=@Create
+   COLOR=color_ore_DullCopper
+   HITPOINTS={115 117}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

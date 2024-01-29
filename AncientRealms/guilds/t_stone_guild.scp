@@ -1,0 +1,14 @@
+[TYPEDEF t_stone_guild]
+ON=@DClick
+	REF1=<UID>
+	IF <SRC.GUILD> != <UID>
+		REF1.DIALOG d_guild_roster_stranger
+	ELSE
+		SRC.GuildMenu
+	ENDIF
+	RETURN 1
+
+[FUNCTION GMGotoGuildStone]
+GO <SERV.UID.<GUILD.UID>.P>
+
+[EOF]

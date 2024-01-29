@@ -1,0 +1,111 @@
+[FUNCTION f_combat_PlayerEquipTest]
+REF1=<ARGV[0]>		// Player
+REF2=<ARGV[1]>		// Item 
+
+IF (STRMATCH(*platemail*,<REF2.NAME>)||(STRMATCH(*plate*,<REF2.NAME>)
+	REF2.TAG.ArmorTagUid= <UID>
+	REF2.TAG.ArmorTagDispId= <DISPID>
+	REF2.TAG.ArmorReqSTR= 125
+	REF2.TAG.ArmorReqDEX= 100
+ENDIF
+IF (STRMATCH(*chainmail*,<REF2.NAME>)
+	REF2.TAG.ArmorTagUid= <UID>
+    REF2.TAG.ArmorTagDispId= <DISPID>
+    REF2.TAG.ArmorReqSTR= 90
+    REF2.TAG.ArmorReqDEX= 75
+ENDIF
+IF (STRMATCH(*ringmail*,<REF2.NAME>)
+	REF2.TAG.ArmorTagUid= <UID>
+	REF2.TAG.ArmorTagDispId= <DISPID>
+	REF2.TAG.ArmorReqSTR= 80
+	REF2.TAG.ArmorReqDEX= 50
+ENDIF
+IF (STRMATCH(*studded*,<REF2.NAME>)
+	REF2.TAG.ArmorTagUid= <UID>
+    REF2.TAG.ArmorTagDispId= <DISPID>
+    REF2.TAG.ArmorReqSTR= 70
+    REF2.TAG.ArmorReqDEX= 25
+ENDIF
+if <def.scp.LimitationRace> == 1
+	if <REF1.isgargoyle>
+		if !<REF2.tag0.item.gargoyle>
+		REF1.SYSMESSAGE @1462,,1 Your not a gargolye you cannot use this item
+		return 1
+		endif
+	endif
+	if <REF2.tag0.item.elven>
+		if !<REF1.iselven>
+		REF1.SYSMESSAGE @1462,,1 Your not an elf you cannot use this item
+		return 1
+		endif
+	endif
+endif
+if <def.scp.LimitationGenre> == 1
+	if <REF2.tag0.item.female>
+		if !<REF1.isfemale>
+		REF1.SYSMESSAGE @1462,,1 Your are not female you cannot use this item.
+		return 1
+		endif
+	endif
+endif
+IF <REF2.TYPE> == t_hair
+	LOCAL.ColorHair=<FINDLAYER.(layer_hair).COLOR>
+	REF2.COLOR=<FINDLAYER.(layer_hair).COLOR>
+	REF1.SYSMESSAGE @<FINDLAYER.(layer_hair).COLOR>,,1 You look great!
+	RETURN 0
+ENDIF
+IF <REF2.TYPE> == t_beard
+	IF <REF1.OBODY>=c_man
+		LOCAL.ColorBeard=<FINDLAYER.(layer_beard).COLOR>
+		REF2.COLOR=<FINDLAYER.(layer_beard).COLOR>
+		REF1.SYSMESSAGE @<FINDLAYER.(layer_hair).COLOR>,,1 You look great!
+		RETURN 0
+	ELSE
+		REF1.SYSMESSAGE @1462,,1 Only human males can wear a beard, im afraid.
+		RETURN 1
+	ENDIF
+ENDIF
+IF <REF2.ISWEAPON>
+	IF <REF1.<REF2.SKILL>> > <REF2.SKILL>
+		RETURN 0
+	ELSE
+		REF1.SYSMESSAGE @1462,,1 You are not skilled enough to equip this item.
+		RETURN 1
+	ENDIF
+ENDIF
+IF <REF2.ISARMOR>
+	IF ((<REF1.STR> >= <EVAL <REF2.TAG.ArmorReqSTR>>)&&(<REF1.DEX> >= <EVAL <REF2.TAG.ArmorReqDEX>>))
+		RETURN 0
+	ELSE
+		REF1.SYSMESSAGE @1462,,1 Your not fit enough to equip this you need (<EVAL <REF2.TAG.ArmorReqSTR>>)STR and (<EVAL <REF2.TAG.ArmorReqDEX>>) DEX
+		RETURN 1
+	ENDIF
+ENDIF
+IF (<REF1.ISGM>)
+	RETURN 0
+ENDIF
+
+[FUNCTION f_combat_PlayerEquip]
+REF1=<ARGV[0]>		// Player
+REF2=<ARGV[1]>		// Item 
+IF (<REF1.ISGM>)
+	REF1.SYSMESSAGE @58,,1 You have Just Equiped A <REF2.NAME>
+	RETURN 0
+ENDIF
+
+[FUNCTION f_combat_PlayerUnEquip]
+REF1=<ARGV[0]>		// Player
+REF2=<ARGV[1]>		// Item 
+IF <REF1.FINDID.i_rune_reactive_armor>
+		REF1.SYSMESSAGE @58,,1 <REF2.NAME> is stuck to your body you cannot remove it!!!
+	RETURN 1
+ENDIF
+IF (<REF1.ISGM>)
+	REF1.SYSMESSAGE @58,,1 Unequiped A <REF2.NAME>
+	IF <REF2.BASEID> = i_memory
+		REF1.SYSMESSAGE @58,,1 COLOR <REF2.COLOR>
+		RETURN 0
+	ENDIF
+ENDIF
+
+[EOF]

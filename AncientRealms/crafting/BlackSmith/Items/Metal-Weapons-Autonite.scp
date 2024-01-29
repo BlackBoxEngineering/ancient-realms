@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Autonite Quarter Staff
+
+[ITEMDEF i_staff_quarter_Autonite]
+   DEFNAME=i_staff_quarter_Autonite
+   ID=i_staff_quarter
+   NAME=Autonite Quarter Staff
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=23
+   VALUE=95
+   SPEED=50
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={20 34}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Autonite]
+   DEFNAME=i_serpentstone_staff_Autonite
+   ID=i_serpentstone_staff
+   NAME=Autonite Serpentstone Staff
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=27
+   VALUE=95
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={60 74}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Autonite]
+   DEFNAME=i_staff_bladed_double_Autonite
+   ID=i_staff_bladed_double
+   NAME=Autonite Double Bladed Staff
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=35
+   VALUE=95
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={120 134}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Glass Staff
+
+[ITEMDEF i_glass_staff_Autonite]
+   DEFNAME=i_glass_staff_Autonite
+   ID=i_glass_staff
+   NAME=Autonite Glass Staff
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=32
+   VALUE=95
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={90 104}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Bladed Staff
+
+[ITEMDEF i_bladed_staff_Autonite]
+   DEFNAME=i_bladed_staff_Autonite
+   ID=i_bladed_staff
+   NAME=Autonite Bladed Staff
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=33
+   VALUE=95
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={115 129}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Tongs
+
+[ITEMDEF i_tongs_Autonite]
+   DEFNAME=i_tongs_Autonite
+   ID=i_tongs
+   NAME=Autonite Tongs
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=10
+   VALUE=95
+   SPEED=12
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={0 14}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Mace
+
+[ITEMDEF i_mace_Autonite]
+   DEFNAME=i_mace_Autonite
+   ID=i_mace
+   NAME=Autonite Mace
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=23
+   VALUE=95
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Maul
+
+[ITEMDEF i_maul_Autonite]
+   DEFNAME=i_maul_Autonite
+   ID=i_maul
+   NAME=Autonite Maul
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=25
+   VALUE=95
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={40 54}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Scepter
+
+[ITEMDEF i_scepter_Autonite]
+   DEFNAME=i_scepter_Autonite
+   ID=i_scepter
+   NAME=Autonite Scepter
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=27
+   VALUE=95
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={50 64}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Autonite]
+   DEFNAME=i_hammer_sledge_Autonite
+   ID=i_hammer_sledge
+   NAME=Autonite Sledge Hammer
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=27
+   VALUE=95
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={20 34}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Autonite]
+   DEFNAME=i_hammer_smith_Autonite
+   ID=i_hammer_smith
+   NAME=Autonite Smiths Hammer
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=13
+   VALUE=95
+   SPEED=12
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite War Mace
+
+[ITEMDEF i_mace_war_Autonite]
+   DEFNAME=i_mace_war_Autonite
+   ID=i_mace_war
+   NAME=Autonite War Mace
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=31
+   VALUE=95
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={80 94}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Disc Mace
+
+[ITEMDEF i_disc_mace_Autonite]
+   DEFNAME=i_disc_mace_Autonite
+   ID=i_disc_mace
+   NAME=Autonite Disc Mace
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=31
+   VALUE=95
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={70 84}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite War Hammer
+
+[ITEMDEF i_hammer_war_Autonite]
+   DEFNAME=i_hammer_war_Autonite
+   ID=i_hammer_war
+   NAME=Autonite War Hammer
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=37
+   VALUE=95
+   SPEED=52
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={100 114}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Hammer Pick
+
+[ITEMDEF i_hammer_pick_Autonite]
+   DEFNAME=i_hammer_pick_Autonite
+   ID=i_hammer_pick
+   NAME=Autonite Hammer Pick
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=33
+   VALUE=95
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={55 69}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite War Axe
+
+[ITEMDEF i_axe_war_Autonite]
+   DEFNAME=i_axe_war_Autonite
+   ID=i_axe_war
+   NAME=Autonite War Axe
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=23
+   VALUE=95
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={65 79}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Tessen
+
+[ITEMDEF i_tessen_Autonite]
+   DEFNAME=i_tessen_Autonite
+   ID=i_tessen
+   NAME=Autonite Tessen
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=22
+   VALUE=95
+   SPEED=37
+   SKILL=MACEFIGHTING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={75 89}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Long Sword
+
+[ITEMDEF i_sword_long_Autonite]
+   DEFNAME=i_sword_long_Autonite
+   ID=i_sword_long
+   NAME=Autonite Long Sword
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=95
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={10 24}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Broad Sword
+
+[ITEMDEF i_sword_broad_Autonite]
+   DEFNAME=i_sword_broad_Autonite
+   ID=i_sword_broad
+   NAME=Autonite Broad Sword
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=95
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={20 34}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Scimitar
+
+[ITEMDEF i_scimitar_Autonite]
+   DEFNAME=i_scimitar_Autonite
+   ID=i_scimitar
+   NAME=Autonite Scimitar
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=95
+   SPEED=32
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Viking Sword
+
+[ITEMDEF i_sword_viking_Autonite]
+   DEFNAME=i_sword_viking_Autonite
+   ID=i_sword_viking
+   NAME=Autonite Viking Sword
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=95
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={35 49}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Katana
+
+[ITEMDEF i_katana_Autonite]
+   DEFNAME=i_katana_Autonite
+   ID=i_katana
+   NAME=Autonite Katana
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=95
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={80 94}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Wakizashi
+
+[ITEMDEF i_wakizashi_Autonite]
+   DEFNAME=i_wakizashi_Autonite
+   ID=i_wakizashi
+   NAME=Autonite Wakizashi
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=95
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={45 59}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Long Sword
+
+[ITEMDEF i_sword_long_b_Autonite]
+   DEFNAME=i_sword_long_b_Autonite
+   ID=i_sword_long_b
+   NAME=Autonite Long Sword
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=22
+   VALUE=95
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={50 64}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Paladin Sword
+
+[ITEMDEF i_sword_paladin_Autonite]
+   DEFNAME=i_sword_paladin_Autonite
+   ID=i_sword_paladin
+   NAME=Autonite Paladin Sword
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=95
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={65 79}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Bokuto
+
+[ITEMDEF i_bokuto_Autonite]
+   DEFNAME=i_bokuto_Autonite
+   ID=i_bokuto
+   NAME=Autonite Bokuto
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=95
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={70 84}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Autonite]
+   DEFNAME=i_Radiant_Scimitar_Autonite
+   ID=i_Radiant_Scimitar
+   NAME=Autonite Radiant Scimitar
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=95
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={75 89}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Bone Harvester
+
+[ITEMDEF i_bone_harvester_Autonite]
+   DEFNAME=i_bone_harvester_Autonite
+   ID=i_bone_harvester
+   NAME=Autonite Bone Harvester
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=95
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={55 69}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Butcher Knife
+
+[ITEMDEF i_knife_butcher_Autonite]
+   DEFNAME=i_knife_butcher_Autonite
+   ID=i_knife_butcher
+   NAME=Autonite Butcher Knife
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=95
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Autonite]
+   DEFNAME=i_cleaver_meat_Autonite
+   ID=i_cleaver_meat
+   NAME=Autonite Meat Cleaver
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=17
+   VALUE=95
+   SPEED=29
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Elven Machete
+
+[ITEMDEF i_elven_machete_Autonite]
+   DEFNAME=i_elven_machete_Autonite
+   ID=i_elven_machete
+   NAME=Autonite Elven Machete
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=95
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={60 74}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Bone Machete
+
+[ITEMDEF i_bone_machete_Autonite]
+   DEFNAME=i_bone_machete_Autonite
+   ID=i_bone_machete
+   NAME=Autonite Bone Machete
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=95
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={50 64}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Daisho
+
+[ITEMDEF i_daisho_Autonite]
+   DEFNAME=i_daisho_Autonite
+   ID=i_daisho
+   NAME=Autonite Daisho
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=95
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={65 79}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite No-Dachi
+
+[ITEMDEF i_no_dachi_Autonite]
+   DEFNAME=i_no_dachi_Autonite
+   ID=i_no_dachi
+   NAME=Autonite No-Dachi
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=29
+   VALUE=95
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={75 89}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Rune Blade
+
+[ITEMDEF i_Rune_Blade_Autonite]
+   DEFNAME=i_Rune_Blade_Autonite
+   ID=i_Rune_Blade
+   NAME=Autonite Rune Blade
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=31
+   VALUE=95
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={115 129}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Axe
+
+[ITEMDEF i_axe_Autonite]
+   DEFNAME=i_axe_Autonite
+   ID=i_axe
+   NAME=Autonite Axe
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=21
+   VALUE=95
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={42 56}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Bardiche
+
+[ITEMDEF i_bardiche_Autonite]
+   DEFNAME=i_bardiche_Autonite
+   ID=i_bardiche
+   NAME=Autonite Bardiche
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=27
+   VALUE=95
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={58 72}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Battle Axe
+
+[ITEMDEF i_axe_battle_Autonite]
+   DEFNAME=i_axe_battle_Autonite
+   ID=i_axe_battle
+   NAME=Autonite Battle Axe
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=95
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={65 79}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Double Axe
+
+[ITEMDEF i_axe_double_Autonite]
+   DEFNAME=i_axe_double_Autonite
+   ID=i_axe_double
+   NAME=Autonite Double Axe
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=95
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={70 84}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Autonite]
+   DEFNAME=i_axe_exec_Autonite
+   ID=i_axe_exec
+   NAME=Autonite Exectutioners Axe
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=95
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={73 87}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Halberd
+
+[ITEMDEF i_halberd_Autonite]
+   DEFNAME=i_halberd_Autonite
+   ID=i_halberd
+   NAME=Autonite Halberd
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=95
+   SPEED=42
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={75 89}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Hatchet
+
+[ITEMDEF i_hatchet_Autonite]
+   DEFNAME=i_hatchet_Autonite
+   ID=i_hatchet
+   NAME=Autonite Hatchet
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=22
+   VALUE=95
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={40 54}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Autonite]
+   DEFNAME=i_axe_battle_large_Autonite
+   ID=i_axe_battle_large
+   NAME=Autonite Large Battle Axe
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=95
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={100 114}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Ornate Axe
+
+[ITEMDEF i_ornate_axe_Autonite]
+   DEFNAME=i_ornate_axe_Autonite
+   ID=i_ornate_axe
+   NAME=Autonite Ornate Axe
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=95
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={60 74}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Autonite]
+   DEFNAME=i_axe_two_hand_Autonite
+   ID=i_axe_two_hand
+   NAME=Autonite Two Handed Axe
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=95
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={55 69}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Dual Axes
+
+[ITEMDEF i_dual_short_axes_Autonite]
+   DEFNAME=i_dual_short_axes_Autonite
+   ID=i_dual_short_axes
+   NAME=Autonite Dual Axes
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=28
+   VALUE=95
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={95 109}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Cresent Blade
+
+[ITEMDEF i_crescent_blade_Autonite]
+   DEFNAME=i_crescent_blade_Autonite
+   ID=i_crescent_blade
+   NAME=Autonite Cresent Blade
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=95
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={110 124}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Dagger
+
+[ITEMDEF i_dagger_Autonite]
+   DEFNAME=i_dagger_Autonite
+   ID=i_dagger
+   NAME=Autonite Dagger
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=13
+   VALUE=95
+   SPEED=25
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={10 24}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Skinning Knife
+
+[ITEMDEF i_knife_skinning_Autonite]
+   DEFNAME=i_knife_skinning_Autonite
+   ID=i_knife_skinning
+   NAME=Autonite Skinning Knife
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=13
+   VALUE=95
+   SPEED=25
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={15 29}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Autonite]
+   DEFNAME=i_sword_Assassin_Spike_Autonite
+   ID=i_sword_Assassin_Spike
+   NAME=Autonite Assassin Spike
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=95
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={30 44}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Cutlass
+
+[ITEMDEF i_cutlass_Autonite]
+   DEFNAME=i_cutlass_Autonite
+   ID=i_cutlass
+   NAME=Autonite Cutlass
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=16
+   VALUE=95
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={25 39}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Short Blade
+
+[ITEMDEF i_shortblade_Autonite]
+   DEFNAME=i_shortblade_Autonite
+   ID=i_shortblade
+   NAME=Autonite Short Blade
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=95
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={35 49}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Scythe
+
+[ITEMDEF i_scythe_Autonite]
+   DEFNAME=i_scythe_Autonite
+   ID=i_scythe
+   NAME=Autonite Scythe
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=30
+   VALUE=95
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={115 129}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Short Spear
+
+[ITEMDEF i_spear_short_Autonite]
+   DEFNAME=i_spear_short_Autonite
+   ID=i_spear_short
+   NAME=Autonite Short Spear
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=95
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={45 59}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite War Fork
+
+[ITEMDEF i_war_fork_Autonite]
+   DEFNAME=i_war_fork_Autonite
+   ID=i_war_fork
+   NAME=Autonite War Fork
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=95
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={50 64}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Leafblade
+
+[ITEMDEF i_sword_leafblade_Autonite]
+   DEFNAME=i_sword_leafblade_Autonite
+   ID=i_sword_leafblade
+   NAME=Autonite Leafblade
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=95
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={60 74}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Autonite]
+   DEFNAME=i_elven_spellblade_Autonite
+   ID=i_elven_spellblade
+   NAME=Autonite Elven Spell Blade
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=95
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={75 89}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Pitchfork
+
+[ITEMDEF i_pitchfork_Autonite]
+   DEFNAME=i_pitchfork_Autonite
+   ID=i_pitchfork
+   NAME=Autonite Pitchfork
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=95
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={55 69}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite War Cleaver
+
+[ITEMDEF i_war_cleaver_Autonite]
+   DEFNAME=i_war_cleaver_Autonite
+   ID=i_war_cleaver
+   NAME=Autonite War Cleaver
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=95
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={65 79}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Pike
+
+[ITEMDEF i_pike_Autonite]
+   DEFNAME=i_pike_Autonite
+   ID=i_pike
+   NAME=Autonite Pike
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=95
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={70 84}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Blood Blade
+
+[ITEMDEF i_bloodblade_Autonite]
+   DEFNAME=i_bloodblade_Autonite
+   ID=i_bloodblade
+   NAME=Autonite Blood Blade
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=95
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={75 89}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Kama
+
+[ITEMDEF i_kama_Autonite]
+   DEFNAME=i_kama_Autonite
+   ID=i_kama
+   NAME=Autonite Kama
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=95
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={77 91}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Kryss
+
+[ITEMDEF i_kryss_Autonite]
+   DEFNAME=i_kryss_Autonite
+   ID=i_kryss
+   NAME=Autonite Kryss
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=95
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={80 94}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Lajatang
+
+[ITEMDEF i_lajatang_Autonite]
+   DEFNAME=i_lajatang_Autonite
+   ID=i_lajatang
+   NAME=Autonite Lajatang
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=95
+   SPEED=32
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={85 99}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Sai
+
+[ITEMDEF i_sai_Autonite]
+   DEFNAME=i_sai_Autonite
+   ID=i_sai
+   NAME=Autonite Sai
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=95
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={76 90}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Tekagi
+
+[ITEMDEF i_tekagi_Autonite]
+   DEFNAME=i_tekagi_Autonite
+   ID=i_tekagi
+   NAME=Autonite Tekagi
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=95
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={90 104}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Autonite Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Autonite]
+   DEFNAME=i_dual_pointed_spear_Autonite
+   ID=i_dual_pointed_spear
+   NAME=Autonite Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Autonite
+   WEIGHT=17
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=29
+   VALUE=95
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=37
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Autonite
+
+ON=@Create
+   COLOR=color_ore_Autonite
+   HITPOINTS={115 129}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////BloodRock Quarter Staff
+
+[ITEMDEF i_staff_quarter_BloodRock]
+   DEFNAME=i_staff_quarter_BloodRock
+   ID=i_staff_quarter
+   NAME=BloodRock Quarter Staff
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=25
+   VALUE=122
+   SPEED=52
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={20 38}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_BloodRock]
+   DEFNAME=i_serpentstone_staff_BloodRock
+   ID=i_serpentstone_staff
+   NAME=BloodRock Serpentstone Staff
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=29
+   VALUE=122
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={60 78}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_BloodRock]
+   DEFNAME=i_staff_bladed_double_BloodRock
+   ID=i_staff_bladed_double
+   NAME=BloodRock Double Bladed Staff
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=37
+   VALUE=122
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={120 138}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Glass Staff
+
+[ITEMDEF i_glass_staff_BloodRock]
+   DEFNAME=i_glass_staff_BloodRock
+   ID=i_glass_staff
+   NAME=BloodRock Glass Staff
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=34
+   VALUE=122
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={90 108}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Bladed Staff
+
+[ITEMDEF i_bladed_staff_BloodRock]
+   DEFNAME=i_bladed_staff_BloodRock
+   ID=i_bladed_staff
+   NAME=BloodRock Bladed Staff
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=35
+   VALUE=122
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={115 133}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Tongs
+
+[ITEMDEF i_tongs_BloodRock]
+   DEFNAME=i_tongs_BloodRock
+   ID=i_tongs
+   NAME=BloodRock Tongs
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=12
+   VALUE=122
+   SPEED=14
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={0 18}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Mace
+
+[ITEMDEF i_mace_BloodRock]
+   DEFNAME=i_mace_BloodRock
+   ID=i_mace
+   NAME=BloodRock Mace
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=25
+   VALUE=122
+   SPEED=43
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Maul
+
+[ITEMDEF i_maul_BloodRock]
+   DEFNAME=i_maul_BloodRock
+   ID=i_maul
+   NAME=BloodRock Maul
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=27
+   VALUE=122
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={40 58}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Scepter
+
+[ITEMDEF i_scepter_BloodRock]
+   DEFNAME=i_scepter_BloodRock
+   ID=i_scepter
+   NAME=BloodRock Scepter
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=29
+   VALUE=122
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={50 68}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_BloodRock]
+   DEFNAME=i_hammer_sledge_BloodRock
+   ID=i_hammer_sledge
+   NAME=BloodRock Sledge Hammer
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=29
+   VALUE=122
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={20 38}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Smiths Hammer
+
+[ITEMDEF i_hammer_smith_BloodRock]
+   DEFNAME=i_hammer_smith_BloodRock
+   ID=i_hammer_smith
+   NAME=BloodRock Smiths Hammer
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=15
+   VALUE=122
+   SPEED=14
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock War Mace
+
+[ITEMDEF i_mace_war_BloodRock]
+   DEFNAME=i_mace_war_BloodRock
+   ID=i_mace_war
+   NAME=BloodRock War Mace
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=33
+   VALUE=122
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={80 98}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Disc Mace
+
+[ITEMDEF i_disc_mace_BloodRock]
+   DEFNAME=i_disc_mace_BloodRock
+   ID=i_disc_mace
+   NAME=BloodRock Disc Mace
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=33
+   VALUE=122
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={70 88}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock War Hammer
+
+[ITEMDEF i_hammer_war_BloodRock]
+   DEFNAME=i_hammer_war_BloodRock
+   ID=i_hammer_war
+   NAME=BloodRock War Hammer
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=39
+   VALUE=122
+   SPEED=54
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={100 118}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Hammer Pick
+
+[ITEMDEF i_hammer_pick_BloodRock]
+   DEFNAME=i_hammer_pick_BloodRock
+   ID=i_hammer_pick
+   NAME=BloodRock Hammer Pick
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=35
+   VALUE=122
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={55 73}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock War Axe
+
+[ITEMDEF i_axe_war_BloodRock]
+   DEFNAME=i_axe_war_BloodRock
+   ID=i_axe_war
+   NAME=BloodRock War Axe
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=25
+   VALUE=122
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={65 83}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Tessen
+
+[ITEMDEF i_tessen_BloodRock]
+   DEFNAME=i_tessen_BloodRock
+   ID=i_tessen
+   NAME=BloodRock Tessen
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=24
+   VALUE=122
+   SPEED=39
+   SKILL=MACEFIGHTING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={75 93}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Long Sword
+
+[ITEMDEF i_sword_long_BloodRock]
+   DEFNAME=i_sword_long_BloodRock
+   ID=i_sword_long
+   NAME=BloodRock Long Sword
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=122
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={10 28}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Broad Sword
+
+[ITEMDEF i_sword_broad_BloodRock]
+   DEFNAME=i_sword_broad_BloodRock
+   ID=i_sword_broad
+   NAME=BloodRock Broad Sword
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=122
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={20 38}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Scimitar
+
+[ITEMDEF i_scimitar_BloodRock]
+   DEFNAME=i_scimitar_BloodRock
+   ID=i_scimitar
+   NAME=BloodRock Scimitar
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=122
+   SPEED=34
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Viking Sword
+
+[ITEMDEF i_sword_viking_BloodRock]
+   DEFNAME=i_sword_viking_BloodRock
+   ID=i_sword_viking
+   NAME=BloodRock Viking Sword
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=122
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={35 53}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Katana
+
+[ITEMDEF i_katana_BloodRock]
+   DEFNAME=i_katana_BloodRock
+   ID=i_katana
+   NAME=BloodRock Katana
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=122
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={80 98}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Wakizashi
+
+[ITEMDEF i_wakizashi_BloodRock]
+   DEFNAME=i_wakizashi_BloodRock
+   ID=i_wakizashi
+   NAME=BloodRock Wakizashi
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=122
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={45 63}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Long Sword
+
+[ITEMDEF i_sword_long_b_BloodRock]
+   DEFNAME=i_sword_long_b_BloodRock
+   ID=i_sword_long_b
+   NAME=BloodRock Long Sword
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=24
+   VALUE=122
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={50 68}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Paladin Sword
+
+[ITEMDEF i_sword_paladin_BloodRock]
+   DEFNAME=i_sword_paladin_BloodRock
+   ID=i_sword_paladin
+   NAME=BloodRock Paladin Sword
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=122
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={65 83}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Bokuto
+
+[ITEMDEF i_bokuto_BloodRock]
+   DEFNAME=i_bokuto_BloodRock
+   ID=i_bokuto
+   NAME=BloodRock Bokuto
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=122
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={70 88}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_BloodRock]
+   DEFNAME=i_Radiant_Scimitar_BloodRock
+   ID=i_Radiant_Scimitar
+   NAME=BloodRock Radiant Scimitar
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=122
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={75 93}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Bone Harvester
+
+[ITEMDEF i_bone_harvester_BloodRock]
+   DEFNAME=i_bone_harvester_BloodRock
+   ID=i_bone_harvester
+   NAME=BloodRock Bone Harvester
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=122
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={55 73}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Butcher Knife
+
+[ITEMDEF i_knife_butcher_BloodRock]
+   DEFNAME=i_knife_butcher_BloodRock
+   ID=i_knife_butcher
+   NAME=BloodRock Butcher Knife
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=122
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_BloodRock]
+   DEFNAME=i_cleaver_meat_BloodRock
+   ID=i_cleaver_meat
+   NAME=BloodRock Meat Cleaver
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=19
+   VALUE=122
+   SPEED=31
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Elven Machete
+
+[ITEMDEF i_elven_machete_BloodRock]
+   DEFNAME=i_elven_machete_BloodRock
+   ID=i_elven_machete
+   NAME=BloodRock Elven Machete
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=122
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={60 78}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Bone Machete
+
+[ITEMDEF i_bone_machete_BloodRock]
+   DEFNAME=i_bone_machete_BloodRock
+   ID=i_bone_machete
+   NAME=BloodRock Bone Machete
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=29
+   VALUE=122
+   SPEED=35
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={50 68}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Daisho
+
+[ITEMDEF i_daisho_BloodRock]
+   DEFNAME=i_daisho_BloodRock
+   ID=i_daisho
+   NAME=BloodRock Daisho
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=30
+   VALUE=122
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={65 83}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock No-Dachi
+
+[ITEMDEF i_no_dachi_BloodRock]
+   DEFNAME=i_no_dachi_BloodRock
+   ID=i_no_dachi
+   NAME=BloodRock No-Dachi
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=31
+   VALUE=122
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={75 93}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Rune Blade
+
+[ITEMDEF i_Rune_Blade_BloodRock]
+   DEFNAME=i_Rune_Blade_BloodRock
+   ID=i_Rune_Blade
+   NAME=BloodRock Rune Blade
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=33
+   VALUE=122
+   SPEED=43
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={115 133}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Axe
+
+[ITEMDEF i_axe_BloodRock]
+   DEFNAME=i_axe_BloodRock
+   ID=i_axe
+   NAME=BloodRock Axe
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=23
+   VALUE=122
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={42 60}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Bardiche
+
+[ITEMDEF i_bardiche_BloodRock]
+   DEFNAME=i_bardiche_BloodRock
+   ID=i_bardiche
+   NAME=BloodRock Bardiche
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=29
+   VALUE=122
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={58 76}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Battle Axe
+
+[ITEMDEF i_axe_battle_BloodRock]
+   DEFNAME=i_axe_battle_BloodRock
+   ID=i_axe_battle
+   NAME=BloodRock Battle Axe
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=122
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={65 83}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Double Axe
+
+[ITEMDEF i_axe_double_BloodRock]
+   DEFNAME=i_axe_double_BloodRock
+   ID=i_axe_double
+   NAME=BloodRock Double Axe
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=122
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={70 88}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Exectutioners Axe
+
+[ITEMDEF i_axe_exec_BloodRock]
+   DEFNAME=i_axe_exec_BloodRock
+   ID=i_axe_exec
+   NAME=BloodRock Exectutioners Axe
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=122
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={73 91}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Halberd
+
+[ITEMDEF i_halberd_BloodRock]
+   DEFNAME=i_halberd_BloodRock
+   ID=i_halberd
+   NAME=BloodRock Halberd
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=122
+   SPEED=44
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={75 93}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Hatchet
+
+[ITEMDEF i_hatchet_BloodRock]
+   DEFNAME=i_hatchet_BloodRock
+   ID=i_hatchet
+   NAME=BloodRock Hatchet
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=24
+   VALUE=122
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={40 58}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_BloodRock]
+   DEFNAME=i_axe_battle_large_BloodRock
+   ID=i_axe_battle_large
+   NAME=BloodRock Large Battle Axe
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=36
+   VALUE=122
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={100 118}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Ornate Axe
+
+[ITEMDEF i_ornate_axe_BloodRock]
+   DEFNAME=i_ornate_axe_BloodRock
+   ID=i_ornate_axe
+   NAME=BloodRock Ornate Axe
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=122
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={60 78}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_BloodRock]
+   DEFNAME=i_axe_two_hand_BloodRock
+   ID=i_axe_two_hand
+   NAME=BloodRock Two Handed Axe
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=122
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={55 73}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Dual Axes
+
+[ITEMDEF i_dual_short_axes_BloodRock]
+   DEFNAME=i_dual_short_axes_BloodRock
+   ID=i_dual_short_axes
+   NAME=BloodRock Dual Axes
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=30
+   VALUE=122
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={95 113}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Cresent Blade
+
+[ITEMDEF i_crescent_blade_BloodRock]
+   DEFNAME=i_crescent_blade_BloodRock
+   ID=i_crescent_blade
+   NAME=BloodRock Cresent Blade
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=36
+   VALUE=122
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={110 128}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Dagger
+
+[ITEMDEF i_dagger_BloodRock]
+   DEFNAME=i_dagger_BloodRock
+   ID=i_dagger
+   NAME=BloodRock Dagger
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=122
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={10 28}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Skinning Knife
+
+[ITEMDEF i_knife_skinning_BloodRock]
+   DEFNAME=i_knife_skinning_BloodRock
+   ID=i_knife_skinning
+   NAME=BloodRock Skinning Knife
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=15
+   VALUE=122
+   SPEED=27
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={15 33}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_BloodRock]
+   DEFNAME=i_sword_Assassin_Spike_BloodRock
+   ID=i_sword_Assassin_Spike
+   NAME=BloodRock Assassin Spike
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=122
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={30 48}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Cutlass
+
+[ITEMDEF i_cutlass_BloodRock]
+   DEFNAME=i_cutlass_BloodRock
+   ID=i_cutlass
+   NAME=BloodRock Cutlass
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=18
+   VALUE=122
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={25 43}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Short Blade
+
+[ITEMDEF i_shortblade_BloodRock]
+   DEFNAME=i_shortblade_BloodRock
+   ID=i_shortblade
+   NAME=BloodRock Short Blade
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=122
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={35 53}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Scythe
+
+[ITEMDEF i_scythe_BloodRock]
+   DEFNAME=i_scythe_BloodRock
+   ID=i_scythe
+   NAME=BloodRock Scythe
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=32
+   VALUE=122
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={115 133}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Short Spear
+
+[ITEMDEF i_spear_short_BloodRock]
+   DEFNAME=i_spear_short_BloodRock
+   ID=i_spear_short
+   NAME=BloodRock Short Spear
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=122
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={45 63}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock War Fork
+
+[ITEMDEF i_war_fork_BloodRock]
+   DEFNAME=i_war_fork_BloodRock
+   ID=i_war_fork
+   NAME=BloodRock War Fork
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=122
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={50 68}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Leafblade
+
+[ITEMDEF i_sword_leafblade_BloodRock]
+   DEFNAME=i_sword_leafblade_BloodRock
+   ID=i_sword_leafblade
+   NAME=BloodRock Leafblade
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=122
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={60 78}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_BloodRock]
+   DEFNAME=i_elven_spellblade_BloodRock
+   ID=i_elven_spellblade
+   NAME=BloodRock Elven Spell Blade
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=122
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={75 93}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Pitchfork
+
+[ITEMDEF i_pitchfork_BloodRock]
+   DEFNAME=i_pitchfork_BloodRock
+   ID=i_pitchfork
+   NAME=BloodRock Pitchfork
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=122
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={55 73}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock War Cleaver
+
+[ITEMDEF i_war_cleaver_BloodRock]
+   DEFNAME=i_war_cleaver_BloodRock
+   ID=i_war_cleaver
+   NAME=BloodRock War Cleaver
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=122
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={65 83}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Pike
+
+[ITEMDEF i_pike_BloodRock]
+   DEFNAME=i_pike_BloodRock
+   ID=i_pike
+   NAME=BloodRock Pike
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=122
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={70 88}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Blood Blade
+
+[ITEMDEF i_bloodblade_BloodRock]
+   DEFNAME=i_bloodblade_BloodRock
+   ID=i_bloodblade
+   NAME=BloodRock Blood Blade
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=122
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={75 93}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Kama
+
+[ITEMDEF i_kama_BloodRock]
+   DEFNAME=i_kama_BloodRock
+   ID=i_kama
+   NAME=BloodRock Kama
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=122
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={77 95}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Kryss
+
+[ITEMDEF i_kryss_BloodRock]
+   DEFNAME=i_kryss_BloodRock
+   ID=i_kryss
+   NAME=BloodRock Kryss
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=122
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={80 98}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Lajatang
+
+[ITEMDEF i_lajatang_BloodRock]
+   DEFNAME=i_lajatang_BloodRock
+   ID=i_lajatang
+   NAME=BloodRock Lajatang
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=122
+   SPEED=34
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={85 103}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Sai
+
+[ITEMDEF i_sai_BloodRock]
+   DEFNAME=i_sai_BloodRock
+   ID=i_sai
+   NAME=BloodRock Sai
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=122
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={76 94}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Tekagi
+
+[ITEMDEF i_tekagi_BloodRock]
+   DEFNAME=i_tekagi_BloodRock
+   ID=i_tekagi
+   NAME=BloodRock Tekagi
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=122
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={90 108}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////BloodRock Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_BloodRock]
+   DEFNAME=i_dual_pointed_spear_BloodRock
+   ID=i_dual_pointed_spear
+   NAME=BloodRock Dual Pointed Spear
+   RESOURCES= 20 i_ingot_BloodRock
+   WEIGHT=19
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=31
+   VALUE=122
+   SPEED=40
+   SKILL=FENCING
+   REQSTR=39
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=BloodRock
+
+ON=@Create
+   COLOR=color_ore_BloodRock
+   HITPOINTS={115 133}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

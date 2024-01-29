@@ -1,0 +1,563 @@
+/////////////////////////////////////////////Ash WildStaff
+
+[ITEMDEF i_mace_wildstaff_Ash]
+   DEFNAME=i_mace_wildstaff_Ash
+   ID=i_mace_wildstaff
+   NAME=Ash WildStaff
+   RESOURCES= 20 i_log_Ash
+   WEIGHT=14
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=24
+   VALUE=46
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Ash
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS={60 68}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash Black Staff
+
+[ITEMDEF i_staff_black_Ash]
+   DEFNAME=i_staff_black_Ash
+   ID=i_staff_black
+   NAME=Ash Black Staff
+   RESOURCES= 20 i_log_Ash
+   WEIGHT=14
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=22
+   VALUE=46
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Ash
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS={30 38}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash Gnarled Staff
+
+[ITEMDEF i_staff_gnarled_Ash]
+   DEFNAME=i_staff_gnarled_Ash
+   ID=i_staff_gnarled
+   NAME=Ash Gnarled Staff
+   RESOURCES= 20 i_log_Ash
+   WEIGHT=14
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=20
+   VALUE=46
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Ash
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS={30 38}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash Nunchaku
+
+[ITEMDEF i_nunchaku_Ash]
+   DEFNAME=i_nunchaku_Ash
+   ID=i_nunchaku
+   NAME=Ash Nunchaku
+   RESOURCES= 20 i_log_Ash
+   WEIGHT=14
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=22
+   VALUE=46
+   SPEED=34
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Ash
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS={30 38}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash Club
+
+[ITEMDEF i_club_Ash]
+   DEFNAME=i_club_Ash
+   ID=i_club
+   NAME=Ash Club
+   RESOURCES= 20 i_log_Ash
+   WEIGHT=14
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=18
+   VALUE=46
+   SPEED=36
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=CARPENTRY 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Ash
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS={10 18}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash Tetsubo
+
+[ITEMDEF i_tetsubo_Ash]
+   DEFNAME=i_tetsubo_Ash
+   ID=i_tetsubo
+   NAME=Ash Tetsubo
+   RESOURCES= 20 i_log_Ash
+   WEIGHT=14
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=28
+   VALUE=46
+   SPEED=42
+   SKILL=MACEFIGHTING
+   REQSTR=34
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Ash
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS={80 88}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash Spear
+
+[ITEMDEF i_spear_Ash]
+   DEFNAME=i_spear_Ash
+   ID=i_spear
+   NAME=Ash Spear
+   RESOURCES= 20 i_log_Ash
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=46
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Ash
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS={60 68}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash Lance
+
+[ITEMDEF i_lance_Ash]
+   DEFNAME=i_lance_Ash
+   ID=i_lance
+   NAME=Ash Lance
+   RESOURCES= 20 i_log_Ash
+   WEIGHT=14
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=24
+   VALUE=46
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Ash
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS={100 108}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash Bow
+
+[ITEMDEF i_bow_Ash]
+   DEFNAME=i_bow_Ash
+   ID=i_bow
+   NAME=Ash Bow
+   RESOURCES= 20 i_log_Ash
+   WEIGHT=14
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=18
+   VALUE=46
+   SPEED=39
+   SKILL=ARCHERY
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Ash
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS={30 38}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash Composite Bow
+
+[ITEMDEF i_composite_bow_Ash]
+   DEFNAME=i_composite_bow_Ash
+   ID=i_composite_bow
+   NAME=Ash Composite Bow
+   RESOURCES= 20 i_log_Ash
+   WEIGHT=14
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=19
+   VALUE=46
+   SPEED=37
+   SKILL=ARCHERY
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Ash
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS={50 58}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash Eleven Composite Bow
+
+[ITEMDEF i_elven_composite_longbow_Ash]
+   DEFNAME=i_elven_composite_longbow_Ash
+   ID=i_elven_composite_longbow
+   NAME=Ash Eleven Composite Bow
+   RESOURCES= 20 i_log_Ash
+   WEIGHT=14
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=20
+   VALUE=46
+   SPEED=35
+   SKILL=ARCHERY
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Ash
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS={70 78}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash Assassin Shortbow
+
+[ITEMDEF i_assassin_shortbow_Ash]
+   DEFNAME=i_assassin_shortbow_Ash
+   ID=i_assassin_shortbow
+   NAME=Ash Assassin Shortbow
+   RESOURCES= 20 i_log_Ash
+   WEIGHT=14
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=21
+   VALUE=46
+   SPEED=33
+   SKILL=ARCHERY
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Ash
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS={90 98}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash Yumi
+
+[ITEMDEF i_yumi_Ash]
+   DEFNAME=i_yumi_Ash
+   ID=i_yumi
+   NAME=Ash Yumi
+   RESOURCES= 20 i_log_Ash
+   WEIGHT=14
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=22
+   VALUE=46
+   SPEED=31
+   SKILL=ARCHERY
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Ash
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS={100 108}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash Crossbow
+
+[ITEMDEF i_crossbow_Ash]
+   DEFNAME=i_crossbow_Ash
+   ID=i_crossbow
+   NAME=Ash Crossbow
+   RESOURCES= 20 i_log_Ash
+   WEIGHT=14
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=20
+   VALUE=46
+   SPEED=49
+   SKILL=ARCHERY
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Ash
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS={50 58}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash Heavy Crossbow
+
+[ITEMDEF i_crossbow_heavy_Ash]
+   DEFNAME=i_crossbow_heavy_Ash
+   ID=i_crossbow_heavy
+   NAME=Ash Heavy Crossbow
+   RESOURCES= 20 i_log_Ash
+   WEIGHT=14
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=22
+   VALUE=46
+   SPEED=47
+   SKILL=ARCHERY
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Ash
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS={70 78}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash Repeating Crossbow
+
+[ITEMDEF i_repeating_crossbow_Ash]
+   DEFNAME=i_repeating_crossbow_Ash
+   ID=i_repeating_crossbow
+   NAME=Ash Repeating Crossbow
+   RESOURCES= 20 i_log_Ash
+   WEIGHT=14
+   TYPE=t_weapon_bow
+   FLIP=1
+   DAM=19
+   VALUE=46
+   SPEED=45
+   SKILL=ARCHERY
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=BOWCRAFT 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Ash
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS={90 98}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Ash Bola
+
+[ITEMDEF i_bola_Ash]
+   DEFNAME=i_bola_Ash
+   ID=i_bola
+   NAME=Ash Bola
+   RESOURCES= 20 i_log_Ash
+   WEIGHT=14
+   TYPE=t_bola
+   FLIP=1
+   DAM=16
+   VALUE=46
+   SPEED=34
+   SKILL=ARCHERY
+   REQSTR=34
+   TWOHANDS=Y
+   SKILLMAKE=TINKERING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Ancientrealms Weapons
+   SUBSECTION=ARCHERY
+   DESCRIPTION=Ash
+
+ON=@Create
+   COLOR=color_log_Ash
+   HITPOINTS={110 118}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

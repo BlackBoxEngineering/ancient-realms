@@ -1,0 +1,71 @@
+[SPEECH s_keep_JobGateKeeper]
+
+ON=*hello*
+	IF (STRMATCH(*<SRC.GUILD.UID>*,<REGION.TAG.OwnersUid>)
+		Say @63 Hail brother <SRC.UID>
+	ELSE
+		REGION.ALLCLIENTS SYSMESSAGE @55,,1 <REGION.NAME> GateKeeper Reports <SRC.NAME> is outside.
+		Say @63 Visting hours are over <SRC.NAME>
+		NEWITEM i_Keep_GuardWarning <UID>
+	ENDIF
+		
+ON=*enter*
+	IF (<SRC.GUILD>)
+		IF (STRMATCH(*<SRC.GUILD.UID>*,<REGION.TAG.OwnersUid>)
+			IF <HITS> > <EVAL GateKeeperHPPerOrder>
+				IF !<SRC.FINDID.i_keep_GateKeeperPlayerEnter>
+					NEWITEM i_keep_GateKeeperPlayerEnter, 1, <SRC.UID>
+					NEW.LINK = <UID>
+					NEW.TIMER= <EVAL GateKeeperEnterTimer>
+					SAY @63 <SRC.NAME> 10 seconds to enter
+					SRC.SYSMESSAGE @1462,,1 Beware! Each
+				ENDIF
+			ELSE
+				DORAND 3
+					SAY @55,,1 I am hurt <SRC.NAME>!
+					SAY @55,,1 I cant <SRC.NAME>!
+					SAY @55,,1 Heal me <SRC.NAME>!
+				ENDDO
+				SRC.SYSMESSAGE @1462,,1 GateKeepers HitPoints: <HITS>, Enter Requires <EVAL GateKeeperHPPerOrder>
+				RETURN 1
+			ENDIF
+			HITS=<HITS>-<EVAL GateKeeperHPPerOrder>
+		ELSE
+			SAY @0029 Your Clan is not Welcome Here!
+		ENDIF
+	ELSE
+		SAY @0029 Leave this place you Guildless Swine!
+	ENDIF
+	RETURN 1
+   
+ON=*exit*
+	IF (<SRC.GUILD>)
+		IF (STRMATCH(*<SRC.GUILD.UID>*,<REGION.TAG.OwnersUid>)
+			IF <HITS> > <EVAL GateKeeperHPPerOrder>
+				IF !<SRC.FINDID.i_keep_GateKeeperPlayerExit>
+					NEWITEM i_keep_GateKeeperPlayerExit, 1, <SRC.UID>
+					NEW.LINK = <UID>
+					NEW.TIMER= <EVAL GateKeeperExitTimer>
+					SAY @63 <SRC.NAME> 10 seconds to exit
+					SRC.SYSMESSAGE @1462,,1 Beware! Each
+				ENDIF
+			ELSE
+				DORAND 3
+					SAY @55,,1 I am hurt <SRC.NAME>!
+					SAY @55,,1 I cant <SRC.NAME>!
+					SAY @55,,1 Heal me <SRC.NAME>!
+				ENDDO
+				SRC.SYSMESSAGE @1462,,1 GateKeepers HitPoints: <HITS>, Exit Requires <EVAL GateKeeperHPPerOrder>
+				RETURN 1
+			ENDIF
+			HITS=<HITS>-<EVAL GateKeeperHPPerOrder>
+		ELSE
+			SAY @0029 Your Clan is not Welcome Here <SRC.NAME>
+		ENDIF
+	ELSE
+		SAY @0029 Come back when you have found a guild <SRC.NAME>!
+	ENDIF
+	RETURN 1
+
+
+[EOF]

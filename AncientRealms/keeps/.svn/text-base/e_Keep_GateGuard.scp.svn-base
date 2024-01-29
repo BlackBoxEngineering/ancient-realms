@@ -1,0 +1,38 @@
+[EVENTS e_Keep_GateGuard]
+ON=@DClick
+	SAY @743 I am the Gate Keeper
+	RETURN 1
+	
+ON=@DEATH
+	IF (<TAG.GateNo>=01)
+		f_keep_GatesEastLower
+		SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateStatusN =0
+		SERV.b @33 <Region.Name>'s <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoOneName> Gates Have been Destroyed!
+		SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoOneBuilt=0
+		SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateGuardCount=<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateGuardCount>-1
+		SERV.LOG <REGION.NAME> GateNo(<EVAL <TAG.GateNo>>) Destroyed
+	ELIF (<TAG.GateNo>=02)
+		f_keep_GatesNorthLower
+		SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateStatusW =0
+		SERV.b @33 <Region.Name>'s <SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoTwoName> Gates Have been Destroyed!
+		SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateNoTwoBuilt=0
+		SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateGuardCount=<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateGuardCount>-1
+		SERV.LOG <REGION.NAME> GateNo(<EVAL <TAG.GateNo>>) Destroyed
+	ENDIF
+	IF (<SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateGuardCount> < 1)
+		SERV.UID.<f_keep_DiscoverRegionsKeepStoneUID>.TAG.GateGuardCount=1
+	ENDIF
+	RETURN 0
+	
+ON=@GETHIT
+	TAG.GetHitCounter=<TAG.GetHitCounter>+1
+	IF <EVAL <TAG.GetHitCounter>> > 10
+		SERV.B <REGION.NAME> Is Under Attack!!
+		TAG.GetHitCounter=0
+	ENDIF
+
+ON=@DEATHCORPSE
+	REF1=<SERV.UID.<ARGO.UID>>
+	REF1.REMOVE
+	
+[EOF]

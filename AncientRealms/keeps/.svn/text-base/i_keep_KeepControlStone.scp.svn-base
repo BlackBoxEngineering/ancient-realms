@@ -1,0 +1,86 @@
+[TYPEDEF t_KeepControlStone]
+ON=@DClick
+	REGION.TAG.KeepControlStoneUID=<UID>
+	TAG.KeepControlStoneUID=<UID>
+	SAY @55,,1 Keep Points : <EVAL <TAG.KeepPoints>>
+	SAY @55,,1 Regen : <EVAL 1000-<TAG.PointCounter>>
+	IF <SRC.GM>
+		IF (<EVAL KS_Astalon>=<UID>)
+			SRC.SYSMESSAGE @1462,,1 Score : <EVAL <SERV.UID.<EVAL KS_Astalon>.TAG.KeepPoints>> Regen : <EVAL 1000-<TAG.PointCounter>>
+		ELSE	
+			SRC.SYSMESSAGE @1462,,1 Keep Points : <EVAL <TAG.KeepPoints>> Regen : <EVAL 1000-<TAG.PointCounter>>
+		ENDIF
+		SRC.SYSMESSAGE @1462,,1 Linked Keep: <SERV.UID.<TAG.KeepControlStoneUID>.REGION.NAME>
+		SRC.SYSMESSAGE @1462,,1 Linked Town: <SERV.UID.<TAG.TownControlStoneUID>.REGION.NAME>
+		SRC.SYSMESSAGE @1462,,1 Dragon Count Down: <EVAL <TAG.DragonTimerCountDown>>
+	ENDIF
+	RETURN 1
+
+ON=@TOOTIP
+	FINISH_TOOLTIP
+
+[ITEMDEF i_keep_KeepControlStone]
+DEFNAME=i_keep_KeepControlStone
+NAME=Keep Control Stone
+ID=i_gravestone_2
+TYPE=t_KeepControlStone
+CATEGORY=AncientRealms
+SUBSECTION=Keep Stones
+DESCRIPTION=Keep Control Stone
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_MOVE_NEVER
+	TAG.TownControlStoneUID=0
+	TAG.KeepCaptureStoneUID=0
+	TAG.KeepTaxPercentage=1
+	TAG.KeepDragonTimer=0
+	TAG.GoldViaTax=0
+	TAG.OwnersName=0
+	TAG.OwnersUID=0
+	TAG.PointCounter=0
+	TAG.KeepPoints=0
+	COLOR=0
+	TIMER=15
+	
+ON=@TIMER
+	SERV.UID.<TAG.TownControlStoneUID>.TAG.GoldViaTax=<TAG.GoldViaTax>
+	REGION.TAG.TownControlStoneUID=<TAG.TownControlStoneUID>
+	TAG.KeepCaptureStoneUID=<REGION.TAG.KeepCaptureStoneUID>
+	REGION.TAG.KeepControlStoneUID=<UID>
+	TAG.KeepControlStoneUID=<UID>
+	
+	IF (strmatch(*Uncaptured*,<REGION.TAG.OwnersUid>)
+		TAG.KeepTaxPercentage=1
+		TAG.KeepDragonTimer=0
+		TAG.GoldViaTax=0
+		TAG.OwnersName=0
+		TAG.OwnersUID=0
+		TAG.PointCounter=0
+		TAG.KeepPoints=0
+		COLOR=55
+		TIMER=10
+		SAY Keep Uncaptured
+	ELSE
+		TAG.KeepDragonTimer=<EVAL <TAG0.KeepDragonTimer>+1>
+		LOCAL.DragonTimerCountDown=<EVAL KeepTimeToReleaseDragon - <TAG.KeepDragonTimer>>
+		TAG.OwnersUID=<REGION.TAG.OwnersUid>
+		TAG.Ownersname=<REGION.TAG.Ownersname>
+		TAG.PointCounter=<EVAL <TAG.PointCounter>+1>
+		IF (<EVAL <TAG.PointCounter>> > 1000)
+			TAG.KeepPoints=<EVAL <TAG0.KeepPoints>+1>
+			TAG.PointCounter=0
+			COLOR=<EVAL <TAG0.KeepPoints>>
+		ENDIF
+		IF <EVAL <LOCAL.DragonTimerCountDown>> < 0
+			TAG.DragonTimerCountDown=0
+		ELSE
+			TAG.DragonTimerCountDown=<EVAL <LOCAL.DragonTimerCountDown>>
+		ENDIF
+		COLOR=<EVAL <TAG0.KeepPoints>>
+		TIMER=15
+	ENDIF
+	RETURN 1
+
+
+	
+[EOF]

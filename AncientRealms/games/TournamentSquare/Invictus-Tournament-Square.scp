@@ -1,0 +1,157 @@
+[AREADEF a_Tournament_Square_Nuke]
+EVENTS=r_default,r_default_rock,r_default_water,r_OreClass_All_common,r_default_grass
+NAME=Tournament Queuing Area
+GROUP=Ancientrealms
+P=5434,1136,0,0
+RECT=5424,1133,5444,1141,0
+ARENA=1
+ANNOUNCE=1
+SAFE=1
+GATE=0
+GUARDED=0
+MARK=0
+MAGIC=0
+NOBUILD=1
+NOPVP=1
+RECALL=0
+RECALLIN=0
+RECALLOUT=0
+UNDERGROUND=0
+
+[AREADEF a_Tournament_Square_Leave]
+EVENTS=r_default,r_default_rock,r_default_water,r_OreClass_All_common,r_default_grass
+NAME=Tournament Square
+GROUP=Ancientrealms
+P=5391,1135,0,0
+RECT=5386,1129,5396,1142,0
+ARENA=1
+ANNOUNCE=1
+SAFE=1
+GATE=0
+GUARDED=0
+MARK=0
+MAGIC=0
+NOBUILD=1
+NOPVP=1
+RECALL=0
+RECALLIN=0
+RECALLOUT=0
+UNDERGROUND=0
+
+[AREADEF a_Tournament_Square]
+EVENTS=r_default,r_default_rock,r_default_water,r_OreClass_All_common,r_default_grass
+NAME=Tournament Square
+GROUP=Ancientrealms
+P=5420,1136,0,0
+RECT=5379,1181,5512,1091,0
+ARENA=1
+ANNOUNCE=1
+SAFE=1
+GATE=0
+GUARDED=0
+MARK=0
+MAGIC=0
+NOBUILD=1
+NOPVP=1
+RECALL=0
+RECALLIN=0
+RECALLOUT=0
+UNDERGROUND=0
+
+[AREADEF a_Tournament_Square_Arena1]
+EVENTS=r_default,r_default_rock,r_default_water,r_OreClass_All_common,r_default_grass
+NAME=Tournament Square Pits
+GROUP=Ancientrealms
+P=5439,1128,0,0
+RECT=5425,1104,5453,1132,0
+ARENA=1
+ANNOUNCE=1
+SAFE=0
+GATE=0
+GUARDED=0
+MARK=0
+MAGIC=1
+NOBUILD=1
+NOPVP=0
+RECALL=0
+RECALLIN=0
+RECALLOUT=0
+UNDERGROUND=0
+
+
+
+[AREADEF a_Tournament_Square_PlayerSlot_1]
+EVENTS=r_default,r_default_rock,r_default_water,r_OreClass_All_common,r_default_grass
+NAME=Tournament Player One
+GROUP=Ancientrealms
+P=5446,1133,0,0
+RECT=5445,1133,5447,1135,0
+
+[AREADEF a_Tournament_Square_PlayerSlot_2]
+EVENTS=r_default,r_default_rock,r_default_water,r_OreClass_All_common,r_default_grass
+NAME=Tournament Player Two
+GROUP=Ancientrealms
+P=5450,1133,0,0
+RECT=5449,1133,5451,1135,0
+
+[AREADEF a_Tournament_Square_PlayerSlot_3]
+EVENTS=r_default,r_default_rock,r_default_water,r_OreClass_All_common,r_default_grass
+NAME=Tournament Player Three
+GROUP=Ancientrealms
+P=5446,1136,0,0
+RECT=5445,1136,5447,1138,0
+
+[AREADEF a_Tournament_Square_PlayerSlot_4]
+EVENTS=r_default,r_default_rock,r_default_water,r_OreClass_All_common,r_default_grass
+NAME=Tournament Player Four
+GROUP=Ancientrealms
+P=5450,1136,0,0
+RECT=5449,1136,5451,1138,0
+
+[AREADEF a_Tournament_Square_PlayerSlot_5]
+EVENTS=r_default,r_default_rock,r_default_water,r_OreClass_All_common,r_default_grass
+NAME=Tournament Player Four
+GROUP=Ancientrealms
+P=5446,1139,0,0
+RECT=5445,1139,5447,1141,0
+
+[AREADEF a_Tournament_Square_PlayerSlot_6]
+EVENTS=r_default,r_default_rock,r_default_water,r_OreClass_All_common,r_default_grass
+NAME=Tournament Player Four
+GROUP=Ancientrealms
+P=5450,1139,0,0
+RECT=5449,1139,5451,1141,0
+
+[AREADEF a_Tournament_Square_GroupSlot_1]
+EVENTS=r_default,r_default_rock,r_default_water,r_OreClass_All_common,r_default_grass
+NAME=Tournament Group One
+GROUP=Ancientrealms
+P=5456,1136,0,0
+RECT=5453,1133,5459,1142,0
+
+[AREADEF a_Tournament_Square_GroupSlot_2]
+EVENTS=r_default,r_default_rock,r_default_water,r_OreClass_All_common,r_default_grass
+NAME=Tournament Group Two
+GROUP=Ancientrealms
+P=5455,1121,0,0
+RECT=5454,1105,5459,1133,0
+
+[AREADEF a_Tournament_Square_GroupSlot_3]
+EVENTS=r_default,r_default_rock,r_default_water,r_OreClass_All_common,r_default_grass
+NAME=Tournament Group Three
+GROUP=Ancientrealms
+P=5455,1145,0,0
+RECT=5453,1142,5459,1171,0
+
+//Player Group 1 P=5456,1136,0,0
+//Player Group 2 P=5455,1121,0,0
+//Player Group 3 P=5455,1145,0,0
+
+//Player Slot 1 P=5446,1133,0,0
+//Player Slot 2 P=5450,1133,0,0
+//Player Slot 3 P=5446,1136,0,0
+//Player Slot 4 P=5450,1136,0,0
+//Player Slot 5 P=5446,1139,0,0
+
+
+[EOF]

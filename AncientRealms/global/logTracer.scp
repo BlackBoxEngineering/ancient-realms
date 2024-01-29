@@ -1,0 +1,11 @@
+[function f_log]
+SERV.LOG @<args>
+
+[function f_do_trace]
+if (0<tag.hearTrace> != 0)	
+	if (<isgm>)
+		sysmessage @1155 Trace: <args>
+	endif
+endif
+
+[EOF]

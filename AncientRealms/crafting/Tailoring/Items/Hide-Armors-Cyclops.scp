@@ -1,0 +1,292 @@
+/////////////////////////////////////////////Cyclops hide tunic
+[ITEMDEF i_hide_tunic_Cyclops]
+   DEFNAME= i_hide_tunic_Cyclops
+   ID= i_hide_tunic
+   NAME= Cyclops hide tunic
+   ARMOR= 20
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 14 i_hide_Cyclops
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cyclops
+   DESCRIPTION= hide tunic
+
+ON=@Create
+   COLOR=color_hide_Cyclops
+   HITPOINTS= {36 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cyclops hide gloves
+[ITEMDEF i_hide_gloves_Cyclops]
+   DEFNAME= i_hide_gloves_Cyclops
+   ID= i_hide_gloves
+   NAME= Cyclops hide gloves
+   ARMOR= 8
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 2 i_hide_Cyclops
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cyclops
+   DESCRIPTION= hide gloves
+
+ON=@Create
+   COLOR=color_hide_Cyclops
+   HITPOINTS= {36 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cyclops hide gorget
+[ITEMDEF i_hide_gorget_Cyclops]
+   DEFNAME= i_hide_gorget_Cyclops
+   ID= i_hide_gorget
+   NAME= Cyclops hide gorget
+   ARMOR= 8
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 2 i_hide_Cyclops
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cyclops
+   DESCRIPTION= hide gorget
+
+ON=@Create
+   COLOR=color_hide_Cyclops
+   HITPOINTS= {36 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cyclops hide pauldrons
+[ITEMDEF i_hide_pauldrons_Cyclops]
+   DEFNAME= i_hide_pauldrons_Cyclops
+   ID= i_hide_pauldrons
+   NAME= Cyclops hide pauldrons
+   ARMOR= 9
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 3 i_hide_Cyclops
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cyclops
+   DESCRIPTION= hide pauldrons
+
+ON=@Create
+   COLOR=color_hide_Cyclops
+   HITPOINTS= {36 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cyclops hide pants
+[ITEMDEF i_hide_pants_Cyclops]
+   DEFNAME= i_hide_pants_Cyclops
+   ID= i_hide_pants
+   NAME= Cyclops hide pants
+   ARMOR= 15
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 9 i_hide_Cyclops
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cyclops
+   DESCRIPTION= hide pants
+
+ON=@Create
+   COLOR=color_hide_Cyclops
+   HITPOINTS= {36 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cyclops female hide tunic
+[ITEMDEF i_hide_tunic_female_Cyclops]
+   DEFNAME= i_hide_tunic_female_Cyclops
+   ID= i_hide_tunic_female
+   NAME= Cyclops female hide tunic
+   ARMOR= 18
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 40
+   RESOURCES= 12 i_hide_Cyclops
+   SKILLMAKE= TAILORING 30.0 ARMSLORE 10.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cyclops
+   DESCRIPTION= female hide tunic
+
+ON=@Create
+   COLOR=color_hide_Cyclops
+   HITPOINTS= {36 180}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 40
+   TAG.ArmorReqDEX= 35
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cyclops Spiked Shorts
+[ITEMDEF i_armor_female_shorts_spiked_Cyclops]
+   DEFNAME= i_armor_female_shorts_spiked_Cyclops
+   ID= i_armor_female_shorts_spiked
+   NAME= Cyclops Spiked Shorts
+   ARMOR= 18
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 12 i_hide_Cyclops
+   SKILLMAKE= TAILORING 100.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cyclops
+   DESCRIPTION= Spiked Shorts
+
+ON=@Create
+   COLOR=color_hide_Cyclops
+   HITPOINTS= {106 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cyclops Amazon Harness
+[ITEMDEF i_armor_female_harness_amazon_Cyclops]
+   DEFNAME= i_armor_female_harness_amazon_Cyclops
+   ID= i_armor_female_harness_amazon
+   NAME= Cyclops Amazon Harness
+   ARMOR= 18
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 12 i_hide_Cyclops
+   SKILLMAKE= TAILORING 100.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cyclops
+   DESCRIPTION= Amazon Harness
+
+ON=@Create
+   COLOR=color_hide_Cyclops
+   HITPOINTS= {106 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cyclops Elite Harness
+[ITEMDEF i_armor_female_harness_elite_Cyclops]
+   DEFNAME= i_armor_female_harness_elite_Cyclops
+   ID= i_armor_female_harness_elite
+   NAME= Cyclops Elite Harness
+   ARMOR= 18
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 12 i_hide_Cyclops
+   SKILLMAKE= TAILORING 100.0 ARMSLORE 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cyclops
+   DESCRIPTION= Elite Harness
+
+ON=@Create
+   COLOR=color_hide_Cyclops
+   HITPOINTS= {106 600}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Cyclops Leather Jingasa
+[ITEMDEF i_leather_jingasa_Cyclops]
+   DEFNAME= i_leather_jingasa_Cyclops
+   ID= i_leather_jingasa
+   NAME= Cyclops Leather Jingasa
+   ARMOR= 11
+   WEIGHT= 16
+   VALUE= 60
+   TYPE= t_armor
+   REQSTR= 25
+   RESOURCES= 5 i_hide_Cyclops
+   SKILLMAKE= TAILORING 80.0 ARMSLORE 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Cyclops
+   DESCRIPTION= Leather Jingasa
+
+ON=@Create
+   COLOR=color_hide_Cyclops
+   HITPOINTS= {86 480}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 25
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

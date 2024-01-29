@@ -1,0 +1,9 @@
+[TYPEDEF t_GuildHallControlStone]
+ON=@DClick
+	VAR.WorldGuildControlStoneUID=<UID>
+	IF <SRC.GM>
+		SAY <VAR.WorldGuildControlStoneUID>
+	ENDIF
+	RETURN 1
+
+[EOF]

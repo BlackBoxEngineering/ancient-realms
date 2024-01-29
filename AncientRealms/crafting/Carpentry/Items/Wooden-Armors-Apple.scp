@@ -1,0 +1,466 @@
+/////////////////////////////////////////////Apple woodland chest
+[ITEMDEF i_woodland_chest_Apple]
+   DEFNAME= i_woodland_chest_Apple
+   ID= i_woodland_chest
+   NAME= Apple woodland chest
+   ARMOR= 21
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 20 i_log_Apple
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Apple
+   DESCRIPTION= woodland chest
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS= {91 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple woodland belt
+[ITEMDEF i_woodland_belt_Apple]
+   DEFNAME= i_woodland_belt_Apple
+   ID= i_woodland_belt
+   NAME= Apple woodland belt
+   ARMOR= 16
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Apple
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Apple
+   DESCRIPTION= woodland belt
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS= {91 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple woodland gorget
+[ITEMDEF i_woodland_gorget_Apple]
+   DEFNAME= i_woodland_gorget_Apple
+   ID= i_woodland_gorget
+   NAME= Apple woodland gorget
+   ARMOR= 7
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Apple
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Apple
+   DESCRIPTION= woodland gorget
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS= {91 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple woodland gauntlets
+[ITEMDEF i_woodland_gauntlets_Apple]
+   DEFNAME= i_woodland_gauntlets_Apple
+   ID= i_woodland_gauntlets
+   NAME= Apple woodland gauntlets
+   ARMOR= 7
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 6 i_log_Apple
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Apple
+   DESCRIPTION= woodland gauntlets
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS= {91 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple woodland leggings
+[ITEMDEF i_woodland_leggings_Apple]
+   DEFNAME= i_woodland_leggings_Apple
+   ID= i_woodland_leggings
+   NAME= Apple woodland leggings
+   ARMOR= 16
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 15 i_log_Apple
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Apple
+   DESCRIPTION= woodland leggings
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS= {91 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple woodland arms
+[ITEMDEF i_woodland_arms_Apple]
+   DEFNAME= i_woodland_arms_Apple
+   ID= i_woodland_arms
+   NAME= Apple woodland arms
+   ARMOR= 9
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 8 i_log_Apple
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Apple
+   DESCRIPTION= woodland arms
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS= {91 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple female woodland chest
+[ITEMDEF i_armor_female_woodland_Apple]
+   DEFNAME= i_armor_female_woodland_Apple
+   ID= i_armor_female_woodland
+   NAME= Apple female woodland chest
+   ARMOR= 17
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 16 i_log_Apple
+   SKILLMAKE= CARPENTRY 90.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Apple
+   DESCRIPTION= female woodland chest
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS= {91 90}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 45
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple leaf tunic
+[ITEMDEF i_leaf_tunic_Apple]
+   DEFNAME= i_leaf_tunic_Apple
+   ID= i_leaf_tunic
+   NAME= Apple leaf tunic
+   ARMOR= 19
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 18 i_log_Apple
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Apple
+   DESCRIPTION= leaf tunic
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple leaf gloves
+[ITEMDEF i_leaf_gloves_Apple]
+   DEFNAME= i_leaf_gloves_Apple
+   ID= i_leaf_gloves
+   NAME= Apple leaf gloves
+   ARMOR= 13
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 12 i_log_Apple
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Apple
+   DESCRIPTION= leaf gloves
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple leaf gorget
+[ITEMDEF i_leaf_gorget_Apple]
+   DEFNAME= i_leaf_gorget_Apple
+   ID= i_leaf_gorget
+   NAME= Apple leaf gorget
+   ARMOR= 9
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Apple
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Apple
+   DESCRIPTION= leaf gorget
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple leaf arms
+[ITEMDEF i_leaf_arms_Apple]
+   DEFNAME= i_leaf_arms_Apple
+   ID= i_leaf_arms
+   NAME= Apple leaf arms
+   ARMOR= 9
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 8 i_log_Apple
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Apple
+   DESCRIPTION= leaf arms
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple leaf leggings
+[ITEMDEF i_leaf_leggings_Apple]
+   DEFNAME= i_leaf_leggings_Apple
+   ID= i_leaf_leggings
+   NAME= Apple leaf leggings
+   ARMOR= 16
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 15 i_log_Apple
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Apple
+   DESCRIPTION= leaf leggings
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple leaf tonlet
+[ITEMDEF i_leaf_tonlet_Apple]
+   DEFNAME= i_leaf_tonlet_Apple
+   ID= i_leaf_tonlet
+   NAME= Apple leaf tonlet
+   ARMOR= 5
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 70
+   RESOURCES= 4 i_log_Apple
+   SKILLMAKE= CARPENTRY 80.0 ARMSLORE 20.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Apple
+   DESCRIPTION= leaf tonlet
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 70
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple raven helm
+[ITEMDEF i_helm_raven_Apple]
+   DEFNAME= i_helm_raven_Apple
+   ID= i_helm_raven
+   NAME= Apple raven helm
+   ARMOR= 9
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Apple
+   SKILLMAKE= CARPENTRY 60.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Apple
+   DESCRIPTION= raven helm
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS= {61 60}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple vulture helm
+[ITEMDEF i_helm_vulture_Apple]
+   DEFNAME= i_helm_vulture_Apple
+   ID= i_helm_vulture
+   NAME= Apple vulture helm
+   ARMOR= 9
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Apple
+   SKILLMAKE= CARPENTRY 80.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Apple
+   DESCRIPTION= vulture helm
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS= {81 80}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Apple winged helm
+[ITEMDEF i_helm_winged_Apple]
+   DEFNAME= i_helm_winged_Apple
+   ID= i_helm_winged
+   NAME= Apple winged helm
+   ARMOR= 9
+   WEIGHT= 11
+   VALUE= 10
+   TYPE= t_armor
+   REQSTR= 30
+   RESOURCES= 8 i_log_Apple
+   SKILLMAKE= CARPENTRY 100.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= Apple
+   DESCRIPTION= winged helm
+
+ON=@Create
+   COLOR=color_log_Apple
+   HITPOINTS= {101 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 30
+   TAG.ArmorReqDEX= 25
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

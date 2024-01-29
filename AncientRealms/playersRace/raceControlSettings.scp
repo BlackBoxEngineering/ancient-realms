@@ -1,0 +1,71 @@
+////////////////////////////////////////////// Race Settings
+[DEFNAME PlayersRaceEvent]
+LineTolerance			5
+SuffleRandomicity		10
+CheckPointTimer			60
+RaceBrainTimer			1
+AutoStartTimer			3600
+WinningLevels			3
+CountDownDefault		3		
+
+////////////////////////////////////////////// Gm Commands
+[PLEVEL 3]
+TrackSetup		// Track Setup
+RaceSetup		// Race Setup
+TestStart		// Test The Track
+RaceKick		// Force Exit Race
+
+////////////////////////////////////////////// Player Commands
+[PLEVEL 1]
+JoinRace
+LeaveRace
+
+//////////////////////////////////////////////
+[FUNCTION TrackSetup]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+SDIALOG d_raceTrackSetup
+
+[FUNCTION RaceSetup]
+IF <VAR.RaceControlUID>
+	IF <SERV.UID.<VAR.RaceControlUID>.UID>
+		SRC.GO <SERV.UID.<VAR.RaceControlUID>.P>
+		SYSMESSAGE @55,,1 A Race Stone Already Exsists, remove it to create another.
+	ELSE
+		SYSMESSAGE @55,,1 Were would you like to place the race stone ?
+		VAR.RaceControlUID=0
+		TARGETFG f_racePlaceControlStone
+	ENDIF	
+ELSE
+	SYSMESSAGE @55,,1 Were would you like to place the race stone ?
+	TARGETFG f_racePlaceControlStone
+ENDIF
+RETURN 1
+
+[FUNCTION f_racePlaceControlStone]
+SERV.NEWITEM i_playersRaceControl
+NEW.P <TARGP>
+NEW.UPDATE
+
+[FUNCTION TestStart]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+REF2=<SERV.UID.<REF1.TAG.CheckPoint_1_UID>>
+TAG.wereiwasbeforeijoined=<P>
+CTAG.ReachedCheckPoint=1
+CTAG.RaceLapNo=1
+CTAG.RaceLine=<DISTANCE <REF2.UID>>
+IF !<FINDID.i_racePlayersBrain>
+	SERV.NEWITEM i_racePlayersBrain, 1, <UID>
+	SAY RaceBrain Equiped
+ENDIF
+f_raceStartLap <UID>
+
+[FUNCTION RaceKick]
+SYSMESSAGE @50,,1 Kick whom from the game?
+TARGETF f_raceExitPlayerRef
+
+[FUNCTION f_raceExitPlayerRef]
+IF <ARGO.ISPLAYER>
+	f_raceExitPlayer <ARGO.UID>
+ENDIF
+	
+[EOF]

@@ -1,0 +1,162 @@
+////////////////////////////////////////////// f_raceEndGame
+[FUNCTION f_raceEndGame]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+REF2=<SERV.UID.<REF1.TAG.CheckPoint_1_UID>>
+REF2.TAG.RaceStarted=0
+REF2.TAG.RaceCountDown=0
+REF2.TAG.RaceTimer=0
+REF1.TAG.GameIsOn=
+FOR X 1 <EVAL <REF1.TAG0.PlayerCount>>
+	IF <REF1.TAG.PlayerNumber_<EVAL <LOCAL.X>>_UID>
+		f_raceExitPlayer <SERV.UID.<REF1.TAG.PlayerNumber_<EVAL <LOCAL.X>>_UID>>
+	ENDIF
+ENDFOR
+CALL f_raceWipeWaitArea
+
+////////////////////////////////////////////// f_raceExitPlayer
+[FUNCTION f_raceExitPlayer]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+IF <ARGV[0]>
+	REF2=<SERV.UID.<ARGV[0]>>
+	TRYSRC <REF2.UID> DIALOGCLOSE d_racePlayerStatus
+	REF2.FINDID.i_racePlayersBrain.REMOVE
+	REF1.TAG.PlayersRemainingCount--
+	REF2.CTAG.ReachedCheckPoint=
+	REF2.CTAG.RaceDistance=
+	REF2.CTAG.PlayerNumber=
+	REF2.CTAG.RaceWaiting=
+	REF2.CTAG.RaceLapNo=
+	REF2.CTAG.RaceLost=
+	REF2.CTAG.RaceLine=
+	REF2.f_RaceSFXLooser
+	REF2.ARROWQUEST=0,0,1
+	REF2.EVENTS -e_PlayersRace
+	REF2.TIMERF 2,GO <REF2.TAG.wereiwasbeforeijoined>
+	REF2.TAG.wereiwasbeforeijoined=
+	UPDATE
+ENDIF
+
+[FUNCTION f_raceHoldPlayer]
+REF1=<SERV.UID.<VAR.RaceControlUID>>		//Control Stone
+REF2=<SERV.UID.<REF1.TAG.PlayersWaitUID>>   //Wait Area's UID
+REF3=<SERV.UID.<ARGV[0]>>					//The Player
+REF3.CTAG.RaceWaiting=1
+REF3.GO <REF2.P>
+REF3.ARROWQUEST=0
+REF3.ARROWQUEST=0,0,1
+TRYSRC <REF3.UID> DIALOGCLOSE d_racePlayerStatus
+
+////////////////////////////////////////////// f_raceWipeWaitArea
+[FUNCTION f_raceWipeWaitArea]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+IF <REF1.TAG.PlayersWaitUID>
+	SERV.UID.<REF1.TAG.PlayersWaitAreaUID>.REMOVE
+	REF1.TAG.PlayersWaitUID=
+	REF1.TAG.PlayersWaitAreaNAME=
+	REF1.TAG.PlayersWaitAreaUID=
+ENDIF
+
+////////////////////////////////////////////// f_RaceSFXLooser
+[FUNCTION f_RaceSFXLooser]
+TIMERF 1,SFX 1617
+FOR x 882 888
+	SFX <EVAL <LOCAL.X>>
+ENDFOR
+
+////////////////////////////////////////////// f_raceClearControl
+[FUNCTION f_raceClearControl]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+FOR findNextSlot 1 <EVAL <REF1.TAG.PlayerCount>*2>
+	REF1.TAG.PlayerFinished_<EVAL <LOCAL.findNextSlot>>_UID=
+	REF1.TAG.PlayerFinished_<EVAL <LOCAL.findNextSlot>>_NAME=
+	REF1.TAG.PlayerFinished_<EVAL <LOCAL.findNextSlot>>_POSITION=
+	REF1.TAG.PlayerFinished_<EVAL <LOCAL.findNextSlot>>_RACETIME=
+	REF1.TAG.PolePosition_<EVAL <LOCAL.PolePosition>>_Distance=
+	REF1.TAG.PolePosition_<EVAL <LOCAL.PolePosition>>_Name=
+	REF1.TAG.PolePosition_<EVAL <LOCAL.PolePosition>>_UID=
+ENDFOR
+//SERV.LOG Control Stone PlayerFinsihed and PolePosition Tags Have been Cleared
+
+////////////////////////////////////////////// f_raceDoPlayerCheckPoint
+[FUNCTION f_raceDoPlayerCheckPoint]
+REF1=<SERV.UID.<VAR.RaceControlUID>>
+REF2=<SERV.UID.<ARGV[0]>>
+REF3=<SERV.UID.<REF1.TAG.CheckPoint_1_UID>>
+IF <SERV.UID.<REF1.TAG.CheckPoint_<EVAL <ARGV[1]> +1>_UID>>
+	//SERV.LOG <REF2.NAME> Onward to CheckPoint[<EVAL <ARGV[1]>+1>]
+	REF3=<SERV.UID.<REF1.TAG.CheckPoint_<EVAL <ARGV[1]> +1>_UID>>
+	REF2.CTAG.ReachedCheckPoint=<ARGV[1]>
+	TRYSRC <REF2.UID> SDIALOG d_racePlayerStatus
+	REF2.ARROWQUEST=<REF3.P.X>,<REF3.P.Y>,1
+ELSE
+	//SERV.LOG <REF2.NAME> Reaches the final CheckPoint[<EVAL <ARGV[1]>>]
+	IF !<EVAL <REF1.TAG.LapsOn>> // Cross Country
+		LOCAL.NextSlot=1
+		FOR findNextSlot 1 <EVAL <REF1.TAG.PlayerCount>+1>
+			IF !<REF1.TAG.PlayerFinished_<EVAL <LOCAL.findNextSlot>>_UID>
+				LOCAL.NextSlot=<EVAL <LOCAL.findNextSlot>>
+			ENDIF
+		ENDFOR
+		REF1.TAG.PlayerFinished_<EVAL <LOCAL.NextSlot>>_UID=<REF2.UID>
+		REF1.TAG.PlayerFinished_<EVAL <LOCAL.NextSlot>>_NAME=<REF2.NAME>
+		REF1.TAG.PlayerFinished_<EVAL <LOCAL.NextSlot>>_POSITION=<EVAL <LOCAL.NextSlot>>
+		REF1.TAG.PlayerFinished_<EVAL <LOCAL.NextSlot>>_RACETIME=<REF3.TAG0.RaceTimer>
+		//SERV.LOG <REF2.NAME> Finishes A Cross Country Race in Position <EVAL <LOCAL.NextSlot>>
+		f_raceExitPlayer <REF2.UID>
+		f_removeQueuedPlayerFromRace <REF2.UID>
+	ELIF <EVAL <REF1.TAG.LapsOn>> == 1 // KnockOut
+		LOCAL.NextSlot=1
+		FOR findNextSlot <EVAL <REF1.TAG.PlayerCount>+1> 1 
+			IF !<REF1.TAG.PlayerFinished_<EVAL <LOCAL.findNextSlot>>_UID>
+				LOCAL.NextSlot=<EVAL <LOCAL.findNextSlot>>
+			ENDIF
+		ENDFOR
+		REF1.TAG.PlayerFinished_<EVAL <LOCAL.NextSlot>>_UID=<REF2.UID>
+		REF1.TAG.PlayerFinished_<EVAL <LOCAL.NextSlot>>_NAME=<REF2.NAME>
+		REF1.TAG.PlayerFinished_<EVAL <LOCAL.NextSlot>>_POSITION=<EVAL <LOCAL.NextSlot>>
+		REF1.TAG.PlayerFinished_<EVAL <LOCAL.NextSlot>>_RACETIME=<REF3.TAG.RaceTimer>
+		IF <EVAL <LOCAL.NextSlot>> >= <EVAL <REF1.TAG.PlayerCount>>
+			//SERV.LOG <REF2.NAME> Finishes KnockOut Race in Position <EVAL <LOCAL.NextSlot>> (Last) and is knocked out of the race.
+			f_raceExitPlayer <REF2.UID>
+			f_removeQueuedPlayerFromRace <REF2.UID>
+			IF <EVAL <REF1.TAG.PlayerFinished_<EVAL <LOCAL.NextSlot>>_POSITION>> > 1
+				f_raceTrackDefineStart
+			ELSE
+				f_raceEndGame
+			ENDIF	
+		ELSE
+			IF <EVAL <REF1.TAG0.PlayerCount>> > 2
+				f_raceHoldPlayer <REF2.UID>
+				//SERV.LOG <REF2.NAME> Finishes A KnockOut Race in Position <EVAL <LOCAL.NextSlot>> and is being held for the next round
+			ELSE
+				//SERV.LOG <REF2.NAME> Winds the KnockOut Race
+				f_raceEndGame
+			ENDIF
+		ENDIF
+	ELSE	// Its a Lapped Race
+		IF <EVAL <REF2.CTAG.RaceLapNo>> > <EVAL <REF1.TAG.LapsOn>-1>
+			// Its the Final Lap
+			LOCAL.NextSlot=1
+			FOR findNextSlot 1 <EVAL <REF1.TAG.PlayerCount>+1>
+				IF !<REF1.TAG.PlayerFinished_<EVAL <LOCAL.findNextSlot>>_UID>
+					LOCAL.NextSlot=<EVAL <LOCAL.findNextSlot>>
+				ENDIF
+			ENDFOR
+			REF1.TAG.PlayerFinished_<EVAL <LOCAL.NextSlot>>_UID=<REF2.UID>
+			REF1.TAG.PlayerFinished_<EVAL <LOCAL.NextSlot>>_NAME=<REF2.NAME>
+			REF1.TAG.PlayerFinished_<EVAL <LOCAL.NextSlot>>_POSITION=<EVAL <LOCAL.NextSlot>>
+			REF1.TAG.PlayerFinished_<EVAL <LOCAL.NextSlot>>_RACETIME=<REF3.TAG0.RaceTimer>
+			//SERV.LOG <REF2.NAME> Finishes A Lapped Race in Position <EVAL <LOCAL.NextSlot>>
+			f_raceExitPlayer <REF2.UID>
+			f_removeQueuedPlayerFromRace <REF2.UID>
+		ELSE
+			//SERV.LOG <REF2.NAME> completes LapNo[<EVAL <REF2.CTAG.RaceLapNo>>]
+			REF2.CTAG.RaceLapNo=<EVAL <REF2.CTAG.RaceLapNo>+1>
+			TRYSRC <REF2.UID> SDIALOG d_racePlayerStatus
+			REF2.ARROWQUEST=<REF3.P.X>,<REF3.P.Y>,1
+			REF2.CTAG.ReachedCheckPoint=0
+		ENDIF
+	ENDIF
+ENDIF
+	
+[EOF]

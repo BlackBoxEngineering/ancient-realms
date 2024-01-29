@@ -1,0 +1,35 @@
+[FUNCTION ReleaseTheDragonTest]
+TARGETFG f_keep_ReleaseTheDragon
+
+[FUNCTION f_keep_ReleaseTheDragon]
+SERV.NEWNPC={c_dragon_stygian_red, c_dragon_stygian_blue}
+NEW.P=<TARGP>
+NEW.NUDGEUP 2
+LOCAL.TempUID=<NEW.UID>
+REGION.ALLCLIENTS SYSMESSAGE @33,,1 Beware <REGION.NAME>'s Dragon Has Been Released!!
+NEWITEM=i_keep_dragon_timer, 1, <LOCAL.TempUID>
+NEW.TIMER=30
+SFX 481
+SERV.UID.<REGION.TAG.KeepControlStoneUID>.TAG.KeepDragonTimer=0
+
+[FUNCTION CallDragon]
+TARGETFG f_keep_ReleaseTheDragon
+
+[ITEMDEF i_keep_dragon_timer]
+DEFNAME=i_keep_dragon_timer
+ID=i_pet_dragon
+NAME=Keep Dragon Timer
+TYPE=t_eq_script
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=5
+
+ON=@Timer
+	CONT.REMOVE
+	SERV.LOG Dragon Timer <CONT.REGION.NAME> <CONT.NAME> Removed
+	REMOVE
+	RETURN 1
+
+[EOF]

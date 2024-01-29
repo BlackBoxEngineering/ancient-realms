@@ -1,0 +1,31 @@
+[FUNCTION f_keep_DiscoverRegionsKeepStoneUID]
+
+	IF (STRMATCH(*Cove Keep*,<REGION.NAME>))
+		RETURN <EVAL KS_Cove>	
+	ELIF (STRMATCH(*Magincia Keep*,<REGION.NAME>))
+		RETURN <EVAL KS_Magincia>	
+	ELIF (STRMATCH(*Buccaneer's Keep*,<REGION.NAME>))
+		RETURN <EVAL KS_Buccaneers>	
+	ELIF (STRMATCH(*Moonglow Keep*,<REGION.NAME>))
+		RETURN <EVAL KS_MoonGlow>	
+	ELIF (STRMATCH(*Trinsic Keep*,<REGION.NAME>))
+		RETURN <EVAL KS_Trinsic>	
+	ELIF (STRMATCH(*Yew Keep*,<REGION.NAME>))
+		RETURN <EVAL KS_Yew>	
+	ELIF (STRMATCH(*Minoc Keep*,<REGION.NAME>))
+		RETURN <EVAL KS_Minoc>	
+	ELIF (STRMATCH(*Skara Brae Keep*,<REGION.NAME>))
+		RETURN <EVAL KS_Skara>	
+	ELIF (STRMATCH(*Britian Keep*,<REGION.NAME>))
+		RETURN <EVAL KS_BritCastle>
+	ELIF (STRMATCH(*Astalon Keep*,<REGION.NAME>))
+		RETURN <EVAL KS_Astalon>
+	ELIF (STRMATCH(*Serpents Keep*,<REGION.NAME>))
+		RETURN <EVAL KS_Serpents>
+	ELSE
+		SAY This Is No Keep !
+		RETURN 0
+	ENDIF
+
+	
+[EOF]

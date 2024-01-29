@@ -1,0 +1,50 @@
+[ITEMDEF i_cts_starter]
+ID=i_shield_dupre
+DEFNAME=i_cts_starter
+TYPE=t_eq_script
+NAME=CTS Starter
+LAYER=layer_special
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	TIMER=2
+	
+ON=@TIMER
+	CALL f_send_players_cts
+	SERV.B @57 CTS Score Board Reset.
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.BlueTeamPlayerScore=0
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.RedTeamPlayerScore=0
+	NEWITEM=i_cts_starter_stone
+	NEW.P=6028,1636,71
+	SERV.UID.<EVAL AS_FernBank_PlayerSetupBlue>.TIMER 2
+	SERV.UID.<EVAL AS_FernBank_PlayerSetupRed>.TIMER 2
+	CONT.FINDID.i_cts_starter.REMOVE
+	RETURN 1
+
+[ITEMDEF i_cts_starter_stone]
+DEFNAME=i_cts_starter_stone
+ID=i_gravestone_4
+TYPE=t_container
+NAME=CTS Starter Stone
+LAYER=layer_special
+CATEGORY=Ancientrealms - Arenas
+SUBSECTION=CTS Items
+DESCRIPTION=CTS Starter Stone
+
+ON=@CREATE
+	ATTR=ATTR_NEWBIE|ATTR_DECAY|ATTR_MOVE_NEVER
+	SERV.UID.<EVAL AS_FernBank_PlayerControl>.TAG.StartSToneUID=<UID>
+	TIMER=60
+
+ON=@DCLICK
+	SAY @63 TIMER = <TIMER>
+	
+ON=@TIMER
+	SERV.UID.<EVAL AS_FernBank_PlayerSetupBlue>.COLOR 95
+	SERV.UID.<EVAL AS_FernBank_PlayerSetupRed>.COLOR 35
+	REMOVE
+	RETURN 1
+	
+
+
+[EOF]

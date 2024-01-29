@@ -1,0 +1,79 @@
+[function drinknightsight]
+if (<src.findid.i_potion_nightsight>)
+	src.findid.i_potion_nightsight.dclick
+endif
+
+[function usepickaxe]
+if (<src.findid.i_pickaxe>)
+	src.findid.i_pickaxe.dclick
+endif
+
+[FUNCTION drinkheal]
+if (<src.findid.i_potion_heal>)
+	src.findid.i_potion_heal.dclick
+endif
+
+[FUNCTION drinklesserheal]
+if (<src.findid.i_potion_healless>)
+	src.findid.i_potion_healless.dclick
+endif
+
+[FUNCTION drinkgreaterheal]
+if (<src.findid.i_potion_healgreat>)
+	src.findid.i_potion_healgreat.dclick
+endif
+
+[FUNCTION drinkrefresh]
+if (<src.findid.i_potion_refresh>)
+	src.findid.i_potion_refresh.dclick
+endif
+
+[FUNCTION drinktotalrefresh]
+if (<src.findid.i_potion_refreshtotal>)
+	src.findid.i_potion_refreshtotal.dclick
+endif
+
+[FUNCTION drinkmana]
+if (<src.findid.i_potion_mana>)
+	src.findid.i_potion_mana.dclick
+endif
+
+[FUNCTION drinktotalmana]
+if (<src.findid.i_potion_manatotal>)
+	src.findid.i_potion_manatotal.dclick
+endif
+
+[FUNCTION drinkmagicreflect]
+if (<src.findid.i_potion_reflect>)
+	src.findid.i_potion_reflect.dclick
+endif
+
+[FUNCTION drinkcure]
+if (<src.findid.i_potion_cure>)
+	src.findid.i_potion_cure.dclick
+endif
+
+[FUNCTION usebandage]
+if (<src.findid.i_bandage>)
+	src.findid.i_bandage.dclick
+else
+	SYSMESSAGE @35 You are out of Bandages
+ENDIF
+
+[FUNCTION drinkdispel]
+if (<src.findid.i_potion_dispel>)
+	src.findid.i_potion_dispel.dclick
+endif
+
+[FUNCTION gettarget]
+TARGET
+
+[FUNCTION removemyfuckingkills]
+SRC.KILLS=0
+
+[FUNCTION usebandage]
+if (<src.findid.i_bandage>)
+	src.findid.i_bandage.dclick
+endif
+
+[EOF]

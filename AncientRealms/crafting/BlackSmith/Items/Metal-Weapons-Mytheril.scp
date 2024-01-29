@@ -1,0 +1,2213 @@
+/////////////////////////////////////////////Mytheril Quarter Staff
+
+[ITEMDEF i_staff_quarter_Mytheril]
+   DEFNAME=i_staff_quarter_Mytheril
+   ID=i_staff_quarter
+   NAME=Mytheril Quarter Staff
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=27
+   VALUE=150
+   SPEED=54
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={20 42}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Serpentstone Staff
+
+[ITEMDEF i_serpentstone_staff_Mytheril]
+   DEFNAME=i_serpentstone_staff_Mytheril
+   ID=i_serpentstone_staff
+   NAME=Mytheril Serpentstone Staff
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=31
+   VALUE=150
+   SPEED=53
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=CARPENTRY 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={60 82}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Double Bladed Staff
+
+[ITEMDEF i_staff_bladed_double_Mytheril]
+   DEFNAME=i_staff_bladed_double_Mytheril
+   ID=i_staff_bladed_double
+   NAME=Mytheril Double Bladed Staff
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=39
+   VALUE=150
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 120.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={120 142}
+   TAG.WeaponSkillUse=120
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Glass Staff
+
+[ITEMDEF i_glass_staff_Mytheril]
+   DEFNAME=i_glass_staff_Mytheril
+   ID=i_glass_staff
+   NAME=Mytheril Glass Staff
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=36
+   VALUE=150
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={90 112}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Bladed Staff
+
+[ITEMDEF i_bladed_staff_Mytheril]
+   DEFNAME=i_bladed_staff_Mytheril
+   ID=i_bladed_staff
+   NAME=Mytheril Bladed Staff
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_mace_staff
+   FLIP=1
+   DAM=37
+   VALUE=150
+   SPEED=53
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={115 137}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Tongs
+
+[ITEMDEF i_tongs_Mytheril]
+   DEFNAME=i_tongs_Mytheril
+   ID=i_tongs
+   NAME=Mytheril Tongs
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=14
+   VALUE=150
+   SPEED=16
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 0.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={0 22}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Mace
+
+[ITEMDEF i_mace_Mytheril]
+   DEFNAME=i_mace_Mytheril
+   ID=i_mace
+   NAME=Mytheril Mace
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=27
+   VALUE=150
+   SPEED=45
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Maul
+
+[ITEMDEF i_maul_Mytheril]
+   DEFNAME=i_maul_Mytheril
+   ID=i_maul
+   NAME=Mytheril Maul
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=29
+   VALUE=150
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={40 62}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Scepter
+
+[ITEMDEF i_scepter_Mytheril]
+   DEFNAME=i_scepter_Mytheril
+   ID=i_scepter
+   NAME=Mytheril Scepter
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=31
+   VALUE=150
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={50 72}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Sledge Hammer
+
+[ITEMDEF i_hammer_sledge_Mytheril]
+   DEFNAME=i_hammer_sledge_Mytheril
+   ID=i_hammer_sledge
+   NAME=Mytheril Sledge Hammer
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=31
+   VALUE=150
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={20 42}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Smiths Hammer
+
+[ITEMDEF i_hammer_smith_Mytheril]
+   DEFNAME=i_hammer_smith_Mytheril
+   ID=i_hammer_smith
+   NAME=Mytheril Smiths Hammer
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=17
+   VALUE=150
+   SPEED=16
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril War Mace
+
+[ITEMDEF i_mace_war_Mytheril]
+   DEFNAME=i_mace_war_Mytheril
+   ID=i_mace_war
+   NAME=Mytheril War Mace
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=35
+   VALUE=150
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={80 102}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Disc Mace
+
+[ITEMDEF i_disc_mace_Mytheril]
+   DEFNAME=i_disc_mace_Mytheril
+   ID=i_disc_mace
+   NAME=Mytheril Disc Mace
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=35
+   VALUE=150
+   SPEED=49
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={70 92}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril War Hammer
+
+[ITEMDEF i_hammer_war_Mytheril]
+   DEFNAME=i_hammer_war_Mytheril
+   ID=i_hammer_war
+   NAME=Mytheril War Hammer
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_mace_smith
+   FLIP=1
+   DAM=41
+   VALUE=150
+   SPEED=56
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={100 122}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Hammer Pick
+
+[ITEMDEF i_hammer_pick_Mytheril]
+   DEFNAME=i_hammer_pick_Mytheril
+   ID=i_hammer_pick
+   NAME=Mytheril Hammer Pick
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=37
+   VALUE=150
+   SPEED=51
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={55 77}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril War Axe
+
+[ITEMDEF i_axe_war_Mytheril]
+   DEFNAME=i_axe_war_Mytheril
+   ID=i_axe_war
+   NAME=Mytheril War Axe
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=27
+   VALUE=150
+   SPEED=47
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={65 87}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Tessen
+
+[ITEMDEF i_tessen_Mytheril]
+   DEFNAME=i_tessen_Mytheril
+   ID=i_tessen
+   NAME=Mytheril Tessen
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_mace_sharp
+   FLIP=1
+   DAM=26
+   VALUE=150
+   SPEED=41
+   SKILL=MACEFIGHTING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=MACEFIGHTING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={75 97}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Long Sword
+
+[ITEMDEF i_sword_long_Mytheril]
+   DEFNAME=i_sword_long_Mytheril
+   ID=i_sword_long
+   NAME=Mytheril Long Sword
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=150
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={10 32}
+   TAG.WeaponSkillUse=10
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Broad Sword
+
+[ITEMDEF i_sword_broad_Mytheril]
+   DEFNAME=i_sword_broad_Mytheril
+   ID=i_sword_broad
+   NAME=Mytheril Broad Sword
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=150
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 20.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={20 42}
+   TAG.WeaponSkillUse=20
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Scimitar
+
+[ITEMDEF i_scimitar_Mytheril]
+   DEFNAME=i_scimitar_Mytheril
+   ID=i_scimitar
+   NAME=Mytheril Scimitar
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=150
+   SPEED=36
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Viking Sword
+
+[ITEMDEF i_sword_viking_Mytheril]
+   DEFNAME=i_sword_viking_Mytheril
+   ID=i_sword_viking
+   NAME=Mytheril Viking Sword
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=150
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={35 57}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Katana
+
+[ITEMDEF i_katana_Mytheril]
+   DEFNAME=i_katana_Mytheril
+   ID=i_katana
+   NAME=Mytheril Katana
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=150
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={80 102}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Wakizashi
+
+[ITEMDEF i_wakizashi_Mytheril]
+   DEFNAME=i_wakizashi_Mytheril
+   ID=i_wakizashi
+   NAME=Mytheril Wakizashi
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=25
+   VALUE=150
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={45 67}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Long Sword
+
+[ITEMDEF i_sword_long_b_Mytheril]
+   DEFNAME=i_sword_long_b_Mytheril
+   ID=i_sword_long_b
+   NAME=Mytheril Long Sword
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=26
+   VALUE=150
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={50 72}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Paladin Sword
+
+[ITEMDEF i_sword_paladin_Mytheril]
+   DEFNAME=i_sword_paladin_Mytheril
+   ID=i_sword_paladin
+   NAME=Mytheril Paladin Sword
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=27
+   VALUE=150
+   SPEED=38
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={65 87}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Bokuto
+
+[ITEMDEF i_bokuto_Mytheril]
+   DEFNAME=i_bokuto_Mytheril
+   ID=i_bokuto
+   NAME=Mytheril Bokuto
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=28
+   VALUE=150
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={70 92}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Radiant Scimitar
+
+[ITEMDEF i_Radiant_Scimitar_Mytheril]
+   DEFNAME=i_Radiant_Scimitar_Mytheril
+   ID=i_Radiant_Scimitar
+   NAME=Mytheril Radiant Scimitar
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=29
+   VALUE=150
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={75 97}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Bone Harvester
+
+[ITEMDEF i_bone_harvester_Mytheril]
+   DEFNAME=i_bone_harvester_Mytheril
+   ID=i_bone_harvester
+   NAME=Mytheril Bone Harvester
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=23
+   VALUE=150
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={55 77}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Butcher Knife
+
+[ITEMDEF i_knife_butcher_Mytheril]
+   DEFNAME=i_knife_butcher_Mytheril
+   ID=i_knife_butcher
+   NAME=Mytheril Butcher Knife
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=150
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Meat Cleaver
+
+[ITEMDEF i_cleaver_meat_Mytheril]
+   DEFNAME=i_cleaver_meat_Mytheril
+   ID=i_cleaver_meat
+   NAME=Mytheril Meat Cleaver
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=21
+   VALUE=150
+   SPEED=33
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Elven Machete
+
+[ITEMDEF i_elven_machete_Mytheril]
+   DEFNAME=i_elven_machete_Mytheril
+   ID=i_elven_machete
+   NAME=Mytheril Elven Machete
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=30
+   VALUE=150
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={60 82}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Bone Machete
+
+[ITEMDEF i_bone_machete_Mytheril]
+   DEFNAME=i_bone_machete_Mytheril
+   ID=i_bone_machete
+   NAME=Mytheril Bone Machete
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=31
+   VALUE=150
+   SPEED=37
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={50 72}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Daisho
+
+[ITEMDEF i_daisho_Mytheril]
+   DEFNAME=i_daisho_Mytheril
+   ID=i_daisho
+   NAME=Mytheril Daisho
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=32
+   VALUE=150
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={65 87}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril No-Dachi
+
+[ITEMDEF i_no_dachi_Mytheril]
+   DEFNAME=i_no_dachi_Mytheril
+   ID=i_no_dachi
+   NAME=Mytheril No-Dachi
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=33
+   VALUE=150
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={75 97}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Rune Blade
+
+[ITEMDEF i_Rune_Blade_Mytheril]
+   DEFNAME=i_Rune_Blade_Mytheril
+   ID=i_Rune_Blade
+   NAME=Mytheril Rune Blade
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_sword
+   FLIP=1
+   DAM=35
+   VALUE=150
+   SPEED=45
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={115 137}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Axe
+
+[ITEMDEF i_axe_Mytheril]
+   DEFNAME=i_axe_Mytheril
+   ID=i_axe
+   NAME=Mytheril Axe
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=25
+   VALUE=150
+   SPEED=39
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 42.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={42 64}
+   TAG.WeaponSkillUse=42
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Bardiche
+
+[ITEMDEF i_bardiche_Mytheril]
+   DEFNAME=i_bardiche_Mytheril
+   ID=i_bardiche
+   NAME=Mytheril Bardiche
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=31
+   VALUE=150
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 58.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={58 80}
+   TAG.WeaponSkillUse=58
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Battle Axe
+
+[ITEMDEF i_axe_battle_Mytheril]
+   DEFNAME=i_axe_battle_Mytheril
+   ID=i_axe_battle
+   NAME=Mytheril Battle Axe
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=33
+   VALUE=150
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={65 87}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Double Axe
+
+[ITEMDEF i_axe_double_Mytheril]
+   DEFNAME=i_axe_double_Mytheril
+   ID=i_axe_double
+   NAME=Mytheril Double Axe
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=35
+   VALUE=150
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={70 92}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Exectutioners Axe
+
+[ITEMDEF i_axe_exec_Mytheril]
+   DEFNAME=i_axe_exec_Mytheril
+   ID=i_axe_exec
+   NAME=Mytheril Exectutioners Axe
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=35
+   VALUE=150
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 73.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={73 95}
+   TAG.WeaponSkillUse=73
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Halberd
+
+[ITEMDEF i_halberd_Mytheril]
+   DEFNAME=i_halberd_Mytheril
+   ID=i_halberd
+   NAME=Mytheril Halberd
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=36
+   VALUE=150
+   SPEED=46
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={75 97}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Hatchet
+
+[ITEMDEF i_hatchet_Mytheril]
+   DEFNAME=i_hatchet_Mytheril
+   ID=i_hatchet
+   NAME=Mytheril Hatchet
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=26
+   VALUE=150
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 40.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={40 62}
+   TAG.WeaponSkillUse=40
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Large Battle Axe
+
+[ITEMDEF i_axe_battle_large_Mytheril]
+   DEFNAME=i_axe_battle_large_Mytheril
+   ID=i_axe_battle_large
+   NAME=Mytheril Large Battle Axe
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=38
+   VALUE=150
+   SPEED=49
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 100.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={100 122}
+   TAG.WeaponSkillUse=100
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Ornate Axe
+
+[ITEMDEF i_ornate_axe_Mytheril]
+   DEFNAME=i_ornate_axe_Mytheril
+   ID=i_ornate_axe
+   NAME=Mytheril Ornate Axe
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=34
+   VALUE=150
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={60 82}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Two Handed Axe
+
+[ITEMDEF i_axe_two_hand_Mytheril]
+   DEFNAME=i_axe_two_hand_Mytheril
+   ID=i_axe_two_hand
+   NAME=Mytheril Two Handed Axe
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=36
+   VALUE=150
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={55 77}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Dual Axes
+
+[ITEMDEF i_dual_short_axes_Mytheril]
+   DEFNAME=i_dual_short_axes_Mytheril
+   ID=i_dual_short_axes
+   NAME=Mytheril Dual Axes
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=32
+   VALUE=150
+   SPEED=41
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 95.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={95 117}
+   TAG.WeaponSkillUse=95
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Cresent Blade
+
+[ITEMDEF i_crescent_blade_Mytheril]
+   DEFNAME=i_crescent_blade_Mytheril
+   ID=i_crescent_blade
+   NAME=Mytheril Cresent Blade
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_axe
+   FLIP=1
+   DAM=38
+   VALUE=150
+   SPEED=47
+   SKILL=SWORDSMANSHIP
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 110.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=SWORDSMANSHIP
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={110 132}
+   TAG.WeaponSkillUse=110
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Dagger
+
+[ITEMDEF i_dagger_Mytheril]
+   DEFNAME=i_dagger_Mytheril
+   ID=i_dagger
+   NAME=Mytheril Dagger
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=150
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 10.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={10 32}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Skinning Knife
+
+[ITEMDEF i_knife_skinning_Mytheril]
+   DEFNAME=i_knife_skinning_Mytheril
+   ID=i_knife_skinning
+   NAME=Mytheril Skinning Knife
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=17
+   VALUE=150
+   SPEED=29
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 15.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={15 37}
+   TAG.WeaponSkillUse=0
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Assassin Spike
+
+[ITEMDEF i_sword_Assassin_Spike_Mytheril]
+   DEFNAME=i_sword_Assassin_Spike_Mytheril
+   ID=i_sword_Assassin_Spike
+   NAME=Mytheril Assassin Spike
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=19
+   VALUE=150
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 30.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={30 52}
+   TAG.WeaponSkillUse=30
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Cutlass
+
+[ITEMDEF i_cutlass_Mytheril]
+   DEFNAME=i_cutlass_Mytheril
+   ID=i_cutlass
+   NAME=Mytheril Cutlass
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=20
+   VALUE=150
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 25.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={25 47}
+   TAG.WeaponSkillUse=25
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Short Blade
+
+[ITEMDEF i_shortblade_Mytheril]
+   DEFNAME=i_shortblade_Mytheril
+   ID=i_shortblade
+   NAME=Mytheril Short Blade
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=21
+   VALUE=150
+   SPEED=38
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 35.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={35 57}
+   TAG.WeaponSkillUse=35
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Scythe
+
+[ITEMDEF i_scythe_Mytheril]
+   DEFNAME=i_scythe_Mytheril
+   ID=i_scythe
+   NAME=Mytheril Scythe
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=34
+   VALUE=150
+   SPEED=43
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={115 137}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Short Spear
+
+[ITEMDEF i_spear_short_Mytheril]
+   DEFNAME=i_spear_short_Mytheril
+   ID=i_spear_short
+   NAME=Mytheril Short Spear
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=150
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 45.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={45 67}
+   TAG.WeaponSkillUse=45
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril War Fork
+
+[ITEMDEF i_war_fork_Mytheril]
+   DEFNAME=i_war_fork_Mytheril
+   ID=i_war_fork
+   NAME=Mytheril War Fork
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=150
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 50.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={50 72}
+   TAG.WeaponSkillUse=50
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Leafblade
+
+[ITEMDEF i_sword_leafblade_Mytheril]
+   DEFNAME=i_sword_leafblade_Mytheril
+   ID=i_sword_leafblade
+   NAME=Mytheril Leafblade
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=22
+   VALUE=150
+   SPEED=37
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 60.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={60 82}
+   TAG.WeaponSkillUse=60
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Elven Spell Blade
+
+[ITEMDEF i_elven_spellblade_Mytheril]
+   DEFNAME=i_elven_spellblade_Mytheril
+   ID=i_elven_spellblade
+   NAME=Mytheril Elven Spell Blade
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=28
+   VALUE=150
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={75 97}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Pitchfork
+
+[ITEMDEF i_pitchfork_Mytheril]
+   DEFNAME=i_pitchfork_Mytheril
+   ID=i_pitchfork
+   NAME=Mytheril Pitchfork
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=29
+   VALUE=150
+   SPEED=44
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 55.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={55 77}
+   TAG.WeaponSkillUse=55
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril War Cleaver
+
+[ITEMDEF i_war_cleaver_Mytheril]
+   DEFNAME=i_war_cleaver_Mytheril
+   ID=i_war_cleaver
+   NAME=Mytheril War Cleaver
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=150
+   SPEED=33
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 65.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={65 87}
+   TAG.WeaponSkillUse=65
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Pike
+
+[ITEMDEF i_pike_Mytheril]
+   DEFNAME=i_pike_Mytheril
+   ID=i_pike
+   NAME=Mytheril Pike
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=150
+   SPEED=44
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 70.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={70 92}
+   TAG.WeaponSkillUse=70
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Blood Blade
+
+[ITEMDEF i_bloodblade_Mytheril]
+   DEFNAME=i_bloodblade_Mytheril
+   ID=i_bloodblade
+   NAME=Mytheril Blood Blade
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=23
+   VALUE=150
+   SPEED=39
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 75.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={75 97}
+   TAG.WeaponSkillUse=75
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Kama
+
+[ITEMDEF i_kama_Mytheril]
+   DEFNAME=i_kama_Mytheril
+   ID=i_kama
+   NAME=Mytheril Kama
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=29
+   VALUE=150
+   SPEED=43
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 77.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={77 99}
+   TAG.WeaponSkillUse=77
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Kryss
+
+[ITEMDEF i_kryss_Mytheril]
+   DEFNAME=i_kryss_Mytheril
+   ID=i_kryss
+   NAME=Mytheril Kryss
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=25
+   VALUE=150
+   SPEED=35
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 80.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={80 102}
+   TAG.WeaponSkillUse=80
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Lajatang
+
+[ITEMDEF i_lajatang_Mytheril]
+   DEFNAME=i_lajatang_Mytheril
+   ID=i_lajatang
+   NAME=Mytheril Lajatang
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=26
+   VALUE=150
+   SPEED=36
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 85.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={85 107}
+   TAG.WeaponSkillUse=85
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Sai
+
+[ITEMDEF i_sai_Mytheril]
+   DEFNAME=i_sai_Mytheril
+   ID=i_sai
+   NAME=Mytheril Sai
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=30
+   VALUE=150
+   SPEED=41
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 76.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={76 98}
+   TAG.WeaponSkillUse=76
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Tekagi
+
+[ITEMDEF i_tekagi_Mytheril]
+   DEFNAME=i_tekagi_Mytheril
+   ID=i_tekagi
+   NAME=Mytheril Tekagi
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=27
+   VALUE=150
+   SPEED=31
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=N
+   SKILLMAKE=BLACKSMITHING 90.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={90 112}
+   TAG.WeaponSkillUse=90
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////Mytheril Dual Pointed Spear
+
+[ITEMDEF i_dual_pointed_spear_Mytheril]
+   DEFNAME=i_dual_pointed_spear_Mytheril
+   ID=i_dual_pointed_spear
+   NAME=Mytheril Dual Pointed Spear
+   RESOURCES= 20 i_ingot_Mytheril
+   WEIGHT=21
+   TYPE=t_weapon_fence
+   FLIP=1
+   DAM=33
+   VALUE=150
+   SPEED=42
+   SKILL=FENCING
+   REQSTR=41
+   TWOHANDS=Y
+   SKILLMAKE=BLACKSMITHING 115.0
+   TEVENTS = t_iprop
+
+   CATEGORY=Invictus Weapons
+   SUBSECTION=FENCING
+   DESCRIPTION=Mytheril
+
+ON=@Create
+   COLOR=color_ore_Mytheril
+   HITPOINTS={115 137}
+   TAG.WeaponSkillUse=115
+   TAG.WeaponTagUid=<UID>
+   TAG.WeaponTagDispId=<DISPID>
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

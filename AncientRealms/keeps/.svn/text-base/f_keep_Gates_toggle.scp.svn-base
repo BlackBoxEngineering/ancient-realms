@@ -1,0 +1,26 @@
+[FUNCTION f_keep_Gates_toggle]
+IF ((<SERV.UID.<f_DiscoverRegionsKeepStoneUID>.TAG0.GateStatusN>)||(<SERV.UID.<f_DiscoverRegionsKeepStoneUID>.TAG0.GateStatusW>)) // tag is nonzero, gates are up
+	IF <SERV.UID.<f_DiscoverRegionsKeepStoneUID>.TAG0.GateStatusN>
+		SYSMESSAGE @1462,,1 You Lower the Keep Gate !
+		f_keep_GatesNorthLower
+		SERV.UID.<f_DiscoverRegionsKeepStoneUID>.TAG.GateStatusN = 0
+	ENDIF
+	IF <SERV.UID.<f_DiscoverRegionsKeepStoneUID>.TAG0.GateStatusW>
+		SYSMESSAGE @1462,,1 You Lower the Keep Gate _
+		f_keep_GatesEastLower
+		SERV.UID.<f_DiscoverRegionsKeepStoneUID>.TAG.GateStatusW = 0
+	ENDIF
+ELSE // tag is zero or missing, gates are down and need to go up
+	IF (!<SERV.UID.<f_DiscoverRegionsKeepStoneUID>.TAG0.GateStatusN>)
+		SYSMESSAGE @1462,,1 You Raise the Keep Gate !
+		f_keep_GatesNorthRaise
+		SERV.UID.<f_DiscoverRegionsKeepStoneUID>.TAG.GateStatusN = 1
+	ENDIF
+	IF (!<SERV.UID.<f_DiscoverRegionsKeepStoneUID>.TAG0.GateStatusW>)
+		SYSMESSAGE @1462,,1 You Raise the Keep Gate _
+		f_keep_GatesEastRaise
+		SERV.UID.<f_DiscoverRegionsKeepStoneUID>.TAG.GateStatusW = 1
+	ENDIF
+ENDIF
+
+[EOF]

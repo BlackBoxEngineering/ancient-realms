@@ -1,0 +1,211 @@
+//****************************************************************************
+// SphereServer ©1997-2009
+// This script is part from the Sphere Community Script Pack.
+// You can download the full pack from: www.sphereserver.net
+//****************************************************************************
+// FILE LAST UPDATED:
+VERSION=0.56b
+
+[EVENTS e_NpcCombatEvent]
+ON=@HITTRY
+	REF1=<SERV.UID.<UID>>		// Attacker
+	REF2=<SERV.UID.<SRC.UID>>	// Victim
+	REF3=<SERV.UID.<ARGO.UID>>	// Item Being Used 0 if Fists
+	FACE <SRC.UID>
+	LOCAL.TotalSpeedOfAttack=0
+	IF !<CheckLineOfSight <SRC.UID>>
+		CALL f_CheckForPlayerFlags <UID>, <SRC.UID>
+		LOCAL.SpeedOfAttackPlayerStat=<EVAL 125 - <DEX>>
+		IF (STRMATCH(*skill_wrestling*,<REF1.ACTION>))
+			LOCAL.SpeedOfAttackWeapon=20
+			LOCAL.SpeedOfAttackPlayerSkill=<EVAL 100 (<WRESTLING> / 10)>
+		ELSE
+			LOCAL.SpeedOfAttackWeapon=<REF3.SPEED>
+			LOCAL.SpeedOfAttackPlayerSkill=<EVAL 100 - (<REF1.<SERV.SKILL.<REF3.SKILL>.KEY>> / 10) >
+		ENDIF
+		LOCAL.TotalSpeedOfAttack=<EVAL (<LOCAL.SpeedOfAttackPlayerStat> + <LOCAL.SpeedOfAttackPlayerSkill> + <LOCAL.SpeedOfAttackWeapon> + CombatSpeedTweakADD) / CombatSpeedTweakDIV>
+		IF <ReturnOnlyPositives <f_combat_AttackHitOrMiss <UID>,<SRC.UID>>>
+			f_moongateInterupt <REF2.UID>
+			ARGN1=<EVAL <LOCAL.TotalSpeedOfAttack>>
+		ELSE
+			RETURN 1
+		ENDIF
+	ELSE
+		RETURN 1
+	ENDIF
+	RETURN 0
+
+ON=@HIT
+	REF1=<SERV.UID.<UID>>		// Attacker
+	REF2=<SERV.UID.<SRC.UID>>	// Victim
+	REF3=<SERV.UID.<ARGO.UID>>	// Weapon 0 if Fists
+	LOCAL.TotalDamage = 0
+	IF !<f_CheckForHitOrMiss <REF1.UID>,<REF2.UID>,<REF3.UID>>
+		f_moongateInterupt <REF2.UID>
+		f_CheckForSameGuildAlignment <REF1.UID>,<REF2.UID>
+		REF2.TAG.PreHits=<REF2.HITS>
+		LOCAL.TotalDamage=<f_combat_CalculateDamageMelee <REF1.UID>,<REF2.UID>>
+		REF2.TAG.LastExpValue=<f_GetMyExperienceValue <REF2.UID>>
+		REF2.TAG.LastHitsMelee=<EVAL <LOCAL.TotalDamage>>
+		REF2.TAG.LastHitByUID=<REF1.UID>
+		REF1.TAG.LastDamageMelee=<EVAL <LOCAL.TotalDamage>>	
+		REF1.TAG.LastVictimUID=<REF2.UID>
+	ENDIF
+	ARGN1=<EVAL <LOCAL.TotalDamage>>
+	ARGN2=dam_god
+	ARGN3=0
+	RETURN 0
+
+ON=@SpellSelect
+	REF1=<SERV.UID.<ARGO.UID>> // Caster or Wand
+	REF2=<SERV.UID.<UID>>	   // Caster
+	ARGN3=03
+	IF <f_SpellcastCheckRegionLawsOnPreCast <REF2.UID>, <ARGN1>>||<f_combat_CheckForSpellPrevention <REF2.UID>, <ARGN1>>
+		ACTION=-1
+		RETURN 1
+	ELSE
+		IF <REF2.MANA> > <ARGN2>
+			REF2.TAG.ManaUse=<EVAL <REF2.MANA> - <ARGN2>>
+			RETURN 6
+		ELSE
+			ACTION=-1
+			RETURN 1
+		ENDIF
+	ENDIF
+	RETURN 0
+	
+ON=@SpellCast
+	REF1=<SERV.UID.<SRC.UID>>
+	REF2=<SERV.UID.<ACT.UID>>
+	REF3=<TARGP>
+	f_healingIterupt <REF1.UID>
+	IF <ARGN1>==2||<ARGN1>==21
+		RETURN 0
+	ELSE
+		IF !(<REF1.CheckLineOfSights <REF2.UID>>) && !(<f_CheckForPlayerFlags <REF1.UID>, <REF2.UID>>)
+			f_moongateInterupt <REF1.UID>
+			f_revealHiddenPlayer <REF1.UID>
+			f_CheckForSameGuildAlignment <REF1.UID>,<REF2.UID>
+			f_SpellcastCheckRegionLawsOnTarget <REF1.UID>,<ARGN1>,<TARGP>
+			LOCAL.SkillName = <serv.skill.<streat <serv.spell.<argn1>.skillreq>>.key>
+			ACTDIFF = <EVAL (((<<LOCAL.SkillName>> - <ARGN2>) * 2.5) + 50.0)>
+		ENDIF	
+		IF <ACTDIFF> < 0
+			REF1.ACTION-1
+			RETURN 1
+		ENDIF
+	ENDIF
+	if <def.scp.OSISpellDiff> == 1
+		local.skill = <serv.skill.<streat <serv.spell.<argn1>.skillreq>>.key>
+		actdiff = <eval (((<<local.skill>> - <argn2>) * 2.5) + 50.0)>
+	endif
+	if !<npc>
+		if <isempty <serv.spell.<argn1>.runes>>
+			if <account.plevel> > 2
+				if <serv.wopstaff>
+					if <isnum <def.scp.spell_<argn1>_wop>>
+					say @<serv.wopcolor>,<serv.wopfont>,2 <def.scp.spell_<argn1>_wop>
+					else
+					say @<serv.wopcolor>,<serv.wopfont> <def.scp.spell_<argn1>_wop>
+					endif
+				endif
+			elif <account.plevel> < 2
+				if <isnum <def.spell.<argn1>.wop>>
+				say @<serv.wopcolor>,<serv.wopfont>,2 <def.scp.spell_<argn1>_wop>
+				else
+				say @<serv.wopcolor>,<serv.wopfont> <def.scp.spell_<argn1>_wop>
+				endif
+			endif
+		endif
+	endif
+	RETURN 0
+	
+ON=@SpellEffect
+	REF1=<SERV.UID.<SRC.UID>> // Caster 
+	REF2=<SERV.UID.<UID>>	  // Target
+	LOCAL.TotalDamage=0
+	REF2.TAG.PreHits=<REF2.HITS>
+	IF !<f_combat_DoSpellProperties <ARGN1>>
+		LOCAL.TotalDamage=<f_combat_CalculateDamageMage <REF1.UID>,<REF2.UID>,<ARGN1>>
+		//LOCAL.MagicalResist=<f_CheckForMagicResistance <REF2.UID>,<REF1.UID>,<ARGN1>,<EVAL <LOCAL.TotalDamage>>>
+		//LOCAL.TotalDamage=<ReturnOnlyPositives <LOCAL.TotalDamage> - <LOCAL.MagicalResist>>	
+		REF2.TAG.LastDamageMage=<EVAL <LOCAL.TotalDamage>>
+		REF2.TAG.LastHitsMage=<LOCAL.TotalDamage>
+		IF <REF1.UID>==<REF2.UID>
+			IF <ARGN1>==57
+				REF1.TAG.LastDamageMage=-1
+				REF1.TAG.LastHitsMage=-1
+			ENDIF
+		ENDIF
+		REF1.TAG.LastVictimUID=<REF2.UID>
+		REF2.TAG.LastDamageMagic=1
+		REF2.TAG.LastHitByUID=<REF1.UID>
+		REF2.TAG.LastExpValue=<f_GetMyExperienceValue <REF2.UID>>
+	ENDIF
+	//ARGN2=<EVAL <LOCAL.TotalDamage>> // oh wow this is resist bbl to it
+	RETURN 0
+
+ON=@GetHit
+	REF1=<SERV.UID.<SRC.UID>>	//Caster
+	REF2=<SERV.UID.<UID>>		//Target
+	f_healingIterupt <REF2.UID>
+	f_moongateInterupt <REF2.UID>
+	f_revealHiddenPlayer <REF2.UID>
+	LOCAL.AfterHits=<REF2.HITS>
+	ARGN1=0
+	IF <REF2.TAG.LastDamageMagic>
+		ARGN1=<EVAL <REF2.TAG.LastHitsMage>>
+		ARGN1=<R<ARGN1>,<EVAL <ARGN1>+1>>
+		IF <REF2.TAG.Resist>
+			IF <EVAL <ARGN1>> > 5
+				LOCAL.ResistPassive=<EVAL <REF2.MAGICRESISTANCE> / 250>
+				SERV.B @55,,1 Passive Resist <EVAL <LOCAL.ResistPassive>>
+				ARGN1=<EVAL <ARGN1> - <LOCAL.ResistPassive>>
+			ENDIF
+		REF1.TAG.Resist=
+		ENDIF
+		REF2.TAG.LastDamageMagic=
+	ELSE
+		ARGN1=<EVAL <REF2.TAG.LastHitsMelee>>
+		ARGN1=<R<EVAL <ARGN1>-1>,<EVAL <ARGN1>+1>>
+		ARGN1=<f_checkForParry <REF1.UID>,<ARGN1>>
+		IF <REF2.FINDID.i_invictus_playerbuff_reactarmor>
+			ARGN1=<EVAL <ARGN1> / 2>
+			REF2.EFFECT=3,i_fx_sparkle,64,16,1,00029,3
+		ENDIF
+		IF <REF2.TAG.StoodOnUIDSFireField>
+			ARGN1=<EVAL <ARGN1> / 100>
+			REF2.TAG.StoodOnUIDSFireField=
+			ARGN2=dam_fire
+		ELSE
+			ARGN2=dam_god
+		ENDIF
+		REF2.TAG.LastDamageMelee=
+	ENDIF
+	IF <ARGN1>
+		IF <ARGN1> > 0
+			f_revealHiddenPlayer <REF1.UID>
+			f_revealHiddenPlayer <REF2.UID>
+			IF <REF1.FLAGS>&statf_freeze
+				REF1.FLAGS &= ~statf_freeze
+			ENDIF
+			IF <REF1.TAG.ShowDamageOnHead>
+				REF2.SAY @33,,1 <ARGN1>
+			ELIF <REF1.TAG.ShowDamageOnDisplay>
+				IF <REF1.UID> == <REF2.UID>
+					REF1.SYSMESSAGE @63,,1 You damage yourself for <ARGN1> hit points.
+				ELSE
+					REF1.SYSMESSAGE @63,,1 You damage <REF2.NAME> for <ARGN1> hit points.
+					REF2.SYSMESSAGE @33,,1 <REF1.NAME> damages you for <ARGN1> hit points.
+				ENDIF
+			ELSE
+				REF1.SYSMESSAGE @00029,,1 Please select how you would like the damage to be displayed either Type (.ShowDamageOnHead) or (.ShowDamageOnDisplay) once selected this msg will be removed.
+			ENDIF
+		ELSE
+			ARGN1=0
+		ENDIF
+	ENDIF
+	ARGN3=0	
+	RETURN 0
+	
+[EOF]

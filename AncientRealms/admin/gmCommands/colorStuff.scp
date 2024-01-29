@@ -1,0 +1,53 @@
+
+[FUNCTION EvalColor]
+SRC.TARGETF Evalcolor2
+
+[FUNCTION EvalColor2]
+SRC.SAY @55 <EVAL <ARGO.COLOR>>
+
+[FUNCTION whatisHairColor]
+SAY @<FINDLAYER.(layer_hair).COLOR> Hair = <FINDLAYER.(layer_hair).COLOR>
+SAY @<FINDLAYER.(layer_beard).COLOR> Beard = <FINDLAYER.(layer_beard).COLOR>
+
+[Function HairColor]
+IF (<UID>==0d8690)
+	VAR.SelectedColor=<ARGV[0]>
+	SYSMESSAGE @63 What would you like to Color <EVAL <VAR.SelectedColor>>
+	SRC.TARGETF f_paintthehair
+ELSE
+	SYSMESSAGE @00029 Your not Smelly Cat !!!!!
+ENDIF
+
+[Function f_painttheitem]
+	SYSMESSAGE @55 Exsisting Color <EVAL <SERV.UID.<ARGO>.COLOR>>
+	SYSMESSAGE @55 New Color <EVAL <VAR.SelectedColor>>	
+	SERV.UID.<ARGO>.COLOR=<EVAL <VAR.SelectedColor>>
+	SERV.UID.<ARGO>.COLOR=<EVAL <VAR.SelectedColor>>
+	
+[Function f_paintthehair]
+	SYSMESSAGE @55 Exsisting Hair Color <EVAL <SERV.UID.<ARGO>.COLOR>>
+	SYSMESSAGE @55 New Hair Color <EVAL <VAR.SelectedColor>>	
+	SERV.UID.<ARGO>.FINDLAYER.11.COLOR=<EVAL <VAR.SelectedColor>>
+	SERV.UID.<ARGO>.FINDLAYER.16.COLOR=<EVAL <VAR.SelectedColor>>
+
+
+[function ColorElementalType]
+local.max = 50
+if <tag0.DamPoison> > 50
+local.hue = <eval 1267 + ((<tag0.DamPoison> - 50) / 10)>
+local.max = <tag0.DamPoison>
+endif
+if <tag0.DamFire> > <local.max>
+local.hue = <eval 1255 + ((<tag0.DamFire> - 50) / 10)>
+local.max = <tag0.DamFire>
+endif
+if <tag0.DamEnergy> > <local.max>
+local.hue = <eval 1273 + ((<tag0.DamEnergy> - 50) / 10)>
+local.max = <tag0.DamEnergy>
+endif
+if <tag0.DamCold> > <local.max>
+local.hue = <eval 1261 + ((<tag0.DamCold> - 50) / 10)>
+endif
+return <local.hue>
+
+[EOF]

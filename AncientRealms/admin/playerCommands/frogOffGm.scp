@@ -1,0 +1,23 @@
+[FUNCTION frogOffGm]
+SRC.SYSMESSAGE @55,,1 Target the annoying GM
+SRC.TARGETF GmToFrog
+
+[FUNCTION GmToFrog]
+IF <SERV.UID.<ARGO>.ISPLAYER>
+	IF <SERV.UID.<ARGO>.GM>
+		IF (<SERV.UID.<ARGO>.UID> = 059379)
+			SYSMESSAGE @1462 Don't be silly I made that command.
+		ELSE
+			SERV.UID.<ARGO>.OBODY=c_toad_giant
+			SERV.UID.<ARGO>.BODY=c_toad_giant
+			SERV.UID.<ARGO>.ID=c_toad_giant
+			SERV.UID.<ARGO>.UPDATEX
+		ENDIF
+	ELSE
+		SYSMESSAGE @55,,1 Thats not a Gm
+	ENDIF
+ELSE
+	SYSMESSAGE @55,,1 Thats not a person
+ENDIF
+
+[EOF]

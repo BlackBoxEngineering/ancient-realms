@@ -1,0 +1,14 @@
+[FUNCTION RealRareRideCount]
+LOCAL.Counter=1
+SERV.1462 @55 Ready
+FORCHARS 6144 
+    IF <FINDID.i_rare_pet_id>
+		SERV.b 1462 @55 <NAME> <EVAL <LOCAL.Counter>>
+		LOCAL.Counter=<LOCAL.Counter>+1
+	ENDIF
+ENDFOR
+IF !<LOCAL.Counter=1>
+SERV.b 1462 @55 NONE FOUND
+ENDIF
+
+[EOF]

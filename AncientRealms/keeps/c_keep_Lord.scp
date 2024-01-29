@@ -1,0 +1,55 @@
+[CHARDEF c_keep_Lord]
+DEFNAME=c_keep_lord
+NAME=#NAMES_HUMANMALE the Keep Guard
+ID=C_MAN
+CAN=MT_WALK|MT_RUN|MT_USEHANDS|MT_EQUIP
+DAM=8
+MOVERATE=60
+ARMOR=45
+DESIRES=i_gold,e_notoriety,t_keep_point
+AVERSIONS=t_TRAP
+DESIRES=e_notoriety
+TEVENTS=e_Keep_Guard
+TEVENTS=e_Keep_Lord
+CATEGORY=AncientRealms
+SUBSECTION=Keep Guards
+DESCRIPTION=Keep Lord
+
+ON=@Create
+	NPC=brain_monster
+	COLOR=1009
+	STR=100
+	DEX=100
+	INT=50
+	FAME=100
+	KARMA=-1000
+	MAXHITS			=<EVAL KeepLordDefaultMaxHits>
+	ARCHERY			={80.0 100.0}
+	MACEFIGHTING	={80.0 100.0}
+	SWORDSMANSHIP	={80.0 100.0}
+	FENCING			={80.0 100.0}
+	WRESTLING		={80.0 100.0}
+	HEALING			={80.0 100.0}
+	PARRYING		={80.0 100.0}
+	MAGICRESISTANCE	={80.0 100.0}
+	FOCUS			={80.0 100.0}
+	TACTICS			={80.0 100.0}
+	DETECTINGHIDDEN	={80.0 100.0}
+	ITEMNEWBIE=i_keep_GuardsBrains, 1, <UID>
+	ITEMNEWBIE=i_keep_canbecaptured, 1, <UID>
+	
+ON=@NPCRestock
+	ITEMNEWBIE=i_platemail_chest_blackrock
+    ITEMNEWBIE=i_platemail_leggings_blackrock
+    ITEMNEWBIE=i_platemail_arms_blackrock
+    ITEMNEWBIE=i_platemail_helm_blackrock
+    ITEMNEWBIE=i_platemail_gloves_blackrock
+    ITEMNEWBIE=i_platemail_gorget_blackrock
+    ITEMNEWBIE=i_pike_chromium
+    ITEMNEWBIE=i_cape
+    COLOR=color_ore_chromium
+	ITEM=i_bandage {13 16}
+
+
+	
+[EOF]

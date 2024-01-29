@@ -1,0 +1,147 @@
+/////////////////////////////////////////////GrizzledBones Bone Arms
+[ITEMDEF i_bone_arms_GrizzledBones]
+   DEFNAME= i_bone_arms_GrizzledBones
+   ID= i_bone_arms
+   NAME= GrizzledBones Bone Arms
+   ARMOR= 14
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 12 i_bone_GrizzledBones
+   SKILLMAKE= TINKERING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= GrizzledBones
+   DESCRIPTION= Bone Arms
+
+ON=@Create
+   COLOR=color_bone_GrizzledBones
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////GrizzledBones Cone Chest
+[ITEMDEF i_bone_chest_GrizzledBones]
+   DEFNAME= i_bone_chest_GrizzledBones
+   ID= i_bone_chest
+   NAME= GrizzledBones Cone Chest
+   ARMOR= 18
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 16 i_bone_GrizzledBones
+   SKILLMAKE= TINKERING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= GrizzledBones
+   DESCRIPTION= Cone Chest
+
+ON=@Create
+   COLOR=color_bone_GrizzledBones
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////GrizzledBones Bone Gloves
+[ITEMDEF i_bone_gloves_GrizzledBones]
+   DEFNAME= i_bone_gloves_GrizzledBones
+   ID= i_bone_gloves
+   NAME= GrizzledBones Bone Gloves
+   ARMOR= 12
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 10 i_bone_GrizzledBones
+   SKILLMAKE= TINKERING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= GrizzledBones
+   DESCRIPTION= Bone Gloves
+
+ON=@Create
+   COLOR=color_bone_GrizzledBones
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////GrizzledBones Bone Helmet
+[ITEMDEF i_bone_helmet_GrizzledBones]
+   DEFNAME= i_bone_helmet_GrizzledBones
+   ID= i_bone_helmet
+   NAME= GrizzledBones Bone Helmet
+   ARMOR= 10
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 8 i_bone_GrizzledBones
+   SKILLMAKE= TINKERING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= GrizzledBones
+   DESCRIPTION= Bone Helmet
+
+ON=@Create
+   COLOR=color_bone_GrizzledBones
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+/////////////////////////////////////////////GrizzledBones Bone Leggings
+[ITEMDEF i_bone_leggings_GrizzledBones]
+   DEFNAME= i_bone_leggings_GrizzledBones
+   ID= i_bone_leggings
+   NAME= GrizzledBones Bone Leggings
+   ARMOR= 16
+   WEIGHT= 12
+   VALUE= 20
+   TYPE= t_armor
+   REQSTR= 60
+   RESOURCES= 14 i_bone_GrizzledBones
+   SKILLMAKE= TINKERING 50.0
+   TEVENTS= t_iprop
+
+   CATEGORY=Ancientrealms Armors
+   SUBSECTION= GrizzledBones
+   DESCRIPTION= Bone Leggings
+
+ON=@Create
+   COLOR=color_bone_GrizzledBones
+   HITPOINTS= {52 100}
+   TAG.ArmorTagUid= <UID>
+   TAG.ArmorTagDispId= <DISPID>
+   TAG.ArmorReqSTR= 60
+   TAG.ArmorReqDEX= 55
+
+ON=@Tooltip
+   FINISH_TOOLTIP
+
+
+[EOF]

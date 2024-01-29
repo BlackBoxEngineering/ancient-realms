@@ -1,0 +1,70 @@
+[SPEECH spk_BlackOrderInnKeeper]
+ON=*Evil*
+    SAY Yes I am very evil but I am also a good man to know!
+
+[CHARDEF c_BlackOrder_Inn_Keeper]
+ID=c_man
+NAME=Inn Keeper [BlackOrder]
+CAN=MT_WALK|MT_USEHANDS|MT_EQUIP
+MOVERATE=120
+DAM=44,48
+ARMOR=5
+DESIRES=i_gold,e_notoriety
+TSPEECH=spk_human_prime
+TSPEECH=spk_shopkeep
+TSPEECH=spk_needs
+TSPEECH=spk_rehello
+TSPEECH=spk_human_default
+TSPEECH=spk_BlackOrderInnKeeper
+TEVENTS=e_Human_HearUnk
+TEVENTS=e_Human_Needs
+TEVENTS=e_Human_ConvInit
+TEVENTS=e_Human_Greet
+TEVENTS=e_Human_Space
+TEVENTS=e_Human_Refuse
+TEVENTS=e_Human_Environ
+CATEGORY=Ancientrealms-NPCS
+SUBSECTION=The Black Order
+DESCRIPTION=BlackOrder Inn Keeper
+
+ON=@Create
+	NPC=brain_human
+	COLOR=colors_skin
+	DEX=125
+	INT=125
+	STR=125
+	MAXHITS=4000	
+	WRESTLING=120.0
+	FENCING=120.0
+	TACTICS=120.0
+	ANATOMY=120.0
+	MAGICRESISTANCE=120.0
+	KARMA=0
+	FAME=100
+	ITEMNEWBIE=i_kasa
+	ITEMNEWBIE=i_ninja_tabi
+	ITEMNEWBIE=i_leather_ninja_pants
+	ITEMNEWBIE=i_leather_ninja_jacket
+	ITEM=random_shoes
+	COLOR=colors_neutral
+	
+ON=@NPCRestock
+	ITEM=random_coin_purse
+	SELL=VENDOR_S_PROVISIONER
+	BUY=VENDOR_B_PROVISIONER
+	
+ON=@DClick 
+	IF <SRC.TAG.PlayerGetsStarterPack>
+		SAY @45 Well hello there <SRC.NAME> I see you havnt had your present from Mudock yet. Its in the chest in the corner enjoy!
+	ELSE
+		SAY @52 Welcome to the Broken Arrow Inn a safe place for criminals to relax
+	ENDIF
+
+ON=@NPCSeeNewPlayer 
+	IF <SRC.TAG.PlayerGetsStarterPack>
+		SAY @45 Well hello there <SRC.NAME> I see you havnt had your present from Mudock yet. Its in the chest in the corner enjoy!
+	ELSE
+		SAY @52 Welcome to the Broken Arrow Inn a safe place for criminals to relax
+	ENDIF
+	
+[EOF]

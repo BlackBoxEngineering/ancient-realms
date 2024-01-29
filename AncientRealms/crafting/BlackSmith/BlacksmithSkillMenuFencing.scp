@@ -1,0 +1,371 @@
+
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Rusty
+[SKILLMENU sm_metal_fencing_Rusty]
+Rusty Fencing
+ON=i_Players_Fence_Rusty @color_ore_Rusty
+MAKEITEM=i_Players_Fence_Rusty
+ON=i_Players_Gate_Rusty_n @color_ore_Rusty
+MAKEITEM=i_Players_Gate_Rusty_n
+ON=i_Players_Gate_Rusty_w @color_ore_Rusty
+MAKEITEM=i_Players_Gate_Rusty_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Iron
+[SKILLMENU sm_metal_fencing_Iron]
+Iron Fencing
+ON=i_Players_Fence_Iron @color_ore_Iron
+MAKEITEM=i_Players_Fence_Iron
+ON=i_Players_Gate_Iron_n @color_ore_Iron
+MAKEITEM=i_Players_Gate_Iron_n
+ON=i_Players_Gate_Iron_w @color_ore_Iron
+MAKEITEM=i_Players_Gate_Iron_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ DullCopper
+[SKILLMENU sm_metal_fencing_DullCopper]
+DullCopper Fencing
+ON=i_Players_Fence_DullCopper @color_ore_DullCopper
+MAKEITEM=i_Players_Fence_DullCopper
+ON=i_Players_Gate_DullCopper_n @color_ore_DullCopper
+MAKEITEM=i_Players_Gate_DullCopper_n
+ON=i_Players_Gate_DullCopper_w @color_ore_DullCopper
+MAKEITEM=i_Players_Gate_DullCopper_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Copper
+[SKILLMENU sm_metal_fencing_Copper]
+Copper Fencing
+ON=i_Players_Fence_Copper @color_ore_Copper
+MAKEITEM=i_Players_Fence_Copper
+ON=i_Players_Gate_Copper_n @color_ore_Copper
+MAKEITEM=i_Players_Gate_Copper_n
+ON=i_Players_Gate_Copper_w @color_ore_Copper
+MAKEITEM=i_Players_Gate_Copper_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ OldCopper
+[SKILLMENU sm_metal_fencing_OldCopper]
+OldCopper Fencing
+ON=i_Players_Fence_OldCopper @color_ore_OldCopper
+MAKEITEM=i_Players_Fence_OldCopper
+ON=i_Players_Gate_OldCopper_n @color_ore_OldCopper
+MAKEITEM=i_Players_Gate_OldCopper_n
+ON=i_Players_Gate_OldCopper_w @color_ore_OldCopper
+MAKEITEM=i_Players_Gate_OldCopper_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ PureCopper
+[SKILLMENU sm_metal_fencing_PureCopper]
+PureCopper Fencing
+ON=i_Players_Fence_PureCopper @color_ore_PureCopper
+MAKEITEM=i_Players_Fence_PureCopper
+ON=i_Players_Gate_PureCopper_n @color_ore_PureCopper
+MAKEITEM=i_Players_Gate_PureCopper_n
+ON=i_Players_Gate_PureCopper_w @color_ore_PureCopper
+MAKEITEM=i_Players_Gate_PureCopper_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Bronze
+[SKILLMENU sm_metal_fencing_Bronze]
+Bronze Fencing
+ON=i_Players_Fence_Bronze @color_ore_Bronze
+MAKEITEM=i_Players_Fence_Bronze
+ON=i_Players_Gate_Bronze_n @color_ore_Bronze
+MAKEITEM=i_Players_Gate_Bronze_n
+ON=i_Players_Gate_Bronze_w @color_ore_Bronze
+MAKEITEM=i_Players_Gate_Bronze_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Silver
+[SKILLMENU sm_metal_fencing_Silver]
+Silver Fencing
+ON=i_Players_Fence_Silver @color_ore_Silver
+MAKEITEM=i_Players_Fence_Silver
+ON=i_Players_Gate_Silver_n @color_ore_Silver
+MAKEITEM=i_Players_Gate_Silver_n
+ON=i_Players_Gate_Silver_w @color_ore_Silver
+MAKEITEM=i_Players_Gate_Silver_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Rose
+[SKILLMENU sm_metal_fencing_Rose]
+Rose Fencing
+ON=i_Players_Fence_Rose @color_ore_Rose
+MAKEITEM=i_Players_Fence_Rose
+ON=i_Players_Gate_Rose_n @color_ore_Rose
+MAKEITEM=i_Players_Gate_Rose_n
+ON=i_Players_Gate_Rose_w @color_ore_Rose
+MAKEITEM=i_Players_Gate_Rose_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Rhodonite
+[SKILLMENU sm_metal_fencing_Rhodonite]
+Rhodonite Fencing
+ON=i_Players_Fence_Rhodonite @color_ore_Rhodonite
+MAKEITEM=i_Players_Fence_Rhodonite
+ON=i_Players_Gate_Rhodonite_n @color_ore_Rhodonite
+MAKEITEM=i_Players_Gate_Rhodonite_n
+ON=i_Players_Gate_Rhodonite_w @color_ore_Rhodonite
+MAKEITEM=i_Players_Gate_Rhodonite_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ RoseQuartz
+[SKILLMENU sm_metal_fencing_RoseQuartz]
+RoseQuartz Fencing
+ON=i_Players_Fence_RoseQuartz @color_ore_RoseQuartz
+MAKEITEM=i_Players_Fence_RoseQuartz
+ON=i_Players_Gate_RoseQuartz_n @color_ore_RoseQuartz
+MAKEITEM=i_Players_Gate_RoseQuartz_n
+ON=i_Players_Gate_RoseQuartz_w @color_ore_RoseQuartz
+MAKEITEM=i_Players_Gate_RoseQuartz_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Vanadinate
+[SKILLMENU sm_metal_fencing_Vanadinate]
+Vanadinate Fencing
+ON=i_Players_Fence_Vanadinate @color_ore_Vanadinate
+MAKEITEM=i_Players_Fence_Vanadinate
+ON=i_Players_Gate_Vanadinate_n @color_ore_Vanadinate
+MAKEITEM=i_Players_Gate_Vanadinate_n
+ON=i_Players_Gate_Vanadinate_w @color_ore_Vanadinate
+MAKEITEM=i_Players_Gate_Vanadinate_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Azurite
+[SKILLMENU sm_metal_fencing_Azurite]
+Azurite Fencing
+ON=i_Players_Fence_Azurite @color_ore_Azurite
+MAKEITEM=i_Players_Fence_Azurite
+ON=i_Players_Gate_Azurite_n @color_ore_Azurite
+MAKEITEM=i_Players_Gate_Azurite_n
+ON=i_Players_Gate_Azurite_w @color_ore_Azurite
+MAKEITEM=i_Players_Gate_Azurite_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Erubecite
+[SKILLMENU sm_metal_fencing_Erubecite]
+Erubecite Fencing
+ON=i_Players_Fence_Erubecite @color_ore_Erubecite
+MAKEITEM=i_Players_Fence_Erubecite
+ON=i_Players_Gate_Erubecite_n @color_ore_Erubecite
+MAKEITEM=i_Players_Gate_Erubecite_n
+ON=i_Players_Gate_Erubecite_w @color_ore_Erubecite
+MAKEITEM=i_Players_Gate_Erubecite_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Galena
+[SKILLMENU sm_metal_fencing_Galena]
+Galena Fencing
+ON=i_Players_Fence_Galena @color_ore_Galena
+MAKEITEM=i_Players_Fence_Galena
+ON=i_Players_Gate_Galena_n @color_ore_Galena
+MAKEITEM=i_Players_Gate_Galena_n
+ON=i_Players_Gate_Galena_w @color_ore_Galena
+MAKEITEM=i_Players_Gate_Galena_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Kunzite
+[SKILLMENU sm_metal_fencing_Kunzite]
+Kunzite Fencing
+ON=i_Players_Fence_Kunzite @color_ore_Kunzite
+MAKEITEM=i_Players_Fence_Kunzite
+ON=i_Players_Gate_Kunzite_n @color_ore_Kunzite
+MAKEITEM=i_Players_Gate_Kunzite_n
+ON=i_Players_Gate_Kunzite_w @color_ore_Kunzite
+MAKEITEM=i_Players_Gate_Kunzite_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Orpiment
+[SKILLMENU sm_metal_fencing_Orpiment]
+Orpiment Fencing
+ON=i_Players_Fence_Orpiment @color_ore_Orpiment
+MAKEITEM=i_Players_Fence_Orpiment
+ON=i_Players_Gate_Orpiment_n @color_ore_Orpiment
+MAKEITEM=i_Players_Gate_Orpiment_n
+ON=i_Players_Gate_Orpiment_w @color_ore_Orpiment
+MAKEITEM=i_Players_Gate_Orpiment_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Hematite
+[SKILLMENU sm_metal_fencing_Hematite]
+Hematite Fencing
+ON=i_Players_Fence_Hematite @color_ore_Hematite
+MAKEITEM=i_Players_Fence_Hematite
+ON=i_Players_Gate_Hematite_n @color_ore_Hematite
+MAKEITEM=i_Players_Gate_Hematite_n
+ON=i_Players_Gate_Hematite_w @color_ore_Hematite
+MAKEITEM=i_Players_Gate_Hematite_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Malachite
+[SKILLMENU sm_metal_fencing_Malachite]
+Malachite Fencing
+ON=i_Players_Fence_Malachite @color_ore_Malachite
+MAKEITEM=i_Players_Fence_Malachite
+ON=i_Players_Gate_Malachite_n @color_ore_Malachite
+MAKEITEM=i_Players_Gate_Malachite_n
+ON=i_Players_Gate_Malachite_w @color_ore_Malachite
+MAKEITEM=i_Players_Gate_Malachite_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Cassiterite
+[SKILLMENU sm_metal_fencing_Cassiterite]
+Cassiterite Fencing
+ON=i_Players_Fence_Cassiterite @color_ore_Cassiterite
+MAKEITEM=i_Players_Fence_Cassiterite
+ON=i_Players_Gate_Cassiterite_n @color_ore_Cassiterite
+MAKEITEM=i_Players_Gate_Cassiterite_n
+ON=i_Players_Gate_Cassiterite_w @color_ore_Cassiterite
+MAKEITEM=i_Players_Gate_Cassiterite_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Gold
+[SKILLMENU sm_metal_fencing_Gold]
+Gold Fencing
+ON=i_Players_Fence_Gold @color_ore_Gold
+MAKEITEM=i_Players_Fence_Gold
+ON=i_Players_Gate_Gold_n @color_ore_Gold
+MAKEITEM=i_Players_Gate_Gold_n
+ON=i_Players_Gate_Gold_w @color_ore_Gold
+MAKEITEM=i_Players_Gate_Gold_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Verite
+[SKILLMENU sm_metal_fencing_Verite]
+Verite Fencing
+ON=i_Players_Fence_Verite @color_ore_Verite
+MAKEITEM=i_Players_Fence_Verite
+ON=i_Players_Gate_Verite_n @color_ore_Verite
+MAKEITEM=i_Players_Gate_Verite_n
+ON=i_Players_Gate_Verite_w @color_ore_Verite
+MAKEITEM=i_Players_Gate_Verite_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Autonite
+[SKILLMENU sm_metal_fencing_Autonite]
+Autonite Fencing
+ON=i_Players_Fence_Autonite @color_ore_Autonite
+MAKEITEM=i_Players_Fence_Autonite
+ON=i_Players_Gate_Autonite_n @color_ore_Autonite
+MAKEITEM=i_Players_Gate_Autonite_n
+ON=i_Players_Gate_Autonite_w @color_ore_Autonite
+MAKEITEM=i_Players_Gate_Autonite_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Agapite
+[SKILLMENU sm_metal_fencing_Agapite]
+Agapite Fencing
+ON=i_Players_Fence_Agapite @color_ore_Agapite
+MAKEITEM=i_Players_Fence_Agapite
+ON=i_Players_Gate_Agapite_n @color_ore_Agapite
+MAKEITEM=i_Players_Gate_Agapite_n
+ON=i_Players_Gate_Agapite_w @color_ore_Agapite
+MAKEITEM=i_Players_Gate_Agapite_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Daemonite
+[SKILLMENU sm_metal_fencing_Daemonite]
+Daemonite Fencing
+ON=i_Players_Fence_Daemonite @color_ore_Daemonite
+MAKEITEM=i_Players_Fence_Daemonite
+ON=i_Players_Gate_Daemonite_n @color_ore_Daemonite
+MAKEITEM=i_Players_Gate_Daemonite_n
+ON=i_Players_Gate_Daemonite_w @color_ore_Daemonite
+MAKEITEM=i_Players_Gate_Daemonite_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Barite
+[SKILLMENU sm_metal_fencing_Barite]
+Barite Fencing
+ON=i_Players_Fence_Barite @color_ore_Barite
+MAKEITEM=i_Players_Fence_Barite
+ON=i_Players_Gate_Barite_n @color_ore_Barite
+MAKEITEM=i_Players_Gate_Barite_n
+ON=i_Players_Gate_Barite_w @color_ore_Barite
+MAKEITEM=i_Players_Gate_Barite_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Aquanite
+[SKILLMENU sm_metal_fencing_Aquanite]
+Aquanite Fencing
+ON=i_Players_Fence_Aquanite @color_ore_Aquanite
+MAKEITEM=i_Players_Fence_Aquanite
+ON=i_Players_Gate_Aquanite_n @color_ore_Aquanite
+MAKEITEM=i_Players_Gate_Aquanite_n
+ON=i_Players_Gate_Aquanite_w @color_ore_Aquanite
+MAKEITEM=i_Players_Gate_Aquanite_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Valorite
+[SKILLMENU sm_metal_fencing_Valorite]
+Valorite Fencing
+ON=i_Players_Fence_Valorite @color_ore_Valorite
+MAKEITEM=i_Players_Fence_Valorite
+ON=i_Players_Gate_Valorite_n @color_ore_Valorite
+MAKEITEM=i_Players_Gate_Valorite_n
+ON=i_Players_Gate_Valorite_w @color_ore_Valorite
+MAKEITEM=i_Players_Gate_Valorite_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Uranium
+[SKILLMENU sm_metal_fencing_Uranium]
+Uranium Fencing
+ON=i_Players_Fence_Uranium @color_ore_Uranium
+MAKEITEM=i_Players_Fence_Uranium
+ON=i_Players_Gate_Uranium_n @color_ore_Uranium
+MAKEITEM=i_Players_Gate_Uranium_n
+ON=i_Players_Gate_Uranium_w @color_ore_Uranium
+MAKEITEM=i_Players_Gate_Uranium_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ BloodRock
+[SKILLMENU sm_metal_fencing_BloodRock]
+BloodRock Fencing
+ON=i_Players_Fence_BloodRock @color_ore_BloodRock
+MAKEITEM=i_Players_Fence_BloodRock
+ON=i_Players_Gate_BloodRock_n @color_ore_BloodRock
+MAKEITEM=i_Players_Gate_BloodRock_n
+ON=i_Players_Gate_BloodRock_w @color_ore_BloodRock
+MAKEITEM=i_Players_Gate_BloodRock_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Titanium
+[SKILLMENU sm_metal_fencing_Titanium]
+Titanium Fencing
+ON=i_Players_Fence_Titanium @color_ore_Titanium
+MAKEITEM=i_Players_Fence_Titanium
+ON=i_Players_Gate_Titanium_n @color_ore_Titanium
+MAKEITEM=i_Players_Gate_Titanium_n
+ON=i_Players_Gate_Titanium_w @color_ore_Titanium
+MAKEITEM=i_Players_Gate_Titanium_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ BlackRock
+[SKILLMENU sm_metal_fencing_BlackRock]
+BlackRock Fencing
+ON=i_Players_Fence_BlackRock @color_ore_BlackRock
+MAKEITEM=i_Players_Fence_BlackRock
+ON=i_Players_Gate_BlackRock_n @color_ore_BlackRock
+MAKEITEM=i_Players_Gate_BlackRock_n
+ON=i_Players_Gate_BlackRock_w @color_ore_BlackRock
+MAKEITEM=i_Players_Gate_BlackRock_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Kryptonite
+[SKILLMENU sm_metal_fencing_Kryptonite]
+Kryptonite Fencing
+ON=i_Players_Fence_Kryptonite @color_ore_Kryptonite
+MAKEITEM=i_Players_Fence_Kryptonite
+ON=i_Players_Gate_Kryptonite_n @color_ore_Kryptonite
+MAKEITEM=i_Players_Gate_Kryptonite_n
+ON=i_Players_Gate_Kryptonite_w @color_ore_Kryptonite
+MAKEITEM=i_Players_Gate_Kryptonite_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Cerussite
+[SKILLMENU sm_metal_fencing_Cerussite]
+Cerussite Fencing
+ON=i_Players_Fence_Cerussite @color_ore_Cerussite
+MAKEITEM=i_Players_Fence_Cerussite
+ON=i_Players_Gate_Cerussite_n @color_ore_Cerussite
+MAKEITEM=i_Players_Gate_Cerussite_n
+ON=i_Players_Gate_Cerussite_w @color_ore_Cerussite
+MAKEITEM=i_Players_Gate_Cerussite_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Quartz
+[SKILLMENU sm_metal_fencing_Quartz]
+Quartz Fencing
+ON=i_Players_Fence_Quartz @color_ore_Quartz
+MAKEITEM=i_Players_Fence_Quartz
+ON=i_Players_Gate_Quartz_n @color_ore_Quartz
+MAKEITEM=i_Players_Gate_Quartz_n
+ON=i_Players_Gate_Quartz_w @color_ore_Quartz
+MAKEITEM=i_Players_Gate_Quartz_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Chromite
+[SKILLMENU sm_metal_fencing_Chromite]
+Chromite Fencing
+ON=i_Players_Fence_Chromite @color_ore_Chromite
+MAKEITEM=i_Players_Fence_Chromite
+ON=i_Players_Gate_Chromite_n @color_ore_Chromite
+MAKEITEM=i_Players_Gate_Chromite_n
+ON=i_Players_Gate_Chromite_w @color_ore_Chromite
+MAKEITEM=i_Players_Gate_Chromite_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Dioptase
+[SKILLMENU sm_metal_fencing_Dioptase]
+Dioptase Fencing
+ON=i_Players_Fence_Dioptase @color_ore_Dioptase
+MAKEITEM=i_Players_Fence_Dioptase
+ON=i_Players_Gate_Dioptase_n @color_ore_Dioptase
+MAKEITEM=i_Players_Gate_Dioptase_n
+ON=i_Players_Gate_Dioptase_w @color_ore_Dioptase
+MAKEITEM=i_Players_Gate_Dioptase_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Mytheril
+[SKILLMENU sm_metal_fencing_Mytheril]
+Mytheril Fencing
+ON=i_Players_Fence_Mytheril @color_ore_Mytheril
+MAKEITEM=i_Players_Fence_Mytheril
+ON=i_Players_Gate_Mytheril_n @color_ore_Mytheril
+MAKEITEM=i_Players_Gate_Mytheril_n
+ON=i_Players_Gate_Mytheril_w @color_ore_Mytheril
+MAKEITEM=i_Players_Gate_Mytheril_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Chromium
+[SKILLMENU sm_metal_fencing_Chromium]
+Chromium Fencing
+ON=i_Players_Fence_Chromium @color_ore_Chromium
+MAKEITEM=i_Players_Fence_Chromium
+ON=i_Players_Gate_Chromium_n @color_ore_Chromium
+MAKEITEM=i_Players_Gate_Chromium_n
+ON=i_Players_Gate_Chromium_w @color_ore_Chromium
+MAKEITEM=i_Players_Gate_Chromium_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Niobium
+[SKILLMENU sm_metal_fencing_Niobium]
+Niobium Fencing
+ON=i_Players_Fence_Niobium @color_ore_Niobium
+MAKEITEM=i_Players_Fence_Niobium
+ON=i_Players_Gate_Niobium_n @color_ore_Niobium
+MAKEITEM=i_Players_Gate_Niobium_n
+ON=i_Players_Gate_Niobium_w @color_ore_Niobium
+MAKEITEM=i_Players_Gate_Niobium_w
+///////////////////////////////////////////// sm_armors_Blacksmithing_Helmets_ Ancientrealms
+[SKILLMENU sm_metal_fencing_Invictus]
+Ancientrealms Fencing
+ON=i_Players_Fence_Invictus @color_ore_Invictus
+MAKEITEM=i_Players_Fence_Invictus
+ON=i_Players_Gate_Invictus_n @color_ore_Invictus
+MAKEITEM=i_Players_Gate_Invictus_n
+ON=i_Players_Gate_Invictus_w @color_ore_Invictus
+MAKEITEM=i_Players_Gate_Invictus_w
+[EOF]

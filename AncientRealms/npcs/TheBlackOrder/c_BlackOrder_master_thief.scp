@@ -1,0 +1,95 @@
+[CHARDEF c_BlackOrder_master_thief]
+ID=c_man
+NAME=Master Thief [BlackOrder]
+DAM=44,48
+ARMOR=5
+CAN=MT_WALK|MT_USEHANDS|MT_EQUIP
+MOVERATE=120
+TSPEECH=spk_human_prime
+TSPEECH=spk_shopkeep
+TSPEECH=spk_needs
+TSPEECH=spk_rehello
+TSPEECH=spk_human_default
+TEVENTS=e_Human_HearUnk
+TEVENTS=e_Human_Needs
+TEVENTS=e_Human_ConvInit
+TEVENTS=e_Human_Greet
+TEVENTS=e_Human_Space
+TEVENTS=e_Human_Refuse
+TEVENTS=e_Human_Environ
+CATEGORY=Ancientrealms-NPCS
+SUBSECTION=The Black Order
+DESCRIPTION=BlackOrder Master Thief
+ON=@Create
+	NPC=brain_human
+	COLOR=colors_skin
+	DEX=125
+	INT=125
+	STR=125
+	MAXHITS=4000	
+	WRESTLING=120.0
+	FENCING=120.0
+	TACTICS=120.0
+	ANATOMY=100.0
+	MAGICRESISTANCE=85.0
+	HIDING=120.0
+	STEALTH=120.0
+	STEALING=120.0
+	KARMA=-100
+	FAME=1000
+	ITEMNEWBIE=i_ninja_tabi
+	ITEMNEWBIE=i_leather_ninja_pants
+	ITEMNEWBIE=i_leather_ninja_jacket
+	ITEMNEWBIE=i_leather_ninja_mitts
+	
+ON=@NpcRestock
+	ITEM=loot_BlackOrder_master_thief
+
+ON=@NpcPersonalSpace
+	IF <SRC.isRed>
+
+ON=@NpcSeeNewPlayer
+	IF <SRC.isRed>
+		DORAND
+			SAY @00029,,1 Well Hello There <SRC.NAME>
+			SAY @00029,,1 Good to see you <SRC.NAME>
+			SAY @00029,,1 I see <SRC.NAME>! Hi
+		ENDDO
+	ELSE
+		IF !(<SRC.FLAGS>&statf_freeze) 
+			MANA -= 20
+			SAY @95 Oh look ive found a <SRC.NAME>. 
+			SRC.SPELLEFFECT s_paralyze,<MAGERY>,1,<UID> 
+			SRC.EFFECT 3,i_fx_field_paralyze,1,16,0,02 
+			SRC.FLAGS|=statf_freeze
+			SRC.SOUND snd_spell_paralyze
+			EMOTE Smiles
+			IF !<TAG.SaidThisAlready>
+				SAY @95 Well now <SRC.NAME>, what are you doing lurking around here?
+				SAY @95 Shouldnt you be in church in astalon praying you never came here?
+				TAG.SaidThisAlready=1
+			ENDIF
+			TIMERF 60, TAG.SaidThisAlready=
+			SRC.TIMERF 4, SRC.FLAGS &=~statf_freezeze
+			ATTACK <SRC.UID>
+		ENDIF
+   ENDIF
+
+
+ON=@Hit 
+   //Paralyze Attack 
+   IF (RAND(5)==1) && !(<SRC.FLAGS>&statf_freeze) && (<MANA> > 20) 
+      MANA -= 20 
+      SRC.SPELLEFFECT s_paralyze,<MAGERY>,1,<UID> 
+      SRC.EFFECT 3,i_fx_field_paralyze,1,16,0,02 
+      SRC.SOUND snd_spell_paralyze 
+   ENDIF 
+   //Dismount Attack 
+   IF (RAND(5)==1) && (<MANA> >= 20) && (<SRC.FLAGS> & statf_onhorse) 
+      MANA -= 20 
+      SRC.DISMOUNT 
+      SRC.SYSMESSAGELOC color_text,1040023//"You have been knocked off of your mount!" 
+      SRC.DAMAGE <R15,25> <DEF.dam_physical> <UID> 
+   ENDIF
+
+[EOF]

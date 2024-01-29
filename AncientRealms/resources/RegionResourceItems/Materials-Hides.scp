@@ -1,0 +1,964 @@
+///////////////////////////////////////////////////
+[DEFNAME COLOR_HIDE]
+color_hide_Human          1013
+color_hide_Troll          231
+color_hide_Ettin          546
+color_hide_Terathan          54
+color_hide_Ogre          254
+color_hide_Cyclops          215
+color_hide_Spined          58
+color_hide_IceFiend          65
+color_hide_Horned          12
+color_hide_Barbed          45
+
+///////////////////////////////////////////////////
+[ITEMDEF i_leather_wolf_skin]
+DEFNAME = i_leather_wolf_skin
+ID = i_hide
+NAME= Wolf Hides%s
+Type = t_hide
+DYE = 1
+TDATA1 = i_hides_cut_wolf
+SKILLMAKE= TAILORING 120
+VALUE = 120
+WEIGHT = -1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hides
+DESCRIPTION=Wolf Hide
+
+ON=@Create
+        TAG.MaterialClass = 1
+        Color = color_hide_Human
+/////////////////////////////////////////////Human Hide
+
+[ITEMDEF i_hide_human]
+DEFNAME = i_hide_human
+ID = i_hide
+NAME= Human Hides%s
+Type = t_hide
+DYE = 1
+TDATA1 = i_hides_cut_Human
+SKILLMAKE= TAILORING 120
+VALUE = 120
+WEIGHT = -1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hides
+DESCRIPTION=Human Hide
+
+ON=@Create
+        TAG.MaterialClass = 1
+        Color = color_hide_Human
+
+/////////////////////////////////////////////Troll Hide
+[ITEMDEF i_hide_troll]
+DEFNAME = i_hide_troll
+ID = i_hide
+NAME= Troll Hides%s
+Type = t_hide
+DYE = 1
+TDATA1 = i_hides_cut_Troll
+SKILLMAKE= TAILORING 10
+VALUE = 20
+WEIGHT = 108
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hides
+DESCRIPTION=Troll Hide
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_hide_Troll
+
+/////////////////////////////////////////////Ettin Hide
+[ITEMDEF i_hide_ettin]
+DEFNAME = i_hide_ettin
+ID = i_hide
+NAME= Ettin Hides%s
+Type = t_hide
+DYE = 1
+TDATA1 = i_hides_cut_Ettin
+SKILLMAKE= TAILORING 20
+VALUE = 60
+WEIGHT = 97
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hides
+DESCRIPTION=Ettin Hide
+
+ON=@Create
+        TAG.MaterialClass = 3
+        Color = color_hide_Ettin
+
+/////////////////////////////////////////////Terathan Hide
+[ITEMDEF i_hide_terathan]
+DEFNAME = i_hide_terathan
+ID = i_hide
+NAME= Terathan Hides%s
+Type = t_hide
+DYE = 1
+TDATA1 = i_hides_cut_Terathan
+SKILLMAKE= TAILORING 30
+VALUE = 120
+WEIGHT = 86
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hides
+DESCRIPTION=Terathan Hide
+
+ON=@Create
+        TAG.MaterialClass = 4
+        Color = color_hide_Terathan
+
+/////////////////////////////////////////////Ogre Hide
+[ITEMDEF i_hide_ogre]
+DEFNAME = i_hide_ogre
+ID = i_hide
+NAME= Ogre Hides%s
+Type = t_hide
+DYE = 1
+TDATA1 = i_hides_cut_Ogre
+SKILLMAKE= TAILORING 40
+VALUE = 200
+WEIGHT = 75
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hides
+DESCRIPTION=Ogre Hide
+
+ON=@Create
+        TAG.MaterialClass = 5
+        Color = color_hide_Ogre
+
+/////////////////////////////////////////////Cyclops Hide
+[ITEMDEF i_hide_cyclops]
+DEFNAME = i_hide_cyclops
+ID = i_hide
+NAME= Cyclops Hides%s
+Type = t_hide
+DYE = 1
+TDATA1 = i_hides_cut_Cyclops
+SKILLMAKE= TAILORING 50
+VALUE = 300
+WEIGHT = 64
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hides
+DESCRIPTION=Cyclops Hide
+
+ON=@Create
+        TAG.MaterialClass = 6
+        Color = color_hide_Cyclops
+
+/////////////////////////////////////////////Spined Hide
+[ITEMDEF i_hide_spined]
+DEFNAME = i_hide_spined
+ID = i_hide
+NAME= Spined Hides%s
+Type = t_hide
+DYE = 1
+TDATA1 = i_hides_cut_Spined
+SKILLMAKE= TAILORING 60
+VALUE = 420
+WEIGHT = 53
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hides
+DESCRIPTION=Spined Hide
+
+ON=@Create
+        TAG.MaterialClass = 7
+        Color = color_hide_Spined
+
+/////////////////////////////////////////////IceFiend Hide
+[ITEMDEF i_hide_icefiend]
+DEFNAME = i_hide_icefiend
+ID = i_hide
+NAME= IceFiend Hides%s
+Type = t_hide
+DYE = 1
+TDATA1 = i_hides_cut_IceFiend
+SKILLMAKE= TAILORING 70
+VALUE = 560
+WEIGHT = 42
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hides
+DESCRIPTION=IceFiend Hide
+
+ON=@Create
+        TAG.MaterialClass = 8
+        Color = color_hide_IceFiend
+
+/////////////////////////////////////////////Horned Hide
+[ITEMDEF i_hide_horned]
+DEFNAME = i_hide_horned
+ID = i_hide
+NAME= Horned Hides%s
+Type = t_hide
+DYE = 1
+TDATA1 = i_hides_cut_Horned
+SKILLMAKE= TAILORING 90
+VALUE = 900
+WEIGHT = 20
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hides
+DESCRIPTION=Horned Hide
+
+ON=@Create
+        TAG.MaterialClass = 10
+        Color = color_hide_Horned
+
+/////////////////////////////////////////////Barbed Hide
+[ITEMDEF i_hide_barbed]
+DEFNAME = i_hide_barbed
+ID = i_hide
+NAME= Barbed Hides%s
+Type = t_hide
+DYE = 1
+TDATA1 = i_hides_cut_Barbed
+SKILLMAKE= TAILORING 100
+VALUE = 1100
+WEIGHT = 9
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hides
+DESCRIPTION=Barbed Hide
+
+ON=@Create
+        TAG.MaterialClass = 11
+        Color = color_hide_Barbed
+
+/////////////////////////////////////////////Human Hide Cut
+[ITEMDEF i_hides_cut_Human]
+DEFNAME = i_hides_cut_Human
+ID = i_hides_cut
+NAME= Human Hide Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 120
+RESOURCES = 1 i_hide_Human
+VALUE = 120
+WEIGHT = -1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hide Cuts
+DESCRIPTION=Human Hide Cut
+
+ON=@Create
+        TAG.MaterialClass = 1
+        Color = color_hide_Human
+
+/////////////////////////////////////////////Troll Hide Cut
+[ITEMDEF i_hides_cut_Troll]
+DEFNAME = i_hides_cut_Troll
+ID = i_hides_cut
+NAME= Troll Hide Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 10
+RESOURCES = 1 i_hide_Troll
+VALUE = 20
+WEIGHT = 108
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hide Cuts
+DESCRIPTION=Troll Hide Cut
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_hide_Troll
+
+/////////////////////////////////////////////Ettin Hide Cut
+[ITEMDEF i_hides_cut_Ettin]
+DEFNAME = i_hides_cut_Ettin
+ID = i_hides_cut
+NAME= Ettin Hide Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 20
+RESOURCES = 1 i_hide_Ettin
+VALUE = 60
+WEIGHT = 97
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hide Cuts
+DESCRIPTION=Ettin Hide Cut
+
+ON=@Create
+        TAG.MaterialClass = 3
+        Color = color_hide_Ettin
+
+/////////////////////////////////////////////Terathan Hide Cut
+[ITEMDEF i_hides_cut_Terathan]
+DEFNAME = i_hides_cut_Terathan
+ID = i_hides_cut
+NAME= Terathan Hide Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 30
+RESOURCES = 1 i_hide_Terathan
+VALUE = 120
+WEIGHT = 86
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hide Cuts
+DESCRIPTION=Terathan Hide Cut
+
+ON=@Create
+        TAG.MaterialClass = 4
+        Color = color_hide_Terathan
+
+/////////////////////////////////////////////Ogre Hide Cut
+[ITEMDEF i_hides_cut_Ogre]
+DEFNAME = i_hides_cut_Ogre
+ID = i_hides_cut
+NAME= Ogre Hide Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 40
+RESOURCES = 1 i_hide_Ogre
+VALUE = 200
+WEIGHT = 75
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hide Cuts
+DESCRIPTION=Ogre Hide Cut
+
+ON=@Create
+        TAG.MaterialClass = 5
+        Color = color_hide_Ogre
+
+/////////////////////////////////////////////Cyclops Hide Cut
+[ITEMDEF i_hides_cut_Cyclops]
+DEFNAME = i_hides_cut_Cyclops
+ID = i_hides_cut
+NAME= Cyclops Hide Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 50
+RESOURCES = 1 i_hide_Cyclops
+VALUE = 300
+WEIGHT = 64
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hide Cuts
+DESCRIPTION=Cyclops Hide Cut
+
+ON=@Create
+        TAG.MaterialClass = 6
+        Color = color_hide_Cyclops
+
+/////////////////////////////////////////////Spined Hide Cut
+[ITEMDEF i_hides_cut_Spined]
+DEFNAME = i_hides_cut_Spined
+ID = i_hides_cut
+NAME= Spined Hide Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 60
+RESOURCES = 1 i_hide_Spined
+VALUE = 420
+WEIGHT = 53
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hide Cuts
+DESCRIPTION=Spined Hide Cut
+
+ON=@Create
+        TAG.MaterialClass = 7
+        Color = color_hide_Spined
+
+/////////////////////////////////////////////IceFiend Hide Cut
+[ITEMDEF i_hides_cut_IceFiend]
+DEFNAME = i_hides_cut_IceFiend
+ID = i_hides_cut
+NAME= IceFiend Hide Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 70
+RESOURCES = 1 i_hide_IceFiend
+VALUE = 560
+WEIGHT = 42
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hide Cuts
+DESCRIPTION=IceFiend Hide Cut
+
+ON=@Create
+        TAG.MaterialClass = 8
+        Color = color_hide_IceFiend
+
+/////////////////////////////////////////////Horned Hide Cut
+[ITEMDEF i_hides_cut_Horned]
+DEFNAME = i_hides_cut_Horned
+ID = i_hides_cut
+NAME= Horned Hide Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 90
+RESOURCES = 1 i_hide_Horned
+VALUE = 900
+WEIGHT = 20
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hide Cuts
+DESCRIPTION=Horned Hide Cut
+
+ON=@Create
+        TAG.MaterialClass = 10
+        Color = color_hide_Horned
+
+/////////////////////////////////////////////Barbed Hide Cut
+[ITEMDEF i_hides_cut_Barbed]
+DEFNAME = i_hides_cut_Barbed
+ID = i_hides_cut
+NAME= Barbed Hide Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 100
+RESOURCES = 1 i_hide_Barbed
+VALUE = 1100
+WEIGHT = 9
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Hide Cuts
+DESCRIPTION=Barbed Hide Cut
+
+ON=@Create
+        TAG.MaterialClass = 11
+        Color = color_hide_Barbed
+
+/////////////////////////////////////////////Human Stretched Hide
+[ITEMDEF i_hide_stretched_Human]
+DEFNAME = i_hide_stretched_Human
+ID = i_hide_stretched
+NAME= Human Stretched Hide%s
+Type = t_stretched_hide
+SKILLMAKE= TAILORING 120
+RESOURCES = 1 i_hide_Human, 2 i_board
+VALUE = 120
+WEIGHT = -1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Stretched Hide
+DESCRIPTION=Human Stretched Hide
+
+ON=@Create
+        TAG.MaterialClass = 1
+        Color = color_hide_Human
+
+/////////////////////////////////////////////Troll Stretched Hide
+[ITEMDEF i_hide_stretched_Troll]
+DEFNAME = i_hide_stretched_Troll
+ID = i_hide_stretched
+NAME= Troll Stretched Hide%s
+Type = t_stretched_hide
+SKILLMAKE= TAILORING 10
+RESOURCES = 1 i_hide_Troll, 2 i_board
+VALUE = 20
+WEIGHT = 108
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Stretched Hide
+DESCRIPTION=Troll Stretched Hide
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_hide_Troll
+
+/////////////////////////////////////////////Ettin Stretched Hide
+[ITEMDEF i_hide_stretched_Ettin]
+DEFNAME = i_hide_stretched_Ettin
+ID = i_hide_stretched
+NAME= Ettin Stretched Hide%s
+Type = t_stretched_hide
+SKILLMAKE= TAILORING 20
+RESOURCES = 1 i_hide_Ettin, 2 i_board
+VALUE = 60
+WEIGHT = 97
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Stretched Hide
+DESCRIPTION=Ettin Stretched Hide
+
+ON=@Create
+        TAG.MaterialClass = 3
+        Color = color_hide_Ettin
+
+/////////////////////////////////////////////Terathan Stretched Hide
+[ITEMDEF i_hide_stretched_Terathan]
+DEFNAME = i_hide_stretched_Terathan
+ID = i_hide_stretched
+NAME= Terathan Stretched Hide%s
+Type = t_stretched_hide
+SKILLMAKE= TAILORING 30
+RESOURCES = 1 i_hide_Terathan, 2 i_board
+VALUE = 120
+WEIGHT = 86
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Stretched Hide
+DESCRIPTION=Terathan Stretched Hide
+
+ON=@Create
+        TAG.MaterialClass = 4
+        Color = color_hide_Terathan
+
+/////////////////////////////////////////////Ogre Stretched Hide
+[ITEMDEF i_hide_stretched_Ogre]
+DEFNAME = i_hide_stretched_Ogre
+ID = i_hide_stretched
+NAME= Ogre Stretched Hide%s
+Type = t_stretched_hide
+SKILLMAKE= TAILORING 40
+RESOURCES = 1 i_hide_Ogre, 2 i_board
+VALUE = 200
+WEIGHT = 75
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Stretched Hide
+DESCRIPTION=Ogre Stretched Hide
+
+ON=@Create
+        TAG.MaterialClass = 5
+        Color = color_hide_Ogre
+
+/////////////////////////////////////////////Cyclops Stretched Hide
+[ITEMDEF i_hide_stretched_Cyclops]
+DEFNAME = i_hide_stretched_Cyclops
+ID = i_hide_stretched
+NAME= Cyclops Stretched Hide%s
+Type = t_stretched_hide
+SKILLMAKE= TAILORING 50
+RESOURCES = 1 i_hide_Cyclops, 2 i_board
+VALUE = 300
+WEIGHT = 64
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Stretched Hide
+DESCRIPTION=Cyclops Stretched Hide
+
+ON=@Create
+        TAG.MaterialClass = 6
+        Color = color_hide_Cyclops
+
+/////////////////////////////////////////////Spined Stretched Hide
+[ITEMDEF i_hide_stretched_Spined]
+DEFNAME = i_hide_stretched_Spined
+ID = i_hide_stretched
+NAME= Spined Stretched Hide%s
+Type = t_stretched_hide
+SKILLMAKE= TAILORING 60
+RESOURCES = 1 i_hide_Spined, 2 i_board
+VALUE = 420
+WEIGHT = 53
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Stretched Hide
+DESCRIPTION=Spined Stretched Hide
+
+ON=@Create
+        TAG.MaterialClass = 7
+        Color = color_hide_Spined
+
+/////////////////////////////////////////////IceFiend Stretched Hide
+[ITEMDEF i_hide_stretched_IceFiend]
+DEFNAME = i_hide_stretched_IceFiend
+ID = i_hide_stretched
+NAME= IceFiend Stretched Hide%s
+Type = t_stretched_hide
+SKILLMAKE= TAILORING 70
+RESOURCES = 1 i_hide_IceFiend, 2 i_board
+VALUE = 560
+WEIGHT = 42
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Stretched Hide
+DESCRIPTION=IceFiend Stretched Hide
+
+ON=@Create
+        TAG.MaterialClass = 8
+        Color = color_hide_IceFiend
+
+/////////////////////////////////////////////Horned Stretched Hide
+[ITEMDEF i_hide_stretched_Horned]
+DEFNAME = i_hide_stretched_Horned
+ID = i_hide_stretched
+NAME= Horned Stretched Hide%s
+Type = t_stretched_hide
+SKILLMAKE= TAILORING 90
+RESOURCES = 1 i_hide_Horned, 2 i_board
+VALUE = 900
+WEIGHT = 20
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Stretched Hide
+DESCRIPTION=Horned Stretched Hide
+
+ON=@Create
+        TAG.MaterialClass = 10
+        Color = color_hide_Horned
+
+/////////////////////////////////////////////Barbed Stretched Hide
+[ITEMDEF i_hide_stretched_Barbed]
+DEFNAME = i_hide_stretched_Barbed
+ID = i_hide_stretched
+NAME= Barbed Stretched Hide%s
+Type = t_stretched_hide
+SKILLMAKE= TAILORING 100
+RESOURCES = 1 i_hide_Barbed, 2 i_board
+VALUE = 1100
+WEIGHT = 9
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Stretched Hide
+DESCRIPTION=Barbed Stretched Hide
+
+ON=@Create
+        TAG.MaterialClass = 11
+        Color = color_hide_Barbed
+
+/////////////////////////////////////////////Human Leather
+[ITEMDEF i_leather_Human]
+DEFNAME = i_leather_Human
+ID = i_leather
+NAME= Human Leather%s
+Type = t_leather
+SKILLMAKE= TAILORING 120
+RESOURCES = 1 i_hide_stretched_Human
+VALUE = 120
+WEIGHT = -1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather
+DESCRIPTION=Human Leather
+
+ON=@Create
+        TAG.MaterialClass = 1
+        Color = color_hide_Human
+
+/////////////////////////////////////////////Troll Leather
+[ITEMDEF i_leather_Troll]
+DEFNAME = i_leather_Troll
+ID = i_leather
+NAME= Troll Leather%s
+Type = t_leather
+SKILLMAKE= TAILORING 10
+RESOURCES = 1 i_hide_stretched_Troll
+VALUE = 20
+WEIGHT = 108
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather
+DESCRIPTION=Troll Leather
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_hide_Troll
+
+/////////////////////////////////////////////Ettin Leather
+[ITEMDEF i_leather_Ettin]
+DEFNAME = i_leather_Ettin
+ID = i_leather
+NAME= Ettin Leather%s
+Type = t_leather
+SKILLMAKE= TAILORING 20
+RESOURCES = 1 i_hide_stretched_Ettin
+VALUE = 60
+WEIGHT = 97
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather
+DESCRIPTION=Ettin Leather
+
+ON=@Create
+        TAG.MaterialClass = 3
+        Color = color_hide_Ettin
+
+/////////////////////////////////////////////Terathan Leather
+[ITEMDEF i_leather_Terathan]
+DEFNAME = i_leather_Terathan
+ID = i_leather
+NAME= Terathan Leather%s
+Type = t_leather
+SKILLMAKE= TAILORING 30
+RESOURCES = 1 i_hide_stretched_Terathan
+VALUE = 120
+WEIGHT = 86
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather
+DESCRIPTION=Terathan Leather
+
+ON=@Create
+        TAG.MaterialClass = 4
+        Color = color_hide_Terathan
+
+/////////////////////////////////////////////Ogre Leather
+[ITEMDEF i_leather_Ogre]
+DEFNAME = i_leather_Ogre
+ID = i_leather
+NAME= Ogre Leather%s
+Type = t_leather
+SKILLMAKE= TAILORING 40
+RESOURCES = 1 i_hide_stretched_Ogre
+VALUE = 200
+WEIGHT = 75
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather
+DESCRIPTION=Ogre Leather
+
+ON=@Create
+        TAG.MaterialClass = 5
+        Color = color_hide_Ogre
+
+/////////////////////////////////////////////Cyclops Leather
+[ITEMDEF i_leather_Cyclops]
+DEFNAME = i_leather_Cyclops
+ID = i_leather
+NAME= Cyclops Leather%s
+Type = t_leather
+SKILLMAKE= TAILORING 50
+RESOURCES = 1 i_hide_stretched_Cyclops
+VALUE = 300
+WEIGHT = 64
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather
+DESCRIPTION=Cyclops Leather
+
+ON=@Create
+        TAG.MaterialClass = 6
+        Color = color_hide_Cyclops
+
+/////////////////////////////////////////////Spined Leather
+[ITEMDEF i_leather_Spined]
+DEFNAME = i_leather_Spined
+ID = i_leather
+NAME= Spined Leather%s
+Type = t_leather
+SKILLMAKE= TAILORING 60
+RESOURCES = 1 i_hide_stretched_Spined
+VALUE = 420
+WEIGHT = 53
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather
+DESCRIPTION=Spined Leather
+
+ON=@Create
+        TAG.MaterialClass = 7
+        Color = color_hide_Spined
+
+/////////////////////////////////////////////IceFiend Leather
+[ITEMDEF i_leather_IceFiend]
+DEFNAME = i_leather_IceFiend
+ID = i_leather
+NAME= IceFiend Leather%s
+Type = t_leather
+SKILLMAKE= TAILORING 70
+RESOURCES = 1 i_hide_stretched_IceFiend
+VALUE = 560
+WEIGHT = 42
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather
+DESCRIPTION=IceFiend Leather
+
+ON=@Create
+        TAG.MaterialClass = 8
+        Color = color_hide_IceFiend
+
+/////////////////////////////////////////////Horned Leather
+[ITEMDEF i_leather_Horned]
+DEFNAME = i_leather_Horned
+ID = i_leather
+NAME= Horned Leather%s
+Type = t_leather
+SKILLMAKE= TAILORING 90
+RESOURCES = 1 i_hide_stretched_Horned
+VALUE = 900
+WEIGHT = 20
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather
+DESCRIPTION=Horned Leather
+
+ON=@Create
+        TAG.MaterialClass = 10
+        Color = color_hide_Horned
+
+/////////////////////////////////////////////Barbed Leather
+[ITEMDEF i_leather_Barbed]
+DEFNAME = i_leather_Barbed
+ID = i_leather
+NAME= Barbed Leather%s
+Type = t_leather
+SKILLMAKE= TAILORING 100
+RESOURCES = 1 i_hide_stretched_Barbed
+VALUE = 1100
+WEIGHT = 9
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather
+DESCRIPTION=Barbed Leather
+
+ON=@Create
+        TAG.MaterialClass = 11
+        Color = color_hide_Barbed
+
+/////////////////////////////////////////////Human Leather Cut
+[ITEMDEF i_leather_cut_Human]
+DEFNAME = i_hides_cut_Human
+ID = i_leather_cut
+NAME= Human Leather Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 120
+RESOURCES = 1 i_leather_Human
+VALUE = 120
+WEIGHT = -1
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather Cuts
+DESCRIPTION=Human Leather Cut
+
+ON=@Create
+        TAG.MaterialClass = 1
+        Color = color_hide_Human
+
+/////////////////////////////////////////////Troll Leather Cut
+[ITEMDEF i_leather_cut_Troll]
+DEFNAME = i_hides_cut_Troll
+ID = i_leather_cut
+NAME= Troll Leather Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 10
+RESOURCES = 1 i_leather_Troll
+VALUE = 20
+WEIGHT = 108
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather Cuts
+DESCRIPTION=Troll Leather Cut
+
+ON=@Create
+        TAG.MaterialClass = 2
+        Color = color_hide_Troll
+
+/////////////////////////////////////////////Ettin Leather Cut
+[ITEMDEF i_leather_cut_Ettin]
+DEFNAME = i_hides_cut_Ettin
+ID = i_leather_cut
+NAME= Ettin Leather Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 20
+RESOURCES = 1 i_leather_Ettin
+VALUE = 60
+WEIGHT = 97
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather Cuts
+DESCRIPTION=Ettin Leather Cut
+
+ON=@Create
+        TAG.MaterialClass = 3
+        Color = color_hide_Ettin
+
+/////////////////////////////////////////////Terathan Leather Cut
+[ITEMDEF i_leather_cut_Terathan]
+DEFNAME = i_hides_cut_Terathan
+ID = i_leather_cut
+NAME= Terathan Leather Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 30
+RESOURCES = 1 i_leather_Terathan
+VALUE = 120
+WEIGHT = 86
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather Cuts
+DESCRIPTION=Terathan Leather Cut
+
+ON=@Create
+        TAG.MaterialClass = 4
+        Color = color_hide_Terathan
+
+/////////////////////////////////////////////Ogre Leather Cut
+[ITEMDEF i_leather_cut_Ogre]
+DEFNAME = i_hides_cut_Ogre
+ID = i_leather_cut
+NAME= Ogre Leather Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 40
+RESOURCES = 1 i_leather_Ogre
+VALUE = 200
+WEIGHT = 75
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather Cuts
+DESCRIPTION=Ogre Leather Cut
+
+ON=@Create
+        TAG.MaterialClass = 5
+        Color = color_hide_Ogre
+
+/////////////////////////////////////////////Cyclops Leather Cut
+[ITEMDEF i_leather_cut_Cyclops]
+DEFNAME = i_hides_cut_Cyclops
+ID = i_leather_cut
+NAME= Cyclops Leather Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 50
+RESOURCES = 1 i_leather_Cyclops
+VALUE = 300
+WEIGHT = 64
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather Cuts
+DESCRIPTION=Cyclops Leather Cut
+
+ON=@Create
+        TAG.MaterialClass = 6
+        Color = color_hide_Cyclops
+
+/////////////////////////////////////////////Spined Leather Cut
+[ITEMDEF i_leather_cut_Spined]
+DEFNAME = i_hides_cut_Spined
+ID = i_leather_cut
+NAME= Spined Leather Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 60
+RESOURCES = 1 i_leather_Spined
+VALUE = 420
+WEIGHT = 53
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather Cuts
+DESCRIPTION=Spined Leather Cut
+
+ON=@Create
+        TAG.MaterialClass = 7
+        Color = color_hide_Spined
+
+/////////////////////////////////////////////IceFiend Leather Cut
+[ITEMDEF i_leather_cut_IceFiend]
+DEFNAME = i_hides_cut_IceFiend
+ID = i_leather_cut
+NAME= IceFiend Leather Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 70
+RESOURCES = 1 i_leather_IceFiend
+VALUE = 560
+WEIGHT = 42
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather Cuts
+DESCRIPTION=IceFiend Leather Cut
+
+ON=@Create
+        TAG.MaterialClass = 8
+        Color = color_hide_IceFiend
+
+/////////////////////////////////////////////Horned Leather Cut
+[ITEMDEF i_leather_cut_Horned]
+DEFNAME = i_hides_cut_Horned
+ID = i_leather_cut
+NAME= Horned Leather Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 90
+RESOURCES = 1 i_leather_Horned
+VALUE = 900
+WEIGHT = 20
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather Cuts
+DESCRIPTION=Horned Leather Cut
+
+ON=@Create
+        TAG.MaterialClass = 10
+        Color = color_hide_Horned
+
+/////////////////////////////////////////////Barbed Leather Cut
+[ITEMDEF i_leather_cut_Barbed]
+DEFNAME = i_hides_cut_Barbed
+ID = i_leather_cut
+NAME= Barbed Leather Cut%s
+Type = t_leather
+DYE = 1
+SKILLMAKE= TAILORING 100
+RESOURCES = 1 i_leather_Barbed
+VALUE = 1100
+WEIGHT = 9
+CATEGORY = Ancientrealms - Resources
+SUBSECTION = Leather Cuts
+DESCRIPTION=Barbed Leather Cut
+
+ON=@Create
+        TAG.MaterialClass = 11
+        Color = color_hide_Barbed
+
+
+[EOF]

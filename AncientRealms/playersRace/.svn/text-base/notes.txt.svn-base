@@ -1,0 +1,99 @@
+//****************************************************************************
+// SphereServer ©1997-2011
+// This script has been designed and coded on sphereserver forums; by forum members
+// Richinjs and Barnabus. The link to the post responsible on sphereserver is as follows
+// http://www.sphereserver.net/index.php?/topic/48923-tournament/page__pid__236386__st__80#entry236386
+// to report any porblems with this script or the race event please goto the above link, and post.
+// for support or help with this script or its use please goto the above link and post.
+// Jesus[Ancients] October 2011
+//****************************************************************************
+// FILE LAST UPDATED:
+VERSION=0.56b
+
+// How to Install
+// Drop the playersRace folder into your sphereserver (i.e c:/sphere/scripts/add-ons/playersRace/)
+// open "spheretables.scp" found in the main script driectory /sphere/scripts/spheretables.scp
+// at the end of [RESOURCES] add a new line : "scripts/scripts/add-ons/playersRace/" and save and close
+// spheretables .scp, resync or boot your server and once in game and on a GM Char type ".RaceSetup"
+
+// The playerRace folder can be downloaded from :
+
+// To create the folder incase you cannot download it.
+// Just make a new folder and name it playerRace.
+// inside the playerRace folder create 10 scp files with the following names :
+
+// raceControlSettings.scp
+// raceDialogs.scp
+// raceFinish.scp
+// raceItems.scp
+// racePlayerEvents.scp
+// racePolePosition.scp
+// raceQueueManagment.scp
+// raceStart.scp
+// raceTrackMeasurement.scp
+
+// You will find the scripts for each of these new scp files in Reply#73 at the following link
+// http://www.sphereserver.net/index.php?/topic/48923-tournament/page__pid__236386__st__80#entry236386
+// in reply #73 each 'code-block' is named with the name of the SCP in which you should put it.
+// remeber to make sure each script ends with [EOF] on the very last line.
+
+// Script Settings :[DEFNAME PlayersRaceEvent]
+
+// LineTolerance = Line Tolerance changes on how the script defines a vertical or horizontal line
+//		   The Default setting is 5, increasing; increases the angle between the true vertical 
+// 		   Or the true horizonal, decreasing the value brings it closer to the true V or H
+//
+// SuffleRandomicity = Simple increases the range of random numbers aruguably useless, default 10
+// CheckPointTimer = This is the default Timer on the Check Points
+// RaceBrainTimer = This controls how fast the players race dialog updates and how fast a checkpoint
+//		    is activates when in range default is 11
+// AutoStartTimer = This is how long it takes for the event to auto start.
+
+
+
+
+
+
+// Since a race track; [Start]-----------------
+//                          [End]              \
+//                             \                \
+//                              \               /
+//                               --------------	
+// is the distance travelled around the track rather than the 
+// distance from the start to the end; 
+// To use DISTANCE (X) points would have to be placed around the track
+//
+//                          X-----------------X
+//                            X                \
+//                             \                X
+//                              \               /
+//                               X-------------X
+//
+// so that there was something to measure from ^^
+// this will require measuring the distance and placing the checkpoints around
+// there maybe other options but i cant think what atm. Also adding a checkpoint
+// to the start postion X has been placed so we can measure the first 'stretch' 
+// of the track so we will make the check point X first.
+
+// im starting to like this idea, because if the checkpoints a GPSTone feature
+// the can self locate and inform the control stone were all the cords could be measured
+// in other words you could make a track anywhere, even on in one town or the other
+// lots of players running from one check point in cove to the next in britian for eg
+// you could add target finders to point ther way etc etc and would have to update
+// f_raceSendPlayers so that it starts them with check point in the middle of the
+// group instead of corners. 37625 or use something else you can walk through and see
+//
+//        A2
+//        /|
+//       / |
+//  (H) /  |(O)
+//     /   |
+//    /    |
+//   /_ _ _|
+// A1  (A) J3
+//
+// the pythagorean traingle ^^
+// so (A) = J3x-A1x and (O) = A2y-J3y and (H) = SQRT(<(A)^2+(O)^2>)
+// The Hypotenuse=A1-A2, The Adjacent=A1-J3, The Opposite=A2-J3
+
+

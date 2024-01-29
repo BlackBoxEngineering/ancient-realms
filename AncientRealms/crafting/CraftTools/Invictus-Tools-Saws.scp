@@ -1,0 +1,35 @@
+[ITEMDEF 01028]
+DEFNAME=i_saw_dovetail
+TYPE=t_carpentry
+FLIP=1
+WEIGHT=1
+RESOURCES=3 i_ingot_iron,1 i_log
+SKILLMAKE=Tinkering 33.2,t_tinker_tools
+CATEGORY=Items by Professions
+SUBSECTION=Carpenters
+DESCRIPTION=Dovetail Saw
+DUPELIST=01029
+ON=@Create
+   HITPOINTS={36 48}
+  
+ON=@DClick
+	targetf MaterialTargets
+	return 1
+
+[ITEMDEF 01034]
+DEFNAME=i_saw
+TYPE=t_carpentry
+FLIP=1
+WEIGHT=2
+RESOURCES=5 i_ingot_iron, 1 i_log
+SKILLMAKE=Tinkering 31.3,t_tinker_tools
+CATEGORY=Items by Professions
+SUBSECTION=Carpenters
+DESCRIPTION=Saw
+DUPELIST=01035
+
+ON=@DClick
+	targetf MaterialTargets
+	return 1
+   
+[EOF]

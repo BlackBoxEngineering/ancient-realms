@@ -1,0 +1,20 @@
+[TYPEDEF t_spade]
+ON=@DClick
+	SRC.CTAG.SpadeStartPosX=<SRC.P.X>
+	SRC.CTAG.SpadeStartPosY=<SRC.P.Y>
+	SRC.CTAG.SpadeStartPosZ=<SRC.P.Z>
+	TAG.Uses=<TAG.Uses>-1
+	IF <EVAL <TAG.Uses>> < 1
+		SRC.SYSMESSAGE @154,,1 The Spade has broken!
+		SRC.EFFECT=3,037C4,6,15,1
+		SOUND=SND_SPELL_MAGIC_UNTRAP
+		REMOVE
+		RETURN 1
+	ENDIF
+	SERV.NEWITEM i_DigWithSpade,1,<SRC.UID>
+	NEW.LINK=<SRC.UID>
+	NEW.TIMERD=1
+	RETURN 1
+	
+	
+[EOF]

@@ -1,0 +1,54 @@
+[ITEMDEF 0f51]
+DEFNAME=i_dagger
+NAME=dagger
+TYPE=t_weapon_fence
+DAM=10,11
+FLIP=1
+SKILL=Fencing
+SPEED=2.0
+//VALUE=FIXME
+WEIGHT=1
+REQSTR=10
+TWOHANDS=N
+RESOURCES=3 i_ingot_iron
+SKILLMAKE=Blacksmithing 0.0
+CATEGORY=Provisions - Weapons - Fencing
+SUBSECTION=Daggers
+DESCRIPTION=Dagger
+TEVENTS=t_iprop
+DUPELIST=0f52
+ON=@Create
+   HITPOINTS={36 48}
+  
+ON=@DClick
+	targetf MaterialTargets
+	return 1
+
+[FUNCTION MaterialTargets]
+IF <ARGO.DISPID>=i_log
+	SRC.CTAG.Craft.Skill=Bowcraft
+	SRC.CTAG.Craft.Material.Bowcraft=
+	IF (STRMATCH(*oak*, <ARGO.BASEID>))
+		SRC.CTAG.Craft.Material.Bowcraft=01
+	ELIF (STRMATCH(*ash*, <ARGO.BASEID>))
+		SRC.CTAG.Craft.Material.Bowcraft=02
+	ELIF (STRMATCH(*yew*, <ARGO.BASEID>))
+		SRC.CTAG.Craft.Material.Bowcraft=03
+	ELIF (STRMATCH(*willow*, <ARGO.BASEID>))
+		SRC.CTAG.Craft.Material.Bowcraft=04
+	ELIF (STRMATCH(*bloodwood*, <ARGO.BASEID>))
+		SRC.CTAG.Craft.Material.Bowcraft=05
+	ELIF (STRMATCH(*frostwood*, <ARGO.BASEID>))
+		SRC.CTAG.Craft.Material.Bowcraft=06
+	ELIF (STRMATCH(*maple*, <ARGO.BASEID>))
+		SRC.CTAG.Craft.Material.Bowcraft=07
+	ELIF (STRMATCH(*blessedwood*, <ARGO.BASEID>))
+		SRC.CTAG.Craft.Material.Bowcraft=09
+	ELIF (STRMATCH(*cursedwood*, <ARGO.BASEID>))
+		SRC.CTAG.Craft.Material.Bowcraft=08
+	ENDIF
+	f_resenddialog d_craft_menu
+ENDIF
+   
+   
+[EOF]
