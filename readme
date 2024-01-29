@@ -1,5 +1,7 @@
 // Angry Locomotion (Just can't let it go!)
 
+TEST
+
 
 git config --global user.email "toomas.ch@gmail.com"
 git config --global user.name "AngryLocomotive"
