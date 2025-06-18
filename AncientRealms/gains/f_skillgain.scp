@@ -328,10 +328,10 @@ GainsOFf
 [FUNCTION f_PrepareStatForGain]
 	LOCAL.SelectedStat=<ARGV[0]>
 	LOCAL.PlayersStatTotal=<STR>+<DEX>+<INT>
-	IF (<ISPLAYER>
-		IF (<BODY>==c_man) || (<BODY>==c_woman)
+	IF (<ISPLAYER>)
+		IF (<BODY>==c_man) || (<BODY>==c_woman) || (<BODY>==c_elf_male) || (<BODY>==c_elf_female)
 			CALL f_CheckStatTotals
-			IF (<STATLOCK.<ARGV[0]>>=0)
+			IF (<STATLOCK.<ARGV[0]>==0)
 				IF (<LOCAL.PlayersStatTotal> < <EVAL char_stat_total>)
 					IF (<<LOCAL.SelectedStat>> < <EVAL char_stat_max>)								
 						LOCAL.StatGainChance=<R1, <EVAL StatGroup_GainWeight>>
@@ -343,17 +343,17 @@ GainsOFf
 						IF (<EVAL <LOCAL.StatGainChance>> > <EVAL <LOCAL.StatGainPrevention>>)
 							<LOCAL.SelectedStat>=(<<LOCAL.SelectedStat>>+1)
 						ENDIF
-					ELSE
+					ENDIF
 					IF (<EVAL <Tag.ShowGains>>=1)
 						SYSMESSAGE @1462 StatTotal:(<EVAL <LOCAL.PlayersStatTotal>>/<EVAL char_stat_total>)
 					ENDIF
 				ENDIF
-			ELIF (<STATLOCK.<LOCAL.SelectedStat>>=1)		
+			ELIF (<STATLOCK.<LOCAL.SelectedStat>==1)		
 				IF (<EVAL <Tag.ShowGains>>=1)
 					SYSMESSAGE @55 Stat <LOCAL.SelectedStat> Is Set to Drop!
 				ENDIF		
 				<LOCAL.SelectedStat>=<<LOCAL.SelectedStat>>-1
-			ELIF (<STATLOCK.<LOCAL.SelectedStat>>=2)		
+			ELIF (<STATLOCK.<LOCAL.SelectedStat>==2)		
 				IF (<EVAL <Tag.ShowGains>>=1)
 					SYSMESSAGE @55 Stat <LOCAL.SelectedStat> Is Locked!
 					SYSMESSAGE @55 No Gain <LOCAL.SelectedStat>!	
@@ -372,6 +372,7 @@ GainsOFf
 
 [FUNCTION f_StatScratcher]
 	IF (<BODY>==c_man) || (<BODY>==c_woman)|| (<BODY>==c_elf_male) || (<BODY>==c_elf_female)
+		// First enforce min/max limits for all stats
 		IF <STR> > <EVAL char_stat_max>
 			STR=<EVAL char_stat_max>
 		ENDIF
@@ -390,54 +391,61 @@ GainsOFf
 		IF <INT> < <EVAL char_stat_min>
 			INT=<EVAL char_stat_min>
 		ENDIF
-		FOR X 0 3
-			LOCAL.PlayersStatTotal=<STR>+<DEX>+<INT>
-			IF (<EVAL <LOCAL.PlayersStatTotal>> > <EVAL char_stat_total>)
-				IF ((<STATLOCK[DEX]>=0)&&(<STATLOCK[INT]>=2)&&(<STATLOCK[STR]>=2))
-					DEX=<DEX>-1
-				ENDIF
-				IF ((<STATLOCK[DEX]>=2)&&(<STATLOCK[INT]>=0)&&(<STATLOCK[STR]>=2))
-					INT=<INT>-1
-				ENDIF
-				IF ((<STATLOCK[DEX]>=2)&&(<STATLOCK[INT]>=2)&&(<STATLOCK[STR]>=0))
-					STR=<STR>-1
-				ENDIF
-			ENDIF
-		ENDFOR
-		FOR X 0 3
-			LOCAL.PlayersStatTotal=<STR>+<DEX>+<INT>
-			IF (<EVAL <LOCAL.PlayersStatTotal>> > <EVAL char_stat_total>)
-				IF ((<STATLOCK[DEX]>=1)	//&&(<STATLOCK[INT]>=2)&&(<STATLOCK[STR]>=2))
-					DEX=<DEX>-1
-				ENDIF
-				IF ((<STATLOCK[INT]>=2)	//&&(<STATLOCK[INT]>=1)&&(<STATLOCK[STR]>=2))
-					INT=<INT>-1
-				ENDIF
-				IF ((<STATLOCK[STR]>=2)	//&&(<STATLOCK[INT]>=2)&&(<STATLOCK[STR]>=1))
-					STR=<STR>-1
-				ENDIF
-			ENDIF
-		ENDFOR
+		
+		// Calculate total once before loops
 		LOCAL.PlayersStatTotal=<STR>+<DEX>+<INT>
-		LOCAL.PlayerStatDiff=<EVAL <STR>+<DEX>+<INT> - <EVAL char_stat_total>>
+		
+		// First loop - reduce unlocked stats if total exceeds limit
+		FOR X 0 3
+			IF (<EVAL <LOCAL.PlayersStatTotal>> > <EVAL char_stat_total>)
+				IF ((<STATLOCK[DEX]==0)&&(<STATLOCK[INT]==2)&&(<STATLOCK[STR]==2))
+					DEX=<DEX>-1
+					LOCAL.PlayersStatTotal=<STR>+<DEX>+<INT>
+				ELIF ((<STATLOCK[DEX]==2)&&(<STATLOCK[INT]==0)&&(<STATLOCK[STR]==2))
+					INT=<INT>-1
+					LOCAL.PlayersStatTotal=<STR>+<DEX>+<INT>
+				ELIF ((<STATLOCK[DEX]==2)&&(<STATLOCK[INT]==2)&&(<STATLOCK[STR]==0))
+					STR=<STR>-1
+					LOCAL.PlayersStatTotal=<STR>+<DEX>+<INT>
+				ENDIF
+			ENDIF
+		ENDFOR
+		
+		// Second loop - reduce stats set to down if still over limit
+		FOR X 0 3
+			IF (<EVAL <LOCAL.PlayersStatTotal>> > <EVAL char_stat_total>)
+				IF (<STATLOCK[DEX]==1)
+					DEX=<DEX>-1
+					LOCAL.PlayersStatTotal=<STR>+<DEX>+<INT>
+				ELIF (<STATLOCK[INT]==1)
+					INT=<INT>-1
+					LOCAL.PlayersStatTotal=<STR>+<DEX>+<INT>
+				ELIF (<STATLOCK[STR]==1)
+					STR=<STR>-1
+					LOCAL.PlayersStatTotal=<STR>+<DEX>+<INT>
+				ENDIF
+			ENDIF
+		ENDFOR
+		
+		// Calculate difference for jail check
+		LOCAL.PlayerStatDiff=<EVAL <LOCAL.PlayersStatTotal> - <EVAL char_stat_total>>
+		
+		// Handle jail for all character types that exceed limits with locked stats
 		IF (<EVAL <LOCAL.PlayerStatDiff>> > 1)
-			IF (<BODY>==c_man) || (<BODY>==c_woman)
-				IF ((<STATLOCK[DEX]>=2)&&(<STATLOCK[INT]>=2)&&(<STATLOCK[STR]>=2))
-					GO 5276,1164
-					STONE = 1
-					IF !(<FINDID.i_stat_reducer>)
-						NEWITEM i_stat_reducer, 1, <UID>
-					ENDIF
+			IF ((<STATLOCK[DEX]==2)&&(<STATLOCK[INT]==2)&&(<STATLOCK[STR]==2))
+				GO 5276,1164
+				STONE = 1
+				IF !(<FINDID.i_stat_reducer>)
+					NEWITEM i_stat_reducer, 1, <UID>
 				ENDIF
 			ENDIF
 		ENDIF
-		LOCAL.PlayersStatTotal=<STR>+<DEX>+<INT>
-		IF (<BODY>==c_man) || (<BODY>==c_woman)
-			IF (<EVAL <LOCAL.PlayersStatTotal>> < <EVAL char_stat_total + 1>)
-				IF (<FINDID.i_stat_reducer>)
-					FINDID.i_stat_reducer.REMOVE
-					GO <TAG.PreJailPosition>
-				ENDIF
+		
+		// Release from jail when stats are back under limit
+		IF (<EVAL <LOCAL.PlayersStatTotal>> < <EVAL char_stat_total + 1>)
+			IF (<FINDID.i_stat_reducer>)
+				FINDID.i_stat_reducer.REMOVE
+				GO <TAG.PreJailPosition>
 				STONE = 0
 				TAG.PreJailPosition=
 			ENDIF
@@ -456,12 +464,18 @@ ON=@Create
     TIMER=5
 
 ON=@Timer	
-	IF ((<CONT.STATLOCK[DEX]>=2)&&(<CONT.STATLOCK[INT]>=2)&&(<CONT.STATLOCK[STR]>=2))
+	IF ((<CONT.STATLOCK[DEX]==2)&&(<CONT.STATLOCK[INT]==2)&&(<CONT.STATLOCK[STR]==2))
 		LOCAL.PlayerStatTotalA=<CONT.STR>+<CONT.DEX>+<CONT.INT>
 		CONT.SYSMESSAGE @1462 All your Stats are locked and one needs to go down.
 		CONT.SYSMESSAGE @1462 Please Select a Stat and Unlock it.
 		CONT.SYSMESSAGE @1462 Current Stat Total is (<EVAL <LOCAL.PlayerStatTotalA>>)
 		CONT.SYSMESSAGE @1462 This Shit will just spam if you do not.
+		
+		// Force unlock a stat if all are locked for too long
+		IF (<TIMER> < -30)
+			CONT.STATLOCK.STR=0
+			CONT.SYSMESSAGE @31 System has unlocked your Strength stat.
+		ENDIF
 	ENDIF	
 	CONT.f_StatScratcher
 	TIMER=5
@@ -487,7 +501,7 @@ ON=@Timer
 
 [FUNCTION f_SkillTotalChecker]
 
-	IF (<ISPLAYER>
+	IF (<ISPLAYER>)
 		LOCAL.SkillNo=<ARGV[0]>
 		LOCAL.SkillName=<SERV.SKILL(<ARGV[0]>).KEY>
 		LOCAL.SkillValue=<<LOCAL.SkillName>>
